@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Idol SNS Ranking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo_aimcontents.png" alt="AIMCONTENTS" style="height: 40px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" onclick="route('home')">SNS랭킹</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="route('blog')">블로그</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="route('team')">Team</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container" style="margin-top: 80px; padding-bottom: 50px;">
+
+        <section id="page-home" class="page-section">
+            <h4 class="mb-3 fw-bold">SNS 팔로워 순위</h4>
+
+            <div class="card border-0 shadow-sm p-3 mb-4">
+                <div class="row g-2">
+                    <!-- 성별 선택 -->
+                    <div class="col-6 col-md-3">
+                        <div class="dropdown">
+                            <button class="btn btn-white border dropdown-toggle w-100 text-start" type="button"
+                                id="genderDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true"
+                                aria-expanded="false">
+                                <span id="genderLabel">남자</span>
+                            </button>
+                            <ul class="dropdown-menu w-100" aria-labelledby="genderDropdown" data-bs-popper="static">
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('gender', '남자'); return false;">남자</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('gender', '여자'); return false;">여자</a></li>
+                            </ul>
+                            <input type="hidden" id="gender" value="남자">
+                        </div>
+                    </div>
+
+                    <!-- SNS 선택 -->
+                    <div class="col-6 col-md-3">
+                        <div class="dropdown">
+                            <button class="btn btn-white border dropdown-toggle w-100 text-start" type="button"
+                                id="snsDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true"
+                                aria-expanded="false">
+                                <span id="snsLabel">웨이보</span>
+                            </button>
+                            <ul class="dropdown-menu w-100" aria-labelledby="snsDropdown" data-bs-popper="static">
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', '웨이보'); return false;">웨이보</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', '차오화'); return false;">웨이보(슈퍼챗)</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', '빌리빌리'); return false;">빌리빌리</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', 'QQ뮤직'); return false;">QQ뮤직</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', 'X(트위터)'); return false;">X(트위터)</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', '유튜브'); return false;">유튜브</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', '스포티파이'); return false;">스포티파이</a></li>
+                            </ul>
+                            <input type="hidden" id="sns" value="웨이보">
+                        </div>
+                    </div>
+
+                    <!-- 월 선택 -->
+                    <div class="col-6 col-md-3">
+                        <div class="dropdown">
+                            <button class="btn btn-white border dropdown-toggle w-100 text-start" type="button"
+                                id="monthDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true"
+                                aria-expanded="false">
+                                <span id="monthLabel">조회 월 선택</span>
+                            </button>
+                            <ul class="dropdown-menu w-100" id="monthDropdownMenu" aria-labelledby="monthDropdown"
+                                data-bs-popper="static" style="max-height: 300px; overflow-y: auto;">
+                                <!-- 동적으로 생성 -->
+                            </ul>
+                            <input type="hidden" id="month" value="">
+                        </div>
+                    </div>
+
+                    <!-- 검색 -->
+                    <div class="col-6 col-md-3">
+                        <input type="text" class="form-control border" id="searchInput" placeholder="그룹 검색">
+                    </div>
+                </div>
+            </div>
+
+            <div id="result-area" class="row g-3">
+                <div class="text-center py-5">데이터를 조회해주세요.</div>
+            </div>
+        </section>
+
+        <section id="page-blog" class="page-section d-none">
+            <div class="alert alert-info">블로그 기능은 준비 중입니다.</div>
+        </section>
+        <section id="page-team" class="page-section d-none">
+            <div class="alert alert-info">Team 페이지입니다.</div>
+        </section>
+
+    </main>
+
+    <!-- 아이돌 상세 모달 -->
+    <div class="modal fade" id="idolModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <div>
+                        <h5 class="modal-title fw-bold" id="idolName">블랙핑크</h5>
+                        <p class="text-muted mb-0 small" id="idolGroup">BLACKPINK</p>
+                        <small class="text-muted" id="idolInfo">YG Entertainment • 2016년 데뷔</small>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <!-- 나무위키 -->
+                    <div id="namuWikiSection" class="mb-3" style="display: none;">
+                        <a href="#" target="_blank" id="namuWikiLink" class="btn btn-outline-success btn-sm w-100">
+                            📚 나무위키에서 보기
+                        </a>
+                    </div>
+
+                    <!-- SNS 링크 -->
+                    <div class="mb-3">
+                        <label class="form-label fw-bold small">SNS 링크</label>
+                        <div class="d-flex flex-wrap gap-2" id="snsLinks">
+                            <!-- 동적으로 생성 -->
+                        </div>
+                    </div>
+
+                    <!-- 메모 -->
+                    <div id="noteSection" style="display: none;">
+                        <label class="form-label fw-bold small">메모</label>
+                        <p class="text-muted mb-0" id="idolNote">-</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // 드롭다운 호버 동작 추가
+        document.addEventListener('DOMContentLoaded', function () {
+            const dropdowns = document.querySelectorAll('.dropdown');
+
+            dropdowns.forEach(dropdown => {
+                const toggle = dropdown.querySelector('[data-bs-toggle="dropdown"]');
+                const menu = dropdown.querySelector('.dropdown-menu');
+
+                // 마우스가 드롭다운 영역 위에 있을 때 열기
+                dropdown.addEventListener('mouseenter', function () {
+                    const bsDropdown = new bootstrap.Dropdown(toggle);
+                    bsDropdown.show();
+                });
+
+                // 마우스가 드롭다운 영역을 벗어날 때 닫기
+                dropdown.addEventListener('mouseleave', function () {
+                    const bsDropdown = bootstrap.Dropdown.getInstance(toggle);
+                    if (bsDropdown) {
+                        bsDropdown.hide();
+                    }
+                });
+            });
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
