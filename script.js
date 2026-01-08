@@ -42,6 +42,9 @@ function debounce(func, wait) {
 // ⚠️ 여기에 GAS 웹앱 URL 붙여넣으세요!
 const API_URL = "https://script.google.com/macros/s/AKfycby7Hw0e4CZmJnwWjHRsTVk0kEoktiDMjaOgWvLRauq_5pRF1D-nScDJ3vUWfcp5Re-A/exec";
 
+// ⚠️ 엔터뉴스 GAS 웹앱 URL
+const ENTER_NEWS_API = "https://script.google.com/macros/s/AKfycbx76m7zd2J8omcDpzPP7DZoM6WhVEGr_gFMXwTv_AWmJB4234IxUKrRCuIw-oMsSGj4/exec";
+
 // 전역 캐시 변수
 let cachedData = [];       // API에서 받은 원시 데이터 저장
 let cachedMonths = [];     // 사용 가능한 월 목록
@@ -1067,3 +1070,141 @@ function createSnsButton(label, url, logoKey) {
 
     return a;
 }
+
+// ========================================
+// 📰 엔터뉴스 기능
+// ========================================
+
+/**
+ * 엔터뉴스 데이터 로드
+ */
+async function loadEnterNews() {
+    if (!ENTER_NEWS_API) {
+        alert('엔터뉴스 API가 설정되지 않았습니다.');
+        return;
+    }
+
+    const loadingEl = document.getElementById('newsLoading');
+    const containerEl = document.getElementById('newsContainer');
+
+    loadingEl.style.display = 'block';
+    containerEl.style.display = 'none';
+
+    try {
+        const response = await fetch(ENTER_NEWS_API);
+
+        if (!response.ok) {
+            throw new Error('네트워크 응답 오류');
+        }
+
+        const newsData = await response.json();
+        renderEnterNews(newsData);
+
+        trackEvent('enter_news_load', {
+            news_count: newsData.length
+        });
+
+    } catch (error) {
+        console.error('엔터뉴스 로드 실패:', error);
+        containerEl.innerHTML = `
+            <div class="col-12">
+                <div class="alert alert-danger">
+                    뉴스를 불러오는데 실패했습니다. 
+                    <button class="btn btn-sm btn-outline-danger ms-2" onclick="loadEnterNews()">다시 시도</button>
+                </div>
+            </div>
+        `;
+        loadingEl.style.display = 'none';
+        containerEl.style.display = 'block';
+    }
+}
+
+/**
+ * 엔터뉴스 렌더링
+ */
+function renderEnterNews(newsData) {
+    const containerEl = document.getElementById('newsContainer');
+    const loadingEl = document.getElementById('newsLoading');
+
+    containerEl.innerHTML = '';
+
+    if (!newsData || newsData.length === 0) {
+        containerEl.innerHTML = `
+            <div class="col-12">
+                <div class="alert alert-info">표시할 뉴스가 없습니다.</div>
+            </div>
+        `;
+        loadingEl.style.display = 'none';
+        containerEl.style.display = 'block';
+        return;
+    }
+
+    if (newsData.length > 0 && newsData[0].collectTime) {
+        const updateTime = new Date(newsData[0].collectTime);
+        document.getElementById('newsUpdateTime').textContent =
+            updateTime.toLocaleString('ko-KR', {
+                month: 'long',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+    }
+
+    newsData.forEach((news, index) => {
+        const col = document.createElement('div');
+        col.className = 'col-md-6 col-lg-4';
+
+        const card = document.createElement('div');
+        card.className = 'card h-100 border-0 shadow-sm news-card';
+        card.style.cursor = 'pointer';
+        card.onclick = () => {
+            window.open(news.link, '_blank');
+            trackEvent('news_click', {
+                news_title: news.title,
+                news_keyword: news.keyword,
+                news_index: index + 1
+            });
+        };
+
+        const timeAgo = getTimeAgo(new Date(news.pubDate));
+
+        card.innerHTML = `
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-start mb-2">
+                    <span class="badge bg-primary">${news.keyword}</span>
+                    <small class="text-muted">#${index + 1}</small>
+                </div>
+                <h6 class="card-title fw-bold">${news.title}</h6>
+                <p class="card-text text-muted small" style="
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                ">${news.description}</p>
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                    <small class="text-muted">🕐 ${timeAgo}</small>
+                </div>
+            </div>
+        `;
+
+        col.appendChild(card);
+        containerEl.appendChild(col);
+    });
+
+    loadingEl.style.display = 'none';
+    containerEl.style.display = 'block';
+}
+
+/**
+ * 시간 경과 표시
+ */
+function getTimeAgo(date) {
+    const now = new Date();
+    const diff = Math.floor((now - date) / 1000);
+
+    if (diff < 60) return '방금 전';
+    if (diff < 3600) return `${Math.floor(diff / 60)}분 전`;
+    if (diff < 86400) return `${Math.floor(diff / 3600)}시간 전`;
+    return `${Math.floor(diff / 86400)}일 전`;
+}
+

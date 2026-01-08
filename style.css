@@ -117,3 +117,32 @@
 .dropdown-toggle::after {
     margin-left: auto;
 }
+
+/* 구글 캘린더 반응형 스타일 */
+.calendar-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.calendar-container iframe {
+    width: 100%;
+    min-height: 600px;
+}
+
+/* 모바일에서 캘린더 높이 줄이기 */
+@media (max-width: 768px) {
+    .calendar-container iframe {
+        min-height: 400px;
+        height: 400px;
+    }
+}
+
+/* 뉴스 카드 스타일 */
+.news-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+}

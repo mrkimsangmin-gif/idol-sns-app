@@ -38,7 +38,10 @@
                         <a class="nav-link active" href="#" onclick="route('home')">SNS랭킹</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="route('blog')">블로그</a>
+                        <a class="nav-link" href="#" onclick="route('comeback')">컴백일정</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="route('news')">엔터뉴스</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" onclick="route('team')">Team</a>
@@ -129,8 +132,37 @@
             </div>
         </section>
 
-        <section id="page-blog" class="page-section d-none">
-            <div class="alert alert-info">블로그 기능은 준비 중입니다.</div>
+        <section id="page-comeback" class="page-section d-none">
+            <h4 class="mb-3 fw-bold">컴백/데뷔 일정</h4>
+            <div class="card border-0 shadow-sm p-3">
+                <div class="calendar-container">
+                    <iframe
+                        src="https://calendar.google.com/calendar/embed?src=2f47846077df13dd16e51aed01222df79b809105acca22fa7a7b56f050661abf%40group.calendar.google.com&ctz=Asia%2FSeoul"
+                        style="border: 0" width="100%" height="600" frameborder="0" scrolling="no">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        <section id="page-news" class="page-section d-none">
+            <h4 class="mb-3 fw-bold">실시간 엔터뉴스</h4>
+            <div class="card border-0 shadow-sm p-3 mb-3">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="text-muted small">
+                        최종 업데이트: <strong id="newsUpdateTime">로딩 중...</strong>
+                    </div>
+                    <button class="btn btn-sm btn-outline-primary" onclick="loadEnterNews()">
+                        🔄 새로고침
+                    </button>
+                </div>
+            </div>
+            <div id="newsLoading" class="text-center py-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2 text-muted">뉴스를 불러오는 중...</p>
+            </div>
+            <div id="newsContainer" class="row g-3" style="display: none;">
+            </div>
         </section>
         <section id="page-team" class="page-section d-none">
             <div class="alert alert-info">Team 페이지입니다.</div>
