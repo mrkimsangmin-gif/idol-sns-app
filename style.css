@@ -1,0 +1,119 @@
+.btn-gradient {
+    background: linear-gradient(135deg, #0061f2 0%, #00c6f9 100%);
+    color: white;
+    border: none;
+    font-weight: 600;
+    transition: transform 0.2s;
+}
+
+.btn-gradient:hover {
+    color: white;
+    transform: scale(1.02);
+}
+
+.idol-card {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    border: 1px solid #f0f0f0;
+    transition: transform 0.2s;
+}
+
+.idol-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.rank-badge {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #0061f2;
+    width: 50px;
+    text-align: center;
+}
+
+.page-section {
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Skeleton UI for loading (Toss UX) */
+.skeleton {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 4px;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+/* SNS 아이콘 버튼 */
+.sns-icon-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background: white;
+    text-decoration: none;
+    color: #495057;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.sns-icon-btn:hover {
+    background: #f8f9fa;
+    border-color: #adb5bd;
+    color: #212529;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sns-icon-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+/* 아이돌 카드 클릭 효과 */
+.idol-card {
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.idol-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 드롭다운 화살표 오른쪽 정렬 */
+.dropdown-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-toggle::after {
+    margin-left: auto;
+}
