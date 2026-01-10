@@ -641,6 +641,11 @@ function route(pageId) {
 
     document.querySelectorAll('.nav-link').forEach(el => el.classList.remove('active'));
     event.target.classList.add('active');
+
+    // 엔터뉴스 페이지 진입 시 자동으로 최신 뉴스 로딩
+    if (pageId === 'news') {
+        loadEnterNews();
+    }
 }
 
 // ========================================
@@ -1152,7 +1157,7 @@ function renderEnterNews(newsData) {
 
     newsData.forEach((news, index) => {
         const col = document.createElement('div');
-        col.className = 'col-md-6 col-lg-4';
+        col.className = 'col-12';
 
         const card = document.createElement('div');
         card.className = 'card h-100 border-0 shadow-sm news-card';
@@ -1172,7 +1177,6 @@ function renderEnterNews(newsData) {
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-start mb-2">
                     <span class="badge bg-primary">${news.keyword}</span>
-                    <small class="text-muted">#${index + 1}</small>
                 </div>
                 <h6 class="card-title fw-bold">${news.title}</h6>
                 <p class="card-text text-muted small" style="
