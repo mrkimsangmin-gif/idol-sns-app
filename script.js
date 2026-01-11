@@ -642,6 +642,15 @@ function route(pageId) {
     document.querySelectorAll('.nav-link').forEach(el => el.classList.remove('active'));
     event.target.classList.add('active');
 
+    // 모바일 메뉴 닫기
+    const navbarCollapse = document.getElementById('navbarNav');
+    if (navbarCollapse && navbarCollapse.classList.contains('show')) {
+        const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+            toggle: false
+        });
+        bsCollapse.hide();
+    }
+
     // 엔터뉴스 페이지 진입 시 자동으로 최신 뉴스 로딩
     if (pageId === 'news') {
         loadEnterNews();
