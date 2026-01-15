@@ -42,8 +42,8 @@ function debounce(func, wait) {
 // ⚠️ 여기에 GAS 웹앱 URL 붙여넣으세요!
 const API_URL = "https://script.google.com/macros/s/AKfycby7Hw0e4CZmJnwWjHRsTVk0kEoktiDMjaOgWvLRauq_5pRF1D-nScDJ3vUWfcp5Re-A/exec";
 
-// ⚠️ 엔터뉴스 GAS 웹앱 URL
-const ENTER_NEWS_API = "https://script.google.com/macros/s/AKfycbx76m7zd2J8omcDpzPP7DZoM6WhVEGr_gFMXwTv_AWmJB4234IxUKrRCuIw-oMsSGj4/exec";
+// ⚠️ 엔터뉴스 GAS 웹앱 URL (action=getNews 파라미터 추가)
+const ENTER_NEWS_API = "https://script.google.com/macros/s/AKfycbwV5QEzJGijfTyamsmsdYUIwoHLcjwyyJlcBXUdKu71-mWNy2rmFhl1K3B1GYIIx5e-/exec?action=getNews";
 
 // 전역 캐시 변수
 let cachedData = [];       // API에서 받은 원시 데이터 저장
@@ -1218,6 +1218,76 @@ function getTimeAgo(date) {
     if (diff < 60) return '방금 전';
     if (diff < 3600) return `${Math.floor(diff / 60)}분 전`;
     if (diff < 86400) return `${Math.floor(diff / 3600)}시간 전`;
-    return `${Math.floor(diff / 86400)}일 전`;
+}
+
+// ========================================
+// 📰 엔터뉴스 로딩 함수
+// ========================================
+
+/**
+ * 엔터뉴스 페이지에서 뉴스 로딩
+ * - 60점 이상인 뉴스 중 랜덤 10개 표시
+ * - Score 높은 순서대로 정렬 (클라이언트 측)
+ */
+function loadEnterNews() {
+    const newsLoading = document.getElementById('newsLoading');
+    const newsContainer = document.getElementById('newsContainer');
+
+    // 로딩 상태 표시
+    newsLoading.style.display = 'block';
+    newsContainer.style.display = 'none';
+    newsContainer.innerHTML = ''; // 기존 내용 제거
+
+    // ENTER_NEWS_API 엔드포인트 호출
+    fetch(ENTER_NEWS_API)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('네트워크 응답이 실패했습니다.');
+            }
+            return response.json();
+        })
+        .then(newsList => {
+            // 로딩 숨김
+            newsLoading.style.display = 'none';
+            newsContainer.style.display = 'block';
+
+            // 데이터가 없는 경우
+            if (!newsList || newsList.length === 0) {
+                newsContainer.innerHTML = '<div class="col-12 text-center text-muted py-5">60점 이상의 뉴스가 없습니다.</div>';
+                return;
+            }
+
+            // Score 내림차순 정렬 (높은 점수 → 낮은 점수)
+            newsList.sort((a, b) => b.score - a.score);
+
+            // 뉴스 카드 생성 (1열 레이아웃, SNS랭킹과 동일)
+            newsContainer.innerHTML = newsList.map(news => `
+                <div class="col-12">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="mb-2">
+                                <span class="badge bg-primary">${news.keyword}</span>
+                            </div>
+                            <h6 class="card-title">
+                                <a href="${news.link}" target="_blank" class="text-decoration-none text-dark">
+                                    ${news.title}
+                                </a>
+                            </h6>
+                            <p class="card-text text-muted small">${news.description}</p>
+                            <p class="card-text">
+                                <small class="text-muted">${new Date(news.pubDate).toLocaleDateString('ko-KR')}</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        })
+        .catch(error => {
+            // 에러 처리
+            newsLoading.style.display = 'none';
+            newsContainer.style.display = 'block';
+            newsContainer.innerHTML = '<div class="col-12 text-center text-danger">뉴스를 불러오는데 실패했습니다.</div>';
+            console.error('뉴스 로딩 에러:', error);
+        });
 }
 
