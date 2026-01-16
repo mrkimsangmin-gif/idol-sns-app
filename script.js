@@ -1277,7 +1277,7 @@ function loadEnterNews() {
                     : `<span class="badge bg-primary" style="font-size: 0.75rem;">${news.keyword || '-'}</span>`;
 
                 return `
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-12">
                         <div class="card h-100 border-0 shadow-sm news-card" style="cursor: pointer;" onclick="window.open('${news.link}', '_blank')">
                             <div class="card-body">
                                 <div class="mb-2">
