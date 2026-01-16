@@ -1228,6 +1228,7 @@ function getTimeAgo(date) {
  * 엔터뉴스 페이지에서 뉴스 로딩
  * - 60점 이상인 뉴스 중 랜덤 10개 표시
  * - Score 높은 순서대로 정렬 (클라이언트 측)
+ * - 여러 개의 매칭 키워드 배지 표시
  */
 function loadEnterNews() {
     const newsLoading = document.getElementById('newsLoading');
@@ -1247,47 +1248,83 @@ function loadEnterNews() {
             return response.json();
         })
         .then(newsList => {
+            // 디버깅: API 응답 확인
+            console.log('📰 엔터뉴스 API 응답:', newsList);
+            console.log('응답 타입:', typeof newsList);
+            console.log('배열 여부:', Array.isArray(newsList));
+            console.log('뉴스 개수:', newsList ? newsList.length : 0);
+
             // 로딩 숨김
             newsLoading.style.display = 'none';
             newsContainer.style.display = 'block';
 
             // 데이터가 없는 경우
             if (!newsList || newsList.length === 0) {
-                newsContainer.innerHTML = '<div class="col-12 text-center text-muted py-5">60점 이상의 뉴스가 없습니다.</div>';
+                newsContainer.innerHTML = '<div class="col-12 text-center text-muted py-5">표시할 뉴스가 없습니다.</div>';
                 return;
             }
 
             // Score 내림차순 정렬 (높은 점수 → 낮은 점수)
             newsList.sort((a, b) => b.score - a.score);
 
-            // 뉴스 카드 생성 (1열 레이아웃, SNS랭킹과 동일)
-            newsContainer.innerHTML = newsList.map(news => `
-                <div class="col-12">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body">
-                            <div class="mb-2">
-                                <span class="badge bg-primary">${news.keyword}</span>
+            // 뉴스 카드 생성 (3열 그리드 레이아웃, 여러 키워드 배지 표시)
+            newsContainer.innerHTML = newsList.map(news => {
+                // 매칭된 키워드 배지 생성 (모두 동일한 파란색)
+                const keywordBadges = news.matchedKeywords && news.matchedKeywords.length > 0
+                    ? news.matchedKeywords.map(kw =>
+                        `<span class="badge bg-primary me-1" style="font-size: 0.75rem;">${kw}</span>`
+                    ).join('')
+                    : `<span class="badge bg-primary" style="font-size: 0.75rem;">${news.keyword || '-'}</span>`;
+
+                return `
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm news-card" style="cursor: pointer;" onclick="window.open('${news.link}', '_blank')">
+                            <div class="card-body">
+                                <div class="mb-2">
+                                    ${keywordBadges}
+                                </div>
+                                <h6 class="card-title fw-bold text-truncate-2">${news.title}</h6>
+                                <p class="card-text text-muted small text-truncate-3">${news.description}</p>
+                                <div class="mt-2">
+                                    <small class="text-muted">${formatNewsDate(news.pubDate)}</small>
+                                </div>
                             </div>
-                            <h6 class="card-title">
-                                <a href="${news.link}" target="_blank" class="text-decoration-none text-dark">
-                                    ${news.title}
-                                </a>
-                            </h6>
-                            <p class="card-text text-muted small">${news.description}</p>
-                            <p class="card-text">
-                                <small class="text-muted">${new Date(news.pubDate).toLocaleDateString('ko-KR')}</small>
-                            </p>
                         </div>
                     </div>
-                </div>
-            `).join('');
+                `;
+            }).join('');
+
+            // GA4 이벤트 추적
+            if (typeof trackEvent === 'function') {
+                trackEvent('enter_news_load', {
+                    news_count: newsList.length,
+                    event_category: 'content_view'
+                });
+            }
         })
         .catch(error => {
             // 에러 처리
             newsLoading.style.display = 'none';
             newsContainer.style.display = 'block';
-            newsContainer.innerHTML = '<div class="col-12 text-center text-danger">뉴스를 불러오는데 실패했습니다.</div>';
+            newsContainer.innerHTML = '<div class="col-12 text-center text-danger py-5">뉴스를 불러오는데 실패했습니다.</div>';
             console.error('뉴스 로딩 에러:', error);
         });
+}
+
+/**
+ * 날짜 포맷 헬퍼 함수 (상대 시간 표시)
+ */
+function formatNewsDate(dateString) {
+    const date = new Date(dateString);
+    const now = new Date();
+    const diff = Math.floor((now - date) / 1000 / 60); // 분 단위
+
+    if (diff < 60) return `${diff}분 전`;
+    if (diff < 1440) return `${Math.floor(diff / 60)}시간 전`;
+
+    return date.toLocaleDateString('ko-KR', {
+        month: 'short',
+        day: 'numeric'
+    });
 }
 
