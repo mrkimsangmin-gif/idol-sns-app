@@ -421,29 +421,30 @@ function renderList(targetMonth) {
 
         console.log(`Rendering for ${targetMonth} (Base: ${baseMonth}, Base Data: ${hasBaseData ? 'Available' : 'N/A'})`);
 
-        // 아이돌별 데이터 집계 (현재 선택된 gender, sns만 필터링)
+        // 아이돌별 데이터 집계 (현재 월과 기준 월 데이터만 사용)
         const idolMap = {};
 
-        cachedData.forEach(item => {
-            // 현재 선택된 gender, sns만 처리 (스프레드시트에는 gender 컬럼이 없으므로 API에서 온 데이터 기준으로만 필터링)
-            // 참고: 현재 cachedData에는 gender 정보가 없어서 다른 방식으로 필터링 필요
+        // 현재 월 데이터만 먼저 처리 (순위 계산의 기준)
+        cachedData
+            .filter(item => item.date === targetMonth || item.date === baseMonth)
+            .forEach(item => {
+                if (!idolMap[item.name]) {
+                    idolMap[item.name] = {
+                        name: item.name,
+                        group: item.group,
+                        current: 0,
+                        base: 0,
+                        rank: 0, // 순위 초기화
+                        logo: item.logo || 'https://via.placeholder.com/60'
+                    };
+                }
 
-            if (!idolMap[item.name]) {
-                idolMap[item.name] = {
-                    name: item.name,
-                    group: item.group,
-                    current: 0,
-                    base: 0,
-                    logo: item.logo || 'https://via.placeholder.com/60' // 로고가 없다면 대체 이미지
-                };
-            }
+                if (item.date === targetMonth) idolMap[item.name].current = item.count;
+                if (item.date === baseMonth) idolMap[item.name].base = item.count;
+            });
 
-            if (item.date === targetMonth) idolMap[item.name].current = item.count;
-            if (item.date === baseMonth) idolMap[item.name].base = item.count;
-        });
-
-        // 증감률 계산 및 정렬
-        const rankedList = Object.values(idolMap)
+        // 증감률 계산 및 정렬 (검색 필터 적용 전 전체 목록)
+        const fullRankedList = Object.values(idolMap)
             .filter(item => item.current > 0 || item.base > 0)
             .map(item => {
                 let growth = 0;
@@ -463,23 +464,38 @@ function renderList(targetMonth) {
 
                 return { ...item, growthRate: growthDisplay, growthNumeric: growth };
             })
-            .filter(item => {
-                // 검색 필터링 (띄어쓰기 무시)
-                const searchInput = document.getElementById('searchInput');
-                if (!searchInput) return true;
-
-                const searchTerm = searchInput.value.trim().toLowerCase().replace(/\s/g, ''); // 공백 제거
-                if (!searchTerm) return true;
-
-                const nameNoSpace = item.name.toLowerCase().replace(/\s/g, ''); // 공백 제거
-                const groupNoSpace = item.group.toLowerCase().replace(/\s/g, ''); // 공백 제거
-
-                const nameMatch = nameNoSpace.includes(searchTerm);
-                const groupMatch = groupNoSpace.includes(searchTerm);
-
-                return nameMatch || groupMatch;
-            })
             .sort((a, b) => b.current - a.current);
+
+        // ✅ 먼저 전체 목록에서 순위 계산 (검색 후에도 원래 순위 유지)
+        fullRankedList.forEach((item, index) => {
+            if (index === 0) {
+                item.rank = 1;
+            } else {
+                const prevItem = fullRankedList[index - 1];
+                if (item.current === prevItem.current) {
+                    item.rank = prevItem.rank; // 동일 수치면 동일 순위
+                } else {
+                    item.rank = index + 1; // 다른 수치면 index + 1
+                }
+            }
+        });
+
+        // ✅ 검색 필터 적용
+        const searchInput = document.getElementById('searchInput');
+        const searchTerm = searchInput ? searchInput.value.trim().toLowerCase().replace(/\s/g, '') : '';
+
+        let displayList;
+        if (searchTerm) {
+            // 검색어가 있으면: 전체 목록에서 검색 결과 표시 (순위는 이미 계산됨)
+            displayList = fullRankedList.filter(item => {
+                const nameNoSpace = item.name.toLowerCase().replace(/\s/g, '');
+                const groupNoSpace = item.group.toLowerCase().replace(/\s/g, '');
+                return nameNoSpace.includes(searchTerm) || groupNoSpace.includes(searchTerm);
+            });
+        } else {
+            // 검색어가 없으면: Top 30만 표시
+            displayList = fullRankedList.slice(0, 30);
+        }
 
         // ✅ 렌더링 시작 전 기존 카드 모두 제거
         listContainer.innerHTML = '';
@@ -487,22 +503,9 @@ function renderList(targetMonth) {
         // ✅ HTML을 배열에 수집 (성능 최적화)
         const htmlArray = [];
 
-        rankedList.forEach((item, index) => {
-            // 순위 계산 (동일 수치는 동일 순위)
-            let rank;
-            if (index === 0) {
-                rank = 1;
-            } else {
-                const prevItem = rankedList[index - 1];
-                if (item.current === prevItem.current) {
-                    // 동일 수치면 이전 순위와 같음
-                    rank = prevItem.rank;
-                } else {
-                    // 다른 수치면 index + 1 (건너뛰기)
-                    rank = index + 1;
-                }
-            }
-            item.rank = rank; // 순위 저장
+        displayList.forEach((item, index) => {
+            // 순위는 이미 fullRankedList에서 계산됨
+            const rank = item.rank;
 
             // 증감률이 "-"인 경우 처리
             let changeDisplay = '';
