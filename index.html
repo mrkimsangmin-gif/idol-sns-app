@@ -78,6 +78,9 @@
                         <a class="nav-link" href="#" onclick="route('news')">엔터뉴스</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="route('links')">링크모음</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#" onclick="route('team')">Team</a>
                     </li>
                 </ul>
@@ -186,6 +189,25 @@
                 <p class="mt-2 text-muted">뉴스를 불러오는 중...</p>
             </div>
             <div id="newsContainer" class="row g-3" style="display: none;">
+            </div>
+        </section>
+        <section id="page-links" class="page-section d-none">
+            <h4 class="mb-3 fw-bold">K-POP 링크 모음</h4>
+
+            <!-- 카테고리 탭 -->
+            <div id="linksCategoryTabs" class="links-category-tabs mb-3">
+                <!-- JS에서 동적 생성 -->
+            </div>
+
+            <!-- 로딩 -->
+            <div id="linksLoading" class="text-center py-5">
+                <div class="spinner-border text-primary"></div>
+                <p class="mt-2">링크 불러오는 중...</p>
+            </div>
+
+            <!-- 링크 목록 -->
+            <div id="linksContainer">
+                <!-- JS에서 동적 생성 -->
             </div>
         </section>
         <section id="page-team" class="page-section d-none">
