@@ -658,6 +658,11 @@ function route(pageId) {
     if (pageId === 'news') {
         loadEnterNews();
     }
+
+    // 링크모음 페이지 진입 시 자동으로 링크 로딩
+    if (pageId === 'links') {
+        loadLinks();
+    }
 }
 
 // ========================================
@@ -1331,3 +1336,257 @@ function formatNewsDate(dateString) {
     });
 }
 
+// ========================================
+// 📚 K-POP 링크 모음 페이지
+// ========================================
+
+let linksData = null;
+let currentLinksCategory = null;
+let linksLoaded = false;
+
+// 카테고리 아이콘 매핑
+const CATEGORY_ICONS = {
+    '차트/집계': '📊',
+    '소통/덕질': '💬',
+    '커뮤니티': '🗣️',
+    'SNS': '📱',
+    '분석/랭킹': '📈'
+};
+
+// 링크 데이터 로드
+async function loadLinks() {
+    // 이미 로드된 경우 재로드 방지
+    if (linksLoaded && linksData) {
+        console.log('✅ 링크 데이터 캐시 사용');
+        return;
+    }
+
+    const linksLoading = document.getElementById('linksLoading');
+    const linksContainer = document.getElementById('linksContainer');
+
+    linksLoading.style.display = 'block';
+    linksContainer.innerHTML = '';
+
+    try {
+        const response = await fetch(`${API_URL}?action=getLinks`);
+        const result = await response.json();
+
+        if (result.status === 'success') {
+            linksData = result.data;
+            linksLoaded = true;
+
+            // 카테고리 탭 렌더링
+            renderLinksCategories();
+
+            // 첫 번째 카테고리 선택
+            const firstCategory = Object.keys(linksData)[0];
+            if (firstCategory) {
+                selectLinksCategory(firstCategory);
+            }
+
+            console.log(`✅ 링크 데이터 로드 완료 (${result.updatedAt})`);
+
+            // GA4 이벤트 추적
+            if (typeof trackEvent === 'function') {
+                trackEvent('links_page_load', {
+                    category_count: Object.keys(linksData).length,
+                    event_category: 'content_view'
+                });
+            }
+        } else {
+            throw new Error(result.message || '링크 로드 실패');
+        }
+    } catch (error) {
+        console.error('링크 로드 실패:', error);
+        linksContainer.innerHTML = '<div class="text-center text-danger py-5">링크를 불러오는데 실패했습니다.</div>';
+    } finally {
+        linksLoading.style.display = 'none';
+    }
+}
+
+// 카테고리 탭 렌더링
+function renderLinksCategories() {
+    const tabContainer = document.getElementById('linksCategoryTabs');
+    if (!tabContainer || !linksData) return;
+
+    // 카테고리 순서 정렬 (order 기준)
+    const sortedCategories = Object.keys(linksData).sort((a, b) => {
+        return (linksData[a].order || 0) - (linksData[b].order || 0);
+    });
+
+    tabContainer.innerHTML = sortedCategories.map(cat => `
+        <button class="links-category-tab" data-category="${cat}" onclick="selectLinksCategory('${cat}')">
+            ${cat}
+        </button>
+    `).join('');
+}
+
+// 카테고리 선택
+function selectLinksCategory(category) {
+    currentLinksCategory = category;
+
+    // 탭 활성화 상태 업데이트
+    document.querySelectorAll('.links-category-tab').forEach(tab => {
+        tab.classList.toggle('active', tab.dataset.category === category);
+    });
+
+    // 검색창 초기화
+    const searchInput = document.getElementById('linksSearchInput');
+    if (searchInput) {
+        searchInput.value = '';
+    }
+
+    renderLinksContent(category);
+
+    // GA4 이벤트 추적
+    if (typeof trackEvent === 'function') {
+        trackEvent('links_category_select', {
+            category: category,
+            event_category: 'user_engagement'
+        });
+    }
+}
+
+// 링크 콘텐츠 렌더링
+function renderLinksContent(category) {
+    const container = document.getElementById('linksContainer');
+    if (!container || !linksData) return;
+
+    const categoryData = linksData[category];
+
+    if (!categoryData || !categoryData.subcategories) {
+        container.innerHTML = '<p class="text-muted text-center py-4">데이터가 없습니다.</p>';
+        return;
+    }
+
+    let html = '';
+
+    Object.entries(categoryData.subcategories).forEach(([subcat, links]) => {
+        html += `
+            <div class="subcategory-section">
+                <h5 class="subcategory-title">${subcat}</h5>
+                <div class="links-grid">
+                    ${links.map(link => createLinkCard(link)).join('')}
+                </div>
+            </div>
+        `;
+    });
+
+    container.innerHTML = html;
+}
+
+// 링크 카드 생성
+function createLinkCard(link) {
+    const appButton = link.app_url
+        ? `<a href="${link.app_url}" class="btn btn-outline-secondary" onclick="trackLinkClick('${link.name}', 'app')">앱</a>`
+        : '';
+
+    return `
+        <div class="link-card">
+            <div class="link-info">
+                <h6 class="link-name">${link.name}</h6>
+                <p class="link-desc">${link.description || ''}</p>
+            </div>
+            <div class="link-actions">
+                <a href="${link.url}" target="_blank" rel="noopener" class="btn btn-primary" onclick="trackLinkClick('${link.name}', 'web')">바로가기</a>
+                ${appButton}
+            </div>
+        </div>
+    `;
+}
+
+// 링크 클릭 추적
+function trackLinkClick(name, type) {
+    if (typeof trackEvent === 'function') {
+        trackEvent('link_click', {
+            link_name: name,
+            link_type: type, // 'web' or 'app'
+            category: currentLinksCategory,
+            event_category: 'outbound_link'
+        });
+    }
+}
+
+// 링크 검색
+function searchLinks(term) {
+    if (!term || !linksData) {
+        // 검색어가 없으면 현재 카테고리 표시
+        if (currentLinksCategory) {
+            renderLinksContent(currentLinksCategory);
+        }
+        return;
+    }
+
+    const searchTerm = term.toLowerCase().replace(/\s/g, '');
+    const results = [];
+
+    Object.entries(linksData).forEach(([category, categoryData]) => {
+        if (categoryData.subcategories) {
+            Object.entries(categoryData.subcategories).forEach(([subcat, links]) => {
+                links.forEach(link => {
+                    const nameMatch = link.name.toLowerCase().replace(/\s/g, '').includes(searchTerm);
+                    const descMatch = (link.description || '').toLowerCase().replace(/\s/g, '').includes(searchTerm);
+                    const subcatMatch = subcat.toLowerCase().replace(/\s/g, '').includes(searchTerm);
+
+                    if (nameMatch || descMatch || subcatMatch) {
+                        results.push({ ...link, category, subcategory: subcat });
+                    }
+                });
+            });
+        }
+    });
+
+    renderLinksSearchResults(results, term);
+}
+
+// 검색 결과 렌더링
+function renderLinksSearchResults(results, term) {
+    const container = document.getElementById('linksContainer');
+    if (!container) return;
+
+    // 탭 활성화 해제
+    document.querySelectorAll('.links-category-tab').forEach(tab => {
+        tab.classList.remove('active');
+    });
+
+    if (results.length === 0) {
+        container.innerHTML = `<p class="text-muted text-center py-4">"${term}"에 대한 검색 결과가 없습니다.</p>`;
+        return;
+    }
+
+    container.innerHTML = `
+        <div class="search-results-info">"${term}" 검색 결과: ${results.length}개</div>
+        <div class="links-grid">
+            ${results.map(link => createLinkCard(link)).join('')}
+        </div>
+    `;
+
+    // GA4 이벤트 추적
+    if (typeof trackEvent === 'function') {
+        trackEvent('links_search', {
+            search_term: term,
+            result_count: results.length,
+            event_category: 'engagement'
+        });
+    }
+}
+
+// 링크 검색 이벤트 리스너 설정
+document.addEventListener('DOMContentLoaded', () => {
+    const linksSearchInput = document.getElementById('linksSearchInput');
+    if (linksSearchInput) {
+        // 디바운스된 검색
+        const debouncedLinksSearch = debounce(function () {
+            const term = this.value.trim();
+            if (term.length >= 2) {
+                searchLinks(term);
+            } else if (term.length === 0) {
+                if (currentLinksCategory) {
+                    selectLinksCategory(currentLinksCategory);
+                }
+            }
+        }, 300);
+
+        linksSearchInput.addEventListener('input', debouncedLinksSearch);
+    }
+});
