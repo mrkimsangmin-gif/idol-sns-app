@@ -10,17 +10,19 @@
  */
 
 const DB_NAME = 'idol-sns-db';
-const DB_VERSION = 2;
+const DB_VERSION = 3;
 const STORE_SNS_DATA = 'sns_data';
 const STORE_METADATA = 'metadata';
 const STORE_MONTHS = 'months';
 const STORE_LINKS = 'links';
+const STORE_NEWS = 'news';
 
 // TTL 설정 (밀리초)
 const TTL_SNS_DATA = 24 * 60 * 60 * 1000; // 24시간
 const TTL_METADATA = 7 * 24 * 60 * 60 * 1000; // 7일
 const TTL_MONTHS = 6 * 60 * 60 * 1000; // 6시간
 const TTL_LINKS = 6 * 60 * 60 * 1000; // 6시간
+const TTL_NEWS = 6 * 60 * 60 * 1000; // 6시간
 
 /**
  * IndexedDB 초기화 및 연결
@@ -70,6 +72,13 @@ async function openDatabase() {
         const linksStore = db.createObjectStore(STORE_LINKS, { keyPath: 'key' });
         linksStore.createIndex('timestamp', 'timestamp', { unique: false });
         console.log('✅ links 스토어 생성 완료');
+      }
+
+      // 뉴스 데이터 스토어 생성
+      if (!db.objectStoreNames.contains(STORE_NEWS)) {
+        const newsStore = db.createObjectStore(STORE_NEWS, { keyPath: 'key' });
+        newsStore.createIndex('timestamp', 'timestamp', { unique: false });
+        console.log('✅ news 스토어 생성 완료');
       }
     };
   });
@@ -462,6 +471,89 @@ async function getLinksCache() {
 }
 
 /**
+ * 뉴스 데이터 저장
+ * @param {Array} data - 뉴스 데이터 배열
+ * @returns {Promise<void>}
+ */
+async function saveNewsCache(data) {
+  const db = await openDatabase();
+  const key = 'enter_news';
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([STORE_NEWS], 'readwrite');
+    const store = transaction.objectStore(STORE_NEWS);
+
+    const record = {
+      key,
+      data,
+      timestamp: Date.now(),
+      ttl: TTL_NEWS
+    };
+
+    const request = store.put(record);
+
+    request.onsuccess = () => {
+      console.log('💾 뉴스 캐시 저장 완료');
+      resolve();
+    };
+
+    request.onerror = () => {
+      console.error('❌ 뉴스 캐시 저장 실패:', request.error);
+      reject(request.error);
+    };
+
+    transaction.oncomplete = () => {
+      db.close();
+    };
+  });
+}
+
+/**
+ * 뉴스 데이터 조회
+ * @returns {Promise<Array|null>}
+ */
+async function getNewsCache() {
+  const db = await openDatabase();
+  const key = 'enter_news';
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([STORE_NEWS], 'readonly');
+    const store = transaction.objectStore(STORE_NEWS);
+    const request = store.get(key);
+
+    request.onsuccess = () => {
+      const record = request.result;
+
+      if (!record) {
+        console.log('📭 뉴스 캐시 미스');
+        resolve(null);
+        return;
+      }
+
+      // TTL 확인
+      const age = Date.now() - record.timestamp;
+      if (age > record.ttl) {
+        console.log(`⏰ 뉴스 캐시 만료 (${Math.round(age / 3600000)}시간 경과)`);
+        resolve(null);
+        return;
+      }
+
+      console.log('⚡ 뉴스 캐시 히트!');
+      resolve(record.data);
+    };
+
+    request.onerror = () => {
+      console.error('❌ 뉴스 캐시 조회 실패:', request.error);
+      reject(request.error);
+    };
+
+    transaction.oncomplete = () => {
+      db.close();
+    };
+  });
+}
+
+/**
  * 만료된 데이터 정리 (백그라운드 작업)
  * @returns {Promise<number>} - 삭제된 항목 수
  */
@@ -471,7 +563,7 @@ async function cleanupExpiredData() {
 
   console.log('🧹 만료된 캐시 정리 시작...');
 
-  const stores = [STORE_SNS_DATA, STORE_METADATA, STORE_MONTHS, STORE_LINKS];
+  const stores = [STORE_SNS_DATA, STORE_METADATA, STORE_MONTHS, STORE_LINKS, STORE_NEWS];
 
   for (const storeName of stores) {
     const transaction = db.transaction([storeName], 'readwrite');
