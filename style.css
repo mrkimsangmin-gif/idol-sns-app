@@ -126,14 +126,14 @@
 
 .calendar-container iframe {
     width: 100%;
-    min-height: 600px;
+    min-height: 700px;
 }
 
-/* 모바일에서 캘린더 높이 줄이기 */
+/* 모바일에서 캘린더 높이 조정 */
 @media (max-width: 768px) {
     .calendar-container iframe {
-        min-height: 400px;
-        height: 400px;
+        min-height: 600px;
+        height: 600px;
     }
 }
 
