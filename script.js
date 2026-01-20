@@ -1287,7 +1287,7 @@ function renderEnterNews(newsData) {
         col.className = 'col-12';
 
         const card = document.createElement('div');
-        card.className = 'card h-100 border-0 shadow-sm news-card';
+        card.className = 'card border-0 shadow-sm news-card';
         card.style.cursor = 'pointer';
         card.onclick = () => {
             window.open(news.link, '_blank');
