@@ -260,6 +260,11 @@ async function loadFullDataInBackground(gender, sns) {
 
             // 메타데이터 프리페칭 시작 (모달 즉시 열기 위함)  
             prefetchMetadata();
+
+            // 🔗 5초 후 링크 데이터 프리페칭 (지연된 백그라운드 로드)
+            setTimeout(() => {
+                prefetchLinksData();
+            }, 5000);
         }
     } catch (error) {
         console.warn('Background loading failed:', error);
@@ -1353,27 +1358,107 @@ const CATEGORY_ICONS = {
     '분석/랭킹': '📈'
 };
 
-// 링크 데이터 로드
-async function loadLinks() {
-    // 이미 로드된 경우 재로드 방지
-    if (linksLoaded && linksData) {
-        console.log('✅ 링크 데이터 캐시 사용');
+// 프리페칭 플래그
+let isPrefetchingLinks = false;
+
+// 링크 데이터 프리페칭 (SNS 랭킹 로드 후 5초 지연 호출)
+async function prefetchLinksData() {
+    // 이미 로드되었거나 프리페칭 중이면 스킵
+    if (linksLoaded || isPrefetchingLinks) {
+        console.log('⏭️ 링크 프리페칭 스킵 (이미 로드됨 또는 진행 중)');
         return;
     }
 
-    const linksLoading = document.getElementById('linksLoading');
-    const linksContainer = document.getElementById('linksContainer');
-
-    linksLoading.style.display = 'block';
-    linksContainer.innerHTML = '';
+    isPrefetchingLinks = true;
+    console.log('🔗 링크 데이터 프리페칭 시작...');
 
     try {
+        // IndexedDB 캐시 확인
+        const cachedLinks = await getLinksCache().catch(() => null);
+        if (cachedLinks) {
+            linksData = cachedLinks;
+            linksLoaded = true;
+            console.log('⚡ 링크 프리페칭: IndexedDB 캐시 히트');
+            return;
+        }
+
+        // API 호출
         const response = await fetch(`${API_URL}?action=getLinks`);
         const result = await response.json();
 
         if (result.status === 'success') {
             linksData = result.data;
             linksLoaded = true;
+
+            // IndexedDB에 저장
+            await saveLinksCache(linksData);
+            console.log('✅ 링크 프리페칭 완료');
+        }
+    } catch (error) {
+        console.warn('링크 프리페칭 실패:', error);
+    } finally {
+        isPrefetchingLinks = false;
+    }
+}
+
+// 링크 데이터 로드 (IndexedDB 캐시 우선)
+async function loadLinks() {
+    // 이미 메모리에 로드된 경우 렌더링만 수행
+    if (linksLoaded && linksData) {
+        console.log('✅ 링크 데이터 메모리 캐시 사용');
+        // 항상 렌더링 수행 (프리페칭 후 첫 진입 시)
+        renderLinksCategories();
+        const firstCategory = Object.keys(linksData)[0];
+        if (firstCategory) {
+            selectLinksCategory(firstCategory);
+        }
+        return;
+    }
+
+    const linksLoading = document.getElementById('linksLoading');
+    const linksContainer = document.getElementById('linksContainer');
+    const linksCategoryTabs = document.getElementById('linksCategoryTabs');
+
+    linksLoading.style.display = 'block';
+    linksContainer.innerHTML = '';
+    linksCategoryTabs.innerHTML = '';
+
+    try {
+        // 🚀 1단계: IndexedDB 캐시 확인
+        const cachedLinks = await getLinksCache().catch(() => null);
+
+        if (cachedLinks) {
+            console.log('⚡ IndexedDB 링크 캐시 히트!');
+            linksData = cachedLinks;
+            linksLoaded = true;
+
+            // 즉시 렌더링
+            renderLinksCategories();
+            const firstCategory = Object.keys(linksData)[0];
+            if (firstCategory) {
+                selectLinksCategory(firstCategory);
+            }
+
+            linksLoading.style.display = 'none';
+
+            // 백그라운드에서 최신 데이터 업데이트
+            updateLinksInBackground();
+            return;
+        }
+
+        // 🚀 2단계: IndexedDB 미스 → API 호출
+        console.log('📡 링크 캐시 미스, API 호출 중...');
+        const response = await fetch(`${API_URL}?action=getLinks`);
+        const result = await response.json();
+
+        if (result.status === 'success') {
+            linksData = result.data;
+            linksLoaded = true;
+
+            // IndexedDB에 저장
+            saveLinksCache(linksData).catch(err => {
+                console.warn('링크 캐시 저장 실패:', err);
+            });
 
             // 카테고리 탭 렌더링
             renderLinksCategories();
@@ -1401,6 +1486,27 @@ async function loadLinks() {
         linksContainer.innerHTML = '<div class="text-center text-danger py-5">링크를 불러오는데 실패했습니다.</div>';
     } finally {
         linksLoading.style.display = 'none';
+    }
+}
+
+// 백그라운드에서 링크 데이터 업데이트
+async function updateLinksInBackground() {
+    console.log('📥 백그라운드에서 링크 데이터 업데이트 중...');
+
+    try {
+        const response = await fetch(`${API_URL}?action=getLinks`);
+        const result = await response.json();
+
+        if (result.status === 'success') {
+            // IndexedDB 업데이트
+            await saveLinksCache(result.data);
+            console.log('✅ 링크 캐시 백그라운드 업데이트 완료');
+
+            // 데이터가 변경되었으면 메모리도 업데이트
+            linksData = result.data;
+        }
+    } catch (error) {
+        console.warn('링크 백그라운드 업데이트 실패:', error);
     }
 }
 
