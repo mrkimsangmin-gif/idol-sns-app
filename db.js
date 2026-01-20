@@ -10,15 +10,17 @@
  */
 
 const DB_NAME = 'idol-sns-db';
-const DB_VERSION = 1;
+const DB_VERSION = 2;
 const STORE_SNS_DATA = 'sns_data';
 const STORE_METADATA = 'metadata';
 const STORE_MONTHS = 'months';
+const STORE_LINKS = 'links';
 
 // TTL 설정 (밀리초)
 const TTL_SNS_DATA = 24 * 60 * 60 * 1000; // 24시간
 const TTL_METADATA = 7 * 24 * 60 * 60 * 1000; // 7일
 const TTL_MONTHS = 6 * 60 * 60 * 1000; // 6시간
+const TTL_LINKS = 6 * 60 * 60 * 1000; // 6시간
 
 /**
  * IndexedDB 초기화 및 연결
@@ -61,6 +63,13 @@ async function openDatabase() {
         const monthsStore = db.createObjectStore(STORE_MONTHS, { keyPath: 'key' });
         monthsStore.createIndex('timestamp', 'timestamp', { unique: false });
         console.log('✅ months 스토어 생성 완료');
+      }
+
+      // 링크 데이터 스토어 생성
+      if (!db.objectStoreNames.contains(STORE_LINKS)) {
+        const linksStore = db.createObjectStore(STORE_LINKS, { keyPath: 'key' });
+        linksStore.createIndex('timestamp', 'timestamp', { unique: false });
+        console.log('✅ links 스토어 생성 완료');
       }
     };
   });
@@ -370,6 +379,89 @@ async function getMetadata(name, gender) {
 }
 
 /**
+ * 링크 데이터 저장
+ * @param {Object} data - 링크 데이터
+ * @returns {Promise<void>}
+ */
+async function saveLinksCache(data) {
+  const db = await openDatabase();
+  const key = 'kpop_links';
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([STORE_LINKS], 'readwrite');
+    const store = transaction.objectStore(STORE_LINKS);
+
+    const record = {
+      key,
+      data,
+      timestamp: Date.now(),
+      ttl: TTL_LINKS
+    };
+
+    const request = store.put(record);
+
+    request.onsuccess = () => {
+      console.log('💾 링크 캐시 저장 완료');
+      resolve();
+    };
+
+    request.onerror = () => {
+      console.error('❌ 링크 캐시 저장 실패:', request.error);
+      reject(request.error);
+    };
+
+    transaction.oncomplete = () => {
+      db.close();
+    };
+  });
+}
+
+/**
+ * 링크 데이터 조회
+ * @returns {Promise<Object|null>}
+ */
+async function getLinksCache() {
+  const db = await openDatabase();
+  const key = 'kpop_links';
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([STORE_LINKS], 'readonly');
+    const store = transaction.objectStore(STORE_LINKS);
+    const request = store.get(key);
+
+    request.onsuccess = () => {
+      const record = request.result;
+
+      if (!record) {
+        console.log('📭 링크 캐시 미스');
+        resolve(null);
+        return;
+      }
+
+      // TTL 확인
+      const age = Date.now() - record.timestamp;
+      if (age > record.ttl) {
+        console.log(`⏰ 링크 캐시 만료 (${Math.round(age / 3600000)}시간 경과)`);
+        resolve(null);
+        return;
+      }
+
+      console.log('⚡ 링크 캐시 히트!');
+      resolve(record.data);
+    };
+
+    request.onerror = () => {
+      console.error('❌ 링크 캐시 조회 실패:', request.error);
+      reject(request.error);
+    };
+
+    transaction.oncomplete = () => {
+      db.close();
+    };
+  });
+}
+
+/**
  * 만료된 데이터 정리 (백그라운드 작업)
  * @returns {Promise<number>} - 삭제된 항목 수
  */
@@ -379,7 +471,7 @@ async function cleanupExpiredData() {
 
   console.log('🧹 만료된 캐시 정리 시작...');
 
-  const stores = [STORE_SNS_DATA, STORE_METADATA, STORE_MONTHS];
+  const stores = [STORE_SNS_DATA, STORE_METADATA, STORE_MONTHS, STORE_LINKS];
 
   for (const storeName of stores) {
     const transaction = db.transaction([storeName], 'readwrite');
