@@ -265,6 +265,11 @@ async function loadFullDataInBackground(gender, sns) {
             setTimeout(() => {
                 prefetchLinksData();
             }, 5000);
+
+            // 📰 7초 후 뉴스 데이터 프리페칭 (지연된 백그라운드 로드)
+            setTimeout(() => {
+                prefetchEnterNews();
+            }, 7000);
         }
     } catch (error) {
         console.warn('Background loading failed:', error);
@@ -1102,8 +1107,56 @@ function createSnsButton(label, url, logoKey) {
 // 📰 엔터뉴스 기능
 // ========================================
 
+// 뉴스 데이터 메모리 캐시
+let newsData = null;
+let newsLoaded = false;
+let isPrefetchingNews = false;
+
 /**
- * 엔터뉴스 데이터 로드
+ * 엔터뉴스 데이터 프리페칭 (7초 지연 호출)
+ */
+async function prefetchEnterNews() {
+    // 이미 로드되었거나 프리페칭 중이면 스킵
+    if (newsLoaded || isPrefetchingNews) {
+        console.log('⏭️ 뉴스 프리페칭 스킵 (이미 로드됨 또는 진행 중)');
+        return;
+    }
+
+    isPrefetchingNews = true;
+    console.log('📰 뉴스 데이터 프리페칭 시작...');
+
+    try {
+        // IndexedDB 캐시 확인
+        const cachedNews = await getNewsCache().catch(() => null);
+        if (cachedNews) {
+            newsData = cachedNews;
+            newsLoaded = true;
+            console.log('⚡ 뉴스 프리페칭: IndexedDB 캐시 히트');
+            return;
+        }
+
+        // API 호출
+        if (!ENTER_NEWS_API) return;
+
+        const response = await fetch(ENTER_NEWS_API);
+        if (response.ok) {
+            const data = await response.json();
+            newsData = data;
+            newsLoaded = true;
+
+            // IndexedDB에 저장
+            await saveNewsCache(data);
+            console.log('✅ 뉴스 프리페칭 완료');
+        }
+    } catch (error) {
+        console.warn('뉴스 프리페칭 실패:', error);
+    } finally {
+        isPrefetchingNews = false;
+    }
+}
+
+/**
+ * 엔터뉴스 데이터 로드 (IndexedDB 캐시 우선)
  */
 async function loadEnterNews() {
     if (!ENTER_NEWS_API) {
@@ -1114,21 +1167,54 @@ async function loadEnterNews() {
     const loadingEl = document.getElementById('newsLoading');
     const containerEl = document.getElementById('newsContainer');
 
+    // 메모리 캐시 사용 (프리페칭 후)
+    if (newsLoaded && newsData) {
+        console.log('✅ 뉴스 데이터 메모리 캐시 사용');
+        renderEnterNews(newsData);
+        // 백그라운드 업데이트
+        updateNewsInBackground();
+        return;
+    }
+
     loadingEl.style.display = 'block';
     containerEl.style.display = 'none';
 
     try {
+        // 🚀 1단계: IndexedDB 캐시 확인
+        const cachedNews = await getNewsCache().catch(() => null);
+
+        if (cachedNews) {
+            console.log('⚡ IndexedDB 뉴스 캐시 히트!');
+            newsData = cachedNews;
+            newsLoaded = true;
+            renderEnterNews(cachedNews);
+
+            // 백그라운드 업데이트
+            updateNewsInBackground();
+            return;
+        }
+
+        // 🚀 2단계: IndexedDB 미스 → API 호출
+        console.log('📡 뉴스 캐시 미스, API 호출 중...');
         const response = await fetch(ENTER_NEWS_API);
 
         if (!response.ok) {
             throw new Error('네트워크 응답 오류');
         }
 
-        const newsData = await response.json();
-        renderEnterNews(newsData);
+        const data = await response.json();
+        newsData = data;
+        newsLoaded = true;
+
+        // IndexedDB에 저장
+        saveNewsCache(data).catch(err => {
+            console.warn('뉴스 캐시 저장 실패:', err);
+        });
+
+        renderEnterNews(data);
 
         trackEvent('enter_news_load', {
-            news_count: newsData.length
+            news_count: data.length
         });
 
     } catch (error) {
@@ -1143,6 +1229,25 @@ async function loadEnterNews() {
         `;
         loadingEl.style.display = 'none';
         containerEl.style.display = 'block';
+    }
+}
+
+/**
+ * 백그라운드에서 뉴스 데이터 업데이트
+ */
+async function updateNewsInBackground() {
+    console.log('📥 백그라운드에서 뉴스 데이터 업데이트 중...');
+
+    try {
+        const response = await fetch(ENTER_NEWS_API);
+        if (response.ok) {
+            const data = await response.json();
+            await saveNewsCache(data);
+            newsData = data;
+            console.log('✅ 뉴스 캐시 백그라운드 업데이트 완료');
+        }
+    } catch (error) {
+        console.warn('뉴스 백그라운드 업데이트 실패:', error);
     }
 }
 
@@ -1233,96 +1338,7 @@ function getTimeAgo(date) {
     if (diff < 86400) return `${Math.floor(diff / 3600)}시간 전`;
 }
 
-// ========================================
-// 📰 엔터뉴스 로딩 함수
-// ========================================
 
-/**
- * 엔터뉴스 페이지에서 뉴스 로딩
- * - 60점 이상인 뉴스 중 랜덤 10개 표시
- * - Score 높은 순서대로 정렬 (클라이언트 측)
- * - 여러 개의 매칭 키워드 배지 표시
- */
-function loadEnterNews() {
-    const newsLoading = document.getElementById('newsLoading');
-    const newsContainer = document.getElementById('newsContainer');
-
-    // 로딩 상태 표시
-    newsLoading.style.display = 'block';
-    newsContainer.style.display = 'none';
-    newsContainer.innerHTML = ''; // 기존 내용 제거
-
-    // ENTER_NEWS_API 엔드포인트 호출
-    fetch(ENTER_NEWS_API)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('네트워크 응답이 실패했습니다.');
-            }
-            return response.json();
-        })
-        .then(newsList => {
-            // 디버깅: API 응답 확인
-            console.log('📰 엔터뉴스 API 응답:', newsList);
-            console.log('응답 타입:', typeof newsList);
-            console.log('배열 여부:', Array.isArray(newsList));
-            console.log('뉴스 개수:', newsList ? newsList.length : 0);
-
-            // 로딩 숨김
-            newsLoading.style.display = 'none';
-            newsContainer.style.display = 'block';
-
-            // 데이터가 없는 경우
-            if (!newsList || newsList.length === 0) {
-                newsContainer.innerHTML = '<div class="col-12 text-center text-muted py-5">표시할 뉴스가 없습니다.</div>';
-                return;
-            }
-
-            // Score 내림차순 정렬 (높은 점수 → 낮은 점수)
-            newsList.sort((a, b) => b.score - a.score);
-
-            // 뉴스 카드 생성 (3열 그리드 레이아웃, 여러 키워드 배지 표시)
-            newsContainer.innerHTML = newsList.map(news => {
-                // 매칭된 키워드 배지 생성 (모두 동일한 파란색)
-                const keywordBadges = news.matchedKeywords && news.matchedKeywords.length > 0
-                    ? news.matchedKeywords.map(kw =>
-                        `<span class="badge bg-primary me-1" style="font-size: 0.75rem;">${kw}</span>`
-                    ).join('')
-                    : `<span class="badge bg-primary" style="font-size: 0.75rem;">${news.keyword || '-'}</span>`;
-
-                return `
-                    <div class="col-12">
-                        <div class="card h-100 border-0 shadow-sm news-card" style="cursor: pointer;" onclick="window.open('${news.link}', '_blank')">
-                            <div class="card-body">
-                                <div class="mb-2">
-                                    ${keywordBadges}
-                                </div>
-                                <h6 class="card-title fw-bold text-truncate-2">${news.title}</h6>
-                                <p class="card-text text-muted small text-truncate-3">${news.description}</p>
-                                <div class="mt-2">
-                                    <small class="text-muted">${formatNewsDate(news.pubDate)}</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                `;
-            }).join('');
-
-            // GA4 이벤트 추적
-            if (typeof trackEvent === 'function') {
-                trackEvent('enter_news_load', {
-                    news_count: newsList.length,
-                    event_category: 'content_view'
-                });
-            }
-        })
-        .catch(error => {
-            // 에러 처리
-            newsLoading.style.display = 'none';
-            newsContainer.style.display = 'block';
-            newsContainer.innerHTML = '<div class="col-12 text-center text-danger py-5">뉴스를 불러오는데 실패했습니다.</div>';
-            console.error('뉴스 로딩 에러:', error);
-        });
-}
 
 /**
  * 날짜 포맷 헬퍼 함수 (상대 시간 표시)
