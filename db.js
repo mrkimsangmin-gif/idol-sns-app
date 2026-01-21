@@ -20,9 +20,9 @@ const STORE_NEWS = 'news';
 // TTL 설정 (밀리초)
 const TTL_SNS_DATA = 24 * 60 * 60 * 1000; // 24시간
 const TTL_METADATA = 7 * 24 * 60 * 60 * 1000; // 7일
-const TTL_MONTHS = 6 * 60 * 60 * 1000; // 6시간
-const TTL_LINKS = 6 * 60 * 60 * 1000; // 6시간
-const TTL_NEWS = 6 * 60 * 60 * 1000; // 6시간
+const TTL_MONTHS = 24 * 60 * 60 * 1000; // 24시간 (캐시 만료 빈도 감소)
+const TTL_LINKS = 24 * 60 * 60 * 1000; // 24시간
+const TTL_NEWS = 12 * 60 * 60 * 1000; // 12시간
 
 /**
  * IndexedDB 초기화 및 연결
@@ -179,6 +179,56 @@ async function getSnsData(gender, sns, month) {
 }
 
 /**
+ * SNS 데이터 조회 (Stale-While-Revalidate)
+ * 만료된 데이터도 반환하되 isStale 플래그로 표시
+ * @param {string} gender - 성별
+ * @param {string} sns - SNS 종류
+ * @param {string} month - 월
+ * @returns {Promise<{data: Array|null, isStale: boolean}>}
+ */
+async function getSnsDataWithStale(gender, sns, month) {
+  const db = await openDatabase();
+  const key = `${gender}_${sns}_${month}`;
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([STORE_SNS_DATA], 'readonly');
+    const store = transaction.objectStore(STORE_SNS_DATA);
+    const request = store.get(key);
+
+    request.onsuccess = () => {
+      const record = request.result;
+
+      if (!record) {
+        console.log(`📭 IndexedDB 캐시 미스: ${key}`);
+        resolve({ data: null, isStale: false });
+        return;
+      }
+
+      // TTL 확인
+      const age = Date.now() - record.timestamp;
+      const isStale = age > record.ttl;
+
+      if (isStale) {
+        console.log(`⏰ IndexedDB 캐시 만료 (Stale 데이터 반환): ${key} (${Math.round(age / 3600000)}시간 경과)`);
+      } else {
+        console.log(`⚡ IndexedDB 캐시 히트: ${key} (${record.data.length}개 항목)`);
+      }
+
+      resolve({ data: record.data, isStale });
+    };
+
+    request.onerror = () => {
+      console.error(`❌ IndexedDB 조회 실패: ${key}`, request.error);
+      reject(request.error);
+    };
+
+    transaction.oncomplete = () => {
+      db.close();
+    };
+  });
+}
+
+/**
  * SNS 데이터 삭제
  * @param {string} gender - 성별
  * @param {string} sns - SNS 종류
@@ -286,6 +336,55 @@ async function getMonths(gender, sns) {
 
       console.log(`⚡ 월 목록 캐시 히트: ${key} (${record.months.length}개월)`);
       resolve(record.months);
+    };
+
+    request.onerror = () => {
+      console.error(`❌ 월 목록 조회 실패: ${key}`, request.error);
+      reject(request.error);
+    };
+
+    transaction.oncomplete = () => {
+      db.close();
+    };
+  });
+}
+
+/**
+ * 월 목록 조회 (Stale-While-Revalidate)
+ * 만료된 데이터도 반환하되 isStale 플래그로 표시
+ * @param {string} gender - 성별
+ * @param {string} sns - SNS 종류
+ * @returns {Promise<{data: Array<string>|null, isStale: boolean}>}
+ */
+async function getMonthsWithStale(gender, sns) {
+  const db = await openDatabase();
+  const key = `${gender}_${sns}`;
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([STORE_MONTHS], 'readonly');
+    const store = transaction.objectStore(STORE_MONTHS);
+    const request = store.get(key);
+
+    request.onsuccess = () => {
+      const record = request.result;
+
+      if (!record) {
+        console.log(`📭 월 목록 캐시 미스: ${key}`);
+        resolve({ data: null, isStale: false });
+        return;
+      }
+
+      // TTL 확인
+      const age = Date.now() - record.timestamp;
+      const isStale = age > record.ttl;
+
+      if (isStale) {
+        console.log(`⏰ 월 목록 캐시 만료 (Stale 데이터 반환): ${key}`);
+      } else {
+        console.log(`⚡ 월 목록 캐시 히트: ${key} (${record.months.length}개월)`);
+      }
+
+      resolve({ data: record.months, isStale });
     };
 
     request.onerror = () => {
@@ -653,14 +752,23 @@ async function getCacheStats() {
   return stats;
 }
 
-// 페이지 로드 시 만료 데이터 자동 정리 (백그라운드)
+// 페이지 로드 시 만료 데이터 자동 정리 (브라우저 유휴 시에만 실행)
 if (typeof window !== 'undefined') {
   window.addEventListener('load', () => {
-    // 10초 후 정리 시작 (초기 로딩 방해 방지)
-    setTimeout(() => {
+    // requestIdleCallback을 사용하여 브라우저가 유휴 상태일 때만 실행
+    // 초기 로딩 성능에 영향을 주지 않음
+    const runCleanup = () => {
       cleanupExpiredData().catch(err => {
         console.error('캐시 정리 실패:', err);
       });
-    }, 10000);
+    };
+
+    if ('requestIdleCallback' in window) {
+      // 최대 60초 대기 후 실행 (브라우저가 계속 바쁘더라도)
+      requestIdleCallback(runCleanup, { timeout: 60000 });
+    } else {
+      // requestIdleCallback 미지원 브라우저는 60초 후 실행
+      setTimeout(runCleanup, 60000);
+    }
   });
 }
