@@ -56,13 +56,82 @@ let isMetadataPrefetching = false;   // 메타데이터 프리페칭 진행 중 
 let metadataLoadedFor = new Set();   // 이미 로드된 성별 추적 (예: Set(['남자', '여자']))
 let isLoadingFull = false;           // 전체 데이터 백그라운드 로딩 중 플래그
 
-// 초기 로드 (점진적 로딩: IndexedDB → API)
+/**
+ * 정적 JSON 데이터 로드 (즉시 렌더링용)
+ * 기본 화면(남자/웨이보/최신월/Top30) 데이터를 정적 파일에서 즉시 로드
+ * @returns {Promise<Object|null>} - 정적 데이터 또는 null
+ */
+async function loadStaticInitialData() {
+    try {
+        const response = await fetch('./data/initial-data.json');
+        if (!response.ok) return null;
+
+        const data = await response.json();
+
+        // 데이터가 비어있으면 null 반환
+        if (!data.data || data.data.length === 0) {
+            console.warn('⚠️ 정적 데이터가 비어있음, GAS API 사용');
+            return null;
+        }
+
+        // 데이터 신선도 확인 (45일 이상 오래되면 무시)
+        const generated = new Date(data.generated);
+        const age = Date.now() - generated.getTime();
+        const MAX_AGE = 45 * 24 * 60 * 60 * 1000; // 45일
+
+        if (age > MAX_AGE) {
+            console.warn('⚠️ 정적 데이터 만료됨, GAS API 사용');
+            return null;
+        }
+
+        return data;
+    } catch (e) {
+        console.warn('정적 데이터 로드 실패:', e);
+        return null;
+    }
+}
+
+// 초기 로드 (점진적 로딩: 정적 JSON → IndexedDB → API)
 async function loadData(isInit = true) {
-    console.log("⚡ Loading data with IndexedDB cache...");
-    showLoading(true);
+    console.log("⚡ Loading data...");
 
     const gender = document.getElementById('gender').value;
     const sns = document.getElementById('sns').value;
+
+    // 🚀 0단계: 정적 JSON 즉시 로드 (남자/웨이보 기본값인 경우)
+    if (isInit && gender === '남자' && sns === '웨이보') {
+        const staticData = await loadStaticInitialData();
+        if (staticData) {
+            console.log('⚡⚡⚡ 정적 데이터 즉시 로드! (0ms)');
+
+            cachedData = staticData.data;
+            cachedMonths = staticData.meta.allMonths;
+
+            // 현재 필터 저장
+            window.currentFilter = { gender, sns };
+
+            updateMonthOptions(cachedMonths);
+            document.getElementById('month').value = staticData.meta.latestMonth;
+            document.getElementById('monthDropdown').innerHTML = formatYearMonth(staticData.meta.latestMonth);
+
+            // 즉시 렌더링 (0.1초 이내!)
+            renderList(staticData.meta.latestMonth);
+
+            // Top 10 메타데이터 프리페칭
+            prefetchTopIdolsMetadata(gender);
+
+            showLoading(false);
+
+            // 백그라운드에서 전체 데이터 로드 (최신 데이터 동기화)
+            setTimeout(() => loadFullDataInBackground(gender, sns), 100);
+            return;
+        }
+    }
+
+    // 기존 로직 (IndexedDB → API)
+    showLoading(true);
+
+    // gender와 sns는 이미 위에서 선언됨 (정적 데이터 로드 실패 시 이쪽으로 진입)
 
     // gender나 sns가 변경되면 기존 메모리 캐시 초기화
     if (window.currentFilter &&
@@ -75,30 +144,36 @@ async function loadData(isInit = true) {
     window.currentFilter = { gender, sns };
 
     try {
-        // 🚀 0단계: IndexedDB에서 월 목록 조회
-        let monthsFromDB = await getMonths(gender, sns).catch(() => null);
+        // 🚀 0단계: IndexedDB에서 월 목록 조회 (Stale-While-Revalidate)
+        const monthsResult = await getMonthsWithStale(gender, sns).catch(() => ({ data: null, isStale: false }));
+        let monthsFromDB = monthsResult.data;
+        let needsMonthsRefresh = monthsResult.isStale;
 
         if (monthsFromDB && monthsFromDB.length > 0) {
-            console.log('⚡ 월 목록 IndexedDB 히트!');
+            console.log(monthsResult.isStale ? '⏰ 월 목록 Stale 데이터 사용 (백그라운드 갱신 예정)' : '⚡ 월 목록 IndexedDB 히트!');
             cachedMonths = monthsFromDB;
             updateMonthOptions(cachedMonths);
 
-            // 최신 2개월 데이터 IndexedDB에서 로드 시도
+            // 최신 2개월 데이터 IndexedDB에서 로드 시도 (Stale-While-Revalidate)
             const latestMonth = cachedMonths[cachedMonths.length - 1];
             const prevMonth = cachedMonths.length > 1 ? cachedMonths[cachedMonths.length - 2] : null;
 
-            const latestData = await getSnsData(gender, sns, latestMonth).catch(() => null);
-            const prevData = prevMonth ? await getSnsData(gender, sns, prevMonth).catch(() => null) : null;
+            const latestResult = await getSnsDataWithStale(gender, sns, latestMonth).catch(() => ({ data: null, isStale: false }));
+            const prevResult = prevMonth ? await getSnsDataWithStale(gender, sns, prevMonth).catch(() => ({ data: null, isStale: false })) : { data: null, isStale: false };
+
+            const latestData = latestResult.data;
+            const prevData = prevResult.data;
+            const needsDataRefresh = latestResult.isStale || prevResult.isStale || needsMonthsRefresh;
 
             if (latestData && latestData.length > 0) {
-                console.log('⚡⚡ IndexedDB에서 즉시 로드 성공!');
+                console.log(needsDataRefresh ? '⏰ Stale 데이터로 즉시 렌더링 (백그라운드 갱신 예정)' : '⚡⚡ IndexedDB에서 즉시 로드 성공!');
                 cachedData = prevData ? [...prevData, ...latestData] : latestData;
 
                 // 최신 월 선택
                 document.getElementById('month').value = latestMonth;
                 document.getElementById('monthDropdown').innerHTML = formatYearMonth(latestMonth);
 
-                // 즉시 렌더링 (0.1초 이내)
+                // 즉시 렌더링 (0.1초 이내) - 캐시 만료 여부와 무관하게 즉시 표시
                 renderList(latestMonth);
 
                 // ⭐ Top 10 메타데이터 우선 로드
@@ -106,11 +181,13 @@ async function loadData(isInit = true) {
 
                 showLoading(false);
 
-                // 백그라운드에서 전체 데이터 업데이트
-                setTimeout(() => loadFullDataInBackground(gender, sns), 100);
-                return; // 조기 반환 (캐시 히트)
+                // 백그라운드에서 전체 데이터 업데이트 (Stale 데이터인 경우 더 빠르게 갱신)
+                const refreshDelay = needsDataRefresh ? 50 : 100;
+                setTimeout(() => loadFullDataInBackground(gender, sns), refreshDelay);
+                return; // 조기 반환 (캐시 히트 또는 Stale 데이터 사용)
             }
         }
+
 
         // 🚀 1단계: IndexedDB 미스 → API 호출 (상위 10개 우선)
         console.log('📡 IndexedDB 미스, API 호출 중...');
@@ -377,19 +454,52 @@ async function handleMonthChange() {
     }
 }
 
-// 로딩 스피너 제어
+// 로딩 스피너 제어 (스켈레톤 UI)
 function showLoading(isLoading) {
     const resultArea = document.getElementById('result-area');
     if (isLoading) {
-        resultArea.innerHTML = '<div class="text-center py-5"><div class="spinner-border text-primary"></div><p class="mt-2">최신 데이터 불러오는 중...</p></div>';
-    } else {
-        // ✅ 로딩 완료 시 스피너만 제거 (카드는 renderList에서 처리)
-        const spinner = resultArea.querySelector('.spinner-border');
-        if (spinner) {
-            spinner.parentElement.remove();
+        // 스켈레톤 카드 8개 표시 (실제 카드 모양과 유사)
+        const skeletonCards = Array(8).fill(`
+            <div class="col-12">
+                <div class="idol-card skeleton-card" style="background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite;">
+                    <div class="rank-badge" style="background: #ddd; color: transparent;">0</div>
+                    <div class="flex-grow-1 ps-2">
+                        <div style="height: 20px; width: 80px; background: #ddd; border-radius: 4px; margin-bottom: 6px;"></div>
+                        <div style="height: 14px; width: 120px; background: #e5e5e5; border-radius: 4px;"></div>
+                    </div>
+                    <div class="text-end">
+                        <div style="height: 24px; width: 60px; background: #ddd; border-radius: 4px; margin-left: auto; margin-bottom: 4px;"></div>
+                        <div style="height: 14px; width: 80px; background: #e5e5e5; border-radius: 4px; margin-left: auto;"></div>
+                    </div>
+                </div>
+            </div>
+        `).join('');
+
+        // 스켈레톤 애니메이션 CSS 추가 (한 번만)
+        if (!document.getElementById('skeleton-style')) {
+            const style = document.createElement('style');
+            style.id = 'skeleton-style';
+            style.textContent = `
+                @keyframes shimmer {
+                    0% { background-position: -200% 0; }
+                    100% { background-position: 200% 0; }
+                }
+                .skeleton-card {
+                    pointer-events: none;
+                    opacity: 0.7;
+                }
+            `;
+            document.head.appendChild(style);
         }
+
+        resultArea.innerHTML = skeletonCards;
+    } else {
+        // ✅ 로딩 완료 시 스켈레톤 카드 제거 (renderList가 새 내용으로 대체)
+        const skeletonCards = resultArea.querySelectorAll('.skeleton-card');
+        skeletonCards.forEach(card => card.closest('.col-12')?.remove());
     }
 }
+
 
 // 데이터 렌더링 (클라이언트에서 계산)
 function renderList(targetMonth) {
