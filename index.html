@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO Meta Tags -->
+    <link rel="icon" type="image/png" href="favicon_aimcontents.png">
     <title>K-Idol SNS Ranking | 아이엠콘텐츠</title>
     <meta name="description"
         content="K-POP 아이돌 SNS 팔로워 순위, 컴백 일정, 실시간 엔터테인먼트 뉴스를 한눈에 확인하세요. 웨이보, 빌리빌리, 유튜브, 스포티파이 등 주요 SNS 플랫폼의 최신 순위 정보를 제공합니다.">
@@ -79,6 +80,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" onclick="route('links')">링크모음</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="route('jobs')">채용정보</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" onclick="route('team')">Team</a>
@@ -262,6 +266,57 @@
                 <!-- JS에서 동적 생성 -->
             </div>
         </section>
+
+        <section id="page-jobs" class="page-section d-none">
+            <h4 class="mb-3 fw-bold">엔터테인먼트 채용정보</h4>
+
+            <!-- 카테고리 필터 탭 -->
+            <div id="jobsCategoryTabs" class="jobs-category-tabs mb-3">
+                <button class="jobs-category-tab active" data-category="all" onclick="filterJobsByCategory('all')">
+                    전체
+                </button>
+                <button class="jobs-category-tab" data-category="A&R" onclick="filterJobsByCategory('A&R')">
+                    A&R
+                </button>
+                <button class="jobs-category-tab" data-category="마케팅" onclick="filterJobsByCategory('마케팅')">
+                    마케팅
+                </button>
+                <button class="jobs-category-tab" data-category="매니지먼트" onclick="filterJobsByCategory('매니지먼트')">
+                    매니지먼트
+                </button>
+                <button class="jobs-category-tab" data-category="콘텐츠제작" onclick="filterJobsByCategory('콘텐츠제작')">
+                    콘텐츠제작
+                </button>
+                <button class="jobs-category-tab" data-category="디자인" onclick="filterJobsByCategory('디자인')">
+                    디자인
+                </button>
+                <button class="jobs-category-tab" data-category="기타" onclick="filterJobsByCategory('기타')">
+                    기타
+                </button>
+            </div>
+
+            <!-- 로딩 -->
+            <div id="jobsLoading" class="text-center py-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2 text-muted">채용정보를 불러오는 중...</p>
+            </div>
+
+            <!-- 채용 카드 목록 -->
+            <div id="jobsContainer" class="row g-3" style="display: none;">
+                <!-- JS에서 동적 생성 -->
+            </div>
+
+            <!-- 출처 표기 -->
+            <div class="jobs-disclaimer mt-4">
+                <small class="text-muted">
+                    💼 본 채용 정보는 사람인·잡코리아 등 외부 채용 사이트에 등록된 공개 정보를 기반으로 한 링크 큐레이션 서비스입니다.
+                    채용 관련 모든 상세 내용 및 지원은 원문 사이트에서 확인하시기 바랍니다.
+                </small>
+            </div>
+        </section>
+
         <section id="page-team" class="page-section d-none">
             <div class="alert alert-info">Team 페이지입니다.</div>
         </section>
