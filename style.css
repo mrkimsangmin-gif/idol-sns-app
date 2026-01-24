@@ -489,6 +489,11 @@
     color: #666;
 }
 
+.job-dday.always {
+    background: #e9ecef;
+    color: #888;
+}
+
 .job-title {
     font-size: 1.1rem;
     font-weight: 700;
