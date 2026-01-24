@@ -783,6 +783,11 @@ function route(pageId) {
     if (pageId === 'links') {
         loadLinks();
     }
+
+    // 채용정보 페이지 진입 시 자동으로 채용 로딩
+    if (pageId === 'jobs') {
+        loadJobs();
+    }
 }
 
 // ========================================
@@ -1679,6 +1684,11 @@ function selectLinksCategory(category) {
     }
 }
 
+// 서브카테고리 정렬 순서 (차트/집계)
+const SUBCATEGORY_ORDER = {
+    '차트/집계': ['음반 판매/집계', '국내 음원', '글로벌 음원']
+};
+
 // 링크 콘텐츠 렌더링
 function renderLinksContent(category) {
     const container = document.getElementById('linksContainer');
@@ -1693,7 +1703,22 @@ function renderLinksContent(category) {
 
     let html = '';
 
-    Object.entries(categoryData.subcategories).forEach(([subcat, links]) => {
+    // 서브카테고리 정렬
+    let subcatEntries = Object.entries(categoryData.subcategories);
+    if (SUBCATEGORY_ORDER[category]) {
+        const order = SUBCATEGORY_ORDER[category];
+        subcatEntries.sort((a, b) => {
+            const indexA = order.indexOf(a[0]);
+            const indexB = order.indexOf(b[0]);
+            // 순서에 없는 항목은 맨 뒤로
+            if (indexA === -1 && indexB === -1) return 0;
+            if (indexA === -1) return 1;
+            if (indexB === -1) return -1;
+            return indexA - indexB;
+        });
+    }
+
+    subcatEntries.forEach(([subcat, links]) => {
         html += `
             <div class="subcategory-section">
                 <h5 class="subcategory-title">${subcat}</h5>
@@ -1822,3 +1847,247 @@ document.addEventListener('DOMContentLoaded', () => {
         linksSearchInput.addEventListener('input', debouncedLinksSearch);
     }
 });
+
+// ========================================
+// 💼 채용정보 기능
+// ========================================
+
+let jobsData = null;
+let jobsLoaded = false;
+let currentJobsCategory = 'all';
+let isPrefetchingJobs = false;
+
+/**
+ * 채용정보 데이터 프리페칭
+ */
+async function prefetchJobsData() {
+    if (jobsLoaded || isPrefetchingJobs) {
+        console.log('⏭️ 채용 프리페칭 스킵');
+        return;
+    }
+
+    isPrefetchingJobs = true;
+    console.log('💼 채용 데이터 프리페칭 시작...');
+
+    try {
+        const cachedJobs = await getJobsCache().catch(() => null);
+        if (cachedJobs) {
+            jobsData = cachedJobs;
+            jobsLoaded = true;
+            console.log('⚡ 채용 프리페칭: IndexedDB 캐시 히트');
+            return;
+        }
+
+        const response = await fetch(`${API_URL}?action=getJobs`);
+        const result = await response.json();
+
+        if (result.status === 'success') {
+            jobsData = result;
+            jobsLoaded = true;
+            await saveJobsCache(result);
+            console.log('✅ 채용 프리페칭 완료');
+        }
+    } catch (error) {
+        console.warn('채용 프리페칭 실패:', error);
+    } finally {
+        isPrefetchingJobs = false;
+    }
+}
+
+/**
+ * 채용정보 데이터 로드
+ */
+async function loadJobs() {
+    // 메모리 캐시 사용
+    if (jobsLoaded && jobsData) {
+        console.log('✅ 채용 데이터 메모리 캐시 사용');
+        renderJobs(jobsData.data);
+        updateJobsInBackground();
+        return;
+    }
+
+    const loadingEl = document.getElementById('jobsLoading');
+    const containerEl = document.getElementById('jobsContainer');
+
+    loadingEl.style.display = 'block';
+    containerEl.style.display = 'none';
+
+    try {
+        // IndexedDB 캐시 확인
+        const cachedJobs = await getJobsCache().catch(() => null);
+
+        if (cachedJobs) {
+            console.log('⚡ IndexedDB 채용 캐시 히트!');
+            jobsData = cachedJobs;
+            jobsLoaded = true;
+            renderJobs(cachedJobs.data);
+            loadingEl.style.display = 'none';
+            updateJobsInBackground();
+            return;
+        }
+
+        // API 호출
+        console.log('📡 채용 캐시 미스, API 호출 중...');
+        const response = await fetch(`${API_URL}?action=getJobs`);
+        const result = await response.json();
+
+        if (result.status === 'success') {
+            jobsData = result;
+            jobsLoaded = true;
+
+            saveJobsCache(result).catch(err => {
+                console.warn('채용 캐시 저장 실패:', err);
+            });
+
+            renderJobs(result.data);
+            console.log(`✅ 채용 데이터 로드 완료 (${result.data.length}개)`);
+
+            if (typeof trackEvent === 'function') {
+                trackEvent('jobs_page_load', {
+                    job_count: result.data.length,
+                    event_category: 'content_view'
+                });
+            }
+        } else {
+            throw new Error(result.message || '채용 로드 실패');
+        }
+    } catch (error) {
+        console.error('채용 로드 실패:', error);
+        containerEl.innerHTML = '<div class="col-12"><div class="alert alert-danger">채용정보를 불러오는데 실패했습니다.</div></div>';
+        containerEl.style.display = 'block';
+    } finally {
+        loadingEl.style.display = 'none';
+    }
+}
+
+/**
+ * 백그라운드에서 채용 데이터 업데이트
+ */
+async function updateJobsInBackground() {
+    console.log('📥 백그라운드에서 채용 데이터 업데이트 중...');
+
+    try {
+        const response = await fetch(`${API_URL}?action=getJobs`);
+        const result = await response.json();
+
+        if (result.status === 'success') {
+            await saveJobsCache(result);
+            jobsData = result;
+            console.log('✅ 채용 캐시 백그라운드 업데이트 완료');
+        }
+    } catch (error) {
+        console.warn('채용 백그라운드 업데이트 실패:', error);
+    }
+}
+
+/**
+ * 채용 카드 렌더링
+ */
+function renderJobs(jobs) {
+    const containerEl = document.getElementById('jobsContainer');
+    const loadingEl = document.getElementById('jobsLoading');
+
+    containerEl.innerHTML = '';
+
+    // 필터 적용
+    let filteredJobs = jobs;
+    if (currentJobsCategory !== 'all') {
+        filteredJobs = jobs.filter(job => job.category === currentJobsCategory);
+    }
+
+    if (!filteredJobs || filteredJobs.length === 0) {
+        containerEl.innerHTML = `
+            <div class="col-12">
+                <div class="alert alert-info">
+                    ${currentJobsCategory === 'all' ? '등록된 채용공고가 없습니다.' : `"${currentJobsCategory}" 분야 채용공고가 없습니다.`}
+                </div>
+            </div>
+        `;
+        loadingEl.style.display = 'none';
+        containerEl.style.display = 'block';
+        return;
+    }
+
+    filteredJobs.forEach((job, index) => {
+        const col = document.createElement('div');
+        col.className = 'col-12 col-md-6 col-lg-4';
+        col.innerHTML = createJobCard(job, index);
+        containerEl.appendChild(col);
+    });
+
+    loadingEl.style.display = 'none';
+    containerEl.style.display = 'flex';
+}
+
+/**
+ * 채용 카드 HTML 생성
+ */
+function createJobCard(job, index) {
+    const isUrgent = job.dday !== undefined && job.dday <= 3;
+    const ddayText = job.dday !== undefined
+        ? (job.dday === 0 ? 'D-Day' : (job.dday > 0 ? `D-${job.dday}` : '마감'))
+        : '';
+
+    const deadlineText = job.deadline
+        ? new Date(job.deadline).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric' })
+        : '';
+
+    return `
+        <div class="job-card ${isUrgent ? 'urgent' : ''}">
+            <div class="job-card-header">
+                <span class="job-company">${job.company || '-'}</span>
+                ${ddayText ? `<span class="job-dday ${isUrgent ? 'urgent' : 'normal'}">${ddayText}</span>` : ''}
+            </div>
+            <h6 class="job-title">${job.position || '-'}</h6>
+            <div class="job-info">
+                <span>📍 ${job.location || '-'}</span>
+                <span>👤 ${job.career || '무관'}</span>
+                ${deadlineText ? `<span>📅 ~${deadlineText}</span>` : ''}
+            </div>
+            <span class="job-category-tag">${job.category || '기타'}</span>
+            <div class="job-actions">
+                <a href="${job.url}" target="_blank" rel="noopener" class="btn btn-primary" onclick="trackJobClick('${job.company}', '${job.position}', ${index})">
+                    ${job.source || '상세보기'} 바로가기
+                </a>
+            </div>
+        </div>
+    `;
+}
+
+/**
+ * 카테고리별 필터링
+ */
+function filterJobsByCategory(category) {
+    currentJobsCategory = category;
+
+    // 탭 활성화 상태 업데이트
+    document.querySelectorAll('.jobs-category-tab').forEach(tab => {
+        tab.classList.toggle('active', tab.dataset.category === category);
+    });
+
+    if (jobsData && jobsData.data) {
+        renderJobs(jobsData.data);
+    }
+
+    if (typeof trackEvent === 'function') {
+        trackEvent('jobs_filter', {
+            category: category,
+            event_category: 'user_engagement'
+        });
+    }
+}
+
+/**
+ * 채용 클릭 추적
+ */
+function trackJobClick(company, position, index) {
+    if (typeof trackEvent === 'function') {
+        trackEvent('job_click', {
+            company: company,
+            position: position,
+            index: index + 1,
+            category: currentJobsCategory,
+            event_category: 'outbound_link'
+        });
+    }
+}
