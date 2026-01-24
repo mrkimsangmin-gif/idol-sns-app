@@ -2023,26 +2023,46 @@ function renderJobs(jobs) {
  * 채용 카드 HTML 생성
  */
 function createJobCard(job, index) {
-    const isUrgent = job.dday !== undefined && job.dday <= 3;
-    const ddayText = job.dday !== undefined
-        ? (job.dday === 0 ? 'D-Day' : (job.dday > 0 ? `D-${job.dday}` : '마감'))
-        : '';
+    // 상시채용 여부 확인
+    const isAlwaysOpen = job.deadline === '상시채용' || !job.deadline;
 
-    const deadlineText = job.deadline
+    // D-day 계산 및 텍스트 생성
+    let ddayText = '';
+    let ddayClass = 'normal';
+
+    if (isAlwaysOpen) {
+        ddayText = '상시';
+        ddayClass = 'always'; // 회색 스타일
+    } else if (job.dday !== undefined) {
+        if (job.dday === 0) {
+            ddayText = 'D-Day';
+            ddayClass = 'urgent';
+        } else if (job.dday > 0) {
+            ddayText = `D-${job.dday}`;
+            ddayClass = job.dday <= 3 ? 'urgent' : 'normal';
+        } else {
+            ddayText = '마감';
+            ddayClass = 'expired';
+        }
+    }
+
+    const isUrgent = !isAlwaysOpen && job.dday !== undefined && job.dday <= 3 && job.dday >= 0;
+
+    const deadlineText = (job.deadline && job.deadline !== '상시채용')
         ? new Date(job.deadline).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric' })
-        : '';
+        : (isAlwaysOpen ? '상시채용' : '');
 
     return `
         <div class="job-card ${isUrgent ? 'urgent' : ''}">
             <div class="job-card-header">
                 <span class="job-company">${job.company || '-'}</span>
-                ${ddayText ? `<span class="job-dday ${isUrgent ? 'urgent' : 'normal'}">${ddayText}</span>` : ''}
+                ${ddayText ? `<span class="job-dday ${ddayClass}">${ddayText}</span>` : ''}
             </div>
             <h6 class="job-title">${job.position || '-'}</h6>
             <div class="job-info">
                 <span>📍 ${job.location || '-'}</span>
                 <span>👤 ${job.career || '무관'}</span>
-                ${deadlineText ? `<span>📅 ~${deadlineText}</span>` : ''}
+                ${deadlineText ? `<span>📅 ${isAlwaysOpen ? '' : '~'}${deadlineText}</span>` : ''}
             </div>
             <span class="job-category-tag">${job.category || '기타'}</span>
             <div class="job-actions">
