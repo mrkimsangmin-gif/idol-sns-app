@@ -540,3 +540,167 @@
     border-radius: 8px;
     border: 1px solid #e9ecef;
 }
+
+/* ========================================
+   도우인 챌린지 페이지 스타일 (라이트 테마)
+   ======================================== */
+
+.douyin-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    border: 1px solid #f0f0f0;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.douyin-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    border-color: #e0e0e0;
+}
+
+/* SNS 랭킹 스타일로 변경 */
+.douyin-rank-badge {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #0061f2;
+    width: 40px;
+    /* 기존 너비 유지 또는 조정 */
+    text-align: center;
+    display: flex;
+    /* flex 유지 */
+    align-items: center;
+    /* flex 유지 */
+    justify-content: center;
+    /* flex 유지 */
+    flex-shrink: 0;
+    background: none;
+    /* 배경 제거 */
+    box-shadow: none;
+    /* 그림자 제거 */
+    border-radius: 0;
+}
+
+/* 썸네일 스타일 - 동적 CSS 스프라이트 방식 */
+.douyin-thumbnail {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f5f5f5 0%, #e9ecef 100%);
+    position: relative;
+}
+
+/* 🔥 스프라이트 이미지 - object-fit: none + object-position으로 위치 조정 */
+/* object-position은 JavaScript onload에서 동적으로 설정됨 */
+.douyin-thumbnail img.sprite-thumb {
+    width: 520%;
+    height: auto;
+    object-fit: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-position: 15.8% 0%;
+    /* 기본값, onload에서 덮어씀 */
+}
+
+/* 🔥 Canvas 기반 썸네일 */
+.douyin-thumbnail .thumb-canvas {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+/* 일반 이미지 (API 개별 썸네일용) */
+.douyin-thumbnail img:not(.sprite-thumb):not(.coord-sprite) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 🔥 순위 배지 스타일 */
+.douyin-thumbnail .rank-badge {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* 이미지 로드 실패 시 */
+.douyin-thumbnail.no-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.douyin-thumbnail.no-image::after {
+    content: attr(data-rank);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.douyin-reason,
+.douyin-tip {
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.douyin-reason strong,
+.douyin-tip strong {
+    color: #333;
+    margin-right: 4px;
+}
+
+/* 바로가기 아이콘 */
+.douyin-link-icon {
+    color: #adb5bd;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.douyin-card:hover .douyin-link-icon {
+    color: #0061f2;
+}
+
+.douyin-disclaimer {
+    padding: 12px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+}
+
+/* 모바일 최적화 */
+@media (max-width: 576px) {
+    .douyin-card {
+        padding: 12px !important;
+    }
+
+    .douyin-rank-badge {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+
+    .douyin-thumbnail {
+        width: 60px;
+        height: 80px;
+    }
+
+    .douyin-card h5 {
+        font-size: 1rem;
+    }
+
+    .douyin-link-icon {
+        display: none;
+    }
+}

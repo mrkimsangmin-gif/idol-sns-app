@@ -788,6 +788,11 @@ function route(pageId) {
     if (pageId === 'jobs') {
         loadJobs();
     }
+
+    // 도우인 챌린지 페이지 진입 시 자동으로 데이터 로딩
+    if (pageId === 'douyin') {
+        loadDouyinChallenges();
+    }
 }
 
 // ========================================
@@ -2111,3 +2116,456 @@ function trackJobClick(company, position, index) {
         });
     }
 }
+
+// ========================================
+// 🇨🇳 도우인 챌린지 기능
+// ========================================
+
+// 도우인 전용 GAS API URL (별도 프로젝트)
+const DOUYIN_API_URL = 'https://script.google.com/macros/s/AKfycbz497bYijjPFuydRCNSY7hdDtI0f78Dov5pUSzgd5IC1xfj3LNKrVwQa9aDnQIU_Gq4fQ/exec';
+
+let douyinData = null;
+let douyinLoaded = false;
+let isPrefetchingDouyin = false;
+
+/**
+ * 도우인 챌린지 데이터 프리페칭 (7초 지연 호출)
+ */
+async function prefetchDouyinData() {
+    if (isPrefetchingDouyin || douyinLoaded) return;
+    isPrefetchingDouyin = true;
+
+    try {
+        console.log('🇨🇳 Starting Douyin challenges prefetch...');
+
+        // IndexedDB 캐시 확인 (IdolDB가 있을 때만)
+        if (typeof IdolDB !== 'undefined') {
+            const cached = await IdolDB.get('douyinChallenges');
+            if (cached && cached.data) {
+                const cacheAge = Date.now() - (cached.timestamp || 0);
+                const TTL = 3 * 60 * 60 * 1000; // 3시간
+
+                if (cacheAge < TTL) {
+                    douyinData = cached.data;
+                    douyinLoaded = true;
+                    console.log('📦 Douyin data loaded from cache');
+                    return;
+                }
+            }
+        }
+
+        // API 호출
+        const response = await fetch(`${DOUYIN_API_URL}?action=getDouyinChallenges`);
+        const result = await response.json();
+
+        if (result.success) {
+            douyinData = result;
+            douyinLoaded = true;
+
+            // IndexedDB에 캐시 (IdolDB가 있을 때만)
+            if (typeof IdolDB !== 'undefined') {
+                await IdolDB.set('douyinChallenges', {
+                    data: result,
+                    timestamp: Date.now()
+                });
+            }
+
+            console.log(`✅ Douyin prefetch complete: ${result.challenges?.length || 0} challenges`);
+        }
+    } catch (error) {
+        console.warn('Douyin prefetch failed:', error);
+    } finally {
+        isPrefetchingDouyin = false;
+    }
+}
+
+/**
+ * 도우인 챌린지 데이터 로드 (IndexedDB 캐시 우선)
+ */
+async function loadDouyinChallenges() {
+    const loading = document.getElementById('douyinLoading');
+    const container = document.getElementById('douyinContainer');
+    const updateTime = document.getElementById('douyinUpdateTime');
+
+    // 이미 로드된 데이터가 있으면 바로 렌더링
+    if (douyinLoaded && douyinData) {
+        console.log('⚡ Using cached Douyin data');
+        loading.style.display = 'none';
+        container.style.display = 'flex';
+        renderDouyinChallenges(douyinData);
+        return;
+    }
+
+    // 로딩 표시
+    loading.style.display = 'block';
+    container.style.display = 'none';
+
+    try {
+        // 1. IndexedDB 캐시 확인 (IdolDB가 있을 때만)
+        if (typeof IdolDB !== 'undefined') {
+            const cached = await IdolDB.get('douyinChallenges');
+            if (cached && cached.data) {
+                const cacheAge = Date.now() - (cached.timestamp || 0);
+                const TTL = 3 * 60 * 60 * 1000; // 3시간
+
+                if (cacheAge < TTL) {
+                    console.log('📦 Loading Douyin from IndexedDB cache');
+                    douyinData = cached.data;
+                    douyinLoaded = true;
+
+                    loading.style.display = 'none';
+                    container.style.display = 'flex';
+                    renderDouyinChallenges(douyinData);
+
+                    // 백그라운드에서 업데이트 체크
+                    updateDouyinInBackground();
+                    return;
+                }
+            }
+        }
+
+        // 2. API 호출
+        console.log('🌐 Fetching Douyin challenges from API...');
+        const response = await fetch(`${DOUYIN_API_URL}?action=getDouyinChallenges`);
+        const result = await response.json();
+
+        if (result.success) {
+            douyinData = result;
+            douyinLoaded = true;
+
+            // IndexedDB에 캐시 (IdolDB가 있을 때만)
+            if (typeof IdolDB !== 'undefined') {
+                await IdolDB.set('douyinChallenges', {
+                    data: result,
+                    timestamp: Date.now()
+                });
+            }
+
+            loading.style.display = 'none';
+            container.style.display = 'flex';
+            renderDouyinChallenges(result);
+        } else {
+            throw new Error(result.message || '데이터 로드 실패');
+        }
+
+    } catch (error) {
+        console.error('Douyin load error:', error);
+        loading.innerHTML = `
+            <div class="alert alert-warning">
+                <strong>데이터를 불러올 수 없습니다</strong><br>
+                <small>${error.message}</small>
+            </div>
+        `;
+    }
+}
+
+/**
+ * 백그라운드에서 도우인 데이터 업데이트
+ */
+async function updateDouyinInBackground() {
+    try {
+        const response = await fetch(`${DOUYIN_API_URL}?action=getDouyinChallenges`);
+        const result = await response.json();
+
+        if (result.success) {
+            douyinData = result;
+
+            if (typeof IdolDB !== 'undefined') {
+                await IdolDB.set('douyinChallenges', {
+                    data: result,
+                    timestamp: Date.now()
+                });
+            }
+
+            console.log('🔄 Douyin data updated in background');
+        }
+    } catch (error) {
+        console.warn('Background Douyin update failed:', error);
+    }
+}
+
+/**
+ * 도우인 챌린지 렌더링
+ */
+function renderDouyinChallenges(data) {
+    const container = document.getElementById('douyinContainer');
+    const updateTime = document.getElementById('douyinUpdateTime');
+
+    // 업데이트 시간 숨김 (비워두기)
+    if (updateTime) {
+        updateTime.innerHTML = '';
+    }
+
+    // 챌린지가 없으면 안내 메시지
+    if (!data.challenges || data.challenges.length === 0) {
+        container.innerHTML = `
+            <div class="col-12">
+                <div class="alert alert-info">
+                    <strong>📢 준비 중</strong><br>
+                    도우인 챌린지 데이터가 곧 업데이트됩니다.
+                </div>
+            </div>
+        `;
+        return;
+    }
+
+    // GA4 이벤트 추적
+    if (typeof trackEvent === 'function') {
+        trackEvent('douyin_view', {
+            challenge_count: data.challenges.length,
+            source: data.source,
+            event_category: 'content_view'
+        });
+    }
+
+    // 🔥 1~20위만 필터링 (20위 이후 데이터 제외)
+    const filteredChallenges = data.challenges
+        .filter(c => parseInt(c.rank) >= 1 && parseInt(c.rank) <= 20)
+        .sort((a, b) => parseInt(a.rank) - parseInt(b.rank));
+
+    // 챌린지 카드 렌더링
+    container.innerHTML = filteredChallenges.map((challenge, index) =>
+        createChallengeCard(challenge, index)
+    ).join('');
+}
+
+/**
+ * 챌린지 카드 HTML 생성 (CSS 스프라이트 방식 지원)
+ * 
+ * 스크린샷 레이아웃 기준:
+ * - 이미지 높이: 1624px
+ * - 헤더: 100px
+ * - 각 항목: 69px
+ * - 썸네일 Y 시작: 100 + (rank-1) * 69 + 10 (여백)
+ */
+/**
+ * 챌린지 카드 HTML 생성 (CSS 스프라이트 방식 - 수정됨)
+ * 
+ * 🔥 수정 내용:
+ * 1. 크롭 이미지 실제 크기(150px)를 기준으로 좌표 적용
+ * 2. 이미지 원본 크기 유지 (스케일링 제거)
+ * 3. 썸네일 표시 크기는 CSS로 조정
+ */
+function createChallengeCard(challenge, index) {
+    const statusBadge = getStatusBadge(challenge.status);
+
+    // 챌린지 URL (도우인 검색 링크)
+    const challengeUrl = challenge.challenge_url || `https://www.douyin.com/search/${encodeURIComponent(challenge.title_zh)}`;
+
+    // 한국어 제목 (AI가 생성한 요약의 첫 문장 또는 직접 번역)
+    const titleKo = challenge.title_ko || challenge.summary_ko?.split('.')[0] || challenge.title_zh;
+
+    // 🔥 썸네일 HTML 생성 - CSS Sprite 방식 (좌표 수정됨)
+    let thumbnailHtml = '';
+    const rank = parseInt(challenge.rank) || 0;
+    const bbox = challenge.thumbnail_bbox || {};
+
+    // 좌표 유효성 확인
+    const hasValidCoords = bbox.x > 0 && bbox.y >= 0 && bbox.width > 0 && bbox.height > 0;
+
+    // 순위별 스타일 (Fallback용)
+    const getRankStyle = (r) => {
+        if (r === 1) return { icon: '🥇', bg: 'linear-gradient(135deg, #FFD700 0%, #FFA500 100%)', color: '#fff' };
+        if (r === 2) return { icon: '🥈', bg: 'linear-gradient(135deg, #C0C0C0 0%, #A0A0A0 100%)', color: '#fff' };
+        if (r === 3) return { icon: '🥉', bg: 'linear-gradient(135deg, #CD7F32 0%, #8B4513 100%)', color: '#fff' };
+        return { icon: '', bg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', color: '#fff' };
+    };
+    const style = getRankStyle(rank);
+
+    if (challenge.cover_url && challenge.cover_url.includes('drive.google.com') && hasValidCoords) {
+        // 🔥 수정된 CSS Sprite 적용
+        // 
+        // 핵심 변경점:
+        // 1. 크롭 이미지 원본 크기(150px)를 기준으로 좌표 적용
+        // 2. 썸네일 표시 영역(60x60)에 맞게 스케일링
+        //
+        // bbox 예시: {x: 73, y: 0, width: 77, height: 100}
+        // - x=73: 왼쪽에서 73px 위치가 썸네일 시작점
+        // - width=77: 썸네일 너비
+        // - height=100: 썸네일 높이 (2000px / 20 = 100)
+
+        // 🔥 표시할 썸네일 크기 (정사각형으로 표시)
+        const displaySize = 60;
+
+        // 🔥 원본 이미지에서 크롭할 영역의 스케일 계산
+        // 정사각형으로 표시하기 위해 width와 height 중 작은 값 기준
+        const cropSize = Math.min(bbox.width, bbox.height);
+        const scale = displaySize / cropSize;
+
+        // 🔥 실제 이미지 크기 (크롭 이미지는 150px 너비)
+        const cropImageWidth = 150;  // 서버에서 저장한 크롭 이미지 너비
+
+        // 스케일링된 이미지 크기
+        const scaledImageWidth = Math.round(cropImageWidth * scale);
+
+        // 스케일링된 좌표
+        const scaledX = Math.round(bbox.x * scale);
+        const scaledY = Math.round(bbox.y * scale);
+
+        thumbnailHtml = `
+            <div class="douyin-thumbnail" style="
+                width: ${displaySize}px; 
+                height: ${displaySize}px; 
+                overflow: hidden; 
+                position: relative;
+                border-radius: 8px;
+                background: #f0f0f0;
+            ">
+                <img src="${challenge.cover_url}" 
+                     alt="${challenge.title_zh}" 
+                     referrerpolicy="no-referrer"
+                     style="
+                         width: ${scaledImageWidth}px; 
+                         max-width: none; 
+                         height: auto; 
+                         position: absolute; 
+                         left: -${scaledX}px; 
+                         top: -${scaledY}px;
+                     "
+                     onerror="this.parentElement.innerHTML='<div class=\\'rank-badge\\' style=\\'background:${style.bg}; width:100%; height:100%; display:flex; align-items:center; justify-content:center; font-weight:bold; color:#fff; border-radius:8px;\\'>${rank}</div>'">
+            </div>
+        `;
+    } else if (challenge.cover_url && !challenge.cover_url.includes('drive.google.com')) {
+        // 개별 URL (API에서 직접 제공하는 경우)
+        thumbnailHtml = `
+            <div class="douyin-thumbnail" style="width:60px; height:60px; border-radius:8px; overflow:hidden;">
+                <img src="${challenge.cover_url}" 
+                     alt="${challenge.title_zh}" 
+                     referrerpolicy="no-referrer"
+                     style="width:100%; height:100%; object-fit:cover;"
+                     onerror="this.parentElement.innerHTML='<div class=\\'rank-badge\\' style=\\'background:${style.bg}; width:100%; height:100%; display:flex; align-items:center; justify-content:center; font-weight:bold; color:#fff; border-radius:8px;\\'>${rank}</div>'">
+            </div>
+        `;
+    } else {
+        // Fallback (이미지 없음)
+        thumbnailHtml = `
+            <div class="douyin-thumbnail" style="width:60px; height:60px;">
+                <div class="rank-badge" style="background:${style.bg}; color:${style.color}; width:100%; height:100%; display:flex; align-items:center; justify-content:center; font-weight:bold; border-radius:8px; font-size:1.5rem;">
+                    ${style.icon || rank}
+                </div>
+            </div>
+        `;
+    }
+
+    return `
+        <div class="col-12">
+            <a href="${challengeUrl}" target="_blank" class="text-decoration-none" onclick="trackChallengeClick('${challenge.title_zh}', ${challenge.rank})">
+                <div class="douyin-card p-3">
+                    <div class="d-flex align-items-center gap-3">
+                        <!-- 순위 배지 -->
+                        <div class="douyin-rank-badge">
+                            ${challenge.rank}
+                        </div>
+                        
+                        <!-- 썸네일 (CSS 스프라이트 또는 개별 이미지) -->
+                        ${thumbnailHtml}
+                        
+                        <!-- 콘텐츠 -->
+                        <div class="flex-grow-1">
+                            <!-- 제목 (한글 + 중국어) -->
+                            <div class="mb-1">
+                                <span class="h5 fw-bold text-dark">${titleKo}</span>
+                                <span class="text-muted small ms-2" style="font-size: 0.85rem;">${challenge.title_zh}</span>
+                            </div>
+                            
+                            <div class="mb-2">
+                                <span class="badge bg-secondary">${challenge.participants} 참여</span>
+                                ${statusBadge}
+                            </div>
+                            
+                            ${challenge.trend_reason ? `
+                                <div class="douyin-reason mb-2">
+                                    <strong>🔥 유행 이유:</strong> ${challenge.trend_reason}
+                                </div>
+                            ` : ''}
+                        </div>
+                        
+                        <!-- 바로가기 아이콘 -->
+                        <div class="douyin-link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    `;
+}
+
+/**
+ * 챌린지 클릭 추적
+ */
+function trackChallengeClick(title, rank) {
+    if (typeof trackEvent === 'function') {
+        trackEvent('douyin_challenge_click', {
+            challenge_title: title,
+            challenge_rank: rank,
+            event_category: 'outbound_link'
+        });
+    }
+}
+
+/**
+ * 상태 배지 생성
+ */
+function getStatusBadge(status) {
+    switch (status) {
+        case 'new':
+            return '<span class="badge bg-success">🆕 NEW</span>';
+        case 'rising':
+            return '<span class="badge bg-danger">🔥 급상승</span>';
+        case 'falling':
+            return '<span class="badge bg-secondary">📉 하락</span>';
+        default:
+            return '';
+    }
+}
+
+/**
+ * 🔥 Canvas 기반 썸네일 렌더링
+ * 저장된 좌표(bbox)를 사용하여 스크린샷에서 정확히 썸네일 영역만 잘라서 표시
+ */
+function initCanvasThumbnails() {
+    const canvases = document.querySelectorAll('.thumb-canvas');
+
+    canvases.forEach(canvas => {
+        const ctx = canvas.getContext('2d');
+        const imgSrc = canvas.dataset.src;
+        const x = parseInt(canvas.dataset.x) || 0;
+        const y = parseInt(canvas.dataset.y) || 0;
+        const width = parseInt(canvas.dataset.width) || 48;
+        const height = parseInt(canvas.dataset.height) || 48;
+
+        if (!imgSrc) return;
+
+        const img = new Image();
+        img.crossOrigin = 'anonymous';
+        img.referrerPolicy = 'no-referrer';
+
+        img.onload = function () {
+            // 원본 이미지에서 bbox 영역만 잘라서 60x60 캔버스에 그리기
+            ctx.drawImage(img, x, y, width, height, 0, 0, 60, 60);
+        };
+
+        img.onerror = function () {
+            // 에러 시 순위 배지로 fallback
+            canvas.style.display = 'none';
+            canvas.parentElement.classList.add('no-image');
+        };
+
+        img.src = imgSrc;
+    });
+}
+
+// 도우인 챌린지 로드 후 Canvas 초기화
+document.addEventListener('DOMContentLoaded', () => {
+    // 기존 로드 완료 후 Canvas 초기화 (약간의 지연)
+    setTimeout(initCanvasThumbnails, 500);
+});
+
+// 도우인 프리페칭 시작 (SNS 랭킹 로드 후 10초 지연)
+setTimeout(() => {
+    prefetchDouyinData();
+}, 10000);

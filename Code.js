@@ -6,6 +6,14 @@ const SHEET_IDS = {
 };
 
 /**
+ * OPTIONS 요청 처리 (CORS 프리플라이트)
+ */
+function doOptions(e) {
+  return ContentService.createTextOutput('')
+    .setMimeType(ContentService.MimeType.JSON);
+}
+
+/**
  * HTTP GET 요청 처리 (웹사이트용 API) - 월별 캐싱 전략
  */
 function doGet(e) {
@@ -18,8 +26,7 @@ function doGet(e) {
       const gender = p.gender || '여자';
       const result = getIdolMetadata(name, gender);
       return ContentService.createTextOutput(JSON.stringify(result))
-        .setMimeType(ContentService.MimeType.JSON)
-        .setHeader('Access-Control-Allow-Origin', '*');
+        .setMimeType(ContentService.MimeType.JSON);
     }
 
     // 전체 메타데이터 조회 (프리페칭용)
@@ -27,8 +34,28 @@ function doGet(e) {
       const gender = p.gender || '남자';
       const result = getAllIdolMetadata(gender);
       return ContentService.createTextOutput(JSON.stringify(result))
-        .setMimeType(ContentService.MimeType.JSON)
-        .setHeader('Access-Control-Allow-Origin', '*');
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
+    // K-POP 링크 모음 조회
+    if (p.action === 'getLinks') {
+      const result = getLinksData();
+      return ContentService.createTextOutput(JSON.stringify(result))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
+    // 채용정보 조회
+    if (p.action === 'getJobs') {
+      const result = getJobsData();
+      return ContentService.createTextOutput(JSON.stringify(result))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
+    // 도우인 챌린지 조회
+    if (p.action === 'getDouyinChallenges') {
+      const result = getDouyinChallenges();
+      return ContentService.createTextOutput(JSON.stringify(result))
+        .setMimeType(ContentService.MimeType.JSON);
     }
 
     // 기존 SNS 데이터 조회
@@ -162,8 +189,7 @@ function doGet(e) {
       },
       data: responseData
     }))
-      .setMimeType(ContentService.MimeType.JSON)
-      .setHeader('Access-Control-Allow-Origin', '*');  // CORS 허용
+      .setMimeType(ContentService.MimeType.JSON);
 
   } catch (error) {
     return createErrorResponse(error.message);
@@ -267,8 +293,92 @@ function createErrorResponse(message) {
     status: 'error',
     message: message
   }))
-    .setMimeType(ContentService.MimeType.JSON)
-    .setHeader('Access-Control-Allow-Origin', '*');  // CORS 허용
+    .setMimeType(ContentService.MimeType.JSON);
+}
+
+// ========================================
+// 📦 초기 데이터 정적 JSON 생성 (월간 업데이트용)
+// ========================================
+
+/**
+ * 초기 화면용 정적 데이터 생성 (남자/웨이보/최신월/Top30)
+ * 월말 데이터 업데이트 후 실행하여 JSON 생성
+ * @returns {Object} - 정적 데이터 객체
+ */
+function generateInitialDataJSON() {
+  const gender = '남자';
+  const sns = '웨이보';
+
+  // 전체 월 목록 가져오기
+  const allMonths = getAllMonthsFromSheet(gender, sns);
+  const latestMonth = allMonths[allMonths.length - 1];
+  const prevMonth = allMonths.length > 1 ? allMonths[allMonths.length - 2] : latestMonth;
+
+  // 최신 2개월 데이터 로드
+  const latestData = loadMonthDataFromSheet(gender, sns, latestMonth);
+  const prevData = loadMonthDataFromSheet(gender, sns, prevMonth);
+
+  // count 기준 정렬 후 상위 30개
+  const sortedLatest = latestData.sort((a, b) => b.count - a.count);
+  const top30 = sortedLatest.slice(0, 30);
+
+  // 전월 데이터에서 Top 30 아이돌의 데이터 추출
+  const top30Names = new Set(top30.map(d => d.name));
+  const prevTop30 = prevData.filter(d => top30Names.has(d.name));
+
+  const result = {
+    generated: new Date().toISOString(),
+    meta: {
+      gender,
+      sns,
+      latestMonth,
+      prevMonth,
+      allMonths
+    },
+    data: [...top30, ...prevTop30]
+  };
+
+  // 결과 로그 출력 (복사 가능)
+  Logger.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  Logger.log('📦 초기 데이터 JSON 생성 완료');
+  Logger.log(`📅 최신 월: ${latestMonth}`);
+  Logger.log(`📊 Top 10: ${top30.slice(0, 10).map(d => d.name).join(', ')}`);
+  Logger.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+  Logger.log('아래 JSON을 data/initial-data.json에 저장하세요:');
+  Logger.log(JSON.stringify(result, null, 2));
+
+  return result;
+}
+
+/**
+ * 월간 데이터 업데이트 알림 이메일 발송
+ * 트리거: 매월 1일 새벽 4시 (수동 설정 필요)
+ */
+function sendInitialDataUpdateEmail() {
+  const result = generateInitialDataJSON();
+  const json = JSON.stringify(result, null, 2);
+
+  MailApp.sendEmail({
+    to: 'mr.kimsangmin@gmail.com',
+    subject: '[KPOP SNS] 월간 초기 데이터 업데이트 알림',
+    body: `새로운 월간 데이터가 생성되었습니다.
+
+아래 JSON을 data/initial-data.json 파일에 저장하세요.
+
+=== JSON 시작 ===
+${json}
+=== JSON 끝 ===
+
+생성 시간: ${new Date().toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' })}
+최신 월: ${result.meta.latestMonth}
+Top 10: ${result.data.filter(d => d.date === result.meta.latestMonth).slice(0, 10).map(d => d.name).join(', ')}
+
+GitHub 저장소에서 data/initial-data.json 파일을 업데이트 해주세요:
+https://github.com/mrkimsangmin-gif/idol-sns-app/
+`
+  });
+
+  Logger.log('✅ 월간 업데이트 이메일 발송 완료');
 }
 
 // ========================================
