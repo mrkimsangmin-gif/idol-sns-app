@@ -85,6 +85,9 @@
                         <a class="nav-link" href="#" onclick="route('jobs')">채용정보</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="route('douyin')">중국트렌드</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#" onclick="route('team')">Team</a>
                     </li>
                 </ul>
@@ -327,6 +330,24 @@
                     채용 관련 모든 상세 내용 및 지원은 원문 사이트에서 확인하시기 바랍니다.
                 </small>
             </div>
+        </section>
+
+        <section id="page-douyin" class="page-section d-none">
+            <h4 class="mb-3 fw-bold">중국 도우인 인기 챌린지</h4>
+
+            <!-- 업데이트 시간 -->
+            <div id="douyinUpdateTime" class="text-muted small mb-3"></div>
+
+            <!-- 로딩 -->
+            <div id="douyinLoading" class="text-center py-5">
+                <div class="spinner-border text-danger" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2 text-muted">챌린지 데이터를 불러오는 중...</p>
+            </div>
+
+            <!-- 챌린지 카드 목록 -->
+            <div id="douyinContainer" class="row g-3" style="display: none;"></div>
         </section>
 
         <section id="page-team" class="page-section d-none">
