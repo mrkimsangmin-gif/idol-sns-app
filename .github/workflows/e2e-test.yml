@@ -12,62 +12,20 @@ jobs:
   test:
     timeout-minutes: 30
     runs-on: ubuntu-latest
-    
     defaults:
       run:
         working-directory: ./aimcontents-e2e
-    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-
       - name: Install dependencies
-        run: npm ci
-
+        run: npm install
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
-
       - name: Run Playwright tests
         run: npx playwright test --project="Desktop Chrome"
-
-      - name: Upload test report
-        uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: playwright-report
-          path: aimcontents-e2e/playwright-report/
-          retention-days: 30
-```
-
-6. 페이지 하단 **Commit changes** 버튼 클릭
-7. 팝업에서 다시 **Commit changes** 클릭
-
----
-
-### 2단계: package.json 생성
-
-1. 다시 저장소 메인 페이지로 이동
-2. **Add file** → **Create new file**
-3. 파일명 입력:
-```
-   aimcontents-e2e/package.json
-
-
-
-
-
-{
-  "name": "aimcontents-e2e-test",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "npx playwright test"
-  },
-  "devDependencies": {
-    "@playwright/test": "^1.40.0"
-  }
-}
+        
