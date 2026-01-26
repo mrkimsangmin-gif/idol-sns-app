@@ -1,0 +1,24 @@
+{
+  "name": "aimcontents-e2e-test",
+  "version": "1.0.0",
+  "description": "aimcontents.com E2E 자동화 테스트",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "npx playwright test --debug",
+    "test:chrome": "npx playwright test --project='Desktop Chrome'",
+    "test:mobile": "npx playwright test --project='iPhone 13' --project='Pixel 5'",
+    "test:all-browsers": "npx playwright test --project='Desktop Chrome' --project='Desktop Firefox' --project='Desktop Safari'",
+    "report": "npx playwright show-report",
+    "codegen": "npx playwright codegen https://aimcontents.com"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  },
+  "keywords": ["playwright", "e2e", "testing", "aimcontents"],
+  "author": "AIM Contents",
+  "license": "MIT"
+}
