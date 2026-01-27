@@ -643,8 +643,8 @@ function renderList(targetMonth) {
                 <div class="idol-card" data-idol-name="${item.name}">
                     <div class="rank-badge">${rank}</div>
                     <div class="flex-grow-1 ps-2">
-                        <h5 class="m-0 fw-bold">${item.name}</h5>
-                        <small class="text-muted">${item.group}</small>
+                        <h5 class="m-0 fw-bold">${String(item.name)}</h5>
+                        <small class="text-muted">${String(item.group)}</small>
                     </div>
                     <div class="text-end">
                         <div class="fw-bold fs-5">${Number(item.current).toLocaleString()}</div>
@@ -763,7 +763,10 @@ function route(pageId) {
     document.getElementById('page-' + pageId).classList.remove('d-none');
 
     document.querySelectorAll('.nav-link').forEach(el => el.classList.remove('active'));
-    event.target.classList.add('active');
+    // event 객체가 있을 때만 실행 (안전장치 추가)
+    if (typeof event !== 'undefined' && event.target) {
+        event.target.classList.add('active');
+    }
 
     // 모바일 메뉴 닫기
     const navbarCollapse = document.getElementById('navbarNav');
@@ -772,6 +775,35 @@ function route(pageId) {
             toggle: false
         });
         bsCollapse.hide();
+    }
+
+    // ============================================================
+    // 📊 GA4 가상 페이지뷰 전송 (SPA 페이지 전환 추적)
+    // ============================================================
+    const PAGE_META = {
+        home: { path: '/', title: 'SNS Ranking | 아이엠콘텐츠' },
+        comeback: { path: '/comeback', title: '컴백일정 | 아이엠콘텐츠' },
+        news: { path: '/news', title: '엔터뉴스 | 아이엠콘텐츠' },
+        links: { path: '/links', title: '링크모음 | 아이엠콘텐츠' },
+        jobs: { path: '/jobs', title: '채용정보 | 아이엠콘텐츠' },
+        douyin: { path: '/douyin', title: '중국트렌드 | 아이엠콘텐츠' },
+        team: { path: '/team', title: 'Team | 아이엠콘텐츠' }
+    };
+
+    const meta = PAGE_META[pageId];
+    if (meta) {
+        // 브라우저 탭 제목 변경 (SEO/UX 개선)
+        document.title = meta.title;
+
+        // GA4 가상 페이지뷰 전송
+        if (typeof gtag === 'function') {
+            gtag('event', 'page_view', {
+                page_title: meta.title,
+                page_path: meta.path,
+                page_location: window.location.origin + meta.path
+            });
+            console.log(`[GA4 PageView] ${meta.title} (${meta.path})`);
+        }
     }
 
     // 엔터뉴스 페이지 진입 시 자동으로 최신 뉴스 로딩
@@ -2353,7 +2385,7 @@ function createChallengeCard(challenge, index) {
     const challengeUrl = challenge.challenge_url || `https://www.douyin.com/search/${encodeURIComponent(challenge.title_zh)}`;
 
     // 한국어 제목 (AI가 생성한 요약의 첫 문장 또는 직접 번역)
-    const titleKo = challenge.title_ko || challenge.summary_ko?.split('.')[0] || challenge.title_zh;
+    const titleKo = String(challenge.title_ko || (typeof challenge.summary_ko === 'string' ? challenge.summary_ko.split('.')[0] : "내용 없음") || challenge.title_zh);
 
     // 🔥 썸네일 HTML 생성 - CSS Sprite 방식 (좌표 수정됨)
     let thumbnailHtml = '';
