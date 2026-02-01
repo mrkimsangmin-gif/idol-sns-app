@@ -613,8 +613,8 @@ function renderList(targetMonth) {
                 return nameNoSpace.includes(searchTerm) || groupNoSpace.includes(searchTerm);
             });
         } else {
-            // 검색어가 없으면: Top 30만 표시
-            displayList = fullRankedList.slice(0, 30);
+            // 검색어가 없으면: Top 50만 표시
+            displayList = fullRankedList.slice(0, 50);
         }
 
         // ✅ 렌더링 시작 전 기존 카드 모두 제거
