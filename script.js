@@ -2026,10 +2026,29 @@ function renderJobs(jobs) {
 
     containerEl.innerHTML = '';
 
+    // 마감일 기준 오름차순 정렬 (마감일이 가까운 것이 먼저, 상시채용은 맨 뒤)
+    const sortedJobs = [...jobs].sort((a, b) => {
+        // order 필드가 둘 다 있으면 order 우선
+        if (a.order && b.order) return a.order - b.order;
+
+        // 상시채용 여부 확인
+        const aIsAlways = !a.deadline || a.deadline === '상시채용';
+        const bIsAlways = !b.deadline || b.deadline === '상시채용';
+
+        // 둘 다 상시채용이면 순서 유지
+        if (aIsAlways && bIsAlways) return 0;
+        // 상시채용은 뒤로
+        if (aIsAlways) return 1;
+        if (bIsAlways) return -1;
+
+        // 둘 다 마감일이 있으면 오름차순 정렬 (가까운 마감일 먼저)
+        return new Date(a.deadline) - new Date(b.deadline);
+    });
+
     // 필터 적용
-    let filteredJobs = jobs;
+    let filteredJobs = sortedJobs;
     if (currentJobsCategory !== 'all') {
-        filteredJobs = jobs.filter(job => job.category === currentJobsCategory);
+        filteredJobs = sortedJobs.filter(job => job.category === currentJobsCategory);
     }
 
     if (!filteredJobs || filteredJobs.length === 0) {
