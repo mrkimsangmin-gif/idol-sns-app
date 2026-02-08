@@ -10,13 +10,14 @@
  */
 
 const DB_NAME = 'idol-sns-db';
-const DB_VERSION = 4;
+const DB_VERSION = 5; // 업체정보 스토어 추가
 const STORE_SNS_DATA = 'sns_data';
 const STORE_METADATA = 'metadata';
 const STORE_MONTHS = 'months';
 const STORE_LINKS = 'links';
 const STORE_NEWS = 'news';
 const STORE_JOBS = 'jobs';
+const STORE_VENDORS = 'vendors'; // 업체정보 스토어
 
 // TTL 설정 (밀리초)
 const TTL_SNS_DATA = 24 * 60 * 60 * 1000; // 24시간
@@ -25,6 +26,7 @@ const TTL_MONTHS = 24 * 60 * 60 * 1000; // 24시간 (캐시 만료 빈도 감소
 const TTL_LINKS = 24 * 60 * 60 * 1000; // 24시간
 const TTL_NEWS = 12 * 60 * 60 * 1000; // 12시간
 const TTL_JOBS = 6 * 60 * 60 * 1000; // 6시간
+const TTL_VENDORS = 30 * 24 * 60 * 60 * 1000; // 30일 (분기 1회 수정이므로 긴 TTL)
 
 /**
  * IndexedDB 초기화 및 연결
@@ -88,6 +90,13 @@ async function openDatabase() {
         const jobsStore = db.createObjectStore(STORE_JOBS, { keyPath: 'key' });
         jobsStore.createIndex('timestamp', 'timestamp', { unique: false });
         console.log('✅ jobs 스토어 생성 완료');
+      }
+
+      // 업체정보 데이터 스토어 생성
+      if (!db.objectStoreNames.contains(STORE_VENDORS)) {
+        const vendorsStore = db.createObjectStore(STORE_VENDORS, { keyPath: 'key' });
+        vendorsStore.createIndex('timestamp', 'timestamp', { unique: false });
+        console.log('✅ vendors 스토어 생성 완료');
       }
     };
   });
@@ -745,6 +754,89 @@ async function getJobsCache() {
 }
 
 /**
+ * 업체정보 데이터 저장
+ * @param {Object} data - 업체정보 데이터
+ * @returns {Promise<void>}
+ */
+async function saveVendorsCache(data) {
+  const db = await openDatabase();
+  const key = 'vendors_data';
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([STORE_VENDORS], 'readwrite');
+    const store = transaction.objectStore(STORE_VENDORS);
+
+    const record = {
+      key,
+      data,
+      timestamp: Date.now(),
+      ttl: TTL_VENDORS
+    };
+
+    const request = store.put(record);
+
+    request.onsuccess = () => {
+      console.log('💾 업체정보 캐시 저장 완료');
+      resolve();
+    };
+
+    request.onerror = () => {
+      console.error('❌ 업체정보 캐시 저장 실패:', request.error);
+      reject(request.error);
+    };
+
+    transaction.oncomplete = () => {
+      db.close();
+    };
+  });
+}
+
+/**
+ * 업체정보 데이터 조회
+ * @returns {Promise<Object|null>}
+ */
+async function getVendorsCache() {
+  const db = await openDatabase();
+  const key = 'vendors_data';
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([STORE_VENDORS], 'readonly');
+    const store = transaction.objectStore(STORE_VENDORS);
+    const request = store.get(key);
+
+    request.onsuccess = () => {
+      const record = request.result;
+
+      if (!record) {
+        console.log('📭 업체정보 캐시 미스');
+        resolve(null);
+        return;
+      }
+
+      // TTL 확인
+      const age = Date.now() - record.timestamp;
+      if (age > record.ttl) {
+        console.log(`⏰ 업체정보 캐시 만료 (${Math.round(age / 3600000)}시간 경과)`);
+        resolve(null);
+        return;
+      }
+
+      console.log('⚡ 업체정보 캐시 히트!');
+      resolve(record.data);
+    };
+
+    request.onerror = () => {
+      console.error('❌ 업체정보 캐시 조회 실패:', request.error);
+      reject(request.error);
+    };
+
+    transaction.oncomplete = () => {
+      db.close();
+    };
+  });
+}
+
+/**
  * 만료된 데이터 정리 (백그라운드 작업)
  * @returns {Promise<number>} - 삭제된 항목 수
  */
@@ -754,7 +846,7 @@ async function cleanupExpiredData() {
 
   console.log('🧹 만료된 캐시 정리 시작...');
 
-  const stores = [STORE_SNS_DATA, STORE_METADATA, STORE_MONTHS, STORE_LINKS, STORE_NEWS, STORE_JOBS];
+  const stores = [STORE_SNS_DATA, STORE_METADATA, STORE_MONTHS, STORE_LINKS, STORE_NEWS, STORE_JOBS, STORE_VENDORS];
 
   for (const storeName of stores) {
     const transaction = db.transaction([storeName], 'readwrite');
