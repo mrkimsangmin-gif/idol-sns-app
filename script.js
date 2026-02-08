@@ -786,6 +786,7 @@ function route(pageId) {
         news: { path: '/news', title: '엔터뉴스 | 아이엠콘텐츠' },
         links: { path: '/links', title: '링크모음 | 아이엠콘텐츠' },
         jobs: { path: '/jobs', title: '채용정보 | 아이엠콘텐츠' },
+        vendors: { path: '/vendors', title: '업체정보 | 아이엠콘텐츠' },
         douyin: { path: '/douyin', title: '중국트렌드 | 아이엠콘텐츠' },
         team: { path: '/team', title: 'Team | 아이엠콘텐츠' }
     };
@@ -819,6 +820,11 @@ function route(pageId) {
     // 채용정보 페이지 진입 시 자동으로 채용 로딩
     if (pageId === 'jobs') {
         loadJobs();
+    }
+
+    // 업체정보 페이지 진입 시 자동으로 업체정보 로딩
+    if (pageId === 'vendors') {
+        loadVendors();
     }
 
     // 도우인 챌린지 페이지 진입 시 자동으로 데이터 로딩
@@ -2342,6 +2348,16 @@ function renderDouyinChallenges(data) {
     const container = document.getElementById('douyinContainer');
     const updateTime = document.getElementById('douyinUpdateTime');
 
+    // 주차 배지 표시 (updated_at 기준)
+    const weekBadge = document.getElementById('douyinWeekBadge');
+    if (weekBadge && data.updated_at) {
+        const d = new Date(data.updated_at); // 데이터 업데이트 날짜
+        const yy = String(d.getFullYear()).slice(2); // 연도 뒤 2자리
+        const mm = d.getMonth() + 1; // 월
+        const week = Math.ceil(d.getDate() / 7); // 주차 (1~5)
+        weekBadge.textContent = `(${yy}년 ${mm}월 ${week}주차)`;
+    }
+
     // 업데이트 시간 숨김 (비워두기)
     if (updateTime) {
         updateTime.innerHTML = '';
@@ -2620,3 +2636,579 @@ document.addEventListener('DOMContentLoaded', () => {
 setTimeout(() => {
     prefetchDouyinData();
 }, 10000);
+
+// ========================================
+// 🏢 업체정보 기능
+// ========================================
+
+// 업체정보 전역 변수
+let vendorsData = null;           // 업체 원본 데이터
+let vendorsLoaded = false;        // 데이터 로드 완료 여부
+let currentVendorCategory = 'all'; // 현재 선택된 대분류
+let currentVendorSubcategory = 'all'; // 현재 선택된 소분류
+let vendorCategories = {};        // 카테고리 구조 (API에서 수신)
+
+/**
+ * 업체정보 데이터 로드 (IndexedDB 캐시 우선)
+ */
+async function loadVendors() {
+    // 메모리 캐시 사용
+    if (vendorsLoaded && vendorsData) {
+        console.log('✅ 업체 데이터 메모리 캐시 사용');
+        renderVendors(vendorsData.data);
+        updateVendorsInBackground(); // 백그라운드 갱신
+        return;
+    }
+
+    const loadingEl = document.getElementById('vendorsLoading');
+    const containerEl = document.getElementById('vendorsContainer');
+
+    loadingEl.style.display = 'block';
+    containerEl.style.display = 'none';
+
+    try {
+        // IndexedDB 캐시 확인
+        const cachedVendors = await getVendorsCache().catch(() => null);
+
+        if (cachedVendors) {
+            console.log('⚡ IndexedDB 업체정보 캐시 히트!');
+            vendorsData = cachedVendors;
+            vendorsLoaded = true;
+            vendorCategories = cachedVendors.categories || {};
+            initVendorCategoryTabs(); // 카테고리 탭 초기화
+            renderVendors(cachedVendors.data);
+            // showVendorUpdateTime 삭제됨
+            loadingEl.style.display = 'none';
+            updateVendorsInBackground(); // 백그라운드 갱신
+            return;
+        }
+
+        // API 호출
+        console.log('📡 업체정보 캐시 미스, API 호출 중...');
+        const response = await fetch(`${API_URL}?action=getVendors`);
+        const result = await response.json();
+
+        if (result.status === 'success') {
+            vendorsData = result;
+            vendorsLoaded = true;
+            vendorCategories = result.categories || {};
+
+            // IndexedDB에 캐시 저장
+            saveVendorsCache(result).catch(err => {
+                console.warn('업체정보 캐시 저장 실패:', err);
+            });
+
+            initVendorCategoryTabs(); // 카테고리 탭 초기화
+            renderVendors(result.data);
+            // showVendorUpdateTime 삭제됨
+            console.log(`✅ 업체정보 로드 완료 (${result.data.length}개 업체)`);
+
+            // GA4 이벤트 추적
+            if (typeof trackEvent === 'function') {
+                trackEvent('vendors_page_load', {
+                    vendor_count: result.data.length,
+                    event_category: 'content_view'
+                });
+            }
+        } else {
+            throw new Error(result.message || '업체정보 로드 실패');
+        }
+    } catch (error) {
+        console.error('업체정보 로드 실패:', error);
+        containerEl.innerHTML = '<div class="col-12"><div class="alert alert-danger">업체정보를 불러오는데 실패했습니다.</div></div>';
+        containerEl.style.display = 'block';
+    } finally {
+        loadingEl.style.display = 'none';
+    }
+}
+
+/**
+ * 백그라운드에서 업체정보 데이터 업데이트
+ */
+async function updateVendorsInBackground() {
+    console.log('📥 백그라운드에서 업체정보 업데이트 중...');
+
+    try {
+        const response = await fetch(`${API_URL}?action=getVendors`);
+        const result = await response.json();
+
+        if (result.status === 'success') {
+            await saveVendorsCache(result);
+            vendorsData = result;
+            vendorCategories = result.categories || {};
+            console.log('✅ 업체정보 캐시 백그라운드 업데이트 완료');
+        }
+    } catch (error) {
+        console.warn('업체정보 백그라운드 업데이트 실패:', error);
+    }
+}
+
+/**
+ * 카테고리 탭 초기화 (대분류)
+ */
+function initVendorCategoryTabs() {
+    const tabsEl = document.getElementById('vendorCategoryTabs');
+    if (!tabsEl) return;
+
+    // 데이터에서 실제 사용되는 대분류만 추출
+    const usedCategories = new Set();
+    if (vendorsData && vendorsData.data) {
+        vendorsData.data.forEach(v => usedCategories.add(v.category));
+    }
+
+    // '전체' 탭 + 카테고리 정의 순서대로 생성
+    let html = `<button class="vendor-category-tab active" data-category="all" onclick="filterVendorsByCategory('all')">전체</button>`;
+
+    // vendorCategories 키 순서대로 (없으면 데이터에서 추출한 순서)
+    const categoryKeys = Object.keys(vendorCategories).length > 0
+        ? Object.keys(vendorCategories)
+        : [...usedCategories];
+
+    categoryKeys.forEach(cat => {
+        // 실제 데이터에 해당 카테고리가 있는 경우만 표시
+        if (usedCategories.has(cat)) {
+            html += `<button class="vendor-category-tab" data-category="${cat}" onclick="filterVendorsByCategory('${cat}')">${cat}</button>`;
+        }
+    });
+
+    tabsEl.innerHTML = html;
+}
+
+/**
+ * 대분류 카테고리 필터링
+ * @param {string} category - 대분류 카테고리명 또는 'all'
+ */
+function filterVendorsByCategory(category) {
+    currentVendorCategory = category;
+    currentVendorSubcategory = 'all'; // 소분류 초기화
+
+    // 대분류 탭 활성화 상태 업데이트
+    document.querySelectorAll('.vendor-category-tab').forEach(tab => {
+        tab.classList.toggle('active', tab.dataset.category === category);
+    });
+
+    // 소분류 탭 업데이트
+    updateVendorSubcategoryTabs(category);
+
+    // 렌더링
+    if (vendorsData && vendorsData.data) {
+        renderVendors(vendorsData.data);
+    }
+
+    // GA4 이벤트 추적
+    if (typeof trackEvent === 'function') {
+        trackEvent('vendor_filter', {
+            category: category,
+            event_category: 'user_engagement'
+        });
+    }
+}
+
+/**
+ * 소분류 탭 업데이트
+ * @param {string} category - 선택된 대분류
+ */
+function updateVendorSubcategoryTabs(category) {
+    const subcatEl = document.getElementById('vendorSubcategoryTabs');
+    if (!subcatEl) return;
+
+    if (category === 'all') {
+        subcatEl.style.display = 'none';
+        return;
+    }
+
+    // 데이터에서 해당 대분류의 실제 소분류 추출
+    const subcategories = new Set();
+    if (vendorsData && vendorsData.data) {
+        vendorsData.data
+            .filter(v => v.category === category)
+            .forEach(v => {
+                if (v.subcategory) subcategories.add(v.subcategory);
+            });
+    }
+
+    if (subcategories.size === 0) {
+        subcatEl.style.display = 'none';
+        return;
+    }
+
+    // 소분류 탭 생성
+    let html = `<button class="vendor-subcategory-tab active" data-subcategory="all" onclick="filterVendorsBySubcategory('all')">전체</button>`;
+
+    // vendorCategories에서 정의된 소분류 순서 사용
+    const definedSubs = vendorCategories[category] || [];
+    const orderedSubs = definedSubs.length > 0
+        ? definedSubs.filter(s => subcategories.has(s))
+        : [...subcategories];
+
+    orderedSubs.forEach(sub => {
+        html += `<button class="vendor-subcategory-tab" data-subcategory="${sub}" onclick="filterVendorsBySubcategory('${sub}')">${sub}</button>`;
+    });
+
+    subcatEl.innerHTML = html;
+    subcatEl.style.display = 'flex';
+}
+
+/**
+ * 소분류 필터링
+ * @param {string} subcategory - 소분류명 또는 'all'
+ */
+function filterVendorsBySubcategory(subcategory) {
+    currentVendorSubcategory = subcategory;
+
+    // 소분류 탭 활성화 상태 업데이트
+    document.querySelectorAll('.vendor-subcategory-tab').forEach(tab => {
+        tab.classList.toggle('active', tab.dataset.subcategory === subcategory);
+    });
+
+    // 렌더링
+    if (vendorsData && vendorsData.data) {
+        renderVendors(vendorsData.data);
+    }
+}
+
+/**
+ * 검색 필터링 (업체명, 담당자명)
+ */
+function filterVendors() {
+    if (vendorsData && vendorsData.data) {
+        renderVendors(vendorsData.data);
+    }
+}
+
+/**
+ * 업체 카드 렌더링
+ * @param {Array} vendors - 업체 데이터 배열
+ */
+function renderVendors(vendors) {
+    const containerEl = document.getElementById('vendorsContainer');
+    const loadingEl = document.getElementById('vendorsLoading');
+
+    containerEl.innerHTML = '';
+
+    // 필터 적용
+    let filtered = [...vendors];
+
+    // 대분류 필터
+    if (currentVendorCategory !== 'all') {
+        filtered = filtered.filter(v => v.category === currentVendorCategory);
+    }
+
+    // 소분류 필터
+    if (currentVendorSubcategory !== 'all') {
+        filtered = filtered.filter(v => v.subcategory === currentVendorSubcategory);
+    }
+
+    // 검색어 필터 (모든 필드 대조)
+    const searchInput = document.getElementById('vendorSearchInput');
+    const searchTerm = searchInput ? searchInput.value.trim().toLowerCase() : '';
+    if (searchTerm) {
+        filtered = filtered.filter(v => {
+            // 시트의 모든 필드를 검색 대상에 포함
+            const fields = [
+                v.category, v.subcategory, v.company, v.contact,
+                v.mobile, v.phone, v.email, v.website,
+                v.sns, v.note, v.portfolio
+            ];
+            return fields.some(f => f && f.toLowerCase().includes(searchTerm));
+        });
+    }
+
+    // 결과 없음
+    if (!filtered || filtered.length === 0) {
+        containerEl.innerHTML = `
+            <div class="col-12 vendor-no-results">
+                <p>${searchTerm ? `"${searchTerm}" 검색 결과가 없습니다.` : '등록된 업체정보가 없습니다.'}</p>
+            </div>
+        `;
+        loadingEl.style.display = 'none';
+        containerEl.style.display = 'flex';
+        return;
+    }
+
+    // 카드 생성
+    filtered.forEach(vendor => {
+        const col = document.createElement('div');
+        col.className = 'col-12 col-md-6 col-lg-4';
+        col.innerHTML = createVendorCard(vendor);
+        containerEl.appendChild(col);
+    });
+
+    loadingEl.style.display = 'none';
+    containerEl.style.display = 'flex';
+}
+
+/**
+ * 업체 카드 HTML 생성 (간소화 - 업체명+카테고리만, 클릭 시 모달)
+ * @param {Object} vendor - 업체 데이터 객체
+ * @returns {string} - HTML 문자열
+ */
+function createVendorCard(vendor) {
+    // 포트폴리오 보유 뱃지
+    const pfBadge = (vendor.portfolio && vendor.portfolio.length > 0)
+        ? '<span class="badge bg-info text-dark ms-1" style="font-size:0.65rem">PF</span>'
+        : '';
+
+    // 카테고리 뱃지 텍스트
+    const badgeText = vendor.subcategory
+        ? `${vendor.category} > ${vendor.subcategory}`
+        : vendor.category;
+
+    // vendor 데이터를 인코딩하여 onclick에 전달
+    const vendorData = encodeURIComponent(JSON.stringify(vendor));
+
+    return `
+        <div class="vendor-card vendor-card-simple" onclick="openVendorDetail('${vendorData}')">
+            <div class="vendor-card-header">
+                <span class="vendor-company">${vendor.company}${pfBadge}</span>
+                <span class="vendor-category-badge">${badgeText}</span>
+            </div>
+            <div class="vendor-card-action text-muted small mt-2">
+                연락처 정보 보기
+            </div>
+        </div>
+    `;
+}
+
+/**
+ * 업체 상세 모달 열기
+ * @param {string} encodedData - encodeURIComponent로 인코딩된 vendor JSON
+ */
+function openVendorDetail(encodedData) {
+    const vendor = JSON.parse(decodeURIComponent(encodedData));
+
+    // 업체명, 카테고리
+    document.getElementById('vModalCompany').textContent = vendor.company;
+    const catText = vendor.subcategory ? `${vendor.category} > ${vendor.subcategory}` : vendor.category;
+    document.getElementById('vModalCategory').textContent = catText;
+
+    // 담당자 (항상 표시, 데이터 없으면 공백)
+    document.getElementById('vModalContact').textContent = vendor.contact || '';
+
+    // 휴대전화 (항상 표시, 클릭 시 전화 연결)
+    const mobileEl = document.getElementById('vModalMobile');
+    if (vendor.mobile) {
+        mobileEl.innerHTML = `<a href="tel:${vendor.mobile.replace(/[^0-9+\-]/g, '')}" class="text-decoration-none">${vendor.mobile}</a>`;
+    } else {
+        mobileEl.textContent = '';
+    }
+
+    // 일반전화 (항상 표시, 클릭 시 전화 연결)
+    const phoneEl = document.getElementById('vModalPhone');
+    if (vendor.phone) {
+        phoneEl.innerHTML = `<a href="tel:${vendor.phone.replace(/[^0-9+\-]/g, '')}" class="text-decoration-none">${vendor.phone}</a>`;
+    } else {
+        phoneEl.textContent = '';
+    }
+
+    // 이메일 (하이퍼링크 없이 텍스트만, 복사 버튼 표시)
+    const emailEl = document.getElementById('vModalEmail');
+    const emailCopyBtn = document.getElementById('vModalEmailCopyBtn');
+    if (vendor.email) {
+        emailEl.textContent = vendor.email;
+        emailCopyBtn.style.display = ''; // 복사 버튼 표시
+    } else {
+        emailEl.textContent = '';
+        emailCopyBtn.style.display = 'none'; // 이메일 없으면 복사 버튼 숨김
+    }
+
+    // 홈페이지 (URL 텍스트로 표시, 클릭 시 이동)
+    const websiteEl = document.getElementById('vModalWebsite');
+    if (vendor.website) {
+        const url = vendor.website.startsWith('http') ? vendor.website : 'https://' + vendor.website;
+        websiteEl.innerHTML = `<a href="${url}" target="_blank" class="text-decoration-none">${vendor.website}</a>`;
+    } else {
+        websiteEl.textContent = '';
+    }
+
+    // SNS (인스타그램이면 인스타 아이콘, 그 외는 링크 텍스트)
+    const snsEl = document.getElementById('vModalSns');
+    if (vendor.sns) {
+        const snsUrl = vendor.sns.startsWith('http') ? vendor.sns : 'https://' + vendor.sns;
+        const isInstagram = vendor.sns.toLowerCase().includes('instagram.com') || vendor.sns.toLowerCase().includes('instagr.am');
+        if (isInstagram) {
+            // 인스타그램 아이콘 (Bootstrap Icons)
+            snsEl.innerHTML = `<a href="${snsUrl}" target="_blank" class="text-decoration-none" title="Instagram"><i class="bi bi-instagram" style="font-size: 1.2rem; color: #E4405F;"></i></a>`;
+        } else {
+            snsEl.innerHTML = `<a href="${snsUrl}" target="_blank" class="text-decoration-none">${vendor.sns}</a>`;
+        }
+    } else {
+        snsEl.textContent = '';
+    }
+
+    // 포트폴리오 (항상 표시)
+    document.getElementById('vModalPortfolio').textContent = vendor.portfolio || '';
+
+    // 비고 (항상 표시)
+    document.getElementById('vModalNote').textContent = vendor.note || '';
+
+    // 수정 요청 시 사용할 현재 업체 정보 저장
+    window._currentVendorName = vendor.company;
+    window._currentVendorCategory = vendor.category;
+
+    // 모달 표시
+    new bootstrap.Modal(document.getElementById('vendorDetailModal')).show();
+}
+
+/**
+ * 이메일 주소 클립보드 복사
+ */
+function copyVendorEmail() {
+    const email = document.getElementById('vModalEmail').textContent;
+    if (!email) return;
+    navigator.clipboard.writeText(email).then(() => {
+        // 복사 성공 시 버튼 텍스트 임시 변경
+        const btn = document.getElementById('vModalEmailCopyBtn');
+        const original = btn.innerHTML;
+        btn.innerHTML = '<i class="bi bi-check"></i> 복사됨';
+        setTimeout(() => { btn.innerHTML = original; }, 1500);
+    }).catch(() => {
+        alert('복사에 실패했습니다.');
+    });
+}
+
+/**
+ * 업체 등록/수정 요청 폼 모달 열기
+ * @param {string} type - 'new'(신규 등록) 또는 'update'(수정 요청)
+ */
+function openVendorForm(type) {
+    const titleEl = document.getElementById('vendorFormTitle');
+    const typeInput = document.getElementById('vendorFormType');
+    const companyInput = document.getElementById('vendorFormCompany');
+    const categorySelect = document.getElementById('vendorFormCategory');
+    const detailsArea = document.getElementById('vendorFormDetails');
+
+    // 카테고리 옵션 채우기 (최초 1회)
+    if (categorySelect.options.length === 0) {
+        const defaultOpt = document.createElement('option');
+        defaultOpt.value = '';
+        defaultOpt.textContent = '선택';
+        categorySelect.appendChild(defaultOpt);
+
+        Object.keys(vendorCategories || {}).forEach(cat => {
+            const opt = document.createElement('option');
+            opt.value = cat;
+            opt.textContent = cat;
+            categorySelect.appendChild(opt);
+        });
+    }
+
+    typeInput.value = type;
+
+    if (type === 'new') {
+        // 신규 등록
+        titleEl.textContent = '신규 업체 등록 신청';
+        companyInput.value = '';
+        companyInput.readOnly = false;
+        categorySelect.value = '';
+        detailsArea.placeholder = '포트폴리오 URL, 업체 소개, 가능한 업무 범위 등을 적어주세요.';
+    } else {
+        // 수정 요청 - 상세 모달 닫기 (겹침 방지)
+        const detailModal = bootstrap.Modal.getInstance(document.getElementById('vendorDetailModal'));
+        if (detailModal) detailModal.hide();
+
+        titleEl.textContent = '정보 수정 요청';
+        companyInput.value = window._currentVendorName || '';
+        companyInput.readOnly = true; // 업체명 수정 불가
+        categorySelect.value = window._currentVendorCategory || '';
+        detailsArea.placeholder = '수정할 내용(연락처 변경, 포트폴리오 추가 등)을 적어주세요.';
+    }
+
+    // 나머지 필드 초기화
+    document.getElementById('vendorFormContactName').value = '';
+    document.getElementById('vendorFormMobile').value = '';
+    document.getElementById('vendorFormPhone').value = '';
+    document.getElementById('vendorFormEmail').value = '';
+    document.getElementById('vendorFormWebsite').value = '';
+    detailsArea.value = '';
+
+    new bootstrap.Modal(document.getElementById('vendorFormModal')).show();
+}
+
+/**
+ * 업체 등록/수정 요청 이메일 발송
+ */
+async function submitVendorForm() {
+    const type = document.getElementById('vendorFormType').value;
+    const company = document.getElementById('vendorFormCompany').value.trim();
+    const category = document.getElementById('vendorFormCategory').value;
+    const contactName = document.getElementById('vendorFormContactName').value.trim();
+    const mobile = document.getElementById('vendorFormMobile').value.trim();
+    const phone = document.getElementById('vendorFormPhone').value.trim();
+    const email = document.getElementById('vendorFormEmail').value.trim();
+    const website = document.getElementById('vendorFormWebsite').value.trim();
+    const details = document.getElementById('vendorFormDetails').value.trim();
+
+    // 필수 항목 검증 (업체명만 필수)
+    if (!company) {
+        alert('업체명은 필수 입력 항목입니다.');
+        return;
+    }
+
+    // 연락처 정보 조합 (이메일에 포함)
+    const contactParts = [];
+    if (mobile) contactParts.push(`휴대전화: ${mobile}`);
+    if (phone) contactParts.push(`일반전화: ${phone}`);
+    if (email) contactParts.push(`이메일: ${email}`);
+    if (website) contactParts.push(`홈페이지: ${website}`);
+    const contactInfo = contactParts.join(' / ');
+
+    // 버튼 로딩 상태
+    const btn = document.getElementById('vendorFormSubmitBtn');
+    const originalText = btn.textContent;
+    btn.textContent = '전송 중...';
+    btn.disabled = true;
+
+    try {
+        const payload = {
+            action: 'sendVendorEmail',
+            type: type,
+            company: company,
+            category: category,
+            contact_name: contactName,
+            contact_info: contactInfo,
+            details: details
+        };
+
+        // GAS doPost 호출
+        const response = await fetch(API_URL, {
+            method: 'POST',
+            body: JSON.stringify(payload)
+        });
+        const result = await response.json();
+
+        if (result.status === 'success') {
+            alert('요청이 성공적으로 전송되었습니다.\n관리자 확인 후 반영됩니다.');
+            const modal = bootstrap.Modal.getInstance(document.getElementById('vendorFormModal'));
+            if (modal) modal.hide();
+        } else {
+            throw new Error(result.message || '전송 실패');
+        }
+    } catch (error) {
+        console.error('업체 요청 전송 실패:', error);
+        alert('전송에 실패했습니다. 잠시 후 다시 시도해주세요.');
+    } finally {
+        btn.textContent = originalText;
+        btn.disabled = false;
+    }
+}
+
+/**
+ * 마지막 업데이트 시간 표시
+ * @param {string} isoString - ISO 8601 날짜 문자열
+ */
+function showVendorUpdateTime(isoString) {
+    const el = document.getElementById('vendorUpdateTime');
+    if (!el || !isoString) return;
+
+    const date = new Date(isoString);
+    const formatted = date.toLocaleDateString('ko-KR', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+    });
+    el.textContent = `마지막 업데이트: ${formatted}`;
+}
+
