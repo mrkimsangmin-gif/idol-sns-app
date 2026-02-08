@@ -54,6 +54,8 @@
     </script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons (업체정보 모달 아이콘용) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -83,6 +85,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" onclick="route('jobs')">채용정보</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="route('vendors')">업체정보</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" onclick="route('douyin')">중국트렌드</a>
@@ -332,8 +337,172 @@
             </div>
         </section>
 
+        <section id="page-vendors" class="page-section d-none">
+            <!-- 상단 헤더: 제목 + 신규 등록 버튼 -->
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4 class="fw-bold m-0">업체정보</h4>
+                <button class="btn btn-sm btn-primary" onclick="openVendorForm('new')">
+                    + 신규업체 등록
+                </button>
+            </div>
+
+            <!-- 검색바 -->
+            <div class="vendor-search-bar mb-3">
+                <input type="text" class="form-control" id="vendorSearchInput"
+                    placeholder="업체명 또는 키워드 검색" oninput="filterVendors()">
+            </div>
+
+            <!-- 대분류 카테고리 탭 -->
+            <div id="vendorCategoryTabs" class="vendor-category-tabs mb-2">
+                <button class="vendor-category-tab active" data-category="all" onclick="filterVendorsByCategory('all')">
+                    전체
+                </button>
+            </div>
+
+            <!-- 소분류 필터 (대분류 선택 시 표시) -->
+            <div id="vendorSubcategoryTabs" class="vendor-subcategory-tabs mb-3" style="display: none;">
+            </div>
+
+            <!-- 로딩 -->
+            <div id="vendorsLoading" class="text-center py-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2 text-muted">업체정보를 불러오는 중...</p>
+            </div>
+
+            <!-- 업체 카드 목록 -->
+            <div id="vendorsContainer" class="row g-3" style="display: none;">
+            </div>
+        </section>
+
+        <!-- 업체 상세정보 모달 -->
+        <div class="modal fade" id="vendorDetailModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bold" id="vModalCompany">업체명</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <span id="vModalCategory" class="badge bg-secondary mb-3 d-inline-block">카테고리</span>
+
+                        <!-- 연락처 정보 목록 (모든 항목 항상 표시) -->
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item px-0">
+                                <strong>담당자:</strong> <span id="vModalContact"></span>
+                            </li>
+                            <li class="list-group-item px-0">
+                                <strong>휴대전화:</strong> <span id="vModalMobile"></span>
+                            </li>
+                            <li class="list-group-item px-0">
+                                <strong>일반전화:</strong> <span id="vModalPhone"></span>
+                            </li>
+                            <li class="list-group-item px-0 d-flex justify-content-between align-items-center">
+                                <div><strong>이메일:</strong> <span id="vModalEmail"></span></div>
+                                <button type="button" class="btn btn-outline-secondary btn-sm" id="vModalEmailCopyBtn"
+                                    onclick="copyVendorEmail()" style="display:none;" title="이메일 복사">
+                                    <i class="bi bi-clipboard"></i> 복사
+                                </button>
+                            </li>
+                            <li class="list-group-item px-0">
+                                <strong>홈페이지:</strong> <span id="vModalWebsite"></span>
+                            </li>
+                            <li class="list-group-item px-0">
+                                <strong>SNS:</strong> <span id="vModalSns"></span>
+                            </li>
+                        </ul>
+
+                        <!-- 포트폴리오 (항상 표시) -->
+                        <div class="mb-3">
+                            <label class="fw-bold small text-muted">포트폴리오</label>
+                            <div class="bg-light p-2 rounded mt-1" id="vModalPortfolio"
+                                style="white-space: pre-wrap; font-size: 0.9rem; min-height: 32px;"></div>
+                        </div>
+
+                        <!-- 비고 (항상 표시) -->
+                        <div class="mb-3">
+                            <label class="fw-bold small text-muted">비고</label>
+                            <div class="bg-light p-2 rounded mt-1" id="vModalNote"
+                                style="white-space: pre-wrap; font-size: 0.9rem; min-height: 32px;"></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="openVendorForm('update')">
+                            정보 수정 요청
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">닫기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 업체 등록/수정 요청 폼 모달 -->
+        <div class="modal fade" id="vendorFormModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bold" id="vendorFormTitle">신규 업체 등록</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="hidden" id="vendorFormType">
+                        <!-- 업체명 -->
+                        <div class="mb-3">
+                            <label class="form-label">업체명 <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="vendorFormCompany" required>
+                        </div>
+                        <!-- 카테고리 / 담당자 -->
+                        <div class="row g-2 mb-3">
+                            <div class="col-6">
+                                <label class="form-label">카테고리</label>
+                                <select class="form-select" id="vendorFormCategory"></select>
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label">신청자/담당자</label>
+                                <input type="text" class="form-control" id="vendorFormContactName" placeholder="성함">
+                            </div>
+                        </div>
+                        <!-- 휴대전화 / 일반전화 -->
+                        <div class="row g-2 mb-3">
+                            <div class="col-6">
+                                <label class="form-label">휴대전화</label>
+                                <input type="tel" class="form-control" id="vendorFormMobile" placeholder="010-0000-0000">
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label">일반전화</label>
+                                <input type="tel" class="form-control" id="vendorFormPhone" placeholder="02-000-0000">
+                            </div>
+                        </div>
+                        <!-- 이메일 -->
+                        <div class="mb-3">
+                            <label class="form-label">이메일</label>
+                            <input type="email" class="form-control" id="vendorFormEmail" placeholder="example@email.com">
+                        </div>
+                        <!-- 홈페이지 -->
+                        <div class="mb-3">
+                            <label class="form-label">홈페이지</label>
+                            <input type="url" class="form-control" id="vendorFormWebsite" placeholder="https://example.com">
+                        </div>
+                        <!-- 상세 내용 -->
+                        <div class="mb-3">
+                            <label class="form-label">상세 내용 (포트폴리오 등)</label>
+                            <textarea class="form-control" id="vendorFormDetails" rows="4"
+                                placeholder="수정할 내용이나 포트폴리오 URL 등을 적어주세요."></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">취소</button>
+                        <button type="button" class="btn btn-primary" id="vendorFormSubmitBtn"
+                            onclick="submitVendorForm()">요청 보내기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <section id="page-douyin" class="page-section d-none">
-            <h4 class="mb-3 fw-bold">중국 도우인 인기 챌린지</h4>
+            <h4 class="mb-3 fw-bold">중국 도우인 인기 챌린지 <span id="douyinWeekBadge" class="douyin-week-badge"></span></h4>
 
             <!-- 업데이트 시간 -->
             <div id="douyinUpdateTime" class="text-muted small mb-3"></div>
