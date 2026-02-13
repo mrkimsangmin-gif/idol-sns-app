@@ -49,6 +49,7 @@ const ENTER_NEWS_API = "https://script.google.com/macros/s/AKfycbwV5QEzJGijfTyam
 let cachedData = [];       // API에서 받은 원시 데이터 저장
 let cachedMonths = [];     // 사용 가능한 월 목록
 let metadataCache = {};    // 아이돌 메타데이터 캐시 {name_gender: {data}}
+let staticDataCache = null; // 정적 JSON 전체 메모리 캐시 (version 2: 전 조합 포함)
 
 // ========================================
 // 📦 아카이브 데이터 (과거 데이터 정적 파일 캐시)
@@ -111,33 +112,54 @@ let isLoadingFull = false;           // 전체 데이터 백그라운드 로딩 
 
 /**
  * 정적 JSON 데이터 로드 (즉시 렌더링용)
- * 기본 화면(남자/웨이보/최신월/Top30) 데이터를 정적 파일에서 즉시 로드
- * @returns {Promise<Object|null>} - 정적 데이터 또는 null
+ * version 2: 전체 성별/SNS 조합 지원 (14개 조합)
+ * version 1: 기존 남자/웨이보만 지원 (하위 호환)
+ * @param {string} gender - '남자' 또는 '여자'
+ * @param {string} sns - SNS 이름 (예: '웨이보', '빌리빌리')
+ * @returns {Promise<Object|null>} - { meta, data } 또는 null
  */
-async function loadStaticInitialData() {
+async function loadStaticInitialData(gender, sns) {
     try {
-        const response = await fetch('./data/initial-data.json');
-        if (!response.ok) return null;
-
-        const data = await response.json();
-
-        // 데이터가 비어있으면 null 반환
-        if (!data.data || data.data.length === 0) {
-            console.warn('⚠️ 정적 데이터가 비어있음, GAS API 사용');
-            return null;
+        // 메모리 캐시에 있으면 fetch 생략
+        if (!staticDataCache) {
+            const response = await fetch('./data/initial-data.json');
+            if (!response.ok) return null;
+            staticDataCache = await response.json();
         }
+
+        const data = staticDataCache;
 
         // 데이터 신선도 확인 (45일 이상 오래되면 무시)
         const generated = new Date(data.generated);
         const age = Date.now() - generated.getTime();
         const MAX_AGE = 45 * 24 * 60 * 60 * 1000; // 45일
-
         if (age > MAX_AGE) {
             console.warn('⚠️ 정적 데이터 만료됨, GAS API 사용');
             return null;
         }
 
-        return data;
+        // version 2: 전체 조합 지원
+        if (data.version === 2 && data.combinations) {
+            const key = `${gender}_${sns}`;
+            const combo = data.combinations[key];
+            if (!combo || !combo.data || combo.data.length === 0) {
+                console.warn(`⚠️ 정적 데이터에 ${key} 조합 없음`);
+                return null;
+            }
+            // 기존 인터페이스와 동일한 형태로 반환
+            return { meta: combo.meta, data: combo.data };
+        }
+
+        // version 1 (하위 호환): 남자/웨이보만 지원
+        if (data.meta && data.data && data.data.length > 0) {
+            if (gender === data.meta.gender && sns === data.meta.sns) {
+                return data;
+            }
+            return null; // 요청한 조합이 v1 데이터와 불일치
+        }
+
+        console.warn('⚠️ 정적 데이터가 비어있음, GAS API 사용');
+        return null;
     } catch (e) {
         console.warn('정적 데이터 로드 실패:', e);
         return null;
@@ -151,11 +173,11 @@ async function loadData(isInit = true) {
     const gender = document.getElementById('gender').value;
     const sns = document.getElementById('sns').value;
 
-    // 🚀 0단계: 정적 JSON 즉시 로드 (남자/웨이보 기본값인 경우)
-    if (isInit && gender === '남자' && sns === '웨이보') {
-        const staticData = await loadStaticInitialData();
+    // 🚀 0단계: 정적 JSON 즉시 로드 (모든 성별/SNS 조합 지원)
+    if (isInit) {
+        const staticData = await loadStaticInitialData(gender, sns);
         if (staticData) {
-            console.log('⚡⚡⚡ 정적 데이터 즉시 로드! (0ms)');
+            console.log(`⚡⚡⚡ 정적 데이터 즉시 로드! (${gender}/${sns})`);
 
             cachedData = staticData.data;
             cachedMonths = staticData.meta.allMonths;
