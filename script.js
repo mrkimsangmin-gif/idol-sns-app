@@ -50,6 +50,59 @@ let cachedData = [];       // API에서 받은 원시 데이터 저장
 let cachedMonths = [];     // 사용 가능한 월 목록
 let metadataCache = {};    // 아이돌 메타데이터 캐시 {name_gender: {data}}
 
+// ========================================
+// 📦 아카이브 데이터 (과거 데이터 정적 파일 캐시)
+// ========================================
+const ARCHIVE_CUTOFF = '2025-12'; // 이 월 이하는 아카이브에서 우선 조회
+let archiveCache = {};             // { '남자': archiveData, '여자': archiveData }
+
+/**
+ * 아카이브 JSON 로드 (성별당 1회만 fetch, 이후 메모리 캐시)
+ * 파일 구조: { meta: { gender, allMonths, snsList }, data: [{name, group, sns, date, count}, ...] }
+ * @param {string} gender - '남자' 또는 '여자'
+ * @returns {Promise<Object|null>} 아카이브 데이터 또는 null
+ */
+async function loadArchiveData(gender) {
+    // 이미 메모리에 캐시되어 있으면 즉시 반환
+    if (archiveCache[gender]) return archiveCache[gender];
+
+    const fileName = gender === '남자' ? 'archive-male.json' : 'archive-female.json';
+    try {
+        const response = await fetch(`./data/${fileName}`);
+        if (!response.ok) return null; // 파일이 없으면 null (API 폴백)
+
+        const data = await response.json();
+        archiveCache[gender] = data; // 메모리 캐시 저장
+        console.log(`📦 아카이브 로드 완료 (${gender}): ${data.data.length}건, ${data.meta.snsList.length} SNS`);
+        return data;
+    } catch (e) {
+        console.warn(`아카이브 로드 실패 (${gender}):`, e);
+        return null; // 실패 시 API 폴백
+    }
+}
+
+/**
+ * 아카이브에서 특정 월 데이터 추출 (플랫 배열에서 sns + month 필터링)
+ * @param {string} gender - '남자' 또는 '여자'
+ * @param {string} sns - SNS 이름 (예: '웨이보')
+ * @param {string} month - 월 (예: '2025-06')
+ * @returns {Promise<Array|null>} 데이터 배열 또는 null (아카이브 없거나 범위 밖)
+ */
+async function getArchiveMonthData(gender, sns, month) {
+    // 아카이브 범위 밖이면 null → API 호출로 진행
+    if (month > ARCHIVE_CUTOFF) return null;
+
+    const archive = await loadArchiveData(gender);
+    if (!archive || !archive.data) return null;
+
+    // 해당 월이 아카이브에 없으면 null
+    if (!archive.meta.allMonths.includes(month)) return null;
+
+    // 플랫 배열에서 sns + month로 필터링하여 반환
+    const filtered = archive.data.filter(r => r.sns === sns && r.date === month);
+    return filtered.length > 0 ? filtered : null;
+}
+
 // 프리페칭 상태 관리 (최적화)
 let isPrefetching = false;           // 데이터 프리페칭 진행 중 플래그
 let isMetadataPrefetching = false;   // 메타데이터 프리페칭 진행 중 플래그
@@ -248,13 +301,40 @@ async function loadData(isInit = true) {
     }
 }
 
-// 특정 월 데이터 로드 (월 변경 시, 10개 우선 로딩)
+// 특정 월 데이터 로드 (아카이브 → API 순서, 10개 우선 로딩)
 async function loadSpecificMonth(month) {
-    console.log(`⚡ Loading top 10 idols for ${month}...`);
-    showLoading(true);
-
     const gender = document.getElementById('gender').value;
     const sns = document.getElementById('sns').value;
+
+    // ★ 아카이브 데이터 확인 (2025-12 이전 월이면 정적 파일에서 즉시 로드)
+    if (month <= ARCHIVE_CUTOFF) {
+        const archiveData = await getArchiveMonthData(gender, sns, month);
+        if (archiveData && archiveData.length > 0) {
+            console.log(`📦 아카이브에서 로드: ${month} (${archiveData.length}건)`);
+
+            // 전월 데이터도 아카이브에서 로드 (증감률 계산용)
+            const monthIndex = cachedMonths.indexOf(month);
+            const prevMonth = monthIndex > 0 ? cachedMonths[monthIndex - 1] : null;
+            if (prevMonth && prevMonth <= ARCHIVE_CUTOFF) {
+                const prevData = await getArchiveMonthData(gender, sns, prevMonth);
+                if (prevData) {
+                    cachedData = cachedData.filter(d => d.date !== prevMonth);
+                    cachedData.push(...prevData);
+                }
+            }
+
+            // 해당 월 데이터 캐시 업데이트 + 렌더링
+            cachedData = cachedData.filter(d => d.date !== month);
+            cachedData.push(...archiveData);
+            renderList(month);
+            showLoading(false);
+            return; // API 호출 불필요
+        }
+    }
+
+    // ★ 아카이브에 없으면 기존 API 호출 로직 (최신 데이터용)
+    console.log(`⚡ Loading top 10 idols for ${month}...`);
+    showLoading(true);
 
     try {
         // 🚀 1단계: 상위 10개만 초고속 로드
@@ -269,10 +349,10 @@ async function loadSpecificMonth(month) {
             cachedData = cachedData.filter(d => d.date !== month);
             cachedData.push(...monthData);
 
-            // 상위 10개 즉시 렌더링 ✨
+            // 상위 10개 즉시 렌더링
             renderList(month);
 
-            // ⭐ Top 10 메타데이터 우선 로드
+            // Top 10 메타데이터 우선 로드
             prefetchTopIdolsMetadata(gender);
 
             console.log(`⚡ Quick view loaded: ${monthData.length} top idols for ${month} (${quickResult.meta.returned}/${quickResult.meta.total})`);
@@ -291,7 +371,6 @@ async function loadSpecificMonth(month) {
         console.error('Error loading month data:', error);
         alert('데이터 로딩 중 오류가 발생했습니다.');
     } finally {
-        // ✅ 모든 경로에서 로딩 해제 보장
         showLoading(false);
     }
 }
@@ -392,6 +471,10 @@ async function loadFullMonthInBackground(gender, sns, month) {
 
 
 document.addEventListener('DOMContentLoaded', () => {
+    // SEO 정적 콘텐츠 숨기기 (JS 실행 확인 = 실제 사용자)
+    const seoStatic = document.getElementById('seo-static-content');
+    if (seoStatic) seoStatic.style.display = 'none';
+
     // 필터 변경 시 초기화 로드
     document.getElementById('gender').addEventListener('change', () => loadData(true));
     document.getElementById('sns').addEventListener('change', () => loadData(true));
@@ -425,30 +508,88 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // 초기 로드 시작
-    loadData(true);
+    // ★ 초기 URL 파싱: URL path에 맞는 페이지 표시 (SPA 라우팅)
+    const currentPath = window.location.pathname;
+    const initialPageId = getPageIdFromPath(currentPath);
+    const urlParams = parseUrlParams(currentPath);
+
+    if (initialPageId !== 'home') {
+        // /news, /jobs 등 직접 접근 시 해당 페이지 표시
+        route(initialPageId, false); // pushState 안 함 (이미 올바른 URL)
+    } else if (urlParams.idolSlug) {
+        // /idol/{slug} 접근 → 랭킹 페이지 표시 후 모달 열기
+        loadData(true).then(() => {
+            // cachedData에서 아이돌 검색
+            const idol = findIdolBySlug(urlParams.idolSlug);
+            if (idol) {
+                // 약간의 딜레이 후 모달 열기 (렌더링 완료 대기)
+                setTimeout(() => showIdolModal(idol.name, idol.gender), 500);
+            } else {
+                console.warn(`아이돌을 찾을 수 없음: ${urlParams.idolSlug}`);
+            }
+        });
+    } else if (urlParams.sns || urlParams.month) {
+        // /ranking/{sns} 또는 /ranking/{YYMM}/{sns} 접근 → 드롭다운 자동 선택
+        if (urlParams.sns) {
+            document.getElementById('sns').value = urlParams.sns;
+            const displayText = urlParams.sns === '차오화' ? '웨이보(슈퍼챗)' : urlParams.sns;
+            document.getElementById('snsDropdown').innerHTML = displayText;
+        }
+        // 데이터 로드 (월은 데이터 로드 후 설정)
+        loadData(true).then(() => {
+            if (urlParams.month && cachedMonths.includes(urlParams.month)) {
+                document.getElementById('month').value = urlParams.month;
+                document.getElementById('monthDropdown').innerHTML = formatYearMonth(urlParams.month);
+                renderList(urlParams.month);
+            }
+        });
+    } else {
+        // 기본 home 페이지 → SNS 랭킹 데이터 로드
+        loadData(true);
+    }
 });
 
 
 
-// 월 선택 변경 핸들러 (필요시 서버 요청)
+// 월 선택 변경 핸들러 (아카이브 → 메모리 캐시 → API 순서로 조회)
 async function handleMonthChange() {
     const selectedMonth = document.getElementById('month').value;
+    const gender = document.getElementById('gender').value;
+    const sns = document.getElementById('sns').value;
 
-    // 현재 월의 인덱스 찾기
+    // 현재 월의 인덱스 찾기 (전월 데이터 = 증감률 계산용)
     const monthIndex = cachedMonths.indexOf(selectedMonth);
     const baseMonth = monthIndex > 0 ? cachedMonths[monthIndex - 1] : selectedMonth;
 
-    // 필요한 데이터가 이미 캐시에 있는지 확인
+    // ★ 1단계: 아카이브 데이터 확인 (2025-12 이전 월)
+    if (selectedMonth <= ARCHIVE_CUTOFF) {
+        const archiveData = await getArchiveMonthData(gender, sns, selectedMonth);
+        if (archiveData && archiveData.length > 0) {
+            // 전월 데이터도 아카이브에서 로드 (증감률 계산용)
+            const archiveBaseData = (baseMonth !== selectedMonth && baseMonth <= ARCHIVE_CUTOFF)
+                ? await getArchiveMonthData(gender, sns, baseMonth) : null;
+
+            console.log(`📦 아카이브에서 로드: ${selectedMonth} (${archiveData.length}건)`);
+
+            // 캐시에 아카이브 데이터 병합
+            cachedData = cachedData.filter(d => d.date !== selectedMonth && d.date !== baseMonth);
+            cachedData.push(...archiveData);
+            if (archiveBaseData) cachedData.push(...archiveBaseData);
+
+            renderList(selectedMonth);
+            return; // API 호출 불필요
+        }
+    }
+
+    // ★ 2단계: 메모리 캐시 확인
     const hasCurrentMonth = cachedData.some(d => d.date === selectedMonth);
     const hasBaseMonth = cachedData.some(d => d.date === baseMonth);
 
     if (hasCurrentMonth && hasBaseMonth) {
-        // 데이터가 있으면 바로 렌더링
         console.log(`Using cached data for ${selectedMonth}`);
         renderList(selectedMonth);
     } else {
-        // 데이터가 없으면 해당 월만 로드
+        // ★ 3단계: API 호출
         console.log(`Fetching data for ${selectedMonth}...`);
         await loadSpecificMonth(selectedMonth);
     }
@@ -743,6 +884,57 @@ function updateFilter(type, value) {
         // 월 변경 시 렌더링만
         handleMonthChange();
     }
+
+    // ★ SNS/월 변경 시 URL도 업데이트 (SEO 라우팅)
+    updateRankingUrl();
+}
+
+/**
+ * 현재 SNS/월 선택 상태에 맞는 URL로 history 업데이트
+ * 기본값(웨이보)이면 /ranking, 아니면 /ranking/{sns} 또는 /ranking/{YYMM}/{sns}
+ */
+function updateRankingUrl() {
+    const sns = document.getElementById('sns').value;
+    const month = document.getElementById('month').value;
+    const snsSlug = SNS_SLUG_REVERSE[sns];
+
+    // SNS 슬러그가 없으면 (매핑 안 되는 경우) /ranking 유지
+    if (!snsSlug) return;
+
+    let newPath = '/ranking';
+    let newTitle = 'K-POP SNS 랭킹 | 아이엠콘텐츠';
+    let newDesc = PAGE_DESCRIPTIONS.home;
+
+    if (sns !== '웨이보') {
+        // 기본값이 아닌 SNS 선택 시 → /ranking/{sns}
+        newPath = '/ranking/' + snsSlug;
+        const snsLabel = sns === '차오화' ? '웨이보(슈퍼챗)' : sns;
+        newTitle = `아이돌 ${snsLabel} 순위 | 아이엠콘텐츠`;
+        newDesc = `K-POP 아이돌 ${snsLabel} 팔로워/구독자 순위 - 월별 랭킹 데이터`;
+    }
+
+    // 월이 최신월이 아닌 경우 → /ranking/{YYMM}/{sns}
+    if (month && cachedMonths.length > 0 && month !== cachedMonths[cachedMonths.length - 1]) {
+        const yymm = month.replace('20', '').replace('-', ''); // '2025-12' → '2512'
+        newPath = '/ranking/' + yymm + '/' + snsSlug;
+        const snsLabel = sns === '차오화' ? '웨이보(슈퍼챗)' : sns;
+        newTitle = `${formatYearMonth(month)} 아이돌 ${snsLabel} 순위 | 아이엠콘텐츠`;
+        newDesc = `${formatYearMonth(month)} K-POP 아이돌 ${snsLabel} 팔로워 순위`;
+    }
+
+    // URL 업데이트 (현재 경로와 다를 때만)
+    if (window.location.pathname !== newPath) {
+        history.pushState({ pageId: 'home', sns, month }, newTitle, newPath);
+        document.title = newTitle;
+        // meta description 업데이트
+        document.querySelector('meta[name="description"]')?.setAttribute('content', newDesc);
+        document.querySelector('meta[property="og:description"]')?.setAttribute('content', newDesc);
+        document.querySelector('meta[property="og:title"]')?.setAttribute('content', newTitle);
+        document.querySelector('meta[property="og:url"]')?.setAttribute('content',
+            window.location.origin + newPath);
+        const canonical = document.querySelector('link[rel="canonical"]');
+        if (canonical) canonical.setAttribute('href', 'https://aimcontents.com' + newPath);
+    }
 }
 
 function formatYearMonth(ym) {
@@ -758,15 +950,182 @@ function formatYearMonth(ym) {
     return ym;
 }
 
-function route(pageId) {
+// ============================================================
+// 🌐 SPA 라우팅 메타데이터
+// ============================================================
+const PAGE_META = {
+    home:    { path: '/ranking', title: 'K-POP SNS 랭킹 | 아이엠콘텐츠' },
+    comeback:{ path: '/comeback', title: '컴백일정 | 아이엠콘텐츠' },
+    news:    { path: '/news',    title: '엔터뉴스 | 아이엠콘텐츠' },
+    links:   { path: '/links',   title: '링크모음 | 아이엠콘텐츠' },
+    jobs:    { path: '/jobs',    title: '채용정보 | 아이엠콘텐츠' },
+    vendors: { path: '/vendors', title: '업체정보 | 아이엠콘텐츠' },
+    douyin:  { path: '/douyin',  title: '중국트렌드 | 아이엠콘텐츠' },
+    team:    { path: '/team',    title: 'Team | 아이엠콘텐츠' }
+};
+
+// SNS 영문 슬러그 ↔ 한글명 매핑 (URL 라우팅용)
+const SNS_SLUG_MAP = {
+    weibo: '웨이보', bilibili: '빌리빌리', qqmusic: 'QQ뮤직',
+    twitter: 'X(트위터)', youtube: '유튜브', spotify: '스포티파이',
+    chaohua: '차오화'
+};
+// 역방향 매핑 (한글명 → 슬러그)
+const SNS_SLUG_REVERSE = {};
+Object.entries(SNS_SLUG_MAP).forEach(([slug, name]) => {
+    SNS_SLUG_REVERSE[name] = slug;
+});
+
+/**
+ * 아이돌 슬러그로 cachedData에서 이름과 성별 검색
+ * 한글 이름(방탄소년단) 또는 영문 그룹명(bts) 모두 지원
+ * @param {string} slug - URL 슬러그
+ * @returns {{ name: string, gender: string } | null}
+ */
+function findIdolBySlug(slug) {
+    if (!cachedData || cachedData.length === 0) return null;
+    const lowerSlug = slug.toLowerCase();
+
+    // 1. 정확한 이름 매치 (한글)
+    const exact = cachedData.find(d => d.name === slug);
+    if (exact) return { name: exact.name, gender: document.getElementById('gender').value };
+
+    // 2. 그룹명 매치 (대소문자 무시)
+    const groupMatch = cachedData.find(d => d.group && d.group.toLowerCase() === lowerSlug);
+    if (groupMatch) return { name: groupMatch.name, gender: document.getElementById('gender').value };
+
+    // 3. 이름에 슬러그 포함 (부분 매치)
+    const partial = cachedData.find(d =>
+        d.name.toLowerCase().includes(lowerSlug) ||
+        (d.group && d.group.toLowerCase().includes(lowerSlug))
+    );
+    if (partial) return { name: partial.name, gender: document.getElementById('gender').value };
+
+    return null;
+}
+
+// 페이지별 SEO description 매핑
+const PAGE_DESCRIPTIONS = {
+    home:    'K-POP 아이돌 SNS 팔로워 순위 - 웨이보, 빌리빌리, 유튜브, 스포티파이 월별 랭킹',
+    comeback:'K-POP 아이돌 컴백/데뷔 일정 - 최신 컴백 스케줄 한눈에 확인',
+    news:    '실시간 엔터테인먼트 뉴스 - K-POP, 드라마, 엔터 업계 최신 소식',
+    links:   'K-POP 관련 유용한 링크 모음 - 음원, 투표, 팬카페, 공식 채널',
+    jobs:    '엔터테인먼트 채용정보 - 마케팅, 매니지먼트, 프로듀싱, 해외사업',
+    vendors: '엔터테인먼트 업체정보 - 제작, 유통, 마케팅 협력사 데이터베이스',
+    douyin:  '중국 도우인(抖音) 인기 챌린지 트렌드 - 주간 업데이트',
+    team:    'Team | 아이엠콘텐츠'
+};
+
+/**
+ * 동적 meta description + OG 태그 업데이트 (SEO)
+ * @param {string} pageId - 페이지 식별자
+ */
+function updateMetaDescription(pageId) {
+    const desc = PAGE_DESCRIPTIONS[pageId];
+    if (!desc) return;
+    // meta description 업데이트
+    document.querySelector('meta[name="description"]')?.setAttribute('content', desc);
+    // OG description 업데이트
+    document.querySelector('meta[property="og:description"]')?.setAttribute('content', desc);
+    // OG title 업데이트
+    const meta = PAGE_META[pageId];
+    if (meta) {
+        document.querySelector('meta[property="og:title"]')?.setAttribute('content', meta.title);
+        document.querySelector('meta[property="og:url"]')?.setAttribute('content',
+            window.location.origin + meta.path);
+    }
+    // canonical URL 업데이트
+    const canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical && meta) {
+        canonical.setAttribute('href', 'https://aimcontents.com' + meta.path);
+    }
+}
+
+/**
+ * URL path → pageId 매핑 (SPA 라우팅용)
+ * 지원 패턴:
+ *   /ranking          → home (기본)
+ *   /ranking/weibo    → home + SNS 자동 선택
+ *   /ranking/2512/weibo → home + 월 + SNS 자동 선택
+ *   /idol/bts         → home + 아이돌 모달 자동 열기
+ * @param {string} path - URL pathname
+ * @returns {string} pageId
+ */
+function getPageIdFromPath(path) {
+    // 기본 페이지 매핑
+    const map = {
+        '/': 'home', '/ranking': 'home',
+        '/comeback': 'comeback', '/news': 'news',
+        '/links': 'links', '/jobs': 'jobs',
+        '/vendors': 'vendors', '/douyin': 'douyin', '/team': 'team'
+    };
+    if (map[path]) return map[path];
+
+    // /ranking/{sns} 또는 /ranking/{YYMM}/{sns} 패턴
+    if (path.startsWith('/ranking/')) return 'home';
+
+    // /idol/{slug} 패턴
+    if (path.startsWith('/idol/')) return 'home';
+
+    return 'home';
+}
+
+/**
+ * URL path에서 SNS/월/아이돌 파라미터 파싱
+ * @param {string} path - URL pathname
+ * @returns {Object} { sns, month, idolSlug }
+ */
+function parseUrlParams(path) {
+    const result = { sns: null, month: null, idolSlug: null };
+
+    // /ranking/{sns} 패턴 (예: /ranking/bilibili)
+    const snsMatch = path.match(/^\/ranking\/([a-z]+)$/);
+    if (snsMatch && SNS_SLUG_MAP[snsMatch[1]]) {
+        result.sns = SNS_SLUG_MAP[snsMatch[1]];
+        return result;
+    }
+
+    // /ranking/{YYMM}/{sns} 패턴 (예: /ranking/2512/bilibili)
+    const monthSnsMatch = path.match(/^\/ranking\/(\d{4})\/([a-z]+)$/);
+    if (monthSnsMatch) {
+        const yymm = monthSnsMatch[1]; // 예: '2512'
+        const snsSlug = monthSnsMatch[2];
+        if (SNS_SLUG_MAP[snsSlug]) {
+            // YYMM → YYYY-MM 변환 (예: '2512' → '2025-12')
+            result.month = '20' + yymm.substring(0, 2) + '-' + yymm.substring(2, 4);
+            result.sns = SNS_SLUG_MAP[snsSlug];
+        }
+        return result;
+    }
+
+    // /idol/{slug} 패턴 (예: /idol/bts, /idol/세븐틴)
+    const idolMatch = path.match(/^\/idol\/(.+)$/);
+    if (idolMatch) {
+        result.idolSlug = decodeURIComponent(idolMatch[1]);
+        return result;
+    }
+
+    return result;
+}
+
+/**
+ * SPA 라우팅 함수 (페이지 전환 + URL 변경 + SEO 메타 업데이트)
+ * @param {string} pageId - 표시할 페이지 ID
+ * @param {boolean} pushState - true면 history.pushState 실행 (기본값: true)
+ */
+function route(pageId, pushState = true) {
+    // 섹션 토글 (d-none으로 숨김/표시)
     document.querySelectorAll('.page-section').forEach(el => el.classList.add('d-none'));
     document.getElementById('page-' + pageId).classList.remove('d-none');
 
-    document.querySelectorAll('.nav-link').forEach(el => el.classList.remove('active'));
-    // event 객체가 있을 때만 실행 (안전장치 추가)
-    if (typeof event !== 'undefined' && event.target) {
-        event.target.classList.add('active');
-    }
+    // nav active 상태 업데이트 (pageId 기반으로 안정적 매칭)
+    document.querySelectorAll('.nav-link').forEach(el => {
+        el.classList.remove('active');
+        const onclick = el.getAttribute('onclick') || '';
+        if (onclick.includes("'" + pageId + "'")) {
+            el.classList.add('active');
+        }
+    });
 
     // 모바일 메뉴 닫기
     const navbarCollapse = document.getElementById('navbarNav');
@@ -778,23 +1137,20 @@ function route(pageId) {
     }
 
     // ============================================================
-    // 📊 GA4 가상 페이지뷰 전송 (SPA 페이지 전환 추적)
+    // 🌐 URL 변경 + SEO 메타 업데이트 + GA4 전송
     // ============================================================
-    const PAGE_META = {
-        home: { path: '/', title: 'SNS Ranking | 아이엠콘텐츠' },
-        comeback: { path: '/comeback', title: '컴백일정 | 아이엠콘텐츠' },
-        news: { path: '/news', title: '엔터뉴스 | 아이엠콘텐츠' },
-        links: { path: '/links', title: '링크모음 | 아이엠콘텐츠' },
-        jobs: { path: '/jobs', title: '채용정보 | 아이엠콘텐츠' },
-        vendors: { path: '/vendors', title: '업체정보 | 아이엠콘텐츠' },
-        douyin: { path: '/douyin', title: '중국트렌드 | 아이엠콘텐츠' },
-        team: { path: '/team', title: 'Team | 아이엠콘텐츠' }
-    };
-
     const meta = PAGE_META[pageId];
     if (meta) {
-        // 브라우저 탭 제목 변경 (SEO/UX 개선)
+        // 브라우저 탭 제목 변경
         document.title = meta.title;
+
+        // ★ URL 주소 변경 (history.pushState)
+        if (pushState) {
+            history.pushState({ pageId: pageId }, meta.title, meta.path);
+        }
+
+        // ★ SEO: meta description + OG 태그 동적 업데이트
+        updateMetaDescription(pageId);
 
         // GA4 가상 페이지뷰 전송
         if (typeof gtag === 'function') {
@@ -807,31 +1163,32 @@ function route(pageId) {
         }
     }
 
-    // 엔터뉴스 페이지 진입 시 자동으로 최신 뉴스 로딩
-    if (pageId === 'news') {
-        loadEnterNews();
-    }
-
-    // 링크모음 페이지 진입 시 자동으로 링크 로딩
-    if (pageId === 'links') {
-        loadLinks();
-    }
-
-    // 채용정보 페이지 진입 시 자동으로 채용 로딩
-    if (pageId === 'jobs') {
-        loadJobs();
-    }
-
-    // 업체정보 페이지 진입 시 자동으로 업체정보 로딩
-    if (pageId === 'vendors') {
-        loadVendors();
-    }
-
-    // 도우인 챌린지 페이지 진입 시 자동으로 데이터 로딩
-    if (pageId === 'douyin') {
-        loadDouyinChallenges();
-    }
+    // 각 페이지별 데이터 자동 로딩
+    if (pageId === 'home' && cachedData.length === 0) loadData(true); // SNS 랭킹 데이터 로드
+    if (pageId === 'news') loadEnterNews();
+    if (pageId === 'links') loadLinks();
+    if (pageId === 'jobs') loadJobs();
+    if (pageId === 'vendors') loadVendors();
+    if (pageId === 'douyin') loadDouyinChallenges();
 }
+
+// ★ 브라우저 뒤로가기/앞으로가기 처리
+window.addEventListener('popstate', (event) => {
+    const pageId = event.state?.pageId || getPageIdFromPath(window.location.pathname);
+
+    // SNS/월 상태 복원 (history state에 저장된 경우)
+    if (event.state?.sns) {
+        document.getElementById('sns').value = event.state.sns;
+        const displayText = event.state.sns === '차오화' ? '웨이보(슈퍼챗)' : event.state.sns;
+        document.getElementById('snsDropdown').innerHTML = displayText;
+    }
+    if (event.state?.month) {
+        document.getElementById('month').value = event.state.month;
+        document.getElementById('monthDropdown').innerHTML = formatYearMonth(event.state.month);
+    }
+
+    route(pageId, false); // pushState=false (history 중복 방지)
+});
 
 // ========================================
 // 🚀 예측 프리로딩 (Predictive Preloading)

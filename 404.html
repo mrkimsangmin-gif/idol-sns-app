@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting... | 아이엠콘텐츠</title>
+    <script>
+        // GitHub Pages SPA 라우팅 트릭
+        // /ranking, /news 등 경로로 직접 접근 시 index.html로 리다이렉트
+        // 원래 경로를 쿼리 파라미터로 변환하여 전달
+        var pathSegmentsToKeep = 0; // 커스텀 도메인 사용 시 0
+        var l = window.location;
+        l.replace(
+            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash
+        );
+    </script>
+</head>
+<body>
+    <!-- 리다이렉트 실패 시 안내 메시지 -->
+    <noscript>
+        <p>페이지를 찾을 수 없습니다. <a href="https://aimcontents.com/">홈으로 이동</a></p>
+    </noscript>
+</body>
+</html>
