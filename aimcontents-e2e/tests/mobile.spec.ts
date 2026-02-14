@@ -6,13 +6,21 @@ import { test, expect, devices } from '@playwright/test';
  * - 터치 인터랙션
  * - 모바일 메뉴 (햄버거 메뉴)
  * - iOS Safari 특수 케이스
- * 
+ *
  * 💡 핵심: "버튼이 있다"가 아니라 "기능이 실제로 작동한다"를 검증
+ *
+ * Note: devices[...]에서 defaultBrowserType을 제외해야 describe 내부에서 사용 가능
+ * (Playwright 1.58+ 제약: describe 내부에서 브라우저 타입 변경 불가)
  */
+
+// defaultBrowserType을 제외한 디바이스 설정 추출
+const { defaultBrowserType: _i, ...iPhone13Config } = devices['iPhone 13'];
+const { defaultBrowserType: _p, ...pixel5Config } = devices['Pixel 5'];
+const { defaultBrowserType: _d, ...iPadConfig } = devices['iPad Pro 11'];
 
 // iPhone 13 환경 테스트
 test.describe('모바일 - iPhone 13', () => {
-  test.use({ ...devices['iPhone 13'] });
+  test.use(iPhone13Config);
 
   test('페이지가 정상 로드되어야 함', async ({ page }) => {
     await page.goto('/');
@@ -129,7 +137,7 @@ test.describe('모바일 - iPhone 13', () => {
 
 // Pixel 5 (Android) 환경 테스트
 test.describe('모바일 - Pixel 5 (Android)', () => {
-  test.use({ ...devices['Pixel 5'] });
+  test.use(pixel5Config);
 
   test('Android에서 페이지가 정상 로드되어야 함', async ({ page, isMobile }) => {
     expect(isMobile).toBeTruthy();
@@ -169,7 +177,7 @@ test.describe('모바일 - Pixel 5 (Android)', () => {
 
 // iPad 환경 테스트
 test.describe('태블릿 - iPad Pro', () => {
-  test.use({ ...devices['iPad Pro 11'] });
+  test.use(iPadConfig);
 
   test('iPad에서 레이아웃이 올바르게 표시되어야 함', async ({ page, isMobile }) => {
     // iPad는 isMobile이 true
@@ -198,7 +206,7 @@ test.describe('태블릿 - iPad Pro', () => {
 
 // iOS Safari 특수 케이스
 test.describe('iOS Safari 특수 케이스', () => {
-  test.use({ ...devices['iPhone 13'] });
+  test.use(iPhone13Config);
 
   test('100vh 이슈 - 스크롤 시 레이아웃 깨짐 없어야 함', async ({ page }) => {
     await page.goto('/');
