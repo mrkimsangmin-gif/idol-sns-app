@@ -9,6 +9,8 @@
     "test:debug": "npx playwright test --debug",
     "test:chrome": "npx playwright test --project='Desktop Chrome'",
     "test:mobile": "npx playwright test --project='iPhone 13' --project='Pixel 5'",
+    "test:quick": "npx playwright test tests/navigation.spec.ts tests/seo.spec.ts --project='Desktop Chrome'",
+    "test:all": "npx playwright test --project='Desktop Chrome' --project='Desktop Firefox' --project='Desktop Safari'",
     "test:all-browsers": "npx playwright test --project='Desktop Chrome' --project='Desktop Firefox' --project='Desktop Safari'",
     "report": "npx playwright show-report",
     "codegen": "npx playwright codegen https://aimcontents.com"
