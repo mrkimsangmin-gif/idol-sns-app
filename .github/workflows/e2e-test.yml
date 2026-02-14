@@ -30,13 +30,19 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Verify installation
+        run: npx playwright --version
 
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium
 
+      - name: List available tests
+        run: npx playwright test --list --project="Desktop Chrome" 2>&1 || true
+
       - name: Run Playwright tests
-        run: npx playwright test --project='Desktop Chrome'
+        run: npx playwright test --project="Desktop Chrome"
         env:
           CI: true
 
