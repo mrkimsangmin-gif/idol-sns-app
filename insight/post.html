@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 기본 메타 (JS에서 동적으로 업데이트) -->
+    <title>인사이트 | 아이엠콘텐츠</title>
+    <meta name="description" content="K-POP & 엔터 산업 전문 인사이트">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="인사이트 | 아이엠콘텐츠">
+    <meta property="og:description" content="K-POP & 엔터 산업 전문 인사이트">
+    <meta property="og:url" content="https://aimcontents.com/insight/post.html">
+    <meta property="og:site_name" content="아이엠콘텐츠">
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0ZEFEPQPG"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-G0ZEFEPQPG');</script>
+    <!-- Bootstrap 5.3.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* 메인 사이트와 동일한 디자인 토큰 */
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8f9fa; }
+        .navbar-brand img { height: 40px; }
+
+        /* 본문 영역 */
+        .article-wrap {
+            max-width: 740px;
+            margin: 0 auto;
+            padding: 36px 20px 60px;
+            margin-top: 56px; /* navbar 높이 */
+        }
+
+        /* 뒤로가기 링크 */
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            color: #999;
+            text-decoration: none;
+            margin-bottom: 28px;
+            transition: color 0.2s;
+        }
+        .back-link:hover { color: #0061f2; }
+        .back-link svg { width: 16px; height: 16px; }
+
+        /* 카테고리 뱃지 */
+        .article-category {
+            font-size: 12px;
+            font-weight: 600;
+            color: #0061f2;
+            background: #e7f0ff;
+            padding: 4px 12px;
+            border-radius: 12px;
+            display: inline-block;
+            margin-bottom: 14px;
+        }
+
+        /* 제목 */
+        .article-title {
+            font-size: 28px;
+            font-weight: 800;
+            line-height: 1.4;
+            letter-spacing: -0.5px;
+            margin-bottom: 14px;
+            color: #222;
+        }
+
+        /* 메타 정보 */
+        .article-meta {
+            font-size: 13px;
+            color: #999;
+            margin-bottom: 32px;
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        /* 본문 콘텐츠 스타일 */
+        .article-body { font-size: 15.5px; line-height: 1.85; color: #333; }
+        .article-body h2 {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 36px 0 14px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #e0e0e0;
+            color: #222;
+        }
+        .article-body h3 { font-size: 17px; font-weight: 600; margin: 28px 0 10px; color: #333; }
+        .article-body p { margin-bottom: 16px; }
+        .article-body strong { color: #0061f2; font-weight: 600; }
+        .article-body blockquote {
+            border-left: 3px solid #0061f2;
+            padding: 12px 18px;
+            margin: 20px 0;
+            background: #f0f5ff;
+            border-radius: 0 12px 12px 0;
+            font-size: 14.5px;
+            color: #555;
+        }
+        .article-body ul, .article-body ol { margin: 12px 0 16px 20px; }
+        .article-body li { margin-bottom: 6px; }
+        .article-body img { max-width: 100%; border-radius: 12px; margin: 20px 0; }
+        .article-body a { color: #0061f2; }
+        .article-body table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+        .article-body th, .article-body td { padding: 10px 12px; border: 1px solid #e0e0e0; text-align: left; }
+        .article-body th { background: #f8f9fa; font-weight: 600; }
+        .article-body code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; font-size: 13.5px; }
+        .article-body pre { background: #f5f5f5; padding: 16px; border-radius: 8px; overflow-x: auto; margin: 16px 0; }
+        .article-body pre code { background: none; padding: 0; }
+
+        /* 태그 영역 */
+        .article-tags {
+            margin-top: 36px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .article-tags span {
+            font-size: 12.5px;
+            color: #666;
+            padding: 4px 12px;
+            border-radius: 14px;
+            border: 1px solid #e0e0e0;
+        }
+
+        /* 공유 버튼 */
+        .share-bar {
+            margin-top: 24px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        .share-btn {
+            padding: 8px 16px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            background: white;
+            color: #666;
+            font-size: 12.5px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .share-btn:hover { border-color: #0061f2; color: #0061f2; }
+
+        /* CTA 블록 */
+        .cta-block {
+            margin-top: 40px;
+            padding: 28px;
+            background: white;
+            border-radius: 12px;
+            border: 1px solid #f0f0f0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            text-align: center;
+        }
+        .cta-block p { font-size: 14px; color: #666; margin-bottom: 12px; }
+        .cta-btn {
+            display: inline-block;
+            padding: 10px 24px;
+            background: linear-gradient(135deg, #0061f2 0%, #00c6f9 100%);
+            color: white;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+        .cta-btn:hover { color: white; transform: scale(1.02); text-decoration: none; }
+
+        /* 로딩 상태 */
+        .loading-state { text-align: center; padding: 80px 20px; color: #999; font-size: 14px; }
+
+        /* 푸터 */
+        .article-footer {
+            max-width: 740px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            text-align: center;
+            border-top: 1px solid #e0e0e0;
+            font-size: 12px;
+            color: #999;
+        }
+        .article-footer a { color: #0061f2; text-decoration: none; }
+
+        /* 모바일 반응형 */
+        @media (max-width: 576px) {
+            .article-title { font-size: 22px; }
+            .article-body { font-size: 14.5px; }
+            .article-body h2 { font-size: 18px; }
+            .article-wrap { padding: 28px 16px 48px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- 네비게이션 -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="https://aimcontents.com/">
+            <img src="/logo_aimcontents.png" alt="AIMCONTENTS" width="227" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="메뉴 열기">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link" href="/ranking">SNS랭킹</a></li>
+                <li class="nav-item"><a class="nav-link" href="/comeback">컴백일정</a></li>
+                <li class="nav-item"><a class="nav-link" href="/news">엔터뉴스</a></li>
+                <li class="nav-item"><a class="nav-link active" href="/insight/index_insight.html">인사이트</a></li>
+                <li class="nav-item"><a class="nav-link" href="/links">링크모음</a></li>
+                <li class="nav-item"><a class="nav-link" href="/jobs">채용정보</a></li>
+                <li class="nav-item"><a class="nav-link" href="/vendors">업체정보</a></li>
+                <li class="nav-item"><a class="nav-link" href="/douyin">중국트렌드</a></li>
+                <li class="nav-item"><a class="nav-link" href="/team">Team</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- 본문 -->
+<main class="article-wrap" id="main">
+    <div class="loading-state" id="loadingState">
+        <div class="spinner-border text-primary mb-3" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p>글을 불러오는 중...</p>
+    </div>
+</main>
+
+<!-- 푸터 -->
+<footer class="article-footer">
+    &copy; 2026 <a href="https://aimcontents.com/">아이엠콘텐츠</a> · K-POP & 엔터 비즈니스 파트너
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+// 📌 아래 URL을 실제 GAS 배포 URL로 교체
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+const API = 'https://script.google.com/macros/s/AKfycby7Hw0e4CZmJnwWjHRsTVk0kEoktiDMjaOgWvLRauq_5pRF1D-nScDJ3vUWfcp5Re-A/exec';
+
+// 페이지 로드 시 글 로드
+document.addEventListener('DOMContentLoaded', loadPost);
+
+/**
+ * URL 파라미터에서 slug/id 추출 후 글 로드 (조회수 +1)
+ */
+async function loadPost() {
+    const params = new URLSearchParams(location.search);
+    const slug = params.get('slug');
+    const id = params.get('id');
+
+    if (!slug && !id) {
+        showError('잘못된 접근입니다.');
+        return;
+    }
+
+    try {
+        // action=view → 조회수 +1 후 글 반환
+        let url = `${API}?action=view`;
+        if (slug) url += `&slug=${encodeURIComponent(slug)}`;
+        else url += `&id=${encodeURIComponent(id)}`;
+
+        const res = await fetch(url);
+        const data = await res.json();
+
+        if (data.error || !data.post) {
+            showError('글을 찾을 수 없습니다.');
+            return;
+        }
+        renderPost(data.post);
+    } catch (e) {
+        showError('데이터를 불러오지 못했습니다.');
+        console.error(e);
+    }
+}
+
+/**
+ * 글 렌더링 + SEO 메타 태그 동적 업데이트
+ */
+function renderPost(post) {
+    // 메타 태그 업데이트
+    document.title = `${post.title} | 아이엠콘텐츠 인사이트`;
+    setMeta('description', post.summary);
+    setOG('og:title', post.title);
+    setOG('og:description', post.summary);
+    setOG('og:url', location.href);
+    if (post.thumbnail) setOG('og:image', post.thumbnail);
+
+    // Schema.org BlogPosting 구조화 데이터
+    const schema = document.createElement('script');
+    schema.type = 'application/ld+json';
+    schema.textContent = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": post.title,
+        "description": post.summary,
+        "datePublished": post.created_at,
+        "dateModified": post.updated_at || post.created_at,
+        "author": { "@type": "Person", "name": post.author || "아이엠콘텐츠" },
+        "publisher": { "@type": "Organization", "name": "아이엠콘텐츠", "url": "https://aimcontents.com" },
+        "url": location.href,
+        "keywords": (post.seo_keywords || []).join(', ')
+    });
+    document.head.appendChild(schema);
+
+    // 본문 HTML 렌더링
+    const main = document.getElementById('main');
+    main.innerHTML = `
+        <a href="/insight/index_insight.html" class="back-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            목록으로
+        </a>
+
+        <span class="article-category">${esc(post.category)}</span>
+        <h1 class="article-title">${esc(post.title)}</h1>
+        <div class="article-meta">
+            <span>${post.author || '아이엠콘텐츠'}</span>
+            <span>${post.created_at}</span>
+            <span>조회 ${post.view_count || 0}</span>
+        </div>
+
+        <div class="article-body">${post.content}</div>
+
+        ${post.tags && post.tags.length ? `
+        <div class="article-tags">
+            ${post.tags.map(t => `<span>#${esc(t)}</span>`).join('')}
+        </div>` : ''}
+
+        <div class="share-bar">
+            <button class="share-btn" onclick="copyLink()">🔗 링크 복사</button>
+            <button class="share-btn" onclick="shareKakao()">💬 카카오톡</button>
+        </div>
+
+        <div class="cta-block">
+            <p>K-POP 아이돌 SNS 순위, 중국 트렌드, 업계 채용정보까지 한곳에서 확인하세요.</p>
+            <a href="https://aimcontents.com/" class="cta-btn">aimcontents.com 바로가기 →</a>
+        </div>
+    `;
+}
+
+/**
+ * 에러 상태 표시
+ */
+function showError(msg) {
+    document.getElementById('main').innerHTML = `
+        <div style="text-align:center;padding:80px 20px">
+            <p style="color:#999;font-size:15px;margin-bottom:20px">${msg}</p>
+            <a href="/insight/index_insight.html" style="color:#0061f2;font-size:14px">← 인사이트 목록으로</a>
+        </div>`;
+}
+
+/**
+ * 링크 복사
+ */
+function copyLink() {
+    navigator.clipboard.writeText(location.href).then(() => alert('링크가 복사되었습니다!'));
+}
+
+/**
+ * 카카오톡 공유 (SDK 미설치 시 링크 복사로 대체)
+ */
+function shareKakao() {
+    if (typeof Kakao !== 'undefined' && Kakao.isInitialized()) {
+        Kakao.Share.sendDefault({
+            objectType: 'feed',
+            content: {
+                title: document.title,
+                description: document.querySelector('meta[name="description"]')?.content || '',
+                imageUrl: document.querySelector('meta[property="og:image"]')?.content || '',
+                link: { mobileWebUrl: location.href, webUrl: location.href }
+            }
+        });
+    } else {
+        copyLink();
+    }
+}
+
+// 유틸리티 함수
+function setMeta(name, content) {
+    const el = document.querySelector(`meta[name="${name}"]`);
+    if (el) el.content = content;
+}
+function setOG(prop, content) {
+    const el = document.querySelector(`meta[property="${prop}"]`);
+    if (el) el.content = content;
+}
+function esc(s) {
+    return s ? s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;') : '';
+}
+</script>
+</body>
+</html>
