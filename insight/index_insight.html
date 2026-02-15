@@ -318,7 +318,7 @@ async function loadPosts() {
 
         // 글 카드 렌더링
         list.innerHTML = data.posts.map(post => `
-            <a class="post-card" href="/insight/index_insight.htmlpost.html?slug=${encodeURIComponent(post.slug || post.id)}">
+            <a class="post-card" href="/insight/post.html?slug=${encodeURIComponent(post.slug || post.id)}">
                 <div class="post-meta">
                     <span class="post-category">${esc(post.category)}</span>
                     <span class="post-date">${post.created_at}</span>
