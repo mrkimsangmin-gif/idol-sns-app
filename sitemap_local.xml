@@ -28,6 +28,13 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- 인사이트 -->
+  <url>
+    <loc>https://aimcontents.com/insight/index_insight.html</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- 링크모음 -->
   <url>
     <loc>https://aimcontents.com/links</loc>
