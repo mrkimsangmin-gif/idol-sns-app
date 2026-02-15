@@ -81,7 +81,7 @@
       "name": "K-Idol SNS Ranking | 아이엠콘텐츠",
       "url": "https://aimcontents.com",
       "description": "K-POP 아이돌 SNS 팔로워 순위 - 웨이보, 빌리빌리, 유튜브, 스포티파이",
-      "inLanguage": ["ko", "en"],
+      "inLanguage": "ko",
       "potentialAction": {
         "@type": "SearchAction",
         "target": "https://aimcontents.com/ranking?q={search_term_string}",
@@ -240,8 +240,9 @@
             <h2 class="mb-3 fw-bold fs-5">K-POP 아이돌 컴백/데뷔 일정</h2>
             <div class="card border-0 shadow-sm p-3">
                 <div class="calendar-container">
+                    <!-- 컴백일정 캘린더 + 추가 캘린더 + 한국 공휴일 캘린더 -->
                     <iframe
-                        src="https://calendar.google.com/calendar/embed?src=2f47846077df13dd16e51aed01222df79b809105acca22fa7a7b56f050661abf%40group.calendar.google.com&ctz=Asia%2FSeoul&color=%23F4511E"
+                        src="https://calendar.google.com/calendar/embed?src=2f47846077df13dd16e51aed01222df79b809105acca22fa7a7b56f050661abf%40group.calendar.google.com&src=58f8b93d722dc9175aae4c14e685918cdf7f5b2f5056c479ebf49b72dc2c73c5%40group.calendar.google.com&src=ko.south_korea%23holiday%40group.v.calendar.google.com&ctz=Asia%2FSeoul&color=%23F4511E&color=%23BAB6B6&color=%230B8043"
                         style="border: 0" width="100%" height="700" frameborder="0" scrolling="no">
                     </iframe>
                 </div>
@@ -457,7 +458,7 @@
                                 <div><strong>이메일:</strong> <span id="vModalEmail"></span></div>
                                 <button type="button" class="btn btn-outline-secondary btn-sm" id="vModalEmailCopyBtn"
                                     onclick="copyVendorEmail()" style="display:none;" title="이메일 복사">
-                                    <i class="bi bi-clipboard"></i> 복사
+                                    <i class="bi bi-clipboard"></i> <span>복사</span>
                                 </button>
                             </li>
                             <li class="list-group-item px-0">
@@ -505,7 +506,7 @@
                         <input type="hidden" id="vendorFormType">
                         <!-- 업체명 -->
                         <div class="mb-3">
-                            <label class="form-label">업체명 <span class="text-danger">*</span></label>
+                            <label class="form-label">업체명</label> <span class="text-danger">*</span>
                             <input type="text" class="form-control" id="vendorFormCompany" required>
                         </div>
                         <!-- 카테고리 / 담당자 -->
