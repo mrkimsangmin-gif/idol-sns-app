@@ -227,7 +227,7 @@
                     <li><strong>글 작성</strong>: Claude Code에서 <code>GUIDE_v3.md</code> 프로세스로 글 작성 (5단계)</li>
                     <li><strong>aimcontents.com 업로드</strong>: 완성된 <code>.md</code> 파일을 이 관리자 페이지에서 불러오기 → 발행</li>
                     <li><strong>2~3일 후 네이버 블로그 발행</strong>: 같은 글을 <a href="https://blog.naver.com/ai_m_contents" target="_blank">네이버 블로그</a>에 올림</li>
-                    <li><strong>네이버 블로그에 유입 링크 삽입</strong>: 글 하단에 "원문 보기: <code>https://aimcontents.com/insight/index_insight.htmlpost.html?slug=xxx</code>" 링크 추가</li>
+                    <li><strong>네이버 블로그에 유입 링크 삽입</strong>: 글 하단에 "원문 보기: <code>https://aimcontents.com/insight/post.html?slug=xxx</code>" 링크 추가</li>
                 </ol>
                 <br>
                 <h3>💡 네이버 블로그 → aimcontents.com 유입 전략</h3>
@@ -241,7 +241,7 @@
                 <br>
                 <h3>🔗 고유 URL 형식</h3>
                 <p>각 인사이트 글은 아래 형식의 고유 URL을 가집니다:<br>
-                <code>https://aimcontents.com/insight/index_insight.htmlpost.html?slug={슬러그}</code></p>
+                <code>https://aimcontents.com/insight/post.html?slug={슬러그}</code></p>
                 <p>이 URL을 네이버 블로그 글 하단에 삽입하면, 독자가 클릭하여 aimcontents.com으로 유입됩니다.</p>
             </div>
         </div>
@@ -423,7 +423,7 @@ async function savePost(status) {
         // 발행 후 URL 표시
         if (status === 'published') {
             const slug = document.getElementById('fSlug').value || data.slug;
-            const url = `https://aimcontents.com/insight/index_insight.htmlpost.html?slug=${slug}`;
+            const url = `https://aimcontents.com/insight/post.html?slug=${slug}`;
             setTimeout(() => {
                 alert(`✅ 발행 완료!\n\n글 URL:\n${url}\n\n이 URL을 2~3일 후 네이버 블로그 글 하단에 삽입하세요.`);
             }, 500);
@@ -513,7 +513,7 @@ async function delPost(id, title) {
 }
 
 function copyUrl(slug) {
-    const url = `https://aimcontents.com/insight/index_insight.htmlpost.html?slug=${slug}`;
+    const url = `https://aimcontents.com/insight/post.html?slug=${slug}`;
     navigator.clipboard.writeText(url).then(() => toast('URL 복사됨: ' + url));
 }
 
