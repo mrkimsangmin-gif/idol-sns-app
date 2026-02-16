@@ -45,6 +45,25 @@ const API_URL = "https://script.google.com/macros/s/AKfycby7Hw0e4CZmJnwWjHRsTVk0
 // ⚠️ 엔터뉴스 GAS 웹앱 URL (action=getNews 파라미터 추가)
 const ENTER_NEWS_API = "https://script.google.com/macros/s/AKfycbwV5QEzJGijfTyamsmsdYUIwoHLcjwyyJlcBXUdKu71-mWNy2rmFhl1K3B1GYIIx5e-/exec?action=getNews";
 
+// SNS API값 → 화면 표시명 매핑 ('차오화'만 다름)
+const SNS_DISPLAY = {
+    '웨이보':'웨이보', '차오화':'웨이보(슈퍼챗)', '빌리빌리':'빌리빌리',
+    'QQ뮤직':'QQ뮤직', 'X(트위터)':'X(트위터)', '유튜브':'유튜브', '스포티파이':'스포티파이'
+};
+
+/**
+ * 현재 표시 중인 페이지 ID 반환
+ */
+function getCurrentPageId() {
+    const sections = document.querySelectorAll('.page-section');
+    for (const section of sections) {
+        if (!section.classList.contains('d-none')) {
+            return section.id.replace('page-', '');
+        }
+    }
+    return 'home';
+}
+
 // 전역 캐시 변수
 let cachedData = [];       // API에서 받은 원시 데이터 저장
 let cachedMonths = [];     // 사용 가능한 월 목록
@@ -311,12 +330,12 @@ async function loadData(isInit = true) {
 
         } else {
             console.error(quickResult.message);
-            alert("데이터를 불러오는데 실패했습니다: " + quickResult.message);
+            alert('데이터를 불러오는데 실패했습니다: ' + quickResult.message);
             showLoading(false);
         }
     } catch (error) {
         console.error("Error loading data:", error);
-        alert("데이터 로딩 중 오류가 발생했습니다.");
+        alert('데이터 로딩 중 오류가 발생했습니다.');
     } finally {
         // ✅ 성공/실패 관계없이 로딩 스피너 제거 보장
         showLoading(false);
@@ -554,8 +573,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // /ranking/{sns} 또는 /ranking/{YYMM}/{sns} 접근 → 드롭다운 자동 선택
         if (urlParams.sns) {
             document.getElementById('sns').value = urlParams.sns;
-            const displayText = urlParams.sns === '차오화' ? '웨이보(슈퍼챗)' : urlParams.sns;
-            document.getElementById('snsDropdown').innerHTML = displayText;
+            document.getElementById('snsDropdown').innerHTML = SNS_DISPLAY[urlParams.sns] || urlParams.sns;
         }
         // 데이터 로드 (월은 데이터 로드 후 설정)
         loadData(true).then(() => {
@@ -679,14 +697,14 @@ function renderList(targetMonth) {
         if (currentMonthData.length === 0) {
             // 캐시에 해당 월 데이터가 없다면 (백그라운드 로딩 중일 수 있음)
             console.warn(`⚠️ No data for ${targetMonth}, waiting for background load...`);
-            listContainer.innerHTML = '<div class="text-center py-5"><div class="spinner-border text-secondary"></div><p class="mt-2">추가 데이터 로딩 중...</p></div>';
+            listContainer.innerHTML = `<div class="text-center py-5"><div class="spinner-border text-secondary"></div><p class="mt-2">추가 데이터 로딩 중...</p></div>`;
             return;
         }
 
         // ✅ 2단계: 전체 캐시 데이터 확인
         if (!cachedData || cachedData.length === 0) {
             console.error('❌ No cached data available');
-            listContainer.innerHTML = '<div class="text-center p-5 text-muted">데이터가 없습니다.</div>';
+            listContainer.innerHTML = `<div class="text-center p-5 text-muted">데이터가 없습니다.</div>`;
             return;
         }
 
@@ -895,9 +913,7 @@ function updateFilter(type, value) {
         loadData(true);
     } else if (type === 'sns') {
         document.getElementById('sns').value = value;
-        // 표시 텍스트 (차오화 → 웨이보(슈퍼챗))
-        const displayText = value === '차오화' ? '웨이보(슈퍼챗)' : value;
-        document.getElementById('snsDropdown').innerHTML = displayText;
+        document.getElementById('snsDropdown').innerHTML = SNS_DISPLAY[value] || value;
         // sns 변경 시 데이터 재로드
         loadData(true);
     } else if (type === 'month') {
@@ -924,24 +940,24 @@ function updateRankingUrl() {
     if (!snsSlug) return;
 
     let newPath = '/ranking';
-    let newTitle = 'K-POP SNS 랭킹 | 아이엠콘텐츠';
+    let newTitle = PAGE_META.home.title;
     let newDesc = PAGE_DESCRIPTIONS.home;
 
     if (sns !== '웨이보') {
         // 기본값이 아닌 SNS 선택 시 → /ranking/{sns}
         newPath = '/ranking/' + snsSlug;
-        const snsLabel = sns === '차오화' ? '웨이보(슈퍼챗)' : sns;
-        newTitle = `아이돌 ${snsLabel} 순위 | 아이엠콘텐츠`;
-        newDesc = `K-POP 아이돌 ${snsLabel} 팔로워/구독자 순위 - 월별 랭킹 데이터`;
+        const snsLabel = SNS_DISPLAY[sns] || sns;
+        newTitle = `${snsLabel} Ranking | AIMCONTENTS`;
+        newDesc = `K-POP ${snsLabel} Follower Ranking`;
     }
 
     // 월이 최신월이 아닌 경우 → /ranking/{YYMM}/{sns}
     if (month && cachedMonths.length > 0 && month !== cachedMonths[cachedMonths.length - 1]) {
         const yymm = month.replace('20', '').replace('-', ''); // '2025-12' → '2512'
         newPath = '/ranking/' + yymm + '/' + snsSlug;
-        const snsLabel = sns === '차오화' ? '웨이보(슈퍼챗)' : sns;
-        newTitle = `${formatYearMonth(month)} 아이돌 ${snsLabel} 순위 | 아이엠콘텐츠`;
-        newDesc = `${formatYearMonth(month)} K-POP 아이돌 ${snsLabel} 팔로워 순위`;
+        const snsLabel = SNS_DISPLAY[sns] || sns;
+        newTitle = `${formatYearMonth(month)} ${snsLabel} Ranking | AIMCONTENTS`;
+        newDesc = `${formatYearMonth(month)} K-POP ${snsLabel} Follower Ranking`;
     }
 
     // URL 업데이트 (현재 경로와 다를 때만)
@@ -966,7 +982,7 @@ function formatYearMonth(ym) {
         if (parts.length === 2) {
             const shortYear = parts[0].substring(2); // '2025' -> '25'
             const month = parseInt(parts[1]); // '11' -> 11
-            return `${shortYear}년${month}월`;
+            return shortYear + '년' + month + '월';
         }
     } catch (e) { return ym; }
     return ym;
@@ -1201,8 +1217,7 @@ window.addEventListener('popstate', (event) => {
     // SNS/월 상태 복원 (history state에 저장된 경우)
     if (event.state?.sns) {
         document.getElementById('sns').value = event.state.sns;
-        const displayText = event.state.sns === '차오화' ? '웨이보(슈퍼챗)' : event.state.sns;
-        document.getElementById('snsDropdown').innerHTML = displayText;
+        document.getElementById('snsDropdown').innerHTML = SNS_DISPLAY[event.state.sns] || event.state.sns;
     }
     if (event.state?.month) {
         document.getElementById('month').value = event.state.month;
@@ -1522,7 +1537,7 @@ async function showIdolModal(name, gender) {
     // 로딩 상태 표시 (기존 요소 유지)
     document.getElementById('idolName').textContent = name;
     document.getElementById('idolGroup').textContent = '로딩 중...';
-    document.getElementById('idolInfo').innerHTML = '<div class="spinner-border spinner-border-sm me-2"></div>로딩 중...';
+    document.getElementById('idolInfo').innerHTML = `<div class="spinner-border spinner-border-sm me-2"></div>로딩 중...`;
 
     // SNS 링크 영역 초기화
     const snsContainer = document.getElementById('snsLinks');
@@ -1550,7 +1565,7 @@ async function showIdolModal(name, gender) {
             }
         } catch (error) {
             console.error('Error loading metadata:', error);
-            snsContainer.innerHTML = '<div class="alert alert-danger">데이터 로딩 중 오류가 발생했습니다.</div>';
+            snsContainer.innerHTML = `<div class="alert alert-danger">데이터 로딩 중 오류가 발생했습니다.</div>`;
             return;
         }
     }
@@ -1567,7 +1582,7 @@ function renderIdolModal(data, name) {
     document.getElementById('idolGroup').textContent = data.group || '-';
 
     const labelText = data.label || '-';
-    const debutText = data.debut_year ? `${data.debut_year}년 데뷔` : '';
+    const debutText = data.debut_year ? data.debut_year + '년 데뷔' : '';
     document.getElementById('idolInfo').textContent =
         debutText ? `${labelText} • ${debutText}` : labelText;
 
@@ -1596,7 +1611,7 @@ function renderIdolModal(data, name) {
     });
 
     if (!hasSnsLinks) {
-        snsContainer.innerHTML = '<small class="text-muted">등록된 SNS 링크가 없습니다.</small>';
+        snsContainer.innerHTML = `<small class="text-muted">등록된 SNS 링크가 없습니다.</small>`;
     }
 
     // 메모
@@ -2036,7 +2051,7 @@ async function loadLinks() {
         }
     } catch (error) {
         console.error('링크 로드 실패:', error);
-        linksContainer.innerHTML = '<div class="text-center text-danger py-5">링크를 불러오는데 실패했습니다.</div>';
+        linksContainer.innerHTML = `<div class="text-center text-danger py-5">링크를 불러오는데 실패했습니다.</div>`;
     } finally {
         linksLoading.style.display = 'none';
     }
@@ -2119,7 +2134,7 @@ function renderLinksContent(category) {
     const categoryData = linksData[category];
 
     if (!categoryData || !categoryData.subcategories) {
-        container.innerHTML = '<p class="text-muted text-center py-4">데이터가 없습니다.</p>';
+        container.innerHTML = `<p class="text-muted text-center py-4">데이터가 없습니다.</p>`;
         return;
     }
 
@@ -2375,7 +2390,7 @@ async function loadJobs() {
         }
     } catch (error) {
         console.error('채용 로드 실패:', error);
-        containerEl.innerHTML = '<div class="col-12"><div class="alert alert-danger">채용정보를 불러오는데 실패했습니다.</div></div>';
+        containerEl.innerHTML = `<div class="col-12"><div class="alert alert-danger">채용정보를 불러오는데 실패했습니다.</div></div>`;
         containerEl.style.display = 'block';
     } finally {
         loadingEl.style.display = 'none';
@@ -2799,7 +2814,7 @@ function createChallengeCard(challenge, index) {
     const challengeUrl = challenge.challenge_url || `https://www.douyin.com/search/${encodeURIComponent(challenge.title_zh)}`;
 
     // 한국어 제목 (AI가 생성한 요약의 첫 문장 또는 직접 번역)
-    const titleKo = String(challenge.title_ko || (typeof challenge.summary_ko === 'string' ? challenge.summary_ko.split('.')[0] : "내용 없음") || challenge.title_zh);
+    const titleKo = String(challenge.title_ko || (typeof challenge.summary_ko === 'string' ? challenge.summary_ko.split('.')[0] : '내용 없음') || challenge.title_zh);
 
     // 🔥 썸네일 HTML 생성 - CSS Sprite 방식 (좌표 수정됨)
     let thumbnailHtml = '';
@@ -3094,7 +3109,7 @@ async function loadVendors() {
         }
     } catch (error) {
         console.error('업체정보 로드 실패:', error);
-        containerEl.innerHTML = '<div class="col-12"><div class="alert alert-danger">업체정보를 불러오는데 실패했습니다.</div></div>';
+        containerEl.innerHTML = `<div class="col-12"><div class="alert alert-danger">업체정보를 불러오는데 실패했습니다.</div></div>`;
         containerEl.style.display = 'block';
     } finally {
         loadingEl.style.display = 'none';
@@ -3297,7 +3312,7 @@ function renderVendors(vendors) {
     if (!filtered || filtered.length === 0) {
         containerEl.innerHTML = `
             <div class="col-12 vendor-no-results">
-                <p>${searchTerm ? `"${searchTerm}" 검색 결과가 없습니다.` : '등록된 업체정보가 없습니다.'}</p>
+                <p>${searchTerm ? '"' + searchTerm + '"에 대한 검색 결과가 없습니다.' : '데이터가 없습니다.'}</p>
             </div>
         `;
         loadingEl.style.display = 'none';
@@ -3439,7 +3454,7 @@ function copyVendorEmail() {
         // 복사 성공 시 버튼 텍스트 임시 변경
         const btn = document.getElementById('vModalEmailCopyBtn');
         const original = btn.innerHTML;
-        btn.innerHTML = '<i class="bi bi-check"></i> 복사됨';
+        btn.innerHTML = `<i class="bi bi-check"></i> 복사됨`;
         setTimeout(() => { btn.innerHTML = original; }, 1500);
     }).catch(() => {
         alert('복사에 실패했습니다.');
@@ -3490,7 +3505,7 @@ function openVendorForm(type) {
         companyInput.value = window._currentVendorName || '';
         companyInput.readOnly = true; // 업체명 수정 불가
         categorySelect.value = window._currentVendorCategory || '';
-        detailsArea.placeholder = '수정할 내용(연락처 변경, 포트폴리오 추가 등)을 적어주세요.';
+        detailsArea.placeholder = '수정할 내용이나 포트폴리오 URL 등을 적어주세요.';
     }
 
     // 나머지 필드 초기화
@@ -3588,6 +3603,6 @@ function showVendorUpdateTime(isoString) {
         hour: '2-digit',
         minute: '2-digit'
     });
-    el.textContent = `마지막 업데이트: ${formatted}`;
+    el.textContent = '마지막 업데이트: ' + formatted;
 }
 
