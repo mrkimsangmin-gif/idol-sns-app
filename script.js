@@ -88,7 +88,7 @@ async function loadFullSnsData(gender) {
 
     const fileName = gender === '남자' ? 'sns-male.json' : 'sns-female.json';
     try {
-        const response = await fetch(`./data/${fileName}`);
+        const response = await fetch(`/data/${fileName}`);
         if (!response.ok) return null; // 파일이 없으면 null
 
         const data = await response.json();
@@ -150,7 +150,7 @@ async function loadStaticInitialData(gender, sns) {
     try {
         // 메모리 캐시에 있으면 fetch 생략
         if (!staticDataCache) {
-            const response = await fetch('./data/initial-data.json');
+            const response = await fetch('/data/initial-data.json');
             if (!response.ok) return null;
             staticDataCache = await response.json();
         }
@@ -1115,7 +1115,7 @@ async function loadStaticMetadataJSON(gender) {
 
     const fileName = gender === '남자' ? 'metadata-male.json' : 'metadata-female.json';
     try {
-        const response = await fetch(`./data/${fileName}`);
+        const response = await fetch(`/data/${fileName}`);
         if (!response.ok) return null; // 파일이 없으면 null
 
         const jsonData = await response.json();
