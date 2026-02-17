@@ -65,69 +65,78 @@ function getCurrentPageId() {
 }
 
 // 전역 캐시 변수
-let cachedData = [];       // API에서 받은 원시 데이터 저장
-let cachedMonths = [];     // 사용 가능한 월 목록
-let metadataCache = {};    // 아이돌 메타데이터 캐시 {name_gender: {data}}
-let staticDataCache = null; // 정적 JSON 전체 메모리 캐시 (version 2: 전 조합 포함)
+let cachedData = [];         // 현재 표시 중인 필터의 데이터 저장
+let cachedMonths = [];       // 사용 가능한 월 목록
+let metadataCache = {};      // 아이돌 메타데이터 캐시 {name_gender: {data}}
+let staticDataCache = null;  // 정적 JSON 전체 메모리 캐시 (version 2: 전 조합 포함)
 
 // ========================================
-// 📦 아카이브 데이터 (과거 데이터 정적 파일 캐시)
+// 📦 정적 JSON 데이터 캐시 (API 대체)
 // ========================================
-const ARCHIVE_CUTOFF = '2025-12'; // 이 월 이하는 아카이브에서 우선 조회
-let archiveCache = {};             // { '남자': archiveData, '여자': archiveData }
+let fullSnsCache = {};       // 전체 SNS 데이터 캐시 { '남자': snsData, '여자': snsData }
+let fullMetadataCache = {};  // 정적 메타데이터 JSON 캐시 { '남자': data, '여자': data }
 
 /**
- * 아카이브 JSON 로드 (성별당 1회만 fetch, 이후 메모리 캐시)
- * 파일 구조: { meta: { gender, allMonths, snsList }, data: [{name, group, sns, date, count}, ...] }
+ * 전체 SNS JSON 로드 (성별당 1회만 fetch, 이후 메모리 캐시)
+ * 파일 구조: { version:3, gender, snsList, data: { "웨이보": { months:[], records:[] }, ... } }
  * @param {string} gender - '남자' 또는 '여자'
- * @returns {Promise<Object|null>} 아카이브 데이터 또는 null
+ * @returns {Promise<Object|null>} SNS 데이터 또는 null
  */
-async function loadArchiveData(gender) {
+async function loadFullSnsData(gender) {
     // 이미 메모리에 캐시되어 있으면 즉시 반환
-    if (archiveCache[gender]) return archiveCache[gender];
+    if (fullSnsCache[gender]) return fullSnsCache[gender];
 
-    const fileName = gender === '남자' ? 'archive-male.json' : 'archive-female.json';
+    const fileName = gender === '남자' ? 'sns-male.json' : 'sns-female.json';
     try {
         const response = await fetch(`./data/${fileName}`);
-        if (!response.ok) return null; // 파일이 없으면 null (API 폴백)
+        if (!response.ok) return null; // 파일이 없으면 null
 
         const data = await response.json();
-        archiveCache[gender] = data; // 메모리 캐시 저장
-        console.log(`📦 아카이브 로드 완료 (${gender}): ${data.data.length}건, ${data.meta.snsList.length} SNS`);
+        fullSnsCache[gender] = data; // 메모리 캐시 저장
+
+        // 통계 로그
+        const snsList = Object.keys(data.data);
+        const totalRecords = snsList.reduce((sum, sns) => sum + (data.data[sns].records ? data.data[sns].records.length : 0), 0);
+        console.log(`📦 전체 SNS 데이터 로드 완료 (${gender}): ${totalRecords}건, ${snsList.length} SNS`);
         return data;
     } catch (e) {
-        console.warn(`아카이브 로드 실패 (${gender}):`, e);
-        return null; // 실패 시 API 폴백
+        console.warn(`전체 SNS 데이터 로드 실패 (${gender}):`, e);
+        return null;
     }
 }
 
 /**
- * 아카이브에서 특정 월 데이터 추출 (플랫 배열에서 sns + month 필터링)
+ * 정적 JSON에서 특정 월 데이터 추출
  * @param {string} gender - '남자' 또는 '여자'
  * @param {string} sns - SNS 이름 (예: '웨이보')
- * @param {string} month - 월 (예: '2025-06')
- * @returns {Promise<Array|null>} 데이터 배열 또는 null (아카이브 없거나 범위 밖)
+ * @param {string} month - 월 (예: '2026-01')
+ * @returns {Promise<Array|null>} 데이터 배열 또는 null
  */
-async function getArchiveMonthData(gender, sns, month) {
-    // 아카이브 범위 밖이면 null → API 호출로 진행
-    if (month > ARCHIVE_CUTOFF) return null;
+async function getStaticMonthData(gender, sns, month) {
+    const snsData = await loadFullSnsData(gender);
+    if (!snsData || !snsData.data || !snsData.data[sns]) return null;
 
-    const archive = await loadArchiveData(gender);
-    if (!archive || !archive.data) return null;
+    const snsGroup = snsData.data[sns];
 
-    // 해당 월이 아카이브에 없으면 null
-    if (!archive.meta.allMonths.includes(month)) return null;
+    // 해당 월이 데이터에 없으면 null
+    if (snsGroup.months && !snsGroup.months.includes(month)) return null;
 
-    // 플랫 배열에서 sns + month로 필터링하여 반환
-    const filtered = archive.data.filter(r => r.sns === sns && r.date === month);
+    // records에서 해당 월 필터링
+    const filtered = snsGroup.records.filter(r => r.date === month);
     return filtered.length > 0 ? filtered : null;
 }
 
-// 프리페칭 상태 관리 (최적화)
-let isPrefetching = false;           // 데이터 프리페칭 진행 중 플래그
-let isMetadataPrefetching = false;   // 메타데이터 프리페칭 진행 중 플래그
-let metadataLoadedFor = new Set();   // 이미 로드된 성별 추적 (예: Set(['남자', '여자']))
-let isLoadingFull = false;           // 전체 데이터 백그라운드 로딩 중 플래그
+/**
+ * 정적 JSON에서 해당 SNS의 전체 월 목록 반환
+ * @param {string} gender - '남자' 또는 '여자'
+ * @param {string} sns - SNS 이름
+ * @returns {Array<string>} 월 목록 배열
+ */
+function getStaticMonths(gender, sns) {
+    const data = fullSnsCache[gender];
+    if (!data || !data.data || !data.data[sns]) return [];
+    return data.data[sns].months || [];
+}
 
 /**
  * 정적 JSON 데이터 로드 (즉시 렌더링용)
@@ -153,7 +162,7 @@ async function loadStaticInitialData(gender, sns) {
         const age = Date.now() - generated.getTime();
         const MAX_AGE = 45 * 24 * 60 * 60 * 1000; // 45일
         if (age > MAX_AGE) {
-            console.warn('⚠️ 정적 데이터 만료됨, GAS API 사용');
+            console.warn('⚠️ 정적 데이터 만료됨, 전체 SNS JSON 사용');
             return null;
         }
 
@@ -177,7 +186,7 @@ async function loadStaticInitialData(gender, sns) {
             return null; // 요청한 조합이 v1 데이터와 불일치
         }
 
-        console.warn('⚠️ 정적 데이터가 비어있음, GAS API 사용');
+        console.warn('⚠️ 정적 데이터가 비어있음, 전체 SNS JSON 사용');
         return null;
     } catch (e) {
         console.warn('정적 데이터 로드 실패:', e);
@@ -185,47 +194,12 @@ async function loadStaticInitialData(gender, sns) {
     }
 }
 
-// 초기 로드 (점진적 로딩: 정적 JSON → IndexedDB → API)
+// 초기 로드 (정적 JSON만 사용: initial-data.json → sns-{gender}.json)
 async function loadData(isInit = true) {
     console.log("⚡ Loading data...");
 
     const gender = document.getElementById('gender').value;
     const sns = document.getElementById('sns').value;
-
-    // 🚀 0단계: 정적 JSON 즉시 로드 (모든 성별/SNS 조합 지원)
-    if (isInit) {
-        const staticData = await loadStaticInitialData(gender, sns);
-        if (staticData) {
-            console.log(`⚡⚡⚡ 정적 데이터 즉시 로드! (${gender}/${sns})`);
-
-            cachedData = staticData.data;
-            cachedMonths = staticData.meta.allMonths;
-
-            // 현재 필터 저장
-            window.currentFilter = { gender, sns };
-
-            updateMonthOptions(cachedMonths);
-            document.getElementById('month').value = staticData.meta.latestMonth;
-            document.getElementById('monthDropdown').innerHTML = formatYearMonth(staticData.meta.latestMonth);
-
-            // 즉시 렌더링 (0.1초 이내!)
-            renderList(staticData.meta.latestMonth);
-
-            // Top 10 메타데이터 프리페칭
-            prefetchTopIdolsMetadata(gender);
-
-            showLoading(false);
-
-            // 백그라운드에서 전체 데이터 로드 (최신 데이터 동기화)
-            setTimeout(() => loadFullDataInBackground(gender, sns), 100);
-            return;
-        }
-    }
-
-    // 기존 로직 (IndexedDB → API)
-    showLoading(true);
-
-    // gender와 sns는 이미 위에서 선언됨 (정적 데이터 로드 실패 시 이쪽으로 진입)
 
     // gender나 sns가 변경되면 기존 메모리 캐시 초기화
     if (window.currentFilter &&
@@ -237,276 +211,158 @@ async function loadData(isInit = true) {
     // 현재 필터 저장
     window.currentFilter = { gender, sns };
 
-    try {
-        // 🚀 0단계: IndexedDB에서 월 목록 조회 (Stale-While-Revalidate)
-        const monthsResult = await getMonthsWithStale(gender, sns).catch(() => ({ data: null, isStale: false }));
-        let monthsFromDB = monthsResult.data;
-        let needsMonthsRefresh = monthsResult.isStale;
+    // 🚀 0단계: initial-data.json에서 즉시 로드 (모든 성별/SNS 조합 지원)
+    if (isInit) {
+        const staticData = await loadStaticInitialData(gender, sns);
+        if (staticData) {
+            console.log(`⚡⚡⚡ 정적 데이터 즉시 로드! (${gender}/${sns})`);
 
-        if (monthsFromDB && monthsFromDB.length > 0) {
-            console.log(monthsResult.isStale ? '⏰ 월 목록 Stale 데이터 사용 (백그라운드 갱신 예정)' : '⚡ 월 목록 IndexedDB 히트!');
-            cachedMonths = monthsFromDB;
+            cachedData = staticData.data;
+            cachedMonths = staticData.meta.allMonths;
+
+            updateMonthOptions(cachedMonths);
+            document.getElementById('month').value = staticData.meta.latestMonth;
+            document.getElementById('monthDropdown').innerHTML = formatYearMonth(staticData.meta.latestMonth);
+
+            // 즉시 렌더링 (0.1초 이내!)
+            renderList(staticData.meta.latestMonth);
+
+            // 메타데이터 정적 JSON 로드 시작
+            prefetchTopIdolsMetadata(gender);
+
+            showLoading(false);
+
+            // 백그라운드에서 전체 SNS 데이터 로드 (모든 월 접근 가능하게)
+            setTimeout(() => loadFullSnsDataInBackground(gender, sns), 100);
+            return;
+        }
+    }
+
+    // 🚀 1단계: initial-data.json 실패 시 → 전체 SNS JSON에서 직접 로드
+    showLoading(true);
+
+    try {
+        const snsData = await loadFullSnsData(gender);
+        if (snsData && snsData.data && snsData.data[sns]) {
+            const snsGroup = snsData.data[sns];
+            cachedMonths = snsGroup.months || [];
+
             updateMonthOptions(cachedMonths);
 
-            // 최신 2개월 데이터 IndexedDB에서 로드 시도 (Stale-While-Revalidate)
-            const latestMonth = cachedMonths[cachedMonths.length - 1];
-            const prevMonth = cachedMonths.length > 1 ? cachedMonths[cachedMonths.length - 2] : null;
+            // 최신 월 데이터 추출
+            if (cachedMonths.length > 0) {
+                const latestMonth = cachedMonths[cachedMonths.length - 1];
+                const prevMonth = cachedMonths.length > 1 ? cachedMonths[cachedMonths.length - 2] : null;
 
-            const latestResult = await getSnsDataWithStale(gender, sns, latestMonth).catch(() => ({ data: null, isStale: false }));
-            const prevResult = prevMonth ? await getSnsDataWithStale(gender, sns, prevMonth).catch(() => ({ data: null, isStale: false })) : { data: null, isStale: false };
+                // 최신 월 + 전월 데이터를 cachedData에 저장
+                const latestData = snsGroup.records.filter(r => r.date === latestMonth);
+                const prevData = prevMonth ? snsGroup.records.filter(r => r.date === prevMonth) : [];
+                cachedData = [...latestData, ...prevData];
 
-            const latestData = latestResult.data;
-            const prevData = prevResult.data;
-            const needsDataRefresh = latestResult.isStale || prevResult.isStale || needsMonthsRefresh;
-
-            if (latestData && latestData.length > 0) {
-                console.log(needsDataRefresh ? '⏰ Stale 데이터로 즉시 렌더링 (백그라운드 갱신 예정)' : '⚡⚡ IndexedDB에서 즉시 로드 성공!');
-                cachedData = prevData ? [...prevData, ...latestData] : latestData;
-
-                // 최신 월 선택
                 document.getElementById('month').value = latestMonth;
                 document.getElementById('monthDropdown').innerHTML = formatYearMonth(latestMonth);
 
-                // 즉시 렌더링 (0.1초 이내) - 캐시 만료 여부와 무관하게 즉시 표시
                 renderList(latestMonth);
-
-                // ⭐ Top 10 메타데이터 우선 로드
                 prefetchTopIdolsMetadata(gender);
-
-                showLoading(false);
-
-                // 백그라운드에서 전체 데이터 업데이트 (Stale 데이터인 경우 더 빠르게 갱신)
-                const refreshDelay = needsDataRefresh ? 50 : 100;
-                setTimeout(() => loadFullDataInBackground(gender, sns), refreshDelay);
-                return; // 조기 반환 (캐시 히트 또는 Stale 데이터 사용)
             }
-        }
-
-
-        // 🚀 1단계: IndexedDB 미스 → API 호출 (상위 10개 우선)
-        console.log('📡 IndexedDB 미스, API 호출 중...');
-        const quickUrl = `${API_URL}?gender=${gender}&sns=${sns}&init=true&limit=10&sortByCount=true`;
-        const quickResponse = await fetch(quickUrl);
-        const quickResult = await quickResponse.json();
-
-        if (quickResult.status === 'success') {
-            cachedData = quickResult.data;
-            cachedMonths = quickResult.meta.allMonths;
-
-            // IndexedDB에 월 목록 저장
-            saveMonths(gender, sns, cachedMonths).catch(err => {
-                console.warn('월 목록 저장 실패:', err);
-            });
-
-            updateMonthOptions(cachedMonths);
-
-            // 최신 월 선택
-            if (cachedMonths.length > 0) {
-                const latestMonth = cachedMonths[cachedMonths.length - 1];
-                const monthInput = document.getElementById('month');
-
-                // ✅ 필터 변경 시 월 값 강제 초기화
-                if (cachedData.length <= 20) {
-                    monthInput.value = latestMonth;
-                    document.getElementById('monthDropdown').innerHTML = formatYearMonth(latestMonth);
-                } else if (!monthInput.value) {
-                    monthInput.value = latestMonth;
-                    document.getElementById('monthDropdown').innerHTML = formatYearMonth(latestMonth);
-                }
-            }
-
-            // 상위 10개 즉시 렌더링 ✨
-            renderList(document.getElementById('month').value);
-
-            // ⭐ 즉시 Top 10 메타데이터 로드 (Zero Latency)
-            prefetchTopIdolsMetadata(gender);
-
-            console.log(`⚡ Quick view loaded: ${cachedData.length} top idols (${quickResult.meta.returned}/${quickResult.meta.total})`);
-
-            showLoading(false);
-
-            // 📥 2단계: 나머지 데이터 백그라운드 로드
-            loadFullDataInBackground(gender, sns);
-
         } else {
-            console.error(quickResult.message);
-            alert('데이터를 불러오는데 실패했습니다: ' + quickResult.message);
-            showLoading(false);
+            console.error('정적 JSON 데이터를 찾을 수 없습니다.');
+            document.getElementById('result-area').innerHTML =
+                '<div class="text-center py-5 text-muted">데이터를 불러올 수 없습니다. 잠시 후 다시 시도해주세요.</div>';
         }
     } catch (error) {
         console.error("Error loading data:", error);
-        alert('데이터 로딩 중 오류가 발생했습니다.');
+        document.getElementById('result-area').innerHTML =
+            '<div class="text-center py-5 text-muted">데이터 로딩 중 오류가 발생했습니다.</div>';
     } finally {
-        // ✅ 성공/실패 관계없이 로딩 스피너 제거 보장
         showLoading(false);
+
+        // 링크/뉴스 프리페칭 (정적 JSON 로드와 무관하게 시작)
+        setTimeout(() => prefetchLinksData(), 5000);
+        setTimeout(() => prefetchEnterNews(), 7000);
     }
 }
 
-// 특정 월 데이터 로드 (아카이브 → API 순서, 10개 우선 로딩)
+// 특정 월 데이터 로드 (정적 JSON에서 조회)
 async function loadSpecificMonth(month) {
     const gender = document.getElementById('gender').value;
     const sns = document.getElementById('sns').value;
 
-    // ★ 아카이브 데이터 확인 (2025-12 이전 월이면 정적 파일에서 즉시 로드)
-    if (month <= ARCHIVE_CUTOFF) {
-        const archiveData = await getArchiveMonthData(gender, sns, month);
-        if (archiveData && archiveData.length > 0) {
-            console.log(`📦 아카이브에서 로드: ${month} (${archiveData.length}건)`);
+    // 정적 JSON에서 데이터 조회
+    const monthData = await getStaticMonthData(gender, sns, month);
+    if (monthData && monthData.length > 0) {
+        console.log(`📦 정적 JSON에서 로드: ${month} (${monthData.length}건)`);
 
-            // 전월 데이터도 아카이브에서 로드 (증감률 계산용)
-            const monthIndex = cachedMonths.indexOf(month);
-            const prevMonth = monthIndex > 0 ? cachedMonths[monthIndex - 1] : null;
-            if (prevMonth && prevMonth <= ARCHIVE_CUTOFF) {
-                const prevData = await getArchiveMonthData(gender, sns, prevMonth);
-                if (prevData) {
-                    cachedData = cachedData.filter(d => d.date !== prevMonth);
-                    cachedData.push(...prevData);
-                }
+        // 전월 데이터도 로드 (증감률 계산용)
+        const monthIndex = cachedMonths.indexOf(month);
+        const prevMonth = monthIndex > 0 ? cachedMonths[monthIndex - 1] : null;
+        if (prevMonth) {
+            const prevData = await getStaticMonthData(gender, sns, prevMonth);
+            if (prevData) {
+                cachedData = cachedData.filter(d => d.date !== prevMonth);
+                cachedData.push(...prevData);
             }
-
-            // 해당 월 데이터 캐시 업데이트 + 렌더링
-            cachedData = cachedData.filter(d => d.date !== month);
-            cachedData.push(...archiveData);
-            renderList(month);
-            showLoading(false);
-            return; // API 호출 불필요
         }
-    }
 
-    // ★ 아카이브에 없으면 기존 API 호출 로직 (최신 데이터용)
-    console.log(`⚡ Loading top 10 idols for ${month}...`);
-    showLoading(true);
-
-    try {
-        // 🚀 1단계: 상위 10개만 초고속 로드
-        const quickUrl = `${API_URL}?gender=${gender}&sns=${sns}&month=${month}&limit=10&sortByCount=true`;
-        const quickResponse = await fetch(quickUrl);
-        const quickResult = await quickResponse.json();
-
-        if (quickResult.status === 'success') {
-            const monthData = quickResult.data;
-
-            // 캐시에 추가/업데이트
-            cachedData = cachedData.filter(d => d.date !== month);
-            cachedData.push(...monthData);
-
-            // 상위 10개 즉시 렌더링
-            renderList(month);
-
-            // Top 10 메타데이터 우선 로드
-            prefetchTopIdolsMetadata(gender);
-
-            console.log(`⚡ Quick view loaded: ${monthData.length} top idols for ${month} (${quickResult.meta.returned}/${quickResult.meta.total})`);
-
-            showLoading(false);
-
-            // 📥 2단계: 나머지 데이터 백그라운드 로드
-            loadFullMonthInBackground(gender, sns, month);
-
-        } else {
-            console.error(quickResult.message);
-            alert('데이터를 불러오는데 실패했습니다: ' + quickResult.message);
-            showLoading(false);
-        }
-    } catch (error) {
-        console.error('Error loading month data:', error);
-        alert('데이터 로딩 중 오류가 발생했습니다.');
-    } finally {
+        // 해당 월 데이터 캐시 업데이트 + 렌더링
+        cachedData = cachedData.filter(d => d.date !== month);
+        cachedData.push(...monthData);
+        renderList(month);
+        showLoading(false);
+    } else {
+        console.warn(`정적 JSON에 ${month} 데이터가 없습니다.`);
+        document.getElementById('result-area').innerHTML =
+            '<div class="text-center py-5 text-muted">해당 월의 데이터가 없습니다.</div>';
         showLoading(false);
     }
 }
 
-// 나머지 데이터 백그라운드 로딩 (사용자에게 보이지 않음)
-async function loadFullDataInBackground(gender, sns) {
-    if (isLoadingFull) {
-        console.log('⏭️ Full data loading already in progress');
-        return;
-    }
-
-    isLoadingFull = true;
-    console.log('📥 Loading full data in background...');
-
-    try {
-        const fullUrl = `${API_URL}?gender=${gender}&sns=${sns}&init=true`;
-        const fullResponse = await fetch(fullUrl);
-        const fullResult = await fullResponse.json();
-
-        if (fullResult.status === 'success') {
-            cachedData = fullResult.data;
-            console.log(`✅ Full data loaded: ${cachedData.length} records`);
-
-            // IndexedDB에 월별 데이터 저장
-            const monthMap = {};
-            cachedData.forEach(item => {
-                if (!monthMap[item.date]) {
-                    monthMap[item.date] = [];
-                }
-                monthMap[item.date].push(item);
-            });
-
-            // 각 월별 데이터를 IndexedDB에 저장
-            for (const month in monthMap) {
-                saveSnsData(gender, sns, month, monthMap[month]).catch(err => {
-                    console.warn(`월 데이터 저장 실패 (${month}):`, err);
-                });
-            }
-
-            // 현재 표시 중인 월 다시 렌더링 (전체 데이터로)
-            const currentMonth = document.getElementById('month').value;
-            renderList(currentMonth);
-
-            // 메타데이터 프리페칭 시작 (모달 즉시 열기 위함)  
-            prefetchMetadata();
-
-            // 🔗 5초 후 링크 데이터 프리페칭 (지연된 백그라운드 로드)
-            setTimeout(() => {
-                prefetchLinksData();
-            }, 5000);
-
-            // 📰 7초 후 뉴스 데이터 프리페칭 (지연된 백그라운드 로드)
-            setTimeout(() => {
-                prefetchEnterNews();
-            }, 7000);
-        }
-    } catch (error) {
-        console.warn('Background loading failed:', error);
-    } finally {
-        isLoadingFull = false;
-    }
-}
-
-// 특정 월 전체 데이터 백그라운드 로딩
-async function loadFullMonthInBackground(gender, sns, month) {
-    console.log(`📥 Loading full data for ${month} in background...`);
+/**
+ * 백그라운드에서 전체 SNS 데이터 로드 (정적 JSON)
+ * initial-data.json으로 즉시 렌더링 후, 전체 데이터를 로드하여 모든 월 접근 가능하게 함
+ * @param {string} gender - 성별
+ * @param {string} sns - 현재 선택된 SNS
+ */
+async function loadFullSnsDataInBackground(gender, sns) {
+    console.log('📥 전체 SNS 데이터 백그라운드 로드 중...');
 
     try {
-        const fullUrl = `${API_URL}?gender=${gender}&sns=${sns}&month=${month}`;
-        const fullResponse = await fetch(fullUrl);
-        const fullResult = await fullResponse.json();
+        const snsData = await loadFullSnsData(gender);
+        if (snsData && snsData.data && snsData.data[sns]) {
+            const snsGroup = snsData.data[sns];
 
-        if (fullResult.status === 'success') {
-            // 캐시에서 해당 월 데이터 제거 후 전체 데이터로 교체
-            cachedData = cachedData.filter(d => d.date !== month);
-            cachedData.push(...fullResult.data);
-
-            console.log(`✅ Full data loaded for ${month}: ${fullResult.data.length} records`);
-
-            // IndexedDB에 저장
-            saveSnsData(gender, sns, month, fullResult.data).catch(err => {
-                console.warn(`월 데이터 저장 실패 (${month}):`, err);
-            });
-
-            // 현재 표시 중인 월이면 다시 렌더링
-            const currentMonth = document.getElementById('month').value;
-            if (currentMonth === month) {
-                renderList(month);
+            // 월 목록 업데이트 (전체 JSON이 initial-data.json보다 최신일 수 있음)
+            if (snsGroup.months && snsGroup.months.length > cachedMonths.length) {
+                cachedMonths = snsGroup.months;
+                updateMonthOptions(cachedMonths);
             }
 
-            // 메타데이터 프리페칭 시작 (모달 즉시 열기 위함)
-            prefetchMetadata();
+            // 현재 표시 중인 월의 전체 데이터로 re-render (Top30 → 전체 아이돌)
+            const currentMonth = document.getElementById('month').value;
+            const fullMonthData = snsGroup.records.filter(r => r.date === currentMonth);
+
+            if (fullMonthData.length > 0) {
+                // 전월 데이터도 로드 (증감률 계산용)
+                const monthIndex = cachedMonths.indexOf(currentMonth);
+                const prevMonth = monthIndex > 0 ? cachedMonths[monthIndex - 1] : null;
+                const prevData = prevMonth ? snsGroup.records.filter(r => r.date === prevMonth) : [];
+
+                cachedData = [...fullMonthData, ...prevData];
+                renderList(currentMonth);
+            }
+
+            console.log(`✅ 전체 SNS 데이터 로드 완료 (${gender}/${sns})`);
         }
+
+        // 메타데이터 정적 JSON 로드 시작
+        loadStaticMetadata(gender);
+
+        // 링크/뉴스 프리페칭 (정적 JSON 로드 완료 후)
+        setTimeout(() => prefetchLinksData(), 5000);
+        setTimeout(() => prefetchEnterNews(), 7000);
+
     } catch (error) {
-        console.warn(`Background loading failed for ${month}:`, error);
+        console.warn('전체 SNS 데이터 백그라운드 로드 실패:', error);
     }
 }
 
@@ -591,7 +447,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-// 월 선택 변경 핸들러 (아카이브 → 메모리 캐시 → API 순서로 조회)
+// 월 선택 변경 핸들러 (메모리 캐시 → 정적 JSON 순서로 조회)
 async function handleMonthChange() {
     const selectedMonth = document.getElementById('month').value;
     const gender = document.getElementById('gender').value;
@@ -601,38 +457,19 @@ async function handleMonthChange() {
     const monthIndex = cachedMonths.indexOf(selectedMonth);
     const baseMonth = monthIndex > 0 ? cachedMonths[monthIndex - 1] : selectedMonth;
 
-    // ★ 1단계: 아카이브 데이터 확인 (2025-12 이전 월)
-    if (selectedMonth <= ARCHIVE_CUTOFF) {
-        const archiveData = await getArchiveMonthData(gender, sns, selectedMonth);
-        if (archiveData && archiveData.length > 0) {
-            // 전월 데이터도 아카이브에서 로드 (증감률 계산용)
-            const archiveBaseData = (baseMonth !== selectedMonth && baseMonth <= ARCHIVE_CUTOFF)
-                ? await getArchiveMonthData(gender, sns, baseMonth) : null;
-
-            console.log(`📦 아카이브에서 로드: ${selectedMonth} (${archiveData.length}건)`);
-
-            // 캐시에 아카이브 데이터 병합
-            cachedData = cachedData.filter(d => d.date !== selectedMonth && d.date !== baseMonth);
-            cachedData.push(...archiveData);
-            if (archiveBaseData) cachedData.push(...archiveBaseData);
-
-            renderList(selectedMonth);
-            return; // API 호출 불필요
-        }
-    }
-
-    // ★ 2단계: 메모리 캐시 확인
+    // ★ 1단계: 메모리 캐시 확인
     const hasCurrentMonth = cachedData.some(d => d.date === selectedMonth);
     const hasBaseMonth = cachedData.some(d => d.date === baseMonth);
 
     if (hasCurrentMonth && hasBaseMonth) {
-        console.log(`Using cached data for ${selectedMonth}`);
+        console.log(`⚡ 메모리 캐시에서 로드: ${selectedMonth}`);
         renderList(selectedMonth);
-    } else {
-        // ★ 3단계: API 호출
-        console.log(`Fetching data for ${selectedMonth}...`);
-        await loadSpecificMonth(selectedMonth);
+        return;
     }
+
+    // ★ 2단계: 정적 JSON에서 로드
+    console.log(`📦 정적 JSON에서 로드: ${selectedMonth}...`);
+    await loadSpecificMonth(selectedMonth);
 }
 
 // 로딩 스피너 제어 (스켈레톤 UI)
@@ -1236,140 +1073,6 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// 조용히 프리페칭 (UI 변경 없음)
-async function prefetchMonth(month, gender = null, sns = null) {
-    // gender, sns가 제공되지 않으면 현재 선택값 사용
-    const targetGender = gender || document.getElementById('gender').value;
-    const targetSns = sns || document.getElementById('sns').value;
-
-    try {
-        const url = `${API_URL}?gender=${targetGender}&sns=${targetSns}&month=${month}`;
-        const response = await fetch(url);
-        const result = await response.json();
-
-        if (result.status === 'success') {
-            // 새 데이터를 캐시에 병합
-            result.data.forEach(newItem => {
-                const exists = cachedData.some(
-                    item => item.name === newItem.name &&
-                        item.date === newItem.date
-                );
-                if (!exists) {
-                    cachedData.push(newItem);
-                }
-            });
-
-            const genderLabel = targetGender === document.getElementById('gender').value ? '동일 성별' : '반대 성별';
-            console.log(`📦 Prefetched: ${genderLabel} ${month} (${result.data.length} records)`);
-        }
-    } catch (error) {
-        // 실패해도 사용자에게 알리지 않음 (백그라운드 작업)
-        console.warn(`Prefetch failed for ${month}:`, error);
-    }
-}
-
-// 스마트 프리페칭 시작 (최적화됨)
-async function startPrefetching() {
-    // 중복 실행 방지
-    if (isPrefetching) {
-        console.log('⏭️ Prefetching already in progress, skipping...');
-        return;
-    }
-
-    isPrefetching = true; // 플래그 설정
-
-    try {
-        // 네트워크 상태 확인 (느린 네트워크나 Save-Data 모드에서는 비활성화)
-        if (navigator.connection) {
-            if (navigator.connection.saveData) {
-                console.log('⚠️ Save-Data mode, prefetching disabled');
-                return;
-            }
-            if (navigator.connection.effectiveType === '2g') {
-                console.log('⚠️ Slow network detected, prefetching disabled');
-                return;
-            }
-        }
-
-        const currentMonth = document.getElementById('month').value;
-        const currentGender = document.getElementById('gender').value;
-        const currentSns = document.getElementById('sns').value;
-        const monthIndex = cachedMonths.indexOf(currentMonth);
-
-        // 반대 성별 결정
-        const oppositeGender = currentGender === '남자' ? '여자' : '남자';
-
-        // 프리로딩 우선순위 큐 (최적화: 6개 → 3개)
-        const prefetchQueue = [];
-
-        // ===== 1순위: 동일 성별 이전 월 (사용자가 과거 데이터를 볼 가능성 높음) =====
-        if (monthIndex > 0) {
-            prefetchQueue.push({
-                month: cachedMonths[monthIndex - 1],
-                gender: currentGender,
-                priority: 1,
-                label: '동일 성별 이전 월'
-            });
-        }
-
-        // ===== 2순위: 반대 성별 동일월 (성별 전환 버튼 클릭 가능성) =====
-        if (monthIndex >= 0) {
-            prefetchQueue.push({
-                month: currentMonth,
-                gender: oppositeGender,
-                priority: 2,
-                label: '반대 성별 동일월'
-            });
-        }
-
-        // ===== 3순위: 반대 성별 전월 =====
-        if (monthIndex > 0) {
-            prefetchQueue.push({
-                month: cachedMonths[monthIndex - 1],
-                gender: oppositeGender,
-                priority: 3,
-                label: '반대 성별 전월'
-            });
-        }
-
-        // 실제로 로드가 필요한 항목만 필터링 (사전 체크)
-        const itemsToLoad = [];
-        for (const item of prefetchQueue) {
-            const targetMonthIndex = cachedMonths.indexOf(item.month);
-            const baseMonth = targetMonthIndex > 0 ? cachedMonths[targetMonthIndex - 1] : item.month;
-
-            const hasCurrentMonth = cachedData.some(d => d.date === item.month);
-            const hasBaseMonth = cachedData.some(d => d.date === baseMonth);
-
-            if (!hasCurrentMonth || !hasBaseMonth) {
-                itemsToLoad.push({ ...item, baseMonth });
-            }
-        }
-
-        if (itemsToLoad.length === 0) {
-            console.log('✅ All needed data already cached, skipping prefetch');
-            return;
-        }
-
-        console.log(`🚀 Starting prefetch (${itemsToLoad.length}/${prefetchQueue.length} items needed):`);
-        itemsToLoad.forEach(item => {
-            console.log(`  ${item.priority}. ${item.label}: ${item.gender} ${item.month}`);
-        });
-
-        // 우선순위별로 순차적으로 프리페칭
-        for (const item of itemsToLoad) {
-            await prefetchMonth(item.month, item.gender, currentSns);
-
-            // 각 요청 사이 500ms 대기 (서버 부하 방지)
-            await sleep(500);
-        }
-
-        console.log('✅ Prefetching complete');
-    } finally {
-        isPrefetching = false; // 완료 또는 에러 시 플래그 해제
-    }
-}
-
 // ========================================
 // 📊 아이돌 상세 모달
 // ========================================
@@ -1400,120 +1103,71 @@ const SNS_NAMES = {
 // 🚀 메타데이터 프리페칭 (Zero Latency)
 // ========================================
 
-async function prefetchMetadata() {
-    // 중복 실행 방지
-    if (isMetadataPrefetching) {
-        console.log('⏭️ Metadata prefetching already in progress, skipping...');
-        return;
-    }
+/**
+ * 정적 메타데이터 JSON 로드 (성별당 1회만 fetch, 이후 메모리 캐시)
+ * 파일 구조: { generated, gender, data: [{name, group, gender, label, debut_year, namu_wiki, SNS링크들, note}] }
+ * @param {string} gender - '남자' 또는 '여자'
+ * @returns {Promise<Object|null>} 메타데이터 객체 또는 null
+ */
+async function loadStaticMetadataJSON(gender) {
+    // 이미 메모리에 캐시되어 있으면 즉시 반환
+    if (fullMetadataCache[gender]) return fullMetadataCache[gender];
 
-    isMetadataPrefetching = true; // 플래그 설정
-
+    const fileName = gender === '남자' ? 'metadata-male.json' : 'metadata-female.json';
     try {
-        console.log("🚀 Starting metadata prefetch...");
+        const response = await fetch(`./data/${fileName}`);
+        if (!response.ok) return null; // 파일이 없으면 null
 
-        // 현재 선택된 성별
-        const currentGender = document.getElementById('gender').value;
-        // 반대 성별
-        const oppositeGender = currentGender === '남자' ? '여자' : '남자';
+        const jsonData = await response.json();
+        fullMetadataCache[gender] = jsonData; // 메모리 캐시 저장
 
-        // 1. 현재 화면의 아이돌 데이터 우선 로드 (중요)
-        if (!metadataLoadedFor.has(currentGender)) {
-            await fetchAndCacheMetadata(currentGender);
-        } else {
-            console.log(`✓ Metadata already loaded for ${currentGender}`);
-        }
-
-        // 2. 서버 부하 분산을 위해 잠시 대기
-        await sleep(1000);
-
-        // 3. 반대 성별 데이터 로드
-        if (!metadataLoadedFor.has(oppositeGender)) {
-            await fetchAndCacheMetadata(oppositeGender);
-        } else {
-            console.log(`✓ Metadata already loaded for ${oppositeGender}`);
-        }
-
-        console.log("✅ All metadata background loading complete");
-    } finally {
-        isMetadataPrefetching = false; // 완료 또는 에러 시 플래그 해제
-    }
-}
-
-async function fetchAndCacheMetadata(gender) {
-    try {
-        const response = await fetch(`${API_URL}?action=allMetadata&gender=${gender}`);
-        const result = await response.json();
-
-        if (result.status === 'success') {
-            result.data.forEach(item => {
+        // 개별 아이돌 메타데이터를 metadataCache에 분배 (즉시 접근 가능하게)
+        if (jsonData.data && Array.isArray(jsonData.data)) {
+            jsonData.data.forEach(item => {
                 const key = `${item.name}_${gender}`;
                 metadataCache[key] = item;
             });
-            console.log(`📦 Metadata cached: ${result.data.length} items for ${gender}`);
-            metadataLoadedFor.add(gender); // 로드 완료 추적
+            console.log(`📦 메타데이터 로드 완료 (${gender}): ${jsonData.data.length}명`);
         }
+
+        return jsonData;
     } catch (e) {
-        console.warn(`Metadata prefetch failed for ${gender}:`, e);
+        console.warn(`메타데이터 로드 실패 (${gender}):`, e);
+        return null;
     }
 }
 
 /**
+ * 메타데이터 정적 JSON 백그라운드 로드 (양쪽 성별)
+ * @param {string} currentGender - 현재 선택된 성별 (우선 로드)
+ */
+async function loadStaticMetadata(currentGender) {
+    console.log("🚀 메타데이터 정적 JSON 로드 시작...");
+
+    // 1. 현재 성별 우선 로드
+    await loadStaticMetadataJSON(currentGender);
+
+    // 2. 반대 성별 로드
+    const oppositeGender = currentGender === '남자' ? '여자' : '남자';
+    await loadStaticMetadataJSON(oppositeGender);
+
+    console.log("✅ 메타데이터 정적 JSON 로드 완료 (양쪽 성별)");
+}
+
+/**
  * 현재 화면 Top 10 아이돌 메타데이터 우선 로드 (Zero Latency)
- * 첫 클릭 시 2~3초 로딩 문제 해결
+ * 정적 JSON에서 즉시 추출하거나, 아직 로드 안 됐으면 전체 JSON 로드
+ * @param {string} gender - 성별
  */
 async function prefetchTopIdolsMetadata(gender) {
-    try {
-        console.log("🚀 Starting Top 10 metadata prefetch...");
-
-        // 현재 화면에 표시된 카드에서 아이돌 이름 추출
-        const cards = document.querySelectorAll('.idol-card');
-        const top10Names = [];
-
-        cards.forEach((card, index) => {
-            if (index < 10) {  // 상위 10개만
-                const name = card.getAttribute('data-idol-name');
-                if (name) top10Names.push(name);
-            }
-        });
-
-        if (top10Names.length === 0) {
-            console.log('⚠️ No idol cards found for prefetching');
-            return;
-        }
-
-        console.log(`🎯 Prefetching metadata for ${top10Names.length} idols: ${top10Names.slice(0, 3).join(', ')}...`);
-
-        // 각 아이돌별로 메타데이터 로드 (병렬 처리)
-        const promises = top10Names.map(async (name) => {
-            const cacheKey = `${name}_${gender}`;
-
-            // 이미 캐시되어 있으다면 스킵
-            if (metadataCache[cacheKey]) {
-                return;
-            }
-
-            try {
-                const response = await fetch(`${API_URL}?action=metadata&name=${encodeURIComponent(name)}&gender=${encodeURIComponent(gender)}`);
-                const result = await response.json();
-
-                if (result.status === 'success') {
-                    metadataCache[cacheKey] = result.data;
-                    console.log(`✅ Cached: ${name}`);
-                }
-            } catch (e) {
-                console.warn(`Failed to prefetch ${name}:`, e);
-            }
-        });
-
-        // 모든 요청 동시 실행 (병렬 처리)
-        await Promise.all(promises);
-
-        console.log("✅ Top 10 metadata prefetch complete");
-
-    } catch (e) {
-        console.warn('Top 10 metadata prefetch failed:', e);
+    // 이미 정적 메타데이터가 로드되어 있으면 아무것도 안 함 (이미 metadataCache에 분배됨)
+    if (fullMetadataCache[gender]) {
+        console.log(`⚡ 메타데이터 이미 로드됨 (${gender}), 스킵`);
+        return;
     }
+
+    // 아직 로드 안 됐으면 정적 JSON 전체 로드 (개별 API 호출 대신)
+    await loadStaticMetadataJSON(gender);
 }
 
 // 아이돌 상세 모달 표시 (Optimistic UI)
@@ -1543,28 +1197,24 @@ async function showIdolModal(name, gender) {
     const snsContainer = document.getElementById('snsLinks');
     snsContainer.innerHTML = '<div class="text-center py-3"><div class="spinner-border spinner-border-sm text-primary"></div></div>';
 
-    // 1. 캐시 확인 (Zero Latency Experience)
+    // 1. 메모리 캐시 확인 (Zero Latency Experience)
     if (metadataCache[cacheKey]) {
-        console.log(`⚡ Instant load from cache: ${name}`);
+        console.log(`⚡ 메타데이터 즉시 로드: ${name}`);
         data = metadataCache[cacheKey];
     } else {
-        // 2. 캐시 미스 시 직접 로딩 (Fallback)
-        console.log(`Loading metadata for ${name} (${gender})`);
+        // 2. 캐시 미스 → 정적 JSON 전체 로드 후 재확인
+        console.log(`📦 메타데이터 정적 JSON 로드: ${name} (${gender})`);
         try {
-            const response = await fetch(`${API_URL}?action=metadata&name=${encodeURIComponent(name)}&gender=${encodeURIComponent(gender)}`);
-            const result = await response.json();
+            await loadStaticMetadataJSON(gender);
+            data = metadataCache[cacheKey] || null;
 
-            if (result.status === 'success') {
-                data = result.data;
-                // 다음을 위해 캐시 저장
-                metadataCache[cacheKey] = data;
-            } else {
-                console.error('Metadata load failed:', result.message);
-                snsContainer.innerHTML = `<div class="alert alert-danger">메타데이터를 불러올 수 없습니다.<br>${result.message}</div>`;
+            if (!data) {
+                console.warn(`메타데이터 없음: ${name} (${gender})`);
+                snsContainer.innerHTML = `<div class="alert alert-warning">해당 아이돌의 메타데이터가 없습니다.</div>`;
                 return;
             }
         } catch (error) {
-            console.error('Error loading metadata:', error);
+            console.error('메타데이터 로드 실패:', error);
             snsContainer.innerHTML = `<div class="alert alert-danger">데이터 로딩 중 오류가 발생했습니다.</div>`;
             return;
         }
