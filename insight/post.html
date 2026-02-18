@@ -243,15 +243,20 @@
 
 <script>
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-// 📌 아래 URL을 실제 GAS 배포 URL로 교체
+// 하이브리드 로딩: 정적 JSON 우선, API 폴백
+// 조회수는 비동기 API로 별도 처리
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-const API = 'https://script.google.com/macros/s/AKfycby7Hw0e4CZmJnwWjHRsTVk0kEoktiDMjaOgWvLRauq_5pRF1D-nScDJ3vUWfcp5Re-A/exec';
+const JSON_URL = '/data/insight-posts.json'; // 정적 JSON 경로
+const API = 'https://script.google.com/macros/s/AKfycby7Hw0e4CZmJnwWjHRsTVk0kEoktiDMjaOgWvLRauq_5pRF1D-nScDJ3vUWfcp5Re-A/exec'; // API 폴백 + 조회수용
 
 // 페이지 로드 시 글 로드
 document.addEventListener('DOMContentLoaded', loadPost);
 
 /**
- * URL 파라미터에서 slug/id 추출 후 글 로드 (조회수 +1)
+ * URL 파라미터에서 slug/id 추출 후 글 로드
+ * 1차: 정적 JSON에서 검색 → 즉시 렌더링
+ * 2차: JSON 실패 시 API 폴백
+ * 조회수: 비동기 API 호출 (렌더링 차단 안 함)
  */
 async function loadPost() {
     const params = new URLSearchParams(location.search);
@@ -263,8 +268,29 @@ async function loadPost() {
         return;
     }
 
+    // 1차: 정적 JSON에서 글 검색
     try {
-        // action=view → 조회수 +1 후 글 반환
+        const res = await fetch(JSON_URL);
+        if (res.ok) {
+            const data = await res.json();
+            if (data.posts && data.posts.length) {
+                // slug 또는 id로 해당 글 찾기
+                const post = data.posts.find(p =>
+                    (slug && p.slug === slug) || (id && String(p.id) === String(id))
+                );
+                if (post) {
+                    renderPost(post); // 즉시 렌더링
+                    incrementViewCount(slug, id); // 비동기 조회수 +1 (렌더링 차단 안 함)
+                    return;
+                }
+            }
+        }
+    } catch (e) {
+        console.log('정적 JSON 로드 실패, API 폴백:', e.message);
+    }
+
+    // 2차: GAS API 폴백 (action=view → 조회수 +1 포함)
+    try {
         let url = `${API}?action=view`;
         if (slug) url += `&slug=${encodeURIComponent(slug)}`;
         else url += `&id=${encodeURIComponent(id)}`;
@@ -281,6 +307,16 @@ async function loadPost() {
         showError('데이터를 불러오지 못했습니다.');
         console.error(e);
     }
+}
+
+/**
+ * 비동기 조회수 +1 (렌더링과 무관하게 백그라운드에서 실행)
+ */
+function incrementViewCount(slug, id) {
+    let url = `${API}?action=view`;
+    if (slug) url += `&slug=${encodeURIComponent(slug)}`;
+    else url += `&id=${encodeURIComponent(id)}`;
+    fetch(url).catch(() => {}); // 실패해도 무시 (조회수는 부가 기능)
 }
 
 /**
