@@ -234,15 +234,17 @@
 
 <script>
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-// 📌 아래 URL을 실제 GAS 배포 URL로 교체
+// 하이브리드 로딩: 정적 JSON 우선, API 폴백
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-const API = 'https://script.google.com/macros/s/AKfycby7Hw0e4CZmJnwWjHRsTVk0kEoktiDMjaOgWvLRauq_5pRF1D-nScDJ3vUWfcp5Re-A/exec';
+const JSON_URL = '/data/insight-posts.json'; // 정적 JSON 경로
+const API = 'https://script.google.com/macros/s/AKfycby7Hw0e4CZmJnwWjHRsTVk0kEoktiDMjaOgWvLRauq_5pRF1D-nScDJ3vUWfcp5Re-A/exec'; // API 폴백용
 
 // 카테고리 목록
 const CATS = ['K-POP분석', '중국시장', '산업트렌드', '재무분석', '칼럼'];
 let currentCat = 'all'; // 현재 선택된 카테고리
 let currentPage = 1;    // 현재 페이지
 const PAGE_LIMIT = 10;  // 페이지당 글 수
+let insightCache = null; // 정적 JSON 메모리 캐시 (1회 fetch 후 재사용)
 
 // 페이지 로드 시 초기화
 document.addEventListener('DOMContentLoaded', () => {
@@ -265,7 +267,7 @@ function initFilters() {
             currentCat = cat;
             currentPage = 1;
             setActiveFilter();
-            loadPosts();
+            renderFromCache(); // 캐시에서 즉시 렌더링 (API 호출 없음)
         };
         bar.appendChild(btn);
     });
@@ -274,7 +276,7 @@ function initFilters() {
         currentCat = 'all';
         currentPage = 1;
         setActiveFilter();
-        loadPosts();
+        renderFromCache(); // 캐시에서 즉시 렌더링
     };
 }
 
@@ -288,7 +290,8 @@ function setActiveFilter() {
 }
 
 /**
- * GAS API에서 글 목록 로드
+ * 정적 JSON fetch → 메모리 캐시 저장 → 렌더링
+ * JSON 실패 시 GAS API 폴백
  */
 async function loadPosts() {
     const loading = document.getElementById('loadingState');
@@ -302,8 +305,31 @@ async function loadPosts() {
     empty.style.display = 'none';
     pagination.style.display = 'none';
 
+    // 캐시가 있으면 즉시 렌더링
+    if (insightCache) {
+        loading.style.display = 'none';
+        renderFromCache();
+        return;
+    }
+
     try {
-        // API URL 구성
+        // 1차: 정적 JSON 시도
+        const res = await fetch(JSON_URL);
+        if (!res.ok) throw new Error('JSON fetch failed'); // 404 등 → API 폴백으로
+        const data = await res.json();
+
+        if (data.posts && data.posts.length) {
+            insightCache = data.posts; // 메모리 캐시 저장
+            loading.style.display = 'none';
+            renderFromCache(); // 클라이언트에서 필터링/페이지네이션
+            return;
+        }
+    } catch (e) {
+        console.log('정적 JSON 로드 실패, API 폴백:', e.message);
+    }
+
+    // 2차: GAS API 폴백
+    try {
         let url = `${API}?action=list&page=${currentPage}&limit=${PAGE_LIMIT}`;
         if (currentCat !== 'all') url += `&category=${encodeURIComponent(currentCat)}`;
 
@@ -311,41 +337,87 @@ async function loadPosts() {
         const data = await res.json();
         loading.style.display = 'none';
 
-        // 글이 없으면 빈 상태 표시
         if (!data.posts || !data.posts.length) {
             empty.style.display = 'block';
             return;
         }
 
-        // 글 카드 렌더링
-        list.innerHTML = data.posts.map(post => `
-            <a class="post-card" href="/insight/post.html?slug=${encodeURIComponent(post.slug || post.id)}">
-                <div class="post-meta">
-                    <span class="post-category">${esc(post.category)}</span>
-                    <span class="post-date">${post.created_at}</span>
-                    <span class="post-views">조회 ${post.view_count || 0}</span>
-                </div>
-                <h2>${esc(post.title)}</h2>
-                <p class="post-summary">${esc(post.summary)}</p>
-                ${post.tags && post.tags.length
-                    ? `<div class="post-tags">${post.tags.slice(0, 4).map(t => `<span class="post-tag">#${esc(t)}</span>`).join('')}</div>`
-                    : ''}
-            </a>
-        `).join('');
-        list.style.display = 'block';
-
-        // 페이지네이션 렌더링
-        if (data.totalPages > 1) {
-            pagination.innerHTML = Array.from({ length: data.totalPages }, (_, i) =>
-                `<button class="page-btn ${i + 1 === currentPage ? 'active' : ''}"
-                    onclick="currentPage=${i + 1}; loadPosts(); scrollTo({top:0,behavior:'smooth'})">${i + 1}</button>`
-            ).join('');
-            pagination.style.display = 'flex';
-        }
+        // API 응답을 캐시에 저장 (페이지네이션은 서버 측이므로 현재 페이지만)
+        renderPostCards(data.posts, data.totalPages);
     } catch (e) {
         loading.style.display = 'none';
         empty.style.display = 'block';
         empty.textContent = '로딩 실패. 잠시 후 다시 시도해주세요.';
+    }
+}
+
+/**
+ * 메모리 캐시에서 카테고리 필터링 + 페이지네이션 후 렌더링
+ */
+function renderFromCache() {
+    if (!insightCache) return;
+
+    const empty = document.getElementById('emptyState');
+    const pagination = document.getElementById('pagination');
+
+    // 카테고리 필터링
+    let filtered = insightCache;
+    if (currentCat !== 'all') {
+        filtered = insightCache.filter(p => p.category === currentCat);
+    }
+
+    // 글이 없으면 빈 상태 표시
+    if (!filtered.length) {
+        document.getElementById('postList').style.display = 'none';
+        empty.style.display = 'block';
+        empty.textContent = '아직 작성된 인사이트가 없습니다.';
+        pagination.style.display = 'none';
+        return;
+    }
+
+    empty.style.display = 'none';
+
+    // 페이지네이션 계산
+    const totalPages = Math.ceil(filtered.length / PAGE_LIMIT);
+    const start = (currentPage - 1) * PAGE_LIMIT; // 시작 인덱스
+    const paged = filtered.slice(start, start + PAGE_LIMIT); // 현재 페이지 글 추출
+
+    renderPostCards(paged, totalPages);
+}
+
+/**
+ * 글 카드 목록 + 페이지네이션 렌더링
+ */
+function renderPostCards(posts, totalPages) {
+    const list = document.getElementById('postList');
+    const pagination = document.getElementById('pagination');
+
+    // 글 카드 HTML 생성
+    list.innerHTML = posts.map(post => `
+        <a class="post-card" href="/insight/post.html?slug=${encodeURIComponent(post.slug || post.id)}">
+            <div class="post-meta">
+                <span class="post-category">${esc(post.category)}</span>
+                <span class="post-date">${post.created_at}</span>
+                <span class="post-views">조회 ${post.view_count || 0}</span>
+            </div>
+            <h2>${esc(post.title)}</h2>
+            <p class="post-summary">${esc(post.summary)}</p>
+            ${post.tags && post.tags.length
+                ? `<div class="post-tags">${post.tags.slice(0, 4).map(t => `<span class="post-tag">#${esc(t)}</span>`).join('')}</div>`
+                : ''}
+        </a>
+    `).join('');
+    list.style.display = 'block';
+
+    // 페이지네이션 버튼 렌더링
+    if (totalPages > 1) {
+        pagination.innerHTML = Array.from({ length: totalPages }, (_, i) =>
+            `<button class="page-btn ${i + 1 === currentPage ? 'active' : ''}"
+                onclick="currentPage=${i + 1}; renderFromCache(); scrollTo({top:0,behavior:'smooth'})">${i + 1}</button>`
+        ).join('');
+        pagination.style.display = 'flex';
+    } else {
+        pagination.style.display = 'none';
     }
 }
 
