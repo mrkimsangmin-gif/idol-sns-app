@@ -2064,10 +2064,13 @@ async function executeMemberRawSearch(container, intent) {
                 // 1위 대비 점수 75% 이상인 결과만 표시 (노이즈 제거), 최대 3개
                 var topScore = scored[0].score;
                 var sentences = scored.filter(function(s) { return s.score >= topScore * 0.75; }).slice(0, 3);
-                var rawCtx = sentences.map(function(s) { return s.text; }).join('\n');
                 var synthesizeQuery = memberName
                     ? group.group_name + ' ' + memberName + ' ' + keyword
                     : group.name + ' 멤버 ' + keyword;
+
+                // Multi-Hit Aggregation: 키워드 히트 주변 ±80줄 병합 (정보 누락 방지)
+                var wideCtxM = buildWideContext(lines, keyword, 200);
+                var rawCtx = wideCtxM || sentences.map(function(s) { return s.text; }).join('\n');
 
                 // Gemini Synthesis Layer: raw text → 정제된 마크다운 답변 자동 생성
                 updateSearchProgress(container, 3, 'AI가 답변을 정리하는 중...');
@@ -2255,7 +2258,7 @@ function _findProximityWindow(rawText, subKws, forwardSpan) {
         if (allFound) {
             var start = Math.max(0, idx - 80);
             while (start > 0 && rawText[start - 1] !== '\n') start--;
-            var end = Math.min(rawText.length, idx + 150);
+            var end = Math.min(rawText.length, idx + 200); // 200자: 루이비통 등 연속 콘텐츠 누락 방지
             while (end < rawText.length && rawText[end] !== '\n') end++;
             var ctx = rawText.slice(start, end)
                 .replace(/\[편집\]/g, '')
@@ -2398,7 +2401,7 @@ async function executeGroupRawSearch(container, intent) {
                     var _gwIdx = _gRawLower.indexOf(_gWinKw, _gScanPos);
                     if (_gwIdx === -1) break;
                     var _gwStart = Math.max(0, _gwIdx - 80);
-                    var _gwEnd = Math.min(rawText.length, _gwIdx + 150);
+                    var _gwEnd = Math.min(rawText.length, _gwIdx + 200); // 200자: 루이비통 등 연속 콘텐츠 누락 방지
                     while (_gwStart > 0 && rawText[_gwStart - 1] !== '\n') _gwStart--;
                     while (_gwEnd < rawText.length && rawText[_gwEnd] !== '\n') _gwEnd++;
                     var _gwCtx = rawText.slice(_gwStart, _gwEnd)
@@ -2435,10 +2438,12 @@ async function executeGroupRawSearch(container, intent) {
 
             if (scored.length > 0) {
                 var topScore = scored[0].score;
-                // 컨텍스트 포함 시 최대 5줄 표시 (기본 3줄에서 상향)
                 var sentences = scored.filter(function(s) { return s.score >= topScore * 0.6; }).slice(0, 5);
-                var rawContext = sentences.map(function(s) { return s.text; }).join('\n');
                 var fullQuery = group.name + ' ' + keyword;
+
+                // Multi-Hit Aggregation: 키워드 히트 주변 ±80줄 병합 (정보 누락 방지)
+                var wideCtx = buildWideContext(lines, _kwSearch || keyword, 200);
+                var rawContext = wideCtx || sentences.map(function(s) { return s.text; }).join('\n');
 
                 // Gemini Synthesis Layer: raw text → 정제된 마크다운 답변 자동 생성
                 updateSearchProgress(container, 3, 'AI가 답변을 정리하는 중...');
@@ -4542,9 +4547,86 @@ var NAMU_SYNTHESIS_SYSTEM_PROMPT =
     '2. 시간 순서나 변화(예: 룸메이트 변경, 소속사 이동, 활동 이력)가 있다면 반드시 마크다운 표(| 시기 | 내용 |)를 사용하세요.\n' +
     '3. 홍보대사, 수상 이력, 멤버 목록처럼 여러 항목이 나열될 경우 글머리 기호(-)를 사용하여 깔끔하게 정리하세요.\n' +
     '4. "기사", "SNS", "9.3." 같은 목차 번호나 나무위키 문법 잔재(각주 번호 [1], 편집 링크 등)는 모두 제거하세요.\n' +
-    '5. 원문에 정보가 충분하지 않아도 있는 정보만으로 간략하게 답변하세요. 없는 내용을 지어내지 마세요.\n\n' +
+    '5. 없는 내용을 지어내지 마세요.\n' +
+    '6. ⚠️ 원문에 있는 모든 연도별 이력, 항목, 표 데이터를 절대 누락하거나 축약하지 마세요. 항목이 많을수록 더 풍부하게 전부 작성해야 합니다.\n\n' +
     '답변은 반드시 JSON 형식으로 반환하세요: {"title": "답변 제목", "content": "답변 내용 (마크다운 표/리스트 포함)"}\n' +
     '반드시 JSON만 반환하고 다른 텍스트는 포함하지 마세요.';
+
+/**
+ * Multi-Hit Aggregation: 키워드 히트 위치 주변 ±WINDOW줄씩 추출 후 병합
+ * - 목차(TOC) 구간 자동 제외: 주변 20줄 중 긴 줄(>20자)이 5개 미만이면 TOC로 판단
+ * - 실제 콘텐츠 섹션 우선, 겹치는 구간 자동 병합, 최대 maxLines 제한
+ * @param {string[]} lines   - rawText.split('\n')
+ * @param {string}   keyword - 검색 키워드 (공백 포함 가능)
+ * @param {number}   [maxLines=200] - 최대 출력 줄 수
+ * @returns {string|null}
+ */
+function buildWideContext(lines, keyword, maxLines) {
+    maxLines = maxLines || 200;
+    var WINDOW = 80; // 히트 위치 전후 80줄
+    var subKws = keyword.split(/\s+/).filter(function(w) { return w.length >= 2; });
+    var kwLower = keyword.toLowerCase();
+
+    // 모든 히트 위치 수집 (전체 키워드 OR 서브키워드 과반 매칭)
+    var hitIndices = [];
+    for (var i = 0; i < lines.length; i++) {
+        var ll = lines[i].toLowerCase();
+        var hit = ll.indexOf(kwLower) !== -1;
+        if (!hit && subKws.length > 1) {
+            var cnt = 0;
+            for (var k = 0; k < subKws.length; k++) {
+                if (ll.indexOf(subKws[k].toLowerCase()) !== -1) cnt++;
+            }
+            hit = cnt >= Math.ceil(subKws.length / 2);
+        }
+        if (hit) hitIndices.push(i);
+    }
+    if (hitIndices.length === 0) return null;
+
+    // TOC 구간 제외 필터: TOC는 주변 모든 줄이 짧음(최대 11자 수준)
+    // 콘텐츠 구간에는 25자 이상 줄이 반드시 존재 → max line length ≥ 25자면 실제 콘텐츠
+    function isContentHit(idx) {
+        var s = Math.max(0, idx - 10), e = Math.min(lines.length - 1, idx + 10);
+        var maxLen = 0;
+        for (var j = s; j <= e; j++) {
+            var len = lines[j].trim().length;
+            if (len > maxLen) maxLen = len;
+        }
+        return maxLen >= 25;
+    }
+
+    // 실제 콘텐츠 히트 우선, 없으면 전체 히트 사용
+    var contentHits = hitIndices.filter(isContentHit);
+    var finalHits = contentHits.length > 0 ? contentHits : hitIndices;
+
+    // 각 히트 주변 구간 설정
+    var ranges = finalHits.map(function(idx) {
+        return { start: Math.max(0, idx - WINDOW), end: Math.min(lines.length - 1, idx + WINDOW) };
+    });
+
+    // 인접 구간 병합 (간격 ≤ 15줄이면 합침)
+    ranges.sort(function(a, b) { return a.start - b.start; });
+    var merged = [{ start: ranges[0].start, end: ranges[0].end }];
+    for (var ri = 1; ri < ranges.length; ri++) {
+        var last = merged[merged.length - 1];
+        if (ranges[ri].start <= last.end + 15) {
+            last.end = Math.max(last.end, ranges[ri].end);
+        } else {
+            merged.push({ start: ranges[ri].start, end: ranges[ri].end });
+        }
+    }
+
+    // 병합된 구간들을 연결 (최대 maxLines)
+    var out = [];
+    for (var mi = 0; mi < merged.length; mi++) {
+        if (out.length >= maxLines) break;
+        if (mi > 0) out.push('...');
+        var seg = lines.slice(merged[mi].start, merged[mi].end + 1);
+        var remaining = maxLines - out.length;
+        out = out.concat(seg.slice(0, remaining));
+    }
+    return out.join('\n').trim();
+}
 
 async function callGeminiNamuSynthesize(query, rawContext, externalSignal) {
     // 취소 시그널 처리
