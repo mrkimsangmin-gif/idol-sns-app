@@ -27,6 +27,27 @@ function doPost(e) {
         .setMimeType(ContentService.MimeType.JSON);
     }
 
+    // 검색 로그 기록
+    if (params.action === 'logSearch') {
+      const result = logSearchQuery(params);
+      return ContentService.createTextOutput(JSON.stringify(result))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
+    // 피드백 로그 기록 (👍/👎/재검색)
+    if (params.action === 'logFeedback') {
+      const result = logFeedback(params);
+      return ContentService.createTextOutput(JSON.stringify(result))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
+    // Gemini 프록시 (나무위키 스마트 검색용)
+    if (params.action === 'geminiProxy') {
+      const result = handleGeminiProxy(params);
+      return ContentService.createTextOutput(JSON.stringify(result))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
     // 인사이트 CMS 쓰기 (create, update, delete, publish)
     const insightPostActions = ['create', 'update', 'delete', 'publish'];
     if (insightPostActions.includes(params.action)) {
@@ -44,6 +65,150 @@ function doPost(e) {
     return ContentService.createTextOutput(JSON.stringify({
       status: 'error', message: error.toString()
     })).setMimeType(ContentService.MimeType.JSON);
+  }
+}
+
+/**
+ * Gemini 프록시 핸들러 (나무위키 스마트 검색용)
+ * - 클라이언트의 API 키 노출 방지
+ * - 6시간 서버사이드 캐시 (CacheService)
+ * - Script Properties에 GEMINI_API_KEY 설정 필요
+ */
+function handleGeminiProxy(data) {
+  try {
+    const query = data.query || '';
+    const context = data.context || '';
+
+    if (!query) {
+      return { _error: true, message: '쿼리가 비어 있습니다.' };
+    }
+
+    // 캐시 키 생성 (MD5 해시)
+    const digest = Utilities.computeDigest(
+      Utilities.DigestAlgorithm.MD5,
+      query + context.substring(0, 500) // 컨텍스트 앞부분만 캐시 키에 포함
+    );
+    const cacheKey = 'gemini_' + digest.map(function(b) {
+      return ('0' + (b & 0xff).toString(16)).slice(-2);
+    }).join('');
+
+    // 캐시 확인 (6시간)
+    const cache = CacheService.getScriptCache();
+    const cached = cache.get(cacheKey);
+    if (cached) {
+      try {
+        const parsed = JSON.parse(cached);
+        parsed._cached = true;
+        return parsed;
+      } catch (e) {
+        // 캐시 파싱 실패 시 무시하고 새로 호출
+      }
+    }
+
+    // Gemini API 키 확인
+    const apiKey = PropertiesService.getScriptProperties().getProperty('GEMINI_API_KEY');
+    if (!apiKey) {
+      return { _error: true, message: 'GEMINI_API_KEY가 설정되지 않았습니다.' };
+    }
+
+    // 시스템 프롬프트 구성 (플래그에 따라 3분기)
+    const isCompound = data.compound === true;
+    const isNamuSynthesis = data.namu_synthesis === true;
+    // 오늘 날짜 주입 (나이 계산 정확도 보장)
+    const todayStr = Utilities.formatDate(new Date(), 'Asia/Seoul', 'yyyy-MM-dd');
+    const dateContext = '오늘 날짜: ' + todayStr + '\n나이를 언급할 때는 반드시 오늘 날짜 기준으로 만 나이를 계산하세요.\n';
+    const systemPrompt = isNamuSynthesis
+      ? ('당신은 K-POP 정보 요약 전문가입니다.\n' +
+        dateContext + '\n' +
+        '제공된 [나무위키 원문]만을 바탕으로 사용자 질문에 답변하세요.\n\n' +
+        '규칙:\n' +
+        '1. 원문을 그대로 복사하지 마세요. 내용을 이해하고 자연스러운 문장으로 새롭게 작성하세요.\n' +
+        '2. 시간 순서나 변화(예: 룸메이트 변경, 소속사 이동, 활동 이력)가 있다면 반드시 마크다운 표(| 시기 | 내용 |)를 사용하세요.\n' +
+        '3. 홍보대사, 수상 이력, 멤버 목록처럼 여러 항목이 나열될 경우 글머리 기호(-)를 사용하여 깔끔하게 정리하세요.\n' +
+        '4. "기사", "SNS", "9.3." 같은 목차 번호나 나무위키 문법 잔재(각주 번호 [1], 편집 링크 등)는 모두 제거하세요.\n' +
+        '5. 원문에 정보가 충분하지 않아도 있는 정보만으로 간략하게 답변하세요. 없는 내용을 지어내지 마세요.\n\n' +
+        '답변은 반드시 JSON 형식으로 반환하세요: {"title": "답변 제목", "content": "답변 내용 (마크다운 표/리스트 포함)"}\n' +
+        '반드시 JSON만 반환하고 다른 텍스트는 포함하지 마세요.')
+      : isCompound
+      ? ('당신은 K-POP 아이돌 데이터 분석가입니다.\n' +
+        dateContext +
+        '사용자가 제공한 데이터를 바탕으로 아래 규칙에 따라 답변하세요.\n\n' +
+        '규칙:\n' +
+        '1. 순위나 비교가 필요하면 반드시 마크다운 표(| 순위 | 그룹명 | ... |) 형식으로 정리하세요.\n' +
+        '2. 표에는 순위, 그룹명, 성별, 데뷔연도, 판매량(수치), 해당 앨범명을 포함하세요.\n' +
+        '3. 판매량 데이터가 없는 그룹은 표 하단에 "데이터 없음"으로 묶어 표시하세요.\n' +
+        '4. 표 아래에 **핵심 요약**이라는 제목으로 1위 그룹, 걸그룹/보이그룹 1위, 주요 트렌드 등을 3줄 이내로 요약하세요.\n' +
+        '5. 데이터에 없는 내용을 지어내지 마세요.\n' +
+        '6. 판매량 수치에 ** 마스킹이 있으면 ~표시와 함께 추정치로 표기하세요 (예: 2,344,7** → ~2,344,700).\n\n' +
+        '답변은 JSON 형식으로 반환하세요: {"title": "답변 제목", "content": "답변 내용 (마크다운 표 포함)"}\n' +
+        '반드시 JSON만 반환하고 다른 텍스트는 포함하지 마세요.')
+      : ('당신은 K-POP 아이돌 전문가입니다.\n' +
+        dateContext +
+        '아래 데이터베이스 정보를 우선 참고하되, 데이터베이스에 없는 정보는 당신의 지식을 활용하여 답변하세요.\n' +
+        '데이터베이스 기반 답변과 자체 지식 기반 답변을 구분하지 않아도 됩니다.\n' +
+        '답변은 JSON 형식으로 반환하세요: {"title": "답변 제목", "content": "답변 내용 (마크다운 가능)"}\n' +
+        '반드시 JSON만 반환하고 다른 텍스트는 포함하지 마세요.');
+
+    // namu_synthesis/compound: 1024 토큰, 일반 모드: 1024 토큰 (compound만 2048)
+    const maxTokens = isCompound ? 2048 : 1024;
+
+    // Gemini API 호출
+    const contextLabel = isNamuSynthesis ? '=== 나무위키 원문 ===' : (isCompound ? '=== 제공된 데이터 ===' : '=== 데이터베이스 ===');
+    const payload = {
+      contents: [{
+        parts: [{ text: systemPrompt + '\n\n' + contextLabel + '\n' + context + '\n\n질문: ' + query }]
+      }],
+      generationConfig: {
+        temperature: 0.1,
+        maxOutputTokens: maxTokens
+      }
+    };
+
+    const response = UrlFetchApp.fetch(
+      'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + apiKey,
+      {
+        method: 'post',
+        contentType: 'application/json',
+        payload: JSON.stringify(payload),
+        muteHttpExceptions: true
+      }
+    );
+
+    const statusCode = response.getResponseCode();
+    if (statusCode !== 200) {
+      console.error('Gemini API 오류:', statusCode, response.getContentText().substring(0, 200));
+      return { _error: true, message: 'Gemini API 오류 (' + statusCode + ')' };
+    }
+
+    const result = JSON.parse(response.getContentText());
+    const text = result.candidates[0].content.parts[0].text;
+
+    // JSON 파싱 시도 (Gemini 응답이 JSON 형식일 때)
+    let parsed;
+    try {
+      // ```json ... ``` 래핑 제거
+      const cleaned = text.replace(/^```json\s*/, '').replace(/\s*```$/, '').trim();
+      parsed = JSON.parse(cleaned);
+    } catch (e) {
+      // JSON 파싱 실패 → 텍스트 그대로 반환
+      parsed = { title: '검색 결과', content: text };
+    }
+
+    // 캐시 저장 (6시간 = 21600초, 100KB 제한 주의)
+    const output = JSON.stringify(parsed);
+    if (output.length < 90000) { // CacheService 100KB 제한 안전 마진
+      try {
+        cache.put(cacheKey, output, 21600);
+      } catch (e) {
+        // 캐시 저장 실패 무시 (크기 초과 등)
+      }
+    }
+
+    return parsed;
+
+  } catch (error) {
+    console.error('handleGeminiProxy 오류:', error);
+    return { _error: true, message: error.toString() };
   }
 }
 
@@ -95,6 +260,13 @@ function doGet(e) {
     // 업체정보 조회
     if (p.action === 'getVendors') {
       const result = getVendorsData();
+      return ContentService.createTextOutput(JSON.stringify(result))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
+    // 캘린더 이벤트 조회 (컴백일정)
+    if (p.action === 'getCalendarEvents') {
+      const result = getCalendarEvents(p.group || '', p.months || '3');
       return ContentService.createTextOutput(JSON.stringify(result))
         .setMimeType(ContentService.MimeType.JSON);
     }
@@ -2386,4 +2558,93 @@ function setupCacheWarmupTriggerNoUI() {
   });
 
   Logger.log(`✅ 총 ${triggerConfigs.length}개 트리거 생성 완료`);
+}
+
+
+// ============================================================
+// 캘린더 이벤트 조회 (컴백일정)
+// ============================================================
+
+/**
+ * 구글 캘린더에서 컴백일정 이벤트를 가져온다.
+ * @param {string} groupFilter - 그룹명 필터 (빈 문자열이면 전체)
+ * @param {string} monthsStr - 조회 기간 (개월, 기본 3)
+ * @returns {{ events: Array, cached: boolean }}
+ */
+function getCalendarEvents(groupFilter, monthsStr) {
+  try {
+    // 캐시 키 생성
+    const months = parseInt(monthsStr) || 3;
+    const cacheKey = 'cal_events_' + (groupFilter || 'all') + '_' + months;
+    const cache = CacheService.getScriptCache();
+
+    // 캐시 확인 (1시간 = 3600초)
+    const cached = cache.get(cacheKey);
+    if (cached) {
+      try {
+        const parsed = JSON.parse(cached);
+        return { events: parsed, cached: true };
+      } catch (e) {
+        // 캐시 파싱 실패 시 무시
+      }
+    }
+
+    // 2개 캘린더 ID
+    const calendarIds = [
+      '2f47846077df13dd16e51aed01222df79b809105acca22fa7a7b56f050661abf@group.calendar.google.com',
+      '58f8b93d722dc9175aae4c14e685918cdf7f5b2f5056c479ebf49b72dc2c73c5@group.calendar.google.com'
+    ];
+
+    // 기간 설정: 오늘 ~ N개월 후
+    const now = new Date();
+    const end = new Date();
+    end.setMonth(end.getMonth() + months);
+
+    const allEvents = [];
+
+    for (const calId of calendarIds) {
+      try {
+        const cal = CalendarApp.getCalendarById(calId);
+        if (!cal) continue; // 캘린더 접근 불가 시 스킵
+
+        const events = cal.getEvents(now, end);
+        for (const ev of events) {
+          const title = ev.getTitle() || '';
+
+          // 그룹 필터: 필터가 있으면 제목에 그룹명 포함 여부 확인
+          if (groupFilter && title.indexOf(groupFilter) === -1) continue;
+
+          allEvents.push({
+            title: title,
+            date: Utilities.formatDate(ev.getStartTime(), 'Asia/Seoul', 'yyyy-MM-dd'),
+            endDate: Utilities.formatDate(ev.getEndTime(), 'Asia/Seoul', 'yyyy-MM-dd'),
+            description: (ev.getDescription() || '').substring(0, 200) // 200자 제한
+          });
+        }
+      } catch (calErr) {
+        Logger.log('캘린더 접근 오류 (' + calId.substring(0, 8) + '): ' + calErr.toString());
+      }
+    }
+
+    // 날짜순 정렬
+    allEvents.sort(function(a, b) {
+      return a.date.localeCompare(b.date);
+    });
+
+    // 캐시 저장 (1시간)
+    try {
+      const jsonStr = JSON.stringify(allEvents);
+      if (jsonStr.length < 100000) { // 100KB 제한 내에서만 캐싱
+        cache.put(cacheKey, jsonStr, 3600);
+      }
+    } catch (cacheErr) {
+      Logger.log('캘린더 캐시 저장 실패: ' + cacheErr.toString());
+    }
+
+    return { events: allEvents, cached: false };
+
+  } catch (error) {
+    Logger.log('getCalendarEvents 오류: ' + error.toString());
+    return { events: [], cached: false, error: error.toString() };
+  }
 }
