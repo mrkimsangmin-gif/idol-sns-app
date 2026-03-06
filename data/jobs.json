@@ -541,6 +541,17 @@
       "source": "잡코리아"
     },
     {
+      "id": 329,
+      "company": "이든엔터테인먼트",
+      "position": "A&R팀 경력직(대리,과장급) 채용",
+      "category": "프로듀싱",
+      "career": "경력",
+      "location": "서울 성동구",
+      "deadline": "2026-04-05",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48724888",
+      "source": "잡코리아"
+    },
+    {
       "id": 120,
       "company": "이엔터테인먼트",
       "position": "신인 보이 그룹 팬 매니저&마케터 모집",
@@ -2728,6 +2739,61 @@
       "deadline": "상시채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48694084",
       "source": "잡코리아"
+    },
+    {
+      "id": 330,
+      "company": "이든엔터테인먼트",
+      "position": "공연 기획업",
+      "category": "기타",
+      "career": "무관",
+      "location": "서울 성동구",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/C/edenenter",
+      "source": "잡코리아"
+    },
+    {
+      "id": 331,
+      "company": "HYBE",
+      "position": "Playback Operator Engineer",
+      "category": "IT",
+      "career": "경력 3년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/204955",
+      "source": "하이브"
+    },
+    {
+      "id": 332,
+      "company": "HYBE",
+      "position": "Monitor Engineer",
+      "category": "IT",
+      "career": "경력 3년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/204952",
+      "source": "하이브"
+    },
+    {
+      "id": 333,
+      "company": "ADOR",
+      "position": "A&R",
+      "category": "프로듀싱",
+      "career": "경력 1~5년",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/204935",
+      "source": "하이브"
+    },
+    {
+      "id": 334,
+      "company": "Blue Garage",
+      "position": "IPX / 생산 MD Lead",
+      "category": "기타",
+      "career": "경력 8년 이상",
+      "location": "서울 강동구",
+      "deadline": "상시채용",
+      "url": "https://recruit-apply.jype.com/o/205003",
+      "source": "JYP엔터테인먼트"
     }
   ],
   "categories": [
@@ -2743,5 +2809,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-03-06T14:12:20.694975"
+  "updatedAt": "2026-03-06T16:18:20.284064"
 }
