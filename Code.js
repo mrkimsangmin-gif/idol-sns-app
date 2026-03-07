@@ -48,6 +48,21 @@ function doPost(e) {
         .setMimeType(ContentService.MimeType.JSON);
     }
 
+    // 도우인 챌린지 데이터 저장 (ADB 크롤러 → GAS)
+    if (params.action === 'saveDouyinChallenges') {
+      const challenges = (params.data && params.data.challenges) || params.challenges || [];
+      if (challenges.length === 0) {
+        return ContentService.createTextOutput(JSON.stringify({
+          success: false, message: 'No challenges data'
+        })).setMimeType(ContentService.MimeType.JSON);
+      }
+      // saveChallenges: Gemini 요약 + 시트 저장 + 캐시 무효화
+      const result = saveChallenges(challenges);
+      return ContentService.createTextOutput(JSON.stringify({
+        success: true, ...result
+      })).setMimeType(ContentService.MimeType.JSON);
+    }
+
     // 인사이트 CMS 쓰기 (create, update, delete, publish)
     const insightPostActions = ['create', 'update', 'delete', 'publish'];
     if (insightPostActions.includes(params.action)) {
@@ -118,16 +133,19 @@ function handleGeminiProxy(data) {
     const todayStr = Utilities.formatDate(new Date(), 'Asia/Seoul', 'yyyy-MM-dd');
     const dateContext = '오늘 날짜: ' + todayStr + '\n나이를 언급할 때는 반드시 오늘 날짜 기준으로 만 나이를 계산하세요.\n';
     const systemPrompt = isNamuSynthesis
-      ? ('당신은 K-POP 정보 요약 전문가입니다.\n' +
+      ? ('당신은 K-POP 아이돌 전문 데이터 분석가입니다.\n' +
         dateContext + '\n' +
-        '제공된 [나무위키 원문]만을 바탕으로 사용자 질문에 답변하세요.\n\n' +
+        '제공된 [나무위키 원문] 전체를 철저히 읽고, 사용자의 질문에 답변하세요.\n\n' +
         '규칙:\n' +
-        '1. 원문을 그대로 복사하지 마세요. 내용을 이해하고 자연스러운 문장으로 새롭게 작성하세요.\n' +
-        '2. 시간 순서나 변화(예: 룸메이트 변경, 소속사 이동, 활동 이력)가 있다면 반드시 마크다운 표(| 시기 | 내용 |)를 사용하세요.\n' +
-        '3. 홍보대사, 수상 이력, 멤버 목록처럼 여러 항목이 나열될 경우 글머리 기호(-)를 사용하여 깔끔하게 정리하세요.\n' +
-        '4. "기사", "SNS", "9.3." 같은 목차 번호나 나무위키 문법 잔재(각주 번호 [1], 편집 링크 등)는 모두 제거하세요.\n' +
-        '5. 원문에 정보가 충분하지 않아도 있는 정보만으로 간략하게 답변하세요. 없는 내용을 지어내지 마세요.\n\n' +
-        '답변은 반드시 JSON 형식으로 반환하세요: {"title": "답변 제목", "content": "답변 내용 (마크다운 표/리스트 포함)"}\n' +
+        '1. 문서 전체에서 질문과 관련된 모든 언급을 빠짐없이 찾으세요. 여러 섹션에 흩어져 있을 수 있습니다.\n' +
+        '2. 구체적 사실을 근거로 답변하세요: 날짜, 수치, 차트 순위, 수상 내역, 앨범명 등 원문에 있는 팩트를 반드시 포함하세요.\n' +
+        '3. 답변을 마크다운 소제목(### )과 번호 목록으로 구조화하세요.\n' +
+        '4. "이유/왜/어떻게/의미" 같은 분석형 질문에는 여러 측면(음악적, 상업적, 문화적, 수상 기록 등)을 각각 소제목으로 나누어 종합적으로 답변하세요.\n' +
+        '5. 시간순 데이터는 마크다운 표를 사용하세요.\n' +
+        '6. 나무위키 문법 잔재(각주 [1], 편집 링크, 목차 번호)는 제거하세요.\n' +
+        '7. 원문을 그대로 복사하지 말고, 핵심 사실을 인용하면서 자연스러운 문장으로 재작성하세요.\n' +
+        '8. 질문 핵심과 직접 관련 없는 내용은 포함하지 마세요.\n\n' +
+        '답변은 반드시 JSON 형식으로 반환하세요: {"title": "답변 제목", "content": "답변 내용 (마크다운 소제목/표/리스트 포함)"}\n' +
         '반드시 JSON만 반환하고 다른 텍스트는 포함하지 마세요.')
       : isCompound
       ? ('당신은 K-POP 아이돌 데이터 분석가입니다.\n' +
@@ -146,11 +164,13 @@ function handleGeminiProxy(data) {
         dateContext +
         '아래 데이터베이스 정보를 우선 참고하되, 데이터베이스에 없는 정보는 당신의 지식을 활용하여 답변하세요.\n' +
         '데이터베이스 기반 답변과 자체 지식 기반 답변을 구분하지 않아도 됩니다.\n' +
+        '구체적 사실(날짜, 수치, 차트 순위, 수상 내역)을 근거로 답변하고, 마크다운 소제목(### )과 번호 목록으로 구조화하세요.\n' +
+        '"이유/왜/어떻게" 같은 분석형 질문에는 여러 측면을 종합적으로 답변하세요.\n' +
         '답변은 JSON 형식으로 반환하세요: {"title": "답변 제목", "content": "답변 내용 (마크다운 가능)"}\n' +
         '반드시 JSON만 반환하고 다른 텍스트는 포함하지 마세요.');
 
-    // namu_synthesis/compound: 1024 토큰, 일반 모드: 1024 토큰 (compound만 2048)
-    const maxTokens = isCompound ? 2048 : 1024;
+    // namu_synthesis: 8192 토큰 (전체 문서 분석), compound: 2048, 일반: 8192
+    const maxTokens = isCompound ? 2048 : 8192;
 
     // Gemini API 호출
     const contextLabel = isNamuSynthesis ? '=== 나무위키 원문 ===' : (isCompound ? '=== 제공된 데이터 ===' : '=== 데이터베이스 ===');
@@ -165,7 +185,7 @@ function handleGeminiProxy(data) {
     };
 
     const response = UrlFetchApp.fetch(
-      'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + apiKey,
+      'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=' + apiKey,
       {
         method: 'post',
         contentType: 'application/json',
@@ -260,6 +280,13 @@ function doGet(e) {
     // 업체정보 조회
     if (p.action === 'getVendors') {
       const result = getVendorsData();
+      return ContentService.createTextOutput(JSON.stringify(result))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
+    // 엔터뉴스 조회
+    if (p.action === 'getNews') {
+      const result = getEnterNews();
       return ContentService.createTextOutput(JSON.stringify(result))
         .setMimeType(ContentService.MimeType.JSON);
     }
@@ -2646,5 +2673,139 @@ function getCalendarEvents(groupFilter, monthsStr) {
   } catch (error) {
     Logger.log('getCalendarEvents 오류: ' + error.toString());
     return { events: [], cached: false, error: error.toString() };
+  }
+}
+
+/**
+ * 엔터뉴스 수집 — Google News RSS 기반
+ * fetchAll()로 병렬 수집 → 중복 제거 → 최신순 정렬 → 상위 30개 반환
+ * CacheService 30분 캐싱 + Google Sheets 누적 저장
+ */
+function getEnterNews() {
+  const cache = CacheService.getScriptCache();
+  const cacheKey = 'enter_news_v2';
+
+  // 캐시 확인 (30분)
+  const cached = cache.get(cacheKey);
+  if (cached) {
+    Logger.log('엔터뉴스 캐시 히트');
+    var cachedData = JSON.parse(cached);
+    // 캐시 히트 시에도 시트 누적 저장 (중복은 archiveNewsToSheet에서 체크)
+    try { archiveNewsToSheet(cachedData); } catch(e) { Logger.log('아카이브 실패: ' + e.message); }
+    return cachedData;
+  }
+
+  const keywords = ['K-POP 아이돌', 'HYBE', 'SM엔터테인먼트', 'JYP엔터', 'YG엔터', '걸그룹 컴백'];
+  const collectTime = new Date().toISOString();
+
+  // fetchAll()로 6개 RSS 병렬 호출
+  const requests = keywords.map(function(kw) {
+    return {
+      url: 'https://news.google.com/rss/search?q=' + encodeURIComponent(kw) + '&hl=ko&gl=KR&ceid=KR:ko',
+      muteHttpExceptions: true
+    };
+  });
+  const responses = UrlFetchApp.fetchAll(requests);
+
+  const allNews = [];
+  const seen = new Set();
+
+  responses.forEach(function(response, idx) {
+    var keyword = keywords[idx];
+    try {
+      if (response.getResponseCode() !== 200) {
+        Logger.log('뉴스 RSS 응답 오류 (' + keyword + '): ' + response.getResponseCode());
+        return;
+      }
+
+      var doc = XmlService.parse(response.getContentText());
+      var items = doc.getRootElement().getChild('channel').getChildren('item');
+
+      var count = 0;
+      for (var i = 0; i < items.length && count < 8; i++) {
+        var item = items[i];
+        var link = item.getChildText('link') || '';
+        if (seen.has(link)) continue;
+        seen.add(link);
+
+        allNews.push({
+          keyword: keyword.replace(/엔터테인먼트|엔터/g, '').trim(),
+          title: item.getChildText('title') || '',
+          description: (item.getChildText('description') || '').replace(/<[^>]*>/g, '').trim(),
+          link: link,
+          pubDate: item.getChildText('pubDate') || '',
+          collectTime: collectTime
+        });
+        count++;
+      }
+    } catch (e) {
+      Logger.log('뉴스 수집 실패 (' + keyword + '): ' + e.message);
+    }
+  });
+
+  // 최신순 정렬 → 상위 30개
+  allNews.sort(function(a, b) { return new Date(b.pubDate) - new Date(a.pubDate); });
+  var result = allNews.slice(0, 30);
+
+  // 캐시 저장 (30분)
+  try {
+    var jsonStr = JSON.stringify(result);
+    if (jsonStr.length < 100000) {
+      cache.put(cacheKey, jsonStr, 1800);
+      Logger.log('엔터뉴스 캐시 저장 (' + result.length + '건)');
+    }
+  } catch (e) {
+    Logger.log('엔터뉴스 캐시 저장 실패: ' + e.message);
+  }
+
+  // Google Sheets 누적 저장 (백그라운드)
+  try {
+    archiveNewsToSheet(result);
+  } catch (e) {
+    Logger.log('뉴스 아카이브 저장 실패: ' + e.message);
+  }
+
+  return result;
+}
+
+/**
+ * 뉴스를 Google Sheets '뉴스아카이브' 시트에 누적 저장
+ * URL 중복 체크 후 새 뉴스만 append
+ */
+function archiveNewsToSheet(newsList) {
+  var ss = SpreadsheetApp.openById(SHEET_IDS['idol_sns_master_database']);
+  var sheet = ss.getSheetByName('뉴스아카이브');
+
+  // 시트 없으면 생성 + 헤더
+  if (!sheet) {
+    sheet = ss.insertSheet('뉴스아카이브');
+    sheet.appendRow(['수집일시', '키워드', '제목', '설명', '링크', '발행일']);
+    sheet.getRange(1, 1, 1, 6).setFontWeight('bold');
+    Logger.log('뉴스아카이브 시트 생성');
+  }
+
+  // 기존 URL 목록 (최근 500행만 체크 — 성능 최적화)
+  var lastRow = sheet.getLastRow();
+  var existingUrls = new Set();
+  if (lastRow > 1) {
+    var startRow = Math.max(2, lastRow - 499);
+    var urlRange = sheet.getRange(startRow, 5, lastRow - startRow + 1, 1).getValues();
+    urlRange.forEach(function(row) { existingUrls.add(row[0]); });
+  }
+
+  // 새 뉴스만 필터링
+  var newRows = [];
+  newsList.forEach(function(news) {
+    if (!existingUrls.has(news.link)) {
+      newRows.push([news.collectTime, news.keyword, news.title, news.description, news.link, news.pubDate]);
+    }
+  });
+
+  // 일괄 append
+  if (newRows.length > 0) {
+    sheet.getRange(lastRow + 1, 1, newRows.length, 6).setValues(newRows);
+    Logger.log('뉴스 아카이브: ' + newRows.length + '건 신규 저장 (기존 ' + existingUrls.size + '건 중복 제외)');
+  } else {
+    Logger.log('뉴스 아카이브: 신규 뉴스 없음');
   }
 }

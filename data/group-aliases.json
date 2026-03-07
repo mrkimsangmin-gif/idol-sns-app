@@ -1,0 +1,2040 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "last_updated": "2026-03-07",
+    "description": "그룹/멤버 별칭 매핑 (자동 생성 + 수동 보정)"
+  },
+  "groups": {
+    "에스파": {
+      "slug": "aespa",
+      "name_en": "aespa",
+      "aliases": [
+        "aespa",
+        "ㅇㅅㅍ"
+      ],
+      "fandom": "MY"
+    },
+    "뉴진스": {
+      "slug": "newjeans",
+      "name_en": "NewJeans",
+      "aliases": [
+        "NewJeans",
+        "newjeans",
+        "NJ",
+        "뉴쥔",
+        "뉴진"
+      ],
+      "fandom": "버니즈"
+    },
+    "르세라핌": {
+      "slug": "le-sserafim",
+      "name_en": "LE SSERAFIM",
+      "aliases": [
+        "LE SSERAFIM",
+        "le sserafim",
+        "lesserafim",
+        "LS",
+        "LSFM",
+        "르세",
+        "세라핌"
+      ],
+      "fandom": "피어니"
+    },
+    "방탄소년단": {
+      "slug": "bts",
+      "name_en": "BTS",
+      "aliases": [
+        "bangtan",
+        "BTS",
+        "bts",
+        "방탄",
+        "아미밴드",
+        "탄소년단",
+        "탄이"
+      ],
+      "fandom": "아미"
+    },
+    "세븐틴": {
+      "slug": "seventeen",
+      "name_en": "SEVENTEEN",
+      "aliases": [
+        "seventeen",
+        "SEVENTEEN",
+        "SVT",
+        "섭틴",
+        "세봉"
+      ],
+      "fandom": "캐럿"
+    },
+    "블랙핑크": {
+      "slug": "blackpink",
+      "name_en": "BLACKPINK",
+      "aliases": [
+        "BLACKPINK",
+        "blackpink",
+        "BLPK",
+        "BP",
+        "블핑"
+      ],
+      "fandom": "블링크"
+    },
+    "트와이스": {
+      "slug": "twice",
+      "name_en": "TWICE",
+      "aliases": [
+        "TWC",
+        "twice",
+        "TWICE",
+        "트둥"
+      ],
+      "fandom": "원스"
+    },
+    "스트레이키즈": {
+      "slug": "stray-kids",
+      "name_en": "Stray Kids",
+      "aliases": [
+        "SK",
+        "SKZ",
+        "stray kids",
+        "Stray Kids",
+        "straykids",
+        "스키즈"
+      ],
+      "fandom": "스테이"
+    },
+    "투모로우바이투게더": {
+      "slug": "txt",
+      "name_en": "TXT",
+      "aliases": [
+        "TXT",
+        "txt",
+        "모아밴드",
+        "투모로우",
+        "투바투"
+      ],
+      "fandom": "모아"
+    },
+    "아이들": {
+      "slug": "i-dle",
+      "name_en": "i-dle",
+      "aliases": [
+        "(여자)아이들",
+        "G-IDLE",
+        "i-dle",
+        "IDLE",
+        "아이돌",
+        "여자아이들"
+      ],
+      "fandom": "네버랜드"
+    },
+    "레드벨벳": {
+      "slug": "red-velvet",
+      "name_en": "Red Velvet",
+      "aliases": [
+        "Red Velvet",
+        "red velvet",
+        "redvelvet",
+        "RV",
+        "레벨"
+      ],
+      "fandom": "레베럽"
+    },
+    "있지": {
+      "slug": "itzy",
+      "name_en": "ITZY",
+      "aliases": [
+        "ITZY",
+        "itzy",
+        "잇지"
+      ],
+      "fandom": "미드지"
+    },
+    "아이브": {
+      "slug": "ive",
+      "name_en": "IVE",
+      "aliases": [
+        "ive",
+        "IVE",
+        "아브"
+      ],
+      "fandom": "다이브"
+    },
+    "베이비몬스터": {
+      "slug": "babymonster",
+      "name_en": "BABYMONSTER",
+      "aliases": [
+        "babymonster",
+        "BABYMONSTER",
+        "BMON",
+        "베몬",
+        "베비몬"
+      ],
+      "fandom": "클릭"
+    },
+    "엔믹스": {
+      "slug": "nmixx",
+      "name_en": "NMIXX",
+      "aliases": [
+        "NMIXX",
+        "nmixx",
+        "엔믹"
+      ],
+      "fandom": "NSWer"
+    },
+    "우주소녀": {
+      "slug": "wjsn",
+      "name_en": "WJSN",
+      "aliases": [
+        "WJSN",
+        "wjsn",
+        "우소녀",
+        "코스믹걸"
+      ],
+      "fandom": "우정"
+    },
+    "아일릿": {
+      "slug": "illit",
+      "name_en": "ILLIT",
+      "aliases": [
+        "illit",
+        "ILLIT"
+      ],
+      "fandom": "글리치"
+    },
+    "스테이씨": {
+      "slug": "stayc",
+      "name_en": "STAYC",
+      "aliases": [
+        "STAYC",
+        "stayc",
+        "스테씨"
+      ],
+      "fandom": "SWITH"
+    },
+    "미야오": {
+      "slug": "meovv",
+      "name_en": "MEOVV",
+      "aliases": [
+        "MEOVV",
+        "meovv"
+      ]
+    },
+    "케플러": {
+      "slug": "kep1er",
+      "name_en": "Kep1er",
+      "aliases": [
+        "kep1er",
+        "Kep1er",
+        "케플"
+      ],
+      "fandom": "케플리안"
+    },
+    "키스오브라이프": {
+      "slug": "kiss-of-life",
+      "name_en": "KISS OF LIFE",
+      "aliases": [
+        "KIOF",
+        "kiss of life",
+        "KISS OF LIFE",
+        "kissoflife",
+        "KOL",
+        "키오라"
+      ],
+      "fandom": "키싱"
+    },
+    "프로미스나인": {
+      "slug": "fromis-9",
+      "name_en": "fromis_9",
+      "aliases": [
+        "fromis",
+        "fromis_9",
+        "프로미스",
+        "프미나"
+      ],
+      "fandom": "플로버"
+    },
+    "트리플에스": {
+      "slug": "triples",
+      "name_en": "tripleS",
+      "aliases": [
+        "tripleS",
+        "triples",
+        "트리플",
+        "트플"
+      ],
+      "fandom": "WAV"
+    },
+    "오마이걸": {
+      "slug": "oh-my-girl",
+      "name_en": "OH MY GIRL",
+      "aliases": [
+        "oh my girl",
+        "OH MY GIRL",
+        "ohmygirl",
+        "OMG",
+        "오마걸"
+      ],
+      "fandom": "미라클"
+    },
+    "드림캐쳐": {
+      "slug": "dreamcatcher",
+      "name_en": "Dreamcatcher",
+      "aliases": [
+        "DC",
+        "Dreamcatcher",
+        "dreamcatcher",
+        "드캐"
+      ],
+      "fandom": "썸니아"
+    },
+    "하이키": {
+      "slug": "h1-key",
+      "name_en": "H1-KEY",
+      "aliases": [
+        "h1-key",
+        "H1-KEY"
+      ]
+    },
+    "우아": {
+      "slug": "wooah",
+      "name_en": "WOOAH",
+      "aliases": [
+        "WOOAH",
+        "wooah"
+      ]
+    },
+    "비비지": {
+      "slug": "viviz",
+      "name_en": "VIVIZ",
+      "aliases": [
+        "viviz",
+        "VIVIZ",
+        "비비즈"
+      ],
+      "fandom": "빈띠"
+    },
+    "이즈나": {
+      "slug": "izna",
+      "name_en": "izna",
+      "aliases": [
+        "izna",
+        "IZNA"
+      ],
+      "fandom": "이즈니"
+    },
+    "빌리": {
+      "slug": "billlie",
+      "name_en": "Billlie",
+      "aliases": [
+        "Billlie",
+        "billlie"
+      ],
+      "fandom": "벨리브"
+    },
+    "퍼플키스": {
+      "slug": "purple-kiss",
+      "name_en": "PURPLE KISS",
+      "aliases": [
+        "PK",
+        "purple kiss",
+        "PURPLE KISS",
+        "purplekiss"
+      ]
+    },
+    "큐더블유이알": {
+      "slug": "qwer",
+      "name_en": "QWER",
+      "aliases": [
+        "qwer",
+        "QWER",
+        "큐더블유",
+        "큐웨어"
+      ],
+      "fandom": "퍼스트"
+    },
+    "영파씨": {
+      "slug": "young-posse",
+      "name_en": "YOUNG POSSE",
+      "aliases": [
+        "young posse",
+        "YOUNG POSSE",
+        "youngposse",
+        "YP"
+      ]
+    },
+    "위클리": {
+      "slug": "weeekly",
+      "name_en": "Weeekly",
+      "aliases": [
+        "Weeekly",
+        "weeekly"
+      ]
+    },
+    "유니스": {
+      "slug": "unis",
+      "name_en": "UNIS",
+      "aliases": [
+        "unis",
+        "UNIS"
+      ]
+    },
+    "클라씨": {
+      "slug": "class-y",
+      "name_en": "CLASS:y",
+      "aliases": [
+        "CLASS:y",
+        "class:y"
+      ]
+    },
+    "트라이비": {
+      "slug": "tri-be",
+      "name_en": "TRI.BE",
+      "aliases": [
+        "tri.be",
+        "TRI.BE"
+      ]
+    },
+    "리센느": {
+      "slug": "rescene",
+      "name_en": "RESCENE",
+      "aliases": [
+        "rescene",
+        "RESCENE"
+      ]
+    },
+    "로켓펀치": {
+      "slug": "rocket-punch",
+      "name_en": "Rocket Punch",
+      "aliases": [
+        "Rocket Punch",
+        "rocket punch",
+        "rocketpunch",
+        "RP"
+      ]
+    },
+    "아이칠린": {
+      "slug": "ichillin",
+      "name_en": "ICHILLIN'",
+      "aliases": [
+        "ICHILLIN'",
+        "ichillin'"
+      ]
+    },
+    "블랙스완": {
+      "slug": "blackswan",
+      "name_en": "BLACKSWAN",
+      "aliases": [
+        "blackswan",
+        "BLACKSWAN"
+      ]
+    },
+    "첫사랑": {
+      "slug": "csr",
+      "name_en": "CSR",
+      "aliases": [
+        "CSR",
+        "csr"
+      ]
+    },
+    "세이마이네임": {
+      "slug": "smn",
+      "name_en": "SMN",
+      "aliases": [
+        "smn",
+        "SMN"
+      ]
+    },
+    "아트비트": {
+      "slug": "artbeat-v",
+      "name_en": "ARTBEAT v",
+      "aliases": [
+        "ARTBEAT v",
+        "artbeat v",
+        "artbeatv",
+        "AV"
+      ]
+    },
+    "피프티피프티": {
+      "slug": "fifty-fifty",
+      "name_en": "FIFTY FIFTY",
+      "aliases": [
+        "5050",
+        "FF",
+        "FIFTY",
+        "fifty fifty",
+        "FIFTY FIFTY",
+        "fiftyfifty",
+        "피피"
+      ],
+      "fandom": "가입자"
+    },
+    "메이딘": {
+      "slug": "madein",
+      "name_en": "MADEIN",
+      "aliases": [
+        "madein",
+        "MADEIN"
+      ]
+    },
+    "아르테미스": {
+      "slug": "artms",
+      "name_en": "ARTMS",
+      "aliases": [
+        "artms",
+        "ARTMS"
+      ]
+    },
+    "배드빌런": {
+      "slug": "badvillain",
+      "name_en": "BADVILLAIN",
+      "aliases": [
+        "BADVILLAIN",
+        "badvillain"
+      ]
+    },
+    "에이디야": {
+      "slug": "adya",
+      "name_en": "ADYA",
+      "aliases": [
+        "ADYA",
+        "adya"
+      ]
+    },
+    "트레이서": {
+      "slug": "tracer",
+      "name_en": "Tracer",
+      "aliases": [
+        "tracer",
+        "Tracer"
+      ]
+    },
+    "아이리스": {
+      "slug": "irris",
+      "name_en": "IRRIS",
+      "aliases": [
+        "irris",
+        "IRRIS"
+      ]
+    },
+    "비웨이브": {
+      "slug": "bewave",
+      "name_en": "BEWAVE",
+      "aliases": [
+        "bewave",
+        "BEWAVE"
+      ]
+    },
+    "아일리원": {
+      "slug": "ily-1",
+      "name_en": "ILY:1",
+      "aliases": [
+        "ILY:1",
+        "ily:1"
+      ]
+    },
+    "캔디샵": {
+      "slug": "candy-shop",
+      "name_en": "Candy Shop",
+      "aliases": [
+        "Candy Shop",
+        "candy shop",
+        "candyshop",
+        "CS"
+      ]
+    },
+    "시크릿넘버": {
+      "slug": "secret-number",
+      "name_en": "SECRET NUMBER",
+      "aliases": [
+        "secret number",
+        "SECRET NUMBER",
+        "secretnumber",
+        "SN"
+      ]
+    },
+    "오드유스": {
+      "slug": "odd-youth",
+      "name_en": "ODD YOUTH",
+      "aliases": [
+        "odd youth",
+        "ODD YOUTH",
+        "oddyouth",
+        "OY"
+      ]
+    },
+    "프림로즈": {
+      "slug": "primrose",
+      "name_en": "PRIMROSE",
+      "aliases": [
+        "primrose",
+        "PRIMROSE"
+      ]
+    },
+    "지니어스": {
+      "slug": "geenius",
+      "name_en": "Geenius",
+      "aliases": [
+        "geenius",
+        "Geenius"
+      ]
+    },
+    "크랙시": {
+      "slug": "craxy",
+      "name_en": "CRAXY",
+      "aliases": [
+        "CRAXY",
+        "craxy"
+      ]
+    },
+    "루셈블": {
+      "slug": "loossemble",
+      "name_en": "Loossemble",
+      "aliases": [
+        "Loossemble",
+        "loossemble"
+      ]
+    },
+    "유니코드": {
+      "slug": "unicode",
+      "name_en": "UNICODE",
+      "aliases": [
+        "UNICODE",
+        "unicode"
+      ]
+    },
+    "위나": {
+      "slug": "we-na",
+      "name_en": "We;Na",
+      "aliases": [
+        "we;na",
+        "We;Na"
+      ]
+    },
+    "위치스": {
+      "slug": "w-tchx",
+      "name_en": "W!TCHX",
+      "aliases": [
+        "W!TCHX",
+        "w!tchx"
+      ]
+    },
+    "러브원": {
+      "slug": "loveone",
+      "name_en": "LOVEONE",
+      "aliases": [
+        "LOVEONE",
+        "loveone"
+      ]
+    },
+    "수피아": {
+      "slug": "spia",
+      "name_en": "SPIA",
+      "aliases": [
+        "spia",
+        "SPIA"
+      ]
+    },
+    "아이몬드": {
+      "slug": "i-mond",
+      "name_en": "I:MOND",
+      "aliases": [
+        "I:MOND",
+        "i:mond"
+      ]
+    },
+    "버비": {
+      "slug": "burvey",
+      "name_en": "Burvey",
+      "aliases": [
+        "burvey",
+        "Burvey"
+      ]
+    },
+    "하츠투하츠": {
+      "slug": "hearts2hearts",
+      "name_en": "Hearts2Hearts",
+      "aliases": [
+        "H2H",
+        "Hearts2Hearts",
+        "hearts2hearts",
+        "하투하"
+      ],
+      "fandom": "두근두근"
+    },
+    "키키": {
+      "slug": "kiiikiii",
+      "name_en": "KiiiKiii",
+      "aliases": [
+        "kiiikiii",
+        "KiiiKiii",
+        "키이이키이이"
+      ]
+    },
+    "아이리제": {
+      "slug": "iris",
+      "name_en": "IRISÉ",
+      "aliases": [
+        "IRISÉ",
+        "irisé"
+      ]
+    },
+    "앳하트": {
+      "slug": "atheart",
+      "name_en": "AtHeart",
+      "aliases": [
+        "AtHeart",
+        "atheart"
+      ]
+    },
+    "이프아이": {
+      "slug": "ifeye",
+      "name_en": "ifeye",
+      "aliases": [
+        "ifeye"
+      ]
+    },
+    "븨븨에스": {
+      "slug": "vvs",
+      "name_en": "VVS",
+      "aliases": [
+        "vvs",
+        "VVS"
+      ]
+    },
+    "힛지스": {
+      "slug": "hitgs",
+      "name_en": "HITGS",
+      "aliases": [
+        "HITGS",
+        "hitgs"
+      ]
+    },
+    "우당탕탕 소녀단": {
+      "slug": "udtt",
+      "name_en": "UDTT",
+      "aliases": [
+        "UDTT",
+        "udtt"
+      ]
+    },
+    "키라스": {
+      "slug": "kiiras",
+      "name_en": "KIIRAS",
+      "aliases": [
+        "KIIRAS",
+        "kiiras"
+      ]
+    },
+    "유스피어": {
+      "slug": "uspeer",
+      "name_en": "USPEER",
+      "aliases": [
+        "uspeer",
+        "USPEER"
+      ]
+    },
+    "스모즈": {
+      "slug": "smorz",
+      "name_en": "SMORZ",
+      "aliases": [
+        "SMORZ",
+        "smorz"
+      ]
+    },
+    "어블룸": {
+      "slug": "ablume",
+      "name_en": "ablume",
+      "aliases": [
+        "ablume"
+      ]
+    },
+    "베이비돈크라이": {
+      "slug": "baby-dont-cry",
+      "name_en": "Baby DONT Cry",
+      "aliases": [
+        "Baby DONT Cry",
+        "baby dont cry",
+        "babydontcry",
+        "BDC"
+      ]
+    },
+    "올데이프로젝트": {
+      "slug": "allday-project",
+      "name_en": "ALLDAY PROJECT",
+      "aliases": [
+        "ALLDAY",
+        "ALLDAY PROJECT",
+        "allday project",
+        "alldayproject",
+        "AP",
+        "올데프"
+      ]
+    },
+    "엔시티 드림": {
+      "slug": "nct-dream",
+      "name_en": "NCT DREAM",
+      "aliases": [
+        "nct dream",
+        "NCT DREAM",
+        "NCTDREAM",
+        "nctdream",
+        "ND",
+        "드림",
+        "엔드림"
+      ],
+      "fandom": "시즈니"
+    },
+    "엔하이픈": {
+      "slug": "enhypen",
+      "name_en": "ENHYPEN",
+      "aliases": [
+        "enhypen",
+        "ENHYPEN",
+        "엔하",
+        "하이픈"
+      ],
+      "fandom": "엔진"
+    },
+    "제로베이스원": {
+      "slug": "zerobaseone",
+      "name_en": "ZEROBASEONE",
+      "aliases": [
+        "ZB1",
+        "ZBOne",
+        "ZEROBASEONE",
+        "zerobaseone",
+        "제로베",
+        "제베원"
+      ],
+      "fandom": "제로즈"
+    },
+    "엔시티 일이칠": {
+      "slug": "nct-127",
+      "name_en": "NCT 127",
+      "aliases": [
+        "nct 127",
+        "NCT 127",
+        "NCT127",
+        "nct127",
+        "엔시티127",
+        "일이칠"
+      ],
+      "fandom": "시즈니"
+    },
+    "플레이브": {
+      "slug": "plave",
+      "name_en": "PLAVE",
+      "aliases": [
+        "plave",
+        "PLAVE",
+        "플브"
+      ],
+      "fandom": "플리"
+    },
+    "트레저": {
+      "slug": "treasure",
+      "name_en": "TREASURE",
+      "aliases": [
+        "TREASURE",
+        "treasure",
+        "트레"
+      ],
+      "fandom": "트레저메이커"
+    },
+    "라이즈": {
+      "slug": "riize",
+      "name_en": "RIIZE",
+      "aliases": [
+        "RIIZE",
+        "riize",
+        "리즈"
+      ],
+      "fandom": "브리즈"
+    },
+    "보이넥스트도어": {
+      "slug": "boynextdoor",
+      "name_en": "BOYNEXTDOOR",
+      "aliases": [
+        "BND",
+        "BOYNEXTDOOR",
+        "boynextdoor",
+        "보넥도"
+      ],
+      "fandom": "하우스"
+    },
+    "더보이즈": {
+      "slug": "the-boyz",
+      "name_en": "THE BOYZ",
+      "aliases": [
+        "TB",
+        "TBZ",
+        "the boyz",
+        "THE BOYZ",
+        "THEBOYZ",
+        "theboyz",
+        "더보"
+      ],
+      "fandom": "더비"
+    },
+    "투어스": {
+      "slug": "tws",
+      "name_en": "TWS",
+      "aliases": [
+        "tws",
+        "TWS"
+      ]
+    },
+    "아이콘": {
+      "slug": "ikon",
+      "name_en": "Ikon",
+      "aliases": [
+        "Ikon",
+        "iKON",
+        "ikon"
+      ],
+      "fandom": "아이코닉"
+    },
+    "몬스타엑스": {
+      "slug": "monsta-x",
+      "name_en": "MONSTA X",
+      "aliases": [
+        "monsta x",
+        "MONSTA X",
+        "MONSTAX",
+        "monstax",
+        "MX",
+        "몬엑"
+      ],
+      "fandom": "몬베베"
+    },
+    "아스트로": {
+      "slug": "astro",
+      "name_en": "ASTRO",
+      "aliases": [
+        "ASTRO",
+        "astro"
+      ]
+    },
+    "엑스디너리 히어로즈": {
+      "slug": "xdinary-heroes",
+      "name_en": "Xdinary Heroes",
+      "aliases": [
+        "xdinary heroes",
+        "Xdinary Heroes",
+        "xdinaryheroes",
+        "XdinaryHeroes",
+        "XH",
+        "엑히"
+      ],
+      "fandom": "빌런즈"
+    },
+    "피원하모니": {
+      "slug": "p1harmony",
+      "name_en": "P1Harmony",
+      "aliases": [
+        "P1H",
+        "P1Harmony",
+        "p1harmony",
+        "피원하"
+      ],
+      "fandom": "P1ece"
+    },
+    "에스에프나인": {
+      "slug": "sf9",
+      "name_en": "SF9",
+      "aliases": [
+        "SF9",
+        "sf9"
+      ]
+    },
+    "템페스트": {
+      "slug": "tempest",
+      "name_en": "TEMPEST",
+      "aliases": [
+        "TEMPEST",
+        "tempest"
+      ]
+    },
+    "에이비식스": {
+      "slug": "ab6ix",
+      "name_en": "AB6IX",
+      "aliases": [
+        "ab6ix",
+        "AB6IX",
+        "에비식"
+      ],
+      "fandom": "앱넷"
+    },
+    "펜타곤": {
+      "slug": "pentagon",
+      "name_en": "PENTAGON",
+      "aliases": [
+        "PENTAGON",
+        "pentagon"
+      ]
+    },
+    "오메가엑스": {
+      "slug": "omega-x",
+      "name_en": "OMEGA X",
+      "aliases": [
+        "omega x",
+        "OMEGA X",
+        "omegax",
+        "OX"
+      ]
+    },
+    "에이티즈": {
+      "slug": "ateez",
+      "name_en": "ATEEZ",
+      "aliases": [
+        "ATEEZ",
+        "ateez",
+        "ATZ",
+        "에잇즈"
+      ],
+      "fandom": "에이티니"
+    },
+    "이펙스": {
+      "slug": "epex",
+      "name_en": "EPEX",
+      "aliases": [
+        "EPEX",
+        "epex"
+      ]
+    },
+    "데이식스": {
+      "slug": "day6",
+      "name_en": "DAY6",
+      "aliases": [
+        "DAY6",
+        "day6",
+        "데식"
+      ],
+      "fandom": "마이데이"
+    },
+    "크래비티": {
+      "slug": "cravity",
+      "name_en": "CRAVITY",
+      "aliases": [
+        "cravity",
+        "CRAVITY",
+        "크래비"
+      ],
+      "fandom": "러비티"
+    },
+    "원어스": {
+      "slug": "oneus",
+      "name_en": "ONEUS",
+      "aliases": [
+        "oneus",
+        "ONEUS"
+      ]
+    },
+    "킥플립": {
+      "slug": "kickflip",
+      "name_en": "KickFlip",
+      "aliases": [
+        "kickflip",
+        "KickFlip",
+        "킥플"
+      ],
+      "fandom": "로디"
+    },
+    "골든차일드": {
+      "slug": "golden-child-gncd",
+      "name_en": "Golden Child, GNCD",
+      "aliases": [
+        "GCG",
+        "golden child, gncd",
+        "Golden Child, GNCD",
+        "goldenchild,gncd"
+      ]
+    },
+    "드리핀": {
+      "slug": "drippin",
+      "name_en": "DRIPPIN",
+      "aliases": [
+        "DRIPPIN",
+        "drippin"
+      ]
+    },
+    "루네이트": {
+      "slug": "lun8",
+      "name_en": "LUN8",
+      "aliases": [
+        "LUN8",
+        "lun8"
+      ]
+    },
+    "넥스지": {
+      "slug": "nexz",
+      "name_en": "NEXZ",
+      "aliases": [
+        "nexz",
+        "NEXZ",
+        "넥지"
+      ],
+      "fandom": "넥시즈"
+    },
+    "에잇턴": {
+      "slug": "8turn",
+      "name_en": "8TURN",
+      "aliases": [
+        "8turn",
+        "8TURN"
+      ]
+    },
+    "씨아이엑스": {
+      "slug": "cix",
+      "name_en": "CIX",
+      "aliases": [
+        "CIX",
+        "cix"
+      ]
+    },
+    "이븐": {
+      "slug": "evnne",
+      "name_en": "EVNNE",
+      "aliases": [
+        "evnne",
+        "EVNNE"
+      ]
+    },
+    "나우즈": {
+      "slug": "nowz",
+      "name_en": "NOWZ",
+      "aliases": [
+        "nowz",
+        "NOWZ"
+      ]
+    },
+    "더뉴식스": {
+      "slug": "the-new-six",
+      "name_en": "THE NEW SIX",
+      "aliases": [
+        "the new six",
+        "THE NEW SIX",
+        "thenewsix",
+        "TNS"
+      ]
+    },
+    "앰퍼샌드원": {
+      "slug": "ampers-one",
+      "name_en": "AMPERS&ONE",
+      "aliases": [
+        "ampers&one",
+        "AMPERS&ONE"
+      ]
+    },
+    "파우": {
+      "slug": "pow",
+      "name_en": "POW",
+      "aliases": [
+        "pow",
+        "POW"
+      ]
+    },
+    "소디엑": {
+      "slug": "xodiac",
+      "name_en": "XODIAC",
+      "aliases": [
+        "xodiac",
+        "XODIAC"
+      ]
+    },
+    "유나이트": {
+      "slug": "younite",
+      "name_en": "YOUNITE",
+      "aliases": [
+        "YOUNITE",
+        "younite"
+      ]
+    },
+    "배너": {
+      "slug": "vanner",
+      "name_en": "VANNER",
+      "aliases": [
+        "VANNER",
+        "vanner"
+      ]
+    },
+    "비에이이일칠삼": {
+      "slug": "bae173",
+      "name_en": "BAE173",
+      "aliases": [
+        "BAE173",
+        "bae173"
+      ]
+    },
+    "에이티투메이저": {
+      "slug": "82major",
+      "name_en": "82MAJOR",
+      "aliases": [
+        "82major",
+        "82MAJOR"
+      ]
+    },
+    "판타지보이즈": {
+      "slug": "fantasy-boys",
+      "name_en": "FANTASY BOYS",
+      "aliases": [
+        "fantasy boys",
+        "FANTASY BOYS",
+        "fantasyboys",
+        "FB"
+      ]
+    },
+    "더윈드": {
+      "slug": "the-wind",
+      "name_en": "The Wind",
+      "aliases": [
+        "The Wind",
+        "the wind",
+        "thewind",
+        "TW"
+      ]
+    },
+    "위아이": {
+      "slug": "wei",
+      "name_en": "WEi",
+      "aliases": [
+        "wei",
+        "WEi"
+      ]
+    },
+    "휘브": {
+      "slug": "whib",
+      "name_en": "WHIB",
+      "aliases": [
+        "whib",
+        "WHIB"
+      ]
+    },
+    "다이몬": {
+      "slug": "dxmon",
+      "name_en": "DXMON",
+      "aliases": [
+        "DXMON",
+        "dxmon"
+      ]
+    },
+    "온앤오프": {
+      "slug": "onf",
+      "name_en": "ONF",
+      "aliases": [
+        "ONF",
+        "onf"
+      ]
+    },
+    "미래소년": {
+      "slug": "mirae",
+      "name_en": "MIRAE",
+      "aliases": [
+        "MIRAE",
+        "mirae"
+      ]
+    },
+    "엠씨엔디": {
+      "slug": "mcnd",
+      "name_en": "MCND",
+      "aliases": [
+        "mcnd",
+        "MCND"
+      ]
+    },
+    "싸이커스": {
+      "slug": "xikers",
+      "name_en": "xikers",
+      "aliases": [
+        "xikers",
+        "자이커스"
+      ],
+      "fandom": "xiking"
+    },
+    "누에라": {
+      "slug": "nouera",
+      "name_en": "NouerA",
+      "aliases": [
+        "NouerA",
+        "nouera"
+      ]
+    },
+    "엔싸인": {
+      "slug": "n-ssign",
+      "name_en": "n.SSign",
+      "aliases": [
+        "n.SSign",
+        "n.ssign"
+      ]
+    },
+    "다크비": {
+      "slug": "dkb",
+      "name_en": "DKB",
+      "aliases": [
+        "DKB",
+        "dkb"
+      ]
+    },
+    "에이티비오": {
+      "slug": "atbo",
+      "name_en": "ATBO",
+      "aliases": [
+        "ATBO",
+        "atbo"
+      ]
+    },
+    "엘라스트": {
+      "slug": "e-last",
+      "name_en": "E'LAST",
+      "aliases": [
+        "e'last",
+        "E'LAST"
+      ]
+    },
+    "아크": {
+      "slug": "arrc",
+      "name_en": "ARrC",
+      "aliases": [
+        "arrc",
+        "ARrC"
+      ]
+    },
+    "노매드": {
+      "slug": "nomad",
+      "name_en": "NOMAD",
+      "aliases": [
+        "nomad",
+        "NOMAD"
+      ]
+    },
+    "올아워즈": {
+      "slug": "all-h-ours",
+      "name_en": "ALL(H)OURS",
+      "aliases": [
+        "ALL(H)OURS",
+        "all(h)ours"
+      ]
+    },
+    "트렌드지": {
+      "slug": "trendz",
+      "name_en": "TRENDZ",
+      "aliases": [
+        "trendz",
+        "TRENDZ"
+      ]
+    },
+    "나인아이": {
+      "slug": "nine-i",
+      "name_en": "NINE.i",
+      "aliases": [
+        "nine.i",
+        "NINE.i"
+      ]
+    },
+    "세븐어스": {
+      "slug": "sevenus",
+      "name_en": "SEVENUS",
+      "aliases": [
+        "SEVENUS",
+        "sevenus"
+      ]
+    },
+    "에이머스": {
+      "slug": "aimers",
+      "name_en": "AIMERS",
+      "aliases": [
+        "AIMERS",
+        "aimers"
+      ]
+    },
+    "원팩트": {
+      "slug": "one-pact",
+      "name_en": "ONE PACT",
+      "aliases": [
+        "one pact",
+        "ONE PACT",
+        "onepact",
+        "OP"
+      ]
+    },
+    "티아이오티": {
+      "slug": "tiot",
+      "name_en": "TIOT",
+      "aliases": [
+        "TIOT",
+        "tiot"
+      ]
+    },
+    "엔카이브": {
+      "slug": "nchive",
+      "name_en": "NCHIVE",
+      "aliases": [
+        "nchive",
+        "NCHIVE"
+      ]
+    },
+    "더킹덤": {
+      "slug": "the-kingdom",
+      "name_en": "The KingDom",
+      "aliases": [
+        "The KingDom",
+        "the kingdom",
+        "thekingdom",
+        "TK"
+      ]
+    },
+    "블리처스": {
+      "slug": "blitzers",
+      "name_en": "BLITZERS",
+      "aliases": [
+        "blitzers",
+        "BLITZERS"
+      ]
+    },
+    "웨이커": {
+      "slug": "waker",
+      "name_en": "WAKER",
+      "aliases": [
+        "WAKER",
+        "waker"
+      ]
+    },
+    "워터파이어": {
+      "slug": "waterfire",
+      "name_en": "WATERFIRE",
+      "aliases": [
+        "waterfire",
+        "WATERFIRE"
+      ]
+    },
+    "피커스": {
+      "slug": "pickus",
+      "name_en": "PICKUS",
+      "aliases": [
+        "PICKUS",
+        "pickus"
+      ]
+    },
+    "어센트": {
+      "slug": "asc2nt",
+      "name_en": "ASC2NT",
+      "aliases": [
+        "ASC2NT",
+        "asc2nt"
+      ]
+    },
+    "하우": {
+      "slug": "haww",
+      "name_en": "HAWW",
+      "aliases": [
+        "HAWW",
+        "haww"
+      ]
+    },
+    "이스트샤인": {
+      "slug": "eastshine",
+      "name_en": "EASTSHINE",
+      "aliases": [
+        "EASTSHINE",
+        "eastshine"
+      ]
+    },
+    "이오닛": {
+      "slug": "aeonit",
+      "name_en": "AEONIT",
+      "aliases": [
+        "aeonit",
+        "AEONIT"
+      ]
+    },
+    "비디유": {
+      "slug": "b-d-u",
+      "name_en": "B.D.U",
+      "aliases": [
+        "b.d.u",
+        "B.D.U"
+      ]
+    },
+    "데이차일드": {
+      "slug": "daychild",
+      "name_en": "DayChild",
+      "aliases": [
+        "DayChild",
+        "daychild"
+      ]
+    },
+    "드래곤포니": {
+      "slug": "dragon-pony",
+      "name_en": "Dragon Pony",
+      "aliases": [
+        "DP",
+        "Dragon Pony",
+        "dragon pony",
+        "dragonpony"
+      ]
+    },
+    "클로즈 유어 아이즈": {
+      "slug": "close-your-eyes",
+      "name_en": "CLOSE YOUR EYES",
+      "aliases": [
+        "CLOSE YOUR EYES",
+        "close your eyes",
+        "closeyoureyes",
+        "CYE"
+      ]
+    },
+    "아홉": {
+      "slug": "ahof",
+      "name_en": "AHOF",
+      "aliases": [
+        "AHOF",
+        "ahof"
+      ]
+    },
+    "엑스러브": {
+      "slug": "xlov",
+      "name_en": "XLOV",
+      "aliases": [
+        "xlov",
+        "XLOV"
+      ]
+    },
+    "뉴비트": {
+      "slug": "newbeat",
+      "name_en": "NEWBEAT",
+      "aliases": [
+        "NEWBEAT",
+        "newbeat"
+      ]
+    },
+    "아이딧": {
+      "slug": "idid",
+      "name_en": "IDID",
+      "aliases": [
+        "IDID",
+        "idid"
+      ]
+    },
+    "비보이즈": {
+      "slug": "be-boys",
+      "name_en": "BE BOYS",
+      "aliases": [
+        "BB",
+        "be boys",
+        "BE BOYS",
+        "beboys"
+      ]
+    },
+    "아이덴티티": {
+      "slug": "idntt",
+      "name_en": "idntt",
+      "aliases": [
+        "idntt",
+        "IDNTT"
+      ]
+    },
+    "코르티스": {
+      "slug": "cortis",
+      "name_en": "CORTIS",
+      "aliases": [
+        "cortis",
+        "CORTIS"
+      ]
+    },
+    "알파드라이브원": {
+      "slug": "alpha-drive-one",
+      "name_en": "ALPHA DRIVE ONE",
+      "aliases": [
+        "ADO",
+        "ALPHA DRIVE ONE",
+        "alpha drive one",
+        "alphadriveone"
+      ]
+    },
+    "엠빅": {
+      "slug": "am8ic",
+      "name_en": "AM8IC",
+      "aliases": [
+        "AM8IC",
+        "am8ic"
+      ]
+    },
+    "에이엠피": {
+      "slug": "axmxp",
+      "name_en": "AxMxP",
+      "aliases": [
+        "AxMxP",
+        "axmxp"
+      ]
+    },
+    "롱샷": {
+      "slug": "lngshot",
+      "name_en": "LNGSHOT",
+      "aliases": [
+        "LNGSHOT",
+        "lngshot"
+      ]
+    },
+    "네이즈": {
+      "slug": "naze",
+      "name_en": "NAZE",
+      "aliases": [
+        "NAZE",
+        "naze"
+      ]
+    },
+    "유어즈": {
+      "slug": "yuhz",
+      "name_en": "YUHZ",
+      "aliases": [
+        "yuhz",
+        "YUHZ"
+      ]
+    },
+    "마마무": {
+      "slug": "mamamoo",
+      "name_en": "MAMAMOO",
+      "aliases": [
+        "mamamoo",
+        "MAMAMOO"
+      ]
+    }
+  },
+  "members": {
+    "카리나": {
+      "group": "에스파",
+      "aliases": [
+        "유지민",
+        "Karina",
+        "지미니"
+      ]
+    },
+    "윈터": {
+      "group": "에스파",
+      "aliases": [
+        "김민정",
+        "Winter"
+      ]
+    },
+    "지젤": {
+      "group": "에스파",
+      "aliases": [
+        "우치나가 에리",
+        "Giselle"
+      ]
+    },
+    "닝닝": {
+      "group": "에스파",
+      "aliases": [
+        "닝이",
+        "NingNing",
+        "寧寧"
+      ]
+    },
+    "RM": {
+      "group": "방탄소년단",
+      "aliases": [
+        "김남준",
+        "남준",
+        "랩몬",
+        "랩몬스터"
+      ]
+    },
+    "진": {
+      "group": "방탄소년단",
+      "aliases": [
+        "김석진",
+        "석진",
+        "Jin"
+      ]
+    },
+    "슈가": {
+      "group": "방탄소년단",
+      "aliases": [
+        "민윤기",
+        "윤기",
+        "Suga",
+        "어거스트디"
+      ]
+    },
+    "제이홉": {
+      "group": "방탄소년단",
+      "aliases": [
+        "정호석",
+        "호석",
+        "J-Hope",
+        "jhope"
+      ]
+    },
+    "지민": {
+      "group": "방탄소년단",
+      "aliases": [
+        "박지민",
+        "Jimin"
+      ]
+    },
+    "뷔": {
+      "group": "방탄소년단",
+      "aliases": [
+        "김태형",
+        "태형",
+        "V",
+        "태태"
+      ]
+    },
+    "정국": {
+      "group": "방탄소년단",
+      "aliases": [
+        "전정국",
+        "JK",
+        "Jungkook"
+      ]
+    },
+    "제니": {
+      "group": "블랙핑크",
+      "aliases": [
+        "김제니",
+        "Jennie",
+        "제니킴"
+      ]
+    },
+    "로제": {
+      "group": "블랙핑크",
+      "aliases": [
+        "박채영",
+        "채영",
+        "Rosé",
+        "로지"
+      ]
+    },
+    "리사": {
+      "group": "블랙핑크",
+      "aliases": [
+        "Lisa",
+        "라리사"
+      ]
+    },
+    "민지": {
+      "group": "뉴진스",
+      "aliases": [
+        "김민지",
+        "Minji"
+      ]
+    },
+    "하니": {
+      "group": "뉴진스",
+      "aliases": [
+        "팜하니",
+        "Hanni"
+      ]
+    },
+    "해린": {
+      "group": "뉴진스",
+      "aliases": [
+        "강해린",
+        "Haerin"
+      ]
+    },
+    "혜인": {
+      "group": "뉴진스",
+      "aliases": [
+        "이혜인",
+        "Hyein"
+      ]
+    },
+    "김채원": {
+      "group": "르세라핌",
+      "aliases": [
+        "채원",
+        "Chaewon"
+      ]
+    },
+    "사쿠라": {
+      "group": "르세라핌",
+      "aliases": [
+        "미야와키사쿠라",
+        "Sakura",
+        "쌔쿠라"
+      ]
+    },
+    "허윤진": {
+      "group": "르세라핌",
+      "aliases": [
+        "윤진",
+        "Yunjin"
+      ]
+    },
+    "카즈하": {
+      "group": "르세라핌",
+      "aliases": [
+        "Kazuha",
+        "중무라카즈하"
+      ]
+    },
+    "홍은채": {
+      "group": "르세라핌",
+      "aliases": [
+        "은채",
+        "Eunchae"
+      ]
+    },
+    "에스쿱스": {
+      "group": "세븐틴",
+      "aliases": [
+        "최승철",
+        "승철",
+        "S.Coups"
+      ]
+    },
+    "정한": {
+      "group": "세븐틴",
+      "aliases": [
+        "윤정한",
+        "Jeonghan"
+      ]
+    },
+    "호시": {
+      "group": "세븐틴",
+      "aliases": [
+        "권순영",
+        "순영",
+        "Hoshi"
+      ]
+    },
+    "우지": {
+      "group": "세븐틴",
+      "aliases": [
+        "이지훈",
+        "지훈",
+        "Woozi"
+      ]
+    },
+    "민규": {
+      "group": "세븐틴",
+      "aliases": [
+        "김민규",
+        "Mingyu"
+      ]
+    },
+    "도겸": {
+      "group": "세븐틴",
+      "aliases": [
+        "이석민",
+        "DK"
+      ]
+    },
+    "버논": {
+      "group": "세븐틴",
+      "aliases": [
+        "최한솔",
+        "Vernon",
+        "한솔"
+      ]
+    },
+    "나연": {
+      "group": "트와이스",
+      "aliases": [
+        "임나연",
+        "Nayeon"
+      ]
+    },
+    "사나": {
+      "group": "트와이스",
+      "aliases": [
+        "미나토자키사나",
+        "Sana"
+      ]
+    },
+    "쯔위": {
+      "group": "트와이스",
+      "aliases": [
+        "저우쯔위",
+        "Tzuyu"
+      ]
+    },
+    "다현": {
+      "group": "트와이스",
+      "aliases": [
+        "김다현",
+        "Dahyun"
+      ]
+    },
+    "지효": {
+      "group": "트와이스",
+      "aliases": [
+        "박지효",
+        "Jihyo"
+      ]
+    },
+    "방찬": {
+      "group": "스트레이키즈",
+      "aliases": [
+        "크리스토퍼방",
+        "BangChan",
+        "Chris"
+      ]
+    },
+    "현진": {
+      "group": "스트레이키즈",
+      "aliases": [
+        "황현진",
+        "Hyunjin"
+      ]
+    },
+    "한": {
+      "group": "스트레이키즈",
+      "aliases": [
+        "지성",
+        "Han",
+        "한지성"
+      ]
+    },
+    "필릭스": {
+      "group": "스트레이키즈",
+      "aliases": [
+        "Felix",
+        "이필릭스",
+        "용복"
+      ]
+    },
+    "연준": {
+      "group": "투모로우바이투게더",
+      "aliases": [
+        "최연준",
+        "Yeonjun"
+      ]
+    },
+    "수빈": {
+      "group": "투모로우바이투게더",
+      "aliases": [
+        "최수빈",
+        "Soobin"
+      ]
+    },
+    "범규": {
+      "group": "투모로우바이투게더",
+      "aliases": [
+        "최범규",
+        "Beomgyu"
+      ]
+    },
+    "태현": {
+      "group": "투모로우바이투게더",
+      "aliases": [
+        "강태현",
+        "Taehyun"
+      ]
+    },
+    "휴닝카이": {
+      "group": "투모로우바이투게더",
+      "aliases": [
+        "카이",
+        "HueningKai"
+      ]
+    },
+    "안유진": {
+      "group": "아이브",
+      "aliases": [
+        "유진",
+        "Yujin"
+      ]
+    },
+    "장원영": {
+      "group": "아이브",
+      "aliases": [
+        "원영",
+        "Wonyoung"
+      ]
+    },
+    "리즈": {
+      "group": "아이브",
+      "aliases": [
+        "김지원",
+        "Liz"
+      ]
+    },
+    "이서": {
+      "group": "아이브",
+      "aliases": [
+        "Leeseo"
+      ]
+    },
+    "미연": {
+      "group": "아이들",
+      "aliases": [
+        "조미연",
+        "Miyeon"
+      ]
+    },
+    "소연": {
+      "group": "아이들",
+      "aliases": [
+        "전소연",
+        "Soyeon"
+      ]
+    },
+    "우기": {
+      "group": "아이들",
+      "aliases": [
+        "Yuqi",
+        "쑹위치"
+      ]
+    },
+    "희승": {
+      "group": "엔하이픈",
+      "aliases": [
+        "이희승",
+        "Heeseung"
+      ]
+    },
+    "제이크": {
+      "group": "엔하이픈",
+      "aliases": [
+        "심재윤",
+        "Jake"
+      ]
+    },
+    "니키": {
+      "group": "엔하이픈",
+      "aliases": [
+        "니시무라리키",
+        "Ni-ki"
+      ]
+    },
+    "성한빈": {
+      "group": "제로베이스원",
+      "aliases": [
+        "한빈",
+        "Hanbin"
+      ]
+    },
+    "장하오": {
+      "group": "제로베이스원",
+      "aliases": [
+        "하오",
+        "Zhang Hao"
+      ]
+    },
+    "홍중": {
+      "group": "에이티즈",
+      "aliases": [
+        "김홍중",
+        "Hongjoong"
+      ]
+    },
+    "산": {
+      "group": "에이티즈",
+      "aliases": [
+        "최산",
+        "San"
+      ]
+    },
+    "우영": {
+      "group": "에이티즈",
+      "aliases": [
+        "정우영",
+        "Wooyoung"
+      ]
+    }
+  }
+}

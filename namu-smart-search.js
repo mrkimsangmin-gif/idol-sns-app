@@ -8,7 +8,7 @@
 // Gemini 응답 캐시 (localStorage) + 검색 로그 전송
 // ============================================================
 
-var GEMINI_CACHE_PREFIX = 'gemini_v2_'; // 프롬프트 변경 시 버전업 → 기존 캐시 무효화
+var GEMINI_CACHE_PREFIX = 'gemini_v7_'; // v7: 1000자 제한 + 잘림 복구 (TMI/raw text 누출 방지)
 var GEMINI_CACHE_TTL = 7 * 24 * 60 * 60 * 1000; // 7일 (ms)
 
 /**
@@ -275,6 +275,10 @@ function _completeFeedback(bar, feedbackType) {
     });
 }
 
+
+// === 릴리스 데이터 (월별 컴백 검색용) ===
+var namuReleasesData = null;     // namu-releases.json의 albums 배열
+var namuReleasesLoaded = false;  // 릴리스 로드 완료 여부
 
 // === 멤버 → 그룹 역인덱스 ===
 let memberGroupIndex = {};  // { "카리나": [{ group_name, slug, ... }] }
@@ -927,10 +931,19 @@ function parseSmartQuery(query) {
         };
     }
 
-    // 2-b. 역대 초동 랭킹: "역대 초동 1위", "초동 TOP 10", "초동 순위", "초동 랭킹"
-    var topRankMatch = q.match(/(?:역대\s*)?(?:(\d{4})년?\s*)?초동\s*(?:(\d+)\s*위|(?:top|TOP)\s*(\d+)|랭킹|순위|1위)\s*(걸그룹|보이그룹|여자|남자|아이돌|앨범)?/);
+    // 2-b. 역대 초동 랭킹: "역대 초동 1위", "초동 TOP 10", "걸그룹 초동 TOP 10"
+    // 성별이 초동 앞에 올 때 우선 매칭: "2024년 걸그룹 초동 TOP 10", "걸그룹 초동 순위"
+    var topRankMatch = null;
+    var preGenderMatch = q.match(/(?:(\d{4})년?\s*)?(걸그룹|보이그룹|여자|남자)\s*초동\s*(?:(\d+)\s*위|(?:top|TOP)\s*(\d+)|랭킹|순위|1위)/i);
+    if (preGenderMatch) {
+        topRankMatch = [preGenderMatch[0], preGenderMatch[1] || null, preGenderMatch[3] || null, preGenderMatch[4] || null, preGenderMatch[2]];
+    }
+    // 성별이 초동 뒤에 올 때: "2024년 초동 TOP 10 걸그룹"
     if (!topRankMatch) {
-        topRankMatch = q.match(/역대\s*초동\s*(?:(\d+)\s*위|1위|순위|랭킹)\s*(앨범|걸그룹|보이그룹|여자|남자|아이돌)?/);
+        topRankMatch = q.match(/(?:역대\s*)?(?:(\d{4})년?\s*)?초동\s*(?:(\d+)\s*위|(?:top|TOP)\s*(\d+)|랭킹|순위|1위)\s*(걸그룹|보이그룹|여자|남자|아이돌|앨범)?/i);
+    }
+    if (!topRankMatch) {
+        topRankMatch = q.match(/역대\s*초동\s*(?:(\d+)\s*위|1위|순위|랭킹)\s*(앨범|걸그룹|보이그룹|여자|남자|아이돌)?/i);
         if (topRankMatch) {
             topRankMatch = [topRankMatch[0], null, topRankMatch[1] || '1', null, topRankMatch[2] || null];
         }
@@ -952,8 +965,8 @@ function parseSmartQuery(query) {
         };
     }
 
-    // 2-a. 소속사 단독 필터: "SM 소속 그룹", "하이브 산하 그룹 목록", "큐브 소속 아이돌"
-    var agencyOnlyMatch = q.match(/^(.+?)\s*(?:소속|산하)\s*(?:걸그룹|보이그룹|그룹|아이돌|가수)?\s*(?:목록|리스트)?\s*$/i);
+    // 2-a. 소속사 단독 필터: "SM 소속 그룹", "하이브 산하 그룹 목록", "큐브 소속 아이돌 전체"
+    var agencyOnlyMatch = q.match(/^(.+?)\s*(?:소속|산하)\s*(?:걸그룹|보이그룹|그룹|아이돌|가수)?\s*(?:전체|목록|리스트|모두|다)?\s*$/i);
     if (agencyOnlyMatch) {
         var aoTerm = agencyOnlyMatch[1].trim();
         // 소속사 확인 (별칭 또는 인덱스 기반 검색)
@@ -988,11 +1001,46 @@ function parseSmartQuery(query) {
             // restTerm에서 세대 추출 (예: "SM 걸그룹 4세대")
             var restGenMatch = restTerm.match(/([\d]세대)/);
             if (restGenMatch && GENERATION_MAP[restGenMatch[1]]) generation = restGenMatch[1];
+            // restTerm에 분석/비교 키워드가 있으면 cross_group_search로 분류
+            var analysisKeyword = restTerm.replace(/([\d]세대)/, '').trim();
+            if (analysisKeyword && /초동|판매|앨범|비교|순위|랭킹|1위|멤버수|평균|최고|최다|데뷔곡|히트곡|수상/.test(analysisKeyword)) {
+                return {
+                    type: 'cross_group_search',
+                    agency: agencyTerm,
+                    generation: generation,
+                    gender: gender,
+                    keyword: analysisKeyword
+                };
+            }
             return {
                 type: 'agency_filter',
                 agency: agencyTerm,
                 generation: generation,
                 gender: gender
+            };
+        }
+    }
+
+    // 3-0a-2. 연도+소속사+성별 복합 필터: "2020년 이후 데뷔한 JYP 걸그룹"
+    // 패턴: "YYYY년 (이후|이전)? 데뷔(한)? 소속사 (걸그룹|보이그룹)?"
+    var yearAgencyMatch = q.match(/(\d{4})년\s*(이후|이전|이래)?\s*데뷔\s*(?:한\s*)?(.+?)\s*(걸그룹|보이그룹|여자|남자|아이돌|그룹)?\s*(?:목록|리스트)?$/);
+    if (yearAgencyMatch) {
+        var yaYear = parseInt(yearAgencyMatch[1]);
+        var yaRange = (yearAgencyMatch[2] || '').trim();
+        var yaAgency = yearAgencyMatch[3].trim();
+        var yaGenderTerm = (yearAgencyMatch[4] || '').trim();
+        // 소속사 확인
+        if (AGENCY_ALIASES[yaAgency] || findGroupsByAgency(yaAgency).length > 0) {
+            var yaGender = null;
+            if (yaGenderTerm === '걸그룹' || yaGenderTerm === '여자') yaGender = '여자';
+            if (yaGenderTerm === '보이그룹' || yaGenderTerm === '남자') yaGender = '남자';
+            return {
+                type: 'agency_filter',
+                agency: yaAgency,
+                gender: yaGender,
+                generation: null,
+                yearFrom: (yaRange === '이전') ? null : yaYear,
+                yearTo: (yaRange === '이전') ? yaYear : null
             };
         }
     }
@@ -1046,6 +1094,22 @@ function parseSmartQuery(query) {
         }
     }
 
+    // 3-1b. 국적/멤버 구성 관련 크로스그룹 질의
+    // "멤버 전원 한국인인 4세대 보이그룹", "외국인 멤버 없는 걸그룹", "다국적 5세대 그룹"
+    if (/전원\s*한국인|한국인\s*만|외국인\s*(?:멤버\s*)?없|다국적|외국\s*멤버\s*있|혼혈\s*멤버|해외\s*출신/.test(q)) {
+        var natGen = q.match(/(\d세대)/);
+        var natGender = null;
+        if (/걸그룹|여자/.test(q)) natGender = '여자';
+        if (/보이그룹|남자/.test(q)) natGender = '남자';
+        return {
+            type: 'cross_group_search',
+            generation: natGen ? natGen[1] : null,
+            gender: natGender,
+            keyword: q,
+            nationalityQuery: true
+        };
+    }
+
     // 3-2. "{그룹} 몇명" / "{그룹} 멤버 몇명/몇 명" / "{그룹} 인원" / "{그룹} 멤버 수"
     var countMatch = q.match(/^(.+?)\s*(?:멤버\s*)?(?:몇\s*명|몇명|인원수?|멤버\s*수)\s*[?？]?$/);
     if (countMatch) {
@@ -1087,6 +1151,109 @@ function parseSmartQuery(query) {
         }
     }
 
+    // 3-3-pre. 월별 컴백/발매 검색: "26년 3월 컴백", "올해 3월 발매 앨범", "3월 컴백"
+    // 패턴 A: 숫자 연도 + 월 — "26년 3월 컴백", "2026년 3월 발매"
+    // 패턴 B: 상대 연도 + 월 — "올해 3월 컴백", "작년 12월 발매"
+    // 패턴 C: 월만 — "3월 컴백" (연도=올해)
+    // 성별 필터: "3월 걸그룹 컴백", "26년 3월 보이그룹 발매"
+    var monthComebackMatch = q.match(
+        /^(?:(\d{2,4})\s*년\s*)?(?:(올해|금년|작년|내년|재작년)\s*)?(\d{1,2})\s*월\s*(?:(걸그룹|보이그룹|여자|남자|여돌|남돌)\s*)?(?:컴백|발매|앨범|신보|신곡|복귀)(?:\s*(?:그룹|앨범|아이돌|목록|리스트))?\s*$/
+    );
+    if (!monthComebackMatch) {
+        // 역순: "26년 걸그룹 3월 컴백" / "올해 컴백 3월" 등 유연 매칭
+        monthComebackMatch = q.match(
+            /^(?:(\d{2,4})\s*년\s*)?(?:(올해|금년|작년|내년|재작년)\s*)?(?:(걸그룹|보이그룹|여자|남자|여돌|남돌)\s*)?(\d{1,2})\s*월\s*(?:컴백|발매|앨범|신보|신곡|복귀)(?:\s*(?:그룹|앨범|아이돌|목록|리스트))?\s*$/
+        );
+        if (monthComebackMatch) {
+            // 역순 매칭이면 그룹 3→4로 이동, 4→3으로 이동 (month와 gender 위치 교환)
+            var _t = monthComebackMatch[3];
+            monthComebackMatch[3] = monthComebackMatch[4];
+            monthComebackMatch[4] = _t;
+        }
+    }
+    if (monthComebackMatch) {
+        var now = new Date();
+        var thisYear = now.getFullYear();
+        var mcYear = thisYear; // 기본값: 올해
+        // 숫자 연도 (26 → 2026, 2026 그대로)
+        if (monthComebackMatch[1]) {
+            mcYear = parseInt(monthComebackMatch[1]);
+            if (mcYear < 100) mcYear += 2000; // 2자리 → 4자리
+        }
+        // 상대 연도 ("올해", "작년", "내년")
+        if (monthComebackMatch[2]) {
+            var rel = monthComebackMatch[2];
+            if (rel === '작년') mcYear = thisYear - 1;
+            else if (rel === '재작년') mcYear = thisYear - 2;
+            else if (rel === '내년') mcYear = thisYear + 1;
+            // 올해/금년 → thisYear (기본값)
+        }
+        var mcMonth = parseInt(monthComebackMatch[3]);
+        if (mcMonth < 1 || mcMonth > 12) mcMonth = null; // 유효성 검증
+        // 성별 필터
+        var mcGender = null;
+        if (monthComebackMatch[4]) {
+            var gw = monthComebackMatch[4];
+            if (/걸그룹|여자|여돌/.test(gw)) mcGender = '여자';
+            else if (/보이그룹|남자|남돌/.test(gw)) mcGender = '남자';
+        }
+        if (mcMonth) {
+            return { type: 'monthly_comeback', year: mcYear, month: mcMonth, gender: mcGender };
+        }
+    }
+
+    // 3-3-half. 상반기/하반기 컴백 검색: "2023년 상반기 컴백 보이그룹", "올해 하반기 걸그룹 컴백"
+    // 패턴: [연도] [상대연도] [성별] 상반기/하반기 [성별] 컴백/발매 [성별]
+    var halfYearMatch = q.match(
+        /^(?:(\d{2,4})\s*년?\s*)?(?:(올해|금년|작년|내년|재작년)\s*)?(?:(걸그룹|보이그룹|여자|남자|여돌|남돌)\s*)?(상반기|하반기|[1-4]분기|[1-4]사?분기)\s*(?:(걸그룹|보이그룹|여자|남자|여돌|남돌)\s*)?(?:컴백|발매|앨범|신보|신곡|복귀)(?:\s*(?:(걸그룹|보이그룹|여자|남자|여돌|남돌)|그룹|앨범|아이돌|목록|리스트))?\s*$/
+    );
+    if (!halfYearMatch) {
+        // 역순: "2023년 상반기 보이그룹 컴백" / "보이그룹 2023 상반기 컴백"
+        halfYearMatch = q.match(
+            /^(?:(걸그룹|보이그룹|여자|남자|여돌|남돌)\s*)?(?:(\d{2,4})\s*년?\s*)?(?:(올해|금년|작년|내년|재작년)\s*)?(상반기|하반기|[1-4]분기|[1-4]사?분기)\s*(?:컴백|발매|앨범|신보|신곡|복귀)\s*(?:(걸그룹|보이그룹|여자|남자|여돌|남돌))?\s*$/
+        );
+        if (halfYearMatch) {
+            // 역순 매칭 시 그룹 재배치: [1]=gender1, [2]=year, [3]=rel, [4]=period, [5]=gender2
+            halfYearMatch = [halfYearMatch[0], halfYearMatch[2], halfYearMatch[3], halfYearMatch[1], halfYearMatch[4], halfYearMatch[5], null];
+        }
+    }
+    if (halfYearMatch) {
+        var now2 = new Date();
+        var hyYear = now2.getFullYear();
+        if (halfYearMatch[1]) {
+            hyYear = parseInt(halfYearMatch[1]);
+            if (hyYear < 100) hyYear += 2000;
+        }
+        if (halfYearMatch[2]) {
+            var rel2 = halfYearMatch[2];
+            if (rel2 === '작년') hyYear = now2.getFullYear() - 1;
+            else if (rel2 === '재작년') hyYear = now2.getFullYear() - 2;
+            else if (rel2 === '내년') hyYear = now2.getFullYear() + 1;
+        }
+        // 기간 → 월 범위
+        var period = halfYearMatch[4];
+        var hyMonthStart = 1, hyMonthEnd = 12;
+        if (period === '상반기') { hyMonthStart = 1; hyMonthEnd = 6; }
+        else if (period === '하반기') { hyMonthStart = 7; hyMonthEnd = 12; }
+        else if (/^1/.test(period)) { hyMonthStart = 1; hyMonthEnd = 3; }
+        else if (/^2/.test(period)) { hyMonthStart = 4; hyMonthEnd = 6; }
+        else if (/^3/.test(period)) { hyMonthStart = 7; hyMonthEnd = 9; }
+        else if (/^4/.test(period)) { hyMonthStart = 10; hyMonthEnd = 12; }
+        // 성별: 3개 위치에서 추출 (앞/중간/뒤)
+        var hyGender = null;
+        var hyGenderRaw = halfYearMatch[3] || halfYearMatch[5] || halfYearMatch[6] || '';
+        if (/걸그룹|여자|여돌/.test(hyGenderRaw)) hyGender = '여자';
+        else if (/보이그룹|남자|남돌/.test(hyGenderRaw)) hyGender = '남자';
+        return {
+            type: 'monthly_comeback',
+            year: hyYear,
+            monthStart: hyMonthStart,
+            monthEnd: hyMonthEnd,
+            periodLabel: period,
+            gender: hyGender
+        };
+    }
+
     // 3-3a. 그룹 없는 캘린더 일정 조회: "컴백 일정", "이번달 컴백", "다음달 컴백", "컴백 스케줄"
     var calendarScheduleMatch = q.match(/^(?:이번\s*달|다음\s*달|이달|다음달|금월|차월)?\s*(?:컴백\s*(?:일정|스케줄|달력|캘린더)|아이돌\s*컴백|컴백\s*예정|예정\s*컴백)\s*$/i);
     if (calendarScheduleMatch) {
@@ -1117,13 +1284,18 @@ function parseSmartQuery(query) {
         }
     }
 
-    // 3-4. "{그룹} 디스코그래피" / "{그룹} 앨범 목록" / "{그룹} 전체 앨범"
-    // 앨범 전체 목록을 정형 테이블로 렌더링 (raw_text 아닌 구조화 데이터 사용)
-    var discographyMatch = q.match(/^(.+?)\s*(?:디스코그래피|discography|앨범\s*(?:목록|리스트|전체|일람)|전체\s*앨범|음반\s*(?:목록|리스트)|발매\s*목록)\s*$/i);
+    // 3-4. "{그룹} 디스코그래피" / "{그룹} 앨범 목록" / "{그룹} 일본 정규앨범 목록"
+    // 지역(일본/한국) 및 유형(정규/미니/싱글) 필터 지원
+    var discographyMatch = q.match(/^(.+?)\s*(일본|한국|jp|kr)?\s*(?:(정규|미니|싱글|베스트|스페셜|리패키지)\s*)?(?:디스코그래피|discography|앨범\s*(?:목록|리스트|전체|일람)|전체\s*앨범|음반\s*(?:목록|리스트)|발매\s*목록)\s*$/i);
     if (discographyMatch) {
         var gDisco = findGroupByName(discographyMatch[1].trim());
         if (gDisco) {
-            return { type: 'discography', group: gDisco };
+            var discoRegion = (discographyMatch[2] || '').trim();
+            var discoType = (discographyMatch[3] || '').trim();
+            // 지역 정규화
+            if (discoRegion === 'jp') discoRegion = '일본';
+            if (discoRegion === 'kr') discoRegion = '한국';
+            return { type: 'discography', group: gDisco, region: discoRegion || null, albumType: discoType || null };
         }
     }
 
@@ -1592,6 +1764,10 @@ async function executeIntent(intent) {
         case 'calendar_schedule':
             await executeCalendarSchedule(container, intent);
             return;
+
+        case 'monthly_comeback':
+            await executeMonthlyComeback(container, intent);
+            return;
     }
 }
 
@@ -1978,6 +2154,9 @@ async function executeMemberRawSearch(container, intent) {
             // 점수 내림차순 정렬
             scored.sort(function(a, b) { return b.score - a.score; });
 
+            // 정확 구문 매칭 여부 기록 (서브키워드 노이즈 판별용)
+            var _exactPhraseMatched = scored.length > 0;
+
             // 다중 단어 키워드: 정확 매칭 실패 시 개별 단어로 재검색
             if (scored.length === 0 && keyword.indexOf(' ') !== -1) {
                 var subKws = keyword.split(/\s+/).filter(function(w) { return w.length >= 2 && !RAW_TEXT_KW_STOPWORDS.test(w); });
@@ -2015,6 +2194,16 @@ async function executeMemberRawSearch(container, intent) {
                         if (subScore > 0) scored.push({ text: sTrimmed, score: subScore });
                     }
                     scored.sort(function(a, b) { return b.score - a.score; });
+                }
+            }
+
+            // 서브키워드만 매칭 + 정확 구문이 원문에 없음 → 노이즈로 판단하여 결과 무효화
+            // (예: "추가 계획" → "추가"와 "계획"이 각각 다른 맥락에서 발견 → 주제 자체 부재)
+            // → scored 비우면 window scan도 스킵 → callGeminiFlash 자체 지식으로 폴백
+            if (scored.length > 0 && !_exactPhraseMatched) {
+                var _phraseInDoc = rawText.toLowerCase().indexOf(keyword.toLowerCase()) !== -1;
+                if (!_phraseInDoc) {
+                    scored = [];
                 }
             }
 
@@ -2068,56 +2257,42 @@ async function executeMemberRawSearch(container, intent) {
                     ? group.group_name + ' ' + memberName + ' ' + keyword
                     : group.name + ' 멤버 ' + keyword;
 
-                // Multi-Hit Aggregation: 키워드 히트 주변 ±80줄 병합 (정보 누락 방지)
-                var wideCtxM = buildWideContext(lines, keyword, 200);
-                var rawCtx = wideCtxM || sentences.map(function(s) { return s.text; }).join('\n');
+                // 원문보기용: 키워드 히트 주변 ±30줄 병합 (UI 표시용)
+                var wideCtxM = buildWideContext(lines, keyword, 100);
+                var displayCtx = wideCtxM || sentences.map(function(s) { return s.text; }).join('\n');
+                // Gemini용: 전체 raw_text 전송 (Scattered Context 해결)
+                var geminiCtx = rawText;
 
-                // Gemini Synthesis Layer: raw text → 정제된 마크다운 답변 자동 생성
-                updateSearchProgress(container, 3, 'AI가 답변을 정리하는 중...');
+                // Gemini Synthesis Layer: 전체 문서 → 정제된 마크다운 답변 자동 생성
+                updateSearchProgress(container, 3, '🤖 AI가 답변을 정리하는 중');
                 var synthResult = await callGeminiNamuSynthesize(
-                    synthesizeQuery, rawCtx,
+                    synthesizeQuery, geminiCtx,
                     currentSearchAbortController ? currentSearchAbortController.signal : null
                 );
                 if (synthResult && synthResult._aborted) return;
-                if (synthResult && !synthResult._error) {
-                    // 정제 성공 → 마크다운 답변 표시
-                    renderGeminiAnswer(container, synthResult);
+                // "해당 정보 없음" 반환 시 자체 지식 폴백
+                var synthNoInfo = synthResult && synthResult.title && synthResult.title.indexOf('해당 정보 없음') !== -1;
+                if (synthResult && !synthResult._error && !synthNoInfo) {
+                    // 정제 성공 → 마크다운 답변 + 원문 보기 (displayCtx: 키워드 주변만)
+                    renderGeminiAnswer(container, synthResult, displayCtx, namuUrl, keyword);
                     trackEvent('namu_smart_search', {
                         query: synthesizeQuery, method: 'raw_synthesized'
                     });
                     return;
                 }
-
-                // Gemini 실패/API 키 없음 → raw 텍스트로 폴백
-                var title = group.name + '(' + group.name_en + ') ' + keyword;
-                var html = '<div class="namu-smart-answer">' +
-                    '<div class="namu-smart-answer-header">' +
-                    '<span class="namu-smart-icon">📖</span>' +
-                    '<span class="namu-smart-title">' + escapeHtml(title) + '</span>' +
-                    '<button class="namu-smart-close" onclick="dismissSmartAnswer()" title="닫기">&times;</button>' +
-                    '</div>' +
-                    '<div class="namu-smart-answer-body">';
-
-                for (var j = 0; j < sentences.length; j++) {
-                    html += '<div class="namu-smart-answer-text' + (j > 0 ? ' mt-2 pt-2 border-top' : '') +
-                        '" style="font-size:1.05rem;">' + escapeHtml(sentences[j].text) + '</div>';
+                // "해당 정보 없음" → callGeminiFlash로 자체 지식 폴백
+                if (synthNoInfo) {
+                    var flashResult = await callGeminiFlash(synthesizeQuery);
+                    if (flashResult && flashResult._aborted) return;
+                    if (flashResult && !flashResult._error) {
+                        renderGeminiAnswer(container, flashResult);
+                        trackEvent('namu_smart_search', { query: synthesizeQuery, method: 'gemini_knowledge_fallback' });
+                        return;
+                    }
                 }
-                html += '</div>';
 
-                // "AI로 정리하기" 버튼 + 나무위키 링크
-                html += '<div class="namu-smart-detail-link d-flex justify-content-between align-items-center">';
-                html += '<button class="btn btn-sm btn-outline-primary" ' +
-                    'onclick="synthesizeWithGemini(this, \'' + escapeSingleQuote(synthesizeQuery) + '\')" ' +
-                    'data-raw-context="' + escapeHtml(rawCtx) + '">' +
-                    '🤖 AI로 정리하기</button>';
-                if (namuUrl) {
-                    html += '<a href="' + escapeHtml(namuUrl) + '" target="_blank" rel="noopener">📚 나무위키에서 보기 →</a>';
-                }
-                html += '</div>';
-
-                html += '</div>';
-                container.innerHTML = html;
-                container.style.display = 'block';
+                // Gemini 실패/API 키 없음 → 포맷된 원문 + AI 정리 버튼으로 폴백
+                renderRawFallback(container, displayCtx, namuUrl, keyword, synthesizeQuery);
 
                 trackEvent('namu_smart_search', {
                     query: group.name + ' 멤버 ' + keyword,
@@ -2241,6 +2416,33 @@ function tryMemberAgeFallback(container, group, detail, keyword, namuUrl) {
 // --- 멀티 키워드 근접 윈도우 헬퍼 ---
 // tokenized 텍스트에서 "UN 연설"처럼 각 단어가 별도 라인에 있을 때,
 // 첫 번째 서브 키워드 이후 forwardSpan 내에 나머지 키워드가 모두 등장하는 최적 구간 반환.
+// 짧은 영문 키워드(≤3자) 단어 경계 매칭 헬퍼 (부분문자열 오매칭 방지)
+// 예: "UN" → "Universe" 내부 매칭 방지, "UN 총회"는 정상 매칭
+function _isShortAsciiKw(kw) {
+    return kw.length <= 3 && /^[A-Za-z0-9]+$/.test(kw);
+}
+function _kwIndexOf(text, kw, startPos) {
+    var kwLow = kw.toLowerCase();
+    var textLow = (typeof startPos === 'number') ? text.toLowerCase() : text.toLowerCase();
+    var from = startPos || 0;
+    if (!_isShortAsciiKw(kw)) return textLow.indexOf(kwLow, from);
+    // 짧은 영문: 단어 경계 체크하며 순차 탐색
+    var pos = from;
+    while (pos < textLow.length) {
+        var idx = textLow.indexOf(kwLow, pos);
+        if (idx === -1) return -1;
+        var before = idx === 0 || /[\s\[\(\-\/,.]/.test(textLow[idx - 1]);
+        var afterPos = idx + kwLow.length;
+        var after = afterPos >= textLow.length || /[\s\]\)\-\/,.:!?]/.test(textLow[afterPos]);
+        if (before && after) return idx;
+        pos = idx + 1;
+    }
+    return -1;
+}
+function _kwExistsIn(text, kw) {
+    return _kwIndexOf(text, kw, 0) !== -1;
+}
+
 function _findProximityWindow(rawText, subKws, forwardSpan) {
     if (!subKws || subKws.length < 2) return null;
     var rawLower = rawText.toLowerCase();
@@ -2249,12 +2451,13 @@ function _findProximityWindow(rawText, subKws, forwardSpan) {
     var bestText = null, bestScore = -Infinity;
     var pos = 0;
     while (pos < rawText.length) {
-        var idx = rawLower.indexOf(anchor, pos);
+        // anchor도 단어 경계 매칭 적용
+        var idx = _kwIndexOf(rawText, subKws[0], pos);
         if (idx === -1) break;
         // anchor 이후 forwardSpan 범위에서만 나머지 키워드 탐색 (전방향)
         var fwdEnd = Math.min(rawText.length, idx + forwardSpan);
-        var fwd = rawLower.slice(idx, fwdEnd);
-        var allFound = others.every(function(kw) { return fwd.indexOf(kw) !== -1; });
+        var fwd = rawText.slice(idx, fwdEnd);
+        var allFound = others.every(function(kw) { return _kwExistsIn(fwd, kw); });
         if (allFound) {
             var start = Math.max(0, idx - 80);
             while (start > 0 && rawText[start - 1] !== '\n') start--;
@@ -2272,7 +2475,7 @@ function _findProximityWindow(rawText, subKws, forwardSpan) {
             // 추출된 window 내에도 모든 키워드가 실제로 있는지 재확인
             // (qualify는 500자 기준이지만 window는 150자 → 불일치 방지)
             var ctxLower = ctx.toLowerCase();
-            var allInCtx = [anchor].concat(others).every(function(kw) { return ctxLower.indexOf(kw) !== -1; });
+            var allInCtx = subKws.every(function(kw) { return _kwExistsIn(ctx, kw); });
             if (!allInCtx) { pos = idx + 1; continue; }
             var digits = (ctx.match(/\d{4}/g) || []).length;
             var dateEntries = (ctx.match(/\d{4}\.\s*\d{2}/g) || []).length;
@@ -2290,6 +2493,9 @@ async function executeGroupRawSearch(container, intent) {
     var keyword = intent.keyword;
     var detail = await fetchGroupDetail(group.slug);
     var namuUrl = (detail && detail.namu_url) || '';
+
+    // 허위 전제 감지용 변수: keyword에 멤버명이 포함되었으나 결과에서 멤버+키워드 공존 없을 때 세팅
+    var _falsePremiseMember = null;
 
     // info 필드 키 직접 매칭 (공백 제거 후 비교)
     // "훈장"→info["훈장"], "그룹명 뜻"→info["그룹명뜻"], "응원봉"→info["응원봉"]
@@ -2311,7 +2517,7 @@ async function executeGroupRawSearch(container, intent) {
 
     try {
         // 진행 표시: 원문 탐색
-        updateSearchProgress(container, 2, '원문 데이터에서 관련 내용 탐색 중...');
+        updateSearchProgress(container, 2, '📚 나무위키 원문 데이터 탐색 중');
         var rawResponse = await fetch('/data/namu-raw/' + group.slug + '.txt?v=' + NAMU_DATA_VERSION);
         if (rawResponse.ok) {
             var rawText = await rawResponse.text();
@@ -2350,6 +2556,9 @@ async function executeGroupRawSearch(container, intent) {
                 }
             }
 
+            // 정확 구문 매칭 여부 기록 (서브키워드 노이즈 판별용)
+            var _gExactPhraseMatched = scored.length > 0;
+
             // 다중 단어 키워드: 핵심어 정확 매칭도 실패 시 개별 단어로 재검색
             if (scored.length === 0 && _kwSearch.indexOf(' ') !== -1) {
                 var subKws = _kwSearch.split(/\s+/).filter(function(w) { return w.length >= 2 && !RAW_TEXT_KW_STOPWORDS.test(w); });
@@ -2369,11 +2578,10 @@ async function executeGroupRawSearch(container, intent) {
                         if (sTrimmed.length <= 5) continue;
                         if (RAW_TEXT_NOISE.test(sTrimmed)) continue;
                         if (RAW_TEXT_TRACKLIST.test(sTrimmed)) continue;
-                        // 개별 키워드 매칭 수 확인
-                        var sLower = sTrimmed.toLowerCase();
+                        // 개별 키워드 매칭 수 확인 (짧은 영문은 단어 경계 체크)
                         var matchCnt = 0;
                         for (var sk = 0; sk < subKws.length; sk++) {
-                            if (sLower.indexOf(subKws[sk].toLowerCase()) !== -1) matchCnt++;
+                            if (_kwExistsIn(sTrimmed, subKws[sk])) matchCnt++;
                         }
                         if (matchCnt === 0) continue;
                         // 키워드 매칭 수에 비례하는 점수
@@ -2384,6 +2592,14 @@ async function executeGroupRawSearch(container, intent) {
                         scored.push({ text: sTrimmed, score: subScore });
                     }
                     scored.sort(function(a, b) { return b.score - a.score; });
+                }
+            }
+
+            // 서브키워드만 매칭 + 정확 구문이 원문에 없음 → 노이즈로 판단하여 결과 무효화
+            if (scored.length > 0 && !_gExactPhraseMatched) {
+                var _gPhraseInDoc = rawText.toLowerCase().indexOf((_kwSearch || keyword).toLowerCase()) !== -1;
+                if (!_gPhraseInDoc) {
+                    scored = [];
                 }
             }
 
@@ -2436,61 +2652,94 @@ async function executeGroupRawSearch(container, intent) {
                 }
             }
 
+            // ── 허위 전제 감지 ──────────────────────────────────────────────────────────
+            // keyword에 그룹 멤버명이 포함되어 있지만, 상위 결과 어디에도 멤버명+다른_키워드가
+            // 공존하지 않으면 "김채원이 AKB48 활동" 같은 허위 전제 쿼리로 판단 → 결과 무효화.
+            // (사쿠라의 AKB48 텍스트가 김채원 질문의 답으로 반환되는 오류 방지)
+            if (detail && detail.members && detail.members.length > 0 && scored.length > 0) {
+                var _kwParts = (_kwSearch || keyword).split(/\s+/);
+                var _fpDone = false;
+                for (var _kpi = 0; _kpi < _kwParts.length && !_fpDone; _kpi++) {
+                    // 한국어 조사 제거 (이/가/은/는/의/를/을/에/도/만/으로/서/부터/까지/와/과)
+                    var _kpNorm = _kwParts[_kpi].replace(/[이가은는의를을에도만으로서부터까지와과]$/, '');
+                    if (_kpNorm.length < 2) continue;
+                    for (var _mpi = 0; _mpi < detail.members.length; _mpi++) {
+                        var _memName = (detail.members[_mpi].name || '').trim();
+                        if (_memName && _memName === _kpNorm) {
+                            // 멤버명이 keyword에 포함됨 → 다른 키워드 목록 구성
+                            // ⚠️ 일반적인 단어(활동/기간/출전/기록 등)는 제외 — "김채원 활동" 같이
+                            // 멤버의 일상적 이력 텍스트에서 자연 공존하여 허위 전제를 놓치는 오류 방지
+                            var _fpGenericWords = /^(활동|기간|출전|기록|경력|이력|시절|시기|때|언제|참여|포지션|역할|이유|어떻게|점수|수상|내역|역사|정보|내용|관련|참가|출전한|출전하|활약|참전|데뷔|솔로|멤버)$/;
+                            var _otherKws = [];
+                            for (var _oki = 0; _oki < _kwParts.length; _oki++) {
+                                var _okNorm = _kwParts[_oki].replace(/[이가은는의를을에도만으로서부터까지와과]$/, '');
+                                // 멤버명 자신이 아니고, 길이 >= 2이고, 일반 단어가 아닌 것만 포함
+                                if (_okNorm !== _kpNorm && _okNorm.length >= 2 && !_fpGenericWords.test(_okNorm)) {
+                                    _otherKws.push(_okNorm.toLowerCase());
+                                }
+                            }
+                            if (_otherKws.length > 0) {
+                                // 상위 5개 결과에서 멤버명 + 다른 키워드 공존 라인이 있어야 함
+                                var _top5 = scored.slice(0, 5);
+                                var _combined = _top5.some(function(s) {
+                                    var _tl = s.text.toLowerCase();
+                                    return _tl.indexOf(_memName.toLowerCase()) !== -1 &&
+                                           _otherKws.some(function(ok) { return _tl.indexOf(ok) !== -1; });
+                                });
+                                if (!_combined) {
+                                    // 허위 전제 감지: 결과 무효화
+                                    _falsePremiseMember = _memName;
+                                    scored = [];
+                                }
+                            }
+                            _fpDone = true;
+                            break;
+                        }
+                    }
+                }
+            }
+
             if (scored.length > 0) {
                 var topScore = scored[0].score;
                 var sentences = scored.filter(function(s) { return s.score >= topScore * 0.6; }).slice(0, 5);
                 var fullQuery = group.name + ' ' + keyword;
 
-                // Multi-Hit Aggregation: 키워드 히트 주변 ±80줄 병합 (정보 누락 방지)
-                var wideCtx = buildWideContext(lines, _kwSearch || keyword, 200);
-                var rawContext = wideCtx || sentences.map(function(s) { return s.text; }).join('\n');
+                // 원문보기용: 키워드 히트 주변 ±30줄 병합 (UI 표시용)
+                var wideCtx = buildWideContext(lines, _kwSearch || keyword, 100);
+                var displayContext = wideCtx || sentences.map(function(s) { return s.text; }).join('\n');
+                // Gemini용: 전체 raw_text 전송 (Scattered Context 해결 — 각주/여담 등 문서 전체 참조)
+                var geminiContext = rawText;
 
-                // Gemini Synthesis Layer: raw text → 정제된 마크다운 답변 자동 생성
-                updateSearchProgress(container, 3, 'AI가 답변을 정리하는 중...');
+                // Gemini Synthesis Layer: 전체 문서 → 정제된 마크다운 답변 자동 생성
+                updateSearchProgress(container, 3, '🤖 AI가 답변을 정리하는 중');
                 var synthResult = await callGeminiNamuSynthesize(
-                    fullQuery, rawContext,
+                    fullQuery, geminiContext,
                     currentSearchAbortController ? currentSearchAbortController.signal : null
                 );
                 if (synthResult && synthResult._aborted) return;
-                if (synthResult && !synthResult._error) {
-                    // 정제 성공 → 마크다운 답변 표시
-                    renderGeminiAnswer(container, synthResult);
+                // "해당 정보 없음" 반환 시 자체 지식 폴백
+                var synthNoInfo = synthResult && synthResult.title && synthResult.title.indexOf('해당 정보 없음') !== -1;
+                if (synthResult && !synthResult._error && !synthNoInfo) {
+                    // 정제 성공 → 마크다운 답변 + 원문 보기 (displayContext: 키워드 주변만)
+                    renderGeminiAnswer(container, synthResult, displayContext, namuUrl, keyword);
                     trackEvent('namu_smart_search', {
                         query: fullQuery, method: 'raw_synthesized'
                     });
                     return;
                 }
-
-                // Gemini 실패/API 키 없음 → raw 텍스트로 폴백
-                var title = group.name + '(' + group.name_en + ') ' + keyword;
-                var html = '<div class="namu-smart-answer">' +
-                    '<div class="namu-smart-answer-header">' +
-                    '<span class="namu-smart-icon">📖</span>' +
-                    '<span class="namu-smart-title">' + escapeHtml(title) + '</span>' +
-                    '<button class="namu-smart-close" onclick="dismissSmartAnswer()" title="닫기">&times;</button>' +
-                    '</div>' +
-                    '<div class="namu-smart-answer-body">';
-
-                for (var j = 0; j < sentences.length; j++) {
-                    html += '<div class="namu-smart-answer-text' + (j > 0 ? ' mt-2 pt-2 border-top' : '') +
-                        '" style="font-size:1.05rem;">' + escapeHtml(sentences[j].text) + '</div>';
+                // "해당 정보 없음" → callGeminiFlash로 자체 지식 폴백
+                if (synthNoInfo) {
+                    var flashResult = await callGeminiFlash(fullQuery);
+                    if (flashResult && flashResult._aborted) return;
+                    if (flashResult && !flashResult._error) {
+                        renderGeminiAnswer(container, flashResult);
+                        trackEvent('namu_smart_search', { query: fullQuery, method: 'gemini_knowledge_fallback' });
+                        return;
+                    }
                 }
-                html += '</div>';
 
-                // "AI로 정리하기" 버튼 + 나무위키 링크
-                html += '<div class="namu-smart-detail-link d-flex justify-content-between align-items-center">';
-                html += '<button class="btn btn-sm btn-outline-primary" ' +
-                    'onclick="synthesizeWithGemini(this, \'' + escapeSingleQuote(fullQuery) + '\')" ' +
-                    'data-raw-context="' + escapeHtml(rawContext) + '">' +
-                    '🤖 AI로 정리하기</button>';
-                if (namuUrl) {
-                    html += '<a href="' + escapeHtml(namuUrl) + '" target="_blank" rel="noopener">📚 나무위키에서 보기 →</a>';
-                }
-                html += '</div>';
-
-                html += '</div>';
-                container.innerHTML = html;
-                container.style.display = 'block';
+                // Gemini 실패/API 키 없음 → 포맷된 원문 + AI 정리 버튼으로 폴백
+                renderRawFallback(container, displayContext, namuUrl, keyword, fullQuery);
 
                 trackEvent('namu_smart_search', {
                     query: fullQuery,
@@ -2509,8 +2758,16 @@ async function executeGroupRawSearch(container, intent) {
         return;
     }
 
+    // 허위 전제 감지 시: Gemini 오답 방지 목적으로 "정보 없음" 바로 반환 (Gemini 폴백 스킵)
+    if (_falsePremiseMember) {
+        showSmartAnswer(container, group.name + ' ' + keyword,
+            group.name + '의 ' + _falsePremiseMember + ' 멤버와 관련된 해당 정보를 나무위키에서 찾을 수 없습니다.',
+            'warning', group.slug);
+        return;
+    }
+
     // raw_text에서 못 찾으면 Gemini 폴백
-    updateSearchProgress(container, 3, 'AI가 답변을 정리하는 중...');
+    updateSearchProgress(container, 3, '🤖 AI가 답변을 정리하는 중');
     var fallbackQuery = group.name + ' ' + keyword;
     var geminiResult = await callGeminiFlash(fallbackQuery);
     if (geminiResult && geminiResult._aborted) return; // 새 검색으로 취소됨
@@ -2856,9 +3113,23 @@ async function executeAgencyFilter(container, intent) {
         });
     }
 
+    // 연도 범위 필터: "2020년 이후" → yearFrom=2020
+    if (intent.yearFrom) {
+        filtered = filtered.filter(function(g) {
+            return parseInt(g.debut_year) >= intent.yearFrom;
+        });
+    }
+    if (intent.yearTo) {
+        filtered = filtered.filter(function(g) {
+            return parseInt(g.debut_year) <= intent.yearTo;
+        });
+    }
+
     var titleParts = [intent.agency];
     if (intent.gender) titleParts.push(intent.gender === '여자' ? '걸그룹' : '보이그룹');
     if (intent.generation) titleParts.push(intent.generation);
+    if (intent.yearFrom) titleParts.push(intent.yearFrom + '년 이후 데뷔');
+    if (intent.yearTo) titleParts.push(intent.yearTo + '년 이전 데뷔');
 
     await renderEnhancedGroupList(container, filtered, {
         title: titleParts.join(' '),
@@ -2921,33 +3192,126 @@ async function executeDebutYearFilter(container, intent) {
     });
 }
 
-// --- 세대+성별+키워드 크로스 검색 (raw_text → AI 합성 → 통합 뷰) ---
+// --- 세대/소속사+성별+키워드 크로스 검색 (raw_text → AI 합성 → 통합 뷰) ---
 async function executeCrossGroupSearch(container, intent) {
     if (!namuIndexData) return;
 
-    // 세대/성별로 그룹 필터
-    var range = GENERATION_MAP[intent.generation];
-    if (!range) return;
-    var filtered = namuIndexData.filter(function(g) {
-        var year = parseInt(g.debut_year);
-        return year >= range[0] && year <= range[1];
-    });
+    var filtered = namuIndexData;
+
+    // 세대 필터 (있을 때만)
+    if (intent.generation && GENERATION_MAP[intent.generation]) {
+        var range = GENERATION_MAP[intent.generation];
+        filtered = filtered.filter(function(g) {
+            var year = parseInt(g.debut_year);
+            return year >= range[0] && year <= range[1];
+        });
+    }
+
+    // 소속사 필터 (있을 때만)
+    if (intent.agency) {
+        var agencyNames = AGENCY_ALIASES[intent.agency] || [intent.agency];
+        filtered = filtered.filter(function(g) {
+            var agency = (g.agency || '').toLowerCase();
+            for (var ai = 0; ai < agencyNames.length; ai++) {
+                if (agency.includes(agencyNames[ai].toLowerCase())) return true;
+            }
+            return false;
+        });
+    }
+
+    // 성별 필터
     if (intent.gender) {
         filtered = filtered.filter(function(g) { return g.gender === intent.gender; });
     }
 
-    var genderText = intent.gender ? (intent.gender === '여자' ? '걸그룹' : '보이그룹') : '아이돌';
-    var fullQuery = intent.generation + ' ' + genderText + ' ' + intent.keyword;
+    // 필터 결과 없으면 리턴
+    if (filtered.length === 0) {
+        showSmartAnswer(container, '검색 결과 없음', '해당 조건의 그룹이 없습니다.', 'warning');
+        return;
+    }
 
-    // raw_text 키워드 검색 시도 (필터된 그룹만 대상)
+    var queryParts = [];
+    if (intent.agency) queryParts.push(intent.agency);
+    if (intent.generation) queryParts.push(intent.generation);
+    var genderText = intent.gender ? (intent.gender === '여자' ? '걸그룹' : '보이그룹') : '아이돌';
+    queryParts.push(genderText);
+    queryParts.push(intent.keyword);
+    var fullQuery = queryParts.join(' ');
+
+    // 국적/멤버 구성 질의: 멤버 이름 + 출신지 데이터를 Gemini에 전달
+    if (intent.nationalityQuery) {
+        fullQuery = intent.keyword; // 국적 질의는 keyword 자체가 전체 질문
+        updateSearchProgress(container, 2, '📚 그룹별 멤버 데이터 수집 중');
+        var natDetailPromises = filtered.map(function(g) {
+            return fetchGroupDetail(g.slug).then(function(detail) {
+                return { group: g, detail: detail };
+            }).catch(function() { return { group: g, detail: null }; });
+        });
+        var natDetailResults = await Promise.all(natDetailPromises);
+
+        // 멤버 이름 + 출신지 컨텍스트 구성
+        var natContextLines = [];
+        for (var ni = 0; ni < natDetailResults.length; ni++) {
+            var nd = natDetailResults[ni];
+            var natLine = nd.group.name + '(' + nd.group.name_en + ') - 소속사:' + (nd.group.agency || '?') +
+                ', 데뷔:' + (nd.group.debut_year || '?') + ', ' + nd.group.member_count + '명';
+            // 인덱스에 멤버 이름 있음
+            if (nd.group.members && nd.group.members.length > 0) {
+                natLine += '\n  멤버: ' + nd.group.members.join(', ');
+            }
+            // 상세 데이터에 출신지 있으면 추가
+            if (nd.detail && nd.detail.members) {
+                var originInfo = nd.detail.members
+                    .filter(function(m) { return m['출신지'] && m['출신지'].trim(); })
+                    .map(function(m) { return m.name + ':' + m['출신지']; });
+                if (originInfo.length > 0) {
+                    natLine += '\n  출신지: ' + originInfo.join(', ');
+                }
+            }
+            natContextLines.push(natLine);
+        }
+        var natContext = natContextLines.join('\n\n');
+
+        updateSearchProgress(container, 3, '🤖 AI가 멤버 국적을 분석하는 중');
+        var natInstructions = '각 그룹의 멤버 이름과 출신지를 분석하여 "' + fullQuery + '" 질문에 답변하세요.\n' +
+            '멤버의 이름과 당신의 K-POP 지식을 활용하여 외국인 멤버 유무를 판단하세요.\n' +
+            '출신지 데이터가 비어있어도 멤버 이름으로 추론 가능합니다 (예: 니키=일본, 필릭스=호주, 슈화=대만 등).\n\n' +
+            '규칙:\n' +
+            '1. 조건에 맞는 그룹 수를 상단에 요약하세요.\n' +
+            '2. 결과를 마크다운 표로 정리하세요 (순번, 그룹명, 데뷔연도, 인원, 소속사).\n' +
+            '3. 데이터에 없는 내용을 지어내지 마세요. 불확실한 그룹은 제외하세요.\n' +
+            '4. 조건에 맞지 않는 주요 그룹도 참고 정보로 하단에 별도 표시하세요 (예: 외국인 멤버 이름과 국적).\n';
+        var natQuery = natInstructions + '\n\n질문: ' + fullQuery;
+        // callGeminiDirect: 범용 K-POP 전문가 시스템 프롬프트 + 멤버 데이터 컨텍스트
+        var natGeminiResult = await callGeminiDirect(natQuery, natContext);
+        if (natGeminiResult && natGeminiResult._aborted) return;
+        if (natGeminiResult && !natGeminiResult._error) {
+            renderGeminiAnswer(container, natGeminiResult);
+            trackEvent('namu_smart_search', { query: fullQuery, method: 'gemini_nationality_filter' });
+        } else {
+            var natFlash = await callGeminiFlash(fullQuery);
+            if (natFlash && natFlash._aborted) return;
+            if (natFlash && !natFlash._error) {
+                renderGeminiAnswer(container, natFlash);
+            } else {
+                showSmartAnswer(container, fullQuery, '해당 정보를 찾을 수 없습니다.', 'warning');
+            }
+        }
+        return;
+    }
+
+    // 판매량/순위 비교 키워드가 있으면 raw_text 대신 앨범 데이터 경로 우선 사용
+    var isSalesComparison = /초동|판매|누적|앨범\s*판매|순위|랭킹|비교/.test(intent.keyword);
+
+    // raw_text 키워드 검색 시도 (필터된 그룹만 대상, 판매 비교 시 스킵)
     var keywords = extractCrossGroupKeywords(intent.keyword);
-    if (keywords.length > 0) {
+    if (keywords.length > 0 && !isSalesComparison) {
         var filterSlugs = {};
         for (var fi = 0; fi < filtered.length; fi++) {
             filterSlugs[filtered[fi].slug] = true;
         }
 
-        updateSearchProgress(container, 2, '필터된 그룹 원문 데이터 검색 중...');
+        updateSearchProgress(container, 2, '📚 필터된 그룹 원문 데이터 검색 중');
         var rawResults = await searchAllGroupsRawText(keywords, null, null, filterSlugs);
         var validResults = rawResults.filter(function(r) { return r.score >= 50; });
 
@@ -2961,7 +3325,7 @@ async function executeCrossGroupSearch(container, intent) {
             }
             if (rawContext.length > 4000) rawContext = rawContext.substring(0, 4000);
 
-            updateSearchProgress(container, 3, 'AI가 답변을 정리하는 중...');
+            updateSearchProgress(container, 3, '🤖 AI가 답변을 정리하는 중');
             var synthesizeQ = '다음 나무위키 원문을 참고하여 "' + fullQuery + '"에 대해 깔끔하게 정리해주세요:\n\n' + rawContext;
             var top10 = validResults.slice(0, 10);
 
@@ -2983,20 +3347,69 @@ async function executeCrossGroupSearch(container, intent) {
         }
     }
 
-    // Gemini 폴백: 필터된 그룹 목록을 컨텍스트로 구성
-    updateSearchProgress(container, 2, 'AI가 답변을 정리하는 중...');
-    var groupContext = filtered.map(function(g) {
-        return g.name + '(' + g.name_en + ') - 소속사:' + (g.agency || '?') +
-            ', 데뷔:' + (g.debut_year || '?') + ', 멤버:' + g.member_count + '명, 앨범:' + g.album_count + '개';
-    }).join('\n');
+    // Gemini 폴백: 필터된 그룹의 앨범 데이터를 포함한 컨텍스트 구성
+    updateSearchProgress(container, 2, '📚 그룹별 앨범 데이터 수집 중');
 
-    var geminiResult = await callGeminiFlash(fullQuery);
+    // 그룹 상세 데이터 병렬 로드 (앨범 판매량 포함)
+    var detailPromises = filtered.map(function(g) {
+        return fetchGroupDetail(g.slug).then(function(detail) {
+            return { group: g, detail: detail };
+        }).catch(function() { return { group: g, detail: null }; });
+    });
+    var detailResults = await Promise.all(detailPromises);
+
+    var contextLines = [];
+    for (var di = 0; di < detailResults.length; di++) {
+        var dr = detailResults[di];
+        var line = dr.group.name + '(' + dr.group.name_en + ') - 소속사:' + (dr.group.agency || '?') +
+            ', 데뷔:' + (dr.group.debut_year || '?') + ', 멤버:' + dr.group.member_count + '명';
+        if (dr.detail && dr.detail.albums && dr.detail.albums.length > 0) {
+            // 판매량 데이터가 있는 앨범만 필터링 (초동_한터 또는 초동_써클 존재)
+            var salesAlbums = dr.detail.albums.filter(function(a) {
+                return (a['초동_한터'] && a['초동_한터'] !== '-') || (a['초동_써클'] && a['초동_써클'] !== '-');
+            });
+            // 판매량 내림차순 정렬 (초동_한터 우선, 없으면 초동_써클)
+            salesAlbums.sort(function(a, b) {
+                var aVal = parseInt(String(a['초동_한터'] || a['초동_써클'] || '0').replace(/[,*~]/g, '')) || 0;
+                var bVal = parseInt(String(b['초동_한터'] || b['초동_써클'] || '0').replace(/[,*~]/g, '')) || 0;
+                return bVal - aVal;
+            });
+            // 상위 10개까지만 포함 (응답 토큰 절약)
+            var topAlbums = salesAlbums.slice(0, 10);
+            line += '\n  [판매량 있는 앨범 ' + salesAlbums.length + '개 중 상위 ' + topAlbums.length + '개]';
+            for (var ai = 0; ai < topAlbums.length; ai++) {
+                var alb = topAlbums[ai];
+                line += '\n  - ' + (alb.title || '?') + ' (' + (alb.type || '?') + ', ' + (alb['발매일'] || '?') + ')' +
+                    ' 초동한터:' + (alb['초동_한터'] || '-') + ' 초동써클:' + (alb['초동_써클'] || '-') +
+                    ' 누적한터:' + (alb['누적_한터'] || '-');
+            }
+            if (salesAlbums.length === 0) {
+                line += '\n  [판매량 데이터 없음]';
+            }
+        }
+        contextLines.push(line);
+    }
+    var groupContext = contextLines.join('\n\n');
+
+    updateSearchProgress(container, 3, '🤖 AI가 답변을 정리하는 중');
+    var synthesizeQuery = fullQuery;
+    var focusedContext = groupContext;
+    // COMPOUND_SYSTEM_PROMPT 사용 (비교/분석 특화)
+    var geminiResult = await callGeminiSynthesize(synthesizeQuery, focusedContext);
     if (geminiResult && geminiResult._aborted) return;
     if (geminiResult && !geminiResult._error) {
         renderGeminiAnswer(container, geminiResult);
-        trackEvent('namu_smart_search', { query: fullQuery, method: 'gemini_cross_group' });
+        trackEvent('namu_smart_search', { query: fullQuery, method: 'gemini_cross_group_compound' });
     } else {
-        showSmartAnswer(container, fullQuery, '해당 정보를 찾을 수 없습니다.', 'warning');
+        // 폴백: callGeminiFlash
+        var flashResult = await callGeminiFlash(fullQuery);
+        if (flashResult && flashResult._aborted) return;
+        if (flashResult && !flashResult._error) {
+            renderGeminiAnswer(container, flashResult);
+            trackEvent('namu_smart_search', { query: fullQuery, method: 'gemini_cross_group' });
+        } else {
+            showSmartAnswer(container, fullQuery, '해당 정보를 찾을 수 없습니다.', 'warning');
+        }
     }
 }
 
@@ -3105,6 +3518,22 @@ async function ensureRankingDataLoaded() {
         return true;
     } catch (e) {
         console.error('랭킹 데이터 로드 실패:', e);
+        return false;
+    }
+}
+
+// Lazy loader: namu-releases.json 로드 (월별 컴백 검색용)
+async function ensureReleasesDataLoaded() {
+    if (namuReleasesData && namuReleasesData.length > 0) return true;
+    try {
+        var response = await fetch('/data/namu-releases.json?v=' + NAMU_DATA_VERSION);
+        var releasesJson = await response.json();
+        // plain array 또는 {albums: [...]} 모두 대응
+        namuReleasesData = Array.isArray(releasesJson) ? releasesJson : (releasesJson.albums || []);
+        namuReleasesLoaded = true;
+        return true;
+    } catch (e) {
+        console.error('릴리스 데이터 로드 실패:', e);
         return false;
     }
 }
@@ -3595,6 +4024,109 @@ async function executeCalendarSchedule(container, intent) {
     container.style.display = 'block';
 }
 
+// --- 월별/반기 컴백/발매 검색 ---
+async function executeMonthlyComeback(container, intent) {
+    var year = intent.year;
+    var gender = intent.gender;
+    // 월 범위 지원: monthStart~monthEnd (상반기/하반기/분기) 또는 단일 month
+    var monthStart = intent.monthStart || intent.month;
+    var monthEnd = intent.monthEnd || intent.month;
+    var isRange = (monthStart !== monthEnd); // 상반기/하반기/분기 여부
+
+    // 제목 구성
+    var titleParts = year + '년 ';
+    if (intent.periodLabel) {
+        titleParts += intent.periodLabel;
+    } else {
+        titleParts += monthStart + '월';
+    }
+    if (gender) titleParts += ' ' + (gender === '여자' ? '걸그룹' : '보이그룹');
+    titleParts += ' 컴백/발매 앨범';
+
+    // 로딩 표시
+    showSmartAnswer(container, titleParts, '릴리스 데이터를 불러오는 중...', 'info');
+
+    // 릴리스 데이터 lazy load
+    var loaded = await ensureReleasesDataLoaded();
+    if (!loaded || !namuReleasesData || namuReleasesData.length === 0) {
+        showSmartAnswer(container, titleParts, '릴리스 데이터를 불러올 수 없습니다.', 'error');
+        return;
+    }
+
+    // 연도/월(범위)/성별 필터
+    var yearStr = '' + year;
+    var filtered = namuReleasesData.filter(function(a) {
+        var rd = a.release_date || '';
+        // 연도 매칭 (접두사)
+        if (rd.substring(0, 4) !== yearStr) return false;
+        // 월 추출: "2023.06.02" → 6, "2023-01-30" → 1
+        var monthPart = rd.substring(5, 7).replace(/^0/, '');
+        var m = parseInt(monthPart);
+        if (isNaN(m) || m < monthStart || m > monthEnd) return false;
+        // 성별 필터
+        if (gender && a.gender !== gender) return false;
+        return true;
+    });
+
+    // 발매일 오름차순 정렬
+    filtered.sort(function(a, b) {
+        return (a.release_date || '').localeCompare(b.release_date || '');
+    });
+
+    // 중복 제거: 같은 그룹 + 같은 앨범명 → 첫 번째만
+    var seen = {};
+    var deduped = [];
+    for (var i = 0; i < filtered.length; i++) {
+        var key = filtered[i].group_slug + '|' + (filtered[i].album_title || '') + '|' + filtered[i].release_date;
+        if (!seen[key]) {
+            seen[key] = true;
+            deduped.push(filtered[i]);
+        }
+    }
+
+    if (deduped.length === 0) {
+        var emptyMsg = year + '년 ' + (intent.periodLabel || monthStart + '월') + '에 발매된 앨범 데이터가 없습니다.';
+        showSmartAnswer(container, titleParts,
+            emptyMsg +
+            '<div class="text-muted small mt-1">나무위키 기준 데이터로, 최신 발매 정보가 아직 반영되지 않았을 수 있습니다.</div>',
+            'warning');
+        return;
+    }
+
+    // 테이블 렌더링
+    var html = '<div class="namu-smart-answer">' +
+        '<div class="namu-smart-answer-header">' +
+        '<span class="namu-smart-icon">📅</span>' +
+        '<span class="namu-smart-title">' + escapeHtml(titleParts) + '</span>' +
+        '<button class="namu-smart-close" onclick="dismissSmartAnswer()" title="닫기">&times;</button>' +
+        '</div>' +
+        '<div class="namu-smart-answer-body">' +
+        '<div class="table-responsive"><table class="table table-sm namu-smart-table">' +
+        '<thead><tr><th>발매일</th><th>그룹</th><th>앨범</th><th>유형</th></tr></thead>' +
+        '<tbody>';
+
+    for (var j = 0; j < deduped.length; j++) {
+        var album = deduped[j];
+        // 그룹명 클릭 → 그룹 상세 이동
+        var groupLink = '<a href="javascript:void(0)" onclick="showGroupDetail(\'' +
+            escapeHtml(album.group_slug) + '\')" class="text-decoration-none fw-bold">' +
+            escapeHtml(album.group_name) + '</a>';
+        html += '<tr>' +
+            '<td>' + escapeHtml(album.release_date || '-') + '</td>' +
+            '<td>' + groupLink + '</td>' +
+            '<td>' + escapeHtml(album.album_title || '-') + '</td>' +
+            '<td class="text-muted">' + escapeHtml(album.album_type || '-') + '</td>' +
+            '</tr>';
+    }
+
+    html += '</tbody></table></div>' +
+        '<div class="text-muted small" style="margin-top:4px;">총 ' + deduped.length + '건 (나무위키 기준)</div>' +
+        '</div></div>';
+
+    container.innerHTML = html;
+    container.style.display = 'block';
+}
+
 // --- 최근 앨범 조회 ---
 async function executeRecentAlbum(container, intent) {
     var detail = await fetchGroupDetail(intent.group.slug);
@@ -3680,15 +4212,42 @@ async function executeDiscography(container, intent) {
         return;
     }
 
+    // 지역 필터: "일본" → type에 "일본" 포함, "한국" → type에 "일본" 미포함
+    if (intent.region) {
+        if (intent.region === '일본') {
+            albums = albums.filter(function(a) { return /일본|japan/i.test(a.type || ''); });
+        } else if (intent.region === '한국') {
+            albums = albums.filter(function(a) { return !/일본|japan/i.test(a.type || ''); });
+        }
+    }
+
+    // 유형 필터: "정규" → type에 "정규" 포함, "미니" → "미니" 포함 등
+    if (intent.albumType) {
+        var typeKw = intent.albumType;
+        albums = albums.filter(function(a) { return (a.type || '').indexOf(typeKw) !== -1; });
+    }
+
+    if (albums.length === 0) {
+        var filterDesc = (intent.region || '') + ' ' + (intent.albumType || '') + ' 앨범';
+        showSmartAnswer(container, intent.group.name + ' ' + filterDesc.trim(), '해당 조건의 앨범이 없습니다.', 'info');
+        return;
+    }
+
     // 발매일 순 정렬 (오래된 것 먼저)
     var sorted = albums.slice().sort(function(a, b) {
         return (a['발매일'] || '').localeCompare(b['발매일'] || '');
     });
 
+    // 타이틀에 필터 조건 반영
+    var filterLabel = '';
+    if (intent.region) filterLabel += intent.region + ' ';
+    if (intent.albumType) filterLabel += intent.albumType + '앨범 ';
+    if (!filterLabel) filterLabel = '디스코그래피 ';
+
     var html = '<div class="namu-smart-answer">' +
         '<div class="namu-smart-answer-header">' +
         '<span class="namu-smart-icon">💿</span>' +
-        '<span class="namu-smart-title">' + escapeHtml(intent.group.name) + ' 디스코그래피 (' + albums.length + '장)</span>' +
+        '<span class="namu-smart-title">' + escapeHtml(intent.group.name) + ' ' + escapeHtml(filterLabel.trim()) + ' (' + albums.length + '장)</span>' +
         '<button class="namu-smart-close" onclick="dismissSmartAnswer()" title="닫기">&times;</button>' +
         '</div>' +
         '<div class="namu-smart-answer-body">' +
@@ -4344,17 +4903,19 @@ async function callGeminiDirect(query, context, signal) {
         '나이를 언급할 때는 반드시 오늘 날짜 기준으로 만 나이를 계산하세요. 학습 데이터의 과거 날짜를 기준으로 하지 마세요.\n' +
         '아래 데이터베이스 정보를 우선 참고하되, 데이터베이스에 없는 정보는 당신의 지식을 활용하여 답변하세요.\n' +
         '데이터베이스 기반 답변과 자체 지식 기반 답변을 구분하지 않아도 됩니다.\n' +
+        '구체적 사실(날짜, 수치, 차트 순위, 수상 내역)을 근거로 답변하고, 마크다운 소제목(### )과 번호 목록으로 구조화하세요.\n' +
+        '"이유/왜/어떻게" 같은 분석형 질문에는 여러 측면을 종합적으로 답변하세요.\n' +
         '답변은 JSON 형식으로 반환하세요: {"title": "답변 제목", "content": "답변 내용 (마크다운 가능)"}\n' +
         '반드시 JSON만 반환하고 다른 텍스트는 포함하지 마세요.';
 
     var payload = {
         contents: [{ parts: [{ text: systemPrompt + '\n\n=== 데이터베이스 ===\n' + context + '\n\n질문: ' + query }] }],
-        generationConfig: { temperature: 0.1, maxOutputTokens: 1024 }
+        generationConfig: { temperature: 0.1, maxOutputTokens: 8192 }
     };
 
-    // 20초 타임아웃
+    // 60초 타임아웃 (대량 멤버 데이터 분석 시간 고려)
     var controller = new AbortController();
-    var timeoutId = setTimeout(function() { controller.abort(); }, 20000);
+    var timeoutId = setTimeout(function() { controller.abort(); }, 60000);
 
     // 외부 시그널 연결
     var abortHandler = null;
@@ -4367,7 +4928,7 @@ async function callGeminiDirect(query, context, signal) {
     try {
         console.log('%c🤖 로컬 Gemini 직접 호출', 'color:#2196F3;font-weight:bold', query);
         var response = await fetch(
-            'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + apiKey,
+            'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=' + apiKey,
             {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -4394,7 +4955,17 @@ async function callGeminiDirect(query, context, signal) {
             var cleaned = text.replace(/^```json\s*/, '').replace(/\s*```$/, '').trim();
             return JSON.parse(cleaned);
         } catch (e) {
-            // JSON 파싱 실패 → 텍스트 그대로 반환
+            // JSON 잘림 복구: title과 content 부분 추출 시도
+            var dTitleMatch = text.match(/"title"\s*:\s*"([^"]+)"/);
+            var dContentMatch = text.match(/"content"\s*:\s*"([\s\S]+)/);
+            if (dTitleMatch && dContentMatch) {
+                var dRawContent = dContentMatch[1];
+                dRawContent = dRawContent.replace(/\\n/g, '\n').replace(/\\"/g, '"').replace(/\\\\/g, '\\');
+                dRawContent = dRawContent.replace(/["\s,}\]]*$/, '');
+                var dLastNewline = dRawContent.lastIndexOf('\n');
+                if (dLastNewline > dRawContent.length * 0.5) dRawContent = dRawContent.substring(0, dLastNewline);
+                return { title: dTitleMatch[1], content: dRawContent };
+            }
             return { title: '검색 결과', content: text };
         }
     } catch (e) {
@@ -4402,8 +4973,8 @@ async function callGeminiDirect(query, context, signal) {
         if (abortHandler) signal.removeEventListener('abort', abortHandler);
         if (signal && signal.aborted) return { _aborted: true };
         if (e.name === 'AbortError') {
-            console.warn('Gemini API 타임아웃 (20초)');
-            return { _error: true, message: '응답 시간 초과 (20초)' };
+            console.warn('Gemini API 타임아웃 (60초)');
+            return { _error: true, message: '응답 시간 초과 (60초)' };
         }
         console.error('Gemini API 호출 실패:', e);
         return null;
@@ -4422,11 +4993,12 @@ var COMPOUND_SYSTEM_PROMPT = '당신은 K-POP 아이돌 데이터 분석가입�
     '사용자가 제공한 데이터를 바탕으로 아래 규칙에 따라 답변하세요.\n\n' +
     '규칙:\n' +
     '1. 순위나 비교가 필요하면 반드시 마크다운 표(| 순위 | 그룹명 | ... |) 형식으로 정리하세요.\n' +
-    '2. 표에는 순위, 그룹명, 성별, 데뷔연도, 판매량(수치), 해당 앨범명을 포함하세요.\n' +
-    '3. 판매량 데이터가 없는 그룹은 표 하단에 "데이터 없음"으로 묶어 표시하세요.\n' +
-    '4. 표 아래에 **핵심 요약**이라는 제목으로 1위 그룹, 걸그룹/보이그룹 1위, 주요 트렌드 등을 3줄 이내로 요약하세요.\n' +
-    '5. 데이터에 없는 내용을 지어내지 마세요.\n' +
-    '6. 판매량 수치에 ** 마스킹이 있으면 ~표시와 함께 추정치로 표기하세요 (예: 2,344,7** → ~2,344,700).\n\n' +
+    '2. 표에는 순위, 그룹명, 데뷔연도, 최고 초동 판매량, 해당 앨범명을 포함하세요.\n' +
+    '3. ⚠️ 각 그룹당 최고 초동 기록 1개만 표에 포함하세요. 전체 앨범을 나열하지 마세요.\n' +
+    '4. 판매량 데이터가 없는 그룹은 표 하단에 "데이터 없음"으로 묶어 표시하세요.\n' +
+    '5. 표 아래에 **핵심 요약**이라는 제목으로 1위 그룹, 주요 트렌드 등을 3줄 이내로 요약하세요.\n' +
+    '6. 데이터에 없는 내용을 지어내지 마세요.\n' +
+    '7. 판매량 수치에 ** 마스킹이 있으면 ~표시와 함께 추정치로 표기하세요 (예: 2,344,7** → ~2,344,700).\n\n' +
     '답변은 JSON 형식으로 반환하세요: {"title": "답변 제목", "content": "답변 내용 (마크다운 표 포함)"}\n' +
     '반드시 JSON만 반환하고 다른 텍스트는 포함하지 마세요.';
 
@@ -4445,9 +5017,9 @@ async function callGeminiSynthesize(originalQuery, focusedContext, externalSigna
     // 프롬프트 조립: 시스템 프롬프트 + focused context + 원본 질문
     var fullPrompt = COMPOUND_SYSTEM_PROMPT + '\n\n=== 제공된 데이터 ===\n' + focusedContext + '\n\n질문: ' + originalQuery;
 
-    // 20초 타임아웃
+    // 60초 타임아웃 (대량 앨범 데이터 컨텍스트 처리 시간 고려)
     var controller = new AbortController();
-    var timeoutId = setTimeout(function() { controller.abort(); }, 20000);
+    var timeoutId = setTimeout(function() { controller.abort(); }, 60000);
     var abortHandler = null;
     if (abortSignal) {
         abortHandler = function() { controller.abort(); };
@@ -4463,14 +5035,14 @@ async function callGeminiSynthesize(originalQuery, focusedContext, externalSigna
 
             console.log('%c🔬 복합 질의 Gemini 합성', 'color:#9C27B0;font-weight:bold', originalQuery);
             response = await fetch(
-                'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + apiKey,
+                'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=' + apiKey,
                 {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     signal: controller.signal,
                     body: JSON.stringify({
                         contents: [{ parts: [{ text: fullPrompt }] }],
-                        generationConfig: { temperature: 0.1, maxOutputTokens: 2048 }
+                        generationConfig: { temperature: 0.1, maxOutputTokens: 8192 }
                     })
                 }
             );
@@ -4510,7 +5082,23 @@ async function callGeminiSynthesize(originalQuery, focusedContext, externalSigna
                 var cleaned = text.replace(/^```json\s*/, '').replace(/\s*```$/, '').trim();
                 result = JSON.parse(cleaned);
             } catch (e) {
-                result = { title: '분석 결과', content: text };
+                // JSON 잘림 복구: title과 content 부분 추출 시도
+                var titleMatch = text.match(/"title"\s*:\s*"([^"]+)"/);
+                var contentMatch = text.match(/"content"\s*:\s*"([\s\S]+)/);
+                if (titleMatch && contentMatch) {
+                    // content 값에서 마지막 닫는 따옴표 전까지 추출 후 마지막 완전한 줄에서 자름
+                    var rawContent = contentMatch[1];
+                    // 이스케이프된 따옴표 복원
+                    rawContent = rawContent.replace(/\\n/g, '\n').replace(/\\"/g, '"').replace(/\\\\/g, '\\');
+                    // 끝의 불완전한 JSON 구문 제거
+                    rawContent = rawContent.replace(/["\s,}\]]*$/, '');
+                    // 마지막 완전한 줄에서 자름
+                    var lastNewline = rawContent.lastIndexOf('\n');
+                    if (lastNewline > rawContent.length * 0.5) rawContent = rawContent.substring(0, lastNewline);
+                    result = { title: titleMatch[1], content: rawContent };
+                } else {
+                    result = { title: '분석 결과', content: text };
+                }
             }
         }
 
@@ -4526,7 +5114,10 @@ async function callGeminiSynthesize(originalQuery, focusedContext, externalSigna
         clearTimeout(timeoutId);
         if (abortHandler) abortSignal.removeEventListener('abort', abortHandler);
         if (abortSignal && abortSignal.aborted) return { _aborted: true };
-        if (e.name === 'AbortError') return { _error: true, message: '응답 시간 초과 (20초)' };
+        if (e.name === 'AbortError') {
+            console.warn('%c⏱️ 복합 질의 Gemini 타임아웃 (60초)', 'color:#FF9800;font-weight:bold');
+            return { _error: true, message: '응답 시간 초과 (60초)' };
+        }
         console.error('복합 질의 Gemini 호출 실패:', e);
         return null;
     }
@@ -4538,18 +5129,22 @@ async function callGeminiSynthesize(originalQuery, focusedContext, externalSigna
 // - 목차번호/위키문법 잡음 제거 + 마크다운 표/리스트로 정돈
 // ============================================================
 var NAMU_SYNTHESIS_SYSTEM_PROMPT =
-    '당신은 K-POP 정보 요약 전문가입니다.\n' +
+    '당신은 K-POP 아이돌 전문 데이터 분석가입니다.\n' +
     '오늘 날짜: ' + new Date().toISOString().slice(0, 10) + '\n' +
     '나이를 언급할 때는 반드시 오늘 날짜 기준으로 만 나이를 계산하세요.\n\n' +
-    '제공된 [나무위키 원문]만을 바탕으로 사용자 질문에 답변하세요.\n\n' +
-    '규칙:\n' +
-    '1. 원문을 그대로 복사하지 마세요. 내용을 이해하고 자연스러운 문장으로 새롭게 작성하세요.\n' +
-    '2. 시간 순서나 변화(예: 룸메이트 변경, 소속사 이동, 활동 이력)가 있다면 반드시 마크다운 표(| 시기 | 내용 |)를 사용하세요.\n' +
-    '3. 홍보대사, 수상 이력, 멤버 목록처럼 여러 항목이 나열될 경우 글머리 기호(-)를 사용하여 깔끔하게 정리하세요.\n' +
-    '4. "기사", "SNS", "9.3." 같은 목차 번호나 나무위키 문법 잔재(각주 번호 [1], 편집 링크 등)는 모두 제거하세요.\n' +
-    '5. 없는 내용을 지어내지 마세요.\n' +
-    '6. ⚠️ 원문에 있는 모든 연도별 이력, 항목, 표 데이터를 절대 누락하거나 축약하지 마세요. 항목이 많을수록 더 풍부하게 전부 작성해야 합니다.\n\n' +
-    '답변은 반드시 JSON 형식으로 반환하세요: {"title": "답변 제목", "content": "답변 내용 (마크다운 표/리스트 포함)"}\n' +
+    '제공된 [나무위키 원문] 전체를 철저히 읽고, 사용자의 질문에 답변하세요.\n\n' +
+    '[핵심 규칙 — 반드시 준수]\n' +
+    '1. ⚠️ 문서 전체에서 질문과 관련된 모든 언급을 빠짐없이 찾으세요. 한 곳에만 있지 않고 여러 섹션에 흩어져 있을 수 있습니다.\n' +
+    '2. ⚠️ 구체적 사실을 근거로 답변하세요: 날짜, 수치, 차트 순위, 수상 내역, 앨범명 등 원문에 있는 팩트를 반드시 포함하세요.\n' +
+    '3. 답변을 마크다운 소제목(### )과 번호 목록으로 구조화하세요. 각 소제목 아래에 핵심 사실과 설명을 함께 쓰세요.\n' +
+    '4. "이유/왜/어떻게/의미" 같은 분석형 질문에는 여러 측면(음악적, 상업적, 문화적, 수상 기록 등)을 각각 소제목으로 나누어 종합적으로 답변하세요.\n' +
+    '5. ⚠️ 제공된 텍스트에 질문의 핵심 주제에 대한 직접적인 답이 없으면 {"title": "해당 정보 없음", "content": "나무위키 데이터에 해당 정보가 없습니다."} 형식으로만 답변하세요. 개별 키워드가 다른 맥락에서 등장하더라도 질문이 묻는 특정 주제가 다루어지지 않으면 "해당 정보 없음"입니다.\n' +
+    '6. 시간순 데이터는 마크다운 표를 사용하세요.\n' +
+    '7. 나무위키 문법 잔재(각주 [1], 편집 링크, 목차 번호)는 제거하세요.\n' +
+    '8. 원문을 그대로 복사하지 말고, 핵심 사실을 인용하면서 자연스러운 문장으로 재작성하세요.\n' +
+    '9. ⚠️ 질문 핵심과 직접 관련 없는 내용(멤버 나이, 상업적 성과, SNS 팔로워 등)은 절대 포함하지 마세요.\n' +
+    '10. ⚠️ 답변은 핵심에 집중하여 1000자 이내로 간결하게 작성하세요. 길면 JSON이 잘립니다.\n\n' +
+    '답변은 반드시 JSON 형식으로 반환하세요: {"title": "답변 제목", "content": "답변 내용 (마크다운 소제목/표/리스트 포함)"}\n' +
     '반드시 JSON만 반환하고 다른 텍스트는 포함하지 마세요.';
 
 /**
@@ -4563,19 +5158,37 @@ var NAMU_SYNTHESIS_SYSTEM_PROMPT =
  */
 function buildWideContext(lines, keyword, maxLines) {
     maxLines = maxLines || 200;
-    var WINDOW = 80; // 히트 위치 전후 80줄
+    var WINDOW = 30; // 히트 위치 전후 30줄 (AI 컨텍스트 = 원문 표시 범위 동기화)
     var subKws = keyword.split(/\s+/).filter(function(w) { return w.length >= 2; });
     var kwLower = keyword.toLowerCase();
 
     // 모든 히트 위치 수집 (전체 키워드 OR 서브키워드 과반 매칭)
+    // 짧은 영문 키워드 단어 경계 체크는 공통 헬퍼 _kwExistsIn 사용
+    // 근접 윈도우(±5줄) 내 서브키워드도 합산하여 threshold 판정 (proximity-aware)
     var hitIndices = [];
+    var PROX = 5; // 근접 탐색 반경
     for (var i = 0; i < lines.length; i++) {
         var ll = lines[i].toLowerCase();
         var hit = ll.indexOf(kwLower) !== -1;
         if (!hit && subKws.length > 1) {
+            // 현재 줄에서 매칭되는 서브키워드가 1개 이상이면 근접 윈도우까지 확장 탐색
             var cnt = 0;
+            var matched = {};
             for (var k = 0; k < subKws.length; k++) {
-                if (ll.indexOf(subKws[k].toLowerCase()) !== -1) cnt++;
+                if (_kwExistsIn(lines[i], subKws[k])) { cnt++; matched[k] = true; }
+            }
+            if (cnt >= 1 && cnt < Math.ceil(subKws.length / 2)) {
+                // 근접 줄에서 추가 서브키워드 탐색
+                var pStart = Math.max(0, i - PROX);
+                var pEnd = Math.min(lines.length - 1, i + PROX);
+                for (var pi = pStart; pi <= pEnd; pi++) {
+                    if (pi === i) continue;
+                    for (var pk = 0; pk < subKws.length; pk++) {
+                        if (!matched[pk] && _kwExistsIn(lines[pi], subKws[pk])) {
+                            matched[pk] = true; cnt++;
+                        }
+                    }
+                }
             }
             hit = cnt >= Math.ceil(subKws.length / 2);
         }
@@ -4616,14 +5229,55 @@ function buildWideContext(lines, keyword, maxLines) {
         }
     }
 
+    // 키워드 밀집도 기반 구간 정렬: 단일 줄에 가장 많은 서브키워드가 동시 출현하는 구간 우선
+    // 예: "한국 가수 최초의 영국 오피셜 앨범 차트 1위 달성 기록" (4개 동시) > 빌보드 차트 (3개 분산)
+    if (subKws.length >= 3 && merged.length > 1) {
+        for (var di = 0; di < merged.length; di++) {
+            var maxLineDensity = 0;
+            for (var dj = merged[di].start; dj <= merged[di].end; dj++) {
+                var ld = 0;
+                for (var dk = 0; dk < subKws.length; dk++) {
+                    if (_kwExistsIn(lines[dj], subKws[dk])) ld++;
+                }
+                if (ld > maxLineDensity) maxLineDensity = ld;
+            }
+            merged[di].density = maxLineDensity;
+        }
+        merged.sort(function(a, b) { return b.density - a.density; });
+    }
+
     // 병합된 구간들을 연결 (최대 maxLines)
+    // 구간이 maxLines보다 크면 서브키워드 밀집 중심으로 잘라냄
     var out = [];
     for (var mi = 0; mi < merged.length; mi++) {
         if (out.length >= maxLines) break;
         if (mi > 0) out.push('...');
-        var seg = lines.slice(merged[mi].start, merged[mi].end + 1);
+        var segLen = merged[mi].end - merged[mi].start + 1;
         var remaining = maxLines - out.length;
-        out = out.concat(seg.slice(0, remaining));
+        if (segLen <= remaining) {
+            // 구간이 남은 라인 수 이내면 전체 포함
+            out = out.concat(lines.slice(merged[mi].start, merged[mi].end + 1));
+        } else {
+            // 구간이 크면 서브키워드 최다 매칭 히트 주변 중심으로 추출
+            var bestLine = merged[mi].start;
+            var bestCnt = 0;
+            for (var si = merged[mi].start; si <= merged[mi].end; si++) {
+                var sc = 0;
+                for (var sk = 0; sk < subKws.length; sk++) {
+                    if (_kwExistsIn(lines[si], subKws[sk])) sc++;
+                }
+                if (sc > bestCnt) { bestCnt = sc; bestLine = si; }
+            }
+            // bestLine 중심으로 remaining 줄 추출
+            var half = Math.floor(remaining / 2);
+            var cStart = Math.max(merged[mi].start, bestLine - half);
+            var cEnd = cStart + remaining - 1;
+            if (cEnd > merged[mi].end) {
+                cEnd = merged[mi].end;
+                cStart = Math.max(merged[mi].start, cEnd - remaining + 1);
+            }
+            out = out.concat(lines.slice(cStart, cEnd + 1));
+        }
     }
     return out.join('\n').trim();
 }
@@ -4643,11 +5297,11 @@ async function callGeminiNamuSynthesize(query, rawContext, externalSignal) {
     }
 
     var fullPrompt = NAMU_SYNTHESIS_SYSTEM_PROMPT +
-        '\n\n=== 나무위키 원문 ===\n' + rawContext + '\n\n질문: ' + query;
+        '\n\n=== 나무위키 원문 (전체 문서) ===\n' + rawContext + '\n\n질문: ' + query;
 
-    // 20초 타임아웃
+    // 45초 타임아웃 (전체 raw_text 전송으로 컨텍스트가 커짐)
     var controller = new AbortController();
-    var timeoutId = setTimeout(function() { controller.abort(); }, 20000);
+    var timeoutId = setTimeout(function() { controller.abort(); }, 45000);
     var abortHandler = null;
     if (abortSignal) {
         abortHandler = function() { controller.abort(); };
@@ -4666,14 +5320,14 @@ async function callGeminiNamuSynthesize(query, rawContext, externalSignal) {
             }
             console.log('%c🔬 나무 원문 Gemini 정제', 'color:#E91E63;font-weight:bold', query);
             response = await fetch(
-                'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + apiKey,
+                'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=' + apiKey,
                 {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     signal: controller.signal,
                     body: JSON.stringify({
                         contents: [{ parts: [{ text: fullPrompt }] }],
-                        generationConfig: { temperature: 0.1, maxOutputTokens: 1024 }
+                        generationConfig: { temperature: 0.1, maxOutputTokens: 8192 }
                     })
                 }
             );
@@ -4709,10 +5363,39 @@ async function callGeminiNamuSynthesize(query, rawContext, externalSignal) {
         if (isLocalDev()) {
             var text = result.candidates[0].content.parts[0].text;
             try {
-                var cleaned = text.replace(/^```json\s*/, '').replace(/\s*```$/, '').trim();
+                var cleaned = text.replace(/^```json\s*/i, '').replace(/\s*```\s*$/, '').trim();
                 result = JSON.parse(cleaned);
             } catch (e) {
-                result = { title: query, content: text };
+                // JSON 파싱 실패 (응답 잘림 등) → title/content 필드 직접 추출 시도
+                var titleMatch = text.match(/"title"\s*:\s*"([^"]+)"/);
+                var contentMatch = text.match(/"content"\s*:\s*"([\s\S]+?)(?:"\s*}?\s*$|$)/);
+                if (contentMatch) {
+                    // 잘린 JSON에서라도 content 추출 + 잘림 정리
+                    var rawContent = contentMatch[1].replace(/\\n/g, '\n').replace(/\\"/g, '"');
+                    // 잘린 JSON 감지: 원본이 '"}' 또는 '"}'로 끝나지 않으면 잘린 것
+                    var isTruncated = !/"\s*}\s*$/.test(text.replace(/\s*```\s*$/, ''));
+                    if (isTruncated) {
+                        // 마지막 완전한 문장(마침표/느낌표/물음표 또는 빈 줄 앞)에서 자름
+                        var lastGoodEnd = -1;
+                        var endings = [/[.다요됨음함임까!?。]\s*\n/g, /[.다요됨음함임까!?。]\s*$/gm];
+                        for (var ei = 0; ei < endings.length; ei++) {
+                            var m;
+                            while ((m = endings[ei].exec(rawContent)) !== null) {
+                                var pos = m.index + m[0].length;
+                                if (pos > lastGoodEnd) lastGoodEnd = pos;
+                            }
+                        }
+                        if (lastGoodEnd > rawContent.length * 0.5) {
+                            rawContent = rawContent.substring(0, lastGoodEnd).trim();
+                        }
+                    }
+                    result = {
+                        title: titleMatch ? titleMatch[1] : query,
+                        content: rawContent
+                    };
+                } else {
+                    result = { title: query, content: text };
+                }
             }
         }
 
@@ -4726,7 +5409,7 @@ async function callGeminiNamuSynthesize(query, rawContext, externalSignal) {
         clearTimeout(timeoutId);
         if (abortHandler) abortSignal.removeEventListener('abort', abortHandler);
         if (abortSignal && abortSignal.aborted) return { _aborted: true };
-        if (e.name === 'AbortError') return { _error: true, message: '응답 시간 초과 (20초)' };
+        if (e.name === 'AbortError') return { _error: true, message: '응답 시간 초과 (45초)' };
         console.warn('나무 합성 Gemini 호출 실패:', e);
         return null;
     }
@@ -5053,12 +5736,28 @@ async function searchAllGroupsRawText(keywords, signal, onProgress, filterSlugs)
             totalScore += topSnippets[ti].score;
         }
 
-        results.push({
-            group: group,
-            score: totalScore,
-            matchCount: scored.length,
-            snippets: topSnippets.map(function(s) { return s.text; })
-        });
+        // 멀티 키워드: proximity_window로 근접 공존 구간 탐색 → 우선 순위 부여
+        // tokenized 텍스트에서 "봄날"+"차트"처럼 각 단어가 별도 라인에 있어도 공존 보너스 지급
+        var proxSnippet = null;
+        if (keywords.length >= 2) {
+            proxSnippet = _findProximityWindow(rawText, keywords, 500);
+        }
+        if (proxSnippet) {
+            // proximity 공존 발견 → 고득점 + 스니펫 교체
+            results.push({
+                group: group,
+                score: totalScore + 200, // proximity 공존 보너스
+                matchCount: scored.length,
+                snippets: [proxSnippet]
+            });
+        } else {
+            results.push({
+                group: group,
+                score: totalScore,
+                matchCount: scored.length,
+                snippets: topSnippets.map(function(s) { return s.text; })
+            });
+        }
     }
 
     // 점수 내림차순 정렬
@@ -5391,7 +6090,7 @@ function markdownToHtml(text) {
 }
 
 // Gemini 답변 렌더링
-function renderGeminiAnswer(container, data) {
+function renderGeminiAnswer(container, data, rawContext, namuUrl, keyword) {
     var title = data.title || 'AI 답변';
     var content = data.content || '';
 
@@ -5428,12 +6127,228 @@ function renderGeminiAnswer(container, data) {
     }
 
     html += '</div>';
+
+    // ── 원문 보기 토글 (rawContext가 있을 때만 표시) ──
+    if (rawContext) {
+        html += '<div style="text-align:center;margin-top:8px;padding-top:8px;border-top:1px solid #eee;">';
+        html += '<button class="btn btn-sm btn-outline-secondary" ' +
+            'onclick="toggleRawContextSection(this)" style="font-size:0.85rem;">' +
+            '📖 원문 보기</button>';
+        html += '</div>';
+
+        // 원문 섹션 (기본 숨김) — AI가 읽은 전체 맥락 표시 (키워드 필터 없이)
+        html += '<div class="raw-context-section" style="display:none;margin-top:10px;' +
+            'padding:12px;background:#f8f9fa;border-radius:8px;font-size:0.9rem;' +
+            'max-height:400px;overflow-y:auto;border:1px solid #e0e0e0;">' +
+            formatRawContextHtml(rawContext, null);
+        // 나무위키 링크를 원문 섹션 하단에 배치
+        if (namuUrl) {
+            html += '<div style="text-align:right;margin-top:8px;padding-top:6px;border-top:1px solid #e0e0e0;">' +
+                '<a href="' + escapeHtml(namuUrl) + '" target="_blank" rel="noopener" ' +
+                'style="font-size:0.85rem;">📚 나무위키에서 보기 →</a></div>';
+        }
+        html += '</div>';
+    }
+
     html += '<div class="chat-ai-disclaimer">AI 생성 답변 — 정확하지 않을 수 있습니다</div>';
 
     container.innerHTML = html;
     appendFeedbackButtons(container);  // 👍👎 피드백 버튼 추가
     var chatContainer = document.getElementById('namuSmartAnswer');
     if (chatContainer) chatContainer.style.display = 'flex';
+}
+
+// 나무위키 원문을 읽기 쉬운 HTML로 정리 (파편화된 줄 → 문장 단위 병합)
+// keyword가 있으면 키워드 주변 ±8줄만 집중 표시
+function formatRawContextHtml(rawText, keyword) {
+    var cleaned = rawText
+        .replace(/\[편집\]/g, '')
+        .replace(/\[\d+\]/g, '')
+        .replace(/자세한 내용은[^\n]*/g, '')
+        .replace(/문서를 참고하십시오[^\n]*/g, '')
+        .replace(/\[\s*펼치기\s*·\s*접기\s*\]/g, '');
+
+    var lines = cleaned.split('\n');
+
+    // 키워드가 있으면 관련 줄만 추출 (±15줄 윈도우)
+    if (keyword) {
+        lines = _focusLinesAroundKeyword(lines, keyword, 8);
+    }
+
+    var html = '';
+    var buf = ''; // 짧은 줄 누적 버퍼
+
+    // 섹션 번호 패턴: "9.", "9.3.", "10.1." 등
+    var SECTION_NUM = /^\d+(\.\d+)*\.?\s*$/;
+    // 한국어 문장 종결 패턴: ~다, ~요, ~음, ~임, ~됨, ~함 + 선택적 마침표
+    var SENT_END = /[다요음임됨함]\s*\.?\s*$|\.\s*$/;
+    // 건너뛸 줄 패턴 (네비게이션/보일러플레이트)
+    var SKIP = /^\[\s*펼치기|^나무위키는|^나무위키가/;
+
+    function flush() {
+        if (!buf) return;
+        html += '<p style="margin:4px 0;line-height:1.7;color:#444;">' + escapeHtml(buf.trim()) + '</p>';
+        buf = '';
+    }
+
+    for (var i = 0; i < lines.length; i++) {
+        var t = lines[i].trim();
+        if (!t || SKIP.test(t)) continue;
+
+        // 구분선 (비연속 구간 표시)
+        if (t === '···') {
+            flush();
+            html += '<div style="text-align:center;color:#ccc;margin:6px 0;">···</div>';
+            continue;
+        }
+
+        // 섹션 번호 → flush 후 다음 줄(섹션 제목)과 합쳐 헤더로 표시
+        if (SECTION_NUM.test(t)) {
+            flush();
+            if (i + 1 < lines.length) {
+                var next = lines[i + 1].trim();
+                if (next && !SECTION_NUM.test(next) && next.length < 50) {
+                    html += '<p style="font-weight:600;color:#333;margin:10px 0 4px;' +
+                        'border-bottom:1px solid #e8e8e8;padding-bottom:2px;">' +
+                        escapeHtml(next) + '</p>';
+                    i++; // 섹션 제목 줄 건너뛰기
+                }
+            }
+            continue;
+        }
+
+        // 버퍼에 줄 추가 (공백으로 연결)
+        buf += (buf ? ' ' : '') + t;
+
+        // 문장 종결 or 버퍼가 충분히 길면 flush
+        if (SENT_END.test(t) || buf.length > 200) {
+            flush();
+        }
+    }
+    flush();
+
+    return html || '<p style="color:#888;">원문 내용이 없습니다.</p>';
+}
+
+// Gemini 실패 시 포맷된 원문 + AI 정리 버튼을 표시하는 폴백 렌더러
+// renderGeminiAnswer()와 동일한 채팅 UI 사용, AI 요약 대신 정리된 원문 표시
+function renderRawFallback(container, rawContext, namuUrl, keyword, query) {
+    var html = '<div class="chat-ai-content">';
+    // 안내 문구 + AI 정리 버튼을 상단에 배치
+    html += '<div style="display:flex;align-items:center;justify-content:space-between;' +
+        'margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid #eee;">';
+    html += '<span style="font-size:0.9rem;color:#666;">📖 나무위키 원문에서 관련 내용을 찾았습니다.</span>';
+    html += '<button class="btn btn-sm btn-outline-primary" ' +
+        'onclick="synthesizeWithGemini(this, \'' + escapeSingleQuote(query) + '\')" ' +
+        'data-raw-context="' + escapeHtml(rawContext) + '" ' +
+        (namuUrl ? 'data-namu-url="' + escapeHtml(namuUrl) + '" ' : '') +
+        'data-keyword="' + escapeHtml(keyword || '') + '" ' +
+        'style="font-size:0.8rem;white-space:nowrap;">🤖 AI로 정리하기</button>';
+    html += '</div>';
+    // 포맷된 원문 표시 (키워드 주변 집중)
+    html += '<div style="max-height:300px;overflow-y:auto;">' +
+        formatRawContextHtml(rawContext, keyword) + '</div>';
+    html += '</div>';
+    // 나무위키 링크
+    if (namuUrl) {
+        html += '<div style="text-align:right;margin-top:6px;padding-top:6px;border-top:1px solid #eee;">' +
+            '<a href="' + escapeHtml(namuUrl) + '" target="_blank" rel="noopener" ' +
+            'style="font-size:0.85rem;">📚 나무위키에서 보기 →</a></div>';
+    }
+    html += '<div class="chat-ai-disclaimer">나무위키 원문 기반 — AI 요약을 보려면 "AI로 정리하기"를 클릭하세요</div>';
+
+    container.innerHTML = html;
+    var chatContainer = document.getElementById('namuSmartAnswer');
+    if (chatContainer) chatContainer.style.display = 'flex';
+}
+
+// 키워드 주변 줄만 추출 (±radius줄, 비연속 구간은 '···'로 구분)
+// 다중 키워드: 다른 서브키워드가 근처(±CLUSTER)에 공존하는 히트만 포함 (고립 히트 제외)
+function _focusLinesAroundKeyword(lines, keyword, radius) {
+    var subKws = keyword.split(/\s+/).filter(function(w) { return w.length >= 2; });
+    if (subKws.length === 0) return lines;
+
+    var CLUSTER = 15; // 키워드 공존 판정 반경 (±15줄 이내에 다른 키워드 있어야 함)
+
+    // 각 줄이 어떤 서브키워드에 매칭되는지 수집
+    var hitIndices = [];
+    var hitKwMap = {}; // index → [매칭된 서브키워드 인덱스들]
+    for (var i = 0; i < lines.length; i++) {
+        var ll = lines[i].toLowerCase();
+        var matched = [];
+        for (var k = 0; k < subKws.length; k++) {
+            if (ll.indexOf(subKws[k].toLowerCase()) !== -1) {
+                matched.push(k);
+            }
+        }
+        if (matched.length > 0) {
+            hitIndices.push(i);
+            hitKwMap[i] = matched;
+        }
+    }
+    if (hitIndices.length === 0) return lines;
+
+    // 다중 키워드: 근처에 다른 서브키워드가 공존하는 히트만 유지
+    var filteredHits = hitIndices;
+    if (subKws.length > 1) {
+        filteredHits = hitIndices.filter(function(idx) {
+            var myKws = hitKwMap[idx];
+            // ±CLUSTER 범위 내에서 내가 매칭하지 않은 다른 키워드가 있는지 확인
+            for (var j = Math.max(0, idx - CLUSTER); j <= Math.min(lines.length - 1, idx + CLUSTER); j++) {
+                if (j === idx || !hitKwMap[j]) continue;
+                for (var m = 0; m < hitKwMap[j].length; m++) {
+                    if (myKws.indexOf(hitKwMap[j][m]) === -1) return true; // 다른 키워드 발견
+                }
+            }
+            return false;
+        });
+        if (filteredHits.length === 0) filteredHits = hitIndices; // 폴백: 전체 히트 사용
+    }
+
+    // 필터된 히트 주변 ±radius 줄 마킹
+    var included = {};
+    for (var h = 0; h < filteredHits.length; h++) {
+        var start = Math.max(0, filteredHits[h] - radius);
+        var end = Math.min(lines.length - 1, filteredHits[h] + radius);
+        for (var j = start; j <= end; j++) {
+            included[j] = true;
+        }
+    }
+
+    // 포함된 줄만 수집, 비연속 구간에 '···' 구분선 삽입
+    var result = [];
+    var prevIncluded = false;
+    for (var i = 0; i < lines.length; i++) {
+        if (included[i]) {
+            if (!prevIncluded && result.length > 0) {
+                result.push('···');
+            }
+            result.push(lines[i]);
+            prevIncluded = true;
+        } else {
+            prevIncluded = false;
+        }
+    }
+
+    return result;
+}
+
+// 단일 그룹 원문 보기 토글
+function toggleRawContextSection(btn) {
+    var section = btn.closest('.chat-ai-content, [class*="chat-ai"]');
+    if (!section) section = btn.parentElement.parentElement;
+    var rawSection = section.querySelector('.raw-context-section') ||
+                     (btn.parentElement.nextElementSibling &&
+                      btn.parentElement.nextElementSibling.classList.contains('raw-context-section')
+                      ? btn.parentElement.nextElementSibling : null);
+    if (!rawSection) return;
+    if (rawSection.style.display === 'none') {
+        rawSection.style.display = 'block';
+        btn.textContent = '📖 원문 접기';
+    } else {
+        rawSection.style.display = 'none';
+        btn.textContent = '📖 원문 보기';
+    }
 }
 
 // 크로스그룹 raw_text 검색 결과 렌더링
@@ -5732,11 +6647,11 @@ async function handleSmartSearch(query) {
                 return;
             }
 
-            updateSearchProgress(aiBody, 1, '그룹 상세 데이터 수집 중...');
+            updateSearchProgress(aiBody, 1, '🔍 그룹 상세 데이터 수집 중');
             var focusedContext = await collectFilteredContext(intent);
             if (searchSignal.aborted) return;
 
-            updateSearchProgress(aiBody, 2, 'AI가 순위표를 생성하는 중...');
+            updateSearchProgress(aiBody, 2, '🤖 AI가 순위표를 생성하는 중');
             var geminiResult = await callGeminiSynthesize(query, focusedContext, searchSignal);
             if (searchSignal.aborted) return;
 
@@ -5748,7 +6663,7 @@ async function handleSmartSearch(query) {
                 // Gemini 실패 → 패턴 폴백
                 clearSearchProgress(aiBody);
                 aiBody.innerHTML = '';
-                updateSearchProgress(aiBody, 1, '데이터베이스에서 검색 중...');
+                updateSearchProgress(aiBody, 1, '🔍 질문 분석 및 데이터베이스 검색 중');
                 try {
                     await executeIntent(intent);
                 } catch (execErr) {
@@ -5762,7 +6677,7 @@ async function handleSmartSearch(query) {
         }
 
         // 단순 패턴 검색
-        updateSearchProgress(aiBody, 1, '데이터베이스에서 검색 중...');
+        updateSearchProgress(aiBody, 1, '🔍 질문 분석 및 데이터베이스 검색 중');
 
         try {
             await executeIntent(intent);
@@ -5806,7 +6721,7 @@ async function handleSmartSearch(query) {
             var retryIntent = parseSmartQuery(resolvedQuery);
             if (retryIntent) {
                 console.log('🏷️ 별칭 해석: "' + query + '" → "' + resolvedQuery + '" (패턴: ' + retryIntent.type + ')');
-                updateSearchProgress(aiBody, 1, '데이터베이스에서 검색 중...');
+                updateSearchProgress(aiBody, 1, '🔍 질문 분석 및 데이터베이스 검색 중');
                 try {
                     await executeIntent(retryIntent);
                 } catch (execErr) {
@@ -5823,7 +6738,7 @@ async function handleSmartSearch(query) {
     // Method B-0: 통합 검색 (역인덱스 + 구조화 데이터 병합)
     var unifiedResult = unifiedSearch(normalizedQ);
     if (unifiedResult && unifiedResult.results.length > 0) {
-        updateSearchProgress(aiBody, 1, '데이터베이스에서 검색 중...');
+        updateSearchProgress(aiBody, 1, '🔍 질문 분석 및 데이터베이스 검색 중');
         renderUnifiedSearchResults(aiBody, query, unifiedResult);
         trackEvent('namu_smart_search', { query: query, method: 'unified', result_count: unifiedResult.results.length });
         logSearchToGAS({ query: query, group: '', intent_type: 'unified', response_method: 'unified', response_time_ms: Date.now() - searchStartTime, success: true });
@@ -5834,7 +6749,7 @@ async function handleSmartSearch(query) {
     var crossKeywords = extractCrossGroupKeywords(query);
 
     if (crossKeywords.length > 0) {
-        updateSearchProgress(aiBody, 1, '전체 그룹 원문 데이터 로딩 중...');
+        updateSearchProgress(aiBody, 1, '📚 전체 그룹 원문 데이터 로딩 중');
 
         var crossResults = await searchAllGroupsRawText(crossKeywords, searchSignal, function(loaded, total) {
             var progressEl = aiBody.querySelector('.search-progress');
@@ -5856,7 +6771,7 @@ async function handleSmartSearch(query) {
             }
             if (rawContext.length > 4000) rawContext = rawContext.substring(0, 4000);
 
-            updateSearchProgress(aiBody, 2, 'AI가 답변을 정리하는 중...');
+            updateSearchProgress(aiBody, 2, '🤖 AI가 답변을 정리하는 중');
             var synthesizeQuery = '다음 나무위키 원문을 참고하여 "' + query + '"에 대해 깔끔하게 정리해주세요:\n\n' + rawContext;
             var top10 = validResults.slice(0, 10);
 
@@ -5882,8 +6797,8 @@ async function handleSmartSearch(query) {
     }
 
     // Method B-2: Gemini Flash 폴백
-    updateSearchProgress(aiBody, 1, '데이터베이스에서 검색 중...');
-    updateSearchProgress(aiBody, 2, 'AI가 답변을 정리하는 중...');
+    updateSearchProgress(aiBody, 1, '🔍 질문 분석 및 데이터베이스 검색 중');
+    updateSearchProgress(aiBody, 2, '🤖 AI가 답변을 정리하는 중');
 
     var geminiResult = await callGeminiFlash(query, searchSignal);
 
@@ -6090,22 +7005,34 @@ function updateSearchProgress(container, step, message) {
     if (!container) return;
     var progressEl = container.querySelector('.search-progress');
     if (!progressEl) {
-        // 채팅 UI: AI body 내부에 progress 컨테이너 생성
+        // progress 컨테이너 생성
         container.innerHTML = '';
         progressEl = document.createElement('div');
         progressEl.className = 'search-progress';
         container.appendChild(progressEl);
     }
-    // 단계별 진행 표시 (이전 단계 체크마크 + 현재 단계 스피너)
-    var steps = progressEl.querySelectorAll('.progress-step');
+    // 이전 단계를 모두 done 상태로 전환
+    var steps = progressEl.querySelectorAll('.progress-step.active');
     for (var i = 0; i < steps.length; i++) {
-        var spinner = steps[i].querySelector('.progress-spinner');
-        if (spinner) spinner.textContent = '✅'; // 이전 단계 완료 마킹
+        steps[i].classList.remove('active');
+        steps[i].classList.add('done');
+        var icon = steps[i].querySelector('.progress-icon');
+        if (icon) icon.textContent = '✅';
+        // dots 애니메이션 제거
+        var dots = steps[i].querySelector('.progress-dots');
+        if (dots) dots.classList.remove('progress-dots');
     }
+    // 새 단계 추가 (active 상태 + 점 애니메이션)
     var stepEl = document.createElement('div');
-    stepEl.className = 'progress-step';
-    stepEl.style.cssText = 'padding:4px 0;color:#555;font-size:0.9rem;';
-    stepEl.innerHTML = '<span class="progress-spinner">⏳</span> <span>' + message + '</span>';
+    stepEl.className = 'progress-step active';
+    // 메시지에서 '...' 제거 (CSS dots 애니메이션으로 대체)
+    var cleanMsg = message.replace(/\.{2,}$/, '');
+    // 메시지 앞의 이모지를 아이콘으로 분리
+    var emojiMatch = cleanMsg.match(/^([\u{1F300}-\u{1FAD6}\u{2600}-\u{27BF}])\s*/u);
+    var icon = emojiMatch ? emojiMatch[1] : '⏳';
+    var textMsg = emojiMatch ? cleanMsg.substring(emojiMatch[0].length) : cleanMsg;
+    stepEl.innerHTML = '<span class="progress-icon">' + icon + '</span> <span class="progress-text">' +
+        escapeHtml(textMsg) + '<span class="progress-dots"></span></span>';
     progressEl.appendChild(stepEl);
 }
 
@@ -6120,6 +7047,9 @@ function clearSearchProgress(container) {
 async function synthesizeWithGemini(btnEl, query) {
     var rawContext = btnEl.getAttribute('data-raw-context');
     if (!rawContext) return;
+    // 버튼에 저장된 나무위키 URL과 키워드 (원문보기 토글용)
+    var namuUrl = btnEl.getAttribute('data-namu-url') || '';
+    var keyword = btnEl.getAttribute('data-keyword') || '';
 
     // 버튼 비활성화 + 로딩 상태
     btnEl.disabled = true;
@@ -6133,7 +7063,8 @@ async function synthesizeWithGemini(btnEl, query) {
 
     if (result && result._aborted) return;
     if (result && !result._error) {
-        renderGeminiAnswer(aiTarget, result);
+        // AI 답변 + 원문보기 토글 표시 (rawContext/namuUrl/keyword 전달)
+        renderGeminiAnswer(aiTarget, result, rawContext, namuUrl || null, keyword || null);
         trackEvent('namu_smart_search', { query: query, method: 'synthesize' });
     } else {
         // 실패 시 버튼 복원
@@ -6613,6 +7544,21 @@ function runSmartSearchTests() {
         ['컴백 일정', 'calendar_schedule', '캘린더 일정 (그룹 없음)'],
         ['이번달 컴백 일정', 'calendar_schedule', '이번달 컴백 일정'],
         ['다음달 컴백 일정', 'calendar_schedule', '다음달 컴백 일정'],
+
+        // 80a-80f: monthly_comeback (패턴 3-3-pre — 월별 컴백 검색)
+        ['26년 3월 컴백 그룹', 'monthly_comeback', '숫자 연도+월+컴백'],
+        ['2026년 3월 발매 앨범', 'monthly_comeback', '4자리 연도+발매'],
+        ['올해 3월 컴백', 'monthly_comeback', '상대 연도(올해)+월'],
+        ['3월 컴백', 'monthly_comeback', '월만 (연도=올해)'],
+        ['3월 걸그룹 컴백', 'monthly_comeback', '월+성별 필터'],
+        ['2025년 걸그룹 6월 발매', 'monthly_comeback', '연도+성별+월(역순)'],
+        // 80g-80l: monthly_comeback — 상반기/하반기/분기 (패턴 3-3-half)
+        ['2023년 상반기 컴백 보이그룹', 'monthly_comeback', '연도+상반기+성별'],
+        ['올해 하반기 걸그룹 발매', 'monthly_comeback', '상대연도+하반기+성별'],
+        ['2024년 상반기 컴백', 'monthly_comeback', '연도+상반기(성별 없음)'],
+        ['작년 하반기 보이그룹 컴백', 'monthly_comeback', '상대연도+하반기'],
+        ['2023년 1분기 발매', 'monthly_comeback', '연도+분기'],
+        ['2024년 3분기 걸그룹 컴백', 'monthly_comeback', '연도+분기+성별'],
 
         // 80-91: group_sns / sns_comparison (패턴 3-3b~3-3d)
         ['에스파 SNS', 'group_sns', '전체 SNS 조회'],

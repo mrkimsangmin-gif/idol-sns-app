@@ -40,15 +40,17 @@ function debounce(func, wait) {
 }
 
 // ⚠️ 여기에 GAS 웹앱 URL 붙여넣으세요!
-const API_URL = "https://script.google.com/macros/s/AKfycby7Hw0e4CZmJnwWjHRsTVk0kEoktiDMjaOgWvLRauq_5pRF1D-nScDJ3vUWfcp5Re-A/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbx0W0_25f135Ze2kjA7Q66d7T6Y210iXhIEBfFhdok8G1vwj5OTnQdu3P6_uFAKZNmg/exec";
 
-// ⚠️ 엔터뉴스 GAS 웹앱 URL (action=getNews 파라미터 추가)
-const ENTER_NEWS_API = "https://script.google.com/macros/s/AKfycbwV5QEzJGijfTyamsmsdYUIwoHLcjwyyJlcBXUdKu71-mWNy2rmFhl1K3B1GYIIx5e-/exec?action=getNews";
+// 엔터뉴스: 정적 JSON 우선 → GAS API 폴백
+const NEWS_STATIC_URL = '/data/news.json';
+const ENTER_NEWS_API = API_URL + "?action=getNews";
 
 // SNS API값 → 화면 표시명 매핑 ('차오화'만 다름)
 const SNS_DISPLAY = {
     '웨이보':'웨이보', '차오화':'웨이보(슈퍼챗)', '빌리빌리':'빌리빌리',
-    'QQ뮤직':'QQ뮤직', 'X(트위터)':'X(트위터)', '유튜브':'유튜브', '스포티파이':'스포티파이'
+    'QQ뮤직':'QQ뮤직', 'X(트위터)':'X(트위터)', '유튜브':'유튜브', '스포티파이':'스포티파이',
+    '인스타그램':'인스타그램'
 };
 
 /**
@@ -140,7 +142,7 @@ function getStaticMonths(gender, sns) {
 
 /**
  * 정적 JSON 데이터 로드 (즉시 렌더링용)
- * version 2: 전체 성별/SNS 조합 지원 (14개 조합)
+ * version 2: 전체 성별/SNS 조합 지원 (16개 조합)
  * version 1: 기존 남자/웨이보만 지원 (하위 호환)
  * @param {string} gender - '남자' 또는 '여자'
  * @param {string} sns - SNS 이름 (예: '웨이보', '빌리빌리')
@@ -836,6 +838,7 @@ const PAGE_META = {
     jobs:    { path: '/jobs',    title: '채용정보 | 아이엠콘텐츠' },
     vendors: { path: '/vendors', title: '업체정보 | 아이엠콘텐츠' },
     douyin:  { path: '/douyin',  title: '중국트렌드 | 아이엠콘텐츠' },
+    namu:    { path: '/namu',   title: '아이돌 정보 (소속사/팬덤/데뷔일) | 아이엠콘텐츠' },
     team:    { path: '/team',    title: 'Team | 아이엠콘텐츠' }
 };
 
@@ -843,7 +846,7 @@ const PAGE_META = {
 const SNS_SLUG_MAP = {
     weibo: '웨이보', bilibili: '빌리빌리', qqmusic: 'QQ뮤직',
     twitter: 'X(트위터)', youtube: '유튜브', spotify: '스포티파이',
-    chaohua: '차오화'
+    chaohua: '차오화', instagram: '인스타그램'
 };
 // 역방향 매핑 (한글명 → 슬러그)
 const SNS_SLUG_REVERSE = {};
@@ -888,6 +891,7 @@ const PAGE_DESCRIPTIONS = {
     jobs:    '엔터테인먼트 채용정보 - 마케팅, 매니지먼트, 프로듀싱, 해외사업',
     vendors: '엔터테인먼트 업체정보 - 제작, 유통, 마케팅 협력사 데이터베이스',
     douyin:  '중국 도우인(抖音) 인기 챌린지 트렌드 - 주간 업데이트',
+    namu:    '1세대부터 5세대까지 K-POP 아이돌 그룹명, 인원, 리더, 데뷔일, 팬덤명, 소속사 및 나무위키 바로가기 링크를 제공합니다.',
     team:    'Team | 아이엠콘텐츠'
 };
 
@@ -932,7 +936,7 @@ function getPageIdFromPath(path) {
         '/': 'home', '/ranking': 'home',
         '/comeback': 'comeback', '/news': 'news',
         '/links': 'links', '/jobs': 'jobs',
-        '/vendors': 'vendors', '/douyin': 'douyin', '/team': 'team'
+        '/vendors': 'vendors', '/douyin': 'douyin', '/namu': 'namu', '/namuwiki': 'namu', '/team': 'team'
     };
     if (map[path]) return map[path];
 
@@ -941,6 +945,9 @@ function getPageIdFromPath(path) {
 
     // /idol/{slug} 패턴
     if (path.startsWith('/idol/')) return 'home';
+
+    // /namu/{slug} 패턴
+    if (path.startsWith('/namu/')) return 'namu';
 
     return 'home';
 }
@@ -1045,6 +1052,7 @@ function route(pageId, pushState = true) {
     if (pageId === 'jobs') loadJobs();
     if (pageId === 'vendors') loadVendors();
     if (pageId === 'douyin') loadDouyinChallenges();
+    if (pageId === 'namu') loadNamu();
 }
 
 // ★ 브라우저 뒤로가기/앞으로가기 처리
@@ -1085,7 +1093,8 @@ const SNS_LOGOS = {
     'bilibili': 'https://www.bilibili.com/favicon.ico',
     'youtube': 'https://www.youtube.com/s/desktop/e618e1bf/img/favicon_32x32.png',
     'qqmusic': 'https://y.qq.com/favicon.ico',
-    'spotify': 'https://www.spotify.com/favicon.ico'
+    'spotify': 'https://www.spotify.com/favicon.ico',
+    'instagram': 'https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png'
 };
 
 // SNS 이름 매핑
@@ -1096,7 +1105,8 @@ const SNS_NAMES = {
     'bilibili_link': { label: '빌리빌리', key: 'bilibili' },
     'youtube_link': { label: '유튜브', key: 'youtube' },
     'qqmusic_link': { label: 'QQ뮤직', key: 'qqmusic' },
-    'spotify_link': { label: '스포티파이', key: 'spotify' }
+    'spotify_link': { label: '스포티파이', key: 'spotify' },
+    'instagram_link': { label: '인스타그램', key: 'instagram' }
 };
 
 // ========================================
@@ -1328,7 +1338,7 @@ async function prefetchEnterNews() {
     console.log('📰 뉴스 데이터 프리페칭 시작...');
 
     try {
-        // IndexedDB 캐시 확인
+        // 1단계: IndexedDB 캐시 확인
         const cachedNews = await getNewsCache().catch(() => null);
         if (cachedNews) {
             newsData = cachedNews;
@@ -1337,18 +1347,32 @@ async function prefetchEnterNews() {
             return;
         }
 
-        // API 호출
-        if (!ENTER_NEWS_API) return;
+        // 2단계: 정적 JSON 로드
+        try {
+            const staticRes = await fetch(NEWS_STATIC_URL);
+            if (staticRes.ok) {
+                const data = await staticRes.json();
+                if (data && data.length > 0) {
+                    newsData = data;
+                    newsLoaded = true;
+                    await saveNewsCache(data);
+                    console.log('✅ 뉴스 프리페칭: 정적 JSON 로드 완료');
+                    return;
+                }
+            }
+        } catch (e) {
+            console.warn('정적 JSON 로드 실패, GAS API 폴백:', e);
+        }
 
+        // 3단계: GAS API 폴백
+        if (!ENTER_NEWS_API) return;
         const response = await fetch(ENTER_NEWS_API);
         if (response.ok) {
             const data = await response.json();
             newsData = data;
             newsLoaded = true;
-
-            // IndexedDB에 저장
             await saveNewsCache(data);
-            console.log('✅ 뉴스 프리페칭 완료');
+            console.log('✅ 뉴스 프리페칭: GAS API 폴백 완료');
         }
     } catch (error) {
         console.warn('뉴스 프리페칭 실패:', error);
@@ -1361,11 +1385,6 @@ async function prefetchEnterNews() {
  * 엔터뉴스 데이터 로드 (IndexedDB 캐시 우선)
  */
 async function loadEnterNews() {
-    if (!ENTER_NEWS_API) {
-        alert('엔터뉴스 API가 설정되지 않았습니다.');
-        return;
-    }
-
     const loadingEl = document.getElementById('newsLoading');
     const containerEl = document.getElementById('newsContainer');
 
@@ -1396,15 +1415,33 @@ async function loadEnterNews() {
             return;
         }
 
-        // 🚀 2단계: IndexedDB 미스 → API 호출
-        console.log('📡 뉴스 캐시 미스, API 호출 중...');
-        const response = await fetch(ENTER_NEWS_API);
+        // 🚀 2단계: 정적 JSON 로드
+        console.log('📡 뉴스 캐시 미스, 정적 JSON 로드 중...');
+        let data = null;
 
-        if (!response.ok) {
-            throw new Error('네트워크 응답 오류');
+        try {
+            const staticRes = await fetch(NEWS_STATIC_URL);
+            if (staticRes.ok) {
+                const staticData = await staticRes.json();
+                if (staticData && staticData.length > 0) {
+                    data = staticData;
+                    console.log('✅ 뉴스 정적 JSON 로드 성공');
+                }
+            }
+        } catch (e) {
+            console.warn('정적 JSON 로드 실패:', e);
         }
 
-        const data = await response.json();
+        // 🚀 3단계: 정적 JSON 실패 시 GAS API 폴백
+        if (!data) {
+            console.log('📡 GAS API 폴백 호출 중...');
+            const response = await fetch(ENTER_NEWS_API);
+            if (!response.ok) {
+                throw new Error('네트워크 응답 오류');
+            }
+            data = await response.json();
+        }
+
         newsData = data;
         newsLoaded = true;
 
@@ -1441,12 +1478,29 @@ async function updateNewsInBackground() {
     console.log('📥 백그라운드에서 뉴스 데이터 업데이트 중...');
 
     try {
+        // 정적 JSON 우선 시도
+        const staticRes = await fetch(NEWS_STATIC_URL);
+        if (staticRes.ok) {
+            const data = await staticRes.json();
+            if (data && data.length > 0) {
+                await saveNewsCache(data);
+                newsData = data;
+                console.log('✅ 뉴스 백그라운드 업데이트 완료 (정적 JSON)');
+                return;
+            }
+        }
+    } catch (e) {
+        console.warn('정적 JSON 백그라운드 로드 실패:', e);
+    }
+
+    // GAS API 폴백
+    try {
         const response = await fetch(ENTER_NEWS_API);
         if (response.ok) {
             const data = await response.json();
             await saveNewsCache(data);
             newsData = data;
-            console.log('✅ 뉴스 캐시 백그라운드 업데이트 완료');
+            console.log('✅ 뉴스 백그라운드 업데이트 완료 (GAS API)');
         }
     } catch (error) {
         console.warn('뉴스 백그라운드 업데이트 실패:', error);
@@ -1472,6 +1526,14 @@ function renderEnterNews(newsData) {
         containerEl.style.display = 'block';
         return;
     }
+
+    // 매 렌더링마다 랜덤 셔플 (Fisher-Yates)
+    const shuffled = [...newsData];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    newsData = shuffled;
 
     if (newsData.length > 0 && newsData[0].collectTime) {
         const updateTime = new Date(newsData[0].collectTime);
@@ -1532,12 +1594,16 @@ function renderEnterNews(newsData) {
  * 시간 경과 표시
  */
 function getTimeAgo(date) {
+    if (isNaN(date.getTime())) return '날짜 없음';
     const now = new Date();
     const diff = Math.floor((now - date) / 1000);
 
+    if (diff < 0) return '방금 전';
     if (diff < 60) return '방금 전';
     if (diff < 3600) return `${Math.floor(diff / 60)}분 전`;
     if (diff < 86400) return `${Math.floor(diff / 3600)}시간 전`;
+    if (diff < 2592000) return `${Math.floor(diff / 86400)}일 전`;
+    return date.toLocaleDateString('ko-KR', { year: 'numeric', month: 'short', day: 'numeric' });
 }
 
 
@@ -1965,10 +2031,12 @@ async function prefetchJobsData() {
             return;
         }
 
-        const response = await fetch(`${API_URL}?action=getJobs`);
+        const response = await fetch('/data/jobs.json'); // 절대경로로 SPA 라우팅 문제 방지
         const result = await response.json();
 
         if (result.status === 'success') {
+            // D-day 동적 계산
+            result.data = computeDdays(result.data);
             jobsData = result;
             jobsLoaded = true;
             await saveJobsCache(result);
@@ -2013,12 +2081,14 @@ async function loadJobs() {
             return;
         }
 
-        // API 호출
-        console.log('📡 채용 캐시 미스, API 호출 중...');
-        const response = await fetch(`${API_URL}?action=getJobs`);
+        // 정적 JSON 로드
+        console.log('📡 채용 캐시 미스, JSON 로드 중...');
+        const response = await fetch('/data/jobs.json'); // 절대경로로 SPA 라우팅 문제 방지
         const result = await response.json();
 
         if (result.status === 'success') {
+            // D-day 동적 계산
+            result.data = computeDdays(result.data);
             jobsData = result;
             jobsLoaded = true;
 
@@ -2054,10 +2124,12 @@ async function updateJobsInBackground() {
     console.log('📥 백그라운드에서 채용 데이터 업데이트 중...');
 
     try {
-        const response = await fetch(`${API_URL}?action=getJobs`);
+        const response = await fetch('/data/jobs.json'); // 절대경로로 SPA 라우팅 문제 방지
         const result = await response.json();
 
         if (result.status === 'success') {
+            // D-day 동적 계산
+            result.data = computeDdays(result.data);
             await saveJobsCache(result);
             jobsData = result;
             console.log('✅ 채용 캐시 백그라운드 업데이트 완료');
@@ -2065,6 +2137,28 @@ async function updateJobsInBackground() {
     } catch (error) {
         console.warn('채용 백그라운드 업데이트 실패:', error);
     }
+}
+
+/**
+ * D-day 동적 계산 (정적 JSON에 dday 없으므로 프론트에서 계산)
+ */
+function computeDdays(jobs) {
+    const now = new Date();
+    now.setHours(0, 0, 0, 0);
+
+    return jobs.filter(job => {
+        const dl = job.deadline;
+        if (!dl || dl === '상시채용') return true; // 상시채용 유지
+
+        const deadlineDate = new Date(dl);
+        deadlineDate.setHours(0, 0, 0, 0);
+        const diffDays = Math.ceil((deadlineDate - now) / (1000 * 60 * 60 * 24));
+
+        if (diffDays < 0) return false; // 만료 공고 제거
+
+        job.dday = diffDays;
+        return true;
+    });
 }
 
 /**
@@ -2114,12 +2208,15 @@ function renderJobs(jobs) {
         return;
     }
 
+    // DocumentFragment로 묶어 DOM에 1회만 삽입 (리플로우 최소화)
+    const fragment = document.createDocumentFragment();
     filteredJobs.forEach((job, index) => {
         const col = document.createElement('div');
         col.className = 'col-12 col-md-6 col-lg-4';
         col.innerHTML = createJobCard(job, index);
-        containerEl.appendChild(col);
+        fragment.appendChild(col);
     });
+    containerEl.appendChild(fragment);
 
     loadingEl.style.display = 'none';
     containerEl.style.display = 'flex';
@@ -2224,6 +2321,7 @@ function trackJobClick(company, position, index) {
 
 // 도우인 전용 GAS API URL (별도 프로젝트)
 const DOUYIN_API_URL = 'https://script.google.com/macros/s/AKfycbz497bYijjPFuydRCNSY7hdDtI0f78Dov5pUSzgd5IC1xfj3LNKrVwQa9aDnQIU_Gq4fQ/exec';
+const DOUYIN_STATIC_URL = 'data/douyin-challenges.json';
 
 let douyinData = null;
 let douyinLoaded = false;
@@ -2231,6 +2329,7 @@ let isPrefetchingDouyin = false;
 
 /**
  * 도우인 챌린지 데이터 프리페칭 (7초 지연 호출)
+ * 로딩 순서: 정적 JSON → IndexedDB 캐시 → GAS API
  */
 async function prefetchDouyinData() {
     if (isPrefetchingDouyin || douyinLoaded) return;
@@ -2239,7 +2338,7 @@ async function prefetchDouyinData() {
     try {
         console.log('🇨🇳 Starting Douyin challenges prefetch...');
 
-        // IndexedDB 캐시 확인 (IdolDB가 있을 때만)
+        // 1. IndexedDB 캐시 확인 (IdolDB가 있을 때만)
         if (typeof IdolDB !== 'undefined') {
             const cached = await IdolDB.get('douyinChallenges');
             if (cached && cached.data) {
@@ -2255,7 +2354,30 @@ async function prefetchDouyinData() {
             }
         }
 
-        // API 호출
+        // 2. 정적 JSON 시도 (ADB 크롤링 결과)
+        try {
+            const staticResp = await fetch(DOUYIN_STATIC_URL);
+            if (staticResp.ok) {
+                const staticData = await staticResp.json();
+                if (staticData.success && staticData.challenges?.length > 0) {
+                    douyinData = staticData;
+                    douyinLoaded = true;
+
+                    if (typeof IdolDB !== 'undefined') {
+                        await IdolDB.set('douyinChallenges', {
+                            data: staticData,
+                            timestamp: Date.now()
+                        });
+                    }
+                    console.log(`✅ Douyin loaded from static JSON: ${staticData.challenges.length} challenges`);
+                    return;
+                }
+            }
+        } catch (e) {
+            console.log('Static douyin JSON not available, trying API...');
+        }
+
+        // 3. GAS API 폴백
         const response = await fetch(`${DOUYIN_API_URL}?action=getDouyinChallenges`);
         const result = await response.json();
 
@@ -2263,7 +2385,6 @@ async function prefetchDouyinData() {
             douyinData = result;
             douyinLoaded = true;
 
-            // IndexedDB에 캐시 (IdolDB가 있을 때만)
             if (typeof IdolDB !== 'undefined') {
                 await IdolDB.set('douyinChallenges', {
                     data: result,
@@ -2325,12 +2446,29 @@ async function loadDouyinChallenges() {
             }
         }
 
-        // 2. API 호출
-        console.log('🌐 Fetching Douyin challenges from API...');
-        const response = await fetch(`${DOUYIN_API_URL}?action=getDouyinChallenges`);
-        const result = await response.json();
+        // 2. 정적 JSON 시도 (ADB 크롤링 결과)
+        let result = null;
+        try {
+            const staticResp = await fetch(DOUYIN_STATIC_URL);
+            if (staticResp.ok) {
+                const staticData = await staticResp.json();
+                if (staticData.success && staticData.challenges?.length > 0) {
+                    result = staticData;
+                    console.log(`📄 Douyin loaded from static JSON: ${staticData.challenges.length} challenges`);
+                }
+            }
+        } catch (e) {
+            console.log('Static douyin JSON not available');
+        }
 
-        if (result.success) {
+        // 3. GAS API 폴백
+        if (!result) {
+            console.log('🌐 Fetching Douyin challenges from API...');
+            const response = await fetch(`${DOUYIN_API_URL}?action=getDouyinChallenges`);
+            result = await response.json();
+        }
+
+        if (result && result.success) {
             douyinData = result;
             douyinLoaded = true;
 
@@ -2346,7 +2484,7 @@ async function loadDouyinChallenges() {
             container.style.display = 'flex';
             renderDouyinChallenges(result);
         } else {
-            throw new Error(result.message || '데이터 로드 실패');
+            throw new Error(result?.message || '데이터 로드 실패');
         }
 
     } catch (error) {
@@ -2460,19 +2598,15 @@ function renderDouyinChallenges(data) {
 function createChallengeCard(challenge, index) {
     const statusBadge = getStatusBadge(challenge.status);
 
-    // 챌린지 URL (도우인 검색 링크)
-    const challengeUrl = challenge.challenge_url || `https://www.douyin.com/search/${encodeURIComponent(challenge.title_zh)}`;
+    // 챌린지 URL: video_url (첫 번째 영상) > challenge_url > 검색 링크
+    const challengeUrl = challenge.video_url || challenge.challenge_url || `https://www.douyin.com/search/${encodeURIComponent(challenge.title_zh)}`;
 
     // 한국어 제목 (AI가 생성한 요약의 첫 문장 또는 직접 번역)
     const titleKo = String(challenge.title_ko || (typeof challenge.summary_ko === 'string' ? challenge.summary_ko.split('.')[0] : '내용 없음') || challenge.title_zh);
 
-    // 🔥 썸네일 HTML 생성 - CSS Sprite 방식 (좌표 수정됨)
+    // 썸네일 HTML 생성
     let thumbnailHtml = '';
     const rank = parseInt(challenge.rank) || 0;
-    const bbox = challenge.thumbnail_bbox || {};
-
-    // 좌표 유효성 확인
-    const hasValidCoords = bbox.x > 0 && bbox.y >= 0 && bbox.width > 0 && bbox.height > 0;
 
     // 순위별 스타일 (Fallback용)
     const getRankStyle = (r) => {
@@ -2483,65 +2617,12 @@ function createChallengeCard(challenge, index) {
     };
     const style = getRankStyle(rank);
 
-    if (challenge.cover_url && challenge.cover_url.includes('drive.google.com') && hasValidCoords) {
-        // 🔥 수정된 CSS Sprite 적용
-        // 
-        // 핵심 변경점:
-        // 1. 크롭 이미지 원본 크기(150px)를 기준으로 좌표 적용
-        // 2. 썸네일 표시 영역(60x60)에 맞게 스케일링
-        //
-        // bbox 예시: {x: 73, y: 0, width: 77, height: 100}
-        // - x=73: 왼쪽에서 73px 위치가 썸네일 시작점
-        // - width=77: 썸네일 너비
-        // - height=100: 썸네일 높이 (2000px / 20 = 100)
-
-        // 🔥 표시할 썸네일 크기 (정사각형으로 표시)
-        const displaySize = 60;
-
-        // 🔥 원본 이미지에서 크롭할 영역의 스케일 계산
-        // 정사각형으로 표시하기 위해 width와 height 중 작은 값 기준
-        const cropSize = Math.min(bbox.width, bbox.height);
-        const scale = displaySize / cropSize;
-
-        // 🔥 실제 이미지 크기 (크롭 이미지는 150px 너비)
-        const cropImageWidth = 150;  // 서버에서 저장한 크롭 이미지 너비
-
-        // 스케일링된 이미지 크기
-        const scaledImageWidth = Math.round(cropImageWidth * scale);
-
-        // 스케일링된 좌표
-        const scaledX = Math.round(bbox.x * scale);
-        const scaledY = Math.round(bbox.y * scale);
-
-        thumbnailHtml = `
-            <div class="douyin-thumbnail" style="
-                width: ${displaySize}px; 
-                height: ${displaySize}px; 
-                overflow: hidden; 
-                position: relative;
-                border-radius: 8px;
-                background: #f0f0f0;
-            ">
-                <img src="${challenge.cover_url}" 
-                     alt="${challenge.title_zh}" 
-                     referrerpolicy="no-referrer"
-                     style="
-                         width: ${scaledImageWidth}px; 
-                         max-width: none; 
-                         height: auto; 
-                         position: absolute; 
-                         left: -${scaledX}px; 
-                         top: -${scaledY}px;
-                     "
-                     onerror="this.parentElement.innerHTML='<div class=\\'rank-badge\\' style=\\'background:${style.bg}; width:100%; height:100%; display:flex; align-items:center; justify-content:center; font-weight:bold; color:#fff; border-radius:8px;\\'>${rank}</div>'">
-            </div>
-        `;
-    } else if (challenge.cover_url && !challenge.cover_url.includes('drive.google.com')) {
-        // 개별 URL (API에서 직접 제공하는 경우)
+    if (challenge.cover_url) {
+        // 개별 썸네일 이미지 (로컬 파일 또는 URL)
         thumbnailHtml = `
             <div class="douyin-thumbnail" style="width:60px; height:60px; border-radius:8px; overflow:hidden;">
-                <img src="${challenge.cover_url}" 
-                     alt="${challenge.title_zh}" 
+                <img src="${challenge.cover_url}"
+                     alt="${challenge.title_zh}"
                      referrerpolicy="no-referrer"
                      style="width:100%; height:100%; object-fit:cover;"
                      onerror="this.parentElement.innerHTML='<div class=\\'rank-badge\\' style=\\'background:${style.bg}; width:100%; height:100%; display:flex; align-items:center; justify-content:center; font-weight:bold; color:#fff; border-radius:8px;\\'>${rank}</div>'">

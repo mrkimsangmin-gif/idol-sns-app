@@ -1,0 +1,210 @@
+{
+  "generated": "2026-03-07",
+  "version": "1.0",
+  "description": "4세대 보이그룹 외국인 멤버 매핑 (데뷔 2018~2023)",
+  "source": "나무위키 구조화 데이터 + raw_text '다국적' 키워드 + K-pop 일반 상식",
+  "groups_with_foreign_members": {
+    "stray-kids": {
+      "name": "스트레이키즈",
+      "debut_year": 2018,
+      "foreign": [
+        {"name": "방찬", "nationality": "호주 (한국계)"},
+        {"name": "필릭스", "nationality": "호주 (한국계)"}
+      ]
+    },
+    "txt": {
+      "name": "투모로우바이투게더",
+      "debut_year": 2019,
+      "foreign": [
+        {"name": "휴닝카이", "nationality": "미국 (한독 혼혈)"}
+      ]
+    },
+    "enhypen": {
+      "name": "엔하이픈",
+      "debut_year": 2020,
+      "foreign": [
+        {"name": "제이", "nationality": "미국 (한국계)"},
+        {"name": "니키", "nationality": "일본"}
+      ]
+    },
+    "treasure": {
+      "name": "트레저",
+      "debut_year": 2020,
+      "foreign": [
+        {"name": "요시", "nationality": "일본"},
+        {"name": "아사히", "nationality": "일본"},
+        {"name": "하루토", "nationality": "일본"},
+        {"name": "소정환", "nationality": "일본"}
+      ]
+    },
+    "p1harmony": {
+      "name": "피원하모니",
+      "debut_year": 2020,
+      "foreign": [
+        {"name": "기호", "nationality": "캐나다 (한국계)"},
+        {"name": "소울", "nationality": "일본"}
+      ]
+    },
+    "cravity": {
+      "name": "크래비티",
+      "debut_year": 2020,
+      "foreign": [
+        {"name": "앨런", "nationality": "미국 (대만계)"}
+      ]
+    },
+    "dkb": {
+      "name": "다크비",
+      "debut_year": 2020,
+      "foreign": [
+        {"name": "유쿠", "nationality": "일본"}
+      ]
+    },
+    "mirae": {
+      "name": "미래소년",
+      "debut_year": 2021,
+      "foreign": [
+        {"name": "리안", "nationality": "일본"}
+      ]
+    },
+    "tempest": {
+      "name": "템페스트",
+      "debut_year": 2022,
+      "foreign": [
+        {"name": "한빈", "nationality": "베트남"}
+      ]
+    },
+    "zerobaseone": {
+      "name": "제로베이스원",
+      "debut_year": 2023,
+      "foreign": [
+        {"name": "장하오", "nationality": "중국"},
+        {"name": "석매튜", "nationality": "캐나다 (한국계)"},
+        {"name": "리키", "nationality": "일본"}
+      ]
+    },
+    "riize": {
+      "name": "라이즈",
+      "debut_year": 2023,
+      "foreign": [
+        {"name": "쇼타로", "nationality": "일본"},
+        {"name": "앤톤", "nationality": "한미 혼혈"}
+      ]
+    },
+    "lun8": {
+      "name": "루네이트",
+      "debut_year": 2023,
+      "foreign": [
+        {"name": "유우마", "nationality": "일본"},
+        {"name": "타쿠마", "nationality": "일본"}
+      ]
+    },
+    "evnne": {
+      "name": "이븐",
+      "debut_year": 2023,
+      "foreign": [
+        {"name": "케이타", "nationality": "일본"}
+      ]
+    },
+    "ampers-one": {
+      "name": "앰퍼샌드원",
+      "debut_year": 2023,
+      "foreign": [
+        {"name": "나캠든", "nationality": "미국"},
+        {"name": "브라이언", "nationality": "캐나다"},
+        {"name": "카이렐", "nationality": "미국"},
+        {"name": "마카야", "nationality": "호주"}
+      ]
+    },
+    "pow": {
+      "name": "파우",
+      "debut_year": 2023,
+      "foreign": [
+        {"name": "동연", "nationality": "한필 혼혈"}
+      ]
+    },
+    "xodiac": {
+      "name": "소디엑",
+      "debut_year": 2023,
+      "foreign": [
+        {"name": "자얀", "nationality": "인도네시아"},
+        {"name": "씽", "nationality": "홍콩"},
+        {"name": "리오", "nationality": "홍콩"}
+      ]
+    },
+    "82major": {
+      "name": "에이티투메이저",
+      "debut_year": 2023,
+      "foreign": [
+        {"name": "윤예찬", "nationality": "캐나다 (한국계)"}
+      ]
+    },
+    "fantasy-boys": {
+      "name": "판타지보이즈",
+      "debut_year": 2023,
+      "foreign": [
+        {"name": "히카리", "nationality": "일본"},
+        {"name": "링치", "nationality": "대만"},
+        {"name": "히카루", "nationality": "일본"},
+        {"name": "케이단", "nationality": "일본"}
+      ]
+    },
+    "the-wind": {
+      "name": "더윈드",
+      "debut_year": 2023,
+      "foreign": [
+        {"name": "타나톤", "nationality": "태국"}
+      ]
+    },
+    "xikers": {
+      "name": "싸이커스",
+      "debut_year": 2023,
+      "foreign": [
+        {"name": "헌터", "nationality": "태국"}
+      ]
+    },
+    "n-ssign": {
+      "name": "엔싸인",
+      "debut_year": 2023,
+      "foreign": [
+        {"name": "카즈타", "nationality": "일본"}
+      ]
+    },
+    "one-pact": {
+      "name": "원팩트",
+      "debut_year": 2023,
+      "foreign": [
+        {"name": "제이 창", "nationality": "미국 (한국계)"}
+      ]
+    }
+  },
+  "all_korean_groups": [
+    {"slug": "ateez", "name": "에이티즈", "debut_year": 2018, "members": 8},
+    {"slug": "ab6ix", "name": "에이비식스", "debut_year": 2019, "members": 4},
+    {"slug": "oneus", "name": "원어스", "debut_year": 2019, "members": 5},
+    {"slug": "cix", "name": "씨아이엑스", "debut_year": 2019, "members": 4},
+    {"slug": "vanner", "name": "배너", "debut_year": 2019, "members": 5},
+    {"slug": "drippin", "name": "드리핀", "debut_year": 2020, "members": 6},
+    {"slug": "bae173", "name": "비에이이일칠삼", "debut_year": 2020, "members": 7},
+    {"slug": "wei", "name": "위아이", "debut_year": 2020, "members": 6},
+    {"slug": "mcnd", "name": "엠씨엔디", "debut_year": 2020, "members": 5},
+    {"slug": "e-last", "name": "엘라스트", "debut_year": 2020, "members": 7},
+    {"slug": "xdinary-heroes", "name": "엑스디너리 히어로즈", "debut_year": 2021, "members": 6},
+    {"slug": "omega-x", "name": "오메가엑스", "debut_year": 2021, "members": 11},
+    {"slug": "epex", "name": "이펙스", "debut_year": 2021, "members": 7},
+    {"slug": "blitzers", "name": "블리처스", "debut_year": 2021, "members": 6},
+    {"slug": "the-kingdom", "name": "더킹덤", "debut_year": 2021, "members": 6},
+    {"slug": "the-new-six", "name": "더뉴식스", "debut_year": 2022, "members": 5},
+    {"slug": "younite", "name": "유나이트", "debut_year": 2022, "members": 8},
+    {"slug": "atbo", "name": "에이티비오", "debut_year": 2022, "members": 6},
+    {"slug": "trendz", "name": "트렌드지", "debut_year": 2022, "members": 7},
+    {"slug": "nine-i", "name": "나인아이", "debut_year": 2022, "members": 7},
+    {"slug": "aimers", "name": "에이머스", "debut_year": 2022, "members": 6},
+    {"slug": "plave", "name": "플레이브", "debut_year": 2023, "members": 5, "note": "버추얼 아이돌"},
+    {"slug": "boynextdoor", "name": "보이넥스트도어", "debut_year": 2023, "members": 6},
+    {"slug": "8turn", "name": "에잇턴", "debut_year": 2023, "members": 8},
+    {"slug": "whib", "name": "휘브", "debut_year": 2023, "members": 6},
+    {"slug": "sevenus", "name": "세븐어스", "debut_year": 2023, "members": 2},
+    {"slug": "haww", "name": "하우", "debut_year": 2023, "members": 7},
+    {"slug": "eastshine", "name": "이스트샤인", "debut_year": 2023, "members": 5}
+  ]
+}

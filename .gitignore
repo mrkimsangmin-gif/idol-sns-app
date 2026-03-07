@@ -1,0 +1,44 @@
+# 서비스 계정 인증 파일
+06.jobs/credentials/
+.clasp.json
+
+# Python
+__pycache__/
+*.pyc
+
+# 환경 변수
+.env
+
+# Node modules
+node_modules/
+
+# IDE / 개발 도구
+.claude/
+.vscode/
+
+# 개발/빌드 스크립트 (프로덕션 불필요)
+05.namu/
+06.douyin/
+06.jobs/
+04.album_sales/
+
+# 대형 원본 데이터 (분할 JSON으로 대체)
+data/namu-wiki.json
+data/namu-wiki.backup.json
+data/news-archive.csv
+data/old/
+
+# E2E 테스트 빌드
+aimcontents-e2e/node_modules/
+aimcontents-e2e/nul
+aimcontents-e2e/*.tar.gz
+
+# 테스트 전용
+test-namu-search.js
+
+# 개발 문서 (GitHub에 불필요)
+CLAUDE.md
+DEV_HISTORY.md
+MONTHLY_GUIDE.md
+REFACTOR_REPORT_2026.md
+TDD_100_REPORT.md

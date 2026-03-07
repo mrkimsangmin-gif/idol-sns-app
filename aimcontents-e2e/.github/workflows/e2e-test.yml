@@ -1,0 +1,100 @@
+name: E2E Tests
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+  # 매일 오전 3시(KST) = UTC 18:00 자동 실행
+  schedule:
+    - cron: '0 18 * * *'
+  # 수동 실행 버튼
+  workflow_dispatch:
+
+jobs:
+  test:
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    # 모든 run 명령의 기본 작업 디렉토리
+    defaults:
+      run:
+        working-directory: aimcontents-e2e
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify installation
+        run: npx playwright --version
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: List available tests
+        run: npx playwright test --list --project="Desktop Chrome" 2>&1 || true
+
+      - name: Run Playwright tests
+        run: npx playwright test --project="Desktop Chrome"
+        env:
+          CI: true
+
+      - name: Upload test report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: playwright-report
+          path: aimcontents-e2e/playwright-report/
+          retention-days: 30
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: test-results
+          path: aimcontents-e2e/test-results/
+          retention-days: 7
+
+      # 테스트 실패 시 이메일 알림
+      - name: Send failure email
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "[FAIL] aimcontents.com E2E 테스트 실패"
+          body: |
+            aimcontents.com E2E 테스트가 실패했습니다.
+
+            실패 시간: ${{ github.event.head_commit.timestamp || github.event.schedule }}
+            상세 리포트: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            GitHub Actions에서 playwright-report를 다운로드하여 확인하세요.
+          to: mr.kimsangmin@gmail.com
+          from: AIM E2E Bot <${{ secrets.EMAIL_USERNAME }}>
+
+      # 성공 시 주간 요약 (스케줄 실행일 때만)
+      - name: Send weekly success email
+        if: success() && github.event_name == 'schedule'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "[OK] aimcontents.com 주간 테스트 정상"
+          body: |
+            aimcontents.com E2E 테스트가 정상적으로 통과했습니다.
+
+            리포트: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          to: mr.kimsangmin@gmail.com
+          from: AIM E2E Bot <${{ secrets.EMAIL_USERNAME }}>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 기본 메타 (JS에서 동적으로 업데이트) -->
+    <title>인사이트 | 아이엠콘텐츠</title>
+    <meta name="description" content="K-POP & 엔터 산업 전문 인사이트">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="인사이트 | 아이엠콘텐츠">
+    <meta property="og:description" content="K-POP & 엔터 산업 전문 인사이트">
+    <meta property="og:url" content="https://aimcontents.com/insight/post.html">
+    <meta property="og:image" content="https://aimcontents.com/insight/og-insight.png">
+    <meta property="og:site_name" content="아이엠콘텐츠">
+    <meta name="naver-site-verification" content="YOUR_NAVER_CODE">
+
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+
+    <style>
+        :root{--bg:#0b0b11;--bg2:#13131d;--card:#1a1a28;--text:#e4e4ea;--text2:#94949f;--text3:#5e5e6e;--ac:#6c5ce7;--ac2:#a29bfe;--ac-bg:rgba(108,92,231,.1);--bd:#28283a;--r:14px;--mw:740px;--t:.22s ease}
+        *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+        body{font-family:'Pretendard',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.75;-webkit-font-smoothing:antialiased}
+        a{color:var(--ac2);text-decoration:none}a:hover{text-decoration:underline}
+
+        /* Header */
+        .hd{position:sticky;top:0;z-index:50;background:rgba(11,11,17,.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--bd)}
+        .hd-in{max-width:1100px;margin:0 auto;padding:0 20px;height:54px;display:flex;align-items:center;justify-content:space-between}
+        .logo{font-size:14px;font-weight:700;letter-spacing:.4px;display:flex;align-items:center;gap:7px;color:var(--text)}
+        .logo-d{width:7px;height:7px;background:var(--ac);border-radius:50%}
+        .nav{display:flex;gap:20px}
+        .nav a{font-size:13px;color:var(--text2);font-weight:500;transition:color var(--t);text-decoration:none}
+        .nav a:hover{color:var(--ac2);text-decoration:none}
+
+        /* Article */
+        .article{max-width:var(--mw);margin:0 auto;padding:48px 20px 60px}
+
+        .back{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--text3);margin-bottom:28px;transition:color var(--t);text-decoration:none}
+        .back:hover{color:var(--ac2);text-decoration:none}
+        .back svg{width:16px;height:16px}
+
+        .a-cat{font-size:12px;font-weight:600;color:var(--ac2);background:var(--ac-bg);padding:4px 12px;border-radius:12px;display:inline-block;margin-bottom:14px}
+        .a-title{font-size:28px;font-weight:800;line-height:1.4;letter-spacing:-.5px;margin-bottom:14px}
+        .a-meta{font-size:13px;color:var(--text3);margin-bottom:32px;display:flex;gap:14px;flex-wrap:wrap}
+
+        /* Content Styles */
+        .a-body{font-size:15.5px;line-height:1.85;color:var(--text)}
+        .a-body h2{font-size:20px;font-weight:700;margin:36px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--bd);color:var(--text)}
+        .a-body h3{font-size:17px;font-weight:600;margin:28px 0 10px;color:var(--text)}
+        .a-body p{margin-bottom:16px}
+        .a-body strong{color:var(--ac2);font-weight:600}
+        .a-body blockquote{border-left:3px solid var(--ac);padding:12px 18px;margin:20px 0;background:var(--card);border-radius:0 var(--r) var(--r) 0;font-size:14.5px;color:var(--text2)}
+        .a-body ul,.a-body ol{margin:12px 0 16px 20px}
+        .a-body li{margin-bottom:6px}
+        .a-body img{max-width:100%;border-radius:var(--r);margin:20px 0}
+        .a-body a{color:var(--ac2)}
+        .a-body table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+        .a-body th,.a-body td{padding:10px 12px;border:1px solid var(--bd);text-align:left}
+        .a-body th{background:var(--card);font-weight:600}
+        .a-body code{background:var(--card);padding:2px 6px;border-radius:4px;font-size:13.5px}
+        .a-body pre{background:var(--card);padding:16px;border-radius:8px;overflow-x:auto;margin:16px 0}
+        .a-body pre code{background:none;padding:0}
+
+        /* Tags */
+        .a-tags{margin-top:36px;padding-top:20px;border-top:1px solid var(--bd);display:flex;gap:8px;flex-wrap:wrap}
+        .a-tags span{font-size:12.5px;color:var(--text3);padding:4px 12px;border-radius:14px;border:1px solid var(--bd)}
+
+        /* CTA */
+        .cta{margin-top:40px;padding:28px;background:var(--card);border-radius:var(--r);border:1px solid var(--bd);text-align:center}
+        .cta p{font-size:14px;color:var(--text2);margin-bottom:12px}
+        .cta-btn{display:inline-block;padding:10px 24px;background:var(--ac);color:#fff;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;transition:opacity var(--t)}
+        .cta-btn:hover{opacity:.85;text-decoration:none}
+
+        /* Share */
+        .share{margin-top:24px;display:flex;gap:10px;justify-content:center}
+        .share-btn{padding:8px 16px;border-radius:8px;border:1px solid var(--bd);background:transparent;color:var(--text2);font-size:12.5px;font-weight:500;cursor:pointer;transition:all var(--t);font-family:inherit;display:flex;align-items:center;gap:6px}
+        .share-btn:hover{border-color:var(--ac);color:var(--ac2)}
+
+        /* Loading */
+        .ld{text-align:center;padding:80px 20px;color:var(--text3);font-size:14px}
+        .sp{width:28px;height:28px;border:3px solid var(--bd);border-top-color:var(--ac);border-radius:50%;animation:sp .7s linear infinite;margin:0 auto 12px}
+        @keyframes sp{to{transform:rotate(360deg)}}
+
+        .ft{max-width:var(--mw);margin:0 auto;padding:30px 20px;text-align:center;border-top:1px solid var(--bd);font-size:12px;color:var(--text3)}
+
+        @media(max-width:600px){
+            .a-title{font-size:22px}
+            .a-body{font-size:14.5px}
+            .a-body h2{font-size:18px}
+            .article{padding:36px 16px 48px}
+        }
+    </style>
+</head>
+<body>
+<header class="hd"><div class="hd-in">
+    <a href="https://aimcontents.com/" class="logo"><span class="logo-d"></span>AIMCONTENTS</a>
+    <nav class="nav"><a href="https://aimcontents.com/">홈</a><a href="/insight/">인사이트</a></nav>
+</div></header>
+
+<main class="article" id="main">
+    <div class="ld" id="ld"><div class="sp"></div>글을 불러오는 중...</div>
+</main>
+
+<footer class="ft">&copy; 2026 <a href="https://aimcontents.com/" style="color:var(--ac2);text-decoration:none">아이엠콘텐츠</a> · K-POP & 엔터 비즈니스 파트너</footer>
+
+<script>
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+// 📌 아래 URL을 실제 GAS 배포 URL로 교체
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+const API = 'YOUR_GOOGLE_APPS_SCRIPT_DEPLOYMENT_URL';
+
+document.addEventListener('DOMContentLoaded', loadPost);
+
+async function loadPost() {
+    const params = new URLSearchParams(location.search);
+    const slug = params.get('slug');
+    const id = params.get('id');
+
+    if (!slug && !id) { showError('잘못된 접근입니다.'); return; }
+
+    try {
+        let u = `${API}?action=view`;
+        if (slug) u += `&slug=${encodeURIComponent(slug)}`;
+        else u += `&id=${encodeURIComponent(id)}`;
+
+        const r = await fetch(u);
+        const d = await r.json();
+
+        if (d.error || !d.post) { showError('글을 찾을 수 없습니다.'); return; }
+        render(d.post);
+    } catch(e) {
+        showError('데이터를 불러오지 못했습니다.');
+        console.error(e);
+    }
+}
+
+function render(p) {
+    // 메타 태그 동적 업데이트
+    document.title = `${p.title} | 아이엠콘텐츠 인사이트`;
+    setMeta('description', p.summary);
+    setOG('og:title', p.title);
+    setOG('og:description', p.summary);
+    setOG('og:url', location.href);
+    if (p.thumbnail) setOG('og:image', p.thumbnail);
+
+    // Schema.org 구조화 데이터
+    const schema = document.createElement('script');
+    schema.type = 'application/ld+json';
+    schema.textContent = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": p.title,
+        "description": p.summary,
+        "datePublished": p.created_at,
+        "dateModified": p.updated_at || p.created_at,
+        "author": {"@type": "Person", "name": p.author || "아이엠콘텐츠"},
+        "publisher": {"@type": "Organization", "name": "아이엠콘텐츠", "url": "https://aimcontents.com"},
+        "url": location.href,
+        "keywords": (p.seo_keywords || []).join(', ')
+    });
+    document.head.appendChild(schema);
+
+    const main = document.getElementById('main');
+    main.innerHTML = `
+        <a href="/insight/" class="back">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            목록으로
+        </a>
+
+        <span class="a-cat">${esc(p.category)}</span>
+        <h1 class="a-title">${esc(p.title)}</h1>
+        <div class="a-meta">
+            <span>${p.author || '아이엠콘텐츠'}</span>
+            <span>${p.created_at}</span>
+            <span>조회 ${p.view_count || 0}</span>
+        </div>
+
+        <div class="a-body">${p.content}</div>
+
+        ${p.tags && p.tags.length ? `
+        <div class="a-tags">
+            ${p.tags.map(t => `<span>#${esc(t)}</span>`).join('')}
+        </div>` : ''}
+
+        <div class="share">
+            <button class="share-btn" onclick="copyLink()">🔗 링크 복사</button>
+            <button class="share-btn" onclick="shareKakao()">💬 카카오톡</button>
+        </div>
+
+        <div class="cta">
+            <p>K-POP 아이돌 SNS 순위, 중국 트렌드, 업계 채용정보까지 한곳에서 확인하세요.</p>
+            <a href="https://aimcontents.com/" class="cta-btn">aimcontents.com 바로가기 →</a>
+        </div>
+    `;
+}
+
+function showError(msg) {
+    document.getElementById('main').innerHTML = `
+        <div style="text-align:center;padding:80px 20px">
+            <p style="color:var(--text3);font-size:15px;margin-bottom:20px">${msg}</p>
+            <a href="/insight/" style="color:var(--ac2);font-size:14px">← 인사이트 목록으로</a>
+        </div>`;
+}
+
+function copyLink() {
+    navigator.clipboard.writeText(location.href).then(() => alert('링크가 복사되었습니다!'));
+}
+
+function shareKakao() {
+    // 카카오 SDK 미설치 시 fallback
+    if (typeof Kakao !== 'undefined' && Kakao.isInitialized()) {
+        Kakao.Share.sendDefault({
+            objectType: 'feed',
+            content: {
+                title: document.title,
+                description: document.querySelector('meta[name="description"]')?.content || '',
+                imageUrl: document.querySelector('meta[property="og:image"]')?.content || '',
+                link: { mobileWebUrl: location.href, webUrl: location.href }
+            }
+        });
+    } else {
+        // 카카오 SDK 없으면 링크 복사로 대체
+        copyLink();
+    }
+}
+
+function setMeta(name, content) {
+    const el = document.querySelector(`meta[name="${name}"]`);
+    if (el) el.content = content;
+}
+function setOG(prop, content) {
+    const el = document.querySelector(`meta[property="${prop}"]`);
+    if (el) el.content = content;
+}
+function esc(s) {
+    return s ? s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;') : '';
+}
+</script>
+</body>
+</html>

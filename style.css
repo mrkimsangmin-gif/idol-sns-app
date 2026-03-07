@@ -1,3 +1,22 @@
+/* 메뉴 NEW 뱃지 */
+.nav-new-badge {
+    display: inline-block;
+    background-color: #ff3333;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 1px 5px;
+    border-radius: 8px;
+    margin-left: 4px;
+    vertical-align: super;
+    line-height: 1;
+    animation: newBadgePulse 2s ease-in-out 3;
+}
+@keyframes newBadgePulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+}
+
 .btn-gradient {
     background: linear-gradient(135deg, #0061f2 0%, #00c6f9 100%);
     color: white;
@@ -685,6 +704,786 @@
     background: #f8f9fa;
     border-radius: 8px;
     border: 1px solid #e9ecef;
+}
+
+/* ========================================
+   나무위키 검색 페이지
+   ======================================== */
+
+.namu-search-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 24px; /* 탭 제거 후 검색창 상단 여백 강화 */
+}
+
+/* 추천 질문 칩 영역 */
+.namu-chips-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 12px 0 4px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.namu-chips-container:empty {
+    display: none; /* 칩이 없으면 영역 숨김 */
+}
+
+.namu-chips-label {
+    font-size: 0.75rem;
+    color: #868e96;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.namu-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 14px;
+    font-size: 0.82rem;
+    color: #495057;
+    background: #f1f3f5;
+    border: 1px solid #dee2e6;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    line-height: 1.4;
+}
+
+.namu-chip:hover {
+    background: #e7f5ff;
+    border-color: #74c0fc;
+    color: #1971c2;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 97, 242, 0.12);
+}
+
+.namu-chip:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.namu-chip-icon {
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+
+/* 모바일 대응: 칩이 2줄 이상일 때 스크롤 대신 줄바꿈 */
+@media (max-width: 480px) {
+    .namu-chip {
+        font-size: 0.76rem;
+        padding: 5px 10px;
+    }
+}
+
+.namu-search-input {
+    border-radius: 12px;
+    padding: 14px 20px;
+    font-size: 1.1rem;
+    border: 2px solid #e0e0e0;
+    transition: all 0.2s;
+}
+
+.namu-search-input:focus {
+    border-color: #0061f2;
+    box-shadow: 0 0 0 4px rgba(0, 97, 242, 0.1);
+}
+
+.namu-search-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    border: 1px solid #e0e0e0;
+    z-index: 1000;
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 4px;
+}
+
+.namu-search-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: background 0.15s;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.namu-search-item:last-child {
+    border-bottom: none;
+}
+
+.namu-search-item:hover {
+    background: #f8f9fa;
+}
+
+.namu-search-gender {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.namu-search-gender.female {
+    background: #fce4ec;
+    color: #e91e63;
+}
+
+.namu-search-gender.male {
+    background: #e3f2fd;
+    color: #1976d2;
+}
+
+.namu-search-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.namu-search-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.namu-search-meta {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.namu-gender-filter {
+    display: flex;
+    gap: 6px;
+}
+
+.namu-filter-btn {
+    padding: 6px 14px;
+    border: 1px solid #dee2e6;
+    background: white;
+    border-radius: 16px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #666;
+}
+
+.namu-filter-btn:hover {
+    background: #f8f9fa;
+    border-color: #adb5bd;
+}
+
+.namu-filter-btn.active {
+    background: #e7f0ff;
+    border-color: #0061f2;
+    color: #0061f2;
+}
+
+.namu-group-card {
+    background: white;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    border: 1px solid #f0f0f0;
+    transition: all 0.2s;
+    cursor: pointer;
+    height: 100%;
+    text-align: center;
+}
+
+.namu-group-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    border-color: #e0e0e0;
+}
+
+.namu-group-card-header {
+    margin-bottom: 8px;
+}
+
+.namu-gender-badge {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+
+.namu-gender-badge.female {
+    background: #fce4ec;
+    color: #e91e63;
+}
+
+.namu-gender-badge.male {
+    background: #e3f2fd;
+    color: #1976d2;
+}
+
+.namu-group-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 2px;
+}
+
+.namu-group-name-en {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 6px;
+}
+
+.namu-group-meta {
+    font-size: 0.75rem;
+    color: #aaa;
+    margin-bottom: 4px;
+}
+
+.namu-group-meta span + span::before {
+    content: ' · ';
+}
+
+.namu-group-stats {
+    font-size: 0.75rem;
+    color: #bbb;
+}
+
+.namu-detail-tabs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.namu-detail-tabs::-webkit-scrollbar {
+    display: none;
+}
+
+.namu-detail-tab {
+    padding: 10px 18px;
+    border: none;
+    background: #f5f5f5;
+    border-radius: 20px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #666;
+}
+
+.namu-detail-tab:hover {
+    background: #e9ecef;
+}
+
+.namu-detail-tab.active {
+    background: linear-gradient(135deg, #0061f2 0%, #00c6f9 100%);
+    color: white;
+}
+
+.namu-ranking-table {
+    font-size: 0.9rem;
+}
+
+.namu-ranking-table thead th {
+    background: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: #555;
+    position: sticky;
+    top: 0;
+}
+
+.namu-ranking-table tbody tr:hover {
+    background: #f0f7ff;
+}
+
+.namu-album-table {
+    font-size: 0.9rem;
+}
+
+.namu-album-table thead th {
+    background: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.namu-album-table tbody tr:hover {
+    background: #f0f7ff;
+}
+
+@media (max-width: 576px) {
+    .namu-search-input {
+        font-size: 1rem;
+        padding: 12px 16px;
+    }
+
+    .namu-group-card {
+        padding: 12px;
+    }
+
+    .namu-ranking-table {
+        font-size: 0.8rem;
+    }
+
+    .namu-detail-tabs {
+        gap: 4px;
+    }
+
+    .namu-detail-tab {
+        padding: 8px 14px;
+        font-size: 0.85rem;
+    }
+}
+
+/* ========================================
+   나무위키 스마트 검색 — 채팅 UI
+   ======================================== */
+
+/* 채팅 컨테이너 */
+.chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* --- 사용자 질문 말풍선 (우측 정렬) --- */
+.chat-bubble-user {
+    align-self: flex-end;
+    max-width: 80%;
+    background: #e7f0ff;
+    color: #1a1a1a;
+    border-radius: 18px 18px 4px 18px;
+    padding: 12px 18px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.5;
+    word-break: break-word;
+    box-shadow: 0 1px 4px rgba(0, 97, 242, 0.08);
+}
+
+/* --- AI 답변 영역 (좌측 정렬) --- */
+.chat-bubble-ai {
+    align-self: flex-start;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+/* AI 반짝이 아이콘 */
+.chat-ai-icon {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+.chat-ai-icon svg {
+    width: 22px;
+    height: 22px;
+}
+
+/* AI 답변 본문 래퍼 */
+.chat-ai-body {
+    flex: 1;
+    min-width: 0;
+}
+
+/* AI 답변 내부 콘텐츠: 카드 없이 깔끔한 텍스트 */
+.chat-ai-content {
+    font-size: 0.92rem;
+    color: #1a1a1a;
+    line-height: 1.75;
+}
+
+/* --- 마크다운 타이포그래피 (AI 답변 내부) --- */
+.chat-ai-content h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #222;
+    margin: 20px 0 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #eee;
+}
+.chat-ai-content h3:first-child {
+    margin-top: 0;
+}
+.chat-ai-content h4 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #333;
+    margin: 16px 0 6px;
+}
+.chat-ai-content p {
+    margin: 0 0 10px;
+}
+.chat-ai-content ul, .chat-ai-content ol {
+    padding-left: 20px;
+    margin: 4px 0 12px;
+}
+.chat-ai-content li {
+    padding: 3px 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+.chat-ai-content li::marker {
+    color: #888;
+}
+.chat-ai-content strong {
+    font-weight: 700;
+    color: #222;
+}
+.chat-ai-content hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 16px 0;
+}
+.chat-ai-content blockquote {
+    border-left: 3px solid #d0d0d0;
+    padding-left: 12px;
+    margin: 8px 0;
+    color: #666;
+    font-size: 0.88rem;
+}
+
+/* AI 답변 내부 테이블 */
+.chat-ai-content .table {
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+}
+.chat-ai-content .table th {
+    background: #f8f9fa;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #555;
+    border-bottom: 2px solid #dee2e6;
+    white-space: nowrap;
+}
+.chat-ai-content .table tbody tr:hover {
+    background: #f0f7ff;
+}
+
+/* --- 로딩 상태 (AI 답변 자리) --- */
+.chat-ai-loading {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #888;
+    font-size: 0.9rem;
+    padding: 4px 0;
+}
+.chat-ai-loading .dot-pulse {
+    display: inline-flex;
+    gap: 4px;
+}
+.chat-ai-loading .dot-pulse span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #aaa;
+    animation: dotPulse 1.4s infinite ease-in-out both;
+}
+.chat-ai-loading .dot-pulse span:nth-child(1) { animation-delay: 0s; }
+.chat-ai-loading .dot-pulse span:nth-child(2) { animation-delay: 0.2s; }
+.chat-ai-loading .dot-pulse span:nth-child(3) { animation-delay: 0.4s; }
+@keyframes dotPulse {
+    0%, 80%, 100% { opacity: 0.3; transform: scale(0.8); }
+    40% { opacity: 1; transform: scale(1); }
+}
+
+/* --- 상세보기 링크 / 면책조항 (AI 본문 하단) --- */
+.chat-ai-detail-link {
+    margin-top: 10px;
+}
+.chat-ai-detail-link a {
+    font-size: 0.85rem;
+    color: #0061f2;
+    text-decoration: none;
+    font-weight: 500;
+}
+.chat-ai-detail-link a:hover {
+    text-decoration: underline;
+}
+.chat-ai-disclaimer {
+    margin-top: 12px;
+    font-size: 0.7rem;
+    color: #aaa;
+}
+
+/* --- 👍👎 피드백 버튼 --- */
+.feedback-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid #f0f0f0;
+}
+.feedback-label {
+    font-size: 0.75rem;
+    color: #aaa;
+    flex: 1;
+}
+.feedback-btn {
+    background: none;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    padding: 2px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+    line-height: 1.7;
+}
+.feedback-btn:hover {
+    border-color: #aaa;
+    background: #f5f5f5;
+}
+.feedback-btn.feedback-good:hover {
+    border-color: #4caf50;
+    background: #f1f8f1;
+}
+.feedback-btn.feedback-bad:hover {
+    border-color: #e53935;
+    background: #fdf1f1;
+}
+.feedback-done { font-size: 0.8rem; }
+.feedback-done-good { color: #2e7d32; }
+.feedback-done-bad  { color: #888; }
+.feedback-chip {
+    background: none;
+    border: 1px solid #e0e0e0;
+    border-radius: 14px;
+    padding: 2px 10px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    color: #555;
+    transition: background 0.15s, border-color 0.15s;
+    white-space: nowrap;
+}
+.feedback-chip:hover {
+    border-color: #e53935;
+    background: #fdf1f1;
+    color: #c62828;
+}
+
+/* --- 기존 호환: namu-smart-table / comparison / list --- */
+.namu-smart-table {
+    font-size: 0.85rem;
+    margin-bottom: 0;
+}
+.namu-smart-table th {
+    background: #f8f9fa;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #555;
+    border-bottom: 2px solid #dee2e6;
+    white-space: nowrap;
+}
+.namu-smart-table tbody tr:hover {
+    background: #f0f7ff;
+}
+.namu-comparison-table {
+    font-size: 0.9rem;
+    margin-bottom: 16px;
+}
+.namu-comparison-table th {
+    background: #f8f9fa;
+    font-weight: 700;
+}
+.namu-comparison-table td:first-child {
+    font-weight: 600;
+    color: #555;
+    width: 100px;
+}
+.namu-smart-list {
+    padding-left: 20px;
+    margin: 0;
+}
+.namu-smart-list li {
+    padding: 3px 0;
+    font-size: 0.9rem;
+}
+
+/* --- 호환: .namu-smart-answer 래퍼 (execute 함수용) --- */
+/* 채팅 AI body 내부에서는 카드 스타일 제거, 깔끔한 텍스트로 표시 */
+.chat-ai-body .namu-smart-answer {
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-left: none;
+    overflow: visible;
+}
+.chat-ai-body .namu-smart-answer-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 0 8px;
+}
+.chat-ai-body .namu-smart-icon {
+    font-size: 1rem;
+    flex-shrink: 0;
+}
+.chat-ai-body .namu-smart-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #222;
+    flex: 1;
+}
+.chat-ai-body .namu-smart-close {
+    display: none;
+}
+.chat-ai-body .namu-smart-ai-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    background: linear-gradient(135deg, #7c3aed, #2563eb);
+    color: white;
+    border-radius: 10px;
+    font-size: 0.65rem;
+    font-weight: 700;
+}
+.chat-ai-body .namu-smart-answer-body {
+    padding: 0;
+}
+.chat-ai-body .namu-smart-answer-text {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+.chat-ai-body .namu-smart-detail-link {
+    margin-top: 10px;
+    padding: 0;
+    border-top: none;
+}
+.chat-ai-body .namu-smart-detail-link a {
+    font-size: 0.85rem;
+    color: #0061f2;
+    text-decoration: none;
+    font-weight: 500;
+}
+.chat-ai-body .namu-smart-detail-link a:hover {
+    text-decoration: underline;
+}
+.chat-ai-body .namu-smart-ai-disclaimer {
+    margin-top: 12px;
+    padding: 0;
+    font-size: 0.7rem;
+    color: #aaa;
+    background: none;
+    border-top: none;
+}
+
+/* --- 검색 진행 표시 (Perplexity 스타일 + 실제 이벤트 동기화) --- */
+.search-progress {
+    padding: 8px 0;
+}
+.chat-bubble-ai .search-progress {
+    padding: 0;
+}
+.progress-step {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    opacity: 0;
+    transform: translateY(6px);
+    animation: progressFadeIn 0.35s ease forwards;
+}
+/* 완료 상태: 체크마크 + 흐려짐 */
+.progress-step.done {
+    color: #999;
+}
+.progress-step.done .progress-icon {
+    color: #4CAF50;
+}
+.progress-step.done .progress-text {
+    text-decoration: none;
+}
+/* 활성 상태: 점 애니메이션 */
+.progress-step.active {
+    color: #333;
+    font-weight: 500;
+}
+.progress-step.active .progress-icon {
+    display: inline-block;
+    animation: progressSpin 1.2s ease-in-out infinite;
+}
+/* 점 애니메이션 (...이 순차적으로 등장) */
+.progress-dots::after {
+    content: '';
+    animation: progressDots 1.5s steps(4, end) infinite;
+}
+@keyframes progressDots {
+    0%   { content: ''; }
+    25%  { content: '.'; }
+    50%  { content: '..'; }
+    75%  { content: '...'; }
+    100% { content: ''; }
+}
+/* fade-in 등장 */
+@keyframes progressFadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+/* 아이콘 회전 (⏳) */
+@keyframes progressSpin {
+    0%   { transform: rotate(0deg); }
+    50%  { transform: rotate(180deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* --- 모바일 반응형 --- */
+@media (max-width: 576px) {
+    .chat-bubble-user {
+        max-width: 90%;
+        font-size: 0.9rem;
+        padding: 10px 14px;
+    }
+    .chat-ai-content {
+        font-size: 0.87rem;
+    }
+    .chat-ai-content h3 {
+        font-size: 0.95rem;
+    }
+    .chat-ai-content .table {
+        font-size: 0.75rem;
+    }
+    .namu-smart-table {
+        font-size: 0.75rem;
+    }
+    .namu-comparison-table {
+        font-size: 0.8rem;
+    }
 }
 
 /* ========================================

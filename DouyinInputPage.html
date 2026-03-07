@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base target="_top">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도우인 챌린지 입력</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .step-title {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: #333;
+        }
+
+        .step-title span {
+            font-size: 20px;
+        }
+
+        /* 업로드 영역 */
+        .upload-area {
+            border: 2px dashed #ddd;
+            border-radius: 12px;
+            padding: 40px 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .upload-area:hover,
+        .upload-area.dragover {
+            border-color: #0061f2;
+            background: #f0f7ff;
+        }
+
+        .upload-area p {
+            color: #666;
+        }
+
+        .preview-image {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        /* 챌린지 목록 */
+        .challenge-list {
+            list-style: none;
+        }
+
+        .challenge-item {
+            display: flex;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+            gap: 12px;
+        }
+
+        .challenge-item:last-child {
+            border-bottom: none;
+        }
+
+        .rank {
+            font-weight: 700;
+            color: #0061f2;
+            min-width: 28px;
+            font-size: 16px;
+        }
+
+        .title {
+            flex: 1;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .participants {
+            color: #888;
+            font-size: 12px;
+            white-space: nowrap;
+        }
+
+        .status {
+            font-size: 16px;
+        }
+
+        .legend {
+            font-size: 12px;
+            color: #888;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        /* 링크 입력 */
+        .link-input {
+            margin-bottom: 16px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .link-input:last-of-type {
+            border-bottom: none;
+        }
+
+        .link-input label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .link-input label .rank-badge {
+            display: inline-block;
+            background: #0061f2;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-right: 8px;
+        }
+
+        .link-input textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            resize: vertical;
+            min-height: 60px;
+            font-family: inherit;
+        }
+
+        .link-input textarea:focus {
+            outline: none;
+            border-color: #0061f2;
+        }
+
+        /* 버튼 */
+        .btn {
+            background: linear-gradient(135deg, #0061f2 0%, #00c6f9 100%);
+            color: white;
+            border: none;
+            padding: 14px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.1s;
+        }
+
+        .btn:hover {
+            transform: translateY(-1px);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+
+        /* 상태 */
+        .hidden {
+            display: none !important;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #0061f2;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 16px;
+        }
+
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .success-message {
+            background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+            color: #155724;
+            padding: 24px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .success-message p:first-child {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>🇨🇳 도우인 챌린지 입력</h1>
+        <p>랭킹 스크린샷 업로드 → AI 분석 → 링크 입력</p>
+    </div>
+
+    <!-- Step 1: 이미지 업로드 -->
+    <div class="card" id="step1">
+        <div class="step-title">
+            <span>📸</span> Step 1: 스크린샷 업로드
+        </div>
+
+        <!-- 메인 이미지 -->
+        <p style="margin-bottom:8px; font-weight:bold;">1. 메인 랭킹 스크린샷 (필수)</p>
+        <div class="upload-area" id="mainUploadArea">
+            <p>📷 메인 스크린샷 선택<br><small>전체 랭킹 화면</small></p>
+            <input type="file" id="mainFileInput" accept="image/*" style="display:none">
+        </div>
+        <img id="mainPreview" class="preview-image hidden" style="margin-bottom: 20px;">
+
+        <!-- 크롭 이미지 (선택) -->
+        <p style="margin-bottom:8px; font-weight:bold;">2. 썸네일용 크롭 이미지 (선택)</p>
+        <p style="font-size:12px; color:#666; margin-bottom:8px;">* 좌측 순위+썸네일 부분만 길게 자른 이미지 (좌표 정확도 향상)</p>
+        <div class="upload-area" id="cropUploadArea" style="border-style: dotted;">
+            <p>✂️ 크롭 이미지 선택<br><small>순위와 썸네일만 있는 세로 이미지</small></p>
+            <input type="file" id="cropFileInput" accept="image/*" style="display:none">
+        </div>
+        <img id="cropPreview" class="preview-image hidden">
+
+        <br><br>
+        <button class="btn" id="analyzeBtn" disabled>🔍 AI 분석 시작</button>
+        <button class="btn btn-secondary" id="editExistingBtn">📝 기존 랭크 URL 입력</button>
+    </div>
+
+    <!-- Loading -->
+    <div class="card hidden" id="loadingCard">
+        <div class="loading">
+            <div class="spinner"></div>
+            <p id="loadingText">이미지 분석 중...</p>
+        </div>
+    </div>
+
+    <!-- Error -->
+    <div class="error-message hidden" id="errorCard"></div>
+
+    <!-- Step 2: 추출 결과 -->
+    <div class="card hidden" id="step2">
+        <div class="step-title">
+            <span>📋</span> Step 2: 추출된 챌린지 목록
+        </div>
+        <ul class="challenge-list" id="challengeList"></ul>
+        <div class="legend">
+            ✅ 기존 입력됨 (스킵) &nbsp;&nbsp; 🆕 신규 (링크 입력 필요)
+        </div>
+    </div>
+
+    <!-- Step 3: 링크 입력 -->
+    <div class="card hidden" id="step3">
+        <div class="step-title">
+            <span>🔗</span> Step 3: 신규 항목 링크 입력
+        </div>
+        <p style="font-size: 13px; color: #666; margin-bottom: 16px;">
+            도우인 앱에서 대표 영상의 공유 텍스트를 붙여넣어주세요.
+        </p>
+        <div id="linkInputs"></div>
+        <button class="btn" id="saveBtn">💾 저장하기</button>
+    </div>
+
+    <!-- Step 4: 완료 -->
+    <div class="card hidden" id="successCard">
+        <div class="success-message">
+            <p>✅</p>
+            <p><strong>저장 완료!</strong></p>
+            <p id="savedCount" style="font-size: 14px; margin-top: 8px;"></p>
+        </div>
+        <button class="btn btn-secondary" onclick="location.reload()">새로 입력하기</button>
+    </div>
+
+    <!-- 기존 항목 URL 수정 -->
+    <div class="card hidden" id="editExistingCard">
+        <div class="step-title">
+            <span>📝</span> 기존 항목 URL 수정
+        </div>
+        <p style="font-size: 13px; color: #666; margin-bottom: 16px;">
+            URL이 없는 항목에 대표 영상 공유 텍스트를 붙여넣어주세요.
+        </p>
+        <div id="existingLinkInputs"></div>
+        <button class="btn" id="saveExistingBtn">💾 URL 저장</button>
+        <button class="btn btn-secondary" onclick="location.reload()">취소</button>
+    </div>
+
+    <script>
+        let mainImageBase64 = null;
+        let cropImageBase64 = null;
+        let challenges = [];
+
+        // DOM
+        const mainFileInput = document.getElementById('mainFileInput');
+        const cropFileInput = document.getElementById('cropFileInput');
+        const mainUploadArea = document.getElementById('mainUploadArea');
+        const cropUploadArea = document.getElementById('cropUploadArea');
+        const mainPreview = document.getElementById('mainPreview');
+        const cropPreview = document.getElementById('cropPreview');
+        const analyzeBtn = document.getElementById('analyzeBtn');
+        const saveBtn = document.getElementById('saveBtn');
+
+        // 메인 이미지 이벤트
+        setupUpload(mainUploadArea, mainFileInput, 'main');
+        // 크롭 이미지 이벤트
+        setupUpload(cropUploadArea, cropFileInput, 'crop');
+
+        function setupUpload(area, input, type) {
+            area.addEventListener('click', () => input.click());
+            input.addEventListener('change', (e) => {
+                if (e.target.files[0]) processFile(e.target.files[0], type);
+            });
+            area.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                area.classList.add('dragover');
+            });
+            area.addEventListener('dragleave', () => {
+                area.classList.remove('dragover');
+            });
+            area.addEventListener('drop', (e) => {
+                e.preventDefault();
+                area.classList.remove('dragover');
+                if (e.dataTransfer.files[0]) processFile(e.dataTransfer.files[0], type);
+            });
+        }
+
+        function processFile(file, type) {
+            if (!file.type.startsWith('image/')) {
+                alert('이미지 파일만 업로드 가능합니다.');
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                const base64 = e.target.result.split(',')[1];
+                if (type === 'main') {
+                    mainImageBase64 = base64;
+                    mainPreview.src = e.target.result;
+                    mainPreview.classList.remove('hidden');
+                    document.getElementById('mainUploadArea').innerHTML = '<p>✅ 메인 이미지 선택됨</p>';
+                    analyzeBtn.disabled = false;
+                } else {
+                    cropImageBase64 = base64;
+                    cropPreview.src = e.target.result;
+                    cropPreview.classList.remove('hidden');
+                    document.getElementById('cropUploadArea').innerHTML = '<p>✅ 크롭 이미지 선택됨</p>';
+                }
+            };
+            reader.readAsDataURL(file);
+        }
+
+        // 분석 버튼
+        analyzeBtn.addEventListener('click', () => {
+            if (!mainImageBase64) return;
+
+            let loadingMsg = '이미지 분석 중... (약 15초 소요)';
+            if (cropImageBase64) loadingMsg = '듀얼 모드 분석 중... (Main + Crop)';
+
+            showLoading(loadingMsg);
+            hide('step1');
+
+            google.script.run
+                .withSuccessHandler(onAnalyzeSuccess)
+                .withFailureHandler(onError)
+                .analyzeRankingImage(mainImageBase64, cropImageBase64);
+        });
+
+        function onAnalyzeSuccess(result) {
+            hideLoading();
+            challenges = result;
+
+            // 챌린지 목록 표시
+            const list = document.getElementById('challengeList');
+            list.innerHTML = challenges.map(c => `
+        <li class="challenge-item">
+          <span class="rank">${c.rank}</span>
+          <span class="title">${c.title_zh}</span>
+          <span class="participants">${c.participants_raw}</span>
+          <span class="status">${c.isNew ? '🆕' : '✅'}</span>
+        </li>
+      `).join('');
+
+            show('step2');
+
+            // 신규 항목 링크 입력 필드 생성
+            const newItems = challenges.filter(c => c.isNew);
+            if (newItems.length > 0) {
+                const inputs = document.getElementById('linkInputs');
+                inputs.innerHTML = newItems.map(c => `
+          <div class="link-input">
+            <label>
+              <span class="rank-badge">${c.rank}위</span>
+              ${c.title_zh}
+            </label>
+            <textarea 
+              id="link_${c.rank}" 
+              placeholder="예: 7.12 复制打开抖音,看看【作者的作品】... https://v.douyin.com/..."
+            ></textarea>
+          </div>
+        `).join('');
+                show('step3');
+            } else {
+                // 신규 항목 없으면 바로 저장 (순위만 업데이트)
+                saveData();
+            }
+        }
+
+        // 저장 버튼
+        saveBtn.addEventListener('click', saveData);
+
+        function saveData() {
+            const newItems = challenges.filter(c => c.isNew);
+
+            // 입력된 링크 수집
+            newItems.forEach(c => {
+                const textarea = document.getElementById(`link_${c.rank}`);
+                if (textarea) {
+                    c.video_share_text = textarea.value.trim();
+                }
+            });
+
+            hide('step2');
+            hide('step3');
+            showLoading('저장 및 AI 요약 생성 중...');
+
+            google.script.run
+                .withSuccessHandler(onSaveSuccess)
+                .withFailureHandler(onError)
+                .saveChallenges(challenges);
+        }
+
+        function onSaveSuccess(result) {
+            hideLoading();
+            document.getElementById('savedCount').innerHTML =
+                `신규 ${result.newCount}개 저장<br>기존 ${result.updatedCount}개 순위 업데이트`;
+            show('successCard');
+        }
+
+        function onError(error) {
+            hideLoading();
+            const errorCard = document.getElementById('errorCard');
+            errorCard.textContent = '⚠️ 오류: ' + (error.message || error);
+            show('errorCard');
+            show('step1');
+        }
+
+        // 유틸
+        function show(id) { document.getElementById(id).classList.remove('hidden'); }
+        function hide(id) { document.getElementById(id).classList.add('hidden'); }
+        function showLoading(text) {
+            document.getElementById('loadingText').textContent = text;
+            show('loadingCard');
+        }
+        function hideLoading() { hide('loadingCard'); }
+
+        // ========================================
+        // 기존 항목 URL 수정 기능
+        // ========================================
+        const editExistingBtn = document.getElementById('editExistingBtn');
+        const saveExistingBtn = document.getElementById('saveExistingBtn');
+
+        editExistingBtn.addEventListener('click', () => {
+            showLoading('기존 챌린지 목록 불러오는 중...');
+            hide('step1');
+
+            google.script.run
+                .withSuccessHandler(onLoadExistingSuccess)
+                .withFailureHandler(onError)
+                .getExistingChallengesForEdit();
+        });
+
+        function onLoadExistingSuccess(existingChallenges) {
+            hideLoading();
+            challenges = existingChallenges;
+
+            const inputs = document.getElementById('existingLinkInputs');
+            inputs.innerHTML = existingChallenges.map(c => {
+                const hasUrl = c.video_url && c.video_url.trim() !== '';
+                return `
+                <div class="link-input">
+                    <label>
+                        <span class="rank-badge">${c.rank}위</span>
+                        ${c.title_zh}
+                        ${hasUrl ? '<span style="color: #28a745; font-size: 12px;">✅ URL 입력됨</span>' : '<span style="color: #dc3545; font-size: 12px;">❌ URL 없음</span>'}
+                    </label>
+                    <textarea 
+                        id="existing_link_${c.rank}" 
+                        placeholder="${hasUrl ? '이미 입력된 URL: ' + c.video_url : '예: 7.12 复制打开抖音,看看【作者的作品】... https://v.douyin.com/...'}"
+                    >${hasUrl ? '' : ''}</textarea>
+                    ${hasUrl ? '<small style="color: #666;">현재: ' + c.video_url + '</small>' : ''}
+                </div>
+                `;
+            }).join('');
+
+            show('editExistingCard');
+        }
+
+        saveExistingBtn.addEventListener('click', () => {
+            // 입력된 URL 수집
+            const updates = [];
+            challenges.forEach(c => {
+                const textarea = document.getElementById(`existing_link_${c.rank}`);
+                if (textarea && textarea.value.trim()) {
+                    updates.push({
+                        rank: c.rank,
+                        title_zh: c.title_zh,
+                        video_share_text: textarea.value.trim()
+                    });
+                }
+            });
+
+            if (updates.length === 0) {
+                alert('수정할 URL을 입력해주세요.');
+                return;
+            }
+
+            hide('editExistingCard');
+            showLoading('URL 저장 중...');
+
+            google.script.run
+                .withSuccessHandler(onSaveExistingSuccess)
+                .withFailureHandler(onError)
+                .updateExistingUrls(updates);
+        });
+
+        function onSaveExistingSuccess(result) {
+            hideLoading();
+            document.getElementById('savedCount').innerHTML =
+                `${result.updatedCount}개 URL 업데이트 완료`;
+            show('successCard');
+        }
+
+        /**
+         * 🔥 Canvas 기반 썸네일 크롭 (클라이언트 사이드)
+         * 서버에서 받은 bbox 좌표를 사용하여 실제 썸네일 이미지 추출
+         * 
+         * @param {string} imageDataUrl - 크롭 이미지의 Data URL
+         * @param {Object} bbox - {x, y, width, height}
+         * @returns {Promise<string>} 크롭된 썸네일의 Data URL
+         */
+        function cropThumbnailOnCanvas(imageDataUrl, bbox) {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                img.onload = () => {
+                    const canvas = document.createElement('canvas');
+                    canvas.width = bbox.width;
+                    canvas.height = bbox.height;
+
+                    const ctx = canvas.getContext('2d');
+                    ctx.drawImage(
+                        img,
+                        bbox.x, bbox.y, bbox.width, bbox.height,  // source
+                        0, 0, bbox.width, bbox.height              // destination
+                    );
+
+                    resolve(canvas.toDataURL('image/jpeg', 0.9));
+                };
+                img.onerror = reject;
+                img.src = imageDataUrl;
+            });
+        }
+
+        /**
+         * 모든 챌린지의 썸네일을 크롭하여 개별 이미지로 추출
+         * @param {string} cropImageDataUrl - 크롭 이미지 Data URL
+         * @param {Array} challenges - 챌린지 배열 (thumbnail_bbox 포함)
+         * @returns {Promise<Array>} 크롭된 썸네일 Data URL 배열
+         */
+        async function extractAllThumbnails(cropImageDataUrl, challenges) {
+            const thumbnails = [];
+
+            for (const challenge of challenges) {
+                if (challenge.thumbnail_bbox) {
+                    try {
+                        const thumbDataUrl = await cropThumbnailOnCanvas(
+                            cropImageDataUrl,
+                            challenge.thumbnail_bbox
+                        );
+                        thumbnails.push({
+                            rank: challenge.rank,
+                            dataUrl: thumbDataUrl
+                        });
+                    } catch (e) {
+                        console.error(`썸네일 크롭 실패 (${challenge.rank}위):`, e);
+                    }
+                }
+            }
+
+            return thumbnails;
+        }
+    </script>
+</body>
+
+</html>

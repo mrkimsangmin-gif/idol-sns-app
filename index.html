@@ -7,10 +7,12 @@
 
     <!-- SEO Meta Tags -->
     <link rel="icon" type="image/png" href="/favicon_aimcontents.png">
-    <title>아이돌 SNS 팔로워 순위 - 웨이보·빌리빌리·유튜브·스포티파이 | 아이엠콘텐츠</title>
+    <!-- 채용 JSON 사전 로드: JS 파싱 중 백그라운드 다운로드 -->
+    <link rel="preload" href="/data/jobs.json" as="fetch" crossorigin="anonymous">
+    <title>아이돌 SNS 팔로워 순위 - 웨이보·빌리빌리·유튜브·스포티파이·인스타그램 | 아이엠콘텐츠</title>
     <meta name="description"
         content="K-POP 아이돌 SNS 팔로워 순위, 컴백 일정, 실시간 엔터테인먼트 뉴스를 한눈에 확인하세요. 웨이보, 빌리빌리, 유튜브, 스포티파이 등 주요 SNS 플랫폼의 최신 순위 정보를 제공합니다.">
-    <meta name="keywords" content="아이돌 순위, 아이돌 SNS 순위, K-POP 팔로워 순위, 웨이보 팔로워, 아이돌 빌리빌리, 아이돌 유튜브 구독자, 아이돌 스포티파이, QQ뮤직, 컴백 일정, 엔터뉴스, 아이엠콘텐츠">
+    <meta name="keywords" content="아이돌 순위, 아이돌 SNS 순위, K-POP 팔로워 순위, 웨이보 팔로워, 아이돌 빌리빌리, 아이돌 유튜브 구독자, 아이돌 스포티파이, QQ뮤직, 아이돌 인스타그램, 컴백 일정, 엔터뉴스, 아이엠콘텐츠">
     <meta name="author" content="아이엠콘텐츠 (Aimcontents)">
 
     <!-- SEO: canonical URL -->
@@ -108,6 +110,36 @@
     }
     </script>
 
+    <!-- Schema.org K-POP 아이돌 데이터베이스 (AI 봇 인용 최적화) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "K-POP 아이돌 데이터베이스 (팬덤, 소속사, 데뷔일)",
+      "description": "1세대부터 5세대까지 K-POP 아이돌 그룹의 세대, 팬덤명, 소속사, 리더, 데뷔일, SNS 팔로워 정보를 제공합니다.",
+      "url": "https://aimcontents.com/namu",
+      "numberOfItems": 173,
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "item": {"@type": "MusicGroup", "name": "방탄소년단(BTS)", "genre": "K-POP", "foundingDate": "2013-06-13", "numberOfEmployees": 7}},
+        {"@type": "ListItem", "position": 2, "item": {"@type": "MusicGroup", "name": "세븐틴(SEVENTEEN)", "genre": "K-POP", "foundingDate": "2015-05-26", "numberOfEmployees": 13}},
+        {"@type": "ListItem", "position": 3, "item": {"@type": "MusicGroup", "name": "블랙핑크(BLACKPINK)", "genre": "K-POP", "foundingDate": "2016-08-08", "numberOfEmployees": 4}},
+        {"@type": "ListItem", "position": 4, "item": {"@type": "MusicGroup", "name": "스트레이키즈(Stray Kids)", "genre": "K-POP", "foundingDate": "2018-03-25", "numberOfEmployees": 8}},
+        {"@type": "ListItem", "position": 5, "item": {"@type": "MusicGroup", "name": "에스파(aespa)", "genre": "K-POP", "foundingDate": "2020-11-17", "numberOfEmployees": 4}},
+        {"@type": "ListItem", "position": 6, "item": {"@type": "MusicGroup", "name": "뉴진스(NewJeans)", "genre": "K-POP", "foundingDate": "2022-07-22", "numberOfEmployees": 5}},
+        {"@type": "ListItem", "position": 7, "item": {"@type": "MusicGroup", "name": "아이브(IVE)", "genre": "K-POP", "foundingDate": "2021-12-01", "numberOfEmployees": 6}},
+        {"@type": "ListItem", "position": 8, "item": {"@type": "MusicGroup", "name": "르세라핌(LE SSERAFIM)", "genre": "K-POP", "foundingDate": "2022-05-02", "numberOfEmployees": 5}},
+        {"@type": "ListItem", "position": 9, "item": {"@type": "MusicGroup", "name": "(여자)아이들((G)I-DLE)", "genre": "K-POP", "foundingDate": "2018-05-02", "numberOfEmployees": 5}},
+        {"@type": "ListItem", "position": 10, "item": {"@type": "MusicGroup", "name": "있지(ITZY)", "genre": "K-POP", "foundingDate": "2019-02-12", "numberOfEmployees": 5}},
+        {"@type": "ListItem", "position": 11, "item": {"@type": "MusicGroup", "name": "엔하이픈(ENHYPEN)", "genre": "K-POP", "foundingDate": "2020-11-30", "numberOfEmployees": 7}},
+        {"@type": "ListItem", "position": 12, "item": {"@type": "MusicGroup", "name": "투모로우바이투게더(TXT)", "genre": "K-POP", "foundingDate": "2019-03-04", "numberOfEmployees": 5}},
+        {"@type": "ListItem", "position": 13, "item": {"@type": "MusicGroup", "name": "에이티즈(ATEEZ)", "genre": "K-POP", "foundingDate": "2018-10-24", "numberOfEmployees": 8}},
+        {"@type": "ListItem", "position": 14, "item": {"@type": "MusicGroup", "name": "제로베이스원(ZEROBASEONE)", "genre": "K-POP", "foundingDate": "2023-07-10", "numberOfEmployees": 9}},
+        {"@type": "ListItem", "position": 15, "item": {"@type": "MusicGroup", "name": "투어스(TWS)", "genre": "K-POP", "foundingDate": "2024-01-22", "numberOfEmployees": 6}},
+        {"@type": "ListItem", "position": 16, "item": {"@type": "MusicGroup", "name": "아일릿(ILLIT)", "genre": "K-POP", "foundingDate": "2024-03-25", "numberOfEmployees": 5}}
+      ]
+    }
+    </script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap Icons (업체정보 모달 아이콘용) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
@@ -130,29 +162,29 @@
                         <a class="nav-link active" href="/ranking" onclick="event.preventDefault(); route('home')">SNS랭킹</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/namu" onclick="event.preventDefault(); route('namu')">나무위키<span class="nav-new-badge" data-expire="2026-04-03">NEW</span></a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="/comeback" onclick="event.preventDefault(); route('comeback')">컴백일정</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/news" onclick="event.preventDefault(); route('news')">엔터뉴스</a>
                     </li>
-                    <!-- 인사이트: 별도 페이지 (SPA 외부) -->
                     <li class="nav-item">
-                        <a class="nav-link" href="/insight/index_insight.html">인사이트</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/links" onclick="event.preventDefault(); route('links')">링크모음</a>
+                        <a class="nav-link" href="/douyin" onclick="event.preventDefault(); route('douyin')">중국트렌드</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/jobs" onclick="event.preventDefault(); route('jobs')">채용정보</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/links" onclick="event.preventDefault(); route('links')">링크모음</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="/vendors" onclick="event.preventDefault(); route('vendors')">업체정보</a>
                     </li>
+                    <!-- 인사이트: 별도 페이지 (SPA 외부) -->
                     <li class="nav-item">
-                        <a class="nav-link" href="/douyin" onclick="event.preventDefault(); route('douyin')">중국트렌드</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/team" onclick="event.preventDefault(); route('team')">Team</a>
+                        <a class="nav-link" href="/insight/index_insight.html">인사이트</a>
                     </li>
                 </ul>
             </div>
@@ -207,6 +239,8 @@
                                         onclick="updateFilter('sns', '유튜브'); return false;">유튜브</a></li>
                                 <li><a class="dropdown-item" href="#"
                                         onclick="updateFilter('sns', '스포티파이'); return false;">스포티파이</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', '인스타그램'); return false;">인스타그램</a></li>
                             </ul>
                             <input type="hidden" id="sns" value="웨이보">
                         </div>
@@ -254,6 +288,7 @@
         </section>
         <section id="page-news" class="page-section d-none">
             <h2 class="mb-3 fw-bold fs-5">실시간 엔터테인먼트 뉴스</h2>
+            <p class="text-muted small mb-3">업데이트: <span id="newsUpdateTime">-</span></p>
             <div id="newsLoading" class="text-center py-5">
                 <div class="spinner-border text-primary" role="status">
                     <span class="visually-hidden">Loading...</span>
@@ -366,6 +401,9 @@
                 </button>
                 <button class="jobs-category-tab" data-category="영업" onclick="filterJobsByCategory('영업')">
                     영업
+                </button>
+                <button class="jobs-category-tab" data-category="경영지원" onclick="filterJobsByCategory('경영지원')">
+                    경영지원
                 </button>
                 <button class="jobs-category-tab" data-category="해외사업" onclick="filterJobsByCategory('해외사업')">
                     해외사업
@@ -579,8 +617,78 @@
             <div id="douyinContainer" class="row g-3" style="display: none;"></div>
         </section>
 
-        <section id="page-team" class="page-section d-none">
-            <div class="alert alert-info">Team 페이지입니다.</div>
+        <!-- 나무위키 검색 페이지 -->
+        <section id="page-namu" class="page-section d-none">
+            <h2 class="mb-3 fw-bold fs-5">K-POP 아이돌 나무위키 검색</h2>
+
+            <!-- 검색바 -->
+            <div class="namu-search-container mb-4">
+                <div class="position-relative">
+                    <input type="text" class="form-control form-control-lg namu-search-input"
+                           id="namuSearchInput" placeholder="그룹/멤버 검색 또는 질문"
+                           autocomplete="off">
+                    <div id="namuSearchResults" class="namu-search-dropdown" style="display: none;"></div>
+                </div>
+            </div>
+
+            <!-- 추천 질문 칩 (검색창 아래) -->
+            <div id="namuRecommendedChips" class="namu-chips-container"></div>
+
+            <!-- 채팅형 스마트 검색 컨테이너 -->
+            <div id="namuSmartAnswer" class="chat-container mb-3" style="display: none;"></div>
+
+            <!-- 검색 결과 영역 -->
+            <div id="namuSearchView"></div>
+
+            <!-- 랭킹 테이블 영역 -->
+            <div id="namuRankingView" style="display: none;">
+                <div class="d-flex gap-2 mb-3 flex-wrap align-items-center">
+                    <div class="namu-gender-filter">
+                        <button class="namu-filter-btn active" data-gender="all" onclick="filterNamuRanking('gender', 'all')">전체</button>
+                        <button class="namu-filter-btn" data-gender="여자" onclick="filterNamuRanking('gender', '여자')">여자</button>
+                        <button class="namu-filter-btn" data-gender="남자" onclick="filterNamuRanking('gender', '남자')">남자</button>
+                    </div>
+                    <select class="form-select form-select-sm" id="namuRankingYear" onchange="filterNamuRanking('year', this.value)" style="width: auto;">
+                        <option value="all">전체 연도</option>
+                    </select>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover namu-ranking-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 50px;">#</th>
+                                <th>그룹</th>
+                                <th>앨범</th>
+                                <th>유형</th>
+                                <th>발매일</th>
+                                <th class="text-end">초동</th>
+                            </tr>
+                        </thead>
+                        <tbody id="namuRankingBody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 그룹 상세 영역 -->
+            <div id="namuGroupDetail" style="display: none;">
+                <button class="btn btn-outline-secondary btn-sm mb-3" onclick="backToNamuList()">← 목록으로</button>
+                <div id="namuGroupHeader" class="mb-3"></div>
+                <div class="namu-detail-tabs mb-3">
+                    <button class="namu-detail-tab active" data-dtab="profile" onclick="switchNamuDetailTab('profile')">프로필</button>
+                    <button class="namu-detail-tab" data-dtab="members" onclick="switchNamuDetailTab('members')">멤버</button>
+                    <button class="namu-detail-tab" data-dtab="discography" onclick="switchNamuDetailTab('discography')">디스코그래피</button>
+                    <button class="namu-detail-tab" data-dtab="chart" onclick="switchNamuDetailTab('chart')">판매량 차트</button>
+                </div>
+                <div id="namuDetailContent"></div>
+            </div>
+
+            <!-- 로딩 -->
+            <div id="namuLoading" class="text-center py-5" style="display: none;">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2 text-muted">데이터를 불러오는 중...</p>
+            </div>
         </section>
 
     </main>
@@ -642,6 +750,28 @@
             <li>투어스 (TWS) - 626,000</li>
         </ol>
 
+        <h3>K-POP 아이돌 그룹 정보 (소속사, 팬덤명, 데뷔일)</h3>
+        <p>아이엠콘텐츠에서 제공하는 K-POP 아이돌의 세대, 데뷔일, 팬덤명, 소속사, 리더 정보입니다. 총 173개 그룹(1세대~5세대)의 상세 데이터를 보유하고 있습니다.</p>
+        <ul>
+            <li><strong>방탄소년단(BTS)</strong> - 3세대 보이그룹 | 팬덤: A.R.M.Y(아미) | 소속사: 빅히트 뮤직 | 리더: RM | 데뷔: 2013-06-13 | 멤버: 진, 슈가, 제이홉, RM, 지민, 뷔, 정국</li>
+            <li><strong>블랙핑크(BLACKPINK)</strong> - 3세대 걸그룹 | 팬덤: BLINK(블링크) | 소속사: YG엔터테인먼트 | 리더: 지수 | 데뷔: 2016-08-08 | 멤버: 지수, 제니, 로제, 리사</li>
+            <li><strong>세븐틴(SEVENTEEN)</strong> - 3세대 보이그룹 | 팬덤: CARAT(캐럿) | 소속사: 플레디스 엔터테인먼트 | 리더: 에스쿱스 | 데뷔: 2015-05-26 | 멤버: 에스쿱스, 정한, 조슈아, 준, 호시, 원우, 우지, 디에잇, 민규, 도겸, 승관, 버논, 디노</li>
+            <li><strong>스트레이키즈(Stray Kids)</strong> - 4세대 보이그룹 | 팬덤: STAY(스테이) | 소속사: JYP엔터테인먼트 | 리더: 방찬 | 데뷔: 2018-03-25 | 멤버: 방찬, 리노, 창빈, 현진, 한, 필릭스, 승민, 아이엔</li>
+            <li><strong>(여자)아이들((G)I-DLE)</strong> - 4세대 걸그룹 | 팬덤: NEVERLAND(네버랜드) | 소속사: 큐브엔터테인먼트 | 리더: 소연 | 데뷔: 2018-05-02 | 멤버: 미연, 민니, 소연, 우기, 슈화</li>
+            <li><strong>에이티즈(ATEEZ)</strong> - 4세대 보이그룹 | 팬덤: ATINY | 소속사: KQ엔터테인먼트 | 리더: 홍중 | 데뷔: 2018-10-24 | 멤버: 홍중, 성화, 윤호, 여상, 산, 민기, 우영, 종호</li>
+            <li><strong>있지(ITZY)</strong> - 4세대 걸그룹 | 팬덤: MIDZY(믿지) | 소속사: JYP엔터테인먼트 | 리더: 예지 | 데뷔: 2019-02-12 | 멤버: 예지, 리아, 류진, 채령, 유나</li>
+            <li><strong>투모로우바이투게더(TXT)</strong> - 4세대 보이그룹 | 팬덤: MOA(모아) | 소속사: 빅히트 뮤직 | 리더: 수빈 | 데뷔: 2019-03-04 | 멤버: 연준, 수빈, 범규, 태현, 휴닝카이</li>
+            <li><strong>에스파(aespa)</strong> - 4세대 걸그룹 | 팬덤: MY(마이) | 소속사: SM엔터테인먼트 | 리더: 카리나 | 데뷔: 2020-11-17 | 멤버: 카리나, 지젤, 윈터, 닝닝</li>
+            <li><strong>엔하이픈(ENHYPEN)</strong> - 4세대 보이그룹 | 팬덤: ENGENE(엔진) | 소속사: 빌리프랩 | 리더: 정원 | 데뷔: 2020-11-30 | 멤버: 정원, 희승, 제이, 제이크, 성훈, 선우, 니키</li>
+            <li><strong>아이브(IVE)</strong> - 4세대 걸그룹 | 팬덤: DIVE(다이브) | 소속사: 스타쉽엔터테인먼트 | 리더: 안유진 | 데뷔: 2021-12-01 | 멤버: 안유진, 가을, 레이, 장원영, 리즈, 이서</li>
+            <li><strong>뉴진스(NewJeans)</strong> - 4세대 걸그룹 | 팬덤: Bunnies(버니즈) | 소속사: ADOR | 데뷔: 2022-07-22 | 멤버: 민지, 하니, 다니엘, 해린, 혜인</li>
+            <li><strong>르세라핌(LE SSERAFIM)</strong> - 4세대 걸그룹 | 팬덤: FEARNOT(피어나) | 소속사: 쏘스뮤직 | 리더: 김채원 | 데뷔: 2022-05-02 | 멤버: 김채원, 사쿠라, 허윤진, 카즈하, 홍은채</li>
+            <li><strong>제로베이스원(ZEROBASEONE)</strong> - 5세대 보이그룹 | 팬덤: ZEROSE(제로즈) | 소속사: 웨이크원 | 리더: 성한빈 | 데뷔: 2023-07-10 | 멤버: 성한빈, 김지웅, 장하오, 석매튜, 김태래, 리키, 김규빈, 박건욱, 한유진</li>
+            <li><strong>투어스(TWS)</strong> - 5세대 보이그룹 | 팬덤: 42(사이) | 소속사: 플레디스 엔터테인먼트 | 리더: 신유 | 데뷔: 2024-01-22 | 멤버: 신유, 도훈, 영재, 한진, 지훈, 경민</li>
+            <li><strong>아일릿(ILLIT)</strong> - 5세대 걸그룹 | 팬덤: GLLIT(글릿) | 소속사: 빌리프랩 | 데뷔: 2024-03-25 | 멤버: 윤아, 민주, 모카, 원희, 이로하</li>
+        </ul>
+        <p><a href="/namu">전체 K-POP 아이돌 (1세대~5세대) 173그룹 상세 정보 및 나무위키 검색 →</a></p>
+
         <h3>사이트 메뉴</h3>
         <ul>
             <li><a href="/ranking">SNS 팔로워 순위</a> - 웨이보, 빌리빌리, 유튜브, 스포티파이 월별 랭킹</li>
@@ -651,6 +781,7 @@
             <li><a href="/jobs">채용정보</a> - 엔터테인먼트 채용정보</li>
             <li><a href="/vendors">업체정보</a> - 엔터테인먼트 업체 데이터베이스</li>
             <li><a href="/douyin">중국트렌드</a> - 도우인(抖音) 인기 챌린지</li>
+            <li><a href="/namu">나무위키</a> - K-POP 아이돌 나무위키 검색, 앨범 판매량 랭킹</li>
         </ul>
     </article>
     <!-- JS 비활성 시 안내 메시지 -->
@@ -658,6 +789,9 @@
         <p style="text-align: center; margin-top: 20px;">이 사이트는 JavaScript가 필요합니다. 브라우저에서 JavaScript를 활성화해 주세요.</p>
     </noscript>
 
+    <!-- 마크다운 렌더링 (채팅 UI용) -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/db.js"></script>
     <script>
@@ -683,7 +817,16 @@
         });
         */
     </script>
-    <script src="/script.js?v=20260217"></script>
+    <script src="/script.js?v=20260228"></script>
+    <script src="/namu.js?v=20260307"></script>
+    <!-- Gemini API 키는 GAS 서버사이드(Script Properties)에서 관리 -->
+    <script src="/namu-smart-search.js?v=20260307p"></script>
+    <script>
+        // NEW 뱃지 만료 자동 제거 (data-expire 날짜 이후 숨김)
+        document.querySelectorAll('.nav-new-badge[data-expire]').forEach(function(el) {
+            if (new Date() >= new Date(el.dataset.expire)) el.remove();
+        });
+    </script>
 </body>
 
 </html>
