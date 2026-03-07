@@ -2338,23 +2338,7 @@ async function prefetchDouyinData() {
     try {
         console.log('🇨🇳 Starting Douyin challenges prefetch...');
 
-        // 1. IndexedDB 캐시 확인 (IdolDB가 있을 때만)
-        if (typeof IdolDB !== 'undefined') {
-            const cached = await IdolDB.get('douyinChallenges');
-            if (cached && cached.data) {
-                const cacheAge = Date.now() - (cached.timestamp || 0);
-                const TTL = 3 * 60 * 60 * 1000; // 3시간
-
-                if (cacheAge < TTL) {
-                    douyinData = cached.data;
-                    douyinLoaded = true;
-                    console.log('📦 Douyin data loaded from cache');
-                    return;
-                }
-            }
-        }
-
-        // 2. 정적 JSON 시도 (ADB 크롤링 결과)
+        // 1. 정적 JSON 우선 (항상 최신 크롤링 데이터)
         try {
             const staticResp = await fetch(DOUYIN_STATIC_URL);
             if (staticResp.ok) {
@@ -2374,7 +2358,23 @@ async function prefetchDouyinData() {
                 }
             }
         } catch (e) {
-            console.log('Static douyin JSON not available, trying API...');
+            console.log('Static douyin JSON not available, trying cache/API...');
+        }
+
+        // 2. IndexedDB 캐시 폴백 (정적 JSON 실패 시)
+        if (typeof IdolDB !== 'undefined') {
+            const cached = await IdolDB.get('douyinChallenges');
+            if (cached && cached.data) {
+                const cacheAge = Date.now() - (cached.timestamp || 0);
+                const TTL = 3 * 60 * 60 * 1000; // 3시간
+
+                if (cacheAge < TTL) {
+                    douyinData = cached.data;
+                    douyinLoaded = true;
+                    console.log('📦 Douyin data loaded from cache');
+                    return;
+                }
+            }
         }
 
         // 3. GAS API 폴백
@@ -2423,8 +2423,23 @@ async function loadDouyinChallenges() {
     container.style.display = 'none';
 
     try {
-        // 1. IndexedDB 캐시 확인 (IdolDB가 있을 때만)
-        if (typeof IdolDB !== 'undefined') {
+        // 1. 정적 JSON 우선 (항상 최신 크롤링 데이터)
+        let result = null;
+        try {
+            const staticResp = await fetch(DOUYIN_STATIC_URL);
+            if (staticResp.ok) {
+                const staticData = await staticResp.json();
+                if (staticData.success && staticData.challenges?.length > 0) {
+                    result = staticData;
+                    console.log(`📄 Douyin loaded from static JSON: ${staticData.challenges.length} challenges`);
+                }
+            }
+        } catch (e) {
+            console.log('Static douyin JSON not available');
+        }
+
+        // 2. IndexedDB 캐시 폴백 (정적 JSON 실패 시)
+        if (!result && typeof IdolDB !== 'undefined') {
             const cached = await IdolDB.get('douyinChallenges');
             if (cached && cached.data) {
                 const cacheAge = Date.now() - (cached.timestamp || 0);
@@ -2439,26 +2454,10 @@ async function loadDouyinChallenges() {
                     container.style.display = 'flex';
                     renderDouyinChallenges(douyinData);
 
-                    // 백그라운드에서 업데이트 체크
                     updateDouyinInBackground();
                     return;
                 }
             }
-        }
-
-        // 2. 정적 JSON 시도 (ADB 크롤링 결과)
-        let result = null;
-        try {
-            const staticResp = await fetch(DOUYIN_STATIC_URL);
-            if (staticResp.ok) {
-                const staticData = await staticResp.json();
-                if (staticData.success && staticData.challenges?.length > 0) {
-                    result = staticData;
-                    console.log(`📄 Douyin loaded from static JSON: ${staticData.challenges.length} challenges`);
-                }
-            }
-        } catch (e) {
-            console.log('Static douyin JSON not available');
         }
 
         // 3. GAS API 폴백
