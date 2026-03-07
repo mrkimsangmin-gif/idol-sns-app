@@ -1466,18 +1466,22 @@ function saveChallenges(challenges) {
         // participants 변환
         item.participants = parseChineseNumber(item.participants_raw);
 
-        // Gemini 요약 생성
-        try {
-            const summary = generateChallengeSummary(item.title_zh, item.participants);
-            item.title_ko = summary.title_ko || item.title_zh;
-            item.summary_ko = summary.summary_ko || '';
-            item.trend_reason = summary.trend_reason || '';
-            Utilities.sleep(1200); // API 레이트 리밋 방지
-        } catch (e) {
-            Logger.log('⚠️ 요약 생성 실패 (' + item.title_zh + '): ' + e.message);
-            item.title_ko = item.title_zh;
-            item.summary_ko = '';
-            item.trend_reason = '';
+        // Gemini 요약 생성 (크롤러가 이미 제공했으면 스킵)
+        if (item.summary_ko && item.title_ko) {
+            Logger.log('⏭️ 크롤러 요약 사용: ' + item.title_zh);
+        } else {
+            try {
+                const summary = generateChallengeSummary(item.title_zh, item.participants);
+                item.title_ko = summary.title_ko || item.title_ko || item.title_zh;
+                item.summary_ko = summary.summary_ko || item.summary_ko || '';
+                item.trend_reason = summary.trend_reason || item.trend_reason || '';
+                Utilities.sleep(1200); // API 레이트 리밋 방지
+            } catch (e) {
+                Logger.log('⚠️ 요약 생성 실패 (' + item.title_zh + '): ' + e.message);
+                item.title_ko = item.title_ko || item.title_zh;
+                item.summary_ko = item.summary_ko || '';
+                item.trend_reason = item.trend_reason || '';
+            }
         }
 
         item.status = 'new';
@@ -1596,7 +1600,7 @@ function saveWebAppData(newData) {
                 item.participants || parseChineseNumber(item.participants_raw),
                 coverUrl,
                 thumbX, thumbY, thumbW, thumbH,  // 좌표
-                item.video_url || '',
+                item.challenge_url || item.video_url || '',
                 item.video_url || '',
                 item.summary_ko || '',
                 item.trend_reason || '',

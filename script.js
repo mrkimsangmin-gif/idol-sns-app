@@ -2319,8 +2319,8 @@ function trackJobClick(company, position, index) {
 // 🇨🇳 도우인 챌린지 기능
 // ========================================
 
-// 도우인 전용 GAS API URL (별도 프로젝트)
-const DOUYIN_API_URL = 'https://script.google.com/macros/s/AKfycbz497bYijjPFuydRCNSY7hdDtI0f78Dov5pUSzgd5IC1xfj3LNKrVwQa9aDnQIU_Gq4fQ/exec';
+// 도우인 GAS API URL (메인 API와 동일 프로젝트)
+const DOUYIN_API_URL = API_URL;
 const DOUYIN_STATIC_URL = 'data/douyin-challenges.json';
 
 let douyinData = null;
