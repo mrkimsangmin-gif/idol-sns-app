@@ -931,6 +931,24 @@ function parseSmartQuery(query) {
         };
     }
 
+    // 2-b-pre. 데뷔 연도 + 초동 랭킹: "2024년 데뷔 걸그룹 초동 순위", "2023년 데뷔 초동 TOP 10"
+    var debutSalesMatch = q.match(/(\d{4})년?\s*데뷔\s*(걸그룹|보이그룹|여자|남자|아이돌)?\s*초동\s*(?:(\d+)\s*위|(?:top|TOP)\s*(\d+)|랭킹|순위|1위)/i);
+    if (debutSalesMatch) {
+        var dsCount = parseInt(debutSalesMatch[3] || debutSalesMatch[4] || '10');
+        if (dsCount <= 0) dsCount = 10;
+        if (dsCount > 50) dsCount = 50;
+        var dsGender = null;
+        var dsGenderTerm = (debutSalesMatch[2] || '').trim();
+        if (dsGenderTerm === '걸그룹' || dsGenderTerm === '여자') dsGender = '여자';
+        if (dsGenderTerm === '보이그룹' || dsGenderTerm === '남자') dsGender = '남자';
+        return {
+            type: 'debut_album_sales_ranking',
+            debutYear: parseInt(debutSalesMatch[1]),
+            topN: dsCount,
+            gender: dsGender
+        };
+    }
+
     // 2-b. 역대 초동 랭킹: "역대 초동 1위", "초동 TOP 10", "걸그룹 초동 TOP 10"
     // 성별이 초동 앞에 올 때 우선 매칭: "2024년 걸그룹 초동 TOP 10", "걸그룹 초동 순위"
     var topRankMatch = null;
@@ -1707,6 +1725,10 @@ async function executeIntent(intent) {
 
         case 'album_sales_ranking':
             await executeAlbumSalesRanking(container, intent);
+            return;
+
+        case 'debut_album_sales_ranking':
+            await executeDebutAlbumSalesRanking(container, intent);
             return;
 
         case 'agency_filter':
@@ -2915,6 +2937,75 @@ async function executeAlbumSalesRanking(container, intent) {
     for (var i = 0; i < display.length; i++) {
         var a = display[i];
         // 정확한 수치 표시 (한터 우선, 없으면 써클)
+        var exactVal = a['초동_한터'] && a['초동_한터'] !== '-' ? a['초동_한터'] : (a['초동_써클'] || '-');
+        html += '<tr>' +
+            '<td class="fw-bold">' + (i + 1) + '</td>' +
+            '<td>' + escapeHtml(a.group_name || a.group || '') + '</td>' +
+            '<td class="fw-bold">' + escapeHtml(a.album_title || a.title || '') + '</td>' +
+            '<td><span class="badge bg-light text-dark">' + escapeHtml(a.album_type || a.type || '-') + '</span></td>' +
+            '<td>' + (a.release_date || '-') + '</td>' +
+            '<td class="text-end">' + escapeHtml(exactVal) + '</td>' +
+            '</tr>';
+    }
+
+    html += '</tbody></table></div>' +
+        '<div class="text-muted small mt-1">나무위키 기반 초동 판매량 (한터차트 수치 우선)</div>' +
+        '</div></div>';
+
+    container.innerHTML = html;
+    container.style.display = 'block';
+}
+
+// --- 데뷔 연도별 초동 랭킹 (크로스그룹) ---
+async function executeDebutAlbumSalesRanking(container, intent) {
+    await ensureRankingDataLoaded();
+    if (!namuRankingData || namuRankingData.length === 0 || !namuIndexData) {
+        showSmartAnswer(container, '랭킹 로드 실패', '랭킹 데이터를 불러올 수 없습니다.', 'error');
+        return;
+    }
+
+    // 데뷔 연도로 그룹 필터링
+    var debutSlugs = {};
+    namuIndexData.forEach(function(g) {
+        if (parseInt(g.debut_year) !== intent.debutYear) return;
+        if (intent.gender && g.gender !== intent.gender) return;
+        debutSlugs[g.slug] = true;
+    });
+
+    // 해당 그룹들의 앨범만 필터
+    var filtered = namuRankingData.filter(function(a) {
+        return debutSlugs[a.group_slug || a.slug];
+    });
+
+    // 초동 내림차순 정렬 (한터 우선 → 써클 폴백)
+    filtered.sort(function(a, b) { return (b['초동_best_numeric'] || b['초동_써클_numeric'] || 0) - (a['초동_best_numeric'] || a['초동_써클_numeric'] || 0); });
+
+    // 0인 항목 제거
+    filtered = filtered.filter(function(a) { return (a['초동_best_numeric'] || a['초동_써클_numeric'] || 0) > 0; });
+
+    var topN = intent.topN || 10;
+    var display = filtered.slice(0, topN);
+
+    var genderText = intent.gender ? (intent.gender === '여자' ? ' 걸그룹' : ' 보이그룹') : '';
+    var title = intent.debutYear + '년 데뷔' + genderText + ' 초동 TOP ' + topN + ' (' + display.length + '개)';
+
+    if (display.length === 0) {
+        showSmartAnswer(container, title, '해당 조건의 앨범이 없습니다.', 'info');
+        return;
+    }
+
+    var html = '<div class="namu-smart-answer">' +
+        '<div class="namu-smart-answer-header">' +
+        '<span class="namu-smart-icon">🏆</span>' +
+        '<span class="namu-smart-title">' + escapeHtml(title) + '</span>' +
+        '<button class="namu-smart-close" onclick="dismissSmartAnswer()" title="닫기">&times;</button>' +
+        '</div>' +
+        '<div class="namu-smart-answer-body">' +
+        '<div class="table-responsive"><table class="table table-sm namu-smart-table">' +
+        '<thead><tr><th>#</th><th>그룹</th><th>앨범</th><th>유형</th><th>발매일</th><th class="text-end">초동</th></tr></thead><tbody>';
+
+    for (var i = 0; i < display.length; i++) {
+        var a = display[i];
         var exactVal = a['초동_한터'] && a['초동_한터'] !== '-' ? a['초동_한터'] : (a['초동_써클'] || '-');
         html += '<tr>' +
             '<td class="fw-bold">' + (i + 1) + '</td>' +
@@ -7371,7 +7462,7 @@ function runSmartSearchTests() {
         return;
     }
 
-    // 79개 테스트 케이스: [쿼리, 기대 type, 설명]
+    // 82개 테스트 케이스: [쿼리, 기대 type, 설명]
     var cases = [
         // 1-3: comparison (패턴 1)
         ['에스파 vs 뉴진스', 'comparison', '한글 vs 한글'],
@@ -7382,6 +7473,11 @@ function runSmartSearchTests() {
         ['초동 100만 이상', 'ranking_filter', '초동 100만 이상'],
         ['2024년 초동 50만 이상', 'ranking_filter', '연도+초동 이상'],
         ['초동 200만 이하', 'ranking_filter', '초동 이하'],
+
+        // 6-pre: debut_album_sales_ranking (패턴 2-b-pre)
+        ['2024년 데뷔 걸그룹 초동 순위', 'debut_album_sales_ranking', '데뷔연도+걸그룹+초동순위'],
+        ['2023년 데뷔 초동 TOP 10', 'debut_album_sales_ranking', '데뷔연도+초동 TOP N'],
+        ['2020년 데뷔 보이그룹 초동 1위', 'debut_album_sales_ranking', '데뷔연도+보이그룹+초동1위'],
 
         // 6a-6c: album_sales_ranking (패턴 2-b)
         ['역대 초동 1위 앨범은?', 'album_sales_ranking', '역대 초동 1위'],
