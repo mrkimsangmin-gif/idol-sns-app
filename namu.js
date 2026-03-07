@@ -241,10 +241,33 @@ async function loadNamuGroupBySlug(slug) {
         if (!response.ok) throw new Error('Group not found');
         namuCurrentGroup = await response.json();
 
-        // URL 업데이트
+        // URL 업데이트 + SEO 메타 태그 동적 갱신
         var groupTitle = namuCurrentGroup.name + ' (' + namuCurrentGroup.name_en + ') | 나무위키 | 아이엠콘텐츠';
         history.pushState({ pageId: 'namu', namuSlug: slug }, groupTitle, '/namu/' + slug);
         document.title = groupTitle;
+
+        // SEO: meta description + OG 태그 동적 업데이트 (AI 봇/소셜 공유 대응)
+        var info = namuCurrentGroup.info || {};
+        var memberNames = (info['멤버목록'] || (namuCurrentGroup.members || []).map(function(m){ return m.name; }).join(', '));
+        var groupDesc = namuCurrentGroup.name + '(' + namuCurrentGroup.name_en + ') - ' +
+            (info['소속사'] || '') + ' 소속 K-POP ' + (info['활동유형'] || '아이돌 그룹') +
+            '. 데뷔일: ' + (info['데뷔일'] || '') +
+            ', 멤버: ' + memberNames +
+            (info['팬덤명'] ? ', 팬덤: ' + info['팬덤명'] : '') +
+            '. 앨범 판매량, 멤버 프로필, 나무위키 정보를 제공합니다.';
+        var descMeta = document.querySelector('meta[name="description"]');
+        if (descMeta) descMeta.setAttribute('content', groupDesc);
+        var ogDesc = document.querySelector('meta[property="og:description"]');
+        if (ogDesc) ogDesc.setAttribute('content', groupDesc);
+        var ogTitle = document.querySelector('meta[property="og:title"]');
+        if (ogTitle) ogTitle.setAttribute('content', groupTitle);
+        var ogUrl = document.querySelector('meta[property="og:url"]');
+        if (ogUrl) ogUrl.setAttribute('content', 'https://aimcontents.com/namu/' + slug);
+        var canonical = document.querySelector('link[rel="canonical"]');
+        if (canonical) canonical.setAttribute('href', 'https://aimcontents.com/namu/' + slug);
+
+        // SEO: 동적 Schema.org JSON-LD 삽입 (AI 봇 인용 최적화)
+        updateNamuGroupJsonLd(namuCurrentGroup, slug);
 
         renderNamuGroupHeader(namuCurrentGroup);
         switchNamuDetailTab('profile');
@@ -271,8 +294,59 @@ function backToNamuList() {
         namuCurrentChart = null;
     }
 
-    history.pushState({ pageId: 'namu' }, '나무위키 | 아이엠콘텐츠', '/namu');
-    document.title = '나무위키 | 아이엠콘텐츠';
+    history.pushState({ pageId: 'namu' }, '아이돌 정보 (소속사/팬덤/데뷔일) | 아이엠콘텐츠', '/namu');
+    document.title = '아이돌 정보 (소속사/팬덤/데뷔일) | 아이엠콘텐츠';
+
+    // SEO: 목록 페이지 메타 태그 복원 + 동적 JSON-LD 제거
+    if (typeof updateMetaDescription === 'function') updateMetaDescription('namu');
+    removeNamuGroupJsonLd();
+}
+
+// ============================================================
+// SEO: 동적 Schema.org JSON-LD (그룹 상세 페이지용)
+// ============================================================
+
+function updateNamuGroupJsonLd(group, slug) {
+    // 기존 동적 JSON-LD 제거
+    var existing = document.getElementById('namu-dynamic-jsonld');
+    if (existing) existing.remove();
+
+    var info = group.info || {};
+    var members = (group.members || []).map(function(m) {
+        return { '@type': 'Person', 'name': m.name, 'birthDate': m['생년월일'] || '' };
+    });
+    // 앨범 중 판매량 있는 것만 (상위 5개)
+    var albums = (group.albums || []).filter(function(a) {
+        return a['초동_한터'] && a['초동_한터'] !== '-' && a['초동_한터'] !== '';
+    }).slice(0, 5).map(function(a) {
+        return { '@type': 'MusicAlbum', 'name': a.title, 'datePublished': a['발매일'] || '', 'albumProductionType': a.type || '' };
+    });
+
+    var jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'MusicGroup',
+        'name': group.name,
+        'alternateName': group.name_en,
+        'url': 'https://aimcontents.com/namu/' + slug,
+        'genre': 'K-POP',
+        'foundingDate': info['데뷔일'] || '',
+        'numberOfEmployees': (group.members || []).length,
+        'member': members
+    };
+    if (info['소속사']) jsonLd['parentOrganization'] = { '@type': 'Organization', 'name': info['소속사'] };
+    if (info['팬덤명']) jsonLd['funder'] = info['팬덤명'];
+    if (albums.length > 0) jsonLd['album'] = albums;
+
+    var script = document.createElement('script');
+    script.id = 'namu-dynamic-jsonld';
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(jsonLd);
+    document.head.appendChild(script);
+}
+
+function removeNamuGroupJsonLd() {
+    var existing = document.getElementById('namu-dynamic-jsonld');
+    if (existing) existing.remove();
 }
 
 // ============================================================

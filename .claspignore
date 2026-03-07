@@ -1,0 +1,47 @@
+# 프론트엔드 파일 (GitHub Pages 배포용, GAS 불필요)
+index.html
+script.js
+script_session.js
+style.css
+db.js
+i18n.js
+404.html
+namu-smart-search.js
+namu.js
+test-namu-search.js
+
+# 정적 데이터/리소스
+data/**
+lang/**
+*.png
+*.xml
+*.txt
+
+# JSON (appsscript.json은 제외)
+!appsscript.json
+.clasp.json
+package.json
+package-lock.json
+
+# E2E 테스트
+aimcontents-e2e/**
+node_modules/**
+
+# 문서/설정
+*.md
+ai_rules.md
+.agent
+.claude/**
+.git/**
+
+# Python 스크립트
+*.py
+
+# 하위 페이지 폴더
+blog/**
+insight/**
+admin/**
+01.news/**
+02.link*/**
+03.douyin/**
+05.namu/**
