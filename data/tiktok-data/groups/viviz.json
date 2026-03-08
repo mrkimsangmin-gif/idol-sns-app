@@ -1,0 +1,71 @@
+{
+  "name": "비비지",
+  "name_en": "VIVIZ",
+  "slug": "viviz",
+  "tiktok_url": "https://www.tiktok.com/@viviz_bpm",
+  "crawled_at": "2026-03-08T13:51:13.184330",
+  "profile": {
+    "display_name": "VIVIZ",
+    "username": "@viviz_bpm",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 1656000,
+    "following": 0,
+    "total_likes": 78948000,
+    "bio": "VIVIZ Official TikTok"
+  },
+  "posts": [
+    {
+      "views": 47000,
+      "likes": 2970,
+      "comments": 39,
+      "shares": 32,
+      "saves": 130,
+      "posted_at": "2026-03-07",
+      "caption": "호주에서도 마라 사랑 #VIVIZ #비비지 #EUNHA #은하 #SINB #신비 #UMJ…⁠자세히",
+      "hashtags": [
+        "VIVIZ",
+        "비비지",
+        "EUNHA",
+        "은하",
+        "SINB",
+        "신비",
+        "UMJ"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 5498,
+      "likes": 1830,
+      "comments": 24,
+      "shares": 20,
+      "saves": 112,
+      "posted_at": "2026-03-07",
+      "caption": "히히 재밌다 #VIVIZ #비비지 #EUNHA #은하 #SINB #신비 #UMJI #엄지 #VIVIZ_i…⁠자세히",
+      "hashtags": [
+        "VIVIZ",
+        "비비지",
+        "EUNHA",
+        "은하",
+        "SINB",
+        "신비",
+        "UMJI",
+        "엄지",
+        "VIVIZ_i"
+      ],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 2,
+    "posts_last_30d": 2,
+    "avg_views": 26249,
+    "avg_likes": 2400,
+    "avg_comments": 31,
+    "avg_shares": 26,
+    "avg_saves": 121,
+    "engagement_rate": 9.82
+  }
+}

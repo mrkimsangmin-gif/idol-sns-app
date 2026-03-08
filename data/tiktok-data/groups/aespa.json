@@ -1,0 +1,113 @@
+{
+  "name": "에스파",
+  "name_en": "aespa",
+  "slug": "aespa",
+  "tiktok_url": "https://www.tiktok.com/@aespa_official",
+  "crawled_at": "2026-03-08T12:53:51.928888",
+  "profile": {
+    "display_name": "aespa official",
+    "username": "@aespa_official",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 16669000,
+    "following": 0,
+    "total_likes": 780000000,
+    "bio": "aespa 에스파 The 6th Mini Album 〖Rich Man〗&#10;➫ 2025.09.05 1PM (KST)"
+  },
+  "posts": [
+    {
+      "views": 1552000,
+      "likes": 685000,
+      "comments": 1788,
+      "shares": 5644,
+      "saves": 14000,
+      "posted_at": "2026-03-01",
+      "caption": "#NINGNING at #Gucci #aespa #GucciPrimavera @Gucci",
+      "hashtags": [
+        "NINGNING",
+        "Gucci",
+        "aespa",
+        "GucciPrimavera"
+      ],
+      "music": "GRAHAM의 Enough For Me",
+      "category": "General"
+    },
+    {
+      "views": 3530000,
+      "likes": 606000,
+      "comments": 3167,
+      "shares": 27000,
+      "saves": 46000,
+      "posted_at": "2026-02-14",
+      "caption": "MY valentine♡ᩚ #aespa #에스파",
+      "hashtags": [
+        "aespa",
+        "에스파"
+      ],
+      "music": "Michael Bublé의 L O V E",
+      "category": "General"
+    },
+    {
+      "views": 3777000,
+      "likes": 769000,
+      "comments": 4903,
+      "shares": 45000,
+      "saves": 58000,
+      "posted_at": "2026-02-14",
+      "caption": "냐 #aespa #에스파 #WINTER #윈터",
+      "hashtags": [
+        "aespa",
+        "에스파",
+        "WINTER",
+        "윈터"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 0,
+      "likes": 803000,
+      "comments": 3645,
+      "shares": 28000,
+      "saves": 44000,
+      "posted_at": "2026-02-14",
+      "caption": "What’s your favorite thing #aespa #에스파 #KARINA #GISELLE",
+      "hashtags": [
+        "aespa",
+        "에스파",
+        "KARINA",
+        "GISELLE"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 0,
+      "likes": 798000,
+      "comments": 3215,
+      "shares": 19000,
+      "saves": 41000,
+      "posted_at": "2026-02-08",
+      "caption": "카리나가 좋더라 #aespa #에스파&#10;#KARINA #카리나",
+      "hashtags": [
+        "aespa",
+        "에스파",
+        "10",
+        "KARINA",
+        "카리나"
+      ],
+      "music": "변진섭의 희망사항",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 5,
+    "posts_last_30d": 5,
+    "avg_views": 1771800,
+    "avg_likes": 732200,
+    "avg_comments": 3343,
+    "avg_shares": 24928,
+    "avg_saves": 40600,
+    "engagement_rate": 45.21
+  }
+}

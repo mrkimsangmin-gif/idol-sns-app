@@ -1,0 +1,65 @@
+{
+  "name": "아이몬드",
+  "name_en": "I:MOND",
+  "slug": "i-mond",
+  "tiktok_url": "https://www.tiktok.com/@i.mond_official",
+  "crawled_at": "2026-03-08T14:35:04.456700",
+  "profile": {
+    "display_name": "&#128142;I:mond&#128150;",
+    "username": "@i.mond_official",
+    "verified": false,
+    "category": "",
+    "followers": 19000,
+    "following": 0,
+    "total_likes": 376000,
+    "bio": "I:mond (아이몬드) official"
+  },
+  "posts": [
+    {
+      "views": 3523,
+      "likes": 610,
+      "comments": 25,
+      "shares": 5,
+      "saves": 40,
+      "posted_at": "2026-02-20",
+      "caption": "설망진창&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 4333,
+      "likes": 605,
+      "comments": 15,
+      "shares": 2,
+      "saves": 48,
+      "posted_at": "2026-02-11",
+      "caption": "미쿠를 꾹 눌러보세요-!!&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 3787,
+      "likes": 559,
+      "comments": 17,
+      "shares": 10,
+      "saves": 40,
+      "posted_at": "2026-02-06",
+      "caption": "&#128048;♥️&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 3,
+    "posts_last_30d": 3,
+    "avg_views": 3881,
+    "avg_likes": 591,
+    "avg_comments": 19,
+    "avg_shares": 5,
+    "avg_saves": 42,
+    "engagement_rate": 16.97
+  }
+}

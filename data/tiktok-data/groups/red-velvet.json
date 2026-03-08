@@ -1,0 +1,67 @@
+{
+  "name": "레드벨벳",
+  "name_en": "Red Velvet",
+  "slug": "red-velvet",
+  "tiktok_url": "https://www.tiktok.com/@redvelvet_smtown",
+  "crawled_at": "2026-03-08T13:28:06.982517",
+  "profile": {
+    "display_name": "Red Velvet",
+    "username": "@redvelvet_smtown",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 3891000,
+    "following": 0,
+    "total_likes": 80458000,
+    "bio": "JOY The 1st Mini Album 【From JOY, with Love】&#10;➫ 2025.08.18 6PM (KST)"
+  },
+  "posts": [
+    {
+      "views": 2827000,
+      "likes": 467000,
+      "comments": 2168,
+      "shares": 8518,
+      "saves": 18000,
+      "posted_at": "2026-02-15",
+      "caption": "헛둘헛둘&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "Naughty Boy &amp; Sam Smith의 La La La - Sped Up Version",
+      "category": "General"
+    },
+    {
+      "views": 1474000,
+      "likes": 251000,
+      "comments": 863,
+      "shares": 3963,
+      "saves": 13000,
+      "posted_at": "2026-02-15",
+      "caption": "FOCUS with #YUHA &#129653;&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [
+        "YUHA"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 2188000,
+      "likes": 478000,
+      "comments": 3852,
+      "shares": 9795,
+      "saves": 12000,
+      "posted_at": "2026-02-08",
+      "caption": "name all the songs you can hear&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 3,
+    "posts_last_30d": 3,
+    "avg_views": 2163000,
+    "avg_likes": 398666,
+    "avg_comments": 2294,
+    "avg_shares": 7425,
+    "avg_saves": 14333,
+    "engagement_rate": 19.54
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "오메가엑스",
+  "name_en": "OMEGA X",
+  "slug": "omega-x",
+  "tiktok_url": "https://www.tiktok.com/@omega_x_official",
+  "crawled_at": "2026-03-08T19:48:50.302927",
+  "profile": {
+    "display_name": "OMEGA X",
+    "username": "@omega_x_official",
+    "verified": false,
+    "category": "아티스트",
+    "followers": 532000,
+    "following": 2,
+    "total_likes": 17097000,
+    "bio": "OMEGA X Official TikTok&#10;오메가엑스 공식 틱톡"
+  },
+  "posts": [
+    {
+      "views": 16000,
+      "likes": 3094,
+      "comments": 32,
+      "shares": 116,
+      "saves": 186,
+      "posted_at": "2026-03-06",
+      "caption": "2026 OMEGA X EUROPE TOUR [RE:CONNECT]…⁠자세히",
+      "hashtags": [],
+      "music": "OMEGA X의 Touch",
+      "category": "General"
+    },
+    {
+      "views": 11000,
+      "likes": 9181,
+      "comments": 90,
+      "shares": 137,
+      "saves": 497,
+      "posted_at": "2026-03-03",
+      "caption": "&#128148;&#128525;&#129315;&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "Mae Stephens의 If We Ever Broke Up",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 2,
+    "posts_last_30d": 2,
+    "avg_views": 13500,
+    "avg_likes": 6137,
+    "avg_comments": 61,
+    "avg_shares": 126,
+    "avg_saves": 341,
+    "engagement_rate": 49.38
+  }
+}

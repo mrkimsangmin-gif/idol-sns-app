@@ -1,0 +1,113 @@
+{
+  "name": "오마이걸",
+  "name_en": "OH MY GIRL",
+  "slug": "oh-my-girl",
+  "tiktok_url": "https://www.tiktok.com/@wm_ohmygirl",
+  "crawled_at": "2026-03-08T13:46:24.206485",
+  "profile": {
+    "display_name": "OHMYGIRL",
+    "username": "@wm_ohmygirl",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 823000,
+    "following": 1,
+    "total_likes": 10769000,
+    "bio": "OHMYGIRL OFFICIAL&#10;오마이걸"
+  },
+  "posts": [
+    {
+      "views": 20000,
+      "likes": 2911,
+      "comments": 62,
+      "shares": 37,
+      "saves": 163,
+      "posted_at": "2026-03-07",
+      "caption": "크리들 노부부즈 안아… ⸜(⸝⸝´꒳`⸝⸝)⸝&#128151; &#10;…⁠자세히",
+      "hashtags": [],
+      "music": "걸스데이의 한번만 안아줘",
+      "category": "General"
+    },
+    {
+      "views": 108000,
+      "likes": 6910,
+      "comments": 100,
+      "shares": 66,
+      "saves": 278,
+      "posted_at": "2026-03-06",
+      "caption": "너 미워 ‹( ｡ •̀ ᴖ •́ ｡ )›&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "크러쉬의 미워",
+      "category": "General"
+    },
+    {
+      "views": 15000,
+      "likes": 1483,
+      "comments": 31,
+      "shares": 22,
+      "saves": 68,
+      "posted_at": "2026-03-05",
+      "caption": "놀기 신청하러 온 거야~?&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 268000,
+      "likes": 19000,
+      "comments": 258,
+      "shares": 394,
+      "saves": 606,
+      "posted_at": "2026-03-04",
+      "caption": "왜이래 나도 바빠 ໒( ｡ •̀ ᴖ •́ ｡)ა&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 150000,
+      "likes": 11000,
+      "comments": 78,
+      "shares": 119,
+      "saves": 812,
+      "posted_at": "2026-03-01",
+      "caption": "난 오늘 네가 킹받으면 좋겠어(งᐛ)ว (งᐖ)ว&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "행복한피자빵의 난 오늘 네가 킹받으면 좋겠어",
+      "category": "General"
+    },
+    {
+      "views": 29000,
+      "likes": 1423,
+      "comments": 35,
+      "shares": 12,
+      "saves": 79,
+      "posted_at": "2026-02-25",
+      "caption": "뱀티 몰라? 그거 요즘 유행이잖어~&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 0,
+      "likes": 38000,
+      "comments": 170,
+      "shares": 465,
+      "saves": 1312,
+      "posted_at": "2026-02-23",
+      "caption": "Mr. Mr =͟͟͞͞ ͟͟͞͞&#92432;&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [],
+      "music": "Girls' Generation의 Mr.Mr.",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 7,
+    "posts_last_30d": 7,
+    "avg_views": 84285,
+    "avg_likes": 11532,
+    "avg_comments": 104,
+    "avg_shares": 159,
+    "avg_saves": 474,
+    "engagement_rate": 14.56
+  }
+}

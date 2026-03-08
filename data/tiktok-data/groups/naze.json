@@ -1,0 +1,44 @@
+{
+  "name": "네이즈",
+  "name_en": "NAZE",
+  "slug": "naze",
+  "tiktok_url": "https://www.tiktok.com/@naze_official",
+  "crawled_at": "2026-03-08T21:11:05.219412",
+  "profile": {
+    "display_name": "NAZE",
+    "username": "@naze_official",
+    "verified": false,
+    "category": "",
+    "followers": 5083,
+    "following": 2,
+    "total_likes": 12000,
+    "bio": ""
+  },
+  "posts": [
+    {
+      "views": 2040,
+      "likes": 147,
+      "comments": 7,
+      "shares": 2,
+      "saves": 10,
+      "posted_at": "2026-03-07",
+      "caption": "Debut in May&#10;#NAZE #네이즈",
+      "hashtags": [
+        "NAZE",
+        "네이즈"
+      ],
+      "music": "Pharrell Williams의 Happy",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 2040,
+    "avg_likes": 147,
+    "avg_comments": 7,
+    "avg_shares": 2,
+    "avg_saves": 10,
+    "engagement_rate": 8.14
+  }
+}

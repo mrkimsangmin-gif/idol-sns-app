@@ -1,0 +1,53 @@
+{
+  "name": "엑스러브",
+  "name_en": "XLOV",
+  "slug": "xlov",
+  "tiktok_url": "https://www.tiktok.com/@xlov_official",
+  "crawled_at": "2026-03-08T20:57:48.440231",
+  "profile": {
+    "display_name": "XLOV",
+    "username": "@xlov_official",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 2469000,
+    "following": 0,
+    "total_likes": 90027000,
+    "bio": "XLOV WUMUTI RUI HYUN HARU&#10;XLOV 1st MINI ALBUM ‘UXLXVE’"
+  },
+  "posts": [
+    {
+      "views": 3893000,
+      "likes": 843000,
+      "comments": 7032,
+      "shares": 22000,
+      "saves": 73000,
+      "posted_at": "2026-02-18",
+      "caption": "나의 ❷⓿번째 생일,,&#128155;&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "Becky Hill &amp; Speed Radio &amp; xxtristanxo의 Remember - Acoustic / Sped Up (with David Guetta)",
+      "category": "General"
+    },
+    {
+      "views": 1714000,
+      "likes": 411000,
+      "comments": 2504,
+      "shares": 8124,
+      "saves": 39000,
+      "posted_at": "2026-02-15",
+      "caption": "&#128048;&#129418;&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 2,
+    "posts_last_30d": 2,
+    "avg_views": 2803500,
+    "avg_likes": 627000,
+    "avg_comments": 4768,
+    "avg_shares": 15062,
+    "avg_saves": 56000,
+    "engagement_rate": 25.07
+  }
+}

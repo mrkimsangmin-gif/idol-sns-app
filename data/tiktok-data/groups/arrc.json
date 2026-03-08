@@ -1,0 +1,53 @@
+{
+  "name": "아크",
+  "name_en": "ARrC",
+  "slug": "arrc",
+  "tiktok_url": "https://www.tiktok.com/@official.arrc",
+  "crawled_at": "2026-03-08T20:35:55.064350",
+  "profile": {
+    "display_name": "ARrC (아크)",
+    "username": "@official.arrc",
+    "verified": false,
+    "category": "아티스트",
+    "followers": 342000,
+    "following": 0,
+    "total_likes": 7772000,
+    "bio": "ARrC the 2nd single album [&#120278;&#120295;&#120293;&#120287;+&#120276;&#120287;&#120295;+&#120294;&#120286;&#120284;&#120284;&#120279;]&#10;⚠️ System Reboot : 2025.11.03 MON 6PM KST"
+  },
+  "posts": [
+    {
+      "views": 5427,
+      "likes": 1971,
+      "comments": 58,
+      "shares": 127,
+      "saves": 104,
+      "posted_at": "2026-03-08",
+      "caption": "Give To Gain&#129330;&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 1600,
+      "likes": 454,
+      "comments": 21,
+      "shares": 15,
+      "saves": 37,
+      "posted_at": "2026-03-07",
+      "caption": "beat it&#10; …⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 2,
+    "posts_last_30d": 2,
+    "avg_views": 3513,
+    "avg_likes": 1212,
+    "avg_comments": 39,
+    "avg_shares": 71,
+    "avg_saves": 70,
+    "engagement_rate": 39.66
+  }
+}

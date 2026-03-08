@@ -14,7 +14,7 @@ var groupAliasData = null;      // group-aliases.json 전체 데이터
 var searchIndexData = null;     // search-index.json 역인덱스 데이터
 
 // 캐시 버스팅 버전
-const NAMU_DATA_VERSION = '20260307b';
+const NAMU_DATA_VERSION = '20260309';
 
 // ============================================================
 // 진입점

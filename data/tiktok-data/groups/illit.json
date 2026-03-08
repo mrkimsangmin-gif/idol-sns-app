@@ -1,0 +1,89 @@
+{
+  "name": "아일릿",
+  "name_en": "ILLIT",
+  "slug": "illit",
+  "tiktok_url": "https://www.tiktok.com/@illit_official",
+  "crawled_at": "2026-03-08T13:36:39.459800",
+  "profile": {
+    "display_name": "ILLIT",
+    "username": "@illit_official",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 8582000,
+    "following": 1,
+    "total_likes": 470000000,
+    "bio": "#ILLIT Official Tiktok&#10;#아일릿 공식 틱톡"
+  },
+  "posts": [
+    {
+      "views": 287000,
+      "likes": 73000,
+      "comments": 1387,
+      "shares": 1985,
+      "saves": 6386,
+      "posted_at": "2026-03-07",
+      "caption": "#ヘビーローテーション &#128225;&#127800;&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "AKB48의 Heavy Rotation Itumokiiteta Favorite Song ver.",
+      "category": "General"
+    },
+    {
+      "views": 330000,
+      "likes": 218000,
+      "comments": 1655,
+      "shares": 5402,
+      "saves": 20000,
+      "posted_at": "2026-03-07",
+      "caption": "Annyeonghaseyo #IROHA #ILLIT #아일릿",
+      "hashtags": [
+        "IROHA",
+        "ILLIT",
+        "아일릿"
+      ],
+      "music": "Yuki Chiba &amp; Lil Moshpit의 Annyeonghaseyo",
+      "category": "General"
+    },
+    {
+      "views": 849000,
+      "likes": 203000,
+      "comments": 1727,
+      "shares": 6321,
+      "saves": 18000,
+      "posted_at": "2026-03-06",
+      "caption": "미모즈 아웅다웅 제출 #ILLIT #아일릿",
+      "hashtags": [
+        "ILLIT",
+        "아일릿"
+      ],
+      "music": "Yyeon의 아웅다웅 (feat. TimeFeveR (타임피버))",
+      "category": "General"
+    },
+    {
+      "views": 832000,
+      "likes": 279000,
+      "comments": 1659,
+      "shares": 9836,
+      "saves": 22000,
+      "posted_at": "2026-03-04",
+      "caption": "다얼자 makeup 도전 #유행을찾아서 #MOKA #ILLIT #아일릿",
+      "hashtags": [
+        "유행을찾아서",
+        "MOKA",
+        "ILLIT",
+        "아일릿"
+      ],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 4,
+    "posts_last_30d": 4,
+    "avg_views": 574500,
+    "avg_likes": 193250,
+    "avg_comments": 1607,
+    "avg_shares": 5886,
+    "avg_saves": 16596,
+    "engagement_rate": 37.83
+  }
+}

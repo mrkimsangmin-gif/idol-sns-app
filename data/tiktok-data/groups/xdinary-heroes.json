@@ -1,0 +1,53 @@
+{
+  "name": "엑스디너리 히어로즈",
+  "name_en": "Xdinary Heroes",
+  "slug": "xdinary-heroes",
+  "tiktok_url": "https://www.tiktok.com/@xheroes_official",
+  "crawled_at": "2026-03-08T19:40:31.685983",
+  "profile": {
+    "display_name": "Xdinary Heroes",
+    "username": "@xheroes_official",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 1660000,
+    "following": 0,
+    "total_likes": 37231000,
+    "bio": ""
+  },
+  "posts": [
+    {
+      "views": 14000,
+      "likes": 4922,
+      "comments": 76,
+      "shares": 93,
+      "saves": 308,
+      "posted_at": "2026-03-08",
+      "caption": "Xdinary Heroes(엑스디너리 히어로즈) Official Fanclub …⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 78000,
+      "likes": 12000,
+      "comments": 105,
+      "shares": 266,
+      "saves": 850,
+      "posted_at": "2026-03-06",
+      "caption": "Xdinary Heroes(엑스디너리 히어로즈) Official Fanclub…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 2,
+    "posts_last_30d": 2,
+    "avg_views": 46000,
+    "avg_likes": 8461,
+    "avg_comments": 90,
+    "avg_shares": 179,
+    "avg_saves": 579,
+    "engagement_rate": 20.24
+  }
+}

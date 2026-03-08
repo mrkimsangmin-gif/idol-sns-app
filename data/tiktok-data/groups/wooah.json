@@ -1,0 +1,53 @@
+{
+  "name": "우아",
+  "name_en": "WOOAH",
+  "slug": "wooah",
+  "tiktok_url": "https://www.tiktok.com/@wooah_hm",
+  "crawled_at": "2026-03-08T13:50:28.714305",
+  "profile": {
+    "display_name": "WOOAH 우아",
+    "username": "@wooah_hm",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 2470000,
+    "following": 1,
+    "total_likes": 44183000,
+    "bio": "WOOAH 우아&#10;2nd Mini Album&#10;[&#119828;&#119821;&#119813;&#119825;&#119808;&#119820;&#119812;&#119811;]&#10;&#128148;"
+  },
+  "posts": [
+    {
+      "views": 120000,
+      "likes": 14000,
+      "comments": 130,
+      "shares": 304,
+      "saves": 1098,
+      "posted_at": "2026-02-24",
+      "caption": "어쩜 이렇게 &#128048;&#128151;&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 29000,
+      "likes": 8929,
+      "comments": 117,
+      "shares": 133,
+      "saves": 663,
+      "posted_at": "2026-02-11",
+      "caption": "아웅다웅 &#128054; &#10;…⁠자세히",
+      "hashtags": [],
+      "music": "Yyeon의 아웅다웅 (feat. TimeFeveR (타임피버))",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 2,
+    "posts_last_30d": 2,
+    "avg_views": 74500,
+    "avg_likes": 11464,
+    "avg_comments": 123,
+    "avg_shares": 218,
+    "avg_saves": 880,
+    "engagement_rate": 17.03
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "아스트로",
+  "name_en": "ASTRO",
+  "slug": "astro",
+  "tiktok_url": "https://www.tiktok.com/@astro_official",
+  "crawled_at": "2026-03-08T19:39:41.004671",
+  "profile": {
+    "display_name": "ASTRO 아스트로",
+    "username": "@astro_official",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 7938000,
+    "following": 3,
+    "total_likes": 110000000,
+    "bio": ""
+  },
+  "posts": [
+    {
+      "views": 68000,
+      "likes": 18000,
+      "comments": 576,
+      "shares": 285,
+      "saves": 1332,
+      "posted_at": "2026-03-06",
+      "caption": "연차별 직장인의 자세 #엠제이 #MJ #윤산하 #YOONSANHA #ASTRO",
+      "hashtags": [
+        "엠제이",
+        "MJ",
+        "윤산하",
+        "YOONSANHA",
+        "ASTRO"
+      ],
+      "music": "ASTRO 아스트로의 오리지널 사운드 - ASTRO 아스트로",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 68000,
+    "avg_likes": 18000,
+    "avg_comments": 576,
+    "avg_shares": 285,
+    "avg_saves": 1332,
+    "engagement_rate": 29.7
+  }
+}

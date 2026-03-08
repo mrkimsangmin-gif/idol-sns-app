@@ -1,0 +1,78 @@
+{
+  "name": "비보이즈",
+  "name_en": "BE BOYS",
+  "slug": "be-boys",
+  "tiktok_url": "https://www.tiktok.com/@beboys_official",
+  "crawled_at": "2026-03-08T21:00:43.537368",
+  "profile": {
+    "display_name": "BE BOYS",
+    "username": "@beboys_official",
+    "verified": false,
+    "category": "",
+    "followers": 12000,
+    "following": 0,
+    "total_likes": 156000,
+    "bio": "비보이즈(BE BOYS) official TikTok"
+  },
+  "posts": [
+    {
+      "views": 2232,
+      "likes": 462,
+      "comments": 19,
+      "shares": 12,
+      "saves": 45,
+      "posted_at": "2026-02-18",
+      "caption": "give me my &#128184; #비보이즈 #BEBOYS",
+      "hashtags": [
+        "비보이즈",
+        "BEBOYS"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 1834,
+      "likes": 341,
+      "comments": 20,
+      "shares": 7,
+      "saves": 28,
+      "posted_at": "2026-02-17",
+      "caption": "오른쪽, 왼쪽, 앞, 뒤 비버 새해 복 많이 받으세요&#128583;‍♂️&#129293; #비보이즈 #BEBOYS #새해복많…⁠자세히",
+      "hashtags": [
+        "비보이즈",
+        "BEBOYS",
+        "새해복많"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 3831,
+      "likes": 539,
+      "comments": 20,
+      "shares": 17,
+      "saves": 36,
+      "posted_at": "2026-02-09",
+      "caption": "Growl #비보이즈 #BEBOYS #EXO #으르렁 #Growl",
+      "hashtags": [
+        "비보이즈",
+        "BEBOYS",
+        "EXO",
+        "으르렁",
+        "Growl"
+      ],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 3,
+    "posts_last_30d": 3,
+    "avg_views": 2632,
+    "avg_likes": 447,
+    "avg_comments": 19,
+    "avg_shares": 12,
+    "avg_saves": 36,
+    "engagement_rate": 19.58
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "세븐틴",
+  "name_en": "SEVENTEEN",
+  "slug": "seventeen",
+  "tiktok_url": "https://www.tiktok.com/@seventeen17_official",
+  "crawled_at": "2026-03-08T13:14:27.306426",
+  "profile": {
+    "display_name": "SEVENTEEN",
+    "username": "@seventeen17_official",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 17733000,
+    "following": 0,
+    "total_likes": 1000000000,
+    "bio": "#SEVENTEEN Official TikTok"
+  },
+  "posts": [
+    {
+      "views": 711000,
+      "likes": 271000,
+      "comments": 2406,
+      "shares": 6350,
+      "saves": 13000,
+      "posted_at": "2026-03-07",
+      "caption": "미워&#128521;",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 711000,
+    "avg_likes": 271000,
+    "avg_comments": 2406,
+    "avg_shares": 6350,
+    "avg_saves": 13000,
+    "engagement_rate": 41.18
+  }
+}

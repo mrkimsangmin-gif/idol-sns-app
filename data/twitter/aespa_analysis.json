@@ -1,0 +1,574 @@
+{
+  "generated": "2026-03-08T05:16:50.367317",
+  "period": "2025-03-08 ~ 2026-03-08",
+  "account": "aespa_official",
+  "total_tweets": 581,
+  "type_stats": [
+    {
+      "type": "기타",
+      "count": 403,
+      "pct": 69.4,
+      "metrics": {
+        "views": {
+          "avg": 611975,
+          "median": 334958,
+          "max": 19184643,
+          "total": 246626013
+        },
+        "likes": {
+          "avg": 19261,
+          "median": 15018,
+          "max": 136061,
+          "total": 7762225
+        },
+        "retweets": {
+          "avg": 5847,
+          "median": 4515,
+          "max": 42979,
+          "total": 2356360
+        },
+        "replies": {
+          "avg": 131,
+          "median": 58,
+          "max": 2730,
+          "total": 52713
+        },
+        "bookmarks": {
+          "avg": 634,
+          "median": 461,
+          "max": 4274,
+          "total": 255410
+        },
+        "quotes": {
+          "avg": 429,
+          "median": 128,
+          "max": 13885,
+          "total": 173028
+        }
+      }
+    },
+    {
+      "type": "Live/방송",
+      "count": 80,
+      "pct": 13.8,
+      "metrics": {
+        "views": {
+          "avg": 389621,
+          "median": 276831,
+          "max": 2032203,
+          "total": 31169682
+        },
+        "likes": {
+          "avg": 14142,
+          "median": 9203,
+          "max": 50216,
+          "total": 1131338
+        },
+        "retweets": {
+          "avg": 3866,
+          "median": 2456,
+          "max": 15557,
+          "total": 309270
+        },
+        "replies": {
+          "avg": 77,
+          "median": 32,
+          "max": 1005,
+          "total": 6140
+        },
+        "bookmarks": {
+          "avg": 418,
+          "median": 256,
+          "max": 2138,
+          "total": 33439
+        },
+        "quotes": {
+          "avg": 324,
+          "median": 86,
+          "max": 7566,
+          "total": 25259
+        }
+      }
+    },
+    {
+      "type": "Behind/Making",
+      "count": 45,
+      "pct": 7.7,
+      "metrics": {
+        "views": {
+          "avg": 275746,
+          "median": 272297,
+          "max": 410425,
+          "total": 12408556
+        },
+        "likes": {
+          "avg": 10097,
+          "median": 9708,
+          "max": 15398,
+          "total": 454356
+        },
+        "retweets": {
+          "avg": 3357,
+          "median": 3372,
+          "max": 4585,
+          "total": 151062
+        },
+        "replies": {
+          "avg": 55,
+          "median": 49,
+          "max": 204,
+          "total": 2484
+        },
+        "bookmarks": {
+          "avg": 238,
+          "median": 225,
+          "max": 426,
+          "total": 10697
+        },
+        "quotes": {
+          "avg": 94,
+          "median": 85,
+          "max": 203,
+          "total": 4235
+        }
+      }
+    },
+    {
+      "type": "Schedule/Notice",
+      "count": 24,
+      "pct": 4.1,
+      "metrics": {
+        "views": {
+          "avg": 595633,
+          "median": 385856,
+          "max": 3496511,
+          "total": 14295182
+        },
+        "likes": {
+          "avg": 14648,
+          "median": 10288,
+          "max": 65378,
+          "total": 351545
+        },
+        "retweets": {
+          "avg": 4643,
+          "median": 2942,
+          "max": 19693,
+          "total": 111442
+        },
+        "replies": {
+          "avg": 112,
+          "median": 54,
+          "max": 1001,
+          "total": 2685
+        },
+        "bookmarks": {
+          "avg": 453,
+          "median": 259,
+          "max": 2396,
+          "total": 10861
+        },
+        "quotes": {
+          "avg": 1013,
+          "median": 224,
+          "max": 11752,
+          "total": 24315
+        }
+      }
+    },
+    {
+      "type": "Performance",
+      "count": 8,
+      "pct": 1.4,
+      "metrics": {
+        "views": {
+          "avg": 295105,
+          "median": 267048,
+          "max": 577543,
+          "total": 2360843
+        },
+        "likes": {
+          "avg": 12028,
+          "median": 9699,
+          "max": 39429,
+          "total": 96221
+        },
+        "retweets": {
+          "avg": 4057,
+          "median": 3338,
+          "max": 12871,
+          "total": 32453
+        },
+        "replies": {
+          "avg": 53,
+          "median": 28,
+          "max": 211,
+          "total": 426
+        },
+        "bookmarks": {
+          "avg": 305,
+          "median": 218,
+          "max": 1099,
+          "total": 2441
+        },
+        "quotes": {
+          "avg": 126,
+          "median": 122,
+          "max": 302,
+          "total": 1009
+        }
+      }
+    },
+    {
+      "type": "Collaboration",
+      "count": 8,
+      "pct": 1.4,
+      "metrics": {
+        "views": {
+          "avg": 226623,
+          "median": 204954,
+          "max": 449115,
+          "total": 1812981
+        },
+        "likes": {
+          "avg": 8029,
+          "median": 8164,
+          "max": 11540,
+          "total": 64230
+        },
+        "retweets": {
+          "avg": 2651,
+          "median": 2301,
+          "max": 5518,
+          "total": 21211
+        },
+        "replies": {
+          "avg": 67,
+          "median": 38,
+          "max": 280,
+          "total": 539
+        },
+        "bookmarks": {
+          "avg": 173,
+          "median": 133,
+          "max": 348,
+          "total": 1381
+        },
+        "quotes": {
+          "avg": 93,
+          "median": 82,
+          "max": 258,
+          "total": 741
+        }
+      }
+    },
+    {
+      "type": "MV",
+      "count": 8,
+      "pct": 1.4,
+      "metrics": {
+        "views": {
+          "avg": 2261725,
+          "median": 1070218,
+          "max": 7210306,
+          "total": 18093802
+        },
+        "likes": {
+          "avg": 33054,
+          "median": 29210,
+          "max": 70062,
+          "total": 264434
+        },
+        "retweets": {
+          "avg": 14037,
+          "median": 11432,
+          "max": 31959,
+          "total": 112297
+        },
+        "replies": {
+          "avg": 395,
+          "median": 210,
+          "max": 1239,
+          "total": 3158
+        },
+        "bookmarks": {
+          "avg": 822,
+          "median": 592,
+          "max": 2371,
+          "total": 6572
+        },
+        "quotes": {
+          "avg": 1635,
+          "median": 1042,
+          "max": 5740,
+          "total": 13080
+        }
+      }
+    },
+    {
+      "type": "Teaser",
+      "count": 5,
+      "pct": 0.9,
+      "metrics": {
+        "views": {
+          "avg": 993770,
+          "median": 310373,
+          "max": 3571324,
+          "total": 4968850
+        },
+        "likes": {
+          "avg": 28404,
+          "median": 12528,
+          "max": 89817,
+          "total": 142018
+        },
+        "retweets": {
+          "avg": 11267,
+          "median": 4583,
+          "max": 36615,
+          "total": 56335
+        },
+        "replies": {
+          "avg": 221,
+          "median": 111,
+          "max": 740,
+          "total": 1104
+        },
+        "bookmarks": {
+          "avg": 1507,
+          "median": 474,
+          "max": 5765,
+          "total": 7534
+        },
+        "quotes": {
+          "avg": 2029,
+          "median": 206,
+          "max": 8610,
+          "total": 10143
+        }
+      }
+    }
+  ],
+  "top_tweets": [
+    {
+      "tweet_id": "1998710751926825272",
+      "text": "안녕하세요, SM엔터테인먼트입니다. https://t.co/mARoRmqx4t",
+      "type": "기타",
+      "date": "2025-12-10",
+      "views": 19184643,
+      "likes": 61251,
+      "retweets": 13557,
+      "bookmarks": 4274,
+      "url": "https://x.com/aespa_official/status/1998710751926825272"
+    },
+    {
+      "tweet_id": "1930595598287479160",
+      "text": "안녕하세요, SM엔터테인먼트입니다. https://t.co/7X6AVxkeLm",
+      "type": "기타",
+      "date": "2025-06-05",
+      "views": 18368380,
+      "likes": 73059,
+      "retweets": 15142,
+      "bookmarks": 3960,
+      "url": "https://x.com/aespa_official/status/1930595598287479160"
+    },
+    {
+      "tweet_id": "1968888064421359669",
+      "text": "aespa 에스파 'Rich Man (Yellow Claw Remix)' MV\n\nhttps://t.co/QiglPQufbh\n\n#aespa #æspa #에스파\n#RichMan #aespaRichMan https://t.co/cC2KippFMo",
+      "type": "MV",
+      "date": "2025-09-19",
+      "views": 7210306,
+      "likes": 6869,
+      "retweets": 1786,
+      "bookmarks": 321,
+      "url": "https://x.com/aespa_official/status/1968888064421359669"
+    },
+    {
+      "tweet_id": "1963821657694339257",
+      "text": "I am a Rich Man\n\nhttps://t.co/poVJRbm283\n\n#aespa #æspa #에스파\n#RichMan #aespaRichMan https://t.co/Yt04BkENaR",
+      "type": "기타",
+      "date": "2025-09-05",
+      "views": 6949507,
+      "likes": 43868,
+      "retweets": 14253,
+      "bookmarks": 2046,
+      "url": "https://x.com/aespa_official/status/1963821657694339257"
+    },
+    {
+      "tweet_id": "1930278546850885811",
+      "text": "aespa 에스파 'Dirty Work' INTRO    \n\nhttps://t.co/Et1aZOqUVz\n\naespa 에스파 〖Dirty Work〗  \n➫ 2025.06.27 1PM (KST)\n\n🔗 https://t.co/8IVqBeE9vE   \n\n#aespa #æspa #에스파 \n#DirtyWork #aespaDirtyWork https://t.co/7vP",
+      "type": "기타",
+      "date": "2025-06-05",
+      "views": 6060764,
+      "likes": 86016,
+      "retweets": 42979,
+      "bookmarks": 3055,
+      "url": "https://x.com/aespa_official/status/1930278546850885811"
+    },
+    {
+      "tweet_id": "1963814434285248543",
+      "text": "aespa 에스파 'Rich Man' MV\n\nhttps://t.co/jGTAfVDFU5\n\n#aespa #æspa #에스파 \n#RichMan #aespaRichMan https://t.co/KgcW6kRCot",
+      "type": "MV",
+      "date": "2025-09-05",
+      "views": 4366258,
+      "likes": 51300,
+      "retweets": 26463,
+      "bookmarks": 1316,
+      "url": "https://x.com/aespa_official/status/1963814434285248543"
+    },
+    {
+      "tweet_id": "1998697995060076693",
+      "text": "신우석의 도시동화 EP.1 'The Christmas Song' Teaser\n\nhttps://t.co/HhcbN5UW5e\n\n#aespa #æspa #에스파\n#KARINA #카리나 https://t.co/rRnIj4m8kL",
+      "type": "Teaser",
+      "date": "2025-12-10",
+      "views": 3571324,
+      "likes": 89817,
+      "retweets": 36615,
+      "bookmarks": 5765,
+      "url": "https://x.com/aespa_official/status/1998697995060076693"
+    },
+    {
+      "tweet_id": "1927308149800775746",
+      "text": "🎀 Whiplash cute ver. \n\nhttps://t.co/L2oH9BOuZu\n\n#aespa #æspa #에스파 \n#KARINA #카리나\n#NINGNING #닝닝 https://t.co/iU8LOJ3r1R",
+      "type": "기타",
+      "date": "2025-05-27",
+      "views": 3554757,
+      "likes": 45305,
+      "retweets": 10671,
+      "bookmarks": 2013,
+      "url": "https://x.com/aespa_official/status/1927308149800775746"
+    },
+    {
+      "tweet_id": "1957321643853775077",
+      "text": "aespa OFFICIAL FANLIGHT ver.2\n💜 2025. 08 Coming Soon 🩵\n\n#aespa #æspa #에스파\n#OFFICIALFANLIGHT https://t.co/Js8Uyt6fAE",
+      "type": "Schedule/Notice",
+      "date": "2025-08-18",
+      "views": 3496511,
+      "likes": 65378,
+      "retweets": 19693,
+      "bookmarks": 2396,
+      "url": "https://x.com/aespa_official/status/1957321643853775077"
+    },
+    {
+      "tweet_id": "1938447283324063780",
+      "text": "aespa 에스파 'Dirty Work' MV\n\nhttps://t.co/Esq9pKNtzV\n\n#aespa #æspa #에스파\n#DirtyWork #aespaDirtyWork https://t.co/57dotG6Ey0",
+      "type": "MV",
+      "date": "2025-06-27",
+      "views": 3483446,
+      "likes": 60657,
+      "retweets": 31959,
+      "bookmarks": 1212,
+      "url": "https://x.com/aespa_official/status/1938447283324063780"
+    },
+    {
+      "tweet_id": "1952021716643012748",
+      "text": "aespa 에스파 'Rich Man' INTRO    \n\nhttps://t.co/5qbOljWFiC\n\naespa 에스파 The 6th Mini Album 〖Rich Man〗 \n➫ 2025.09.05 1PM (KST)\n\n🔗 https://t.co/8IVqBeE9vE   \n\n#aespa #æspa #에스파 \n#RichMan #aespaRichMan https:",
+      "type": "기타",
+      "date": "2025-08-04",
+      "views": 3302155,
+      "likes": 54961,
+      "retweets": 27382,
+      "bookmarks": 1729,
+      "url": "https://x.com/aespa_official/status/1952021716643012748"
+    },
+    {
+      "tweet_id": "1996829402018337050",
+      "text": "Warm up your winter with WINTER’s handpicked playlist on @AppleMusic💙❄️\n\nhttps://t.co/y973b0U4NB\n\n#aespa #æspa #에스파\n#WINTER #윈터\n#WinterWarmers https://t.co/t3WhehuHbr",
+      "type": "기타",
+      "date": "2025-12-05",
+      "views": 3179194,
+      "likes": 11763,
+      "retweets": 2372,
+      "bookmarks": 660,
+      "url": "https://x.com/aespa_official/status/1996829402018337050"
+    },
+    {
+      "tweet_id": "2002275305797599498",
+      "text": "안녕하세요, SM엔터테인먼트입니다.\n\n당사 아티스트 에스파 닝닝의 오늘(20일) MMA 레드카펫 불참 관련 안내 드립니다.\n\n닝닝은 금일 감기 증상으로 인한 컨디션 저하로 금일 예정되어 있던 레드카펫 행사에는 부득이하게 불참하게 되었습니다.\n\n다만 무대에 대한 아티스트의 강력한 의지에 따라,",
+      "type": "기타",
+      "date": "2025-12-20",
+      "views": 3071877,
+      "likes": 14655,
+      "retweets": 2774,
+      "bookmarks": 604,
+      "url": "https://x.com/aespa_official/status/2002275305797599498"
+    },
+    {
+      "tweet_id": "2009944628003516790",
+      "text": "읏쇼읏쇼 우리의 우정 여행 ✮\n\nhttps://t.co/3B3qu85zTj\n\n#aespa #æspa #에스파\n#KARINA #카리나 \n#ITZY #RYUJIN #류진 \n#한수아",
+      "type": "기타",
+      "date": "2026-01-10",
+      "views": 3049984,
+      "likes": 8111,
+      "retweets": 3020,
+      "bookmarks": 274,
+      "url": "https://x.com/aespa_official/status/2009944628003516790"
+    },
+    {
+      "tweet_id": "1903825027218428267",
+      "text": "New version coming! 🎂🎯\n➫ 2025.03.27 1PM (KST) / 0AM (EDT)\n\n#aespa #æspa #에스파 https://t.co/lNXyc1tlFc",
+      "type": "기타",
+      "date": "2025-03-24",
+      "views": 3018653,
+      "likes": 51697,
+      "retweets": 11696,
+      "bookmarks": 1063,
+      "url": "https://x.com/aespa_official/status/1903825027218428267"
+    },
+    {
+      "tweet_id": "2006379825637056589",
+      "text": "Happy Birthday #WINTER 🎂\n\n#aespa #æspa #에스파\n#WINTER #윈터 https://t.co/ChKvYR2jV5",
+      "type": "기타",
+      "date": "2026-01-01",
+      "views": 2921963,
+      "likes": 136061,
+      "retweets": 42235,
+      "bookmarks": 3417,
+      "url": "https://x.com/aespa_official/status/2006379825637056589"
+    },
+    {
+      "tweet_id": "2004172798022111630",
+      "text": "˗ˏˋ 𝖱𝗂𝖼𝗁꙳𖢔·⋆𝖬𝖺𝗇 ˎˊ˗\n\n#aespa #æspa #에스파\n#가요대전 #SBS가요대전 #2025SBS가요대전 https://t.co/k7bOJ6FfMn",
+      "type": "기타",
+      "date": "2025-12-25",
+      "views": 2794842,
+      "likes": 46869,
+      "retweets": 11351,
+      "bookmarks": 1349,
+      "url": "https://x.com/aespa_official/status/2004172798022111630"
+    },
+    {
+      "tweet_id": "1983549419502096741",
+      "text": "00.10.30\n\n#aespa #æspa #에스파\n#GISELLE #지젤 https://t.co/7R8SGKqjE9",
+      "type": "기타",
+      "date": "2025-10-30",
+      "views": 2686184,
+      "likes": 66025,
+      "retweets": 21189,
+      "bookmarks": 1560,
+      "url": "https://x.com/aespa_official/status/1983549419502096741"
+    },
+    {
+      "tweet_id": "1910347072081150351",
+      "text": "00.04.11\n\n#aespa #æspa #에스파 \n#KARINA #카리나 https://t.co/wsB2ax3b82",
+      "type": "기타",
+      "date": "2025-04-11",
+      "views": 2191823,
+      "likes": 75092,
+      "retweets": 27171,
+      "bookmarks": 2022,
+      "url": "https://x.com/aespa_official/status/1910347072081150351"
+    },
+    {
+      "tweet_id": "1981012707483795715",
+      "text": "02.10.23\n\n#aespa #æspa #에스파 \n#NINGNING #닝닝 https://t.co/fqJq7njRRd",
+      "type": "기타",
+      "date": "2025-10-23",
+      "views": 2033078,
+      "likes": 88560,
+      "retweets": 29225,
+      "bookmarks": 2074,
+      "url": "https://x.com/aespa_official/status/1981012707483795715"
+    }
+  ]
+}

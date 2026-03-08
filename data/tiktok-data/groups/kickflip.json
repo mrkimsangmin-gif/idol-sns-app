@@ -1,0 +1,101 @@
+{
+  "name": "킥플립",
+  "name_en": "KickFlip",
+  "slug": "kickflip",
+  "tiktok_url": "https://www.tiktok.com/@kickflip_jype",
+  "crawled_at": "2026-03-08T21:48:12.761983",
+  "profile": {
+    "display_name": "KickFlip",
+    "username": "@kickflip_jype",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 1850000,
+    "following": 0,
+    "total_likes": 78835000,
+    "bio": "KickFlip Official TikTok"
+  },
+  "posts": [
+    {
+      "views": 121000,
+      "likes": 40000,
+      "comments": 1008,
+      "shares": 2118,
+      "saves": 4002,
+      "posted_at": "2026-03-06",
+      "caption": "",
+      "hashtags": [],
+      "music": "KickFlip의 오리지널 사운드 - KickFlip",
+      "category": "General"
+    },
+    {
+      "views": 16000,
+      "likes": 7655,
+      "comments": 139,
+      "shares": 193,
+      "saves": 614,
+      "posted_at": "2026-03-08",
+      "caption": "&#120290;&#120322;&#120319; &#120307;&#120310;&#120319;&#120320;&#120321; &#120321;&#120319;&#120310;&#120317; &#127754; &#10;…⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [],
+      "music": "P. Diddy의 I'll Be Missing You (feat. Faith Evans, 112)",
+      "category": "General"
+    },
+    {
+      "views": 391000,
+      "likes": 135000,
+      "comments": 1547,
+      "shares": 4348,
+      "saves": 12000,
+      "posted_at": "2026-03-08",
+      "caption": "&#128047;&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 0,
+      "likes": 11000,
+      "comments": 181,
+      "shares": 215,
+      "saves": 1339,
+      "posted_at": "2026-03-07",
+      "caption": "",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 0,
+      "likes": 91000,
+      "comments": 489,
+      "shares": 1830,
+      "saves": 8304,
+      "posted_at": "2026-03-06",
+      "caption": "⭐ 계훈 JYP 입사 10주년 ⭐ 3월 7일 COMING SOON…⁠자세히",
+      "hashtags": [],
+      "music": "Simple Plan의 I'm Just a Kid",
+      "category": "General"
+    },
+    {
+      "views": 0,
+      "likes": 15000,
+      "comments": 138,
+      "shares": 318,
+      "saves": 1472,
+      "posted_at": "2026-03-06",
+      "caption": "",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 6,
+    "posts_last_30d": 6,
+    "avg_views": 88000,
+    "avg_likes": 49942,
+    "avg_comments": 583,
+    "avg_shares": 1503,
+    "avg_saves": 4621,
+    "engagement_rate": 64.38
+  }
+}

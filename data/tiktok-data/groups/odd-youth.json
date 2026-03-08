@@ -1,0 +1,53 @@
+{
+  "name": "오드유스",
+  "name_en": "ODD YOUTH",
+  "slug": "odd-youth",
+  "tiktok_url": "https://www.tiktok.com/@odd_youth",
+  "crawled_at": "2026-03-08T14:26:48.833676",
+  "profile": {
+    "display_name": "ODD YOUTH",
+    "username": "@odd_youth",
+    "verified": false,
+    "category": "아티스트",
+    "followers": 54000,
+    "following": 0,
+    "total_likes": 1176000,
+    "bio": "ᴘʟᴀʏ ᴡɪᴛʜ ᴜs!&#10;ODD YOUTH Official TikTok"
+  },
+  "posts": [
+    {
+      "views": 6179,
+      "likes": 541,
+      "comments": 51,
+      "shares": 51,
+      "saves": 59,
+      "posted_at": "2026-02-25",
+      "caption": "ODD YOUTH&#10;2nd Single &lt; Babyface &gt; &#10;COMEBACK SCHEDULER &#10;RELEASE DATE&#10;2026.03.12 THU 6PM (KST)…",
+      "hashtags": [],
+      "music": "",
+      "category": "Promotion"
+    },
+    {
+      "views": 2091,
+      "likes": 273,
+      "comments": 15,
+      "shares": 13,
+      "saves": 23,
+      "posted_at": "2026-03-07",
+      "caption": "ODD YOUTH&#10;2nd Single &lt; Babyface &gt; &#10;SPOILER 2…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 2,
+    "posts_last_30d": 2,
+    "avg_views": 4135,
+    "avg_likes": 407,
+    "avg_comments": 33,
+    "avg_shares": 32,
+    "avg_saves": 41,
+    "engagement_rate": 12.41
+  }
+}

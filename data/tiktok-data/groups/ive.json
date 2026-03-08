@@ -1,0 +1,65 @@
+{
+  "name": "아이브",
+  "name_en": "IVE",
+  "slug": "ive",
+  "tiktok_url": "https://www.tiktok.com/@ive.official",
+  "crawled_at": "2026-03-08T13:28:55.929911",
+  "profile": {
+    "display_name": "IVE.official",
+    "username": "@ive.official",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 11333000,
+    "following": 1,
+    "total_likes": 580000000,
+    "bio": ""
+  },
+  "posts": [
+    {
+      "views": 840000,
+      "likes": 126000,
+      "comments": 2040,
+      "shares": 4719,
+      "saves": 8777,
+      "posted_at": "2026-02-23",
+      "caption": "IVE &#10;THE 2ND ALBUM …⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [],
+      "music": "",
+      "category": "Promotion"
+    },
+    {
+      "views": 44000,
+      "likes": 14000,
+      "comments": 503,
+      "shares": 571,
+      "saves": 1144,
+      "posted_at": "2026-03-08",
+      "caption": "별이떴으니까 날좀바라봐 &#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 209000,
+      "likes": 35000,
+      "comments": 547,
+      "shares": 583,
+      "saves": 2867,
+      "posted_at": "2026-03-07",
+      "caption": "‘IVE'S WEEK' DAY 10 &#129694;&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [],
+      "music": "IVE (아이브)의 BANG BANG",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 3,
+    "posts_last_30d": 3,
+    "avg_views": 364333,
+    "avg_likes": 58333,
+    "avg_comments": 1030,
+    "avg_shares": 1957,
+    "avg_saves": 4262,
+    "engagement_rate": 18.0
+  }
+}

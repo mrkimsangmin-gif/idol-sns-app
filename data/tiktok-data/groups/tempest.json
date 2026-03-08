@@ -1,0 +1,41 @@
+{
+  "name": "템페스트",
+  "name_en": "TEMPEST",
+  "slug": "tempest",
+  "tiktok_url": "https://www.tiktok.com/@tpstofficial_",
+  "crawled_at": "2026-03-08T19:45:44.661803",
+  "profile": {
+    "display_name": "템페스트(TEMPEST)",
+    "username": "@tpstofficial_",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 1557000,
+    "following": 0,
+    "total_likes": 65070000,
+    "bio": "TEMPEST(템페스트) 7th Mini Album 『As I am』 &#128250; 2025.10.27 6PM (KST)"
+  },
+  "posts": [
+    {
+      "views": 6557,
+      "likes": 1954,
+      "comments": 81,
+      "shares": 89,
+      "saves": 118,
+      "posted_at": "2026-03-08",
+      "caption": "Happy Women’s day&#127801;&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 6557,
+    "avg_likes": 1954,
+    "avg_comments": 81,
+    "avg_shares": 89,
+    "avg_saves": 118,
+    "engagement_rate": 34.19
+  }
+}

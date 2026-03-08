@@ -1,0 +1,41 @@
+{
+  "name": "코르티스",
+  "name_en": "CORTIS",
+  "slug": "cortis",
+  "tiktok_url": "https://www.tiktok.com/@cortis_bighit",
+  "crawled_at": "2026-03-08T21:02:15.923602",
+  "profile": {
+    "display_name": "CORTIS",
+    "username": "@cortis_bighit",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 9764000,
+    "following": 0,
+    "total_likes": 570000000,
+    "bio": "CORTIS 코르티스 Official TikTok&#10;CORTIS The 2nd EP 'GREENGREEN'"
+  },
+  "posts": [
+    {
+      "views": 1382000,
+      "likes": 437000,
+      "comments": 3577,
+      "shares": 9473,
+      "saves": 26000,
+      "posted_at": "2026-03-08",
+      "caption": "올크크 vs. 영크크&#10;(이렇게 올려도 된다고 하셨어요 &#129401;)…⁠자세히",
+      "hashtags": [],
+      "music": "코르티스의 YOUNGCREATORCREW",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 1382000,
+    "avg_likes": 437000,
+    "avg_comments": 3577,
+    "avg_shares": 9473,
+    "avg_saves": 26000,
+    "engagement_rate": 34.45
+  }
+}

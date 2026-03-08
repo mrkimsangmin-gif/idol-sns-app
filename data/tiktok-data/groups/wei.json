@@ -1,0 +1,73 @@
+{
+  "name": "위아이",
+  "name_en": "WEi",
+  "slug": "wei",
+  "tiktok_url": "https://www.tiktok.com/@wei__official",
+  "crawled_at": "2026-03-08T20:20:09.174566",
+  "profile": {
+    "display_name": "위아이(WEi)",
+    "username": "@wei__official",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 2475000,
+    "following": 1,
+    "total_likes": 60229000,
+    "bio": "위엔터테인먼트 위아이(WEi) OFFICIAL TikTok"
+  },
+  "posts": [
+    {
+      "views": 19000,
+      "likes": 4860,
+      "comments": 76,
+      "shares": 60,
+      "saves": 246,
+      "posted_at": "2026-03-03",
+      "caption": "아웅다웅✊&#127995;&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 47000,
+      "likes": 11000,
+      "comments": 159,
+      "shares": 145,
+      "saves": 565,
+      "posted_at": "2026-03-02",
+      "caption": "너 미워 &#10;#위아이 #WEi #장대현 #JANGDAEHYEON",
+      "hashtags": [
+        "위아이",
+        "WEi",
+        "장대현",
+        "JANGDAEHYEON"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 48000,
+      "likes": 8721,
+      "comments": 229,
+      "shares": 116,
+      "saves": 519,
+      "posted_at": "2026-02-11",
+      "caption": "&#127874;&#128057;&#127881;&#10;#위아이 #WEi…⁠자세히",
+      "hashtags": [
+        "위아이",
+        "WEi"
+      ],
+      "music": "Sexyy Red의 It's My Birthday",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 3,
+    "posts_last_30d": 3,
+    "avg_views": 38000,
+    "avg_likes": 8193,
+    "avg_comments": 154,
+    "avg_shares": 107,
+    "avg_saves": 443,
+    "engagement_rate": 23.42
+  }
+}

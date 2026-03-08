@@ -1,0 +1,65 @@
+{
+  "name": "엔믹스",
+  "name_en": "NMIXX",
+  "slug": "nmixx",
+  "tiktok_url": "https://www.tiktok.com/@nmixx_official",
+  "crawled_at": "2026-03-08T13:31:53.593263",
+  "profile": {
+    "display_name": "NMIXX",
+    "username": "@nmixx_official",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 6998000,
+    "following": 0,
+    "total_likes": 290000000,
+    "bio": "NMIXX Official TikTok&#129744;"
+  },
+  "posts": [
+    {
+      "views": 156000,
+      "likes": 28000,
+      "comments": 348,
+      "shares": 776,
+      "saves": 2419,
+      "posted_at": "2026-03-06",
+      "caption": "고양이 거기 들어가면 안돼요&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "NMIXX의 오리지널 사운드 - NMIXX",
+      "category": "General"
+    },
+    {
+      "views": 105000,
+      "likes": 13000,
+      "comments": 269,
+      "shares": 443,
+      "saves": 1393,
+      "posted_at": "2026-03-05",
+      "caption": "&#129293;➕❤️ &#10;…⁠자세히",
+      "hashtags": [],
+      "music": "NMIXX의 오리지널 사운드 - NMIXX",
+      "category": "General"
+    },
+    {
+      "views": 329000,
+      "likes": 42000,
+      "comments": 537,
+      "shares": 565,
+      "saves": 3404,
+      "posted_at": "2026-03-02",
+      "caption": "엔써야 생일 축하해 ♡&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "NMIXX의 Shape of Love",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 3,
+    "posts_last_30d": 3,
+    "avg_views": 196666,
+    "avg_likes": 27666,
+    "avg_comments": 384,
+    "avg_shares": 594,
+    "avg_saves": 2405,
+    "engagement_rate": 15.79
+  }
+}

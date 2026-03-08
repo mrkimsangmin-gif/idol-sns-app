@@ -1,0 +1,53 @@
+{
+  "name": "배드빌런",
+  "name_en": "BADVILLAIN",
+  "slug": "badvillain",
+  "tiktok_url": "https://www.tiktok.com/@BADVILLAIN_BPM",
+  "crawled_at": "2026-03-08T14:21:16.688183",
+  "profile": {
+    "display_name": "",
+    "username": "",
+    "verified": false,
+    "category": "",
+    "followers": 0,
+    "following": 0,
+    "total_likes": 0,
+    "bio": ""
+  },
+  "posts": [
+    {
+      "views": 35000,
+      "likes": 9811,
+      "comments": 161,
+      "shares": 630,
+      "saves": 872,
+      "posted_at": "2026-02-26",
+      "caption": "펑키한 매력의 희진을 만나보세요⛧*̩̩͙⸝⋆&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 62000,
+      "likes": 13000,
+      "comments": 182,
+      "shares": 270,
+      "saves": 901,
+      "posted_at": "2026-02-18",
+      "caption": "오징어 챌린지 &#10; …⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "Challenge/Dance"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 2,
+    "posts_last_30d": 2,
+    "avg_views": 48500,
+    "avg_likes": 11405,
+    "avg_comments": 171,
+    "avg_shares": 450,
+    "avg_saves": 886,
+    "engagement_rate": 26.63
+  }
+}

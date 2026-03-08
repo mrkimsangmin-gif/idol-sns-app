@@ -1,0 +1,41 @@
+{
+  "name": "마마무",
+  "name_en": "MAMAMOO",
+  "slug": "mamamoo",
+  "tiktok_url": "https://www.tiktok.com/@official_mamamoo",
+  "crawled_at": "2026-03-08T21:13:08.594017",
+  "profile": {
+    "display_name": "mamamoo_official",
+    "username": "@official_mamamoo",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 4379000,
+    "following": 1,
+    "total_likes": 49350000,
+    "bio": "#MAMAMOO Official TikTok.&#10;Solar, Moon Byul, Whee In, Hwa Sa."
+  },
+  "posts": [
+    {
+      "views": 5759,
+      "likes": 1121,
+      "comments": 21,
+      "shares": 14,
+      "saves": 49,
+      "posted_at": "2026-03-08",
+      "caption": "[TEASER] Solar x 告五人 '總有一顆屬於你的星球 (Y…⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [],
+      "music": "mamamoo_official의 오리지널 사운드 - mamamoo_official",
+      "category": "Promotion"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 5759,
+    "avg_likes": 1121,
+    "avg_comments": 21,
+    "avg_shares": 14,
+    "avg_saves": 49,
+    "engagement_rate": 20.92
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "롱샷",
+  "name_en": "LNGSHOT",
+  "slug": "lngshot",
+  "tiktok_url": "https://www.tiktok.com/@lngshot4sho",
+  "crawled_at": "2026-03-08T21:10:23.560389",
+  "profile": {
+    "display_name": "LNGSHOT",
+    "username": "@lngshot4sho",
+    "verified": true,
+    "category": "",
+    "followers": 2483000,
+    "following": 1,
+    "total_likes": 69271000,
+    "bio": "DEBUT EP SHOT CALLERS Out Now!"
+  },
+  "posts": [
+    {
+      "views": 501000,
+      "likes": 93000,
+      "comments": 1132,
+      "shares": 2431,
+      "saves": 8805,
+      "posted_at": "2026-02-20",
+      "caption": "#Backseat MV OUT NOW. &#10;…⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [
+        "Backseat"
+      ],
+      "music": "",
+      "category": "MV"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 501000,
+    "avg_likes": 93000,
+    "avg_comments": 1132,
+    "avg_shares": 2431,
+    "avg_saves": 8805,
+    "engagement_rate": 21.03
+  }
+}

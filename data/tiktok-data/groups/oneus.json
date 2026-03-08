@@ -1,0 +1,80 @@
+{
+  "name": "원어스",
+  "name_en": "ONEUS",
+  "slug": "oneus",
+  "tiktok_url": "https://www.tiktok.com/@bwave_oneus",
+  "crawled_at": "2026-03-08T19:54:17.887388",
+  "profile": {
+    "display_name": "ONEUS_Official",
+    "username": "@bwave_oneus",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 1647000,
+    "following": 1,
+    "total_likes": 33766000,
+    "bio": ""
+  },
+  "posts": [
+    {
+      "views": 34000,
+      "likes": 7533,
+      "comments": 94,
+      "shares": 177,
+      "saves": 476,
+      "posted_at": "2026-02-17",
+      "caption": "&#128058;&#128168;&#128055;&#128055;&#128055; #원어스 #ONEUS #아기돼지삼형제 @yeohwannwoong",
+      "hashtags": [
+        "원어스",
+        "ONEUS",
+        "아기돼지삼형제"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 46000,
+      "likes": 12000,
+      "comments": 125,
+      "shares": 185,
+      "saves": 724,
+      "posted_at": "2026-02-10",
+      "caption": "투문과 아웅다웅 〰️ #원어스 #ONEUS #HWANWOONG #XION #아웅다웅 …⁠자세히",
+      "hashtags": [
+        "원어스",
+        "ONEUS",
+        "HWANWOONG",
+        "XION",
+        "아웅다웅"
+      ],
+      "music": "Yyeon의 아웅다웅 (feat. TimeFeveR (타임피버))",
+      "category": "General"
+    },
+    {
+      "views": 40000,
+      "likes": 10000,
+      "comments": 118,
+      "shares": 201,
+      "saves": 642,
+      "posted_at": "2026-02-06",
+      "caption": "I Really like TOMOON &#127769;  #원어스 #ONEUS #KEONHEE #HWANW…⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [
+        "원어스",
+        "ONEUS",
+        "KEONHEE",
+        "HWANW"
+      ],
+      "music": "BABYMONSTER의 Really Like You",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 3,
+    "posts_last_30d": 3,
+    "avg_views": 40000,
+    "avg_likes": 9844,
+    "avg_comments": 112,
+    "avg_shares": 187,
+    "avg_saves": 614,
+    "engagement_rate": 26.9
+  }
+}
