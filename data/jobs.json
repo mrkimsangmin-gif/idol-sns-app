@@ -2,28 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 26,
-      "company": "하이브",
-      "position": "기업 PR",
-      "category": "마케팅",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-03-09",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48376145?rPageCode=SL&logpath=21&sn=6&sc=612",
-      "source": "잡코리아"
-    },
-    {
-      "id": 125,
-      "company": "타이탄콘텐츠",
-      "position": "신인개발팀 채용",
-      "category": "신인개발",
-      "career": "무관",
-      "location": "서울 강남구",
-      "deadline": "2026-03-09",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48575726?Oem_Code=C1&sc=54&gno=48575726",
-      "source": "잡코리아"
-    },
-    {
       "id": 127,
       "company": "모드하우스",
       "position": "[모드하우스] 플랫폼 서비스 운영 기획 담당자 채용(D",
@@ -398,6 +376,17 @@
       "source": "YG엔터테인먼트"
     },
     {
+      "id": 347,
+      "company": "위드어스엔터테인먼트",
+      "position": "기획팀",
+      "category": "경영지원",
+      "career": "신입·경력",
+      "location": "서울 강남구",
+      "deadline": "2026-03-31",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48737212",
+      "source": "잡코리아"
+    },
+    {
       "id": 322,
       "company": "비웨이브 엔터테인먼트",
       "position": "신인개발팀 담당자",
@@ -453,6 +442,50 @@
       "source": "잡코리아"
     },
     {
+      "id": 337,
+      "company": "SM엔터테인먼트",
+      "position": "생산 MD 담당자 채용 (경력)",
+      "category": "기타",
+      "career": "경력 5년 이상",
+      "location": "서울 성동구",
+      "deadline": "2026-04-05",
+      "url": "https://recruit.smentertainment.com/ko/o/205422",
+      "source": "SM엔터테인먼트"
+    },
+    {
+      "id": 345,
+      "company": "패러블엔터테인먼트",
+      "position": "크리에이터 방송사업 본부 매니저",
+      "category": "매니지먼트",
+      "career": "무관",
+      "location": "서울 금천구",
+      "deadline": "2026-04-08",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48740177",
+      "source": "잡코리아"
+    },
+    {
+      "id": 346,
+      "company": "위드어스엔터테인먼트",
+      "position": "영상팀",
+      "category": "영상",
+      "career": "신입·경력",
+      "location": "서울 강남구",
+      "deadline": "2026-04-08",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48739871",
+      "source": "잡코리아"
+    },
+    {
+      "id": 338,
+      "company": "SM엔터테인먼트",
+      "position": "아티스트 마케팅 전략 담당자 채용 (경력)",
+      "category": "마케팅",
+      "career": "경력 5년 이상",
+      "location": "서울 성동구",
+      "deadline": "2026-04-10",
+      "url": "https://recruit.smentertainment.com/ko/o/204857",
+      "source": "SM엔터테인먼트"
+    },
+    {
       "id": 120,
       "company": "이엔터테인먼트",
       "position": "신인 보이 그룹 팬 매니저&마케터 모집",
@@ -494,6 +527,61 @@
       "location": "서울 강남구",
       "deadline": "2026-05-03",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48700900",
+      "source": "잡코리아"
+    },
+    {
+      "id": 340,
+      "company": "에스투엔터테인먼트",
+      "position": "프로덕션 파트",
+      "category": "영상",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-05-08",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48739836",
+      "source": "잡코리아"
+    },
+    {
+      "id": 341,
+      "company": "에스투엔터테인먼트",
+      "position": "콘텐츠본부 영상팀 (대리급)",
+      "category": "영상",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-05-08",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48739676",
+      "source": "잡코리아"
+    },
+    {
+      "id": 342,
+      "company": "에스투엔터테인먼트",
+      "position": "기획제작본부 공연팀",
+      "category": "기타",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-05-08",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48739638",
+      "source": "잡코리아"
+    },
+    {
+      "id": 343,
+      "company": "언코어",
+      "position": "가수 현장매니저/로드매니저",
+      "category": "매니지먼트",
+      "career": "무관",
+      "location": "서울 강남구",
+      "deadline": "2026-05-08",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48738250",
+      "source": "잡코리아"
+    },
+    {
+      "id": 344,
+      "company": "포켓돌스튜디오",
+      "position": "AI 활용 업무지원 담당자",
+      "category": "마케팅",
+      "career": "신입·경력",
+      "location": "서울 강남구",
+      "deadline": "2026-05-08",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48736110",
       "source": "잡코리아"
     },
     {
@@ -2695,6 +2783,39 @@
       "deadline": "상시채용",
       "url": "https://recruit-apply.jype.com/o/205003",
       "source": "JYP엔터테인먼트"
+    },
+    {
+      "id": 335,
+      "company": "HYBE",
+      "position": "전략/사업 관리 담당",
+      "category": "영업",
+      "career": "경력 5년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/205470",
+      "source": "하이브"
+    },
+    {
+      "id": 336,
+      "company": "HYBE",
+      "position": "HRBP 운영 지원*",
+      "category": "경영지원",
+      "career": "경력 2~5년",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/205338",
+      "source": "하이브"
+    },
+    {
+      "id": 339,
+      "company": "에프앤에프엔터테인먼트",
+      "position": "제작사업부문",
+      "category": "영상",
+      "career": "신입·경력",
+      "location": "서울 강남구",
+      "deadline": "상시채용",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48740652",
+      "source": "잡코리아"
     }
   ],
   "categories": [
@@ -2710,5 +2831,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-03-09T08:55:42.677085"
+  "updatedAt": "2026-03-10T09:01:01.058919"
 }
