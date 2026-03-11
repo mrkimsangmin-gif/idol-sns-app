@@ -387,6 +387,17 @@
       "source": "잡코리아"
     },
     {
+      "id": 353,
+      "company": "SM엔터테인먼트",
+      "position": "연결회계 담당자 채용 (경력 5-8년차)",
+      "category": "경영지원",
+      "career": "경력 5~8년",
+      "location": "서울 성동구",
+      "deadline": "2026-03-31",
+      "url": "https://recruit.smentertainment.com/ko/o/205800",
+      "source": "SM엔터테인먼트"
+    },
+    {
       "id": 322,
       "company": "비웨이브 엔터테인먼트",
       "position": "신인개발팀 담당자",
@@ -2816,6 +2827,61 @@
       "deadline": "상시채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48740652",
       "source": "잡코리아"
+    },
+    {
+      "id": 348,
+      "company": "HYBE Media Studio",
+      "position": "영상콘텐츠사업운영",
+      "category": "영상",
+      "career": "경력 3~7년",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/205929",
+      "source": "하이브"
+    },
+    {
+      "id": 349,
+      "company": "HYBE",
+      "position": "SNS운영",
+      "category": "마케팅",
+      "career": "경력 3~8년",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/205928",
+      "source": "하이브"
+    },
+    {
+      "id": 350,
+      "company": "ADOR",
+      "position": "그래픽디자인(VC)",
+      "category": "디자인",
+      "career": "경력 3년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/205653",
+      "source": "하이브"
+    },
+    {
+      "id": 351,
+      "company": "HYBE IPX",
+      "position": "IP크리에이티브",
+      "category": "기타",
+      "career": "경력 3년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/205650",
+      "source": "하이브"
+    },
+    {
+      "id": 352,
+      "company": "BIGHIT MUSIC",
+      "position": "아티스트운영",
+      "category": "영업",
+      "career": "경력 3년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/205636",
+      "source": "하이브"
     }
   ],
   "categories": [
@@ -2831,5 +2897,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-03-10T09:01:01.058919"
+  "updatedAt": "2026-03-11T09:02:20.814505"
 }
