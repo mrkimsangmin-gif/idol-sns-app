@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "ranking": "SNS Ranking",
+    "comeback": "Comeback",
+    "news": "News",
+    "links": "Links",
+    "jobs": "Jobs",
+    "vendors": "Vendors",
+    "douyin": "China Trends",
+    "team": "Team",
+    "menu_open": "Open menu"
+  },
+  "ranking": {
+    "title": "K-POP Idol SNS Follower Ranking"
+  },
+  "filter": {
+    "male": "Male",
+    "female": "Female",
+    "month_select": "Select Month",
+    "search": "Search group"
+  },
+  "sns": {
+    "weibo": "Weibo",
+    "chaohua": "Weibo (SuperChat)",
+    "bilibili": "Bilibili",
+    "qqmusic": "QQ Music",
+    "twitter": "X (Twitter)",
+    "youtube": "YouTube",
+    "spotify": "Spotify"
+  },
+  "comeback": {
+    "title": "K-POP Idol Comeback / Debut Schedule"
+  },
+  "news": {
+    "title": "Entertainment News",
+    "loading": "Loading news...",
+    "api_error": "News API is not configured."
+  },
+  "links": {
+    "title": "K-POP Useful Links",
+    "load_failed": "Failed to load links."
+  },
+  "jobs": {
+    "title": "Entertainment Job Listings",
+    "loading": "Loading job listings...",
+    "load_failed": "Failed to load job listings.",
+    "disclaimer": "💼 Job listings are curated links from public job sites (Saramin, JobKorea, etc.). Please visit the original posting for full details and to apply.",
+    "cat": {
+      "all": "All",
+      "marketing": "Marketing",
+      "video": "Video",
+      "rookie": "Talent Dev.",
+      "management": "Management",
+      "producing": "Producing",
+      "design": "Design",
+      "it": "IT",
+      "sales": "Sales",
+      "overseas": "Overseas",
+      "etc": "Others"
+    }
+  },
+  "vendors": {
+    "title": "Entertainment Vendor Directory",
+    "register_btn": "+ Register New",
+    "search_placeholder": "Search vendor or keyword",
+    "loading": "Loading vendor info...",
+    "load_failed": "Failed to load vendor info.",
+    "all": "All",
+    "no_results": "No results found for \"{term}\".",
+    "copied": "Copied",
+    "copy_btn": "Copy",
+    "copy_failed": "Failed to copy.",
+    "register_title": "New Vendor Registration",
+    "edit_title": "Request Information Update",
+    "name_required": "Company name is required.",
+    "submit_success": "Request submitted successfully.\nIt will be reflected after admin review.",
+    "submit_failed": "Submission failed. Please try again later.",
+    "last_update": "Last updated: {date}",
+    "company_name": "Company",
+    "category": "Category",
+    "contact": "Contact:",
+    "mobile": "Mobile:",
+    "phone": "Phone:",
+    "email_label": "Email:",
+    "website_label": "Website:",
+    "sns_label": "SNS:",
+    "portfolio": "Portfolio",
+    "note": "Note",
+    "edit_request": "Request Update",
+    "close": "Close",
+    "form": {
+      "title_new": "New Vendor Registration",
+      "company": "Company Name",
+      "required": "*",
+      "category": "Category",
+      "select": "Select",
+      "applicant": "Applicant / Contact",
+      "name_placeholder": "Name",
+      "mobile": "Mobile",
+      "phone": "Phone",
+      "email": "Email",
+      "website": "Website",
+      "details": "Details (Portfolio, etc.)",
+      "details_new_placeholder": "Please provide portfolio URL, company introduction, scope of work, etc.",
+      "details_edit_placeholder": "Please describe what you'd like to update (contact change, portfolio addition, etc.).",
+      "cancel": "Cancel",
+      "submit": "Submit Request",
+      "email_copy_title": "Copy email"
+    }
+  },
+  "douyin": {
+    "title": "Douyin (TikTok China) Trending Challenges",
+    "loading": "Loading challenge data...",
+    "week_badge": "(Week {week}, {mm}/{yy})",
+    "preparing": "Coming Soon",
+    "preparing_msg": "Douyin challenge data will be updated soon.",
+    "no_content": "No content"
+  },
+  "modal": {
+    "namu_wiki": "📚 View on Namuwiki",
+    "sns_links": "SNS Links",
+    "memo": "Note",
+    "loading": "Loading...",
+    "meta_error": "Unable to load metadata.",
+    "no_sns": "No SNS links registered.",
+    "data_error": "An error occurred while loading data.",
+    "debut": "Debuted {year}"
+  },
+  "card": {
+    "compared_to": "(vs. {month})"
+  },
+  "common": {
+    "loading": "Loading...",
+    "loading_more": "Loading more data...",
+    "no_data": "No data available.",
+    "error": "An error occurred.",
+    "load_failed": "Failed to load data.",
+    "load_error": "An error occurred while loading data.",
+    "render_error": "Rendering Error",
+    "render_error_detail": "An error occurred while displaying data.",
+    "sending": "Sending...",
+    "close": "Close",
+    "network_error": "Network response error"
+  },
+  "page_title": {
+    "home": "K-POP SNS Ranking | AIMCONTENTS",
+    "comeback": "Comeback Schedule | AIMCONTENTS",
+    "news": "Entertainment News | AIMCONTENTS",
+    "links": "Useful Links | AIMCONTENTS",
+    "jobs": "Job Listings | AIMCONTENTS",
+    "vendors": "Vendor Directory | AIMCONTENTS",
+    "douyin": "China Trends | AIMCONTENTS",
+    "team": "Team | AIMCONTENTS"
+  },
+  "page_desc": {
+    "home": "K-POP Idol SNS Follower Ranking - Weibo, Bilibili, YouTube, Spotify Monthly Rankings",
+    "comeback": "K-POP Idol Comeback/Debut Schedule - Latest schedule at a glance",
+    "news": "Real-time Entertainment News - K-POP, Drama, Entertainment Industry Updates",
+    "links": "K-POP Useful Links - Music, Voting, Fan Cafes, Official Channels",
+    "jobs": "Entertainment Job Listings - Marketing, Management, Producing, Overseas Business",
+    "vendors": "Entertainment Vendor Directory - Production, Distribution, Marketing Partners",
+    "douyin": "Douyin (TikTok China) Trending Challenges - Weekly Update",
+    "team": "Team | AIMCONTENTS"
+  },
+  "team": {
+    "info": "This is the Team page."
+  },
+  "format": {
+    "year_month": "{mm}/{yy}"
+  }
+}

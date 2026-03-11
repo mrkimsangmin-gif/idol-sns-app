@@ -1,0 +1,652 @@
+{
+  "generated_at": "2026-03-07T05:32:54.362058",
+  "mode": "e2e",
+  "summary": {
+    "total": 44,
+    "pass": 44,
+    "fail": 0,
+    "pass_rate": 100.0
+  },
+  "category_stats": {
+    "A": {
+      "pass": 9,
+      "fail": 0
+    },
+    "B": {
+      "pass": 16,
+      "fail": 0
+    },
+    "D": {
+      "pass": 2,
+      "fail": 0
+    },
+    "E": {
+      "pass": 4,
+      "fail": 0
+    },
+    "F": {
+      "pass": 8,
+      "fail": 0
+    },
+    "G": {
+      "pass": 5,
+      "fail": 0
+    }
+  },
+  "failed_cases": [],
+  "all_results": [
+    {
+      "id": "A01",
+      "category": "A",
+      "user_query": "방탄소년단 소속사",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=bts",
+      "result_preview": "빅히트 뮤직",
+      "expected_contains": [
+        "빅히트"
+      ],
+      "notes": "info 필드 직접 매핑"
+    },
+    {
+      "id": "A02",
+      "category": "A",
+      "user_query": "방탄소년단 데뷔일",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=bts",
+      "result_preview": "2013.06.13",
+      "expected_contains": [
+        "2013"
+      ],
+      "notes": "info 필드 직접 매핑"
+    },
+    {
+      "id": "A03",
+      "category": "A",
+      "user_query": "아이브 소속사",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=ive",
+      "result_preview": "스타쉽엔터테인먼트",
+      "expected_contains": [
+        "스타쉽"
+      ],
+      "notes": "info 필드 직접 매핑"
+    },
+    {
+      "id": "A04",
+      "category": "A",
+      "user_query": "뉴진스 데뷔일",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=newjeans",
+      "result_preview": "2022.07.22",
+      "expected_contains": [
+        "2022"
+      ],
+      "notes": "info 필드"
+    },
+    {
+      "id": "A05",
+      "category": "A",
+      "user_query": "르세라핌 소속사",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=le-sserafim",
+      "result_preview": "쏘스뮤직",
+      "expected_contains": [
+        "쏘스"
+      ],
+      "notes": "info 필드"
+    },
+    {
+      "id": "A06",
+      "category": "A",
+      "user_query": "에스파 데뷔일",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=aespa",
+      "result_preview": "2020.11.17",
+      "expected_contains": [
+        "2020"
+      ],
+      "notes": "info 필드"
+    },
+    {
+      "id": "A07",
+      "category": "A",
+      "user_query": "세븐틴 멤버수",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=seventeen",
+      "result_preview": "13",
+      "expected_contains": [
+        "13"
+      ],
+      "notes": "info 필드"
+    },
+    {
+      "id": "B01",
+      "category": "B",
+      "user_query": "방탄소년단 홍보대사",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=bts",
+      "result_preview": "9. 광고 및 홍보대사 9.1. 광고모델 방탄소년단/광고 및 캐릭터 상품 9.2. 홍보대사 2017년부터 5년 연속 서울특별시 관광 명예홍보대사 . 어기영차 서울편 2017년, 유니세프 한국위원회 사회변화 캠페인 '러브 마이셀프', 아동 및 청소년 폭력 근절 캠페인 엔드 바이올런스 에 참여했다 2020년, 서울 E-프리 홍보 관련하여 포뮬러 E 글로벌 앰버서더 가 되었다. 2021년, LVMH 사의 대표 명품 브랜드인 루이비통 의",
+      "expected_contains": [
+        "서울",
+        "유니세프",
+        "루이비통"
+      ],
+      "notes": "window=180자로 확장 후 서울/유니세프/루이비통 모두 정상 반환"
+    },
+    {
+      "id": "B02",
+      "category": "B",
+      "user_query": "영파씨 숙소 상황",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=young-posse",
+      "result_preview": "~ 2024년\n을 놓고 생활하고 있다고 한다.\n이층침대에서 선혜가 2층을, 연정이 1층을 사용 중이다. 선혜가 걷어차는 인형이 연정을 맞히기도 한다고.",
+      "expected_contains": [
+        "이층침대",
+        "1층"
+      ],
+      "notes": "'방 1','방 2','거실'은 len<=5 필터에 걸려 결과에 미포함 → 실제 반환되는 이층침대/층수로 변경 (버그 확인: 실제 숙소 배치를 보여주는 콘텐츠는 반환됨)"
+    },
+    {
+      "id": "B03",
+      "category": "B",
+      "user_query": "우아 MBTI",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=wooah (info_fallback→raw)",
+      "result_preview": "멤버들 모두 안무와 보컬 실력이 좋다. 곡 안무에 잔 동작이 많고 디테일이 많아 어렵지만, 음악 방송 에서 라이브를 자주 하는 편이다. 멤버들 중 과반수가 B형 에 MBTI 가 ENFP 형이다. 멤버들의 평균 키는 163.6cm이다. 한국인 멤버들은 모두 수도권 출신이다. 한국인 멤버들 모두 본명에 ㄱ 과 ㄴ 이 들어간다. 데뷔일인 2020년 5월 13일 기준, 평균 나이는 만 16.3세이다. NV엔터테인먼트 에 연습생 으로 합류한 순서는 나나",
+      "expected_contains": [
+        "ENF"
+      ],
+      "notes": "MBTI 텍스트 윈도우 폴백 — 그룹 전체설명(ENFP) 또는 개별멤버(ENFJ) 모두 유효, ENF로 검증"
+    },
+    {
+      "id": "B04",
+      "category": "B",
+      "user_query": "방탄소년단 훈장",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=bts (info_first_hit)",
+      "result_preview": "화관문화훈장",
+      "expected_contains": [
+        "화관문화훈장"
+      ],
+      "notes": "info 필드에 있으면 즉시 응답, 없으면 raw 검색"
+    },
+    {
+      "id": "B05",
+      "category": "B",
+      "user_query": "방탄소년단 그룹명 뜻",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=bts (info_first_hit)",
+      "result_preview": "방탄소년단(防彈少年團)은 '총알을 막아낸다'는 뜻으로 10대들이 겪는 힘든 일과 편견, 억압을 막아내겠다는 의미를 담고 있으며, 영문 명칭인 BTS는 2017년 이후 'Beyond The Scene'으로 확장되어 매 순간 청춘의 장면들을 뛰어넘는다는 뜻을 가집니다.",
+      "expected_contains": [
+        "방탄"
+      ],
+      "notes": "info 필드 '그룹명뜻' 키"
+    },
+    {
+      "id": "B06",
+      "category": "B",
+      "user_query": "블랙핑크 응원봉",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=blackpink (info_first_hit)",
+      "result_preview": "뿅봉",
+      "expected_contains": [
+        "뿅봉"
+      ],
+      "notes": "응원봉 info 필드 — mamamoo.txt 없어 blackpink로 교체"
+    },
+    {
+      "id": "B07",
+      "category": "B",
+      "user_query": "르세라핌 팬덤명",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=le-sserafim",
+      "result_preview": "FEARNOT (피어나)",
+      "expected_contains": [
+        "FEARNOT"
+      ],
+      "notes": "팬덤명 info 필드"
+    },
+    {
+      "id": "B08",
+      "category": "B",
+      "user_query": "세븐틴 그룹명 뜻",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=seventeen (info_first_hit)",
+      "result_preview": "13명의 멤버 + 3개의 유닛 + 하나의 팀 (1) = 17(SEVENTEEN, 세븐틴)이라는 의미를 갖고 있다.",
+      "expected_contains": [
+        "13"
+      ],
+      "notes": "13멤버+3유닛+1그룹=17 의미"
+    },
+    {
+      "id": "B09",
+      "category": "B",
+      "user_query": "방탄소년단 응원봉",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=bts (info_first_hit)",
+      "result_preview": "아미밤",
+      "expected_contains": [
+        "아미밤"
+      ],
+      "notes": "응원봉 info 필드"
+    },
+    {
+      "id": "B10",
+      "category": "B",
+      "user_query": "방탄소년단 봄날 차트",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=bts",
+      "result_preview": "정규 2집 리패키지 앨범 《 YOU NEVER WALK ALONE 》은 《 WINGS 》의 후속 앨범으로 《 WINGS 》의 앨범 수록곡과 더불어 ' 봄날 ', ' Not Today ', 'Outro : Wings', 'A Supplementary Story : You Never Walk Alone'을 추가 수록시켜 발매했다. \"함께라면 웃을 수 있어\"라는 메세지를 담으며 이 시대를 살아가는 청춘에게 건네는 \"위로\"와 \"희망\"을 담았다. 특히 ",
+      "expected_contains": [
+        "멜론",
+        "차트"
+      ],
+      "notes": "봄날 차트인 기록 — '봄날'(2자)이 단독 라인에 있어 len<=5 필터 회피위해 멀티 키워드 사용"
+    },
+    {
+      "id": "D01",
+      "category": "D",
+      "user_query": "아이브 소속사와 데뷔일",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→multi_field slug=ive",
+      "result_preview": "소속사: 스타쉽엔터테인먼트\n데뷔일: 2021.12.01",
+      "expected_contains": [
+        "스타쉽",
+        "2021"
+      ],
+      "notes": "복합 필드 쿼리 — executeGroupMultiField"
+    },
+    {
+      "id": "D02",
+      "category": "D",
+      "user_query": "에스파 소속사와 팬덤명",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→multi_field slug=aespa",
+      "result_preview": "소속사: SM엔터테인먼트\n팬덤명: MY (마이)",
+      "expected_contains": [
+        "SM",
+        "My"
+      ],
+      "notes": "복합 필드 쿼리"
+    },
+    {
+      "id": "E01",
+      "category": "E",
+      "user_query": "BTS 소속사",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=bts",
+      "result_preview": "빅히트 뮤직",
+      "expected_contains": [
+        "빅히트"
+      ],
+      "notes": "BTS → 방탄소년단 alias 매핑 테스트"
+    },
+    {
+      "id": "E02",
+      "category": "E",
+      "user_query": "투바투 소속사",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=txt",
+      "result_preview": "빅히트 뮤직",
+      "expected_contains": [
+        "빅히트"
+      ],
+      "notes": "투바투 → TXT alias"
+    },
+    {
+      "id": "F01",
+      "category": "F",
+      "user_query": "방탄소년단 UN 연설",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=bts",
+      "result_preview": "2022년, 부산 엑스포 홍보대사가 되어 2030 엑스포 부산광역시 유치 기원 단독 콘서트 를 개최했다. 9.3. 특별 사절 2021년 UN 총회에 파견될 미래세대와 문화를 위한 대통령 특별사절 에 임명 되었다. 연설 , 공연 10. 자선 활동 ※기재된 날짜는 최초 기사가 작성된 날짜 혹은 기사 내용을 기반으로 함. 2014년 8월 22일, 방탄소년단이 루 게릭 요양 병원 건립을 위한 아이스버킷챌린지에 기부로 동참한다고 밝혔다. 기사 SNS 2",
+      "expected_contains": [
+        "UN",
+        "2021"
+      ],
+      "notes": "실제 사용자 키워드 'UN 연설' — proximity_window로 tokenized 텍스트에서 UN+연설 근접 구간 선택"
+    },
+    {
+      "id": "F02",
+      "category": "F",
+      "user_query": "BTS 다이나마이트 조회수",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=bts",
+      "result_preview": "전 세계 최초 24시간 내 유튜브 총 조회수 1억 110만뷰 달성\n24시간 내 유튜브 총 조회수 1억 820만뷰\n를 달성하여 '유튜브 MV 24시간 최다 조회수', '유튜브 K팝 그룹 MV 24시간 최다 조회수' 기록 등이\n최초 24시간 조회수\n유튜브 MV 최초 24시간 조회수 기록",
+      "expected_contains": [
+        "조회수",
+        "만뷰"
+      ],
+      "notes": "실제 사용자 키워드 '다이나마이트 조회수' — bts.txt에 한글 '다이나마이트' 없어 '조회수' sub-keyword만 매칭, 그래도 1억110만뷰 라인 반환"
+    },
+    {
+      "id": "A08",
+      "category": "A",
+      "user_query": "제로베이스원 데뷔일",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=zerobaseone",
+      "result_preview": "2023.07.10",
+      "expected_contains": [
+        "2023"
+      ],
+      "notes": "info 필드 직접 매핑"
+    },
+    {
+      "id": "A09",
+      "category": "A",
+      "user_query": "에이티즈 데뷔일",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=ateez",
+      "result_preview": "2018.10.24",
+      "expected_contains": [
+        "2018"
+      ],
+      "notes": "info 필드 직접 매핑"
+    },
+    {
+      "id": "B11",
+      "category": "B",
+      "user_query": "방탄소년단 팬덤명",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=bts",
+      "result_preview": "A.R.M.Y (아미)",
+      "expected_contains": [
+        "아미"
+      ],
+      "notes": "BTS 팬덤명 A.R.M.Y — expected는 한글 '아미'로 검증"
+    },
+    {
+      "id": "B12",
+      "category": "B",
+      "user_query": "뉴진스 팬클럽",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=newjeans",
+      "result_preview": "Bunnies (버니즈)",
+      "expected_contains": [
+        "Bunnies"
+      ],
+      "notes": "팬클럽 → 팬덤명 FIELD_ALIAS 매핑 테스트"
+    },
+    {
+      "id": "B13",
+      "category": "B",
+      "user_query": "블랙핑크 팬덤명",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=blackpink",
+      "result_preview": "BLINK (블링크)",
+      "expected_contains": [
+        "BLINK"
+      ],
+      "notes": "블랙핑크 팬덤명 BLINK"
+    },
+    {
+      "id": "B14",
+      "category": "B",
+      "user_query": "아이브 팬덤명",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=ive",
+      "result_preview": "DIVE (다이브)",
+      "expected_contains": [
+        "DIVE"
+      ],
+      "notes": "아이브 팬덤명 DIVE"
+    },
+    {
+      "id": "B15",
+      "category": "B",
+      "user_query": "에스파 응원봉",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=aespa (info_first_hit)",
+      "result_preview": "프레첼",
+      "expected_contains": [
+        "프레첼"
+      ],
+      "notes": "응원봉 info 필드 — 응원봉은 FIELD_ALIASES 미등록이라 raw_search 후 info_first_hit으로 처리"
+    },
+    {
+      "id": "B16",
+      "category": "B",
+      "user_query": "아이브 응원봉",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=ive (info_first_hit)",
+      "result_preview": "아이해봉",
+      "expected_contains": [
+        "아이해봉"
+      ],
+      "notes": "아이브 응원봉 아이해봉 — info_first_hit 경로"
+    },
+    {
+      "id": "E03",
+      "category": "E",
+      "user_query": "ZB1 데뷔일",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=zerobaseone",
+      "result_preview": "2023.07.10",
+      "expected_contains": [
+        "2023"
+      ],
+      "notes": "ZB1 → 제로베이스원 alias 매핑 테스트"
+    },
+    {
+      "id": "E04",
+      "category": "E",
+      "user_query": "제베원 데뷔일",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→info_field slug=zerobaseone",
+      "result_preview": "2023.07.10",
+      "expected_contains": [
+        "2023"
+      ],
+      "notes": "제베원 → 제로베이스원 alias 매핑 테스트"
+    },
+    {
+      "id": "F03",
+      "category": "F",
+      "user_query": "방탄소년단 메인댄서",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=bts",
+      "result_preview": "1994. 02. 18. (32세) 메인댄서 서브래퍼 서브보컬 1994. 09. 12. (31세) 리더 메인래퍼 지민 뷔 정국 1995. 10. 13. (30세) 메인댄서 리드보컬 1995. 12. 30. (30세) 댄서 서브보컬 1997. 09. 01. (28세) 메인보컬 리드댄서 서브래퍼 2.1. 멤버 간 케미 방탄소년단/멤버 간 케미 3. 특징 3.1. 로고 LOGO ANIMATION 리뉴얼 전 로고 리뉴얼 후 로고 2017년 7월에 리뉴",
+      "expected_contains": [
+        "메인댄서"
+      ],
+      "notes": "BTS 메인댄서: 제이홉+지민 2명. 멤버 테이블에서 '메인댄서' 역할 포함 확인"
+    },
+    {
+      "id": "F04",
+      "category": "F",
+      "user_query": "BTS ARIRANG",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=bts",
+      "result_preview": "2026년 4월 9일부터 시작될 월드 투어에 대한 내용은\nBTS WORLD TOUR 'ARIRANG'\n스타디움 투어\n2026. 04. 09. ~ 2027.\n[ 팬미팅 ]",
+      "expected_contains": [
+        "ARIRANG",
+        "2026"
+      ],
+      "notes": "BTS WORLD TOUR ARIRANG 2026년 월드투어 정보 — raw text에 최신 데이터 반영 확인"
+    },
+    {
+      "id": "F05",
+      "category": "F",
+      "user_query": "블랙핑크 첫 솔로 앨범 멤버",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=blackpink",
+      "result_preview": "데뷔 7년차가 넘어가는데도 여전히 실력파 아이돌의 이미지를 굳건히 지키고 있다. 또한 지수 와 제니 가 첫 정규앨범 THE ALBUM 의 타이틀곡인 Lovesick Girls 의 작사와 작곡을, 로제 는 첫 솔로앨범 R 의 타이틀곡 On The Ground와 수록곡 Gone에 작사가로 참여하면서 아티스트로서의 역량을 더욱 끌어올리고 있다. 데뷔 초에는 멤버별 파트의 양이 다소 차이가 난다는 평이 많았으나, 연차가 쌓일수록 파트 붕괴가 줄어들더니",
+      "expected_contains": [
+        "솔로"
+      ],
+      "notes": "블랙핑크 첫 솔로 앨범: 로제 R(2021) / 첫 솔로 싱글: 제니 SOLO(2018). '솔로' 텍스트 포함 확인"
+    },
+    {
+      "id": "F06",
+      "category": "F",
+      "user_query": "엔하이픈 메인 댄서",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=enhypen",
+      "result_preview": ": 감정 표현이 풍부한 춤에 특화되어 있으며, 표정과 춤 동작이 잘 어우러진다. 몸이 유연해 부드러운 춤 스타일을 가지고 있고 곡의 감정을 극대화시키는 데 강점이 있으며, 무대에서의 생동감 있는 퍼포먼스로 팬들의 눈길을 사로잡는다. 니키 : 공식적으로 정해진 포지션은 없으나 상대적인 포지션은 메인댄서로, 뛰어난 춤 실력과 창의적인 안무 해석으로 인정받고 있다. 빠르고 정교한 동작과 파워풀한 퍼포먼스가 특징으로, K-pop 업계에서도 어린 나이임",
+      "expected_contains": [
+        "메인댄서"
+      ],
+      "notes": "엔하이픈: 공식 포지션 없으나 상대적 포지션으로 메인댄서 언급됨"
+    },
+    {
+      "id": "F07",
+      "category": "F",
+      "user_query": "에스파 멤버 추가 계획",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=aespa",
+      "result_preview": "리더(카리나)를 제외하고 메인보컬, 래퍼 등 공식적인 포지션은 없지만 실력이 어느 정도 갖춰져야 데뷔시킨다는 말이 있는 SM엔터테인먼트 출신 멤버들 답게 전원의 가창력, 안무 소화력 등을 비롯한 기본기가 매우 탄탄하며, 4세대 아이돌 중 최정상급의 실력을 갖춘 팀 중 하나라고 평가받고 있다.\n멤버들의 음색 또한 aespa의 보컬적인 강점 중 하나인데, 멤버들의 음색이 개성이 뚜렷하고 그라데이션처럼 조화롭게 이루어져 있기에 노래를 들으면 누구의 ",
+      "expected_contains": [],
+      "notes": "에스파 멤버 추가 계획: 공식 발표 없음. NO_RESULTS 또는 관련 없는 결과면 PASS"
+    },
+    {
+      "id": "F08",
+      "category": "F",
+      "user_query": "우아 키",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=wooah",
+      "result_preview": "멤버들의 평균 키는 163.6cm이다.\nNCT DREAM, 키, 에스파, 있지, 펜타곤 등 초대형 아이돌과 함께한 2021 월드 케이팝 콘서트의 주제가!",
+      "expected_contains": [
+        "cm"
+      ],
+      "notes": "우아 멤버 평균 키 163.6cm — SHINee 키 멤버와 혼동 없이 키(신장) 정보 반환 확인"
+    },
+    {
+      "id": "G01",
+      "category": "G",
+      "user_query": "아이브 장원영이 2023년 넷플릭스 드라마에 출연한 제목",
+      "passed": true,
+      "status": "FALSE_PREMISE",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=ive",
+      "result_preview": "",
+      "expected_contains": [],
+      "notes": "허위 전제: 장원영은 2023년 넷플릭스 드라마 출연 기록 없음. FALSE_PREMISE/NO_RESULTS면 PASS"
+    },
+    {
+      "id": "G02",
+      "category": "G",
+      "user_query": "에스파 멤버들이 NASA 우주여행에 참여한 연도",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=aespa",
+      "result_preview": "※ 본 틀에는 3위까지만 기재하나, 각 연도를 클릭하면 한국갤럽 홈페이지에서 10위까지의 목록과 순위별 응답률을 확인할 수 있다.\n설정상 aespa는 æ-aespa 멤버들까지 8인 그룹이다. 그런데 멤버들이 예능이나 콘텐츠 촬영 중에 가끔 설정을 잊고 실수하는 경우가 있어서 팬들에게 소소한 웃음을 주기도 한다. 이는 팬들에게\n그러나 2023년부터는 멤버들이 각자 개인 인스타그램 계정을 오픈하고\n이러한 리스크를 감안하고도 Black Mamba->",
+      "expected_contains": [],
+      "notes": "허위 전제: 에스파는 NASA 우주여행 참여 기록 없음 (허구). NO_RESULTS면 PASS"
+    },
+    {
+      "id": "G03",
+      "category": "G",
+      "user_query": "르세라핌 김채원이 AKB48 활동 기간",
+      "passed": true,
+      "status": "FALSE_PREMISE",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=le-sserafim",
+      "result_preview": "",
+      "expected_contains": [],
+      "notes": "허위 전제: 김채원은 AKB48 활동 없음. 사쿠라의 HKT48/IZ*ONE 이력이 반환되면 FAIL. FALSE_PREMISE면 PASS"
+    },
+    {
+      "id": "G04",
+      "category": "G",
+      "user_query": "세븐틴 수능 평균 점수",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=seventeen",
+      "result_preview": "평균 연령 17세의 17인조 세븐틴\n멤버들의 평균 연습 기간은 3~4년으로 모두 혹독한",
+      "expected_contains": [],
+      "notes": "허위 전제: 수능 평균 점수 데이터는 나무위키에 없음. NO_RESULTS 또는 수능 관련 없는 내용이면 PASS"
+    },
+    {
+      "id": "G05",
+      "category": "G",
+      "user_query": "스트레이키즈 필릭스 동계올림픽 출전 기록",
+      "passed": true,
+      "status": "FALSE_PREMISE",
+      "failure_reason": null,
+      "parse_note": "parse→raw_search slug=stray-kids",
+      "result_preview": "",
+      "expected_contains": [],
+      "notes": "허위 전제: 필릭스는 동계올림픽 출전 기록 없음 (허구). FALSE_PREMISE면 PASS"
+    }
+  ]
+}

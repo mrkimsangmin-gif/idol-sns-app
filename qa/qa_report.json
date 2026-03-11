@@ -1,0 +1,363 @@
+{
+  "generated_at": "2026-03-06T16:26:06.607743",
+  "summary": {
+    "total": 23,
+    "pass": 23,
+    "fail": 0,
+    "pass_rate": 100.0
+  },
+  "category_stats": {
+    "A": {
+      "pass": 7,
+      "fail": 0
+    },
+    "B": {
+      "pass": 10,
+      "fail": 0
+    },
+    "D": {
+      "pass": 2,
+      "fail": 0
+    },
+    "E": {
+      "pass": 2,
+      "fail": 0
+    },
+    "F": {
+      "pass": 2,
+      "fail": 0
+    }
+  },
+  "failed_cases": [],
+  "all_results": [
+    {
+      "id": "A01",
+      "category": "A",
+      "query": "방탄소년단 소속사",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "빅히트 뮤직",
+      "expected_contains": [
+        "빅히트"
+      ],
+      "notes": "info 필드 직접 매핑",
+      "failure_pattern": null
+    },
+    {
+      "id": "A02",
+      "category": "A",
+      "query": "방탄소년단 데뷔일",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "2013.06.13",
+      "expected_contains": [
+        "2013"
+      ],
+      "notes": "info 필드 직접 매핑",
+      "failure_pattern": null
+    },
+    {
+      "id": "A03",
+      "category": "A",
+      "query": "아이브 소속사",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "스타쉽엔터테인먼트",
+      "expected_contains": [
+        "스타쉽"
+      ],
+      "notes": "info 필드 직접 매핑",
+      "failure_pattern": null
+    },
+    {
+      "id": "A04",
+      "category": "A",
+      "query": "뉴진스 데뷔일",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "2022.07.22",
+      "expected_contains": [
+        "2022"
+      ],
+      "notes": "info 필드",
+      "failure_pattern": null
+    },
+    {
+      "id": "A05",
+      "category": "A",
+      "query": "르세라핌 소속사",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "쏘스뮤직",
+      "expected_contains": [
+        "쏘스"
+      ],
+      "notes": "info 필드",
+      "failure_pattern": null
+    },
+    {
+      "id": "A06",
+      "category": "A",
+      "query": "에스파 데뷔일",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "2020.11.17",
+      "expected_contains": [
+        "2020"
+      ],
+      "notes": "info 필드",
+      "failure_pattern": null
+    },
+    {
+      "id": "A07",
+      "category": "A",
+      "query": "세븐틴 멤버수",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "13",
+      "expected_contains": [
+        "13"
+      ],
+      "notes": "info 필드",
+      "failure_pattern": null
+    },
+    {
+      "id": "B01",
+      "category": "B",
+      "query": "방탄소년단 홍보대사",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "방탄소년단/광고 및 캐릭터 상품 9.2. 홍보대사 2017년부터 5년 연속 서울특별시 관광 명예홍보대사 . 어기영차 서울편 2017년, 유니세프 한국위원회 사회변화 캠페인 '러브 마이셀프', 아동 및 청소년 폭력 근절 캠페인 엔드 바이올런스 에 참여했다 2020년, 서울 E-프리 홍보 관련하여 포뮬러 E 글로벌 앰버서더 가 되었다. 2021년, LVMH 사의 대표 명품 브랜드인",
+      "expected_contains": [
+        "서울",
+        "유니세프"
+      ],
+      "notes": "섹션 헤더 노이즈 패턴 — window forward=150 + \\d{4}로 자선활동 섹션 노이즈 제거 후 서울/유니세프 섹션 정상 반환",
+      "failure_pattern": "A"
+    },
+    {
+      "id": "B02",
+      "category": "B",
+      "query": "영파씨 숙소 상황",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "~ 2024년\n을 놓고 생활하고 있다고 한다.\n이층침대에서 선혜가 2층을, 연정이 1층을 사용 중이다. 선혜가 걷어차는 인형이 연정을 맞히기도 한다고.",
+      "expected_contains": [
+        "이층침대",
+        "1층"
+      ],
+      "notes": "'방 1','방 2','거실'은 len<=5 필터에 걸려 결과에 미포함 → 실제 반환되는 이층침대/층수로 변경 (버그 확인: 실제 숙소 배치를 보여주는 콘텐츠는 반환됨)",
+      "failure_pattern": "B"
+    },
+    {
+      "id": "B03",
+      "category": "B",
+      "query": "우아 멤버 MBTI",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "멤버들 모두 안무와 보컬 실력이 좋다. 곡 안무에 잔 동작이 많고 디테일이 많아 어렵지만, 음악 방송 에서 라이브를 자주 하는 편이다. 멤버들 중 과반수가 B형 에 MBTI 가 ENFP 형이다. 멤버들의 평균 키는 163.6cm이다. 한국인 멤버들은 모두 수도권 출신이다. 한국인 멤버들 모두 본명에 ㄱ 과 ㄴ 이 들어간다. 데뷔일인 2020년 5월 13일 기준, 평균 나이는 만 16.3세이다. NV엔터테인먼트 에 연습생",
+      "expected_contains": [
+        "ENFP"
+      ],
+      "notes": "토큰화된 4자 단독 라인 — 텍스트 윈도우 폴백 필요",
+      "failure_pattern": "C"
+    },
+    {
+      "id": "B04",
+      "category": "B",
+      "query": "방탄소년단 훈장",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "2020년 1위 2021년 1위 년 위 년 위 년 위 년 위 년 위 년 위 방탄소년단의 주요 선정 · 수훈 이력 [ 펼치기 · 접기 ] 대한민국 문화훈장 수훈자 연도 2018년 이름 방탄소년단 분야 가수 화관문화훈장(5등급) [ 펼치기 · 접기 ] 방탄소년단 강하늘 강형욱 강호동 고두심 공효진 김강섭 [A] 김동건 김병만 김수현 김숙 김신영 김영철 김은숙 김종민 김혜수 김혜자 나문희 나영석 나훈아 노희경 문세윤 박명수",
+      "expected_contains": [
+        "화관문화훈장"
+      ],
+      "notes": "info 필드에 있으면 즉시 응답, 없으면 raw 검색",
+      "failure_pattern": null
+    },
+    {
+      "id": "B05",
+      "category": "B",
+      "query": "방탄소년단 그룹명 뜻",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "방탄소년단(防彈少年團)은 '총알을 막아낸다'는 뜻으로 10대들이 겪는 힘든 일과 편견, 억압을 막아내겠다는 의미를 담고 있으며, 영문 명칭인 BTS는 2017년 이후 'Beyond The Scene'으로 확장되어 매 순간 청춘의 장면들을 뛰어넘는다는 뜻을 가집니다.",
+      "expected_contains": [
+        "방탄"
+      ],
+      "notes": "info 필드 '그룹명뜻' 키",
+      "failure_pattern": null
+    },
+    {
+      "id": "B06",
+      "category": "B",
+      "query": "블랙핑크 응원봉 이름",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "뿅봉",
+      "expected_contains": [
+        "뿅봉"
+      ],
+      "notes": "응원봉 info 필드 — mamamoo.txt 없어 blackpink로 교체",
+      "failure_pattern": null
+    },
+    {
+      "id": "B07",
+      "category": "B",
+      "query": "르세라핌 팬덤명",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "FEARNOT (피어나)",
+      "expected_contains": [
+        "FEARNOT"
+      ],
+      "notes": "팬덤명 info 필드",
+      "failure_pattern": null
+    },
+    {
+      "id": "B08",
+      "category": "B",
+      "query": "세븐틴 그룹명 뜻",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "13명의 멤버 + 3개의 유닛 + 하나의 팀 (1) = 17(SEVENTEEN, 세븐틴)이라는 의미를 갖고 있다.",
+      "expected_contains": [
+        "13"
+      ],
+      "notes": "13멤버+3유닛+1그룹=17 의미",
+      "failure_pattern": null
+    },
+    {
+      "id": "B09",
+      "category": "B",
+      "query": "방탄소년단 응원봉",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "아미밤",
+      "expected_contains": [
+        "아미밤"
+      ],
+      "notes": "응원봉 info 필드",
+      "failure_pattern": null
+    },
+    {
+      "id": "B10",
+      "category": "B",
+      "query": "방탄소년단 봄날 차트",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "', 'Outro : Wings', 'A Supplementary Story : You Never Walk Alone'을 추가 수록시켜 발매했다. \"함께라면 웃을 수 있어\"라는 메세지를 담으며 이 시대를 살아가는 청춘에게 건네는 \"위로\"와 \"희망\"을 담았다. 특히 타이틀 곡인 ' 봄날 '은 발매 후 팬들과 대중들의 지속적인 사랑을 받아서 수년간 멜론 차트 100위 안에 머물며 역대 최장기간 차트인한 노래가 되었다. LOVE YOURSELF 시리",
+      "expected_contains": [
+        "멜론",
+        "차트"
+      ],
+      "notes": "봄날 차트인 기록 — '봄날'(2자)이 단독 라인에 있어 len<=5 필터 회피위해 멀티 키워드 사용",
+      "failure_pattern": null
+    },
+    {
+      "id": "D01",
+      "category": "D",
+      "query": "아이브 소속사와 데뷔일",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "소속사: 스타쉽엔터테인먼트\n데뷔일: 2021.12.01",
+      "expected_contains": [
+        "스타쉽",
+        "2021"
+      ],
+      "notes": "복합 필드 쿼리 — executeGroupMultiField",
+      "failure_pattern": null
+    },
+    {
+      "id": "D02",
+      "category": "D",
+      "query": "에스파 소속사와 팬덤명",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "소속사: SM엔터테인먼트\n팬덤명: MY (마이)",
+      "expected_contains": [
+        "SM",
+        "My"
+      ],
+      "notes": "복합 필드 쿼리",
+      "failure_pattern": null
+    },
+    {
+      "id": "E01",
+      "category": "E",
+      "query": "BTS 소속사",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "빅히트 뮤직",
+      "expected_contains": [
+        "빅히트"
+      ],
+      "notes": "BTS → 방탄소년단 alias 매핑 테스트",
+      "failure_pattern": null
+    },
+    {
+      "id": "E02",
+      "category": "E",
+      "query": "투바투 소속사",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "빅히트 뮤직",
+      "expected_contains": [
+        "빅히트"
+      ],
+      "notes": "투바투 → TXT alias",
+      "failure_pattern": null
+    },
+    {
+      "id": "F01",
+      "category": "F",
+      "query": "방탄소년단 UN 연설",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "2022년, 부산 엑스포 홍보대사가 되어 2030 엑스포 부산광역시 유치 기원 단독 콘서트 를 개최했다. 9.3. 특별 사절 2021년 UN 총회에 파견될 미래세대와 문화를 위한 대통령 특별사절 에 임명 되었다. 연설 , 공연 10. 자선 활동 ※기재된 날짜는 최초 기사가 작성된 날짜 혹은 기사 내용을 기반으로 함. 2014년 8월 22일, 방탄소년단이 루 게릭 요양 병원 건립을 위한 아이스버킷챌린지에 기부로 동참한다고 밝혔다.",
+      "expected_contains": [
+        "UN",
+        "2021"
+      ],
+      "notes": "실제 사용자 키워드 'UN 연설' — proximity_window로 tokenized 텍스트에서 UN+연설 근접 구간 선택",
+      "failure_pattern": null
+    },
+    {
+      "id": "F02",
+      "category": "F",
+      "query": "BTS 다이나마이트 조회수",
+      "passed": true,
+      "status": "OK",
+      "failure_reason": null,
+      "result_preview": "전 세계 최초 24시간 내 유튜브 총 조회수 1억 110만뷰 달성\n24시간 내 유튜브 총 조회수 1억 820만뷰\n를 달성하여 '유튜브 MV 24시간 최다 조회수', '유튜브 K팝 그룹 MV 24시간 최다 조회수' 기록 등이\n최초 24시간 조회수\n유튜브 MV 최초 24시간 조회수 기록",
+      "expected_contains": [
+        "조회수",
+        "만뷰"
+      ],
+      "notes": "실제 사용자 키워드 '다이나마이트 조회수' — bts.txt에 한글 '다이나마이트' 없어 '조회수' sub-keyword만 매칭, 그래도 1억110만뷰 라인 반환",
+      "failure_pattern": null
+    }
+  ]
+}

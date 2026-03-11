@@ -1,0 +1,171 @@
+{
+  "nav": {
+    "ranking": "SNS랭킹",
+    "comeback": "컴백일정",
+    "news": "엔터뉴스",
+    "links": "링크모음",
+    "jobs": "채용정보",
+    "vendors": "업체정보",
+    "douyin": "중국트렌드",
+    "team": "Team",
+    "menu_open": "메뉴 열기"
+  },
+  "ranking": {
+    "title": "K-POP 아이돌 SNS 팔로워 순위"
+  },
+  "filter": {
+    "male": "남자",
+    "female": "여자",
+    "month_select": "조회 월 선택",
+    "search": "그룹 검색"
+  },
+  "sns": {
+    "weibo": "웨이보",
+    "chaohua": "웨이보(슈퍼챗)",
+    "bilibili": "빌리빌리",
+    "qqmusic": "QQ뮤직",
+    "twitter": "X(트위터)",
+    "youtube": "유튜브",
+    "spotify": "스포티파이"
+  },
+  "comeback": {
+    "title": "K-POP 아이돌 컴백/데뷔 일정"
+  },
+  "news": {
+    "title": "실시간 엔터테인먼트 뉴스",
+    "loading": "뉴스를 불러오는 중...",
+    "api_error": "엔터뉴스 API가 설정되지 않았습니다."
+  },
+  "links": {
+    "title": "K-POP 링크 모음",
+    "load_failed": "링크를 불러오는데 실패했습니다."
+  },
+  "jobs": {
+    "title": "엔터테인먼트 채용정보",
+    "loading": "채용정보를 불러오는 중...",
+    "load_failed": "채용정보를 불러오는데 실패했습니다.",
+    "disclaimer": "💼 본 채용 정보는 사람인·잡코리아 등 외부 채용 사이트에 등록된 공개 정보를 기반으로 한 링크 큐레이션 서비스입니다. 채용 관련 모든 상세 내용 및 지원은 원문 사이트에서 확인하시기 바랍니다.",
+    "cat": {
+      "all": "전체",
+      "marketing": "마케팅",
+      "video": "영상",
+      "rookie": "신인개발",
+      "management": "매니지먼트",
+      "producing": "프로듀싱",
+      "design": "디자인",
+      "it": "IT",
+      "sales": "영업",
+      "overseas": "해외사업",
+      "etc": "기타"
+    }
+  },
+  "vendors": {
+    "title": "엔터테인먼트 업체정보",
+    "register_btn": "+ 신규업체 등록",
+    "search_placeholder": "업체명 또는 키워드 검색",
+    "loading": "업체정보를 불러오는 중...",
+    "load_failed": "업체정보를 불러오는데 실패했습니다.",
+    "all": "전체",
+    "no_results": "\"{term}\"에 대한 검색 결과가 없습니다.",
+    "copied": "복사됨",
+    "copy_btn": "복사",
+    "copy_failed": "복사에 실패했습니다.",
+    "register_title": "신규 업체 등록 신청",
+    "edit_title": "정보 수정 요청",
+    "name_required": "업체명은 필수 입력 항목입니다.",
+    "submit_success": "요청이 성공적으로 전송되었습니다.\n관리자 확인 후 반영됩니다.",
+    "submit_failed": "전송에 실패했습니다. 잠시 후 다시 시도해주세요.",
+    "last_update": "마지막 업데이트: {date}",
+    "company_name": "업체명",
+    "category": "카테고리",
+    "contact": "담당자:",
+    "mobile": "휴대전화:",
+    "phone": "일반전화:",
+    "email_label": "이메일:",
+    "website_label": "홈페이지:",
+    "sns_label": "SNS:",
+    "portfolio": "포트폴리오",
+    "note": "비고",
+    "edit_request": "정보 수정 요청",
+    "close": "닫기",
+    "form": {
+      "title_new": "신규 업체 등록",
+      "company": "업체명",
+      "required": "*",
+      "category": "카테고리",
+      "select": "선택",
+      "applicant": "신청자/담당자",
+      "name_placeholder": "성함",
+      "mobile": "휴대전화",
+      "phone": "일반전화",
+      "email": "이메일",
+      "website": "홈페이지",
+      "details": "상세 내용 (포트폴리오 등)",
+      "details_new_placeholder": "포트폴리오 URL, 업체 소개, 가능한 업무 범위 등을 적어주세요.",
+      "details_edit_placeholder": "수정할 내용이나 포트폴리오 URL 등을 적어주세요.",
+      "cancel": "취소",
+      "submit": "요청 보내기",
+      "email_copy_title": "이메일 복사"
+    }
+  },
+  "douyin": {
+    "title": "중국 도우인 인기 챌린지",
+    "loading": "챌린지 데이터를 불러오는 중...",
+    "week_badge": "({yy}년 {mm}월 {week}주차)",
+    "preparing": "준비 중",
+    "preparing_msg": "도우인 챌린지 데이터가 곧 업데이트됩니다.",
+    "no_content": "내용 없음"
+  },
+  "modal": {
+    "namu_wiki": "📚 나무위키에서 보기",
+    "sns_links": "SNS 링크",
+    "memo": "메모",
+    "loading": "로딩 중...",
+    "meta_error": "메타데이터를 불러올 수 없습니다.",
+    "no_sns": "등록된 SNS 링크가 없습니다.",
+    "data_error": "데이터 로딩 중 오류가 발생했습니다.",
+    "debut": "{year}년 데뷔"
+  },
+  "card": {
+    "compared_to": "({month} 대비)"
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "loading_more": "추가 데이터 로딩 중...",
+    "no_data": "데이터가 없습니다.",
+    "error": "오류가 발생했습니다.",
+    "load_failed": "데이터를 불러오는데 실패했습니다.",
+    "load_error": "데이터 로딩 중 오류가 발생했습니다.",
+    "render_error": "렌더링 오류",
+    "render_error_detail": "데이터를 표시하는 중 오류가 발생했습니다.",
+    "sending": "전송 중...",
+    "close": "닫기",
+    "network_error": "네트워크 응답 오류"
+  },
+  "page_title": {
+    "home": "K-POP SNS 랭킹 | 아이엠콘텐츠",
+    "comeback": "컴백일정 | 아이엠콘텐츠",
+    "news": "엔터뉴스 | 아이엠콘텐츠",
+    "links": "링크모음 | 아이엠콘텐츠",
+    "jobs": "채용정보 | 아이엠콘텐츠",
+    "vendors": "업체정보 | 아이엠콘텐츠",
+    "douyin": "중국트렌드 | 아이엠콘텐츠",
+    "team": "Team | 아이엠콘텐츠"
+  },
+  "page_desc": {
+    "home": "K-POP 아이돌 SNS 팔로워 순위 - 웨이보, 빌리빌리, 유튜브, 스포티파이 월별 랭킹",
+    "comeback": "K-POP 아이돌 컴백/데뷔 일정 - 최신 컴백 스케줄 한눈에 확인",
+    "news": "실시간 엔터테인먼트 뉴스 - K-POP, 드라마, 엔터 업계 최신 소식",
+    "links": "K-POP 관련 유용한 링크 모음 - 음원, 투표, 팬카페, 공식 채널",
+    "jobs": "엔터테인먼트 채용정보 - 마케팅, 매니지먼트, 프로듀싱, 해외사업",
+    "vendors": "엔터테인먼트 업체정보 - 제작, 유통, 마케팅 협력사 데이터베이스",
+    "douyin": "중국 도우인(抖音) 인기 챌린지 트렌드 - 주간 업데이트",
+    "team": "Team | 아이엠콘텐츠"
+  },
+  "team": {
+    "info": "Team 페이지입니다."
+  },
+  "format": {
+    "year_month": "{yy}년{mm}월"
+  }
+}

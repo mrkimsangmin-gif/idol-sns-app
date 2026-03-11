@@ -3,17 +3,40 @@
   "name_en": "NewJeans",
   "slug": "newjeans",
   "tiktok_url": "https://www.tiktok.com/@newjeans_official",
-  "crawled_at": "2026-03-08T12:54:34.141746",
+  "crawled_at": "2026-03-09T20:26:42.513331",
   "profile": {
     "display_name": "NewJeans",
     "username": "@newjeans_official",
     "verified": true,
     "category": "아티스트",
-    "followers": 12792000,
+    "followers": 12800000,
     "following": 1,
-    "total_likes": 450000000,
+    "total_likes": 446600000,
     "bio": "We Are NewJeans&#128086;"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 10900000,
+      "likes": 599400,
+      "comments": 35000,
+      "shares": 24900,
+      "saves": 54500,
+      "posted_at": "",
+      "caption": "Happy B-DAY&#128155;&#128048;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 10900000,
+    "avg_likes": 599400,
+    "avg_comments": 35000,
+    "avg_shares": 24900,
+    "avg_saves": 54500,
+    "engagement_rate": 19.09,
+    "er_formula": "likes_based"
+  }
 }

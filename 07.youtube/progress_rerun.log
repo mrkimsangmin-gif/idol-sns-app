@@ -1,0 +1,573 @@
+=== YouTube Engagement 크롤러 ===
+  기간: 최근 365일
+
+[메타데이터] 174개 그룹 로드
+[채널 캐시] 174개 로드
+[기존 데이터] 158개 그룹 로드
+[수집 대상] 15개 그룹 (기존 158개 스킵)
+
+[Step 3] 최근 365일 영상 수집...
+  [프로미스나인] 최근 365일 영상 없음
+  [위클리] 최근 365일 영상 없음
+  [트라이비] 최근 365일 영상 없음
+  [에이디야] 최근 365일 영상 없음
+  [아이리스] 최근 365일 영상 없음
+  [루셈블] 최근 365일 영상 없음
+  [유니코드] 최근 365일 영상 없음
+  [더보이즈] 최근 365일 영상 없음
+  [미래소년] 최근 365일 영상 없음
+  [워터파이어] 최근 365일 영상 없음
+  [피커스] 최근 365일 영상 없음
+  [하우] 최근 365일 영상 없음
+  [13/15] [롱샷] 213개 발견 → 50개 수집 (쇼츠 163개 제외)
+  [14/15] [네이즈] 8개 발견 → 7개 수집 (쇼츠 1개 제외)
+  [15/15] [유어즈] 216개 발견 → 21개 수집 (쇼츠 195개 제외)
+
+[Step 5] Gemini AI 영상 분류 (15935개 미분류)...
+  [Gemini sync] 배치 1: 30개 (30/15935)
+  [Gemini sync] 배치 10: 30개 (300/15935)
+  [Gemini sync] 배치 20: 8개 (556/15935)
+  [Gemini sync] 배치 30: 30개 (810/15935)
+  [Gemini sync] 배치 40: 30개 (1062/15935)
+  [Gemini sync] 배치 50: 30개 (1362/15935)
+  [Gemini sync] 배치 60: 6개 (1614/15935)
+  [Gemini sync] 배치 70: 30개 (1868/15935)
+  [Gemini sync] 배치 80: 30개 (2124/15935)
+  [Gemini sync] 배치 90: 30개 (2378/15935)
+  [Gemini sync] 배치 100: 30개 (2608/15935)
+  [Gemini sync] 배치 110: 30개 (2860/15935)
+  [Gemini sync] 배치 120: 30개 (3115/15935)
+  [Gemini sync] 배치 130: 30개 (3391/15935)
+  [Gemini sync] 배치 140: 30개 (3691/15935)
+  [Gemini sync] 배치 150: 30개 (3943/15935)
+  [Gemini sync] 배치 160: 30개 (4243/15935)
+  [Gemini sync] 배치 170: 8개 (4425/15935)
+  [Gemini sync] 배치 180: 30개 (4725/15935)
+  [Gemini sync] 배치 190: 30개 (5003/15935)
+  [Gemini sync] 배치 200: 30개 (5303/15935)
+  [Gemini sync] 배치 210: 30개 (5557/15935)
+  [Gemini sync] 배치 220: 30개 (5857/15935)
+  [Gemini sync] 배치 230: 30개 (6112/15935)
+  [Gemini sync] 배치 240: 30개 (6412/15935)
+  [Gemini sync] 배치 250: 30개 (6688/15935)
+  [Gemini sync] 배치 260: 30개 (6964/15935)
+  [Gemini sync] 배치 270: 30개 (7218/15935)
+  [Gemini sync] 배치 280: 6개 (7494/15935)
+  [Gemini sync] 배치 290: 30개 (7794/15935)
+  [Gemini sync] 배치 300: 6개 (8070/15935)
+  [Gemini sync] 배치 310: 30개 (8346/15935)
+  [Gemini sync] 배치 320: 30개 (8646/15935)
+  [Gemini sync] 배치 330: 30개 (8946/15935)
+  [Gemini sync] 배치 340: 30개 (9224/15935)
+  [Gemini sync] 배치 350: 30개 (9458/15935)
+  [Gemini sync] 배치 360: 30개 (9758/15935)
+  [Gemini sync] 배치 370: 30개 (10014/15935)
+  [Gemini sync] 배치 380: 30개 (10314/15935)
+  [Gemini sync] 배치 390: 30개 (10593/15935)
+  [Gemini sync] 배치 400: 30개 (10893/15935)
+  [Gemini sync] 배치 410: 30개 (11193/15935)
+  [Gemini sync] 배치 420: 30개 (11469/15935)
+  [Gemini sync] 배치 430: 30개 (11723/15935)
+  [Gemini sync] 배치 440: 8개 (11979/15935)
+  [Gemini sync] 배치 450: 30개 (12255/15935)
+  [Gemini sync] 배치 460: 30개 (12531/15935)
+  [Gemini sync] 배치 470: 30개 (12807/15935)
+  [Gemini sync] 배치 480: 30개 (13083/15935)
+  [Gemini sync] 배치 490: 6개 (13359/15935)
+  [Gemini sync] 배치 500: 9개 (13566/15935)
+  [Gemini sync] 배치 510: 30개 (13866/15935)
+  [Gemini sync] 배치 520: 30개 (14166/15935)
+  [Gemini sync] 배치 530: 30개 (14442/15935)
+  [Gemini sync] 완료: 14477개 AI, 0개 폴백
+
+[Step 6] 컴백 기간 감지...
+
+[Step 7] 통계 산출 및 저장...
+
+[저장] youtube-engagement.json (12427.8KB)
+  그룹: 161개, 영상: 15946개
+
+=== 완료 ===
+  블랙핑크 (BLACKPINK): 27개 영상, 조회수 531,816,282, 거품비율 0.339
+    유형: Album_Preview:1, Behind:7, Concept_Teaser:4, Live_Concert:1, MV:2, MV_Teaser:2, Other:10
+    좋아요율: 0.0821, 댓글율: 0.0047, 팬덤지수: 3,119,170
+  방탄소년단 (BTS): 143개 영상, 조회수 146,421,653, 거품비율 8.511
+    유형: Behind:36, Concept_Teaser:1, Cover:1, Dance_Practice:3, Live_Concert:20, MV:19, MV_Teaser:4, Other:26, Performance:11, Variety:19, Vlog:3
+    좋아요율: 0.1437, 댓글율: 0.0065, 팬덤지수: 1,513,451
+  스트레이키즈 (Stray Kids): 178개 영상, 조회수 380,350,948, 거품비율 1.610
+    유형: Album_Preview:1, Behind:54, Concept_Teaser:5, Cover:6, Dance_Practice:4, MV:6, Other:25, Performance:1, Variety:55, Vlog:21
+    좋아요율: 0.1242, 댓글율: 0.0051, 팬덤지수: 1,193,014
+  트와이스 (TWICE): 148개 영상, 조회수 85,452,819, 거품비율 7.629
+    유형: Album_Preview:1, Behind:54, Concept_Teaser:9, Dance_Practice:6, Live_Concert:2, MV:1, MV_Teaser:3, Other:24, Performance:6, Variety:31, Vlog:11
+    좋아요율: 0.0963, 댓글율: 0.0030, 팬덤지수: 394,467
+  세븐틴 (SEVENTEEN): 283개 영상, 조회수 150,846,000, 거품비율 100.739
+    유형: Album_Preview:4, Behind:69, Concept_Teaser:25, Cover:8, Dance_Practice:9, Live_Concert:10, MV:5, MV_Teaser:2, Other:49, Performance:19, Variety:66, Vlog:17
+    좋아요율: 0.1111, 댓글율: 0.0035, 팬덤지수: 603,298
+  엔하이픈 (ENHYPEN): 184개 영상, 조회수 164,482,779, 거품비율 21.720
+    유형: Behind:60, Concept_Teaser:8, Cover:2, Dance_Practice:5, Interview:3, Live_Concert:4, MV:4, Other:14, Performance:14, Variety:48, Vlog:22
+    좋아요율: 0.1213, 댓글율: 0.0052, 팬덤지수: 686,980
+  투모로우바이투게더 (TXT): 224개 영상, 조회수 132,767,483, 거품비율 194.061
+    유형: Album_Preview:1, Behind:52, Concept_Teaser:4, Cover:5, Dance_Practice:6, Live_Concert:4, MV:3, MV_Teaser:1, Other:40, Performance:28, Variety:55, Vlog:25
+    좋아요율: 0.1067, 댓글율: 0.0038, 팬덤지수: 396,035
+  베이비몬스터 (BABYMONSTER): 62개 영상, 조회수 1,146,178,980, 거품비율 0.938
+    유형: Album_Preview:1, Behind:20, Concept_Teaser:3, Dance_Practice:1, MV:4, MV_Teaser:1, Other:10, Performance:4, Variety:10, Vlog:8
+    좋아요율: 0.0508, 댓글율: 0.0020, 팬덤지수: 5,645,451
+  있지 (ITZY): 183개 영상, 조회수 33,819,271, 거품비율 11.819
+    유형: Album_Preview:12, Behind:67, Concept_Teaser:2, Cover:5, Dance_Practice:6, Interview:3, Live_Concert:14, MV:3, MV_Teaser:1, Other:15, Performance:7, Variety:35, Vlog:13
+    좋아요율: 0.0985, 댓글율: 0.0041, 팬덤지수: 135,165
+  아이콘 (Ikon): 33개 영상, 조회수 3,880,461, 거품비율 1.100
+    유형: Album_Preview:1, Behind:11, Concept_Teaser:1, Dance_Practice:2, MV:1, MV_Teaser:2, Other:5, Performance:2, Variety:5, Vlog:3
+    좋아요율: 0.1196, 댓글율: 0.0104, 팬덤지수: 19,311
+  뉴진스 (NewJeans): 38개 영상, 조회수 8,742,999, 거품비율 0.000
+    유형: Behind:10, Other:2, Performance:1, Variety:22, Vlog:3
+    좋아요율: 0.0518, 댓글율: 0.0063, 팬덤지수: 197,335
+  에스파 (aespa): 111개 영상, 조회수 84,637,805, 거품비율 253.166
+    유형: Album_Preview:1, Behind:48, Concept_Teaser:13, Dance_Practice:3, Live_Concert:8, MV:1, MV_Teaser:2, Music_Show:1, Other:12, Performance:3, Variety:12, Vlog:7
+    좋아요율: 0.0656, 댓글율: 0.0026, 팬덤지수: 296,182
+  엔시티 드림 (NCT DREAM): 91개 영상, 조회수 35,187,493, 거품비율 0.000
+    유형: Album_Preview:1, Behind:30, Concept_Teaser:3, Dance_Practice:4, Interview:1, Other:15, Performance:4, Variety:30, Vlog:3
+    좋아요율: 0.0884, 댓글율: 0.0027, 팬덤지수: 385,049
+  르세라핌 (LE SSERAFIM): 182개 영상, 조회수 95,225,148, 거품비율 14.621
+    유형: Behind:51, Concept_Teaser:2, Cover:2, Dance_Practice:10, Interview:1, Live_Concert:8, MV:3, Other:46, Performance:6, Variety:36, Vlog:17
+    좋아요율: 0.0643, 댓글율: 0.0022, 팬덤지수: 368,035
+  엔시티 일이칠 (NCT 127): 30개 영상, 조회수 10,817,710, 거품비율 0.000
+    유형: Behind:14, Live_Concert:1, Other:2, Variety:12, Vlog:1
+    좋아요율: 0.0640, 댓글율: 0.0028, 팬덤지수: 371,896
+  레드벨벳 (Red Velvet): 54개 영상, 조회수 7,485,583, 거품비율 0.000
+    유형: Album_Preview:2, Behind:21, Concept_Teaser:8, Cover:1, Dance_Practice:4, Live_Concert:1, Other:4, Performance:1, Variety:6, Vlog:6
+    좋아요율: 0.1012, 댓글율: 0.0054, 팬덤지수: 75,994
+  아스트로 (ASTRO): 112개 영상, 조회수 17,069,419, 거품비율 63.025
+    유형: Behind:23, Concept_Teaser:4, Cover:14, Dance_Practice:4, Interview:1, MV:4, MV_Teaser:1, Other:29, Performance:7, Variety:11, Vlog:14
+    좋아요율: 0.1599, 댓글율: 0.0140, 팬덤지수: 197,567
+  아트비트 (ARTBEAT v): 338개 영상, 조회수 94,262,447, 거품비율 0.000
+    유형: Cover:256, Dance_Practice:27, Interview:1, Other:10, Performance:7, Variety:28, Vlog:9
+    좋아요율: 0.0369, 댓글율: 0.0017, 팬덤지수: 142,714
+  아이브 (IVE): 187개 영상, 조회수 83,260,682, 거품비율 74.572
+    유형: Behind:67, Concept_Teaser:13, Cover:6, Dance_Practice:6, Live_Concert:7, MV:4, Music_Show:1, Other:37, Performance:3, Variety:29, Vlog:14
+    좋아요율: 0.0627, 댓글율: 0.0035, 팬덤지수: 260,101
+  에이티즈 (ATEEZ): 171개 영상, 조회수 38,554,685, 거품비율 144.563
+    유형: Album_Preview:1, Behind:46, Concept_Teaser:2, Cover:3, Dance_Practice:8, Interview:1, Live_Concert:3, MV:2, Other:23, Performance:12, Variety:43, Vlog:27
+    좋아요율: 0.1347, 댓글율: 0.0063, 팬덤지수: 126,526
+  엔믹스 (NMIXX): 248개 영상, 조회수 108,936,401, 거품비율 51.505
+    유형: Behind:78, Concept_Teaser:2, Cover:2, Dance_Practice:6, Live_Concert:4, MV:1, MV_Teaser:2, Other:91, Performance:10, Variety:27, Vlog:25
+    좋아요율: 0.0565, 댓글율: 0.0022, 팬덤지수: 372,788
+  아일릿 (ILLIT): 166개 영상, 조회수 81,357,747, 거품비율 0.000
+    유형: Album_Preview:1, Behind:61, Cover:8, Dance_Practice:6, Interview:2, Live_Concert:2, MV_Teaser:2, Other:20, Performance:17, Variety:39, Vlog:8
+    좋아요율: 0.0634, 댓글율: 0.0031, 팬덤지수: 423,063
+  코르티스 (CORTIS): 109개 영상, 조회수 122,668,439, 거품비율 21.157
+    유형: Album_Preview:4, Behind:15, Concept_Teaser:5, Cover:3, Dance_Practice:8, Interview:1, MV:4, MV_Teaser:1, Music_Show:3, Other:22, Performance:6, Variety:23, Vlog:14
+    좋아요율: 0.1125, 댓글율: 0.0033, 팬덤지수: 1,428,658
+  트리플에스 (tripleS): 390개 영상, 조회수 69,163,372, 거품비율 0.444
+    유형: Album_Preview:2, Behind:43, Concept_Teaser:8, Cover:3, Dance_Practice:6, MV:7, MV_Teaser:9, Other:80, Performance:11, Variety:56, Vlog:165
+    좋아요율: 0.0859, 댓글율: 0.0054, 팬덤지수: 27,307
+  몬스타엑스 (MONSTA X): 177개 영상, 조회수 15,760,822, 거품비율 14.102
+    유형: Behind:56, Concept_Teaser:4, Cover:4, Dance_Practice:4, Live_Concert:3, MV:19, Other:41, Performance:5, Variety:32, Vlog:9
+    좋아요율: 0.1039, 댓글율: 0.0073, 팬덤지수: 106,110
+  케플러 (Kep1er): 99개 영상, 조회수 36,264,278, 거품비율 0.176
+    유형: Album_Preview:3, Behind:35, Concept_Teaser:8, Cover:5, Dance_Practice:4, Live_Concert:6, MV:2, MV_Teaser:4, Other:5, Performance:1, Variety:17, Vlog:9
+    좋아요율: 0.0968, 댓글율: 0.0055, 팬덤지수: 36,262
+  데이식스 (DAY6): 154개 영상, 조회수 30,350,408, 거품비율 37.159
+    유형: Album_Preview:1, Behind:55, Concept_Teaser:2, Cover:11, Live_Concert:30, MV:1, Other:26, Performance:8, Variety:16, Vlog:4
+    좋아요율: 0.0602, 댓글율: 0.0036, 팬덤지수: 107,028
+  보이넥스트도어 (BOYNEXTDOOR): 133개 영상, 조회수 83,870,857, 거품비율 281.861
+    유형: Behind:33, Cover:2, Dance_Practice:5, Interview:1, Live_Concert:4, MV:1, Other:16, Performance:17, Variety:44, Vlog:10
+    좋아요율: 0.0727, 댓글율: 0.0034, 팬덤지수: 521,404
+  피프티피프티 (FIFTY FIFTY): 119개 영상, 조회수 98,784,541, 거품비율 0.456
+    유형: Album_Preview:2, Behind:23, Concept_Teaser:7, Cover:7, Dance_Practice:5, MV:5, MV_Teaser:5, Other:9, Performance:11, Variety:29, Vlog:16
+    좋아요율: 0.0725, 댓글율: 0.0055, 팬덤지수: 199,352
+  제로베이스원 (ZEROBASEONE): 292개 영상, 조회수 115,726,156, 거품비율 0.691
+    유형: Album_Preview:1, Behind:114, Concept_Teaser:5, Cover:20, Dance_Practice:6, Live_Concert:1, MV:6, MV_Teaser:5, Other:50, Performance:5, Variety:42, Vlog:37
+    좋아요율: 0.0965, 댓글율: 0.0054, 팬덤지수: 114,446
+  키스오브라이프 (KISS OF LIFE): 173개 영상, 조회수 55,083,130, 거품비율 0.868
+    유형: Album_Preview:1, Behind:62, Concept_Teaser:9, Cover:10, Dance_Practice:8, Live_Concert:1, MV:7, MV_Teaser:4, Other:27, Performance:8, Variety:26, Vlog:10
+    좋아요율: 0.0726, 댓글율: 0.0053, 팬덤지수: 67,519
+  이즈나 (izna): 164개 영상, 조회수 177,200,515, 거품비율 0.106
+    유형: Album_Preview:2, Behind:55, Concept_Teaser:9, Dance_Practice:14, MV:7, MV_Teaser:5, Other:33, Performance:3, Variety:21, Vlog:15
+    좋아요율: 0.0824, 댓글율: 0.0048, 팬덤지수: 110,964
+  라이즈 (RIIZE): 184개 영상, 조회수 50,767,010, 거품비율 2.613
+    유형: Album_Preview:1, Behind:44, Concept_Teaser:5, Cover:2, Dance_Practice:12, Live_Concert:3, MV:9, Other:33, Performance:2, Variety:54, Vlog:19
+    좋아요율: 0.0644, 댓글율: 0.0044, 팬덤지수: 179,296
+  스테이씨 (STAYC): 129개 영상, 조회수 36,704,827, 거품비율 0.218
+    유형: Album_Preview:2, Behind:47, Concept_Teaser:1, Cover:3, Dance_Practice:2, Live_Concert:4, MV:2, MV_Teaser:3, Other:11, Performance:3, Variety:31, Vlog:20
+    좋아요율: 0.0886, 댓글율: 0.0060, 팬덤지수: 36,000
+  드림캐쳐 (Dreamcatcher): 73개 영상, 조회수 7,668,948, 거품비율 0.452
+    유형: Album_Preview:1, Behind:20, Concept_Teaser:1, Cover:3, Dance_Practice:7, MV:1, MV_Teaser:2, Other:4, Performance:24, Variety:10
+    좋아요율: 0.1395, 댓글율: 0.0076, 팬덤지수: 14,514
+  하츠투하츠 (Hearts2Hearts): 140개 영상, 조회수 66,618,383, 거품비율 0.000
+    유형: Behind:54, Concept_Teaser:13, Cover:3, Dance_Practice:5, Live_Concert:1, MV_Teaser:2, Music_Show:3, Other:17, Performance:1, Variety:30, Vlog:11
+    좋아요율: 0.0722, 댓글율: 0.0033, 팬덤지수: 528,868
+  투어스 (TWS): 217개 영상, 조회수 37,610,272, 거품비율 118.596
+    유형: Album_Preview:1, Behind:71, Concept_Teaser:6, Cover:4, Dance_Practice:9, Interview:1, Live_Concert:2, MV:1, Music_Show:1, Other:21, Performance:16, Variety:67, Vlog:17
+    좋아요율: 0.0737, 댓글율: 0.0040, 팬덤지수: 181,920
+  피원하모니 (P1Harmony): 133개 영상, 조회수 52,595,871, 거품비율 0.728
+    유형: Album_Preview:3, Behind:42, Concept_Teaser:2, Cover:12, Dance_Practice:9, Interview:1, Live_Concert:4, MV:7, MV_Teaser:3, Other:3, Performance:16, Variety:22, Vlog:9
+    좋아요율: 0.1087, 댓글율: 0.0049, 팬덤지수: 62,634
+  시크릿넘버 (SECRET NUMBER): 23개 영상, 조회수 1,991,014, 거품비율 1.276
+    유형: Behind:3, Cover:1, Dance_Practice:1, MV:2, MV_Teaser:6, Other:1, Performance:1, Variety:2, Vlog:6
+    좋아요율: 0.1009, 댓글율: 0.0147, 팬덤지수: 13,937
+  원어스 (ONEUS): 129개 영상, 조회수 8,322,777, 거품비율 0.379
+    유형: Album_Preview:2, Behind:24, Concept_Teaser:6, Cover:6, Dance_Practice:8, MV:9, MV_Teaser:10, Other:20, Performance:5, Variety:22, Vlog:17
+    좋아요율: 0.1280, 댓글율: 0.0075, 팬덤지수: 11,279
+  앳하트 (AtHeart): 92개 영상, 조회수 51,369,134, 거품비율 0.642
+    유형: Behind:25, Concept_Teaser:7, Cover:3, Dance_Practice:2, Live_Concert:1, MV:4, MV_Teaser:3, Other:10, Performance:9, Variety:18, Vlog:10
+    좋아요율: 0.0275, 댓글율: 0.0020, 팬덤지수: 93,126
+  큐더블유이알 (QWER): 75개 영상, 조회수 51,233,818, 거품비율 1.087
+    유형: Behind:6, Live_Concert:3, MV:4, MV_Teaser:2, Other:25, Performance:4, Variety:25, Vlog:6
+    좋아요율: 0.0352, 댓글율: 0.0035, 팬덤지수: 255,468
+  에잇턴 (8TURN): 115개 영상, 조회수 6,666,994, 거품비율 0.340
+    유형: Album_Preview:1, Behind:19, Concept_Teaser:3, Cover:6, Dance_Practice:4, MV:6, MV_Teaser:4, Other:22, Performance:7, Variety:7, Vlog:36
+    좋아요율: 0.1186, 댓글율: 0.0067, 팬덤지수: 7,690
+  엑스디너리 히어로즈 (Xdinary Heroes): 186개 영상, 조회수 20,175,921, 거품비율 0.000
+    유형: Behind:54, Concept_Teaser:1, Cover:4, Dance_Practice:9, Live_Concert:22, Other:28, Performance:11, Variety:35, Vlog:22
+    좋아요율: 0.1023, 댓글율: 0.0051, 팬덤지수: 42,047
+  미야오 (MEOVV): 96개 영상, 조회수 28,751,943, 거품비율 0.000
+    유형: Album_Preview:2, Behind:35, Concept_Teaser:1, Cover:3, Dance_Practice:9, Interview:1, Other:17, Performance:2, Variety:14, Vlog:12
+    좋아요율: 0.0654, 댓글율: 0.0034, 팬덤지수: 318,201
+  플레이브 (PLAVE): 170개 영상, 조회수 69,064,171, 거품비율 1.494
+    유형: Album_Preview:1, Behind:9, Concept_Teaser:2, Cover:9, Dance_Practice:2, Live_Concert:3, MV:3, MV_Teaser:3, Other:44, Performance:6, Variety:87, Vlog:1
+    좋아요율: 0.0971, 댓글율: 0.0053, 팬덤지수: 149,404
+  올데이프로젝트 (ALLDAY PROJECT): 51개 영상, 조회수 52,039,859, 거품비율 123.083
+    유형: Album_Preview:1, Behind:4, Concept_Teaser:7, Dance_Practice:3, Interview:1, MV:2, Other:16, Variety:4, Vlog:13
+    좋아요율: 0.0374, 댓글율: 0.0018, 팬덤지수: 1,537,485
+  롱샷 (LNGSHOT): 50개 영상, 조회수 39,900,491, 거품비율 4.420
+    유형: Behind:13, Concept_Teaser:1, Dance_Practice:6, Live_Concert:1, MV:4, MV_Teaser:1, Other:10, Performance:6, Variety:6, Vlog:2
+    좋아요율: 0.0818, 댓글율: 0.0028, 팬덤지수: 435,434
+  오마이걸 (OH MY GIRL): 42개 영상, 조회수 4,762,376, 거품비율 0.682
+    유형: Behind:22, Concept_Teaser:2, Cover:2, Live_Concert:3, MV:1, MV_Teaser:1, Other:7, Performance:2, Variety:2
+    좋아요율: 0.0000, 댓글율: 0.0084, 팬덤지수: 14,105
+  아르테미스 (ARTMS): 118개 영상, 조회수 30,446,947, 거품비율 0.104
+    유형: Album_Preview:2, Behind:23, Concept_Teaser:3, Cover:10, Dance_Practice:4, MV:8, MV_Teaser:10, Other:19, Performance:4, Variety:28, Vlog:7
+    좋아요율: 0.1208, 댓글율: 0.0089, 팬덤지수: 11,305
+  씨아이엑스 (CIX): 91개 영상, 조회수 8,980,644, 거품비율 0.060
+    유형: Album_Preview:1, Behind:14, Concept_Teaser:1, Cover:4, Dance_Practice:4, Live_Concert:5, MV:1, MV_Teaser:2, Other:22, Performance:3, Variety:24, Vlog:10
+    좋아요율: 0.1175, 댓글율: 0.0073, 팬덤지수: 4,175
+  엑스러브 (XLOV): 69개 영상, 조회수 56,722,588, 거품비율 0.508
+    유형: Album_Preview:2, Behind:17, Concept_Teaser:5, Cover:3, Dance_Practice:3, MV:3, MV_Teaser:3, Other:9, Performance:1, Variety:3, Vlog:20
+    좋아요율: 0.1180, 댓글율: 0.0058, 팬덤지수: 295,871
+  에스에프나인 (SF9): 195개 영상, 조회수 10,239,313, 거품비율 0.752
+    유형: Album_Preview:2, Behind:37, Concept_Teaser:4, Cover:8, Dance_Practice:1, Live_Concert:3, MV:2, MV_Teaser:2, Other:34, Performance:7, Variety:16, Vlog:79
+    좋아요율: 0.0988, 댓글율: 0.0087, 팬덤지수: 13,420
+  루네이트 (LUN8): 79개 영상, 조회수 647,540, 거품비율 0.000
+    유형: Behind:13, Concept_Teaser:1, Cover:3, Dance_Practice:1, Other:25, Performance:2, Variety:28, Vlog:6
+    좋아요율: 0.1304, 댓글율: 0.0119, 팬덤지수: 2,741
+  싸이커스 (xikers): 279개 영상, 조회수 14,199,302, 거품비율 17.111
+    유형: Behind:44, Concept_Teaser:1, Dance_Practice:11, Interview:11, MV:3, Other:108, Performance:3, Variety:69, Vlog:29
+    좋아요율: 0.0869, 댓글율: 0.0034, 팬덤지수: 48,235
+  블랙스완 (BLACKSWAN): 21개 영상, 조회수 2,140,957, 거품비율 0.801
+    유형: Behind:1, Cover:3, MV:4, MV_Teaser:1, Other:4, Performance:7, Variety:1
+    좋아요율: 0.1093, 댓글율: 0.0135, 팬덤지수: 50,384
+  크래비티 (CRAVITY): 178개 영상, 조회수 5,654,808, 거품비율 8.471
+    유형: Behind:45, Concept_Teaser:3, Cover:14, Dance_Practice:7, Live_Concert:6, MV:13, Other:12, Performance:7, Variety:48, Vlog:23
+    좋아요율: 0.0967, 댓글율: 0.0059, 팬덤지수: 28,719
+  유니스 (UNIS): 86개 영상, 조회수 57,010,478, 거품비율 0.356
+    유형: Album_Preview:1, Behind:25, Cover:1, Dance_Practice:5, Interview:1, MV:5, MV_Teaser:4, Other:12, Performance:7, Variety:20, Vlog:5
+    좋아요율: 0.0922, 댓글율: 0.0079, 팬덤지수: 120,727
+  아이덴티티 (idntt): 212개 영상, 조회수 72,484,580, 거품비율 0.208
+    유형: Album_Preview:4, Behind:24, Concept_Teaser:43, Cover:2, Dance_Practice:13, Interview:3, Live_Concert:2, MV:6, MV_Teaser:6, Music_Show:1, Other:42, Performance:10, Variety:39, Vlog:17
+    좋아요율: 0.0747, 댓글율: 0.0049, 팬덤지수: 31,915
+  더뉴식스 (THE NEW SIX): 77개 영상, 조회수 30,928,382, 거품비율 0.024
+    유형: Album_Preview:1, Behind:21, Concept_Teaser:1, Cover:3, Dance_Practice:4, Interview:1, MV:3, MV_Teaser:4, Other:12, Performance:11, Variety:15, Vlog:1
+    좋아요율: 0.1302, 댓글율: 0.0145, 팬덤지수: 9,775
+  빌리 (Billlie): 92개 영상, 조회수 12,636,970, 거품비율 2.677
+    유형: Behind:28, Concept_Teaser:9, Cover:6, Dance_Practice:6, Live_Concert:1, MV:7, MV_Teaser:2, Other:12, Performance:5, Variety:10, Vlog:6
+    좋아요율: 0.1128, 댓글율: 0.0068, 팬덤지수: 15,401
+  비비지 (VIVIZ): 60개 영상, 조회수 5,587,590, 거품비율 0.000
+    유형: Behind:2, Cover:3, Dance_Practice:5, Live_Concert:4, Other:20, Variety:12, Vlog:14
+    좋아요율: 0.0970, 댓글율: 0.0055, 팬덤지수: 74,594
+  더윈드 (The Wind): 110개 영상, 조회수 4,707,601, 거품비율 0.716
+    유형: Album_Preview:1, Behind:20, Concept_Teaser:3, Cover:8, Dance_Practice:7, MV:2, MV_Teaser:3, Other:15, Performance:3, Variety:27, Vlog:21
+    좋아요율: 0.1080, 댓글율: 0.0065, 팬덤지수: 7,645
+  소디엑 (XODIAC): 84개 영상, 조회수 4,602,242, 거품비율 1.290
+    유형: Behind:14, Concept_Teaser:3, Cover:7, Dance_Practice:2, MV:2, MV_Teaser:4, Other:22, Performance:2, Variety:9, Vlog:19
+    좋아요율: 0.1798, 댓글율: 0.0168, 팬덤지수: 23,890
+  위아이 (WEi): 80개 영상, 조회수 8,793,429, 거품비율 0.108
+    유형: Album_Preview:1, Behind:24, Concept_Teaser:1, Cover:1, Dance_Practice:3, Interview:1, MV:1, MV_Teaser:2, Other:18, Variety:18, Vlog:10
+    좋아요율: 0.1007, 댓글율: 0.0080, 팬덤지수: 12,918
+  클로즈 유어 아이즈 (CLOSE YOUR EYES): 277개 영상, 조회수 100,118,318, 거품비율 0.208
+    유형: Album_Preview:2, Behind:62, Concept_Teaser:16, Cover:1, Dance_Practice:14, Live_Concert:2, MV:5, MV_Teaser:9, Other:16, Performance:60, Variety:67, Vlog:23
+    좋아요율: 0.0920, 댓글율: 0.0056, 팬덤지수: 29,681
+  알파드라이브원 (ALPHA DRIVE ONE): 96개 영상, 조회수 104,379,015, 거품비율 0.634
+    유형: Album_Preview:1, Behind:15, Concept_Teaser:14, Dance_Practice:6, MV:4, MV_Teaser:2, Other:19, Performance:4, Variety:23, Vlog:8
+    좋아요율: 0.1008, 댓글율: 0.0089, 팬덤지수: 447,862
+  이븐 (EVNNE): 182개 영상, 조회수 10,427,097, 거품비율 0.379
+    유형: Album_Preview:3, Behind:50, Concept_Teaser:3, Cover:6, Dance_Practice:8, Interview:1, Live_Concert:8, MV:5, MV_Teaser:2, Other:25, Performance:4, Variety:55, Vlog:12
+    좋아요율: 0.0975, 댓글율: 0.0054, 팬덤지수: 11,722
+  휘브 (WHIB): 55개 영상, 조회수 11,792,679, 거품비율 0.113
+    유형: Album_Preview:1, Behind:14, Concept_Teaser:4, Cover:2, Dance_Practice:2, MV:2, MV_Teaser:3, Other:8, Performance:2, Variety:11, Vlog:6
+    좋아요율: 0.0765, 댓글율: 0.0071, 팬덤지수: 25,851
+  킥플립 (KickFlip): 273개 영상, 조회수 27,289,179, 거품비율 7.126
+    유형: Behind:53, Concept_Teaser:1, Cover:7, Dance_Practice:24, Live_Concert:5, MV:1, Other:29, Performance:24, Variety:89, Vlog:40
+    좋아요율: 0.1216, 댓글율: 0.0058, 팬덤지수: 74,066
+  이펙스 (EPEX): 122개 영상, 조회수 21,676,591, 거품비율 0.052
+    유형: Album_Preview:1, Behind:27, Concept_Teaser:10, Cover:7, Dance_Practice:6, Interview:1, Live_Concert:4, MV:3, MV_Teaser:4, Other:20, Performance:3, Variety:17, Vlog:19
+    좋아요율: 0.1173, 댓글율: 0.0079, 팬덤지수: 4,247
+  아홉 (AHOF): 134개 영상, 조회수 103,443,314, 거품비율 0.287
+    유형: Album_Preview:2, Behind:52, Concept_Teaser:9, Cover:1, Dance_Practice:2, MV:3, MV_Teaser:4, Other:23, Performance:4, Variety:18, Vlog:16
+    좋아요율: 0.1391, 댓글율: 0.0122, 팬덤지수: 102,436
+  에이티투메이저 (82MAJOR): 85개 영상, 조회수 15,008,166, 거품비율 0.139
+    유형: Album_Preview:2, Behind:25, Concept_Teaser:2, Dance_Practice:3, Live_Concert:1, MV:3, MV_Teaser:5, Other:4, Performance:6, Variety:28, Vlog:6
+    좋아요율: 0.0761, 댓글율: 0.0058, 팬덤지수: 12,610
+  드리핀 (DRIPPIN): 26개 영상, 조회수 115,462, 거품비율 0.000
+    유형: Behind:4, Cover:4, Other:2, Variety:4, Vlog:12
+    좋아요율: 0.0982, 댓글율: 0.0120, 팬덤지수: 3,744
+  템페스트 (TEMPEST): 129개 영상, 조회수 5,584,347, 거품비율 0.433
+    유형: Album_Preview:3, Behind:27, Concept_Teaser:14, Cover:6, Dance_Practice:6, Live_Concert:10, MV:2, MV_Teaser:1, Other:27, Performance:18, Variety:11, Vlog:4
+    좋아요율: 0.1546, 댓글율: 0.0100, 팬덤지수: 7,540
+  에이비식스 (AB6IX): 74개 영상, 조회수 523,837, 거품비율 15.754
+    유형: Album_Preview:1, Behind:22, Concept_Teaser:2, Cover:9, Dance_Practice:4, Live_Concert:1, MV:1, Other:11, Performance:4, Variety:11, Vlog:8
+    좋아요율: 0.1303, 댓글율: 0.0117, 팬덤지수: 4,573
+  넥스지 (NEXZ): 284개 영상, 조회수 25,745,360, 거품비율 146.084
+    유형: Album_Preview:1, Behind:63, Concept_Teaser:3, Cover:4, Dance_Practice:13, Interview:3, Live_Concert:13, MV:4, MV_Teaser:1, Other:41, Performance:26, Variety:70, Vlog:42
+    좋아요율: 0.1044, 댓글율: 0.0057, 팬덤지수: 62,497
+  세이마이네임 (SMN): 94개 영상, 조회수 4,411,298, 거품비율 0.000
+    유형: Behind:33, Cover:1, Dance_Practice:3, Other:25, Variety:19, Vlog:13
+    좋아요율: 0.0255, 댓글율: 0.0053, 팬덤지수: 36,256
+  하이키 (H1-KEY): 72개 영상, 조회수 10,666,007, 거품비율 0.260
+    유형: Album_Preview:2, Behind:10, Concept_Teaser:4, Cover:7, Dance_Practice:2, MV:3, MV_Teaser:3, Other:6, Performance:1, Variety:9, Vlog:25
+    좋아요율: 0.0890, 댓글율: 0.0057, 팬덤지수: 11,457
+  아크 (ARrC): 116개 영상, 조회수 24,101,476, 거품비율 0.630
+    유형: Album_Preview:5, Behind:30, Concept_Teaser:1, Cover:3, Dance_Practice:9, MV:9, MV_Teaser:4, Other:4, Performance:7, Variety:33, Vlog:11
+    좋아요율: 0.1142, 댓글율: 0.0117, 팬덤지수: 15,391
+  우아 (WOOAH): 11개 영상, 조회수 119,278, 거품비율 0.000
+    유형: Behind:6, Dance_Practice:1, Other:1, Variety:1, Vlog:2
+    좋아요율: 0.0920, 댓글율: 0.0082, 팬덤지수: 10,401
+  오메가엑스 (OMEGA X): 41개 영상, 조회수 629,523, 거품비율 1.484
+    유형: Album_Preview:1, Behind:7, Concept_Teaser:1, Cover:5, Dance_Practice:1, MV:3, MV_Teaser:1, Other:4, Performance:1, Variety:12, Vlog:5
+    좋아요율: 0.1393, 댓글율: 0.0130, 팬덤지수: 5,481
+  골든차일드 (Golden Child, GNCD): 16개 영상, 조회수 38,533, 거품비율 0.000
+    유형: Behind:10, Performance:4, Variety:1, Vlog:1
+    좋아요율: 0.1419, 댓글율: 0.0097, 팬덤지수: 2,163
+  엠씨엔디 (MCND): 22개 영상, 조회수 106,440, 거품비율 0.000
+    유형: Behind:3, Other:9, Performance:4, Variety:4, Vlog:2
+    좋아요율: 0.1581, 댓글율: 0.0259, 팬덤지수: 2,140
+  키키 (KiiiKiii): 157개 영상, 조회수 12,842,849, 거품비율 7.745
+    유형: Behind:65, Cover:1, Dance_Practice:5, MV:7, MV_Teaser:2, Other:27, Performance:6, Variety:29, Vlog:15
+    좋아요율: 0.0723, 댓글율: 0.0048, 팬덤지수: 67,267
+  영파씨 (YOUNG POSSE): 147개 영상, 조회수 17,851,365, 거품비율 0.156
+    유형: Album_Preview:2, Behind:16, Concept_Teaser:8, Cover:4, Dance_Practice:4, Live_Concert:5, MV:8, MV_Teaser:6, Other:37, Performance:6, Variety:26, Vlog:25
+    좋아요율: 0.1065, 댓글율: 0.0072, 팬덤지수: 12,930
+  올아워즈 (ALL(H)OURS): 144개 영상, 조회수 23,134,190, 거품비율 0.247
+    유형: Album_Preview:2, Behind:31, Concept_Teaser:2, Cover:3, Dance_Practice:2, Live_Concert:3, MV:3, MV_Teaser:2, Other:19, Performance:2, Variety:39, Vlog:36
+    좋아요율: 0.1229, 댓글율: 0.0067, 팬덤지수: 5,139
+  클라씨 (CLASS:y): 19개 영상, 조회수 468,597, 거품비율 11.161
+    유형: Behind:3, Concept_Teaser:1, Cover:7, MV:1, Other:3, Variety:3, Vlog:1
+    좋아요율: 0.0000, 댓글율: 0.0063, 팬덤지수: 26,129
+  앰퍼샌드원 (AMPERS&ONE): 108개 영상, 조회수 22,421,560, 거품비율 0.433
+    유형: Album_Preview:2, Behind:30, Cover:9, Dance_Practice:6, Live_Concert:1, MV:2, MV_Teaser:4, Other:5, Performance:6, Variety:29, Vlog:14
+    좋아요율: 0.0942, 댓글율: 0.0070, 팬덤지수: 16,473
+  에이엠피 (AxMxP): 121개 영상, 조회수 38,720,119, 거품비율 0.461
+    유형: Album_Preview:1, Behind:47, Concept_Teaser:16, Cover:2, MV:5, MV_Teaser:2, Other:11, Performance:9, Variety:19, Vlog:9
+    좋아요율: 0.0174, 댓글율: 0.0013, 팬덤지수: 59,344
+  리센느 (RESCENE): 185개 영상, 조회수 63,817,557, 거품비율 0.107
+    유형: Behind:31, Concept_Teaser:1, Cover:6, Dance_Practice:4, Live_Concert:2, MV:9, MV_Teaser:1, Other:51, Performance:12, Variety:48, Vlog:20
+    좋아요율: 0.0690, 댓글율: 0.0047, 팬덤지수: 32,089
+  엘라스트 (E'LAST): 65개 영상, 조회수 6,894,482, 거품비율 0.145
+    유형: Album_Preview:1, Behind:14, Concept_Teaser:6, Cover:5, Dance_Practice:1, MV:1, MV_Teaser:2, Other:4, Performance:10, Variety:13, Vlog:8
+    좋아요율: 0.0000, 댓글율: 0.0052, 팬덤지수: 7,717
+  이프아이 (ifeye): 108개 영상, 조회수 31,025,914, 거품비율 0.243
+    유형: Album_Preview:3, Behind:27, Concept_Teaser:8, Cover:11, Dance_Practice:7, MV:2, MV_Teaser:4, Other:17, Performance:8, Variety:15, Vlog:6
+    좋아요율: 0.0723, 댓글율: 0.0044, 팬덤지수: 35,316
+  온앤오프 (ONF): 74개 영상, 조회수 966,763, 거품비율 3.396
+    유형: Album_Preview:1, Behind:18, Concept_Teaser:3, Cover:6, Dance_Practice:5, Live_Concert:2, MV:2, MV_Teaser:3, Other:5, Performance:5, Variety:17, Vlog:7
+    좋아요율: 0.0000, 댓글율: 0.0142, 팬덤지수: 6,273
+  크랙시 (CRAXY): 3개 영상, 조회수 1,949, 거품비율 0.000
+    유형: Variety:3
+    좋아요율: 0.1860, 댓글율: 0.0122, 팬덤지수: 650
+  나인아이 (NINE.i): 63개 영상, 조회수 180,831, 거품비율 0.000
+    유형: Behind:5, Cover:24, Interview:1, Other:15, Variety:12, Vlog:6
+    좋아요율: 0.1096, 댓글율: 0.0094, 팬덤지수: 2,574
+  블리처스 (BLITZERS): 34개 영상, 조회수 89,290, 거품비율 2.978
+    유형: Behind:5, Concept_Teaser:9, Cover:9, MV:1, MV_Teaser:2, Other:2, Performance:2, Variety:2, Vlog:2
+    좋아요율: 0.2131, 댓글율: 0.0306, 팬덤지수: 2,044
+  다크비 (DKB): 126개 영상, 조회수 1,141,832, 거품비율 0.000
+    유형: Behind:29, Concept_Teaser:2, Cover:6, Dance_Practice:2, Live_Concert:2, Other:25, Performance:11, Variety:11, Vlog:38
+    좋아요율: 0.0000, 댓글율: 0.0080, 팬덤지수: 10,686
+  비웨이브 (BEWAVE): 3개 영상, 조회수 31,542, 거품비율 7.277
+    유형: Behind:1, MV:1, Performance:1
+    좋아요율: 0.0649, 댓글율: 0.0061, 팬덤지수: 13,304
+  누에라 (NouerA): 136개 영상, 조회수 9,611,854, 거품비율 0.333
+    유형: Album_Preview:2, Behind:39, Concept_Teaser:4, Cover:5, Dance_Practice:6, MV:1, MV_Teaser:4, Other:6, Performance:11, Variety:36, Vlog:22
+    좋아요율: 0.1000, 댓글율: 0.0094, 팬덤지수: 5,794
+  로켓펀치 (Rocket Punch): 15개 영상, 조회수 217,738, 거품비율 0.000
+    유형: Behind:1, Cover:2, Variety:9, Vlog:3
+    좋아요율: 0.0928, 댓글율: 0.0090, 팬덤지수: 15,158
+  메이딘 (MADEIN): 69개 영상, 조회수 24,711,078, 거품비율 0.623
+    유형: Behind:10, Concept_Teaser:4, Cover:5, Dance_Practice:3, MV:2, MV_Teaser:3, Other:9, Performance:3, Variety:22, Vlog:8
+    좋아요율: 0.0669, 댓글율: 0.0046, 팬덤지수: 25,291
+  트렌드지 (TRENDZ): 104개 영상, 조회수 401,110, 거품비율 1.285
+    유형: Behind:15, Cover:5, Dance_Practice:7, Live_Concert:6, MV:2, MV_Teaser:1, Other:32, Performance:5, Variety:27, Vlog:4
+    좋아요율: 0.1394, 댓글율: 0.0100, 팬덤지수: 1,780
+  파우 (POW): 145개 영상, 조회수 896,150, 거품비율 7.504
+    유형: Behind:24, Concept_Teaser:2, Cover:2, Dance_Practice:4, Interview:1, Live_Concert:1, MV:1, Other:57, Performance:2, Variety:37, Vlog:14
+    좋아요율: 0.1328, 댓글율: 0.0102, 팬덤지수: 6,315
+  에이티비오 (ATBO): 2개 영상, 조회수 2,123, 거품비율 0.000
+    유형: Vlog:2
+    좋아요율: 0.1220, 댓글율: 0.0087, 팬덤지수: 1,062
+  배드빌런 (BADVILLAIN): 33개 영상, 조회수 1,071,849, 거품비율 0.000
+    유형: Behind:7, Cover:1, Dance_Practice:1, MV_Teaser:1, Other:8, Performance:1, Variety:7, Vlog:7
+    좋아요율: 0.1025, 댓글율: 0.0090, 팬덤지수: 13,944
+  아일리원 (ILY:1): 9개 영상, 조회수 30,059, 거품비율 0.000
+    유형: Behind:3, Live_Concert:1, Other:2, Variety:1, Vlog:2
+    좋아요율: 0.1087, 댓글율: 0.0092, 팬덤지수: 3,718
+  베이비돈크라이 (Baby DONT Cry): 86개 영상, 조회수 57,922,541, 거품비율 0.119
+    유형: Behind:33, Concept_Teaser:8, Dance_Practice:5, MV:4, MV_Teaser:3, Other:12, Performance:8, Variety:9, Vlog:4
+    좋아요율: 0.0827, 댓글율: 0.0065, 팬덤지수: 22,709
+  나우즈 (NOWZ): 129개 영상, 조회수 54,417,805, 거품비율 0.501
+    유형: Album_Preview:2, Behind:38, Concept_Teaser:13, Cover:5, Dance_Practice:8, MV:5, MV_Teaser:7, Other:9, Performance:8, Variety:20, Vlog:14
+    좋아요율: 0.0493, 댓글율: 0.0042, 팬덤지수: 20,060
+  원팩트 (ONE PACT): 72개 영상, 조회수 6,871,624, 거품비율 0.294
+    유형: Album_Preview:1, Behind:19, Concept_Teaser:5, Cover:1, Dance_Practice:4, MV:2, MV_Teaser:4, Other:9, Performance:8, Variety:12, Vlog:7
+    좋아요율: 0.1274, 댓글율: 0.0096, 팬덤지수: 9,431
+  키라스 (KIIRAS): 77개 영상, 조회수 26,078,837, 거품비율 0.270
+    유형: Behind:24, Concept_Teaser:1, Cover:5, Dance_Practice:6, MV:4, MV_Teaser:2, Other:11, Performance:2, Variety:19, Vlog:3
+    좋아요율: 0.1481, 댓글율: 0.0107, 팬덤지수: 13,565
+  스모즈 (SMORZ): 17개 영상, 조회수 4,744,066, 거품비율 0.149
+    유형: Behind:5, Dance_Practice:2, MV:1, MV_Teaser:1, Performance:4, Variety:3, Vlog:1
+    좋아요율: 0.0622, 댓글율: 0.0043, 팬덤지수: 15,946
+  첫사랑 (CSR): 3개 영상, 조회수 21,576, 거품비율 0.000
+    유형: Other:2, Variety:1
+    좋아요율: 0.1035, 댓글율: 0.0144, 팬덤지수: 8,364
+  프림로즈 (PRIMROSE): 28개 영상, 조회수 1,955,013, 거품비율 0.033
+    유형: Behind:5, Cover:8, Dance_Practice:3, MV:2, MV_Teaser:2, Other:4, Variety:4
+    좋아요율: 0.1222, 댓글율: 0.0175, 팬덤지수: 1,815
+  아이딧 (IDID): 461개 영상, 조회수 38,676,622, 거품비율 116.386
+    유형: Album_Preview:21, Behind:50, Concept_Teaser:27, Cover:11, Dance_Practice:11, MV:12, MV_Teaser:3, Other:50, Performance:125, Variety:122, Vlog:29
+    좋아요율: 0.0752, 댓글율: 0.0077, 팬덤지수: 89,757
+  유나이트 (YOUNITE): 119개 영상, 조회수 1,972,297, 거품비율 0.000
+    유형: Album_Preview:1, Behind:25, Concept_Teaser:4, Cover:3, Dance_Practice:3, MV_Teaser:1, Other:30, Performance:5, Variety:40, Vlog:7
+    좋아요율: 0.0000, 댓글율: 0.0079, 팬덤지수: 2,884
+  아이칠린 (ICHILLIN'): 47개 영상, 조회수 1,080,166, 거품비율 0.246
+    유형: Album_Preview:1, Behind:2, Cover:3, Dance_Practice:1, MV:2, MV_Teaser:1, Other:8, Performance:1, Variety:27, Vlog:1
+    좋아요율: 0.1055, 댓글율: 0.0094, 팬덤지수: 3,286
+  우당탕탕 소녀단 (UDTT): 6개 영상, 조회수 372,986, 거품비율 0.048
+    유형: Behind:1, Dance_Practice:1, MV:2, Other:1, Performance:1
+    좋아요율: 0.0883, 댓글율: 0.0093, 팬덤지수: 4,630
+  배너 (VANNER): 43개 영상, 조회수 202,509, 거품비율 0.000
+    유형: Cover:4, Interview:1, Other:24, Variety:6, Vlog:8
+    좋아요율: 0.1001, 댓글율: 0.0115, 팬덤지수: 3,733
+  엔싸인 (n.SSign): 85개 영상, 조회수 4,869,495, 거품비율 0.653
+    유형: Album_Preview:1, Behind:26, Concept_Teaser:3, Cover:2, Dance_Practice:2, Interview:1, MV:3, MV_Teaser:2, Other:8, Performance:1, Variety:33, Vlog:3
+    좋아요율: 0.0992, 댓글율: 0.0043, 팬덤지수: 17,907
+  어블룸 (ablume): 48개 영상, 조회수 20,249,320, 거품비율 2.273
+    유형: Behind:5, Concept_Teaser:1, Cover:5, MV:1, MV_Teaser:2, Other:1, Performance:3, Variety:19, Vlog:11
+    좋아요율: 0.0686, 댓글율: 0.0191, 팬덤지수: 34,604
+  어센트 (ASC2NT): 50개 영상, 조회수 3,731,707, 거품비율 0.092
+    유형: Album_Preview:2, Behind:8, Concept_Teaser:1, Dance_Practice:2, MV:7, MV_Teaser:2, Other:17, Variety:3, Vlog:8
+    좋아요율: 0.0999, 댓글율: 0.0101, 팬덤지수: 1,836
+  뉴비트 (NEWBEAT): 202개 영상, 조회수 8,267,794, 거품비율 0.186
+    유형: Album_Preview:2, Behind:34, Concept_Teaser:4, Cover:4, Dance_Practice:11, Live_Concert:1, MV:3, MV_Teaser:2, Other:33, Performance:10, Variety:56, Vlog:42
+    좋아요율: 0.1177, 댓글율: 0.0105, 팬덤지수: 5,706
+  티아이오티 (TIOT): 61개 영상, 조회수 1,055,226, 거품비율 1.992
+    유형: Album_Preview:1, Behind:20, Concept_Teaser:4, Cover:4, Dance_Practice:3, MV:5, MV_Teaser:3, Other:9, Performance:1, Variety:6, Vlog:5
+    좋아요율: 0.0000, 댓글율: 0.0031, 팬덤지수: 9,345
+  엔카이브 (NCHIVE): 40개 영상, 조회수 3,655,499, 거품비율 0.531
+    유형: Album_Preview:1, Cover:4, Dance_Practice:4, MV:3, MV_Teaser:2, Other:4, Performance:3, Variety:4, Vlog:15
+    좋아요율: 0.2283, 댓글율: 0.0251, 팬덤지수: 3,899
+  웨이커 (WAKER): 22개 영상, 조회수 60,081, 거품비율 0.000
+    유형: Behind:10, Cover:3, Dance_Practice:1, Other:3, Variety:3, Vlog:2
+    좋아요율: 0.1860, 댓글율: 0.0529, 팬덤지수: 1,729
+  판타지보이즈 (FANTASY BOYS): 44개 영상, 조회수 660,697, 거품비율 1.434
+    유형: Behind:4, Concept_Teaser:2, Cover:3, MV:2, MV_Teaser:2, Other:2, Performance:1, Variety:21, Vlog:7
+    좋아요율: 0.0771, 댓글율: 0.0079, 팬덤지수: 6,827
+  힛지스 (HITGS): 117개 영상, 조회수 31,426,605, 거품비율 0.059
+    유형: Album_Preview:1, Behind:27, Concept_Teaser:7, Cover:2, Dance_Practice:6, MV:8, MV_Teaser:5, Other:20, Performance:10, Variety:20, Vlog:11
+    좋아요율: 0.0912, 댓글율: 0.0096, 팬덤지수: 5,619
+  버비 (Burvey): 60개 영상, 조회수 6,272,409, 거품비율 0.607
+    유형: Album_Preview:2, Behind:20, Concept_Teaser:2, Cover:1, Dance_Practice:1, Live_Concert:1, MV:3, MV_Teaser:6, Other:10, Performance:5, Variety:5, Vlog:4
+    좋아요율: 0.0597, 댓글율: 0.0071, 팬덤지수: 2,295
+  븨븨에스 (VVS): 65개 영상, 조회수 8,141,293, 거품비율 0.364
+    유형: Behind:1, Concept_Teaser:15, Dance_Practice:7, Interview:6, MV:12, MV_Teaser:5, Performance:5, Variety:9, Vlog:5
+    좋아요율: 0.0820, 댓글율: 0.0049, 팬덤지수: 33,551
+  다이몬 (DXMON): 6개 영상, 조회수 12,860, 거품비율 0.000
+    유형: Behind:3, Cover:1, Other:1, Variety:1
+    좋아요율: 0.1530, 댓글율: 0.0208, 팬덤지수: 2,425
+  에이머스 (AIMERS): 28개 영상, 조회수 606,942, 거품비율 0.073
+    유형: Album_Preview:1, Behind:1, Concept_Teaser:1, Cover:4, Dance_Practice:1, MV:2, MV_Teaser:2, Other:7, Performance:2, Variety:6, Vlog:1
+    좋아요율: 0.1426, 댓글율: 0.0148, 팬덤지수: 1,268
+  노매드 (NOMAD): 28개 영상, 조회수 181,958, 거품비율 0.000
+    유형: Behind:2, Cover:7, Performance:3, Variety:8, Vlog:8
+    좋아요율: 0.1417, 댓글율: 0.0147, 팬덤지수: 1,275
+  이스트샤인 (EASTSHINE): 22개 영상, 조회수 1,041,549, 거품비율 0.018
+    유형: Album_Preview:1, Behind:9, Cover:5, MV:1, MV_Teaser:1, Other:3, Performance:1, Variety:1
+    좋아요율: 0.1228, 댓글율: 0.0140, 팬덤지수: 607
+  지니어스 (Geenius): 32개 영상, 조회수 89,056, 거품비율 2.298
+    유형: Album_Preview:1, Concept_Teaser:1, Cover:6, MV:5, Other:4, Variety:8, Vlog:7
+    좋아요율: 0.1499, 댓글율: 0.0119, 팬덤지수: 2,025
+  드래곤포니 (Dragon Pony): 82개 영상, 조회수 426,850, 거품비율 9.849
+    유형: Album_Preview:1, Behind:28, Concept_Teaser:6, Cover:2, MV:7, MV_Teaser:4, Music_Show:2, Other:19, Performance:2, Variety:8, Vlog:3
+    좋아요율: 0.0919, 댓글율: 0.0086, 팬덤지수: 4,433
+  비디유 (B.D.U): 3개 영상, 조회수 11,985, 거품비율 0.000
+    유형: Cover:1, Other:2
+    좋아요율: 0.1269, 댓글율: 0.0141, 팬덤지수: 0
+  캔디샵 (Candy Shop): 68개 영상, 조회수 258,458, 거품비율 0.000
+    유형: Behind:8, Concept_Teaser:2, Dance_Practice:1, MV_Teaser:1, Other:20, Performance:1, Variety:28, Vlog:7
+    좋아요율: 0.0989, 댓글율: 0.0111, 팬덤지수: 4,261
+  유스피어 (USPEER): 80개 영상, 조회수 6,637,420, 거품비율 0.209
+    유형: Album_Preview:2, Behind:15, Concept_Teaser:3, Cover:5, Dance_Practice:3, MV:1, MV_Teaser:2, Other:5, Performance:5, Variety:31, Vlog:8
+    좋아요율: 0.0894, 댓글율: 0.0077, 팬덤지수: 10,047
+  위나 (We;Na): 51개 영상, 조회수 90,014, 거품비율 3.307
+    유형: Behind:2, Concept_Teaser:1, Cover:8, Dance_Practice:2, MV:1, Other:4, Performance:26, Variety:1, Vlog:6
+    좋아요율: 0.1142, 댓글율: 0.0120, 팬덤지수: 1,891
+  오드유스 (ODD YOUTH): 55개 영상, 조회수 509,404, 거품비율 0.000
+    유형: Behind:15, Cover:2, Dance_Practice:4, MV_Teaser:1, Other:22, Variety:6, Vlog:5
+    좋아요율: 0.0941, 댓글율: 0.0082, 팬덤지수: 6,182
+  세븐어스 (SEVENUS): 79개 영상, 조회수 723,459, 거품비율 0.307
+    유형: Album_Preview:1, Behind:17, Cover:6, MV:1, MV_Teaser:2, Other:10, Performance:2, Variety:30, Vlog:10
+    좋아요율: 0.1444, 댓글율: 0.0153, 팬덤지수: 909
+  러브원 (LOVEONE): 14개 영상, 조회수 267,123, 거품비율 0.181
+    유형: Behind:1, Cover:1, Dance_Practice:1, MV:1, MV_Teaser:1, Other:1, Performance:2, Variety:4, Vlog:2
+    좋아요율: 0.1342, 댓글율: 0.0190, 팬덤지수: 2,386
+  이오닛 (AEONIT): 48개 영상, 조회수 1,122,995, 거품비율 0.282
+    유형: Album_Preview:1, Concept_Teaser:1, Cover:4, Dance_Practice:1, MV:2, MV_Teaser:2, Other:4, Performance:8, Variety:25
+    좋아요율: 0.0000, 댓글율: 0.0047, 팬덤지수: 3,021
+  유어즈 (YUHZ): 21개 영상, 조회수 118,868, 거품비율 0.000
+    유형: Behind:6, Concept_Teaser:1, Cover:1, Other:3, Variety:5, Vlog:5
+    좋아요율: 0.1024, 댓글율: 0.0107, 팬덤지수: 4,785
+  아이몬드 (I:MOND): 5개 영상, 조회수 8,721, 거품비율 0.000
+    유형: Performance:1, Variety:3, Vlog:1
+    좋아요율: 0.1341, 댓글율: 0.0188, 팬덤지수: 1,011
+  비보이즈 (BE BOYS): 75개 영상, 조회수 531,447, 거품비율 1.235
+    유형: Album_Preview:1, Behind:18, Concept_Teaser:3, Cover:2, Dance_Practice:2, Interview:6, MV:1, MV_Teaser:1, Other:21, Performance:2, Variety:12, Vlog:6
+    좋아요율: 0.0790, 댓글율: 0.0111, 팬덤지수: 1,592
+  엠빅 (AM8IC): 55개 영상, 조회수 359,487, 거품비율 0.000
+    유형: Album_Preview:1, Behind:13, Concept_Teaser:7, Cover:1, Dance_Practice:3, Live_Concert:1, Other:3, Performance:9, Variety:12, Vlog:5
+    좋아요율: 0.1049, 댓글율: 0.0166, 팬덤지수: 1,602
+  위치스 (W!TCHX): 28개 영상, 조회수 51,271, 거품비율 0.000
+    유형: Behind:3, Concept_Teaser:5, Cover:4, Dance_Practice:3, Other:5, Performance:2, Variety:5, Vlog:1
+    좋아요율: 0.1437, 댓글율: 0.0247, 팬덤지수: 983
+  데이차일드 (DayChild): 9개 영상, 조회수 18,065, 거품비율 0.000
+    유형: Concept_Teaser:1, Dance_Practice:2, Other:2, Variety:2, Vlog:2
+    좋아요율: 0.0804, 댓글율: 0.0147, 팬덤지수: 2,342
+  트레이서 (Tracer): 2개 영상, 조회수 2,361, 거품비율 0.000
+    유형: Variety:2
+    좋아요율: 0.1048, 댓글율: 0.0148, 팬덤지수: 1,180
+  네이즈 (NAZE): 7개 영상, 조회수 22,564, 거품비율 0.000
+    유형: Concept_Teaser:7
+    좋아요율: 0.0668, 댓글율: 0.0075, 팬덤지수: 0
+  아이들 (i-dle): 212개 영상, 조회수 271,019,520, 거품비율 0.203
+    유형: Album_Preview:1, Behind:94, Concept_Teaser:9, Cover:5, Dance_Practice:4, Live_Concert:2, MV:10, MV_Teaser:17, Other:7, Performance:44, Variety:14, Vlog:5
+    좋아요율: 0.0761, 댓글율: 0.0031, 팬덤지수: 117,615
+  우주소녀 (WJSN): 33개 영상, 조회수 409,754, 거품비율 0.000
+    유형: Behind:13, Concept_Teaser:1, Cover:1, Dance_Practice:1, Live_Concert:1, Other:8, Performance:2, Variety:3, Vlog:3
+    좋아요율: 0.0969, 댓글율: 0.0076, 팬덤지수: 10,406
+  퍼플키스 (PURPLE KISS): 61개 영상, 조회수 2,791,938, 거품비율 0.234
+    유형: Album_Preview:4, Behind:8, Concept_Teaser:8, Cover:5, Dance_Practice:1, MV:3, MV_Teaser:4, Other:2, Performance:4, Variety:20, Vlog:2
+    좋아요율: 0.1373, 댓글율: 0.0121, 팬덤지수: 5,874
+  수피아 (SPIA): 8개 영상, 조회수 4,074, 거품비율 0.000
+    유형: Cover:2, Other:3, Variety:2, Vlog:1
+    좋아요율: 0.0439, 댓글율: 0.0037, 팬덤지수: 967
+  아이리제 (IRISÉ): 82개 영상, 조회수 5,073,830, 거품비율 1.554
+    유형: Album_Preview:1, Behind:3, Concept_Teaser:2, Cover:2, Live_Concert:1, MV:6, Other:10, Performance:9, Variety:48
+    좋아요율: 0.0530, 댓글율: 0.0029, 팬덤지수: 12,788
+  트레저 (TREASURE): 51개 영상, 조회수 279,685,182, 거품비율 1.603
+    유형: Album_Preview:2, Behind:14, Concept_Teaser:1, Dance_Practice:3, MV:3, MV_Teaser:1, Other:9, Performance:4, Variety:10, Vlog:4
+    좋아요율: 0.0996, 댓글율: 0.0044, 팬덤지수: 1,494,137
+  펜타곤 (PENTAGON): 16개 영상, 조회수 333,000, 거품비율 0.000
+    유형: Behind:4, Cover:1, Dance_Practice:1, Variety:9, Vlog:1
+    좋아요율: 0.0960, 댓글율: 0.0081, 팬덤지수: 20,374
+  비에이이일칠삼 (BAE173): 62개 영상, 조회수 714,978, 거품비율 0.523
+    유형: Behind:14, Concept_Teaser:6, Cover:1, Dance_Practice:4, MV:3, MV_Teaser:2, Other:12, Performance:2, Variety:10, Vlog:8
+    좋아요율: 0.1190, 댓글율: 0.0095, 팬덤지수: 3,897
+  더킹덤 (The KingDom): 23개 영상, 조회수 149,042, 거품비율 0.000
+    유형: Behind:7, Cover:2, MV_Teaser:1, Other:6, Performance:2, Variety:1, Vlog:4
+    좋아요율: 0.1748, 댓글율: 0.0253, 팬덤지수: 1,769

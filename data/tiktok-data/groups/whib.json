@@ -574,9 +574,10 @@
     "posts_last_30d": 41,
     "avg_views": 2557,
     "avg_likes": 6898,
-    "avg_comments": 64,
-    "avg_shares": 130,
+    "avg_comments": 65,
+    "avg_shares": 131,
     "avg_saves": 308,
-    "engagement_rate": 289.45
+    "engagement_rate": 7.3,
+    "er_formula": "likes_based"
   }
 }

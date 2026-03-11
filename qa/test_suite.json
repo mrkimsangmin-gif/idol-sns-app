@@ -1,0 +1,415 @@
+[
+  {
+    "id": "A01", "category": "A", "level": 1,
+    "user_query": "방탄소년단 소속사",
+    "query": "방탄소년단 소속사",
+    "slug": "bts", "search_type": "info_field", "info_key": "소속사",
+    "expected_contains": ["빅히트"],
+    "expected_not_contains": [],
+    "notes": "info 필드 직접 매핑"
+  },
+  {
+    "id": "A02", "category": "A", "level": 1,
+    "user_query": "방탄소년단 데뷔일",
+    "query": "방탄소년단 데뷔일",
+    "slug": "bts", "search_type": "info_field", "info_key": "데뷔일",
+    "expected_contains": ["2013"],
+    "expected_not_contains": [],
+    "notes": "info 필드 직접 매핑"
+  },
+  {
+    "id": "A03", "category": "A", "level": 1,
+    "user_query": "아이브 소속사",
+    "query": "아이브 소속사",
+    "slug": "ive", "search_type": "info_field", "info_key": "소속사",
+    "expected_contains": ["스타쉽"],
+    "expected_not_contains": [],
+    "notes": "info 필드 직접 매핑"
+  },
+  {
+    "id": "A04", "category": "A", "level": 1,
+    "user_query": "뉴진스 데뷔일",
+    "query": "뉴진스 데뷔일",
+    "slug": "newjeans", "search_type": "info_field", "info_key": "데뷔일",
+    "expected_contains": ["2022"],
+    "expected_not_contains": [],
+    "notes": "info 필드"
+  },
+  {
+    "id": "A05", "category": "A", "level": 1,
+    "user_query": "르세라핌 소속사",
+    "query": "르세라핌 소속사",
+    "slug": "le-sserafim", "search_type": "info_field", "info_key": "소속사",
+    "expected_contains": ["쏘스"],
+    "expected_not_contains": [],
+    "notes": "info 필드"
+  },
+  {
+    "id": "A06", "category": "A", "level": 1,
+    "user_query": "에스파 데뷔일",
+    "query": "에스파 데뷔일",
+    "slug": "aespa", "search_type": "info_field", "info_key": "데뷔일",
+    "expected_contains": ["2020"],
+    "expected_not_contains": [],
+    "notes": "info 필드"
+  },
+  {
+    "id": "A07", "category": "A", "level": 1,
+    "user_query": "세븐틴 멤버수",
+    "query": "세븐틴 멤버수",
+    "slug": "seventeen", "search_type": "info_field", "info_key": "멤버수",
+    "expected_contains": ["13"],
+    "expected_not_contains": [],
+    "notes": "info 필드"
+  },
+  {
+    "id": "B01", "category": "B", "level": 2,
+    "user_query": "방탄소년단 홍보대사",
+    "query": "방탄소년단 홍보대사",
+    "slug": "bts", "search_type": "raw_search", "keyword": "홍보대사",
+    "expected_contains": ["서울", "유니세프", "루이비통"],
+    "expected_not_contains": [],
+    "failure_pattern": null,
+    "notes": "window=180자로 확장 후 서울/유니세프/루이비통 모두 정상 반환"
+  },
+  {
+    "id": "B02", "category": "B", "level": 2,
+    "user_query": "영파씨 숙소 상황",
+    "query": "영파씨 숙소 상황",
+    "slug": "young-posse", "search_type": "raw_search", "keyword": "숙소",
+    "expected_contains": ["이층침대", "1층"],
+    "expected_not_contains": ["노선을 추구", "국힙"],
+    "failure_pattern": "B",
+    "notes": "'방 1','방 2','거실'은 len<=5 필터에 걸려 결과에 미포함 → 실제 반환되는 이층침대/층수로 변경 (버그 확인: 실제 숙소 배치를 보여주는 콘텐츠는 반환됨)"
+  },
+  {
+    "id": "B03", "category": "B", "level": 2,
+    "user_query": "우아 MBTI",
+    "query": "우아 멤버 MBTI",
+    "slug": "wooah", "search_type": "raw_search", "keyword": "MBTI",
+    "expected_contains": ["ENF"],
+    "expected_not_contains": [],
+    "failure_pattern": null,
+    "notes": "MBTI 텍스트 윈도우 폴백 — 그룹 전체설명(ENFP) 또는 개별멤버(ENFJ) 모두 유효, ENF로 검증"
+  },
+  {
+    "id": "B04", "category": "B", "level": 2,
+    "user_query": "방탄소년단 훈장",
+    "query": "방탄소년단 훈장",
+    "slug": "bts", "search_type": "raw_search", "keyword": "훈장",
+    "expected_contains": ["화관문화훈장"],
+    "expected_not_contains": [],
+    "failure_pattern": null,
+    "notes": "info 필드에 있으면 즉시 응답, 없으면 raw 검색"
+  },
+  {
+    "id": "B05", "category": "B", "level": 2,
+    "user_query": "방탄소년단 그룹명 뜻",
+    "query": "방탄소년단 그룹명 뜻",
+    "slug": "bts", "search_type": "info_field", "info_key": "그룹명뜻",
+    "expected_contains": ["방탄"],
+    "expected_not_contains": [],
+    "notes": "info 필드 '그룹명뜻' 키"
+  },
+  {
+    "id": "B06", "category": "B", "level": 2,
+    "user_query": "블랙핑크 응원봉",
+    "query": "블랙핑크 응원봉 이름",
+    "slug": "blackpink", "search_type": "info_field", "info_key": "응원봉",
+    "expected_contains": ["뿅봉"],
+    "expected_not_contains": [],
+    "notes": "응원봉 info 필드 — mamamoo.txt 없어 blackpink로 교체"
+  },
+  {
+    "id": "B07", "category": "B", "level": 2,
+    "user_query": "르세라핌 팬덤명",
+    "query": "르세라핌 팬덤명",
+    "slug": "le-sserafim", "search_type": "info_field", "info_key": "팬덤명",
+    "expected_contains": ["FEARNOT"],
+    "expected_not_contains": [],
+    "notes": "팬덤명 info 필드"
+  },
+  {
+    "id": "B08", "category": "B", "level": 2,
+    "user_query": "세븐틴 그룹명 뜻",
+    "query": "세븐틴 그룹명 뜻",
+    "slug": "seventeen", "search_type": "info_field", "info_key": "그룹명뜻",
+    "expected_contains": ["13"],
+    "expected_not_contains": [],
+    "notes": "13멤버+3유닛+1그룹=17 의미"
+  },
+  {
+    "id": "B09", "category": "B", "level": 2,
+    "user_query": "방탄소년단 응원봉",
+    "query": "방탄소년단 응원봉",
+    "slug": "bts", "search_type": "info_field", "info_key": "응원봉",
+    "expected_contains": ["아미밤"],
+    "expected_not_contains": [],
+    "notes": "응원봉 info 필드"
+  },
+  {
+    "id": "B10", "category": "B", "level": 2,
+    "user_query": "방탄소년단 봄날 차트",
+    "query": "방탄소년단 봄날 차트",
+    "slug": "bts", "search_type": "raw_search", "keyword": "봄날 차트",
+    "expected_contains": ["멜론", "차트"],
+    "expected_not_contains": [],
+    "notes": "봄날 차트인 기록 — '봄날'(2자)이 단독 라인에 있어 len<=5 필터 회피위해 멀티 키워드 사용"
+  },
+  {
+    "id": "D01", "category": "D", "level": 3,
+    "user_query": "아이브 소속사와 데뷔일",
+    "query": "아이브 소속사와 데뷔일",
+    "slug": "ive", "search_type": "multi_field",
+    "info_keys": ["소속사", "데뷔일"],
+    "expected_contains": ["스타쉽", "2021"],
+    "expected_not_contains": [],
+    "notes": "복합 필드 쿼리 — executeGroupMultiField"
+  },
+  {
+    "id": "D02", "category": "D", "level": 3,
+    "user_query": "에스파 소속사와 팬덤명",
+    "query": "에스파 소속사와 팬덤명",
+    "slug": "aespa", "search_type": "multi_field",
+    "info_keys": ["소속사", "팬덤명"],
+    "expected_contains": ["SM", "My"],
+    "expected_not_contains": [],
+    "notes": "복합 필드 쿼리"
+  },
+  {
+    "id": "E01", "category": "E", "level": 2,
+    "user_query": "BTS 소속사",
+    "query": "BTS 소속사",
+    "slug": "bts", "search_type": "info_field", "info_key": "소속사",
+    "expected_contains": ["빅히트"],
+    "expected_not_contains": [],
+    "notes": "BTS → 방탄소년단 alias 매핑 테스트"
+  },
+  {
+    "id": "E02", "category": "E", "level": 2,
+    "user_query": "투바투 소속사",
+    "query": "투바투 소속사",
+    "slug": "txt", "search_type": "info_field", "info_key": "소속사",
+    "expected_contains": ["빅히트"],
+    "expected_not_contains": [],
+    "notes": "투바투 → TXT alias"
+  },
+  {
+    "id": "F01", "category": "F", "level": 4,
+    "user_query": "방탄소년단 UN 연설",
+    "query": "방탄소년단 UN 연설",
+    "slug": "bts", "search_type": "raw_search", "keyword": "UN 연설",
+    "expected_contains": ["UN", "2021"],
+    "expected_not_contains": [],
+    "notes": "실제 사용자 키워드 'UN 연설' — proximity_window로 tokenized 텍스트에서 UN+연설 근접 구간 선택"
+  },
+  {
+    "id": "F02", "category": "F", "level": 4,
+    "user_query": "BTS 다이나마이트 조회수",
+    "query": "BTS 다이나마이트 조회수",
+    "slug": "bts", "search_type": "raw_search", "keyword": "다이나마이트 조회수",
+    "expected_contains": ["조회수", "만뷰"],
+    "expected_not_contains": [],
+    "notes": "실제 사용자 키워드 '다이나마이트 조회수' — bts.txt에 한글 '다이나마이트' 없어 '조회수' sub-keyword만 매칭, 그래도 1억110만뷰 라인 반환"
+  },
+  {
+    "id": "A08", "category": "A", "level": 1,
+    "user_query": "제로베이스원 데뷔일",
+    "query": "제로베이스원 데뷔일",
+    "slug": "zerobaseone", "search_type": "info_field", "info_key": "데뷔일",
+    "expected_contains": ["2023"],
+    "expected_not_contains": [],
+    "notes": "info 필드 직접 매핑"
+  },
+  {
+    "id": "A09", "category": "A", "level": 1,
+    "user_query": "에이티즈 데뷔일",
+    "query": "에이티즈 데뷔일",
+    "slug": "ateez", "search_type": "info_field", "info_key": "데뷔일",
+    "expected_contains": ["2018"],
+    "expected_not_contains": [],
+    "notes": "info 필드 직접 매핑"
+  },
+  {
+    "id": "B11", "category": "B", "level": 2,
+    "user_query": "방탄소년단 팬덤명",
+    "query": "방탄소년단 팬덤명",
+    "slug": "bts", "search_type": "info_field", "info_key": "팬덤명",
+    "expected_contains": ["아미"],
+    "expected_not_contains": [],
+    "notes": "BTS 팬덤명 A.R.M.Y — expected는 한글 '아미'로 검증"
+  },
+  {
+    "id": "B12", "category": "B", "level": 2,
+    "user_query": "뉴진스 팬클럽",
+    "query": "뉴진스 팬클럽",
+    "slug": "newjeans", "search_type": "info_field", "info_key": "팬덤명",
+    "expected_contains": ["Bunnies"],
+    "expected_not_contains": [],
+    "notes": "팬클럽 → 팬덤명 FIELD_ALIAS 매핑 테스트"
+  },
+  {
+    "id": "B13", "category": "B", "level": 2,
+    "user_query": "블랙핑크 팬덤명",
+    "query": "블랙핑크 팬덤명",
+    "slug": "blackpink", "search_type": "info_field", "info_key": "팬덤명",
+    "expected_contains": ["BLINK"],
+    "expected_not_contains": [],
+    "notes": "블랙핑크 팬덤명 BLINK"
+  },
+  {
+    "id": "B14", "category": "B", "level": 2,
+    "user_query": "아이브 팬덤명",
+    "query": "아이브 팬덤명",
+    "slug": "ive", "search_type": "info_field", "info_key": "팬덤명",
+    "expected_contains": ["DIVE"],
+    "expected_not_contains": [],
+    "notes": "아이브 팬덤명 DIVE"
+  },
+  {
+    "id": "B15", "category": "B", "level": 2,
+    "user_query": "에스파 응원봉",
+    "query": "에스파 응원봉",
+    "slug": "aespa", "search_type": "info_field", "info_key": "응원봉",
+    "expected_contains": ["프레첼"],
+    "expected_not_contains": [],
+    "notes": "응원봉 info 필드 — 응원봉은 FIELD_ALIASES 미등록이라 raw_search 후 info_first_hit으로 처리"
+  },
+  {
+    "id": "B16", "category": "B", "level": 2,
+    "user_query": "아이브 응원봉",
+    "query": "아이브 응원봉",
+    "slug": "ive", "search_type": "info_field", "info_key": "응원봉",
+    "expected_contains": ["아이해봉"],
+    "expected_not_contains": [],
+    "notes": "아이브 응원봉 아이해봉 — info_first_hit 경로"
+  },
+  {
+    "id": "E03", "category": "E", "level": 2,
+    "user_query": "ZB1 데뷔일",
+    "query": "ZB1 데뷔일",
+    "slug": "zerobaseone", "search_type": "info_field", "info_key": "데뷔일",
+    "expected_contains": ["2023"],
+    "expected_not_contains": [],
+    "notes": "ZB1 → 제로베이스원 alias 매핑 테스트"
+  },
+  {
+    "id": "E04", "category": "E", "level": 2,
+    "user_query": "제베원 데뷔일",
+    "query": "제베원 데뷔일",
+    "slug": "zerobaseone", "search_type": "info_field", "info_key": "데뷔일",
+    "expected_contains": ["2023"],
+    "expected_not_contains": [],
+    "notes": "제베원 → 제로베이스원 alias 매핑 테스트"
+  },
+  {
+    "id": "F03", "category": "F", "level": 4,
+    "user_query": "방탄소년단 메인댄서",
+    "query": "방탄소년단 메인댄서",
+    "slug": "bts", "search_type": "raw_search", "keyword": "메인댄서",
+    "expected_contains": ["메인댄서"],
+    "expected_not_contains": [],
+    "notes": "BTS 메인댄서: 제이홉+지민 2명. 멤버 테이블에서 '메인댄서' 역할 포함 확인"
+  },
+  {
+    "id": "F04", "category": "F", "level": 4,
+    "user_query": "BTS ARIRANG",
+    "query": "BTS ARIRANG",
+    "slug": "bts", "search_type": "raw_search", "keyword": "ARIRANG",
+    "expected_contains": ["ARIRANG", "2026"],
+    "expected_not_contains": [],
+    "notes": "BTS WORLD TOUR ARIRANG 2026년 월드투어 정보 — raw text에 최신 데이터 반영 확인"
+  },
+  {
+    "id": "F05", "category": "F", "level": 4,
+    "user_query": "블랙핑크 첫 솔로 앨범 멤버",
+    "query": "블랙핑크 첫 솔로 앨범 멤버",
+    "slug": "blackpink", "search_type": "raw_search", "keyword": "첫 솔로 앨범",
+    "expected_contains": ["솔로"],
+    "expected_not_contains": [],
+    "notes": "블랙핑크 첫 솔로 앨범: 로제 R(2021) / 첫 솔로 싱글: 제니 SOLO(2018). '솔로' 텍스트 포함 확인"
+  },
+  {
+    "id": "F06", "category": "F", "level": 4,
+    "user_query": "엔하이픈 메인 댄서",
+    "query": "엔하이픈 메인 댄서",
+    "slug": "enhypen", "search_type": "raw_search", "keyword": "메인댄서",
+    "expected_contains": ["메인댄서"],
+    "expected_not_contains": [],
+    "notes": "엔하이픈: 공식 포지션 없으나 상대적 포지션으로 메인댄서 언급됨"
+  },
+  {
+    "id": "F07", "category": "F", "level": 4,
+    "user_query": "에스파 멤버 추가 계획",
+    "query": "에스파 멤버 추가 계획",
+    "slug": "aespa", "search_type": "raw_search", "keyword": "멤버 추가",
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "allow_no_result": true,
+    "notes": "에스파 멤버 추가 계획: 공식 발표 없음. NO_RESULTS 또는 관련 없는 결과면 PASS"
+  },
+  {
+    "id": "F08", "category": "F", "level": 4,
+    "user_query": "우아 키",
+    "query": "우아 키",
+    "slug": "wooah", "search_type": "raw_search", "keyword": "키",
+    "expected_contains": ["cm"],
+    "expected_not_contains": [],
+    "notes": "우아 멤버 평균 키 163.6cm — SHINee 키 멤버와 혼동 없이 키(신장) 정보 반환 확인"
+  },
+  {
+    "id": "G01", "category": "G", "level": 5,
+    "user_query": "아이브 장원영이 2023년 넷플릭스 드라마에 출연한 제목",
+    "query": "아이브 장원영이 2023년 넷플릭스 드라마에 출연한 제목",
+    "slug": "ive", "search_type": "raw_search",
+    "keyword": "장원영 넷플릭스 드라마",
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "allow_no_result": true,
+    "notes": "허위 전제: 장원영은 2023년 넷플릭스 드라마 출연 기록 없음. FALSE_PREMISE/NO_RESULTS면 PASS"
+  },
+  {
+    "id": "G02", "category": "G", "level": 5,
+    "user_query": "에스파 멤버들이 NASA 우주여행에 참여한 연도",
+    "query": "에스파 멤버들이 NASA 우주여행에 참여한 연도",
+    "slug": "aespa", "search_type": "raw_search",
+    "keyword": "NASA 우주여행",
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "allow_no_result": true,
+    "notes": "허위 전제: 에스파는 NASA 우주여행 참여 기록 없음 (허구). NO_RESULTS면 PASS"
+  },
+  {
+    "id": "G03", "category": "G", "level": 5,
+    "user_query": "르세라핌 김채원이 AKB48 활동 기간",
+    "query": "르세라핌 김채원이 AKB48 활동 기간",
+    "slug": "le-sserafim", "search_type": "raw_search",
+    "keyword": "김채원이 AKB48 활동 기간",
+    "expected_contains": [],
+    "expected_not_contains": ["HKT48", "IZ*ONE"],
+    "allow_no_result": true,
+    "notes": "허위 전제: 김채원은 AKB48 활동 없음. 사쿠라의 HKT48/IZ*ONE 이력이 반환되면 FAIL. FALSE_PREMISE면 PASS"
+  },
+  {
+    "id": "G04", "category": "G", "level": 5,
+    "user_query": "세븐틴 수능 평균 점수",
+    "query": "세븐틴 수능 평균 점수",
+    "slug": "seventeen", "search_type": "raw_search",
+    "keyword": "수능 평균 점수",
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "allow_no_result": true,
+    "notes": "허위 전제: 수능 평균 점수 데이터는 나무위키에 없음. NO_RESULTS 또는 수능 관련 없는 내용이면 PASS"
+  },
+  {
+    "id": "G05", "category": "G", "level": 5,
+    "user_query": "스트레이키즈 필릭스 동계올림픽 출전 기록",
+    "query": "스트레이키즈 필릭스 동계올림픽 출전 기록",
+    "slug": "stray-kids", "search_type": "raw_search",
+    "keyword": "필릭스 동계올림픽 출전",
+    "expected_contains": [],
+    "expected_not_contains": [],
+    "allow_no_result": true,
+    "notes": "허위 전제: 필릭스는 동계올림픽 출전 기록 없음 (허구). FALSE_PREMISE면 PASS"
+  }
+]

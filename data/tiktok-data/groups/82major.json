@@ -94,10 +94,11 @@
     "total_posts_crawled": 6,
     "posts_last_30d": 6,
     "avg_views": 16175,
-    "avg_likes": 5141,
+    "avg_likes": 5142,
     "avg_comments": 68,
-    "avg_shares": 141,
-    "avg_saves": 404,
-    "engagement_rate": 35.59
+    "avg_shares": 142,
+    "avg_saves": 405,
+    "engagement_rate": 11.96,
+    "er_formula": "likes_based"
   }
 }

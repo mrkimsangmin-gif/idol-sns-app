@@ -3,17 +3,40 @@
   "name_en": "TWICE",
   "slug": "twice",
   "tiktok_url": "https://www.tiktok.com/@twice_tiktok_official",
-  "crawled_at": "2026-03-08T13:16:46.033037",
+  "crawled_at": "2026-03-09T20:33:49.721216",
   "profile": {
     "display_name": "TWICE",
     "username": "@twice_tiktok_official",
     "verified": true,
     "category": "아티스트",
-    "followers": 29605000,
+    "followers": 29600000,
     "following": 0,
-    "total_likes": 1080000000,
+    "total_likes": 1100000000,
     "bio": "One in a Million! Hello We are TWICE&#128150;&#10;Let’s TikTok with TWICE!"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 2700000,
+      "likes": 537100,
+      "comments": 7439,
+      "shares": 22500,
+      "saves": 54300,
+      "posted_at": "",
+      "caption": "CHAEYOUNG “SHOOT (Firecracker)” M/V&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 2700000,
+    "avg_likes": 537100,
+    "avg_comments": 7439,
+    "avg_shares": 22500,
+    "avg_saves": 54300,
+    "engagement_rate": 15.68,
+    "er_formula": "likes_based"
+  }
 }

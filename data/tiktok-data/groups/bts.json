@@ -3,17 +3,40 @@
   "name_en": "BTS",
   "slug": "bts",
   "tiktok_url": "https://www.tiktok.com/@bts_official_bighit",
-  "crawled_at": "2026-03-08T13:09:15.751385",
+  "crawled_at": "2026-03-09T20:27:18.273995",
   "profile": {
     "display_name": "BTS",
     "username": "@bts_official_bighit",
     "verified": true,
     "category": "아티스트",
-    "followers": 73949000,
+    "followers": 74000000,
     "following": 2,
     "total_likes": 1700000000,
     "bio": "BTS 정규 5집 'ARIRANG'&#10;2026.03.20. 1PM KST | 0AM ET"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 14100000,
+      "likes": 3500000,
+      "comments": 38600,
+      "shares": 61500,
+      "saves": 219300,
+      "posted_at": "2026-03-05",
+      "caption": "‘SPAGHETTI (feat. j-hope of BTS)’ MV Shoot Sketch…자세히",
+      "hashtags": [],
+      "music": "LE SSERAFIM &amp; 제이홉의 SPAGHETTI (feat. j-hope of BTS)",
+      "category": "MV"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 14100000,
+    "avg_likes": 3500000,
+    "avg_comments": 38600,
+    "avg_shares": 61500,
+    "avg_saves": 219300,
+    "engagement_rate": 9.13,
+    "er_formula": "likes_based"
+  }
 }

@@ -3,39 +3,180 @@
   "name_en": "SEVENTEEN",
   "slug": "seventeen",
   "tiktok_url": "https://www.tiktok.com/@seventeen17_official",
-  "crawled_at": "2026-03-08T13:14:27.306426",
+  "crawled_at": "2026-03-12T05:57:16.196391",
   "profile": {
     "display_name": "SEVENTEEN",
     "username": "@seventeen17_official",
     "verified": true,
     "category": "아티스트",
-    "followers": 17733000,
+    "followers": 17761000,
     "following": 0,
     "total_likes": 1000000000,
     "bio": "#SEVENTEEN Official TikTok"
   },
   "posts": [
     {
-      "views": 711000,
-      "likes": 271000,
-      "comments": 2406,
-      "shares": 6350,
-      "saves": 13000,
-      "posted_at": "2026-03-07",
+      "views": 255000,
+      "likes": 693000,
+      "comments": 4762,
+      "shares": 22000,
+      "saves": 33000,
+      "posted_at": "2026-03-10",
+      "caption": "NO BATIDÃO",
+      "hashtags": [],
+      "music": "ZXKAI &amp; slxughter의 NO BATIDÃO",
+      "category": "General"
+    },
+    {
+      "views": 474000,
+      "likes": 250000,
+      "comments": 3297,
+      "shares": 11000,
+      "saves": 12000,
+      "posted_at": "2026-03-10",
+      "caption": "도겸이의 진지한 리듬 게임 &#127929;",
+      "hashtags": [],
+      "music": "SEVENTEEN의 오리지널 사운드 - SEVENTEEN",
+      "category": "General"
+    },
+    {
+      "views": 473000,
+      "likes": 216000,
+      "comments": 1406,
+      "shares": 4823,
+      "saves": 12000,
+      "posted_at": "2026-03-09",
+      "caption": "과니차니 아웅다웅 &#129730;",
+      "hashtags": [],
+      "music": "Yyeon의 아웅다웅 (feat. TimeFeveR (타임피버))",
+      "category": "General"
+    },
+    {
+      "views": 622000,
+      "likes": 114000,
+      "comments": 880,
+      "shares": 1911,
+      "saves": 5432,
+      "posted_at": "2026-03-09",
+      "caption": "Singapore, Thank You! &#127480;&#127468; [NEW_]&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [],
+      "music": "세븐틴의 Rock with you",
+      "category": "General"
+    },
+    {
+      "views": 395000,
+      "likes": 390000,
+      "comments": 2809,
+      "shares": 8610,
+      "saves": 18000,
+      "posted_at": "2026-03-08",
       "caption": "미워&#128521;",
       "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 1279000,
+      "likes": 50000,
+      "comments": 494,
+      "shares": 1421,
+      "saves": 2258,
+      "posted_at": "2026-03-03",
+      "caption": "#CINEMA &#127916; with SEVENTEEN #승관&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [
+        "CINEMA",
+        "승관"
+      ],
+      "music": "WOODZ의 CINEMA",
+      "category": "General"
+    },
+    {
+      "views": 1150000,
+      "likes": 118000,
+      "comments": 693,
+      "shares": 2137,
+      "saves": 6473,
+      "posted_at": "2026-03-02",
+      "caption": "다시 만난 홍콩 &#129655;&#129653; [NEW_]&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "세븐틴의 HOT",
+      "category": "General"
+    },
+    {
+      "views": 481000,
+      "likes": 46000,
+      "comments": 267,
+      "shares": 298,
+      "saves": 1690,
+      "posted_at": "2026-02-15",
+      "caption": "파트 17 | #Blue ❄️ by #바다 #BADA&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [
+        "Blue",
+        "바다",
+        "BADA"
+      ],
+      "music": "도겸X승관의 Blue",
+      "category": "General"
+    },
+    {
+      "views": 633000,
+      "likes": 380000,
+      "comments": 1602,
+      "shares": 9496,
+      "saves": 22000,
+      "posted_at": "2026-02-14",
+      "caption": "",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 113000,
+      "likes": 146000,
+      "comments": 866,
+      "shares": 2535,
+      "saves": 8840,
+      "posted_at": "2026-02-13",
+      "caption": "당신에게 난 하나일 거예요&#127801;&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 2864000,
+      "likes": 221000,
+      "comments": 1133,
+      "shares": 5919,
+      "saves": 12000,
+      "posted_at": "2026-02-13",
+      "caption": "우리의 시작처럼 이대로&#129730;&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 848000,
+      "likes": 35000,
+      "comments": 202,
+      "shares": 377,
+      "saves": 2120,
+      "posted_at": "2026-02-12",
+      "caption": "Ordinary Notes #Bonus Book Preview&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [
+        "Bonus"
+      ],
       "music": "",
       "category": "General"
     }
   ],
   "stats": {
-    "total_posts_crawled": 1,
-    "posts_last_30d": 1,
-    "avg_views": 711000,
-    "avg_likes": 271000,
-    "avg_comments": 2406,
-    "avg_shares": 6350,
-    "avg_saves": 13000,
-    "engagement_rate": 41.18
+    "total_posts_crawled": 12,
+    "posts_last_30d": 12,
+    "avg_views": 798916,
+    "avg_likes": 221583,
+    "avg_comments": 1534,
+    "avg_shares": 5877,
+    "avg_saves": 11317,
+    "engagement_rate": 30.08
   }
 }

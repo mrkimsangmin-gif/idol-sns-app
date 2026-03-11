@@ -3,7 +3,7 @@
   "name_en": "SF9",
   "slug": "sf9",
   "tiktok_url": "https://www.tiktok.com/@sf9official",
-  "crawled_at": "2026-03-08T19:43:56.142945",
+  "crawled_at": "2026-03-09T04:35:23.613801",
   "profile": {
     "display_name": "SF9 Official",
     "username": "@sf9official",
@@ -11,17 +11,29 @@
     "category": "아티스트",
     "followers": 559000,
     "following": 1,
-    "total_likes": 7932000,
+    "total_likes": 7934000,
     "bio": ""
   },
   "posts": [
     {
-      "views": 12000,
-      "likes": 3205,
+      "views": 5861,
+      "likes": 1601,
+      "comments": 39,
+      "shares": 14,
+      "saves": 65,
+      "posted_at": "2026-03-08",
+      "caption": "",
+      "hashtags": [],
+      "music": "인성의 Mute is Off",
+      "category": "General"
+    },
+    {
+      "views": 13000,
+      "likes": 3230,
       "comments": 60,
-      "shares": 67,
-      "saves": 131,
-      "posted_at": "2026-03-02",
+      "shares": 68,
+      "saves": 133,
+      "posted_at": "2026-03-03",
       "caption": "",
       "hashtags": [],
       "music": "SF9 Official의 오리지널 사운드 - SF9 Official",
@@ -29,22 +41,10 @@
     },
     {
       "views": 15000,
-      "likes": 3205,
-      "comments": 60,
-      "shares": 67,
-      "saves": 131,
-      "posted_at": "2026-03-02",
-      "caption": "",
-      "hashtags": [],
-      "music": "SF9 Official의 오리지널 사운드 - SF9 Official",
-      "category": "General"
-    },
-    {
-      "views": 27000,
-      "likes": 4862,
+      "likes": 4878,
       "comments": 83,
       "shares": 94,
-      "saves": 252,
+      "saves": 253,
       "posted_at": "2026-02-14",
       "caption": "ㄱr질 수ㄱr 없Øㅓ도…☆&#10;…⁠자세히",
       "hashtags": [],
@@ -52,8 +52,8 @@
       "category": "General"
     },
     {
-      "views": 19000,
-      "likes": 4736,
+      "views": 28000,
+      "likes": 4750,
       "comments": 72,
       "shares": 63,
       "saves": 227,
@@ -64,56 +64,8 @@
       "category": "General"
     },
     {
-      "views": 14000,
-      "likes": 2120,
-      "comments": 33,
-      "shares": 11,
-      "saves": 82,
-      "posted_at": "2026-02-12",
-      "caption": "",
-      "hashtags": [],
-      "music": "인성의 Mute is Off",
-      "category": "General"
-    },
-    {
-      "views": 17000,
-      "likes": 2120,
-      "comments": 33,
-      "shares": 11,
-      "saves": 82,
-      "posted_at": "2026-02-12",
-      "caption": "",
-      "hashtags": [],
-      "music": "인성의 Mute is Off",
-      "category": "General"
-    },
-    {
-      "views": 0,
-      "likes": 2120,
-      "comments": 33,
-      "shares": 11,
-      "saves": 82,
-      "posted_at": "2026-02-12",
-      "caption": "",
-      "hashtags": [],
-      "music": "인성의 Mute is Off",
-      "category": "General"
-    },
-    {
-      "views": 0,
-      "likes": 2120,
-      "comments": 33,
-      "shares": 11,
-      "saves": 82,
-      "posted_at": "2026-02-12",
-      "caption": "",
-      "hashtags": [],
-      "music": "인성의 Mute is Off",
-      "category": "General"
-    },
-    {
-      "views": 0,
-      "likes": 2120,
+      "views": 19000,
+      "likes": 2125,
       "comments": 33,
       "shares": 11,
       "saves": 82,
@@ -125,13 +77,14 @@
     }
   ],
   "stats": {
-    "total_posts_crawled": 9,
-    "posts_last_30d": 9,
-    "avg_views": 11555,
-    "avg_likes": 2956,
-    "avg_comments": 48,
-    "avg_shares": 38,
-    "avg_saves": 127,
-    "engagement_rate": 27.45
+    "total_posts_crawled": 5,
+    "posts_last_30d": 5,
+    "avg_views": 16172,
+    "avg_likes": 3317,
+    "avg_comments": 57,
+    "avg_shares": 50,
+    "avg_saves": 152,
+    "engagement_rate": 7.82,
+    "er_formula": "likes_based"
   }
 }

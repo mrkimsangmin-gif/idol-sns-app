@@ -3,51 +3,116 @@
   "name_en": "BADVILLAIN",
   "slug": "badvillain",
   "tiktok_url": "https://www.tiktok.com/@BADVILLAIN_BPM",
-  "crawled_at": "2026-03-08T14:21:16.688183",
+  "crawled_at": "2026-03-09T04:33:47.672356",
   "profile": {
-    "display_name": "",
-    "username": "",
-    "verified": false,
-    "category": "",
-    "followers": 0,
+    "display_name": "BADVILLAIN",
+    "username": "@badvillain_bpm",
+    "verified": true,
+    "category": "아티스트",
+    "followers": 1016000,
     "following": 0,
-    "total_likes": 0,
-    "bio": ""
+    "total_likes": 36545000,
+    "bio": "BADVILLAIN Official TikTok"
   },
   "posts": [
     {
-      "views": 35000,
-      "likes": 9811,
-      "comments": 161,
-      "shares": 630,
-      "saves": 872,
-      "posted_at": "2026-02-26",
-      "caption": "펑키한 매력의 희진을 만나보세요⛧*̩̩͙⸝⋆&#10;…⁠자세히",
-      "hashtags": [],
+      "views": 65000,
+      "likes": 13000,
+      "comments": 105,
+      "shares": 135,
+      "saves": 730,
+      "posted_at": "2026-02-27",
+      "caption": "Strut&#128526; #BADVILLAIN #배드빌런 #EMMA #엠마 #YunSeo #윤서",
+      "hashtags": [
+        "BADVILLAIN",
+        "배드빌런",
+        "EMMA",
+        "엠마",
+        "YunSeo",
+        "윤서"
+      ],
       "music": "",
       "category": "General"
     },
     {
-      "views": 62000,
-      "likes": 13000,
-      "comments": 182,
-      "shares": 270,
-      "saves": 901,
-      "posted_at": "2026-02-18",
-      "caption": "오징어 챌린지 &#10; …⁠자세히",
-      "hashtags": [],
+      "views": 31000,
+      "likes": 5797,
+      "comments": 72,
+      "shares": 91,
+      "saves": 447,
+      "posted_at": "2026-02-24",
+      "caption": "one more &#129418;&#128568; #BADVILLAIN #배드빌런 #KELLY #켈리 #HUE #휴이",
+      "hashtags": [
+        "BADVILLAIN",
+        "배드빌런",
+        "KELLY",
+        "켈리",
+        "HUE",
+        "휴이"
+      ],
       "music": "",
-      "category": "Challenge/Dance"
+      "category": "General"
+    },
+    {
+      "views": 98000,
+      "likes": 22000,
+      "comments": 108,
+      "shares": 465,
+      "saves": 1640,
+      "posted_at": "2026-02-22",
+      "caption": "arch and look back at the &#128064;&#10;#wetotallydontknoww…⁠자세히⁠ ⁠|⁠ ⁠",
+      "hashtags": [
+        "wetotallydontknoww"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 70000,
+      "likes": 15000,
+      "comments": 95,
+      "shares": 178,
+      "saves": 825,
+      "posted_at": "2026-02-21",
+      "caption": "404&#127911;♪♫ #BADVILLAIN #배드빌런 #KELLY #켈리",
+      "hashtags": [
+        "BADVILLAIN",
+        "배드빌런",
+        "KELLY",
+        "켈리"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 10000,
+      "likes": 5414,
+      "comments": 56,
+      "shares": 97,
+      "saves": 357,
+      "posted_at": "2026-02-19",
+      "caption": "Unbothered&#128374;️ #BADVILLAIN #배드빌런 #EMMA #엠마 #YunSeo #윤서",
+      "hashtags": [
+        "BADVILLAIN",
+        "배드빌런",
+        "EMMA",
+        "엠마",
+        "YunSeo",
+        "윤서"
+      ],
+      "music": "",
+      "category": "General"
     }
   ],
   "stats": {
-    "total_posts_crawled": 2,
-    "posts_last_30d": 2,
-    "avg_views": 48500,
-    "avg_likes": 11405,
-    "avg_comments": 171,
-    "avg_shares": 450,
-    "avg_saves": 886,
-    "engagement_rate": 26.63
+    "total_posts_crawled": 5,
+    "posts_last_30d": 5,
+    "avg_views": 54800,
+    "avg_likes": 12242,
+    "avg_comments": 87,
+    "avg_shares": 193,
+    "avg_saves": 800,
+    "engagement_rate": 8.82,
+    "er_formula": "likes_based"
   }
 }

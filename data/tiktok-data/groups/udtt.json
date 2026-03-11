@@ -118,8 +118,9 @@
     "avg_views": 1320,
     "avg_likes": 341,
     "avg_comments": 10,
-    "avg_shares": 6,
-    "avg_saves": 26,
-    "engagement_rate": 29.15
+    "avg_shares": 7,
+    "avg_saves": 27,
+    "engagement_rate": 12.87,
+    "er_formula": "likes_based"
   }
 }

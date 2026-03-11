@@ -36,6 +36,7 @@
     "avg_comments": 3087,
     "avg_shares": 11000,
     "avg_saves": 9011,
-    "engagement_rate": 21.48
+    "engagement_rate": 14.9,
+    "er_formula": "likes_based"
   }
 }

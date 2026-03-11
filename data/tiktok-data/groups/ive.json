@@ -3,63 +3,641 @@
   "name_en": "IVE",
   "slug": "ive",
   "tiktok_url": "https://www.tiktok.com/@ive.official",
-  "crawled_at": "2026-03-08T13:28:55.929911",
+  "crawled_at": "2026-03-10T05:47:58.388789",
   "profile": {
     "display_name": "IVE.official",
     "username": "@ive.official",
     "verified": true,
     "category": "아티스트",
-    "followers": 11333000,
-    "following": 1,
-    "total_likes": 580000000,
-    "bio": ""
+    "followers": 11300000,
+    "following": 0,
+    "total_likes": 0,
+    "bio": "IVE OFFICIAL TIKTOK"
   },
   "posts": [
     {
-      "views": 840000,
-      "likes": 126000,
-      "comments": 2040,
-      "shares": 4719,
-      "saves": 8777,
-      "posted_at": "2026-02-23",
-      "caption": "IVE &#10;THE 2ND ALBUM …⁠자세히⁠ ⁠|⁠ ⁠",
+      "views": 875000,
+      "likes": 104000,
+      "comments": 1030,
+      "shares": 3369,
+      "saves": 6842,
+      "posted_at": "2026-03-09",
+      "caption": "어머나 &#10;…⁠자세히",
       "hashtags": [],
-      "music": "",
-      "category": "Promotion"
+      "music": "원더걸스의 Tell Me (Rap Version)",
+      "category": "General"
     },
     {
-      "views": 44000,
-      "likes": 14000,
-      "comments": 503,
-      "shares": 571,
-      "saves": 1144,
-      "posted_at": "2026-03-08",
+      "views": 391000,
+      "likes": 101000,
+      "comments": 824,
+      "shares": 2416,
+      "saves": 7585,
+      "posted_at": "2026-03-09",
+      "caption": "업-&#10;…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 419000,
+      "likes": 67000,
+      "comments": 634,
+      "shares": 1513,
+      "saves": 4720,
+      "posted_at": "2026-03-09",
+      "caption": "In   Heart &#128151;#KiiiKiii #LEESOL @KiiiKiii #IVE #아이브 #InYourHeart  원본 보기",
+      "hashtags": [
+        "KiiiKiii",
+        "LEESOL",
+        "IVE",
+        "아이브",
+        "InYourHeart"
+      ],
+      "music": "IVE (아이브)의 In Your Heart (REI Solo)",
+      "category": "General"
+    },
+    {
+      "views": 285000,
+      "likes": 160000,
+      "comments": 1676,
+      "shares": 7206,
+      "saves": 11000,
+      "posted_at": "2026-03-09",
+      "caption": "✌️✌️.&#10;…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 702000,
+      "likes": 155000,
+      "comments": 1864,
+      "shares": 3766,
+      "saves": 11000,
+      "posted_at": "2026-03-09",
+      "caption": "BANG BANG (홈트 ver.) &#10;…⁠자세히",
+      "hashtags": [],
+      "music": "IVE (아이브)의 BANG BANG",
+      "category": "General"
+    },
+    {
+      "views": 913000,
+      "likes": 134000,
+      "comments": 1741,
+      "shares": 4200,
+      "saves": 9647,
+      "posted_at": "2026-03-09",
       "caption": "별이떴으니까 날좀바라봐 &#10;…⁠자세히",
       "hashtags": [],
       "music": "",
       "category": "General"
     },
     {
-      "views": 209000,
-      "likes": 35000,
-      "comments": 547,
-      "shares": 583,
-      "saves": 2867,
+      "views": 539000,
+      "likes": 44000,
+      "comments": 647,
+      "shares": 688,
+      "saves": 3766,
+      "posted_at": "2026-03-08",
+      "caption": "'아이브의 주간' 10일차 &#129694;#IVE #아이브 #REVIVE_PLUS #BANGBA…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [
+        "IVE",
+        "아이브",
+        "REVIVE_PLUS",
+        "BANGBA"
+      ],
+      "music": "IVE (아이브)의 BANG BANG",
+      "category": "General"
+    },
+    {
+      "views": 344000,
+      "likes": 43000,
+      "comments": 474,
+      "shares": 530,
+      "saves": 3090,
+      "posted_at": "2026-03-08",
+      "caption": "한 지붕 두 꾸이&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 280000,
+      "likes": 69000,
+      "comments": 760,
+      "shares": 1222,
+      "saves": 4883,
+      "posted_at": "2026-03-08",
+      "caption": "&#128420; &#10;…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 438000,
+      "likes": 40000,
+      "comments": 553,
+      "shares": 518,
+      "saves": 2811,
+      "posted_at": "2026-03-08",
+      "caption": "원하면 #WOODZ #우즈 이뤄지리라&#128420; @WOODZ &#10;…⁠자세히",
+      "hashtags": [
+        "WOODZ",
+        "우즈"
+      ],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 309000,
+      "likes": 245000,
+      "comments": 1690,
+      "shares": 4243,
+      "saves": 15000,
       "posted_at": "2026-03-07",
-      "caption": "‘IVE'S WEEK' DAY 10 &#129694;&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
+      "caption": "팸! 뱅 꺾고 꺽꼬 꺾꼬! shout out to @승헌쓰 이꼬르 나야나세여 …⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 2048000,
+      "likes": 258000,
+      "comments": 1621,
+      "shares": 8767,
+      "saves": 20000,
+      "posted_at": "2026-03-07",
+      "caption": "바쁘다 바빠 기니사회&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "씨스타(Sistar)의 바빠 (Bad boy)",
+      "category": "General"
+    },
+    {
+      "views": 1058000,
+      "likes": 33000,
+      "comments": 422,
+      "shares": 413,
+      "saves": 2816,
+      "posted_at": "2026-03-07",
+      "caption": "'아이브의 주간' 9일차 &#127744;#IVE #아이브 #REVIVE_PLUS #BANGBA…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [
+        "IVE",
+        "아이브",
+        "REVIVE_PLUS",
+        "BANGBA"
+      ],
+      "music": "IVE (아이브)의 BANG BANG",
+      "category": "General"
+    },
+    {
+      "views": 287000,
+      "likes": 65000,
+      "comments": 634,
+      "shares": 989,
+      "saves": 5136,
+      "posted_at": "2026-03-07",
+      "caption": "밤새도록 춤을 출래 =͟͟͞͞➳❥&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 329000,
+      "likes": 29000,
+      "comments": 548,
+      "shares": 573,
+      "saves": 2728,
+      "posted_at": "2026-03-06",
+      "caption": "'아이브의 주간' 8일차 &#127897;️#IVE #아이브 #REVIVE_PLUS #BANGBA…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [
+        "IVE",
+        "아이브",
+        "REVIVE_PLUS",
+        "BANGBA"
+      ],
+      "music": "IVE (아이브)의 BANG BANG",
+      "category": "General"
+    },
+    {
+      "views": 438000,
+      "likes": 73000,
+      "comments": 758,
+      "shares": 1200,
+      "saves": 5196,
+      "posted_at": "2026-03-06",
+      "caption": "쏟아지는 Glitter&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 309000,
+      "likes": 40000,
+      "comments": 558,
+      "shares": 625,
+      "saves": 3554,
+      "posted_at": "2026-03-05",
+      "caption": "'아이브의 주간' 7일 차 &#128150;#IVE #아이브 #REVIVE_PLUS #BANGBA…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [
+        "IVE",
+        "아이브",
+        "REVIVE_PLUS",
+        "BANGBA"
+      ],
+      "music": "IVE (아이브)의 BANG BANG",
+      "category": "General"
+    },
+    {
+      "views": 2048000,
+      "likes": 25000,
+      "comments": 403,
+      "shares": 557,
+      "saves": 2593,
+      "posted_at": "2026-03-05",
+      "caption": "장바구니&#10;…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 1320000,
+      "likes": 20000,
+      "comments": 312,
+      "shares": 391,
+      "saves": 1860,
+      "posted_at": "2026-03-05",
+      "caption": "Look at me now&#128064;#IVE #아이브 #REVIVE_PLUS #BLACKH…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [
+        "IVE",
+        "아이브",
+        "REVIVE_PLUS",
+        "BLACKH"
+      ],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 281000,
+      "likes": 97000,
+      "comments": 701,
+      "shares": 2603,
+      "saves": 8644,
+      "posted_at": "2026-03-05",
+      "caption": "#LE_SSERAFIM #HONGEUNCHAE 에게 눈 떼지마 시선 &#129482;⚡️(Sped Up ver.) @LE…⁠자세히",
+      "hashtags": [
+        "LE_SSERAFIM",
+        "HONGEUNCHAE"
+      ],
+      "music": "IVE (아이브)의 Super ICY (LEESEO Solo)",
+      "category": "General"
+    },
+    {
+      "views": 354000,
+      "likes": 232000,
+      "comments": 1141,
+      "shares": 4479,
+      "saves": 16000,
+      "posted_at": "2026-03-05",
+      "caption": "원하면 #LE_SSERAFIM #HONGEUNCHAE 이뤄지리라&#128420; @LE SSERAFIM …⁠자세히",
+      "hashtags": [
+        "LE_SSERAFIM",
+        "HONGEUNCHAE"
+      ],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 295000,
+      "likes": 28000,
+      "comments": 476,
+      "shares": 493,
+      "saves": 2778,
+      "posted_at": "2026-03-04",
+      "caption": "'아이브의 주간' 6일차 &#128159;#IVE #아이브 #REVIVE_PLUS #BLACKH…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [
+        "IVE",
+        "아이브",
+        "REVIVE_PLUS",
+        "BLACKH"
+      ],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 542000,
+      "likes": 50000,
+      "comments": 518,
+      "shares": 827,
+      "saves": 4384,
+      "posted_at": "2026-03-04",
+      "caption": "&#120365;&#120368;&#120375;&#120358; &#119897;&#119900;&#119907;&#119890; &#120001;ℴ&#120011;ℯ &#128158;&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 404000,
+      "likes": 48000,
+      "comments": 492,
+      "shares": 659,
+      "saves": 3444,
+      "posted_at": "2026-03-04",
+      "caption": "원하면 #IDID #BAEKJUNHYUK 이뤄지리라&#128420; @IDID …⁠자세히",
+      "hashtags": [
+        "IDID",
+        "BAEKJUNHYUK"
+      ],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 229000,
+      "likes": 179000,
+      "comments": 1163,
+      "shares": 2634,
+      "saves": 12000,
+      "posted_at": "2026-03-04",
+      "caption": "끝없는 &#120017;&#120016;&#120029;&#120022;&#120017;&#120016;&#120029;&#120022; ｡&#92601;°‧⭑&#10;…⁠자세히",
       "hashtags": [],
       "music": "IVE (아이브)의 BANG BANG",
+      "category": "General"
+    },
+    {
+      "views": 209000,
+      "likes": 60000,
+      "comments": 587,
+      "shares": 875,
+      "saves": 4606,
+      "posted_at": "2026-03-04",
+      "caption": "&#120131;&#120160;&#120160;&#120156; &#120146;&#120165; &#120158;&#120150; &#120159;&#120160;&#120168; &#128420;&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 456000,
+      "likes": 137000,
+      "comments": 771,
+      "shares": 3103,
+      "saves": 8451,
+      "posted_at": "2026-03-04",
+      "caption": "원하면 #Hearts2Hearts #IAN 이뤄지리라&#128420; @Hearts2Hearts …⁠자세히",
+      "hashtags": [
+        "Hearts2Hearts",
+        "IAN"
+      ],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 349000,
+      "likes": 238000,
+      "comments": 1343,
+      "shares": 19000,
+      "saves": 20000,
+      "posted_at": "2026-03-03",
+      "caption": "광산 및 광산&#10;…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 1088000,
+      "likes": 89000,
+      "comments": 761,
+      "shares": 1539,
+      "saves": 6391,
+      "posted_at": "2026-03-03",
+      "caption": "끝내 현실이 돼 ★༉‧₊˚✧&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 370000,
+      "likes": 77000,
+      "comments": 574,
+      "shares": 1080,
+      "saves": 5047,
+      "posted_at": "2026-03-03",
+      "caption": "원하면 #andTEAM #EJ 이뤄지리라&#128420; @&amp;TEAM &#10;…⁠자세히",
+      "hashtags": [
+        "andTEAM",
+        "EJ"
+      ],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 731000,
+      "likes": 189000,
+      "comments": 1374,
+      "shares": 6337,
+      "saves": 13000,
+      "posted_at": "2026-03-03",
+      "caption": "#Hearts2Hearts #IAN 에게 눈 떼지마 시선 &#129482;⚡️(Sped Up ver.) @Hearts2Hearts …⁠자세히",
+      "hashtags": [
+        "Hearts2Hearts",
+        "IAN"
+      ],
+      "music": "IVE (아이브)의 Super ICY (LEESEO Solo)",
+      "category": "General"
+    },
+    {
+      "views": 1139000,
+      "likes": 237000,
+      "comments": 982,
+      "shares": 6508,
+      "saves": 18000,
+      "posted_at": "2026-03-03",
+      "caption": "접힌 .•✰.*•.&#10;…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 523000,
+      "likes": 151000,
+      "comments": 1116,
+      "shares": 3792,
+      "saves": 12000,
+      "posted_at": "",
+      "caption": "(11••1)✊&#128400;️&#10;…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 439000,
+      "likes": 41000,
+      "comments": 1575,
+      "shares": 1386,
+      "saves": 4648,
+      "posted_at": "",
+      "caption": "BANG BANG (CUTE ʕ｡•ﻌ•｡ʔ ver.) with#이진이 @yoo_may #IVE #아이브 #I…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [
+        "이진이",
+        "IVE",
+        "아이브",
+        "I"
+      ],
+      "music": "IVE (아이브)의 BANG BANG",
+      "category": "Variety"
+    },
+    {
+      "views": 870000,
+      "likes": 187000,
+      "comments": 1332,
+      "shares": 4862,
+      "saves": 14000,
+      "posted_at": "",
+      "caption": "In Your Heart (Sped Up ver.) &#128147;=з =з#IVE #아이브 #REVIVE_PLUS #In…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [
+        "IVE",
+        "아이브",
+        "REVIVE_PLUS",
+        "In"
+      ],
+      "music": "IVE (아이브)의 In Your Heart (REI Solo)",
+      "category": "General"
+    },
+    {
+      "views": 1506000,
+      "likes": 280000,
+      "comments": 1385,
+      "shares": 3921,
+      "saves": 15000,
+      "posted_at": "",
+      "caption": "원하면 #KiiiKiii #HAUM 이뤄지리라&#128420; @KiiiKiii &#10;…⁠자세히",
+      "hashtags": [
+        "KiiiKiii",
+        "HAUM"
+      ],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 1040000,
+      "likes": 120000,
+      "comments": 1148,
+      "shares": 1867,
+      "saves": 7720,
+      "posted_at": "",
+      "caption": "가을이 일찍 오네&#128420;&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "IVE (아이브)의 Odd (GAEUL Solo)",
+      "category": "General"
+    },
+    {
+      "views": 404000,
+      "likes": 143000,
+      "comments": 1335,
+      "shares": 4565,
+      "saves": 11000,
+      "posted_at": "",
+      "caption": "&#128420;ʜᴏʟᴇ&#10;…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 934000,
+      "likes": 41000,
+      "comments": 499,
+      "shares": 528,
+      "saves": 3343,
+      "posted_at": "",
+      "caption": "원하면 #GRANADA 이뤄지리라&#128420; @그라나다 &#10;…⁠자세히",
+      "hashtags": [
+        "GRANADA"
+      ],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 818000,
+      "likes": 35000,
+      "comments": 632,
+      "shares": 667,
+      "saves": 3414,
+      "posted_at": "",
+      "caption": "'아이브의 주간' 5일차 &#129294;#IVE #아이브 #REVIVE_PLUS #BLACKH…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [
+        "IVE",
+        "아이브",
+        "REVIVE_PLUS",
+        "BLACKH"
+      ],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 304000,
+      "likes": 440000,
+      "comments": 2227,
+      "shares": 12000,
+      "saves": 26000,
+      "posted_at": "",
+      "caption": "내 주머니 속에 ( ｰ ֊ｰ )✧&#129375;&#128151;#IVE #아이브 #REI #레이 #REVIVE_PLUS  원본 보기",
+      "hashtags": [
+        "IVE",
+        "아이브",
+        "REI",
+        "레이",
+        "REVIVE_PLUS"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 376000,
+      "likes": 127000,
+      "comments": 941,
+      "shares": 1916,
+      "saves": 8001,
+      "posted_at": "",
+      "caption": "마침내 우리답게 ✨&#10;…⁠자세히",
+      "hashtags": [],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "General"
+    },
+    {
+      "views": 1040000,
+      "likes": 38000,
+      "comments": 424,
+      "shares": 613,
+      "saves": 3397,
+      "posted_at": "",
+      "caption": "&#127916; ＢＬＡＣＫＨＯＬＥ: 비하인드 스토리&#10;…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [],
+      "music": "IVE (아이브)의 BLACKHOLE",
+      "category": "Behind/Vlog"
+    },
+    {
+      "views": 404000,
+      "likes": 186000,
+      "comments": 1290,
+      "shares": 5860,
+      "saves": 14000,
+      "posted_at": "",
+      "caption": "(o o)&#10;…⁠자세히⁠ ⁠|⁠ ⁠원본 보기",
+      "hashtags": [],
+      "music": "IVE (아이브)의 In Your Heart (REI Solo)",
       "category": "General"
     }
   ],
   "stats": {
-    "total_posts_crawled": 3,
-    "posts_last_30d": 3,
-    "avg_views": 364333,
-    "avg_likes": 58333,
-    "avg_comments": 1030,
-    "avg_shares": 1957,
-    "avg_saves": 4262,
-    "engagement_rate": 18.0
+    "total_posts_crawled": 44,
+    "posts_last_30d": 44,
+    "total_grid_views_collected": 54,
+    "avg_views": 646295,
+    "avg_likes": 117159,
+    "avg_comments": 953,
+    "avg_shares": 3075,
+    "avg_saves": 8397,
+    "engagement_rate": 10.61,
+    "engagement_rate_views": 20.05,
+    "er_formula": "likes_based"
   }
 }

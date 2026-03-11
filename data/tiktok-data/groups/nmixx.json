@@ -3,63 +3,79 @@
   "name_en": "NMIXX",
   "slug": "nmixx",
   "tiktok_url": "https://www.tiktok.com/@nmixx_official",
-  "crawled_at": "2026-03-08T13:31:53.593263",
+  "crawled_at": "2026-03-09T20:45:54.479473",
   "profile": {
     "display_name": "NMIXX",
     "username": "@nmixx_official",
     "verified": true,
     "category": "아티스트",
-    "followers": 6998000,
+    "followers": 7000000,
     "following": 0,
-    "total_likes": 290000000,
+    "total_likes": 286500000,
     "bio": "NMIXX Official TikTok&#129744;"
   },
   "posts": [
     {
-      "views": 156000,
-      "likes": 28000,
-      "comments": 348,
-      "shares": 776,
-      "saves": 2419,
-      "posted_at": "2026-03-06",
-      "caption": "고양이 거기 들어가면 안돼요&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "NMIXX의 오리지널 사운드 - NMIXX",
-      "category": "General"
-    },
-    {
-      "views": 105000,
-      "likes": 13000,
-      "comments": 269,
-      "shares": 443,
-      "saves": 1393,
+      "views": 54200,
+      "likes": 31500,
+      "comments": 364,
+      "shares": 848,
+      "saves": 2708,
       "posted_at": "2026-03-05",
-      "caption": "&#129293;➕❤️ &#10;…⁠자세히",
+      "caption": "고양이 거기 들어가면 안돼요&#10;…자세히",
       "hashtags": [],
       "music": "NMIXX의 오리지널 사운드 - NMIXX",
       "category": "General"
     },
     {
-      "views": 329000,
-      "likes": 42000,
-      "comments": 537,
-      "shares": 565,
-      "saves": 3404,
-      "posted_at": "2026-03-02",
-      "caption": "엔써야 생일 축하해 ♡&#10;…⁠자세히",
+      "views": 192700,
+      "likes": 14500,
+      "comments": 275,
+      "shares": 494,
+      "saves": 1565,
+      "posted_at": "2026-03-04",
+      "caption": "&#129293;➕❤️ &#10;…자세히",
+      "hashtags": [],
+      "music": "NMIXX의 오리지널 사운드 - NMIXX",
+      "category": "General"
+    },
+    {
+      "views": 124300,
+      "likes": 44200,
+      "comments": 546,
+      "shares": 580,
+      "saves": 3584,
+      "posted_at": "",
+      "caption": "엔써야 생일 축하해 ♡&#10;…자세히",
       "hashtags": [],
       "music": "NMIXX의 Shape of Love",
+      "category": "General"
+    },
+    {
+      "views": 350800,
+      "likes": 137700,
+      "comments": 1075,
+      "shares": 1672,
+      "saves": 7284,
+      "posted_at": "",
+      "caption": "NMIXX in Chile | Viña del Mar 2026 Recap &#127464;&#127473;&#10; #NMIXX #엔믹스…자세히",
+      "hashtags": [
+        "NMIXX",
+        "엔믹스"
+      ],
+      "music": "",
       "category": "General"
     }
   ],
   "stats": {
-    "total_posts_crawled": 3,
-    "posts_last_30d": 3,
-    "avg_views": 196666,
-    "avg_likes": 27666,
-    "avg_comments": 384,
-    "avg_shares": 594,
-    "avg_saves": 2405,
-    "engagement_rate": 15.79
+    "total_posts_crawled": 4,
+    "posts_last_30d": 4,
+    "avg_views": 180500,
+    "avg_likes": 56975,
+    "avg_comments": 565,
+    "avg_shares": 898,
+    "avg_saves": 3785,
+    "engagement_rate": 9.21,
+    "er_formula": "likes_based"
   }
 }

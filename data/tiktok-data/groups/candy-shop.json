@@ -103,11 +103,12 @@
   "stats": {
     "total_posts_crawled": 7,
     "posts_last_30d": 7,
-    "avg_views": 27808,
+    "avg_views": 27809,
     "avg_likes": 1269,
-    "avg_comments": 41,
+    "avg_comments": 42,
     "avg_shares": 35,
-    "avg_saves": 104,
-    "engagement_rate": 5.22
+    "avg_saves": 105,
+    "engagement_rate": 14.29,
+    "er_formula": "likes_based"
   }
 }
