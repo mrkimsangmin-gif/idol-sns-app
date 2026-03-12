@@ -2,28 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 127,
-      "company": "모드하우스",
-      "position": "[모드하우스] 플랫폼 서비스 운영 기획 담당자 채용(D",
-      "category": "IT",
-      "career": "무관",
-      "location": "서울 강남구",
-      "deadline": "2026-03-11",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=53044573&t_ref=company_info_view&t_ref_content=ing_intro#seq=0",
-      "source": "사람인"
-    },
-    {
-      "id": 128,
-      "company": "모드하우스",
-      "position": "[모드하우스] 공연사업 매니저(Tour Manager) 채용(D",
-      "category": "영업",
-      "career": "무관",
-      "location": "서울 강남구",
-      "deadline": "2026-03-11",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=list&rec_idx=53044585&t_ref=company_info_view&t_ref_content=ing_intro#seq=0",
-      "source": "사람인"
-    },
-    {
       "id": 121,
       "company": "위드어스엔터테인먼트",
       "position": "매니지먼트팀 채용",
@@ -264,6 +242,17 @@
       "deadline": "2026-03-22",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48630328?Oem_Code=C1&sc=54&gno=48630328",
       "source": "잡코리아"
+    },
+    {
+      "id": 356,
+      "company": "SM엔터테인먼트",
+      "position": "브랜드파트너십 운영 및 관리 담당자 채용 (신입/경력)",
+      "category": "영업",
+      "career": "무관",
+      "location": "서울 성동구",
+      "deadline": "2026-03-22",
+      "url": "https://recruit.smentertainment.com/ko/o/205633",
+      "source": "SM엔터테인먼트"
     },
     {
       "id": 11,
@@ -2882,6 +2871,39 @@
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/205636",
       "source": "하이브"
+    },
+    {
+      "id": 354,
+      "company": "HYBE",
+      "position": "(의상)자산관리지원*",
+      "category": "경영지원",
+      "career": "경력 2년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/206163",
+      "source": "하이브"
+    },
+    {
+      "id": 355,
+      "company": "BELIFT LAB",
+      "position": "아티스트 운영",
+      "category": "영업",
+      "career": "경력 3년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/206081",
+      "source": "하이브"
+    },
+    {
+      "id": 357,
+      "company": "JYP ENTERTAINMENT",
+      "position": "전략 기획 (경력)",
+      "category": "기타",
+      "career": "무관",
+      "location": "서울 강동구",
+      "deadline": "상시채용",
+      "url": "https://recruit-apply.jype.com/o/206166",
+      "source": "JYP엔터테인먼트"
     }
   ],
   "categories": [
@@ -2897,5 +2919,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-03-11T09:02:20.814505"
+  "updatedAt": "2026-03-12T09:01:26.281375"
 }
