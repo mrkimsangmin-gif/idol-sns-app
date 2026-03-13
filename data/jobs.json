@@ -2,28 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 121,
-      "company": "위드어스엔터테인먼트",
-      "position": "매니지먼트팀 채용",
-      "category": "매니지먼트",
-      "career": "무관",
-      "location": "서울 강남구",
-      "deadline": "2026-03-12",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48583269?Oem_Code=C1&sc=54&gno=48583269",
-      "source": "잡코리아"
-    },
-    {
-      "id": 124,
-      "company": "모어비전",
-      "position": "BCT 마케팅파트 (마케팅PM)",
-      "category": "마케팅",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-03-12",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48581206?Oem_Code=C1&sc=54&gno=48581206",
-      "source": "잡코리아"
-    },
-    {
       "id": 118,
       "company": "쓰리와이코프레이션",
       "position": "버추얼본부 매니지먼트 담당자",
@@ -2904,6 +2882,28 @@
       "deadline": "상시채용",
       "url": "https://recruit-apply.jype.com/o/206166",
       "source": "JYP엔터테인먼트"
+    },
+    {
+      "id": 358,
+      "company": "PLEDIS Entertainment",
+      "position": "A&R (뮤직 프로덕션)",
+      "category": "프로듀싱",
+      "career": "경력",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/206331",
+      "source": "하이브"
+    },
+    {
+      "id": 359,
+      "company": "HYBE",
+      "position": "Sr. Talent Acquisition Partner",
+      "category": "디자인",
+      "career": "경력 8년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/206284",
+      "source": "하이브"
     }
   ],
   "categories": [
@@ -2919,5 +2919,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-03-12T09:01:26.281375"
+  "updatedAt": "2026-03-13T09:00:51.964310"
 }
