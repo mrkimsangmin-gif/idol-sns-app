@@ -2,61 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 118,
-      "company": "쓰리와이코프레이션",
-      "position": "버추얼본부 매니지먼트 담당자",
-      "category": "매니지먼트",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-03-13",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48591725?Oem_Code=C1&sc=54&gno=48591725",
-      "source": "잡코리아"
-    },
-    {
-      "id": 119,
-      "company": "패러블엔터테인먼트",
-      "position": "유니티 개발자",
-      "category": "IT",
-      "career": "경력",
-      "location": "경기 고양시",
-      "deadline": "2026-03-13",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48591279?Oem_Code=C1&sc=54&gno=48591279",
-      "source": "잡코리아"
-    },
-    {
-      "id": 129,
-      "company": "모드하우스",
-      "position": "A&R Intern 채용",
-      "category": "프로듀싱",
-      "career": "무관",
-      "location": "서울 강남구",
-      "deadline": "2026-03-15",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48606952?Oem_Code=C1&logpath=1&stext=%EB%AA%A8%EB%93%9C%ED%95%98%EC%9A%B0%EC%8A%A4&listno=1&sc=630",
-      "source": "잡코리아"
-    },
-    {
-      "id": 130,
-      "company": "모어비전",
-      "position": "아티스트 매니저 (로드매니저)",
-      "category": "매니지먼트",
-      "career": "신입·경력",
-      "location": "서울 강남구",
-      "deadline": "2026-03-15",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48606609?Oem_Code=C1&sc=54&gno=48606609",
-      "source": "잡코리아"
-    },
-    {
-      "id": 131,
-      "company": "브레이브엔터테인먼트",
-      "position": "동영상 제작 및 편집자",
-      "category": "영상",
-      "career": "무관",
-      "location": "서울 광진구",
-      "deadline": "2026-03-15",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48603437?Oem_Code=C1&sc=54&gno=48603437",
-      "source": "잡코리아"
-    },
-    {
       "id": 82,
       "company": "브이엘엔터테인먼트",
       "position": "가수 매니지먼트 로드 매니져",
@@ -2904,6 +2849,28 @@
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/206284",
       "source": "하이브"
+    },
+    {
+      "id": 360,
+      "company": "HYBE",
+      "position": "위버스매거진 Visual Creative Designer",
+      "category": "디자인",
+      "career": "경력 5년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/206557",
+      "source": "하이브"
+    },
+    {
+      "id": 361,
+      "company": "HYBE",
+      "position": "위버스매거진 디자인*",
+      "category": "디자인",
+      "career": "경력 1년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/206556",
+      "source": "하이브"
     }
   ],
   "categories": [
@@ -2919,5 +2886,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-03-13T09:00:51.964310"
+  "updatedAt": "2026-03-16T09:00:36.073891"
 }
