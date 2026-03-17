@@ -2,17 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 82,
-      "company": "브이엘엔터테인먼트",
-      "position": "가수 매니지먼트 로드 매니져",
-      "category": "매니지먼트",
-      "career": "신입·경력",
-      "location": "서울 용산구",
-      "deadline": "2026-03-16",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48423774?rPageCode=SL&logpath=21&sn=6&sc=611",
-      "source": "잡코리아"
-    },
-    {
       "id": 22,
       "company": "하이브",
       "position": "Fan Experience 사업 기획·운영",
@@ -255,6 +244,17 @@
       "source": "잡코리아"
     },
     {
+      "id": 362,
+      "company": "SM엔터테인먼트",
+      "position": "아티스트 SNS 계정 운영 및 메타데이터 관리 담당자 채용 (신입/경력)",
+      "category": "IT",
+      "career": "무관",
+      "location": "서울 성동구",
+      "deadline": "2026-03-27",
+      "url": "https://recruit.smentertainment.com/ko/o/206267",
+      "source": "SM엔터테인먼트"
+    },
+    {
       "id": 294,
       "company": "YG엔터테인먼트",
       "position": "콘텐츠 검수 담당자 (경력)",
@@ -429,6 +429,28 @@
       "deadline": "2026-04-21",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48634446?Oem_Code=C1&sc=54&gno=48634446",
       "source": "잡코리아"
+    },
+    {
+      "id": 363,
+      "company": "SM엔터테인먼트",
+      "position": "백엔드 엔지니어 채용 (경력)",
+      "category": "IT",
+      "career": "경력 3년 이상",
+      "location": "서울 성동구",
+      "deadline": "2026-04-24",
+      "url": "https://recruit.smentertainment.com/ko/o/205985",
+      "source": "SM엔터테인먼트"
+    },
+    {
+      "id": 364,
+      "company": "SM엔터테인먼트",
+      "position": "AI 기획 관리 담당자 채용 (신입/경력)",
+      "category": "IT",
+      "career": "무관",
+      "location": "서울 성동구",
+      "deadline": "2026-04-24",
+      "url": "https://recruit.smentertainment.com/ko/o/205965",
+      "source": "SM엔터테인먼트"
     },
     {
       "id": 308,
@@ -2886,5 +2908,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-03-16T09:00:36.073891"
+  "updatedAt": "2026-03-17T09:19:08.839442"
 }
