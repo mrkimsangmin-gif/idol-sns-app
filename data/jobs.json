@@ -2,28 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 22,
-      "company": "하이브",
-      "position": "Fan Experience 사업 기획·운영",
-      "category": "마케팅",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-03-17",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48430792?rPageCode=SL&logpath=21&sn=6&sc=612",
-      "source": "잡코리아"
-    },
-    {
-      "id": 83,
-      "company": "클렙",
-      "position": "신인개발팀 담당자",
-      "category": "신인개발",
-      "career": "신입·경력",
-      "location": "서울 강남구",
-      "deadline": "2026-03-17",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48428602?rPageCode=SL&logpath=21&sn=6&sc=611",
-      "source": "잡코리아"
-    },
-    {
       "id": 21,
       "company": "에프앤에프엔터테인먼트",
       "position": "PR 및 대외협력팀 채용",
@@ -310,6 +288,17 @@
       "source": "SM엔터테인먼트"
     },
     {
+      "id": 368,
+      "company": "YG엔터테인먼트",
+      "position": "매입 및 결산 담당자 (경력)",
+      "category": "경영지원",
+      "career": "경력",
+      "location": "서울 마포구",
+      "deadline": "2026-03-31",
+      "url": "https://yg-entertainment.recruiter.co.kr/career/jobs/position/103780",
+      "source": "YG엔터테인먼트"
+    },
+    {
       "id": 322,
       "company": "비웨이브 엔터테인먼트",
       "position": "신인개발팀 담당자",
@@ -406,6 +395,17 @@
       "location": "서울 성동구",
       "deadline": "2026-04-10",
       "url": "https://recruit.smentertainment.com/ko/o/204857",
+      "source": "SM엔터테인먼트"
+    },
+    {
+      "id": 367,
+      "company": "SM엔터테인먼트",
+      "position": "해외(영미권/일본) 마케팅 담당자 채용 (경력)",
+      "category": "해외사업",
+      "career": "경력 3년 이상",
+      "location": "서울 성동구",
+      "deadline": "2026-04-11",
+      "url": "https://recruit.smentertainment.com/ko/o/206763",
       "source": "SM엔터테인먼트"
     },
     {
@@ -2893,6 +2893,28 @@
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/206556",
       "source": "하이브"
+    },
+    {
+      "id": 365,
+      "company": "SOURCE MUSIC",
+      "position": "콘텐츠프로덕션*",
+      "category": "기타",
+      "career": "무관",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/207010",
+      "source": "하이브"
+    },
+    {
+      "id": 366,
+      "company": "BIGHIT MUSIC",
+      "position": "전략기획(1그룹)",
+      "category": "영업",
+      "career": "무관",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/206933",
+      "source": "하이브"
     }
   ],
   "categories": [
@@ -2908,5 +2930,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-03-17T09:19:08.839442"
+  "updatedAt": "2026-03-18T09:01:16.451490"
 }
