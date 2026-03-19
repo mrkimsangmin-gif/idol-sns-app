@@ -420,6 +420,28 @@
       "source": "잡코리아"
     },
     {
+      "id": 370,
+      "company": "쓰리와이코프레이션",
+      "position": "재무 담당자",
+      "category": "경영지원",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-04-17",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48802007",
+      "source": "잡코리아"
+    },
+    {
+      "id": 371,
+      "company": "쓰리와이코프레이션",
+      "position": "회계 담당자",
+      "category": "경영지원",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-04-17",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48801966",
+      "source": "잡코리아"
+    },
+    {
       "id": 135,
       "company": "언코어",
       "position": "비주얼크리에이티브 담당자 채용",
@@ -2915,6 +2937,50 @@
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/206933",
       "source": "하이브"
+    },
+    {
+      "id": 372,
+      "company": "BELIFT LAB",
+      "position": "퍼포먼스디렉터",
+      "category": "마케팅",
+      "career": "경력 3년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/207224",
+      "source": "하이브"
+    },
+    {
+      "id": 373,
+      "company": "HYBE",
+      "position": "아티스트콘텐츠 마케팅 Sr.",
+      "category": "마케팅",
+      "career": "경력 7년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/207201",
+      "source": "하이브"
+    },
+    {
+      "id": 374,
+      "company": "HYBE",
+      "position": "임원 수행기사** (파견)",
+      "category": "기타",
+      "career": "경력 7년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/207055",
+      "source": "하이브"
+    },
+    {
+      "id": 375,
+      "company": "BELIFT LAB",
+      "position": "레이블 사업 관리/운영",
+      "category": "영업",
+      "career": "경력 3~7년",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/207049",
+      "source": "하이브"
     }
   ],
   "categories": [
@@ -2930,5 +2996,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-03-18T09:01:16.451490"
+  "updatedAt": "2026-03-19T09:00:46.305663"
 }
