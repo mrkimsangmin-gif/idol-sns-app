@@ -2321,7 +2321,7 @@ function trackJobClick(company, position, index) {
 
 // 도우인 GAS API URL (메인 API와 동일 프로젝트)
 const DOUYIN_API_URL = API_URL;
-const DOUYIN_STATIC_URL = 'data/douyin-challenges.json';
+const DOUYIN_STATIC_URL = 'data/douyin-challenges.json?v=' + Date.now();
 
 let douyinData = null;
 let douyinLoaded = false;
