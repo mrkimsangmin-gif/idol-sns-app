@@ -28,6 +28,41 @@ data/namu-wiki.backup.json
 data/news-archive.csv
 data/old/
 
+# 대용량 파일 (GitHub 100MB 제한 초과)
+data/youtube-comments-all.json
+data/guyso.db
+*.db
+data/collect_all.log
+data/comments_*.json
+data/comments_*.log
+data/comments_*.txt
+data/fandom_voice_result.txt
+data/ig_comment_caps/
+
+# 로컬 전용 개발 스크립트/데이터
+07.hanteo/
+07.youtube/
+08.instagram/
+09.melon/
+10.spotify/
+11.melon/
+06.tiktok/
+analysis/
+findings/
+logs/
+*.log
+
+# 로컬 전용 Python 스크립트
+orchestrator.py
+run_orchestrator.bat
+update_news.py
+daily_analyst.py
+phone_health.py
+calculate_fdi.py
+analyze_fandom_voice.py
+ig_comment_collector.py
+save_*_comments.py
+
 # E2E 테스트 빌드
 aimcontents-e2e/node_modules/
 aimcontents-e2e/nul
