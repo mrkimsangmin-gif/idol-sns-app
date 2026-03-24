@@ -2,28 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 11,
-      "company": "하이브",
-      "position": "디지털 콘텐츠 기획",
-      "category": "영상",
-      "career": "무관",
-      "location": "서울 용산구",
-      "deadline": "2026-03-23",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48468359?rPageCode=SL&logpath=21&sn=6&sc=612",
-      "source": "잡코리아"
-    },
-    {
-      "id": 56,
-      "company": "갤럭시코퍼레이션",
-      "position": "팬마케팅 담당자",
-      "category": "마케팅",
-      "career": "경력",
-      "location": "서울 영등포구",
-      "deadline": "2026-03-23",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48462426?rPageCode=SL&logpath=21&sn=6&sc=611",
-      "source": "잡코리아"
-    },
-    {
       "id": 9,
       "company": "하이브",
       "position": "IP Business Development",
@@ -230,6 +208,17 @@
       "location": "서울 성동구",
       "deadline": "2026-04-05",
       "url": "https://recruit.smentertainment.com/ko/o/207396",
+      "source": "SM엔터테인먼트"
+    },
+    {
+      "id": 382,
+      "company": "SM엔터테인먼트",
+      "position": "성과관리(평가보상) 담당자 채용 (경력)",
+      "category": "경영지원",
+      "career": "경력 5~10년",
+      "location": "서울 성동구",
+      "deadline": "2026-04-05",
+      "url": "https://recruit.smentertainment.com/ko/o/208215",
       "source": "SM엔터테인먼트"
     },
     {
@@ -2919,5 +2908,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-03-23T09:00:04.734684"
+  "updatedAt": "2026-03-24T09:00:47.195859"
 }
