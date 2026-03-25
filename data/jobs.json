@@ -2,28 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 9,
-      "company": "하이브",
-      "position": "IP Business Development",
-      "category": "마케팅",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-03-24",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48475803?rPageCode=SL&logpath=21&sn=6&sc=612",
-      "source": "잡코리아"
-    },
-    {
-      "id": 50,
-      "company": "알비더블유",
-      "position": "스타일지원팀",
-      "category": "기타",
-      "career": "신입·경력",
-      "location": "서울 동대문구",
-      "deadline": "2026-03-24",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48471797?rPageCode=SL&logpath=21&sn=6&sc=611",
-      "source": "잡코리아"
-    },
-    {
       "id": 45,
       "company": "앤유엔터",
       "position": "A&R 채용",
@@ -275,6 +253,17 @@
       "deadline": "2026-04-12",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48591235?Oem_Code=C1&sc=54&gno=48591235",
       "source": "잡코리아"
+    },
+    {
+      "id": 383,
+      "company": "SM엔터테인먼트",
+      "position": "자금 담당자 채용 (경력 5~10년차)",
+      "category": "기타",
+      "career": "경력 5~10년",
+      "location": "서울 성동구",
+      "deadline": "2026-04-13",
+      "url": "https://recruit.smentertainment.com/ko/o/205467",
+      "source": "SM엔터테인먼트"
     },
     {
       "id": 370,
@@ -2908,5 +2897,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-03-24T09:00:47.195859"
+  "updatedAt": "2026-03-25T09:00:32.164938"
 }
