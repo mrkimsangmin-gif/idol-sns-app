@@ -2,39 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 45,
-      "company": "앤유엔터",
-      "position": "A&R 채용",
-      "category": "프로듀싱",
-      "career": "무관",
-      "location": "서울 서초구",
-      "deadline": "2026-03-25",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48477124?rPageCode=SL&logpath=21&sn=6&sc=611",
-      "source": "잡코리아"
-    },
-    {
-      "id": 46,
-      "company": "앤유엔터",
-      "position": "매니지먼트 매니저 채용",
-      "category": "매니지먼트",
-      "career": "무관",
-      "location": "서울 서초구",
-      "deadline": "2026-03-25",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48477127?rPageCode=SL&logpath=21&sn=6&sc=611",
-      "source": "잡코리아"
-    },
-    {
-      "id": 47,
-      "company": "앤유엔터",
-      "position": "마케팅 채용",
-      "category": "마케팅",
-      "career": "무관",
-      "location": "서울 서초구",
-      "deadline": "2026-03-25",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48477125?rPageCode=SL&logpath=21&sn=6&sc=611",
-      "source": "잡코리아"
-    },
-    {
       "id": 362,
       "company": "SM엔터테인먼트",
       "position": "아티스트 SNS 계정 운영 및 메타데이터 관리 담당자 채용 (신입/경력)",
@@ -109,6 +76,17 @@
       "location": "서울 마포구",
       "deadline": "2026-03-31",
       "url": "https://yg-entertainment.recruiter.co.kr/career/jobs/position/103780",
+      "source": "YG엔터테인먼트"
+    },
+    {
+      "id": 384,
+      "company": "YG엔터테인먼트",
+      "position": "공연 기획 담당자 (경력)",
+      "category": "기타",
+      "career": "무관",
+      "location": "서울 마포구",
+      "deadline": "2026-03-31",
+      "url": "https://yg-entertainment.recruiter.co.kr/career/jobs/position/104621",
       "source": "YG엔터테인먼트"
     },
     {
@@ -2897,5 +2875,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-03-25T09:00:32.164938"
+  "updatedAt": "2026-03-26T09:00:53.555789"
 }
