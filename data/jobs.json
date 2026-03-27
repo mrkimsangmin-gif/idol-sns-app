@@ -233,6 +233,17 @@
       "source": "잡코리아"
     },
     {
+      "id": 387,
+      "company": "SM엔터테인먼트",
+      "position": "경영기획 담당자 채용 (육아휴직 대체/계약직)",
+      "category": "기타",
+      "career": "경력 1년 이상",
+      "location": "서울 성동구",
+      "deadline": "2026-04-12",
+      "url": "https://recruit.smentertainment.com/ko/o/208193",
+      "source": "SM엔터테인먼트"
+    },
+    {
       "id": 383,
       "company": "SM엔터테인먼트",
       "position": "자금 담당자 채용 (경력 5~10년차)",
@@ -264,6 +275,17 @@
       "deadline": "2026-04-17",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48801966",
       "source": "잡코리아"
+    },
+    {
+      "id": 388,
+      "company": "SM엔터테인먼트",
+      "position": "아티스트 소셜 채널 브랜딩 및 운영 담당자 채용 (신입/경력)",
+      "category": "기타",
+      "career": "무관",
+      "location": "서울 성동구",
+      "deadline": "2026-04-17",
+      "url": "https://recruit.smentertainment.com/ko/o/207783",
+      "source": "SM엔터테인먼트"
     },
     {
       "id": 377,
@@ -2860,6 +2882,28 @@
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/207734",
       "source": "하이브"
+    },
+    {
+      "id": 385,
+      "company": "HYBE",
+      "position": "중국 사업 운영 지원(공연이벤트)",
+      "category": "마케팅",
+      "career": "경력 1년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/208869",
+      "source": "하이브"
+    },
+    {
+      "id": 386,
+      "company": "HYBE",
+      "position": "뮤직그룹 라이프스타일브랜드실장",
+      "category": "마케팅",
+      "career": "경력 10년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/208751",
+      "source": "하이브"
     }
   ],
   "categories": [
@@ -2875,5 +2919,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-03-26T09:00:53.555789"
+  "updatedAt": "2026-03-27T14:19:01.003574"
 }
