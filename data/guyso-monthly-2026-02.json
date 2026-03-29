@@ -1,0 +1,1008 @@
+{
+  "year": 2026,
+  "month": 2,
+  "chart": "melon_monthly",
+  "collected": 100,
+  "items": [
+    {
+      "ranking": 1,
+      "song_id": "600287375",
+      "song_name": "Good Goodbye",
+      "album_name": "Good Goodbye",
+      "artist_name": "화사 (HWASA)",
+      "released_at": "2025-10-15T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 2,
+      "song_id": "601013499",
+      "song_name": "404 (New Era)",
+      "album_name": "Delulu Pack",
+      "artist_name": "KiiiKiii (키키)",
+      "released_at": "2026-01-26T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 3,
+      "song_id": "33241003",
+      "song_name": "그대 작은 나의 세상이 되어",
+      "album_name": "부재",
+      "artist_name": "카더가든",
+      "released_at": "2021-01-28T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 4,
+      "song_id": "36730261",
+      "song_name": "사랑하게 될 거야",
+      "album_name": "이상비행",
+      "artist_name": "한로로",
+      "released_at": "2023-08-29T12:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 5,
+      "song_id": "36397952",
+      "song_name": "Drowning",
+      "album_name": "OO-LI",
+      "artist_name": "WOODZ",
+      "released_at": "2023-04-26T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 6,
+      "song_id": "600299706",
+      "song_name": "타임캡슐",
+      "album_name": "타임캡슐",
+      "artist_name": "다비치",
+      "released_at": "2025-10-16T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 7,
+      "song_id": "601237102",
+      "song_name": "BANG BANG",
+      "album_name": "REVIVE+",
+      "artist_name": "IVE (아이브)",
+      "released_at": "2026-02-09T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 8,
+      "song_id": "600243411",
+      "song_name": "Blue Valentine",
+      "album_name": "Blue Valentine",
+      "artist_name": "NMIXX",
+      "released_at": "2025-10-13T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 9,
+      "song_id": "39504779",
+      "song_name": "0+0",
+      "album_name": "자몽살구클럽",
+      "artist_name": "한로로",
+      "released_at": "2025-08-04T12:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 10,
+      "song_id": "39166708",
+      "song_name": "Golden",
+      "album_name": "KPop Demon Hunters (Soundtrack from the Netflix Film)",
+      "artist_name": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",
+      "released_at": "2025-06-20T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 11,
+      "song_id": "39307948",
+      "song_name": "멸종위기사랑",
+      "album_name": "EROS",
+      "artist_name": "이찬혁",
+      "released_at": "2025-07-14T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 12,
+      "song_id": "600354699",
+      "song_name": "SPAGHETTI (feat. j-hope of BTS)",
+      "album_name": "SPAGHETTI",
+      "artist_name": "LE SSERAFIM (르세라핌), j-hope",
+      "released_at": "2025-10-24T13:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 13,
+      "song_id": "600513208",
+      "song_name": "ONE MORE TIME",
+      "album_name": "ALLDAY PROJECT",
+      "artist_name": "ALLDAY PROJECT",
+      "released_at": "2025-11-17T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 14,
+      "song_id": "38733032",
+      "song_name": "어제보다 슬픈 오늘",
+      "album_name": "어제보다 슬픈 오늘",
+      "artist_name": "우디 (Woody)",
+      "released_at": "2025-03-31T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 15,
+      "song_id": "39298775",
+      "song_name": "뛰어(JUMP)",
+      "album_name": "뛰어(JUMP)",
+      "artist_name": "BLACKPINK",
+      "released_at": "2025-07-11T13:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 16,
+      "song_id": "600551548",
+      "song_name": "NOT CUTE ANYMORE",
+      "album_name": "NOT CUTE ANYMORE",
+      "artist_name": "아일릿(ILLIT)",
+      "released_at": "2025-11-24T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 17,
+      "song_id": "38300904",
+      "song_name": "toxic till the end",
+      "album_name": "rosie",
+      "artist_name": "로제 (ROSÉ)",
+      "released_at": "2024-12-06T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 18,
+      "song_id": "38429074",
+      "song_name": "모르시나요(PROD.로코베리)",
+      "album_name": "모르시나요",
+      "artist_name": "조째즈",
+      "released_at": "2025-01-07T12:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 19,
+      "song_id": "32061975",
+      "song_name": "어떻게 이별까지 사랑하겠어, 널 사랑하는 거지",
+      "album_name": "항해",
+      "artist_name": "AKMU (악뮤)",
+      "released_at": "2019-09-25T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 20,
+      "song_id": "600359330",
+      "song_name": "달리 표현할 수 없어요",
+      "album_name": "달리 표현할 수 없어요",
+      "artist_name": "로이킴",
+      "released_at": "2025-10-27T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 21,
+      "song_id": "4446485",
+      "song_name": "너의 모든 순간",
+      "album_name": "별에서 온 그대 OST Part.7",
+      "artist_name": "성시경",
+      "released_at": "2014-02-12T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 22,
+      "song_id": "38629386",
+      "song_name": "like JENNIE",
+      "album_name": "Ruby",
+      "artist_name": "제니 (JENNIE)",
+      "released_at": "2025-03-07T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 23,
+      "song_id": "39156202",
+      "song_name": "FAMOUS",
+      "album_name": "FAMOUS",
+      "artist_name": "ALLDAY PROJECT",
+      "released_at": "2025-06-23T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 24,
+      "song_id": "38104031",
+      "song_name": "내게 사랑이 뭐냐고 물어본다면",
+      "album_name": "내게 사랑이 뭐냐고 물어본다면",
+      "artist_name": "로이킴",
+      "released_at": "2024-10-16T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 25,
+      "song_id": "37228861",
+      "song_name": "천상연",
+      "album_name": "천상연 (웹툰 '선녀외전' X 이창섭 (LEE CHANGSUB))",
+      "artist_name": "이창섭",
+      "released_at": "2024-02-21T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 26,
+      "song_id": "38242510",
+      "song_name": "HOME SWEET HOME (feat. 태양, 대성)",
+      "album_name": "HOME SWEET HOME (feat. 태양, 대성)",
+      "artist_name": "G-DRAGON",
+      "released_at": "2024-11-22T14:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 27,
+      "song_id": "1556553",
+      "song_name": "Love Love Love (Feat. Yoong Jin Of Casker)",
+      "album_name": "Remapping The Human Soul",
+      "artist_name": "에픽하이 (EPIK HIGH)",
+      "released_at": "2007-01-23T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 28,
+      "song_id": "38626852",
+      "song_name": "너에게 닿기를",
+      "album_name": "너에게 닿기를",
+      "artist_name": "10CM",
+      "released_at": "2025-03-06T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 29,
+      "song_id": "600607173",
+      "song_name": "하얀 그리움",
+      "album_name": "하얀 그리움",
+      "artist_name": "프로미스나인",
+      "released_at": "2025-12-02T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 30,
+      "song_id": "1121123",
+      "song_name": "사랑은 봄비처럼...이별은 겨울비처럼...",
+      "album_name": "All That Love",
+      "artist_name": "임현정",
+      "released_at": "2006-03-03T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 31,
+      "song_id": "38123332",
+      "song_name": "Whiplash",
+      "album_name": "Whiplash - The 5th Mini Album",
+      "artist_name": "aespa",
+      "released_at": "2024-10-21T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 32,
+      "song_id": "34752757",
+      "song_name": "힙합보단 사랑, 사랑보단 돈 (Feat. 베이식)",
+      "album_name": "M O T N O A H",
+      "artist_name": "노아주다 (noahjooda)",
+      "released_at": "2022-03-13T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 33,
+      "song_id": "38123338",
+      "song_name": "나는 반딧불",
+      "album_name": "나는 반딧불",
+      "artist_name": "황가람",
+      "released_at": "2024-10-21T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 34,
+      "song_id": "39166705",
+      "song_name": "Soda Pop",
+      "album_name": "KPop Demon Hunters (Soundtrack from the Netflix Film)",
+      "artist_name": "KPop Demon Hunters Cast, Danny Chung, Saja Boys, Andrew Choi, Neckwav, Kevin Woo, samUIL Lee",
+      "released_at": "2025-06-20T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 35,
+      "song_id": "39566906",
+      "song_name": "시작의 아이 ❍",
+      "album_name": "시작의 아이 ❍ ハジマリのコ Starting With You : ♡",
+      "artist_name": "박다혜, 마크툽 (MAKTUB)",
+      "released_at": "2025-08-10T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 36,
+      "song_id": "600280518",
+      "song_name": "OVERDRIVE",
+      "album_name": "TWS 4th Mini Album ‘play hard’",
+      "artist_name": "TWS (투어스)",
+      "released_at": "2025-10-13T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 37,
+      "song_id": "38071559",
+      "song_name": "청춘만화",
+      "album_name": "만화 (滿花)",
+      "artist_name": "이무진",
+      "released_at": "2024-10-07T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 38,
+      "song_id": "30962526",
+      "song_name": "모든 날, 모든 순간 (Every day, Every Moment)",
+      "album_name": "'키스 먼저 할까요?' OST Part.3",
+      "artist_name": "폴킴",
+      "released_at": "2018-03-20T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 39,
+      "song_id": "36699489",
+      "song_name": "그대만 있다면 (여름날 우리 X 너드커넥션 (Nerd Connection))",
+      "album_name": "그대만 있다면 (여름날 우리 X 너드커넥션 (Nerd Connection))",
+      "artist_name": "너드커넥션 (Nerd Connection)",
+      "released_at": "2023-08-15T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 40,
+      "song_id": "38444825",
+      "song_name": "REBEL HEART",
+      "album_name": "IVE EMPATHY",
+      "artist_name": "IVE (아이브)",
+      "released_at": "2025-01-13T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 41,
+      "song_id": "37323944",
+      "song_name": "HAPPY",
+      "album_name": "Fourever",
+      "artist_name": "DAY6 (데이식스)",
+      "released_at": "2024-03-18T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 42,
+      "song_id": "37390939",
+      "song_name": "소나기",
+      "album_name": "선재 업고 튀어 OST Part 1",
+      "artist_name": "이클립스 (ECLIPSE)",
+      "released_at": "2024-04-08T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 43,
+      "song_id": "38426197",
+      "song_name": "오늘만 I LOVE YOU",
+      "album_name": "오늘만 I LOVE YOU",
+      "artist_name": "BOYNEXTDOOR",
+      "released_at": "2025-01-06T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 44,
+      "song_id": "31927275",
+      "song_name": "한 페이지가 될 수 있게",
+      "album_name": "The Book of Us : Gravity",
+      "artist_name": "DAY6 (데이식스)",
+      "released_at": "2019-07-15T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 45,
+      "song_id": "38120327",
+      "song_name": "APT.",
+      "album_name": "APT.",
+      "artist_name": "로제 (ROSÉ), Bruno Mars",
+      "released_at": "2024-10-18T13:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 46,
+      "song_id": "30232719",
+      "song_name": "예뻤어",
+      "album_name": "Every DAY6 February",
+      "artist_name": "DAY6 (데이식스)",
+      "released_at": "2017-02-06T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 47,
+      "song_id": "600320356",
+      "song_name": "FOCUS",
+      "album_name": "FOCUS - The 1st Mini Album",
+      "artist_name": "Hearts2Hearts (하츠투하츠)",
+      "released_at": "2025-10-20T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 48,
+      "song_id": "38635449",
+      "song_name": "Flower",
+      "album_name": "교회오빠",
+      "artist_name": "오반(OVAN)",
+      "released_at": "2025-03-13T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 49,
+      "song_id": "600258470",
+      "song_name": "Zoo (From \"Zootopia 2\"/Soundtrack Version)",
+      "album_name": "Zoo (From \"Zootopia 2\")",
+      "artist_name": "Disney, Shakira",
+      "released_at": "2025-10-10T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 50,
+      "song_id": "39693013",
+      "song_name": "XOXZ",
+      "album_name": "IVE SECRET",
+      "artist_name": "IVE (아이브)",
+      "released_at": "2025-08-25T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 51,
+      "song_id": "37145732",
+      "song_name": "Love wins all",
+      "album_name": "The Winning",
+      "artist_name": "아이유",
+      "released_at": "2024-01-24T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 52,
+      "song_id": "38388023",
+      "song_name": "시작의 아이",
+      "album_name": "시작의 아이 ハジマリのコ (Starting With You)",
+      "artist_name": "마크툽 (MAKTUB)",
+      "released_at": "2025-01-01T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 53,
+      "song_id": "37140709",
+      "song_name": "첫 만남은 계획대로 되지 않아",
+      "album_name": "TWS 1st Mini Album ‘Sparkling Blue’",
+      "artist_name": "TWS (투어스)",
+      "released_at": "2024-01-22T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 54,
+      "song_id": "37323943",
+      "song_name": "Welcome to the Show",
+      "album_name": "Fourever",
+      "artist_name": "DAY6 (데이식스)",
+      "released_at": "2024-03-18T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 55,
+      "song_id": "600493407",
+      "song_name": "그래 늦지 않았어 (2025)",
+      "album_name": "그래 늦지 않았어(2025)",
+      "artist_name": "아샤트리, 이예은, 전건호",
+      "released_at": "2025-11-13T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 56,
+      "song_id": "31666417",
+      "song_name": "주저하는 연인들을 위해",
+      "album_name": "전설",
+      "artist_name": "잔나비",
+      "released_at": "2019-03-13T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 57,
+      "song_id": "39161085",
+      "song_name": "STYLE",
+      "album_name": "STYLE",
+      "artist_name": "Hearts2Hearts (하츠투하츠)",
+      "released_at": "2025-06-18T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 58,
+      "song_id": "30877002",
+      "song_name": "눈사람",
+      "album_name": "그리고 봄",
+      "artist_name": "정승환",
+      "released_at": "2018-02-19T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 59,
+      "song_id": "37901626",
+      "song_name": "Die With A Smile",
+      "album_name": "Die With A Smile",
+      "artist_name": "Lady Gaga, Bruno Mars",
+      "released_at": "2024-08-16T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 60,
+      "song_id": "34657844",
+      "song_name": "사랑인가 봐",
+      "album_name": "사랑인가 봐 (사내맞선 OST 스페셜 트랙)",
+      "artist_name": "멜로망스",
+      "released_at": "2022-02-18T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 61,
+      "song_id": "37375706",
+      "song_name": "청혼하지 않을 이유를 못 찾았어",
+      "album_name": "청혼하지 않을 이유를 못 찾았어",
+      "artist_name": "이무진",
+      "released_at": "2024-04-02T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 62,
+      "song_id": "39051429",
+      "song_name": "Never Ending Story",
+      "album_name": "꽃갈피 셋",
+      "artist_name": "아이유",
+      "released_at": "2025-05-27T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 63,
+      "song_id": "600906236",
+      "song_name": "사랑의 언어 (Love Language)",
+      "album_name": "이 사랑 통역 되나요? (Soundtrack from the Netflix Series)",
+      "artist_name": "김민석 (멜로망스)",
+      "released_at": "2026-01-16T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 64,
+      "song_id": "39430660",
+      "song_name": "운명 (2025)",
+      "album_name": "먼키의 발자국 Vol.1 With 이이경",
+      "artist_name": "먼데이 키즈, 이이경",
+      "released_at": "2025-07-27T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 65,
+      "song_id": "39721328",
+      "song_name": "한번 더 이별",
+      "album_name": "한번 더 이별 (첫사랑 엔딩 X 이창섭)",
+      "artist_name": "이창섭",
+      "released_at": "2025-08-27T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 66,
+      "song_id": "33496587",
+      "song_name": "다정히 내 이름을 부르면",
+      "album_name": "다정히 내 이름을 부르면 (경서예지 x 전건호)",
+      "artist_name": "경서예지, 전건호",
+      "released_at": "2021-05-19T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 67,
+      "song_id": "36356993",
+      "song_name": "I AM",
+      "album_name": "I've IVE",
+      "artist_name": "IVE (아이브)",
+      "released_at": "2023-04-10T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 68,
+      "song_id": "600032332",
+      "song_name": "IRIS OUT",
+      "album_name": "IRIS OUT",
+      "artist_name": "Kenshi Yonezu",
+      "released_at": "2025-09-15T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 69,
+      "song_id": "38589554",
+      "song_name": "TOO BAD (feat. Anderson .Paak)",
+      "album_name": "Übermensch",
+      "artist_name": "G-DRAGON",
+      "released_at": "2025-02-25T14:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 70,
+      "song_id": "37347911",
+      "song_name": "Magnetic",
+      "album_name": "SUPER REAL ME",
+      "artist_name": "아일릿(ILLIT)",
+      "released_at": "2024-03-25T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 71,
+      "song_id": "34451383",
+      "song_name": "인사",
+      "album_name": "인사",
+      "artist_name": "범진",
+      "released_at": "2021-12-24T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 72,
+      "song_id": "34061322",
+      "song_name": "사랑은 늘 도망가",
+      "album_name": "신사와 아가씨 OST Part.2",
+      "artist_name": "임영웅",
+      "released_at": "2021-10-11T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 73,
+      "song_id": "36382580",
+      "song_name": "헤어지자 말해요",
+      "album_name": "1집 Alone",
+      "artist_name": "박재정",
+      "released_at": "2023-04-20T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 74,
+      "song_id": "600024643",
+      "song_name": "Rich Man",
+      "album_name": "Rich Man - The 6th Mini Album",
+      "artist_name": "aespa",
+      "released_at": "2025-09-05T13:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 75,
+      "song_id": "4352438",
+      "song_name": "첫 눈",
+      "album_name": "겨울 스페셜 앨범 '12월의 기적 (Miracles In December)'",
+      "artist_name": "EXO",
+      "released_at": "2013-12-09T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 76,
+      "song_id": "37023625",
+      "song_name": "비의 랩소디",
+      "album_name": "비의 랩소디",
+      "artist_name": "임재현",
+      "released_at": "2023-12-03T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 77,
+      "song_id": "34360855",
+      "song_name": "눈이 오잖아(Feat.헤이즈)",
+      "album_name": "눈이 오잖아(Feat.헤이즈)",
+      "artist_name": "이무진",
+      "released_at": "2021-12-03T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 78,
+      "song_id": "37053556",
+      "song_name": "에피소드",
+      "album_name": "에피소드",
+      "artist_name": "이무진",
+      "released_at": "2023-12-13T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 79,
+      "song_id": "600318353",
+      "song_name": "Hollywood Action",
+      "album_name": "The Action",
+      "artist_name": "BOYNEXTDOOR",
+      "released_at": "2025-10-20T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 80,
+      "song_id": "37524037",
+      "song_name": "Supernova",
+      "album_name": "Armageddon - The 1st Album",
+      "artist_name": "aespa",
+      "released_at": "2024-05-13T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 81,
+      "song_id": "600668850",
+      "song_name": "365일",
+      "album_name": "365일 (오늘 밤, 세계에서 이 사랑이 사라진다 해도 X 이창섭)",
+      "artist_name": "이창섭",
+      "released_at": "2025-12-11T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 82,
+      "song_id": "38583620",
+      "song_name": "MY LOVE(2025)",
+      "album_name": "MY LOVE(2025)",
+      "artist_name": "이예은, 아샤트리, 전건호",
+      "released_at": "2025-02-22T12:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 83,
+      "song_id": "39116012",
+      "song_name": "빌려온 고양이 (Do the Dance)",
+      "album_name": "bomb",
+      "artist_name": "아일릿(ILLIT)",
+      "released_at": "2025-06-16T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 84,
+      "song_id": "35454426",
+      "song_name": "Hype Boy",
+      "album_name": "NewJeans 1st EP 'New Jeans'",
+      "artist_name": "NewJeans",
+      "released_at": "2022-08-01T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 85,
+      "song_id": "39121279",
+      "song_name": "Dirty Work",
+      "album_name": "Dirty Work",
+      "artist_name": "aespa",
+      "released_at": "2025-06-27T13:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 86,
+      "song_id": "37069064",
+      "song_name": "슬픈 초대장",
+      "album_name": "슬픈 초대장",
+      "artist_name": "순순희(지환)",
+      "released_at": "2023-12-19T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 87,
+      "song_id": "600447153",
+      "song_name": "나였으면",
+      "album_name": "나였으면",
+      "artist_name": "나윤권, 도경수(D.O.)",
+      "released_at": "2025-11-07T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 88,
+      "song_id": "37373234",
+      "song_name": "고민중독",
+      "album_name": "1st Mini Album 'MANITO'",
+      "artist_name": "QWER",
+      "released_at": "2024-04-01T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 89,
+      "song_id": "600035196",
+      "song_name": "가만히 눈을 감고",
+      "album_name": "가만히 눈을 감고",
+      "artist_name": "DK(디셈버)",
+      "released_at": "2025-09-07T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 90,
+      "song_id": "36617841",
+      "song_name": "Seven (feat. Latto) - Clean Ver.",
+      "album_name": "Seven (feat. Latto) - Clean Ver.",
+      "artist_name": "정국",
+      "released_at": "2023-07-14T13:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 91,
+      "song_id": "600906246",
+      "song_name": "Daydream",
+      "album_name": "이 사랑 통역 되나요? (Soundtrack from the Netflix Series)",
+      "artist_name": "웬디 (WENDY)",
+      "released_at": "2026-01-16T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 92,
+      "song_id": "600057428",
+      "song_name": "body",
+      "album_name": "gonna love me, right?",
+      "artist_name": "다영 (DAYOUNG)",
+      "released_at": "2025-09-09T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 93,
+      "song_id": "600727012",
+      "song_name": "DUET",
+      "album_name": "DUET",
+      "artist_name": "지코 (ZICO), Lilas",
+      "released_at": "2025-12-19T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 94,
+      "song_id": "34908740",
+      "song_name": "우리들의 블루스",
+      "album_name": "IM HERO",
+      "artist_name": "임영웅",
+      "released_at": "2022-04-17T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 95,
+      "song_id": "600791038",
+      "song_name": "이 밤을 빌려 말해요",
+      "album_name": "이 밤을 빌려 말해요 (오늘 밤, 세계에서 이 사랑이 사라진다 해도 X PLAVE)",
+      "artist_name": "PLAVE",
+      "released_at": "2025-12-29T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 96,
+      "song_id": "35008524",
+      "song_name": "다시 만날 수 있을까",
+      "album_name": "IM HERO",
+      "artist_name": "임영웅",
+      "released_at": "2022-05-02T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 97,
+      "song_id": "600604262",
+      "song_name": "LOOK AT ME",
+      "album_name": "ALLDAY PROJECT",
+      "artist_name": "ALLDAY PROJECT",
+      "released_at": "2025-12-08T00:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 98,
+      "song_id": "39765727",
+      "song_name": "순간을 영원처럼",
+      "album_name": "IM HERO 2",
+      "artist_name": "임영웅",
+      "released_at": "2025-08-29T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 99,
+      "song_id": "601273260",
+      "song_name": "끝사랑",
+      "album_name": "끝사랑",
+      "artist_name": "테이",
+      "released_at": "2026-02-11T18:00:00",
+      "count": null,
+      "ratio": {}
+    },
+    {
+      "ranking": 100,
+      "song_id": "33855085",
+      "song_name": "가까운 듯 먼 그대여",
+      "album_name": "가까운 듯 먼 그대여",
+      "artist_name": "카더가든",
+      "released_at": "2021-08-26T18:00:00",
+      "count": null,
+      "ratio": {}
+    }
+  ]
+}

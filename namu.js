@@ -12,9 +12,10 @@ let namuRankingGender = 'all';  // 랭킹 성별 필터
 let namuRankingYear = 'all';    // 랭킹 연도 필터
 var groupAliasData = null;      // group-aliases.json 전체 데이터
 var searchIndexData = null;     // search-index.json 역인덱스 데이터
+var groupEmbedIndex = null;     // group-embed-index.json (lazy load, 임베딩 유사도 검색용)
 
 // 캐시 버스팅 버전
-const NAMU_DATA_VERSION = '20260309';
+const NAMU_DATA_VERSION = '20260330';
 
 // ============================================================
 // 진입점
@@ -389,6 +390,7 @@ function switchNamuDetailTab(tabId) {
         case 'members': renderNamuMembers(content, namuCurrentGroup); break;
         case 'discography': renderNamuDiscography(content, namuCurrentGroup); break;
         case 'chart': renderNamuChart(content, namuCurrentGroup); break;
+        case 'streaming': renderNamuStreaming(content, namuCurrentGroup); break;
     }
 
     trackEvent('namu_tab_switch', {
@@ -439,11 +441,71 @@ function renderNamuProfile(container, group) {
         }
     }
 
+    // 스트리밍 통계 섹션
+    var streamHtml = '';
+    var st = group.streaming || {};
+    var sp = st.spotify || {};
+    var yt = st.ytmusic || {};
+
+    if (sp.monthly_listeners || yt.total_views) {
+        streamHtml += '<h5 class="fw-bold mt-4 mb-3">스트리밍</h5>';
+        streamHtml += '<div class="row g-2 mb-3">';
+
+        if (sp.monthly_listeners) {
+            var mlStr = sp.monthly_listeners >= 1000000
+                ? (sp.monthly_listeners / 1000000).toFixed(1) + 'M'
+                : sp.monthly_listeners >= 1000
+                ? (sp.monthly_listeners / 1000).toFixed(0) + 'K'
+                : sp.monthly_listeners.toLocaleString();
+            var spUrl = sp.spotify_id ? 'https://open.spotify.com/artist/' + sp.spotify_id : '#';
+            streamHtml += '<div class="col-6"><div class="card bg-light border-0 p-2 text-center">' +
+                '<div class="text-muted small">Spotify 월간 리스너</div>' +
+                '<div class="fw-bold fs-5" style="color:#1DB954">' + mlStr + '</div>' +
+                '<a href="' + spUrl + '" target="_blank" class="btn btn-sm btn-outline-success mt-1" style="font-size:0.7rem">Spotify에서 보기</a>' +
+                '</div></div>';
+        }
+
+        if (yt.total_views) {
+            var tvStr = yt.total_views >= 1000000000
+                ? (yt.total_views / 1000000000).toFixed(1) + 'B'
+                : yt.total_views >= 1000000
+                ? (yt.total_views / 1000000).toFixed(0) + 'M'
+                : yt.total_views.toLocaleString();
+            streamHtml += '<div class="col-6"><div class="card bg-light border-0 p-2 text-center">' +
+                '<div class="text-muted small">YT Music 총 조회수</div>' +
+                '<div class="fw-bold fs-5" style="color:#FF0000">' + tvStr + '</div>' +
+                '<div class="text-muted" style="font-size:0.7rem">' + (yt.track_count || 0) + '곡</div>' +
+                '</div></div>';
+        }
+        streamHtml += '</div>';
+
+        // Spotify Top 트랙
+        var topTracks = (sp.top_tracks || []);
+        if (topTracks.length > 0) {
+            streamHtml += '<div class="small fw-bold mb-1" style="color:#1DB954">Spotify Top 트랙</div>';
+            streamHtml += '<ul class="list-group list-group-flush small">';
+            for (var ti = 0; ti < topTracks.length; ti++) {
+                var tt = topTracks[ti];
+                var pcStr = tt.play_count >= 1000000
+                    ? (tt.play_count / 1000000).toFixed(1) + 'M'
+                    : tt.play_count >= 1000
+                    ? (tt.play_count / 1000).toFixed(0) + 'K'
+                    : tt.play_count.toLocaleString();
+                var trackUrl = tt.uri ? 'https://open.spotify.com/track/' + tt.uri.split(':').pop() : '#';
+                streamHtml += '<li class="list-group-item px-0 py-1 d-flex justify-content-between">' +
+                    '<a href="' + trackUrl + '" target="_blank" class="text-decoration-none text-dark">' + (ti + 1) + '. ' + tt.title + '</a>' +
+                    '<span class="text-muted">' + pcStr + '</span></li>';
+            }
+            streamHtml += '</ul>';
+        }
+    }
+
     container.innerHTML =
         '<div class="card border-0 shadow-sm p-3">' +
         '<h5 class="fw-bold mb-3">기본 정보</h5>' +
         '<ul class="list-group list-group-flush">' + infoHtml + '</ul>' +
         (hasSns ? '<h5 class="fw-bold mt-4 mb-3">SNS</h5><div class="d-flex flex-wrap gap-2">' + snsHtml + '</div>' : '') +
+        streamHtml +
         '</div>';
 }
 
@@ -520,6 +582,127 @@ function renderNamuDiscography(container, group) {
         '<tbody>' + rows + '</tbody>' +
         '</table></div>' +
         '<small class="text-muted">* 판매량의 ** 표시는 나무위키 원본의 근사치입니다</small>';
+}
+
+// ============================================================
+// 스트리밍 탭 — Spotify + YTMusic 곡별 데이터
+// ============================================================
+
+function _fmtViews(n) {
+    // 조회수 포맷: 1.2B, 345M, 12K
+    if (!n || n === 0) return '-';
+    if (n >= 1e9) return (n / 1e9).toFixed(1) + 'B';
+    if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
+    if (n >= 1e3) return (n / 1e3).toFixed(0) + 'K';
+    return n.toLocaleString();
+}
+
+function renderNamuStreaming(container, group) {
+    var st = group.streaming || {};
+    var sp = st.spotify || {};
+    var yt = st.ytmusic || {};
+
+    if (!sp.monthly_listeners && !yt.total_views) {
+        container.innerHTML = '<div class="text-center py-4 text-muted">스트리밍 데이터가 없습니다.</div>';
+        return;
+    }
+
+    var html = '';
+
+    // === 요약 카드 ===
+    html += '<div class="row g-2 mb-4">';
+    if (sp.monthly_listeners) {
+        html += '<div class="col-6 col-md-3"><div class="card border-0 shadow-sm p-2 text-center">' +
+            '<div class="text-muted small">Spotify 월간 리스너</div>' +
+            '<div class="fw-bold fs-5" style="color:#1DB954">' + _fmtViews(sp.monthly_listeners) + '</div>' +
+            '</div></div>';
+    }
+    if (yt.total_views) {
+        html += '<div class="col-6 col-md-3"><div class="card border-0 shadow-sm p-2 text-center">' +
+            '<div class="text-muted small">YT Music 총 조회수</div>' +
+            '<div class="fw-bold fs-5" style="color:#FF0000">' + _fmtViews(yt.total_views) + '</div>' +
+            '</div></div>';
+    }
+    if (yt.track_count) {
+        html += '<div class="col-6 col-md-3"><div class="card border-0 shadow-sm p-2 text-center">' +
+            '<div class="text-muted small">YT Music 곡 수</div>' +
+            '<div class="fw-bold fs-5">' + yt.track_count + '곡</div>' +
+            '</div></div>';
+    }
+    if (yt.mean_views) {
+        html += '<div class="col-6 col-md-3"><div class="card border-0 shadow-sm p-2 text-center">' +
+            '<div class="text-muted small">곡당 평균 조회수</div>' +
+            '<div class="fw-bold fs-5">' + _fmtViews(yt.mean_views) + '</div>' +
+            '</div></div>';
+    }
+    html += '</div>';
+
+    // === Spotify Top 트랙 테이블 ===
+    var topTracks = sp.top_tracks || [];
+    if (topTracks.length > 0) {
+        html += '<h6 class="fw-bold mb-2" style="color:#1DB954">Spotify Top 트랙</h6>';
+        html += '<div class="table-responsive mb-4"><table class="table table-sm table-hover">';
+        html += '<thead><tr><th>#</th><th>곡명</th><th class="text-end">재생수</th><th></th></tr></thead><tbody>';
+        for (var i = 0; i < topTracks.length; i++) {
+            var t = topTracks[i];
+            var trackUrl = t.uri ? 'https://open.spotify.com/track/' + t.uri.split(':').pop() : '#';
+            html += '<tr>' +
+                '<td>' + (i + 1) + '</td>' +
+                '<td>' + t.title + '</td>' +
+                '<td class="text-end fw-bold">' + _fmtViews(t.play_count) + '</td>' +
+                '<td><a href="' + trackUrl + '" target="_blank" class="btn btn-sm btn-outline-success py-0" style="font-size:0.7rem">Play</a></td>' +
+                '</tr>';
+        }
+        html += '</tbody></table></div>';
+    }
+
+    // === YTMusic 앨범별 곡 테이블 ===
+    var ytAlbums = yt.albums || [];
+    if (ytAlbums.length > 0) {
+        html += '<h6 class="fw-bold mb-2" style="color:#FF0000">YouTube Music 앨범별 조회수</h6>';
+        for (var ai = 0; ai < ytAlbums.length; ai++) {
+            var album = ytAlbums[ai];
+            var tracks = album.tracks || [];
+            if (tracks.length === 0) continue;
+
+            var albumTotal = 0;
+            for (var tj = 0; tj < tracks.length; tj++) {
+                albumTotal += (tracks[tj].youtube_views || 0);
+            }
+
+            html += '<div class="mb-3">';
+            html += '<div class="d-flex justify-content-between align-items-center mb-1">' +
+                '<span class="fw-bold small">' + album.title + ' <span class="text-muted fw-normal">(' + (album.year || '') + ')</span></span>' +
+                '<span class="text-muted small">' + _fmtViews(albumTotal) + '</span></div>';
+
+            html += '<div class="table-responsive"><table class="table table-sm mb-0" style="font-size:0.85rem">';
+            html += '<thead><tr><th>#</th><th>곡명</th><th class="text-end">조회수</th><th></th></tr></thead><tbody>';
+
+            // 조회수 내림차순 정렬
+            var sortedTracks = tracks.slice().sort(function(a, b) {
+                return (b.youtube_views || 0) - (a.youtube_views || 0);
+            });
+
+            for (var tk = 0; tk < sortedTracks.length; tk++) {
+                var tr = sortedTracks[tk];
+                var ytUrl = tr.video_id ? 'https://music.youtube.com/watch?v=' + tr.video_id : '#';
+                var viewsClass = (tr.youtube_views || 0) >= 10000000 ? 'fw-bold' : '';
+                html += '<tr>' +
+                    '<td class="text-muted">' + (tk + 1) + '</td>' +
+                    '<td>' + tr.title + '</td>' +
+                    '<td class="text-end ' + viewsClass + '">' + _fmtViews(tr.youtube_views) + '</td>' +
+                    '<td><a href="' + ytUrl + '" target="_blank" class="text-danger" style="font-size:0.7rem;text-decoration:none">▶</a></td>' +
+                    '</tr>';
+            }
+            html += '</tbody></table></div></div>';
+        }
+    }
+
+    if (st.collected_at) {
+        html += '<small class="text-muted">수집일: ' + st.collected_at + '</small>';
+    }
+
+    container.innerHTML = html;
 }
 
 // ============================================================

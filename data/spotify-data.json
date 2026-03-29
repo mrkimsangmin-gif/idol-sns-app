@@ -1,0 +1,6155 @@
+{
+  "generated": "2026-03-18T07:05:30",
+  "total_artists": 174,
+  "artists": {
+    "aespa": {
+      "name": "에스파",
+      "name_en": "aespa",
+      "gender": "여자",
+      "spotify_id": "6YVMFz59CuY7ngCxTxjpxE",
+      "spotify_name": "aespa",
+      "monthly_listeners": 9747975,
+      "top_tracks": [
+        {
+          "title": "Whiplash",
+          "play_count": 361360061,
+          "uri": "spotify:track:6uPnrBgweGOcwjFL4ItAvV"
+        },
+        {
+          "title": "Drama",
+          "play_count": 453249440,
+          "uri": "spotify:track:5XWlyfo0kZ8LF7VSyfS4Ew"
+        },
+        {
+          "title": "Supernova",
+          "play_count": 396857454,
+          "uri": "spotify:track:2VdSktBqFfkW7y6q5Ik4Z4"
+        },
+        {
+          "title": "Rich Man",
+          "play_count": 71245656,
+          "uri": "spotify:track:53xn9j8QEj4RBJa1MlYqFy"
+        },
+        {
+          "title": "Armageddon",
+          "play_count": 310960390,
+          "uri": "spotify:track:5eWcGfUCrVFMoYskyfkEPE"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:11"
+    },
+    "NewJeans": {
+      "name": "뉴진스",
+      "name_en": "NewJeans",
+      "gender": "여자",
+      "spotify_id": "6HvZYsbFfjnjFrWF950C9d",
+      "spotify_name": "NewJeans",
+      "monthly_listeners": 13493324,
+      "top_tracks": [
+        {
+          "title": "Ditto",
+          "play_count": 893809447,
+          "uri": "spotify:track:3r8RuvgbX9s7ammBn07D3W"
+        },
+        {
+          "title": "Super Shy",
+          "play_count": 833837637,
+          "uri": "spotify:track:5sdQOyqq2IDhvmx2lHOpwd"
+        },
+        {
+          "title": "New Jeans",
+          "play_count": 508635699,
+          "uri": "spotify:track:6rdkCkjk6D12xRpdMXy0I2"
+        },
+        {
+          "title": "OMG",
+          "play_count": 920328479,
+          "uri": "spotify:track:65FftemJ1DbbZ45DUfHJXE"
+        },
+        {
+          "title": "Hype Boy",
+          "play_count": 748138007,
+          "uri": "spotify:track:0a4MMyCrzT0En247IhqZbD"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:47"
+    },
+    "LE SSERAFIM": {
+      "name": "르세라핌",
+      "name_en": "LE SSERAFIM",
+      "gender": "여자",
+      "spotify_id": "4SpbR6yFEvexJuaBpgAU5p",
+      "spotify_name": "LE SSERAFIM",
+      "monthly_listeners": 14727728,
+      "top_tracks": [
+        {
+          "title": "SPAGHETTI",
+          "play_count": 215101996,
+          "uri": "spotify:track:2N9miXnewVmUrgl6JSK1FI"
+        },
+        {
+          "title": "CRAZY",
+          "play_count": 441888434,
+          "uri": "spotify:track:4gxEY3Mh5FZZDAJAKPNrCS"
+        },
+        {
+          "title": "ANTIFRAGILE",
+          "play_count": 686536822,
+          "uri": "spotify:track:0bMoNdAnxNR0OuQbGDovrr"
+        },
+        {
+          "title": "Perfect Night",
+          "play_count": 510496648,
+          "uri": "spotify:track:74X2u8JMVooG2QbjRxXwR8"
+        },
+        {
+          "title": "HOT",
+          "play_count": 160850663,
+          "uri": "spotify:track:24Y63uAvj6Oc9jGuTlhlgf"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:48"
+    },
+    "BTS": {
+      "name": "방탄소년단",
+      "name_en": "BTS",
+      "gender": "남자",
+      "spotify_id": "3Nrfpe0tUJi4K4DXYWgMUX",
+      "spotify_name": "BTS",
+      "monthly_listeners": 25279712,
+      "top_tracks": [
+        {
+          "title": "Life Goes On",
+          "play_count": 994095978,
+          "uri": "spotify:track:5FVbvttjEvQ8r2BgUcJgNg"
+        },
+        {
+          "title": "Dynamite",
+          "play_count": 2233330954,
+          "uri": "spotify:track:5QDLhrAOJJdNAmCTJ8xMyW"
+        },
+        {
+          "title": "My Universe",
+          "play_count": 1579150666,
+          "uri": "spotify:track:46HNZY1i7O6jwTA7Slo2PI"
+        },
+        {
+          "title": "DNA",
+          "play_count": 783746520,
+          "uri": "spotify:track:3uRLwBjI2TahxslcMTvpFs"
+        },
+        {
+          "title": "작은 것들을 위한 시 (Boy With Luv) (feat. Halsey)",
+          "play_count": 1367081794,
+          "uri": "spotify:track:2V7Gxq4QW2Fm4zizDF0V6Z"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:48"
+    },
+    "SEVENTEEN": {
+      "name": "세븐틴",
+      "name_en": "SEVENTEEN",
+      "gender": "남자",
+      "spotify_id": "7nqOGRxlXj7N2JYbgNEjYH",
+      "spotify_name": "SEVENTEEN",
+      "monthly_listeners": 5107734,
+      "top_tracks": [
+        {
+          "title": "THUNDER",
+          "play_count": 96328713,
+          "uri": "spotify:track:6oeMntjclWLoguzwj5ECTo"
+        },
+        {
+          "title": "Super",
+          "play_count": 306685062,
+          "uri": "spotify:track:3AOf6YEpxQ894FmrwI9k96"
+        },
+        {
+          "title": "HOT",
+          "play_count": 288597009,
+          "uri": "spotify:track:6I2tqFhk8tq69iursYxuxd"
+        },
+        {
+          "title": "Rock with you",
+          "play_count": 227042189,
+          "uri": "spotify:track:6LnEoRQKMcaFTR5UvaKuBy"
+        },
+        {
+          "title": "VERY NICE",
+          "play_count": 231299744,
+          "uri": "spotify:track:1Rrj7KyS2R6SP9CQMDJW1w"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:49"
+    },
+    "BLACKPINK": {
+      "name": "블랙핑크",
+      "name_en": "BLACKPINK",
+      "gender": "여자",
+      "spotify_id": "41MozSoPIsD1dJM0CLPjZF",
+      "spotify_name": "BLACKPINK",
+      "monthly_listeners": 26758166,
+      "top_tracks": [
+        {
+          "title": "JUMP",
+          "play_count": 548206533,
+          "uri": "spotify:track:4JjJ1KNRrzqstSY0uDuys3"
+        },
+        {
+          "title": "GO",
+          "play_count": 37165399,
+          "uri": "spotify:track:0XanaXeMJJ4VdjWzwok7ZI"
+        },
+        {
+          "title": "Champion",
+          "play_count": 19411569,
+          "uri": "spotify:track:1ozBTzeYuIwCUsMDJTV2fw"
+        },
+        {
+          "title": "Me and my",
+          "play_count": 14638780,
+          "uri": "spotify:track:14ihgY3VH11Uy7zIcoSkP8"
+        },
+        {
+          "title": "Fxxxboy",
+          "play_count": 12043089,
+          "uri": "spotify:track:6C3aCtnqZGMij9FDWeDlQx"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:50"
+    },
+    "TWICE": {
+      "name": "트와이스",
+      "name_en": "TWICE",
+      "gender": "여자",
+      "spotify_id": "7n2Ycct7Beij7Dj7meI4X0",
+      "spotify_name": "TWICE",
+      "monthly_listeners": 16558318,
+      "top_tracks": [
+        {
+          "title": "Strategy",
+          "play_count": 310825981,
+          "uri": "spotify:track:3yXCK8TTnHknY7VVcsNTjx"
+        },
+        {
+          "title": "TAKEDOWN (JEONGYEON, JIHYO, CHAEYOUNG)",
+          "play_count": 297492383,
+          "uri": "spotify:track:66YNrNS01ox8TJwxN67BfY"
+        },
+        {
+          "title": "THIS IS FOR",
+          "play_count": 153119161,
+          "uri": "spotify:track:3fwjo4HYqaQcvdJP3d4twX"
+        },
+        {
+          "title": "What is Love?",
+          "play_count": 631609475,
+          "uri": "spotify:track:7L81PqO3zKKPsfO7jfyvus"
+        },
+        {
+          "title": "Strategy (feat. Megan Thee Stallion)",
+          "play_count": 167803452,
+          "uri": "spotify:track:5111HV1Fb6hfeHH0b7VYMm"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:50"
+    },
+    "Stray Kids": {
+      "name": "스트레이키즈",
+      "name_en": "Stray Kids",
+      "gender": "남자",
+      "spotify_id": "2dIgFjalVxs4ThymZ67YCE",
+      "spotify_name": "Stray Kids",
+      "monthly_listeners": 10622331,
+      "top_tracks": [
+        {
+          "title": "Do It",
+          "play_count": 87718533,
+          "uri": "spotify:track:1uAwfkhhuiAH0pBAWjBlx7"
+        },
+        {
+          "title": "Chk Chk Boom",
+          "play_count": 390803261,
+          "uri": "spotify:track:4Y2SbIvpaBfL2844r8EGgT"
+        },
+        {
+          "title": "신선놀음 DIVINE",
+          "play_count": 61281598,
+          "uri": "spotify:track:0x90VmJtwI0ZK79pp94GpU"
+        },
+        {
+          "title": "CEREMONY",
+          "play_count": 109875176,
+          "uri": "spotify:track:7EdgizR99xZh1EpngDaSBi"
+        },
+        {
+          "title": "락 (樂) LALALALA",
+          "play_count": 343789195,
+          "uri": "spotify:track:26yvgQHa2ozFcwpwHDyUUp"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:51"
+    },
+    "TXT": {
+      "name": "투모로우바이투게더",
+      "name_en": "TXT",
+      "gender": "남자",
+      "spotify_id": "0ghlgldX5Dd6720Q3qFyQB",
+      "spotify_name": "TOMORROW X TOGETHER",
+      "monthly_listeners": 6176137,
+      "top_tracks": [
+        {
+          "title": "Beautiful Strangers",
+          "play_count": 112268242,
+          "uri": "spotify:track:6IYvOX6K6tbBmj00JRU5Rw"
+        },
+        {
+          "title": "Deja Vu",
+          "play_count": 233383935,
+          "uri": "spotify:track:3aAnwyBJY9OLNLqSgd4fZU"
+        },
+        {
+          "title": "I’ll See You There Tomorrow",
+          "play_count": 82424433,
+          "uri": "spotify:track:0bMWoFtQIrnW5YyNMc4aKQ"
+        },
+        {
+          "title": "Love Language",
+          "play_count": 84492150,
+          "uri": "spotify:track:3wBeIjb0vtiTwIQPce2stZ"
+        },
+        {
+          "title": "0X1=LOVESONG (I Know I Love You) feat. Seori",
+          "play_count": 328345410,
+          "uri": "spotify:track:1Z8TPHiKeCUyClxV6WTTIf"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:52"
+    },
+    "i-dle": {
+      "name": "아이들",
+      "name_en": "i-dle",
+      "gender": "여자",
+      "spotify_id": "2AfmfGFbe0A0WsTYm0SDTx",
+      "spotify_name": "i-dle",
+      "monthly_listeners": 7147706,
+      "top_tracks": [
+        {
+          "title": "Mono (Feat. skaiwater)",
+          "play_count": 14111752,
+          "uri": "spotify:track:2KYKOG5dNgY4sZHWf5hr3g"
+        },
+        {
+          "title": "Queencard",
+          "play_count": 417587595,
+          "uri": "spotify:track:68r87x3VZdAMhv8nBVuynz"
+        },
+        {
+          "title": "Nxde",
+          "play_count": 319978589,
+          "uri": "spotify:track:7Ejqkb9YfldcLoh8B6bXgj"
+        },
+        {
+          "title": "TOMBOY",
+          "play_count": 369400525,
+          "uri": "spotify:track:6WYsZJDfUOftGVji74yYSU"
+        },
+        {
+          "title": "POP/STARS",
+          "play_count": 419717733,
+          "uri": "spotify:track:3em2uN4cCWHcCXhjMzJ8ps"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:52"
+    },
+    "Red Velvet": {
+      "name": "레드벨벳",
+      "name_en": "Red Velvet",
+      "gender": "여자",
+      "spotify_id": "1z4g3DjTBBZKhvAroFlhOM",
+      "spotify_name": "Red Velvet",
+      "monthly_listeners": 5406271,
+      "top_tracks": [
+        {
+          "title": "Psycho",
+          "play_count": 545270611,
+          "uri": "spotify:track:3CYH422oy1cZNoo0GTG1TK"
+        },
+        {
+          "title": "러시안 룰렛 Russian Roulette",
+          "play_count": 234681345,
+          "uri": "spotify:track:5HiSc2ZCGn8L3cH3qSwzBT"
+        },
+        {
+          "title": "Bad Boy",
+          "play_count": 351796898,
+          "uri": "spotify:track:5GKwq4sO5ZHKuWaDmdwMQc"
+        },
+        {
+          "title": "Cosmic",
+          "play_count": 92204306,
+          "uri": "spotify:track:4s2MSGZJE1NVmzWkxXB6Qa"
+        },
+        {
+          "title": "Red Flavor",
+          "play_count": 215898065,
+          "uri": "spotify:track:7nKQ5WAcjnG48knyLuo8gO"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:18"
+    },
+    "ITZY": {
+      "name": "있지",
+      "name_en": "ITZY",
+      "gender": "여자",
+      "spotify_id": "2KC9Qb60EaY0kW4eH68vr3",
+      "spotify_name": "ITZY",
+      "monthly_listeners": 3914215,
+      "top_tracks": [
+        {
+          "title": "WANNABE",
+          "play_count": 435194349,
+          "uri": "spotify:track:2IYnnkPXK1zvoCIHAkyiFA"
+        },
+        {
+          "title": "TUNNEL VISION",
+          "play_count": 15879807,
+          "uri": "spotify:track:7InUGlO9nGHcrirzOcQzzT"
+        },
+        {
+          "title": "THAT'S A NO NO",
+          "play_count": 18111453,
+          "uri": "spotify:track:5Dxoukq4UC29A7OjQTbHgw"
+        },
+        {
+          "title": "LOCO",
+          "play_count": 307549875,
+          "uri": "spotify:track:6hAznmvhIfHE4vSZYsyONI"
+        },
+        {
+          "title": "달라달라 (DALLA DALLA)",
+          "play_count": 280264659,
+          "uri": "spotify:track:5JA4q7xkeSxmhgfAkPWnWW"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:53"
+    },
+    "IVE": {
+      "name": "아이브",
+      "name_en": "IVE",
+      "gender": "여자",
+      "spotify_id": "6RHTUrRF63xao58xh9FXYJ",
+      "spotify_name": "IVE",
+      "monthly_listeners": 8089130,
+      "top_tracks": [
+        {
+          "title": "BANG BANG",
+          "play_count": 27723329,
+          "uri": "spotify:track:5Mm6tCipllD4mCnDKv7hjX"
+        },
+        {
+          "title": "BLACKHOLE",
+          "play_count": 8781713,
+          "uri": "spotify:track:0MtiWniV24IBXmBPeW1v1m"
+        },
+        {
+          "title": "I AM",
+          "play_count": 402590015,
+          "uri": "spotify:track:7KavHYqoVFNB3IUXfs5gvP"
+        },
+        {
+          "title": "XOXZ",
+          "play_count": 55275823,
+          "uri": "spotify:track:2f79jWcTf2pxVxDLdxi1Lm"
+        },
+        {
+          "title": "After LIKE",
+          "play_count": 464144154,
+          "uri": "spotify:track:6CV6j2xz54thzlrWML3kAW"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:54"
+    },
+    "BABYMONSTER": {
+      "name": "베이비몬스터",
+      "name_en": "BABYMONSTER",
+      "gender": "여자",
+      "spotify_id": "1SIocsqdEefUTE6XKGUiVS",
+      "spotify_name": "BABYMONSTER",
+      "monthly_listeners": 7288656,
+      "top_tracks": [
+        {
+          "title": "PSYCHO",
+          "play_count": 58503098,
+          "uri": "spotify:track:7jp2VW62Yt2bDOaRas3hR6"
+        },
+        {
+          "title": "WE GO UP",
+          "play_count": 74495399,
+          "uri": "spotify:track:49DTiFx70EuJLV7hDsCo6z"
+        },
+        {
+          "title": "DRIP",
+          "play_count": 262134550,
+          "uri": "spotify:track:198zDKzyktXRG1PGpidY9h"
+        },
+        {
+          "title": "SHEESH",
+          "play_count": 386198462,
+          "uri": "spotify:track:1njlnn8ZKHI77Pe9szIONR"
+        },
+        {
+          "title": "FOREVER",
+          "play_count": 206256310,
+          "uri": "spotify:track:6b6KXDbDn0s0Jepxm8a3nr"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:20"
+    },
+    "NMIXX": {
+      "name": "엔믹스",
+      "name_en": "NMIXX",
+      "gender": "여자",
+      "spotify_id": "28ot3wh4oNmoFOdVajibBl",
+      "spotify_name": "NMIXX",
+      "monthly_listeners": 4018133,
+      "top_tracks": [
+        {
+          "title": "Blue Valentine",
+          "play_count": 45894329,
+          "uri": "spotify:track:0FKR7mQJnYqdEmHAMhgQjw"
+        },
+        {
+          "title": "TIC TIC (feat. Pabllo Vittar)",
+          "play_count": 3672195,
+          "uri": "spotify:track:3LI7emieOkgFz1qbVcKR7m"
+        },
+        {
+          "title": "Love Me Like This",
+          "play_count": 146894732,
+          "uri": "spotify:track:2W8UduoifU1zgjKZlfY79S"
+        },
+        {
+          "title": "KNOW ABOUT ME",
+          "play_count": 37542262,
+          "uri": "spotify:track:719MkAinn7QVNoibvtkSHW"
+        },
+        {
+          "title": "DICE",
+          "play_count": 201450672,
+          "uri": "spotify:track:6C734SmqoIYuRWo2qSCnpC"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:54"
+    },
+    "WJSN": {
+      "name": "우주소녀",
+      "name_en": "WJSN",
+      "gender": "여자",
+      "spotify_id": "6hhqsQZhtp9hfaZhSd0VSD",
+      "spotify_name": "WJSN",
+      "monthly_listeners": 445188,
+      "top_tracks": [
+        {
+          "title": "Bloom hour",
+          "play_count": 678135,
+          "uri": "spotify:track:0sTy2p3PUkU55Hda1rAiFq"
+        },
+        {
+          "title": "Secret",
+          "play_count": 24117147,
+          "uri": "spotify:track:1OIb1AalkGikhzCRbWgchd"
+        },
+        {
+          "title": "As You Wish",
+          "play_count": 23376418,
+          "uri": "spotify:track:42zMiF3EFBg5CsYbgKdhj1"
+        },
+        {
+          "title": "Save Me, Save You",
+          "play_count": 24775406,
+          "uri": "spotify:track:20yOiJHRQGirFYehRSIb6i"
+        },
+        {
+          "title": "Mirror",
+          "play_count": 183808,
+          "uri": "spotify:track:0Ps6ei3b7IcDiEO7Fey16c"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:21"
+    },
+    "ILLIT": {
+      "name": "아일릿",
+      "name_en": "ILLIT",
+      "gender": "여자",
+      "spotify_id": "36cgvBn0aadzOijnjjwqMN",
+      "spotify_name": "ILLIT",
+      "monthly_listeners": 13389712,
+      "top_tracks": [
+        {
+          "title": "NOT CUTE ANYMORE",
+          "play_count": 133139487,
+          "uri": "spotify:track:1k0JAiH11gHL9dc5dfQjQr"
+        },
+        {
+          "title": "Magnetic",
+          "play_count": 776377463,
+          "uri": "spotify:track:1aKvZDoLGkNMxoRYgkckZG"
+        },
+        {
+          "title": "jellyous",
+          "play_count": 101399890,
+          "uri": "spotify:track:51pREVFJeAJGvhJ1rYCKZH"
+        },
+        {
+          "title": "Billyeoon Goyangi (Do the Dance)",
+          "play_count": 120269547,
+          "uri": "spotify:track:4p0uVFAXKUISu8yp9gNtWE"
+        },
+        {
+          "title": "Tick-Tack",
+          "play_count": 164431967,
+          "uri": "spotify:track:0znsc67nMhP4X9hjhvoyeP"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:55"
+    },
+    "STAYC": {
+      "name": "스테이씨",
+      "name_en": "STAYC",
+      "gender": "여자",
+      "spotify_id": "01XYiBYaoMJcNhPokrg0l0",
+      "spotify_name": "STAYC",
+      "monthly_listeners": 1358702,
+      "top_tracks": [
+        {
+          "title": "ASAP",
+          "play_count": 147961514,
+          "uri": "spotify:track:5BXr7hYZQOeRttkeWYTq5S"
+        },
+        {
+          "title": "STEREOTYPE",
+          "play_count": 143488722,
+          "uri": "spotify:track:2bZIDMpzVooosmPHn0tHnd"
+        },
+        {
+          "title": "RUN2U",
+          "play_count": 121882556,
+          "uri": "spotify:track:3gFcGnU4kTdMYLXDjH1TK8"
+        },
+        {
+          "title": "GPT",
+          "play_count": 19347987,
+          "uri": "spotify:track:36qXU2yyq1JtGp05omV7bu"
+        },
+        {
+          "title": "SO BAD",
+          "play_count": 79856053,
+          "uri": "spotify:track:13KR2yNRDrbKwR3dOKCDl4"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:23"
+    },
+    "MEOVV": {
+      "name": "미야오",
+      "name_en": "MEOVV",
+      "gender": "여자",
+      "spotify_id": "08hHTBHlv0WRXWlyrsb6Kv",
+      "spotify_name": "MEOVV",
+      "monthly_listeners": 3039655,
+      "top_tracks": [
+        {
+          "title": "HANDS UP",
+          "play_count": 94752600,
+          "uri": "spotify:track:5nMZZAx81447SskgOnuRIe"
+        },
+        {
+          "title": "BURNING UP",
+          "play_count": 31061798,
+          "uri": "spotify:track:6QQy6TLGFosP96SREaVaYD"
+        },
+        {
+          "title": "MEOW",
+          "play_count": 106396715,
+          "uri": "spotify:track:1YjhXcHqe2ztp70ArdZOPa"
+        },
+        {
+          "title": "BODY",
+          "play_count": 41638786,
+          "uri": "spotify:track:3I3pAp1C20ZmSO0g8r4yXW"
+        },
+        {
+          "title": "DROP TOP",
+          "play_count": 23447716,
+          "uri": "spotify:track:7K8hbSlXRNCEqt8o3MLOd9"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:56"
+    },
+    "Kep1er": {
+      "name": "케플러",
+      "name_en": "Kep1er",
+      "gender": "여자",
+      "spotify_id": "5R7AMwDeroq6Ls0COQYpS4",
+      "spotify_name": "Kep1er",
+      "monthly_listeners": 847920,
+      "top_tracks": [
+        {
+          "title": "WA DA DA",
+          "play_count": 193209628,
+          "uri": "spotify:track:4gdiCHNbwugojBqr5Jt3pq"
+        },
+        {
+          "title": "Shooting Star",
+          "play_count": 18636165,
+          "uri": "spotify:track:0k2JbfyqtVhiLqGgNuwQGX"
+        },
+        {
+          "title": "BUBBLE GUM",
+          "play_count": 5490330,
+          "uri": "spotify:track:3IUtLSW5FWB0K4RdkvOamG"
+        },
+        {
+          "title": "Up!",
+          "play_count": 62990617,
+          "uri": "spotify:track:3XZAvh2NCDQYHgJei35VQ1"
+        },
+        {
+          "title": "Yum",
+          "play_count": 4414990,
+          "uri": "spotify:track:6KsXEZEbBcH16U31sIyofB"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:57"
+    },
+    "KISS OF LIFE": {
+      "name": "키스오브라이프",
+      "name_en": "KISS OF LIFE",
+      "gender": "여자",
+      "spotify_id": "4TEK9tIkcoxib4GxT3O4ky",
+      "spotify_name": "KISS OF LIFE",
+      "monthly_listeners": 3814531,
+      "top_tracks": [
+        {
+          "title": "Igloo",
+          "play_count": 227678743,
+          "uri": "spotify:track:2DbDefRFJ5YOfXCKOeCJJh"
+        },
+        {
+          "title": "Sticky",
+          "play_count": 172917459,
+          "uri": "spotify:track:4e1aewX6ATPcdfQIqr7gqO"
+        },
+        {
+          "title": "Sugarcoat (NATTY Solo)",
+          "play_count": 124474334,
+          "uri": "spotify:track:0NoeYUnwpb9R26mpylHcR9"
+        },
+        {
+          "title": "Midas Touch",
+          "play_count": 160031158,
+          "uri": "spotify:track:0vaxYDAuAO1nPolC6bQp7V"
+        },
+        {
+          "title": "Lips Hips Kiss",
+          "play_count": 27943855,
+          "uri": "spotify:track:5Q4DLsIx0Fl0IDCCWHsLlH"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:57"
+    },
+    "fromis_9": {
+      "name": "프로미스나인",
+      "name_en": "fromis_9",
+      "gender": "여자",
+      "spotify_id": "24nUVBIlCGi4twz4nYxJum",
+      "spotify_name": "fromis_9",
+      "monthly_listeners": 1614348,
+      "top_tracks": [
+        {
+          "title": "Supersonic",
+          "play_count": 58396386,
+          "uri": "spotify:track:6oNLSQX8bcAdbCElZYju3v"
+        },
+        {
+          "title": "Love Me Back",
+          "play_count": 49143582,
+          "uri": "spotify:track:2IMPPA9UZpqTnnVIy9lDHU"
+        },
+        {
+          "title": "DM",
+          "play_count": 71565068,
+          "uri": "spotify:track:7B9W7Qsy5M2kyUNjQYIEG8"
+        },
+        {
+          "title": "White Memories",
+          "play_count": 4131231,
+          "uri": "spotify:track:7hCdtQsaKCBXrITaPNK2iE"
+        },
+        {
+          "title": "LIKE YOU BETTER",
+          "play_count": 11428273,
+          "uri": "spotify:track:7t4Z19BqZ23ExgdiOP0nf6"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:25"
+    },
+    "tripleS": {
+      "name": "트리플에스",
+      "name_en": "tripleS",
+      "gender": "여자",
+      "spotify_id": "5Z71xE9prhpHrqL5thVMyK",
+      "spotify_name": "tripleS",
+      "monthly_listeners": 966046,
+      "top_tracks": [
+        {
+          "title": "Girls Never Die",
+          "play_count": 53232492,
+          "uri": "spotify:track:0Ol7uhYjodbXAKKarXdn6r"
+        },
+        {
+          "title": "Are You Alive",
+          "play_count": 15191846,
+          "uri": "spotify:track:0KEgaOvobKmv9VVQg2WI0P"
+        },
+        {
+          "title": "Cameo Love",
+          "play_count": 2996972,
+          "uri": "spotify:track:1JR7Ko9pkVRXuKWZz8VZQF"
+        },
+        {
+          "title": "Generation",
+          "play_count": 54679577,
+          "uri": "spotify:track:1RHTdr5QfviCYI70QPPDJN"
+        },
+        {
+          "title": "Rising",
+          "play_count": 34276503,
+          "uri": "spotify:track:6QCPweR3aP6nj7P43WpiZs"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:26"
+    },
+    "OH MY GIRL": {
+      "name": "오마이걸",
+      "name_en": "OH MY GIRL",
+      "gender": "여자",
+      "spotify_id": "2019zR22qK2RBvCqtudBaI",
+      "spotify_name": "OH MY GIRL",
+      "monthly_listeners": 691649,
+      "top_tracks": [
+        {
+          "title": "Dolphin",
+          "play_count": 86422047,
+          "uri": "spotify:track:5gpojs9yi3nm8aC3BOg6q5"
+        },
+        {
+          "title": "Nonstop",
+          "play_count": 87747688,
+          "uri": "spotify:track:4ljXOIFNSjnGA2VuCYHQTS"
+        },
+        {
+          "title": "Dun Dun Dance",
+          "play_count": 55998201,
+          "uri": "spotify:track:5rp3c6ueLX4XjTeDS1RLjN"
+        },
+        {
+          "title": "The fifth season (SSFWL)",
+          "play_count": 29287104,
+          "uri": "spotify:track:3OOule225U6G8jfuR9tHIB"
+        },
+        {
+          "title": "Secret Garden",
+          "play_count": 25803850,
+          "uri": "spotify:track:1xB3DS43HzAz7YKhjSFSwl"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:27"
+    },
+    "Dreamcatcher": {
+      "name": "드림캐쳐",
+      "name_en": "Dreamcatcher",
+      "gender": "여자",
+      "spotify_id": "5V1qsQHdXNm4ZEZHWvFnqQ",
+      "spotify_name": "Dreamcatcher",
+      "monthly_listeners": 606519,
+      "top_tracks": [
+        {
+          "title": "BOCA",
+          "play_count": 67428285,
+          "uri": "spotify:track:2u7p3Bzkv8h0Yx7w7R370n"
+        },
+        {
+          "title": "Scream",
+          "play_count": 61298628,
+          "uri": "spotify:track:7FxshQAsTWmogWU959hz3T"
+        },
+        {
+          "title": "Deja Vu",
+          "play_count": 42526635,
+          "uri": "spotify:track:3qvfE7DGsIlkWzKMOS4gAm"
+        },
+        {
+          "title": "BEcause",
+          "play_count": 35387847,
+          "uri": "spotify:track:0ufYP4HLjzVSLUsGKCIQJH"
+        },
+        {
+          "title": "JUSTICE",
+          "play_count": 11861358,
+          "uri": "spotify:track:4GyhMaDPEILMPp62PUjP3j"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:27"
+    },
+    "H1-KEY": {
+      "name": "하이키",
+      "name_en": "H1-KEY",
+      "gender": "여자",
+      "spotify_id": "5GwQwY63I9hrUUFlQB8FYU",
+      "spotify_name": "H1-KEY",
+      "monthly_listeners": 257494,
+      "top_tracks": [
+        {
+          "title": "Rose Blossom",
+          "play_count": 14036768,
+          "uri": "spotify:track:29j6SXQOmfSbiemMriO25W"
+        },
+        {
+          "title": "Summer Was You",
+          "play_count": 2985106,
+          "uri": "spotify:track:7fiSE0NQwgJPj5QHhln8L1"
+        },
+        {
+          "title": "To. My First Love",
+          "play_count": 134113,
+          "uri": "spotify:track:10nSl4tuKAfdHiSPppxrNY"
+        },
+        {
+          "title": "Not Like a Movie",
+          "play_count": 397297,
+          "uri": "spotify:track:1jcg5d5YaYJinVeU5mtR3C"
+        },
+        {
+          "title": "Thinkin' About You",
+          "play_count": 4377987,
+          "uri": "spotify:track:3GF5L6dW04zWSP9SYAtp5L"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:28"
+    },
+    "WOOAH": {
+      "name": "우아",
+      "name_en": "WOOAH",
+      "gender": "여자",
+      "spotify_id": "7mgY992t7YTx6UELsoIMRa",
+      "spotify_name": "WOOAH",
+      "monthly_listeners": 166636,
+      "top_tracks": [
+        {
+          "title": "BLUSH",
+          "play_count": 9308636,
+          "uri": "spotify:track:0SheD3EFngYkmaDnjDuMd2"
+        },
+        {
+          "title": "Bad Girl",
+          "play_count": 8243616,
+          "uri": "spotify:track:0N1zTlFxux9l7abfegDTIp"
+        },
+        {
+          "title": "POM POM POM",
+          "play_count": 2226736,
+          "uri": "spotify:track:4KtNoHpc781qroUhOol1I1"
+        },
+        {
+          "title": "Rollercoaster",
+          "play_count": 3918394,
+          "uri": "spotify:track:7uwNVnaOswnVGJ5v8e2bQk"
+        },
+        {
+          "title": "Catch the Stars",
+          "play_count": 4780911,
+          "uri": "spotify:track:2yMIYu0O3TanoqmqpTcoEs"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:29"
+    },
+    "VIVIZ": {
+      "name": "비비지",
+      "name_en": "VIVIZ",
+      "gender": "여자",
+      "spotify_id": "7Lq3yAtwi0Z7zpxEwbQQNZ",
+      "spotify_name": "VIVIZ",
+      "monthly_listeners": 922038,
+      "top_tracks": [
+        {
+          "title": "MANIAC",
+          "play_count": 136750819,
+          "uri": "spotify:track:35ZccqI4iHVR0puhGc1u0U"
+        },
+        {
+          "title": "Shhh!",
+          "play_count": 20748057,
+          "uri": "spotify:track:55sQksosEmdlCZvU5JcuOV"
+        },
+        {
+          "title": "La La Love Me",
+          "play_count": 6480120,
+          "uri": "spotify:track:6l0bVqiuv0HE7FxUG1TOkA"
+        },
+        {
+          "title": "BOP BOP!",
+          "play_count": 37636659,
+          "uri": "spotify:track:2AwqzgFzSptWquSdz5qCPX"
+        },
+        {
+          "title": "Untie",
+          "play_count": 11727063,
+          "uri": "spotify:track:7sGf2pzXXjDftDJ4ukbep5"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:29"
+    },
+    "izna": {
+      "name": "이즈나",
+      "name_en": "izna",
+      "gender": "여자",
+      "spotify_id": "6EB5QC7lGAu7bSuWQ416d4",
+      "spotify_name": "izna",
+      "monthly_listeners": 1103301,
+      "top_tracks": [
+        {
+          "title": "SIGN",
+          "play_count": 29039073,
+          "uri": "spotify:track:6vBVBzf0VeRO4aPwABnohX"
+        },
+        {
+          "title": "Mamma Mia",
+          "play_count": 12104118,
+          "uri": "spotify:track:5mxBUe5ycmUiUkDaLC5yVI"
+        },
+        {
+          "title": "BEEP",
+          "play_count": 15478495,
+          "uri": "spotify:track:21LesVOMCk5j8LqsFBvCc5"
+        },
+        {
+          "title": "Racecar",
+          "play_count": 6794182,
+          "uri": "spotify:track:3ylwpGWNGip7lRhNCpCBLR"
+        },
+        {
+          "title": "IZNA",
+          "play_count": 22478576,
+          "uri": "spotify:track:1Lid3Sc6luHWuiauUM6Ckt"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:30"
+    },
+    "Billlie": {
+      "name": "빌리",
+      "name_en": "Billlie",
+      "gender": "여자",
+      "spotify_id": "2GQxKDojobwBjZMPf7aoh0",
+      "spotify_name": "Billlie",
+      "monthly_listeners": 387602,
+      "top_tracks": [
+        {
+          "title": "GingaMingaYo (the strange world)",
+          "play_count": 44013321,
+          "uri": "spotify:track:53Wa5dwbGUT8Jcg08FYfV5"
+        },
+        {
+          "title": "BYOB (bring your own best friend)",
+          "play_count": 13908920,
+          "uri": "spotify:track:1XC46heLGYz83ResGphueE"
+        },
+        {
+          "title": "cloud palace",
+          "play_count": 378564,
+          "uri": "spotify:track:1dsuEyZ0ZPgL7Z1HAaFSek"
+        },
+        {
+          "title": "cloud palace - Before moonset mix",
+          "play_count": 244081,
+          "uri": "spotify:track:5nBOkzsdzL7MYTSGt1X4qA"
+        },
+        {
+          "title": "EUNOIA",
+          "play_count": 14221455,
+          "uri": "spotify:track:0a56sRmdBxCON2nkEgjDqC"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:31"
+    },
+    "PURPLE KISS": {
+      "name": "퍼플키스",
+      "name_en": "PURPLE KISS",
+      "gender": "여자",
+      "spotify_id": "62T5PGHWJ9sxP2SJq20IHq",
+      "spotify_name": "PURPLE KISS",
+      "monthly_listeners": 235028,
+      "top_tracks": [
+        {
+          "title": "Sweet Juice",
+          "play_count": 21737098,
+          "uri": "spotify:track:2th6UWbfVz3hsSDzQAKqy2"
+        },
+        {
+          "title": "Zombie",
+          "play_count": 17245187,
+          "uri": "spotify:track:5zTp64MsWOTdAWWXK7zEPK"
+        },
+        {
+          "title": "Nerdy",
+          "play_count": 11589989,
+          "uri": "spotify:track:6KExHY2Eo0DphK63s2dfYi"
+        },
+        {
+          "title": "Ponzona",
+          "play_count": 13023805,
+          "uri": "spotify:track:597wvQ0bqfJgszRg4eDVy1"
+        },
+        {
+          "title": "DOREMI",
+          "play_count": 1113814,
+          "uri": "spotify:track:05NoTRUIxv24AvRfdPmMkV"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:31"
+    },
+    "QWER": {
+      "name": "큐더블유이알",
+      "name_en": "QWER",
+      "gender": "여자",
+      "spotify_id": "0XufO9nLOKNN0w0qNrDrZy",
+      "spotify_name": "QWER",
+      "monthly_listeners": 381560,
+      "top_tracks": [
+        {
+          "title": "T.B.H",
+          "play_count": 23492142,
+          "uri": "spotify:track:39gaUtq2z4ejJbno7tWHbL"
+        },
+        {
+          "title": "My Name is Malguem",
+          "play_count": 13902062,
+          "uri": "spotify:track:1lTBkwEm0wim9RsMXqtqWy"
+        },
+        {
+          "title": "Dear",
+          "play_count": 6416427,
+          "uri": "spotify:track:2ryzy7LSXUDFg5G05znHsL"
+        },
+        {
+          "title": "Discord",
+          "play_count": 11671106,
+          "uri": "spotify:track:2kTKlEtnGx5z8oi4O06yqC"
+        },
+        {
+          "title": "Harmony of Stars",
+          "play_count": 5156681,
+          "uri": "spotify:track:1b2jcwnf3JwuyWiG3xTPsp"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:32"
+    },
+    "YOUNG POSSE": {
+      "name": "영파씨",
+      "name_en": "YOUNG POSSE",
+      "gender": "여자",
+      "spotify_id": "5bxwvIM9PX0CkpS6f1L2Ff",
+      "spotify_name": "YOUNG POSSE",
+      "monthly_listeners": 429731,
+      "top_tracks": [
+        {
+          "title": "XXL",
+          "play_count": 18790238,
+          "uri": "spotify:track:05QXjyZgsAq6J84J6SlbyV"
+        },
+        {
+          "title": "VISA",
+          "play_count": 658226,
+          "uri": "spotify:track:3rLQaj0aIBRBEsSwHGY0HP"
+        },
+        {
+          "title": "FREESTYLE",
+          "play_count": 2614759,
+          "uri": "spotify:track:2irWsdZn8v8NEzyr08JTTN"
+        },
+        {
+          "title": "ATE THAT",
+          "play_count": 8110773,
+          "uri": "spotify:track:6spCL6M22BQACNDd70Gov3"
+        },
+        {
+          "title": "MACARONI CHEESE",
+          "play_count": 8585045,
+          "uri": "spotify:track:1CqMpf1w1IPWWq4Zxa2RxK"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:33"
+    },
+    "Weeekly": {
+      "name": "위클리",
+      "name_en": "Weeekly",
+      "gender": "여자",
+      "spotify_id": "73B9bjqS2Z5KLXNGqXf64m",
+      "spotify_name": "Weeekly",
+      "monthly_listeners": 552109,
+      "top_tracks": [
+        {
+          "title": "After School",
+          "play_count": 227621430,
+          "uri": "spotify:track:52CBUrIdyf8tbZaUY9iawE"
+        },
+        {
+          "title": "Tag Me (@Me)",
+          "play_count": 11784719,
+          "uri": "spotify:track:4Zv9jfmPxCmn7NFHvSCwO4"
+        },
+        {
+          "title": "Holiday Party",
+          "play_count": 15041173,
+          "uri": "spotify:track:1oVEVmVaI590kt8bCZ90uU"
+        },
+        {
+          "title": "Ven para",
+          "play_count": 7448838,
+          "uri": "spotify:track:3kwr2hlIDwmwVAjKC7zshR"
+        },
+        {
+          "title": "Good Day (Special Daileee)",
+          "play_count": 1880274,
+          "uri": "spotify:track:2bxQoEPkVPlCNTUACMnEbh"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:34"
+    },
+    "UNIS": {
+      "name": "유니스",
+      "name_en": "UNIS",
+      "gender": "여자",
+      "spotify_id": "48xyu8QHo1IhsQZGlgNGYZ",
+      "spotify_name": "UNIS",
+      "monthly_listeners": 319877,
+      "top_tracks": [
+        {
+          "title": "SWICY",
+          "play_count": 9125953,
+          "uri": "spotify:track:3owGQ1rmtKXpvwHmF0S2CZ"
+        },
+        {
+          "title": "Pinky Lady - UNIS",
+          "play_count": 280859,
+          "uri": "spotify:track:0YttCAHtwWBIU434qZ5jRW"
+        },
+        {
+          "title": "mwah...(JP Ver.)",
+          "play_count": 1084453,
+          "uri": "spotify:track:7etjtPzap4rbUVMKm3G2KD"
+        },
+        {
+          "title": "Curious",
+          "play_count": 11670523,
+          "uri": "spotify:track:0O0ivmVOezvyrCkcxEvrCl"
+        },
+        {
+          "title": "SUPERWOMAN",
+          "play_count": 15963941,
+          "uri": "spotify:track:4NZZdFybgGq1Xwx4wq2BdB"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:34"
+    },
+    "TRI.BE": {
+      "name": "트라이비",
+      "name_en": "TRI.BE",
+      "gender": "여자",
+      "spotify_id": "6BgYuNomEs12UIrnxhWE9a",
+      "spotify_name": "TRI.BE",
+      "monthly_listeners": 400113,
+      "top_tracks": [
+        {
+          "title": "LORO",
+          "play_count": 22592006,
+          "uri": "spotify:track:7hC3uYrhztvkgNziODNpep"
+        },
+        {
+          "title": "Diamond",
+          "play_count": 17116191,
+          "uri": "spotify:track:4SjL5rKPVxe2K2FnjluuVa"
+        },
+        {
+          "title": "KISS",
+          "play_count": 12589928,
+          "uri": "spotify:track:7MONmJafc7senaIZE3ulWv"
+        },
+        {
+          "title": "WOULD YOU RUN",
+          "play_count": 7619064,
+          "uri": "spotify:track:1PyRHSdxEZgJpN3vWSGNFw"
+        },
+        {
+          "title": "DOOM DOOM TA",
+          "play_count": 10936577,
+          "uri": "spotify:track:4QAR66BbMPgryzKTG21mdP"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:36"
+    },
+    "RESCENE": {
+      "name": "리센느",
+      "name_en": "RESCENE",
+      "gender": "여자",
+      "spotify_id": "5deOsjuFTKrNMJW3rKuL8S",
+      "spotify_name": "RESCENE",
+      "monthly_listeners": 732385,
+      "top_tracks": [
+        {
+          "title": "Deja Vu",
+          "play_count": 5706972,
+          "uri": "spotify:track:1pBUzZE9PoKLoPxo6QxsG6"
+        },
+        {
+          "title": "Busy Boy",
+          "play_count": 450861,
+          "uri": "spotify:track:6ufVsXMC1fAePZa5ZRMKdO"
+        },
+        {
+          "title": "Glow Up",
+          "play_count": 9744910,
+          "uri": "spotify:track:12tWYSmupB8x0B4HyalBAm"
+        },
+        {
+          "title": "LOVE ATTACK",
+          "play_count": 8690689,
+          "uri": "spotify:track:6uosenLUNFZtOIih5T0qfV"
+        },
+        {
+          "title": "Pinball",
+          "play_count": 6514404,
+          "uri": "spotify:track:7FzDMnwPhj6qdTT2PRaSYi"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:36"
+    },
+    "Rocket Punch": {
+      "name": "로켓펀치",
+      "name_en": "Rocket Punch",
+      "gender": "여자",
+      "spotify_id": "4hozqATxbpy9TwKWRT8QVO",
+      "spotify_name": "Rocket Punch",
+      "monthly_listeners": 55513,
+      "top_tracks": [
+        {
+          "title": "BIM BAM BUM",
+          "play_count": 9425877,
+          "uri": "spotify:track:7JfqtEztxAA11Q7O9N6ryT"
+        },
+        {
+          "title": "FLASH",
+          "play_count": 3585011,
+          "uri": "spotify:track:2Purw8ZAANLan4cMqsKVp7"
+        },
+        {
+          "title": "Ring Ring",
+          "play_count": 6220777,
+          "uri": "spotify:track:1LmAeYKwK2BA2FFUMyTXD2"
+        },
+        {
+          "title": "CHIQUITA",
+          "play_count": 3620500,
+          "uri": "spotify:track:0dap7YUNPlUiEPYSA1bRg3"
+        },
+        {
+          "title": "BOUNCY",
+          "play_count": 4267446,
+          "uri": "spotify:track:4e2jwApIRQsKPOwymevCFu"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:37"
+    },
+    "ICHILLIN'": {
+      "name": "아이칠린",
+      "name_en": "ICHILLIN'",
+      "gender": "여자",
+      "spotify_id": "5357DGet3KsoJNwVkV7qvy",
+      "spotify_name": "ICHILLIN'",
+      "monthly_listeners": 50290,
+      "top_tracks": [
+        {
+          "title": "Official",
+          "play_count": 775552,
+          "uri": "spotify:track:3NFN9dqLQaFVI4giGFfQz6"
+        },
+        {
+          "title": "La Luna",
+          "play_count": 1725685,
+          "uri": "spotify:track:75kvUnuuMDLR13fW3jD1RE"
+        },
+        {
+          "title": "XL (Extra Love)",
+          "play_count": 444972,
+          "uri": "spotify:track:1Y8oXmmSDbwkR66oUoI5ow"
+        },
+        {
+          "title": "GOT'YA",
+          "play_count": 1420039,
+          "uri": "spotify:track:4aLsggi5JL0YD8AmaSENHU"
+        },
+        {
+          "title": "Miami",
+          "play_count": 190194,
+          "uri": "spotify:track:6YFG6iL7tTiNWKUjBu0JrP"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:38"
+    },
+    "BLACKSWAN": {
+      "name": "블랙스완",
+      "name_en": "BLACKSWAN",
+      "gender": "여자",
+      "spotify_id": "2ujaWf015QoP7x1u20Yq5G",
+      "spotify_name": "BLACKSWAN",
+      "monthly_listeners": 73167,
+      "top_tracks": [
+        {
+          "title": "Roll Up",
+          "play_count": 3474708,
+          "uri": "spotify:track:2KIyd36V2ejCrvlYU1Ci1K"
+        },
+        {
+          "title": "Cat & Mouse",
+          "play_count": 4289792,
+          "uri": "spotify:track:1gL38pTAlg8M9aypzumft8"
+        },
+        {
+          "title": "Karma",
+          "play_count": 5818732,
+          "uri": "spotify:track:0AZ5C3305mRKWX1x0hDF39"
+        },
+        {
+          "title": "Tonight",
+          "play_count": 5040586,
+          "uri": "spotify:track:6a5sIKqXI55hV1xSWYIAne"
+        },
+        {
+          "title": "I Like It Hot",
+          "play_count": 355852,
+          "uri": "spotify:track:5UCYt3hPotkBl99J8sJAQy"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:38"
+    },
+    "CSR": {
+      "name": "첫사랑",
+      "name_en": "CSR",
+      "gender": "여자",
+      "spotify_id": "06MX3Ecb8PHyNFmq8irTWC",
+      "spotify_name": "CSR",
+      "monthly_listeners": 52176,
+      "top_tracks": [
+        {
+          "title": "Shining Bright",
+          "play_count": 4870890,
+          "uri": "spotify:track:2E4E9jhBX8aAAACBG19Ked"
+        },
+        {
+          "title": "Pop? Pop!",
+          "play_count": 5362297,
+          "uri": "spotify:track:3YN1BTbPyHC4h05Bw3u2g9"
+        },
+        {
+          "title": "LOVETICON (♡TiCON)",
+          "play_count": 2854197,
+          "uri": "spotify:track:3HLLUrOUQCdGcXgbKn4BDg"
+        },
+        {
+          "title": "Euratcha!",
+          "play_count": 959952,
+          "uri": "spotify:track:2kHntOK23nfbIFVn6xInNK"
+        },
+        {
+          "title": "Pretty mob",
+          "play_count": 645647,
+          "uri": "spotify:track:5hyGp7V6Kg5C6oAmCUzXNr"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:39"
+    },
+    "SMN": {
+      "name": "세이마이네임",
+      "name_en": "SMN",
+      "gender": "여자",
+      "spotify_id": "1YPfjEiECyLURKu09GfilS",
+      "spotify_name": "SAY MY NAME",
+      "monthly_listeners": 340480,
+      "top_tracks": [
+        {
+          "title": "UFO (ATTENT!ON)",
+          "play_count": 1041903,
+          "uri": "spotify:track:0u5b93C2mDGVfCsMGCdH6T"
+        },
+        {
+          "title": "ShaLala",
+          "play_count": 4459078,
+          "uri": "spotify:track:7JSBM7BSHafBx7RwV5waxR"
+        },
+        {
+          "title": "iLy",
+          "play_count": 2969531,
+          "uri": "spotify:track:4L43LBtfaYIFH1ECv3Xxyz"
+        },
+        {
+          "title": "WaveWay",
+          "play_count": 4783423,
+          "uri": "spotify:track:2xc4Lw2KPK98ZgUfHh3o1D"
+        },
+        {
+          "title": "Hard to Love",
+          "play_count": 420975,
+          "uri": "spotify:track:6FQrKPTJV6emsqH32qOekH"
+        }
+      ],
+      "collected_at": "2026-03-18T07:05:30"
+    },
+    "ARTBEAT v": {
+      "name": "아트비트",
+      "name_en": "ARTBEAT v",
+      "gender": "여자",
+      "spotify_id": "3gk4e5MsuqJYjKdakIN8Dk",
+      "spotify_name": "ARTBEAT v",
+      "monthly_listeners": 2858,
+      "top_tracks": [
+        {
+          "title": "MAGIC",
+          "play_count": 389688,
+          "uri": "spotify:track:2IBwamLEmcx3xb5yaGxu35"
+        },
+        {
+          "title": "DUBI DUBI",
+          "play_count": 233061,
+          "uri": "spotify:track:6SG8OjKKMAW47MJtJLSnNM"
+        },
+        {
+          "title": "Aphrodite (Rule The World)",
+          "play_count": 236591,
+          "uri": "spotify:track:7qMc5dpqHj1pmqMZR5OpMi"
+        },
+        {
+          "title": "APHRODITE",
+          "play_count": 88510,
+          "uri": "spotify:track:1zmCkiE1LzJyTttHvyQ4fh"
+        },
+        {
+          "title": "ILYSB",
+          "play_count": 64121,
+          "uri": "spotify:track:1F4uqiMcIkfw7R7BNcyo4s"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:40"
+    },
+    "FIFTY FIFTY": {
+      "name": "피프티피프티",
+      "name_en": "FIFTY FIFTY",
+      "gender": "여자",
+      "spotify_id": "4GJ6xDCF5jaUqD6avOuQT6",
+      "spotify_name": "FIFTY FIFTY",
+      "monthly_listeners": 6144870,
+      "top_tracks": [
+        {
+          "title": "Cupid - Twin Version",
+          "play_count": 978444982,
+          "uri": "spotify:track:53DDMPqgMWNrEeE3NjThKE"
+        },
+        {
+          "title": "Cupid",
+          "play_count": 282176423,
+          "uri": "spotify:track:4TqmTBSWsZXMj3LouLEvXn"
+        },
+        {
+          "title": "Cupid – Twin Ver. (feat. Sabrina Carpenter)",
+          "play_count": 41678594,
+          "uri": "spotify:track:6Ft6nfssjDYmgmXF19poJE"
+        },
+        {
+          "title": "Tell Me",
+          "play_count": 50709988,
+          "uri": "spotify:track:7Laseg0WUtMJEHRv5A10T3"
+        },
+        {
+          "title": "Pookie",
+          "play_count": 11611442,
+          "uri": "spotify:track:6vw9OTw8rBhatDSdlxVIuF"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:41"
+    },
+    "MADEIN": {
+      "name": "메이딘",
+      "name_en": "MADEIN",
+      "gender": "여자",
+      "spotify_id": "5Sso2rRE8bs9Ff6bkfqUKe",
+      "spotify_name": "MADEIN",
+      "monthly_listeners": 83456,
+      "top_tracks": [
+        {
+          "title": "Super Obvious",
+          "play_count": 174230,
+          "uri": "spotify:track:077jEiOrEal1E7iGANgexy"
+        },
+        {
+          "title": "UNO",
+          "play_count": 3854402,
+          "uri": "spotify:track:4gB2g4D9WB1L60901tJX2f"
+        },
+        {
+          "title": "PUNG!",
+          "play_count": 69942,
+          "uri": "spotify:track:3f5DP1avcKCiDOkJq40Vqf"
+        },
+        {
+          "title": "LOVE, AFRAID",
+          "play_count": 1140867,
+          "uri": "spotify:track:1pLMNDbYPRpYy1C5vtl3ke"
+        },
+        {
+          "title": "SATURN",
+          "play_count": 408816,
+          "uri": "spotify:track:74ylcg32sIFfh8QgL7fW0A"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:42"
+    },
+    "ARTMS": {
+      "name": "아르테미스",
+      "name_en": "ARTMS",
+      "gender": "여자",
+      "spotify_id": "213zHiFZwtDVEqyxeCbk07",
+      "spotify_name": "ARTMS",
+      "monthly_listeners": 286040,
+      "top_tracks": [
+        {
+          "title": "Virtual Angel",
+          "play_count": 18908527,
+          "uri": "spotify:track:1eCT7mlUiD0FDaYpFPiE4z"
+        },
+        {
+          "title": "Icarus",
+          "play_count": 6043913,
+          "uri": "spotify:track:3MQBMVAJpXat2VQwTHA8tX"
+        },
+        {
+          "title": "Goddess",
+          "play_count": 2331105,
+          "uri": "spotify:track:0QmdZBQzUdgseYnWirf3cM"
+        },
+        {
+          "title": "Butterfly Effect",
+          "play_count": 3621252,
+          "uri": "spotify:track:0rLzeAH3HxBBQJdHqAyMsn"
+        },
+        {
+          "title": "Obsessed",
+          "play_count": 2301404,
+          "uri": "spotify:track:3PJ6eopgoqxwqt8OHaVPOq"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:42"
+    },
+    "BADVILLAIN": {
+      "name": "배드빌런",
+      "name_en": "BADVILLAIN",
+      "gender": "여자",
+      "spotify_id": "2Y7fY3aflbCTxp6h5hw0CV",
+      "spotify_name": "BADVILLAIN",
+      "monthly_listeners": 289447,
+      "top_tracks": [
+        {
+          "title": "BADVILLAIN",
+          "play_count": 21480545,
+          "uri": "spotify:track:6SW0HfLmyvZdVO4cWDQT45"
+        },
+        {
+          "title": "THRILLER",
+          "play_count": 1949812,
+          "uri": "spotify:track:6FVwbv7XgC7xR2FT5ISS4B"
+        },
+        {
+          "title": "ZOOM",
+          "play_count": 4553304,
+          "uri": "spotify:track:0qIs4x4LRxGPaA1lP4IS18"
+        },
+        {
+          "title": "HURRICANE",
+          "play_count": 5414667,
+          "uri": "spotify:track:5GCxvx3ZOj4zpFk2x1nDxR"
+        },
+        {
+          "title": "YAH HO (BADTITUDE)",
+          "play_count": 5231749,
+          "uri": "spotify:track:0dGPBiYrIFUFbcH0CaWaXj"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:43"
+    },
+    "ADYA": {
+      "name": "에이디야",
+      "name_en": "ADYA",
+      "gender": "여자",
+      "spotify_id": "4J4tJMuTHFBLuNE93GGvDW",
+      "spotify_name": "ADYA",
+      "monthly_listeners": 5761,
+      "top_tracks": [
+        {
+          "title": "RIZZ",
+          "play_count": 427036,
+          "uri": "spotify:track:5SpQxEL0mJV5r5hS1a5G3J"
+        },
+        {
+          "title": "Per",
+          "play_count": 686122,
+          "uri": "spotify:track:1Kp9qkgGOB0nXrXdsW6w8o"
+        },
+        {
+          "title": "What′s Up?",
+          "play_count": 196604,
+          "uri": "spotify:track:17rwCD4xLq55Dvzx6aSqrp"
+        },
+        {
+          "title": "A Dazzling Day",
+          "play_count": 30104,
+          "uri": "spotify:track:0HT86KNg9iFbjkcuhlyrdk"
+        },
+        {
+          "title": "RIZZ - Instrumental",
+          "play_count": 20905,
+          "uri": "spotify:track:083eLY2f04Vsy7uGY2AXcX"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:44"
+    },
+    "Tracer": {
+      "name": "트레이서",
+      "name_en": "Tracer",
+      "gender": "여자",
+      "spotify_id": "2LKDGThlRyrd4i5Sxr5fD9",
+      "spotify_name": "Tracer",
+      "monthly_listeners": 1367,
+      "top_tracks": [
+        {
+          "title": "Love Fantasy - Vocal",
+          "play_count": 61708,
+          "uri": "spotify:track:2eT0QrlgX8zdeHZ5NJA4xp"
+        },
+        {
+          "title": "Love Fantasy - Dirty Channels Edit",
+          "play_count": 16730,
+          "uri": "spotify:track:4FQYDGSdm5E4HlZ8bDn72N"
+        },
+        {
+          "title": "In The Dark",
+          "play_count": 3452,
+          "uri": "spotify:track:6ZuixypHzeSQ31EOrcE1Js"
+        },
+        {
+          "title": "Love Fantasy - Instrumental Mix",
+          "play_count": 2147,
+          "uri": "spotify:track:2B3Iu0yOEKtUNd3MgOKtMn"
+        },
+        {
+          "title": "A Mystery To Me",
+          "play_count": 1941,
+          "uri": "spotify:track:4vGZareSMezbbuTPzlJVUc"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:44"
+    },
+    "IRRIS": {
+      "name": "아이리스",
+      "name_en": "IRRIS",
+      "gender": "여자",
+      "spotify_id": "6njhhu11av9aiIJF5N4z7P",
+      "spotify_name": "IRRIS",
+      "monthly_listeners": 2815,
+      "top_tracks": [
+        {
+          "title": "WANNA KNOW",
+          "play_count": 648951,
+          "uri": "spotify:track:6f6uBrvxzcLNat7Lgw4EeH"
+        },
+        {
+          "title": "Stay W!th Me",
+          "play_count": 184016,
+          "uri": "spotify:track:1aTkX9Lev1bESx0chKTnJI"
+        },
+        {
+          "title": "BYE BYE",
+          "play_count": 199858,
+          "uri": "spotify:track:6AstlVIuZbtviTRCj17W7F"
+        },
+        {
+          "title": "STAY WITH ME",
+          "play_count": 176069,
+          "uri": "spotify:track:72VtaUASUDR0IdEBHYpVK4"
+        },
+        {
+          "title": "WANNA KNOW - Instrumental",
+          "play_count": 19170,
+          "uri": "spotify:track:29WN9oU5dsW3YtbkwrPwQ9"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:45"
+    },
+    "BEWAVE": {
+      "name": "비웨이브",
+      "name_en": "BEWAVE",
+      "gender": "여자",
+      "spotify_id": "6zbrLeJOnL0pEOgaRwZnaT",
+      "spotify_name": "BEWAVE",
+      "monthly_listeners": 6342,
+      "top_tracks": [
+        {
+          "title": "Hard to get to you",
+          "play_count": 309009,
+          "uri": "spotify:track:30jnphyPsHAiRPhaBk7KUf"
+        },
+        {
+          "title": "SING !",
+          "play_count": 313360,
+          "uri": "spotify:track:2IyG3qJvbW9Mx4fH5lrdKb"
+        },
+        {
+          "title": "Shine",
+          "play_count": 115246,
+          "uri": "spotify:track:5gdziZU7X8PSc07wOdGR87"
+        },
+        {
+          "title": "Never lose you again",
+          "play_count": 68511,
+          "uri": "spotify:track:0gsP5fm0arg0CGOPc2yPZz"
+        },
+        {
+          "title": "Blue Wave",
+          "play_count": 58235,
+          "uri": "spotify:track:3kvxDJjpWjwMLNlYw8r3VM"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:46"
+    },
+    "ILY:1": {
+      "name": "아일리원",
+      "name_en": "ILY:1",
+      "gender": "여자",
+      "spotify_id": "3FvFhUWP00xtwBrHtby3v8",
+      "spotify_name": "ILY:1",
+      "monthly_listeners": 18733,
+      "top_tracks": [
+        {
+          "title": "Love in Bloom",
+          "play_count": 1968878,
+          "uri": "spotify:track:5rUoH4RHLzlh8tOmzP1GWY"
+        },
+        {
+          "title": "Twinkle, Twinkle",
+          "play_count": 1027828,
+          "uri": "spotify:track:5RonLpKNWLO6lXmt7R07W8"
+        },
+        {
+          "title": "Que Sera Sera",
+          "play_count": 1051005,
+          "uri": "spotify:track:4b9jE3ZlUCKhyg2Rd0ZjHp"
+        },
+        {
+          "title": "I MY ME MINE",
+          "play_count": 387401,
+          "uri": "spotify:track:2bChloJZGv8ezvRhC7e2la"
+        },
+        {
+          "title": "Blossom",
+          "play_count": 228891,
+          "uri": "spotify:track:5r6wSPs7y2V9DVud9Tjnxf"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:46"
+    },
+    "Candy Shop": {
+      "name": "캔디샵",
+      "name_en": "Candy Shop",
+      "gender": "여자",
+      "spotify_id": "47bUCJh3LXBeQtrTnWEwXn",
+      "spotify_name": "Candy Shop",
+      "monthly_listeners": 7540,
+      "top_tracks": [
+        {
+          "title": "Good Girl",
+          "play_count": 687617,
+          "uri": "spotify:track:60g4aWGlvFq9riY0jrTdtZ"
+        },
+        {
+          "title": "Don’t Cry",
+          "play_count": 279083,
+          "uri": "spotify:track:2AvjSaqjZfPJjiFDKXw390"
+        },
+        {
+          "title": "TIP TOE",
+          "play_count": 138586,
+          "uri": "spotify:track:65QEXobLqddjn9u2BHAv0c"
+        },
+        {
+          "title": "Candy#",
+          "play_count": 149676,
+          "uri": "spotify:track:2zKkPAFM2LpZETM9i4puaD"
+        },
+        {
+          "title": "Welcome To My World",
+          "play_count": 68861,
+          "uri": "spotify:track:2ALyPE35doBqbfInV6FJHo"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:47"
+    },
+    "SECRET NUMBER": {
+      "name": "시크릿넘버",
+      "name_en": "SECRET NUMBER",
+      "gender": "여자",
+      "spotify_id": "7qxo9RTWfEoFKN7XGtNV6V",
+      "spotify_name": "SECRET NUMBER",
+      "monthly_listeners": 348010,
+      "top_tracks": [
+        {
+          "title": "Love, Maybe",
+          "play_count": 55670076,
+          "uri": "spotify:track:5btJjUxmhPK1cwdw0mnhRD"
+        },
+        {
+          "title": "Who Dis?",
+          "play_count": 18419384,
+          "uri": "spotify:track:6loyhEAW2QFgQnvorXzsXn"
+        },
+        {
+          "title": "Got That Boom",
+          "play_count": 10836944,
+          "uri": "spotify:track:0DeQ1opuBngW7CapWLfa2q"
+        },
+        {
+          "title": "DOXA",
+          "play_count": 4502479,
+          "uri": "spotify:track:0bppWj37HjYmRdm0VAPwvq"
+        },
+        {
+          "title": "Fire Saturday",
+          "play_count": 4825207,
+          "uri": "spotify:track:2mKl38xBfLznqODvyaNQPq"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:48"
+    },
+    "ODD YOUTH": {
+      "name": "오드유스",
+      "name_en": "ODD YOUTH",
+      "gender": "여자",
+      "spotify_id": "6SG8IvJiwNEHdiubaCUFTi",
+      "spotify_name": "ODD YOUTH",
+      "monthly_listeners": 33996,
+      "top_tracks": [
+        {
+          "title": "Babyface",
+          "play_count": 41669,
+          "uri": "spotify:track:5UMIyID7WDBkOpGizVulol"
+        },
+        {
+          "title": "I Like You",
+          "play_count": 471916,
+          "uri": "spotify:track:6RX842AkuW01Sb15Mcix6l"
+        },
+        {
+          "title": "C♡NDY.exe",
+          "play_count": 13521,
+          "uri": "spotify:track:4uUhSon8N1lolWlfzezf19"
+        },
+        {
+          "title": "Spooky",
+          "play_count": 79067,
+          "uri": "spotify:track:2qr3RLW9FaKijDwqB1aeIg"
+        },
+        {
+          "title": "Bubble Bubble",
+          "play_count": 81857,
+          "uri": "spotify:track:1tczXylOqrpwAotqJ2edBb"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:48"
+    },
+    "PRIMROSE": {
+      "name": "프림로즈",
+      "name_en": "PRIMROSE",
+      "gender": "여자",
+      "spotify_id": "1nE2Iu4qK1fzslPJcLGq66",
+      "spotify_name": "PRIMROSE",
+      "monthly_listeners": 15820,
+      "top_tracks": [
+        {
+          "title": "Love Your Flower",
+          "play_count": 180354,
+          "uri": "spotify:track:3YCSEjFJTceJXxzC4gdKei"
+        },
+        {
+          "title": "Steal Heart",
+          "play_count": 152390,
+          "uri": "spotify:track:4BN3C62hCBcWLXnPPsepdn"
+        },
+        {
+          "title": "CINEMA",
+          "play_count": 125432,
+          "uri": "spotify:track:2oI6dp7Q4Amp1FcqSRr5fD"
+        },
+        {
+          "title": "Freyja",
+          "play_count": 163448,
+          "uri": "spotify:track:7uAmy80cFLuIJQWdsLMGni"
+        },
+        {
+          "title": "LAFFY TAFFY",
+          "play_count": 172553,
+          "uri": "spotify:track:5YQbevxJxhMp6RzdXq1mng"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:49"
+    },
+    "Geenius": {
+      "name": "지니어스",
+      "name_en": "Geenius",
+      "gender": "여자",
+      "spotify_id": "1E9Grth4BtkGuX16ppAVyb",
+      "spotify_name": "Geenius",
+      "monthly_listeners": 2557,
+      "top_tracks": [
+        {
+          "title": "Voyage",
+          "play_count": 590776,
+          "uri": "spotify:track:2OEhXjr5QdfspwjBR85fDv"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:50"
+    },
+    "CRAXY": {
+      "name": "크랙시",
+      "name_en": "CRAXY",
+      "gender": "여자",
+      "spotify_id": "3C13AlJZ4QWHSruAWe9VPI",
+      "spotify_name": "CRAXY",
+      "monthly_listeners": 14534,
+      "top_tracks": [
+        {
+          "title": "ARIA",
+          "play_count": 915073,
+          "uri": "spotify:track:6CykfIYMh6EVhmO0uQ4SgG"
+        },
+        {
+          "title": "Poison Rose",
+          "play_count": 721700,
+          "uri": "spotify:track:2ktjnehUxCSikYLT1ipC1K"
+        },
+        {
+          "title": "NUGUDOM",
+          "play_count": 697356,
+          "uri": "spotify:track:3qIPUALlG1euPAbi7qk3ll"
+        },
+        {
+          "title": "Undercover",
+          "play_count": 622726,
+          "uri": "spotify:track:1r4UVMjjrwiUphiPCcU5q4"
+        },
+        {
+          "title": "MASQUERADE",
+          "play_count": 170964,
+          "uri": "spotify:track:0nQNSjE5Xlnki4tG2j3Gvg"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:50"
+    },
+    "Loossemble": {
+      "name": "루셈블",
+      "name_en": "Loossemble",
+      "gender": "여자",
+      "spotify_id": "1kbVoxpFh1eDOXumLmVdKY",
+      "spotify_name": "Loossemble",
+      "monthly_listeners": 380921,
+      "top_tracks": [
+        {
+          "title": "TTYL",
+          "play_count": 29955534,
+          "uri": "spotify:track:3AXryyinIY17WLddIcNjwT"
+        },
+        {
+          "title": "Girls’ Night",
+          "play_count": 5088737,
+          "uri": "spotify:track:0hnxybqZeJzU85jSwf5cdG"
+        },
+        {
+          "title": "Strawberry soda",
+          "play_count": 4161143,
+          "uri": "spotify:track:0Kb4j4M1dfjPqfPopx55E4"
+        },
+        {
+          "title": "Sensitive",
+          "play_count": 7547494,
+          "uri": "spotify:track:6A1dCPrUYhg56ukp4zlEUw"
+        },
+        {
+          "title": "Cotton Candy",
+          "play_count": 2518520,
+          "uri": "spotify:track:1MpNPKjqwznhmNiRk41T3r"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:51"
+    },
+    "UNICODE": {
+      "name": "유니코드",
+      "name_en": "UNICODE",
+      "gender": "여자",
+      "spotify_id": "3dX0pAE3FigjTzBiHajRra",
+      "spotify_name": "UNICODE",
+      "monthly_listeners": 1998,
+      "top_tracks": [
+        {
+          "title": "Let me Love (Prod. by Jin Young)",
+          "play_count": 183265,
+          "uri": "spotify:track:3DMvqQG9wibjtjmrUAvNBn"
+        },
+        {
+          "title": "Spring in my 20th",
+          "play_count": 48436,
+          "uri": "spotify:track:1z35YPlxrHY63zaJr7E4IJ"
+        },
+        {
+          "title": "Blur",
+          "play_count": 56196,
+          "uri": "spotify:track:4rLgitYytXbs998KFy8w58"
+        },
+        {
+          "title": "Drizzle",
+          "play_count": 35337,
+          "uri": "spotify:track:27XqwGjj9acMMsEmsjqwik"
+        },
+        {
+          "title": "Invi : Bon Voyage",
+          "play_count": 13773,
+          "uri": "spotify:track:6MUBKqjdZQOnnR70PQUhi4"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:52"
+    },
+    "We;Na": {
+      "name": "위나",
+      "name_en": "We;Na",
+      "gender": "여자",
+      "spotify_id": "1nlvVchkTmecxdFNflxucN",
+      "spotify_name": "We;Na",
+      "monthly_listeners": 2021,
+      "top_tracks": [
+        {
+          "title": "Like Psycho",
+          "play_count": 160748,
+          "uri": "spotify:track:6F7SqxOvVD4dMvxN2IBCoV"
+        },
+        {
+          "title": "Queen",
+          "play_count": 119534,
+          "uri": "spotify:track:2B7G6POJP8XyNgaZhaQzfo"
+        },
+        {
+          "title": "We;Na World",
+          "play_count": 19277,
+          "uri": "spotify:track:0er9FT0UYSdkoifg3IYLKf"
+        },
+        {
+          "title": "Baby Step",
+          "play_count": 46911,
+          "uri": "spotify:track:4aufxzbLVjdi4Cqi6I2AIA"
+        },
+        {
+          "title": "바람 - 원이연서 Duo Version",
+          "play_count": 19896,
+          "uri": "spotify:track:4uCUvo1vEyiwU1QnHJdq6X"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:52"
+    },
+    "W!TCHX": {
+      "name": "위치스",
+      "name_en": "W!TCHX",
+      "gender": "여자",
+      "spotify_id": "7skRnGeXWAZPkWalXSyyiX",
+      "spotify_name": "W!TCHX",
+      "monthly_listeners": 2599,
+      "top_tracks": [
+        {
+          "title": "Run Baby Run",
+          "play_count": 36865,
+          "uri": "spotify:track:2kYY7NwO4tVRBHSiO17dlw"
+        },
+        {
+          "title": "BLALA",
+          "play_count": 48411,
+          "uri": "spotify:track:24V8DuHNwT0KieC1jnds6s"
+        },
+        {
+          "title": "Beautiful Story (Highlight)",
+          "play_count": 12818,
+          "uri": "spotify:track:1lpTotPZiCwYdPGKeB8OIo"
+        },
+        {
+          "title": "Run Baby Run (Instrumental)",
+          "play_count": 3359,
+          "uri": "spotify:track:01ORDmXoSNgOpprkSXUOUv"
+        },
+        {
+          "title": "BLALA (Instrumental)",
+          "play_count": 1982,
+          "uri": "spotify:track:0blwsexRmGteXQk4nYttri"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:53"
+    },
+    "LOVEONE": {
+      "name": "러브원",
+      "name_en": "LOVEONE",
+      "gender": "여자",
+      "spotify_id": "4PMPD2EeaqBCSccsWUkgNS",
+      "spotify_name": "LOVEONE",
+      "monthly_listeners": 11283,
+      "top_tracks": [
+        {
+          "title": "FUNNY HONEY",
+          "play_count": 343811,
+          "uri": "spotify:track:2guEMPi3y839QP04ND5Ui4"
+        },
+        {
+          "title": "Drama Queen",
+          "play_count": 131243,
+          "uri": "spotify:track:4DGVbRseu6wm4iZi25Bcog"
+        },
+        {
+          "title": "LOVE HIGH",
+          "play_count": 67881,
+          "uri": "spotify:track:05yQyKQKWFeoL1iU5bzn7f"
+        },
+        {
+          "title": "시간을 건너서",
+          "play_count": 26423,
+          "uri": "spotify:track:2hODwpdDVJPFwYccse1uDf"
+        },
+        {
+          "title": "Dreamin'",
+          "play_count": 66810,
+          "uri": "spotify:track:18yZ09RjIQcuh3dSLT2H4k"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:54"
+    },
+    "SPIA": {
+      "name": "수피아",
+      "name_en": "SPIA",
+      "gender": "여자",
+      "spotify_id": "1fmbTqkJpjvAB4tqCFCR3L",
+      "spotify_name": "SPIA",
+      "monthly_listeners": 1087,
+      "top_tracks": [
+        {
+          "title": "Deeeep",
+          "play_count": 109192,
+          "uri": "spotify:track:6MBbzdHOmGF8d2zdDIxpxZ"
+        },
+        {
+          "title": "Daddy's Little Girl",
+          "play_count": 70846,
+          "uri": "spotify:track:5grqQw8zylROY30fyE0Hnu"
+        },
+        {
+          "title": "Daddy's Little Girl (Inst.)",
+          "play_count": 3804,
+          "uri": "spotify:track:1ooxsJ9q9E1MDzvPkoMTGF"
+        },
+        {
+          "title": "Deeeep (Inst.)",
+          "play_count": 3953,
+          "uri": "spotify:track:2cWyJP2m6l3U6vrBRaJuZM"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:54"
+    },
+    "Burvey": {
+      "name": "버비",
+      "name_en": "Burvey",
+      "gender": "여자",
+      "spotify_id": "28mV9iMDOFBVXfW0pgfbRz",
+      "spotify_name": "Burvey",
+      "monthly_listeners": 7128,
+      "top_tracks": [
+        {
+          "title": "SUGAR RIDING",
+          "play_count": 27675,
+          "uri": "spotify:track:0Wyx8rRzbY0Ys5dPDbuEVW"
+        },
+        {
+          "title": "AQUA BLUE",
+          "play_count": 22910,
+          "uri": "spotify:track:4yH5budDMJmo7NUM102xNv"
+        },
+        {
+          "title": "MELTING STAR",
+          "play_count": 12725,
+          "uri": "spotify:track:4T72bdOTBo3OBoxqOEcxmR"
+        },
+        {
+          "title": "clap",
+          "play_count": 38545,
+          "uri": "spotify:track:7N0FNdfscQaNGriqpwEWFx"
+        },
+        {
+          "title": "AEIOU",
+          "play_count": 27348,
+          "uri": "spotify:track:4eGun3yGgo5JdZqnzoAbAd"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:56"
+    },
+    "Hearts2Hearts": {
+      "name": "하츠투하츠",
+      "name_en": "Hearts2Hearts",
+      "gender": "여자",
+      "spotify_id": "1ZLU77nRzQIaP23mVSYpCQ",
+      "spotify_name": "Hearts2Hearts",
+      "monthly_listeners": 6512301,
+      "top_tracks": [
+        {
+          "title": "RUDE!",
+          "play_count": 28901361,
+          "uri": "spotify:track:2bAQsNqdo62T8akkIvWzGl"
+        },
+        {
+          "title": "FOCUS",
+          "play_count": 50597284,
+          "uri": "spotify:track:6jYiHr12NVKLzn0X7K8aSK"
+        },
+        {
+          "title": "STYLE",
+          "play_count": 90547899,
+          "uri": "spotify:track:5EoV2HmAlkqN1XvsIjOBZZ"
+        },
+        {
+          "title": "The Chase",
+          "play_count": 102000384,
+          "uri": "spotify:track:68UrZQUuO3O6eUiD226xHg"
+        },
+        {
+          "title": "Pretty Please",
+          "play_count": 24983627,
+          "uri": "spotify:track:6oBDhkYQDhFS2q0wQ6xZLO"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:58"
+    },
+    "KiiiKiii": {
+      "name": "키키",
+      "name_en": "KiiiKiii",
+      "gender": "여자",
+      "spotify_id": "63sat2XSMKdwKfqspmYQKP",
+      "spotify_name": "KiiiKiii",
+      "monthly_listeners": 3728464,
+      "top_tracks": [
+        {
+          "title": "404 (New Era)",
+          "play_count": 24200231,
+          "uri": "spotify:track:1rEa59P5yEal5cp1h7kl2e"
+        },
+        {
+          "title": "Delulu",
+          "play_count": 7742956,
+          "uri": "spotify:track:5KCIrYoBUmQbW2FBoOL4Q0"
+        },
+        {
+          "title": "I DO ME",
+          "play_count": 32216781,
+          "uri": "spotify:track:6qmfxmtoNEzqucF1FWeXl8"
+        },
+        {
+          "title": "DANCING ALONE",
+          "play_count": 11417512,
+          "uri": "spotify:track:6vN4qMlor4D2U7a7BzSQI5"
+        },
+        {
+          "title": "UNDERDOGS",
+          "play_count": 2729863,
+          "uri": "spotify:track:2oTktz3iPhi1CFisdAZgMK"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:59"
+    },
+    "IRISÉ": {
+      "name": "아이리제",
+      "name_en": "IRISÉ",
+      "gender": "여자",
+      "spotify_id": "0QQS9kR4qcFg7PLwr3JHgN",
+      "spotify_name": "IRISÉ",
+      "monthly_listeners": 16658,
+      "top_tracks": [
+        {
+          "title": "LOVE GAME",
+          "play_count": 523533,
+          "uri": "spotify:track:0d9vze9k7D1H7GOJZHjRev"
+        },
+        {
+          "title": "IRIDISCENT",
+          "play_count": 168771,
+          "uri": "spotify:track:77OZjnlDOhGT0MC7tMJL0z"
+        },
+        {
+          "title": "Wings",
+          "play_count": 221169,
+          "uri": "spotify:track:3LTpV2o1uer2BJ3RlbauKz"
+        },
+        {
+          "title": "KIIRI",
+          "play_count": 154973,
+          "uri": "spotify:track:4WqdjMrxnnatkb3pSVx7qR"
+        },
+        {
+          "title": "ZERØ",
+          "play_count": 106063,
+          "uri": "spotify:track:75Zagq3hkhZfN6em8wLPiN"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:58"
+    },
+    "AtHeart": {
+      "name": "앳하트",
+      "name_en": "AtHeart",
+      "gender": "여자",
+      "spotify_id": "0ON7aUm308hzonzZGpZUvB",
+      "spotify_name": "AtHeart",
+      "monthly_listeners": 305184,
+      "top_tracks": [
+        {
+          "title": "Shut Up",
+          "play_count": 362467,
+          "uri": "spotify:track:6R6zXjhbvw7VtCDdKbuCTQ"
+        },
+        {
+          "title": "Plot Twist",
+          "play_count": 3457381,
+          "uri": "spotify:track:58cliMQMrsZ4XsPKSB3Spu"
+        },
+        {
+          "title": "Push Back",
+          "play_count": 1335357,
+          "uri": "spotify:track:5jrVtotI98LARyvrBi0gu2"
+        },
+        {
+          "title": "Butterfly Doors",
+          "play_count": 127152,
+          "uri": "spotify:track:1U7iwruAyuD1lnsTzuYfY3"
+        },
+        {
+          "title": "Good Girl (AtHeart)",
+          "play_count": 1415436,
+          "uri": "spotify:track:6UU3lxRV39wh2dv4l8efPT"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:58"
+    },
+    "ifeye": {
+      "name": "이프아이",
+      "name_en": "ifeye",
+      "gender": "여자",
+      "spotify_id": "1g971p3BXozVYNCn7JRMNa",
+      "spotify_name": "ifeye",
+      "monthly_listeners": 449728,
+      "top_tracks": [
+        {
+          "title": "r u ok?",
+          "play_count": 13567542,
+          "uri": "spotify:track:7LwQfsJ7JzgfFr7ErvcTs6"
+        },
+        {
+          "title": "NERDY",
+          "play_count": 4955882,
+          "uri": "spotify:track:6maRkcBnkwVL0uwjjGazFT"
+        },
+        {
+          "title": "loverboy",
+          "play_count": 1816218,
+          "uri": "spotify:track:4H7mZef7MeCkU2BgsG0lLh"
+        },
+        {
+          "title": "IRL",
+          "play_count": 1501628,
+          "uri": "spotify:track:7f9eZIAVx22NrKZIUsE03L"
+        },
+        {
+          "title": "round and round",
+          "play_count": 656197,
+          "uri": "spotify:track:0c9OwWr1PFzKBDztvy4jZ4"
+        }
+      ],
+      "collected_at": "2026-03-18T06:32:59"
+    },
+    "VVS": {
+      "name": "븨븨에스",
+      "name_en": "VVS",
+      "gender": "여자",
+      "spotify_id": "48I72itlO50Fhw7BImZ1XJ",
+      "spotify_name": "VVS",
+      "monthly_listeners": 62857,
+      "top_tracks": [
+        {
+          "title": "D.I.M.M.",
+          "play_count": 1923158,
+          "uri": "spotify:track:1DEARfKkzuVeSIXlM03ztI"
+        },
+        {
+          "title": "TOUCH IT",
+          "play_count": 604640,
+          "uri": "spotify:track:0Wbo8YOcGPaCDiXvPa6r0m"
+        },
+        {
+          "title": "PURRFECT",
+          "play_count": 760199,
+          "uri": "spotify:track:2xYAvmflFtPGpceqDhyeim"
+        },
+        {
+          "title": "FACT$",
+          "play_count": 427235,
+          "uri": "spotify:track:7En72n0G3vxBpdjtwqoNPd"
+        },
+        {
+          "title": "TEA",
+          "play_count": 483278,
+          "uri": "spotify:track:2qYsC9SS321xSGXJe7TQME"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:00"
+    },
+    "HITGS": {
+      "name": "힛지스",
+      "name_en": "HITGS",
+      "gender": "여자",
+      "spotify_id": "5a83Luu0ndnR1enk1rn83V",
+      "spotify_name": "HITGS",
+      "monthly_listeners": 81999,
+      "top_tracks": [
+        {
+          "title": "SOURPATCH",
+          "play_count": 1861388,
+          "uri": "spotify:track:6fuMhofxOh5ZmDWUYZnfaO"
+        },
+        {
+          "title": "HAPPY",
+          "play_count": 394185,
+          "uri": "spotify:track:1RKdxCUdiyGSWscrdx7Aq6"
+        },
+        {
+          "title": "A-HA!",
+          "play_count": 280188,
+          "uri": "spotify:track:1LSjczwxC2j0KecAWkdPNk"
+        },
+        {
+          "title": "CHARIZZMA",
+          "play_count": 366162,
+          "uri": "spotify:track:4Hn0GvDg93eOaNxcSHg3Yi"
+        },
+        {
+          "title": "GROSS",
+          "play_count": 461719,
+          "uri": "spotify:track:010b7ratgDLYeyd2RWYlhB"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:00"
+    },
+    "UDTT": {
+      "name": "우당탕탕 소녀단",
+      "name_en": "UDTT",
+      "gender": "여자",
+      "spotify_id": "5MepLDNyvE91lO3yqJhMIx",
+      "spotify_name": "UDTT",
+      "monthly_listeners": 7361,
+      "top_tracks": [
+        {
+          "title": "REALLY REALLY",
+          "play_count": 180376,
+          "uri": "spotify:track:34C8fy57oOgt7kEm0ciIta"
+        },
+        {
+          "title": "RETRY",
+          "play_count": 171380,
+          "uri": "spotify:track:4dud779PKbX0sYxUNm2ZHM"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:01"
+    },
+    "KIIRAS": {
+      "name": "키라스",
+      "name_en": "KIIRAS",
+      "gender": "여자",
+      "spotify_id": "21reDxe0sRtmiUmBIfffaZ",
+      "spotify_name": "KIIRAS",
+      "monthly_listeners": 34387,
+      "top_tracks": [
+        {
+          "title": "BANG BANG!",
+          "play_count": 354592,
+          "uri": "spotify:track:3slGM2bvDw2tNpsbxOZLPR"
+        },
+        {
+          "title": "KILL MA BO$$",
+          "play_count": 559558,
+          "uri": "spotify:track:2Fi5t4tvfo4jJK6MFLgUcw"
+        },
+        {
+          "title": "D.D.D.D",
+          "play_count": 108780,
+          "uri": "spotify:track:5I4BqleDs3q0qVvoMZplK7"
+        },
+        {
+          "title": "ZILLER!",
+          "play_count": 183719,
+          "uri": "spotify:track:2nN9LqqBFhquYyqgjO0bKf"
+        },
+        {
+          "title": "KIIRASMAS",
+          "play_count": 53092,
+          "uri": "spotify:track:4ZS0ihT9lEzL4MKjDip7N5"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:02"
+    },
+    "USPEER": {
+      "name": "유스피어",
+      "name_en": "USPEER",
+      "gender": "여자",
+      "spotify_id": "1p7Fm42iZrBEvG2wIaRCoL",
+      "spotify_name": "USPEER",
+      "monthly_listeners": 9663,
+      "top_tracks": [
+        {
+          "title": "Telepathy",
+          "play_count": 211550,
+          "uri": "spotify:track:00ra0iPFDA6qs14svP4GnE"
+        },
+        {
+          "title": "ZOOM",
+          "play_count": 292151,
+          "uri": "spotify:track:5koizuWzXgVvvJxeToiU1t"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:02"
+    },
+    "SMORZ": {
+      "name": "스모즈",
+      "name_en": "SMORZ",
+      "gender": "여자",
+      "spotify_id": "4s2pgu0LdVcJvTlmvysg65",
+      "spotify_name": "SMORZ",
+      "monthly_listeners": 12399,
+      "top_tracks": [
+        {
+          "title": "I want you to",
+          "play_count": 790253,
+          "uri": "spotify:track:6mFl1IDAlZ97b1wsXCRh0X"
+        },
+        {
+          "title": "Bleeding Heart",
+          "play_count": 137734,
+          "uri": "spotify:track:2fVmQ2xPADbqrlafdrO9dW"
+        },
+        {
+          "title": "Love Drive",
+          "play_count": 113230,
+          "uri": "spotify:track:3z5p8n7CgS7oVe6bDSY5mW"
+        },
+        {
+          "title": "My Only Love",
+          "play_count": 82662,
+          "uri": "spotify:track:0oI4TjNbMN4LJHk2K4ojJS"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:03"
+    },
+    "ablume": {
+      "name": "어블룸",
+      "name_en": "ablume",
+      "gender": "여자",
+      "spotify_id": "4XvBehn5EnOEueirgtfIgj",
+      "spotify_name": "ablume",
+      "monthly_listeners": 53479,
+      "top_tracks": [
+        {
+          "title": "Echo",
+          "play_count": 4553813,
+          "uri": "spotify:track:29sFqmK1SNaGhY8RTmMmpz"
+        },
+        {
+          "title": "Never Far Away (Prologue)",
+          "play_count": 491493,
+          "uri": "spotify:track:4Nql8sw3aRY3AeNtV8sdMX"
+        },
+        {
+          "title": "Echo (Alt Version)",
+          "play_count": 185219,
+          "uri": "spotify:track:3WbhOcyVGcfq2zS8LjDviD"
+        },
+        {
+          "title": "Echo (Inst.)",
+          "play_count": 207417,
+          "uri": "spotify:track:75rLCyroknIRoVad4wDK9B"
+        },
+        {
+          "title": "Echo (Sped Up Version)",
+          "play_count": 63007,
+          "uri": "spotify:track:4QZDEAdVoOVlIcQ2YjScva"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:04"
+    },
+    "Baby DONT Cry": {
+      "name": "베이비돈크라이",
+      "name_en": "Baby DONT Cry",
+      "gender": "여자",
+      "spotify_id": "0dXoF2Q2WnVrhRT26SJNvs",
+      "spotify_name": "Baby DONT Cry",
+      "monthly_listeners": 149054,
+      "top_tracks": [
+        {
+          "title": "I DONT CARE",
+          "play_count": 1689706,
+          "uri": "spotify:track:7h6DJy4HspkjUtOdYtfqv4"
+        },
+        {
+          "title": "Shapeshifter",
+          "play_count": 146496,
+          "uri": "spotify:track:0kkqkpgbkLFpopZqPAH1CO"
+        },
+        {
+          "title": "F Girl",
+          "play_count": 3053636,
+          "uri": "spotify:track:5HaVN6uKNnLu3GVEmbrSBd"
+        },
+        {
+          "title": "Bet You’ll Regret It",
+          "play_count": 1400281,
+          "uri": "spotify:track:2bVH1pUiX20bp2VAm5JcHj"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:04"
+    },
+    "ALLDAY PROJECT": {
+      "name": "올데이프로젝트",
+      "name_en": "ALLDAY PROJECT",
+      "gender": "남자",
+      "spotify_id": "4gEMn0YPOdotLOygnk0Ng2",
+      "spotify_name": "ALLDAY PROJECT",
+      "monthly_listeners": 3000344,
+      "top_tracks": [
+        {
+          "title": "LOOK AT ME",
+          "play_count": 19312042,
+          "uri": "spotify:track:41FzP8TjIK1aK4LTVY5TUy"
+        },
+        {
+          "title": "FAMOUS",
+          "play_count": 77220235,
+          "uri": "spotify:track:598bDTl82CSTSDnZG0XhGK"
+        },
+        {
+          "title": "ONE MORE TIME",
+          "play_count": 27569855,
+          "uri": "spotify:track:4eCan7Jb3q0xQ1FAELOtEz"
+        },
+        {
+          "title": "WHERE YOU AT",
+          "play_count": 8356018,
+          "uri": "spotify:track:6vfcaWsN8gBLpfpSCru0Co"
+        },
+        {
+          "title": "WICKED",
+          "play_count": 46386228,
+          "uri": "spotify:track:6zRZyfYNsvgl1y6H5mkR1x"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:05"
+    },
+    "NCT DREAM": {
+      "name": "엔시티 드림",
+      "name_en": "NCT DREAM",
+      "gender": "남자",
+      "spotify_id": "1gBUSTR3TyDdTVFIaQnc02",
+      "spotify_name": "NCT DREAM",
+      "monthly_listeners": 2409908,
+      "top_tracks": [
+        {
+          "title": "Beat It Up",
+          "play_count": 49123894,
+          "uri": "spotify:track:4UJwJG0Byki4e9MNTxo8aF"
+        },
+        {
+          "title": "CHILLER",
+          "play_count": 109478600,
+          "uri": "spotify:track:0PNOA20FfXz8c1KVaon1ei"
+        },
+        {
+          "title": "Broken Melodies",
+          "play_count": 86978402,
+          "uri": "spotify:track:1DYPrEzbmlOYbeTDkCDsaA"
+        },
+        {
+          "title": "Don’t Need Your Love",
+          "play_count": 100175597,
+          "uri": "spotify:track:7oEm5Q1virEUB9H0XjWZzF"
+        },
+        {
+          "title": "BOOM",
+          "play_count": 170367937,
+          "uri": "spotify:track:6rcn967QN5JtkPOBDwYIuT"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:06"
+    },
+    "ENHYPEN": {
+      "name": "엔하이픈",
+      "name_en": "ENHYPEN",
+      "gender": "남자",
+      "spotify_id": "5t5FqBwTcgKTaWmfEbwQY9",
+      "spotify_name": "ENHYPEN",
+      "monthly_listeners": 10070999,
+      "top_tracks": [
+        {
+          "title": "Knife",
+          "play_count": 40696759,
+          "uri": "spotify:track:0TKCUjfV3YGuY99MxCKM5w"
+        },
+        {
+          "title": "Bite Me",
+          "play_count": 480298694,
+          "uri": "spotify:track:7mpdNiaQvygj2rHoxkzMfa"
+        },
+        {
+          "title": "Big Girls Don't Cry",
+          "play_count": 23011467,
+          "uri": "spotify:track:0NsmpxrKw7ZWGKjnWVJtm5"
+        },
+        {
+          "title": "Moonstruck",
+          "play_count": 141852563,
+          "uri": "spotify:track:3gYWGRS64XrGSrjD3vvtga"
+        },
+        {
+          "title": "XO (Only If You Say Yes)",
+          "play_count": 196482871,
+          "uri": "spotify:track:3RkSwrsIadAvqVtMp5yhaB"
+        }
+      ],
+      "collected_at": "2026-03-18T06:37:59"
+    },
+    "ZEROBASEONE": {
+      "name": "제로베이스원",
+      "name_en": "ZEROBASEONE",
+      "gender": "남자",
+      "spotify_id": "7cjg7EkeZy3OI5o9Qthc6n",
+      "spotify_name": "ZEROBASEONE",
+      "monthly_listeners": 1283682,
+      "top_tracks": [
+        {
+          "title": "LOVEPOCALYPSE",
+          "play_count": 4669731,
+          "uri": "spotify:track:7xbNUUy1y3zNqvp65TXaa9"
+        },
+        {
+          "title": "ICONIK",
+          "play_count": 26417470,
+          "uri": "spotify:track:7srZ5Feiz5S4R4O9jL1Dx4"
+        },
+        {
+          "title": "In Bloom",
+          "play_count": 79849904,
+          "uri": "spotify:track:3F4lHPNHlvr3RpO4tpVOIs"
+        },
+        {
+          "title": "Doctor! Doctor!",
+          "play_count": 32268922,
+          "uri": "spotify:track:4yQ5AHwQd3w7IkV1mtzDwf"
+        },
+        {
+          "title": "Running to Future",
+          "play_count": 5584529,
+          "uri": "spotify:track:6tn8DOizEPVGwqgqdXsYYN"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:00"
+    },
+    "NCT 127": {
+      "name": "엔시티 일이칠",
+      "name_en": "NCT 127",
+      "gender": "남자",
+      "spotify_id": "7f4ignuCJhLXfZ9giKT7rH",
+      "spotify_name": "NCT 127",
+      "monthly_listeners": 2390544,
+      "top_tracks": [
+        {
+          "title": "Fact Check",
+          "play_count": 115948244,
+          "uri": "spotify:track:5H46gVYLDwpxbsIgPoihO4"
+        },
+        {
+          "title": "Kick It",
+          "play_count": 170053412,
+          "uri": "spotify:track:0yFq4GHDqLfeceyAs63B3W"
+        },
+        {
+          "title": "Walk",
+          "play_count": 48935366,
+          "uri": "spotify:track:5o5mfjvxzxRChb45hbWuuw"
+        },
+        {
+          "title": "Cherry Bomb",
+          "play_count": 163065643,
+          "uri": "spotify:track:3o8QzWsiiqTUVgBZfHgF58"
+        },
+        {
+          "title": "2 Baddies",
+          "play_count": 80797051,
+          "uri": "spotify:track:7035sowF3NNYDfRUO8GF9H"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:01"
+    },
+    "PLAVE": {
+      "name": "플레이브",
+      "name_en": "PLAVE",
+      "gender": "남자",
+      "spotify_id": "0k2zyzGq6HX383VlMBOvRG",
+      "spotify_name": "PLAVE",
+      "monthly_listeners": 486313,
+      "top_tracks": [
+        {
+          "title": "BBUU!",
+          "play_count": 7568738,
+          "uri": "spotify:track:6WCEA1cWcv3jfsVXpWdeXR"
+        },
+        {
+          "title": "Bongsoong-a",
+          "play_count": 4828085,
+          "uri": "spotify:track:577VqzH5cBo0KoOrvWcvcO"
+        },
+        {
+          "title": "Chroma Drift",
+          "play_count": 22149997,
+          "uri": "spotify:track:0BA3uoKlu9CsHgXIeAiXmJ"
+        },
+        {
+          "title": "Dash",
+          "play_count": 25958604,
+          "uri": "spotify:track:2sDcIrosoXqiGv1D5OQUvF"
+        },
+        {
+          "title": "숨바꼭질 (Hide and Seek)",
+          "play_count": 2309146,
+          "uri": "spotify:track:3gDP2NEKXvjr43YDpvgmcH"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:08"
+    },
+    "TREASURE": {
+      "name": "트레저",
+      "name_en": "TREASURE",
+      "gender": "남자",
+      "spotify_id": "3KonOYiLsU53m4yT7gNotP",
+      "spotify_name": "TREASURE",
+      "monthly_listeners": 1743282,
+      "top_tracks": [
+        {
+          "title": "DARARI",
+          "play_count": 271469539,
+          "uri": "spotify:track:0dcnrLo8s1rhjm8euGjI4n"
+        },
+        {
+          "title": "YELLOW",
+          "play_count": 31875535,
+          "uri": "spotify:track:7jKwFhIqA1a1HLk6AsVDYc"
+        },
+        {
+          "title": "PARADISE",
+          "play_count": 19338604,
+          "uri": "spotify:track:20pXBnV8q1xnWzSijxq6QM"
+        },
+        {
+          "title": "JIKJIN",
+          "play_count": 138625093,
+          "uri": "spotify:track:2bnJ8IxZnVc2YmUaX0sZap"
+        },
+        {
+          "title": "HELLO",
+          "play_count": 92036808,
+          "uri": "spotify:track:1ex8euBuzVyqjThnYfwY2k"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:09"
+    },
+    "RIIZE": {
+      "name": "라이즈",
+      "name_en": "RIIZE",
+      "gender": "남자",
+      "spotify_id": "2jOm3cYujQx6o1dxuiuqaX",
+      "spotify_name": "RIIZE",
+      "monthly_listeners": 2572975,
+      "top_tracks": [
+        {
+          "title": "Fame",
+          "play_count": 18817451,
+          "uri": "spotify:track:7pjjoNOZQW7H8pOSCFIvsX"
+        },
+        {
+          "title": "Love 119",
+          "play_count": 91653919,
+          "uri": "spotify:track:0lUtQTBt2ydznYzuAeYFrZ"
+        },
+        {
+          "title": "Boom Boom Bass",
+          "play_count": 76658097,
+          "uri": "spotify:track:6Ixrp3yXfzv5brZXmZuXXN"
+        },
+        {
+          "title": "All of You",
+          "play_count": 2354581,
+          "uri": "spotify:track:1M4MWyhWTpFCvJJoCva3Ij"
+        },
+        {
+          "title": "Memories",
+          "play_count": 80966702,
+          "uri": "spotify:track:7egcmrxRDee6C5M3AtXZ7L"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:10"
+    },
+    "BOYNEXTDOOR": {
+      "name": "보이넥스트도어",
+      "name_en": "BOYNEXTDOOR",
+      "gender": "남자",
+      "spotify_id": "4hnHLgMSOiqERWBL4jINP1",
+      "spotify_name": "BOYNEXTDOOR",
+      "monthly_listeners": 2444983,
+      "top_tracks": [
+        {
+          "title": "Hollywood Action",
+          "play_count": 25016488,
+          "uri": "spotify:track:4BtOh0Xwh3DHelPQ14MPVC"
+        },
+        {
+          "title": "IF I SAY, I LOVE YOU",
+          "play_count": 60573554,
+          "uri": "spotify:track:2NtidJuimmXzUsExfMYcvk"
+        },
+        {
+          "title": "Earth, Wind & Fire",
+          "play_count": 77608811,
+          "uri": "spotify:track:0Tq7v8YAmwdnAYBwyR1pZ4"
+        },
+        {
+          "title": "I Feel Good",
+          "play_count": 30117466,
+          "uri": "spotify:track:1klePVubVctBqhlKJvibil"
+        },
+        {
+          "title": "123-78",
+          "play_count": 24665724,
+          "uri": "spotify:track:4XLfRpryO7Qn0SXp1ARIfj"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:01"
+    },
+    "THE BOYZ": {
+      "name": "더보이즈",
+      "name_en": "THE BOYZ",
+      "gender": "남자",
+      "spotify_id": "0CmvFWTX9zmMNCUi6fHtAx",
+      "spotify_name": "THE BOYZ",
+      "monthly_listeners": 534877,
+      "top_tracks": [
+        {
+          "title": "REVEAL",
+          "play_count": 40029456,
+          "uri": "spotify:track:14tNUeer5gUbUYvhYYTclS"
+        },
+        {
+          "title": "WATCH IT",
+          "play_count": 17648206,
+          "uri": "spotify:track:3UQw1V8gM5YihFDcnjNkWN"
+        },
+        {
+          "title": "Salty",
+          "play_count": 20743232,
+          "uri": "spotify:track:7Gj8f0zhVvSveNuXRkUGhN"
+        },
+        {
+          "title": "No Air",
+          "play_count": 35787165,
+          "uri": "spotify:track:0mve4vxmwumqI6gnw7euma"
+        },
+        {
+          "title": "The Stealer",
+          "play_count": 34220688,
+          "uri": "spotify:track:2DQgD8rAJLKNptQFK70ndO"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:11"
+    },
+    "TWS": {
+      "name": "투어스",
+      "name_en": "TWS",
+      "gender": "남자",
+      "spotify_id": "4GgBKgxhc649frZDHcXIEz",
+      "spotify_name": "TWS",
+      "monthly_listeners": 2623524,
+      "top_tracks": [
+        {
+          "title": "OVERDRIVE",
+          "play_count": 22552182,
+          "uri": "spotify:track:5qAfVxNUxjrELshgTpWxLf"
+        },
+        {
+          "title": "plot twist",
+          "play_count": 106231604,
+          "uri": "spotify:track:0aZG8KWrpRnsGL0loUkfSj"
+        },
+        {
+          "title": "Nice to see you again (Korean Ver.)",
+          "play_count": 2946236,
+          "uri": "spotify:track:1mX9SZZfCeTbetghcrp8Jr"
+        },
+        {
+          "title": "Countdown!",
+          "play_count": 21147152,
+          "uri": "spotify:track:0ti0CEUPplsI7AZDyexrXy"
+        },
+        {
+          "title": "If I’m S, Can You Be My N?",
+          "play_count": 41582625,
+          "uri": "spotify:track:2y8vRHEoz15sYDmxyrDePO"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:02"
+    },
+    "Ikon": {
+      "name": "아이콘",
+      "name_en": "Ikon",
+      "gender": "남자",
+      "spotify_id": "5qRSs6mvI17zrkJpOHkCoM",
+      "spotify_name": "iKON",
+      "monthly_listeners": 2000100,
+      "top_tracks": [
+        {
+          "title": "LOVE SCENARIO",
+          "play_count": 422427730,
+          "uri": "spotify:track:3d3ELsqKlQ7WA0a10Isu3l"
+        },
+        {
+          "title": "KILLING ME",
+          "play_count": 138948759,
+          "uri": "spotify:track:1IbpTcFDHRD87cGQOhVCDP"
+        },
+        {
+          "title": "RHYTHM TA",
+          "play_count": 63832388,
+          "uri": "spotify:track:5T7NN5LxcfMEudEbya2wcE"
+        },
+        {
+          "title": "BEST FRIEND",
+          "play_count": 47620073,
+          "uri": "spotify:track:1AhfmrzSrDmOIstpRO9wTI"
+        },
+        {
+          "title": "MY TYPE",
+          "play_count": 28187132,
+          "uri": "spotify:track:4gxLDYnbnyNiUd6YrlmppO"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:03"
+    },
+    "MONSTA X": {
+      "name": "몬스타엑스",
+      "name_en": "MONSTA X",
+      "gender": "남자",
+      "spotify_id": "4TnGh5PKbSjpYqpIdlW5nz",
+      "spotify_name": "MONSTA X",
+      "monthly_listeners": 1208619,
+      "top_tracks": [
+        {
+          "title": "baby blue",
+          "play_count": 2907340,
+          "uri": "spotify:track:2iUv18ruokAyhWk9w0CTYy"
+        },
+        {
+          "title": "HERO",
+          "play_count": 75490641,
+          "uri": "spotify:track:6gorwqDJ7bsdCHcVs5uS9u"
+        },
+        {
+          "title": "MIDDLE OF THE NIGHT",
+          "play_count": 71354057,
+          "uri": "spotify:track:2QqHAiFdDZKFJkr1xCV9dG"
+        },
+        {
+          "title": "Love Killa",
+          "play_count": 50449479,
+          "uri": "spotify:track:3sPju6MEJhk7Sz8dsRBkLQ"
+        },
+        {
+          "title": "WHO DO U LOVE? (feat. French Montana)",
+          "play_count": 74133337,
+          "uri": "spotify:track:4koDrJbYxIlcDY4gu2a4I8"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:03"
+    },
+    "ASTRO": {
+      "name": "아스트로",
+      "name_en": "ASTRO",
+      "gender": "남자",
+      "spotify_id": "4pz4uzOMpJQyV8UTsDy4H8",
+      "spotify_name": "ASTRO",
+      "monthly_listeners": 504205,
+      "top_tracks": [
+        {
+          "title": "Moon(with VIVIZ, MINHYUK, KIHYUN, I.M of MONSTA X, HOSHI, WONWOO, MINGYU, DK, SEUNGKWAN of SEVENTEEN, HELLO GLOOM, ROCKY, CHOI YOOJUNG, KIM DOYEON, CHA NI (SF9), Bang Chan (Stray Kids), MOON SUA of Billlie)",
+          "play_count": 6764147,
+          "uri": "spotify:track:2gu6fOPHZVG0GzjCvnxlBA"
+        },
+        {
+          "title": "All Night",
+          "play_count": 44670798,
+          "uri": "spotify:track:3PIzRyHtPjKfMr7XjosoVe"
+        },
+        {
+          "title": "Candy Sugar Pop",
+          "play_count": 22296080,
+          "uri": "spotify:track:767gRjedAWnbUer6ARRS8d"
+        },
+        {
+          "title": "Crazy Sexy Cool",
+          "play_count": 40397257,
+          "uri": "spotify:track:4hKhWLyYwCmugcMP8vbr7s"
+        },
+        {
+          "title": "Blue Flame",
+          "play_count": 35717127,
+          "uri": "spotify:track:2jF2oDPLFLmrj2o8CfUOWK"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:14"
+    },
+    "Xdinary Heroes": {
+      "name": "엑스디너리 히어로즈",
+      "name_en": "Xdinary Heroes",
+      "gender": "남자",
+      "spotify_id": "1khChLj7REGqjM043PlYyn",
+      "spotify_name": "Xdinary Heroes",
+      "monthly_listeners": 714473,
+      "top_tracks": [
+        {
+          "title": "Good enough",
+          "play_count": 23569719,
+          "uri": "spotify:track:7H4bkGfbt12rGyQ8R8zabq"
+        },
+        {
+          "title": "Lost and Found",
+          "play_count": 3151753,
+          "uri": "spotify:track:6mNtejSnGqhCJTIfVkuWva"
+        },
+        {
+          "title": "Night before the end",
+          "play_count": 10134460,
+          "uri": "spotify:track:3qtZrgkFMtdSCH5DWyNIOL"
+        },
+        {
+          "title": "Save me",
+          "play_count": 11131579,
+          "uri": "spotify:track:63IHaFklWAdUB3BTcUJb1J"
+        },
+        {
+          "title": "FiRE (My Sweet Misery)",
+          "play_count": 4782749,
+          "uri": "spotify:track:5qrltlgQOfoDL6LII7B0X0"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:15"
+    },
+    "P1Harmony": {
+      "name": "피원하모니",
+      "name_en": "P1Harmony",
+      "gender": "남자",
+      "spotify_id": "3JjvsPeGMbDJqsphe2z8xU",
+      "spotify_name": "P1Harmony",
+      "monthly_listeners": 1707797,
+      "top_tracks": [
+        {
+          "title": "Pretty Boy",
+          "play_count": 26263021,
+          "uri": "spotify:track:4etRRTZx5odrdgKiZqGSZ6"
+        },
+        {
+          "title": "UNIQUE",
+          "play_count": 1355612,
+          "uri": "spotify:track:2UcWuaUqRrKRL8iTA92ELO"
+        },
+        {
+          "title": "DUH!",
+          "play_count": 17646882,
+          "uri": "spotify:track:6Ts5zvNORCcfLG7K5etvuA"
+        },
+        {
+          "title": "Killin' It",
+          "play_count": 48692839,
+          "uri": "spotify:track:2E7qG81LXdZEfobhcrVm06"
+        },
+        {
+          "title": "Fall In Love Again",
+          "play_count": 35338927,
+          "uri": "spotify:track:7e2t41hCiR0sV4Lgv555v3"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:15"
+    },
+    "SF9": {
+      "name": "에스에프나인",
+      "name_en": "SF9",
+      "gender": "남자",
+      "spotify_id": "7LOmc7gyMVMOWF8qwEdn2X",
+      "spotify_name": "SF9",
+      "monthly_listeners": 257742,
+      "top_tracks": [
+        {
+          "title": "O Sole Mio",
+          "play_count": 24769208,
+          "uri": "spotify:track:1zZ9IuDffZGH5OoVoUXlHz"
+        },
+        {
+          "title": "Good Guy",
+          "play_count": 20562842,
+          "uri": "spotify:track:52Ympobu59UXxyhdCUww1y"
+        },
+        {
+          "title": "Tear Drop",
+          "play_count": 21809739,
+          "uri": "spotify:track:5T6UFJ0AtAU7gXGybQ0HH7"
+        },
+        {
+          "title": "Now or Never",
+          "play_count": 22448113,
+          "uri": "spotify:track:2gPM5iXzORTiUUyCD3eqxQ"
+        },
+        {
+          "title": "Summer Breeze",
+          "play_count": 11163528,
+          "uri": "spotify:track:6vWl3N99bjIF5I0m3mH3IQ"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:16"
+    },
+    "TEMPEST": {
+      "name": "템페스트",
+      "name_en": "TEMPEST",
+      "gender": "남자",
+      "spotify_id": "1iyFL3CRuKW7PXgPH4VxSP",
+      "spotify_name": "TEMPEST",
+      "monthly_listeners": 58867,
+      "top_tracks": [
+        {
+          "title": "In The Dark",
+          "play_count": 657226,
+          "uri": "spotify:track:4ByIwUEB12eKgYeFA8NqwV"
+        },
+        {
+          "title": "nocturnal",
+          "play_count": 195015,
+          "uri": "spotify:track:2EsCdC8ozqpfbE9m668Agk"
+        },
+        {
+          "title": "LIGHTHOUSE",
+          "play_count": 4172839,
+          "uri": "spotify:track:6Zv31tXdpqXPuMXIT4Pq7p"
+        },
+        {
+          "title": "Silly Kid",
+          "play_count": 160399,
+          "uri": "spotify:track:2rnz5nzpVL9sp5WISKD5cc"
+        },
+        {
+          "title": "Unfreeze",
+          "play_count": 1114875,
+          "uri": "spotify:track:7Ko3Ark4s7OL7sQIo1ToHR"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:17"
+    },
+    "AB6IX": {
+      "name": "에이비식스",
+      "name_en": "AB6IX",
+      "gender": "남자",
+      "spotify_id": "4y0wFJ5jmCUNRLZfsw1I7g",
+      "spotify_name": "AB6IX",
+      "monthly_listeners": 158452,
+      "top_tracks": [
+        {
+          "title": "BREATHE",
+          "play_count": 30106187,
+          "uri": "spotify:track:4XbyRgWe6yU4wE6WShdTEs"
+        },
+        {
+          "title": "A Minute, A Second",
+          "play_count": 153726,
+          "uri": "spotify:track:5QB4UqWDiTnKdmW4QXHj70"
+        },
+        {
+          "title": "So Sweet (0522)",
+          "play_count": 32984,
+          "uri": "spotify:track:4oyFvxcWfZioOHujaAW7HY"
+        },
+        {
+          "title": "ROSE, SCENT, KISS",
+          "play_count": 8454895,
+          "uri": "spotify:track:5eOb7OPhOkN0gUicVIcOCH"
+        },
+        {
+          "title": "STUPID",
+          "play_count": 334752,
+          "uri": "spotify:track:73zoJOtMEpGqWLGIOCChSz"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:17"
+    },
+    "PENTAGON": {
+      "name": "펜타곤",
+      "name_en": "PENTAGON",
+      "gender": "남자",
+      "spotify_id": "1wKpMkucynaTfG8lyPprYV",
+      "spotify_name": "PENTAGON",
+      "monthly_listeners": 664881,
+      "top_tracks": [
+        {
+          "title": "Shine",
+          "play_count": 186169817,
+          "uri": "spotify:track:7nkp1uuSbKkoxMvEs8cSw0"
+        },
+        {
+          "title": "Daisy",
+          "play_count": 50587742,
+          "uri": "spotify:track:2ocjtpHy07sdLtLVhIdAL1"
+        },
+        {
+          "title": "Humph! (Prod. By GIRIBOY)",
+          "play_count": 28372654,
+          "uri": "spotify:track:0YxttsUsYfVjQIR711aOVY"
+        },
+        {
+          "title": "Dr. BeBe",
+          "play_count": 15287020,
+          "uri": "spotify:track:6jsmLQR2NMvK5MK9WPLvf1"
+        },
+        {
+          "title": "Naughty boy",
+          "play_count": 26507991,
+          "uri": "spotify:track:1qLgJ1M37Mj50hlOnuw9cs"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:18"
+    },
+    "ATEEZ": {
+      "name": "에이티즈",
+      "name_en": "ATEEZ",
+      "gender": "남자",
+      "spotify_id": "68KmkJeZGfwe1OUaivBa2L",
+      "spotify_name": "ATEEZ",
+      "monthly_listeners": 4568533,
+      "top_tracks": [
+        {
+          "title": "Adrenaline",
+          "play_count": 17612911,
+          "uri": "spotify:track:2VKGO4DNyUK5UxCQB3b3DF"
+        },
+        {
+          "title": "NASA",
+          "play_count": 9832534,
+          "uri": "spotify:track:48G4rDLisHuVgCKg872Tu5"
+        },
+        {
+          "title": "Ice On My Teeth",
+          "play_count": 94745066,
+          "uri": "spotify:track:2QAFTMHp7NeuyM6P2SiB7U"
+        },
+        {
+          "title": "BOUNCY (K-HOT CHILLI PEPPERS)",
+          "play_count": 177022958,
+          "uri": "spotify:track:7Lhm9BUglm30Q6Fb1Fl2By"
+        },
+        {
+          "title": "In Your Fantasy",
+          "play_count": 54824876,
+          "uri": "spotify:track:3Z4BxvgOJ8KupcDIV3OV2f"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:04"
+    },
+    "EPEX": {
+      "name": "이펙스",
+      "name_en": "EPEX",
+      "gender": "남자",
+      "spotify_id": "4e2umhzNHTSeQnSCWPN0uT",
+      "spotify_name": "EPEX",
+      "monthly_listeners": 83951,
+      "top_tracks": [
+        {
+          "title": "Sunshower",
+          "play_count": 3991731,
+          "uri": "spotify:track:3fcDHjyxOQoGV4UuMdagu0"
+        },
+        {
+          "title": "Youth2Youth",
+          "play_count": 2197679,
+          "uri": "spotify:track:4jxftDEbX3u20EROtLpKyf"
+        },
+        {
+          "title": "UNIVERSE",
+          "play_count": 1131071,
+          "uri": "spotify:track:4Ev0sWpZm6mAGSed0MEgNB"
+        },
+        {
+          "title": "Do 4 Me",
+          "play_count": 4104463,
+          "uri": "spotify:track:3T8rgnYVr3k4KxtEeP0H2o"
+        },
+        {
+          "title": "Anthem of Teen Spirit",
+          "play_count": 3369563,
+          "uri": "spotify:track:3NWxwoXlvgtTd3fNHuX2Vv"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:20"
+    },
+    "DAY6": {
+      "name": "데이식스",
+      "name_en": "DAY6",
+      "gender": "남자",
+      "spotify_id": "5TnQc2N1iKlFjYD7CPGvFc",
+      "spotify_name": "DAY6",
+      "monthly_listeners": 2169993,
+      "top_tracks": [
+        {
+          "title": "예뻤어 You Were Beautiful",
+          "play_count": 158459487,
+          "uri": "spotify:track:3HAkoNmThZhyFejhpRXXYI"
+        },
+        {
+          "title": "HAPPY",
+          "play_count": 38668145,
+          "uri": "spotify:track:5R5NMy7zc7QPCfdvy8dvCQ"
+        },
+        {
+          "title": "Love me or Leave me",
+          "play_count": 62988700,
+          "uri": "spotify:track:4MwsWZDbTS2vUwfiwKW3c1"
+        },
+        {
+          "title": "Congratulations",
+          "play_count": 76090307,
+          "uri": "spotify:track:06uScjJGabF4rIRdejWOaL"
+        },
+        {
+          "title": "한 페이지가 될 수 있게 Time of Our Life",
+          "play_count": 62113851,
+          "uri": "spotify:track:0EhdXt3y460mTRsi97Pyk5"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:21"
+    },
+    "CRAVITY": {
+      "name": "크래비티",
+      "name_en": "CRAVITY",
+      "gender": "남자",
+      "spotify_id": "6FkhUhUwSPl3mGB6mmE8wn",
+      "spotify_name": "CRAVITY",
+      "monthly_listeners": 237167,
+      "top_tracks": [
+        {
+          "title": "Lemonade Fever",
+          "play_count": 958231,
+          "uri": "spotify:track:6tywjVskwCOlog3bRWus42"
+        },
+        {
+          "title": "Love or Die",
+          "play_count": 6755585,
+          "uri": "spotify:track:6UyOqNdJweSjjZsguSgYO1"
+        },
+        {
+          "title": "SET NET G0?!",
+          "play_count": 1134598,
+          "uri": "spotify:track:6caqFtBxhs0Ms2fW5YDb1f"
+        },
+        {
+          "title": "BLAST OUT",
+          "play_count": 78038,
+          "uri": "spotify:track:6TLlOLLcsxBrtlWsGzVF37"
+        },
+        {
+          "title": "Now or Never",
+          "play_count": 1541877,
+          "uri": "spotify:track:4IxDz5uLTRq8HcSbvVXk81"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:05"
+    },
+    "ONEUS": {
+      "name": "원어스",
+      "name_en": "ONEUS",
+      "gender": "남자",
+      "spotify_id": "3CVYSpM7nfHFG5qCTW7Ht9",
+      "spotify_name": "ONEUS",
+      "monthly_listeners": 442980,
+      "top_tracks": [
+        {
+          "title": "LUNA",
+          "play_count": 21733850,
+          "uri": "spotify:track:5L2uuQUMiub01LRhTKRCFj"
+        },
+        {
+          "title": "Same Scent - Japanese Version",
+          "play_count": 20434076,
+          "uri": "spotify:track:6Po0reh8h94W5WOdA77BW5"
+        },
+        {
+          "title": "Grenade",
+          "play_count": 389939,
+          "uri": "spotify:track:69erutIC5E9VFHtDKerTkd"
+        },
+        {
+          "title": "Valkyrie",
+          "play_count": 31219124,
+          "uri": "spotify:track:0oNFVyzwK6TFdFHSsD1dmC"
+        },
+        {
+          "title": "X",
+          "play_count": 2142858,
+          "uri": "spotify:track:0XTt8RvNdO1zxxTf0L7ZLr"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:22"
+    },
+    "KickFlip": {
+      "name": "킥플립",
+      "name_en": "KickFlip",
+      "gender": "남자",
+      "spotify_id": "6F4yXjmhQBqo6HVr6K234k",
+      "spotify_name": "KickFlip",
+      "monthly_listeners": 636277,
+      "top_tracks": [
+        {
+          "title": "처음 불러보는 노래 (My First Love Song)",
+          "play_count": 4163519,
+          "uri": "spotify:track:3wlSKXBySBUG5Wv9FTXxgm"
+        },
+        {
+          "title": "Twenty",
+          "play_count": 472544,
+          "uri": "spotify:track:5iu6gTajYJEGzF6maepqZd"
+        },
+        {
+          "title": "Mama Said",
+          "play_count": 8716186,
+          "uri": "spotify:track:76G6tgncwiZ3lS2XjztTHy"
+        },
+        {
+          "title": "Umm Great",
+          "play_count": 6914687,
+          "uri": "spotify:track:2T2A9KqSnjY8cXyqouhcum"
+        },
+        {
+          "title": "Knock Knock",
+          "play_count": 4529586,
+          "uri": "spotify:track:2rkut5n6S2xzNfFDqSUOcg"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:23"
+    },
+    "DRIPPIN": {
+      "name": "드리핀",
+      "name_en": "DRIPPIN",
+      "gender": "남자",
+      "spotify_id": "5IVacR5tKgTu9HotcG8kkl",
+      "spotify_name": "DRIPPIN",
+      "monthly_listeners": 27942,
+      "top_tracks": [
+        {
+          "title": "Villain",
+          "play_count": 2208403,
+          "uri": "spotify:track:3xO1I7gH39DTgaai3kGIOY"
+        },
+        {
+          "title": "Young Blood",
+          "play_count": 2087241,
+          "uri": "spotify:track:7oF0wWZkuYMCOyy9aLhOhW"
+        },
+        {
+          "title": "Beautiful MAZE",
+          "play_count": 796566,
+          "uri": "spotify:track:03dsawwfwz82T2cuCgFNza"
+        },
+        {
+          "title": "Nostalgia",
+          "play_count": 2751148,
+          "uri": "spotify:track:7pd6TOInBnDKg44BtCwlXT"
+        },
+        {
+          "title": "SEVEN SINS",
+          "play_count": 711540,
+          "uri": "spotify:track:2byWFY0u4pFZSVbQbbFBA5"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:24"
+    },
+    "LUN8": {
+      "name": "루네이트",
+      "name_en": "LUN8",
+      "gender": "남자",
+      "spotify_id": "5LkLwB6VSZLQiFkJa9SPOn",
+      "spotify_name": "LUN8",
+      "monthly_listeners": 41125,
+      "top_tracks": [
+        {
+          "title": "Lost",
+          "play_count": 285243,
+          "uri": "spotify:track:6dlbp9t6McWNc8r8ZXtYvP"
+        },
+        {
+          "title": "SUPER POWER",
+          "play_count": 1302265,
+          "uri": "spotify:track:08hJKTdPxplmXIatRpelrw"
+        },
+        {
+          "title": "Wild Heart",
+          "play_count": 1690831,
+          "uri": "spotify:track:3GXLBTk7l1Bc7bZp18sqZD"
+        },
+        {
+          "title": "WHIP",
+          "play_count": 782418,
+          "uri": "spotify:track:1UlSTGYf4uBep4oWicvvfk"
+        },
+        {
+          "title": "Butterfly",
+          "play_count": 384848,
+          "uri": "spotify:track:6EX2u3rBDR606W9N37iglB"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:25"
+    },
+    "NEXZ": {
+      "name": "넥스지",
+      "name_en": "NEXZ",
+      "gender": "남자",
+      "spotify_id": "5TaK8pOYVARAr5cdgoa8EW",
+      "spotify_name": "NEXZ",
+      "monthly_listeners": 346604,
+      "top_tracks": [
+        {
+          "title": "Beat-Boxer",
+          "play_count": 3146941,
+          "uri": "spotify:track:0MuSmKr1DVD3KlJ5NaYUJx"
+        },
+        {
+          "title": "Ride the Vibe",
+          "play_count": 6423640,
+          "uri": "spotify:track:0ETA6bRFxpEaeCyATt5NAe"
+        },
+        {
+          "title": "O-RLY?",
+          "play_count": 3601245,
+          "uri": "spotify:track:6tWswSUY7jquKUyxIMw3Sw"
+        },
+        {
+          "title": "I'm Him",
+          "play_count": 1509018,
+          "uri": "spotify:track:53gdfmZtsm8OYZCf2AQHjV"
+        },
+        {
+          "title": "Simmer",
+          "play_count": 2604862,
+          "uri": "spotify:track:04IN4IWbd9C347rM275e01"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:25"
+    },
+    "8TURN": {
+      "name": "에잇턴",
+      "name_en": "8TURN",
+      "gender": "남자",
+      "spotify_id": "7tCg9aiVKZ5Cmhbfb7UoqM",
+      "spotify_name": "8TURN",
+      "monthly_listeners": 247123,
+      "top_tracks": [
+        {
+          "title": "BRUISE",
+          "play_count": 702730,
+          "uri": "spotify:track:5eYhUukI5PVCqSLOmO8Idq"
+        },
+        {
+          "title": "TIC TAC",
+          "play_count": 15569659,
+          "uri": "spotify:track:60Oo6tKR0ckwZsRr95NrjL"
+        },
+        {
+          "title": "EXCEL",
+          "play_count": 4014762,
+          "uri": "spotify:track:0hPbVp26JuqHo0N3JPvdDZ"
+        },
+        {
+          "title": "Electric Heart",
+          "play_count": 724506,
+          "uri": "spotify:track:4gQjxEDB5hxu6PLCjvTAva"
+        },
+        {
+          "title": "Close To Me",
+          "play_count": 477057,
+          "uri": "spotify:track:51Ig7TcbToEWxEFykfduIK"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:26"
+    },
+    "CIX": {
+      "name": "씨아이엑스",
+      "name_en": "CIX",
+      "gender": "남자",
+      "spotify_id": "1lHfzEkKmmvdVDDDLKkcsd",
+      "spotify_name": "CIX",
+      "monthly_listeners": 265120,
+      "top_tracks": [
+        {
+          "title": "Movie Star",
+          "play_count": 43442354,
+          "uri": "spotify:track:65pVi11JqwSZqUuYAqLP36"
+        },
+        {
+          "title": "Jungle",
+          "play_count": 17672361,
+          "uri": "spotify:track:0QyLYuhCdzwVk9OkmvwAjh"
+        },
+        {
+          "title": "THUNDER",
+          "play_count": 1619298,
+          "uri": "spotify:track:3yGt3kgfeNIrILkgDXugWn"
+        },
+        {
+          "title": "Save me, Kill me",
+          "play_count": 6036925,
+          "uri": "spotify:track:0Z5gF9M35PmrQooN2lDlkK"
+        },
+        {
+          "title": "Cinema",
+          "play_count": 14801098,
+          "uri": "spotify:track:45WEkgFSP5Af8Huepaj4P1"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:27"
+    },
+    "EVNNE": {
+      "name": "이븐",
+      "name_en": "EVNNE",
+      "gender": "남자",
+      "spotify_id": "6SYJFHPxXkr4SZJR8aLEml",
+      "spotify_name": "EVNNE",
+      "monthly_listeners": 204864,
+      "top_tracks": [
+        {
+          "title": "TROUBLE",
+          "play_count": 14419376,
+          "uri": "spotify:track:6MSRu5wksC0Esn63XOgmI3"
+        },
+        {
+          "title": "Badder Love",
+          "play_count": 4645055,
+          "uri": "spotify:track:2muqyJpZ71YJ7bP9F69rZM"
+        },
+        {
+          "title": "How Can I Do",
+          "play_count": 1251778,
+          "uri": "spotify:track:2e9IAFsDNri6u0t4Sf9iZ2"
+        },
+        {
+          "title": "XO",
+          "play_count": 1343659,
+          "uri": "spotify:track:4kPD4LhK775GhxjWK5o27r"
+        },
+        {
+          "title": "I ＜3 U (I love U)",
+          "play_count": 1617861,
+          "uri": "spotify:track:6gSEYC7TCNNoeJMGPi13Zk"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:05"
+    },
+    "NOWZ": {
+      "name": "나우즈",
+      "name_en": "NOWZ",
+      "gender": "남자",
+      "spotify_id": "1iZwr6w3TWPNezX8yCtRBg",
+      "spotify_name": "NOWZ",
+      "monthly_listeners": 105388,
+      "top_tracks": [
+        {
+          "title": "Problem Child",
+          "play_count": 1193810,
+          "uri": "spotify:track:7aL1LV3lbN5GE88lMgiHt5"
+        },
+        {
+          "title": "HomeRUN",
+          "play_count": 463952,
+          "uri": "spotify:track:0kK6GZAjPQUdg02XhaoEM0"
+        },
+        {
+          "title": "AMMO (feat. YRD Leo)",
+          "play_count": 49387,
+          "uri": "spotify:track:6qQTiRUVoy7vDGO1gWzOAe"
+        },
+        {
+          "title": "Fly to the youth (Feat. YUQI)",
+          "play_count": 959278,
+          "uri": "spotify:track:53SaJpNeNlJjNv6qcyLR0V"
+        },
+        {
+          "title": "HOOKED",
+          "play_count": 50975,
+          "uri": "spotify:track:6ft8y5BcL5tvLxe0z9H5Pn"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:28"
+    },
+    "THE NEW SIX": {
+      "name": "더뉴식스",
+      "name_en": "THE NEW SIX",
+      "gender": "남자",
+      "spotify_id": "0DRiXmEOc6dJ6Rug3xi4HZ",
+      "spotify_name": "TNX",
+      "monthly_listeners": 160394,
+      "top_tracks": [
+        {
+          "title": "CALL ME BACK",
+          "play_count": 222252,
+          "uri": "spotify:track:7EaR2YLNoIDFgmEBdTh1NS"
+        },
+        {
+          "title": "MOVE",
+          "play_count": 11301710,
+          "uri": "spotify:track:5QzjOeD7eXFZpVVyVC7ls2"
+        },
+        {
+          "title": "Love or Die",
+          "play_count": 6591597,
+          "uri": "spotify:track:5JDfcFU6lCYU7jQJ8dDo8v"
+        },
+        {
+          "title": "Love letter",
+          "play_count": 140671,
+          "uri": "spotify:track:3pYHpHEihyIM9w4s7JGQC7"
+        },
+        {
+          "title": "Kick It 4 Now",
+          "play_count": 6236004,
+          "uri": "spotify:track:5oyt64vcLF0MwDq5XNgx86"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:29"
+    },
+    "AMPERS&ONE": {
+      "name": "앰퍼샌드원",
+      "name_en": "AMPERS&ONE",
+      "gender": "남자",
+      "spotify_id": "4T0Chh3DGxJrEs3gM0biqg",
+      "spotify_name": "AMPERS&ONE",
+      "monthly_listeners": 150177,
+      "top_tracks": [
+        {
+          "title": "That’s That",
+          "play_count": 1402206,
+          "uri": "spotify:track:2Sf6SXb3LAq4aWq6Pm9akt"
+        },
+        {
+          "title": "He + She = We",
+          "play_count": 1787989,
+          "uri": "spotify:track:1OF96rbmy2GScyaEXuXo43"
+        },
+        {
+          "title": "Kick Start",
+          "play_count": 1441966,
+          "uri": "spotify:track:5SZWHxjlK2Sbt43KjM1dCH"
+        },
+        {
+          "title": "Seesaw",
+          "play_count": 579001,
+          "uri": "spotify:track:6jCCxnX8sobqAXqPGR39I1"
+        },
+        {
+          "title": "On And On",
+          "play_count": 1990159,
+          "uri": "spotify:track:2xeVbsz4Ab2cFX9TgOoZA0"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:29"
+    },
+    "POW": {
+      "name": "파우",
+      "name_en": "POW",
+      "gender": "남자",
+      "spotify_id": "3aycZMYDTnN0trM2XnTI4Y",
+      "spotify_name": "POW",
+      "monthly_listeners": 101366,
+      "top_tracks": [
+        {
+          "title": "Come True (feat. Shin Onyu of Shin In Ryu)",
+          "play_count": 363446,
+          "uri": "spotify:track:0qtrYviuHe78ta3I6Y9xwN"
+        },
+        {
+          "title": "Just Go",
+          "play_count": 275461,
+          "uri": "spotify:track:06N5gDiLRqzyrshVYJtSOn"
+        },
+        {
+          "title": "Favorite",
+          "play_count": 3475591,
+          "uri": "spotify:track:02qdS2zq2LYGkSOr3Q7gMm"
+        },
+        {
+          "title": "Wall Flowers",
+          "play_count": 1252785,
+          "uri": "spotify:track:7hH6xRAqH9yCkPfRVDGHrt"
+        },
+        {
+          "title": "Valentine",
+          "play_count": 2658145,
+          "uri": "spotify:track:7soqW0C2hCCblU402zUalw"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:30"
+    },
+    "XODIAC": {
+      "name": "소디엑",
+      "name_en": "XODIAC",
+      "gender": "남자",
+      "spotify_id": "1Yhs3H3tkZhk4mSQgzECWb",
+      "spotify_name": "XODIAC",
+      "monthly_listeners": 61024,
+      "top_tracks": [
+        {
+          "title": "SPECIAL LOVE",
+          "play_count": 7460923,
+          "uri": "spotify:track:11RrLN6I83tZKAKBxkPSsn"
+        },
+        {
+          "title": "Alibi",
+          "play_count": 356857,
+          "uri": "spotify:track:5DCbuNL8WLu82xTobkyznj"
+        },
+        {
+          "title": "HEYDAY",
+          "play_count": 2582902,
+          "uri": "spotify:track:4F06nQOQWNVREhOU8iax6Y"
+        },
+        {
+          "title": "Sun Hits You",
+          "play_count": 180455,
+          "uri": "spotify:track:6nvTEhZJeF2K2O7833mN62"
+        },
+        {
+          "title": "LEMONADE",
+          "play_count": 2704457,
+          "uri": "spotify:track:1DcgCdbq9EFIbCHRDrcWLu"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:31"
+    },
+    "YOUNITE": {
+      "name": "유나이트",
+      "name_en": "YOUNITE",
+      "gender": "남자",
+      "spotify_id": "4l4eMvpA4K7X02j08cbkNV",
+      "spotify_name": "YOUNITE",
+      "monthly_listeners": 39112,
+      "top_tracks": [
+        {
+          "title": "1 of 9",
+          "play_count": 2902878,
+          "uri": "spotify:track:6DB6p1dVSNWJbmrbF34icS"
+        },
+        {
+          "title": "Love it",
+          "play_count": 813706,
+          "uri": "spotify:track:574gYm7iFWEUO4DbF5NGEF"
+        },
+        {
+          "title": "GEEKIN",
+          "play_count": 542581,
+          "uri": "spotify:track:6vP4NceJJLHM9xddBbKrH9"
+        },
+        {
+          "title": "BOMBA",
+          "play_count": 194542,
+          "uri": "spotify:track:4UOhWJXihWNNNaDwGSUSqP"
+        },
+        {
+          "title": "Rock Steady",
+          "play_count": 190236,
+          "uri": "spotify:track:5vUJ7PG0aY89m04btGQPih"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:31"
+    },
+    "VANNER": {
+      "name": "배너",
+      "name_en": "VANNER",
+      "gender": "남자",
+      "spotify_id": "05pkCt3DQY5ZC41u7WMk5D",
+      "spotify_name": "VANNER",
+      "monthly_listeners": 16344,
+      "top_tracks": [
+        {
+          "title": "FORM",
+          "play_count": 1537468,
+          "uri": "spotify:track:5lfn0YTLaNScClWm4cmwU4"
+        },
+        {
+          "title": "JACKPOT",
+          "play_count": 669427,
+          "uri": "spotify:track:4e4RlMOWUnoVkIYyjNjN57"
+        },
+        {
+          "title": "Goodbye & Hello",
+          "play_count": 113907,
+          "uri": "spotify:track:4B131HnHQYxbOdSwktnCec"
+        },
+        {
+          "title": "PERFORMER",
+          "play_count": 630808,
+          "uri": "spotify:track:2arrxX2BubTq86E4N067WY"
+        },
+        {
+          "title": "Pinch Me",
+          "play_count": 72110,
+          "uri": "spotify:track:3lgqjxSp5jn7CknPEM4hEB"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:32"
+    },
+    "BAE173": {
+      "name": "비에이이일칠삼",
+      "name_en": "BAE173",
+      "gender": "남자",
+      "spotify_id": "60315n11JElel8KhdHg8jM",
+      "spotify_name": "BAE173",
+      "monthly_listeners": 33335,
+      "top_tracks": [
+        {
+          "title": "왜 이러니",
+          "play_count": 189961,
+          "uri": "spotify:track:4Fge5M1t2E746wfOy4gjBf"
+        },
+        {
+          "title": "Crush on U",
+          "play_count": 1743282,
+          "uri": "spotify:track:2ZnPDErWgk6i2Vqh4xEEMG"
+        },
+        {
+          "title": "JAWS",
+          "play_count": 1309090,
+          "uri": "spotify:track:1c5kZR43Op22rrsVv9jrBT"
+        },
+        {
+          "title": "사랑했다",
+          "play_count": 1629432,
+          "uri": "spotify:track:4NLX51HWYhwWv9VqdJgYjc"
+        },
+        {
+          "title": "Fifty-Fifty",
+          "play_count": 532833,
+          "uri": "spotify:track:5Su70BpO6XilzuCjgR2OG2"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:33"
+    },
+    "82MAJOR": {
+      "name": "에이티투메이저",
+      "name_en": "82MAJOR",
+      "gender": "남자",
+      "spotify_id": "1wDstpO8XQNU6GV0S92663",
+      "spotify_name": "82MAJOR",
+      "monthly_listeners": 270606,
+      "top_tracks": [
+        {
+          "title": "TROPHY",
+          "play_count": 1671946,
+          "uri": "spotify:track:47Mu43nMCpr04YGL1AlLEp"
+        },
+        {
+          "title": "Sure Thing",
+          "play_count": 3440253,
+          "uri": "spotify:track:3Xi4YPJEV7vYvZpWHh1b7a"
+        },
+        {
+          "title": "Need That Bass",
+          "play_count": 690352,
+          "uri": "spotify:track:24hvygYNzeAxeHMmOn8ggk"
+        },
+        {
+          "title": "Suspicious",
+          "play_count": 787865,
+          "uri": "spotify:track:0xPTFPdlcrPHUm1Ve2eNyy"
+        },
+        {
+          "title": "Say more",
+          "play_count": 732254,
+          "uri": "spotify:track:4CB2mgvK6vVANipsBp0I8v"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:06"
+    },
+    "FANTASY BOYS": {
+      "name": "판타지보이즈",
+      "name_en": "FANTASY BOYS",
+      "gender": "남자",
+      "spotify_id": "4IAcb0MN1CCHpwUaq5iEUU",
+      "spotify_name": "FANTASY BOYS",
+      "monthly_listeners": 24364,
+      "top_tracks": [
+        {
+          "title": "Potential",
+          "play_count": 749563,
+          "uri": "spotify:track:16178ZTU8FsObgMeNkWFdD"
+        },
+        {
+          "title": "Undeniable",
+          "play_count": 318108,
+          "uri": "spotify:track:4drkTx3m8rbbBoFh58nc4A"
+        },
+        {
+          "title": "분명 그녀가 나를 보고 웃잖아",
+          "play_count": 536100,
+          "uri": "spotify:track:4HdhvgjXXIlqFtK8H7wcf1"
+        },
+        {
+          "title": "New Tomorrow",
+          "play_count": 756413,
+          "uri": "spotify:track:60ujvhbThKGrkkKEiio2dA"
+        },
+        {
+          "title": "FANTASY",
+          "play_count": 773807,
+          "uri": "spotify:track:4RKT2liNU8zqwtVa4nURkX"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:34"
+    },
+    "The Wind": {
+      "name": "더윈드",
+      "name_en": "The Wind",
+      "gender": "남자",
+      "spotify_id": "3q4h0WRGyR0Qcx88vwyzkd",
+      "spotify_name": "The Wind",
+      "monthly_listeners": 78215,
+      "top_tracks": [
+        {
+          "title": "With US",
+          "play_count": 4882592,
+          "uri": "spotify:track:56R2Pn5bi2EWbuO1fZWXUh"
+        },
+        {
+          "title": "Only One",
+          "play_count": 1237414,
+          "uri": "spotify:track:7JYn7yfGVOVs639BKb2exc"
+        },
+        {
+          "title": "Hello, My First Love",
+          "play_count": 1366780,
+          "uri": "spotify:track:6hZNzsNJAS1FFNJF0PI5jf"
+        },
+        {
+          "title": "ISLAND",
+          "play_count": 2008814,
+          "uri": "spotify:track:5d5uB8YAUkG5zNf7yp4Cmk"
+        },
+        {
+          "title": "Heart Fluttering",
+          "play_count": 388705,
+          "uri": "spotify:track:1DbEKfRapMzbRf5RJ33RCB"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:35"
+    },
+    "WEi": {
+      "name": "위아이",
+      "name_en": "WEi",
+      "gender": "남자",
+      "spotify_id": "7IkfFdVcI6HrRKuOO9NvX5",
+      "spotify_name": "WEi",
+      "monthly_listeners": 69108,
+      "top_tracks": [
+        {
+          "title": "HOME",
+          "play_count": 381678,
+          "uri": "spotify:track:39AIGxDZhfRre2EPJeLQsh"
+        },
+        {
+          "title": "NOT ENOUGH",
+          "play_count": 991104,
+          "uri": "spotify:track:7mlaiNv0po5vSAnp6KYEgF"
+        },
+        {
+          "title": "BYE BYE BYE",
+          "play_count": 5996895,
+          "uri": "spotify:track:69Nn4yZnYo1nw4mfQvNbfU"
+        },
+        {
+          "title": "OVERDRIVE",
+          "play_count": 2436118,
+          "uri": "spotify:track:1iiQ6wFdJz4uGn2a2cGjaG"
+        },
+        {
+          "title": "TWILIGHT",
+          "play_count": 6311270,
+          "uri": "spotify:track:7ruu3WCZipZT9ST11iI7WV"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:35"
+    },
+    "WHIB": {
+      "name": "휘브",
+      "name_en": "WHIB",
+      "gender": "남자",
+      "spotify_id": "4pTBL6fTowmWTa61ef7RNb",
+      "spotify_name": "WHIB",
+      "monthly_listeners": 97517,
+      "top_tracks": [
+        {
+          "title": "ROCK THE NATION",
+          "play_count": 214347,
+          "uri": "spotify:track:5eUqyBKFdnSDjaljStvIbC"
+        },
+        {
+          "title": "ELEVATE",
+          "play_count": 114787,
+          "uri": "spotify:track:2QCOgZ74aR4WG77yBOaEnb"
+        },
+        {
+          "title": "NO SHINE",
+          "play_count": 80609,
+          "uri": "spotify:track:1qpH1kzZxGPEfz8kUHqjXR"
+        },
+        {
+          "title": "BANG OUT",
+          "play_count": 378791,
+          "uri": "spotify:track:4DTxOXmrJsgDkiSl1nCapH"
+        },
+        {
+          "title": "Still typing.. (subtitle: blank)",
+          "play_count": 237045,
+          "uri": "spotify:track:0dEpctQ4a01K7xtl3QhnXt"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:07"
+    },
+    "DXMON": {
+      "name": "다이몬",
+      "name_en": "DXMON",
+      "gender": "남자",
+      "spotify_id": "3696Y4dRCxairFC7sQAuI4",
+      "spotify_name": "DXMON",
+      "monthly_listeners": 24800,
+      "top_tracks": [
+        {
+          "title": "Burn Up",
+          "play_count": 1711545,
+          "uri": "spotify:track:6MuGKATZWdlxekc6lPRXVW"
+        },
+        {
+          "title": "Girls, Love boys, Love girls",
+          "play_count": 811593,
+          "uri": "spotify:track:7pcHhqteiHcGKmaD6lOC73"
+        },
+        {
+          "title": "Zip Zip Zip",
+          "play_count": 383566,
+          "uri": "spotify:track:1WxZnMz2lcFskuyx6A7rYi"
+        },
+        {
+          "title": "SPARK",
+          "play_count": 587003,
+          "uri": "spotify:track:14efWkIZpHRkh8Vgyt0U2k"
+        },
+        {
+          "title": "Very",
+          "play_count": 233735,
+          "uri": "spotify:track:6yaajketfjKc4vqwcMmutg"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:37"
+    },
+    "ONF": {
+      "name": "온앤오프",
+      "name_en": "ONF",
+      "gender": "남자",
+      "spotify_id": "0eEhOgZ2x6kv8kLz77WO7b",
+      "spotify_name": "ONF",
+      "monthly_listeners": 135079,
+      "top_tracks": [
+        {
+          "title": "We Must Love",
+          "play_count": 9935146,
+          "uri": "spotify:track:1A4YajwEpelSzGoNv1dFk7"
+        },
+        {
+          "title": "Beautiful Beautiful",
+          "play_count": 8482431,
+          "uri": "spotify:track:79QAI89acpSdemBXCNFJzr"
+        },
+        {
+          "title": "Bye My Monster",
+          "play_count": 2211290,
+          "uri": "spotify:track:7MV68p0TgX9YAo1y3SyjU8"
+        },
+        {
+          "title": "Sukhumvit Swimming",
+          "play_count": 5556145,
+          "uri": "spotify:track:2FciWfcHPs6cct6YVjmpyU"
+        },
+        {
+          "title": "Complete (Remastered Version)",
+          "play_count": 5714099,
+          "uri": "spotify:track:5IkqEM7u4iuitF5KFgwtG3"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:37"
+    },
+    "MIRAE": {
+      "name": "미래소년",
+      "name_en": "MIRAE",
+      "gender": "남자",
+      "spotify_id": "3cI5n4TdsnqzKxYPkQLs4b",
+      "spotify_name": "MIRAE",
+      "monthly_listeners": 23470,
+      "top_tracks": [
+        {
+          "title": "Marvelous",
+          "play_count": 2396686,
+          "uri": "spotify:track:45op3j9bOEPAJnqq5gZ3Q5"
+        },
+        {
+          "title": "KILLA",
+          "play_count": 2291330,
+          "uri": "spotify:track:7MyF8hoeUbpv6ZIEVlsTY8"
+        },
+        {
+          "title": "Drip N' Drop",
+          "play_count": 884224,
+          "uri": "spotify:track:5pCAhWYET9Ry4UIB3OmSkC"
+        },
+        {
+          "title": "Splash",
+          "play_count": 1194592,
+          "uri": "spotify:track:6jDg7fyZRymvKPYWdBxTgu"
+        },
+        {
+          "title": "Snow Prince",
+          "play_count": 215902,
+          "uri": "spotify:track:3rCV8mltrSBeDbCrQ0fbWL"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:38"
+    },
+    "MCND": {
+      "name": "엠씨엔디",
+      "name_en": "MCND",
+      "gender": "남자",
+      "spotify_id": "59dDRtMe8DILtibke8FWLK",
+      "spotify_name": "MCND",
+      "monthly_listeners": 73277,
+      "top_tracks": [
+        {
+          "title": "ICE AGE",
+          "play_count": 20112165,
+          "uri": "spotify:track:1q2bu7PaEUUiFJYFsAiHiz"
+        },
+        {
+          "title": "Crush",
+          "play_count": 8164229,
+          "uri": "spotify:track:2Gdw7bH1N016pgc6i3JZDR"
+        },
+        {
+          "title": "Spring",
+          "play_count": 7708321,
+          "uri": "spotify:track:6HavrP0eerKhssA8CcG0pi"
+        },
+        {
+          "title": "TOP GANG",
+          "play_count": 5788713,
+          "uri": "spotify:track:7JDBOOf49nKbwNopK8Bbv0"
+        },
+        {
+          "title": "nanana",
+          "play_count": 3914566,
+          "uri": "spotify:track:0BNhwRWWjBWTTEMDncprUt"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:39"
+    },
+    "xikers": {
+      "name": "싸이커스",
+      "name_en": "xikers",
+      "gender": "남자",
+      "spotify_id": "6QHP8St0MzfNDqjKpwtMht",
+      "spotify_name": "xikers",
+      "monthly_listeners": 337905,
+      "top_tracks": [
+        {
+          "title": "TRICKY HOUSE",
+          "play_count": 34085252,
+          "uri": "spotify:track:2MeEPaL5HsW9njvrtP0Agj"
+        },
+        {
+          "title": "ICONIC",
+          "play_count": 2904962,
+          "uri": "spotify:track:4BSx3P80BGTTh0hRmvSvxL"
+        },
+        {
+          "title": "SUPERPOWER (Peak)",
+          "play_count": 1875768,
+          "uri": "spotify:track:5cgk5DRxhBuPcvJpM8KIsz"
+        },
+        {
+          "title": "BREATHE",
+          "play_count": 5275562,
+          "uri": "spotify:track:2P5bbp7BeVtrECPJaN8AFO"
+        },
+        {
+          "title": "Red Sun",
+          "play_count": 4243763,
+          "uri": "spotify:track:3z3eX1eG1Gj0YFDhYPkTrl"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:07"
+    },
+    "NouerA": {
+      "name": "누에라",
+      "name_en": "NouerA",
+      "gender": "남자",
+      "spotify_id": "4YsiijJHnCAjqS9cIXNoTI",
+      "spotify_name": "NouerA",
+      "monthly_listeners": 53617,
+      "top_tracks": [
+        {
+          "title": "POP IT LIKE",
+          "play_count": 56102,
+          "uri": "spotify:track:0gvr5CBsUgd1PlYsHmvJ3V"
+        },
+        {
+          "title": "N.I.N (New is Now)",
+          "play_count": 559416,
+          "uri": "spotify:track:0F2ntvKX2dNrY8DEEePCHC"
+        },
+        {
+          "title": "Silhouette",
+          "play_count": 23754,
+          "uri": "spotify:track:7cfolLdAVa56V1ltaIj6O0"
+        },
+        {
+          "title": "We are young",
+          "play_count": 17631,
+          "uri": "spotify:track:3WV8ClB26jumU0ppxhmCSF"
+        },
+        {
+          "title": "MU",
+          "play_count": 502343,
+          "uri": "spotify:track:3QhIdQkVUI0tXOnxumSGWf"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:40"
+    },
+    "n.SSign": {
+      "name": "엔싸인",
+      "name_en": "n.SSign",
+      "gender": "남자",
+      "spotify_id": "3IHvi45S5SITyNES9VzSjI",
+      "spotify_name": "n.SSign",
+      "monthly_listeners": 31514,
+      "top_tracks": [
+        {
+          "title": "Funky like me",
+          "play_count": 83116,
+          "uri": "spotify:track:6w0cNSNsGjNjzd6WTvxkuO"
+        },
+        {
+          "title": "FEELIN' GOOD",
+          "play_count": 17389,
+          "uri": "spotify:track:3PWuzNxDBhiVhRqGEKDSHl"
+        },
+        {
+          "title": "Let's do this",
+          "play_count": 505615,
+          "uri": "spotify:track:3AbexHCUH8upOxEKcUzo05"
+        },
+        {
+          "title": "Happy &",
+          "play_count": 686121,
+          "uri": "spotify:track:03U3O2lnSCJKPdBhUUtSjV"
+        },
+        {
+          "title": "SCOOT UP!",
+          "play_count": 41616,
+          "uri": "spotify:track:7ul59SOwd275cYBLnZnFnu"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:08"
+    },
+    "DKB": {
+      "name": "다크비",
+      "name_en": "DKB",
+      "gender": "남자",
+      "spotify_id": "4DoedGw38ubJdAT1edFsIx",
+      "spotify_name": "DKB",
+      "monthly_listeners": 48101,
+      "top_tracks": [
+        {
+          "title": "Irony",
+          "play_count": 418765,
+          "uri": "spotify:track:7lgkS0moKfp1AXgi3MwmFM"
+        },
+        {
+          "title": "Flirting X",
+          "play_count": 747004,
+          "uri": "spotify:track:4TGctisYgwEoezT5GuDYJ1"
+        },
+        {
+          "title": "Rollercoaster",
+          "play_count": 1833740,
+          "uri": "spotify:track:7pGEgie2m5bx9kxsudyXfU"
+        },
+        {
+          "title": "난 일해",
+          "play_count": 891441,
+          "uri": "spotify:track:0gn7uSwdTwpKLYT6yrSOWw"
+        },
+        {
+          "title": "I Need Love",
+          "play_count": 902375,
+          "uri": "spotify:track:53LfCu2BvhDpsaFUKQXqWU"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:41"
+    },
+    "ATBO": {
+      "name": "에이티비오",
+      "name_en": "ATBO",
+      "gender": "남자",
+      "spotify_id": "3bwO3gNZVmHwaBttv739g7",
+      "spotify_name": "ATBO",
+      "monthly_listeners": 10721,
+      "top_tracks": [
+        {
+          "title": "ATTITUDE",
+          "play_count": 1097053,
+          "uri": "spotify:track:4G3kw5Y7pbwK9aE8mjfivE"
+        },
+        {
+          "title": "Monochrome (Color)",
+          "play_count": 1041545,
+          "uri": "spotify:track:2M1kWKx9G2MlVPtwKQjpHp"
+        },
+        {
+          "title": "Next to Me",
+          "play_count": 615334,
+          "uri": "spotify:track:35pgNknwrEIUQByD7ZcGQH"
+        },
+        {
+          "title": "Must Have Love",
+          "play_count": 343118,
+          "uri": "spotify:track:3fixP4VxUKRRg7i8WeViuL"
+        },
+        {
+          "title": "BOUNCE",
+          "play_count": 176143,
+          "uri": "spotify:track:6A5pxRNeIv18ISE8QqQs4l"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:42"
+    },
+    "ARrC": {
+      "name": "아크",
+      "name_en": "ARrC",
+      "gender": "남자",
+      "spotify_id": "0aI0llD36ZH9ZDplS8TblP",
+      "spotify_name": "ARrC",
+      "monthly_listeners": 41523,
+      "top_tracks": [
+        {
+          "title": "awesome",
+          "play_count": 414420,
+          "uri": "spotify:track:6hnzYx4y2NcPyqyHrMM22b"
+        },
+        {
+          "title": "S&S (sour and sweet)",
+          "play_count": 1751295,
+          "uri": "spotify:track:1GeFTnXC5r8swRolj7vCgr"
+        },
+        {
+          "title": "SKIID",
+          "play_count": 193984,
+          "uri": "spotify:track:69Lfa6t4sskn5BwiHJ1nch"
+        },
+        {
+          "title": "dummy",
+          "play_count": 1136147,
+          "uri": "spotify:track:0sAq8cN9lvt9dkAWa5DtWb"
+        },
+        {
+          "title": "nu kidz",
+          "play_count": 281551,
+          "uri": "spotify:track:4rnhpp3CTVJ7bgr3fTcOWi"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:43"
+    },
+    "NOMAD": {
+      "name": "노매드",
+      "name_en": "NOMAD",
+      "gender": "남자",
+      "spotify_id": "3hscj9beAfMyBhBxJsHisK",
+      "spotify_name": "NOMAD",
+      "monthly_listeners": 9036,
+      "top_tracks": [
+        {
+          "title": "Automatic",
+          "play_count": 329727,
+          "uri": "spotify:track:6U5AEaTtLE28FBU8PMecjh"
+        },
+        {
+          "title": "No pressure",
+          "play_count": 483164,
+          "uri": "spotify:track:7kLeR8y4onZTbvkJPkYSwI"
+        },
+        {
+          "title": "Eye 2 eye",
+          "play_count": 260157,
+          "uri": "spotify:track:0HuigRzEI5RhDxnfI2CDTX"
+        },
+        {
+          "title": "Lights on",
+          "play_count": 301022,
+          "uri": "spotify:track:6iV92BDHIlbQ1fFD9W2CPG"
+        },
+        {
+          "title": "California love",
+          "play_count": 315974,
+          "uri": "spotify:track:30GVF75McmPCzN7bpcijZD"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:09"
+    },
+    "ALL(H)OURS": {
+      "name": "올아워즈",
+      "name_en": "ALL(H)OURS",
+      "gender": "남자",
+      "spotify_id": "2m5lRlEucobWPA1V6xqxWO",
+      "spotify_name": "ALL(H)OURS",
+      "monthly_listeners": 208840,
+      "top_tracks": [
+        {
+          "title": "GIMME GIMME",
+          "play_count": 3939962,
+          "uri": "spotify:track:4QTDaL72TntzXCeoHrl6Cx"
+        },
+        {
+          "title": "SHOCK",
+          "play_count": 4752661,
+          "uri": "spotify:track:0F2s3Lc7LeAlt2w7OokIoL"
+        },
+        {
+          "title": "READY 2 RUMBLE",
+          "play_count": 776496,
+          "uri": "spotify:track:1Vj1oP3Z1PJXsU2HpgEPvO"
+        },
+        {
+          "title": "WAO WAO",
+          "play_count": 1258115,
+          "uri": "spotify:track:1VEcURw5AJrI4OIqBMO07q"
+        },
+        {
+          "title": "GOTCHA",
+          "play_count": 1938847,
+          "uri": "spotify:track:02rhdB4VphNx89HO1ER4cN"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:45"
+    },
+    "TRENDZ": {
+      "name": "트렌드지",
+      "name_en": "TRENDZ",
+      "gender": "남자",
+      "spotify_id": "6Bmr9e9x44iib7equMj5Qj",
+      "spotify_name": "TRENDZ",
+      "monthly_listeners": 40559,
+      "top_tracks": [
+        {
+          "title": "NEW DAYZ",
+          "play_count": 1703907,
+          "uri": "spotify:track:5WfZIXUF0PlUMUcETTpk7t"
+        },
+        {
+          "title": "Kart Racer",
+          "play_count": 34852,
+          "uri": "spotify:track:1hnpRy9O93jZs9HI51y02u"
+        },
+        {
+          "title": "Crime",
+          "play_count": 87350,
+          "uri": "spotify:track:0yWMqHZAwjzdDQaDTpv3pk"
+        },
+        {
+          "title": "VAGABOND",
+          "play_count": 618027,
+          "uri": "spotify:track:62zGOAGCpElZUCN0TzP39r"
+        },
+        {
+          "title": "MY WAY",
+          "play_count": 619214,
+          "uri": "spotify:track:6w4QiIpOwtNKDMQBXBkBCS"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:09"
+    },
+    "NINE.i": {
+      "name": "나인아이",
+      "name_en": "NINE.i",
+      "gender": "남자",
+      "spotify_id": "4e8UtPYfVPBzWO4PY8CZye",
+      "spotify_name": "NINE.i",
+      "monthly_listeners": 19573,
+      "top_tracks": [
+        {
+          "title": "Young Boy",
+          "play_count": 2070840,
+          "uri": "spotify:track:6FyutIs4pHcf6hKGIHuI2X"
+        },
+        {
+          "title": "Parallel Universe",
+          "play_count": 1112518,
+          "uri": "spotify:track:082mpKdxm3LjJNQwlp9p0y"
+        },
+        {
+          "title": "Hurt",
+          "play_count": 379340,
+          "uri": "spotify:track:2d1URizV4ETDnrT8DIq4Zm"
+        },
+        {
+          "title": "I AM",
+          "play_count": 884144,
+          "uri": "spotify:track:13SGWCb3d4ZTdkLxWjj066"
+        },
+        {
+          "title": "Wasted Youth",
+          "play_count": 484431,
+          "uri": "spotify:track:5bi48f8d2Z1siBQ0cswDwx"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:46"
+    },
+    "SEVENUS": {
+      "name": "세븐어스",
+      "name_en": "SEVENUS",
+      "gender": "남자",
+      "spotify_id": "4wdzXgn8T0JnJdLhdplXfw",
+      "spotify_name": "SEVENUS",
+      "monthly_listeners": 5158,
+      "top_tracks": [
+        {
+          "title": "Airplane mode",
+          "play_count": 28582,
+          "uri": "spotify:track:2HYVwgmZJvlr6CEqrJa48n"
+        },
+        {
+          "title": "An enduring dream",
+          "play_count": 14296,
+          "uri": "spotify:track:2J9lvd6x49Go0aHVnoiEOu"
+        },
+        {
+          "title": "Sunny side up",
+          "play_count": 14618,
+          "uri": "spotify:track:7tEsWoStj3QGetg0gBTOqM"
+        },
+        {
+          "title": "Want You Back",
+          "play_count": 141900,
+          "uri": "spotify:track:7ou74UI2i1WF9kOULhB8LF"
+        },
+        {
+          "title": "Wonder Land",
+          "play_count": 206256,
+          "uri": "spotify:track:19ebWm29nBXU3nZ1LyFkbf"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:47"
+    },
+    "AIMERS": {
+      "name": "에이머스",
+      "name_en": "AIMERS",
+      "gender": "남자",
+      "spotify_id": "4U2eZzOZsobt9JHp0znP1L",
+      "spotify_name": "AIMERS",
+      "monthly_listeners": 16755,
+      "top_tracks": [
+        {
+          "title": "Fireworks",
+          "play_count": 782766,
+          "uri": "spotify:track:5Q42ynmYZN979JiZusBSqz"
+        },
+        {
+          "title": "Somebody",
+          "play_count": 335002,
+          "uri": "spotify:track:0eUKlXnqc2A9z2VQ54tGGI"
+        },
+        {
+          "title": "Colors",
+          "play_count": 281775,
+          "uri": "spotify:track:7tkTNe7lwcR2GRtp7yjF4L"
+        },
+        {
+          "title": "Cherish",
+          "play_count": 194300,
+          "uri": "spotify:track:2sde1lp8j8MT9VQ5SELiqS"
+        },
+        {
+          "title": "Called Game",
+          "play_count": 47585,
+          "uri": "spotify:track:63s9r5cY9r531lGtSciptR"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:47"
+    },
+    "ONE PACT": {
+      "name": "원팩트",
+      "name_en": "ONE PACT",
+      "gender": "남자",
+      "spotify_id": "6ypgjfzuOVkVw9FEyh2UD5",
+      "spotify_name": "ONE PACT",
+      "monthly_listeners": 146768,
+      "top_tracks": [
+        {
+          "title": "Pull Up",
+          "play_count": 98471,
+          "uri": "spotify:track:79MExvq75fclMHnLMLHcc1"
+        },
+        {
+          "title": "SANE",
+          "play_count": 102434,
+          "uri": "spotify:track:1xvKv2s1glXmM7r7onnU0s"
+        },
+        {
+          "title": "DESERVED",
+          "play_count": 2988594,
+          "uri": "spotify:track:33iEkYyCgQBJNTRN2fkY4S"
+        },
+        {
+          "title": "YES, NO, MAYBE",
+          "play_count": 990798,
+          "uri": "spotify:track:0tdwohWGtZzDZq9DQ055A9"
+        },
+        {
+          "title": "Vampire (Special Track)",
+          "play_count": 53431,
+          "uri": "spotify:track:7hsrLhpHh8Oq9ewSe9cBmx"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:48"
+    },
+    "TIOT": {
+      "name": "티아이오티",
+      "name_en": "TIOT",
+      "gender": "남자",
+      "spotify_id": "2hoCMH0KWwpjFJEGh0ECe7",
+      "spotify_name": "TIOT",
+      "monthly_listeners": 27156,
+      "top_tracks": [
+        {
+          "title": "MY PRIDE",
+          "play_count": 184305,
+          "uri": "spotify:track:5fXi5dl48tR8l0rUlPSa0Y"
+        },
+        {
+          "title": "The Long Season",
+          "play_count": 317512,
+          "uri": "spotify:track:1CPY4rGB0wJ5nx2sajjBxU"
+        },
+        {
+          "title": "Moonrise",
+          "play_count": 288132,
+          "uri": "spotify:track:5JmcFleVcHjkcGoALYwBWi"
+        },
+        {
+          "title": "I Don’t Wanna Wait (IDWW)",
+          "play_count": 72297,
+          "uri": "spotify:track:4CXK0BfOkYUbvwD9EbYiSV"
+        },
+        {
+          "title": "Every Ten Minutes",
+          "play_count": 77515,
+          "uri": "spotify:track:14PSuvCf2TfS86mslFXW7q"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:10"
+    },
+    "NCHIVE": {
+      "name": "엔카이브",
+      "name_en": "NCHIVE",
+      "gender": "남자",
+      "spotify_id": "3DA03oZ7LDPXNup162ton5",
+      "spotify_name": "NCHIVE",
+      "monthly_listeners": 3801,
+      "top_tracks": [
+        {
+          "title": "CAN'T CATCH ME",
+          "play_count": 27309,
+          "uri": "spotify:track:1o4zoaOfSioQadjDmrMvhk"
+        },
+        {
+          "title": "Racer",
+          "play_count": 110294,
+          "uri": "spotify:track:4VZpFlqSmkNeCSTihvmrTc"
+        },
+        {
+          "title": "Fireworks",
+          "play_count": 54164,
+          "uri": "spotify:track:2Z8nnjb9vQqdWRt3BSXxJA"
+        },
+        {
+          "title": "Flash",
+          "play_count": 14074,
+          "uri": "spotify:track:09W2FuTFDxbkX522VYQAm4"
+        },
+        {
+          "title": "Dive In",
+          "play_count": 48540,
+          "uri": "spotify:track:01qVbv1y2TFnMgtk2XQxkw"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:49"
+    },
+    "The KingDom": {
+      "name": "더킹덤",
+      "name_en": "The KingDom",
+      "gender": "남자",
+      "spotify_id": "0p5Ot7c8cFHtS82hd1WBN3",
+      "spotify_name": "The KingDom",
+      "monthly_listeners": 38079,
+      "top_tracks": [
+        {
+          "title": "Excalibur",
+          "play_count": 3931395,
+          "uri": "spotify:track:5uNEmROkf5izWfrQ9oLvAQ"
+        },
+        {
+          "title": "Last Flower",
+          "play_count": 209995,
+          "uri": "spotify:track:0M1NR0EXFkMoy8nt4JNXKH"
+        },
+        {
+          "title": "KARMA",
+          "play_count": 3067047,
+          "uri": "spotify:track:7r0SUODm7Wq4yTpT2KKtg8"
+        },
+        {
+          "title": "Ascension",
+          "play_count": 1817771,
+          "uri": "spotify:track:0ZabC2gf38O0lQsPs00irH"
+        },
+        {
+          "title": "Dystopia",
+          "play_count": 1276192,
+          "uri": "spotify:track:6tksGYo7SrnXF7Cj3sLWav"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:50"
+    },
+    "BLITZERS": {
+      "name": "블리처스",
+      "name_en": "BLITZERS",
+      "gender": "남자",
+      "spotify_id": "3Exoh42YMeqnUvYahAGgUE",
+      "spotify_name": "BLITZERS",
+      "monthly_listeners": 43061,
+      "top_tracks": [
+        {
+          "title": "Macarena",
+          "play_count": 5080287,
+          "uri": "spotify:track:1K8mA1oiXfjqGKiIIrXklo"
+        },
+        {
+          "title": "Breathe Again",
+          "play_count": 1532827,
+          "uri": "spotify:track:2Jl9HCRE7AxGdFhtvahsJF"
+        },
+        {
+          "title": "Hit The Bass",
+          "play_count": 801790,
+          "uri": "spotify:track:1LXmc606FdkV2LKOxjgw4B"
+        },
+        {
+          "title": "Beautiful Day",
+          "play_count": 1079828,
+          "uri": "spotify:track:5wxlZZhPaxea0jxEyZNZMp"
+        },
+        {
+          "title": "SUPERPOWER",
+          "play_count": 434571,
+          "uri": "spotify:track:7jsMpMsKMBr3cnxLNFeJr0"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:51"
+    },
+    "WAKER": {
+      "name": "웨이커",
+      "name_en": "WAKER",
+      "gender": "남자",
+      "spotify_id": "1JHWiZqATDzLpkKLOC88pW",
+      "spotify_name": "WAKER",
+      "monthly_listeners": 16496,
+      "top_tracks": [
+        {
+          "title": "LiKE THAT",
+          "play_count": 79260,
+          "uri": "spotify:track:5tMCxcEG24Q6z8Q8V1ZysR"
+        },
+        {
+          "title": "Vanilla Choco Shake",
+          "play_count": 287289,
+          "uri": "spotify:track:6pqdrxYFbBXPKUjqaw7DlF"
+        },
+        {
+          "title": "11:59",
+          "play_count": 17928,
+          "uri": "spotify:track:4sJgfaOYAfYSCRNAUgkBgf"
+        },
+        {
+          "title": "Lucid Dream",
+          "play_count": 17073,
+          "uri": "spotify:track:1oVyKjKwOsiDsdhMOgsCPH"
+        },
+        {
+          "title": "Sugar Crush",
+          "play_count": 16418,
+          "uri": "spotify:track:3gnfSjDZUt7lrr2nD1KhMp"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:51"
+    },
+    "WATERFIRE": {
+      "name": "워터파이어",
+      "name_en": "WATERFIRE",
+      "gender": "남자",
+      "spotify_id": "3WiQKZfcWhqHvCZuU4EPQ6",
+      "spotify_name": "WATERFIRE",
+      "monthly_listeners": 1877,
+      "top_tracks": [
+        {
+          "title": "Someday",
+          "play_count": 141137,
+          "uri": "spotify:track:3hGN5p1KWy1gLv8bBhYfms"
+        },
+        {
+          "title": "POSSIBLE",
+          "play_count": 80814,
+          "uri": "spotify:track:0yKDsaSU6ehdM4fRCJvi4I"
+        },
+        {
+          "title": "Now",
+          "play_count": 95612,
+          "uri": "spotify:track:1e9AhHyXuzg3a93Y0u9BnC"
+        },
+        {
+          "title": "POSSIBLE - Instrumental",
+          "play_count": 3690,
+          "uri": "spotify:track:4SiBkcHA3NAaianYTCwqYN"
+        },
+        {
+          "title": "Now - Instrumental",
+          "play_count": 2463,
+          "uri": "spotify:track:6ardKS843Rdd12evJkpwaK"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:52"
+    },
+    "PICKUS": {
+      "name": "피커스",
+      "name_en": "PICKUS",
+      "gender": "남자",
+      "spotify_id": "2xw8h8dxegZ1OMKPlRk18K",
+      "spotify_name": "PICKUS",
+      "monthly_listeners": 2079,
+      "top_tracks": [
+        {
+          "title": "Destapando Farsantes",
+          "play_count": 14239,
+          "uri": "spotify:track:7598fq2Mg0UOcn5EqRpH1e"
+        },
+        {
+          "title": "Little Prince",
+          "play_count": 88135,
+          "uri": "spotify:track:6mbPBjM1a3OksF50BsP9tn"
+        },
+        {
+          "title": "Wolf",
+          "play_count": 32137,
+          "uri": "spotify:track:1qP87mbgOHhuyeHc5Lv6En"
+        },
+        {
+          "title": "Cuando Te Vi",
+          "play_count": 63846,
+          "uri": "spotify:track:6BIu2bbTlIbF0wejmxvr5i"
+        },
+        {
+          "title": "A-CHA!",
+          "play_count": 25685,
+          "uri": "spotify:track:4TqZcEcLJyrCkIaz1njWaW"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:53"
+    },
+    "ASC2NT": {
+      "name": "어센트",
+      "name_en": "ASC2NT",
+      "gender": "남자",
+      "spotify_id": "4w6MZBLb4aIZpffyA52Doq",
+      "spotify_name": "ASC2NT",
+      "monthly_listeners": 34059,
+      "top_tracks": [
+        {
+          "title": "Still Rose",
+          "play_count": 49933,
+          "uri": "spotify:track:6MgrdZL7zA381FLAQiaITj"
+        },
+        {
+          "title": "DON'T MOVE",
+          "play_count": 164833,
+          "uri": "spotify:track:0BxA7X4Sd1vPWS1CLDec8S"
+        },
+        {
+          "title": "Replay",
+          "play_count": 50511,
+          "uri": "spotify:track:6sCYLG2f1f2iBEJ0WeGAag"
+        },
+        {
+          "title": "The Boy In The Mirror (feat. Yun Hyerin)",
+          "play_count": 11245,
+          "uri": "spotify:track:1vt7b34HtWNnugixCSSHEg"
+        },
+        {
+          "title": "Full Moon",
+          "play_count": 10300,
+          "uri": "spotify:track:3fR2OPiNLUVaBqbwqyLUNr"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:53"
+    },
+    "HAWW": {
+      "name": "하우",
+      "name_en": "HAWW",
+      "gender": "남자",
+      "spotify_id": "6VPzzFkOGBBo3h19Mrks91",
+      "spotify_name": "HAWW",
+      "monthly_listeners": 2372,
+      "top_tracks": [
+        {
+          "title": "Wanna Be Love",
+          "play_count": 312743,
+          "uri": "spotify:track:633ckRwltv8CYFxRTuII4B"
+        },
+        {
+          "title": "How Are You",
+          "play_count": 198835,
+          "uri": "spotify:track:4H70xGZcvrowyFjgDwgafR"
+        },
+        {
+          "title": "Make It Mine",
+          "play_count": 107098,
+          "uri": "spotify:track:67ookMbJ3OZnc1g5OhJhu6"
+        },
+        {
+          "title": "Can You Hear Me",
+          "play_count": 77753,
+          "uri": "spotify:track:6lc2UYUrfbTNRVLe78ZZsf"
+        },
+        {
+          "title": "RACE",
+          "play_count": 59531,
+          "uri": "spotify:track:6ilT0lZv8shniaC6LIKwOW"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:54"
+    },
+    "EASTSHINE": {
+      "name": "이스트샤인",
+      "name_en": "EASTSHINE",
+      "gender": "남자",
+      "spotify_id": "3moiI2AAzmkX2vG3bxyyUl",
+      "spotify_name": "EASTSHINE",
+      "monthly_listeners": 2454,
+      "top_tracks": [
+        {
+          "title": "Double Down",
+          "play_count": 89542,
+          "uri": "spotify:track:5KyHqQND52Lo6Dv11HX7Rm"
+        },
+        {
+          "title": "Lucky Tonight",
+          "play_count": 30174,
+          "uri": "spotify:track:0tMhpyKCBZWcl4MyB1TNwk"
+        },
+        {
+          "title": "Loveade",
+          "play_count": 18267,
+          "uri": "spotify:track:0PQlKLLBP3RXpc8vkONWQO"
+        },
+        {
+          "title": "No Matter What I Do",
+          "play_count": 44506,
+          "uri": "spotify:track:54GizPMWBqkn63ydkuuO3d"
+        },
+        {
+          "title": "HEARTTHROB",
+          "play_count": 44269,
+          "uri": "spotify:track:3lqYEax1PWMnQXddGBokkU"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:55"
+    },
+    "AEONIT": {
+      "name": "이오닛",
+      "name_en": "AEONIT",
+      "gender": "여자",
+      "spotify_id": "43Y3IZ3LrZD1YsSzG5xRxF",
+      "spotify_name": "AEONIT",
+      "monthly_listeners": 2762,
+      "top_tracks": [
+        {
+          "title": "Siren",
+          "play_count": 26337,
+          "uri": "spotify:track:53UlED4EKHBRnl4ZaxL2V1"
+        },
+        {
+          "title": "LUMOS",
+          "play_count": 106691,
+          "uri": "spotify:track:0Qrn3Cy33RjElWdqp7u3sr"
+        },
+        {
+          "title": "ENDLESS DREAM",
+          "play_count": 66514,
+          "uri": "spotify:track:61UuwMzvBnkyIq12ou1oFX"
+        },
+        {
+          "title": "Navigation",
+          "play_count": 97586,
+          "uri": "spotify:track:20tOzB07zW2b3su45EdUQZ"
+        },
+        {
+          "title": "Vuja De",
+          "play_count": 19765,
+          "uri": "spotify:track:5KzupNb9ALi8g5m49yCAaL"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:55"
+    },
+    "B.D.U": {
+      "name": "비디유",
+      "name_en": "B.D.U",
+      "gender": "남자",
+      "spotify_id": "1SRmmtrnAo0UK0NUROJRjz",
+      "spotify_name": "B.D.U",
+      "monthly_listeners": 6331,
+      "top_tracks": [
+        {
+          "title": "My One",
+          "play_count": 612873,
+          "uri": "spotify:track:67dGM7vsArZNWZ9qrXFKsR"
+        },
+        {
+          "title": "Everlasting Miracle",
+          "play_count": 296753,
+          "uri": "spotify:track:6NJlbASPHW6PONyMjdruQz"
+        },
+        {
+          "title": "Forget All",
+          "play_count": 224568,
+          "uri": "spotify:track:0rqCMIZpwN2pFjcfEjGkR3"
+        },
+        {
+          "title": "My One - English Version",
+          "play_count": 220356,
+          "uri": "spotify:track:4o1tpzldNxhNQXBcE9biI4"
+        },
+        {
+          "title": "aH-OOh!",
+          "play_count": 236152,
+          "uri": "spotify:track:57rTTV7fLtVpuJnxkcr7uT"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:56"
+    },
+    "DayChild": {
+      "name": "데이차일드",
+      "name_en": "DayChild",
+      "gender": "남자",
+      "spotify_id": "3ICMD33jI4CIykUpX4ySFm",
+      "spotify_name": "DayChild",
+      "monthly_listeners": 605,
+      "top_tracks": [
+        {
+          "title": "Click Clack",
+          "play_count": 58965,
+          "uri": "spotify:track:5GM8YJZb1GDUIZwmtwSEN7"
+        },
+        {
+          "title": "Stunning",
+          "play_count": 20059,
+          "uri": "spotify:track:6XQxtPVz1B0up4oaD3bWUO"
+        },
+        {
+          "title": "Only One",
+          "play_count": 6934,
+          "uri": "spotify:track:75Y5fFXiVW9ge50Pwunwqs"
+        },
+        {
+          "title": "illumination",
+          "play_count": 16303,
+          "uri": "spotify:track:4U7jrNg1nkR8XhvJrFNt2M"
+        },
+        {
+          "title": "Same Time",
+          "play_count": 10173,
+          "uri": "spotify:track:1F8Lnco7HDqZfQNBgV6dGV"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:57"
+    },
+    "Dragon Pony": {
+      "name": "드래곤포니",
+      "name_en": "Dragon Pony",
+      "gender": "남자",
+      "spotify_id": "2aRhzujDfJ1mVe2XdddXYL",
+      "spotify_name": "Dragon Pony",
+      "monthly_listeners": 66838,
+      "top_tracks": [
+        {
+          "title": "Not Out",
+          "play_count": 644971,
+          "uri": "spotify:track:3vpxOqE2uaaH3lf09soVnA"
+        },
+        {
+          "title": "Oh Perfect!",
+          "play_count": 40231,
+          "uri": "spotify:track:3LKZCLEnspadu6UQIOTPVD"
+        },
+        {
+          "title": "Radio Silence",
+          "play_count": 395968,
+          "uri": "spotify:track:1wJNpkpNrZEZId1F2Gz83K"
+        },
+        {
+          "title": "Palm Lines",
+          "play_count": 34066,
+          "uri": "spotify:track:406oyoc9ClMAdEjtSwAOzV"
+        },
+        {
+          "title": "POP UP",
+          "play_count": 746612,
+          "uri": "spotify:track:1hZUb6Lk1YUENriSC9bI8H"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:57"
+    },
+    "CLOSE YOUR EYES": {
+      "name": "클로즈 유어 아이즈",
+      "name_en": "CLOSE YOUR EYES",
+      "gender": "남자",
+      "spotify_id": "1gyIB8QvgXCZsEghjwTDL5",
+      "spotify_name": "CLOSE YOUR EYES",
+      "monthly_listeners": 542637,
+      "top_tracks": [
+        {
+          "title": "X",
+          "play_count": 5193661,
+          "uri": "spotify:track:2oZ2EKWo51eXQsn83pjNvj"
+        },
+        {
+          "title": "All My Poetry",
+          "play_count": 6694061,
+          "uri": "spotify:track:1qGihPwp76LainqxoRQ4Y0"
+        },
+        {
+          "title": "SOB",
+          "play_count": 2338640,
+          "uri": "spotify:track:4BRfTPaRcWRJZ4BBLZBm16"
+        },
+        {
+          "title": "Snowy Summer",
+          "play_count": 3307682,
+          "uri": "spotify:track:54zyXasoWKZAYt43c8GQvd"
+        },
+        {
+          "title": "Who's Dat? (Jane Doe)",
+          "play_count": 1776966,
+          "uri": "spotify:track:5ePbhKL5ePb8QzcLAmza7a"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:58"
+    },
+    "AHOF": {
+      "name": "아홉",
+      "name_en": "AHOF",
+      "gender": "남자",
+      "spotify_id": "4qfEQKZj3GXPjLBEppvHTH",
+      "spotify_name": "AHOF",
+      "monthly_listeners": 173084,
+      "top_tracks": [
+        {
+          "title": "Pinocchio",
+          "play_count": 7098336,
+          "uri": "spotify:track:3hXsfPCNGZnZx0l4AYvh8E"
+        },
+        {
+          "title": "Rendezvous",
+          "play_count": 14402974,
+          "uri": "spotify:track:4nKnOIDXFjRSMG4vkXDwzY"
+        },
+        {
+          "title": "Run at 1.5x Speed",
+          "play_count": 3589337,
+          "uri": "spotify:track:0OK4dl8w07OOD2GEp1zGbk"
+        },
+        {
+          "title": "Everything is Love",
+          "play_count": 3465965,
+          "uri": "spotify:track:6i8uu8k3CENvEniHVMi0VM"
+        },
+        {
+          "title": "Never Lose You",
+          "play_count": 3467810,
+          "uri": "spotify:track:3uqd5mmT6y8DcKYHNsWXil"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:59"
+    },
+    "XLOV": {
+      "name": "엑스러브",
+      "name_en": "XLOV",
+      "gender": "남자",
+      "spotify_id": "2b8aDRZFgUGWiUGchpWsyC",
+      "spotify_name": "XLOV",
+      "monthly_listeners": 1874427,
+      "top_tracks": [
+        {
+          "title": "1&Only",
+          "play_count": 66413035,
+          "uri": "spotify:track:0lOOUAYUITTHYyGWWAqKIr"
+        },
+        {
+          "title": "Rizz",
+          "play_count": 15046118,
+          "uri": "spotify:track:1Wr3KJN8y31KSsfi3WjVgv"
+        },
+        {
+          "title": "Biii:-P",
+          "play_count": 11758621,
+          "uri": "spotify:track:4z7I0iaA063AFHeGElKap5"
+        },
+        {
+          "title": "I'mma Be",
+          "play_count": 17303074,
+          "uri": "spotify:track:09B49mDd16vmAxbRKXdTfd"
+        },
+        {
+          "title": "BIZNESS",
+          "play_count": 12852693,
+          "uri": "spotify:track:298VKd3LRLU5nCbYVPeR64"
+        }
+      ],
+      "collected_at": "2026-03-18T06:33:59"
+    },
+    "NEWBEAT": {
+      "name": "뉴비트",
+      "name_en": "NEWBEAT",
+      "gender": "남자",
+      "spotify_id": "5Zj3vazMOh0sADCiAejr3z",
+      "spotify_name": "NEWBEAT",
+      "monthly_listeners": 58410,
+      "top_tracks": [
+        {
+          "title": "Look So Good",
+          "play_count": 360637,
+          "uri": "spotify:track:7q5g74MfLvv7ZPfUjYmOB4"
+        },
+        {
+          "title": "Flip the Coin",
+          "play_count": 660385,
+          "uri": "spotify:track:2ngahTOJYKxjJoeBKAjZQt"
+        },
+        {
+          "title": "JeLLo(Sleepers)",
+          "play_count": 522983,
+          "uri": "spotify:track:6m87vdQMpQ2lNavpxGYr2I"
+        },
+        {
+          "title": "HICCUPS",
+          "play_count": 424218,
+          "uri": "spotify:track:0snVTgso3ZEHlPij7CQC1g"
+        },
+        {
+          "title": "Cappuccino",
+          "play_count": 266132,
+          "uri": "spotify:track:6GDSbAtLcpefeOYSRIbVFt"
+        }
+      ],
+      "collected_at": "2026-03-18T06:34:00"
+    },
+    "IDID": {
+      "name": "아이딧",
+      "name_en": "IDID",
+      "gender": "여자",
+      "spotify_id": "67PXCkgEZryiYFJw691hPn",
+      "spotify_name": "IDID",
+      "monthly_listeners": 114919,
+      "top_tracks": [
+        {
+          "title": "PUSH BACK",
+          "play_count": 932799,
+          "uri": "spotify:track:2oXZU3GXBaz0NAeswRNZE2"
+        },
+        {
+          "title": "STEP IT UP",
+          "play_count": 1430994,
+          "uri": "spotify:track:1FCj33CWl1pCJnDZZGpF1y"
+        },
+        {
+          "title": "CHAN-RAN",
+          "play_count": 735942,
+          "uri": "spotify:track:2IFLWO1orOeeuAUCcTgji3"
+        },
+        {
+          "title": "SLOW TIDE",
+          "play_count": 504074,
+          "uri": "spotify:track:7mpCjMzECQdL20Gkzra68I"
+        },
+        {
+          "title": "Taking Off - Through Your Dreams",
+          "play_count": 348858,
+          "uri": "spotify:track:0cfQUDZT92CB6Pi027eJs6"
+        }
+      ],
+      "collected_at": "2026-03-18T06:34:01"
+    },
+    "BE BOYS": {
+      "name": "비보이즈",
+      "name_en": "BE BOYS",
+      "gender": "남자",
+      "spotify_id": "0A86PbD7BDlDWi6dtGgJXI",
+      "spotify_name": "BE BOYS",
+      "monthly_listeners": 2516,
+      "top_tracks": [
+        {
+          "title": "Earth and Moon",
+          "play_count": 24369,
+          "uri": "spotify:track:5mu3o6CnXpekrU7tIaxMgR"
+        },
+        {
+          "title": "if i ain’t got you",
+          "play_count": 51203,
+          "uri": "spotify:track:7ttVhWEV7D4cifrYEIKXKF"
+        },
+        {
+          "title": "I′M SO SORRY, BUT I LOVE YOU",
+          "play_count": 52449,
+          "uri": "spotify:track:11aFqEJWAh9W880NHQb3oM"
+        },
+        {
+          "title": "CLOVER",
+          "play_count": 20927,
+          "uri": "spotify:track:4cjqXrN46sr0bRFckQtgqG"
+        },
+        {
+          "title": "BE There",
+          "play_count": 13401,
+          "uri": "spotify:track:2eCO5oBVvHHHwBVNCUzK2V"
+        }
+      ],
+      "collected_at": "2026-03-18T06:34:01"
+    },
+    "idntt": {
+      "name": "아이덴티티",
+      "name_en": "idntt",
+      "gender": "남자",
+      "spotify_id": "18eBHUF4EG1bXtbLZZ6g7M",
+      "spotify_name": "idntt",
+      "monthly_listeners": 265435,
+      "top_tracks": [
+        {
+          "title": "Pretty Boy Swag",
+          "play_count": 1210029,
+          "uri": "spotify:track:0IV3CJVZb5nbUgGOnRgHe7"
+        },
+        {
+          "title": "All I Need",
+          "play_count": 321791,
+          "uri": "spotify:track:1L0pXWUh7MmjJ9sEtvbH9W"
+        },
+        {
+          "title": "Yes We Are",
+          "play_count": 620476,
+          "uri": "spotify:track:4Posl8hBAZxPVWguogt3og"
+        },
+        {
+          "title": "BOYtude",
+          "play_count": 2967047,
+          "uri": "spotify:track:2gJv0gGR483rde5GNEJVld"
+        },
+        {
+          "title": "Moon Burn",
+          "play_count": 428712,
+          "uri": "spotify:track:665fzGGx6DzLdBnEoMEH2V"
+        }
+      ],
+      "collected_at": "2026-03-18T06:34:02"
+    },
+    "CORTIS": {
+      "name": "코르티스",
+      "name_en": "CORTIS",
+      "gender": "남자",
+      "spotify_id": "1ebt9HnXdyYA6KgLXr1n4P",
+      "spotify_name": "CORTIS",
+      "monthly_listeners": 7365261,
+      "top_tracks": [
+        {
+          "title": "GO!",
+          "play_count": 145680781,
+          "uri": "spotify:track:6OWWZtNQORY1McaZmOrwhc"
+        },
+        {
+          "title": "FaSHioN",
+          "play_count": 133499896,
+          "uri": "spotify:track:4ecdsGz3Hg6TKPwQ0ZOdJz"
+        },
+        {
+          "title": "JoyRide",
+          "play_count": 53191390,
+          "uri": "spotify:track:6T17ZI0glfM2IGLdUwtnLK"
+        },
+        {
+          "title": "What You Want",
+          "play_count": 57683641,
+          "uri": "spotify:track:3rAcN3CLeSrkhIZN8PHbwb"
+        },
+        {
+          "title": "Mention Me - From The Movie \"GOAT\"",
+          "play_count": 10201196,
+          "uri": "spotify:track:3f0OEJd7mlPNhmH3fUOrqy"
+        }
+      ],
+      "collected_at": "2026-03-18T06:38:11"
+    },
+    "ALPHA DRIVE ONE": {
+      "name": "알파드라이브원",
+      "name_en": "ALPHA DRIVE ONE",
+      "gender": "남자",
+      "spotify_id": "1Sal7hVz3weo0mvYZPiWHT",
+      "spotify_name": "ALPHA DRIVE ONE",
+      "monthly_listeners": 1001773,
+      "top_tracks": [
+        {
+          "title": "FREAK ALARM",
+          "play_count": 11833482,
+          "uri": "spotify:track:44V5j1NOwRWBV8krmLnr4J"
+        },
+        {
+          "title": "FORMULA",
+          "play_count": 9338425,
+          "uri": "spotify:track:7z81drJrJ391T2RRwFLNTk"
+        },
+        {
+          "title": "Cinnamon Shake",
+          "play_count": 3689627,
+          "uri": "spotify:track:1Y6uJQVtPFSIZ9KQM6ENLk"
+        },
+        {
+          "title": "Raw Flame",
+          "play_count": 3750605,
+          "uri": "spotify:track:3rOllwiAip3C9sEN3Zdw8Y"
+        },
+        {
+          "title": "Chains",
+          "play_count": 3356037,
+          "uri": "spotify:track:1PK7aiFztDakbQI31cgpPP"
+        }
+      ],
+      "collected_at": "2026-03-18T06:34:03"
+    },
+    "AM8IC": {
+      "name": "엠빅",
+      "name_en": "AM8IC",
+      "gender": "남자",
+      "spotify_id": "3ZyYtYamMtKdAEOuo7fggB",
+      "spotify_name": "AM8IC",
+      "monthly_listeners": 12154,
+      "top_tracks": [
+        {
+          "title": "Buzzin'",
+          "play_count": 108152,
+          "uri": "spotify:track:4LNoLUL3H7C5XMT7SXEELE"
+        },
+        {
+          "title": "Link Up",
+          "play_count": 69711,
+          "uri": "spotify:track:5TfER8xUllHHSdQEMDjX4h"
+        },
+        {
+          "title": "LUKOIE",
+          "play_count": 39269,
+          "uri": "spotify:track:2AXOaWQKnk7dg4yrIqzVnE"
+        },
+        {
+          "title": "Black Moon",
+          "play_count": 38697,
+          "uri": "spotify:track:2K2TDf8LOMxLS5ny0ilQ1w"
+        },
+        {
+          "title": "Escher",
+          "play_count": 31748,
+          "uri": "spotify:track:2zXZeW8icDR4j7KNbYsqid"
+        }
+      ],
+      "collected_at": "2026-03-18T06:34:04"
+    },
+    "AxMxP": {
+      "name": "에이엠피",
+      "name_en": "AxMxP",
+      "gender": "남자",
+      "spotify_id": "2XUQUIfzPtEZtkjU0D9y8C",
+      "spotify_name": "AxMxP",
+      "monthly_listeners": 107356,
+      "top_tracks": [
+        {
+          "title": "SEE YOU LATER",
+          "play_count": 1171516,
+          "uri": "spotify:track:15q2nuxEjPin3TAum685tf"
+        },
+        {
+          "title": "PASS",
+          "play_count": 184758,
+          "uri": "spotify:track:0V32dVXNkIfrRrenhbR0Sz"
+        },
+        {
+          "title": "Thereafter",
+          "play_count": 130572,
+          "uri": "spotify:track:0XUwd2IUSjzOrqGkz8kE1P"
+        },
+        {
+          "title": "I Did It",
+          "play_count": 360067,
+          "uri": "spotify:track:6AKmmsg5C3p86Nm8qwzYc1"
+        },
+        {
+          "title": "Punch-Drunk",
+          "play_count": 105120,
+          "uri": "spotify:track:0h6lFZY3Q69WFUT0SAfBPG"
+        }
+      ],
+      "collected_at": "2026-03-18T06:34:05"
+    },
+    "LNGSHOT": {
+      "name": "롱샷",
+      "name_en": "LNGSHOT",
+      "gender": "남자",
+      "spotify_id": "2F4oTJOWkcD1JaTeKEa9h6",
+      "spotify_name": "LNGSHOT",
+      "monthly_listeners": 4659941,
+      "top_tracks": [
+        {
+          "title": "Moonwalkin'",
+          "play_count": 45606971,
+          "uri": "spotify:track:46V2ciN6F5bxjQWityNhkY"
+        },
+        {
+          "title": "Never Let Go",
+          "play_count": 26257982,
+          "uri": "spotify:track:37xebnhvUyM8VyyDDeo65d"
+        },
+        {
+          "title": "Saucin'",
+          "play_count": 20106646,
+          "uri": "spotify:track:7jVr1ZipYJJR4qHxZcQjqa"
+        },
+        {
+          "title": "FaceTime",
+          "play_count": 16314801,
+          "uri": "spotify:track:7Ji60z4V0d0IUbuZMkpjJa"
+        },
+        {
+          "title": "Backseat",
+          "play_count": 7981451,
+          "uri": "spotify:track:2xsZMSE32OCHKWe4A8sM0w"
+        }
+      ],
+      "collected_at": "2026-03-18T06:34:05"
+    },
+    "MAMAMOO": {
+      "name": "마마무",
+      "name_en": "MAMAMOO",
+      "gender": "여자",
+      "spotify_id": "0XATRDCYuuGhk0oE7C0o5G",
+      "spotify_name": "MAMAMOO",
+      "monthly_listeners": 1792310,
+      "top_tracks": [
+        {
+          "title": "HIP",
+          "play_count": 308684376,
+          "uri": "spotify:track:24nK8tW7Pt3Inh2utttuoG"
+        },
+        {
+          "title": "Egotistic",
+          "play_count": 151017204,
+          "uri": "spotify:track:3a7OyTsoZ8CCBdvEEvzLBv"
+        },
+        {
+          "title": "gogobebe",
+          "play_count": 134593559,
+          "uri": "spotify:track:6E7jAJN2e3znSHyPCdQqx8"
+        },
+        {
+          "title": "Starry Night",
+          "play_count": 92122638,
+          "uri": "spotify:track:3qUJ0kC9YdBO5qRFdYXeXX"
+        },
+        {
+          "title": "AYA",
+          "play_count": 83508596,
+          "uri": "spotify:track:4BZXVFYCb76Q0Klojq4piV"
+        }
+      ],
+      "collected_at": "2026-03-18T06:34:07"
+    },
+    "CLASS:y": {
+      "name": "클라씨",
+      "name_en": "CLASS:y",
+      "gender": "여자",
+      "spotify_id": "3jcfHmXvjOgHzfyVE55GzZ",
+      "spotify_name": "CLASS:y",
+      "monthly_listeners": 98064,
+      "top_tracks": [
+        {
+          "title": "Psycho and Beautiful",
+          "play_count": 3980592,
+          "uri": "spotify:track:66hTmSvvdanE90lCEp7ogV"
+        },
+        {
+          "title": "Tick Tick Boom",
+          "play_count": 6756133,
+          "uri": "spotify:track:5CGu1xKXdFIScS9gHiVosM"
+        },
+        {
+          "title": "SHUT DOWN",
+          "play_count": 6965089,
+          "uri": "spotify:track:5BVB03000Trb3zHlkjqJFe"
+        },
+        {
+          "title": "Crack-Crack-Crackle",
+          "play_count": 2699255,
+          "uri": "spotify:track:4cFkNoWvPbLJSe7bay50sI"
+        },
+        {
+          "title": "CLASSY",
+          "play_count": 5582155,
+          "uri": "spotify:track:7LEupZwTQBhbvvHmxttUeP"
+        }
+      ],
+      "collected_at": "2026-03-18T06:39:57"
+    },
+    "I:MOND": {
+      "name": "아이몬드",
+      "name_en": "I:MOND",
+      "gender": "여자",
+      "spotify_id": "00nA3e6kZ69VkZ649d49N0",
+      "spotify_name": "I:Mond",
+      "monthly_listeners": 2623,
+      "top_tracks": [
+        {
+          "title": "Wonderland",
+          "play_count": 130975,
+          "uri": "spotify:track:6gg6G9Tchx9Ef1WFgyeUWq"
+        },
+        {
+          "title": "Unusal",
+          "play_count": 54434,
+          "uri": "spotify:track:3sY07foxgxKLobIAeikEQ9"
+        },
+        {
+          "title": "Slippery",
+          "play_count": 59245,
+          "uri": "spotify:track:5LAiaRlpyRcsoRzhUqs9yF"
+        },
+        {
+          "title": "Flashlight",
+          "play_count": 24072,
+          "uri": "spotify:track:0DxhTLfCdOqoombodcdW3W"
+        },
+        {
+          "title": "Slippery - Instrumental",
+          "play_count": 5195,
+          "uri": "spotify:track:5u4MEKSh5Tswz02FmodTbJ"
+        }
+      ],
+      "collected_at": "2026-03-18T06:39:58"
+    },
+    "OMEGA X": {
+      "name": "오메가엑스",
+      "name_en": "OMEGA X",
+      "gender": "남자",
+      "spotify_id": "2FJYWlqgtoiBtXpOy9GGIF",
+      "spotify_name": "OMEGA X",
+      "monthly_listeners": 91131,
+      "top_tracks": [
+        {
+          "title": "LOVE ME LIKE",
+          "play_count": 12671241,
+          "uri": "spotify:track:3IXSxojIjh3YuVK53HJQUN"
+        },
+        {
+          "title": "VAMOS",
+          "play_count": 7384359,
+          "uri": "spotify:track:19kvCoRJQGxnEwyqqJphLA"
+        },
+        {
+          "title": "OMEGA X",
+          "play_count": 2800079,
+          "uri": "spotify:track:6Jt4t4qNmD1v7SB8GPz3Zw"
+        },
+        {
+          "title": "WHAT'S GOIN' ON",
+          "play_count": 3219160,
+          "uri": "spotify:track:5RYFLurX0Vg85bgnClS6im"
+        },
+        {
+          "title": "JUNK FOOD",
+          "play_count": 1049861,
+          "uri": "spotify:track:5aEdNj5hYLKwSiO9vKK552"
+        }
+      ],
+      "collected_at": "2026-03-18T06:39:59"
+    },
+    "Golden Child, GNCD": {
+      "name": "골든차일드",
+      "name_en": "Golden Child, GNCD",
+      "gender": "남자",
+      "spotify_id": "5zShiwTHlygdfsXj6eavTu",
+      "spotify_name": "Golden Child",
+      "monthly_listeners": 87191,
+      "top_tracks": [
+        {
+          "title": "WANNABE",
+          "play_count": 16289256,
+          "uri": "spotify:track:0lLDInOmkZTWz14Lm0dcMY"
+        },
+        {
+          "title": "Burn It",
+          "play_count": 7329641,
+          "uri": "spotify:track:6vcJyCa9NgFQer7O6X1NY7"
+        },
+        {
+          "title": "ONE(Lucid Dream)",
+          "play_count": 6875214,
+          "uri": "spotify:track:1ZhhiI06eIjXZjXK6OXO8u"
+        },
+        {
+          "title": "Ra Pam Pam",
+          "play_count": 4593885,
+          "uri": "spotify:track:7aJSEhH3kzrcr4g0uGXUC7"
+        },
+        {
+          "title": "Without You",
+          "play_count": 6407913,
+          "uri": "spotify:track:6P79WvoWD60NKDHxKNxfxn"
+        }
+      ],
+      "collected_at": "2026-03-18T06:39:59"
+    },
+    "E'LAST": {
+      "name": "엘라스트",
+      "name_en": "E'LAST",
+      "gender": "남자",
+      "spotify_id": "0NztgA9b1KEJLjLVqMwd9y",
+      "spotify_name": "E'LAST",
+      "monthly_listeners": 38207,
+      "top_tracks": [
+        {
+          "title": "Dark Dream",
+          "play_count": 3037257,
+          "uri": "spotify:track:6CWGueLHg5lmG43fy27oJQ"
+        },
+        {
+          "title": "Tame",
+          "play_count": 17014,
+          "uri": "spotify:track:0oyoiaSXh4HvHbHUEyUrYo"
+        },
+        {
+          "title": "Dangerous",
+          "play_count": 3364447,
+          "uri": "spotify:track:50DL5njQWzcOzJdS2OR8cP"
+        },
+        {
+          "title": "TEARS OF CHAOS",
+          "play_count": 2402909,
+          "uri": "spotify:track:0ocXXOaJuoNy0GZecVGmHt"
+        },
+        {
+          "title": "Creature",
+          "play_count": 1495331,
+          "uri": "spotify:track:6Ic1LFxLwE7diI7OzPUNbK"
+        }
+      ],
+      "collected_at": "2026-03-18T06:40:00"
+    },
+    "NAZE": {
+      "name": "네이즈",
+      "name_en": "NAZE",
+      "gender": "남자",
+      "spotify_id": null,
+      "spotify_name": null,
+      "monthly_listeners": 0,
+      "top_tracks": [],
+      "collected_at": "2026-03-18T06:40:01",
+      "note": "Not found on Spotify"
+    },
+    "YUHZ": {
+      "name": "유어즈",
+      "name_en": "YUHZ",
+      "gender": "남자",
+      "spotify_id": null,
+      "spotify_name": null,
+      "monthly_listeners": 0,
+      "top_tracks": [],
+      "collected_at": "2026-03-18T06:40:01",
+      "note": "Not found on Spotify"
+    }
+  }
+}

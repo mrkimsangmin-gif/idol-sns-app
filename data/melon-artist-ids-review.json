@@ -1,0 +1,1479 @@
+[
+  {
+    "name": "아이들",
+    "name_en": "i-dle",
+    "gender": "여자",
+    "artist_id": "2137482",
+    "melon_name": "i-dle (아이들)",
+    "match": "partial",
+    "source": "song_detail/37138464",
+    "candidates": [
+      {
+        "artist_id": "2137482",
+        "name": "i-dle (아이들)"
+      },
+      {
+        "artist_id": "1050107",
+        "name": "소연 (SOYEON)"
+      },
+      {
+        "artist_id": "778848",
+        "name": "Pop Time"
+      },
+      {
+        "artist_id": "2971650",
+        "name": "Daily"
+      },
+      {
+        "artist_id": "2940838",
+        "name": "Likey"
+      }
+    ]
+  },
+  {
+    "name": "레드벨벳",
+    "name_en": "Red Velvet",
+    "gender": "여자",
+    "artist_id": "780066",
+    "melon_name": "Red Velvet (레드벨벳)",
+    "match": "partial",
+    "source": "song_detail/32273582",
+    "candidates": [
+      {
+        "artist_id": "780066",
+        "name": "Red Velvet (레드벨벳)"
+      },
+      {
+        "artist_id": "605098",
+        "name": "KENZIE"
+      },
+      {
+        "artist_id": "844304",
+        "name": "Andrew Scott"
+      },
+      {
+        "artist_id": "747828",
+        "name": "Cazzi Opeia"
+      },
+      {
+        "artist_id": "1458723",
+        "name": "EJAE"
+      }
+    ]
+  },
+  {
+    "name": "있지",
+    "name_en": "ITZY",
+    "gender": "여자",
+    "artist_id": "2622030",
+    "melon_name": "ITZY (있지)",
+    "match": "partial",
+    "source": "song_detail/31606729",
+    "candidates": [
+      {
+        "artist_id": "2622030",
+        "name": "ITZY (있지)"
+      },
+      {
+        "artist_id": "602104",
+        "name": "별들의 전쟁 (GALACTIKA *)"
+      },
+      {
+        "artist_id": "1626751",
+        "name": "지혜"
+      },
+      {
+        "artist_id": "2631284",
+        "name": "GALACTIKA *"
+      }
+    ]
+  },
+  {
+    "name": "트와이스",
+    "name_en": "TWICE",
+    "gender": "여자",
+    "artist_id": "905701",
+    "melon_name": "TWICE (트와이스)",
+    "match": "partial",
+    "source": "song_detail/7891119",
+    "candidates": [
+      {
+        "artist_id": "905701",
+        "name": "TWICE (트와이스)"
+      },
+      {
+        "artist_id": "778973",
+        "name": "B.E.P"
+      },
+      {
+        "artist_id": "857584",
+        "name": "Sam Lewis"
+      },
+      {
+        "artist_id": "487740",
+        "name": "Rado"
+      }
+    ]
+  },
+  {
+    "name": "아이브",
+    "name_en": "IVE",
+    "gender": "여자",
+    "artist_id": "3055146",
+    "melon_name": "IVE (아이브)",
+    "match": "partial",
+    "source": "chart_daily",
+    "candidates": []
+  },
+  {
+    "name": "르세라핌",
+    "name_en": "LE SSERAFIM",
+    "gender": "여자",
+    "artist_id": "3092950",
+    "melon_name": "LE SSERAFIM (르세라핌)",
+    "match": "partial",
+    "source": "chart_daily",
+    "candidates": []
+  },
+  {
+    "name": "아일릿",
+    "name_en": "ILLIT",
+    "gender": "여자",
+    "artist_id": "3743525",
+    "melon_name": "아일릿(ILLIT)",
+    "match": "partial",
+    "source": "chart_daily",
+    "candidates": []
+  },
+  {
+    "name": "스테이씨",
+    "name_en": "STAYC",
+    "gender": "여자",
+    "artist_id": "51893",
+    "melon_name": "테이",
+    "match": "partial",
+    "source": "chart_daily",
+    "candidates": []
+  },
+  {
+    "name": "미야오",
+    "name_en": "MEOVV",
+    "gender": "여자",
+    "artist_id": "3893541",
+    "melon_name": "MEOVV (미야오)",
+    "match": "partial",
+    "source": "song_detail/37973745",
+    "candidates": [
+      {
+        "artist_id": "3893541",
+        "name": "MEOVV (미야오)"
+      },
+      {
+        "artist_id": "2876572",
+        "name": "Claudia Valentina"
+      },
+      {
+        "artist_id": "605902",
+        "name": "TEDDY"
+      },
+      {
+        "artist_id": "2631066",
+        "name": "Zikai"
+      },
+      {
+        "artist_id": "2958950",
+        "name": "Billy Walsh"
+      }
+    ]
+  },
+  {
+    "name": "케플러",
+    "name_en": "Kep1er",
+    "gender": "여자",
+    "artist_id": "3058246",
+    "melon_name": "Kep1er (케플러)",
+    "match": "partial",
+    "source": "song_detail/39655613",
+    "candidates": [
+      {
+        "artist_id": "3058246",
+        "name": "Kep1er (케플러)"
+      },
+      {
+        "artist_id": "717179",
+        "name": "이스란"
+      },
+      {
+        "artist_id": "2113086",
+        "name": "Kevin_D (D_answer)"
+      },
+      {
+        "artist_id": "2241277",
+        "name": "Blue.D"
+      },
+      {
+        "artist_id": "3110695",
+        "name": "송채리 (153/Joombas)"
+      }
+    ]
+  },
+  {
+    "name": "트리플에스",
+    "name_en": "tripleS",
+    "gender": "여자",
+    "artist_id": "3137294",
+    "melon_name": "tripleS (트리플에스)",
+    "match": "partial",
+    "source": "song_detail/37497123",
+    "candidates": [
+      {
+        "artist_id": "3137294",
+        "name": "tripleS (트리플에스)"
+      },
+      {
+        "artist_id": "1956203",
+        "name": "Jaden Jeong"
+      },
+      {
+        "artist_id": "722679",
+        "name": "EL CAPITXN"
+      },
+      {
+        "artist_id": "714604",
+        "name": "Maria Marcus"
+      },
+      {
+        "artist_id": "3454140",
+        "name": "Arineh Karimi"
+      }
+    ]
+  },
+  {
+    "name": "오마이걸",
+    "name_en": "OH MY GIRL",
+    "gender": "여자",
+    "artist_id": "857994",
+    "melon_name": "오마이걸 (OH MY GIRL)",
+    "match": "partial",
+    "source": "song_detail/32559782",
+    "candidates": [
+      {
+        "artist_id": "857994",
+        "name": "오마이걸 (OH MY GIRL)"
+      },
+      {
+        "artist_id": "2243939",
+        "name": "서정아"
+      },
+      {
+        "artist_id": "861809",
+        "name": "Ryan S. Jhun"
+      },
+      {
+        "artist_id": "2867058",
+        "name": "Celine Svanback"
+      },
+      {
+        "artist_id": "2867059",
+        "name": "Chloe Latimer"
+      }
+    ]
+  },
+  {
+    "name": "하이키",
+    "name_en": "H1-KEY",
+    "gender": "여자",
+    "artist_id": "3064111",
+    "melon_name": "H1-KEY (하이키)",
+    "match": "partial",
+    "source": "song_detail/36001290",
+    "candidates": [
+      {
+        "artist_id": "3064111",
+        "name": "H1-KEY (하이키)"
+      },
+      {
+        "artist_id": "895389",
+        "name": "Young K (DAY6)"
+      },
+      {
+        "artist_id": "622071",
+        "name": "홍지상"
+      },
+      {
+        "artist_id": "449401",
+        "name": "현아 (HyunA)"
+      },
+      {
+        "artist_id": "724619",
+        "name": "EXO"
+      }
+    ]
+  },
+  {
+    "name": "우아",
+    "name_en": "WOOAH",
+    "gender": "여자",
+    "artist_id": "3103330",
+    "melon_name": "NOWIMYOUNG (나우아임영)",
+    "match": "partial",
+    "source": "chart_daily",
+    "candidates": []
+  },
+  {
+    "name": "비비지",
+    "name_en": "VIVIZ",
+    "gender": "여자",
+    "artist_id": "2970177",
+    "melon_name": "VIVIZ (비비지)",
+    "match": "partial",
+    "source": "song_detail/36930793",
+    "candidates": [
+      {
+        "artist_id": "2970177",
+        "name": "VIVIZ (비비지)"
+      },
+      {
+        "artist_id": "2880147",
+        "name": "구여름"
+      },
+      {
+        "artist_id": "2895886",
+        "name": "Jack Brady"
+      },
+      {
+        "artist_id": "2895887",
+        "name": "Jordan Roman"
+      },
+      {
+        "artist_id": "2635617",
+        "name": "Chloe Copoloff"
+      }
+    ]
+  },
+  {
+    "name": "이즈나",
+    "name_en": "izna",
+    "gender": "여자",
+    "artist_id": "4015041",
+    "melon_name": "izna (이즈나)",
+    "match": "partial",
+    "source": "song_detail/39113177",
+    "candidates": [
+      {
+        "artist_id": "4015041",
+        "name": "izna (이즈나)"
+      },
+      {
+        "artist_id": "2735646",
+        "name": "VVN"
+      },
+      {
+        "artist_id": "2748606",
+        "name": "Vince"
+      },
+      {
+        "artist_id": "608455",
+        "name": "KUSH"
+      },
+      {
+        "artist_id": "605902",
+        "name": "TEDDY"
+      }
+    ]
+  },
+  {
+    "name": "빌리",
+    "name_en": "Billlie",
+    "gender": "여자",
+    "artist_id": "742760",
+    "melon_name": "B.I",
+    "match": "partial",
+    "source": "song_detail/601407862",
+    "candidates": [
+      {
+        "artist_id": "742760",
+        "name": "B.I"
+      },
+      {
+        "artist_id": "2111694",
+        "name": "쿠기 (Coogie)"
+      },
+      {
+        "artist_id": "672625",
+        "name": "GRAY (그레이)"
+      },
+      {
+        "artist_id": "739740",
+        "name": "BewhY (비와이)"
+      },
+      {
+        "artist_id": "340668",
+        "name": "보이비"
+      }
+    ]
+  },
+  {
+    "name": "영파씨",
+    "name_en": "YOUNG POSSE",
+    "gender": "여자",
+    "artist_id": "3597971",
+    "melon_name": "영파씨 (YOUNG POSSE)",
+    "match": "partial",
+    "source": "song_detail/37330561",
+    "candidates": [
+      {
+        "artist_id": "3597971",
+        "name": "영파씨 (YOUNG POSSE)"
+      },
+      {
+        "artist_id": "231569",
+        "name": "키겐"
+      },
+      {
+        "artist_id": "1221216",
+        "name": "Rick Bridges"
+      }
+    ]
+  },
+  {
+    "name": "리센느",
+    "name_en": "RESCENE",
+    "gender": "여자",
+    "artist_id": "3709231",
+    "melon_name": "RESCENE (리센느)",
+    "match": "partial",
+    "source": "song_detail/37928381",
+    "candidates": [
+      {
+        "artist_id": "3709231",
+        "name": "RESCENE (리센느)"
+      },
+      {
+        "artist_id": "994390",
+        "name": "방혜현"
+      },
+      {
+        "artist_id": "4093504",
+        "name": "이주헌(The Muze)"
+      },
+      {
+        "artist_id": "4093506",
+        "name": "더풀킴 (The Muze)"
+      },
+      {
+        "artist_id": "3813336",
+        "name": "Wilhelmina"
+      }
+    ]
+  },
+  {
+    "name": "로켓펀치",
+    "name_en": "Rocket Punch",
+    "gender": "여자",
+    "artist_id": "2740955",
+    "melon_name": "로켓펀치(Rocket Punch)",
+    "match": "partial",
+    "source": "song_detail/36763959",
+    "candidates": [
+      {
+        "artist_id": "2740955",
+        "name": "로켓펀치(Rocket Punch)"
+      },
+      {
+        "artist_id": "782988",
+        "name": "진리 (Full8loom)"
+      },
+      {
+        "artist_id": "2970734",
+        "name": "이지연 (라라라스튜디오)"
+      },
+      {
+        "artist_id": "3451336",
+        "name": "손이도 (153/Joombas)"
+      },
+      {
+        "artist_id": "1202387",
+        "name": "Justin Reinstein"
+      }
+    ]
+  },
+  {
+    "name": "아이칠린",
+    "name_en": "ICHILLIN'",
+    "gender": "여자",
+    "artist_id": "8530",
+    "melon_name": "린",
+    "match": "partial",
+    "source": "song_detail/519620",
+    "candidates": [
+      {
+        "artist_id": "8530",
+        "name": "린"
+      },
+      {
+        "artist_id": "11824",
+        "name": "김세진"
+      },
+      {
+        "artist_id": "436981",
+        "name": "비스트"
+      },
+      {
+        "artist_id": "698776",
+        "name": "백예린"
+      },
+      {
+        "artist_id": "646173",
+        "name": "백아연"
+      }
+    ]
+  },
+  {
+    "name": "첫사랑",
+    "name_en": "CSR",
+    "gender": "여자",
+    "artist_id": "3114543",
+    "melon_name": "CSR(첫사랑)",
+    "match": "partial",
+    "source": "song_detail/36322071",
+    "candidates": [
+      {
+        "artist_id": "3114543",
+        "name": "CSR(첫사랑)"
+      },
+      {
+        "artist_id": "247903",
+        "name": "KZ"
+      },
+      {
+        "artist_id": "2558958",
+        "name": "DINT"
+      },
+      {
+        "artist_id": "673532",
+        "name": "Nthonius"
+      },
+      {
+        "artist_id": "2923997",
+        "name": "Meisobo"
+      }
+    ]
+  },
+  {
+    "name": "세이마이네임",
+    "name_en": "SMN",
+    "gender": "여자",
+    "artist_id": "3947700",
+    "melon_name": "SAY MY NAME (세이마이네임)",
+    "match": "partial",
+    "source": "song_detail/38649158",
+    "candidates": [
+      {
+        "artist_id": "3947700",
+        "name": "SAY MY NAME (세이마이네임)"
+      },
+      {
+        "artist_id": "58606",
+        "name": "P.K(FearGOD)"
+      },
+      {
+        "artist_id": "612482",
+        "name": "BIGTONE(FearGOD)"
+      }
+    ]
+  },
+  {
+    "name": "아트비트",
+    "name_en": "ARTBEAT v",
+    "gender": "여자",
+    "artist_id": "725989",
+    "melon_name": "V",
+    "match": "partial",
+    "source": "song_detail/34461065",
+    "candidates": [
+      {
+        "artist_id": "725989",
+        "name": "V"
+      },
+      {
+        "artist_id": "170616",
+        "name": "남혜승"
+      },
+      {
+        "artist_id": "774083",
+        "name": "김경희"
+      }
+    ]
+  },
+  {
+    "name": "아르테미스",
+    "name_en": "ARTMS",
+    "gender": "여자",
+    "artist_id": "3469602",
+    "melon_name": "ODD EYE CIRCLE (ARTMS)",
+    "match": "partial",
+    "source": "song_detail/36607470",
+    "candidates": [
+      {
+        "artist_id": "3469602",
+        "name": "ODD EYE CIRCLE (ARTMS)"
+      },
+      {
+        "artist_id": "1705431",
+        "name": "김립 (이달의 소녀)"
+      },
+      {
+        "artist_id": "601985",
+        "name": "G-High (MonoTree)"
+      },
+      {
+        "artist_id": "1956203",
+        "name": "Jaden Jeong"
+      },
+      {
+        "artist_id": "2640423",
+        "name": "Janet Suhh (자넷서)"
+      }
+    ]
+  },
+  {
+    "name": "배드빌런",
+    "name_en": "BADVILLAIN",
+    "gender": "여자",
+    "artist_id": "725989",
+    "melon_name": "V",
+    "match": "partial",
+    "source": "song_detail/34461065",
+    "candidates": [
+      {
+        "artist_id": "725989",
+        "name": "V"
+      },
+      {
+        "artist_id": "170616",
+        "name": "남혜승"
+      },
+      {
+        "artist_id": "774083",
+        "name": "김경희"
+      }
+    ]
+  },
+  {
+    "name": "비웨이브",
+    "name_en": "BEWAVE",
+    "gender": "여자",
+    "artist_id": "725989",
+    "melon_name": "V",
+    "match": "partial",
+    "source": "song_detail/34461065",
+    "candidates": [
+      {
+        "artist_id": "725989",
+        "name": "V"
+      },
+      {
+        "artist_id": "170616",
+        "name": "남혜승"
+      },
+      {
+        "artist_id": "774083",
+        "name": "김경희"
+      }
+    ]
+  },
+  {
+    "name": "캔디샵",
+    "name_en": "Candy Shop",
+    "gender": "여자",
+    "artist_id": "100127",
+    "melon_name": "샵",
+    "match": "partial",
+    "source": "song_detail/423629",
+    "candidates": [
+      {
+        "artist_id": "100127",
+        "name": "샵"
+      },
+      {
+        "artist_id": "612383",
+        "name": "원태연"
+      },
+      {
+        "artist_id": "3885",
+        "name": "박근태"
+      }
+    ]
+  },
+  {
+    "name": "러브원",
+    "name_en": "LOVEONE",
+    "gender": "여자",
+    "artist_id": "725989",
+    "melon_name": "V",
+    "match": "partial",
+    "source": "song_detail/34461065",
+    "candidates": [
+      {
+        "artist_id": "725989",
+        "name": "V"
+      },
+      {
+        "artist_id": "170616",
+        "name": "남혜승"
+      },
+      {
+        "artist_id": "774083",
+        "name": "김경희"
+      }
+    ]
+  },
+  {
+    "name": "버비",
+    "name_en": "Burvey",
+    "gender": "여자",
+    "artist_id": "725989",
+    "melon_name": "V",
+    "match": "partial",
+    "source": "song_detail/34461065",
+    "candidates": [
+      {
+        "artist_id": "725989",
+        "name": "V"
+      },
+      {
+        "artist_id": "170616",
+        "name": "남혜승"
+      },
+      {
+        "artist_id": "774083",
+        "name": "김경희"
+      }
+    ]
+  },
+  {
+    "name": "하츠투하츠",
+    "name_en": "Hearts2Hearts",
+    "gender": "여자",
+    "artist_id": "4096106",
+    "melon_name": "Hearts2Hearts (하츠투하츠)",
+    "match": "partial",
+    "source": "chart_daily",
+    "candidates": []
+  },
+  {
+    "name": "키키",
+    "name_en": "KiiiKiii",
+    "gender": "여자",
+    "artist_id": "4099078",
+    "melon_name": "KiiiKiii (키키)",
+    "match": "partial",
+    "source": "chart_daily",
+    "candidates": []
+  },
+  {
+    "name": "븨븨에스",
+    "name_en": "VVS",
+    "gender": "여자",
+    "artist_id": "725989",
+    "melon_name": "V",
+    "match": "partial",
+    "source": "song_detail/34461065",
+    "candidates": [
+      {
+        "artist_id": "725989",
+        "name": "V"
+      },
+      {
+        "artist_id": "170616",
+        "name": "남혜승"
+      },
+      {
+        "artist_id": "774083",
+        "name": "김경희"
+      }
+    ]
+  },
+  {
+    "name": "세븐틴",
+    "name_en": "SEVENTEEN",
+    "gender": "남자",
+    "artist_id": "861436",
+    "melon_name": "세븐틴 (SEVENTEEN)",
+    "match": "partial",
+    "source": "song_detail/37462984",
+    "candidates": [
+      {
+        "artist_id": "861436",
+        "name": "세븐틴 (SEVENTEEN)"
+      },
+      {
+        "artist_id": "868677",
+        "name": "WOOZI"
+      },
+      {
+        "artist_id": "602061",
+        "name": "BUMZU"
+      },
+      {
+        "artist_id": "2746431",
+        "name": "Ohway!"
+      },
+      {
+        "artist_id": "236797",
+        "name": "태연 (TAEYEON)"
+      }
+    ]
+  },
+  {
+    "name": "스트레이키즈",
+    "name_en": "Stray Kids",
+    "gender": "남자",
+    "artist_id": "2006344",
+    "melon_name": "Stray Kids (스트레이 키즈)",
+    "match": "partial",
+    "source": "song_detail/601507270",
+    "candidates": [
+      {
+        "artist_id": "2006344",
+        "name": "Stray Kids (스트레이 키즈)"
+      },
+      {
+        "artist_id": "2006373",
+        "name": "방찬 (3RACHA)"
+      },
+      {
+        "artist_id": "2006376",
+        "name": "창빈 (3RACHA)"
+      },
+      {
+        "artist_id": "2006378",
+        "name": "한 (3RACHA)"
+      },
+      {
+        "artist_id": "3461558",
+        "name": "RESTART"
+      }
+    ]
+  },
+  {
+    "name": "엔하이픈",
+    "name_en": "ENHYPEN",
+    "gender": "남자",
+    "artist_id": "2899079",
+    "melon_name": "엔하이픈 (ENHYPEN)",
+    "match": "partial",
+    "source": "song_detail/34518500",
+    "candidates": [
+      {
+        "artist_id": "2899079",
+        "name": "엔하이픈 (ENHYPEN)"
+      },
+      {
+        "artist_id": "3065789",
+        "name": "Fridolin Walcher"
+      },
+      {
+        "artist_id": "3065788",
+        "name": "Ryan Bickley"
+      },
+      {
+        "artist_id": "3065787",
+        "name": "Johnny Hockings"
+      },
+      {
+        "artist_id": "4079",
+        "name": "“hitman” bang"
+      }
+    ]
+  },
+  {
+    "name": "제로베이스원",
+    "name_en": "ZEROBASEONE",
+    "gender": "남자",
+    "artist_id": "3466604",
+    "melon_name": "ZEROBASEONE (제로베이스원)",
+    "match": "partial",
+    "source": "song_detail/601182825",
+    "candidates": [
+      {
+        "artist_id": "3466604",
+        "name": "ZEROBASEONE (제로베이스원)"
+      },
+      {
+        "artist_id": "2901186",
+        "name": "HUMBLER"
+      },
+      {
+        "artist_id": "3060172",
+        "name": "이승호"
+      },
+      {
+        "artist_id": "3947342",
+        "name": "Kenny Hong"
+      }
+    ]
+  },
+  {
+    "name": "트레저",
+    "name_en": "TREASURE",
+    "gender": "남자",
+    "artist_id": "2880278",
+    "melon_name": "TREASURE (트레저)",
+    "match": "partial",
+    "source": "song_detail/38633609",
+    "candidates": [
+      {
+        "artist_id": "2880278",
+        "name": "TREASURE (트레저)"
+      },
+      {
+        "artist_id": "2880287",
+        "name": "아사히"
+      },
+      {
+        "artist_id": "2880279",
+        "name": "최현석"
+      },
+      {
+        "artist_id": "2880282",
+        "name": "요시"
+      },
+      {
+        "artist_id": "2880291",
+        "name": "하루토"
+      }
+    ]
+  },
+  {
+    "name": "더보이즈",
+    "name_en": "THE BOYZ",
+    "gender": "남자",
+    "artist_id": "1816126",
+    "melon_name": "더보이즈 (THE BOYZ)",
+    "match": "partial",
+    "source": "song_detail/32237357",
+    "candidates": [
+      {
+        "artist_id": "1816126",
+        "name": "더보이즈 (THE BOYZ)"
+      },
+      {
+        "artist_id": "3868",
+        "name": "김영아"
+      },
+      {
+        "artist_id": "3870",
+        "name": "전준규"
+      },
+      {
+        "artist_id": "2758062",
+        "name": "김석찬"
+      },
+      {
+        "artist_id": "944275",
+        "name": "웅킴"
+      }
+    ]
+  },
+  {
+    "name": "투어스",
+    "name_en": "TWS",
+    "gender": "남자",
+    "artist_id": "3679688",
+    "melon_name": "TWS (투어스)",
+    "match": "partial",
+    "source": "chart_daily",
+    "candidates": []
+  },
+  {
+    "name": "아스트로",
+    "name_en": "ASTRO",
+    "gender": "남자",
+    "artist_id": "945766",
+    "melon_name": "ASTRO (아스트로)",
+    "match": "partial",
+    "source": "song_detail/38827953",
+    "candidates": [
+      {
+        "artist_id": "945766",
+        "name": "ASTRO (아스트로)"
+      },
+      {
+        "artist_id": "946271",
+        "name": "MJ (ASTRO)"
+      },
+      {
+        "artist_id": "946272",
+        "name": "진진 (ASTRO)"
+      },
+      {
+        "artist_id": "946269",
+        "name": "차은우 (ASTRO)"
+      },
+      {
+        "artist_id": "946274",
+        "name": "윤산하 (ASTRO)"
+      }
+    ]
+  },
+  {
+    "name": "피원하모니",
+    "name_en": "P1Harmony",
+    "gender": "남자",
+    "artist_id": "725991",
+    "melon_name": "RM",
+    "match": "partial",
+    "source": "song_detail/37520306",
+    "candidates": [
+      {
+        "artist_id": "725991",
+        "name": "RM"
+      },
+      {
+        "artist_id": "757777",
+        "name": "오혁"
+      },
+      {
+        "artist_id": "3803655",
+        "name": "Kuo Kuo"
+      },
+      {
+        "artist_id": "754409",
+        "name": "정크야드 (JNKYRD)"
+      },
+      {
+        "artist_id": "2622391",
+        "name": "San Yawn"
+      }
+    ]
+  },
+  {
+    "name": "에이비식스",
+    "name_en": "AB6IX",
+    "gender": "남자",
+    "artist_id": "1865247",
+    "melon_name": "김동현 (AB6IX)",
+    "match": "partial",
+    "source": "song_detail/38335040",
+    "candidates": [
+      {
+        "artist_id": "623851",
+        "name": "범키"
+      },
+      {
+        "artist_id": "608252",
+        "name": "뮤지"
+      },
+      {
+        "artist_id": "602174",
+        "name": "한해"
+      },
+      {
+        "artist_id": "695994",
+        "name": "양다일"
+      },
+      {
+        "artist_id": "2561048",
+        "name": "빈센트블루"
+      }
+    ]
+  },
+  {
+    "name": "에이티즈",
+    "name_en": "ATEEZ",
+    "gender": "남자",
+    "artist_id": "2398260",
+    "melon_name": "ATEEZ(에이티즈)",
+    "match": "partial",
+    "source": "song_detail/600884835",
+    "candidates": [
+      {
+        "artist_id": "2398260",
+        "name": "ATEEZ(에이티즈)"
+      },
+      {
+        "artist_id": "697899",
+        "name": "이든 (EDEN)"
+      },
+      {
+        "artist_id": "2111615",
+        "name": "마독스 (Maddox)"
+      },
+      {
+        "artist_id": "2872542",
+        "name": "Oliv"
+      },
+      {
+        "artist_id": "2872541",
+        "name": "Peperoni"
+      }
+    ]
+  },
+  {
+    "name": "이펙스",
+    "name_en": "EPEX",
+    "gender": "남자",
+    "artist_id": "2940599",
+    "melon_name": "EPEX (이펙스)",
+    "match": "partial",
+    "source": "song_detail/35904381",
+    "candidates": [
+      {
+        "artist_id": "205858",
+        "name": "이석훈"
+      },
+      {
+        "artist_id": "203912",
+        "name": "윤하 (YOUNHA)"
+      },
+      {
+        "artist_id": "2738871",
+        "name": "CIX (씨아이엑스)"
+      },
+      {
+        "artist_id": "2765318",
+        "name": "cignature (시그니처)"
+      },
+      {
+        "artist_id": "2940599",
+        "name": "EPEX (이펙스)"
+      }
+    ]
+  },
+  {
+    "name": "데이식스",
+    "name_en": "DAY6",
+    "gender": "남자",
+    "artist_id": "894864",
+    "melon_name": "DAY6 (데이식스)",
+    "match": "partial",
+    "source": "chart_daily",
+    "candidates": []
+  },
+  {
+    "name": "크래비티",
+    "name_en": "CRAVITY",
+    "gender": "남자",
+    "artist_id": "725989",
+    "melon_name": "V",
+    "match": "partial",
+    "source": "song_detail/34461065",
+    "candidates": [
+      {
+        "artist_id": "725989",
+        "name": "V"
+      },
+      {
+        "artist_id": "170616",
+        "name": "남혜승"
+      },
+      {
+        "artist_id": "774083",
+        "name": "김경희"
+      }
+    ]
+  },
+  {
+    "name": "킥플립",
+    "name_en": "KickFlip",
+    "gender": "남자",
+    "artist_id": "4044810",
+    "melon_name": "KickFlip(킥플립)",
+    "match": "partial",
+    "source": "song_detail/39808716",
+    "candidates": [
+      {
+        "artist_id": "4044810",
+        "name": "KickFlip(킥플립)"
+      },
+      {
+        "artist_id": "1221216",
+        "name": "Rick Bridges"
+      },
+      {
+        "artist_id": "2737811",
+        "name": "gxxdkelvin"
+      },
+      {
+        "artist_id": "792025",
+        "name": "Trippy"
+      },
+      {
+        "artist_id": "4093556",
+        "name": "동현"
+      }
+    ]
+  },
+  {
+    "name": "씨아이엑스",
+    "name_en": "CIX",
+    "gender": "남자",
+    "artist_id": "2738871",
+    "melon_name": "CIX (씨아이엑스)",
+    "match": "partial",
+    "source": "song_detail/35904381",
+    "candidates": [
+      {
+        "artist_id": "205858",
+        "name": "이석훈"
+      },
+      {
+        "artist_id": "203912",
+        "name": "윤하 (YOUNHA)"
+      },
+      {
+        "artist_id": "2738871",
+        "name": "CIX (씨아이엑스)"
+      },
+      {
+        "artist_id": "2765318",
+        "name": "cignature (시그니처)"
+      },
+      {
+        "artist_id": "2940599",
+        "name": "EPEX (이펙스)"
+      }
+    ]
+  },
+  {
+    "name": "이븐",
+    "name_en": "EVNNE",
+    "gender": "남자",
+    "artist_id": "725989",
+    "melon_name": "V",
+    "match": "partial",
+    "source": "song_detail/34461065",
+    "candidates": [
+      {
+        "artist_id": "725989",
+        "name": "V"
+      },
+      {
+        "artist_id": "170616",
+        "name": "남혜승"
+      },
+      {
+        "artist_id": "774083",
+        "name": "김경희"
+      }
+    ]
+  },
+  {
+    "name": "배너",
+    "name_en": "VANNER",
+    "gender": "남자",
+    "artist_id": "725989",
+    "melon_name": "V",
+    "match": "partial",
+    "source": "song_detail/34461065",
+    "candidates": [
+      {
+        "artist_id": "725989",
+        "name": "V"
+      },
+      {
+        "artist_id": "170616",
+        "name": "남혜승"
+      },
+      {
+        "artist_id": "774083",
+        "name": "김경희"
+      }
+    ]
+  },
+  {
+    "name": "온앤오프",
+    "name_en": "ONF",
+    "gender": "남자",
+    "artist_id": "1865635",
+    "melon_name": "온앤오프 (ONF)",
+    "match": "partial",
+    "source": "song_detail/39504718",
+    "candidates": [
+      {
+        "artist_id": "1865635",
+        "name": "온앤오프 (ONF)"
+      },
+      {
+        "artist_id": "1865637",
+        "name": "효진 (온앤오프)"
+      },
+      {
+        "artist_id": "1865639",
+        "name": "이션"
+      },
+      {
+        "artist_id": "1865638",
+        "name": "승준"
+      },
+      {
+        "artist_id": "1865643",
+        "name": "Wyatt (온앤오프)"
+      }
+    ]
+  },
+  {
+    "name": "세븐어스",
+    "name_en": "SEVENUS",
+    "gender": "남자",
+    "artist_id": "725989",
+    "melon_name": "V",
+    "match": "partial",
+    "source": "song_detail/34461065",
+    "candidates": [
+      {
+        "artist_id": "725989",
+        "name": "V"
+      },
+      {
+        "artist_id": "170616",
+        "name": "남혜승"
+      },
+      {
+        "artist_id": "774083",
+        "name": "김경희"
+      }
+    ]
+  },
+  {
+    "name": "엔카이브",
+    "name_en": "NCHIVE",
+    "gender": "남자",
+    "artist_id": "725989",
+    "melon_name": "V",
+    "match": "partial",
+    "source": "song_detail/34461065",
+    "candidates": [
+      {
+        "artist_id": "725989",
+        "name": "V"
+      },
+      {
+        "artist_id": "170616",
+        "name": "남혜승"
+      },
+      {
+        "artist_id": "774083",
+        "name": "김경희"
+      }
+    ]
+  },
+  {
+    "name": "엑스러브",
+    "name_en": "XLOV",
+    "gender": "남자",
+    "artist_id": "725989",
+    "melon_name": "V",
+    "match": "partial",
+    "source": "song_detail/34461065",
+    "candidates": [
+      {
+        "artist_id": "725989",
+        "name": "V"
+      },
+      {
+        "artist_id": "170616",
+        "name": "남혜승"
+      },
+      {
+        "artist_id": "774083",
+        "name": "김경희"
+      }
+    ]
+  },
+  {
+    "name": "코르티스",
+    "name_en": "CORTIS",
+    "gender": "남자",
+    "artist_id": "4491260",
+    "melon_name": "CORTIS (코르티스)",
+    "match": "partial",
+    "source": "song_detail/600056257",
+    "candidates": [
+      {
+        "artist_id": "4491260",
+        "name": "CORTIS (코르티스)"
+      },
+      {
+        "artist_id": "710659",
+        "name": "Supreme Boi"
+      },
+      {
+        "artist_id": "3748994",
+        "name": "마틴"
+      },
+      {
+        "artist_id": "2139981",
+        "name": "Hiss noise"
+      },
+      {
+        "artist_id": "2928088",
+        "name": "Slush Puppy"
+      }
+    ]
+  },
+  {
+    "name": "알파드라이브원",
+    "name_en": "ALPHA DRIVE ONE",
+    "gender": "남자",
+    "artist_id": "4708940",
+    "melon_name": "ALPHA DRIVE ONE (알파드라이브원)",
+    "match": "partial",
+    "source": "song_detail/600873033",
+    "candidates": [
+      {
+        "artist_id": "4708940",
+        "name": "ALPHA DRIVE ONE (알파드라이브원)"
+      },
+      {
+        "artist_id": "4021421",
+        "name": "송유 (INHOUSE)"
+      },
+      {
+        "artist_id": "4530528",
+        "name": "halfdayoff (MUMW)"
+      },
+      {
+        "artist_id": "2243647",
+        "name": "조유리"
+      },
+      {
+        "artist_id": "4627065",
+        "name": "Jeon Se Hui (INHOUSE)"
+      }
+    ]
+  },
+  {
+    "name": "마마무",
+    "name_en": "MAMAMOO",
+    "gender": "여자",
+    "artist_id": "750053",
+    "melon_name": "마마무 (Mamamoo)",
+    "match": "partial",
+    "source": "song_detail/30079086",
+    "candidates": [
+      {
+        "artist_id": "750053",
+        "name": "마마무 (Mamamoo)"
+      },
+      {
+        "artist_id": "274866",
+        "name": "김도훈 (RBW)"
+      },
+      {
+        "artist_id": "756530",
+        "name": "솔라 (마마무)"
+      },
+      {
+        "artist_id": "756529",
+        "name": "문별 (마마무)"
+      },
+      {
+        "artist_id": "756531",
+        "name": "화사 (HWASA)"
+      }
+    ]
+  }
+]
