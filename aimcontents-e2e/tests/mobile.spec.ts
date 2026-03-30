@@ -72,8 +72,8 @@ test.describe('모바일 - iPhone 13', () => {
         await snsMenu.click();
         await page.waitForTimeout(500);
         
-        // 섹션 이동 확인
-        const snsSection = page.locator('text=SNS 팔로워 순위');
+        // 섹션 이동 확인 (h1/h2 중 첫 번째 — SEO 푸터 중복 방지)
+        const snsSection = page.locator('h1, h2').filter({ hasText: 'SNS 팔로워 순위' }).first();
         await expect(snsSection).toBeVisible();
       }
     }
@@ -182,15 +182,20 @@ test.describe('태블릿 - iPad Pro', () => {
   test('iPad에서 레이아웃이 올바르게 표시되어야 함', async ({ page, isMobile }) => {
     // iPad는 isMobile이 true
     expect(isMobile).toBeTruthy();
-    
+
     await page.goto('/');
     await page.waitForLoadState('networkidle');
-    
-    // 네비게이션이 표시되는지 확인
-    const navLinks = page.getByRole('link', { name: 'SNS랭킹' }).or(
-      page.locator('nav a, ul li a').filter({ hasText: 'SNS랭킹' })
-    );
-    await expect(navLinks.first()).toBeVisible();
+
+    // iPad Pro 11(834px)은 navbar-expand-lg(992px) 기준 미만 → 햄버거 메뉴 표시
+    // 햄버거 버튼 또는 확장된 nav 링크 중 하나가 보이면 통과
+    const hamburger = page.locator('button.navbar-toggler');
+    const snsNavLink = page.getByRole('link', { name: 'SNS랭킹' });
+
+    const hamburgerVisible = await hamburger.isVisible().catch(() => false);
+    const navLinkVisible = await snsNavLink.first().isVisible().catch(() => false);
+
+    // 둘 중 하나라도 있으면 네비게이션 접근 가능
+    expect(hamburgerVisible || navLinkVisible).toBeTruthy();
   });
 
   test('iPad 가로 모드에서도 정상 동작해야 함', async ({ page }) => {
