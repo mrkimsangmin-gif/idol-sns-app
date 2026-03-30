@@ -6,6 +6,12 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
+  // CI에서 로컬 서버 의존 테스트 제외 (localhost/127.0.0.1 하드코딩)
+  testIgnore: process.env.CI ? [
+    '**/local-gemini-test.spec.ts',
+    '**/namu-smart-search.spec.ts',
+    '**/fg-category-tests.spec.ts',
+  ] : [],
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
