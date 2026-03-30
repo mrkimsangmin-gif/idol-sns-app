@@ -17,7 +17,8 @@ test.describe('채용정보 섹션', () => {
   });
 
   test('채용정보 제목이 표시되어야 함', async ({ page }) => {
-    const title = page.locator('text=엔터테인먼트 채용정보');
+    // h2 요소만 선택 (SEO 푸터 중복 방지)
+    const title = page.locator('h2').filter({ hasText: '엔터테인먼트 채용정보' }).first();
     await expect(title).toBeVisible();
   });
 

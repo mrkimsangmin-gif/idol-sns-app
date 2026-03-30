@@ -15,7 +15,7 @@ test.describe('실시간 엔터뉴스 섹션', () => {
   });
 
   test('엔터뉴스 제목이 표시되어야 함', async ({ page }) => {
-    const title = page.locator('text=실시간 엔터뉴스');
+    const title = page.locator('text=실시간 엔터테인먼트 뉴스').first();
     await expect(title).toBeVisible();
   });
 
@@ -87,7 +87,8 @@ test.describe('컴백/데뷔 일정 섹션', () => {
   });
 
   test('컴백/데뷔 일정 제목이 표시되어야 함', async ({ page }) => {
-    const title = page.locator('text=컴백/데뷔 일정');
+    // h2 요소만 선택 (SEO 푸터 중복 방지)
+    const title = page.locator('h2').filter({ hasText: '컴백/데뷔 일정' }).first();
     await expect(title).toBeVisible();
   });
 });

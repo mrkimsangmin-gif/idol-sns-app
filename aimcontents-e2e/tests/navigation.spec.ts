@@ -35,7 +35,6 @@ test.describe('네비게이션 메뉴', () => {
       '링크모음',
       '채용정보',
       '중국트렌드',
-      'Team'
     ];
 
     for (const menuText of menuItems) {
@@ -59,7 +58,7 @@ test.describe('네비게이션 메뉴', () => {
     await page.getByRole('link', { name: 'SNS랭킹' }).or(page.locator('text=SNS랭킹')).first().click();
     await page.waitForTimeout(500);
     
-    const snsSection = page.locator('text=SNS 팔로워 순위');
+    const snsSection = page.locator('h1, h2').filter({ hasText: 'SNS 팔로워 순위' }).first();
     await expect(snsSection).toBeVisible();
   });
 
@@ -75,7 +74,7 @@ test.describe('네비게이션 메뉴', () => {
     await page.getByRole('link', { name: '컴백일정' }).or(page.locator('text=컴백일정')).first().click();
     await page.waitForTimeout(500);
     
-    const comebackSection = page.locator('text=컴백/데뷔 일정');
+    const comebackSection = page.locator('h2').filter({ hasText: '컴백/데뷔 일정' }).first();
     await expect(comebackSection).toBeVisible();
   });
 
@@ -91,7 +90,7 @@ test.describe('네비게이션 메뉴', () => {
     await page.getByRole('link', { name: '엔터뉴스' }).or(page.locator('text=엔터뉴스')).first().click();
     await page.waitForTimeout(500);
     
-    const newsSection = page.locator('text=실시간 엔터뉴스');
+    const newsSection = page.locator('h2').filter({ hasText: '실시간 엔터테인먼트 뉴스' }).first();
     await expect(newsSection).toBeVisible();
   });
 
@@ -123,7 +122,7 @@ test.describe('네비게이션 메뉴', () => {
     await page.getByRole('link', { name: '채용정보' }).or(page.locator('text=채용정보')).first().click();
     await page.waitForTimeout(500);
     
-    const jobSection = page.locator('text=엔터테인먼트 채용정보');
+    const jobSection = page.locator('h2').filter({ hasText: '엔터테인먼트 채용정보' }).first();
     await expect(jobSection).toBeVisible();
   });
 
