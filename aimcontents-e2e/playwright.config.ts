@@ -11,6 +11,7 @@ export default defineConfig({
     '**/local-gemini-test.spec.ts',
     '**/namu-smart-search.spec.ts',
     '**/fg-category-tests.spec.ts',
+    '**/visual-regression.spec.ts',
   ] : [],
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
