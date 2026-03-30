@@ -11,6 +11,10 @@ on:
   # 수동 실행 버튼
   workflow_dispatch:
 
+env:
+  # Node.js 24를 actions 런타임으로 강제 적용 (Node.js 20 deprecation 경고 해소)
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
 jobs:
   test:
     timeout-minutes: 30
@@ -27,7 +31,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Install dependencies
         run: npm ci
