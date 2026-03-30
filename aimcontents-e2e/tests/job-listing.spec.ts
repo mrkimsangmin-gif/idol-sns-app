@@ -38,7 +38,8 @@ test.describe('채용정보 섹션', () => {
     ];
 
     for (const category of categories) {
-      const filterButton = page.locator('button, a, span').filter({ hasText: new RegExp(`^${category}$`) }).first();
+      // #jobsCategoryTabs로 범위 제한 — 다른 섹션(나무위키 등) 숨김 버튼 제외
+      const filterButton = page.locator('#jobsCategoryTabs button').filter({ hasText: category }).first();
       await expect(filterButton).toBeVisible();
     }
   });
@@ -48,13 +49,13 @@ test.describe('채용정보 섹션', () => {
   
   for (const category of categories) {
     test(`${category} 필터 클릭이 동작해야 함`, async ({ page }) => {
-      const filterButton = page.locator('button, a, span, div').filter({ hasText: new RegExp(`^${category}$`) }).first();
-      
+      // #jobsCategoryTabs로 범위 제한 — 의도치 않은 외부 요소 클릭 방지
+      const filterButton = page.locator('#jobsCategoryTabs button').filter({ hasText: category }).first();
+
       if (await filterButton.isVisible()) {
         await filterButton.click();
-        await page.waitForTimeout(500);
-        
-        // 필터 클릭 후 로딩 상태 변경 또는 목록 갱신 확인
+        await page.waitForTimeout(300);
+
         // 클릭 후 에러 없으면 성공
       }
     });
