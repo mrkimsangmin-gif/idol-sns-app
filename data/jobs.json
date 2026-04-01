@@ -2,83 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 294,
-      "company": "YG엔터테인먼트",
-      "position": "콘텐츠 검수 담당자 (경력)",
-      "category": "기타",
-      "career": "경력",
-      "location": "서울 마포구",
-      "deadline": "2026-03-31",
-      "url": "https://yg-entertainment.recruiter.co.kr/career/jobs/101728",
-      "source": "YG엔터테인먼트"
-    },
-    {
-      "id": 307,
-      "company": "YG엔터테인먼트",
-      "position": "아티스트 외부 콘텐츠(MCN) 제휴 담당자",
-      "category": "기타",
-      "career": "경력",
-      "location": "서울 마포구",
-      "deadline": "2026-03-31",
-      "url": "https://yg-entertainment.recruiter.co.kr/career/jobs/position/102186",
-      "source": "YG엔터테인먼트"
-    },
-    {
-      "id": 309,
-      "company": "YG엔터테인먼트",
-      "position": "공연 제작 및 투어 프로모션 담당자",
-      "category": "영상",
-      "career": "무관",
-      "location": "서울 마포구",
-      "deadline": "2026-03-31",
-      "url": "https://yg-entertainment.recruiter.co.kr/career/jobs/position/101528",
-      "source": "YG엔터테인먼트"
-    },
-    {
-      "id": 347,
-      "company": "위드어스엔터테인먼트",
-      "position": "기획팀",
-      "category": "경영지원",
-      "career": "신입·경력",
-      "location": "서울 강남구",
-      "deadline": "2026-03-31",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48737212",
-      "source": "잡코리아"
-    },
-    {
-      "id": 353,
-      "company": "SM엔터테인먼트",
-      "position": "연결회계 담당자 채용 (경력 5-8년차)",
-      "category": "경영지원",
-      "career": "경력 5~8년",
-      "location": "서울 성동구",
-      "deadline": "2026-03-31",
-      "url": "https://recruit.smentertainment.com/ko/o/205800",
-      "source": "SM엔터테인먼트"
-    },
-    {
-      "id": 368,
-      "company": "YG엔터테인먼트",
-      "position": "매입 및 결산 담당자 (경력)",
-      "category": "경영지원",
-      "career": "경력",
-      "location": "서울 마포구",
-      "deadline": "2026-03-31",
-      "url": "https://yg-entertainment.recruiter.co.kr/career/jobs/position/103780",
-      "source": "YG엔터테인먼트"
-    },
-    {
-      "id": 384,
-      "company": "YG엔터테인먼트",
-      "position": "공연 기획 담당자 (경력)",
-      "category": "기타",
-      "career": "무관",
-      "location": "서울 마포구",
-      "deadline": "2026-03-31",
-      "url": "https://yg-entertainment.recruiter.co.kr/career/jobs/position/104621",
-      "source": "YG엔터테인먼트"
-    },
-    {
       "id": 322,
       "company": "비웨이브 엔터테인먼트",
       "position": "신인개발팀 담당자",
@@ -450,6 +373,17 @@
       "location": "서울 강남구",
       "deadline": "2026-05-19",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48815406",
+      "source": "잡코리아"
+    },
+    {
+      "id": 397,
+      "company": "포켓돌스튜디오",
+      "position": "콘텐츠팀 (영상 담당)",
+      "category": "영상",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-05-29",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48871884",
       "source": "잡코리아"
     },
     {
@@ -2948,6 +2882,17 @@
       "deadline": "상시채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48878180",
       "source": "잡코리아"
+    },
+    {
+      "id": 396,
+      "company": "포켓돌스튜디오",
+      "position": "콘텐츠팀 (영상 담당)",
+      "category": "영상",
+      "career": "경력",
+      "location": "서울",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/pocketdol",
+      "source": "잡코리아"
     }
   ],
   "categories": [
@@ -2963,5 +2908,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-03-31T09:01:17.380632"
+  "updatedAt": "2026-04-01T09:00:07.033923"
 }
