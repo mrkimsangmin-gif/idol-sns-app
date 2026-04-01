@@ -8,9 +8,8 @@
  * @param {Object} params - 이벤트 파라미터
  */
 function trackEvent(eventName, params = {}) {
-    // GA4가 로드되지 않았거나 로컬 환경이면 무시
-    if (typeof gtag !== 'function' || window.location.hostname === 'localhost') {
-        console.log(`[Analytics] ${eventName}`, params);
+    // GA4가 로드되지 않았거나 로컬 환경이거나 봇이면 무시
+    if (typeof gtag !== 'function' || window.location.hostname === 'localhost' || window.__isBot) {
         return;
     }
 
@@ -831,14 +830,14 @@ function formatYearMonth(ym) {
 // 🌐 SPA 라우팅 메타데이터
 // ============================================================
 const PAGE_META = {
-    home:    { path: '/ranking', title: 'K-POP SNS 랭킹 | 아이엠콘텐츠' },
-    comeback:{ path: '/comeback', title: '컴백일정 | 아이엠콘텐츠' },
-    news:    { path: '/news',    title: '엔터뉴스 | 아이엠콘텐츠' },
-    links:   { path: '/links',   title: '링크모음 | 아이엠콘텐츠' },
-    jobs:    { path: '/jobs',    title: '채용정보 | 아이엠콘텐츠' },
-    vendors: { path: '/vendors', title: '업체정보 | 아이엠콘텐츠' },
-    douyin:  { path: '/douyin',  title: '중국트렌드 | 아이엠콘텐츠' },
-    namu:    { path: '/namu',   title: '아이돌 정보 (소속사/팬덤/데뷔일) | 아이엠콘텐츠' },
+    home:    { path: '/ranking', title: '아이돌 SNS 팔로워 순위 - 웨이보·빌리빌리·유튜브·스포티파이·인스타 | 아이엠콘텐츠' },
+    comeback:{ path: '/comeback', title: 'K-POP 컴백 일정 2026 - 아이돌 컴백·데뷔 스케줄 | 아이엠콘텐츠' },
+    news:    { path: '/news',    title: '엔터테인먼트 뉴스 - K-POP·드라마·엔터 업계 소식 | 아이엠콘텐츠' },
+    links:   { path: '/links',   title: 'K-POP 링크 모음 - 음원·투표·팬카페·공식채널 | 아이엠콘텐츠' },
+    jobs:    { path: '/jobs',    title: '엔터테인먼트 채용정보 - 기획사·매니지먼트·마케팅 | 아이엠콘텐츠' },
+    vendors: { path: '/vendors', title: '엔터테인먼트 업체 DB - 제작·유통·마케팅 협력사 | 아이엠콘텐츠' },
+    douyin:  { path: '/douyin',  title: '도우인(抖音) 인기 챌린지 - 중국 K-POP 트렌드 | 아이엠콘텐츠' },
+    namu:    { path: '/namu',   title: '아이돌 그룹 정보 - 멤버·소속사·팬덤명·데뷔일 총정리 | 아이엠콘텐츠' },
     team:    { path: '/team',    title: 'Team | 아이엠콘텐츠' }
 };
 
@@ -884,14 +883,14 @@ function findIdolBySlug(slug) {
 
 // 페이지별 SEO description 매핑
 const PAGE_DESCRIPTIONS = {
-    home:    'K-POP 아이돌 SNS 팔로워 순위 - 웨이보, 빌리빌리, 유튜브, 스포티파이 월별 랭킹',
-    comeback:'K-POP 아이돌 컴백/데뷔 일정 - 최신 컴백 스케줄 한눈에 확인',
-    news:    '실시간 엔터테인먼트 뉴스 - K-POP, 드라마, 엔터 업계 최신 소식',
-    links:   'K-POP 관련 유용한 링크 모음 - 음원, 투표, 팬카페, 공식 채널',
-    jobs:    '엔터테인먼트 채용정보 - 마케팅, 매니지먼트, 프로듀싱, 해외사업',
-    vendors: '엔터테인먼트 업체정보 - 제작, 유통, 마케팅 협력사 데이터베이스',
-    douyin:  '중국 도우인(抖音) 인기 챌린지 트렌드 - 주간 업데이트',
-    namu:    '1세대부터 5세대까지 K-POP 아이돌 그룹명, 인원, 리더, 데뷔일, 팬덤명, 소속사 및 나무위키 바로가기 링크를 제공합니다.',
+    home:    'K-POP 아이돌 웨이보, 빌리빌리, 유튜브, 스포티파이, 인스타그램 팔로워 순위를 월별로 비교하세요. 170개 이상 아이돌 그룹의 SNS 팔로워 수 실시간 랭킹.',
+    comeback:'2026년 K-POP 아이돌 컴백·데뷔 일정을 한눈에 확인하세요. 날짜별 컴백 스케줄, 앨범 정보, 타이틀곡 미리보기.',
+    news:    '엔터테인먼트 업계 최신 뉴스를 실시간으로 전달합니다. K-POP, 드라마, 기획사 동향, 아이돌 활동 소식.',
+    links:   'K-POP 팬을 위한 필수 링크 모음. 음원 사이트, 투표 앱, 팬카페, 공식 SNS 채널 바로가기.',
+    jobs:    '엔터테인먼트 기획사 채용정보를 모았습니다. SM, JYP, HYBE 등 주요 기획사 마케팅·매니지먼트·해외사업 포지션.',
+    vendors: '엔터테인먼트 업계 협력사 데이터베이스. 앨범 제작, 음원 유통, 굿즈 제작, 공연 기획 업체 정보.',
+    douyin:  '중국 도우인(抖音)에서 유행하는 K-POP 챌린지 영상을 주간 단위로 업데이트합니다. 조회수·좋아요 기준 인기 트렌드.',
+    namu:    '1세대부터 5세대까지 K-POP 아이돌 173개 그룹 총정리. 멤버 구성, 소속사, 팬덤명, 데뷔일, 앨범 판매량까지 한눈에.',
     team:    'Team | 아이엠콘텐츠'
 };
 

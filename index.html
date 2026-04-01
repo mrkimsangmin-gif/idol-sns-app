@@ -17,7 +17,8 @@
 
     <!-- SEO: canonical URL -->
     <link rel="canonical" href="https://aimcontents.com/">
-    <!-- SEO: 검색엔진 사이트 인증 (네이버: HTML파일/DNS 방식으로 인증 완료) -->
+    <!-- SEO: 검색엔진 사이트 인증 -->
+    <meta name="google-site-verification" content="qNNCan1MH3AX7Fa9E7tGCIxNA8V7Dn6DWtO1TjIlOsM" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -49,16 +50,41 @@
         }(window.location));
     </script>
 
-    <!-- Google Analytics 4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0ZEFEPQPG"></script>
+    <!-- Google Analytics 4 (봇 필터링 포함) -->
+    <script>
+        // 봇/크롤러 감지: UA 문자열 + 비인간 행동 패턴
+        window.__isBot = (function() {
+            var ua = navigator.userAgent || '';
+            // 알려진 봇 UA 패턴
+            if (/bot|crawl|spider|slurp|lighthouse|headless|phantom|puppeteer|selenium|wget|curl|python|java\/|ahref|semrush|mj12|dotbot|petalbot|bytespider|gptbot|claudebot|barkrowler|dataforseo/i.test(ua)) return true;
+            // WebDriver 감지 (Selenium, Puppeteer 등)
+            if (navigator.webdriver) return true;
+            // 플러그인 0개 + 언어 미설정 = headless 브라우저 의심
+            if (!navigator.plugins || navigator.plugins.length === 0) {
+                if (!navigator.language && !navigator.languages) return true;
+            }
+            return false;
+        })();
+    </script>
+    <script>
+        // 봇이 아닌 경우에만 GA4 로드
+        if (!window.__isBot) {
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-G0ZEFEPQPG';
+            document.head.appendChild(s);
+        }
+    </script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-G0ZEFEPQPG', {
-            send_page_view: true,
-            cookie_flags: 'SameSite=None;Secure'
-        });
+        if (!window.__isBot) {
+            gtag('js', new Date());
+            gtag('config', 'G-G0ZEFEPQPG', {
+                send_page_view: true,
+                cookie_flags: 'SameSite=None;Secure'
+            });
+        }
     </script>
 
     <!-- Schema.org 구조화 데이터 (브랜드 개체 인식) -->
