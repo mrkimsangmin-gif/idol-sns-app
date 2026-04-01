@@ -2893,6 +2893,28 @@
       "deadline": "",
       "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/pocketdol",
       "source": "잡코리아"
+    },
+    {
+      "id": 398,
+      "company": "HYBE",
+      "position": "IR",
+      "category": "경영지원",
+      "career": "경력 4~10년",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/209476",
+      "source": "하이브"
+    },
+    {
+      "id": 399,
+      "company": "HYBE",
+      "position": "채용 운영/기획 (Talent Acquisition)",
+      "category": "디자인",
+      "career": "경력 3년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/209411",
+      "source": "하이브"
     }
   ],
   "categories": [
@@ -2908,5 +2930,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-04-01T09:00:07.033923"
+  "updatedAt": "2026-04-01T09:00:40.229658"
 }
