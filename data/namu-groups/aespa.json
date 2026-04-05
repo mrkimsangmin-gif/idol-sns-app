@@ -8,10 +8,10 @@
     "멤버수": "4",
     "데뷔일": "2020.11.17",
     "소속사": "SM엔터테인먼트",
-    "그룹명뜻": "‘아바타 X 익스피리언스 (Avatar X Experience)’를 표현한 ‘æ’와 양면이라는 뜻의 영단어 ‘aspect’를 결합해 만든 이름",
+    "그룹명뜻": "그룹명 'aespa (에스파)'는 ‘아바타 X 익스피리언스 (Avatar X Experience)’를 표현한 ‘æ’와 양면이라는 뜻의 영단어 ‘aspect’를 결합해 만든 이름이다.",
     "팬덤명": "MY (마이)",
     "응원봉": "프레첼",
-    "훈장": "멜론 뮤직 어워드 대상; MAMA AWARDS 대상; 골든디스크어워즈 대상; 한국대중음악상 올해의 노래상; 빌보드 우먼 인 뮤직 올해의 그룹상; 포브스 30세 이하 아시아 리더 엔터테이너; CJ ENM 비저너리; 파이낸셜타임즈 가장 영향력 있는 여성 25인; 멜론의 전당 빌리언스 클럽",
+    "훈장": "MAMA AWARDS 대상 수상; 골든디스크어워즈 대상 수상; 멜론 뮤직 어워드 대상/레코드 수상; 멜론 뮤직 어워드 대상 수상; 한국대중음악상 수상; 제13회 멜론 뮤직 어워드 신인상 및 대상 동시 수상 (2021); 2024 MAMA AWARDS 대상 (올해의 노래상: Supernova) 포함 6관왕; 2024 멜론 뮤직 어워드 대상 3개 포함 7관왕; 2024 멜론 뮤직 어워드 모든 부문 대상 수상 최초 여성 아티스트; 2024 한국대중음악상 올해의 노래상 (Supernova); 2025 빌보드 우먼 인 뮤직 올해의 그룹상; 2025 미국 골드하우스 New Gold 선정",
     "레이블": "캐피톨 레코드, Warner Music Japan",
     "유통사": "카카오엔터테인먼트, 유니버설 뮤직 그룹, 워너 뮤직 재팬, 텐센트 뮤직 엔터테인먼트",
     "결성일": "2020.11.17",
@@ -24,40 +24,52 @@
   },
   "members": [
     {
+      "name": "카리나",
+      "본명": "유지민",
+      "출생연도": "2000",
+      "생년월일": "2000.04.11",
+      "출신지": "대한민국",
+      "역할": "리더, 리드래퍼, 서브보컬, 비주얼 센터",
+      "키": "168cm",
+      "MBTI": "",
+      "혈액형": "B",
+      "info": "팀의 리더이자 비주얼 센터로, 저음톤 보컬과 뛰어난 댄스 실력을 가졌다."
+    },
+    {
       "name": "지젤",
       "본명": "우치나가 에리 (Uchinaga Aeri)",
       "출생연도": "2000",
       "생년월일": "2000.10.30",
-      "출신지": "",
-      "역할": "메인래퍼, 보컬",
+      "출신지": "일본",
+      "역할": "메인래퍼, 서브보컬",
       "키": "163cm",
       "MBTI": "",
       "혈액형": "O",
-      "info": "원어민 수준의 영어 실력을 가진 멤버."
+      "info": "팀의 메인 래퍼로, 뛰어난 피지컬과 유려한 춤선을 가졌다."
     },
     {
       "name": "윈터",
       "본명": "김민정",
       "출생연도": "2001",
       "생년월일": "2001.01.01",
-      "출신지": "",
-      "역할": "보컬, 서브래퍼",
+      "출신지": "대한민국",
+      "역할": "메인보컬, 리드댄서, 서브래퍼",
       "키": "163cm",
       "MBTI": "",
       "혈액형": "A",
-      "info": "뛰어난 보컬 실력을 가진 멤버."
+      "info": "팀의 메인 보컬로, 날카롭고 단단한 음색과 섬세한 춤선이 강점이다."
     },
     {
       "name": "닝닝",
       "본명": "닝이줘 (宁艺卓 / Ning Yizhuo)",
       "출생연도": "2002",
       "생년월일": "2002.10.23",
-      "출신지": "",
-      "역할": "보컬, 서브래퍼",
+      "출신지": "중국",
+      "역할": "메인보컬, 서브래퍼",
       "키": "161cm",
       "MBTI": "",
       "혈액형": "O",
-      "info": "가장 긴 연습생 기간을 보낸 멤버."
+      "info": "팀의 메인 보컬로, 청아하고 맑은 음색과 탄탄한 기본기를 가졌다."
     }
   ],
   "albums": [
@@ -69,7 +81,7 @@
       "누적_한터": "-",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Black Mamba"
     },
     {
       "title": "Next Level",
@@ -79,7 +91,7 @@
       "누적_한터": "-",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Next Level"
     },
     {
       "title": "Savage",
@@ -89,7 +101,7 @@
       "누적_한터": "1,015,000",
       "초동_써클": "276,8**",
       "누적_써클": "813,***",
-      "비고": "TITLE"
+      "비고": "Savage"
     },
     {
       "title": "Forever & Always",
@@ -109,7 +121,7 @@
       "누적_한터": "2,050,000",
       "초동_써클": "1,126,0**",
       "누적_써클": "1,875,***",
-      "비고": "TITLE"
+      "비고": "Girls"
     },
     {
       "title": "MY WORLD",
@@ -119,7 +131,7 @@
       "누적_한터": "2,300,000",
       "초동_써클": "1,698,7**",
       "누적_써클": "2,166,***",
-      "비고": "TITLE: Spicy"
+      "비고": "Spicy"
     },
     {
       "title": "Drama",
@@ -129,7 +141,7 @@
       "누적_한터": "2,500,000",
       "초동_써클": "1,130,3**",
       "누적_써클": "1,340,***",
-      "비고": "TITLE"
+      "비고": "Drama"
     },
     {
       "title": "Armageddon",
@@ -139,7 +151,7 @@
       "누적_한터": "3,200,000",
       "초동_써클": "1,154,7**",
       "누적_써클": "1,392,***",
-      "비고": "TITLE"
+      "비고": "Supernova"
     },
     {
       "title": "Whiplash",
@@ -148,8 +160,8 @@
       "초동_한터": "2,051,497",
       "누적_한터": "2,800,000",
       "초동_써클": "913,2**",
-      "누적_써클": "1,018,***",
-      "비고": "TITLE"
+      "누적_써클": "1,018,***장",
+      "비고": "Whiplash"
     },
     {
       "title": "Hot Mess",
@@ -159,7 +171,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Hot Mess"
     },
     {
       "title": "Dirty Work",
@@ -169,7 +181,7 @@
       "누적_한터": "",
       "초동_써클": "969,6**",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Dirty Work"
     },
     {
       "title": "Rich Man",
@@ -179,7 +191,7 @@
       "누적_한터": "",
       "초동_써클": "1,088,3**",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Rich Man"
     },
     {
       "title": "Forever (약속)",
@@ -189,7 +201,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Forever (약속)"
     },
     {
       "title": "Dreams Come True",
@@ -219,7 +231,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Better Things"
     },
     {
       "title": "시대유감 (Regret of the Times)",
@@ -239,17 +251,17 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "UP (KARINA Solo) 외 3곡"
+      "비고": "UP (KARINA Solo), Dopamine (GISELLE Solo), Bored! (NINGNING Solo), Spark (WINTER Solo)"
     },
     {
       "title": "도깨비불 (Illusion)",
-      "type": "선공개 싱글",
+      "type": "디지털 싱글",
       "발매일": "2022.06.01",
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "도깨비불 (Illusion)"
     },
     {
       "title": "Welcome To MY World",
@@ -269,17 +281,17 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Jingle Bell Rock"
     },
     {
       "title": "Supernova",
-      "type": "선공개 싱글",
+      "type": "디지털 싱글",
       "발매일": "2024.05.13",
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Supernova"
     },
     {
       "title": "SYNK : aeXIS LINE",
@@ -289,7 +301,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "BLUE (WINTER Solo) 외 3곡"
+      "비고": "BLUE (WINTER Solo), Ketchup And Lemonade (NINGNING Solo), Tornado (GISELLE Solo), GOOD STUFF (KARINA Solo)"
     },
     {
       "title": "Life's Too Short",
@@ -299,7 +311,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE (English Ver.)"
+      "비고": "Life's Too Short (English Ver.)"
     },
     {
       "title": "In Halo",
@@ -319,7 +331,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Next Level (Habstrakt Remix) 외 2곡"
+      "비고": "Next Level (Habstrakt Remix) - aespa"
     },
     {
       "title": "Dreams Come True - SM STATION",
@@ -329,7 +341,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Dreams Come True"
+      "비고": "Dreams Come True - aespa"
     },
     {
       "title": "2021 Winter SMTOWN : SMCU EXPRESS",
@@ -339,7 +351,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Dreams Come True 외 2곡"
+      "비고": "Dreams Come True - aespa, ZOO - 지젤, Snow Dream 2021 - 닝닝, 빛 (Hope from KWANGYA) - 카리나, 지젤"
     },
     {
       "title": "iScreaM Vol.18 : Girls Remixes",
@@ -349,7 +361,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Girls (BRLLNT Remix) 외 1곡"
+      "비고": "Girls (BRLLNT Remix) - aespa, BRLLNT, Girls (Minit Remix) - aespa, Minit"
     },
     {
       "title": "Beautiful Christmas",
@@ -359,7 +371,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Red Velvet, aespa"
+      "비고": "Beautiful Christmas - Red Velvet, aespa"
     },
     {
       "title": "2022 Winter SMTOWN : SMCU PALACE",
@@ -369,7 +381,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "The Cure 외 5곡"
+      "비고": "The Cure - 카리나, Hot & Cold (온도차) - , Beautiful Christmas - Red Velvet, aespa, Jet - 지젤, 윈터, Priority - 윈터, 원 (Time After Time) - 닝닝, Good To Be Alive -"
     },
     {
       "title": "Tetris (Original Motion picture Soundtrack)",
@@ -379,7 +391,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Hold On Tight"
+      "비고": "Hold On Tight - aespa"
     },
     {
       "title": "포켓몬스터(2023)",
@@ -389,7 +401,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "We Go"
+      "비고": "We Go - aespa"
     },
     {
       "title": "Better Things (Sped Up + Slowed Down)",
@@ -399,7 +411,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Better Things"
     },
     {
       "title": "iScreaM Vol.26 : Spicy Remix",
@@ -409,7 +421,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Spicy (Nitepunk Remix)"
+      "비고": "Spicy (Nitepunk Remix) - aespa"
     },
     {
       "title": "Better Things (Tropkillaz Remix)",
@@ -419,7 +431,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Better Things (Tropkillaz Remix)"
     },
     {
       "title": "Better Things (RAYE Remix)",
@@ -429,7 +441,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Better Things (RAYE Remix)"
     },
     {
       "title": "ZOOM ZOOM",
@@ -439,7 +451,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "베이블레이드X 엔딩 테마곡"
+      "비고": "ZOOM ZOOM - aespa"
     },
     {
       "title": "Better Things (Dance Remix)",
@@ -449,7 +461,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Better Things (RAYE Remix)"
     },
     {
       "title": "Jingle Bell Rock (Sped Up Ver.)",
@@ -459,7 +471,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Jingle Bell Rock (Sped Up Ver.)"
     },
     {
       "title": "Drama (Sped Up Ver.)",
@@ -469,7 +481,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Drama (Sped Up Ver.)"
     },
     {
       "title": "시대유감 (時代遺憾) (2024 aespa Remake Ver.) - SM STATION",
@@ -479,7 +491,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "시대유감 (時代遺憾) (2024 aespa Remake Ver.)"
+      "비고": "시대유감 (時代遺憾) (2024 aespa Remake Ver.) - aespa"
     },
     {
       "title": "DJESSE VOL.4",
@@ -489,7 +501,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Over You (feat. aespa & Chris Martin)"
+      "비고": "Over You (feat. aespa & Chris Martin) - Jacob Collier, aespa, Chris Martin"
     },
     {
       "title": "Fraggle Rock: Back to the Rock Season 2 (Apple TV+ Original Series Soundtrack)",
@@ -499,7 +511,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Get Goin'"
+      "비고": "Get Goin' - aespa"
     },
     {
       "title": "Rebel Moon: Songs of the Rebellion (Inspired by the Netflix Films) (Explicit Ver.)",
@@ -509,7 +521,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Die Trying"
+      "비고": "Die Trying - aespa, TOKiMONSTA"
     },
     {
       "title": "iScreaM Vol.33 aespa Supernova / Armageddon Remixes",
@@ -519,7 +531,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Supernova (Grimes Remix) 외 3곡"
+      "비고": "Supernova (Grimes Remix) - aespa, Armageddon (Flava D Remix) - , Armageddon (2Spade Remix) - , Armageddon (Mount XLR Remix) -"
     },
     {
       "title": "We Go (Eng ver.)",
@@ -529,7 +541,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "포켓몬스터: 리코와 로드의 모험 OP"
+      "비고": "We Go (Eng ver.) - aespa"
     },
     {
       "title": "RE:WORKS",
@@ -539,7 +551,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Supernova (KENZIE RE:WORKS)"
+      "비고": "Supernova (KENZIE RE:WORKS) - KENZIE, aespa"
     },
     {
       "title": "K-POP ScreaM 1",
@@ -549,7 +561,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Whiplash (monotostereo Remix) 외 3곡"
+      "비고": "Whiplash (monotostereo Remix) - aespa, mono to stereo, UP (KARINA Solo) (Coziest Remix) - 카리나, Coziest, Flights, Not Feelings (Demicat Remix) - aespa, Demicat, Spark (WINTER Solo) (2Spade Remix) - 윈터, 2Spade"
     },
     {
       "title": "2025 SMTOWN : THE CULTURE, THE FUTURE",
@@ -559,7 +571,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Thank You 외 1곡"
+      "비고": "Thank You - 카리나, 윈터, 첫 사랑니 (Rum Pum Pum Pum) - aespa"
     },
     {
       "title": "Whiplash (English Ver.)",
@@ -569,7 +581,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Whiplash (English Ver.)"
     },
     {
       "title": "K-POP ScreaM 2",
@@ -579,7 +591,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Licorice (LOOZBONE Remix) 외 3곡"
+      "비고": "Licorice (LOOZBONE Remix) - aespa, LOOZBONE, Armageddon (SixThema & Epiik Remix) - aespa, SixThema, Epiik Remixt, Supernova (Fahjah Remix) - aespa, Fahjah, Whiplash (DJ Long Nhat Remix) - aespa, DJ Long Nhat"
     },
     {
       "title": "굿데이 2025 (텔레파시 + 달빛 창가에서)",
@@ -587,15 +599,15 @@
       "발매일": "2025.04.24",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
+      "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Various Artists",
+      "비고": "굿데이 2025 (텔레파시 + 달빛 창가에서) - Various Artists",
       "초동_써써클": "-"
     },
     {
       "title": "미정",
       "type": "2집 정규앨범",
-      "발매일": "2026.05.",
+      "발매일": "2026.05",
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "-",
@@ -610,7 +622,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE: Dirty Work (RayRay Remix)"
+      "비고": "Dirty Work (RayRay Remix)"
     },
     {
       "title": "Dark Arts",
@@ -620,7 +632,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": ""
+      "비고": "Dark Arts - aespa"
     },
     {
       "title": "Rich Man (English Ver.)",
@@ -630,7 +642,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "Rich Man (Feat. Sevdaliza)"
     },
     {
       "title": "Rich Man (Remixes)",
@@ -640,7 +652,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE: Rich Man (Yellow Claw Remix)"
+      "비고": "Rich Man (Yellow Claw Remix)"
     },
     {
       "title": "Gabby’s Dollhouse: The Movie",
@@ -650,7 +662,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Dollhouse World"
+      "비고": "Dollhouse World - aespa"
     },
     {
       "title": "Gabby’s Dollhouse: The Movie (Extra Sprinkles)",
@@ -660,7 +672,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "Dollhouse World (Korean Version)"
+      "비고": "Dollhouse World (Korean Version) - aespa"
     },
     {
       "title": "Keychain (FROM THE FILM K-POPS!)",
@@ -670,7 +682,7 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "앤더슨 팩, aespa"
+      "비고": "Keychain - 앤더슨 팩, aespa"
     },
     {
       "title": "ATTITUDE",
@@ -680,7 +692,17 @@
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "TITLE"
+      "비고": "ATTITUDE"
+    },
+    {
+      "title": "Welcome To MY World (Feat. nævis)",
+      "type": "디지털 싱글",
+      "발매일": "2023.05.02",
+      "초동_한터": "",
+      "누적_한터": "",
+      "초동_써클": "-",
+      "누적_써클": "-",
+      "비고": "Welcome To MY World (Feat. nævis)"
     }
   ]
 }
