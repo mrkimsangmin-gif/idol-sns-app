@@ -354,6 +354,17 @@
       "source": "잡코리아"
     },
     {
+      "id": 406,
+      "company": "모드하우스",
+      "position": "커뮤니티 매니저",
+      "category": "기타",
+      "career": "무관",
+      "location": "서울 강남구",
+      "deadline": "2026-06-02",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48909073",
+      "source": "잡코리아"
+    },
+    {
       "id": 19,
       "company": "에스엠엔터테인먼트",
       "position": "글로벌 마케팅 담당자 채용",
@@ -2926,6 +2937,17 @@
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/209961",
       "source": "하이브"
+    },
+    {
+      "id": 405,
+      "company": "패러블엔터테인먼트",
+      "position": "크리에이터 매니지먼트 매니저",
+      "category": "기타",
+      "career": "신입·경력",
+      "location": "경기 고양시",
+      "deadline": "상시채용",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910861",
+      "source": "잡코리아"
     }
   ],
   "categories": [
@@ -2941,5 +2963,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-04-05T09:00:06.359199"
+  "updatedAt": "2026-04-05T11:31:28.759157"
 }
