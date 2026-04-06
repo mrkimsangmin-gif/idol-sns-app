@@ -2,50 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 329,
-      "company": "이든엔터테인먼트",
-      "position": "A&R팀 경력직(대리,과장급) 채용",
-      "category": "프로듀싱",
-      "career": "경력",
-      "location": "서울 성동구",
-      "deadline": "2026-04-05",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48724888",
-      "source": "잡코리아"
-    },
-    {
-      "id": 337,
-      "company": "SM엔터테인먼트",
-      "position": "생산 MD 담당자 채용 (경력)",
-      "category": "기타",
-      "career": "경력 5년 이상",
-      "location": "서울 성동구",
-      "deadline": "2026-04-05",
-      "url": "https://recruit.smentertainment.com/ko/o/205422",
-      "source": "SM엔터테인먼트"
-    },
-    {
-      "id": 376,
-      "company": "SM엔터테인먼트",
-      "position": "퍼포먼스 기획 및 제작 관리 담당자 채용 (계약직)",
-      "category": "마케팅",
-      "career": "무관",
-      "location": "서울 성동구",
-      "deadline": "2026-04-05",
-      "url": "https://recruit.smentertainment.com/ko/o/207396",
-      "source": "SM엔터테인먼트"
-    },
-    {
-      "id": 382,
-      "company": "SM엔터테인먼트",
-      "position": "성과관리(평가보상) 담당자 채용 (경력)",
-      "category": "경영지원",
-      "career": "경력 5~10년",
-      "location": "서울 성동구",
-      "deadline": "2026-04-05",
-      "url": "https://recruit.smentertainment.com/ko/o/208215",
-      "source": "SM엔터테인먼트"
-    },
-    {
       "id": 345,
       "company": "패러블엔터테인먼트",
       "position": "크리에이터 방송사업 본부 매니저",
@@ -2948,6 +2904,17 @@
       "deadline": "상시채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48910861",
       "source": "잡코리아"
+    },
+    {
+      "id": 407,
+      "company": "모드하우스",
+      "position": "커뮤니티 매니저",
+      "category": "기타",
+      "career": "신입·경력",
+      "location": "서울",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/modhaus",
+      "source": "잡코리아"
     }
   ],
   "categories": [
@@ -2963,5 +2930,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-04-05T11:31:28.759157"
+  "updatedAt": "2026-04-06T09:00:21.766050"
 }
