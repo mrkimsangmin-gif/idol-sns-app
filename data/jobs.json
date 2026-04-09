@@ -2,28 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 345,
-      "company": "패러블엔터테인먼트",
-      "position": "크리에이터 방송사업 본부 매니저",
-      "category": "매니지먼트",
-      "career": "무관",
-      "location": "서울 금천구",
-      "deadline": "2026-04-08",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48740177",
-      "source": "잡코리아"
-    },
-    {
-      "id": 346,
-      "company": "위드어스엔터테인먼트",
-      "position": "영상팀",
-      "category": "영상",
-      "career": "신입·경력",
-      "location": "서울 강남구",
-      "deadline": "2026-04-08",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48739871",
-      "source": "잡코리아"
-    },
-    {
       "id": 338,
       "company": "SM엔터테인먼트",
       "position": "아티스트 마케팅 전략 담당자 채용 (경력)",
@@ -255,6 +233,17 @@
       "source": "잡코리아"
     },
     {
+      "id": 422,
+      "company": "모어비전",
+      "position": "Producing Team 뮤직 A&R",
+      "category": "프로듀싱",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-05-06",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48923261",
+      "source": "잡코리아"
+    },
+    {
       "id": 412,
       "company": "이든엔터테인먼트",
       "position": "A&R팀 경력직(대리,과장급)",
@@ -373,6 +362,17 @@
       "location": "서울 강남구",
       "deadline": "2026-06-05",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48926251",
+      "source": "잡코리아"
+    },
+    {
+      "id": 423,
+      "company": "모드하우스",
+      "position": "엔터테인먼트 디자이너",
+      "category": "디자인",
+      "career": "무관",
+      "location": "서울 강남구",
+      "deadline": "2026-06-07",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48942098",
       "source": "잡코리아"
     },
     {
@@ -3025,6 +3025,17 @@
       "deadline": "",
       "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/titan0613",
       "source": "잡코리아"
+    },
+    {
+      "id": 420,
+      "company": "모어비전",
+      "position": "경영지원팀 회계파트",
+      "category": "경영지원",
+      "career": "경력",
+      "location": "서울",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/morevision",
+      "source": "잡코리아"
     }
   ],
   "categories": [
@@ -3040,5 +3051,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-04-08T09:01:23.617479"
+  "updatedAt": "2026-04-09T09:00:32.307167"
 }
