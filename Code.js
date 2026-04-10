@@ -2677,9 +2677,13 @@ function getCalendarEvents(groupFilter, monthsStr) {
 }
 
 /**
- * 엔터뉴스 수집 — Google News RSS 기반
+ * 엔터뉴스 수집 — Naver News API + Google News RSS 기반
+ * Naver News API 우선 사용, 실패 시 Google News RSS 폴백
  * fetchAll()로 병렬 수집 → 중복 제거 → 최신순 정렬 → 상위 30개 반환
  * CacheService 30분 캐싱 + Google Sheets 누적 저장
+ *
+ * 설정: 스크립트 속성(Script Properties)에 아래 값 등록 필요
+ *   NAVER_CLIENT_ID, NAVER_CLIENT_SECRET
  */
 function getEnterNews() {
   const cache = CacheService.getScriptCache();
@@ -2690,7 +2694,6 @@ function getEnterNews() {
   if (cached) {
     Logger.log('엔터뉴스 캐시 히트');
     var cachedData = JSON.parse(cached);
-    // 캐시 히트 시에도 시트 누적 저장 (중복은 archiveNewsToSheet에서 체크)
     try { archiveNewsToSheet(cachedData); } catch(e) { Logger.log('아카이브 실패: ' + e.message); }
     return cachedData;
   }
@@ -2698,50 +2701,29 @@ function getEnterNews() {
   const keywords = ['K-POP 아이돌', 'HYBE', 'SM엔터테인먼트', 'JYP엔터', 'YG엔터', '걸그룹 컴백'];
   const collectTime = new Date().toISOString();
 
-  // fetchAll()로 6개 RSS 병렬 호출
-  const requests = keywords.map(function(kw) {
-    return {
-      url: 'https://news.google.com/rss/search?q=' + encodeURIComponent(kw) + '&hl=ko&gl=KR&ceid=KR:ko',
-      muteHttpExceptions: true
-    };
-  });
-  const responses = UrlFetchApp.fetchAll(requests);
+  // Naver API 자격증명 확인
+  var props = PropertiesService.getScriptProperties();
+  var naverClientId = props.getProperty('NAVER_CLIENT_ID');
+  var naverClientSecret = props.getProperty('NAVER_CLIENT_SECRET');
+  var useNaver = naverClientId && naverClientSecret;
 
-  const allNews = [];
-  const seen = new Set();
+  var allNews = [];
+  var seen = new Set();
 
-  responses.forEach(function(response, idx) {
-    var keyword = keywords[idx];
-    try {
-      if (response.getResponseCode() !== 200) {
-        Logger.log('뉴스 RSS 응답 오류 (' + keyword + '): ' + response.getResponseCode());
-        return;
-      }
+  if (useNaver) {
+    // Naver News API로 수집
+    Logger.log('네이버 뉴스 API로 수집 시작');
+    allNews = fetchNaverNews(keywords, naverClientId, naverClientSecret, collectTime, seen);
+  }
 
-      var doc = XmlService.parse(response.getContentText());
-      var items = doc.getRootElement().getChild('channel').getChildren('item');
-
-      var count = 0;
-      for (var i = 0; i < items.length && count < 8; i++) {
-        var item = items[i];
-        var link = item.getChildText('link') || '';
-        if (seen.has(link)) continue;
-        seen.add(link);
-
-        allNews.push({
-          keyword: keyword.replace(/엔터테인먼트|엔터/g, '').trim(),
-          title: item.getChildText('title') || '',
-          description: (item.getChildText('description') || '').replace(/<[^>]*>/g, '').trim(),
-          link: link,
-          pubDate: item.getChildText('pubDate') || '',
-          collectTime: collectTime
-        });
-        count++;
-      }
-    } catch (e) {
-      Logger.log('뉴스 수집 실패 (' + keyword + '): ' + e.message);
+  // Naver 결과가 부족하면 Google RSS로 보충
+  if (allNews.length < 10) {
+    if (useNaver) {
+      Logger.log('네이버 뉴스 부족 (' + allNews.length + '건), Google RSS로 보충');
     }
-  });
+    var rssNews = fetchGoogleRssNews(keywords, collectTime, seen);
+    allNews = allNews.concat(rssNews);
+  }
 
   // 최신순 정렬 → 상위 30개
   allNews.sort(function(a, b) { return new Date(b.pubDate) - new Date(a.pubDate); });
@@ -2766,6 +2748,115 @@ function getEnterNews() {
   }
 
   return result;
+}
+
+
+/**
+ * Naver News Search API로 뉴스 수집
+ * https://developers.naver.com/docs/serviceapi/search/news/news.md
+ */
+function fetchNaverNews(keywords, clientId, clientSecret, collectTime, seen) {
+  var results = [];
+
+  var requests = keywords.map(function(kw) {
+    return {
+      url: 'https://openapi.naver.com/v1/search/news.json?query=' + encodeURIComponent(kw) + '&display=8&sort=date',
+      headers: {
+        'X-Naver-Client-Id': clientId,
+        'X-Naver-Client-Secret': clientSecret
+      },
+      muteHttpExceptions: true
+    };
+  });
+
+  var responses = UrlFetchApp.fetchAll(requests);
+
+  responses.forEach(function(response, idx) {
+    var keyword = keywords[idx];
+    try {
+      if (response.getResponseCode() !== 200) {
+        Logger.log('네이버 뉴스 API 오류 (' + keyword + '): ' + response.getResponseCode());
+        return;
+      }
+
+      var data = JSON.parse(response.getContentText());
+      var items = data.items || [];
+
+      items.forEach(function(item) {
+        var link = item.originallink || item.link || '';
+        if (seen.has(link)) return;
+        seen.add(link);
+
+        results.push({
+          keyword: keyword.replace(/엔터테인먼트|엔터/g, '').trim(),
+          title: (item.title || '').replace(/<[^>]*>/g, '').replace(/&quot;/g, '"').replace(/&amp;/g, '&').trim(),
+          description: (item.description || '').replace(/<[^>]*>/g, '').replace(/&quot;/g, '"').replace(/&amp;/g, '&').trim(),
+          link: link,
+          pubDate: item.pubDate || '',
+          collectTime: collectTime,
+          source: 'naver'
+        });
+      });
+    } catch (e) {
+      Logger.log('네이버 뉴스 수집 실패 (' + keyword + '): ' + e.message);
+    }
+  });
+
+  Logger.log('네이버 뉴스 수집: ' + results.length + '건');
+  return results;
+}
+
+
+/**
+ * Google News RSS로 뉴스 수집 (기존 방식, 폴백용)
+ */
+function fetchGoogleRssNews(keywords, collectTime, seen) {
+  var results = [];
+
+  var requests = keywords.map(function(kw) {
+    return {
+      url: 'https://news.google.com/rss/search?q=' + encodeURIComponent(kw) + '&hl=ko&gl=KR&ceid=KR:ko',
+      muteHttpExceptions: true
+    };
+  });
+  var responses = UrlFetchApp.fetchAll(requests);
+
+  responses.forEach(function(response, idx) {
+    var keyword = keywords[idx];
+    try {
+      if (response.getResponseCode() !== 200) {
+        Logger.log('뉴스 RSS 응답 오류 (' + keyword + '): ' + response.getResponseCode());
+        return;
+      }
+
+      var doc = XmlService.parse(response.getContentText());
+      var items = doc.getRootElement().getChild('channel').getChildren('item');
+
+      var count = 0;
+      for (var i = 0; i < items.length && count < 8; i++) {
+        var item = items[i];
+        var link = item.getChildText('link') || '';
+        if (seen.has(link)) continue;
+        seen.add(link);
+
+        results.push({
+          keyword: keyword.replace(/엔터테인먼트|엔터/g, '').trim(),
+          title: item.getChildText('title') || '',
+          description: (item.getChildText('description') || '').replace(/<[^>]*>/g, '').trim(),
+          link: link,
+          pubDate: item.getChildText('pubDate') || '',
+          collectTime: collectTime,
+          source: 'google'
+        });
+        count++;
+      }
+    } catch (e) {
+      Logger.log('뉴스 수집 실패 (' + keyword + '): ' + e.message);
+    }
+  });
+
+  Logger.log('Google RSS 뉴스 수집: ' + results.length + '건');
+  return results;
 }
 
 /**

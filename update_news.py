@@ -1,12 +1,18 @@
 """
 엔터뉴스 수집 스크립트 — 174개 아이돌 그룹 뉴스 수집
-Google News RSS + include/exclude 필터링
+Naver News API (우선) + Google News RSS (폴백) + include/exclude 필터링
 출력: data/news.json
 
+환경변수 (.env 파일 또는 시스템 환경변수):
+  NAVER_CLIENT_ID     — 네이버 개발자센터 Client ID
+  NAVER_CLIENT_SECRET — 네이버 개발자센터 Client Secret
+
 사용법:
-  C:/Python314/python.exe update_news.py
-  C:/Python314/python.exe update_news.py --top 50    # 상위 50건
-  C:/Python314/python.exe update_news.py --archive   # 아카이브 CSV 누적 저장
+  python update_news.py
+  python update_news.py --top 50      # 상위 50건
+  python update_news.py --archive     # 아카이브 CSV 누적 저장
+  python update_news.py --source naver   # 네이버만 사용
+  python update_news.py --source google  # Google RSS만 사용
 """
 import csv
 import io
@@ -24,10 +30,30 @@ from email.utils import parsedate_to_datetime
 
 sys.stdout.reconfigure(encoding='utf-8')
 
+# .env 파일 로드 (dotenv 패키지 없이 직접 파싱)
+def load_dotenv(path):
+    if not os.path.exists(path):
+        return
+    with open(path, encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith('#'):
+                continue
+            if '=' in line:
+                key, _, value = line.partition('=')
+                os.environ.setdefault(key.strip(), value.strip())
+
 # 경로 설정
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_JSON = os.path.join(SCRIPT_DIR, 'data', 'news.json')
 ARCHIVE_CSV = os.path.join(SCRIPT_DIR, 'data', 'news-archive.csv')
+
+# .env 로드
+load_dotenv(os.path.join(SCRIPT_DIR, '.env'))
+
+# Naver API 자격증명
+NAVER_CLIENT_ID = os.environ.get('NAVER_CLIENT_ID', '')
+NAVER_CLIENT_SECRET = os.environ.get('NAVER_CLIENT_SECRET', '')
 
 # 구글 시트 설정
 SHEET_ID = '1vgTIwpNWxanGCOOD-KE3xBooaNW88zKFK_78rLdNNeU'
@@ -95,6 +121,33 @@ def fetch_news_rss(query, max_items=3):
                 'link': link,
                 'description': desc,
                 'pubDate': pub_date
+            })
+        return results
+    except Exception:
+        return []
+
+
+def fetch_news_naver(query, max_items=3):
+    """Naver News Search API에서 뉴스 검색"""
+    if not NAVER_CLIENT_ID or not NAVER_CLIENT_SECRET:
+        return []
+    url = 'https://openapi.naver.com/v1/search/news.json?query=' + urllib.parse.quote(query) + '&display=' + str(max_items) + '&sort=date'
+    try:
+        req = urllib.request.Request(url, headers={
+            'X-Naver-Client-Id': NAVER_CLIENT_ID,
+            'X-Naver-Client-Secret': NAVER_CLIENT_SECRET,
+        })
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read().decode('utf-8'))
+        results = []
+        for item in data.get('items', [])[:max_items]:
+            title = re.sub(r'<[^>]*>', '', item.get('title', '')).replace('&quot;', '"').replace('&amp;', '&')
+            desc = re.sub(r'<[^>]*>', '', item.get('description', '')).replace('&quot;', '"').replace('&amp;', '&')
+            results.append({
+                'title': title.strip(),
+                'link': item.get('originallink') or item.get('link', ''),
+                'description': desc.strip(),
+                'pubDate': item.get('pubDate', ''),
             })
         return results
     except Exception:
@@ -199,10 +252,18 @@ def main():
     parser = argparse.ArgumentParser(description='엔터뉴스 수집')
     parser.add_argument('--top', type=int, default=30, help='출력할 뉴스 수 (기본: 30)')
     parser.add_argument('--archive', action='store_true', help='아카이브 CSV에 누적 저장')
+    parser.add_argument('--source', choices=['naver', 'google', 'auto'], default='auto',
+                        help='뉴스 소스 (auto: 네이버 우선, Google 폴백)')
     args = parser.parse_args()
+
+    # 소스 결정
+    use_naver = args.source == 'naver' or (args.source == 'auto' and NAVER_CLIENT_ID and NAVER_CLIENT_SECRET)
+    use_google = args.source == 'google' or (args.source == 'auto' and not use_naver)
+    source_label = 'Naver API' if use_naver else 'Google RSS'
 
     print('=== 엔터뉴스 수집 시작 ===')
     print(f'시간: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}')
+    print(f'소스: {source_label}')
 
     # 1. 시트 데이터 로딩
     groups = load_groups()
@@ -214,8 +275,10 @@ def main():
     seen_links = set()
     start = time.time()
 
+    fetch_fn = fetch_news_naver if use_naver else fetch_news_rss
+
     def search_group(g):
-        return g['name'], fetch_news_rss(g['search_query'], max_items=3)
+        return g['name'], fetch_fn(g['search_query'], max_items=3)
 
     with ThreadPoolExecutor(max_workers=10) as executor:
         futures = {executor.submit(search_group, g): g for g in groups}
