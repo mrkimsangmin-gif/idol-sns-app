@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>방송미디어통신위원회 구성 상황 및 현안 정리</title>
+  <style>
+    :root {
+      --primary: #1a56db;
+      --primary-light: #e8edfb;
+      --secondary: #374151;
+      --accent: #dc2626;
+      --bg: #f9fafb;
+      --card: #ffffff;
+      --border: #e5e7eb;
+      --text: #111827;
+      --text-muted: #6b7280;
+      --success: #059669;
+      --warning: #d97706;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 15px;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, #1e3a8a 0%, #1a56db 50%, #3b82f6 100%);
+      color: white;
+      padding: 48px 40px;
+      border-radius: 16px;
+      margin-bottom: 32px;
+      position: relative;
+      overflow: hidden;
+    }
+    .header::after {
+      content: '';
+      position: absolute;
+      top: -40px;
+      right: -40px;
+      width: 200px;
+      height: 200px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 50%;
+    }
+    .header h1 {
+      font-size: 28px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+    .header .subtitle {
+      font-size: 15px;
+      opacity: 0.85;
+      font-weight: 400;
+    }
+    .header .meta {
+      margin-top: 20px;
+      display: flex;
+      gap: 24px;
+      font-size: 13px;
+      opacity: 0.75;
+    }
+
+    /* Section */
+    .section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    .section h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--primary-light);
+      letter-spacing: -0.3px;
+    }
+    .section h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--secondary);
+      margin: 20px 0 12px;
+    }
+    .section p {
+      margin-bottom: 12px;
+      color: #374151;
+    }
+
+    /* Info Box */
+    .info-box {
+      background: var(--primary-light);
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+    .info-box strong {
+      color: var(--primary);
+    }
+
+    .warning-box {
+      background: #fef3c7;
+      border-left: 4px solid var(--warning);
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+
+    /* Table */
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin: 16px 0;
+      font-size: 14px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+    thead th {
+      background: #f3f4f6;
+      padding: 12px 16px;
+      text-align: left;
+      font-weight: 600;
+      color: var(--secondary);
+      border-bottom: 2px solid var(--border);
+      white-space: nowrap;
+    }
+    tbody td {
+      padding: 10px 16px;
+      border-bottom: 1px solid #f3f4f6;
+    }
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr:hover { background: #f9fafb; }
+
+    /* Badge */
+    .badge {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .badge-blue { background: #dbeafe; color: #1e40af; }
+    .badge-green { background: #d1fae5; color: #065f46; }
+    .badge-red { background: #fee2e2; color: #991b1b; }
+    .badge-gray { background: #f3f4f6; color: #374151; }
+    .badge-yellow { background: #fef3c7; color: #92400e; }
+
+    /* Timeline */
+    .timeline {
+      position: relative;
+      padding-left: 32px;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 8px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: var(--border);
+    }
+    .timeline-item {
+      position: relative;
+      padding-bottom: 20px;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -28px;
+      top: 6px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--primary);
+      border: 2px solid white;
+      box-shadow: 0 0 0 2px var(--primary-light);
+    }
+    .timeline-item.highlight::before {
+      background: var(--accent);
+      box-shadow: 0 0 0 2px #fee2e2;
+      width: 14px;
+      height: 14px;
+      left: -29px;
+      top: 5px;
+    }
+    .timeline-date {
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+    .timeline-text {
+      font-size: 14px;
+      margin-top: 2px;
+    }
+
+    /* Grid */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    @media (max-width: 640px) {
+      .grid-2 { grid-template-columns: 1fr; }
+    }
+
+    .stat-card {
+      background: var(--primary-light);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+    }
+    .stat-card .number {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .stat-card .label {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* Key Point List */
+    .key-points li {
+      padding: 8px 0;
+      padding-left: 8px;
+      border-left: 3px solid var(--primary-light);
+      margin-bottom: 8px;
+      margin-left: 0;
+      list-style: none;
+    }
+    .key-points li strong {
+      color: var(--primary);
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 13px;
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+    .footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    .footer a:hover { text-decoration: underline; }
+
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <h1>방송미디어통신위원회</h1>
+      <div class="subtitle">구성 상황 및 현안 정리 &mdash; 홍보팀 참고용 브리핑 자료</div>
+      <div class="meta">
+        <span>작성일: 2026.04.10</span>
+        <span>수집 기간: 2025.10 ~ 2026.04</span>
+        <span>출처: 네이버 뉴스 검색 API</span>
+      </div>
+    </div>
+
+    <!-- 1. 위원회 개요 -->
+    <div class="section">
+      <h2>1. 위원회 개요</h2>
+
+      <h3>설치 근거</h3>
+      <div class="info-box">
+        <strong>법률명:</strong> 방송미디어통신위원회의 설치 및 운영에 관한 법률<br>
+        <strong>국회 통과:</strong> 2025.09.30 &nbsp;|&nbsp; <strong>시행일:</strong> 2025.10.01<br>
+        <strong>전신:</strong> 방송통신위원회 (2008~2025, 17년간 운영 후 폐지)<br>
+        <strong>성격:</strong> 대통령 소속 합의제 중앙행정기관 (정부조직법 제2조)
+      </div>
+
+      <h3>설치 목적</h3>
+      <p>방송미디어에 관한 업무와 통신에 관한 규제 및 이용자 보호 등에 관한 업무를 수행하기 위해 설치되었습니다. 기존 방송통신위원회(방통위)의 기능을 계승하면서 미디어 환경 변화에 대응하는 확대된 역할을 수행합니다.</p>
+
+      <h3>소관 업무</h3>
+      <table>
+        <thead><tr><th>분야</th><th>주요 업무</th></tr></thead>
+        <tbody>
+          <tr><td>방송 진흥 및 규제</td><td>방송광고정책, 편성평가정책, 방송진흥기획, 지상파·유료·뉴미디어 방송정책</td></tr>
+          <tr><td>통신 규제·이용자 보호</td><td>방송통신시장조사, 이용자보호, 시청자 권익증진</td></tr>
+          <tr><td>인터넷·디지털</td><td>인터넷 윤리, 건전한 인터넷 이용환경 조성, 불법정보 대응</td></tr>
+          <tr><td>산업 진흥</td><td>AI 기반 방송미디어 R&D, 지역·중소 언론 지원, 콘텐츠 제작 역량 강화</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 2. 위원 구성 현황 -->
+    <div class="section">
+      <h2>2. 위원 구성 현황 (2026년 4월 기준)</h2>
+
+      <h3>구성 구조</h3>
+      <div class="grid-2" style="margin-bottom: 20px;">
+        <div class="stat-card">
+          <div class="number">7인</div>
+          <div class="label">총 위원 정원</div>
+        </div>
+        <div class="stat-card">
+          <div class="number">5인</div>
+          <div class="label">현재 임명/위촉 완료</div>
+        </div>
+      </div>
+
+      <p>위원장 1인 + 부위원장 1인 + 상임위원 1인 + 비상임위원 4인. 개의 요건: 4명 이상 위원 출석.</p>
+
+      <h3>위원 추천 구조</h3>
+      <table>
+        <thead><tr><th>추천 주체</th><th>위원 수</th><th>비고</th></tr></thead>
+        <tbody>
+          <tr><td>대통령 지명</td><td>2명</td><td>위원장 포함</td></tr>
+          <tr><td>여당 교섭단체 추천</td><td>2명</td><td>상임위원 1명 포함</td></tr>
+          <tr><td>야당 교섭단체 추천</td><td>3명</td><td>상임위원 1명 포함</td></tr>
+        </tbody>
+      </table>
+
+      <h3>현재 위원 명단</h3>
+      <table>
+        <thead><tr><th>직위</th><th>성명</th><th>추천 주체</th><th>임명일</th><th>상태</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>위원장</strong></td>
+            <td>김종철</td>
+            <td>대통령 지명</td>
+            <td>2025.12.18</td>
+            <td><span class="badge badge-green">임명완료</span></td>
+          </tr>
+          <tr>
+            <td><strong>부위원장</strong></td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td>&mdash;</td>
+            <td><span class="badge badge-red">공석</span></td>
+          </tr>
+          <tr>
+            <td><strong>상임위원</strong></td>
+            <td>고민수</td>
+            <td>여당 추천</td>
+            <td>2026.02.26</td>
+            <td><span class="badge badge-green">임명완료</span></td>
+          </tr>
+          <tr>
+            <td><strong>상임위원</strong></td>
+            <td>&mdash;</td>
+            <td>야당 추천</td>
+            <td>&mdash;</td>
+            <td><span class="badge badge-red">공석</span></td>
+          </tr>
+          <tr>
+            <td><strong>비상임위원</strong></td>
+            <td>류신환</td>
+            <td>대통령 지명</td>
+            <td>2025.12.05</td>
+            <td><span class="badge badge-green">위촉완료</span></td>
+          </tr>
+          <tr>
+            <td><strong>비상임위원</strong></td>
+            <td>윤성옥</td>
+            <td>여당 추천</td>
+            <td>2026.02.27</td>
+            <td><span class="badge badge-green">위촉완료</span></td>
+          </tr>
+          <tr>
+            <td><strong>비상임위원</strong></td>
+            <td>이상근</td>
+            <td>야당 추천</td>
+            <td>2026.02.27</td>
+            <td><span class="badge badge-green">위촉완료</span></td>
+          </tr>
+          <tr>
+            <td><strong>비상임위원</strong></td>
+            <td>최수영</td>
+            <td>야당 추천</td>
+            <td>2026.03.05</td>
+            <td><span class="badge badge-green">위촉완료</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="warning-box">
+        <strong>참고:</strong> 부위원장과 야당 몫 상임위원 1인은 아직 공석 상태입니다. 2026.04.10 첫 전체회의에 5명 위원이 참석하여 의결 정족수(4인)를 충족했습니다.
+      </div>
+    </div>
+
+    <!-- 3. 주요 현안 -->
+    <div class="section">
+      <h2>3. 주요 현안</h2>
+
+      <h3>3.1 방송3법 후속조치 (공영방송 이사 선임)</h3>
+      <p>방송3법(방송법·방송문화진흥회법·한국교육방송공사법) 개정에 따른 공영방송 이사회 재구성이 핵심 현안입니다.</p>
+      <table>
+        <thead><tr><th>대상</th><th>현행</th><th>개정 후</th><th>정치권 추천</th></tr></thead>
+        <tbody>
+          <tr><td>KBS</td><td>11명</td><td><strong>15명</strong></td><td>40% 이하 (6명)</td></tr>
+          <tr><td>MBC (방문진)</td><td>9명</td><td><strong>13명</strong></td><td>40% 이하 (5명)</td></tr>
+          <tr><td>EBS</td><td>9명</td><td><strong>13명</strong></td><td>40% 이하 (5명)</td></tr>
+        </tbody>
+      </table>
+      <div class="info-box">
+        <strong>법적 쟁점:</strong> 법원이 과거 '2인 체제 방통위'의 KBS 이사 임명을 위법하다고 판결 (2026.01.22). 방미통위 전체회의 구성 지연으로 이사 선임 법정 시한 준수에 어려움.
+      </div>
+
+      <h3>3.2 단통법 폐지 후속조치</h3>
+      <ul class="key-points">
+        <li>이동통신단말장치 유통구조 개선법(단통법) 10년 만에 폐지</li>
+        <li><strong>시행일:</strong> 2026년 6월 27일부터 보조금 상한 없이 휴대폰 구매 가능</li>
+        <li>방미통위가 단말기 시장 정책에 대한 소비자 의견 청취 진행 중 (2026.03.20)</li>
+      </ul>
+
+      <h3>3.3 AI 및 허위정보 대응</h3>
+      <ul class="key-points">
+        <li><strong>AI 가짜뉴스 대응:</strong> 2026.02.26 관계장관회의 개최</li>
+        <li><strong>AI 생성물 표시 의무화:</strong> 인공지능 이용자 보호 법률 제정 추진</li>
+        <li><strong>전송자격인증제:</strong> 불법스팸 방지 대량문자 전송 자격 인증 (2026년 하반기 시행 예정)</li>
+        <li><strong>R&D 투자:</strong> AI 기반 방송미디어 R&D에 <strong>137억 원</strong> 투자, 2028년까지 AI 도입률 10%&rarr;30% 목표</li>
+      </ul>
+
+      <h3>3.4 방송 규제 개혁</h3>
+      <table>
+        <thead><tr><th>규제 항목</th><th>현행</th><th>개선 방향</th></tr></thead>
+        <tbody>
+          <tr><td>지상파 방송광고 일총량제</td><td>17%</td><td><strong>20%로 확대</strong></td></tr>
+          <tr><td>중간광고 허용시간</td><td>제한적</td><td>축소 조정</td></tr>
+          <tr><td>가상·간접광고</td><td>제한적</td><td><strong>적용범위 확대</strong></td></tr>
+          <tr><td>방송사 소유·겸영 규제</td><td>엄격</td><td>완화 검토</td></tr>
+        </tbody>
+      </table>
+
+      <h3>3.5 통합미디어법 제정</h3>
+      <p>방송과 OTT 간 규제 불균형 해소를 위한 통합미디어법 제정을 추진하고 있습니다. 글로벌 OTT 확대와 개인화 미디어 소비 증가에 대응하기 위한 법적 프레임워크 마련이 목표입니다.</p>
+
+      <h3>3.6 기타 현안</h3>
+      <ul class="key-points">
+        <li><strong>지역·중소 언론 지원 확대:</strong> 디지털 전환, 콘텐츠 제작 역량 강화</li>
+        <li><strong>국제 협력:</strong> 한국-브라질 방송미디어 협력 (K-콘텐츠 수출 확대)</li>
+        <li><strong>정보통신망법 시행령 개정:</strong> 온라인 이용자 보호 강화 (2026.04.05 입법예고)</li>
+      </ul>
+    </div>
+
+    <!-- 4. 주요 일지 -->
+    <div class="section">
+      <h2>4. 주요 일지 (타임라인)</h2>
+      <div class="timeline">
+        <div class="timeline-item highlight">
+          <div class="timeline-date">2025.09.30</div>
+          <div class="timeline-text">방송미디어통신위원회 설치법 국회 본회의 통과</div>
+        </div>
+        <div class="timeline-item highlight">
+          <div class="timeline-date">2025.10.01</div>
+          <div class="timeline-text"><strong>방송미디어통신위원회 공식 출범</strong> (방통위 17년 만에 폐지)</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2025.11.28</div>
+          <div class="timeline-text">김종철 연세대 교수, 초대 위원장 지명</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2025.12.05</div>
+          <div class="timeline-text">류신환 비상임위원 지명 (대통령 몫)</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2025.12.12</div>
+          <div class="timeline-text">"허위정보 근절·방송 규제 완화" 정책 방향 발표</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2025.12.18</div>
+          <div class="timeline-text">김종철 위원장 인사청문·임명 완료 (출범 78일 만)</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2025.12.26</div>
+          <div class="timeline-text">단통법 폐지 확정</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2026.01.02</div>
+          <div class="timeline-text">김종철 위원장 신년사: "2026년 정책 개혁 원년"</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2026.01.22</div>
+          <div class="timeline-text">법원, 2인 체제 방통위 KBS 이사 임명 취소 판결</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2026.01.23</div>
+          <div class="timeline-text">2026년 업무보고: 글로벌 미디어 전쟁 대응, AX 시대 규제 혁파</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2026.02.03</div>
+          <div class="timeline-text">여당, 고민수 상임위원·윤성옥 비상임위원 추천</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2026.02.26</div>
+          <div class="timeline-text">고민수 상임위원 추천안 국회 본회의 가결 / AI 가짜뉴스 대응 관계장관회의</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2026.02.27</div>
+          <div class="timeline-text">윤성옥·이상근 비상임위원 추천안 결재</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2026.03.05</div>
+          <div class="timeline-text">최수영 비상임위원 추천안 결재</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2026.03.15</div>
+          <div class="timeline-text">AI 기반 방송미디어 R&D 137억 원 투자 공모</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2026.04.05</div>
+          <div class="timeline-text">정보통신망법 시행령 일부개정안 입법예고</div>
+        </div>
+        <div class="timeline-item highlight">
+          <div class="timeline-date">2026.04.10</div>
+          <div class="timeline-text"><strong>첫 전체회의 개최</strong> (출범 약 6개월 만, 위원 5명 참석)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. 홍보팀 시사점 -->
+    <div class="section">
+      <h2>5. 홍보팀 시사점 및 대응 포인트</h2>
+
+      <div class="warning-box">
+        <strong>명칭 주의:</strong> '방송미디어통신위원회' (약칭: 방미통위). '방송통신위원회(방통위)'는 2025년 10월 폐지된 전신 기관입니다. 보도자료 및 대외문서 작성 시 명칭 혼동에 주의하세요.
+      </div>
+
+      <ul class="key-points">
+        <li><strong>위원 구성 미완:</strong> 부위원장·야당 상임위원 공석. 위원회 의결 정족수 관련 이슈에 유의</li>
+        <li><strong>규제 환경 변화:</strong> 방송 광고 규제 완화, OTT-방송 규제 형평성 개선 등 기업 홍보 전략에 영향</li>
+        <li><strong>AI 규제 동향:</strong> AI 생성물 표시 의무화, 허위정보 대응 강화 &rarr; 디지털 마케팅·콘텐츠 제작 시 주의 필요</li>
+        <li><strong>공영방송 이사회 재구성:</strong> KBS·MBC·EBS 이사회 변화에 따른 편성 방향 변화 가능성 주시</li>
+        <li><strong>단통법 폐지:</strong> 2026년 6월부터 보조금 상한 해제 &rarr; 통신 관련 홍보 시 참고</li>
+      </ul>
+    </div>
+
+    <!-- 참고 링크 -->
+    <div class="section">
+      <h2>참고 링크</h2>
+      <ul class="key-points">
+        <li><a href="https://www.kmcc.go.kr" target="_blank">방송미디어통신위원회 누리집</a></li>
+        <li><a href="https://www.law.go.kr/LSW//lsInfoP.do?lsiSeq=277303" target="_blank">설치법 전문 (국가법령정보센터)</a></li>
+        <li><a href="https://www.kmcc.go.kr/user/organoHR.do?page=A04060100&dc=K06050100" target="_blank">위원회 조직도</a></li>
+        <li><a href="https://zdnet.co.kr/view/?no=20260410121315" target="_blank">방미통위, 출범 6개월 만에 첫발 (ZDNet, 2026.04.10)</a></li>
+      </ul>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>본 문서는 네이버 뉴스 검색 API를 통해 수집한 최근 뉴스 기사를 기반으로 정리한 것입니다.</p>
+      <p>정확한 내용은 <a href="https://www.kmcc.go.kr" target="_blank">방송미디어통신위원회 공식 누리집</a>을 통해 확인하시기 바랍니다.</p>
+      <p style="margin-top: 8px;">수집일: 2026.04.10 &nbsp;|&nbsp; 수집 도구: Naver News Search API</p>
+    </div>
+
+  </div>
+</body>
+</html>

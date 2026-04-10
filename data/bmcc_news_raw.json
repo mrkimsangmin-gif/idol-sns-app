@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "title": "방송미디어통신위원회 뉴스 수집 결과",
+    "description": "방송미디어통신위원회 관련 최근 뉴스 (네이버 뉴스 검색 API 기반 WebSearch 수집)",
+    "collectTime": "2026-04-10T00:00:00Z",
+    "source": "Naver News Search API (WebSearch fallback)",
+    "queries": [
+      "방송미디어통신위원회",
+      "방송미디어통신위원회 구성",
+      "방송미디어통신위원회 위원",
+      "방송미디어통신위원회 설치법",
+      "방송미디어통신위원회 현안",
+      "방송미디어통신위원회 AI 가짜뉴스"
+    ],
+    "totalArticles": 30,
+    "period": "2025-10 ~ 2026-04"
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "방미통위, 출범 6개월 만에 첫발...미디어 혁신·규제 개혁 '시동'",
+      "source": "ZDNet Korea",
+      "pubDate": "2026-04-10",
+      "link": "https://zdnet.co.kr/view/?no=20260410121315",
+      "description": "방송미디어통신위원회가 출범 약 6개월 만인 2026년 4월 10일 첫 전체회의를 개최. 김종철 위원장, 고민수 상임위원, 류신환·최수영·이상근·윤성옥 비상임위원 등 5명 위원 참석. 방송3법 후속조치, 단통법 폐지 후속조치, 미디어 혁신 및 규제 개혁 논의.",
+      "category": "전체회의"
+    },
+    {
+      "id": 2,
+      "title": "김종철 방미통위원장 \"2026년 방송미디어통신 정책 개혁 원년\"",
+      "source": "전자신문",
+      "pubDate": "2026-01-02",
+      "link": "https://www.etnews.com/20260102000306",
+      "description": "김종철 방송미디어통신위원회 위원장이 신년사를 통해 2026년을 방송미디어통신 정책 개혁의 원년으로 삼겠다고 선언.",
+      "category": "정책방향"
+    },
+    {
+      "id": 3,
+      "title": "김종철 방미통위원장 \"AI 대전환 시대, 통합 미디어 체계로 100년 설계\"",
+      "source": "아주경제",
+      "pubDate": "2026-01-23",
+      "link": "https://www.ajunews.com/view/20260123172807265",
+      "description": "김종철 위원장이 AI 대전환 시대에 대응한 통합 미디어 체계 구축을 강조. 100년을 내다보는 미디어 정책 설계 비전 제시.",
+      "category": "정책방향"
+    },
+    {
+      "id": 4,
+      "title": "김종철 방미통위원장 \"AX 시대 낡은 규제 혁파할 것\"",
+      "source": "파이낸셜뉴스",
+      "pubDate": "2026-01-23",
+      "link": "https://www.fnnews.com/news/202601231704498607",
+      "description": "김종철 위원장이 AI 전환(AX) 시대에 방송미디어 분야의 낡은 규제를 혁파하겠다고 밝힘.",
+      "category": "규제개혁"
+    },
+    {
+      "id": 5,
+      "title": "법원 \"'2인 체제 방통위' KBS 이사 임명 취소해야\"",
+      "source": "서울신문",
+      "pubDate": "2026-01-22",
+      "link": "https://www.seoul.co.kr/news/society/2026/01/22/20260122500279",
+      "description": "법원이 과거 2인 체제 방통위의 KBS 이사 임명을 취소해야 한다고 판결.",
+      "category": "법적쟁점"
+    },
+    {
+      "id": 6,
+      "title": "[2026업무보고] 김종철 \"글로벌 미디어 전쟁 중…진흥 사업 발굴\"",
+      "source": "신아일보",
+      "pubDate": "2026-01-23",
+      "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=2176342",
+      "description": "김종철 위원장이 2026년 업무보고에서 글로벌 미디어 전쟁 상황을 진단하고 산업 경쟁력 강화 방안 보고.",
+      "category": "업무보고"
+    },
+    {
+      "id": 7,
+      "title": "방미통위 \"허위정보 근절·방송 규제 완화\"",
+      "source": "헤럴드경제",
+      "pubDate": "2025-12-12",
+      "link": "https://biz.heraldcorp.com/article/10635482",
+      "description": "방미통위가 허위조작정보 근절과 방송 규제 완화를 핵심 정책 과제로 제시.",
+      "category": "정책방향"
+    },
+    {
+      "id": 8,
+      "title": "방미통위 \"허위정보 근절·방송 규제 완화\"",
+      "source": "서울신문",
+      "pubDate": "2025-12-12",
+      "link": "https://www.seoul.co.kr/news/politics/2025/12/12/20251212500254",
+      "description": "김종철 위원장이 민주적 기본 질서를 위협하는 허위조작정보, 디지털 성범죄물, 마약 등 불법 정보에 엄정 대응 천명.",
+      "category": "정책방향"
+    },
+    {
+      "id": 9,
+      "title": "더불어민주당, 여당 몫 방미통위 상임위원에 고민수 교수 추천",
+      "source": "종합",
+      "pubDate": "2026-02-03",
+      "link": "https://www.kmcc.go.kr/user.do",
+      "description": "더불어민주당이 여당 몫 방미통위 상임위원으로 고민수 강릉원주대 법학과 교수 추천. 비상임위원으로 윤성옥 경기대 미디어영상학과 교수 내정.",
+      "category": "위원구성"
+    },
+    {
+      "id": 10,
+      "title": "고민수 방미통위 위원 추천안, 국회 본회의 가결",
+      "source": "종합",
+      "pubDate": "2026-02-26",
+      "link": "https://www.kmcc.go.kr/user.do",
+      "description": "국회 본회의에서 고민수 방미통위 위원 추천안 가결. 여당 지명 상임위원(차관급) 확정.",
+      "category": "위원구성"
+    },
+    {
+      "id": 11,
+      "title": "류신환 변호사, 대통령 몫 방미통위 비상임위원 지명",
+      "source": "종합",
+      "pubDate": "2025-12-05",
+      "link": "https://www.kmcc.go.kr/user.do",
+      "description": "이재명 대통령이 대통령 몫 방미통위 비상임위원으로 류신환 법무법인 지향 변호사를 지명.",
+      "category": "위원구성"
+    },
+    {
+      "id": 12,
+      "title": "윤성옥·이상근 방미통위 비상임위원 추천안 결재",
+      "source": "종합",
+      "pubDate": "2026-02-27",
+      "link": "https://www.kmcc.go.kr/user.do",
+      "description": "여당 지명 윤성옥 경기대 교수, 야당 지명 이상근 비상임위원 추천안 결재.",
+      "category": "위원구성"
+    },
+    {
+      "id": 13,
+      "title": "최수영 방미통위 비상임위원 추천안 결재",
+      "source": "종합",
+      "pubDate": "2026-03-05",
+      "link": "https://www.kmcc.go.kr/user.do",
+      "description": "야당 지명 최수영 비상임위원 추천안 결재. 전체 7인 위원 구성 완료에 진전.",
+      "category": "위원구성"
+    },
+    {
+      "id": 14,
+      "title": "방미통위, AI 기반 방송미디어 R&D 신규과제 공모… 137억 원 투자",
+      "source": "데일리비즈온",
+      "pubDate": "2026-03-15",
+      "link": "https://www.dailybizon.com/news/articleView.html?idxno=60486",
+      "description": "방미통위가 AI 기반 방송미디어 R&D 신규과제 공모. 137억 원 규모 투자. 2028년까지 AI 도입률 10%→30% 확대 목표.",
+      "category": "AI정책"
+    },
+    {
+      "id": 15,
+      "title": "국민 중심 방송미디어통신 생태계 구축",
+      "source": "대한민국 정책브리핑",
+      "pubDate": "2026-01-23",
+      "link": "https://www.korea.kr/news/policyNewsView.do?newsId=148956473",
+      "description": "방미통위 2026년 업무계획 발표. 안전한 방송미디어통신 환경 조성, 산업 혁신 촉진, 미디어 주권 강화를 3대 추진과제로 제시.",
+      "category": "업무보고"
+    },
+    {
+      "id": 16,
+      "title": "방송미디어통신위원회 공식 출범…17년 만에 방통위 폐지",
+      "source": "이코노믹데일리",
+      "pubDate": "2025-10-01",
+      "link": "https://www.economidaily.com/view/20251001171106535",
+      "description": "2008년 설립된 방송통신위원회가 17년 만에 폐지되고 방송미디어통신위원회가 공식 출범.",
+      "category": "출범"
+    },
+    {
+      "id": 17,
+      "title": "방통위 폐지, 방송미디어통신위원회 설치 법안 국회 본회의 통과",
+      "source": "대구MBC",
+      "pubDate": "2025-09-30",
+      "link": "https://dgmbc.com/NewsArticle/635343",
+      "description": "방송미디어통신위원회의 설치 및 운영에 관한 법률이 국회 본회의를 통과. 2025년 10월 1일부터 시행.",
+      "category": "설치법"
+    },
+    {
+      "id": 18,
+      "title": "김종철 연세대 교수, 초대 방미통위 위원장 지명",
+      "source": "종합",
+      "pubDate": "2025-11-28",
+      "link": "https://www.kmcc.go.kr/user.do",
+      "description": "이재명 대통령이 김종철 연세대 법학전문대학원 교수를 초대 방미통위 위원장으로 지명.",
+      "category": "위원구성"
+    },
+    {
+      "id": 19,
+      "title": "김종철 방미통위 위원장 인사청문 보고서 채택·임명 재가",
+      "source": "종합",
+      "pubDate": "2025-12-18",
+      "link": "https://www.kmcc.go.kr/user.do",
+      "description": "김종철 위원장 후보자 인사청문 보고서 채택 하루 만에 임명안 재가. 출범 78일 만에 위원장 임명 완료.",
+      "category": "위원구성"
+    },
+    {
+      "id": 20,
+      "title": "단통법 10년 만에 폐지…보조금 상한 사라진다",
+      "source": "전자신문",
+      "pubDate": "2025-12-26",
+      "link": "https://www.etnews.com/20241226000352",
+      "description": "단통법이 10년 만에 폐지. 2026년 6월부터 보조금 상한 없이 휴대폰 구매 가능. 방미통위 후속조치 필요.",
+      "category": "단통법"
+    },
+    {
+      "id": 21,
+      "title": "방송3법 개정안 공영방송 이사회 확대…KBS 15명, MBC·EBS 13명",
+      "source": "뉴시스",
+      "pubDate": "2025-07-10",
+      "link": "https://www.newsis.com/view/NISX20250710_0003247060",
+      "description": "방송3법 개정에 따라 KBS 이사 11→15명, MBC·EBS 이사 9→13명 확대. 정치권 추천 비율 40% 이하 제한.",
+      "category": "방송3법"
+    },
+    {
+      "id": 22,
+      "title": "방송3법 개정안 공영방송 정치화 방지…국회 과방위 통과",
+      "source": "오마이뉴스",
+      "pubDate": "2025-07-08",
+      "link": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003146525",
+      "description": "공영방송 정치화를 막기 위한 방송3법 개정안이 국회 과방위를 통과.",
+      "category": "방송3법"
+    },
+    {
+      "id": 23,
+      "title": "단말기 시장 정책, 소비자 목소리 듣는다",
+      "source": "대한민국 정책브리핑",
+      "pubDate": "2026-03-20",
+      "link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156745500",
+      "description": "방미통위가 단통법 폐지 이후 단말기 시장 정책에 대한 소비자 의견 청취 추진.",
+      "category": "단통법"
+    },
+    {
+      "id": 24,
+      "title": "2026년 지역·중소 언론 지원 대폭 확대",
+      "source": "대한민국 정책브리핑",
+      "pubDate": "2026-02-15",
+      "link": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156741443",
+      "description": "관계부처 합동으로 2026년 지역·중소 언론 지원 대폭 확대. 디지털 전환, 콘텐츠 제작 역량 강화.",
+      "category": "지역언론"
+    },
+    {
+      "id": 25,
+      "title": "인공지능 이용자 보호 법률 만든다…AI 생성물 표시 의무화 추진",
+      "source": "대한민국 정책브리핑",
+      "pubDate": "2026-02-26",
+      "link": "https://www.korea.kr/news/policyNewsView.do?newsId=148927330",
+      "description": "AI 악용 가짜뉴스 대응 관계장관회의 개최. AI 생성물 표시 의무화, 전송자격인증제 등 추진.",
+      "category": "AI정책"
+    },
+    {
+      "id": 26,
+      "title": "[인사] 방송미디어통신위원회",
+      "source": "이데일리",
+      "pubDate": "2026-03-25",
+      "link": "https://www.edaily.co.kr/News/Read?newsId=03621126645354128&mediaCodeNo=257",
+      "description": "방송미디어통신위원회 인사 발령.",
+      "category": "인사"
+    },
+    {
+      "id": 27,
+      "title": "[인사] 방송미디어통신위원회",
+      "source": "코리안바이브",
+      "pubDate": "2026-03-25",
+      "link": "https://korean-vibe.com/news/newsview.php?ncode=179561458347737",
+      "description": "방송미디어통신위원회 인사 발령.",
+      "category": "인사"
+    },
+    {
+      "id": 28,
+      "title": "방미통위, 종합편성채널 경쟁력 강화 방안 추진",
+      "source": "종합",
+      "pubDate": "2026-03-10",
+      "link": "https://www.kmcc.go.kr/user.do?boardId=1006&dc=K02020400&page=A02020400",
+      "description": "종합편성채널 경쟁력 강화 방안 검토. OTT 시대 지상파·종편 방송 지속가능성 모색.",
+      "category": "방송정책"
+    },
+    {
+      "id": 29,
+      "title": "한국-브라질 방송미디어 협력 논의",
+      "source": "종합",
+      "pubDate": "2026-02-20",
+      "link": "https://www.kmcc.go.kr/user.do",
+      "description": "방미통위가 브라질과 방송미디어 분야 국제 협력 논의. K-콘텐츠 수출 확대.",
+      "category": "국제협력"
+    },
+    {
+      "id": 30,
+      "title": "정보통신망법 시행령 일부개정령(안) 입법예고",
+      "source": "방송미디어통신위원회",
+      "pubDate": "2026-04-05",
+      "link": "https://www.kmcc.go.kr/user.do?boardId=1101&boardSeq=60695&cp=1&dc=K02030700&mode=view&page=A02030900",
+      "description": "방미통위가 정보통신망법 시행령 일부개정안을 입법예고. 온라인 이용자 보호 강화.",
+      "category": "입법"
+    }
+  ]
+}
