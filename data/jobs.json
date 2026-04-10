@@ -156,6 +156,17 @@
       "source": "SM엔터테인먼트"
     },
     {
+      "id": 445,
+      "company": "SM엔터테인먼트",
+      "position": "연기자 Center 광고모델계약 영업 및 관리 담당자 채용 (경력)",
+      "category": "영업",
+      "career": "경력 10년 이상",
+      "location": "서울 성동구",
+      "deadline": "2026-04-23",
+      "url": "https://recruit.smentertainment.com/ko/o/210869",
+      "source": "SM엔터테인먼트"
+    },
+    {
       "id": 363,
       "company": "SM엔터테인먼트",
       "position": "백엔드 엔지니어 채용 (경력)",
@@ -209,6 +220,17 @@
       "deadline": "2026-04-30",
       "url": "https://yg-entertainment.recruiter.co.kr/career/jobs/position/101723",
       "source": "YG엔터테인먼트"
+    },
+    {
+      "id": 442,
+      "company": "브레이브엔터테인먼트",
+      "position": "동영상 제작 및 편집자",
+      "category": "영상",
+      "career": "무관",
+      "location": "서울 광진구",
+      "deadline": "2026-04-30",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48948372",
+      "source": "잡코리아"
     },
     {
       "id": 321,
@@ -307,6 +329,28 @@
       "location": "서울 강남구",
       "deadline": "2026-05-08",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48736110",
+      "source": "잡코리아"
+    },
+    {
+      "id": 439,
+      "company": "이든엔터테인먼트",
+      "position": "마케팅팀(팬마케팅 파트) 담당자",
+      "category": "마케팅",
+      "career": "무관",
+      "location": "서울 성동구",
+      "deadline": "2026-05-09",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48952592",
+      "source": "잡코리아"
+    },
+    {
+      "id": 440,
+      "company": "이든엔터테인먼트",
+      "position": "신인개발팀 팀원 (캐스팅)",
+      "category": "신인개발",
+      "career": "경력",
+      "location": "서울 성동구",
+      "deadline": "2026-05-09",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48949696",
       "source": "잡코리아"
     },
     {
@@ -3201,6 +3245,39 @@
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/210511",
       "source": "하이브"
+    },
+    {
+      "id": 441,
+      "company": "블루밍그레이스",
+      "position": "A2O 엔터테인먼트 KOREA 인턴",
+      "category": "기타",
+      "career": "신입",
+      "location": "서울 강남구",
+      "deadline": "상시채용",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48949422",
+      "source": "잡코리아"
+    },
+    {
+      "id": 443,
+      "company": "Weverse Company",
+      "position": "IP Merch 판매 지원*",
+      "category": "마케팅",
+      "career": "무관",
+      "location": "경기도 성남시",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/210883",
+      "source": "하이브"
+    },
+    {
+      "id": 444,
+      "company": "HYBE",
+      "position": "노무 (ER)",
+      "category": "경영지원",
+      "career": "경력 5년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/210863",
+      "source": "하이브"
     }
   ],
   "categories": [
@@ -3216,5 +3293,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-04-09T09:00:47.469255"
+  "updatedAt": "2026-04-10T09:01:17.366910"
 }
