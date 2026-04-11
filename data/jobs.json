@@ -2,17 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 338,
-      "company": "SM엔터테인먼트",
-      "position": "아티스트 마케팅 전략 담당자 채용 (경력)",
-      "category": "마케팅",
-      "career": "경력 5년 이상",
-      "location": "서울 성동구",
-      "deadline": "2026-04-10",
-      "url": "https://recruit.smentertainment.com/ko/o/204857",
-      "source": "SM엔터테인먼트"
-    },
-    {
       "id": 367,
       "company": "SM엔터테인먼트",
       "position": "해외(영미권/일본) 마케팅 담당자 채용 (경력)",
@@ -109,6 +98,17 @@
       "location": "서울 강남구",
       "deadline": "2026-04-19",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48819645",
+      "source": "잡코리아"
+    },
+    {
+      "id": 450,
+      "company": "오르카뮤직",
+      "position": "KPOP 영상&포토 콘텐츠 제작 및 편집",
+      "category": "영상",
+      "career": "무관",
+      "location": "경기 고양시",
+      "deadline": "2026-04-19",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48958916",
       "source": "잡코리아"
     },
     {
@@ -351,6 +351,17 @@
       "location": "서울 성동구",
       "deadline": "2026-05-09",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48949696",
+      "source": "잡코리아"
+    },
+    {
+      "id": 447,
+      "company": "브레이브엔터테인먼트",
+      "position": "가수 매니저",
+      "category": "기타",
+      "career": "무관",
+      "location": "서울 광진구",
+      "deadline": "2026-05-10",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48961930",
       "source": "잡코리아"
     },
     {
@@ -3278,6 +3289,17 @@
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/210863",
       "source": "하이브"
+    },
+    {
+      "id": 448,
+      "company": "브레이브엔터테인먼트",
+      "position": "가수 매니저",
+      "category": "기타",
+      "career": "신입·경력",
+      "location": "서울",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/bravesound",
+      "source": "잡코리아"
     }
   ],
   "categories": [
@@ -3293,5 +3315,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-04-10T09:01:12.090655"
+  "updatedAt": "2026-04-11T09:01:07.853700"
 }
