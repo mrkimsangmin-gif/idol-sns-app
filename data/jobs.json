@@ -343,6 +343,61 @@
       "source": "SM엔터테인먼트"
     },
     {
+      "id": 455,
+      "company": "오크컴퍼니",
+      "position": "BL 드라마 마케팅PD",
+      "category": "마케팅",
+      "career": "경력",
+      "location": "서울 마포구",
+      "deadline": "2026-05-14",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48984476",
+      "source": "잡코리아"
+    },
+    {
+      "id": 458,
+      "company": "쓰리와이코프레이션",
+      "position": "아이돌 로드 매니저",
+      "category": "매니지먼트",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-05-14",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48984062",
+      "source": "잡코리아"
+    },
+    {
+      "id": 461,
+      "company": "어트랙트",
+      "position": "마케팅팀",
+      "category": "마케팅",
+      "career": "경력",
+      "location": "서울 송파구",
+      "deadline": "2026-05-14",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48982923",
+      "source": "잡코리아"
+    },
+    {
+      "id": 463,
+      "company": "어트랙트",
+      "position": "매니지먼트팀 현장 매니저",
+      "category": "매니지먼트",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-05-14",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48982890",
+      "source": "잡코리아"
+    },
+    {
+      "id": 465,
+      "company": "타이탄콘텐츠",
+      "position": "매니지먼트",
+      "category": "기타",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-05-14",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48980660",
+      "source": "잡코리아"
+    },
+    {
       "id": 379,
       "company": "에프앤에프엔터테인먼트",
       "position": "PR 및 대외협력실",
@@ -406,6 +461,28 @@
       "location": "서울 강남구",
       "deadline": "2026-06-07",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48942098",
+      "source": "잡코리아"
+    },
+    {
+      "id": 459,
+      "company": "빅히트뮤직",
+      "position": "콘텐츠제작팀(라이브 퍼포먼스)",
+      "category": "영상",
+      "career": "경력",
+      "location": "서울 용산구",
+      "deadline": "2026-06-13",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48983239",
+      "source": "잡코리아"
+    },
+    {
+      "id": 464,
+      "company": "빅히트뮤직",
+      "position": "콘텐츠기획(영상콘텐츠제작)(계약직)",
+      "category": "영상",
+      "career": "무관",
+      "location": "서울 용산구",
+      "deadline": "2026-06-13",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48980816",
       "source": "잡코리아"
     },
     {
@@ -3289,6 +3366,28 @@
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/212418",
       "source": "하이브"
+    },
+    {
+      "id": 456,
+      "company": "오크컴퍼니",
+      "position": "BL 드라마 마케팅PD",
+      "category": "마케팅",
+      "career": "경력",
+      "location": "서울",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/oakcompany",
+      "source": "잡코리아"
+    },
+    {
+      "id": 462,
+      "company": "어트랙트",
+      "position": "마케팅팀",
+      "category": "마케팅",
+      "career": "경력",
+      "location": "서울",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/at2021",
+      "source": "잡코리아"
     }
   ],
   "categories": [
@@ -3304,5 +3403,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-04-14T09:00:38.761514"
+  "updatedAt": "2026-04-15T09:02:04.699157"
 }
