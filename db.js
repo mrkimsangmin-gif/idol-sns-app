@@ -24,7 +24,7 @@ const TTL_SNS_DATA = 24 * 60 * 60 * 1000; // 24시간
 const TTL_METADATA = 7 * 24 * 60 * 60 * 1000; // 7일
 const TTL_MONTHS = 24 * 60 * 60 * 1000; // 24시간 (캐시 만료 빈도 감소)
 const TTL_LINKS = 24 * 60 * 60 * 1000; // 24시간
-const TTL_NEWS = 12 * 60 * 60 * 1000; // 12시간
+const TTL_NEWS = 60 * 60 * 1000; // 1시간 (백그라운드 갱신과 함께 stale-while-revalidate)
 const TTL_JOBS = 6 * 60 * 60 * 1000; // 6시간
 const TTL_VENDORS = 30 * 24 * 60 * 60 * 1000; // 30일 (분기 1회 수정이므로 긴 TTL)
 

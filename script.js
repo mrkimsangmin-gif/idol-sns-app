@@ -1346,9 +1346,9 @@ async function prefetchEnterNews() {
             return;
         }
 
-        // 2단계: 정적 JSON 로드
+        // 2단계: 정적 JSON 로드 (HTTP 캐시 우회)
         try {
-            const staticRes = await fetch(NEWS_STATIC_URL);
+            const staticRes = await fetch(`${NEWS_STATIC_URL}?v=${Date.now()}`, { cache: 'no-store' });
             if (staticRes.ok) {
                 const data = await staticRes.json();
                 if (data && data.length > 0) {
@@ -1419,7 +1419,7 @@ async function loadEnterNews() {
         let data = null;
 
         try {
-            const staticRes = await fetch(NEWS_STATIC_URL);
+            const staticRes = await fetch(`${NEWS_STATIC_URL}?v=${Date.now()}`, { cache: 'no-store' });
             if (staticRes.ok) {
                 const staticData = await staticRes.json();
                 if (staticData && staticData.length > 0) {
@@ -1476,14 +1476,23 @@ async function loadEnterNews() {
 async function updateNewsInBackground() {
     console.log('📥 백그라운드에서 뉴스 데이터 업데이트 중...');
 
+    // 뉴스 페이지가 현재 보이는 상태면 새 데이터로 다시 렌더
+    const rerenderIfVisible = (data) => {
+        const pageEl = document.getElementById('page-news');
+        if (pageEl && !pageEl.classList.contains('d-none')) {
+            renderEnterNews(data);
+        }
+    };
+
     try {
-        // 정적 JSON 우선 시도
-        const staticRes = await fetch(NEWS_STATIC_URL);
+        // 정적 JSON 우선 시도 (HTTP 캐시 우회를 위해 캐시버스터 추가)
+        const staticRes = await fetch(`${NEWS_STATIC_URL}?v=${Date.now()}`, { cache: 'no-store' });
         if (staticRes.ok) {
             const data = await staticRes.json();
             if (data && data.length > 0) {
                 await saveNewsCache(data);
                 newsData = data;
+                rerenderIfVisible(data);
                 console.log('✅ 뉴스 백그라운드 업데이트 완료 (정적 JSON)');
                 return;
             }
@@ -1499,6 +1508,7 @@ async function updateNewsInBackground() {
             const data = await response.json();
             await saveNewsCache(data);
             newsData = data;
+            rerenderIfVisible(data);
             console.log('✅ 뉴스 백그라운드 업데이트 완료 (GAS API)');
         }
     } catch (error) {
@@ -1526,16 +1536,14 @@ function renderEnterNews(newsData) {
         return;
     }
 
-    // 매 렌더링마다 랜덤 셔플 (Fisher-Yates)
-    const shuffled = [...newsData];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
-    newsData = shuffled;
-
-    if (newsData.length > 0 && newsData[0].collectTime) {
-        const updateTime = new Date(newsData[0].collectTime);
+    // 셔플 전, 데이터셋 내 가장 최신 collectTime을 업데이트 시간으로 표시
+    const latestCollect = newsData
+        .map(n => n.collectTime)
+        .filter(Boolean)
+        .sort()
+        .pop();
+    if (latestCollect) {
+        const updateTime = new Date(latestCollect);
         document.getElementById('newsUpdateTime').textContent =
             updateTime.toLocaleString('ko-KR', {
                 month: 'long',
@@ -1544,6 +1552,14 @@ function renderEnterNews(newsData) {
                 minute: '2-digit'
             });
     }
+
+    // 매 렌더링마다 랜덤 셔플 (Fisher-Yates)
+    const shuffled = [...newsData];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    newsData = shuffled;
 
     newsData.forEach((news, index) => {
         const col = document.createElement('div');
