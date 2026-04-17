@@ -574,6 +574,17 @@
       "source": "잡코리아"
     },
     {
+      "id": 488,
+      "company": "비웨이브 엔터테인먼트",
+      "position": "로드매니저 담당자",
+      "category": "매니지먼트",
+      "career": "무관",
+      "location": "서울 마포구",
+      "deadline": "2026-05-16",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48999895",
+      "source": "잡코리아"
+    },
+    {
       "id": 379,
       "company": "에프앤에프엔터테인먼트",
       "position": "PR 및 대외협력실",
@@ -670,6 +681,17 @@
       "location": "서울 강남구",
       "deadline": "2026-06-14",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48988821",
+      "source": "잡코리아"
+    },
+    {
+      "id": 490,
+      "company": "이든엔터테인먼트",
+      "position": "마케팅팀 부서장",
+      "category": "마케팅",
+      "career": "경력",
+      "location": "서울 성동구",
+      "deadline": "2026-06-15",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48997067",
       "source": "잡코리아"
     },
     {
@@ -3619,6 +3641,17 @@
       "deadline": "",
       "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/s2entofficial",
       "source": "잡코리아"
+    },
+    {
+      "id": 489,
+      "company": "이든엔터테인먼트",
+      "position": "마케팅팀 부서장",
+      "category": "마케팅",
+      "career": "경력",
+      "location": "서울",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/edenenter",
+      "source": "잡코리아"
     }
   ],
   "categories": [
@@ -3634,5 +3667,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-04-16T09:01:19.983122"
+  "updatedAt": "2026-04-17T09:00:40.925151"
 }
