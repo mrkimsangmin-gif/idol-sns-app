@@ -2,39 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 370,
-      "company": "쓰리와이코프레이션",
-      "position": "재무 담당자",
-      "category": "경영지원",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-04-17",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48802007",
-      "source": "잡코리아"
-    },
-    {
-      "id": 371,
-      "company": "쓰리와이코프레이션",
-      "position": "회계 담당자",
-      "category": "경영지원",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-04-17",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48801966",
-      "source": "잡코리아"
-    },
-    {
-      "id": 388,
-      "company": "SM엔터테인먼트",
-      "position": "아티스트 소셜 채널 브랜딩 및 운영 담당자 채용 (신입/경력)",
-      "category": "기타",
-      "career": "무관",
-      "location": "서울 성동구",
-      "deadline": "2026-04-17",
-      "url": "https://recruit.smentertainment.com/ko/o/207783",
-      "source": "SM엔터테인먼트"
-    },
-    {
       "id": 377,
       "company": "쓰리와이코프레이션",
       "position": "유튜브 콘텐츠 PD",
@@ -582,6 +549,17 @@
       "location": "서울 마포구",
       "deadline": "2026-05-16",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48999895",
+      "source": "잡코리아"
+    },
+    {
+      "id": 491,
+      "company": "어트랙트",
+      "position": "영상파트",
+      "category": "기타",
+      "career": "경력",
+      "location": "서울 송파구",
+      "deadline": "2026-05-17",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49004951",
       "source": "잡코리아"
     },
     {
@@ -3652,6 +3630,17 @@
       "deadline": "",
       "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/edenenter",
       "source": "잡코리아"
+    },
+    {
+      "id": 492,
+      "company": "블루밍그레이스",
+      "position": "음원,음반 기획 /제작 /유통 실무자",
+      "category": "프로듀싱",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "상시채용",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49004448",
+      "source": "잡코리아"
     }
   ],
   "categories": [
@@ -3667,5 +3656,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-04-17T09:00:40.925151"
+  "updatedAt": "2026-04-18T09:00:28.658378"
 }
