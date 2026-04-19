@@ -2,28 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 377,
-      "company": "쓰리와이코프레이션",
-      "position": "유튜브 콘텐츠 PD",
-      "category": "영상",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-04-19",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48819645",
-      "source": "잡코리아"
-    },
-    {
-      "id": 450,
-      "company": "오르카뮤직",
-      "position": "KPOP 영상&포토 콘텐츠 제작 및 편집",
-      "category": "영상",
-      "career": "무관",
-      "location": "경기 고양시",
-      "deadline": "2026-04-19",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48958916",
-      "source": "잡코리아"
-    },
-    {
       "id": 402,
       "company": "SM엔터테인먼트",
       "position": "SMArt / KRUCIALIZE 매니지먼트 담당자 채용 (신입)",
@@ -285,6 +263,17 @@
       "location": "서울 강동구",
       "deadline": "2026-04-29",
       "url": "https://recruit-apply.jype.com/o/212505",
+      "source": "JYP엔터테인먼트"
+    },
+    {
+      "id": 498,
+      "company": "JYP ENTERTAINMENT",
+      "position": "IT Support Engineer (경력)",
+      "category": "IT",
+      "career": "경력 3년 이상",
+      "location": "서울 강동구",
+      "deadline": "2026-04-29",
+      "url": "https://recruit-apply.jype.com/o/212439",
       "source": "JYP엔터테인먼트"
     },
     {
@@ -3641,6 +3630,61 @@
       "deadline": "상시채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49004448",
       "source": "잡코리아"
+    },
+    {
+      "id": 493,
+      "company": "DRIMAGE",
+      "position": "게임 웹 기획자 (Web PM/UX)",
+      "category": "디자인",
+      "career": "경력 3년 이상",
+      "location": "서울 강남구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/213256",
+      "source": "하이브"
+    },
+    {
+      "id": 494,
+      "company": "HYBE",
+      "position": "재무/회계 - 재무정산 Jr.",
+      "category": "경영지원",
+      "career": "경력 2년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/213162",
+      "source": "하이브"
+    },
+    {
+      "id": 495,
+      "company": "HYBE NEB",
+      "position": "콘텐츠 마케팅",
+      "category": "마케팅",
+      "career": "경력 3년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/212569",
+      "source": "하이브"
+    },
+    {
+      "id": 496,
+      "company": "BIGHIT MUSIC",
+      "position": "(비공개)[BIGHIT MUSIC] A&R(3그룹)",
+      "category": "프로듀싱",
+      "career": "경력 2년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/119720",
+      "source": "하이브"
+    },
+    {
+      "id": 497,
+      "company": "Blue Garage",
+      "position": "사내변호사(팀장)",
+      "category": "기타",
+      "career": "경력 5년 이상",
+      "location": "서울 강동구",
+      "deadline": "상시채용",
+      "url": "https://recruit-apply.jype.com/o/165858",
+      "source": "JYP엔터테인먼트"
     }
   ],
   "categories": [
@@ -3656,5 +3700,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-04-19T09:00:10.982005"
+  "updatedAt": "2026-04-20T08:44:36.034731"
 }
