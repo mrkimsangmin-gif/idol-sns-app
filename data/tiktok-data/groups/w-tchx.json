@@ -3,64 +3,17 @@
   "name_en": "W!TCHX",
   "slug": "w-tchx",
   "tiktok_url": "https://www.tiktok.com/@witchxofficial",
-  "crawled_at": "2026-03-08T14:32:02.731510",
+  "crawled_at": "2026-04-14T03:23:40.648348",
   "profile": {
-    "display_name": "WiTCHX (위치스)",
-    "username": "@witchxofficial",
+    "display_name": "",
+    "username": "",
     "verified": false,
-    "category": "아티스트",
-    "followers": 81000,
-    "following": 3,
-    "total_likes": 1489000,
+    "category": "",
+    "followers": 0,
+    "following": 0,
+    "total_likes": 0,
     "bio": ""
   },
-  "posts": [
-    {
-      "views": 2907,
-      "likes": 426,
-      "comments": 18,
-      "shares": 7,
-      "saves": 34,
-      "posted_at": "2026-02-13",
-      "caption": "✨️이상형과 천국도 갈 확률은 212%&#127872;&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 2212,
-      "likes": 262,
-      "comments": 10,
-      "shares": 5,
-      "saves": 24,
-      "posted_at": "2026-02-11",
-      "caption": "Love me love me love me&#129781;&#127995;♥️&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 1476,
-      "likes": 232,
-      "comments": 10,
-      "shares": 5,
-      "saves": 19,
-      "posted_at": "2026-02-11",
-      "caption": "은~발~란~스&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 3,
-    "posts_last_30d": 3,
-    "avg_views": 2198,
-    "avg_likes": 307,
-    "avg_comments": 13,
-    "avg_shares": 6,
-    "avg_saves": 26,
-    "engagement_rate": 14.35,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }
