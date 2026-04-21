@@ -2,17 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 402,
-      "company": "SM엔터테인먼트",
-      "position": "SMArt / KRUCIALIZE 매니지먼트 담당자 채용 (신입)",
-      "category": "매니지먼트",
-      "career": "무관",
-      "location": "서울 성동구",
-      "deadline": "2026-04-20",
-      "url": "https://recruit.smentertainment.com/ko/o/209616",
-      "source": "SM엔터테인먼트"
-    },
-    {
       "id": 135,
       "company": "언코어",
       "position": "비주얼크리에이티브 담당자 채용",
@@ -574,6 +563,17 @@
       "source": "잡코리아"
     },
     {
+      "id": 501,
+      "company": "스튜디오252",
+      "position": "아티스트 매니저",
+      "category": "매니지먼트",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-05-20",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49013421",
+      "source": "잡코리아"
+    },
+    {
       "id": 397,
       "company": "포켓돌스튜디오",
       "position": "콘텐츠팀 (영상 담당)",
@@ -659,6 +659,28 @@
       "location": "서울 성동구",
       "deadline": "2026-06-15",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48997067",
+      "source": "잡코리아"
+    },
+    {
+      "id": 499,
+      "company": "에프앤에프엔터테인먼트",
+      "position": "PR 및 대외협력실",
+      "category": "마케팅",
+      "career": "무관",
+      "location": "서울 강남구",
+      "deadline": "2026-06-19",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49021046",
+      "source": "잡코리아"
+    },
+    {
+      "id": 500,
+      "company": "모드하우스",
+      "position": "팬 커뮤니케이션 담당자",
+      "category": "기타",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-06-19",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49015208",
       "source": "잡코리아"
     },
     {
@@ -3700,5 +3722,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-04-20T09:00:43.389277"
+  "updatedAt": "2026-04-21T09:01:03.520162"
 }
