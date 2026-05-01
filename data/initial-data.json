@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-01T04:02:27.000Z",
+  "generated": "2026-05-01T04:44:44.000Z",
   "version": 2,
   "combinations": {
     "여자_웨이보": {
@@ -2557,6 +2557,12 @@
           "count": 839900
         },
         {
+          "name": "언차일드",
+          "group": "UNCHILD",
+          "date": "2026-04",
+          "count": 784100
+        },
+        {
           "name": "리센느",
           "group": "RESCENE",
           "date": "2026-04",
@@ -2585,12 +2591,6 @@
           "group": "Weeekly",
           "date": "2026-04",
           "count": 547100
-        },
-        {
-          "name": "베이비돈크라이",
-          "group": "Baby DONT Cry",
-          "date": "2026-04",
-          "count": 509600
         },
         {
           "name": "블랙핑크",
