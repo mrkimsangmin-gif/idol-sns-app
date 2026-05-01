@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-01T04:44:42.000Z",
+  "generated": "2026-05-01T04:48:11.000Z",
   "version": 3,
   "gender": "여자",
   "snsList": [
@@ -246,6 +246,12 @@
           "group": "KIIRAS",
           "date": "2026-04",
           "count": 20839
+        },
+        {
+          "name": "언차일드",
+          "group": "UNCHILD",
+          "date": "2026-04",
+          "count": 18000
         },
         {
           "name": "위클리",
