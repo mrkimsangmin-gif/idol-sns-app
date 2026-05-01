@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-01T03:39:21.000Z",
+  "generated": "2026-05-01T04:02:27.000Z",
   "version": 3,
   "gender": "남자",
   "snsList": [
@@ -132,6 +132,12 @@
           "group": "BOYNEXTDOOR",
           "date": "2026-04",
           "count": 493138
+        },
+        {
+          "name": "트레저",
+          "group": "TREASURE",
+          "date": "2026-04",
+          "count": 453000
         },
         {
           "name": "알파드라이브원",
@@ -56358,6 +56364,18 @@
           "count": 7054
         },
         {
+          "name": "더윈드",
+          "group": "The Wind",
+          "date": "2026-04",
+          "count": 6973
+        },
+        {
+          "name": "누에라",
+          "group": "NouerA",
+          "date": "2026-04",
+          "count": 6885
+        },
+        {
           "name": "아홉",
           "group": "AHOF",
           "date": "2026-04",
@@ -56424,6 +56442,12 @@
           "count": 3823
         },
         {
+          "name": "미래소년",
+          "group": "MIRAE",
+          "date": "2026-04",
+          "count": 3656
+        },
+        {
           "name": "나인아이",
           "group": "NINE.i",
           "date": "2026-04",
@@ -56464,6 +56488,12 @@
           "group": "TRENDZ",
           "date": "2026-04",
           "count": 2451
+        },
+        {
+          "name": "휘브",
+          "group": "WHIB",
+          "date": "2026-04",
+          "count": 2356
         },
         {
           "name": "엔싸인",

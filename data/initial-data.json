@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-01T03:39:21.000Z",
+  "generated": "2026-05-01T04:02:27.000Z",
   "version": 2,
   "combinations": {
     "여자_웨이보": {
@@ -3272,6 +3272,12 @@
           "count": 493138
         },
         {
+          "name": "트레저",
+          "group": "TREASURE",
+          "date": "2026-04",
+          "count": 453000
+        },
+        {
           "name": "알파드라이브원",
           "group": "ALPHA DRIVE ONE",
           "date": "2026-04",
@@ -3354,12 +3360,6 @@
           "group": "LNGSHOT",
           "date": "2026-04",
           "count": 159860
-        },
-        {
-          "name": "더보이즈",
-          "group": "THE BOYZ",
-          "date": "2026-04",
-          "count": 136080
         },
         {
           "name": "방탄소년단",
