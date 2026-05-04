@@ -2,17 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 321,
-      "company": "모드하우스",
-      "position": "IP 사업 담당자 채용",
-      "category": "해외사업",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-05-03",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48700900",
-      "source": "잡코리아"
-    },
-    {
       "id": 505,
       "company": "SM엔터테인먼트",
       "position": "영상 매니지먼트 인턴십 모집 (인턴)",
@@ -3997,5 +3986,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-05-03T09:00:06.069425"
+  "updatedAt": "2026-05-04T09:00:05.722487"
 }
