@@ -415,8 +415,7 @@ function renderPostCards(posts, totalPages) {
         <a class="post-card" href="/insight/post.html?slug=${encodeURIComponent(post.slug || post.id)}">
             <div class="post-meta">
                 <span class="post-category">${esc(post.category)}</span>
-                <span class="post-date">${post.created_at}</span>
-                <span class="post-views">조회 ${post.view_count || 0}</span>
+                <span class="post-date">${(post.created_at || '').split('T')[0]}</span>
             </div>
             <h2>${esc(post.title)}</h2>
             <p class="post-summary">${esc(post.summary)}</p>

@@ -378,8 +378,7 @@ function renderPost(post) {
         <h1 class="article-title">${esc(post.title)}</h1>
         <div class="article-meta">
             <span>${post.author || '아이엠콘텐츠'}</span>
-            <span>${post.created_at}</span>
-            <span>조회 ${post.view_count || 0}</span>
+            <span>${(post.created_at || '').split('T')[0]}</span>
         </div>
 
         <div class="article-body">${post.content}</div>
