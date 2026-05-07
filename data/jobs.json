@@ -2,28 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 414,
-      "company": "타이탄콘텐츠",
-      "position": "시각디자이너",
-      "category": "디자인",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-05-06",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48926597",
-      "source": "잡코리아"
-    },
-    {
-      "id": 422,
-      "company": "모어비전",
-      "position": "Producing Team 뮤직 A&R",
-      "category": "프로듀싱",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-05-06",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48923261",
-      "source": "잡코리아"
-    },
-    {
       "id": 412,
       "company": "이든엔터테인먼트",
       "position": "A&R팀 경력직(대리,과장급)",
@@ -2290,17 +2268,6 @@
       "source": "하이브"
     },
     {
-      "id": 404,
-      "company": "HYBE",
-      "position": "재무/회계지원*",
-      "category": "경영지원",
-      "career": "무관",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/209961",
-      "source": "하이브"
-    },
-    {
       "id": 405,
       "company": "패러블엔터테인먼트",
       "position": "크리에이터 매니지먼트 매니저",
@@ -3003,6 +2970,17 @@
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/214997",
       "source": "하이브"
+    },
+    {
+      "id": 564,
+      "company": "HYBE",
+      "position": "사내 커뮤니케이션 및 조직문화 프로그램 담당",
+      "category": "경영지원",
+      "career": "경력 5년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/215380",
+      "source": "하이브"
     }
   ],
   "categories": [
@@ -3018,5 +2996,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-05-06T09:17:07.641942"
+  "updatedAt": "2026-05-07T09:04:26.762125"
 }
