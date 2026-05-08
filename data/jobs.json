@@ -2,17 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 412,
-      "company": "이든엔터테인먼트",
-      "position": "A&R팀 경력직(대리,과장급)",
-      "category": "프로듀싱",
-      "career": "경력",
-      "location": "서울 성동구",
-      "deadline": "2026-05-07",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48934841",
-      "source": "잡코리아"
-    },
-    {
       "id": 340,
       "company": "에스투엔터테인먼트",
       "position": "프로덕션 파트",
@@ -1586,17 +1575,6 @@
       "source": "하이브"
     },
     {
-      "id": 249,
-      "company": "HYBE",
-      "position": "안전기획(사업장/공연장)",
-      "category": "영업",
-      "career": "경력 10년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/161655",
-      "source": "하이브"
-    },
-    {
       "id": 250,
       "company": "BIGHIT MUSIC",
       "position": "마케팅 전략",
@@ -2510,17 +2488,6 @@
       "source": "하이브"
     },
     {
-      "id": 438,
-      "company": "Weverse Company",
-      "position": "글로벌 상품 소싱/제휴(신규서비스) (경력 : 5년 이상)",
-      "category": "해외사업",
-      "career": "경력 5년 이상",
-      "location": "경기도 성남시",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/210511",
-      "source": "하이브"
-    },
-    {
       "id": 441,
       "company": "블루밍그레이스",
       "position": "A2O 엔터테인먼트 KOREA 인턴",
@@ -2981,6 +2948,28 @@
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/215380",
       "source": "하이브"
+    },
+    {
+      "id": 572,
+      "company": "BIGHIT MUSIC",
+      "position": "제작PM(2그룹)",
+      "category": "기타",
+      "career": "경력 5년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/215463",
+      "source": "하이브"
+    },
+    {
+      "id": 573,
+      "company": "Blue Garage",
+      "position": "온라인사업팀 팀장",
+      "category": "영업",
+      "career": "경력 5년 이상",
+      "location": "서울 강동구",
+      "deadline": "상시채용",
+      "url": "https://recruit-apply.jype.com/o/215596",
+      "source": "JYP엔터테인먼트"
     }
   ],
   "categories": [
@@ -2996,5 +2985,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-05-07T09:04:26.762125"
+  "updatedAt": "2026-05-08T09:05:23.088616"
 }
