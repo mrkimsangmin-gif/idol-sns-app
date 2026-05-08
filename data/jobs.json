@@ -2,61 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 340,
-      "company": "에스투엔터테인먼트",
-      "position": "프로덕션 파트",
-      "category": "영상",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-05-08",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48739836",
-      "source": "잡코리아"
-    },
-    {
-      "id": 341,
-      "company": "에스투엔터테인먼트",
-      "position": "콘텐츠본부 영상팀 (대리급)",
-      "category": "영상",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-05-08",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48739676",
-      "source": "잡코리아"
-    },
-    {
-      "id": 342,
-      "company": "에스투엔터테인먼트",
-      "position": "기획제작본부 공연팀",
-      "category": "기타",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-05-08",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48739638",
-      "source": "잡코리아"
-    },
-    {
-      "id": 343,
-      "company": "언코어",
-      "position": "가수 현장매니저/로드매니저",
-      "category": "매니지먼트",
-      "career": "무관",
-      "location": "서울 강남구",
-      "deadline": "2026-05-08",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48738250",
-      "source": "잡코리아"
-    },
-    {
-      "id": 344,
-      "company": "포켓돌스튜디오",
-      "position": "AI 활용 업무지원 담당자",
-      "category": "마케팅",
-      "career": "신입·경력",
-      "location": "서울 강남구",
-      "deadline": "2026-05-08",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48736110",
-      "source": "잡코리아"
-    },
-    {
       "id": 439,
       "company": "이든엔터테인먼트",
       "position": "마케팅팀(팬마케팅 파트) 담당자",
@@ -519,6 +464,17 @@
       "source": "잡코리아"
     },
     {
+      "id": 575,
+      "company": "어트랙트",
+      "position": "마케팅팀",
+      "category": "마케팅",
+      "career": "경력",
+      "location": "서울 송파구",
+      "deadline": "2026-06-05",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49110120",
+      "source": "잡코리아"
+    },
+    {
       "id": 423,
       "company": "모드하우스",
       "position": "엔터테인먼트 디자이너",
@@ -527,6 +483,28 @@
       "location": "서울 강남구",
       "deadline": "2026-06-07",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48942098",
+      "source": "잡코리아"
+    },
+    {
+      "id": 579,
+      "company": "쓰리와이코프레이션",
+      "position": "회계 담당자",
+      "category": "경영지원",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-06-07",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49130490",
+      "source": "잡코리아"
+    },
+    {
+      "id": 580,
+      "company": "쓰리와이코프레이션",
+      "position": "재무 담당자",
+      "category": "경영지원",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-06-07",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49130496",
       "source": "잡코리아"
     },
     {
@@ -717,14 +695,47 @@
       "source": "잡코리아"
     },
     {
-      "id": 29,
-      "company": "쏘스뮤직",
-      "position": "퍼포먼스디렉터",
-      "category": "신인개발",
+      "id": 576,
+      "company": "이엔터테인먼트",
+      "position": "보이 그룹 팬 매니저&마케터",
+      "category": "마케팅",
       "career": "무관",
       "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48359630?rPageCode=SL&logpath=21&sn=6&sc=612",
+      "deadline": "2026-07-06",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49124224",
+      "source": "잡코리아"
+    },
+    {
+      "id": 577,
+      "company": "모드하우스",
+      "position": "일본 사업 담당자",
+      "category": "해외사업",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-07-06",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49124756",
+      "source": "잡코리아"
+    },
+    {
+      "id": 581,
+      "company": "빅히트뮤직",
+      "position": "제작PM(1그룹)",
+      "category": "기타",
+      "career": "경력",
+      "location": "서울 용산구",
+      "deadline": "2026-07-07",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49133125",
+      "source": "잡코리아"
+    },
+    {
+      "id": 582,
+      "company": "모드하우스",
+      "position": "플랫폼 운영 담당자",
+      "category": "기타",
+      "career": "무관",
+      "location": "서울 강남구",
+      "deadline": "2026-07-07",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49135965",
       "source": "잡코리아"
     },
     {
@@ -2970,6 +2981,17 @@
       "deadline": "상시채용",
       "url": "https://recruit-apply.jype.com/o/215596",
       "source": "JYP엔터테인먼트"
+    },
+    {
+      "id": 578,
+      "company": "블루밍그레이스",
+      "position": "AI Artist / Designer",
+      "category": "디자인",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "상시채용",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49130275",
+      "source": "잡코리아"
     }
   ],
   "categories": [
@@ -2985,5 +3007,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-05-08T09:05:23.088616"
+  "updatedAt": "2026-05-09T08:03:22.260433"
 }
