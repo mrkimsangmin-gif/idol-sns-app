@@ -2,61 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 447,
-      "company": "브레이브엔터테인먼트",
-      "position": "가수 매니저",
-      "category": "기타",
-      "career": "무관",
-      "location": "서울 광진구",
-      "deadline": "2026-05-10",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48961930",
-      "source": "잡코리아"
-    },
-    {
-      "id": 453,
-      "company": "SM엔터테인먼트",
-      "position": "VMD / 공간 디자이너 채용 (경력)",
-      "category": "디자인",
-      "career": "경력 3년 이상",
-      "location": "서울 성동구",
-      "deadline": "2026-05-10",
-      "url": "https://recruit.smentertainment.com/ko/o/211053",
-      "source": "SM엔터테인먼트"
-    },
-    {
-      "id": 454,
-      "company": "SM엔터테인먼트",
-      "position": "캐릭터 라이선스 디자인 감수 디자이너 채용 (경력)",
-      "category": "디자인",
-      "career": "경력 3년 이상",
-      "location": "서울 성동구",
-      "deadline": "2026-05-10",
-      "url": "https://recruit.smentertainment.com/ko/o/211051",
-      "source": "SM엔터테인먼트"
-    },
-    {
-      "id": 524,
-      "company": "SM엔터테인먼트",
-      "position": "중국 음원/영상 유통 및 프로모션 담당자 채용 (신입/경력)",
-      "category": "영상",
-      "career": "무관",
-      "location": "서울 성동구",
-      "deadline": "2026-05-10",
-      "url": "https://recruit.smentertainment.com/ko/o/214027",
-      "source": "SM엔터테인먼트"
-    },
-    {
-      "id": 536,
-      "company": "SM엔터테인먼트",
-      "position": "중국 음원/영상 유통 및 프로모션 담당자",
-      "category": "해외사업",
-      "career": "무관",
-      "location": "서울 성동구",
-      "deadline": "2026-05-10",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49063229",
-      "source": "잡코리아"
-    },
-    {
       "id": 555,
       "company": "SM엔터테인먼트",
       "position": "매니지먼트 담당자",
@@ -692,17 +637,6 @@
       "location": "서울 강남구",
       "deadline": "2026-07-07",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49135965",
-      "source": "잡코리아"
-    },
-    {
-      "id": 38,
-      "company": "에스엠컬처앤콘텐츠",
-      "position": "A&R 담당",
-      "category": "프로듀싱",
-      "career": "경력",
-      "location": "서울 마포구",
-      "deadline": "",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48307361?rPageCode=SL&logpath=21&sn=6&sc=612",
       "source": "잡코리아"
     },
     {
@@ -2787,5 +2721,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-05-10T09:33:38.593527"
+  "updatedAt": "2026-05-11T08:53:13.437828"
 }
