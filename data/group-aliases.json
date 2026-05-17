@@ -1,7 +1,7 @@
 {
   "_meta": {
     "version": "1.0",
-    "last_updated": "2026-03-07",
+    "last_updated": "2026-05-05",
     "description": "그룹/멤버 별칭 매핑 (자동 생성 + 수동 보정)"
   },
   "groups": {
@@ -123,7 +123,8 @@
         "i-dle",
         "IDLE",
         "아이돌",
-        "여자아이들"
+        "여자아이들",
+        "(G)I-DLE"
       ],
       "fandom": "네버랜드"
     },
@@ -300,7 +301,8 @@
       "name_en": "WOOAH",
       "aliases": [
         "WOOAH",
-        "wooah"
+        "wooah",
+        "woo!ah!"
       ]
     },
     "비비지": {
@@ -309,7 +311,8 @@
       "aliases": [
         "viviz",
         "VIVIZ",
-        "비비즈"
+        "비비즈",
+        "ViV"
       ],
       "fandom": "빈띠"
     },
@@ -1105,7 +1108,9 @@
       "name_en": "NOWZ",
       "aliases": [
         "nowz",
-        "NOWZ"
+        "NOWZ",
+        "NOWADAYS",
+        "nowadays"
       ]
     },
     "더뉴식스": {
@@ -1380,7 +1385,8 @@
         "The KingDom",
         "the kingdom",
         "thekingdom",
-        "TK"
+        "TK",
+        "KINGDOM"
       ]
     },
     "블리처스": {

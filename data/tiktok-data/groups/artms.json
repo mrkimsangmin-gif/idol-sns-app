@@ -3,88 +3,17 @@
   "name_en": "ARTMS",
   "slug": "artms",
   "tiktok_url": "https://www.tiktok.com/@official_artms",
-  "crawled_at": "2026-03-08T14:19:49.079092",
+  "crawled_at": "2026-05-09T07:52:56.781488",
   "profile": {
-    "display_name": "Official ARTMS",
-    "username": "@official_artms",
-    "verified": true,
-    "category": "아티스트",
-    "followers": 599000,
-    "following": 1,
-    "total_likes": 17969000,
-    "bio": "ARTMS(아르테미스) OFFICIAL TIKTOK"
+    "display_name": "",
+    "username": "",
+    "verified": false,
+    "category": "",
+    "followers": 0,
+    "following": 0,
+    "total_likes": 0,
+    "bio": ""
   },
-  "posts": [
-    {
-      "views": 242000,
-      "likes": 75000,
-      "comments": 606,
-      "shares": 4230,
-      "saves": 5359,
-      "posted_at": "2026-02-27",
-      "caption": "⊹ ࣪ ˖Gyaru ☆⌒(ゝ。∂)❤︎⊹ ࣪ ˖&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 49000,
-      "likes": 13000,
-      "comments": 103,
-      "shares": 390,
-      "saves": 932,
-      "posted_at": "2026-02-27",
-      "caption": "미소 짓게 만드는 마법⋰˚☆&#128105;‍&#127859;&#127827;&#10; …⁠자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 24000,
-      "likes": 5757,
-      "comments": 121,
-      "shares": 207,
-      "saves": 508,
-      "posted_at": "2026-02-26",
-      "caption": "펑키한 매력의 최리를 만나보세요⛧*̩̩͙⸝⋆&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 17000,
-      "likes": 3417,
-      "comments": 68,
-      "shares": 127,
-      "saves": 346,
-      "posted_at": "2026-02-26",
-      "caption": "펑키한 매력의 진솔을 만나보세요⛧*̩̩͙⸝⋆&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 37000,
-      "likes": 3597,
-      "comments": 79,
-      "shares": 146,
-      "saves": 343,
-      "posted_at": "2026-02-26",
-      "caption": "펑키한 매력의 하슬을 만나보세요⛧*̩̩͙⸝⋆&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 5,
-    "posts_last_30d": 5,
-    "avg_views": 73800,
-    "avg_likes": 20154,
-    "avg_comments": 195,
-    "avg_shares": 1020,
-    "avg_saves": 1498,
-    "engagement_rate": 13.46,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

@@ -3,53 +3,17 @@
   "name_en": "Red Velvet",
   "slug": "red-velvet",
   "tiktok_url": "https://www.tiktok.com/@redvelvet_smtown",
-  "crawled_at": "2026-03-12T06:12:08.240149",
+  "crawled_at": "2026-05-09T07:21:53.817445",
   "profile": {
-    "display_name": "Red Velvet",
-    "username": "@redvelvet_smtown",
-    "verified": true,
-    "category": "아티스트",
-    "followers": 3895000,
+    "display_name": "",
+    "username": "",
+    "verified": false,
+    "category": "",
+    "followers": 0,
     "following": 0,
-    "total_likes": 80614000,
-    "bio": "IRENE The 1st Album 【Biggest Fan】&#10;➫ 2026.03.30 6PM (KST)"
+    "total_likes": 0,
+    "bio": ""
   },
-  "posts": [
-    {
-      "views": 5851000,
-      "likes": 486000,
-      "comments": 2222,
-      "shares": 8747,
-      "saves": 19000,
-      "posted_at": "2026-02-15",
-      "caption": "헛둘헛둘&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "Naughty Boy &amp; Sam Smith의 La La La - Sped Up Version",
-      "category": "General"
-    },
-    {
-      "views": 5911000,
-      "likes": 261000,
-      "comments": 871,
-      "shares": 4122,
-      "saves": 14000,
-      "posted_at": "2026-02-15",
-      "caption": "FOCUS with #YUHA &#129653;&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [
-        "YUHA"
-      ],
-      "music": "",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 2,
-    "posts_last_30d": 2,
-    "avg_views": 5881000,
-    "avg_likes": 373500,
-    "avg_comments": 1546,
-    "avg_shares": 6434,
-    "avg_saves": 16500,
-    "engagement_rate": 6.77
-  }
+  "posts": [],
+  "stats": {}
 }

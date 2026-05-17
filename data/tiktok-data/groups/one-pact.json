@@ -3,64 +3,17 @@
   "name_en": "ONE PACT",
   "slug": "one-pact",
   "tiktok_url": "https://www.tiktok.com/@0nepact",
-  "crawled_at": "2026-03-08T20:39:31.951866",
+  "crawled_at": "2026-05-17T20:05:43.158681",
   "profile": {
     "display_name": "onepact",
-    "username": "@0nepact",
+    "username": "",
     "verified": false,
-    "category": "아티스트",
-    "followers": 475000,
+    "category": "",
+    "followers": 0,
     "following": 0,
-    "total_likes": 19414000,
+    "total_likes": 0,
     "bio": "ONE PACT(원팩트) official"
   },
-  "posts": [
-    {
-      "views": 4120,
-      "likes": 1451,
-      "comments": 18,
-      "shares": 12,
-      "saves": 56,
-      "posted_at": "2026-03-08",
-      "caption": "&#119826;&#119808;&#119821;&#119812; &#119810;&#119841;&#119834;&#119845;&#119845;&#119838;&#119847;&#119840;&#119838; &#119856;&#119842;&#119853;&#119841; 김재원님&#127974;&#127908;&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "원팩트의 SANE",
-      "category": "General"
-    },
-    {
-      "views": 9942,
-      "likes": 3013,
-      "comments": 66,
-      "shares": 71,
-      "saves": 147,
-      "posted_at": "2026-03-08",
-      "caption": "&#119826;&#119808;&#119821;&#119812; &#119810;&#119841;&#119834;&#119845;&#119845;&#119838;&#119847;&#119840;&#119838; &#119856;&#119842;&#119853;&#119841; 엑신 니즈, 한나님✨&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "원팩트의 SANE",
-      "category": "General"
-    },
-    {
-      "views": 14000,
-      "likes": 4054,
-      "comments": 46,
-      "shares": 54,
-      "saves": 193,
-      "posted_at": "2026-03-07",
-      "caption": "&#119826;&#119808;&#119821;&#119812; &#119810;&#119841;&#119834;&#119845;&#119845;&#119838;&#119847;&#119840;&#119838; &#119856;&#119842;&#119853;&#119841; ChoCo1 예찬, 태조님&#127851;&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 3,
-    "posts_last_30d": 3,
-    "avg_views": 9354,
-    "avg_likes": 2839,
-    "avg_comments": 43,
-    "avg_shares": 46,
-    "avg_saves": 132,
-    "engagement_rate": 7.78,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

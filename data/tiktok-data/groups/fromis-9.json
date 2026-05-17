@@ -3,63 +3,17 @@
   "name_en": "fromis_9",
   "slug": "fromis-9",
   "tiktok_url": "https://www.tiktok.com/@official_fromis9",
-  "crawled_at": "2026-03-12T06:25:44.508327",
+  "crawled_at": "2026-05-09T07:31:23.130670",
   "profile": {
-    "display_name": "fromis_9",
-    "username": "@official_fromis9",
-    "verified": true,
-    "category": "아티스트",
-    "followers": 1988000,
+    "display_name": "",
+    "username": "",
+    "verified": false,
+    "category": "",
+    "followers": 0,
     "following": 0,
-    "total_likes": 56040000,
-    "bio": "❄️ Special Digital Single [하얀 그리움]"
+    "total_likes": 0,
+    "bio": ""
   },
-  "posts": [
-    {
-      "views": 217000,
-      "likes": 21000,
-      "comments": 329,
-      "shares": 522,
-      "saves": 1804,
-      "posted_at": "2026-03-08",
-      "caption": "나 미워? ๑ ˃̶ᴗᵒ̴̶̷๑&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 310000,
-      "likes": 15000,
-      "comments": 156,
-      "shares": 228,
-      "saves": 1151,
-      "posted_at": "2026-03-03",
-      "caption": "&#128073;아웅&#128074;다웅&#128072;&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "Yyeon의 아웅다웅 (feat. TimeFeveR (타임피버))",
-      "category": "General"
-    },
-    {
-      "views": 1522000,
-      "likes": 30000,
-      "comments": 200,
-      "shares": 525,
-      "saves": 2402,
-      "posted_at": "2026-03-02",
-      "caption": "ʟᴏᴠᴇ ʟᴏᴠᴇ ʟᴏᴠᴇ&#128155;&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "에픽하이 (EPIK HIGH)의 Love Love Love(Feat. Yoong Jin of Casker)",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 3,
-    "posts_last_30d": 3,
-    "avg_views": 683000,
-    "avg_likes": 22000,
-    "avg_comments": 228,
-    "avg_shares": 425,
-    "avg_saves": 1785,
-    "engagement_rate": 3.58
-  }
+  "posts": [],
+  "stats": {}
 }

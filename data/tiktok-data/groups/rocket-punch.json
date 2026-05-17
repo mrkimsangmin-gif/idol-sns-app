@@ -3,76 +3,17 @@
   "name_en": "Rocket Punch",
   "slug": "rocket-punch",
   "tiktok_url": "https://www.tiktok.com/@official_rocketpunch",
-  "crawled_at": "2026-03-08T14:04:03.382978",
+  "crawled_at": "2026-05-17T19:13:03.988932",
   "profile": {
-    "display_name": "Rocket Punch(로켓펀치)",
-    "username": "@official_rocketpunch",
-    "verified": true,
-    "category": "아티스트",
-    "followers": 369000,
+    "display_name": "7",
+    "username": "",
+    "verified": false,
+    "category": "",
+    "followers": 0,
     "following": 0,
-    "total_likes": 7862000,
-    "bio": "#RocketPunch ( #로켓펀치 ) Official TikTok"
+    "total_likes": 0,
+    "bio": ""
   },
-  "posts": [
-    {
-      "views": 2910,
-      "likes": 690,
-      "comments": 16,
-      "shares": 14,
-      "saves": 31,
-      "posted_at": "2026-03-06",
-      "caption": "Really like you &#128420;&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "BABYMONSTER의 Really Like You",
-      "category": "General"
-    },
-    {
-      "views": 4558,
-      "likes": 886,
-      "comments": 27,
-      "shares": 7,
-      "saves": 41,
-      "posted_at": "2026-02-25",
-      "caption": "遅刻するよ～⁉️ &#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "乃紫의 Don't stare at me for 8 seconds",
-      "category": "General"
-    },
-    {
-      "views": 5668,
-      "likes": 927,
-      "comments": 23,
-      "shares": 25,
-      "saves": 66,
-      "posted_at": "2026-02-12",
-      "caption": "&#128048;&#127928;&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "prodBigMike의 iluvslapbass",
-      "category": "General"
-    },
-    {
-      "views": 6793,
-      "likes": 1287,
-      "comments": 27,
-      "shares": 24,
-      "saves": 71,
-      "posted_at": "2026-02-07",
-      "caption": "&#128048;&#129306;&#10; …⁠자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 4,
-    "posts_last_30d": 4,
-    "avg_views": 4982,
-    "avg_likes": 948,
-    "avg_comments": 23,
-    "avg_shares": 18,
-    "avg_saves": 52,
-    "engagement_rate": 9.82,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

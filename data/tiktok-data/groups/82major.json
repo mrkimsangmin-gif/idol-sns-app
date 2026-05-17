@@ -3,102 +3,17 @@
   "name_en": "82MAJOR",
   "slug": "82major",
   "tiktok_url": "https://www.tiktok.com/@82major_official",
-  "crawled_at": "2026-03-08T20:16:53.278702",
+  "crawled_at": "2026-05-17T19:47:02.889511",
   "profile": {
     "display_name": "82MAJOR",
-    "username": "@82major_official",
+    "username": "",
     "verified": false,
-    "category": "아티스트",
-    "followers": 1476000,
+    "category": "",
+    "followers": 0,
     "following": 0,
-    "total_likes": 28957000,
+    "total_likes": 0,
     "bio": "82MAJOR(82메이저) 공식 TikTok"
   },
-  "posts": [
-    {
-      "views": 13000,
-      "likes": 3920,
-      "comments": 53,
-      "shares": 95,
-      "saves": 215,
-      "posted_at": "2026-03-08",
-      "caption": "82 Punch Machine Challenge&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "",
-      "category": "Challenge/Dance"
-    },
-    {
-      "views": 3960,
-      "likes": 1474,
-      "comments": 34,
-      "shares": 42,
-      "saves": 120,
-      "posted_at": "2026-03-08",
-      "caption": "&#129672;&#128536;&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "Dj Guuga의 Só Bundão Grandão",
-      "category": "General"
-    },
-    {
-      "views": 37000,
-      "likes": 12000,
-      "comments": 126,
-      "shares": 379,
-      "saves": 1037,
-      "posted_at": "2026-03-07",
-      "caption": "82 Boxer &#129354;&#10;#82MAJOR #82메이저 …⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 14000,
-      "likes": 4752,
-      "comments": 80,
-      "shares": 125,
-      "saves": 353,
-      "posted_at": "2026-03-07",
-      "caption": "Baby girl what’s happenin &#128064;&#10;#82MAJOR #82메이저 …⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 20000,
-      "likes": 5826,
-      "comments": 62,
-      "shares": 126,
-      "saves": 462,
-      "posted_at": "2026-03-06",
-      "caption": "&#128516;&#129303;☺️&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 9091,
-      "likes": 2878,
-      "comments": 56,
-      "shares": 84,
-      "saves": 241,
-      "posted_at": "2026-03-06",
-      "caption": "#fyp&#10;…⁠자세히",
-      "hashtags": [
-        "fyp"
-      ],
-      "music": "",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 6,
-    "posts_last_30d": 6,
-    "avg_views": 16175,
-    "avg_likes": 5142,
-    "avg_comments": 68,
-    "avg_shares": 142,
-    "avg_saves": 405,
-    "engagement_rate": 11.96,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

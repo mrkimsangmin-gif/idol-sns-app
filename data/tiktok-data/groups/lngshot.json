@@ -3,40 +3,17 @@
   "name_en": "LNGSHOT",
   "slug": "lngshot",
   "tiktok_url": "https://www.tiktok.com/@lngshot4sho",
-  "crawled_at": "2026-03-10T01:42:49.118041",
+  "crawled_at": "2026-05-09T09:50:55.133345",
   "profile": {
-    "display_name": "팔로우",
-    "username": "@lngshot4sho",
+    "display_name": "LNGSHOT",
+    "username": "",
     "verified": true,
     "category": "",
-    "followers": 2502000,
-    "following": 1,
-    "total_likes": 70506000,
-    "bio": ""
+    "followers": 0,
+    "following": 0,
+    "total_likes": 0,
+    "bio": "Jay Park &amp; LNGSHOT&#10;Mixtape 〔4SHOBOIZ Vol. 2: 4SHOVILLE〕&#10;2026.05.18 6PM KST"
   },
-  "posts": [
-    {
-      "views": 525000,
-      "likes": 96000,
-      "comments": 1148,
-      "shares": 2473,
-      "saves": 9085,
-      "posted_at": "2026-02-20",
-      "caption": "뮤직비디오 지금 공개됐습니다.&#10;…자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "MV"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 1,
-    "posts_last_30d": 1,
-    "avg_views": 525000,
-    "avg_likes": 96000,
-    "avg_comments": 1148,
-    "avg_shares": 2473,
-    "avg_saves": 9085,
-    "engagement_rate": 13.24,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

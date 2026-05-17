@@ -3,66 +3,17 @@
   "name_en": "ALLDAY PROJECT",
   "slug": "allday-project",
   "tiktok_url": "https://www.tiktok.com/@allday_project",
-  "crawled_at": "2026-03-08T15:01:01.211577",
+  "crawled_at": "2026-05-09T08:24:55.309682",
   "profile": {
     "display_name": "ALLDAY PROJECT",
-    "username": "@allday_project",
+    "username": "",
     "verified": true,
-    "category": "아티스트",
-    "followers": 1529000,
+    "category": "",
+    "followers": 0,
     "following": 0,
-    "total_likes": 71012000,
+    "total_likes": 0,
     "bio": "The 1st EP Album 'ALLDAY PROJECT'"
   },
-  "posts": [
-    {
-      "views": 378000,
-      "likes": 81000,
-      "comments": 802,
-      "shares": 2106,
-      "saves": 4041,
-      "posted_at": "2026-03-06",
-      "caption": "#PUBG9thAnniversary&#10;PUBG x ALLDAY PROJE…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [
-        "PUBG9thAnniversary"
-      ],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 228000,
-      "likes": 40000,
-      "comments": 446,
-      "shares": 1110,
-      "saves": 2237,
-      "posted_at": "2026-03-03",
-      "caption": "9 years. Countless battlefields.&#10;Every scar tells a story.…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 331000,
-      "likes": 58000,
-      "comments": 932,
-      "shares": 1638,
-      "saves": 3209,
-      "posted_at": "2026-02-25",
-      "caption": "STILL HERE. ALL DAY.&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 3,
-    "posts_last_30d": 3,
-    "avg_views": 312333,
-    "avg_likes": 59667,
-    "avg_comments": 727,
-    "avg_shares": 1618,
-    "avg_saves": 3162,
-    "engagement_rate": 9.23,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

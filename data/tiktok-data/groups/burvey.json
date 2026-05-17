@@ -3,39 +3,17 @@
   "name_en": "Burvey",
   "slug": "burvey",
   "tiktok_url": "https://www.tiktok.com/@official_burvey",
-  "crawled_at": "2026-03-12T07:29:59.736035",
+  "crawled_at": "2026-05-09T08:11:30.595709",
   "profile": {
     "display_name": "BURVEY",
-    "username": "@official_burvey",
+    "username": "",
     "verified": false,
     "category": "",
-    "followers": 167000,
+    "followers": 0,
     "following": 0,
-    "total_likes": 1101000,
-    "bio": ""
+    "total_likes": 0,
+    "bio": "BURVEY Official TikTok&#10;2nd Single 'SUGAR RIDING'&#10;2025. 11. 20 12PM"
   },
-  "posts": [
-    {
-      "views": 43000,
-      "likes": 89000,
-      "comments": 317,
-      "shares": 1206,
-      "saves": 8450,
-      "posted_at": "2026-02-25",
-      "caption": "☝️✌️&#128165;&#10;…자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 1,
-    "posts_last_30d": 1,
-    "avg_views": 43000,
-    "avg_likes": 89000,
-    "avg_comments": 317,
-    "avg_shares": 1206,
-    "avg_saves": 8450,
-    "engagement_rate": 230.17
-  }
+  "posts": [],
+  "stats": {}
 }

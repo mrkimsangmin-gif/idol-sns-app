@@ -3,165 +3,17 @@
   "name_en": "USPEER",
   "slug": "uspeer",
   "tiktok_url": "https://www.tiktok.com/@uspeer.official",
-  "crawled_at": "2026-03-08T14:55:17.117715",
+  "crawled_at": "2026-05-09T08:21:05.195076",
   "profile": {
     "display_name": "USPEER (유스피어)",
-    "username": "@uspeer.official",
+    "username": "",
     "verified": false,
     "category": "",
-    "followers": 30000,
+    "followers": 0,
     "following": 0,
-    "total_likes": 549000,
+    "total_likes": 0,
     "bio": "USPEER (유스피어) Official"
   },
-  "posts": [
-    {
-      "views": 1824,
-      "likes": 451,
-      "comments": 18,
-      "shares": 9,
-      "saves": 26,
-      "posted_at": "2026-03-07",
-      "caption": "✨&#128420; #USPEER #유스피어 #ROA #로아",
-      "hashtags": [
-        "USPEER",
-        "유스피어",
-        "ROA",
-        "로아"
-      ],
-      "music": "Summer Walker의 Take Me Out This Club",
-      "category": "General"
-    },
-    {
-      "views": 2046,
-      "likes": 426,
-      "comments": 16,
-      "shares": 12,
-      "saves": 34,
-      "posted_at": "2026-03-07",
-      "caption": "Industry Baby&#128293;&#127930; #USPEER #유스피어 #SOEE #SIAN #ROA",
-      "hashtags": [
-        "USPEER",
-        "유스피어",
-        "SOEE",
-        "SIAN",
-        "ROA"
-      ],
-      "music": "Lil Nas X &amp; Jack Harlow의 INDUSTRY BABY",
-      "category": "General"
-    },
-    {
-      "views": 1634,
-      "likes": 308,
-      "comments": 15,
-      "shares": 10,
-      "saves": 30,
-      "posted_at": "2026-02-27",
-      "caption": "유스피어 단체 버피 시작합니다&#128170; #USPEER #유스피어",
-      "hashtags": [
-        "USPEER",
-        "유스피어"
-      ],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 1635,
-      "likes": 260,
-      "comments": 13,
-      "shares": 33,
-      "saves": 30,
-      "posted_at": "2026-02-25",
-      "caption": "바빠?&#128548; #USPEER #유스피어 #SEOYU #ROA",
-      "hashtags": [
-        "USPEER",
-        "유스피어",
-        "SEOYU",
-        "ROA"
-      ],
-      "music": "씨스타(Sistar)의 바빠 (Bad boy)",
-      "category": "General"
-    },
-    {
-      "views": 2208,
-      "likes": 423,
-      "comments": 11,
-      "shares": 15,
-      "saves": 41,
-      "posted_at": "2026-02-22",
-      "caption": "ᐢ⩌.⩌ᐢっ=͟͟͞͞ ⭐️‧⁺  #USPEER #유스피어",
-      "hashtags": [
-        "USPEER",
-        "유스피어"
-      ],
-      "music": "XmegaLxl의 JET SET!",
-      "category": "General"
-    },
-    {
-      "views": 1749,
-      "likes": 294,
-      "comments": 16,
-      "shares": 34,
-      "saves": 36,
-      "posted_at": "2026-02-21",
-      "caption": "우린 오늘도 아웅다웅 #USPEER #유스피어 #SIAN #ROA #시안 #로아",
-      "hashtags": [
-        "USPEER",
-        "유스피어",
-        "SIAN",
-        "ROA",
-        "시안",
-        "로아"
-      ],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 0,
-      "likes": 296,
-      "comments": 11,
-      "shares": 17,
-      "saves": 29,
-      "posted_at": "2026-02-18",
-      "caption": "Love Love Love #USPEER #유스피어 #DAON #CHAENA #ROA",
-      "hashtags": [
-        "USPEER",
-        "유스피어",
-        "DAON",
-        "CHAENA",
-        "ROA"
-      ],
-      "music": "에픽하이 (EPIK HIGH)의 Love Love Love(Feat. Yoong Jin of Casker)",
-      "category": "General"
-    },
-    {
-      "views": 0,
-      "likes": 226,
-      "comments": 10,
-      "shares": 27,
-      "saves": 30,
-      "posted_at": "2026-02-18",
-      "caption": "07즈도 Okay okay&#128152; #USPEER #유스피어 #SOEE #SIAN #SEOYU",
-      "hashtags": [
-        "USPEER",
-        "유스피어",
-        "SOEE",
-        "SIAN",
-        "SEOYU"
-      ],
-      "music": "BABYMONSTER의 Really Like You",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 8,
-    "posts_last_30d": 8,
-    "avg_views": 1387,
-    "avg_likes": 336,
-    "avg_comments": 14,
-    "avg_shares": 20,
-    "avg_saves": 32,
-    "engagement_rate": 19.49,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

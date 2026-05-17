@@ -3,118 +3,17 @@
   "name_en": "MAMAMOO",
   "slug": "mamamoo",
   "tiktok_url": "https://www.tiktok.com/@official_mamamoo",
-  "crawled_at": "2026-03-11T23:02:51.348663",
+  "crawled_at": "2026-05-09T09:53:47.160485",
   "profile": {
     "display_name": "mamamoo_official",
-    "username": "@official_mamamoo",
+    "username": "",
     "verified": true,
-    "category": "아티스트",
-    "followers": 4378000,
-    "following": 1,
-    "total_likes": 49353000,
+    "category": "",
+    "followers": 0,
+    "following": 0,
+    "total_likes": 0,
     "bio": "#MAMAMOO Official TikTok.&#10;Solar, Moon Byul, Whee In, Hwa Sa."
   },
-  "posts": [
-    {
-      "views": 8481,
-      "likes": 1596,
-      "comments": 24,
-      "shares": 18,
-      "saves": 71,
-      "posted_at": "2026-03-08",
-      "caption": "[TEASER] Solar x 告五人 '總有一顆屬於你的星球 (Y…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "mamamoo_official의 오리지널 사운드 - mamamoo_official",
-      "category": "Promotion"
-    },
-    {
-      "views": 10000,
-      "likes": 727,
-      "comments": 13,
-      "shares": 10,
-      "saves": 35,
-      "posted_at": "2026-03-07",
-      "caption": "[TEASER] Solar x 告五人 [總有一顆屬於你的星球 (Y…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "mamamoo_official의 오리지널 사운드 - mamamoo_official",
-      "category": "Promotion"
-    },
-    {
-      "views": 6259,
-      "likes": 2731,
-      "comments": 28,
-      "shares": 32,
-      "saves": 107,
-      "posted_at": "2026-03-06",
-      "caption": "[TEASER] Solar x 告五人 '總有一顆屬於你的星球 (Y…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "mamamoo_official의 오리지널 사운드 - mamamoo_official",
-      "category": "Promotion"
-    },
-    {
-      "views": 15000,
-      "likes": 3474,
-      "comments": 58,
-      "shares": 74,
-      "saves": 165,
-      "posted_at": "2026-03-04",
-      "caption": "문별 (Moon Byul) 3rd Single [REV] Logo Motion",
-      "hashtags": [],
-      "music": "mamamoo_official의 오리지널 사운드 - mamamoo_official",
-      "category": "General"
-    },
-    {
-      "views": 20000,
-      "likes": 1219,
-      "comments": 28,
-      "shares": 13,
-      "saves": 60,
-      "posted_at": "2026-03-03",
-      "caption": "Solar x 告五人 [總有一顆屬於你的星球 (Your Own Star)] MOOD SAMPLER",
-      "hashtags": [],
-      "music": "mamamoo_official의 오리지널 사운드 - mamamoo_official",
-      "category": "General"
-    },
-    {
-      "views": 8207,
-      "likes": 1250,
-      "comments": 40,
-      "shares": 14,
-      "saves": 62,
-      "posted_at": "2026-02-25",
-      "caption": "[#솔라]&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [
-        "솔라"
-      ],
-      "music": "mamamoo_official의 오리지널 사운드 - mamamoo_official",
-      "category": "General"
-    },
-    {
-      "views": 0,
-      "likes": 6121,
-      "comments": 148,
-      "shares": 339,
-      "saves": 228,
-      "posted_at": "2026-02-20",
-      "caption": "Be Ready for March 9 &#127932;&#128064; #마마무 #MAMAMOO #솔라 #Solar",
-      "hashtags": [
-        "마마무",
-        "MAMAMOO",
-        "솔라",
-        "Solar"
-      ],
-      "music": "mamamoo_official의 오리지널 사운드 - mamamoo_official",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 7,
-    "posts_last_30d": 7,
-    "avg_views": 9706,
-    "avg_likes": 2445,
-    "avg_comments": 48,
-    "avg_shares": 71,
-    "avg_saves": 104,
-    "engagement_rate": 27.5
-  }
+  "posts": [],
+  "stats": {}
 }

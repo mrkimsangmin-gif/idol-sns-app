@@ -3,74 +3,17 @@
   "name_en": "BLITZERS",
   "slug": "blitzers",
   "tiktok_url": "https://www.tiktok.com/@blitzers_official",
-  "crawled_at": "2026-03-08T20:42:36.615839",
+  "crawled_at": "2026-05-17T20:08:34.696851",
   "profile": {
     "display_name": "BLITZERS",
-    "username": "@blitzers_official",
+    "username": "",
     "verified": true,
-    "category": "아티스트",
-    "followers": 1273000,
-    "following": 2,
-    "total_likes": 25126000,
+    "category": "",
+    "followers": 0,
+    "following": 0,
+    "total_likes": 0,
     "bio": "BLITZERS Official TikTok"
   },
-  "posts": [
-    {
-      "views": 34000,
-      "likes": 1899,
-      "comments": 72,
-      "shares": 28,
-      "saves": 109,
-      "posted_at": "2026-02-16",
-      "caption": "ZICO, Crush - ‘Yin and Yang’ (JUHAN X WOOJU Cover) #ZICO …⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [
-        "ZICO"
-      ],
-      "music": "BLITZERS의 오리지널 사운드 - BLITZERS",
-      "category": "General"
-    },
-    {
-      "views": 74000,
-      "likes": 9610,
-      "comments": 68,
-      "shares": 246,
-      "saves": 669,
-      "posted_at": "2026-02-10",
-      "caption": "67 set&#129478;&#129722; #BLITZERS #블리처스 #JUHAN #CHRIS #67",
-      "hashtags": [
-        "BLITZERS",
-        "블리처스",
-        "JUHAN",
-        "CHRIS"
-      ],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 96000,
-      "likes": 14000,
-      "comments": 126,
-      "shares": 423,
-      "saves": 992,
-      "posted_at": "2026-02-08",
-      "caption": "67 set&#128523;&#127869;️&#10;#BLITZERS #블리처스 #…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [
-        "BLITZERS",
-        "블리처스"
-      ],
-      "music": "",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 3,
-    "posts_last_30d": 3,
-    "avg_views": 68000,
-    "avg_likes": 8503,
-    "avg_comments": 89,
-    "avg_shares": 232,
-    "avg_saves": 590,
-    "engagement_rate": 10.71,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

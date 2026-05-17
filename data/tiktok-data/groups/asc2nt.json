@@ -3,40 +3,17 @@
   "name_en": "ASC2NT",
   "slug": "asc2nt",
   "tiktok_url": "https://www.tiktok.com/@asc2nt_official",
-  "crawled_at": "2026-03-08T20:45:13.412228",
+  "crawled_at": "2026-05-17T20:10:29.324516",
   "profile": {
     "display_name": "어센트(ASC2NT)",
-    "username": "@asc2nt_official",
+    "username": "",
     "verified": false,
-    "category": "아티스트",
-    "followers": 38000,
-    "following": 1,
-    "total_likes": 564000,
+    "category": "",
+    "followers": 0,
+    "following": 0,
+    "total_likes": 0,
     "bio": "ASC2NT OFFICIAL TIKTOK"
   },
-  "posts": [
-    {
-      "views": 6358,
-      "likes": 1517,
-      "comments": 36,
-      "shares": 54,
-      "saves": 135,
-      "posted_at": "2026-02-28",
-      "caption": "&#119826;&#119853;&#119842;&#119845;&#119845; &#119825;&#119848;&#119852;&#119838;&#127801;&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "어센트의 Still Rose",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 1,
-    "posts_last_30d": 1,
-    "avg_views": 6358,
-    "avg_likes": 1517,
-    "avg_comments": 36,
-    "avg_shares": 54,
-    "avg_saves": 135,
-    "engagement_rate": 14.83,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

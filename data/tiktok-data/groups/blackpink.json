@@ -3,103 +3,17 @@
   "name_en": "BLACKPINK",
   "slug": "blackpink",
   "tiktok_url": "https://www.tiktok.com/@bp_tiktok",
-  "crawled_at": "2026-03-08T13:15:16.146221",
+  "crawled_at": "2026-05-09T07:17:31.411084",
   "profile": {
     "display_name": "BLΛƆKPIИK",
-    "username": "@bp_tiktok",
+    "username": "",
     "verified": true,
-    "category": "아티스트",
-    "followers": 51976000,
-    "following": 8,
-    "total_likes": 670000000,
+    "category": "",
+    "followers": 0,
+    "following": 0,
+    "total_likes": 0,
     "bio": "BLACKPINK 3rd MINI ALBUM [DEADLINE]"
   },
-  "posts": [
-    {
-      "views": 13969000,
-      "likes": 1049000,
-      "comments": 37000,
-      "shares": 92000,
-      "saves": 94000,
-      "posted_at": "2026-02-27",
-      "caption": "‘GO’ OUT NOW&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "BLACKPINK의 GO",
-      "category": "Promotion"
-    },
-    {
-      "views": 2161000,
-      "likes": 499000,
-      "comments": 8880,
-      "shares": 17000,
-      "saves": 39000,
-      "posted_at": "2026-03-06",
-      "caption": "‘GO’ with JENNIE&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "BLACKPINK의 GO",
-      "category": "General"
-    },
-    {
-      "views": 3973000,
-      "likes": 833000,
-      "comments": 9756,
-      "shares": 23000,
-      "saves": 50000,
-      "posted_at": "2026-03-06",
-      "caption": "‘GO’ with JISOO&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "BLACKPINK의 GO",
-      "category": "General"
-    },
-    {
-      "views": 1580000,
-      "likes": 346000,
-      "comments": 6836,
-      "shares": 10000,
-      "saves": 31000,
-      "posted_at": "2026-02-28",
-      "caption": "BLACKPINK - ‘GO’ M/V HIGHLIGHT CLIP&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "BLACKPINK의 GO",
-      "category": "General"
-    },
-    {
-      "views": 3220000,
-      "likes": 2927000,
-      "comments": 55000,
-      "shares": 326000,
-      "saves": 214000,
-      "posted_at": "2026-02-24",
-      "caption": "BLACKPINK - ‘GO’ M/V TEASER&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "",
-      "category": "Promotion"
-    },
-    {
-      "views": 18923000,
-      "likes": 734000,
-      "comments": 16000,
-      "shares": 41000,
-      "saves": 56000,
-      "posted_at": "2026-02-20",
-      "caption": "#BLACKPINK #블랙핑크 #100MILL…",
-      "hashtags": [
-        "BLACKPINK",
-        "블랙핑크"
-      ],
-      "music": "",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 6,
-    "posts_last_30d": 6,
-    "avg_views": 7304333,
-    "avg_likes": 1064667,
-    "avg_comments": 22245,
-    "avg_shares": 84833,
-    "avg_saves": 80667,
-    "engagement_rate": 17.63,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

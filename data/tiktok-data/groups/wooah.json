@@ -3,111 +3,17 @@
   "name_en": "WOOAH",
   "slug": "wooah",
   "tiktok_url": "https://www.tiktok.com/@wooah_hm",
-  "crawled_at": "2026-03-12T07:07:42.673985",
+  "crawled_at": "2026-05-09T07:35:41.885655",
   "profile": {
-    "display_name": "WOOAH 우아",
-    "username": "@wooah_hm",
-    "verified": true,
-    "category": "아티스트",
-    "followers": 2470000,
-    "following": 1,
-    "total_likes": 44216000,
+    "display_name": "",
+    "username": "",
+    "verified": false,
+    "category": "",
+    "followers": 0,
+    "following": 0,
+    "total_likes": 0,
     "bio": ""
   },
-  "posts": [
-    {
-      "views": 289000,
-      "likes": 5953,
-      "comments": 77,
-      "shares": 118,
-      "saves": 363,
-      "posted_at": "2026-03-11",
-      "caption": "예쁜 나(연)이 25살 &#127872;&#10;…자세히",
-      "hashtags": [],
-      "music": "송지은의 예쁜 나이 25살",
-      "category": "General"
-    },
-    {
-      "views": 49000,
-      "likes": 1486,
-      "comments": 34,
-      "shares": 25,
-      "saves": 146,
-      "posted_at": "2026-03-11",
-      "caption": "하루 전 어느 특별했던 하루로부터&#128140;&#10;…자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 40000,
-      "likes": 4241,
-      "comments": 86,
-      "shares": 73,
-      "saves": 357,
-      "posted_at": "2026-03-10",
-      "caption": "행토의 행복한 생일날&#128048;☘️&#10;…자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 32000,
-      "likes": 15000,
-      "comments": 162,
-      "shares": 307,
-      "saves": 1335,
-      "posted_at": "2026-03-10",
-      "caption": "WOOAH NANA 'Party 4 u' Performance Video &#10;…자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "Performance"
-    },
-    {
-      "views": 99000,
-      "likes": 15000,
-      "comments": 136,
-      "shares": 334,
-      "saves": 1183,
-      "posted_at": "2026-02-24",
-      "caption": "어쩜 이렇게 &#128048;&#128151;&#10;…자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 75000,
-      "likes": 2866,
-      "comments": 79,
-      "shares": 50,
-      "saves": 259,
-      "posted_at": "2026-02-12",
-      "caption": "하루 전 어느 특별했던 하루로부터 &#128140;&#10;…자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 118000,
-      "likes": 9414,
-      "comments": 118,
-      "shares": 158,
-      "saves": 697,
-      "posted_at": "2026-02-11",
-      "caption": "아웅다웅 &#128054; &#10;…자세히",
-      "hashtags": [],
-      "music": "Yyeon의 아웅다웅 (feat. TimeFeveR (타임피버))",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 7,
-    "posts_last_30d": 7,
-    "avg_views": 100285,
-    "avg_likes": 7708,
-    "avg_comments": 98,
-    "avg_shares": 152,
-    "avg_saves": 620,
-    "engagement_rate": 8.56
-  }
+  "posts": [],
+  "stats": {}
 }

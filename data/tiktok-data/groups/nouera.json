@@ -3,54 +3,17 @@
   "name_en": "NouerA",
   "slug": "nouera",
   "tiktok_url": "https://www.tiktok.com/@nouera_official",
-  "crawled_at": "2026-03-08T20:31:10.701386",
+  "crawled_at": "2026-05-17T19:55:38.728490",
   "profile": {
     "display_name": "NouerA",
-    "username": "@nouera_official",
+    "username": "",
     "verified": false,
-    "category": "아티스트",
-    "followers": 305000,
+    "category": "",
+    "followers": 0,
     "following": 0,
-    "total_likes": 4617000,
+    "total_likes": 0,
     "bio": "No boundaries, Act bold&#10;NouerA Official TikTok Account"
   },
-  "posts": [
-    {
-      "views": 1984,
-      "likes": 682,
-      "comments": 19,
-      "shares": 23,
-      "saves": 29,
-      "posted_at": "2026-03-08",
-      "caption": "&#128299;&#128165;&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "NouerA (누에라)의 POP IT LIKE (PREVIEW)",
-      "category": "General"
-    },
-    {
-      "views": 6290,
-      "likes": 2607,
-      "comments": 46,
-      "shares": 45,
-      "saves": 137,
-      "posted_at": "2026-03-08",
-      "caption": "#BigGirlsDontCry&#10;…⁠자세히",
-      "hashtags": [
-        "BigGirlsDontCry"
-      ],
-      "music": "ENHYPEN의 Big Girls Don't Cry",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 2,
-    "posts_last_30d": 2,
-    "avg_views": 4137,
-    "avg_likes": 1644,
-    "avg_comments": 32,
-    "avg_shares": 34,
-    "avg_saves": 83,
-    "engagement_rate": 9.09,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

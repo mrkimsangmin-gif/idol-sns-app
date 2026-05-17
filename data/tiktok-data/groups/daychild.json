@@ -3,64 +3,17 @@
   "name_en": "DayChild",
   "slug": "daychild",
   "tiktok_url": "https://www.tiktok.com/@daychild_official",
-  "crawled_at": "2026-03-08T20:48:21.817683",
+  "crawled_at": "2026-05-17T20:14:18.060664",
   "profile": {
     "display_name": "DAYCHILD",
-    "username": "@daychild_official",
+    "username": "",
     "verified": false,
     "category": "",
-    "followers": 8237,
-    "following": 1,
-    "total_likes": 70000,
+    "followers": 0,
+    "following": 0,
+    "total_likes": 0,
     "bio": "#DAYCHILD Official Tiktok"
   },
-  "posts": [
-    {
-      "views": 788,
-      "likes": 68,
-      "comments": 11,
-      "shares": 10,
-      "saves": 5,
-      "posted_at": "2026-02-17",
-      "caption": "(ᐡ- ﻌ •ᐡ). (ᐡ-ܫ•ᐡ)  &#128523;&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "Takenoko boy의 Soudatta!! (feat. Hatsune Miku)",
-      "category": "General"
-    },
-    {
-      "views": 1659,
-      "likes": 268,
-      "comments": 6,
-      "shares": 7,
-      "saves": 14,
-      "posted_at": "2026-02-16",
-      "caption": "미워 &#128530; 아니 이뻐 ☺️&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 2508,
-      "likes": 343,
-      "comments": 12,
-      "shares": 10,
-      "saves": 26,
-      "posted_at": "2026-02-15",
-      "caption": "아웅다웅… ☺️&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "Yyeon의 아웅다웅 (feat. TimeFeveR (타임피버))",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 3,
-    "posts_last_30d": 3,
-    "avg_views": 1652,
-    "avg_likes": 226,
-    "avg_comments": 10,
-    "avg_shares": 9,
-    "avg_saves": 15,
-    "engagement_rate": 14.87,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

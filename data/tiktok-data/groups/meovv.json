@@ -3,138 +3,17 @@
   "name_en": "MEOVV",
   "slug": "meovv",
   "tiktok_url": "https://www.tiktok.com/@meovv_official",
-  "crawled_at": "2026-03-09T20:47:05.985760",
+  "crawled_at": "2026-05-09T07:28:47.862244",
   "profile": {
-    "display_name": "MEOVV",
-    "username": "@meovv_official",
-    "verified": true,
-    "category": "아티스트",
-    "followers": 2400000,
+    "display_name": "",
+    "username": "",
+    "verified": false,
+    "category": "",
+    "followers": 0,
     "following": 0,
-    "total_likes": 107500000,
+    "total_likes": 0,
     "bio": ""
   },
-  "posts": [
-    {
-      "views": 3300000,
-      "likes": 192600,
-      "comments": 1706,
-      "shares": 5594,
-      "saves": 12300,
-      "posted_at": "",
-      "caption": "파트 107 | Digital Single ‘BURNING UP’&#10;M/V OUT NOW!…자세히",
-      "hashtags": [],
-      "music": "MEOVV (미야오)의 BURNING UP",
-      "category": "Promotion"
-    },
-    {
-      "views": 902000,
-      "likes": 162000,
-      "comments": 904,
-      "shares": 5270,
-      "saves": 10300,
-      "posted_at": "2026-03-07",
-      "caption": "#Chloe &#128120;&#127995;︎&#128149;︎&#128087;&#10;…자세히",
-      "hashtags": [
-        "Chloe"
-      ],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 202300,
-      "likes": 34600,
-      "comments": 346,
-      "shares": 839,
-      "saves": 1840,
-      "posted_at": "2026-03-05",
-      "caption": "&#129498;&#10;@ROOT …자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 4099999,
-      "likes": 500200,
-      "comments": 2112,
-      "shares": 7768,
-      "saves": 27100,
-      "posted_at": "2026-03-02",
-      "caption": "파트 205 | &#128745;️&#10;…자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 791600,
-      "likes": 134800,
-      "comments": 998,
-      "shares": 3670,
-      "saves": 8793,
-      "posted_at": "2026-03-02",
-      "caption": "파트 204 | &#128008;‍⬛&#129653;✨&#10;…자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 402300,
-      "likes": 60000,
-      "comments": 466,
-      "shares": 1177,
-      "saves": 3328,
-      "posted_at": "",
-      "caption": "파트 203 | don't talk 2 me&#10;…자세히",
-      "hashtags": [],
-      "music": "Playboi Carti의 Punk Monk",
-      "category": "General"
-    },
-    {
-      "views": 0,
-      "likes": 309600,
-      "comments": 1657,
-      "shares": 10500,
-      "saves": 24100,
-      "posted_at": "",
-      "caption": "파트 202 | &#128008;‍⬛&#127928;✨&#10;…자세히",
-      "hashtags": [],
-      "music": "prodBigMike의 iluvslapbass",
-      "category": "General"
-    },
-    {
-      "views": 0,
-      "likes": 42400,
-      "comments": 393,
-      "shares": 826,
-      "saves": 2669,
-      "posted_at": "",
-      "caption": "파트 201 | I can only see my Bratziez when I close my eyes &#128571;…자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 0,
-      "likes": 87900,
-      "comments": 479,
-      "shares": 1507,
-      "saves": 4294,
-      "posted_at": "",
-      "caption": "파트 200 | someone sent me Bratziez &#129488;&#128157;&#10;…자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 9,
-    "posts_last_30d": 9,
-    "avg_views": 1077578,
-    "avg_likes": 169344,
-    "avg_comments": 1007,
-    "avg_shares": 4128,
-    "avg_saves": 10525,
-    "engagement_rate": 9.25,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

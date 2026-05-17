@@ -3,76 +3,17 @@
   "name_en": "XLOV",
   "slug": "xlov",
   "tiktok_url": "https://www.tiktok.com/@xlov_official",
-  "crawled_at": "2026-03-10T01:23:18.761549",
+  "crawled_at": "2026-05-09T09:42:19.532813",
   "profile": {
-    "display_name": "팔로우",
-    "username": "@xlov_official",
+    "display_name": "XLOV",
+    "username": "",
     "verified": true,
-    "category": "아티스트",
-    "followers": 2472000,
+    "category": "",
+    "followers": 0,
     "following": 0,
-    "total_likes": 90236000,
-    "bio": ""
+    "total_likes": 0,
+    "bio": "XLOV WUMUTI RUI HYUN HARU&#10;XLOV 1st MINI ALBUM ‘UXLXVE’"
   },
-  "posts": [
-    {
-      "views": 316000,
-      "likes": 124000,
-      "comments": 1176,
-      "shares": 3353,
-      "saves": 10000,
-      "posted_at": "2026-03-09",
-      "caption": "&#127291;&#127294;&#127301;&#127284; &#127292;&#127284; &#127287;&#127280;&#127297;&#127283;&#127284;&#127297;&#10;…자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 3982000,
-      "likes": 855000,
-      "comments": 7081,
-      "shares": 23000,
-      "saves": 73000,
-      "posted_at": "2026-02-18",
-      "caption": "나의 ❷⓿번째 생일,,&#128155;&#10;…자세히",
-      "hashtags": [],
-      "music": "Becky Hill &amp; Speed Radio &amp; xxtristanxo의 Remember - Acoustic / Sped Up (with David Guetta)",
-      "category": "General"
-    },
-    {
-      "views": 1753000,
-      "likes": 417000,
-      "comments": 2520,
-      "shares": 8207,
-      "saves": 40000,
-      "posted_at": "2026-02-15",
-      "caption": "&#128048;&#129418;&#10;…자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 0,
-      "likes": 385000,
-      "comments": 3893,
-      "shares": 14000,
-      "saves": 27000,
-      "posted_at": "2026-02-11",
-      "caption": "@Cullen Neale &#10;&#119917;&#119946;&#119951;&#119938;&#119949;&#119949;&#119962;!! &#119935;&#119923;&#119926;&#119933; &#119946;&#119956; &#119945;&#119942;&#119955;&#119942;~…자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 4,
-    "posts_last_30d": 4,
-    "avg_views": 1512750,
-    "avg_likes": 445250,
-    "avg_comments": 3668,
-    "avg_shares": 12140,
-    "avg_saves": 37500,
-    "engagement_rate": 11.97,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

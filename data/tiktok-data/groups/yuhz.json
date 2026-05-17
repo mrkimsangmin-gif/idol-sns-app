@@ -3,112 +3,17 @@
   "name_en": "YUHZ",
   "slug": "yuhz",
   "tiktok_url": "https://www.tiktok.com/@yuhz_official",
-  "crawled_at": "2026-03-08T21:11:55.871594",
+  "crawled_at": "2026-05-17T20:25:40.145676",
   "profile": {
     "display_name": "YUHZ",
-    "username": "@yuhz_official",
+    "username": "",
     "verified": false,
     "category": "",
-    "followers": 54000,
+    "followers": 0,
     "following": 0,
-    "total_likes": 644000,
-    "bio": "YUHZ (유어즈) OFFICIAL TIKTOK"
+    "total_likes": 0,
+    "bio": "YUHZ (유어즈) OFFICIAL TIKTOK&#10;YUHZ 1st Single Album 〖 &#119926;&#119955;&#119938;&#119951;&#119944;&#119942; &#119929;&#119942;&#119940;&#119952;&#119955;&#119941; 〗&#10;➫ 2026.05.07 6PM (KST)"
   },
-  "posts": [
-    {
-      "views": 404,
-      "likes": 194,
-      "comments": 13,
-      "shares": 7,
-      "saves": 15,
-      "posted_at": "2026-03-08",
-      "caption": "[&#129705;]&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 755,
-      "likes": 331,
-      "comments": 23,
-      "shares": 8,
-      "saves": 32,
-      "posted_at": "2026-03-08",
-      "caption": "[&#129705;]&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 3087,
-      "likes": 3592,
-      "comments": 81,
-      "shares": 108,
-      "saves": 412,
-      "posted_at": "2026-03-06",
-      "caption": "[&#129705;]&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 11000,
-      "likes": 996,
-      "comments": 39,
-      "shares": 35,
-      "saves": 121,
-      "posted_at": "2026-03-05",
-      "caption": "[&#129705;]&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "걸스데이의 한번만 안아줘",
-      "category": "General"
-    },
-    {
-      "views": 4472,
-      "likes": 1721,
-      "comments": 35,
-      "shares": 56,
-      "saves": 168,
-      "posted_at": "2026-03-04",
-      "caption": "[&#129705;]&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "KiiiKiii (키키)의 404 (New Era)",
-      "category": "General"
-    },
-    {
-      "views": 3320,
-      "likes": 743,
-      "comments": 33,
-      "shares": 38,
-      "saves": 91,
-      "posted_at": "2026-03-04",
-      "caption": "[&#129705;]&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "씨스타(Sistar)의 바빠 (Bad boy)",
-      "category": "General"
-    },
-    {
-      "views": 0,
-      "likes": 1304,
-      "comments": 42,
-      "shares": 57,
-      "saves": 130,
-      "posted_at": "2026-03-03",
-      "caption": "[&#129705;]&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "ILLIT의 Sunday Morning",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 7,
-    "posts_last_30d": 7,
-    "avg_views": 3291,
-    "avg_likes": 1269,
-    "avg_comments": 38,
-    "avg_shares": 44,
-    "avg_saves": 138,
-    "engagement_rate": 17.39,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

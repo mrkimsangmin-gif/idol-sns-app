@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-03T02:00:10.547939+09:00",
+  "generated": "2026-05-17T19:53:05.755013+09:00",
   "period": {
-    "start": "2025-05-03",
-    "end": "2026-05-03"
+    "start": "2025-05-17",
+    "end": "2026-05-17"
   },
   "total_groups": 161,
-  "total_videos": 15946,
+  "total_videos": 15999,
   "groups": [
     {
       "name": "블랙핑크",
@@ -4813,16 +4813,116 @@
           "likely_promoted": true,
           "comeback_phase": "comeback_week",
           "days_from_mv": -7
+        },
+        {
+          "video_id": "BHoSWSU5jfo",
+          "title": "#BTS #방탄소년단 ‘Hooligan' MV OUT NOW #BTS_ARIRANG #Hooligan",
+          "published_at": "2026-04-07T00:00:00Z",
+          "duration_seconds": 41,
+          "views": 1360453,
+          "likes": 162766,
+          "comments": 2424,
+          "like_ratio": 0.1196,
+          "comment_ratio": 0.0018,
+          "tags": [],
+          "video_type": "MV",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": null,
+          "days_from_mv": null,
+          "source": "label_channel",
+          "label_channel": "UC3IZKseVpdzPSBaWxBxundA",
+          "label_name": "HYBE LABELS"
+        },
+        {
+          "video_id": "diBO0gMuTXo",
+          "title": "BTS (방탄소년단) 'Hooligan' Official MV",
+          "published_at": "2026-04-07T00:00:00Z",
+          "duration_seconds": 244,
+          "views": 49717465,
+          "likes": 2964536,
+          "comments": 155759,
+          "like_ratio": 0.0596,
+          "comment_ratio": 0.0031,
+          "tags": [],
+          "video_type": "MV",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": null,
+          "days_from_mv": null,
+          "source": "label_channel",
+          "label_channel": "UC3IZKseVpdzPSBaWxBxundA",
+          "label_name": "HYBE LABELS"
+        },
+        {
+          "video_id": "7c0QVWIIics",
+          "title": "#BTS #방탄소년단 ‘2.0' MV OUT NOW #BTS_ARIRANG #2point0",
+          "published_at": "2026-04-01T00:00:00Z",
+          "duration_seconds": 26,
+          "views": 946100,
+          "likes": 118378,
+          "comments": 1601,
+          "like_ratio": 0.1251,
+          "comment_ratio": 0.0017,
+          "tags": [],
+          "video_type": "MV",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": null,
+          "days_from_mv": null,
+          "source": "label_channel",
+          "label_channel": "UC3IZKseVpdzPSBaWxBxundA",
+          "label_name": "HYBE LABELS"
+        },
+        {
+          "video_id": "_gyultVTesk",
+          "title": "BTS (방탄소년단) '2.0' Official MV",
+          "published_at": "2026-04-01T00:00:00Z",
+          "duration_seconds": 235,
+          "views": 91033981,
+          "likes": 4240405,
+          "comments": 260246,
+          "like_ratio": 0.0466,
+          "comment_ratio": 0.0029,
+          "tags": [],
+          "video_type": "MV",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": null,
+          "days_from_mv": null,
+          "source": "label_channel",
+          "label_channel": "UC3IZKseVpdzPSBaWxBxundA",
+          "label_name": "HYBE LABELS"
+        },
+        {
+          "video_id": "b4iVv91Z6lY",
+          "title": "BTS (방탄소년단) ‘SWIM’ Official MV",
+          "published_at": "2026-03-20T00:00:00Z",
+          "duration_seconds": 245,
+          "views": 119632362,
+          "likes": 6522372,
+          "comments": 1117625,
+          "like_ratio": 0.0545,
+          "comment_ratio": 0.0093,
+          "tags": [],
+          "video_type": "MV",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": null,
+          "days_from_mv": null,
+          "source": "label_channel",
+          "label_channel": "UC3IZKseVpdzPSBaWxBxundA",
+          "label_name": "HYBE LABELS"
         }
       ],
       "stats": {
-        "total_videos": 143,
-        "total_views": 146421653,
-        "mv_views": 15394948,
+        "total_videos": 148,
+        "total_views": 409112014,
+        "mv_views": 278085309,
         "non_mv_views": 131026705,
-        "bubble_ratio": 8.511,
-        "avg_like_ratio": 0.1437,
-        "avg_comment_ratio": 0.0065,
+        "bubble_ratio": 0.471,
+        "avg_like_ratio": 0.1416,
+        "avg_comment_ratio": 0.0064,
         "fandom_index": 1474979,
         "types": {
           "Other": 14,
@@ -4831,7 +4931,7 @@
           "Performance": 11,
           "Behind": 36,
           "Live_Concert": 20,
-          "MV": 19,
+          "MV": 24,
           "MV_Teaser": 14,
           "Cover": 1,
           "Dance_Practice": 3,
@@ -31650,15 +31750,35 @@
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
           "days_from_mv": null
+        },
+        {
+          "video_id": "jOnLqqDRfY4",
+          "title": "TXT (투모로우바이투게더) '하루에 하루만 더 (Stick With You)' Official MV",
+          "published_at": "2026-04-13T00:00:00Z",
+          "duration_seconds": 278,
+          "views": 28602996,
+          "likes": 457776,
+          "comments": 69100,
+          "like_ratio": 0.016,
+          "comment_ratio": 0.0024,
+          "tags": [],
+          "video_type": "MV",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": null,
+          "days_from_mv": null,
+          "source": "label_channel",
+          "label_channel": "UC3IZKseVpdzPSBaWxBxundA",
+          "label_name": "HYBE LABELS"
         }
       ],
       "stats": {
-        "total_videos": 224,
-        "total_views": 132767483,
-        "mv_views": 680647,
+        "total_videos": 225,
+        "total_views": 161370479,
+        "mv_views": 29283643,
         "non_mv_views": 132086836,
-        "bubble_ratio": 194.061,
-        "avg_like_ratio": 0.1067,
+        "bubble_ratio": 4.511,
+        "avg_like_ratio": 0.1063,
         "avg_comment_ratio": 0.0038,
         "fandom_index": 403488,
         "types": {
@@ -31669,7 +31789,7 @@
           "Behind": 54,
           "Cover": 5,
           "Other": 23,
-          "MV": 3,
+          "MV": 4,
           "Concept_Teaser": 4,
           "Live_Concert": 4,
           "Album_Preview": 1,
@@ -58178,15 +58298,35 @@
           "likely_promoted": false,
           "comeback_phase": "comeback_week",
           "days_from_mv": -6
+        },
+        {
+          "video_id": "a2grcJdfXmY",
+          "title": "LE SSERAFIM (르세라핌) 'CELEBRATION' OFFICIAL MV",
+          "published_at": "2026-04-24T00:00:00Z",
+          "duration_seconds": 189,
+          "views": 9302647,
+          "likes": 398531,
+          "comments": 17394,
+          "like_ratio": 0.0428,
+          "comment_ratio": 0.0019,
+          "tags": [],
+          "video_type": "MV",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": null,
+          "days_from_mv": null,
+          "source": "label_channel",
+          "label_channel": "UC3IZKseVpdzPSBaWxBxundA",
+          "label_name": "HYBE LABELS"
         }
       ],
       "stats": {
-        "total_videos": 182,
-        "total_views": 95225148,
-        "mv_views": 6095776,
+        "total_videos": 183,
+        "total_views": 104527795,
+        "mv_views": 15398423,
         "non_mv_views": 89129372,
-        "bubble_ratio": 14.621,
-        "avg_like_ratio": 0.0643,
+        "bubble_ratio": 5.788,
+        "avg_like_ratio": 0.0641,
         "avg_comment_ratio": 0.0022,
         "fandom_index": 382787,
         "types": {
@@ -58200,7 +58340,7 @@
           "Cover": 2,
           "Live_Concert": 8,
           "Interview": 1,
-          "MV": 3
+          "MV": 4
         }
       }
     },
@@ -89349,11 +89489,11 @@
           "title": "키링에 진심인 아일릿🎀 | 꼬질해질 때까지 함께한 애착 키링 대공개‼️ I ILLIT (아일릿) [lit-pouch]",
           "published_at": "2026-03-07T06:59:59Z",
           "duration_seconds": 911,
-          "views": 95131,
-          "likes": 8660,
-          "comments": 499,
-          "like_ratio": 0.091,
-          "comment_ratio": 0.0052,
+          "views": 212937,
+          "likes": 13304,
+          "comments": 616,
+          "like_ratio": 0.0625,
+          "comment_ratio": 0.0029,
           "tags": [
             "I’LL-IT",
             "ILLIT",
@@ -89369,20 +89509,19 @@
           "video_type": "Variety",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null,
-          "classified_by": "hybrid_ml"
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 27
         },
         {
           "video_id": "Ut6Rob0TOO0",
           "title": "아일릿의 트렌드 따라잡기 프로젝트🧐 l 유행을 찾아서 l ILLIT (아일릿)",
           "published_at": "2026-03-04T08:59:59Z",
           "duration_seconds": 499,
-          "views": 150369,
-          "likes": 10539,
-          "comments": 477,
-          "like_ratio": 0.0701,
-          "comment_ratio": 0.0032,
+          "views": 193780,
+          "likes": 12301,
+          "comments": 491,
+          "like_ratio": 0.0635,
+          "comment_ratio": 0.0025,
           "tags": [
             "I’LL-IT",
             "ILLIT",
@@ -89398,20 +89537,19 @@
           "video_type": "Variety",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null,
-          "classified_by": "hybrid_ml"
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 25
         },
         {
           "video_id": "Ze8LlMBYLlc",
           "title": "[알바vlog] (고)용해주셔서 (진)짜 (감)사한데 집에 갈(래) I #슈퍼아일릿 #EP22",
           "published_at": "2026-03-02T12:00:01Z",
           "duration_seconds": 1832,
-          "views": 391765,
-          "likes": 23125,
-          "comments": 1313,
-          "like_ratio": 0.059,
-          "comment_ratio": 0.0034,
+          "views": 649134,
+          "likes": 30406,
+          "comments": 1464,
+          "like_ratio": 0.0468,
+          "comment_ratio": 0.0023,
           "tags": [
             "I’LL-IT",
             "ILLIT",
@@ -89424,22 +89562,22 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Vlog",
+          "video_type": "Variety",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 23
         },
         {
           "video_id": "9cBTEIUBrsQ",
           "title": "백조가 되고 싶은 (안) 미운 오리 새끼 5마리🐥 I #슈퍼아일릿 #EP21 ",
           "published_at": "2026-02-23T12:00:01Z",
           "duration_seconds": 1375,
-          "views": 646547,
-          "likes": 37511,
-          "comments": 1722,
-          "like_ratio": 0.058,
-          "comment_ratio": 0.0027,
+          "views": 929581,
+          "likes": 46223,
+          "comments": 1827,
+          "like_ratio": 0.0497,
+          "comment_ratio": 0.002,
           "tags": [
             "I’LL-IT",
             "ILLIT",
@@ -89455,19 +89593,19 @@
           "video_type": "Variety",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 16
         },
         {
           "video_id": "NVJJk2DSbUM",
           "title": "5인 5색 ASMR | 설날 롤플레이 | ILLIT (아일릿)",
           "published_at": "2026-02-18T08:00:01Z",
           "duration_seconds": 367,
-          "views": 257407,
-          "likes": 17565,
-          "comments": 792,
-          "like_ratio": 0.0682,
-          "comment_ratio": 0.0031,
+          "views": 311530,
+          "likes": 19117,
+          "comments": 810,
+          "like_ratio": 0.0614,
+          "comment_ratio": 0.0026,
           "tags": [
             "I’LL-IT",
             "ILLIT",
@@ -89483,8 +89621,8 @@
           "video_type": "Variety",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "second_week",
+          "days_from_mv": 11
         },
         {
           "video_id": "U_PfNyE2ukM",
@@ -89511,8 +89649,8 @@
           "video_type": "Vlog",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "first_week",
+          "days_from_mv": 7
         },
         {
           "video_id": "71KB04E8OpU",
@@ -89536,11 +89674,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "first_week",
+          "days_from_mv": 6
         },
         {
           "video_id": "PJTajEDU-O4",
@@ -89564,11 +89702,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "first_week",
+          "days_from_mv": 2
         },
         {
           "video_id": "Sl_T3gM9P_s",
@@ -89595,8 +89733,8 @@
           "video_type": "Behind",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "first_week",
+          "days_from_mv": 1
         },
         {
           "video_id": "dffJ0tHyzGY",
@@ -89620,11 +89758,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Behind",
-          "is_comeback_content": true,
+          "video_type": "MV",
+          "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "comeback_week",
+          "days_from_mv": 0
         },
         {
           "video_id": "GPsCxtr-IE0",
@@ -89648,11 +89786,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Vlog",
+          "video_type": "Variety",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "comeback_week",
+          "days_from_mv": -1
         },
         {
           "video_id": "udYeu9k4W6Y",
@@ -89676,11 +89814,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Other",
+          "video_type": "Cover",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "comeback_week",
+          "days_from_mv": -2
         },
         {
           "video_id": "rn1MQhN0Pk4",
@@ -89704,11 +89842,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "comeback_week",
+          "days_from_mv": -2
         },
         {
           "video_id": "65RgEY46kWo",
@@ -89732,11 +89870,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "comeback_week",
+          "days_from_mv": -5
         },
         {
           "video_id": "_FHFLdf4IeE",
@@ -89760,11 +89898,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -12
         },
         {
           "video_id": "qnEda44Lj7c",
@@ -89788,7 +89926,7 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
@@ -89817,7 +89955,7 @@
             "원희"
           ],
           "video_type": "Behind",
-          "is_comeback_content": true,
+          "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
           "days_from_mv": null
@@ -89845,7 +89983,7 @@
             "원희"
           ],
           "video_type": "Other",
-          "is_comeback_content": true,
+          "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
           "days_from_mv": null
@@ -89872,7 +90010,7 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
@@ -89901,7 +90039,7 @@
             "원희"
           ],
           "video_type": "Behind",
-          "is_comeback_content": true,
+          "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
           "days_from_mv": null
@@ -89956,7 +90094,7 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
@@ -90012,7 +90150,7 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Performance",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
@@ -90068,11 +90206,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 29
         },
         {
           "video_id": "fyJJm2vLfH0",
@@ -90099,8 +90237,8 @@
           "video_type": "Dance_Practice",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 28
         },
         {
           "video_id": "6vkcGnfqXLs",
@@ -90125,10 +90263,10 @@
             "원희"
           ],
           "video_type": "Behind",
-          "is_comeback_content": true,
+          "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 20
         },
         {
           "video_id": "wpokz1JhGl0",
@@ -90153,10 +90291,10 @@
             "원희"
           ],
           "video_type": "Performance",
-          "is_comeback_content": true,
-          "likely_promoted": true,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 17
         },
         {
           "video_id": "bjYuX7-dAI4",
@@ -90181,10 +90319,10 @@
             "원희"
           ],
           "video_type": "Interview",
-          "is_comeback_content": true,
+          "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 15
         },
         {
           "video_id": "11GqXEYZq4I",
@@ -90208,11 +90346,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Vlog",
+          "video_type": "Variety",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "second_week",
+          "days_from_mv": 13
         },
         {
           "video_id": "U4SDFg2a2PQ",
@@ -90239,8 +90377,8 @@
           "video_type": "Behind",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "second_week",
+          "days_from_mv": 12
         },
         {
           "video_id": "wqktNFA9K7g",
@@ -90267,8 +90405,8 @@
           "video_type": "Variety",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "second_week",
+          "days_from_mv": 11
         },
         {
           "video_id": "FrYJ7tIxhlg",
@@ -90295,8 +90433,8 @@
           "video_type": "Behind",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "second_week",
+          "days_from_mv": 9
         },
         {
           "video_id": "K-jgTQxJLMg",
@@ -90323,8 +90461,8 @@
           "video_type": "Other",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "first_week",
+          "days_from_mv": 7
         },
         {
           "video_id": "skbQkPKUnLo",
@@ -90351,8 +90489,8 @@
           "video_type": "Behind",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "first_week",
+          "days_from_mv": 6
         },
         {
           "video_id": "3WFHaaZhvck",
@@ -90379,8 +90517,8 @@
           "video_type": "Behind",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "first_week",
+          "days_from_mv": 5
         },
         {
           "video_id": "kH3-xYGkE28",
@@ -90407,8 +90545,8 @@
           "video_type": "Behind",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "first_week",
+          "days_from_mv": 2
         },
         {
           "video_id": "LEV3hlMfP2g",
@@ -90435,8 +90573,8 @@
           "video_type": "Behind",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "comeback_week",
+          "days_from_mv": 0
         },
         {
           "video_id": "3_EJRiGdZvc",
@@ -90461,10 +90599,10 @@
             "원희"
           ],
           "video_type": "MV",
-          "is_comeback_content": true,
+          "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null,
+          "comeback_phase": "comeback_week",
+          "days_from_mv": 0,
           "classified_by": "hybrid_rule"
         },
         {
@@ -90490,10 +90628,10 @@
             "원희"
           ],
           "video_type": "Other",
-          "is_comeback_content": true,
+          "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "comeback_week",
+          "days_from_mv": -1
         },
         {
           "video_id": "C3O9_osUGck",
@@ -90520,8 +90658,8 @@
           "video_type": "Cover",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "comeback_week",
+          "days_from_mv": -7
         },
         {
           "video_id": "foTIL4wxHmo",
@@ -90545,11 +90683,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Performance",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -9
         },
         {
           "video_id": "hc49jygwND4",
@@ -90573,11 +90711,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Performance",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -9
         },
         {
           "video_id": "8VLPmqt34Qo",
@@ -90601,11 +90739,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Performance",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -9
         },
         {
           "video_id": "JD4hl6-p-U0",
@@ -90629,11 +90767,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Performance",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -9
         },
         {
           "video_id": "HN_18NQdk7E",
@@ -90657,11 +90795,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Performance",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -9
         },
         {
           "video_id": "NerUCFDD58M",
@@ -90686,10 +90824,10 @@
             "원희"
           ],
           "video_type": "Behind",
-          "is_comeback_content": true,
+          "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -12
         },
         {
           "video_id": "1qfs77--B68",
@@ -90713,7 +90851,7 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Dance_Practice",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
@@ -90825,7 +90963,7 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
@@ -90881,7 +91019,7 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Performance",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
@@ -90965,7 +91103,7 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
@@ -90993,7 +91131,7 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
@@ -91302,7 +91440,7 @@
             "원희"
           ],
           "video_type": "Performance",
-          "is_comeback_content": false,
+          "is_comeback_content": true,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
           "days_from_mv": null
@@ -91805,7 +91943,7 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Vlog",
+          "video_type": "Variety",
           "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
@@ -91892,8 +92030,8 @@
           "video_type": "Behind",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 25
         },
         {
           "video_id": "NCQKxNMLfyE",
@@ -91920,8 +92058,8 @@
           "video_type": "Behind",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 22
         },
         {
           "video_id": "oRiZMXbzbAA",
@@ -91948,8 +92086,8 @@
           "video_type": "Behind",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 21
         },
         {
           "video_id": "X-KriGGVfVA",
@@ -91976,8 +92114,8 @@
           "video_type": "Behind",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 18
         },
         {
           "video_id": "blX8bhE6Ces",
@@ -92004,8 +92142,8 @@
           "video_type": "Other",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 15
         },
         {
           "video_id": "fPgiE0bZ11U",
@@ -92032,8 +92170,8 @@
           "video_type": "Behind",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "second_week",
+          "days_from_mv": 14
         },
         {
           "video_id": "tIGN4xVq4QE",
@@ -92060,8 +92198,8 @@
           "video_type": "Behind",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "second_week",
+          "days_from_mv": 13
         },
         {
           "video_id": "52aOa6h4XTE",
@@ -92086,10 +92224,10 @@
             "원희"
           ],
           "video_type": "Behind",
-          "is_comeback_content": true,
+          "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "second_week",
+          "days_from_mv": 11
         },
         {
           "video_id": "5mx2Dgdy82g",
@@ -92114,10 +92252,10 @@
             "원희"
           ],
           "video_type": "Behind",
-          "is_comeback_content": true,
+          "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "second_week",
+          "days_from_mv": 11
         },
         {
           "video_id": "FxY3Yy85yDg",
@@ -92144,8 +92282,8 @@
           "video_type": "Behind",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "second_week",
+          "days_from_mv": 10
         },
         {
           "video_id": "FUgHrc6DPAs",
@@ -92172,8 +92310,8 @@
           "video_type": "Behind",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "second_week",
+          "days_from_mv": 8
         },
         {
           "video_id": "REyGaRtfU3M",
@@ -92198,10 +92336,10 @@
             "원희"
           ],
           "video_type": "Other",
-          "is_comeback_content": true,
-          "likely_promoted": true,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "first_week",
+          "days_from_mv": 4
         },
         {
           "video_id": "t_cHqq39FOY",
@@ -92225,11 +92363,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
-          "is_comeback_content": true,
+          "video_type": "Other",
+          "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "first_week",
+          "days_from_mv": 1
         },
         {
           "video_id": "NX2_aMsm-WA",
@@ -92253,11 +92391,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Behind",
-          "is_comeback_content": true,
+          "video_type": "MV",
+          "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "comeback_week",
+          "days_from_mv": 0
         },
         {
           "video_id": "htXv7fpQlNc",
@@ -92282,10 +92420,10 @@
             "원희"
           ],
           "video_type": "Dance_Practice",
-          "is_comeback_content": true,
-          "likely_promoted": true,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "comeback_week",
+          "days_from_mv": -4
         },
         {
           "video_id": "Vqec3HUOZWg",
@@ -92310,10 +92448,10 @@
             "원희"
           ],
           "video_type": "Other",
-          "is_comeback_content": true,
+          "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "comeback_week",
+          "days_from_mv": -7
         },
         {
           "video_id": "4p3Yy-HiMUE",
@@ -92337,11 +92475,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Performance",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -9
         },
         {
           "video_id": "yuOPNwfvfC4",
@@ -92365,11 +92503,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Performance",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -9
         },
         {
           "video_id": "bZbj02Muooo",
@@ -92394,10 +92532,10 @@
             "원희"
           ],
           "video_type": "Behind",
-          "is_comeback_content": true,
+          "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -10
         },
         {
           "video_id": "3DYQuEz57tU",
@@ -92424,8 +92562,8 @@
           "video_type": "Behind",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -11
         },
         {
           "video_id": "z7ouotntI-8",
@@ -92449,11 +92587,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Behind",
-          "is_comeback_content": true,
+          "video_type": "MV",
+          "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -12
         },
         {
           "video_id": "ey0a1Vv-ToU",
@@ -92480,8 +92618,8 @@
           "video_type": "Behind",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -12
         },
         {
           "video_id": "U6wLTiV-xng",
@@ -92505,11 +92643,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Behind",
-          "is_comeback_content": true,
+          "video_type": "MV",
+          "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -14
         },
         {
           "video_id": "0wc9ouJwg48",
@@ -92533,11 +92671,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "comeback_week",
+          "days_from_mv": -7
         },
         {
           "video_id": "hb7FTKBNTDc",
@@ -92564,8 +92702,8 @@
           "video_type": "Behind",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -8
         },
         {
           "video_id": "opIls8lYCQY",
@@ -92592,8 +92730,8 @@
           "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -11
         },
         {
           "video_id": "eNhJ-5cHlUg",
@@ -92618,7 +92756,7 @@
             "원희"
           ],
           "video_type": "Behind",
-          "is_comeback_content": true,
+          "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
           "days_from_mv": null
@@ -92645,7 +92783,7 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
@@ -92673,7 +92811,7 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Variety",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
@@ -92926,7 +93064,7 @@
             "원희"
           ],
           "video_type": "Behind",
-          "is_comeback_content": true,
+          "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
           "days_from_mv": null
@@ -93216,11 +93354,11 @@
           "title": "아일릿(ILLIT) 2026 설날 인사",
           "published_at": "2026-02-17T03:00:01Z",
           "duration_seconds": 102,
-          "views": 124921,
-          "likes": 14027,
-          "comments": 1058,
-          "like_ratio": 0.1123,
-          "comment_ratio": 0.0085,
+          "views": 133009,
+          "likes": 14217,
+          "comments": 1051,
+          "like_ratio": 0.1069,
+          "comment_ratio": 0.0079,
           "tags": [
             "I’LL-IT",
             "ILLIT",
@@ -93236,8 +93374,8 @@
           "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "second_week",
+          "days_from_mv": 9
         },
         {
           "video_id": "ikNZGsVRcuk",
@@ -93264,8 +93402,8 @@
           "video_type": "Variety",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -10
         },
         {
           "video_id": "1LdSXItiQSg",
@@ -93347,9 +93485,9 @@
           ],
           "video_type": "Performance",
           "is_comeback_content": true,
-          "likely_promoted": true,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "likely_promoted": false,
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 29
         },
         {
           "video_id": "-tgJECVba9c",
@@ -93376,8 +93514,8 @@
           "video_type": "Dance_Practice",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "first_week",
+          "days_from_mv": 6
         },
         {
           "video_id": "QKKvBU7Ls6Q",
@@ -93404,8 +93542,8 @@
           "video_type": "Other",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "comeback_week",
+          "days_from_mv": 0
         },
         {
           "video_id": "20h6kR-NpaQ",
@@ -93432,8 +93570,8 @@
           "video_type": "Live_Concert",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -10
         },
         {
           "video_id": "0v-SGVRWS04",
@@ -93460,8 +93598,8 @@
           "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -13
         },
         {
           "video_id": "aFNxGemp8LM",
@@ -93488,8 +93626,8 @@
           "video_type": "Live_Concert",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -14
         },
         {
           "video_id": "DiAlJkQeuP0",
@@ -93821,9 +93959,9 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Album_Preview",
-          "is_comeback_content": false,
-          "likely_promoted": false,
+          "video_type": "Concept_Teaser",
+          "is_comeback_content": true,
+          "likely_promoted": true,
           "comeback_phase": "non_comeback",
           "days_from_mv": null
         },
@@ -93849,11 +93987,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "MV_Teaser",
-          "is_comeback_content": false,
-          "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "video_type": "Concept_Teaser",
+          "is_comeback_content": true,
+          "likely_promoted": true,
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 29
         },
         {
           "video_id": "ji87V3ipKPg",
@@ -93877,11 +94015,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "Other",
-          "is_comeback_content": false,
+          "video_type": "Behind",
+          "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 25
         },
         {
           "video_id": "E5joqiTD0ws",
@@ -93906,10 +94044,10 @@
             "원희"
           ],
           "video_type": "Dance_Practice",
-          "is_comeback_content": false,
-          "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "is_comeback_content": true,
+          "likely_promoted": true,
+          "comeback_phase": "post_comeback",
+          "days_from_mv": 20
         },
         {
           "video_id": "pUnkBylHykw",
@@ -93936,8 +94074,8 @@
           "video_type": "Cover",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -10
         },
         {
           "video_id": "BcS-JVfL7bc",
@@ -93961,11 +94099,11 @@
             "MOKA",
             "원희"
           ],
-          "video_type": "MV_Teaser",
+          "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
-          "comeback_phase": "non_comeback",
-          "days_from_mv": null
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -11
         },
         {
           "video_id": "Bm3qryDSfno",
@@ -93989,35 +94127,1222 @@
             "MOKA",
             "원희"
           ],
+          "video_type": "Performance",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "fxLLqjumaes",
+          "title": "글릿, 어린이날에도 즐거웠죠?💕 | It's Me 대통합 | ILLIT (아일릿) ‘It's Me’ 서울어린이대공원 페스티벌 비하인드",
+          "published_at": "2026-05-16T04:00:01Z",
+          "duration_seconds": 378,
+          "views": 39298,
+          "likes": 4501,
+          "comments": 345,
+          "like_ratio": 0.1145,
+          "comment_ratio": 0.0088,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Behind",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "ko5DZ52Hs8w",
+          "title": "It's Me쳐보자~❤️‍🔥| 글릿, 아일릿이 최애라고 말할 거죠? (말해줘요) | ILLIT (아일릿) ‘It's Me’ 음악방송 비하인드 EP.1",
+          "published_at": "2026-05-12T11:00:01Z",
+          "duration_seconds": 677,
+          "views": 89332,
+          "likes": 6837,
+          "comments": 382,
+          "like_ratio": 0.0765,
+          "comment_ratio": 0.0043,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Behind",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "0yGbDv6KHmI",
+          "title": "진짜, 그냥, 이렇게🤟 칼각의 비밀 | 스트레칭 되는 파워 퍼포먼스 연습 | ILLIT (아일릿) ‘It's Me’ 안무 연습 비하인드",
+          "published_at": "2026-05-11T11:00:01Z",
+          "duration_seconds": 584,
+          "views": 205809,
+          "likes": 12434,
+          "comments": 570,
+          "like_ratio": 0.0604,
+          "comment_ratio": 0.0028,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Behind",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "flKm2bT2rf0",
+          "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 칼로리 소모🔥 같이 운동해요💪 (with 스페셜 게스트) | 'It's Me' N배속 반복 재생 | ILLIT (아일릿) [PLAY-IT]",
+          "published_at": "2026-05-10T09:00:01Z",
+          "duration_seconds": 1353,
+          "views": 151947,
+          "likes": 12118,
+          "comments": 670,
+          "like_ratio": 0.0798,
+          "comment_ratio": 0.0044,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Variety",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "Lf0-scxqBl0",
+          "title": "Little KTIGERS 멋져서 릿둥이들도 반함✨|아일릿도 멋지지?ദ്ദി( '-' )|ILLIT (아일릿) ‘It's Me’ Little KTIGERS 안무 영상 촬영 비하인드",
+          "published_at": "2026-05-09T09:00:02Z",
+          "duration_seconds": 313,
+          "views": 78650,
+          "likes": 6600,
+          "comments": 316,
+          "like_ratio": 0.0839,
+          "comment_ratio": 0.004,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Behind",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "ief-vUVH58U",
+          "title": "오키나와에서의 달콤한 휴식 🏖️ l 호시노 리조트 광고 촬영 비하인드 l ILLIT (아일릿) [BEHIND-IT]",
+          "published_at": "2026-05-09T04:00:01Z",
+          "duration_seconds": 647,
+          "views": 113726,
+          "likes": 9117,
+          "comments": 527,
+          "like_ratio": 0.0802,
+          "comment_ratio": 0.0046,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Behind",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "cNXaYoU7EJQ",
+          "title": "배우(?) 아일릿의 희로애락 연기 도전기 | 기쁨, 슬픔, 분노 그리고 맑눈광(?) | 'It's Me' MV 비하인드 | ILLIT (아일릿)",
+          "published_at": "2026-05-06T11:00:00Z",
+          "duration_seconds": 968,
+          "views": 124504,
+          "likes": 9078,
+          "comments": 551,
+          "like_ratio": 0.0729,
+          "comment_ratio": 0.0044,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Behind",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "BxhD0liDG1Q",
+          "title": "답답넙치 냅다 소환🐟‼️ | 글릿의 최애는 아일릿이야✨ | ILLIT (아일릿) ‘It's Me’ 녹음 비하인드",
+          "published_at": "2026-05-03T07:00:01Z",
+          "duration_seconds": 872,
+          "views": 380930,
+          "likes": 22095,
+          "comments": 778,
+          "like_ratio": 0.058,
+          "comment_ratio": 0.002,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Behind",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "agEBNCFNlaA",
+          "title": "ILLIT (아일릿) 'It's Me' 응원법",
+          "published_at": "2026-04-30T10:00:00Z",
+          "duration_seconds": 189,
+          "views": 333569,
+          "likes": 26019,
+          "comments": 1502,
+          "like_ratio": 0.078,
+          "comment_ratio": 0.0045,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Other",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "0ubKRuI6yPY",
+          "title": "아일릿의 bias 찾기 프로젝트🔎 l 취향을 찾아서 l ILLIT (아일릿)",
+          "published_at": "2026-04-27T11:00:01Z",
+          "duration_seconds": 883,
+          "views": 136743,
+          "likes": 9479,
+          "comments": 558,
+          "like_ratio": 0.0693,
+          "comment_ratio": 0.0041,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Variety",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "zjKVaLsg53U",
+          "title": "글릿! 민주의 프러포즈 받아줄 거지?💍 | It's Me vlog | 'MAMIHLAPINATAPAI' 콘셉트 포토 비하인드 | ILLIT (아일릿)",
+          "published_at": "2026-04-26T07:00:01Z",
+          "duration_seconds": 224,
+          "views": 107060,
+          "likes": 8985,
+          "comments": 525,
+          "like_ratio": 0.0839,
+          "comment_ratio": 0.0049,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Vlog",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "4FGZBz4b6tM",
+          "title": "파리지앵 윤아의 완벽한 하루🇫🇷🥖 | It's Me 캠페인 필름 비하인드 | ILLIT (아일릿)",
+          "published_at": "2026-04-25T07:00:01Z",
+          "duration_seconds": 382,
+          "views": 72354,
+          "likes": 7573,
+          "comments": 424,
+          "like_ratio": 0.1047,
+          "comment_ratio": 0.0059,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Behind",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "JhZJgF7L_-w",
+          "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] ⛧*̩̩͙⸝⋆아일릿의 감성 몽환곡⛧*̩̩͙⸝⋆ | PRESS START♥ 플레이리스트 | ILLIT (아일릿) [PLAY-IT]",
+          "published_at": "2026-04-18T11:00:01Z",
+          "duration_seconds": 501,
+          "views": 163304,
+          "likes": 11551,
+          "comments": 660,
+          "like_ratio": 0.0707,
+          "comment_ratio": 0.004,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
           "video_type": "Other",
           "is_comeback_content": false,
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
           "days_from_mv": null
+        },
+        {
+          "video_id": "4plJIdwRbYc",
+          "title": "오랜만에 만난 주민들🌳 | 모카랑 같이 게임해요 | 모여봐요 동물의 숲 Nintendo Switch 2 Edition | ILLIT (아일릿)",
+          "published_at": "2026-04-18T07:00:01Z",
+          "duration_seconds": 554,
+          "views": 253400,
+          "likes": 14918,
+          "comments": 758,
+          "like_ratio": 0.0589,
+          "comment_ratio": 0.003,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Variety",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "A3KzHl0W2zg",
+          "title": "⚠️멋짐 주의⚠️ 다크 모카의 하루 | FREE RIDER vlog | 'MAMIHLAPINATAPAI' 콘셉트 포토 비하인드 | ILLIT (아일릿)",
+          "published_at": "2026-04-15T11:00:01Z",
+          "duration_seconds": 300,
+          "views": 126110,
+          "likes": 10345,
+          "comments": 606,
+          "like_ratio": 0.082,
+          "comment_ratio": 0.0048,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Vlog",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "PUfB_VYzh78",
+          "title": "원희랑 같이 준비해요💄 | GRWM vlog | 'MAMIHLAPINATAPAI' 콘셉트 포토 비하인드 | ILLIT (아일릿)",
+          "published_at": "2026-04-08T11:00:01Z",
+          "duration_seconds": 380,
+          "views": 192720,
+          "likes": 13943,
+          "comments": 685,
+          "like_ratio": 0.0723,
+          "comment_ratio": 0.0036,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Vlog",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "TLsY9W4JFRw",
+          "title": "이로하의 관찰 일기🔎 | PAW PAW diary | 'MAMIHLAPINATAPAI' 콘셉트 포토 비하인드 | ILLIT (아일릿)",
+          "published_at": "2026-04-03T11:00:03Z",
+          "duration_seconds": 347,
+          "views": 162879,
+          "likes": 14417,
+          "comments": 629,
+          "like_ratio": 0.0885,
+          "comment_ratio": 0.0039,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Vlog",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "xcUMrjcKuVc",
+          "title": "5인 5색 귀염뽀짝 일상📷 | 카페 데이트부터 글릿봉 꾸미고 네컷사진 찍는 브이로그 | 디어릿(DEARLIT) | ILLIT (아일릿) [LOG-IT]",
+          "published_at": "2026-03-27T11:00:01Z",
+          "duration_seconds": 978,
+          "views": 164788,
+          "likes": 12256,
+          "comments": 632,
+          "like_ratio": 0.0744,
+          "comment_ratio": 0.0038,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Vlog",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "KtrvSaDd4nk",
+          "title": "아일릿 2주년 축하해🥳 글릿 놀 준비 됐지? | GLLIT NIGHT✨ (글릿 나잇) | ILLIT (아일릿)",
+          "published_at": "2026-03-25T09:00:01Z",
+          "duration_seconds": 1200,
+          "views": 142554,
+          "likes": 10591,
+          "comments": 723,
+          "like_ratio": 0.0743,
+          "comment_ratio": 0.0051,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Variety",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "d5iyDpR_0Is",
+          "title": "글릿 덕분에 너무 행복했어요‎(՞៸៸›⩊‹៸៸՞)🩷 l PRESS START♥️ 연습 비하인드 l ILLIT (아일릿) [BEHIND-IT]",
+          "published_at": "2026-03-20T11:00:01Z",
+          "duration_seconds": 571,
+          "views": 118157,
+          "likes": 8694,
+          "comments": 499,
+          "like_ratio": 0.0736,
+          "comment_ratio": 0.0042,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Behind",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "XY1kk3QiOog",
+          "title": "귀여움 한도 초과 💖 쪼꼬미 아일릿이 다시 태어났습니다 l 디어릿(DEARLIT) 제작기 l ILLIT (아일릿) [BEHIND-IT]",
+          "published_at": "2026-03-17T11:00:01Z",
+          "duration_seconds": 977,
+          "views": 153623,
+          "likes": 10571,
+          "comments": 455,
+          "like_ratio": 0.0688,
+          "comment_ratio": 0.003,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Behind",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "lM9WvnJbBjA",
+          "title": "이원희 스무 살 반대 파티 I #슈퍼아일릿 #EP24 ",
+          "published_at": "2026-03-16T12:00:02Z",
+          "duration_seconds": 1799,
+          "views": 757102,
+          "likes": 29447,
+          "comments": 1590,
+          "like_ratio": 0.0389,
+          "comment_ratio": 0.0021,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Variety",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "nJcrLZcCGlU",
+          "title": "♨️뜨끈한 찜찔방 낋여왔습니다♨️ I #슈퍼아일릿 #EP23",
+          "published_at": "2026-03-09T11:59:57Z",
+          "duration_seconds": 1557,
+          "views": 501329,
+          "likes": 23392,
+          "comments": 1006,
+          "like_ratio": 0.0467,
+          "comment_ratio": 0.002,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Variety",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "EYmA1tShKik",
+          "title": "ILLIT (아일릿) 'It's Me' @서울 어린이대공원 페스티벌",
+          "published_at": "2026-05-13T11:00:01Z",
+          "duration_seconds": 156,
+          "views": 170016,
+          "likes": 9080,
+          "comments": 442,
+          "like_ratio": 0.0534,
+          "comment_ratio": 0.0026,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Performance",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "FVE35-ncTok",
+          "title": "‘넌 최애가 누구야?’ 편 6s | It’s Me | ILLIT (아일릿)",
+          "published_at": "2026-05-12T04:00:20Z",
+          "duration_seconds": 7,
+          "views": 605612,
+          "likes": 6954,
+          "comments": 191,
+          "like_ratio": 0.0115,
+          "comment_ratio": 0.0003,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Other",
+          "is_comeback_content": true,
+          "likely_promoted": true,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "C2ldjeD0_KU",
+          "title": "‘포토부스’ 편 10s | It’s Me | ILLIT (아일릿)",
+          "published_at": "2026-05-12T04:00:17Z",
+          "duration_seconds": 11,
+          "views": 464095,
+          "likes": 5767,
+          "comments": 107,
+          "like_ratio": 0.0124,
+          "comment_ratio": 0.0002,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Other",
+          "is_comeback_content": true,
+          "likely_promoted": true,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "GJzXdKuBAAk",
+          "title": "‘바르자 잇츠미’ 편 6s | It’s Me | ILLIT (아일릿)",
+          "published_at": "2026-05-12T04:00:13Z",
+          "duration_seconds": 7,
+          "views": 782396,
+          "likes": 5523,
+          "comments": 160,
+          "like_ratio": 0.0071,
+          "comment_ratio": 0.0002,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Other",
+          "is_comeback_content": true,
+          "likely_promoted": true,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "gSe7vpd0njk",
+          "title": "‘똑똑..엄마야?’ 편 6s | It’s Me | ILLIT (아일릿)",
+          "published_at": "2026-05-12T04:00:10Z",
+          "duration_seconds": 7,
+          "views": 602661,
+          "likes": 10988,
+          "comments": 261,
+          "like_ratio": 0.0182,
+          "comment_ratio": 0.0004,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Other",
+          "is_comeback_content": true,
+          "likely_promoted": true,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "UHKtUTti1ng",
+          "title": "‘누구냐 넌’ 편 6s | It’s Me | ILLIT (아일릿)",
+          "published_at": "2026-05-12T04:00:07Z",
+          "duration_seconds": 7,
+          "views": 582837,
+          "likes": 5419,
+          "comments": 128,
+          "like_ratio": 0.0093,
+          "comment_ratio": 0.0002,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Other",
+          "is_comeback_content": true,
+          "likely_promoted": true,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "MJNwgfn1qWE",
+          "title": "‘기침’ 편 6s | It’s Me | ILLIT (아일릿)",
+          "published_at": "2026-05-12T04:00:04Z",
+          "duration_seconds": 7,
+          "views": 573246,
+          "likes": 7056,
+          "comments": 236,
+          "like_ratio": 0.0123,
+          "comment_ratio": 0.0004,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Other",
+          "is_comeback_content": true,
+          "likely_promoted": true,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "LHqHISCNcYQ",
+          "title": "‘잇츠米’ 편 15s | It’s Me | ILLIT (아일릿)",
+          "published_at": "2026-05-12T04:00:01Z",
+          "duration_seconds": 16,
+          "views": 1188922,
+          "likes": 9441,
+          "comments": 547,
+          "like_ratio": 0.0079,
+          "comment_ratio": 0.0005,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Other",
+          "is_comeback_content": true,
+          "likely_promoted": true,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "a9NDoFxm_1w",
+          "title": "ILLIT (아일릿) 'It's Me' Dance Practice (with. Little KTIGERS)",
+          "published_at": "2026-05-08T11:00:01Z",
+          "duration_seconds": 143,
+          "views": 759990,
+          "likes": 36240,
+          "comments": 1291,
+          "like_ratio": 0.0477,
+          "comment_ratio": 0.0017,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Dance_Practice",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "LM875jeR-PM",
+          "title": "ILLIT (아일릿) 'It's Me' Dance Practice",
+          "published_at": "2026-05-07T11:00:04Z",
+          "duration_seconds": 144,
+          "views": 1997952,
+          "likes": 67339,
+          "comments": 1666,
+          "like_ratio": 0.0337,
+          "comment_ratio": 0.0008,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Dance_Practice",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "LK4jiNh-v5Y",
+          "title": "[특별기획] Bias를 두고 벌이는 다섯 개체들의 치열한 신경전 | 'It's Me' MV 미니 다큐멘터리 | ILLIT (아일릿)",
+          "published_at": "2026-05-01T12:00:01Z",
+          "duration_seconds": 143,
+          "views": 117871,
+          "likes": 9889,
+          "comments": 482,
+          "like_ratio": 0.0839,
+          "comment_ratio": 0.0041,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Behind",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "ffBEYORlDSw",
+          "title": "ILLIT (아일릿) ‘NOT CUTE ANYMORE ’ @ PRESS START♥",
+          "published_at": "2026-03-30T11:00:03Z",
+          "duration_seconds": 135,
+          "views": 399004,
+          "likes": 18678,
+          "comments": 786,
+          "like_ratio": 0.0468,
+          "comment_ratio": 0.002,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Performance",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "tCp1ulfkK3M",
+          "title": "ILLIT (아일릿) ‘Magnetic’ | #IROHA Focus | PRESS START♥︎",
+          "published_at": "2026-03-25T07:00:14Z",
+          "duration_seconds": 163,
+          "views": 78701,
+          "likes": 7032,
+          "comments": 379,
+          "like_ratio": 0.0894,
+          "comment_ratio": 0.0048,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Performance",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "l-UddR6JtHY",
+          "title": "ILLIT (아일릿) ‘Magnetic’ | #WONHEE Focus | PRESS START♥︎",
+          "published_at": "2026-03-25T07:00:11Z",
+          "duration_seconds": 164,
+          "views": 277973,
+          "likes": 14344,
+          "comments": 616,
+          "like_ratio": 0.0516,
+          "comment_ratio": 0.0022,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Performance",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "bZcRbARMLKk",
+          "title": "ILLIT (아일릿) ‘Magnetic’ | #MOKA Focus | PRESS START♥︎",
+          "published_at": "2026-03-25T07:00:07Z",
+          "duration_seconds": 163,
+          "views": 145185,
+          "likes": 8167,
+          "comments": 337,
+          "like_ratio": 0.0563,
+          "comment_ratio": 0.0023,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Performance",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "q8lHiaqqD0g",
+          "title": "ILLIT (아일릿) ‘Magnetic’ | #MINJU Focus | PRESS START♥︎",
+          "published_at": "2026-03-25T07:00:04Z",
+          "duration_seconds": 162,
+          "views": 104284,
+          "likes": 6914,
+          "comments": 284,
+          "like_ratio": 0.0663,
+          "comment_ratio": 0.0027,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Performance",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "3uIqSEn7bow",
+          "title": "ILLIT (아일릿) ‘Magnetic’ | #YUNAH Focus | PRESS START♥︎",
+          "published_at": "2026-03-25T07:00:01Z",
+          "duration_seconds": 163,
+          "views": 51833,
+          "likes": 7004,
+          "comments": 563,
+          "like_ratio": 0.1351,
+          "comment_ratio": 0.0109,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Performance",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "jpbBc8ujTzc",
+          "title": "ILLIT (아일릿) ‘Almond Chocolate’ @ The 76th NHK Kouhaku Uta Gassen",
+          "published_at": "2026-03-13T09:00:00Z",
+          "duration_seconds": 133,
+          "views": 507087,
+          "likes": 18914,
+          "comments": 712,
+          "like_ratio": 0.0373,
+          "comment_ratio": 0.0014,
+          "tags": [
+            "I’LL-IT",
+            "ILLIT",
+            "아일릿",
+            "윤아",
+            "YUNAH",
+            "민주",
+            "MINJU",
+            "모카",
+            "MOKA",
+            "원희"
+          ],
+          "video_type": "Performance",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        },
+        {
+          "video_id": "we0iGfysR8M",
+          "title": "ILLIT (아일릿) 'It’s Me’ Official MV (WONHEE ver.)",
+          "published_at": "2026-05-01T00:00:00Z",
+          "duration_seconds": 19,
+          "views": 1781727,
+          "likes": 116938,
+          "comments": 943,
+          "like_ratio": 0.0656,
+          "comment_ratio": 0.0005,
+          "tags": [],
+          "video_type": "MV",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": null,
+          "days_from_mv": null,
+          "source": "label_channel",
+          "label_channel": "UC3IZKseVpdzPSBaWxBxundA",
+          "label_name": "HYBE LABELS"
+        },
+        {
+          "video_id": "bMhDJ0S0OBA",
+          "title": "ILLIT (아일릿) ‘It’s Me’ Official MV",
+          "published_at": "2026-04-30T00:00:00Z",
+          "duration_seconds": 147,
+          "views": 28708739,
+          "likes": 560168,
+          "comments": 28615,
+          "like_ratio": 0.0195,
+          "comment_ratio": 0.001,
+          "tags": [],
+          "video_type": "MV",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": null,
+          "days_from_mv": null,
+          "source": "label_channel",
+          "label_channel": "UC3IZKseVpdzPSBaWxBxundA",
+          "label_name": "HYBE LABELS"
         }
       ],
       "stats": {
-        "total_videos": 166,
-        "total_views": 81357747,
-        "mv_views": 102059,
-        "non_mv_views": 81255688,
-        "bubble_ratio": 796.164,
-        "avg_like_ratio": 0.0634,
+        "total_videos": 209,
+        "total_views": 126591597,
+        "mv_views": 31218375,
+        "non_mv_views": 95373222,
+        "bubble_ratio": 3.055,
+        "avg_like_ratio": 0.0623,
         "avg_comment_ratio": 0.0031,
-        "fandom_index": 417885,
+        "fandom_index": 385741,
         "types": {
-          "Variety": 41,
-          "Vlog": 8,
-          "Behind": 61,
-          "Other": 17,
+          "Variety": 35,
+          "Vlog": 9,
+          "Other": 50,
+          "Behind": 69,
+          "MV": 7,
+          "Cover": 9,
+          "Dance_Practice": 7,
           "Performance": 17,
-          "Dance_Practice": 6,
           "Interview": 2,
-          "MV": 1,
-          "Cover": 8,
           "Live_Concert": 2,
-          "Album_Preview": 1,
-          "MV_Teaser": 2
+          "Concept_Teaser": 2
         }
       }
     },
@@ -120597,22 +121922,62 @@
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
           "days_from_mv": null
+        },
+        {
+          "video_id": "vvShNAb-JvQ",
+          "title": "BOYNEXTDOOR '똑똑똑' Official MV #BOYNEXTDOOR #보이넥스트도어 #BND #HOME #똑똑똑",
+          "published_at": "2026-05-10T00:00:00Z",
+          "duration_seconds": 25,
+          "views": 155434,
+          "likes": 15504,
+          "comments": 239,
+          "like_ratio": 0.0997,
+          "comment_ratio": 0.0015,
+          "tags": [],
+          "video_type": "MV",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": null,
+          "days_from_mv": null,
+          "source": "label_channel",
+          "label_channel": "UC3IZKseVpdzPSBaWxBxundA",
+          "label_name": "HYBE LABELS"
+        },
+        {
+          "video_id": "WxGWMI2B7r8",
+          "title": "BOYNEXTDOOR (보이넥스트도어) '똑똑똑' Official MV",
+          "published_at": "2026-05-10T00:00:00Z",
+          "duration_seconds": 167,
+          "views": 7145600,
+          "likes": 192327,
+          "comments": 15865,
+          "like_ratio": 0.0269,
+          "comment_ratio": 0.0022,
+          "tags": [],
+          "video_type": "MV",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": null,
+          "days_from_mv": null,
+          "source": "label_channel",
+          "label_channel": "UC3IZKseVpdzPSBaWxBxundA",
+          "label_name": "HYBE LABELS"
         }
       ],
       "stats": {
-        "total_videos": 133,
-        "total_views": 83870857,
-        "mv_views": 955529,
+        "total_videos": 135,
+        "total_views": 91171891,
+        "mv_views": 8256563,
         "non_mv_views": 82915328,
-        "bubble_ratio": 86.774,
-        "avg_like_ratio": 0.0727,
-        "avg_comment_ratio": 0.0034,
+        "bubble_ratio": 10.042,
+        "avg_like_ratio": 0.0726,
+        "avg_comment_ratio": 0.0033,
         "fandom_index": 521029,
         "types": {
           "Behind": 33,
           "Variety": 46,
           "Performance": 17,
-          "MV": 2,
+          "MV": 4,
           "Other": 12,
           "Vlog": 10,
           "Dance_Practice": 5,
@@ -162424,16 +163789,36 @@
           "likely_promoted": false,
           "comeback_phase": "non_comeback",
           "days_from_mv": null
+        },
+        {
+          "video_id": "MiO16KlMPaU",
+          "title": "TWS (투어스) '널 따라가 (You, You)' Official MV",
+          "published_at": "2026-04-27T00:00:00Z",
+          "duration_seconds": 174,
+          "views": 21031081,
+          "likes": 106695,
+          "comments": 12319,
+          "like_ratio": 0.0051,
+          "comment_ratio": 0.0006,
+          "tags": [],
+          "video_type": "MV",
+          "is_comeback_content": true,
+          "likely_promoted": false,
+          "comeback_phase": null,
+          "days_from_mv": null,
+          "source": "label_channel",
+          "label_channel": "UC3IZKseVpdzPSBaWxBxundA",
+          "label_name": "HYBE LABELS"
         }
       ],
       "stats": {
-        "total_videos": 217,
-        "total_views": 37610272,
-        "mv_views": 314477,
+        "total_videos": 218,
+        "total_views": 58641353,
+        "mv_views": 21345558,
         "non_mv_views": 37295795,
-        "bubble_ratio": 118.596,
-        "avg_like_ratio": 0.0737,
-        "avg_comment_ratio": 0.004,
+        "bubble_ratio": 1.747,
+        "avg_like_ratio": 0.0734,
+        "avg_comment_ratio": 0.0039,
         "fandom_index": 181920,
         "types": {
           "Behind": 71,
@@ -162441,7 +163826,7 @@
           "Cover": 4,
           "Performance": 16,
           "Other": 14,
-          "MV": 1,
+          "MV": 2,
           "Vlog": 17,
           "Dance_Practice": 9,
           "Interview": 1,

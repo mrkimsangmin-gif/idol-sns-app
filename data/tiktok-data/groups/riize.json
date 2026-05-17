@@ -3,112 +3,17 @@
   "name_en": "RIIZE",
   "slug": "riize",
   "tiktok_url": "https://www.tiktok.com/@riize_official",
-  "crawled_at": "2026-03-08T19:27:23.390304",
+  "crawled_at": "2026-05-17T19:18:50.112124",
   "profile": {
-    "display_name": "RIIZE",
-    "username": "@riize_official",
-    "verified": true,
-    "category": "아티스트",
-    "followers": 4423000,
-    "following": 2,
-    "total_likes": 409999999,
-    "bio": "RIIZE 라이즈 The 2nd Japan Single 【All of You】&#10;➫ 2026.02.18 0AM (KST/JST)"
+    "display_name": "7",
+    "username": "",
+    "verified": false,
+    "category": "",
+    "followers": 0,
+    "following": 0,
+    "total_likes": 0,
+    "bio": ""
   },
-  "posts": [
-    {
-      "views": 322000,
-      "likes": 131000,
-      "comments": 1138,
-      "shares": 4504,
-      "saves": 6257,
-      "posted_at": "2026-03-08",
-      "caption": "low low low&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 826000,
-      "likes": 315000,
-      "comments": 3433,
-      "shares": 21000,
-      "saves": 14000,
-      "posted_at": "2026-03-08",
-      "caption": "boomboombass….&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 161000,
-      "likes": 54000,
-      "comments": 262,
-      "shares": 1626,
-      "saves": 2395,
-      "posted_at": "2026-03-07",
-      "caption": "우리끼리&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 168000,
-      "likes": 48000,
-      "comments": 286,
-      "shares": 813,
-      "saves": 1969,
-      "posted_at": "2026-03-07",
-      "caption": "선물이야&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 131000,
-      "likes": 25000,
-      "comments": 132,
-      "shares": 441,
-      "saves": 1094,
-      "posted_at": "2026-03-07",
-      "caption": "a special surprise for you&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 90000,
-      "likes": 24000,
-      "comments": 142,
-      "shares": 350,
-      "saves": 1149,
-      "posted_at": "2026-03-07",
-      "caption": "so, would you saranghae me back?&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 0,
-      "likes": 40000,
-      "comments": 232,
-      "shares": 529,
-      "saves": 1523,
-      "posted_at": "2026-03-06",
-      "caption": "D-Day&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "RIIZE의 Another Life",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 7,
-    "posts_last_30d": 7,
-    "avg_views": 242571,
-    "avg_likes": 91000,
-    "avg_comments": 804,
-    "avg_shares": 4180,
-    "avg_saves": 4055,
-    "engagement_rate": 9.93,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

@@ -3,110 +3,17 @@
   "name_en": "ASTRO",
   "slug": "astro",
   "tiktok_url": "https://www.tiktok.com/@astro_official",
-  "crawled_at": "2026-03-09T22:53:24.709134",
+  "crawled_at": "2026-05-17T19:21:46.756849",
   "profile": {
-    "display_name": "팔로우",
-    "username": "@astro_official",
-    "verified": true,
-    "category": "아티스트",
-    "followers": 7940000,
-    "following": 3,
-    "total_likes": 110000000,
+    "display_name": "5월 17일 일요일",
+    "username": "",
+    "verified": false,
+    "category": "",
+    "followers": 0,
+    "following": 0,
+    "total_likes": 0,
     "bio": ""
   },
-  "posts": [
-    {
-      "views": 182000,
-      "likes": 56000,
-      "comments": 1283,
-      "shares": 1420,
-      "saves": 2519,
-      "posted_at": "2026-03-09",
-      "caption": "2016년으로 돌아가서#엠제이 #MJ #윤산하 #YOONSANHA #Backto2016",
-      "hashtags": [
-        "엠제이",
-        "MJ",
-        "윤산하",
-        "YOONSANHA",
-        "Backto2016"
-      ],
-      "music": "아스트로의 숨바꼭질",
-      "category": "General"
-    },
-    {
-      "views": 82000,
-      "likes": 20000,
-      "comments": 610,
-      "shares": 304,
-      "saves": 1516,
-      "posted_at": "2026-03-06",
-      "caption": "연차별 직장인의 자세 #엠제이 #MJ #윤산하 #YOONSANHA #ASTRO",
-      "hashtags": [
-        "엠제이",
-        "MJ",
-        "윤산하",
-        "YOONSANHA",
-        "ASTRO"
-      ],
-      "music": "ASTRO 아스트로의 오리지널 사운드 - ASTRO 아스트로",
-      "category": "General"
-    },
-    {
-      "views": 220000,
-      "likes": 67000,
-      "comments": 1654,
-      "shares": 1465,
-      "saves": 4605,
-      "posted_at": "2026-03-05",
-      "caption": "HAPPY MJ DAY&#127874; | '바이 바이 (BIG Naughty (서동현) (Feat. 이무진))'…자세히",
-      "hashtags": [],
-      "music": "ASTRO 아스트로의 오리지널 사운드 - ASTRO 아스트로",
-      "category": "General"
-    },
-    {
-      "views": 2992000,
-      "likes": 604000,
-      "comments": 6416,
-      "shares": 41000,
-      "saves": 51000,
-      "posted_at": "2026-03-04",
-      "caption": "Baby (웃음 버전)#엠제이 #MJ #윤산하 #YOONSANHA #ASTRO",
-      "hashtags": [
-        "엠제이",
-        "MJ",
-        "윤산하",
-        "YOONSANHA",
-        "ASTRO"
-      ],
-      "music": "ASTRO 아스트로의 오리지널 사운드 - ASTRO 아스트로",
-      "category": "General"
-    },
-    {
-      "views": 356000,
-      "likes": 81000,
-      "comments": 1501,
-      "shares": 1441,
-      "saves": 4248,
-      "posted_at": "2026-02-20",
-      "caption": "'Popcorn (도경수(D.O.))' Cover by 산하 #윤산하 #YOONSANHA #아스트…자세히",
-      "hashtags": [
-        "윤산하",
-        "YOONSANHA",
-        "아스트"
-      ],
-      "music": "ASTRO 아스트로의 오리지널 사운드 - ASTRO 아스트로",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 5,
-    "posts_last_30d": 5,
-    "avg_views": 766400,
-    "avg_likes": 165600,
-    "avg_comments": 2293,
-    "avg_shares": 9126,
-    "avg_saves": 12778,
-    "engagement_rate": 14.61,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

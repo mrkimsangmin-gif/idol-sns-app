@@ -3,40 +3,17 @@
   "name_en": "NCHIVE",
   "slug": "nchive",
   "tiktok_url": "https://www.tiktok.com/@nchive_official",
-  "crawled_at": "2026-03-08T20:41:30.941790",
+  "crawled_at": "2026-05-09T09:27:59.789531",
   "profile": {
     "display_name": "NCHIVE",
-    "username": "@nchive_official",
+    "username": "",
     "verified": false,
-    "category": "아티스트",
-    "followers": 136000,
+    "category": "",
+    "followers": 0,
     "following": 0,
-    "total_likes": 3599000,
+    "total_likes": 0,
     "bio": "NCHIVE OFFICIAL TikTok"
   },
-  "posts": [
-    {
-      "views": 829000,
-      "likes": 155000,
-      "comments": 3087,
-      "shares": 11000,
-      "saves": 9011,
-      "posted_at": "2026-02-07",
-      "caption": "drop it down♥️&#10; …⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "N'John의 Pop out",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 1,
-    "posts_last_30d": 1,
-    "avg_views": 829000,
-    "avg_likes": 155000,
-    "avg_comments": 3087,
-    "avg_shares": 11000,
-    "avg_saves": 9011,
-    "engagement_rate": 14.9,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

@@ -1,0 +1,94 @@
+{
+  "timestamp": "2026-05-05T19:51:44.965708",
+  "method_1": "Gemini 2.5 Flash + URL context (SNS 강조 프롬프트)",
+  "method_2": "WebSearch (Google) + 한글/영문 키워드",
+  "total_targets": 14,
+  "applied": [
+    {
+      "name": "데일리디렉션",
+      "tiktok": "https://www.tiktok.com/@daily_direction",
+      "evidence": "kprofiles+IG/X 일관 (@daily_direction_official IG, @_official_DD X)",
+      "gemini_disagreement": null
+    },
+    {
+      "name": "키빗업",
+      "tiktok": "https://www.tiktok.com/@keyvitup_inkode",
+      "evidence": "iNKODE 소속, IG @keyvitup_inkode와 일관",
+      "gemini_disagreement": null
+    },
+    {
+      "name": "모디세이",
+      "tiktok": "https://www.tiktok.com/@modyssey.official",
+      "evidence": "IG/YT @modyssey.official 일관",
+      "gemini_disagreement": null
+    },
+    {
+      "name": "오위스",
+      "tiktok": "https://www.tiktok.com/@owis_official",
+      "evidence": "IG @owis_official 일관 (ama 소속)",
+      "gemini_disagreement": null
+    },
+    {
+      "name": "에스투잇",
+      "tiktok": "https://www.tiktok.com/@s2it_official",
+      "evidence": "직접 URL 확인 (KNH/MONSTER BRAIN)",
+      "gemini_disagreement": null
+    },
+    {
+      "name": "더씬드롬",
+      "tiktok": "https://www.tiktok.com/@thessyndrome_official",
+      "evidence": "IG @thessyndrome_official 일관 (Dreamcatcher Co.)",
+      "gemini_disagreement": null
+    },
+    {
+      "name": "튜넥스",
+      "tiktok": "https://www.tiktok.com/@tunexx_official",
+      "evidence": "IG 129K + IST Ent. 공식 (@tunexx_official)",
+      "gemini_disagreement": null
+    },
+    {
+      "name": "언차일드",
+      "tiktok": "https://www.tiktok.com/@official_unchild",
+      "evidence": "직접 URL 확인 (High Up Ent.)",
+      "gemini_disagreement": null
+    },
+    {
+      "name": "에버글로우",
+      "tiktok": "https://www.tiktok.com/@everglowofficial",
+      "evidence": "메인 2.3M 팔로워 (Gemini는 _official 추측 → WebSearch 채택)",
+      "gemini_disagreement": "@everglow_official(불일치)"
+    },
+    {
+      "name": "핑크버스",
+      "tiktok": "https://www.tiktok.com/@pinkverse_universe",
+      "evidence": "직접 URL 확인 (DeepMind, 2025.09 해체)",
+      "gemini_disagreement": null
+    },
+    {
+      "name": "위키미키",
+      "tiktok": "https://www.tiktok.com/@wm_official",
+      "evidence": "직접 URL 확인 (Fantagio, 2024.08 해체)",
+      "gemini_disagreement": null
+    },
+    {
+      "name": "시그니처",
+      "tiktok": "https://www.tiktok.com/@cignature_j9",
+      "evidence": "직접 URL 확인 (J9, 315K 팔로워, 2024.11 해체)",
+      "gemini_disagreement": null
+    }
+  ],
+  "not_applied": [
+    {
+      "name": "라임라이트",
+      "reason": "그룹 해체 → MADEIN으로 리브랜드. SNS 계정 모두 MADEIN으로 통합됨 → 별도 LIMELIGHT TikTok 없음"
+    },
+    {
+      "name": "에이퓨처",
+      "reason": "WebSearch + Gemini 모두 미발견. 신생 그룹(2026.03.14 데뷔)으로 TikTok 미운영 가능성"
+    }
+  ],
+  "gemini_findings_count": 1,
+  "websearch_findings_count": 12,
+  "cross_verified_agreement": 0,
+  "cross_verified_disagreement": 1
+}

@@ -2,55 +2,18 @@
   "name": "메이딘",
   "name_en": "MADEIN",
   "slug": "madein",
-  "tiktok_url": "https://www.tiktok.com/@MADEIN_u",
-  "crawled_at": "2026-03-09T04:32:41.310224",
+  "tiktok_url": "https://www.tiktok.com/@madein_u",
+  "crawled_at": "2026-05-09T07:52:05.053765",
   "profile": {
-    "display_name": "MADEIN",
-    "username": "@madein_u",
+    "display_name": "",
+    "username": "",
     "verified": false,
-    "category": "아티스트",
-    "followers": 294000,
-    "following": 1,
-    "total_likes": 10942000,
+    "category": "",
+    "followers": 0,
+    "following": 0,
+    "total_likes": 0,
     "bio": ""
   },
-  "posts": [
-    {
-      "views": 35000,
-      "likes": 2253,
-      "comments": 19,
-      "shares": 8,
-      "saves": 93,
-      "posted_at": "2026-03-08",
-      "caption": "MADEIN 과 함께 #Super_Obvious &#128252;⚡&#10;…⁠자세히",
-      "hashtags": [
-        "Super_Obvious"
-      ],
-      "music": "MADEIN의 오리지널 사운드 - MADEIN",
-      "category": "General"
-    },
-    {
-      "views": 8834,
-      "likes": 1192,
-      "comments": 12,
-      "shares": 10,
-      "saves": 55,
-      "posted_at": "2026-03-08",
-      "caption": "&#128062; &#128048; &#128049; &#128062;&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "MADEIN의 오리지널 사운드 - MADEIN",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 2,
-    "posts_last_30d": 2,
-    "avg_views": 21917,
-    "avg_likes": 1722,
-    "avg_comments": 16,
-    "avg_shares": 9,
-    "avg_saves": 74,
-    "engagement_rate": 5.72,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

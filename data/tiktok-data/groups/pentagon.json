@@ -3,64 +3,17 @@
   "name_en": "PENTAGON",
   "slug": "pentagon",
   "tiktok_url": "https://www.tiktok.com/@official_ptg",
-  "crawled_at": "2026-03-08T19:48:12.916176",
+  "crawled_at": "2026-05-17T19:27:30.821130",
   "profile": {
-    "display_name": "PENTAGON•펜타곤",
-    "username": "@official_ptg",
-    "verified": true,
-    "category": "아티스트",
-    "followers": 1570000,
+    "display_name": "5월 17일 일요일",
+    "username": "",
+    "verified": false,
+    "category": "",
+    "followers": 0,
     "following": 0,
-    "total_likes": 31041000,
-    "bio": "PENTAGON Official TikTok by CUBE ent."
+    "total_likes": 0,
+    "bio": ""
   },
-  "posts": [
-    {
-      "views": 201000,
-      "likes": 37000,
-      "comments": 553,
-      "shares": 548,
-      "saves": 1395,
-      "posted_at": "2026-02-16",
-      "caption": "유니버스와 함께 영원히 ‘빛나리’&#128153;✨&#10;…⁠자세히",
-      "hashtags": [],
-      "music": "펜타곤의 빛나리",
-      "category": "General"
-    },
-    {
-      "views": 991000,
-      "likes": 169000,
-      "comments": 1516,
-      "shares": 2504,
-      "saves": 5555,
-      "posted_at": "2026-02-14",
-      "caption": "초콜릿처럼 달콤한 우리지만&#127851; 가끔은 아웅다웅 ☁️…⁠자세히",
-      "hashtags": [],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 1434000,
-      "likes": 277000,
-      "comments": 2674,
-      "shares": 5500,
-      "saves": 9319,
-      "posted_at": "2026-02-14",
-      "caption": "드디어 펜타곤 무대 &#120019;-1! 유니버스 만날 준비 완료&#129782;…⁠자세히",
-      "hashtags": [],
-      "music": "Metro Boomin &amp; Coi Leray의 Self Love - Spider-Man: Across the Spider-Verse",
-      "category": "Performance"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 3,
-    "posts_last_30d": 3,
-    "avg_views": 875333,
-    "avg_likes": 161000,
-    "avg_comments": 1581,
-    "avg_shares": 2851,
-    "avg_saves": 5423,
-    "engagement_rate": 6.12,
-    "er_formula": "likes_based"
-  }
+  "posts": [],
+  "stats": {}
 }

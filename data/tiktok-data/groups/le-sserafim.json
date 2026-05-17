@@ -3,108 +3,17 @@
   "name_en": "LE SSERAFIM",
   "slug": "le-sserafim",
   "tiktok_url": "https://www.tiktok.com/@le_sserafim",
-  "crawled_at": "2026-03-12T05:55:51.014522",
+  "crawled_at": "2026-05-09T07:14:39.458974",
   "profile": {
     "display_name": "LE SSERAFIM",
-    "username": "@le_sserafim",
+    "username": "",
     "verified": true,
-    "category": "아티스트",
-    "followers": 14286000,
+    "category": "",
+    "followers": 0,
     "following": 0,
-    "total_likes": 969999999,
-    "bio": "LE SSERAFIM Official TikTok&#10;LE SSERAFIM 공식 틱톡&#10;1st Single Album 'SPAGHETTI' OUT NOW"
+    "total_likes": 0,
+    "bio": "LE SSERAFIM Official TikTok&#10;LE SSERAFIM 공식 틱톡&#10;'CELEBRATION' OUT NOW&#10;The 2nd Studio Album 'PUREFLOW' pt.1, May 22"
   },
-  "posts": [
-    {
-      "views": 2675000,
-      "likes": 94000,
-      "comments": 834,
-      "shares": 2493,
-      "saves": 7682,
-      "posted_at": "2026-03-07",
-      "caption": "fit check x2",
-      "hashtags": [],
-      "music": "LE SSERAFIM의 오리지널 사운드 - LE SSERAFIM",
-      "category": "General"
-    },
-    {
-      "views": 1562000,
-      "likes": 221000,
-      "comments": 1199,
-      "shares": 5472,
-      "saves": 14000,
-      "posted_at": "2026-03-06",
-      "caption": "oh la la &#10;@courreges #courregesFW26",
-      "hashtags": [
-        "courregesFW26"
-      ],
-      "music": "LE SSERAFIM의 오리지널 사운드 - LE SSERAFIM",
-      "category": "General"
-    },
-    {
-      "views": 800000,
-      "likes": 489000,
-      "comments": 2669,
-      "shares": 8895,
-      "saves": 29000,
-      "posted_at": "2026-02-27",
-      "caption": "Milan what?&#10;@fendi #FendiFW26",
-      "hashtags": [
-        "FendiFW26"
-      ],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 654000,
-      "likes": 678000,
-      "comments": 3744,
-      "shares": 15000,
-      "saves": 48000,
-      "posted_at": "2026-02-26",
-      "caption": "Kawasaki es una locura &#128526;&#10;…⁠자세히⁠ ⁠|⁠ ⁠",
-      "hashtags": [],
-      "music": "SANTOS BRAVOS의 KAWASAKI",
-      "category": "General"
-    },
-    {
-      "views": 7447000,
-      "likes": 372000,
-      "comments": 2532,
-      "shares": 9835,
-      "saves": 26000,
-      "posted_at": "2026-02-25",
-      "caption": "transition loading... &#10;@fendi #FendiFW26",
-      "hashtags": [
-        "FendiFW26"
-      ],
-      "music": "",
-      "category": "General"
-    },
-    {
-      "views": 1155000,
-      "likes": 112000,
-      "comments": 1311,
-      "shares": 3262,
-      "saves": 9301,
-      "posted_at": "2026-02-15",
-      "caption": "when in NY&#10;@khaite #KhaiteFW26 #NYFW",
-      "hashtags": [
-        "KhaiteFW26",
-        "NYFW"
-      ],
-      "music": "",
-      "category": "General"
-    }
-  ],
-  "stats": {
-    "total_posts_crawled": 6,
-    "posts_last_30d": 6,
-    "avg_views": 2382166,
-    "avg_likes": 327666,
-    "avg_comments": 2048,
-    "avg_shares": 7492,
-    "avg_saves": 22330,
-    "engagement_rate": 15.09
-  }
+  "posts": [],
+  "stats": {}
 }
