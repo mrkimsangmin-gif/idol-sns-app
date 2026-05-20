@@ -2,17 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 501,
-      "company": "스튜디오252",
-      "position": "아티스트 매니저",
-      "category": "매니지먼트",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-05-20",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49013421",
-      "source": "잡코리아"
-    },
-    {
       "id": 507,
       "company": "하이헷",
       "position": "제작기획팀/디자이너",
@@ -563,6 +552,28 @@
       "source": "잡코리아"
     },
     {
+      "id": 630,
+      "company": "위드어스엔터테인먼트",
+      "position": "기획팀",
+      "category": "기타",
+      "career": "신입·경력",
+      "location": "서울 마포구",
+      "deadline": "2026-06-19",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49217815",
+      "source": "잡코리아"
+    },
+    {
+      "id": 631,
+      "company": "엠더블유엔터테인먼트",
+      "position": "마케팅팀",
+      "category": "마케팅",
+      "career": "신입·경력",
+      "location": "서울 마포구",
+      "deadline": "2026-06-19",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49217539",
+      "source": "잡코리아"
+    },
+    {
       "id": 506,
       "company": "그리드엔터테인먼트",
       "position": "팬마케팅팀",
@@ -780,28 +791,6 @@
       "location": "서울 마포구",
       "deadline": "2026-07-17",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49191646",
-      "source": "잡코리아"
-    },
-    {
-      "id": 85,
-      "company": "어비스컴퍼니",
-      "position": "팬콘텐츠실: 영상 콘텐츠 제작",
-      "category": "영상",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "상시채용",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48418796?rPageCode=SL&logpath=21&sn=6&sc=611",
-      "source": "잡코리아"
-    },
-    {
-      "id": 87,
-      "company": "이담엔터테인먼트",
-      "position": "MD 담당",
-      "category": "매니지먼트",
-      "career": "경력",
-      "location": "서울 송파구",
-      "deadline": "",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48414476?rPageCode=SL&logpath=21&sn=6&sc=611",
       "source": "잡코리아"
     },
     {
@@ -2004,17 +1993,6 @@
       "source": "하이브"
     },
     {
-      "id": 410,
-      "company": "ADOR",
-      "position": "콘텐츠마케팅",
-      "category": "마케팅",
-      "career": "경력 2~5년",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/210142",
-      "source": "하이브"
-    },
-    {
       "id": 411,
       "company": "Blue Garage",
       "position": "재무회계 담당자 (육아휴직 대체/계약직)",
@@ -2642,17 +2620,6 @@
       "source": "하이브"
     },
     {
-      "id": 591,
-      "company": "BIGHIT MUSIC",
-      "position": "아티스트콘텐츠 제작(2그룹)",
-      "category": "영상",
-      "career": "경력 5년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/215869",
-      "source": "하이브"
-    },
-    {
       "id": 599,
       "company": "패러블엔터테인먼트",
       "position": "크리에이터 숏폼 콘텐츠 매니저",
@@ -2831,5 +2798,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-05-20T09:34:22.645660"
+  "updatedAt": "2026-05-21T06:55:21.097786"
 }
