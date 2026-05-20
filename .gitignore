@@ -80,3 +80,6 @@ TDD_100_REPORT.md
 
 # backup files (auto-added 2026-05-21)
 *.bak
+
+# 오케스트레이터 런타임 상태 (사이트 미서빙, checkout 차단 방지)
+data/orchestrator_state.json
