@@ -519,6 +519,17 @@
       "source": "잡코리아"
     },
     {
+      "id": 678,
+      "company": "오감엔터테인먼트",
+      "position": "경영지원팀",
+      "category": "경영지원",
+      "career": "무관",
+      "location": "서울 서초구",
+      "deadline": "2026-07-01",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49289187",
+      "source": "잡코리아"
+    },
+    {
       "id": 562,
       "company": "빅히트뮤직",
       "position": "아티스트의전 수행파트",
@@ -637,6 +648,17 @@
       "location": "서울 강남구",
       "deadline": "2026-07-28",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49271724",
+      "source": "잡코리아"
+    },
+    {
+      "id": 681,
+      "company": "린브랜딩",
+      "position": "신인 걸그룹 마케팅 팀",
+      "category": "신인개발",
+      "career": "무관",
+      "location": "서울 용산구",
+      "deadline": "2026-07-31",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49286946",
       "source": "잡코리아"
     },
     {
@@ -1947,6 +1969,28 @@
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/219398",
       "source": "하이브"
+    },
+    {
+      "id": 679,
+      "company": "린브랜딩",
+      "position": "신인 걸그룹 마케팅 팀 모집",
+      "category": "신인개발",
+      "career": "신입·경력",
+      "location": "서울",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/leanbranding11",
+      "source": "잡코리아"
+    },
+    {
+      "id": 682,
+      "company": "오감엔터테인먼트",
+      "position": "경영지원팀",
+      "category": "경영지원",
+      "career": "신입·경력",
+      "location": "서울",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/ogament",
+      "source": "잡코리아"
     }
   ],
   "categories": [
@@ -1962,5 +2006,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-06-02T09:03:11.102816"
+  "updatedAt": "2026-06-02T09:32:50.822595"
 }
