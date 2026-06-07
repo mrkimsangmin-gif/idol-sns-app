@@ -3,17 +3,53 @@
   "name_en": "fromis_9",
   "slug": "fromis-9",
   "tiktok_url": "https://www.tiktok.com/@official_fromis9",
-  "crawled_at": "2026-05-09T07:31:23.130670",
+  "crawled_at": "2026-06-08T03:22:03.437474",
   "profile": {
-    "display_name": "",
-    "username": "",
-    "verified": false,
+    "display_name": "fromis_9",
+    "username": "@official_fromis9",
+    "verified": true,
     "category": "",
-    "followers": 0,
+    "followers": 2011000,
     "following": 0,
-    "total_likes": 0,
-    "bio": ""
+    "total_likes": 56699000,
+    "bio": "❄️ Special Digital Single [하얀 그리움]"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 252000,
+      "likes": 9421,
+      "comments": 169,
+      "shares": 176,
+      "saves": 687,
+      "posted_at": "2026-06-02",
+      "caption": "BE MY BABYYY&#127874;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 94000,
+      "likes": 3095,
+      "comments": 55,
+      "shares": 64,
+      "saves": 261,
+      "posted_at": "2026-05-25",
+      "caption": "[&#127808;] #flover &#10;fromis_9 OFFICIAL FANCLUB…자세히",
+      "hashtags": [
+        "flover"
+      ],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 2,
+    "posts_last_30d": 2,
+    "avg_views": 173000,
+    "avg_likes": 6258,
+    "avg_comments": 112,
+    "avg_shares": 120,
+    "avg_saves": 474,
+    "engagement_rate": 4.03
+  }
 }

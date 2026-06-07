@@ -3,17 +3,87 @@
   "name_en": "I:MOND",
   "slug": "i-mond",
   "tiktok_url": "https://www.tiktok.com/@i.mond_official",
-  "crawled_at": "2026-05-26T05:29:44.297227",
+  "crawled_at": "2026-06-06T08:24:37.091919",
   "profile": {
     "display_name": "&#128142;I:mond&#128150;",
-    "username": "",
+    "username": "@i.mond_official",
     "verified": false,
     "category": "",
-    "followers": 0,
+    "followers": 20000,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 398000,
     "bio": "I:mond (아이몬드) official"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 5293,
+      "likes": 424,
+      "comments": 22,
+      "shares": 24,
+      "saves": 37,
+      "posted_at": "2026-06-05",
+      "caption": "앞으로는 이어폰을 꼭 챙기세요&#128517;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 5439,
+      "likes": 584,
+      "comments": 40,
+      "shares": 13,
+      "saves": 47,
+      "posted_at": "2026-05-30",
+      "caption": "미쿠가 이어폰을 안 가져왔을 때…&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 5163,
+      "likes": 615,
+      "comments": 51,
+      "shares": 14,
+      "saves": 49,
+      "posted_at": "2026-05-26",
+      "caption": "섹시 (호소인) 이설&#128139;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 3733,
+      "likes": 925,
+      "comments": 52,
+      "shares": 20,
+      "saves": 60,
+      "posted_at": "2026-05-21",
+      "caption": "미쿠야 혹시 “킹”…받아줄 수 있어…?&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 3622,
+      "likes": 743,
+      "comments": 38,
+      "shares": 16,
+      "saves": 47,
+      "posted_at": "2026-05-12",
+      "caption": "큐토니 나~레~?!&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 5,
+    "posts_last_30d": 5,
+    "avg_views": 4650,
+    "avg_likes": 658,
+    "avg_comments": 40,
+    "avg_shares": 17,
+    "avg_saves": 48,
+    "engagement_rate": 16.43
+  }
 }

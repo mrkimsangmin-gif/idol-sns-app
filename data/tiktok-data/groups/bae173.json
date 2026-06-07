@@ -3,17 +3,150 @@
   "name_en": "BAE173",
   "slug": "bae173",
   "tiktok_url": "https://www.tiktok.com/@official__bae173",
-  "crawled_at": "2026-05-26T05:52:49.581635",
+  "crawled_at": "2026-06-08T04:04:07.218670",
   "profile": {
-    "display_name": "",
-    "username": "",
-    "verified": false,
+    "display_name": "BAE173",
+    "username": "@official__bae173",
+    "verified": true,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
-    "bio": ""
+    "followers": 773000,
+    "following": 1,
+    "total_likes": 18739000,
+    "bio": "BAE173 OFFICIAL Tik Tok"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 20000,
+      "likes": 1450,
+      "comments": 22,
+      "shares": 18,
+      "saves": 57,
+      "posted_at": "2026-05-30",
+      "caption": "What’s a girl to doooooo #BAE173 #비에이이173 #JUNSEO #준서 #wh…자세히",
+      "hashtags": [
+        "BAE173",
+        "비에이이173",
+        "JUNSEO",
+        "준서",
+        "wh"
+      ],
+      "music": "다영 (DAYOUNG)의 What's a girl to do",
+      "category": "General"
+    },
+    {
+      "views": 19000,
+      "likes": 1294,
+      "comments": 35,
+      "shares": 25,
+      "saves": 59,
+      "posted_at": "2026-05-30",
+      "caption": "chill #BAE173 #비에이이173 #MUZIN #무진",
+      "hashtags": [
+        "BAE173",
+        "비에이이173",
+        "MUZIN",
+        "무진"
+      ],
+      "music": "Rym의 10count",
+      "category": "General"
+    },
+    {
+      "views": 9697,
+      "likes": 2037,
+      "comments": 29,
+      "shares": 34,
+      "saves": 114,
+      "posted_at": "2026-05-25",
+      "caption": "다음 날 첫 차 #BAE173 #비에이이173 #MUZIN #무진",
+      "hashtags": [
+        "BAE173",
+        "비에이이173",
+        "MUZIN",
+        "무진"
+      ],
+      "music": "Nakama &amp; Mc Staff의 MENTE MÁ",
+      "category": "General"
+    },
+    {
+      "views": 27000,
+      "likes": 20000,
+      "comments": 279,
+      "shares": 1300,
+      "saves": 979,
+      "posted_at": "2026-05-20",
+      "caption": "520♥ #BAE173 #비에이이173 #MUZIN #무진 #ILLIT #아일릿 #Its_Me",
+      "hashtags": [
+        "BAE173",
+        "비에이이173",
+        "MUZIN",
+        "무진",
+        "ILLIT",
+        "아일릿",
+        "Its_Me"
+      ],
+      "music": "ILLIT의 It's Me",
+      "category": "General"
+    },
+    {
+      "views": 12000,
+      "likes": 1837,
+      "comments": 44,
+      "shares": 47,
+      "saves": 83,
+      "posted_at": "2026-05-14",
+      "caption": "☠&#128128; #BAE173 #비에이이173 #MUZIN #무진",
+      "hashtags": [
+        "BAE173",
+        "비에이이173",
+        "MUZIN",
+        "무진"
+      ],
+      "music": "Kyle Dixon &amp; Michael Stein의 Stranger Things",
+      "category": "General"
+    },
+    {
+      "views": 19000,
+      "likes": 1751,
+      "comments": 38,
+      "shares": 24,
+      "saves": 73,
+      "posted_at": "2026-05-11",
+      "caption": "큥&#129782; #BAE173 #비에이이173 #JUNSEO #준서",
+      "hashtags": [
+        "BAE173",
+        "비에이이173",
+        "JUNSEO",
+        "준서"
+      ],
+      "music": "Kento Nakajima의 Saishowa Kyun!",
+      "category": "General"
+    },
+    {
+      "views": 7092,
+      "likes": 5619,
+      "comments": 71,
+      "shares": 266,
+      "saves": 330,
+      "posted_at": "2026-05-10",
+      "caption": "67? #BAE173 #비에이이173 #MUZIN #무진",
+      "hashtags": [
+        "BAE173",
+        "비에이이173",
+        "MUZIN",
+        "무진"
+      ],
+      "music": "Gazan의 67 (Six Seven)",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 7,
+    "posts_last_30d": 7,
+    "avg_views": 16255,
+    "avg_likes": 4855,
+    "avg_comments": 74,
+    "avg_shares": 244,
+    "avg_saves": 242,
+    "engagement_rate": 33.32
+  }
 }

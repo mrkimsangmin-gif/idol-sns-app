@@ -3,17 +3,55 @@
   "name_en": "Rocket Punch",
   "slug": "rocket-punch",
   "tiktok_url": "https://www.tiktok.com/@official_rocketpunch",
-  "crawled_at": "2026-05-26T05:23:49.764760",
+  "crawled_at": "2026-06-06T08:19:13.952613",
   "profile": {
     "display_name": "Rocket Punch(로켓펀치)",
-    "username": "",
+    "username": "@official_rocketpunch",
     "verified": true,
     "category": "",
-    "followers": 0,
+    "followers": 367000,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 7908000,
     "bio": "#RocketPunch ( #로켓펀치 ) Official TikTok"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 23000,
+      "likes": 514,
+      "comments": 12,
+      "shares": 16,
+      "saves": 34,
+      "posted_at": "2026-06-05",
+      "caption": "ℋℯ&#119990;&#120007;&#120009;&#119991;ℯ&#119990;&#120009;&#128151;&#128048; &#10;…자세히",
+      "hashtags": [],
+      "music": "Nightcore의 Heartbeat",
+      "category": "General"
+    },
+    {
+      "views": 4789,
+      "likes": 1067,
+      "comments": 29,
+      "shares": 19,
+      "saves": 59,
+      "posted_at": "2026-05-14",
+      "caption": "☆ ‧₊˚ ⋅ Du du ru du&#128154;&#128048;‎ ౨ৎ  ‧₊ .ᐟ ‧⁺ #RocketPunch #로켓펀치 #RCPC…자세히",
+      "hashtags": [
+        "RocketPunch",
+        "로켓펀치",
+        "RCPC"
+      ],
+      "music": "NCT WISH의 Ode to Love",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 2,
+    "posts_last_30d": 2,
+    "avg_views": 13894,
+    "avg_likes": 790,
+    "avg_comments": 20,
+    "avg_shares": 17,
+    "avg_saves": 46,
+    "engagement_rate": 6.3
+  }
 }

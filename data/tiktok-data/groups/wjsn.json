@@ -3,17 +3,123 @@
   "name_en": "WJSN",
   "slug": "wjsn",
   "tiktok_url": "https://www.tiktok.com/@official_wjsn",
-  "crawled_at": "2026-05-26T05:19:17.770560",
+  "crawled_at": "2026-06-06T08:10:26.232028",
   "profile": {
-    "display_name": "",
-    "username": "",
-    "verified": false,
+    "display_name": "wjsn_cosmic",
+    "username": "@official_wjsn",
+    "verified": true,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
-    "bio": ""
+    "followers": 638000,
+    "following": 2,
+    "total_likes": 12189000,
+    "bio": "우주소녀 공식 TikTok 입니다.&#10;WJSN Official TikTok"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 39000,
+      "likes": 1467,
+      "comments": 33,
+      "shares": 19,
+      "saves": 74,
+      "posted_at": "2026-06-01",
+      "caption": "かわいいだけじゃだめですか？&#128521;&#10;…자세히",
+      "hashtags": [],
+      "music": "CUTIE STREET의 かわいいだけじゃだめですか？ - 1サビ",
+      "category": "General"
+    },
+    {
+      "views": 39000,
+      "likes": 7452,
+      "comments": 101,
+      "shares": 114,
+      "saves": 552,
+      "posted_at": "2026-05-30",
+      "caption": "따-따라따따&#128062; &#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 46000,
+      "likes": 2524,
+      "comments": 45,
+      "shares": 37,
+      "saves": 134,
+      "posted_at": "2026-05-28",
+      "caption": "POV: Realizing it’s my birthday week  &#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 18000,
+      "likes": 6957,
+      "comments": 73,
+      "shares": 72,
+      "saves": 300,
+      "posted_at": "2026-05-27",
+      "caption": "&#119919;&#119952;&#119952;&#119949;&#119946;&#119944;&#119938;&#119951;&#10;…자세히",
+      "hashtags": [],
+      "music": "방탄소년단의 Hooligan",
+      "category": "General"
+    },
+    {
+      "views": 9112,
+      "likes": 3026,
+      "comments": 55,
+      "shares": 54,
+      "saves": 155,
+      "posted_at": "2026-05-27",
+      "caption": "mosi? mosi?&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 29000,
+      "likes": 4203,
+      "comments": 74,
+      "shares": 72,
+      "saves": 229,
+      "posted_at": "2026-05-27",
+      "caption": "마이벌뜨데이&#127874;&#10;…자세히",
+      "hashtags": [],
+      "music": "Tyler, The Creator의 See You Again (feat. Kali Uchis)",
+      "category": "General"
+    },
+    {
+      "views": 322000,
+      "likes": 470,
+      "comments": 14,
+      "shares": 10,
+      "saves": 34,
+      "posted_at": "2026-05-23",
+      "caption": "지치고 병든 ㄴㅏ.&#10;…자세히",
+      "hashtags": [],
+      "music": "AKMU (악뮤)의 소문의 낙원",
+      "category": "General"
+    },
+    {
+      "views": 10000,
+      "likes": 3959,
+      "comments": 60,
+      "shares": 79,
+      "saves": 214,
+      "posted_at": "2026-05-14",
+      "caption": "해피다영데이야아๑ ྀི˚&#127826;&#10;…자세히",
+      "hashtags": [],
+      "music": "Tyler, The Creator의 See You Again (feat. Kali Uchis)",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 8,
+    "posts_last_30d": 8,
+    "avg_views": 64014,
+    "avg_likes": 3757,
+    "avg_comments": 56,
+    "avg_shares": 57,
+    "avg_saves": 211,
+    "engagement_rate": 6.38
+  }
 }

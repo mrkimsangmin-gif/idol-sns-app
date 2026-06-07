@@ -3,17 +3,127 @@
   "name_en": "ZEROBASEONE",
   "slug": "zerobaseone",
   "tiktok_url": "https://www.tiktok.com/@zb1_official",
-  "crawled_at": "2026-05-26T05:33:32.365479",
+  "crawled_at": "2026-06-06T08:29:57.662472",
   "profile": {
     "display_name": "ZEROBASEONE",
-    "username": "",
+    "username": "@zb1_official",
     "verified": true,
     "category": "",
-    "followers": 0,
+    "followers": 5384000,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 409999999,
     "bio": "&#120243;&#120232;&#120243;&#120235;&#120228; ‘&#120295;&#120290;&#120291; &#120817;’ &#120238;&#120244;&#120243; &#120237;&#120238;&#120246; ↗ &#120243;&#120257;&#120254; &#120808;&#120269;&#120257; &#120236;&#120258;&#120263;&#120258; &#120224;&#120261;&#120251;&#120270;&#120262; 「&#120380;&#120424;&#120408;&#120410;&#120419;&#120409;-」"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 700000,
+      "likes": 48000,
+      "comments": 432,
+      "shares": 1073,
+      "saves": 2642,
+      "posted_at": "2026-06-05",
+      "caption": "하유멬미필라잌 예에에에에ㅔㅔ&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 364000,
+      "likes": 38000,
+      "comments": 111,
+      "shares": 322,
+      "saves": 1340,
+      "posted_at": "2026-06-05",
+      "caption": "#멋쟁이챌린지 with 멋쟁이 tripleS 마유, 하연 님&#128526;…자세히",
+      "hashtags": [
+        "멋쟁이챌린지"
+      ],
+      "music": "ZEROBASEONE (제로베이스원)의 TOP 5 (Intro)",
+      "category": "Challenge/Dance"
+    },
+    {
+      "views": 762000,
+      "likes": 55000,
+      "comments": 437,
+      "shares": 1243,
+      "saves": 3072,
+      "posted_at": "2026-06-05",
+      "caption": "TWS 경민 님's &#120295;&#120290;&#120291; &#120817; favorites &#10;…자세히",
+      "hashtags": [],
+      "music": "ZEROBASEONE (제로베이스원)의 TOP 5",
+      "category": "General"
+    },
+    {
+      "views": 284000,
+      "likes": 171000,
+      "comments": 829,
+      "shares": 2399,
+      "saves": 8680,
+      "posted_at": "2026-06-05",
+      "caption": "IDID 장용훈 님's &#120295;&#120290;&#120291; &#120817; favorites &#10;…자세히",
+      "hashtags": [],
+      "music": "ZEROBASEONE (제로베이스원)의 TOP 5",
+      "category": "General"
+    },
+    {
+      "views": 1740000,
+      "likes": 152000,
+      "comments": 1249,
+      "shares": 7687,
+      "saves": 8999,
+      "posted_at": "2026-06-03",
+      "caption": "POV: when you tell your friend to look but they take too long …자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 357000,
+      "likes": 56000,
+      "comments": 242,
+      "shares": 464,
+      "saves": 2342,
+      "posted_at": "2026-06-03",
+      "caption": "온앤오프 승준 선배님's &#120295;&#120290;&#120291; &#120817; favorites &#10;…자세히",
+      "hashtags": [],
+      "music": "ZEROBASEONE (제로베이스원)의 TOP 5",
+      "category": "General"
+    },
+    {
+      "views": 2246000,
+      "likes": 352000,
+      "comments": 1794,
+      "shares": 12000,
+      "saves": 16000,
+      "posted_at": "2026-06-03",
+      "caption": "POV: the most embarrassing thing that can happen to you…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 235000,
+      "likes": 70000,
+      "comments": 145,
+      "shares": 580,
+      "saves": 1955,
+      "posted_at": "2026-06-03",
+      "caption": "#멋쟁이챌린지 with 멋쟁이 LE SSERAFIM KAZUHA 선배님&#128526;…자세히",
+      "hashtags": [
+        "멋쟁이챌린지"
+      ],
+      "music": "ZEROBASEONE (제로베이스원)의 TOP 5 (Intro)",
+      "category": "Challenge/Dance"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 8,
+    "posts_last_30d": 8,
+    "avg_views": 836000,
+    "avg_likes": 117750,
+    "avg_comments": 654,
+    "avg_shares": 3221,
+    "avg_saves": 5628,
+    "engagement_rate": 15.22
+  }
 }

@@ -3,17 +3,61 @@
   "name_en": "ASTRO",
   "slug": "astro",
   "tiktok_url": "https://www.tiktok.com/@astro_official",
-  "crawled_at": "2026-05-26T05:36:24.067020",
+  "crawled_at": "2026-06-08T03:32:18.963478",
   "profile": {
     "display_name": "ASTRO 아스트로",
-    "username": "",
+    "username": "@astro_official",
     "verified": true,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 7973000,
+    "following": 4,
+    "total_likes": 120000000,
     "bio": ""
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 484000,
+      "likes": 31000,
+      "comments": 1171,
+      "shares": 797,
+      "saves": 1978,
+      "posted_at": "2026-06-06",
+      "caption": "우리가 10년 째 베프인 이유 #윤산하 #YOONSANHA #NoReasonToLov…자세히",
+      "hashtags": [
+        "윤산하",
+        "YOONSANHA",
+        "NoReasonToLov"
+      ],
+      "music": "윤산하의 NO REASON",
+      "category": "General"
+    },
+    {
+      "views": 455000,
+      "likes": 79000,
+      "comments": 2491,
+      "shares": 1855,
+      "saves": 5352,
+      "posted_at": "2026-05-27",
+      "caption": "IDK 진진❓#윤산하 #YOONSANHA #ASTRO #JINJIN #IDK_ME",
+      "hashtags": [
+        "윤산하",
+        "YOONSANHA",
+        "ASTRO",
+        "JINJIN",
+        "IDK_ME"
+      ],
+      "music": "윤산하의 IDK ME",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 2,
+    "posts_last_30d": 2,
+    "avg_views": 469500,
+    "avg_likes": 55000,
+    "avg_comments": 1831,
+    "avg_shares": 1326,
+    "avg_saves": 3665,
+    "engagement_rate": 13.17
+  }
 }
