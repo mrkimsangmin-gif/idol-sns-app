@@ -427,6 +427,12 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     } else if (urlParams.sns || urlParams.month) {
+        // 성별 지정(정적 월별 랭킹 URL: boys/girls) → 성별 토글 반영 후 로드
+        if (urlParams.gender) {
+            document.getElementById('gender').value = urlParams.gender;
+            const gd = document.getElementById('genderDropdown');
+            if (gd) gd.innerHTML = urlParams.gender;
+        }
         // /ranking/{sns} 또는 /ranking/{YYMM}/{sns} 접근 → 드롭다운 자동 선택
         if (urlParams.sns) {
             document.getElementById('sns').value = urlParams.sns;
@@ -957,7 +963,17 @@ function getPageIdFromPath(path) {
  * @returns {Object} { sns, month, idolSlug }
  */
 function parseUrlParams(path) {
-    const result = { sns: null, month: null, idolSlug: null };
+    const result = { sns: null, month: null, idolSlug: null, gender: null };
+
+    // /ranking/{YYYY-MM}/{sns}-{gender}/ 패턴 (정적 월별 랭킹 페이지)
+    //   예: /ranking/2026-05/weibo-boys/ → month=2026-05, sns=웨이보, gender=남자
+    const fullMatch = path.match(/^\/ranking\/(\d{4}-\d{2})\/([a-z]+)-(boys|girls)\/?$/);
+    if (fullMatch && SNS_SLUG_MAP[fullMatch[2]]) {
+        result.month = fullMatch[1];
+        result.sns = SNS_SLUG_MAP[fullMatch[2]];
+        result.gender = fullMatch[3] === 'boys' ? '남자' : '여자';
+        return result;
+    }
 
     // /ranking/{sns} 패턴 (예: /ranking/bilibili)
     const snsMatch = path.match(/^\/ranking\/([a-z]+)$/);
