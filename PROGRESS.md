@@ -44,8 +44,9 @@ curl -s -A "GPTBot/1.0" http://127.0.0.1:8899/namu/bts/ -w "[%{http_code}]\n" -o
 - [x] 전체 생성: **188개** (`namu-index.json` 190 그룹 중 per-group json 존재분). 13초
 - [x] 전수 검증 0 문제: 단일 H1 / JSON-LD 3종(MusicGroup·BreadcrumbList·FAQPage) 유효 / 끝슬래시 canonical / title 정상
 - [x] nav 무결성: 전 page-section + script.js/namu.js 유지(셸 복제 방식)
-- [ ] 홈 ItemList 16→173 확장 (후속)
-- [ ] 라이브 배포 후 표본 직접 fetch 200 확인
+- [x] 홈 ItemList 16→**188** 확장 (`build/update_home_itemlist.py`, url+foundingDate 포함). 그룹 페이지엔 중복 제거(자체 MusicGroup 보유)
+- [x] sitemap 끝슬래시 정렬 + 정적 생성분만 필터 + lastmod 실행일 갱신 (`update_sitemap.py` 수정): 208 URL, 그룹 188개 끝슬래시
+- [x] 라이브 배포 후 표본 직접 fetch 200 확인 (Phase 1 표본 5 + 아래 재배포)
 
 > nav를 위해 다른 page-section은 유지해야 하므로, 그 안의 "Loading" 플레이스홀더(홈/뉴스/채용)는 남김.
 > 숨김 섹션이라 BTS 등 엔티티 본문 대비 노이즈 미미. 완전 제거는 nav 분리 리팩터 필요(보류).

@@ -294,6 +294,13 @@ def build_group_page(slug):
     #      - <noscript>: 홈 그룹표(끝슬래시 무관, baked 본문이 no-JS 폴백 역할 대체)
     t = strip_once(t, r'<article id="seo-static-content".*?</article>', "home seo article")
     t = strip_once(t, r"<noscript>.*?</noscript>", "home noscript")
+    # 홈 전용 전수 ItemList(188개)는 그룹 페이지에 불필요(자체 MusicGroup 보유) → 제거
+    t = strip_once(
+        t,
+        r'<!-- Schema\.org K-POP 아이돌 데이터베이스 \(AI 봇 인용 최적화\) -->\s*'
+        r'<script type="application/ld\+json">.*?</script>',
+        "home ItemList",
+    )
     # 잔여 홈 H1(숨김 #page-home 내부)을 H2로 강등 → 엔티티 H1만 남김
     t = replace_once(
         t,

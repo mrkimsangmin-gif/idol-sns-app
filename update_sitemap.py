@@ -63,12 +63,19 @@ def generate_sitemap():
   </url>''')
 
     # 나무위키 그룹 개별 페이지
+    # - 정적 페이지(namu/<slug>/index.html)가 실제 생성된 슬러그만 포함
+    #   (미생성 슬러그는 SPA 404 핵으로 404 → 사이트맵 오류 방지)
+    # - GitHub Pages가 /namu/<slug> → /namu/<slug>/ 로 301하므로 끝슬래시 URL 사용
+    group_count = 0
     for g in groups:
         slug = g.get('slug', '')
         if not slug:
             continue
+        if not (ROOT / 'namu' / slug / 'index.html').exists():
+            continue
+        group_count += 1
         urls.append(f'''  <url>
-    <loc>https://aimcontents.com/namu/{slug}</loc>
+    <loc>https://aimcontents.com/namu/{slug}/</loc>
     <lastmod>{TODAY}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -86,7 +93,7 @@ def generate_sitemap():
         f.write(xml)
 
     print(f'sitemap.xml updated: {len(urls)} URLs, lastmod={TODAY}')
-    print(f'  Static: {len(STATIC_PAGES)}, SNS: {len(SNS_PAGES)}, Groups: {len(groups)}')
+    print(f'  Static: {len(STATIC_PAGES)}, SNS: {len(SNS_PAGES)}, Groups: {group_count} (정적 생성분만)')
 
 if __name__ == '__main__':
     generate_sitemap()
