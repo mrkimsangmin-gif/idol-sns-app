@@ -15,7 +15,7 @@ var searchIndexData = null;     // search-index.json 역인덱스 데이터
 var groupEmbedIndex = null;     // group-embed-index.json (lazy load, 임베딩 유사도 검색용)
 
 // 캐시 버스팅 버전
-const NAMU_DATA_VERSION = '20260601';
+const NAMU_DATA_VERSION = '20260608';
 
 // ============================================================
 // 진입점
@@ -67,7 +67,7 @@ async function loadNamu() {
 
     // URL에 slug가 있으면 그룹 상세로 진입 (/namu/{slug} 또는 /namu/group/{slug})
     const path = window.location.pathname;
-    const slugMatch = path.match(/^\/namu\/(?:group\/)?([a-z0-9_-]+)$/);
+    const slugMatch = path.match(/^\/namu\/(?:group\/)?([a-z0-9_-]+)\/?$/);
     if (slugMatch && slugMatch[1] !== 'ranking') {
         loadNamuGroupBySlug(slugMatch[1]);
     } else if (path === '/namu/ranking') {
@@ -244,7 +244,7 @@ async function loadNamuGroupBySlug(slug) {
 
         // URL 업데이트 + SEO 메타 태그 동적 갱신
         var groupTitle = namuCurrentGroup.name + ' (' + namuCurrentGroup.name_en + ') | 나무위키 | 아이엠콘텐츠';
-        history.pushState({ pageId: 'namu', namuSlug: slug }, groupTitle, '/namu/' + slug);
+        history.pushState({ pageId: 'namu', namuSlug: slug }, groupTitle, '/namu/' + slug + '/');
         document.title = groupTitle;
 
         // SEO: meta description + OG 태그 동적 업데이트 (AI 봇/소셜 공유 대응)
@@ -263,9 +263,9 @@ async function loadNamuGroupBySlug(slug) {
         var ogTitle = document.querySelector('meta[property="og:title"]');
         if (ogTitle) ogTitle.setAttribute('content', groupTitle);
         var ogUrl = document.querySelector('meta[property="og:url"]');
-        if (ogUrl) ogUrl.setAttribute('content', 'https://aimcontents.com/namu/' + slug);
+        if (ogUrl) ogUrl.setAttribute('content', 'https://aimcontents.com/namu/' + slug + '/');
         var canonical = document.querySelector('link[rel="canonical"]');
-        if (canonical) canonical.setAttribute('href', 'https://aimcontents.com/namu/' + slug);
+        if (canonical) canonical.setAttribute('href', 'https://aimcontents.com/namu/' + slug + '/');
 
         // SEO: 동적 Schema.org JSON-LD 삽입 (AI 봇 인용 최적화)
         updateNamuGroupJsonLd(namuCurrentGroup, slug);
@@ -328,7 +328,7 @@ function updateNamuGroupJsonLd(group, slug) {
         '@type': 'MusicGroup',
         'name': group.name,
         'alternateName': group.name_en,
-        'url': 'https://aimcontents.com/namu/' + slug,
+        'url': 'https://aimcontents.com/namu/' + slug + '/',
         'genre': 'K-POP',
         'foundingDate': info['데뷔일'] || '',
         'numberOfEmployees': (group.members || []).length,

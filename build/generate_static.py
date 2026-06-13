@@ -57,7 +57,7 @@ def build_meta(g):
 # ----------------------------------------------------------------------------
 def build_jsonld(g, slug, member_names):
     info = g.get("info", {}) or {}
-    url = f"{SITE}/namu/{slug}"
+    url = f"{SITE}/namu/{slug}/"
     members = [
         {"@type": "Person", "name": m.get("name", ""), "birthDate": m.get("생년월일", "")}
         for m in g.get("members", [])
@@ -240,7 +240,9 @@ def build_group_page(slug):
     g = load_group(slug)
     title, desc, member_names = build_meta(g)
     jsonld_html, qas = build_jsonld(g, slug, member_names)
-    url = f"{SITE}/namu/{slug}"
+    # GitHub Pages는 /namu/<slug> → /namu/<slug>/ (디렉토리)로 301하므로
+    # canonical/og/JSON-LD는 실제 200 URL(트레일링 슬래시)에 맞춘다.
+    url = f"{SITE}/namu/{slug}/"
 
     shell = SHELL.read_text(encoding="utf-8")
     t = shell
