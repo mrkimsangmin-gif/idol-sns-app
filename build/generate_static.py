@@ -166,9 +166,18 @@ def build_header_html(g):
     )
 
 
-def build_detail_html(g, qas):
+def build_detail_html(g, qas, updated=""):
     info = g.get("info", {}) or {}
     parts = []
+
+    # 출처·갱신일 (GEO/AEO 인용용 고정 문장)
+    src_line = (
+        f"<p class='text-muted small'>출처: 아이엠콘텐츠(aimcontents.com) · "
+        f"나무위키 기반 공개정보 정제"
+        + (f" · 갱신 {updated}" if updated else "")
+        + "</p>"
+    )
+    parts.append(src_line)
 
     # 1) Q&A 직답 블록 (AEO)
     if qas:
@@ -318,8 +327,13 @@ def build_group_page(slug):
                      '<div id="namuGroupDetail" style="display: block;">', "namuGroupDetail show")
     t = replace_once(t, '<div id="namuGroupHeader" class="mb-3"></div>',
                      f'<div id="namuGroupHeader" class="mb-3">{build_header_html(g)}</div>', "header")
+    try:
+        from datetime import date
+        updated = date.fromtimestamp((GROUPS_DIR / f"{slug}.json").stat().st_mtime).isoformat()
+    except OSError:
+        updated = ""
     t = replace_once(t, '<div id="namuDetailContent"></div>',
-                     f'<div id="namuDetailContent">{build_detail_html(g, qas)}</div>', "detail")
+                     f'<div id="namuDetailContent">{build_detail_html(g, qas, updated)}</div>', "detail")
 
     out_dir = ROOT / "namu" / slug
     out_dir.mkdir(parents=True, exist_ok=True)

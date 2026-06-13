@@ -1,114 +1,86 @@
 """
 sitemap.xml 자동 갱신 스크립트
-- data/namu-index.json에서 그룹 slug 추출
-- 기존 페이지 + 174개 그룹 개별 URL 생성
-- lastmod를 실행 시점 날짜로 자동 업데이트
+
+원칙:
+- **실제 200으로 서빙되는(정적 파일이 존재하는) URL만 포함** → sitemap 404 방지
+  (SPA 전용 라우트 /ranking, /news, /comeback, /namu, /douyin 등은 직접 접근 시 404라 제외)
+- **URL별 lastmod는 원천 데이터 파일의 mtime 기준** → 안 바뀐 과거 페이지가 오늘로 찍히지 않음
 - 사용법: python update_sitemap.py
 """
-import json, sys, io
+import json, sys, io, os
 from datetime import date
 from pathlib import Path
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
-# 프로젝트 루트 (이 스크립트와 같은 디렉토리)
 ROOT = Path(__file__).resolve().parent
-TODAY = date.today().isoformat()  # YYYY-MM-DD
+TODAY = date.today().isoformat()
+BASE = 'https://aimcontents.com'
 
-# 고정 페이지 정의
-STATIC_PAGES = [
-    ('/', 'daily', '1.0'),
-    ('/ranking', 'monthly', '0.9'),
-    ('/comeback', 'weekly', '0.8'),
-    ('/news', 'daily', '0.8'),
-    ('/links', 'monthly', '0.6'),
-    ('/jobs', 'daily', '0.7'),
-    ('/vendors', 'monthly', '0.6'),
-    ('/douyin', 'weekly', '0.6'),
-    ('/namu', 'weekly', '0.8'),
-    ('/namuwiki', 'weekly', '0.7'),
-    ('/namu/ranking', 'weekly', '0.7'),
-    ('/team', 'monthly', '0.4'),
-    ('/methodology', 'monthly', '0.5'),
-]
 
-# SNS별 랭킹 페이지
-SNS_PAGES = ['weibo', 'bilibili', 'qqmusic', 'twitter', 'youtube', 'spotify', 'chaohua', 'instagram']
+def lastmod_of(*paths):
+    """**원천 데이터** 파일들 중 가장 최근 mtime의 날짜(YYYY-MM-DD). 없으면 오늘.
+    주의: 생성된 정적 HTML mtime은 넣지 말 것(매 빌드마다 오늘로 갱신돼 freshness 신호 무의미)."""
+    times = [os.path.getmtime(p) for p in paths if p and Path(p).exists()]
+    if not times:
+        return TODAY
+    return date.fromtimestamp(max(times)).isoformat()
+
+
+def url_block(loc, lastmod, freq, priority):
+    return (f'  <url>\n    <loc>{loc}</loc>\n    <lastmod>{lastmod}</lastmod>\n'
+            f'    <changefreq>{freq}</changefreq>\n    <priority>{priority}</priority>\n  </url>')
+
 
 def generate_sitemap():
-    # namu-index.json에서 그룹 slug 추출
-    index_path = ROOT / 'data' / 'namu-index.json'
-    with open(index_path, 'r', encoding='utf-8') as f:
-        idx = json.load(f)
-    groups = idx.get('groups', [])
-
+    data = ROOT / 'data'
     urls = []
 
-    # 고정 페이지
-    for path, freq, priority in STATIC_PAGES:
-        urls.append(f'''  <url>
-    <loc>https://aimcontents.com{path}</loc>
-    <lastmod>{TODAY}</lastmod>
-    <changefreq>{freq}</changefreq>
-    <priority>{priority}</priority>
-  </url>''')
-
-    # SNS별 랭킹
-    for sns in SNS_PAGES:
-        priority = '0.8' if sns in ('weibo', 'bilibili', 'youtube', 'instagram') else '0.7'
-        urls.append(f'''  <url>
-    <loc>https://aimcontents.com/ranking/{sns}</loc>
-    <lastmod>{TODAY}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>{priority}</priority>
-  </url>''')
-
-    # 나무위키 그룹 개별 페이지
-    # - 정적 페이지(namu/<slug>/index.html)가 실제 생성된 슬러그만 포함
-    #   (미생성 슬러그는 SPA 404 핵으로 404 → 사이트맵 오류 방지)
-    # - GitHub Pages가 /namu/<slug> → /namu/<slug>/ 로 301하므로 끝슬래시 URL 사용
-    group_count = 0
-    for g in groups:
-        slug = g.get('slug', '')
-        if not slug:
+    # 1) 정적 파일이 존재하는 고정 페이지만 (url, 정적파일, lastmod소스, freq, priority)
+    static_defs = [
+        ('/',              ROOT / 'index.html',              ROOT / 'index.html',           'daily',   '1.0'),
+        ('/jobs/',         ROOT / 'jobs' / 'index.html',     data / 'jobs.json',            'daily',   '0.7'),
+        ('/methodology/',  ROOT / 'methodology' / 'index.html', data / 'namu-index.json',   'monthly', '0.5'),
+    ]
+    static_count = 0
+    for path, static_file, src, freq, pr in static_defs:
+        if not static_file.exists():
             continue
-        if not (ROOT / 'namu' / slug / 'index.html').exists():
+        static_count += 1
+        urls.append(url_block(f'{BASE}{path}', lastmod_of(src), freq, pr))
+
+    # 2) 나무위키 그룹 (정적 페이지 존재분만), lastmod = 원천 per-group json mtime
+    idx = json.loads((data / 'namu-index.json').read_text(encoding='utf-8'))
+    group_count = 0
+    for g in idx.get('groups', []):
+        slug = g.get('slug', '')
+        page = ROOT / 'namu' / slug / 'index.html'
+        if not slug or not page.exists():
             continue
         group_count += 1
-        urls.append(f'''  <url>
-    <loc>https://aimcontents.com/namu/{slug}/</loc>
-    <lastmod>{TODAY}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>''')
+        src = data / 'namu-groups' / f'{slug}.json'
+        urls.append(url_block(f'{BASE}/namu/{slug}/', lastmod_of(src), 'weekly', '0.6'))
 
-    # 월별 영구 랭킹 페이지 (정적 생성분: ranking/<YYYY-MM>/<sns-gender>/index.html)
-    ranking_count = 0
+    # 3) 월별 랭킹 (정적 생성분), lastmod = 성별별 원천 SNS json mtime
     ranking_root = ROOT / 'ranking'
+    ranking_count = 0
     if ranking_root.exists():
-        for idx_html in sorted(ranking_root.glob('*/*/index.html')):
-            rel = idx_html.parent.relative_to(ranking_root).as_posix()  # 'YYYY-MM/sns-gender'
+        for page in sorted(ranking_root.glob('*/*/index.html')):
+            rel = page.parent.relative_to(ranking_root).as_posix()  # 'YYYY-MM/sns-gender'
+            gender_slug = page.parent.name.rsplit('-', 1)[-1]       # boys / girls
+            src = data / ('sns-male.json' if gender_slug == 'boys' else 'sns-female.json')
             ranking_count += 1
-            urls.append(f'''  <url>
-    <loc>https://aimcontents.com/ranking/{rel}/</loc>
-    <lastmod>{TODAY}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>''')
+            urls.append(url_block(f'{BASE}/ranking/{rel}/', lastmod_of(src), 'monthly', '0.7'))
 
-    # XML 생성
-    xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
-    xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    xml += '\n'.join(urls) + '\n'
-    xml += '</urlset>\n'
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+           + '\n'.join(urls) + '\n</urlset>\n')
+    (ROOT / 'sitemap.xml').write_text(xml, encoding='utf-8')
 
-    # 저장
-    sitemap_path = ROOT / 'sitemap.xml'
-    with open(sitemap_path, 'w', encoding='utf-8') as f:
-        f.write(xml)
+    print(f'sitemap.xml updated: {len(urls)} URLs')
+    print(f'  Static: {static_count}, Groups: {group_count}, Rankings: {ranking_count} '
+          f'(정적 200 서빙분만, lastmod=원천 mtime)')
 
-    print(f'sitemap.xml updated: {len(urls)} URLs, lastmod={TODAY}')
-    print(f'  Static: {len(STATIC_PAGES)}, SNS: {len(SNS_PAGES)}, Groups: {group_count}, Rankings: {ranking_count} (정적 생성분만)')
 
 if __name__ == '__main__':
     generate_sitemap()
