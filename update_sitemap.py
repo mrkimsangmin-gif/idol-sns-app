@@ -4,7 +4,8 @@ sitemap.xml 자동 갱신 스크립트
 원칙:
 - **실제 200으로 서빙되는(정적 파일이 존재하는) URL만 포함** → sitemap 404 방지
   (SPA 전용 라우트 /ranking, /news, /comeback, /namu, /douyin 등은 직접 접근 시 404라 제외)
-- **URL별 lastmod는 원천 데이터 파일의 mtime 기준** → 안 바뀐 과거 페이지가 오늘로 찍히지 않음
+- **URL별 lastmod는 원천 데이터 JSON의 내장 'generated' 타임스탬프 기준** → 안 바뀐 과거 페이지가
+  오늘로 찍히지 않음. (파일 mtime은 git이 보존하지 않아 CI 체크아웃 시 전부 today가 되므로 사용 금지)
 - 사용법: python update_sitemap.py
 """
 import json, sys, io, os
