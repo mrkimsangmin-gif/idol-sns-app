@@ -76,6 +76,11 @@ curl -s -A "GPTBot/1.0" http://127.0.0.1:8899/namu/bts/ -w "[%{http_code}]\n" -o
 - [ ] **사용자 작업 필요**: 리포 Settings→Actions→Workflow permissions를 "Read and write"로 설정해야 geo-build가 커밋 푸시 가능. 첫 `workflow_dispatch` 수동 실행으로 검증 권장
 
 ### 외부 리뷰 대응 요약
-- ✅ #1 sitemap 404 제거 / ✅ #4 lastmod 정교화 / ✅ #6 본문 출처·기준일 / ✅ #7 스모크 테스트(smoke 워크플로)
+- ✅ #1 sitemap 404 제거(283 URL, 라이브 확정) / ✅ #4 lastmod 정교화 / ✅ #6 본문 출처·기준일 / ✅ #7 스모크 테스트(smoke 워크플로)
 - ℹ️ #2·#3(llms.txt·methodology 404)은 리뷰 시점 stale — Phase 3 배포로 이미 200(재확인 완료)
 - 🚧 #5 JobPosting Google-Jobs 완전 적격(datePosted/description)은 per-job 상세페이지 필요 — 보류
+
+### ⚠️ CI 적용 중 발견·해결한 함정 (중요)
+- geo-build 봇이 매 실행마다 today 날짜로 재커밋하는 현상 발생 → 원인: **git은 파일 mtime을 보존하지 않음**(CI 체크아웃 시 전부 '오늘'). #4를 파일 mtime으로 구현했더니 CI에서 무력화
+- 해결: lastmod·갱신일을 파일 mtime이 아니라 **데이터 JSON 내장 `generated` 타임스탬프**로 산출(`update_sitemap.py`, `generate_static.py`) → 체크아웃 무관 결정적 → 봇 재커밋 중단(검증 완료). 배포본 namu-index.generated=05-31 기준으로 그룹·랭킹 lastmod=05-31, 홈·채용=today
+- 교훈: **빌드 산출물의 날짜/해시는 mtime이 아니라 입력 데이터 내용에서 파생**해야 CI 재현성이 깨지지 않음 (GLOBAL_DEV_INSIGHTS 후보)
