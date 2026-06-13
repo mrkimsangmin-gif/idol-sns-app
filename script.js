@@ -936,6 +936,8 @@ function updateMetaDescription(pageId) {
  * @returns {string} pageId
  */
 function getPageIdFromPath(path) {
+    // 끝 슬래시 정규화 (GitHub Pages 디렉토리 서빙: /jobs/ → /jobs, /news/ → /news)
+    if (path.length > 1 && path.endsWith('/')) path = path.replace(/\/+$/, '');
     // 기본 페이지 매핑
     const map = {
         '/': 'home', '/ranking': 'home',

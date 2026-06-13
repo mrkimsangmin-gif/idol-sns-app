@@ -29,6 +29,7 @@ STATIC_PAGES = [
     ('/namuwiki', 'weekly', '0.7'),
     ('/namu/ranking', 'weekly', '0.7'),
     ('/team', 'monthly', '0.4'),
+    ('/methodology', 'monthly', '0.5'),
 ]
 
 # SNS별 랭킹 페이지

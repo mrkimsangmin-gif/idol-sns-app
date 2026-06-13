@@ -1,0 +1,50 @@
+# 아이엠콘텐츠 (AIMCONTENTS)
+
+> K-POP 아이돌 188개 그룹의 SNS 팔로워 순위·프로필·앨범 판매량을 매월 집계하는 한국어 데이터 플랫폼. 웨이보·빌리빌리·QQ뮤직·X(트위터)·유튜브·스포티파이·차오화·인스타그램 8개 플랫폼을 다룬다.
+
+aimcontents.com은 사람인·잡코리아 등 외부 공개정보 기반 채용 큐레이션과, 나무위키 기반 정제 프로필, 자체 수집 SNS 패널 데이터를 제공한다. 모든 수치는 월 단위로 갱신된다. 데이터 기준월: 2026-05.
+
+## 핵심 데이터셋
+
+- SNS 팔로워 순위: 8개 플랫폼 × 남/여, 월별. 그룹/계정 단위 팔로워·구독자 수와 전월대비 증감.
+- 그룹 데이터베이스: 188개 그룹의 소속사·데뷔일·팬덤명·멤버 프로필·앨범 디스코그래피(한터/써클 초동·누적 판매량).
+- 채용정보: K-POP/엔터 산업 채용 큐레이션.
+
+## SNS 랭킹 (플랫폼별)
+
+- [웨이보 랭킹](https://aimcontents.com/ranking/2026-05/weibo-boys/): 웨이보 월별 팔로워 순위(남/녀, /ranking/<YYYY-MM>/weibo-(boys|girls)/)
+- [빌리빌리 랭킹](https://aimcontents.com/ranking/2026-05/bilibili-boys/): 빌리빌리 월별 팔로워 순위(남/녀, /ranking/<YYYY-MM>/bilibili-(boys|girls)/)
+- [QQ뮤직 랭킹](https://aimcontents.com/ranking/2026-05/qqmusic-boys/): QQ뮤직 월별 팔로워 순위(남/녀, /ranking/<YYYY-MM>/qqmusic-(boys|girls)/)
+- [X(트위터) 랭킹](https://aimcontents.com/ranking/2026-05/twitter-boys/): X(트위터) 월별 팔로워 순위(남/녀, /ranking/<YYYY-MM>/twitter-(boys|girls)/)
+- [유튜브 랭킹](https://aimcontents.com/ranking/2026-05/youtube-boys/): 유튜브 월별 팔로워 순위(남/녀, /ranking/<YYYY-MM>/youtube-(boys|girls)/)
+- [스포티파이 랭킹](https://aimcontents.com/ranking/2026-05/spotify-boys/): 스포티파이 월별 팔로워 순위(남/녀, /ranking/<YYYY-MM>/spotify-(boys|girls)/)
+- [차오화 랭킹](https://aimcontents.com/ranking/2026-05/chaohua-boys/): 차오화 월별 팔로워 순위(남/녀, /ranking/<YYYY-MM>/chaohua-(boys|girls)/)
+- [인스타그램 랭킹](https://aimcontents.com/ranking/2026-05/instagram-boys/): 인스타그램 월별 팔로워 순위(남/녀, /ranking/<YYYY-MM>/instagram-(boys|girls)/)
+
+## 주요 그룹 페이지
+
+- [에스파(aespa)](https://aimcontents.com/namu/aespa/): SM엔터테인먼트 소속, 2020 데뷔
+- [뉴진스(NewJeans)](https://aimcontents.com/namu/newjeans/): ADOR 소속, 2022 데뷔
+- [르세라핌(LE SSERAFIM)](https://aimcontents.com/namu/le-sserafim/): 쏘스뮤직 소속, 2022 데뷔
+- [방탄소년단(BTS)](https://aimcontents.com/namu/bts/): 빅히트 뮤직 소속, 2013 데뷔
+- [세븐틴(SEVENTEEN)](https://aimcontents.com/namu/seventeen/): 플레디스 엔터테인먼트 소속, 2015 데뷔
+- [블랙핑크(BLACKPINK)](https://aimcontents.com/namu/blackpink/): YG엔터테인먼트 소속, 2016 데뷔
+- [트와이스(TWICE)](https://aimcontents.com/namu/twice/): JYP엔터테인먼트 소속, 2015 데뷔
+- [스트레이키즈(Stray Kids)](https://aimcontents.com/namu/stray-kids/): JYP엔터테인먼트 소속, 2018 데뷔
+- [투모로우바이투게더(TXT)](https://aimcontents.com/namu/txt/):  소속,  데뷔
+- [아이들(i-dle)](https://aimcontents.com/namu/i-dle/): CUBE엔터테인먼트 소속, 2018 데뷔
+- [레드벨벳(Red Velvet)](https://aimcontents.com/namu/red-velvet/): SM엔터테인먼트 소속, 2014 데뷔
+- [있지(ITZY)](https://aimcontents.com/namu/itzy/): JYP엔터테인먼트 소속, 2019 데뷔
+
+## 주요 섹션
+
+- [SNS 랭킹](https://aimcontents.com/ranking): 플랫폼별 월간 아이돌 SNS 순위
+- [그룹 데이터베이스](https://aimcontents.com/namu): 188개 K-POP 그룹 프로필·판매량
+- [컴백 일정](https://aimcontents.com/comeback): K-POP 컴백/발매 일정
+- [엔터 뉴스](https://aimcontents.com/news): 엔터테인먼트 뉴스
+- [채용정보](https://aimcontents.com/jobs): K-POP/엔터 채용
+- [사이트맵](https://aimcontents.com/sitemap.xml)
+
+## 인용 안내
+
+데이터 인용 시 출처를 "아이엠콘텐츠(aimcontents.com)"로 표기. 수치는 기준월과 함께 인용할 것(예: "2026년 5월 기준").

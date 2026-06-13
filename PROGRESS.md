@@ -60,5 +60,13 @@ curl -s -A "GPTBot/1.0" http://127.0.0.1:8899/namu/bts/ -w "[%{http_code}]\n" -o
 - [ ] 라이브 배포 후 표본 검증
 
 > URL 스킴 `/ranking/<YYYY-MM>/<sns>-<gender>/` (sns=weibo/bilibili/qqmusic/twitter/youtube/spotify/chaohua/instagram, gender=boys/girls)
-## Phase 3 — jobs / methodology / llms.txt  ⬜
+## Phase 3 — jobs / methodology / llms.txt  ✅ (2026-06-13)
+- [x] `/llms.txt` (`build/generate_llms.py`): 사이트 정의·핵심 데이터셋·플랫폼별 랭킹/주요 그룹 URL·인용 안내. 데이터에서 실수치(188그룹, 6개월, 기준월) 생성
+- [x] `/methodology/` (`build/generate_methodology.py`): standalone E-E-A-T 페이지(운영주체·집계주기·8플랫폼·집계기준·출처) + Organization/AboutPage/Breadcrumb JSON-LD. SPA 미로드(라우트 아님)라 hydrate 충돌 없음
+- [x] `/jobs/` (`build/generate_jobs.py`): 셸 복제+SPA hydrate. baked 채용표(176건) + JobPosting @graph(176) + CollectionPage. 단일 H1
+- [x] `script.js` getPageIdFromPath 끝슬래시 정규화(`/jobs/`→jobs 라우팅, namu/jobs 등 범용)
+- [x] sitemap에 /methodology 추가(총 301 URL)
+- [ ] 라이브 배포 후 표본 검증
+
+> JobPosting 주의: 외부(사람인/잡코리아) 큐레이션이라 url은 출처 연결, datePosted/상세 description은 원천에만 있어 생략(허위 금지). Google for Jobs 완전 적격은 per-job 상세페이지 필요(후속).
 ## Phase 4 — sitemap + GitHub Actions CI + 검증  ⬜
