@@ -20,10 +20,24 @@ C:/Python314/python.exe -m http.server 8899 &
 curl -s -A "GPTBot/1.0" http://127.0.0.1:8899/namu/bts/ -w "[%{http_code}]\n" -o botview.html
 ```
 
-### 🚧 남은 확인 / 리스크
-- **사람 시점(브라우저) 육안 검증 미완**: 코드 경로상 SPA hydrate 정상이나, 실제 브라우저에서 깜빡임/중복 없는지 1회 확인 후 Phase 1 확대 권장 (헤드리스 브라우저 필요)
-- BTS와 무관한 숨김 섹션(홈/뉴스/채용)의 "Loading" 플레이스홀더가 HTML에 잔존 → Phase 1에서 lean 템플릿으로 제거
-- 생성물 `namu/bts/index.html`은 **아직 미커밋·미배포** (로컬 검증용). 배포는 사용자 승인 후
+### ✅ 라이브 배포 + 사람 시점 검증 (2026-06-13)
+- 커밋 `7b06a83`(파일럿) → `e0cc10d`(버그수정). GitHub Pages `built`
+- **봇 시점(GPTBot 라이브)**: HTTP 200, BTS 콘텐츠·JSON-LD 3종 노출 확인
+- **사람 시점(Chrome headless 스크린샷)**: SPA가 BTS 그룹 상세를 정상 렌더(프로필/멤버/디스코/판매량/스트리밍 탭) — 하이드레이트 정상, 중복 없음
+
+### 🐞 파일럿이 잡은 버그 → 수정 완료 (핵심 교훈)
+- **트레일링 슬래시 라우팅 버그**: GitHub Pages가 `/namu/<slug>` → `/namu/<slug>/`(디렉토리)로 301하는데, `namu.js`의 slug 정규식 `(...)$`이 끝 슬래시에 매칭 실패 → **사람 시점에서 그룹 상세 대신 검색 화면으로 폴백**. 봇(JS無)은 baked 콘텐츠라 정상이었으나 사람이 깨짐
+- 수정: `namu.js` 정규식 `([a-z0-9_-]+)\/?$` + canonical/og/JSON-LD url을 트레일링 슬래시(실제 200 URL)로 통일. generate_static.py도 동일 정렬
+- → **이 수정은 190개 전 그룹 페이지의 전제**. Phase 1 전 반드시 반영돼야 함 (이미 라이브 반영됨)
+
+### 📐 구조화 데이터 검증
+- JSON-LD 3종 모두 **구문 유효**(json.loads 통과): MusicGroup / BreadcrumbList / FAQPage
+- Google 리치결과 *기능* 기준: BreadcrumbList=지원 / FAQPage=대부분 사이트 비노출(2023 정책) / MusicGroup=리치결과 비대상이나 엔티티·AI엔진 이해엔 유효
+- Google Rich Results Test는 헤드리스 자동화 차단 → 사용자가 URL 직접 입력해 확인 권장
+
+### 🚧 남은 정리 (Phase 1로)
+- BTS와 무관한 숨김 섹션(홈/뉴스/채용)의 "Loading" 플레이스홀더가 HTML에 잔존 → lean 템플릿으로 제거
+- sitemap의 `/namu/<slug>` 항목도 트레일링 슬래시로 정렬
 
 ## Phase 1 — 그룹 페이지 190개  ⬜
 - [ ] lean 템플릿화(불필요 홈 섹션 제거) + 깜빡임 가드 확정
