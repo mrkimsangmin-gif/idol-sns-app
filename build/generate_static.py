@@ -13,6 +13,7 @@ Phase 0는 BTS 1개만 생성하여 "봇=콘텐츠 / 사람=SPA" 공존을 검�
 """
 import json
 import html
+import re
 from pathlib import Path
 
 # 리포 루트 = 이 파일(build/)의 부모
@@ -236,6 +237,14 @@ def replace_once(text, old, new, label):
     return text.replace(old, new)
 
 
+def strip_once(text, pattern, label):
+    """정규식으로 블록 1개를 제거 (DOTALL, non-greedy). 1개가 아니면 오류."""
+    new, n = re.subn(pattern, "", text, flags=re.DOTALL)
+    if n != 1:
+        raise RuntimeError(f"[strip 불일치] '{label}' 제거={n} (1이어야 함)")
+    return new
+
+
 def build_group_page(slug):
     g = load_group(slug)
     title, desc, member_names = build_meta(g)
@@ -280,18 +289,17 @@ def build_group_page(slug):
     # 2) JSON-LD 주입 (</head> 직전)
     t = replace_once(t, "</head>", jsonld_html + "\n</head>", "</head>")
 
-    # 2.5) 홈 전용 H1 2개를 H2로 강등 → 그룹 페이지엔 엔티티 H1만 남김
+    # 2.5) lean화: 그룹 페이지에서 홈 전용 SEO 블록 제거 (190페이지 중복 콘텐츠 방지)
+    #      - <article id="seo-static-content">: 홈 SEO 텍스트
+    #      - <noscript>: 홈 그룹표(끝슬래시 무관, baked 본문이 no-JS 폴백 역할 대체)
+    t = strip_once(t, r'<article id="seo-static-content".*?</article>', "home seo article")
+    t = strip_once(t, r"<noscript>.*?</noscript>", "home noscript")
+    # 잔여 홈 H1(숨김 #page-home 내부)을 H2로 강등 → 엔티티 H1만 남김
     t = replace_once(
         t,
         '<h1 class="mb-3 fw-bold fs-5">K-POP 아이돌 SNS 팔로워 순위</h1>',
         '<h2 class="mb-3 fw-bold fs-5">K-POP 아이돌 SNS 팔로워 순위</h2>',
         "home h1 demote",
-    )
-    t = replace_once(
-        t,
-        "<h1>아이엠콘텐츠 (aimcontents.com) - K-POP 아이돌 종합 데이터 플랫폼</h1>",
-        "<h2>아이엠콘텐츠 (aimcontents.com) - K-POP 아이돌 종합 데이터 플랫폼</h2>",
-        "noscript h1 demote",
     )
 
     # 3) 봇용 가시 콘텐츠: 섹션 가시성 전환 + 컨테이너 주입
@@ -313,9 +321,32 @@ def build_group_page(slug):
     return out_path
 
 
+def all_index_slugs():
+    """namu-index.json 의 그룹 슬러그 중 per-group json 이 존재하는 것만."""
+    idx = json.loads((ROOT / "data" / "namu-index.json").read_text(encoding="utf-8"))
+    slugs = []
+    for g in idx["groups"]:
+        slug = g.get("slug")
+        if slug and (GROUPS_DIR / f"{slug}.json").exists():
+            slugs.append(slug)
+    return slugs
+
+
 if __name__ == "__main__":
     import sys
-    slugs = sys.argv[1:] or ["bts"]  # Phase 0 기본: BTS 1개
+    args = [a for a in sys.argv[1:] if a != "--all"]
+    slugs = args if args else all_index_slugs()  # 인자 없으면 전체
+
+    built, skipped, total_bytes = 0, [], 0
     for s in slugs:
-        p = build_group_page(s)
-        print(f"생성: {p.relative_to(ROOT)}  ({p.stat().st_size:,} bytes)")
+        try:
+            p = build_group_page(s)
+            built += 1
+            total_bytes += p.stat().st_size
+        except Exception as e:
+            skipped.append((s, str(e)))
+    print(f"생성: {built}개  (평균 {total_bytes // max(built,1):,} bytes)")
+    if skipped:
+        print(f"스킵: {len(skipped)}개")
+        for s, e in skipped[:10]:
+            print(f"  - {s}: {e}")

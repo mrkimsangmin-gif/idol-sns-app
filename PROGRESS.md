@@ -39,10 +39,16 @@ curl -s -A "GPTBot/1.0" http://127.0.0.1:8899/namu/bts/ -w "[%{http_code}]\n" -o
 - BTS와 무관한 숨김 섹션(홈/뉴스/채용)의 "Loading" 플레이스홀더가 HTML에 잔존 → lean 템플릿으로 제거
 - sitemap의 `/namu/<slug>` 항목도 트레일링 슬래시로 정렬
 
-## Phase 1 — 그룹 페이지 190개  ⬜
-- [ ] lean 템플릿화(불필요 홈 섹션 제거) + 깜빡임 가드 확정
-- [ ] 190개 일괄 생성, 표본 직접 fetch 200 확인
-- [ ] 홈 ItemList 16→173 확장
+## Phase 1 — 그룹 페이지 일괄 생성  ✅ (2026-06-13)
+- [x] lean화: 그룹 페이지에서 홈 전용 `<article id="seo-static-content">` + `<noscript>` 제거 → 144KB→약 52KB, 190페이지 중복 콘텐츠 제거
+- [x] 전체 생성: **188개** (`namu-index.json` 190 그룹 중 per-group json 존재분). 13초
+- [x] 전수 검증 0 문제: 단일 H1 / JSON-LD 3종(MusicGroup·BreadcrumbList·FAQPage) 유효 / 끝슬래시 canonical / title 정상
+- [x] nav 무결성: 전 page-section + script.js/namu.js 유지(셸 복제 방식)
+- [ ] 홈 ItemList 16→173 확장 (후속)
+- [ ] 라이브 배포 후 표본 직접 fetch 200 확인
+
+> nav를 위해 다른 page-section은 유지해야 하므로, 그 안의 "Loading" 플레이스홀더(홈/뉴스/채용)는 남김.
+> 숨김 섹션이라 BTS 등 엔티티 본문 대비 노이즈 미미. 완전 제거는 nav 분리 리팩터 필요(보류).
 
 ## Phase 2 — 월별 영구 랭킹 URL  ⬜
 ## Phase 3 — jobs / methodology / llms.txt  ⬜
