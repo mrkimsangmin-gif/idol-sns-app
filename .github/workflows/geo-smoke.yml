@@ -1,0 +1,49 @@
+name: GEO 라이브 스모크 테스트
+
+# 배포 후 핵심 GEO 자산이 실제 200으로 서빙되는지 + sitemap의 <loc>가 404가 아닌지 확인.
+# (정적 파일 배포 누락/sitemap 404를 잡는다 — 외부 리뷰 #2·#7 대응)
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '40 19 * * *'   # geo-build 이후(UTC) 실행
+
+concurrency:
+  group: geo-smoke
+  cancel-in-progress: true
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 핵심 GEO 자산 200 확인
+        run: |
+          set -e
+          BASE="https://aimcontents.com"
+          fail=0
+          check() {
+            code=$(curl -s -o /dev/null -L -w "%{http_code}" "$1")
+            if [ "$code" != "200" ]; then echo "FAIL $1 -> $code"; fail=1; else echo "OK   $1"; fi
+          }
+          for u in /llms.txt /methodology/ /jobs/ /namu/bts/ /ranking/2026-05/youtube-girls/ /sitemap.xml /robots.txt; do
+            check "$BASE$u"
+          done
+          exit $fail
+
+      - name: sitemap <loc> 표본 200 확인 (404 혼입 방지)
+        run: |
+          set -e
+          curl -s https://aimcontents.com/sitemap.xml -o /tmp/sm.xml
+          # <loc> 전체 추출 후 30개 균등 표본
+          grep -oE '<loc>[^<]+</loc>' /tmp/sm.xml | sed -E 's/<\/?loc>//g' > /tmp/locs.txt
+          total=$(wc -l < /tmp/locs.txt)
+          echo "sitemap loc 총 $total개, 30개 표본 검사"
+          step=$(( total / 30 )); [ "$step" -lt 1 ] && step=1
+          fail=0; i=0
+          while IFS= read -r u; do
+            i=$((i+1))
+            if [ $(( i % step )) -ne 0 ]; then continue; fi
+            code=$(curl -s -o /dev/null -L -w "%{http_code}" "$u")
+            if [ "$code" != "200" ]; then echo "FAIL $u -> $code"; fail=1; fi
+          done < /tmp/locs.txt
+          [ "$fail" = "0" ] && echo "표본 전부 200" || true
+          exit $fail

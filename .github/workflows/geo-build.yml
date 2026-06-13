@@ -1,0 +1,86 @@
+name: GEO 정적 페이지 자동 재빌드
+
+# 원천 데이터/생성기/셸이 바뀌면 정적 페이지를 재생성해 커밋한다.
+# 생성 산출물(namu/·ranking/·jobs/·methodology/·llms.txt·sitemap.xml)은 트리거 경로에
+# 넣지 않아 커밋 루프가 발생하지 않는다(+ 커밋 메시지에 [skip ci]).
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/namu-wiki.json'
+      - 'data/namu-index.json'
+      - 'data/namu-groups/**'
+      - 'data/sns-male.json'
+      - 'data/sns-female.json'
+      - 'data/jobs.json'
+      - 'build/**'
+      - 'index.html'
+      - 'script.js'
+      - 'namu.js'
+      - 'update_sitemap.py'
+      - '.github/workflows/geo-build.yml'
+  workflow_dispatch: {}
+  schedule:
+    - cron: '17 19 * * *'   # 매일 1회(UTC) 데이터 변동 반영 보장
+
+concurrency:
+  group: geo-build
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 정적 페이지 생성 (stdlib만 사용, 의존성 없음)
+        run: |
+          set -e
+          python build/generate_static.py
+          python build/generate_ranking.py --all 6
+          python build/generate_jobs.py
+          python build/generate_llms.py
+          python build/generate_methodology.py
+          python update_sitemap.py
+
+      - name: 생성 결과 검증 (JSON-LD 파싱 + 최소 개수)
+        run: |
+          python - <<'PY'
+          import re, json, sys
+          from pathlib import Path
+          bad = 0
+          n = 0
+          for f in list(Path('namu').glob('*/index.html')) + list(Path('ranking').glob('*/*/index.html')) + [Path('jobs/index.html')]:
+              if not f.exists():
+                  continue
+              h = f.read_text(encoding='utf-8')
+              for b in re.findall(r'data-static="[^"]+">(.*?)</script>', h, re.S):
+                  n += 1
+                  try:
+                      json.loads(b)
+                  except Exception as e:
+                      print(f"INVALID JSON-LD in {f}: {e}"); bad += 1
+          groups = len(list(Path('namu').glob('*/index.html')))
+          ranks = len(list(Path('ranking').glob('*/*/index.html')))
+          print(f"검증: 그룹 {groups}, 랭킹 {ranks}, JSON-LD 블록 {n}개, 오류 {bad}")
+          if bad or groups < 150 or ranks < 50:
+              sys.exit(1)
+          PY
+
+      - name: 변경분 커밋·푸시
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add namu ranking jobs methodology llms.txt sitemap.xml
+          if git diff --cached --quiet; then
+            echo "변경 없음 — 커밋 생략"
+          else
+            git commit -m "chore(geo): 정적 페이지 자동 재생성 [skip ci]"
+            git push
+          fi

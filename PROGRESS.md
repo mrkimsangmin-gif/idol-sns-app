@@ -69,4 +69,13 @@ curl -s -A "GPTBot/1.0" http://127.0.0.1:8899/namu/bts/ -w "[%{http_code}]\n" -o
 - [ ] 라이브 배포 후 표본 검증
 
 > JobPosting 주의: 외부(사람인/잡코리아) 큐레이션이라 url은 출처 연결, datePosted/상세 description은 원천에만 있어 생략(허위 금지). Google for Jobs 완전 적격은 per-job 상세페이지 필요(후속).
-## Phase 4 — sitemap + GitHub Actions CI + 검증  ⬜
+## Phase 4 — sitemap + GitHub Actions CI + 검증  ✅ (2026-06-13)
+- [x] **외부리뷰 반영**: (#1) sitemap에서 SPA 404 라우트 전부 제거 → 정적 200분만 283 URL / (#4) lastmod를 원천 데이터 mtime 기준(그룹 05-18·랭킹 05-31)으로 정교화 / (#6) 그룹 본문 출처·갱신일 문장
+- [x] `.github/workflows/geo-build.yml`: 원천 데이터/생성기/셸 변경 시 정적 페이지 자동 재생성·커밋(stdlib만, 의존성0). 산출물은 트리거 경로 제외+[skip ci]로 루프 방지. JSON-LD 검증 게이트 포함
+- [x] `.github/workflows/geo-smoke.yml`: 핵심 GEO 자산(llms.txt/methodology/jobs/namu/ranking/sitemap/robots) 200 + sitemap loc 표본 200 확인(리뷰 #2·#7)
+- [ ] **사용자 작업 필요**: 리포 Settings→Actions→Workflow permissions를 "Read and write"로 설정해야 geo-build가 커밋 푸시 가능. 첫 `workflow_dispatch` 수동 실행으로 검증 권장
+
+### 외부 리뷰 대응 요약
+- ✅ #1 sitemap 404 제거 / ✅ #4 lastmod 정교화 / ✅ #6 본문 출처·기준일 / ✅ #7 스모크 테스트(smoke 워크플로)
+- ℹ️ #2·#3(llms.txt·methodology 404)은 리뷰 시점 stale — Phase 3 배포로 이미 200(재확인 완료)
+- 🚧 #5 JobPosting Google-Jobs 완전 적격(datePosted/description)은 per-job 상세페이지 필요 — 보류
