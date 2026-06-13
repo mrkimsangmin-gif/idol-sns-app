@@ -33,6 +33,22 @@ def load_group(slug):
         return json.load(f)
 
 
+_data_updated = None
+
+
+def data_updated():
+    """그룹 데이터셋 갱신일(YYYY-MM-DD) = namu-index.json의 내장 'generated'.
+    파일 mtime은 git이 보존하지 않아 CI에서 매번 오늘로 바뀌므로 쓰지 않는다."""
+    global _data_updated
+    if _data_updated is None:
+        try:
+            g = json.loads((ROOT / "data" / "namu-index.json").read_text(encoding="utf-8")).get("generated", "")
+            _data_updated = str(g)[:10]
+        except Exception:
+            _data_updated = ""
+    return _data_updated
+
+
 # ----------------------------------------------------------------------------
 # 메타 문장 (namu.js loadNamuGroupBySlug 의 groupDesc 공식과 동일하게 유지)
 # ----------------------------------------------------------------------------
@@ -327,11 +343,7 @@ def build_group_page(slug):
                      '<div id="namuGroupDetail" style="display: block;">', "namuGroupDetail show")
     t = replace_once(t, '<div id="namuGroupHeader" class="mb-3"></div>',
                      f'<div id="namuGroupHeader" class="mb-3">{build_header_html(g)}</div>', "header")
-    try:
-        from datetime import date
-        updated = date.fromtimestamp((GROUPS_DIR / f"{slug}.json").stat().st_mtime).isoformat()
-    except OSError:
-        updated = ""
+    updated = data_updated()
     t = replace_once(t, '<div id="namuDetailContent"></div>',
                      f'<div id="namuDetailContent">{build_detail_html(g, qas, updated)}</div>', "detail")
 

@@ -18,13 +18,19 @@ TODAY = date.today().isoformat()
 BASE = 'https://aimcontents.com'
 
 
-def lastmod_of(*paths):
-    """**원천 데이터** 파일들 중 가장 최근 mtime의 날짜(YYYY-MM-DD). 없으면 오늘.
-    주의: 생성된 정적 HTML mtime은 넣지 말 것(매 빌드마다 오늘로 갱신돼 freshness 신호 무의미)."""
-    times = [os.path.getmtime(p) for p in paths if p and Path(p).exists()]
-    if not times:
-        return TODAY
-    return date.fromtimestamp(max(times)).isoformat()
+def lastmod_of(*json_paths):
+    """원천 JSON의 **내장 'generated' 타임스탬프**(YYYY-MM-DD) 중 최신. 없으면 오늘.
+    주의: 파일 mtime을 쓰지 말 것 — git이 mtime을 보존하지 않아 CI 체크아웃 시 전부 '오늘'이 되어
+    freshness 신호가 매 빌드 무의미해진다. 데이터 내용에 박힌 generated 값은 체크아웃과 무관하게 안정적."""
+    dates = []
+    for p in json_paths:
+        try:
+            g = json.loads(Path(p).read_text(encoding='utf-8')).get('generated')
+            if g:
+                dates.append(str(g)[:10])
+        except Exception:
+            pass
+    return max(dates) if dates else TODAY
 
 
 def url_block(loc, lastmod, freq, priority):
@@ -58,8 +64,8 @@ def generate_sitemap():
         if not slug or not page.exists():
             continue
         group_count += 1
-        src = data / 'namu-groups' / f'{slug}.json'
-        urls.append(url_block(f'{BASE}/namu/{slug}/', lastmod_of(src), 'weekly', '0.6'))
+        # per-group json엔 generated가 없음 → 그룹 데이터셋 갱신 시점(namu-index.generated) 사용
+        urls.append(url_block(f'{BASE}/namu/{slug}/', lastmod_of(data / 'namu-index.json'), 'weekly', '0.6'))
 
     # 3) 월별 랭킹 (정적 생성분), lastmod = 성별별 원천 SNS json mtime
     ranking_root = ROOT / 'ranking'
@@ -79,7 +85,7 @@ def generate_sitemap():
 
     print(f'sitemap.xml updated: {len(urls)} URLs')
     print(f'  Static: {static_count}, Groups: {group_count}, Rankings: {ranking_count} '
-          f'(정적 200 서빙분만, lastmod=원천 mtime)')
+          f'(정적 200 서빙분만, lastmod=데이터 내장 generated)')
 
 
 if __name__ == '__main__':
