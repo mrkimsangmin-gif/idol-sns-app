@@ -251,13 +251,36 @@ def build_ranking_page(month, sns_slug, gender_slug, topn=50):
     return out_path
 
 
+def build_all(n_months=6):
+    """전체: 각 성별×플랫폼의 최근 n_months 개월 생성."""
+    built, skipped = 0, []
+    for gender_slug, gender_kr in (("boys", "남자"), ("girls", "여자")):
+        for sns_slug, sns_kr in SNS_SLUG_MAP.items():
+            try:
+                months = available_months(gender_kr, sns_kr)[-n_months:]
+            except KeyError:
+                continue
+            for month in months:
+                try:
+                    build_ranking_page(month, sns_slug, gender_slug)
+                    built += 1
+                except Exception as e:
+                    skipped.append((f"{month}/{sns_slug}-{gender_slug}", str(e)))
+    print(f"생성: {built}개 / 스킵: {len(skipped)}개")
+    for k, e in skipped[:10]:
+        print(f"  - {k}: {e}")
+    return built
+
+
 if __name__ == "__main__":
     import sys
     a = sys.argv[1:]
     if len(a) == 3:
         p = build_ranking_page(a[0], a[1], a[2])
         print(f"생성: {p.relative_to(ROOT)} ({p.stat().st_size:,} bytes)")
+    elif a and a[0] == "--all":
+        n = int(a[1]) if len(a) > 1 else 6
+        build_all(n)
     else:
-        # 파일럿 기본
-        p = build_ranking_page("2026-05", "weibo", "boys")
+        p = build_ranking_page("2026-05", "weibo", "boys")  # 파일럿 기본
         print(f"파일럿 생성: {p.relative_to(ROOT)} ({p.stat().st_size:,} bytes)")

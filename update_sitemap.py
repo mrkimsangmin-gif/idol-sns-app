@@ -81,6 +81,20 @@ def generate_sitemap():
     <priority>0.6</priority>
   </url>''')
 
+    # 월별 영구 랭킹 페이지 (정적 생성분: ranking/<YYYY-MM>/<sns-gender>/index.html)
+    ranking_count = 0
+    ranking_root = ROOT / 'ranking'
+    if ranking_root.exists():
+        for idx_html in sorted(ranking_root.glob('*/*/index.html')):
+            rel = idx_html.parent.relative_to(ranking_root).as_posix()  # 'YYYY-MM/sns-gender'
+            ranking_count += 1
+            urls.append(f'''  <url>
+    <loc>https://aimcontents.com/ranking/{rel}/</loc>
+    <lastmod>{TODAY}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>''')
+
     # XML 생성
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -93,7 +107,7 @@ def generate_sitemap():
         f.write(xml)
 
     print(f'sitemap.xml updated: {len(urls)} URLs, lastmod={TODAY}')
-    print(f'  Static: {len(STATIC_PAGES)}, SNS: {len(SNS_PAGES)}, Groups: {group_count} (정적 생성분만)')
+    print(f'  Static: {len(STATIC_PAGES)}, SNS: {len(SNS_PAGES)}, Groups: {group_count}, Rankings: {ranking_count} (정적 생성분만)')
 
 if __name__ == '__main__':
     generate_sitemap()

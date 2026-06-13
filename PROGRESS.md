@@ -51,6 +51,14 @@ curl -s -A "GPTBot/1.0" http://127.0.0.1:8899/namu/bts/ -w "[%{http_code}]\n" -o
 > nav를 위해 다른 page-section은 유지해야 하므로, 그 안의 "Loading" 플레이스홀더(홈/뉴스/채용)는 남김.
 > 숨김 섹션이라 BTS 등 엔티티 본문 대비 노이즈 미미. 완전 제거는 nav 분리 리팩터 필요(보류).
 
-## Phase 2 — 월별 영구 랭킹 URL  ⬜
+## Phase 2 — 월별 영구 랭킹 URL  ✅ (2026-06-13)
+- [x] **SPA 라우팅 확장**: `script.js` parseUrlParams에 `/ranking/{YYYY-MM}/{sns}-{gender}/` 패턴 + init에서 성별(boys/girls) 토글 반영 (기존 /ranking 동작 불변, 가산적)
+- [x] `build/generate_ranking.py`: `sns-male/female.json` → Top50 표 + Q&A + ItemList/Dataset/BreadcrumbList JSON-LD baked
+- [x] 파일럿 `/ranking/2026-05/weibo-boys/` 봇+사람 검증: 봇 HTTP200+JSON-LD3, **사람 SPA가 남자/웨이보/26년5월 자동 설정 후 인터랙티브 랭킹 렌더(전월대비 증감 포함)** — baked와 일치
+- [x] 전체 생성: **92개** (최근 6개월 × 8플랫폼 × 2성별, 데이터 6개월 미만 조합은 자동 단축). 전수검증 0문제
+- [x] sitemap에 랭킹 92개 포함(총 300 URL)
+- [ ] 라이브 배포 후 표본 검증
+
+> URL 스킴 `/ranking/<YYYY-MM>/<sns>-<gender>/` (sns=weibo/bilibili/qqmusic/twitter/youtube/spotify/chaohua/instagram, gender=boys/girls)
 ## Phase 3 — jobs / methodology / llms.txt  ⬜
 ## Phase 4 — sitemap + GitHub Actions CI + 검증  ⬜
