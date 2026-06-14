@@ -3,17 +3,135 @@
   "name_en": "TIOT",
   "slug": "tiot",
   "tiktok_url": "https://www.tiktok.com/@tiot_now",
-  "crawled_at": "2026-05-17T20:06:40.282216",
+  "crawled_at": "2026-06-10T06:22:20.298247",
   "profile": {
     "display_name": "TIOT 티아이오티",
-    "username": "",
+    "username": "@tiot_now",
     "verified": false,
     "category": "",
-    "followers": 0,
+    "followers": 196000,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 5745000,
     "bio": "TIOT 티아이오티 Official #김민성 #금준현 #홍건희 #최우진 #신예찬"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 6819,
+      "likes": 1265,
+      "comments": 23,
+      "shares": 20,
+      "saves": 58,
+      "posted_at": "2026-06-01",
+      "caption": "TIOT BEAT DROP&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 6195,
+      "likes": 926,
+      "comments": 18,
+      "shares": 20,
+      "saves": 42,
+      "posted_at": "2026-06-01",
+      "caption": "It’s time to 아사이✌️&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 5032,
+      "likes": 642,
+      "comments": 10,
+      "shares": 11,
+      "saves": 35,
+      "posted_at": "2026-05-31",
+      "caption": "&#129418;&#128054;&#129429;&#128049;&#128037; &#10;셋로그는 생각보다 어렵다.…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 3245,
+      "likes": 640,
+      "comments": 22,
+      "shares": 14,
+      "saves": 29,
+      "posted_at": "2026-05-30",
+      "caption": "똑똑똑 로티 있나요~? &#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 27000,
+      "likes": 356,
+      "comments": 11,
+      "shares": 2,
+      "saves": 15,
+      "posted_at": "2026-05-30",
+      "caption": "&#128535;&#128535;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 5788,
+      "likes": 755,
+      "comments": 17,
+      "shares": 6,
+      "saves": 35,
+      "posted_at": "2026-05-22",
+      "caption": "10count&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 5018,
+      "likes": 646,
+      "comments": 15,
+      "shares": 10,
+      "saves": 32,
+      "posted_at": "2026-05-22",
+      "caption": "TNT&#128420;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 3611,
+      "likes": 6985,
+      "comments": 105,
+      "shares": 136,
+      "saves": 358,
+      "posted_at": "2026-05-11",
+      "caption": "똑똑똑 빨리 왔습니다&#128682;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 3472,
+      "likes": 1075,
+      "comments": 22,
+      "shares": 12,
+      "saves": 53,
+      "posted_at": "2026-05-11",
+      "caption": "That’s why we’re a team&#128578;‍↕️&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 9,
+    "posts_last_30d": 9,
+    "avg_views": 7353,
+    "avg_likes": 1476,
+    "avg_comments": 27,
+    "avg_shares": 25,
+    "avg_saves": 73,
+    "engagement_rate": 21.79
+  }
 }

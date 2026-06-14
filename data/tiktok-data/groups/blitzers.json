@@ -3,17 +3,72 @@
   "name_en": "BLITZERS",
   "slug": "blitzers",
   "tiktok_url": "https://www.tiktok.com/@blitzers_official",
-  "crawled_at": "2026-05-26T06:10:53.848752",
+  "crawled_at": "2026-06-09T04:45:15.449466",
   "profile": {
-    "display_name": "",
-    "username": "",
-    "verified": false,
+    "display_name": "BLITZERS",
+    "username": "@blitzers_official",
+    "verified": true,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
-    "bio": ""
+    "followers": 1279000,
+    "following": 2,
+    "total_likes": 25260000,
+    "bio": "BLITZERS Official TikTok"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 82000,
+      "likes": 34000,
+      "comments": 290,
+      "shares": 598,
+      "saves": 2730,
+      "posted_at": "2026-05-25",
+      "caption": "REDRED&#127744;&#127744; #BLITZERS #블리처스",
+      "hashtags": [
+        "BLITZERS",
+        "블리처스"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 83000,
+      "likes": 2006,
+      "comments": 79,
+      "shares": 35,
+      "saves": 130,
+      "posted_at": "2026-05-11",
+      "caption": "블리없는 월요일은… #블리처스 #BLITZERS",
+      "hashtags": [
+        "블리처스",
+        "BLITZERS"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 101000,
+      "likes": 4961,
+      "comments": 127,
+      "shares": 82,
+      "saves": 312,
+      "posted_at": "2026-05-10",
+      "caption": "블리와의 낙원&#127796; #블리처스 #BLITZERS",
+      "hashtags": [
+        "블리처스",
+        "BLITZERS"
+      ],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 3,
+    "posts_last_30d": 3,
+    "avg_views": 88666,
+    "avg_likes": 13655,
+    "avg_comments": 165,
+    "avg_shares": 238,
+    "avg_saves": 1057,
+    "engagement_rate": 17.05
+  }
 }
