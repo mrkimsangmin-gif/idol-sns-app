@@ -3,17 +3,87 @@
   "name_en": "VANNER",
   "slug": "vanner",
   "tiktok_url": "https://www.tiktok.com/@vanner_official",
-  "crawled_at": "2026-05-26T05:51:57.956853",
+  "crawled_at": "2026-06-08T04:02:48.963231",
   "profile": {
-    "display_name": "",
-    "username": "",
-    "verified": false,
+    "display_name": "VANNER",
+    "username": "@vanner_official",
+    "verified": true,
     "category": "",
-    "followers": 0,
+    "followers": 429000,
     "following": 0,
-    "total_likes": 0,
-    "bio": ""
+    "total_likes": 8873000,
+    "bio": "#VANNER Official TikTok"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 5016,
+      "likes": 283,
+      "comments": 11,
+      "shares": 12,
+      "saves": 18,
+      "posted_at": "2026-06-05",
+      "caption": "⋆˚࿔ kongdak-kongdak &#120599;&#120602;˚⋆&#10;…자세히",
+      "hashtags": [],
+      "music": "지코 (ZICO)의 걘 아니야",
+      "category": "General"
+    },
+    {
+      "views": 5047,
+      "likes": 277,
+      "comments": 14,
+      "shares": 8,
+      "saves": 10,
+      "posted_at": "2026-06-05",
+      "caption": "♡ dugeun-dugeun ♡&#10;…자세히",
+      "hashtags": [],
+      "music": "비투비의 두 번째 고백",
+      "category": "General"
+    },
+    {
+      "views": 5099,
+      "likes": 1605,
+      "comments": 35,
+      "shares": 43,
+      "saves": 104,
+      "posted_at": "2026-05-25",
+      "caption": "꒰ &#119936;&#119952;&#119958; &#119938;&#119955;&#119942; &#119956;&#119952; &#119955;&#119958;&#119941;&#119942;!!! ꒱&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 7971,
+      "likes": 1495,
+      "comments": 38,
+      "shares": 29,
+      "saves": 117,
+      "posted_at": "2026-05-23",
+      "caption": "&#92432; Dda-rum Dda-rum &#92432;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 19000,
+      "likes": 1086,
+      "comments": 26,
+      "shares": 24,
+      "saves": 69,
+      "posted_at": "2026-05-20",
+      "caption": "&#120364;&#120367;&#120368;&#120356;&#120364;✶&#120364;&#120367;&#120368;&#120356;&#120364;✶&#120364;&#120367;&#120368;&#120356;&#120364;✶&#10;…자세히",
+      "hashtags": [],
+      "music": "보이넥스트도어의 똑똑똑",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 5,
+    "posts_last_30d": 5,
+    "avg_views": 8426,
+    "avg_likes": 949,
+    "avg_comments": 24,
+    "avg_shares": 23,
+    "avg_saves": 63,
+    "engagement_rate": 12.59
+  }
 }

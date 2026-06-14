@@ -2,18 +2,40 @@
   "name": "프림로즈",
   "name_en": "PRIMROSE",
   "slug": "primrose",
-  "tiktok_url": "https://www.tiktok.com/@primrose_ao",
-  "crawled_at": "2026-05-26T05:27:39.897188",
+  "tiktok_url": "https://www.tiktok.com/@primrose_0fficial",
+  "crawled_at": "2026-06-10T05:23:23.475759",
   "profile": {
-    "display_name": "",
-    "username": "",
-    "verified": false,
+    "display_name": "프림로즈 PRIMROSE",
+    "username": "@primrose_0fficial",
+    "verified": true,
     "category": "",
-    "followers": 0,
+    "followers": 73000,
     "following": 0,
-    "total_likes": 0,
-    "bio": ""
+    "total_likes": 1097000,
+    "bio": "PRIMROSE 프림로즈&#10;Digital Single ✿‘&#119923;&#119952;&#119959;&#119942; &#119936;&#119952;&#119958;&#119955; &#119917;&#119949;&#119952;&#119960;&#119942;&#119955;’✿&#10;2025.09.17 Wed 12PM (KST) Release"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 6690,
+      "likes": 8269,
+      "comments": 143,
+      "shares": 322,
+      "saves": 810,
+      "posted_at": "2026-05-15",
+      "caption": "6 7 ????&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 6690,
+    "avg_likes": 8269,
+    "avg_comments": 143,
+    "avg_shares": 322,
+    "avg_saves": 810,
+    "engagement_rate": 142.66
+  }
 }

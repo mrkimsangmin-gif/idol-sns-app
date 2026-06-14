@@ -3,17 +3,99 @@
   "name_en": "OMEGA X",
   "slug": "omega-x",
   "tiktok_url": "https://www.tiktok.com/@omega_x_official",
-  "crawled_at": "2026-05-26T05:42:06.801881",
+  "crawled_at": "2026-06-08T03:42:43.401546",
   "profile": {
     "display_name": "OMEGA X",
-    "username": "",
+    "username": "@omega_x_official",
     "verified": false,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 553000,
+    "following": 1,
+    "total_likes": 17766000,
     "bio": "OMEGA X Official TikTok&#10;오메가엑스 공식 틱톡"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 132000,
+      "likes": 497,
+      "comments": 14,
+      "shares": 3,
+      "saves": 23,
+      "posted_at": "2026-06-07",
+      "caption": "UN-LOG 4 달려 UNCAP, I’M READY&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 67000,
+      "likes": 337,
+      "comments": 15,
+      "shares": 20,
+      "saves": 17,
+      "posted_at": "2026-06-07",
+      "caption": "UN-LOG 3 RUMBLE!&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 37000,
+      "likes": 9697,
+      "comments": 126,
+      "shares": 123,
+      "saves": 513,
+      "posted_at": "2026-06-06",
+      "caption": "10count &#129305;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 482000,
+      "likes": 1151,
+      "comments": 25,
+      "shares": 12,
+      "saves": 52,
+      "posted_at": "2026-06-06",
+      "caption": "UN-LOG 2 칼군무 장인들의 한계 없는 한 판&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 98000,
+      "likes": 845,
+      "comments": 28,
+      "shares": 15,
+      "saves": 56,
+      "posted_at": "2026-06-05",
+      "caption": "UN-LOG 1 [스포] 봉인 해제 직전 UNCAPPED&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 205000,
+      "likes": 1179,
+      "comments": 78,
+      "shares": 61,
+      "saves": 114,
+      "posted_at": "2026-05-29",
+      "caption": "지치고 병든 나(그네여)&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 6,
+    "posts_last_30d": 6,
+    "avg_views": 170166,
+    "avg_likes": 2284,
+    "avg_comments": 47,
+    "avg_shares": 39,
+    "avg_saves": 129,
+    "engagement_rate": 1.47
+  }
 }
