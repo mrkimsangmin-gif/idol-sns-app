@@ -170,15 +170,19 @@ test.describe('robots.txt & sitemap.xml', () => {
     expect(text).toContain('<loc>');
 
     // 주요 섹션 URL 포함 확인
-    const requiredUrls = ['/ranking', '/news', '/jobs', '/comeback'];
+    // 주의: /news·/comeback·/douyin 등 SPA 전용 라우트는 정적 200 페이지가 없어
+    //       update_sitemap.py가 의도적으로 제외함(sitemap 404 방지). 따라서 실제 정적
+    //       페이지로 서빙되는 섹션(/ranking, /jobs)만 검증한다.
+    const requiredUrls = ['/ranking', '/jobs'];
     for (const url of requiredUrls) {
       expect(text, `sitemap에 ${url} 누락`).toContain(url);
     }
 
-    // SNS별 URL 포함 확인
-    const snsUrls = ['/ranking/weibo', '/ranking/bilibili', '/ranking/youtube'];
+    // SNS별 랭킹 URL 포함 확인
+    // 실제 sitemap 형식: /ranking/YYYY-MM/{sns}-{gender}/ (예: /ranking/2026-05/weibo-boys/)
+    const snsUrls = ['/weibo-', '/bilibili-', '/youtube-'];
     for (const url of snsUrls) {
-      expect(text, `sitemap에 ${url} 누락`).toContain(url);
+      expect(text, `sitemap에 ${url} 랭킹 누락`).toContain(url);
     }
   });
 });

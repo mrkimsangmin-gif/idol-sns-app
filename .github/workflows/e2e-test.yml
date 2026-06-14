@@ -17,6 +17,12 @@ env:
 
 jobs:
   test:
+    # 데이터 자동 파이프라인 커밋(prefix 'auto:')은 E2E를 건너뜀.
+    # (뉴스 3시간마다·jobs daily·도우인·나무위키 등 콘텐츠만 바뀌는 push는 사이트 동작과 무관)
+    # PR·schedule·workflow_dispatch는 head_commit이 없어 조건이 true → 정상 실행되고,
+    # 사람이 만든 코드 커밋도 'auto:' 접두사가 없어 정상 실행된다.
+    # 자동커밋이 사이트를 깨뜨리는 경우는 매일 1회 도는 schedule 실행이 안전망으로 잡는다.
+    if: ${{ !startsWith(github.event.head_commit.message, 'auto:') }}
     timeout-minutes: 30
     runs-on: ubuntu-latest
     # 모든 run 명령의 기본 작업 디렉토리
