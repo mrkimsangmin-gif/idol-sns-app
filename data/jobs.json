@@ -2,28 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 469,
-      "company": "언코어",
-      "position": "A&R",
-      "category": "프로듀싱",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-06-14",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/48988821",
-      "source": "잡코리아"
-    },
-    {
-      "id": 657,
-      "company": "SM엔터테인먼트",
-      "position": "백엔드 개발 담당자 채용 (신입/경력)",
-      "category": "IT",
-      "career": "무관",
-      "location": "서울 성동구",
-      "deadline": "2026-06-14",
-      "url": "https://recruit.smentertainment.com/ko/o/217779",
-      "source": "SM엔터테인먼트"
-    },
-    {
       "id": 490,
       "company": "이든엔터테인먼트",
       "position": "마케팅팀 부서장",
@@ -671,28 +649,6 @@
       "deadline": "2026-08-11",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49369151",
       "source": "잡코리아"
-    },
-    {
-      "id": 360,
-      "company": "HYBE",
-      "position": "위버스매거진 Visual Creative Designer",
-      "category": "디자인",
-      "career": "경력 5년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/206557",
-      "source": "하이브"
-    },
-    {
-      "id": 361,
-      "company": "HYBE",
-      "position": "위버스매거진 디자인*",
-      "category": "디자인",
-      "career": "경력 1년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/206556",
-      "source": "하이브"
     },
     {
       "id": 365,
@@ -2182,5 +2138,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-06-14T09:00:11.461807"
+  "updatedAt": "2026-06-15T09:00:09.221448"
 }
