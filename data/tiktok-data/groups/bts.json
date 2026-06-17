@@ -3,17 +3,98 @@
   "name_en": "BTS",
   "slug": "bts",
   "tiktok_url": "https://www.tiktok.com/@bts_official_bighit",
-  "crawled_at": "2026-05-26T05:13:16.254861",
+  "crawled_at": "2026-06-06T07:51:06.013142",
   "profile": {
-    "display_name": "",
-    "username": "",
-    "verified": false,
+    "display_name": "BTS",
+    "username": "@bts_official_bighit",
+    "verified": true,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
-    "bio": ""
+    "followers": 80004000,
+    "following": 3,
+    "total_likes": 1780000000,
+    "bio": "BTS 정규 5집 'ARIRANG' OUT NOW"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 8171000,
+      "likes": 2226000,
+      "comments": 27000,
+      "shares": 56000,
+      "saves": 139000,
+      "posted_at": "2026-06-02",
+      "caption": "Caught #jhope off camera &#128064;",
+      "hashtags": [
+        "jhope"
+      ],
+      "music": "방탄소년단의 SWIM",
+      "category": "General"
+    },
+    {
+      "views": 3395000,
+      "likes": 190000,
+      "comments": 3489,
+      "shares": 1688,
+      "saves": 14000,
+      "posted_at": "2026-05-25",
+      "caption": "#KEEPSWIMMING with BTS: 김세진 (Kim Sejin)…자세히",
+      "hashtags": [
+        "KEEPSWIMMING"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 34032000,
+      "likes": 518000,
+      "comments": 6156,
+      "shares": 4875,
+      "saves": 38000,
+      "posted_at": "2026-05-20",
+      "caption": "#KEEPSWIMMING with BTS: 조성진 (Seong-Jin Cho)…자세히",
+      "hashtags": [
+        "KEEPSWIMMING"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 2290000,
+      "likes": 1570000,
+      "comments": 26000,
+      "shares": 35000,
+      "saves": 124000,
+      "posted_at": "2026-05-18",
+      "caption": "BTS ‘Rolling Stone’ Short Film #BTS #방탄소년단",
+      "hashtags": [
+        "BTS",
+        "방탄소년단"
+      ],
+      "music": "방탄소년단의 SWIM",
+      "category": "General"
+    },
+    {
+      "views": 1917000,
+      "likes": 441000,
+      "comments": 5659,
+      "shares": 3734,
+      "saves": 30000,
+      "posted_at": "2026-05-11",
+      "caption": "#KEEPSWIMMING with BTS: 정구호 (Jung Kuho)…자세히",
+      "hashtags": [
+        "KEEPSWIMMING"
+      ],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 5,
+    "posts_last_30d": 5,
+    "avg_views": 9961000,
+    "avg_likes": 989000,
+    "avg_comments": 13660,
+    "avg_shares": 20259,
+    "avg_saves": 69000,
+    "engagement_rate": 10.96
+  }
 }
