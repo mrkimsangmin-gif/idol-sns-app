@@ -166,6 +166,7 @@ PAGE_CSS = """
     .cbar{display:flex;height:100%;border-radius:4px;overflow:hidden;min-width:6px}
     .cbar>div{min-width:2px}
     .rank-badge{flex-shrink:0}
+    .navbar-nav .nav-link{white-space:nowrap}
     .sig-badge{width:68px;text-align:center;padding-left:4px;padding-right:4px}
     .lg-dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:4px;vertical-align:middle}
     .gender-toggle .btn{min-width:96px}
@@ -180,6 +181,36 @@ def review_banner():
         '<div class="review-banner p-2 px-3 mb-3 small">'
         "🔒 <strong>검수용(비공개)</strong> — 방법론 동결·백테스트·외부검증 게이트 통과 전 내부 검토 페이지입니다. "
         "검색엔진 비노출(noindex), 정식 공개 아님.</div>"
+    )
+
+
+def site_nav(month):
+    """메인 사이트(index.html)와 동일한 9개 메뉴 navbar. '월간차트' active.
+    독립 정적 페이지라 route() 미사용 — SPA 라우트는 일반 href(404.html 폴백으로 SPA 진입)."""
+    items = [
+        ("/ranking", "SNS랭킹", False),
+        (f"/monthly/{month}/boys/", "월간차트", True),
+        ("/comeback", "컴백일정", False),
+        ("/news", "엔터뉴스", False),
+        ("/douyin", "중국트렌드", False),
+        ("/jobs", "채용정보", False),
+        ("/links", "링크모음", False),
+        ("/vendors", "업체정보", False),
+        ("/insight/index_insight.html", "인사이트", False),
+    ]
+    lis = "".join(
+        f'<li class="nav-item"><a class="nav-link{" active fw-bold" if act else ""}" '
+        f'href="{href}">{label}</a></li>'
+        for href, label, act in items
+    )
+    return (
+        '<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">'
+        '<div class="container">'
+        '<a class="navbar-brand" href="/"><img src="/logo_aimcontents.png" alt="AIMCONTENTS" style="height:36px;"></a>'
+        '<button class="navbar-toggler" type="button" data-bs-toggle="collapse" '
+        'data-bs-target="#navbarNav" aria-label="메뉴 열기"><span class="navbar-toggler-icon"></span></button>'
+        f'<div class="collapse navbar-collapse" id="navbarNav"><ul class="navbar-nav me-auto">{lis}</ul></div>'
+        "</div></nav>"
     )
 
 
@@ -228,18 +259,7 @@ def build_page(month, gender_slug):
 {build_jsonld(rows, url, month, group_kr)}
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
-    <div class="container">
-      <a class="navbar-brand" href="/"><img src="/logo_aimcontents.png" alt="AIMCONTENTS" style="height:40px;"></a>
-      <div class="d-flex gap-3 flex-wrap">
-        <a class="nav-link" href="/ranking">SNS랭킹</a>
-        <a class="nav-link fw-bold" href="/monthly/{month}/boys/">월간차트</a>
-        <a class="nav-link" href="/comeback">컴백일정</a>
-        <a class="nav-link" href="/news">엔터뉴스</a>
-        <a class="nav-link" href="/methodology">방법론</a>
-      </div>
-    </div>
-  </nav>
+  {site_nav(month)}
 
   <main class="container py-4" style="max-width:920px;">
     <nav aria-label="breadcrumb"><ol class="breadcrumb">
@@ -263,6 +283,7 @@ def build_page(month, gender_slug):
       방법론은 <a href="/methodology">데이터 수집 방법론</a> 참고.</p>
     </section>
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 """
@@ -292,17 +313,7 @@ def build_landing(month):
   <link href="/style.css" rel="stylesheet">{PAGE_CSS}
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
-    <div class="container">
-      <a class="navbar-brand" href="/"><img src="/logo_aimcontents.png" alt="AIMCONTENTS" style="height:40px;"></a>
-      <div class="d-flex gap-3 flex-wrap">
-        <a class="nav-link" href="/ranking">SNS랭킹</a>
-        <a class="nav-link fw-bold" href="/monthly/{month}/boys/">월간차트</a>
-        <a class="nav-link" href="/comeback">컴백일정</a>
-        <a class="nav-link" href="/methodology">방법론</a>
-      </div>
-    </div>
-  </nav>
+  {site_nav(month)}
   <main class="container py-5 text-center" style="max-width:680px;">
     {review_banner()}
     <h1 class="fw-bold mb-2">{esc(mk)} 월간 K-POP 아이돌 순위</h1>
@@ -312,6 +323,7 @@ def build_landing(month):
       <a href="/monthly/{month}/girls/" class="btn btn-outline-dark btn-lg px-4">걸그룹 순위</a>
     </div>
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 """
