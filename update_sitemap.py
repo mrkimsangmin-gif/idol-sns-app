@@ -79,14 +79,33 @@ def generate_sitemap():
             ranking_count += 1
             urls.append(url_block(f'{BASE}/ranking/{rel}/', lastmod_of(src), 'monthly', '0.7'))
 
+    # 4) 월간 흥행 차트 (/monthly/<YYYY-MM>/[<gender>/] + 랜딩), 정적 생성분만.
+    #    lastmod = 해당 월 말일(결정적 — 데이터 내용에서 파생, 파일 mtime 미사용).
+    import calendar
+    monthly_root = ROOT / 'monthly'
+    monthly_count = 0
+    if monthly_root.exists():
+        for page in sorted(monthly_root.glob('**/index.html')):
+            rel = page.parent.relative_to(monthly_root).as_posix()  # 'YYYY-MM' 또는 'YYYY-MM/boys'
+            month = rel.split('/')[0]
+            try:
+                y, mo = int(month[:4]), int(month[5:7])
+                lm = f'{month}-{calendar.monthrange(y, mo)[1]:02d}'
+            except Exception:
+                lm = TODAY
+            monthly_count += 1
+            # 랜딩(월 1depth)은 0.8, 성별 차트는 플래그십이라 0.9
+            pr = '0.8' if '/' not in rel else '0.9'
+            urls.append(url_block(f'{BASE}/monthly/{rel}/', lm, 'monthly', pr))
+
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
            + '\n'.join(urls) + '\n</urlset>\n')
     (ROOT / 'sitemap.xml').write_text(xml, encoding='utf-8')
 
     print(f'sitemap.xml updated: {len(urls)} URLs')
-    print(f'  Static: {static_count}, Groups: {group_count}, Rankings: {ranking_count} '
-          f'(정적 200 서빙분만, lastmod=데이터 내장 generated)')
+    print(f'  Static: {static_count}, Groups: {group_count}, Rankings: {ranking_count}, '
+          f'Monthly: {monthly_count} (정적 200 서빙분만, lastmod=데이터 내장 generated)')
 
 
 if __name__ == '__main__':
