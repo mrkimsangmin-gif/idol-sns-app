@@ -2,50 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 499,
-      "company": "에프앤에프엔터테인먼트",
-      "position": "PR 및 대외협력실",
-      "category": "마케팅",
-      "career": "무관",
-      "location": "서울 강남구",
-      "deadline": "2026-06-19",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49021046",
-      "source": "잡코리아"
-    },
-    {
-      "id": 500,
-      "company": "모드하우스",
-      "position": "팬 커뮤니케이션 담당자",
-      "category": "기타",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-06-19",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49015208",
-      "source": "잡코리아"
-    },
-    {
-      "id": 630,
-      "company": "위드어스엔터테인먼트",
-      "position": "기획팀",
-      "category": "기타",
-      "career": "신입·경력",
-      "location": "서울 마포구",
-      "deadline": "2026-06-19",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49217815",
-      "source": "잡코리아"
-    },
-    {
-      "id": 631,
-      "company": "엠더블유엔터테인먼트",
-      "position": "마케팅팀",
-      "category": "마케팅",
-      "career": "신입·경력",
-      "location": "서울 마포구",
-      "deadline": "2026-06-19",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49217539",
-      "source": "잡코리아"
-    },
-    {
       "id": 506,
       "company": "그리드엔터테인먼트",
       "position": "팬마케팅팀",
@@ -365,6 +321,17 @@
       "source": "잡코리아"
     },
     {
+      "id": 749,
+      "company": "SM엔터테인먼트",
+      "position": "HRBP/조직설계 담당자 채용 (경력)",
+      "category": "경영지원",
+      "career": "경력 8~12년",
+      "location": "서울 성동구",
+      "deadline": "2026-07-05",
+      "url": "https://recruit.smentertainment.com/ko/o/223536",
+      "source": "SM엔터테인먼트"
+    },
+    {
       "id": 576,
       "company": "이엔터테인먼트",
       "position": "보이 그룹 팬 매니저&마케터",
@@ -626,6 +593,17 @@
       "location": "서울 마포구",
       "deadline": "2026-07-17",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49399929",
+      "source": "잡코리아"
+    },
+    {
+      "id": 747,
+      "company": "클렙",
+      "position": "영상팀 담당자",
+      "category": "영상",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-07-19",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49415753",
       "source": "잡코리아"
     },
     {
@@ -937,17 +915,6 @@
       "source": "하이브"
     },
     {
-      "id": 428,
-      "company": "Weverse Company",
-      "position": "B2B 플랫폼 파트너 (경력 : 3년 이상)",
-      "category": "IT",
-      "career": "경력 3년 이상",
-      "location": "경기도 성남시",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/210592",
-      "source": "하이브"
-    },
-    {
       "id": 429,
       "company": "Weverse Company",
       "position": "플랫폼 서비스 운영 (경력 : 3년 이상)",
@@ -1143,17 +1110,6 @@
       "location": "서울 용산구",
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/213983",
-      "source": "하이브"
-    },
-    {
-      "id": 514,
-      "company": "Weverse Company",
-      "position": "재무기획*",
-      "category": "경영지원",
-      "career": "무관",
-      "location": "경기도 성남시",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/213846",
       "source": "하이브"
     },
     {
@@ -2024,6 +1980,50 @@
       "deadline": "",
       "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/inkodepeople",
       "source": "잡코리아"
+    },
+    {
+      "id": 743,
+      "company": "어비스컴퍼니",
+      "position": "매니지먼트실: 아티스트 매니저",
+      "category": "매니지먼트",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "상시채용",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49417656",
+      "source": "잡코리아"
+    },
+    {
+      "id": 745,
+      "company": "JYP엔터테인먼트",
+      "position": "마케팅",
+      "category": "마케팅",
+      "career": "경력",
+      "location": "서울 강동구",
+      "deadline": "상시채용",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49416694",
+      "source": "잡코리아"
+    },
+    {
+      "id": 746,
+      "company": "JYP엔터테인먼트",
+      "position": "마케팅",
+      "category": "마케팅",
+      "career": "경력",
+      "location": "서울",
+      "deadline": "상시채용",
+      "url": "https://www.jobkorea.co.kr//Company/1845948/Recruit",
+      "source": "잡코리아"
+    },
+    {
+      "id": 748,
+      "company": "DRIMAGE",
+      "position": "게임마케팅 (알케론)",
+      "category": "마케팅",
+      "career": "경력 5년 이상",
+      "location": "서울 강남구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/221115",
+      "source": "하이브"
     }
   ],
   "categories": [
@@ -2039,5 +2039,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-06-19T09:33:00.959253"
+  "updatedAt": "2026-06-20T09:34:07.568617"
 }
