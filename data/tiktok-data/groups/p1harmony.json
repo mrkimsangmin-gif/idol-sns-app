@@ -3,17 +3,81 @@
   "name_en": "P1Harmony",
   "slug": "p1harmony",
   "tiktok_url": "https://www.tiktok.com/@p1harmony",
-  "crawled_at": "2026-05-17T19:23:41.912153",
+  "crawled_at": "2026-06-21T20:48:11.996528",
   "profile": {
-    "display_name": "5월 17일 일요일",
-    "username": "",
-    "verified": false,
+    "display_name": "P1Harmony",
+    "username": "@p1harmony",
+    "verified": true,
     "category": "",
-    "followers": 0,
+    "followers": 6112000,
     "following": 0,
-    "total_likes": 0,
-    "bio": ""
+    "total_likes": 340000000,
+    "bio": "P1Harmony Official TikTok"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 1248000,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saves": 0,
+      "posted_at": "",
+      "caption": "&#129401;#OT6P1HARMONY // p1harmony is my ult group foreva and always - #edit #kpop #viral #zxycba",
+      "hashtags": [
+        "OT6P1HARMONY",
+        "edit",
+        "kpop",
+        "viral",
+        "zxycba"
+      ],
+      "music": "",
+      "category": "Trend"
+    },
+    {
+      "views": 1095000,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saves": 0,
+      "posted_at": "",
+      "caption": "AM8IC (엠빅) 'Link Up' MV  AM8IC (엠빅) The 1st EP [LUKOIE]: Listen and Download Platform Link in Bio #AM8IC #LinkUp #AM8IC_LinkUp #LUKOIE #AM8IC_The_1st_EP",
+      "hashtags": [
+        "AM8IC",
+        "LinkUp",
+        "AM8IC_LinkUp",
+        "LUKOIE",
+        "AM8IC_The_1st_EP"
+      ],
+      "music": "",
+      "category": "MV"
+    },
+    {
+      "views": 764000,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saves": 0,
+      "posted_at": "",
+      "caption": "TWS : '너의 모든 가능성이 되어 줄게' Official MV #TWS #투어스 #NO_TRAGEDY #너의모든가능성이되어줄게 #All_the_Possibilities",
+      "hashtags": [
+        "TWS",
+        "투어스",
+        "NO_TRAGEDY",
+        "너의모든가능성이되어줄게",
+        "All_the_Possibilities"
+      ],
+      "music": "",
+      "category": "MV"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 3,
+    "posts_last_30d": 3,
+    "avg_views": 1035666,
+    "avg_likes": 0,
+    "avg_comments": 0,
+    "avg_shares": 0,
+    "avg_saves": 0,
+    "engagement_rate": 0.0
+  }
 }

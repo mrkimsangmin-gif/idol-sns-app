@@ -3,17 +3,161 @@
   "name_en": "POW",
   "slug": "pow",
   "tiktok_url": "https://www.tiktok.com/@pow_grid",
-  "crawled_at": "2026-05-17T19:42:15.664756",
+  "crawled_at": "2026-06-21T21:37:40.008631",
   "profile": {
     "display_name": "POW",
-    "username": "",
+    "username": "@pow_grid",
     "verified": true,
     "category": "",
-    "followers": 0,
+    "followers": 978000,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 35133000,
     "bio": "&#119914;&#119955;&#119942;&#119938;&#119957;&#119946;&#119951;&#119944; &#119940;&#119958;&#119949;&#119957;&#119958;&#119955;&#119942; &#119942;&#119959;&#119942;&#119955;&#119962;&#119941;&#119938;&#119962;, &#119927;&#119926;&#119934;"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 64000,
+      "likes": 8846,
+      "comments": 71,
+      "shares": 140,
+      "saves": 262,
+      "posted_at": "2026-06-12",
+      "caption": "Talk to me #sunkis&#10;…자세히",
+      "hashtags": [
+        "sunkis"
+      ],
+      "music": "YORCH의 Blow Your Mind (feat. Sik-K, Bryan Chase)",
+      "category": "General"
+    },
+    {
+      "views": 29000,
+      "likes": 6460,
+      "comments": 99,
+      "shares": 175,
+      "saves": 365,
+      "posted_at": "2026-06-08",
+      "caption": "You're all I ever wanted&#10;…자세히",
+      "hashtags": [],
+      "music": "*NSYNC의 I Want You Back (Radio Edit)",
+      "category": "General"
+    },
+    {
+      "views": 144000,
+      "likes": 5298,
+      "comments": 88,
+      "shares": 120,
+      "saves": 245,
+      "posted_at": "2026-06-06",
+      "caption": "너 또 왜 그래 &#129418;&#10;…자세히",
+      "hashtags": [],
+      "music": "POW의 WHY (sped up)",
+      "category": "General"
+    },
+    {
+      "views": 33000,
+      "likes": 4561,
+      "comments": 63,
+      "shares": 70,
+      "saves": 210,
+      "posted_at": "2026-06-05",
+      "caption": "&#129498;&#127995;‍♂️&#129498;&#127995;‍♂️&#129528;&#129498;&#127995;‍♂️&#129498;&#127995;‍♂️&#10;…자세히",
+      "hashtags": [],
+      "music": "이광조의 즐거운 인생",
+      "category": "General"
+    },
+    {
+      "views": 34000,
+      "likes": 6383,
+      "comments": 69,
+      "shares": 197,
+      "saves": 285,
+      "posted_at": "2026-06-03",
+      "caption": "너 또 왜 그래 ‼️&#10;…자세히",
+      "hashtags": [],
+      "music": "POW의 WHY (sped up)",
+      "category": "General"
+    },
+    {
+      "views": 44000,
+      "likes": 187000,
+      "comments": 1308,
+      "shares": 8147,
+      "saves": 20000,
+      "posted_at": "2026-05-30",
+      "caption": "Let’s Dance&#10;…자세히",
+      "hashtags": [],
+      "music": "Sunny 6700의 DYW Dance",
+      "category": "Challenge/Dance"
+    },
+    {
+      "views": 39000,
+      "likes": 4140,
+      "comments": 119,
+      "shares": 59,
+      "saves": 265,
+      "posted_at": "2026-05-29",
+      "caption": "It’s My Birthday&#128165;&#10;…자세히",
+      "hashtags": [],
+      "music": "Big Mike Mic Whoa의 Its My Birthday",
+      "category": "General"
+    },
+    {
+      "views": 31000,
+      "likes": 6046,
+      "comments": 186,
+      "shares": 120,
+      "saves": 371,
+      "posted_at": "2026-05-29",
+      "caption": "&#127874;&#128073;&#128049;&#10;…자세히",
+      "hashtags": [],
+      "music": "조이 (JOY)의 Happy Birthday To You",
+      "category": "General"
+    },
+    {
+      "views": 28000,
+      "likes": 9799,
+      "comments": 90,
+      "shares": 184,
+      "saves": 363,
+      "posted_at": "2026-05-27",
+      "caption": "YORCH “Blow Your Mind” Behind The Scenes …자세히",
+      "hashtags": [],
+      "music": "YORCH의 Blow Your Mind (Solo ver.)",
+      "category": "Behind/Vlog"
+    },
+    {
+      "views": 42000,
+      "likes": 12000,
+      "comments": 125,
+      "shares": 220,
+      "saves": 457,
+      "posted_at": "2026-05-23",
+      "caption": "Blow Your Mind…&#127788;️뿌수자❤️&#10;…자세히",
+      "hashtags": [],
+      "music": "YORCH의 Blow Your Mind (Solo ver.)",
+      "category": "General"
+    },
+    {
+      "views": 100000,
+      "likes": 18000,
+      "comments": 253,
+      "shares": 460,
+      "saves": 602,
+      "posted_at": "2026-05-22",
+      "caption": "THIS SONG IS OUT NOW&#10;…자세히",
+      "hashtags": [],
+      "music": "YORCH의 Blow Your Mind (Solo ver.)",
+      "category": "Promotion"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 11,
+    "posts_last_30d": 11,
+    "avg_views": 53454,
+    "avg_likes": 24412,
+    "avg_comments": 224,
+    "avg_shares": 899,
+    "avg_saves": 2129,
+    "engagement_rate": 51.76
+  }
 }
