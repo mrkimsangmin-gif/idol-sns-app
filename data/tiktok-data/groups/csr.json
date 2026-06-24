@@ -3,17 +3,44 @@
   "name_en": "CSR",
   "slug": "csr",
   "tiktok_url": "https://www.tiktok.com/@csr.offcl",
-  "crawled_at": "2026-05-09T07:48:38.081082",
+  "crawled_at": "2026-06-20T11:14:32.232555",
   "profile": {
-    "display_name": "",
-    "username": "",
+    "display_name": "첫사랑(CSR)",
+    "username": "@csr.offcl",
     "verified": false,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
-    "bio": ""
+    "followers": 190000,
+    "following": 3,
+    "total_likes": 4409000,
+    "bio": "첫사랑(CSR) Official TikTok"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 14000,
+      "likes": 1242,
+      "comments": 27,
+      "shares": 34,
+      "saves": 75,
+      "posted_at": "2026-06-14",
+      "caption": "마음 얏호~ おひさー&#10;#csr #첫사랑 #yuna #sihyeon #パラパラ",
+      "hashtags": [
+        "csr",
+        "첫사랑",
+        "yuna",
+        "sihyeon"
+      ],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 14000,
+    "avg_likes": 1242,
+    "avg_comments": 27,
+    "avg_shares": 34,
+    "avg_saves": 75,
+    "engagement_rate": 9.84
+  }
 }

@@ -3,17 +3,63 @@
   "name_en": "Ikon",
   "slug": "ikon",
   "tiktok_url": "https://www.tiktok.com/@ikon_tiktok",
-  "crawled_at": "2026-05-09T08:35:27.343180",
+  "crawled_at": "2026-06-21T20:38:44.068861",
   "profile": {
     "display_name": "withikonic",
-    "username": "",
+    "username": "@ikon_tiktok",
     "verified": true,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 3157000,
+    "following": 4,
+    "total_likes": 33136000,
     "bio": ""
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 45000,
+      "likes": 17000,
+      "comments": 248,
+      "shares": 431,
+      "saves": 436,
+      "posted_at": "2026-06-17",
+      "caption": "송환술 &#127801;&#127836;&#127857;&#129709;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 41000,
+      "likes": 34000,
+      "comments": 562,
+      "shares": 803,
+      "saves": 629,
+      "posted_at": "2026-06-14",
+      "caption": "행복해지는 댄스 &#128378;&#128131;&#128378;&#128131;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 62000,
+      "likes": 29000,
+      "comments": 454,
+      "shares": 586,
+      "saves": 586,
+      "posted_at": "2026-06-13",
+      "caption": "빙글빙글빙글빙글 &#128565;‍&#128171;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 3,
+    "posts_last_30d": 3,
+    "avg_views": 49333,
+    "avg_likes": 26666,
+    "avg_comments": 421,
+    "avg_shares": 606,
+    "avg_saves": 550,
+    "engagement_rate": 57.25
+  }
 }

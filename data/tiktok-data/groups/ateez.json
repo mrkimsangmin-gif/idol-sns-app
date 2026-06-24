@@ -3,17 +3,147 @@
   "name_en": "ATEEZ",
   "slug": "ateez",
   "tiktok_url": "https://www.tiktok.com/@ateez_official_",
-  "crawled_at": "2026-05-26T05:43:03.359128",
+  "crawled_at": "2026-06-21T20:55:57.412930",
   "profile": {
     "display_name": "ATEEZ_Official",
-    "username": "",
+    "username": "@ateez_official_",
     "verified": true,
     "category": "",
-    "followers": 0,
+    "followers": 9520000,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 450000000,
     "bio": "ATEEZ(에이티즈) Official TikTok"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 225000,
+      "likes": 16000,
+      "comments": 138,
+      "shares": 161,
+      "saves": 1249,
+      "posted_at": "2026-06-20",
+      "caption": "얼마나 간절한지 감도 안 옴 | MIGHfia를 찾아라&#10;…자세히",
+      "hashtags": [],
+      "music": "ATEEZ_Official의 오리지널 사운드 - ATEEZ_Official",
+      "category": "General"
+    },
+    {
+      "views": 186000,
+      "likes": 12000,
+      "comments": 204,
+      "shares": 137,
+      "saves": 1042,
+      "posted_at": "2026-06-20",
+      "caption": "헛다리 전문 에이티즈 | MIGHfia를 찾아라&#10;…자세히",
+      "hashtags": [],
+      "music": "ATEEZ_Official의 오리지널 사운드 - ATEEZ_Official",
+      "category": "General"
+    },
+    {
+      "views": 152000,
+      "likes": 42000,
+      "comments": 447,
+      "shares": 594,
+      "saves": 2772,
+      "posted_at": "2026-06-15",
+      "caption": "[&#127916;] ATEEZ(에이티즈) GOLDEN HOUR : Part.5 Mood Spoiler : WE FEEL BA…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 648000,
+      "likes": 312000,
+      "comments": 2378,
+      "shares": 8967,
+      "saves": 20000,
+      "posted_at": "2026-06-12",
+      "caption": "Let's gooooooo⚽️&#10;…자세히",
+      "hashtags": [],
+      "music": "Shakira &amp; Burna Boy의 Dai Dai",
+      "category": "General"
+    },
+    {
+      "views": 496000,
+      "likes": 38000,
+      "comments": 239,
+      "shares": 1127,
+      "saves": 3675,
+      "posted_at": "2026-06-11",
+      "caption": "Tag your party in a corner crew &#128071;",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 529000,
+      "likes": 91000,
+      "comments": 1297,
+      "shares": 2785,
+      "saves": 5314,
+      "posted_at": "2026-06-07",
+      "caption": "[&#127916;] ATEEZ(에이티즈) GOLDEN HOUR : Part.5 Mood Spoiler : Chase The S…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 66000,
+      "likes": 211000,
+      "comments": 2138,
+      "shares": 9844,
+      "saves": 14000,
+      "posted_at": "2026-06-05",
+      "caption": "Reaching out&#128378; &#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 40000,
+      "likes": 125000,
+      "comments": 1633,
+      "shares": 6983,
+      "saves": 8293,
+      "posted_at": "2026-06-04",
+      "caption": "[&#127916;] ATEEZ(에이티즈) GOLDEN HOUR : Part.5 Tracklist Poster…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 193000,
+      "likes": 152000,
+      "comments": 1376,
+      "shares": 4977,
+      "saves": 9580,
+      "posted_at": "2026-05-29",
+      "caption": "It’s a ‘PITC (Party In The Corner)’ w/ @Anderson .White aka HeisenPaa…자세히",
+      "hashtags": [],
+      "music": "HONGJOONG &amp; Jay Park &amp; Anderson .Paak의 PITC (Party In The Corner)",
+      "category": "General"
+    },
+    {
+      "views": 462000,
+      "likes": 242000,
+      "comments": 4884,
+      "shares": 21000,
+      "saves": 17000,
+      "posted_at": "2026-05-22",
+      "caption": "[&#127916;] ATEEZ(에이티즈) - GOLDEN HOUR : Part.5…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 10,
+    "posts_last_30d": 10,
+    "avg_views": 299700,
+    "avg_likes": 124100,
+    "avg_comments": 1473,
+    "avg_shares": 5657,
+    "avg_saves": 8292,
+    "engagement_rate": 46.55
+  }
 }

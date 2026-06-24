@@ -3,17 +3,53 @@
   "name_en": "Candy Shop",
   "slug": "candy-shop",
   "tiktok_url": "https://www.tiktok.com/@brave.candyshop",
-  "crawled_at": "2026-05-09T07:58:58.896271",
+  "crawled_at": "2026-06-20T11:34:21.437714",
   "profile": {
     "display_name": "Candy Shop(캔디샵)",
-    "username": "",
+    "username": "@brave.candyshop",
     "verified": false,
     "category": "",
-    "followers": 0,
+    "followers": 68000,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 1148000,
     "bio": "Candy Shop(캔디샵) Official TikTok &#127853;"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 6204,
+      "likes": 12000,
+      "comments": 179,
+      "shares": 280,
+      "saves": 1346,
+      "posted_at": "2026-06-14",
+      "caption": "금발오때~&#128048;&#128048;&#10;(필터)…자세히",
+      "hashtags": [],
+      "music": "Hearts2Hearts의 RUDE!",
+      "category": "General"
+    },
+    {
+      "views": 20000,
+      "likes": 737,
+      "comments": 33,
+      "shares": 24,
+      "saves": 70,
+      "posted_at": "2026-06-09",
+      "caption": "#LEMONADE &#127819;&#127864;&#10;…자세히",
+      "hashtags": [
+        "LEMONADE"
+      ],
+      "music": "aespa의 LEMONADE",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 2,
+    "posts_last_30d": 2,
+    "avg_views": 13102,
+    "avg_likes": 6368,
+    "avg_comments": 106,
+    "avg_shares": 152,
+    "avg_saves": 708,
+    "engagement_rate": 55.98
+  }
 }

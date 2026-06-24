@@ -3,17 +3,69 @@
   "name_en": "BTS",
   "slug": "bts",
   "tiktok_url": "https://www.tiktok.com/@bts_official_bighit",
-  "crawled_at": "2026-05-26T05:13:16.254861",
+  "crawled_at": "2026-06-20T09:47:18.978616",
   "profile": {
-    "display_name": "",
-    "username": "",
-    "verified": false,
+    "display_name": "BTS",
+    "username": "@bts_official_bighit",
+    "verified": true,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
-    "bio": ""
+    "followers": 80175000,
+    "following": 3,
+    "total_likes": 1789999999,
+    "bio": "BTS 정규 5집 'ARIRANG' OUT NOW"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 4991000,
+      "likes": 3467000,
+      "comments": 59000,
+      "shares": 126000,
+      "saves": 287000,
+      "posted_at": "2026-06-04",
+      "caption": "BTS Family Photo Short Clip #2026BTSFESTA #BTS13thAnniversary",
+      "hashtags": [
+        "BTS13thAnniversary"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 8801000,
+      "likes": 2808000,
+      "comments": 33000,
+      "shares": 64000,
+      "saves": 177000,
+      "posted_at": "2026-06-01",
+      "caption": "Caught #jhope off camera &#128064;",
+      "hashtags": [
+        "jhope"
+      ],
+      "music": "방탄소년단의 SWIM",
+      "category": "General"
+    },
+    {
+      "views": 3584000,
+      "likes": 268000,
+      "comments": 3914,
+      "shares": 2025,
+      "saves": 20000,
+      "posted_at": "2026-05-25",
+      "caption": "#KEEPSWIMMING with BTS: 김세진 (Kim Sejin)…자세히",
+      "hashtags": [
+        "KEEPSWIMMING"
+      ],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 3,
+    "posts_last_30d": 3,
+    "avg_views": 5792000,
+    "avg_likes": 2181000,
+    "avg_comments": 31971,
+    "avg_shares": 64008,
+    "avg_saves": 161333,
+    "engagement_rate": 42.1
+  }
 }

@@ -1,0 +1,4689 @@
+{
+ "generated": "2026-06-04T06:09:11Z",
+ "window_days": null,
+ "n_videos_with_comments_total": 2730,
+ "n_panel_matched_videos_with_comments": 1275,
+ "n_disabled": 0,
+ "total_comments_analyzed": 54980,
+ "groups": [
+  {
+   "group": "코르티스",
+   "n_videos": 36,
+   "n_comments": 1800,
+   "avg_likes_per_comment": 131.1,
+   "lang_pct": {
+    "ko": 60.2,
+    "en": 38.4,
+    "ja": 0.6,
+    "th": 0.3,
+    "other": 0.3,
+    "zh": 0.2
+   },
+   "foreign_pct": 39.8,
+   "pos_pct": 41.7,
+   "neg_pct": 0.4,
+   "top_keywords": [
+    "martin",
+    "james",
+    "코르티스",
+    "cortis",
+    "keonho",
+    "seonghyeon",
+    "마틴",
+    "his",
+    "라이브",
+    "stage",
+    "juhoon",
+    "축하해",
+    "handsome",
+    "건호",
+    "안건호"
+   ],
+   "top_comment": {
+    "likes": 10026,
+    "text": "이번 노래 진짜 뭔가 있음 가사는 뭐라는지 하나도 안 들리는데 비트에 중독돼서 계속 듣게됨.... 레드레드 이거 무조건 된다",
+    "video_id": "rREZviPAdM8"
+   }
+  },
+  {
+   "group": "킥플립",
+   "n_videos": 35,
+   "n_comments": 1719,
+   "avg_likes_per_comment": 25.7,
+   "lang_pct": {
+    "ko": 73.2,
+    "en": 23.6,
+    "ja": 1.9,
+    "other": 0.9,
+    "zh": 0.3
+   },
+   "foreign_pct": 26.8,
+   "pos_pct": 45.9,
+   "neg_pct": 0.2,
+   "top_keywords": [
+    "킥플립",
+    "kickflip",
+    "오늘",
+    "라이브",
+    "케이주",
+    "계훈이",
+    "아니",
+    "민제",
+    "love",
+    "they",
+    "live",
+    "사랑해",
+    "동화",
+    "다들",
+    "축하해"
+   ],
+   "top_comment": {
+    "likes": 661,
+    "text": "They did a good job❤🥰 stays we need to support skz's baby brothers",
+    "video_id": "4AizxJoQzNM"
+   }
+  },
+  {
+   "group": "아일릿",
+   "n_videos": 31,
+   "n_comments": 1550,
+   "avg_likes_per_comment": 112.5,
+   "lang_pct": {
+    "ko": 67.8,
+    "en": 28.0,
+    "ja": 3.4,
+    "other": 0.6,
+    "th": 0.1,
+    "zh": 0.1
+   },
+   "foreign_pct": 32.2,
+   "pos_pct": 40.5,
+   "neg_pct": 0.9,
+   "top_keywords": [
+    "아일릿",
+    "illit",
+    "minju",
+    "민주",
+    "they",
+    "moka",
+    "love",
+    "모카",
+    "cute",
+    "pretty",
+    "iroha",
+    "오늘",
+    "좋다",
+    "다들",
+    "이번"
+   ],
+   "top_comment": {
+    "likes": 8314,
+    "text": "테크노로 장르 바뀌었다고해서 아일릿코어가 아니다라는 말이 있던데 그건 절대 아님.... 마법소녀가 전기충격 받은거임",
+    "video_id": "xqbPA_O9DZ0"
+   }
+  },
+  {
+   "group": "투어스",
+   "n_videos": 30,
+   "n_comments": 1500,
+   "avg_likes_per_comment": 32.0,
+   "lang_pct": {
+    "ko": 84.5,
+    "en": 13.5,
+    "other": 0.8,
+    "ja": 0.7,
+    "zh": 0.5,
+    "th": 0.1
+   },
+   "foreign_pct": 15.5,
+   "pos_pct": 44.9,
+   "neg_pct": 0.9,
+   "top_keywords": [
+    "투어스",
+    "tws",
+    "오늘",
+    "축하해",
+    "신유",
+    "사랑해",
+    "라이브",
+    "썸네일",
+    "영재",
+    "좋다",
+    "이번",
+    "아니",
+    "투어스는",
+    "오늘도",
+    "미쳤다"
+   ],
+   "top_comment": {
+    "likes": 3725,
+    "text": "아니 투어스 팬들 너무 부러운게 가장 예쁠 나이에 청량 많이 해주는 남돌이 귀할뿐더러 멤버들이 가오 하나 없이 컨셉 제대로 말아주는데다가 전원 실력 좋고 피지컬 좋고 다 잘생기고 심지어 노래도 너무 좋음 한국어 번안",
+    "video_id": "aZjMA5UujqA"
+   }
+  },
+  {
+   "group": "알파드라이브원",
+   "n_videos": 28,
+   "n_comments": 1399,
+   "avg_likes_per_comment": 42.2,
+   "lang_pct": {
+    "ko": 78.6,
+    "en": 18.8,
+    "ja": 1.9,
+    "zh": 0.6,
+    "th": 0.1
+   },
+   "foreign_pct": 21.4,
+   "pos_pct": 58.2,
+   "neg_pct": 0.6,
+   "top_keywords": [
+    "알디원",
+    "상원이",
+    "오늘",
+    "썸네일",
+    "이상원",
+    "축하해",
+    "오늘도",
+    "리오",
+    "준서",
+    "사랑해",
+    "상원아",
+    "sangwon",
+    "씬롱이",
+    "xinlong",
+    "상원"
+   ],
+   "top_comment": {
+    "likes": 1123,
+    "text": "LEOWON THUMBNAIL WE WON!!! 😭",
+    "video_id": "AKPY6kbeW68"
+   }
+  },
+  {
+   "group": "리센느",
+   "n_videos": 25,
+   "n_comments": 1224,
+   "avg_likes_per_comment": 26.1,
+   "lang_pct": {
+    "ko": 57.7,
+    "en": 36.4,
+    "ja": 3.8,
+    "other": 1.6,
+    "zh": 0.6
+   },
+   "foreign_pct": 42.3,
+   "pos_pct": 39.2,
+   "neg_pct": 0.6,
+   "top_keywords": [
+    "rescene",
+    "리센느",
+    "they",
+    "love",
+    "미나미",
+    "their",
+    "liv",
+    "live",
+    "zena",
+    "원이",
+    "song",
+    "오늘",
+    "리브",
+    "woni",
+    "라이브"
+   ],
+   "top_comment": {
+    "likes": 1359,
+    "text": "원이채널에서 갸루차력쇼하는 미나미 갸루보다 여기까지왔다",
+    "video_id": "qt2FvoXRw1U"
+   }
+  },
+  {
+   "group": "넥스지",
+   "n_videos": 24,
+   "n_comments": 1200,
+   "avg_likes_per_comment": 29.7,
+   "lang_pct": {
+    "ko": 47.8,
+    "ja": 37.6,
+    "en": 13.7,
+    "zh": 1.0
+   },
+   "foreign_pct": 52.2,
+   "pos_pct": 43.2,
+   "neg_pct": 0.2,
+   "top_keywords": [
+    "nexz",
+    "넥스지",
+    "nex",
+    "라이브",
+    "오늘",
+    "오늘도",
+    "찢었다",
+    "모야",
+    "휴이",
+    "토모야",
+    "they",
+    "무대를",
+    "썸네일",
+    "잘한다",
+    "love"
+   ],
+   "top_comment": {
+    "likes": 381,
+    "text": "무대좋아하는 사람은 넥스지 좋아할 수 밖에 없다 걍 쾌감이 느껴져",
+    "video_id": "DFeha0NXZ5Y"
+   }
+  },
+  {
+   "group": "키키",
+   "n_videos": 24,
+   "n_comments": 1200,
+   "avg_likes_per_comment": 215.2,
+   "lang_pct": {
+    "ko": 80.8,
+    "en": 17.6,
+    "ja": 0.9,
+    "other": 0.6,
+    "zh": 0.1
+   },
+   "foreign_pct": 19.2,
+   "pos_pct": 34.2,
+   "neg_pct": 0.6,
+   "top_keywords": [
+    "키키",
+    "kiiikiii",
+    "수이",
+    "키야",
+    "이솔",
+    "하음",
+    "지유",
+    "하음이",
+    "they",
+    "오늘",
+    "sui",
+    "좋음",
+    "라이브",
+    "좋다",
+    "이번"
+   ],
+   "top_comment": {
+    "likes": 8441,
+    "text": "키야가 진짜 보물이다",
+    "video_id": "RMSQcFqznwc"
+   }
+  },
+  {
+   "group": "베이비돈크라이",
+   "n_videos": 26,
+   "n_comments": 1171,
+   "avg_likes_per_comment": 10.1,
+   "lang_pct": {
+    "ko": 47.4,
+    "en": 41.9,
+    "ja": 5.6,
+    "other": 3.3,
+    "zh": 1.5,
+    "th": 0.3
+   },
+   "foreign_pct": 52.6,
+   "pos_pct": 40.6,
+   "neg_pct": 0.5,
+   "top_keywords": [
+    "bdc",
+    "baby",
+    "cry",
+    "they",
+    "love",
+    "song",
+    "good",
+    "베돈크",
+    "yihyun",
+    "girls",
+    "dont",
+    "mia",
+    "don",
+    "live",
+    "베니"
+   ],
+   "top_comment": {
+    "likes": 416,
+    "text": "베돈크는 진짜 더 떠야함..... 전원 실력파에다가 노래도 잘 뽑아오고 심지어 이게 선공개곡이라 타이틀은 공개되지도 않았음..",
+    "video_id": "m-_cwHz9g1Y"
+   }
+  },
+  {
+   "group": "있지",
+   "n_videos": 23,
+   "n_comments": 1150,
+   "avg_likes_per_comment": 170.0,
+   "lang_pct": {
+    "ko": 54.7,
+    "en": 42.1,
+    "ja": 3.0,
+    "zh": 0.2
+   },
+   "foreign_pct": 45.3,
+   "pos_pct": 39.0,
+   "neg_pct": 0.6,
+   "top_keywords": [
+    "itzy",
+    "yuna",
+    "있지",
+    "lia",
+    "she",
+    "her",
+    "유나",
+    "they",
+    "stage",
+    "오늘",
+    "beautiful",
+    "love",
+    "best",
+    "win",
+    "their"
+   ],
+   "top_comment": {
+    "likes": 21931,
+    "text": "이 무대 뭔가 멋있는거 이상의 벅차오름이 있음..\n그간 하락세라며 계속해서 부정적인 반응들을 겪어오면서 힘 빠질만도 한데, 이에 동요하지 않고 매 활동마다 묵묵히 최선을 다해온 그룹임.\n누구보다 비상할 자격이 충만한",
+    "video_id": "LL3yonBuQK0"
+   }
+  },
+  {
+   "group": "하츠투하츠",
+   "n_videos": 23,
+   "n_comments": 1150,
+   "avg_likes_per_comment": 181.4,
+   "lang_pct": {
+    "ko": 67.4,
+    "en": 31.5,
+    "ja": 1.0,
+    "zh": 0.1
+   },
+   "foreign_pct": 32.6,
+   "pos_pct": 39.7,
+   "neg_pct": 0.5,
+   "top_keywords": [
+    "carmen",
+    "hearts",
+    "라이브",
+    "하투하",
+    "스텔라",
+    "오늘",
+    "카르멘",
+    "유하",
+    "하츠투하츠",
+    "love",
+    "이안",
+    "they",
+    "live",
+    "에이나",
+    "her"
+   ],
+   "top_comment": {
+    "likes": 7050,
+    "text": "내가 여자를 밝히는 것도 맞고 여자도 밝은거다",
+    "video_id": "NoQPDBpxfyA"
+   }
+  },
+  {
+   "group": "르세라핌",
+   "n_videos": 22,
+   "n_comments": 1100,
+   "avg_likes_per_comment": 111.1,
+   "lang_pct": {
+    "ko": 55.3,
+    "en": 39.4,
+    "ja": 5.3,
+    "th": 0.1
+   },
+   "foreign_pct": 44.7,
+   "pos_pct": 37.1,
+   "neg_pct": 0.5,
+   "top_keywords": [
+    "sakura",
+    "르세라핌",
+    "yunjin",
+    "they",
+    "sserafim",
+    "love",
+    "her",
+    "looks",
+    "kazuha",
+    "she",
+    "cute",
+    "chaewon",
+    "eunchae",
+    "오늘",
+    "pretty"
+   ],
+   "top_comment": {
+    "likes": 3088,
+    "text": "Sakuras bag is too huge for her 😂 but she’s so nice that she intentionally stood a bit away from the members so it would",
+    "video_id": "rJHd-yJodyE"
+   }
+  },
+  {
+   "group": "하이키",
+   "n_videos": 21,
+   "n_comments": 1042,
+   "avg_likes_per_comment": 15.8,
+   "lang_pct": {
+    "ko": 77.0,
+    "en": 19.5,
+    "other": 1.5,
+    "ja": 1.4,
+    "zh": 0.6
+   },
+   "foreign_pct": 23.0,
+   "pos_pct": 44.1,
+   "neg_pct": 1.0,
+   "top_keywords": [
+    "하이키",
+    "key",
+    "라이브",
+    "노래가",
+    "love",
+    "좋다",
+    "가수님",
+    "좋고",
+    "이번",
+    "하이키는",
+    "서이",
+    "매일",
+    "they",
+    "좋아요",
+    "pretty"
+   ],
+   "top_comment": {
+    "likes": 1039,
+    "text": "팬심을 떠나서 지금 메이저 걸그룹 노래하고 비교해봐도 제일 듣기 좋은거같음",
+    "video_id": "EniwQcYjzbo"
+   }
+  },
+  {
+   "group": "엔믹스",
+   "n_videos": 20,
+   "n_comments": 1000,
+   "avg_likes_per_comment": 138.8,
+   "lang_pct": {
+    "ko": 83.5,
+    "en": 15.3,
+    "ja": 0.7,
+    "other": 0.3,
+    "zh": 0.2
+   },
+   "foreign_pct": 16.5,
+   "pos_pct": 47.5,
+   "neg_pct": 0.3,
+   "top_keywords": [
+    "엔믹스",
+    "라이브",
+    "nmixx",
+    "헤메코",
+    "오늘",
+    "릴리",
+    "설윤",
+    "좋다",
+    "이번",
+    "아니",
+    "예쁘다",
+    "lily",
+    "오해원",
+    "축하해",
+    "다들"
+   ],
+   "top_comment": {
+    "likes": 4018,
+    "text": "와.. 썸네일 작정했네",
+    "video_id": "Zikcmdp_aoQ"
+   }
+  },
+  {
+   "group": "아이브",
+   "n_videos": 20,
+   "n_comments": 1000,
+   "avg_likes_per_comment": 204.4,
+   "lang_pct": {
+    "ko": 71.7,
+    "en": 25.5,
+    "ja": 2.6,
+    "zh": 0.1,
+    "th": 0.1
+   },
+   "foreign_pct": 28.3,
+   "pos_pct": 45.2,
+   "neg_pct": 0.5,
+   "top_keywords": [
+    "리즈",
+    "아이브",
+    "liz",
+    "yujin",
+    "유진이",
+    "ive",
+    "wonyoung",
+    "bang",
+    "레이",
+    "오늘",
+    "미쳤다",
+    "안유진",
+    "이번",
+    "썸네일",
+    "her"
+   ],
+   "top_comment": {
+    "likes": 8758,
+    "text": "내 기준 전멤 비주얼 피지컬 압도적1위 걸그룹",
+    "video_id": "d6uub-FsxN0"
+   }
+  },
+  {
+   "group": "클로즈 유어 아이즈",
+   "n_videos": 20,
+   "n_comments": 971,
+   "avg_likes_per_comment": 8.1,
+   "lang_pct": {
+    "en": 55.4,
+    "ko": 31.0,
+    "ja": 8.8,
+    "other": 4.0,
+    "zh": 0.6,
+    "th": 0.2
+   },
+   "foreign_pct": 69.0,
+   "pos_pct": 45.5,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "cye",
+    "they",
+    "클유아",
+    "eyes",
+    "love",
+    "your",
+    "minwook",
+    "close",
+    "kenshin",
+    "good",
+    "handsome",
+    "오늘",
+    "kyoungbae",
+    "well",
+    "경배"
+   ],
+   "top_comment": {
+    "likes": 113,
+    "text": "they made sure mics were ON",
+    "video_id": "lU3foiMGfTY"
+   }
+  },
+  {
+   "group": "에이티투메이저",
+   "n_videos": 21,
+   "n_comments": 896,
+   "avg_likes_per_comment": 9.2,
+   "lang_pct": {
+    "ko": 60.6,
+    "en": 36.6,
+    "other": 1.8,
+    "ja": 0.4,
+    "zh": 0.3,
+    "th": 0.2
+   },
+   "foreign_pct": 39.4,
+   "pos_pct": 31.0,
+   "neg_pct": 0.8,
+   "top_keywords": [
+    "major",
+    "they",
+    "good",
+    "에투메",
+    "오늘",
+    "라이브",
+    "seongil",
+    "love",
+    "fighting",
+    "their",
+    "great",
+    "outfits",
+    "amazing",
+    "group",
+    "좋음"
+   ],
+   "top_comment": {
+    "likes": 291,
+    "text": "꾸준히 이 퀄이면 언젠가 뜨겟지.....",
+    "video_id": "g_DgdFaAx8M"
+   }
+  },
+  {
+   "group": "투모로우바이투게더",
+   "n_videos": 16,
+   "n_comments": 800,
+   "avg_likes_per_comment": 41.3,
+   "lang_pct": {
+    "ko": 58.6,
+    "en": 32.4,
+    "ja": 9.0
+   },
+   "foreign_pct": 41.4,
+   "pos_pct": 46.4,
+   "neg_pct": 0.1,
+   "top_keywords": [
+    "투바투",
+    "축하해",
+    "txt",
+    "beomgyu",
+    "win",
+    "love",
+    "yeonjun",
+    "their",
+    "오늘",
+    "라이브",
+    "soobin",
+    "너무너무",
+    "아니",
+    "music",
+    "관왕"
+   ],
+   "top_comment": {
+    "likes": 1518,
+    "text": "첫방부터 라이브 보컬 실력 실화인가요? 진짜 무대를 찢어놓으셨다",
+    "video_id": "z_7MDMsUd-4"
+   }
+  },
+  {
+   "group": "키스오브라이프",
+   "n_videos": 16,
+   "n_comments": 800,
+   "avg_likes_per_comment": 145.3,
+   "lang_pct": {
+    "ko": 61.0,
+    "en": 37.0,
+    "th": 1.4,
+    "ja": 0.5,
+    "other": 0.1
+   },
+   "foreign_pct": 39.0,
+   "pos_pct": 40.8,
+   "neg_pct": 0.8,
+   "top_keywords": [
+    "they",
+    "키오프",
+    "라이브",
+    "their",
+    "love",
+    "오늘",
+    "stage",
+    "live",
+    "kiof",
+    "she",
+    "belle",
+    "them",
+    "haneul",
+    "all",
+    "이번"
+   ],
+   "top_comment": {
+    "likes": 5648,
+    "text": "음방에서 이만큼 쌩라이브 첨봄",
+    "video_id": "rWFQSZ0ouMU"
+   }
+  },
+  {
+   "group": "롱샷",
+   "n_videos": 16,
+   "n_comments": 800,
+   "avg_likes_per_comment": 237.5,
+   "lang_pct": {
+    "ko": 55.4,
+    "en": 43.1,
+    "other": 0.5,
+    "th": 0.4,
+    "ja": 0.4,
+    "zh": 0.2
+   },
+   "foreign_pct": 44.6,
+   "pos_pct": 33.4,
+   "neg_pct": 0.2,
+   "top_keywords": [
+    "they",
+    "lngshot",
+    "them",
+    "롱샷",
+    "love",
+    "their",
+    "group",
+    "ohyul",
+    "라이브",
+    "good",
+    "like",
+    "좋음",
+    "all",
+    "song",
+    "let"
+   ],
+   "top_comment": {
+    "likes": 6693,
+    "text": "BSIDE OF THE YEARRRR 😭✨",
+    "video_id": "rIFj-uS1dRc"
+   }
+  },
+  {
+   "group": "엔하이픈",
+   "n_videos": 16,
+   "n_comments": 800,
+   "avg_likes_per_comment": 96.4,
+   "lang_pct": {
+    "en": 57.2,
+    "ko": 32.6,
+    "ja": 10.1
+   },
+   "foreign_pct": 67.4,
+   "pos_pct": 31.4,
+   "neg_pct": 0.4,
+   "top_keywords": [
+    "jay",
+    "enhypen",
+    "jungwon",
+    "heeseung",
+    "jake",
+    "엔하이픈",
+    "his",
+    "their",
+    "knife",
+    "sunghoon",
+    "love",
+    "song",
+    "sunoo",
+    "good",
+    "thumbnail"
+   ],
+   "top_comment": {
+    "likes": 2578,
+    "text": "whoever styled Jungwon's hair deserves appreciation",
+    "video_id": "NVKlxPmDNSI"
+   }
+  },
+  {
+   "group": "제로베이스원",
+   "n_videos": 16,
+   "n_comments": 799,
+   "avg_likes_per_comment": 34.5,
+   "lang_pct": {
+    "ko": 62.6,
+    "en": 33.5,
+    "ja": 3.4,
+    "other": 0.4,
+    "zh": 0.1
+   },
+   "foreign_pct": 37.4,
+   "pos_pct": 50.1,
+   "neg_pct": 0.3,
+   "top_keywords": [
+    "hanbin",
+    "제베원",
+    "썸네일",
+    "축하해",
+    "sung",
+    "제로베이스원",
+    "jiwoong",
+    "성한빈",
+    "사랑해",
+    "top",
+    "thumbnail",
+    "태래",
+    "오늘",
+    "미쳤다",
+    "taerae"
+   ],
+   "top_comment": {
+    "likes": 899,
+    "text": "진짜 이건 탑파이브가 아니라 원탑 찍어야 할 노래가 맞다.....",
+    "video_id": "IGyQRukZk0k"
+   }
+  },
+  {
+   "group": "크래비티",
+   "n_videos": 16,
+   "n_comments": 775,
+   "avg_likes_per_comment": 12.5,
+   "lang_pct": {
+    "ko": 58.3,
+    "en": 37.0,
+    "other": 2.7,
+    "zh": 1.2,
+    "ja": 0.6,
+    "th": 0.1
+   },
+   "foreign_pct": 41.7,
+   "pos_pct": 38.3,
+   "neg_pct": 0.4,
+   "top_keywords": [
+    "cravity",
+    "크래비티",
+    "love",
+    "they",
+    "이번",
+    "good",
+    "song",
+    "their",
+    "라이브",
+    "좋다",
+    "outfits",
+    "오늘",
+    "fighting",
+    "awake",
+    "all"
+   ],
+   "top_comment": {
+    "likes": 527,
+    "text": "크래비티 더 떠야하는데 이번엔 진짜 될득",
+    "video_id": "ggU9yodtuGo"
+   }
+  },
+  {
+   "group": "메이딘",
+   "n_videos": 18,
+   "n_comments": 768,
+   "avg_likes_per_comment": 10.1,
+   "lang_pct": {
+    "ko": 43.0,
+    "en": 30.9,
+    "ja": 21.5,
+    "other": 3.4,
+    "zh": 1.3
+   },
+   "foreign_pct": 57.0,
+   "pos_pct": 40.0,
+   "neg_pct": 0.3,
+   "top_keywords": [
+    "madein",
+    "메이딘",
+    "mashiro",
+    "나고미",
+    "마시로",
+    "serina",
+    "they",
+    "miu",
+    "nagomi",
+    "beautiful",
+    "love",
+    "세리나",
+    "pretty",
+    "song",
+    "좋다"
+   ],
+   "top_comment": {
+    "likes": 220,
+    "text": "なんか、解散しちゃいそうで怖い\n望んでないよ、4人でもずっと応援してるからね。",
+    "video_id": "eucm0SOw4QQ"
+   }
+  },
+  {
+   "group": "파우",
+   "n_videos": 17,
+   "n_comments": 754,
+   "avg_likes_per_comment": 5.3,
+   "lang_pct": {
+    "en": 39.9,
+    "th": 29.2,
+    "ko": 24.4,
+    "other": 5.8,
+    "ja": 0.4,
+    "zh": 0.3
+   },
+   "foreign_pct": 75.6,
+   "pos_pct": 47.1,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "pow",
+    "love",
+    "파우",
+    "cute",
+    "handsome",
+    "오늘",
+    "they",
+    "yorch",
+    "very",
+    "good",
+    "fighting",
+    "great",
+    "song",
+    "power",
+    "라이브"
+   ],
+   "top_comment": {
+    "likes": 83,
+    "text": "드디어 컴백 🎉🎉🎉🎉 🥹 첫음방 너무너무 수고햇구 추운 날씨에 항상 고생이 많다 우리 파우...🫳🫳 여태까지 한 노력의 결실이 꼭 나타날거야 늘 열시미 무대해줘서 고마워 사랑해!! 🫶🫶💘💘",
+    "video_id": "IyT1aGKzznU"
+   }
+  },
+  {
+   "group": "아이딧",
+   "n_videos": 16,
+   "n_comments": 730,
+   "avg_likes_per_comment": 6.0,
+   "lang_pct": {
+    "ko": 47.8,
+    "en": 47.1,
+    "other": 2.7,
+    "ja": 2.3
+   },
+   "foreign_pct": 52.2,
+   "pos_pct": 41.0,
+   "neg_pct": 0.3,
+   "top_keywords": [
+    "idid",
+    "아이딧",
+    "minjae",
+    "love",
+    "fighting",
+    "사랑해",
+    "they",
+    "good",
+    "김민재",
+    "민재",
+    "yoochan",
+    "great",
+    "kim",
+    "live",
+    "yonghoon"
+   ],
+   "top_comment": {
+    "likes": 90,
+    "text": "와 너네 신인 맞니…… 라이브 왜이리잘해",
+    "video_id": "JnxRFFf7Epk"
+   }
+  },
+  {
+   "group": "누에라",
+   "n_videos": 22,
+   "n_comments": 707,
+   "avg_likes_per_comment": 5.0,
+   "lang_pct": {
+    "en": 56.6,
+    "ko": 18.7,
+    "other": 11.9,
+    "ja": 11.7,
+    "zh": 1.1
+   },
+   "foreign_pct": 81.3,
+   "pos_pct": 44.6,
+   "neg_pct": 0.3,
+   "top_keywords": [
+    "nouera",
+    "they",
+    "누에라",
+    "more",
+    "good",
+    "fighting",
+    "like",
+    "love",
+    "fan",
+    "male",
+    "tank",
+    "amazing",
+    "boys",
+    "guys",
+    "let"
+   ],
+   "top_comment": {
+    "likes": 79,
+    "text": "okay the scale and budget for this stage is pretty awesome",
+    "video_id": "6z8Dp4ZxqTA"
+   }
+  },
+  {
+   "group": "에이티즈",
+   "n_videos": 14,
+   "n_comments": 700,
+   "avg_likes_per_comment": 79.1,
+   "lang_pct": {
+    "ko": 50.4,
+    "en": 48.3,
+    "ja": 0.9,
+    "zh": 0.3,
+    "th": 0.1
+   },
+   "foreign_pct": 49.6,
+   "pos_pct": 41.1,
+   "neg_pct": 0.6,
+   "top_keywords": [
+    "ateez",
+    "에이티즈",
+    "they",
+    "love",
+    "their",
+    "yunho",
+    "performance",
+    "his",
+    "좋다",
+    "축하해",
+    "can",
+    "comeback",
+    "이번",
+    "mingi",
+    "best"
+   ],
+   "top_comment": {
+    "likes": 2030,
+    "text": "putting san as the thumbnail after deleting his fancam is crazy",
+    "video_id": "tDuZLK78BEk"
+   }
+  },
+  {
+   "group": "싸이커스",
+   "n_videos": 14,
+   "n_comments": 693,
+   "avg_likes_per_comment": 8.8,
+   "lang_pct": {
+    "en": 56.0,
+    "ko": 40.7,
+    "ja": 1.7,
+    "other": 1.3,
+    "th": 0.1,
+    "zh": 0.1
+   },
+   "foreign_pct": 59.3,
+   "pos_pct": 44.2,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "xikers",
+    "싸이커스",
+    "they",
+    "stage",
+    "오늘",
+    "their",
+    "오늘도",
+    "live",
+    "love",
+    "always",
+    "performance",
+    "이번",
+    "라이브",
+    "energy",
+    "every"
+   ],
+   "top_comment": {
+    "likes": 162,
+    "text": "2:48 omggg sumin and roadys screaming together!!",
+    "video_id": "7aY4ie_kB64"
+   }
+  },
+  {
+   "group": "원어스",
+   "n_videos": 14,
+   "n_comments": 679,
+   "avg_likes_per_comment": 7.8,
+   "lang_pct": {
+    "en": 56.0,
+    "ko": 37.0,
+    "other": 4.1,
+    "ja": 2.7,
+    "th": 0.3
+   },
+   "foreign_pct": 63.0,
+   "pos_pct": 46.7,
+   "neg_pct": 0.1,
+   "top_keywords": [
+    "oneus",
+    "love",
+    "they",
+    "hwanwoong",
+    "원어스",
+    "amazing",
+    "xion",
+    "performance",
+    "grenade",
+    "keonhee",
+    "stage",
+    "outfits",
+    "their",
+    "오늘",
+    "really"
+   ],
+   "top_comment": {
+    "likes": 130,
+    "text": "달님들 응원소리 듣고 울컥 ..",
+    "video_id": "5Zi90e74mjw"
+   }
+  },
+  {
+   "group": "오드유스",
+   "n_videos": 18,
+   "n_comments": 667,
+   "avg_likes_per_comment": 6.0,
+   "lang_pct": {
+    "ko": 46.5,
+    "en": 44.1,
+    "other": 6.1,
+    "ja": 2.4,
+    "zh": 0.6,
+    "th": 0.3
+   },
+   "foreign_pct": 53.5,
+   "pos_pct": 43.9,
+   "neg_pct": 0.6,
+   "top_keywords": [
+    "odd",
+    "youth",
+    "오드유스",
+    "pretty",
+    "써머",
+    "myah",
+    "good",
+    "song",
+    "girls",
+    "beautiful",
+    "summer",
+    "kanie",
+    "카니",
+    "they",
+    "like"
+   ],
+   "top_comment": {
+    "likes": 181,
+    "text": "헐 오드유스 이번 노래 잘 뽑았다..... 전원비주얼인데 꼭 뜨면 좋겠음",
+    "video_id": "N5qkkc6qwAo"
+   }
+  },
+  {
+   "group": "키라스",
+   "n_videos": 13,
+   "n_comments": 650,
+   "avg_likes_per_comment": 37.6,
+   "lang_pct": {
+    "en": 85.4,
+    "ko": 12.2,
+    "ja": 1.4,
+    "other": 0.6,
+    "zh": 0.5
+   },
+   "foreign_pct": 87.8,
+   "pos_pct": 40.9,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "kiiras",
+    "they",
+    "lingling",
+    "love",
+    "their",
+    "live",
+    "pretty",
+    "kurumi",
+    "outfit",
+    "fighting",
+    "mic",
+    "vocal",
+    "roah",
+    "doyeon",
+    "stage"
+   ],
+   "top_comment": {
+    "likes": 340,
+    "text": "The way Kurumi did the high note live????? HELLO??? These girls deserve a big ATTENTION !!!!",
+    "video_id": "tgsC9ZU9fdU"
+   }
+  },
+  {
+   "group": "세이마이네임",
+   "n_videos": 13,
+   "n_comments": 648,
+   "avg_likes_per_comment": 26.6,
+   "lang_pct": {
+    "ko": 74.2,
+    "en": 16.8,
+    "ja": 8.0,
+    "other": 0.6,
+    "th": 0.2,
+    "zh": 0.2
+   },
+   "foreign_pct": 25.8,
+   "pos_pct": 48.8,
+   "neg_pct": 0.3,
+   "top_keywords": [
+    "세마넴",
+    "라이브",
+    "세이마이네임",
+    "say",
+    "축하해",
+    "name",
+    "좋다",
+    "오늘",
+    "승주",
+    "도희",
+    "메이",
+    "live",
+    "잘한다",
+    "love",
+    "카니"
+   ],
+   "top_comment": {
+    "likes": 471,
+    "text": "진짜 요즘 여자 아이돌중에 음정만 좋은게 아니라 춤추면서 발음디테일이랑 발성 다 되는 아이돌 처음인듯",
+    "video_id": "QR_G1f9Jjj8"
+   }
+  },
+  {
+   "group": "앰퍼샌드원",
+   "n_videos": 18,
+   "n_comments": 606,
+   "avg_likes_per_comment": 9.0,
+   "lang_pct": {
+    "en": 73.3,
+    "ko": 21.3,
+    "other": 3.6,
+    "ja": 1.2,
+    "zh": 0.7
+   },
+   "foreign_pct": 78.7,
+   "pos_pct": 33.0,
+   "neg_pct": 0.3,
+   "top_keywords": [
+    "they",
+    "one",
+    "jiho",
+    "ampers",
+    "love",
+    "god",
+    "amazing",
+    "performance",
+    "good",
+    "outfits",
+    "tops",
+    "like",
+    "tank",
+    "kyrell",
+    "group"
+   ],
+   "top_comment": {
+    "likes": 682,
+    "text": "썸네일에 고죠가 있어서 들어옴",
+    "video_id": "Oe_qMudVJhk"
+   }
+  },
+  {
+   "group": "이븐",
+   "n_videos": 14,
+   "n_comments": 605,
+   "avg_likes_per_comment": 7.1,
+   "lang_pct": {
+    "ko": 38.8,
+    "en": 35.4,
+    "ja": 19.7,
+    "other": 4.8,
+    "zh": 1.3
+   },
+   "foreign_pct": 61.2,
+   "pos_pct": 35.0,
+   "neg_pct": 0.3,
+   "top_keywords": [
+    "evnne",
+    "이븐",
+    "they",
+    "love",
+    "이정현",
+    "song",
+    "라이브",
+    "cool",
+    "handsome",
+    "great",
+    "live",
+    "축하해",
+    "완전",
+    "performance",
+    "cute"
+   ],
+   "top_comment": {
+    "likes": 71,
+    "text": "박한빈 뭐야... 왤케 잘생겼다???",
+    "video_id": "43ZUxxj2kv8"
+   }
+  },
+  {
+   "group": "보이넥스트도어",
+   "n_videos": 12,
+   "n_comments": 600,
+   "avg_likes_per_comment": 65.8,
+   "lang_pct": {
+    "ko": 83.2,
+    "en": 16.0,
+    "ja": 0.8
+   },
+   "foreign_pct": 16.8,
+   "pos_pct": 40.3,
+   "neg_pct": 0.7,
+   "top_keywords": [
+    "라이브",
+    "아니",
+    "보넥도",
+    "축하해",
+    "boynextdoor",
+    "오늘",
+    "제발",
+    "they",
+    "박성호",
+    "코디",
+    "성호",
+    "날티의",
+    "썸네일",
+    "love",
+    "좋음"
+   ],
+   "top_comment": {
+    "likes": 1875,
+    "text": "아니 그냥 엠알도 안 틀어놓고 한 수준임 이건….. 말이 되나?",
+    "video_id": "8Q56xeBTH4s"
+   }
+  },
+  {
+   "group": "이즈나",
+   "n_videos": 12,
+   "n_comments": 600,
+   "avg_likes_per_comment": 16.9,
+   "lang_pct": {
+    "ko": 48.8,
+    "en": 44.2,
+    "ja": 6.0,
+    "other": 0.8,
+    "zh": 0.2
+   },
+   "foreign_pct": 51.2,
+   "pos_pct": 51.0,
+   "neg_pct": 0.5,
+   "top_keywords": [
+    "izna",
+    "이즈나",
+    "jungeun",
+    "jeemin",
+    "방지민",
+    "koko",
+    "mai",
+    "pretty",
+    "love",
+    "they",
+    "지민이",
+    "라이브",
+    "thumbnail",
+    "her",
+    "beautiful"
+   ],
+   "top_comment": {
+    "likes": 227,
+    "text": "5주동안 공방 풀로 돌아주는 아이돌❤막방까지 수고많았어요💕",
+    "video_id": "75d5XI3nbLk"
+   }
+  },
+  {
+   "group": "케플러",
+   "n_videos": 12,
+   "n_comments": 578,
+   "avg_likes_per_comment": 29.0,
+   "lang_pct": {
+    "en": 52.6,
+    "ko": 30.3,
+    "ja": 15.2,
+    "zh": 0.9,
+    "other": 0.9,
+    "th": 0.2
+   },
+   "foreign_pct": 69.7,
+   "pos_pct": 32.5,
+   "neg_pct": 0.2,
+   "top_keywords": [
+    "kep",
+    "yujin",
+    "xiaoting",
+    "they",
+    "love",
+    "케플러",
+    "good",
+    "chaehyun",
+    "stage",
+    "their",
+    "hiyyih",
+    "dayeon",
+    "오늘",
+    "look",
+    "outfits"
+   ],
+   "top_comment": {
+    "likes": 1068,
+    "text": "다들 너무 잘한다... 이번 활동 꼭 1위 했으면 좋겠다 ㅠ",
+    "video_id": "tdw1XfMImmg"
+   }
+  },
+  {
+   "group": "앳하트",
+   "n_videos": 13,
+   "n_comments": 578,
+   "avg_likes_per_comment": 10.8,
+   "lang_pct": {
+    "en": 60.4,
+    "ko": 34.4,
+    "ja": 2.2,
+    "other": 1.9,
+    "zh": 1.0
+   },
+   "foreign_pct": 65.6,
+   "pos_pct": 37.2,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "atheart",
+    "love",
+    "they",
+    "their",
+    "good",
+    "song",
+    "katelyn",
+    "but",
+    "pretty",
+    "girls",
+    "arin",
+    "beautiful",
+    "like",
+    "michi",
+    "all"
+   ],
+   "top_comment": {
+    "likes": 430,
+    "text": "노래 좋다 … 노래는 항상 잘 뽑아오는 것 같은데 쫌 더 몽환적인 무드 살릴 수 있게 의상 좀 전반적으로 통일하면 좋을듯.. 지금은 컬러가 너무 많고 노래랑 안 맞게 스트릿한 느낌에다가 너무 중구난방인 느낌이어서 곡",
+    "video_id": "yFW6wW4awhM"
+   }
+  },
+  {
+   "group": "피원하모니",
+   "n_videos": 12,
+   "n_comments": 577,
+   "avg_likes_per_comment": 22.5,
+   "lang_pct": {
+    "en": 73.0,
+    "ko": 20.5,
+    "other": 3.8,
+    "ja": 2.4,
+    "zh": 0.3
+   },
+   "foreign_pct": 79.5,
+   "pos_pct": 26.0,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "love",
+    "they",
+    "harmony",
+    "jiung",
+    "soul",
+    "unique",
+    "theo",
+    "jongseob",
+    "their",
+    "good",
+    "omg",
+    "outfits",
+    "intak",
+    "looks",
+    "hair"
+   ],
+   "top_comment": {
+    "likes": 1187,
+    "text": "The cheers for soul SOUL GET BEHIND ME RIGHT NOW",
+    "video_id": "IMQaCF6qt1I"
+   }
+  },
+  {
+   "group": "빌리",
+   "n_videos": 12,
+   "n_comments": 571,
+   "avg_likes_per_comment": 107.8,
+   "lang_pct": {
+    "ko": 89.5,
+    "en": 8.9,
+    "ja": 1.2,
+    "other": 0.4
+   },
+   "foreign_pct": 10.5,
+   "pos_pct": 40.5,
+   "neg_pct": 0.7,
+   "top_keywords": [
+    "빌리",
+    "work",
+    "좋다",
+    "이번",
+    "워크",
+    "zap",
+    "제발",
+    "좋음",
+    "음방",
+    "미쳤다",
+    "라이브",
+    "계속",
+    "다들",
+    "billlie",
+    "멤버들"
+   ],
+   "top_comment": {
+    "likes": 2447,
+    "text": "지금 존나 물만난 물고기임 눈빛 보면 확신에 차서 자신감 ㅈ됨",
+    "video_id": "8LBTuWlO9ew"
+   }
+  },
+  {
+   "group": "엑스러브",
+   "n_videos": 11,
+   "n_comments": 550,
+   "avg_likes_per_comment": 205.9,
+   "lang_pct": {
+    "ko": 56.2,
+    "en": 39.3,
+    "ja": 2.4,
+    "zh": 2.2
+   },
+   "foreign_pct": 43.8,
+   "pos_pct": 30.7,
+   "neg_pct": 0.2,
+   "top_keywords": [
+    "they",
+    "xlov",
+    "hyun",
+    "their",
+    "love",
+    "rui",
+    "them",
+    "like",
+    "can",
+    "vocals",
+    "how",
+    "just",
+    "all",
+    "but",
+    "엑스러브"
+   ],
+   "top_comment": {
+    "likes": 3470,
+    "text": "cameraman was NOT playing with the intro scene. thank you!!",
+    "video_id": "puAzpYC03lM"
+   }
+  },
+  {
+   "group": "아이들",
+   "n_videos": 11,
+   "n_comments": 550,
+   "avg_likes_per_comment": 101.3,
+   "lang_pct": {
+    "ko": 54.4,
+    "en": 41.8,
+    "zh": 1.6,
+    "other": 1.6,
+    "th": 0.4,
+    "ja": 0.2
+   },
+   "foreign_pct": 45.6,
+   "pos_pct": 47.1,
+   "neg_pct": 0.2,
+   "top_keywords": [
+    "아이들",
+    "love",
+    "dle",
+    "mono",
+    "shuhua",
+    "idle",
+    "축하해",
+    "they",
+    "soyeon",
+    "miyeon",
+    "좋다",
+    "beautiful",
+    "song",
+    "yuqi",
+    "good"
+   ],
+   "top_comment": {
+    "likes": 5426,
+    "text": "It's the very first time I hear the word 'gay' in kmusic stage. This is monumental.",
+    "video_id": "O4nHCU0h-E4"
+   }
+  },
+  {
+   "group": "이프아이",
+   "n_videos": 13,
+   "n_comments": 543,
+   "avg_likes_per_comment": 8.2,
+   "lang_pct": {
+    "en": 52.7,
+    "ko": 40.0,
+    "other": 3.7,
+    "ja": 3.5,
+    "zh": 0.2
+   },
+   "foreign_pct": 60.0,
+   "pos_pct": 38.5,
+   "neg_pct": 0.2,
+   "top_keywords": [
+    "ifeye",
+    "they",
+    "이프아이",
+    "love",
+    "song",
+    "kasia",
+    "hazy",
+    "good",
+    "girls",
+    "pretty",
+    "all",
+    "rahee",
+    "live",
+    "them",
+    "beautiful"
+   ],
+   "top_comment": {
+    "likes": 312,
+    "text": "They are that monster rookie of 2025.",
+    "video_id": "jPZJG-AeyXE"
+   }
+  },
+  {
+   "group": "아이덴티티",
+   "n_videos": 13,
+   "n_comments": 540,
+   "avg_likes_per_comment": 7.3,
+   "lang_pct": {
+    "ko": 53.1,
+    "en": 41.7,
+    "other": 4.3,
+    "ja": 0.7,
+    "zh": 0.2
+   },
+   "foreign_pct": 46.9,
+   "pos_pct": 37.2,
+   "neg_pct": 0.6,
+   "top_keywords": [
+    "they",
+    "idntt",
+    "오늘",
+    "love",
+    "good",
+    "stage",
+    "performance",
+    "라이브",
+    "never",
+    "사랑해",
+    "more",
+    "their",
+    "이청명",
+    "아이덴티티",
+    "fighting"
+   ],
+   "top_comment": {
+    "likes": 137,
+    "text": "아니 라이브 잘하네 진작 좀 시켜주지",
+    "video_id": "_LkU8b3BA2A"
+   }
+  },
+  {
+   "group": "영파씨",
+   "n_videos": 11,
+   "n_comments": 531,
+   "avg_likes_per_comment": 13.6,
+   "lang_pct": {
+    "en": 57.1,
+    "ko": 37.1,
+    "other": 3.2,
+    "ja": 2.3,
+    "zh": 0.4
+   },
+   "foreign_pct": 62.9,
+   "pos_pct": 35.8,
+   "neg_pct": 0.2,
+   "top_keywords": [
+    "they",
+    "young",
+    "posse",
+    "love",
+    "live",
+    "girls",
+    "영파씨",
+    "stage",
+    "good",
+    "라이브",
+    "song",
+    "their",
+    "always",
+    "them",
+    "yeonjung"
+   ],
+   "top_comment": {
+    "likes": 336,
+    "text": "The most underrated K-Pop/Hip-Hop idol group to ever exist right here.\nIt's absolutely criminal they aren't more well kn",
+    "video_id": "ACwK-T8b2E0"
+   }
+  },
+  {
+   "group": "올아워즈",
+   "n_videos": 17,
+   "n_comments": 503,
+   "avg_likes_per_comment": 8.8,
+   "lang_pct": {
+    "en": 62.8,
+    "ko": 27.8,
+    "other": 6.8,
+    "ja": 2.4,
+    "zh": 0.2
+   },
+   "foreign_pct": 72.2,
+   "pos_pct": 31.0,
+   "neg_pct": 0.4,
+   "top_keywords": [
+    "all",
+    "they",
+    "ours",
+    "performance",
+    "love",
+    "웃다가",
+    "them",
+    "their",
+    "more",
+    "amazing",
+    "fighting",
+    "can",
+    "kunho",
+    "outfits",
+    "just"
+   ],
+   "top_comment": {
+    "likes": 110,
+    "text": "1:07 is what you're looking for",
+    "video_id": "N2Q4HZqJhBc"
+   }
+  },
+  {
+   "group": "에스파",
+   "n_videos": 10,
+   "n_comments": 500,
+   "avg_likes_per_comment": 318.6,
+   "lang_pct": {
+    "ko": 78.8,
+    "en": 19.8,
+    "ja": 0.8,
+    "zh": 0.6
+   },
+   "foreign_pct": 21.2,
+   "pos_pct": 40.6,
+   "neg_pct": 0.4,
+   "top_keywords": [
+    "윈터",
+    "에스파",
+    "ningning",
+    "닝닝",
+    "winter",
+    "카리나",
+    "오늘",
+    "she",
+    "좋음",
+    "좋다",
+    "헤메코",
+    "지젤",
+    "미쳤다",
+    "이번",
+    "썸네일"
+   ],
+   "top_comment": {
+    "likes": 7600,
+    "text": "에스파는 무작정 실험적인 컨셉 하는 느낌이 아니고 퀄리티가 미치게 좋음 설득력이 있음",
+    "video_id": "0b9EEaSTuZ4"
+   }
+  },
+  {
+   "group": "에잇턴",
+   "n_videos": 16,
+   "n_comments": 465,
+   "avg_likes_per_comment": 4.5,
+   "lang_pct": {
+    "en": 67.1,
+    "ko": 27.7,
+    "other": 3.4,
+    "zh": 1.1,
+    "ja": 0.6
+   },
+   "foreign_pct": 72.3,
+   "pos_pct": 38.7,
+   "neg_pct": 0.2,
+   "top_keywords": [
+    "turn",
+    "love",
+    "song",
+    "에잇턴",
+    "they",
+    "good",
+    "fighting",
+    "them",
+    "more",
+    "their",
+    "omg",
+    "really",
+    "great",
+    "guys",
+    "much"
+   ],
+   "top_comment": {
+    "likes": 84,
+    "text": "imagine not giving member fancams for this incredible performance... get up mnet",
+    "video_id": "j8asza7i7Kg"
+   }
+  },
+  {
+   "group": "원팩트",
+   "n_videos": 11,
+   "n_comments": 456,
+   "avg_likes_per_comment": 6.0,
+   "lang_pct": {
+    "en": 71.7,
+    "ko": 14.0,
+    "ja": 9.4,
+    "other": 3.5,
+    "zh": 0.9,
+    "th": 0.4
+   },
+   "foreign_pct": 86.0,
+   "pos_pct": 35.3,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "one",
+    "pact",
+    "love",
+    "performance",
+    "they",
+    "onepact",
+    "always",
+    "amazing",
+    "song",
+    "insane",
+    "tag",
+    "fighting",
+    "great",
+    "their",
+    "sane"
+   ],
+   "top_comment": {
+    "likes": 86,
+    "text": "0:17 \nThis is TAG who appeared on SMTM12.",
+    "video_id": "hxheGsOtu0k"
+   }
+  },
+  {
+   "group": "엔시티 드림",
+   "n_videos": 9,
+   "n_comments": 450,
+   "avg_likes_per_comment": 33.1,
+   "lang_pct": {
+    "ko": 59.6,
+    "en": 38.7,
+    "ja": 1.3,
+    "th": 0.4
+   },
+   "foreign_pct": 40.4,
+   "pos_pct": 40.0,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "jaemin",
+    "stage",
+    "jeno",
+    "dream",
+    "오늘",
+    "이번",
+    "nct",
+    "좋다",
+    "jisung",
+    "good",
+    "라이브",
+    "love",
+    "they",
+    "드림",
+    "part"
+   ],
+   "top_comment": {
+    "likes": 617,
+    "text": "야야 헤메코 누구냐 상 안주고 뭐해 지금;",
+    "video_id": "FwKiIjYavVw"
+   }
+  },
+  {
+   "group": "아홉",
+   "n_videos": 9,
+   "n_comments": 450,
+   "avg_likes_per_comment": 81.4,
+   "lang_pct": {
+    "en": 53.6,
+    "ko": 42.7,
+    "ja": 3.1,
+    "zh": 0.2,
+    "other": 0.2,
+    "th": 0.2
+   },
+   "foreign_pct": 57.3,
+   "pos_pct": 52.4,
+   "neg_pct": 0.4,
+   "top_keywords": [
+    "ahof",
+    "아홉",
+    "they",
+    "their",
+    "love",
+    "all",
+    "가수님들",
+    "our",
+    "well",
+    "congratulations",
+    "shuaibo",
+    "모두",
+    "ending",
+    "thumbnail",
+    "performance"
+   ],
+   "top_comment": {
+    "likes": 1229,
+    "text": "This new group is really showing a lot of potential to represent what K-POP stands for. I’m beginning to love them",
+    "video_id": "an5DL4ryeos"
+   }
+  },
+  {
+   "group": "엔싸인",
+   "n_videos": 9,
+   "n_comments": 448,
+   "avg_likes_per_comment": 20.5,
+   "lang_pct": {
+    "ja": 69.2,
+    "ko": 16.3,
+    "en": 14.5
+   },
+   "foreign_pct": 83.7,
+   "pos_pct": 30.8,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "ssign",
+    "kazuta",
+    "funky",
+    "cosmo",
+    "최고",
+    "love",
+    "peak",
+    "pitch",
+    "like",
+    "cool",
+    "오늘도",
+    "fighting",
+    "카즈타",
+    "좋아",
+    "좋아요"
+   ],
+   "top_comment": {
+    "likes": 95,
+    "text": "Blackの衣装スタイリッシュでエンサのスタイルの良さが際立つ！\nよりcoolなitty bitty良き！\nKAZUTAセクシーで目が釘付け‼︎",
+    "video_id": "B7_H_2reDtw"
+   }
+  },
+  {
+   "group": "소디엑",
+   "n_videos": 8,
+   "n_comments": 400,
+   "avg_likes_per_comment": 19.7,
+   "lang_pct": {
+    "en": 87.8,
+    "ko": 10.0,
+    "zh": 1.5,
+    "ja": 0.5,
+    "other": 0.2
+   },
+   "foreign_pct": 90.0,
+   "pos_pct": 30.0,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "xodiac",
+    "fighting",
+    "time",
+    "love",
+    "zayyan",
+    "shine",
+    "alibi",
+    "keren",
+    "always",
+    "banget",
+    "outfit",
+    "handsome",
+    "leo",
+    "ini",
+    "best"
+   ],
+   "top_comment": {
+    "likes": 383,
+    "text": "알리바이 무대는 볼 때마다 새롭고 짜릿해요. 백합같은 xodiac의 매력에 벗어날 수 없어!",
+    "video_id": "PjTD6p_KZXM"
+   }
+  },
+  {
+   "group": "에이엠피",
+   "n_videos": 21,
+   "n_comments": 394,
+   "avg_likes_per_comment": 1.5,
+   "lang_pct": {
+    "en": 63.2,
+    "ko": 20.3,
+    "other": 15.0,
+    "ja": 0.8,
+    "zh": 0.5,
+    "th": 0.3
+   },
+   "foreign_pct": 79.7,
+   "pos_pct": 49.2,
+   "neg_pct": 0.3,
+   "top_keywords": [
+    "axmxp",
+    "love",
+    "fighting",
+    "good",
+    "handsome",
+    "guys",
+    "great",
+    "song",
+    "they",
+    "their",
+    "cute",
+    "yoojoon",
+    "cool",
+    "amp",
+    "에이엠피"
+   ],
+   "top_comment": {
+    "likes": 23,
+    "text": "AxMxP is a 4-member kband debut on 10th Sept 2025, under FNC Entertainment (home of kband FTISLAND - CNBLUE - NFlying - ",
+    "video_id": "3rCrDvV--fg"
+   }
+  },
+  {
+   "group": "어센트",
+   "n_videos": 12,
+   "n_comments": 393,
+   "avg_likes_per_comment": 5.3,
+   "lang_pct": {
+    "en": 62.3,
+    "ko": 31.0,
+    "other": 4.6,
+    "ja": 1.5,
+    "zh": 0.5
+   },
+   "foreign_pct": 69.0,
+   "pos_pct": 42.0,
+   "neg_pct": 0.3,
+   "top_keywords": [
+    "asc",
+    "song",
+    "they",
+    "still",
+    "love",
+    "performance",
+    "great",
+    "rose",
+    "their",
+    "like",
+    "good",
+    "어센트",
+    "jay",
+    "vocals",
+    "stage"
+   ],
+   "top_comment": {
+    "likes": 27,
+    "text": "이분들 뭐지?? 음방보다가 브릿지 부분 너무 좋아서 다시 본건 처음이네..",
+    "video_id": "JC8-FJFYmMU"
+   }
+  },
+  {
+   "group": "몬스타엑스",
+   "n_videos": 8,
+   "n_comments": 377,
+   "avg_likes_per_comment": 27.0,
+   "lang_pct": {
+    "ko": 72.4,
+    "en": 26.5,
+    "other": 0.5,
+    "ja": 0.3,
+    "zh": 0.3
+   },
+   "foreign_pct": 27.6,
+   "pos_pct": 54.1,
+   "neg_pct": 0.3,
+   "top_keywords": [
+    "몬베베",
+    "이주헌",
+    "셔누",
+    "라이브",
+    "shownu",
+    "joohoney",
+    "응원법",
+    "오늘",
+    "they",
+    "주헌아",
+    "stage",
+    "허니",
+    "monbebe",
+    "몬베베들",
+    "performance"
+   ],
+   "top_comment": {
+    "likes": 426,
+    "text": "보면서 “와씨”를 계속 뱉음. 몬지 알지\n\n몬베베들이 좋아요 눌러주니 넘 좋네요,,🫠\n나만 와씨봇이 아니었어,,💚🤎",
+    "video_id": "TK8jB49TYlM"
+   }
+  },
+  {
+   "group": "베이비몬스터",
+   "n_videos": 7,
+   "n_comments": 350,
+   "avg_likes_per_comment": 257.4,
+   "lang_pct": {
+    "ko": 52.9,
+    "en": 46.9,
+    "th": 0.3
+   },
+   "foreign_pct": 47.1,
+   "pos_pct": 46.9,
+   "neg_pct": 0.3,
+   "top_keywords": [
+    "ahyeon",
+    "her",
+    "she",
+    "stage",
+    "asa",
+    "ruka",
+    "presence",
+    "chiquita",
+    "베몬",
+    "rora",
+    "always",
+    "performance",
+    "like",
+    "rap",
+    "hair"
+   ],
+   "top_comment": {
+    "likes": 11783,
+    "text": "YG가.. 일을하기 시작했어..!!!",
+    "video_id": "jumkiRQgq98"
+   }
+  },
+  {
+   "group": "스테이씨",
+   "n_videos": 7,
+   "n_comments": 350,
+   "avg_likes_per_comment": 18.9,
+   "lang_pct": {
+    "ko": 56.6,
+    "en": 38.3,
+    "other": 2.9,
+    "ja": 2.3
+   },
+   "foreign_pct": 43.4,
+   "pos_pct": 42.0,
+   "neg_pct": 1.1,
+   "top_keywords": [
+    "stayc",
+    "they",
+    "스테이씨",
+    "love",
+    "seeun",
+    "song",
+    "아이사",
+    "always",
+    "재이",
+    "이번",
+    "their",
+    "good",
+    "헤메코",
+    "sieun",
+    "sumin"
+   ],
+   "top_comment": {
+    "likes": 532,
+    "text": "의상에서 묘하게 2세대.티아라누나들 냄새가 나는데 또 그게 노래랑 잘 어울려서 느좋력을선사함... 헤메도 어제 엠카보다 훨씬 낫다 계속 이런 느낌으로 가길",
+    "video_id": "NphSPHs_cl8"
+   }
+  },
+  {
+   "group": "나우즈",
+   "n_videos": 11,
+   "n_comments": 348,
+   "avg_likes_per_comment": 3.8,
+   "lang_pct": {
+    "en": 45.7,
+    "ko": 37.4,
+    "other": 8.9,
+    "ja": 8.0
+   },
+   "foreign_pct": 62.6,
+   "pos_pct": 39.9,
+   "neg_pct": 0.6,
+   "top_keywords": [
+    "nowz",
+    "나우즈",
+    "they",
+    "love",
+    "live",
+    "good",
+    "라이브",
+    "fighting",
+    "can",
+    "song",
+    "their",
+    "more",
+    "cute",
+    "performance",
+    "amazing"
+   ],
+   "top_comment": {
+    "likes": 31,
+    "text": "라이브 진짜 잘해 나우즈.. 퍼포가 저렇게 빡센데",
+    "video_id": "WDsGNMU9NOE"
+   }
+  },
+  {
+   "group": "에이비식스",
+   "n_videos": 9,
+   "n_comments": 334,
+   "avg_likes_per_comment": 8.4,
+   "lang_pct": {
+    "ko": 72.2,
+    "en": 18.0,
+    "other": 4.5,
+    "ja": 3.6,
+    "zh": 0.9,
+    "th": 0.9
+   },
+   "foreign_pct": 27.8,
+   "pos_pct": 58.7,
+   "neg_pct": 0.3,
+   "top_keywords": [
+    "에이비식스",
+    "예삐들",
+    "미쳤다",
+    "좋다",
+    "박우진",
+    "최고",
+    "라이브",
+    "fighting",
+    "사랑해",
+    "에비뉴",
+    "good",
+    "무대도",
+    "이번",
+    "오래보자",
+    "좋고"
+   ],
+   "top_comment": {
+    "likes": 73,
+    "text": "1:27 이 부분 진짜 사진으로 남기는거 구성 너무 좋다🥹 에이비식스 첫방 수고했어💜💜💜",
+    "video_id": "PAYH8LtMTZQ"
+   }
+  },
+  {
+   "group": "엑스디너리 히어로즈",
+   "n_videos": 6,
+   "n_comments": 300,
+   "avg_likes_per_comment": 37.5,
+   "lang_pct": {
+    "ko": 66.0,
+    "en": 33.3,
+    "other": 0.7
+   },
+   "foreign_pct": 34.0,
+   "pos_pct": 30.3,
+   "neg_pct": 1.0,
+   "top_keywords": [
+    "they",
+    "엑디즈",
+    "live",
+    "jungsu",
+    "their",
+    "오늘",
+    "song",
+    "love",
+    "xdinary",
+    "beautiful",
+    "heroes",
+    "them",
+    "이번",
+    "hair",
+    "정수"
+   ],
+   "top_comment": {
+    "likes": 478,
+    "text": "엑디즈 노래에는 벅차오르는 무언가가 있음",
+    "video_id": "YxskT_dyqYo"
+   }
+  },
+  {
+   "group": "첫사랑",
+   "n_videos": 6,
+   "n_comments": 300,
+   "avg_likes_per_comment": 23.7,
+   "lang_pct": {
+    "ko": 70.3,
+    "en": 26.0,
+    "ja": 2.7,
+    "other": 1.0
+   },
+   "foreign_pct": 29.7,
+   "pos_pct": 52.3,
+   "neg_pct": 1.3,
+   "top_keywords": [
+    "첫사랑",
+    "csr",
+    "they",
+    "다들",
+    "제발",
+    "stage",
+    "화이팅",
+    "really",
+    "컴백",
+    "them",
+    "their",
+    "노래도",
+    "love",
+    "girls",
+    "좋아요"
+   ],
+   "top_comment": {
+    "likes": 666,
+    "text": "드디어 첫사랑 컴백ㅠㅠㅠ",
+    "video_id": "bTlW2A2oVk8"
+   }
+  },
+  {
+   "group": "라이즈",
+   "n_videos": 6,
+   "n_comments": 300,
+   "avg_likes_per_comment": 62.3,
+   "lang_pct": {
+    "ko": 90.3,
+    "en": 7.3,
+    "ja": 2.3
+   },
+   "foreign_pct": 9.7,
+   "pos_pct": 33.3,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "라이즈",
+    "축하해",
+    "앤톤",
+    "썸네일",
+    "잉걸",
+    "송은석",
+    "오늘",
+    "fame",
+    "riize",
+    "미쳤다",
+    "축하",
+    "이번",
+    "착장",
+    "원빈이",
+    "원빈"
+   ],
+   "top_comment": {
+    "likes": 1196,
+    "text": "마마로 라이즈 입덕했다 하나같이 다 잘생겼냐",
+    "video_id": "9R8ilQyYazQ"
+   }
+  },
+  {
+   "group": "피프티피프티",
+   "n_videos": 6,
+   "n_comments": 300,
+   "avg_likes_per_comment": 53.1,
+   "lang_pct": {
+    "ko": 87.7,
+    "en": 11.0,
+    "ja": 1.0,
+    "zh": 0.3
+   },
+   "foreign_pct": 12.3,
+   "pos_pct": 45.0,
+   "neg_pct": 1.0,
+   "top_keywords": [
+    "fifty",
+    "피프티피프티",
+    "키나",
+    "예원이",
+    "하나",
+    "빨리",
+    "피프티",
+    "라이브",
+    "예원",
+    "오늘",
+    "화이팅",
+    "샤넬",
+    "헤메코",
+    "하나는",
+    "이번"
+   ],
+   "top_comment": {
+    "likes": 1299,
+    "text": "와...이정도면 1위 해야지 1위좀 시켜주자",
+    "video_id": "kJuKJHplPP0"
+   }
+  },
+  {
+   "group": "비비지",
+   "n_videos": 6,
+   "n_comments": 300,
+   "avg_likes_per_comment": 19.4,
+   "lang_pct": {
+    "en": 51.3,
+    "ko": 46.0,
+    "other": 2.0,
+    "ja": 0.7
+   },
+   "foreign_pct": 54.0,
+   "pos_pct": 45.3,
+   "neg_pct": 0.3,
+   "top_keywords": [
+    "viviz",
+    "비비지",
+    "they",
+    "love",
+    "their",
+    "eunha",
+    "이번",
+    "song",
+    "stage",
+    "안무",
+    "best",
+    "sinb",
+    "them",
+    "은하",
+    "outfit"
+   ],
+   "top_comment": {
+    "likes": 436,
+    "text": "무대 개빡세  근데 비비지가 겁나 잘해",
+    "video_id": "xAXlPS6WXVE"
+   }
+  },
+  {
+   "group": "휘브",
+   "n_videos": 9,
+   "n_comments": 289,
+   "avg_likes_per_comment": 9.4,
+   "lang_pct": {
+    "ko": 47.4,
+    "en": 31.8,
+    "ja": 14.2,
+    "other": 5.9,
+    "th": 0.3,
+    "zh": 0.3
+   },
+   "foreign_pct": 52.6,
+   "pos_pct": 45.0,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "whib",
+    "휘브",
+    "they",
+    "love",
+    "최고",
+    "will",
+    "their",
+    "junmin",
+    "more",
+    "준민이",
+    "cool",
+    "performance",
+    "company",
+    "male",
+    "group"
+   ],
+   "top_comment": {
+    "likes": 301,
+    "text": "준민이 이제 제이더 아니에요ㅠㅠㅠㅠ",
+    "video_id": "G0EUcX122ZQ"
+   }
+  },
+  {
+   "group": "세븐틴",
+   "n_videos": 6,
+   "n_comments": 273,
+   "avg_likes_per_comment": 87.0,
+   "lang_pct": {
+    "ko": 60.8,
+    "en": 35.5,
+    "ja": 1.8,
+    "other": 1.1,
+    "th": 0.7
+   },
+   "foreign_pct": 39.2,
+   "pos_pct": 39.9,
+   "neg_pct": 0.7,
+   "top_keywords": [
+    "they",
+    "vocals",
+    "live",
+    "beautiful",
+    "seungkwan",
+    "song",
+    "their",
+    "stage",
+    "부석순",
+    "라이브",
+    "이런",
+    "orchestra",
+    "really",
+    "blue",
+    "voices"
+   ],
+   "top_comment": {
+    "likes": 1693,
+    "text": "전국노래자랑 참가자 컨셉으로 시작해서 무대하고 관객석 잡아주면서 부석순이 감사합니다~하는게 ㄹㅇ전국노래자랑 고증하는것 같음ㅋㅋㅋㅋ진짜 부석순 무대 맛있게 잘한다ㅋㅋ",
+    "video_id": "GH7gffbtS2M"
+   }
+  },
+  {
+   "group": "유어즈",
+   "n_videos": 12,
+   "n_comments": 266,
+   "avg_likes_per_comment": 4.1,
+   "lang_pct": {
+    "en": 60.9,
+    "ko": 28.2,
+    "other": 7.1,
+    "ja": 3.8
+   },
+   "foreign_pct": 71.8,
+   "pos_pct": 35.7,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "yuhz",
+    "they",
+    "good",
+    "유어즈",
+    "more",
+    "fighting",
+    "group",
+    "tops",
+    "tank",
+    "great",
+    "male",
+    "wear",
+    "groups",
+    "rush",
+    "love"
+   ],
+   "top_comment": {
+    "likes": 38,
+    "text": "OMG YUHZ FIRST STAGE IM CRYING 😭😭🥹🍊",
+    "video_id": "u1E5IiYuRCg"
+   }
+  },
+  {
+   "group": "힛지스",
+   "n_videos": 12,
+   "n_comments": 262,
+   "avg_likes_per_comment": 2.3,
+   "lang_pct": {
+    "ko": 46.9,
+    "en": 39.3,
+    "other": 8.0,
+    "ja": 3.4,
+    "zh": 1.9,
+    "th": 0.4
+   },
+   "foreign_pct": 53.1,
+   "pos_pct": 53.8,
+   "neg_pct": 0.4,
+   "top_keywords": [
+    "힛지스",
+    "hitgs",
+    "iyoo",
+    "서희",
+    "hyerin",
+    "seohee",
+    "they",
+    "love",
+    "song",
+    "good",
+    "pretty",
+    "girls",
+    "fighting",
+    "이유",
+    "live"
+   ],
+   "top_comment": {
+    "likes": 19,
+    "text": "혜린이 썸네일 무슨 일,,, 넘 이뻐ㅠㅠㅠ❤",
+    "video_id": "3gpv5xDpMZw"
+   }
+  },
+  {
+   "group": "유나이트",
+   "n_videos": 13,
+   "n_comments": 257,
+   "avg_likes_per_comment": 1.9,
+   "lang_pct": {
+    "en": 53.3,
+    "ko": 37.7,
+    "other": 8.6,
+    "th": 0.4
+   },
+   "foreign_pct": 62.3,
+   "pos_pct": 30.7,
+   "neg_pct": 0.8,
+   "top_keywords": [
+    "younite",
+    "more",
+    "they",
+    "views",
+    "tank",
+    "tops",
+    "좋아요",
+    "groups",
+    "great",
+    "not",
+    "group",
+    "pose",
+    "wearing",
+    "their",
+    "handsome"
+   ],
+   "top_comment": {
+    "likes": 33,
+    "text": "Younite are so underrated and they have such great music. Hopefully more people will recognise their talent after this c",
+    "video_id": "m2dWCLmUohY"
+   }
+  },
+  {
+   "group": "더보이즈",
+   "n_videos": 5,
+   "n_comments": 250,
+   "avg_likes_per_comment": 12.0,
+   "lang_pct": {
+    "ko": 76.4,
+    "en": 21.6,
+    "other": 1.2,
+    "ja": 0.8
+   },
+   "foreign_pct": 23.6,
+   "pos_pct": 46.4,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "더보이즈",
+    "boyz",
+    "이주연",
+    "라이브",
+    "축하해",
+    "주연이",
+    "썸네일",
+    "all",
+    "좋다",
+    "선우",
+    "love",
+    "아니",
+    "sunwoo",
+    "juyeon",
+    "덥즈"
+   ],
+   "top_comment": {
+    "likes": 139,
+    "text": "이주연 썸네일 개잘생겼네 바로 클릭",
+    "video_id": "hOdmengY_-k"
+   }
+  },
+  {
+   "group": "템페스트",
+   "n_videos": 5,
+   "n_comments": 233,
+   "avg_likes_per_comment": 6.3,
+   "lang_pct": {
+    "en": 83.7,
+    "ko": 12.0,
+    "other": 3.4,
+    "ja": 0.9
+   },
+   "foreign_pct": 88.0,
+   "pos_pct": 26.6,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "tempest",
+    "hanbin",
+    "love",
+    "thumbnail",
+    "handsome",
+    "fighting",
+    "trai",
+    "song",
+    "beautiful",
+    "xinh",
+    "stage",
+    "hay",
+    "템페스트",
+    "trang",
+    "all"
+   ],
+   "top_comment": {
+    "likes": 63,
+    "text": "Trang phục đơn giản mà đẹp quá!\nHanbin lại được làm thumbnail nữa, đẹp trai quá",
+    "video_id": "aZgsBuaajh4"
+   }
+  },
+  {
+   "group": "버비",
+   "n_videos": 6,
+   "n_comments": 230,
+   "avg_likes_per_comment": 4.0,
+   "lang_pct": {
+    "ko": 72.2,
+    "en": 21.7,
+    "other": 3.9,
+    "ja": 1.7,
+    "zh": 0.4
+   },
+   "foreign_pct": 27.8,
+   "pos_pct": 55.2,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "버비",
+    "burvey",
+    "they",
+    "화이팅",
+    "계속",
+    "좋아요",
+    "노래도",
+    "their",
+    "good",
+    "fighting",
+    "좋네요",
+    "young",
+    "love",
+    "잘한다",
+    "최고"
+   ],
+   "top_comment": {
+    "likes": 16,
+    "text": "와우 이런스타일에 노래도 정말 청순하고 듣기 좋네요!!🥹🫶🫶",
+    "video_id": "5_rHpG07qgg"
+   }
+  },
+  {
+   "group": "네이즈",
+   "n_videos": 8,
+   "n_comments": 219,
+   "avg_likes_per_comment": 3.0,
+   "lang_pct": {
+    "en": 47.0,
+    "ko": 23.3,
+    "ja": 13.7,
+    "th": 8.2,
+    "other": 7.8
+   },
+   "foreign_pct": 76.7,
+   "pos_pct": 36.1,
+   "neg_pct": 0.5,
+   "top_keywords": [
+    "naze",
+    "more",
+    "fighting",
+    "good",
+    "they",
+    "views",
+    "tank",
+    "tops",
+    "guys",
+    "group",
+    "like",
+    "people",
+    "네이즈",
+    "love",
+    "song"
+   ],
+   "top_comment": {
+    "likes": 37,
+    "text": "\"people talk\" but people don't talk enough about how good this song is",
+    "video_id": "pZ88auWAqFo"
+   }
+  },
+  {
+   "group": "씨아이엑스",
+   "n_videos": 7,
+   "n_comments": 206,
+   "avg_likes_per_comment": 5.5,
+   "lang_pct": {
+    "ko": 53.9,
+    "en": 34.0,
+    "other": 6.3,
+    "ja": 5.3,
+    "th": 0.5
+   },
+   "foreign_pct": 46.1,
+   "pos_pct": 44.2,
+   "neg_pct": 0.5,
+   "top_keywords": [
+    "cix",
+    "their",
+    "씨아이엑스",
+    "love",
+    "they",
+    "seunghun",
+    "좋아",
+    "stage",
+    "오늘",
+    "cute",
+    "오늘도",
+    "song",
+    "귀여워",
+    "울아엑",
+    "pretty"
+   ],
+   "top_comment": {
+    "likes": 63,
+    "text": "응원법 너무너무 커  헤헤헤 울아엑 무대도 짱입니다",
+    "video_id": "LZ9x3xbwSys"
+   }
+  },
+  {
+   "group": "프로미스나인",
+   "n_videos": 4,
+   "n_comments": 200,
+   "avg_likes_per_comment": 67.9,
+   "lang_pct": {
+    "ko": 85.5,
+    "en": 13.0,
+    "ja": 1.5
+   },
+   "foreign_pct": 14.5,
+   "pos_pct": 43.0,
+   "neg_pct": 2.0,
+   "top_keywords": [
+    "프로미스나인",
+    "fromis",
+    "축하해",
+    "프나",
+    "아이돌",
+    "많이",
+    "다시",
+    "오늘",
+    "뮤뱅",
+    "꽃길만",
+    "걷자",
+    "like",
+    "요즘",
+    "하얀",
+    "멤버들"
+   ],
+   "top_comment": {
+    "likes": 1356,
+    "text": "저 썸네일을 보고 어떻게 안들어가…",
+    "video_id": "8Ngt_eTtjpo"
+   }
+  },
+  {
+   "group": "트리플에스",
+   "n_videos": 4,
+   "n_comments": 200,
+   "avg_likes_per_comment": 21.7,
+   "lang_pct": {
+    "ko": 67.5,
+    "en": 28.5,
+    "ja": 2.0,
+    "other": 1.0,
+    "th": 0.5,
+    "zh": 0.5
+   },
+   "foreign_pct": 32.5,
+   "pos_pct": 41.0,
+   "neg_pct": 0.5,
+   "top_keywords": [
+    "they",
+    "triples",
+    "좋고",
+    "오늘",
+    "정하연",
+    "트리플에스",
+    "헤메코",
+    "김나경",
+    "yeonji",
+    "nien",
+    "moon",
+    "예쁘다",
+    "really",
+    "좋아",
+    "니엔"
+   ],
+   "top_comment": {
+    "likes": 371,
+    "text": "진짜 코디 열일한다… 청바지 & 흰색 상의로 통일감 주고 각각 포인트있게 24명 다르게 입힘",
+    "video_id": "m6el-2QsiZ0"
+   }
+  },
+  {
+   "group": "스트레이키즈",
+   "n_videos": 4,
+   "n_comments": 200,
+   "avg_likes_per_comment": 61.3,
+   "lang_pct": {
+    "en": 49.0,
+    "ko": 44.5,
+    "ja": 6.5
+   },
+   "foreign_pct": 55.5,
+   "pos_pct": 40.0,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "felix",
+    "stray",
+    "kids",
+    "seungmin",
+    "hyunjin",
+    "they",
+    "필릭스",
+    "skz",
+    "well",
+    "스키즈",
+    "all",
+    "stage",
+    "love",
+    "chan",
+    "was"
+   ],
+   "top_comment": {
+    "likes": 1489,
+    "text": "Hope Seungmin rests well, STAY wish him a speedy recovery 🫶🏻\nCan't believe this is the last DO IT stage, they are incred",
+    "video_id": "BTvx_xtsC3c"
+   }
+  },
+  {
+   "group": "아크",
+   "n_videos": 9,
+   "n_comments": 179,
+   "avg_likes_per_comment": 3.1,
+   "lang_pct": {
+    "en": 79.3,
+    "ko": 12.3,
+    "other": 8.4
+   },
+   "foreign_pct": 87.7,
+   "pos_pct": 31.8,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "arrc",
+    "group",
+    "they",
+    "wear",
+    "love",
+    "male",
+    "tank",
+    "tops",
+    "more",
+    "guys",
+    "ate",
+    "jibeen",
+    "tuy",
+    "fighting",
+    "doha"
+   ],
+   "top_comment": {
+    "likes": 26,
+    "text": "Never really got a chance to listen and really pay attention to this group but looks like they’ve got a new fan!💗💗🤩",
+    "video_id": "o0_U3cgQ9TA"
+   }
+  },
+  {
+   "group": "드래곤포니",
+   "n_videos": 6,
+   "n_comments": 174,
+   "avg_likes_per_comment": 3.0,
+   "lang_pct": {
+    "ko": 60.9,
+    "en": 33.3,
+    "other": 5.2,
+    "zh": 0.6
+   },
+   "foreign_pct": 39.1,
+   "pos_pct": 43.1,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "dragon",
+    "pony",
+    "드래곤포니",
+    "good",
+    "love",
+    "song",
+    "생일",
+    "성현이",
+    "축하해",
+    "them",
+    "fighting",
+    "they",
+    "guys",
+    "데뷔",
+    "오늘"
+   ],
+   "top_comment": {
+    "likes": 75,
+    "text": "안태규 잘생긴거 정말 축하합니다",
+    "video_id": "RaVtSFVQLpw"
+   }
+  },
+  {
+   "group": "배드빌런",
+   "n_videos": 4,
+   "n_comments": 154,
+   "avg_likes_per_comment": 5.9,
+   "lang_pct": {
+    "en": 53.9,
+    "ko": 39.6,
+    "other": 5.2,
+    "ja": 1.3
+   },
+   "foreign_pct": 60.4,
+   "pos_pct": 42.2,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "badvillain",
+    "휴이",
+    "good",
+    "girls",
+    "they",
+    "all",
+    "배드빌런",
+    "live",
+    "beautiful",
+    "look",
+    "them",
+    "like",
+    "ina",
+    "yunseo",
+    "emma"
+   ],
+   "top_comment": {
+    "likes": 63,
+    "text": "너무 잘하고 다들 이쁜데 소속사가 좀만 더 열심히 홍보해줬으면 좋겠다ㅠㅠㅠㅠㅠㅠ",
+    "video_id": "u0H8cwJrcz4"
+   }
+  },
+  {
+   "group": "큐더블유이알",
+   "n_videos": 3,
+   "n_comments": 150,
+   "avg_likes_per_comment": 67.4,
+   "lang_pct": {
+    "ko": 84.0,
+    "en": 14.7,
+    "th": 0.7,
+    "ja": 0.7
+   },
+   "foreign_pct": 16.0,
+   "pos_pct": 49.3,
+   "neg_pct": 0.7,
+   "top_keywords": [
+    "qwer",
+    "지상파",
+    "축하해",
+    "음방",
+    "큐떱",
+    "ceremony",
+    "화이팅",
+    "감사합니다",
+    "세레머니",
+    "stage",
+    "music",
+    "음악방송",
+    "엠카",
+    "쵸단",
+    "큐떱이들"
+   ],
+   "top_comment": {
+    "likes": 1243,
+    "text": "QWER 올해도 행복해져라💙",
+    "video_id": "4gTASQPEm48"
+   }
+  },
+  {
+   "group": "플레이브",
+   "n_videos": 3,
+   "n_comments": 150,
+   "avg_likes_per_comment": 316.4,
+   "lang_pct": {
+    "ko": 98.7,
+    "en": 1.3
+   },
+   "foreign_pct": 1.3,
+   "pos_pct": 48.0,
+   "neg_pct": 0.7,
+   "top_keywords": [
+    "플레이브",
+    "플레이브는",
+    "안무",
+    "하트",
+    "모자",
+    "아니",
+    "음방",
+    "내가",
+    "이게",
+    "어떻게",
+    "뭐야",
+    "좋음",
+    "있는",
+    "기술력",
+    "매번"
+   ],
+   "top_comment": {
+    "likes": 4036,
+    "text": "머글은 공중부양에 놀라는데 팬들은 모자 던진거에 놀람ㅋㅋㅋㅋㅋㅋㅋㅋ",
+    "video_id": "jzF16MqTIPk"
+   }
+  },
+  {
+   "group": "트와이스",
+   "n_videos": 3,
+   "n_comments": 150,
+   "avg_likes_per_comment": 181.3,
+   "lang_pct": {
+    "en": 51.3,
+    "ko": 42.0,
+    "ja": 6.0,
+    "zh": 0.7
+   },
+   "foreign_pct": 58.0,
+   "pos_pct": 33.3,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "tzuyu",
+    "chaeyoung",
+    "her",
+    "twice",
+    "pretty",
+    "트와이스",
+    "love",
+    "예쁜애",
+    "옆에",
+    "beautiful",
+    "voice",
+    "stage",
+    "ending",
+    "fairy",
+    "이게"
+   ],
+   "top_comment": {
+    "likes": 3501,
+    "text": "The way most of the cheers are coming from the ladies 😭 it’s truly a ladies’ anthem fr",
+    "video_id": "mh_4SYlP-tY"
+   }
+  },
+  {
+   "group": "유니스",
+   "n_videos": 3,
+   "n_comments": 150,
+   "avg_likes_per_comment": 23.9,
+   "lang_pct": {
+    "en": 68.7,
+    "ko": 27.3,
+    "ja": 3.3,
+    "zh": 0.7
+   },
+   "foreign_pct": 72.7,
+   "pos_pct": 47.3,
+   "neg_pct": 0.7,
+   "top_keywords": [
+    "unis",
+    "유니스",
+    "elisia",
+    "yoona",
+    "cute",
+    "love",
+    "pretty",
+    "they",
+    "그룹",
+    "happy",
+    "really",
+    "girls",
+    "thumbnail",
+    "their",
+    "seowon"
+   ],
+   "top_comment": {
+    "likes": 182,
+    "text": "진현주가 제일 맏언니인데 오히려 그 포인트가 너무 귀엽게 작용하는 것 같음 ㅋㅋㅋㅋㅋ 무대에서 넘 귀여워용 ㅠㅠ~",
+    "video_id": "einhHMQ0pcs"
+   }
+  },
+  {
+   "group": "온앤오프",
+   "n_videos": 3,
+   "n_comments": 150,
+   "avg_likes_per_comment": 22.6,
+   "lang_pct": {
+    "ko": 90.0,
+    "en": 9.3,
+    "ja": 0.7
+   },
+   "foreign_pct": 10.0,
+   "pos_pct": 48.0,
+   "neg_pct": 0.7,
+   "top_keywords": [
+    "온앤오프",
+    "오늘",
+    "축하해",
+    "onf",
+    "공중파",
+    "막방이라니",
+    "이게",
+    "썸네일",
+    "민균이",
+    "너무너무",
+    "온앤오프는",
+    "착장",
+    "활동",
+    "축하해요",
+    "라이브"
+   ],
+   "top_comment": {
+    "likes": 256,
+    "text": "이게 누구야 1위 가수 온앤오프잖아??",
+    "video_id": "jua96URXj6s"
+   }
+  },
+  {
+   "group": "클라씨",
+   "n_videos": 3,
+   "n_comments": 143,
+   "avg_likes_per_comment": 45.5,
+   "lang_pct": {
+    "ko": 78.3,
+    "en": 17.5,
+    "ja": 2.1,
+    "other": 1.4,
+    "th": 0.7
+   },
+   "foreign_pct": 21.7,
+   "pos_pct": 49.0,
+   "neg_pct": 1.4,
+   "top_keywords": [
+    "클라씨",
+    "선유",
+    "이번",
+    "많이",
+    "제발",
+    "다들",
+    "they",
+    "오늘",
+    "love",
+    "리원이",
+    "드디어",
+    "헤메코",
+    "좋다",
+    "컴백",
+    "hair"
+   ],
+   "top_comment": {
+    "likes": 1162,
+    "text": "와 선유씨 바뀐 얼굴에 저 단발머리 이번스타일링이 최고 찰떡인듯 매력적이여서 계속 보게됨...",
+    "video_id": "pca7oAZhE10"
+   }
+  },
+  {
+   "group": "다크비",
+   "n_videos": 3,
+   "n_comments": 139,
+   "avg_likes_per_comment": 3.4,
+   "lang_pct": {
+    "ko": 71.9,
+    "en": 21.6,
+    "ja": 3.6,
+    "other": 2.9
+   },
+   "foreign_pct": 28.1,
+   "pos_pct": 55.4,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "다크비",
+    "dkb",
+    "오늘",
+    "love",
+    "아이러니",
+    "착장",
+    "좋다",
+    "막방",
+    "stage",
+    "outfits",
+    "오늘도",
+    "잘해",
+    "막방까지",
+    "them",
+    "their"
+   ],
+   "top_comment": {
+    "likes": 43,
+    "text": "아니 이 오빠들 주사위 다 갖다 찢으셨네",
+    "video_id": "KjRklJDAJrU"
+   }
+  },
+  {
+   "group": "뉴비트",
+   "n_videos": 9,
+   "n_comments": 134,
+   "avg_likes_per_comment": 2.6,
+   "lang_pct": {
+    "en": 61.9,
+    "ko": 25.4,
+    "other": 10.4,
+    "th": 1.5,
+    "ja": 0.7
+   },
+   "foreign_pct": 74.6,
+   "pos_pct": 40.3,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "they",
+    "newbeat",
+    "wear",
+    "group",
+    "tank",
+    "tops",
+    "look",
+    "more",
+    "뉴비트",
+    "good",
+    "company",
+    "can",
+    "male",
+    "attract",
+    "groups"
+   ],
+   "top_comment": {
+    "likes": 9,
+    "text": "Omg I was so hype during the whole performance but then he pulls out that note in the end.😭That was a fantastic finish t",
+    "video_id": "7eNjRne9AzQ"
+   }
+  },
+  {
+   "group": "아이칠린",
+   "n_videos": 4,
+   "n_comments": 132,
+   "avg_likes_per_comment": 4.2,
+   "lang_pct": {
+    "en": 67.4,
+    "ko": 28.0,
+    "other": 3.0,
+    "ja": 1.5
+   },
+   "foreign_pct": 72.0,
+   "pos_pct": 35.6,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "ichillin",
+    "love",
+    "아이칠린",
+    "yeju",
+    "they",
+    "really",
+    "chaerin",
+    "best",
+    "always",
+    "outfits",
+    "live",
+    "more",
+    "jackie",
+    "was",
+    "performance"
+   ],
+   "top_comment": {
+    "likes": 32,
+    "text": "연차가 쌓이니까 곡이 되게 고급스러워졌네",
+    "video_id": "FSmjHlGPHOA"
+   }
+  },
+  {
+   "group": "티아이오티",
+   "n_videos": 6,
+   "n_comments": 121,
+   "avg_likes_per_comment": 2.7,
+   "lang_pct": {
+    "en": 57.0,
+    "ko": 34.7,
+    "other": 7.4,
+    "ja": 0.8
+   },
+   "foreign_pct": 65.3,
+   "pos_pct": 43.8,
+   "neg_pct": 1.7,
+   "top_keywords": [
+    "song",
+    "tiot",
+    "love",
+    "performance",
+    "live",
+    "amazing",
+    "vocals",
+    "great",
+    "beautiful",
+    "talented",
+    "more",
+    "very",
+    "tank",
+    "cool",
+    "yechan"
+   ],
+   "top_comment": {
+    "likes": 14,
+    "text": "이런 안무에 이런 라이브가 가능하다니…",
+    "video_id": "xnH3RdtZuGE"
+   }
+  },
+  {
+   "group": "이펙스",
+   "n_videos": 4,
+   "n_comments": 115,
+   "avg_likes_per_comment": 2.9,
+   "lang_pct": {
+    "ko": 56.5,
+    "en": 30.4,
+    "other": 12.2,
+    "ja": 0.9
+   },
+   "foreign_pct": 43.5,
+   "pos_pct": 45.2,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "epex",
+    "이펙스",
+    "잘생겼다",
+    "beautiful",
+    "song",
+    "love",
+    "눈물나게",
+    "고마워",
+    "이번",
+    "너무너무",
+    "좋아",
+    "가수님들",
+    "좋음",
+    "사랑해",
+    "춤도"
+   ],
+   "top_comment": {
+    "likes": 21,
+    "text": "“눈물나게 고마워”라는 말이 왜 이리 와닿지…\n이펙스 이번 컴백 진심이 담겨 있다",
+    "video_id": "asPB_xyeReE"
+   }
+  },
+  {
+   "group": "븨븨에스",
+   "n_videos": 2,
+   "n_comments": 100,
+   "avg_likes_per_comment": 20.2,
+   "lang_pct": {
+    "en": 82.0,
+    "ko": 15.0,
+    "other": 2.0,
+    "ja": 1.0
+   },
+   "foreign_pct": 85.0,
+   "pos_pct": 22.0,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "vvs",
+    "they",
+    "music",
+    "more",
+    "them",
+    "girls",
+    "love",
+    "ice",
+    "show",
+    "need",
+    "song",
+    "their",
+    "good",
+    "dvs",
+    "stage"
+   ],
+   "top_comment": {
+    "likes": 244,
+    "text": "Paul, this is not a waste of money. It is worth it",
+    "video_id": "FqwvU8o0WPo"
+   }
+  },
+  {
+   "group": "시크릿넘버",
+   "n_videos": 2,
+   "n_comments": 100,
+   "avg_likes_per_comment": 17.1,
+   "lang_pct": {
+    "en": 83.0,
+    "ko": 14.0,
+    "ja": 2.0,
+    "zh": 1.0
+   },
+   "foreign_pct": 86.0,
+   "pos_pct": 43.0,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "dinda",
+    "cantik",
+    "ini",
+    "banget",
+    "secret",
+    "number",
+    "min",
+    "keren",
+    "yang",
+    "cute",
+    "nya",
+    "soodam",
+    "outfit",
+    "member",
+    "dan"
+   ],
+   "top_comment": {
+    "likes": 100,
+    "text": "Aku harus mengapresiasi pemilihan kostum bagus di Don't Touch era ini",
+    "video_id": "g6KK4FPRojE"
+   }
+  },
+  {
+   "group": "아르테미스",
+   "n_videos": 2,
+   "n_comments": 100,
+   "avg_likes_per_comment": 51.9,
+   "lang_pct": {
+    "en": 61.0,
+    "ko": 36.0,
+    "ja": 2.0,
+    "th": 1.0
+   },
+   "foreign_pct": 64.0,
+   "pos_pct": 31.0,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "they",
+    "artms",
+    "love",
+    "their",
+    "좋다",
+    "angels",
+    "look",
+    "pretty",
+    "lip",
+    "looks",
+    "gorgeous",
+    "what",
+    "these",
+    "fallen",
+    "아르테미스"
+   ],
+   "top_comment": {
+    "likes": 654,
+    "text": "what a standout comeback in the era of hyper trendy kpop.",
+    "video_id": "djHT-y-_w7Y"
+   }
+  },
+  {
+   "group": "웨이커",
+   "n_videos": 6,
+   "n_comments": 94,
+   "avg_likes_per_comment": 2.4,
+   "lang_pct": {
+    "en": 66.0,
+    "ko": 17.0,
+    "other": 16.0,
+    "ja": 1.1
+   },
+   "foreign_pct": 83.0,
+   "pos_pct": 31.9,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "waker",
+    "love",
+    "great",
+    "they",
+    "fighting",
+    "song",
+    "performance",
+    "amazing",
+    "like",
+    "them",
+    "vote",
+    "fancast",
+    "outfits",
+    "first",
+    "really"
+   ],
+   "top_comment": {
+    "likes": 15,
+    "text": "Guys let's make them famous pls😭🙏🏻",
+    "video_id": "S-181PSfCKk"
+   }
+  },
+  {
+   "group": "위아이",
+   "n_videos": 2,
+   "n_comments": 93,
+   "avg_likes_per_comment": 7.4,
+   "lang_pct": {
+    "ko": 58.1,
+    "en": 33.3,
+    "other": 4.3,
+    "th": 3.2,
+    "ja": 1.1
+   },
+   "foreign_pct": 41.9,
+   "pos_pct": 54.8,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "wei",
+    "김요한",
+    "they",
+    "yohan",
+    "love",
+    "위아이",
+    "home",
+    "역시",
+    "컴백",
+    "축하해",
+    "more",
+    "좋아",
+    "fighting",
+    "stage",
+    "너무너무"
+   ],
+   "top_comment": {
+    "likes": 41,
+    "text": "울아이 오늘 첫방 찢었다🥹 헤메코 너무 예쁘고 무대 장인 답게 역시 라이브도 잘 해!!🫶🏻 너무너무 예쁘다ㅠㅠ 컴백 축하해🩵💙💜",
+    "video_id": "9aZB7HTdri0"
+   }
+  },
+  {
+   "group": "퍼플키스",
+   "n_videos": 2,
+   "n_comments": 92,
+   "avg_likes_per_comment": 8.3,
+   "lang_pct": {
+    "en": 65.2,
+    "ko": 23.9,
+    "other": 8.7,
+    "ja": 2.2
+   },
+   "foreign_pct": 76.1,
+   "pos_pct": 48.9,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "purple",
+    "kiss",
+    "love",
+    "they",
+    "music",
+    "their",
+    "song",
+    "pretty",
+    "퍼플키스",
+    "about",
+    "girls",
+    "much",
+    "goeun",
+    "dosie",
+    "great"
+   ],
+   "top_comment": {
+    "likes": 74,
+    "text": "I need this song to get more recognition! 😭 Our underrated girlies deserve better‼️",
+    "video_id": "t_xJvquaVko"
+   }
+  },
+  {
+   "group": "유스피어",
+   "n_videos": 4,
+   "n_comments": 89,
+   "avg_likes_per_comment": 9.3,
+   "lang_pct": {
+    "ko": 59.6,
+    "en": 29.2,
+    "other": 9.0,
+    "ja": 2.2
+   },
+   "foreign_pct": 40.4,
+   "pos_pct": 56.2,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "유스피어",
+    "uspeer",
+    "good",
+    "they",
+    "their",
+    "getting",
+    "라이브",
+    "오늘",
+    "fanchant",
+    "stage",
+    "can",
+    "lot",
+    "인트로",
+    "좋아",
+    "애기들"
+   ],
+   "top_comment": {
+    "likes": 50,
+    "text": "이 친구들 배텐에 나온거 봤는데 예능감도 장난아니더라 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 진짜 배꼽잡음",
+    "video_id": "83QzeEv-fkc"
+   }
+  },
+  {
+   "group": "비보이즈",
+   "n_videos": 5,
+   "n_comments": 86,
+   "avg_likes_per_comment": 1.8,
+   "lang_pct": {
+    "en": 40.7,
+    "ko": 32.6,
+    "ja": 14.0,
+    "other": 10.5,
+    "zh": 1.2,
+    "th": 1.2
+   },
+   "foreign_pct": 67.4,
+   "pos_pct": 44.2,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "tank",
+    "슬램덩크",
+    "boys",
+    "group",
+    "비보이즈",
+    "tops",
+    "more",
+    "윤서",
+    "wear",
+    "cool",
+    "one",
+    "great",
+    "fighting",
+    "outfits",
+    "viewers"
+   ],
+   "top_comment": {
+    "likes": 11,
+    "text": "たくまくんが頑張っているのを見られてよかったです！",
+    "video_id": "t3al-QxJX5E"
+   }
+  },
+  {
+   "group": "판타지보이즈",
+   "n_videos": 2,
+   "n_comments": 78,
+   "avg_likes_per_comment": 5.5,
+   "lang_pct": {
+    "ko": 46.2,
+    "en": 41.0,
+    "ja": 7.7,
+    "other": 3.8,
+    "zh": 1.3
+   },
+   "foreign_pct": 53.8,
+   "pos_pct": 56.4,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "판타지보이즈",
+    "song",
+    "love",
+    "판보",
+    "수트",
+    "boys",
+    "performance",
+    "홍성민",
+    "great",
+    "talented",
+    "fantasy",
+    "good",
+    "amazing",
+    "always",
+    "panbo"
+   ],
+   "top_comment": {
+    "likes": 17,
+    "text": "정말 노래 너무 좋아  공유하니 다들 좋대요💗  판보 정말 멋지다!!!\n홍성민 마지막에 심쿵💗",
+    "video_id": "mRv-RmZUeFw"
+   }
+  },
+  {
+   "group": "세븐어스",
+   "n_videos": 5,
+   "n_comments": 75,
+   "avg_likes_per_comment": 0.7,
+   "lang_pct": {
+    "ko": 38.7,
+    "en": 32.0,
+    "other": 29.3
+   },
+   "foreign_pct": 61.3,
+   "pos_pct": 72.0,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "sevenus",
+    "세븐어스",
+    "라이브",
+    "bom",
+    "계속",
+    "great",
+    "최고",
+    "아름다운",
+    "최고예요",
+    "멋진",
+    "감사합니다",
+    "앞으로도",
+    "응원할게요",
+    "song",
+    "such"
+   ],
+   "top_comment": {
+    "likes": 9,
+    "text": "0:39 크 카감님 센스 눈이부시게아름답죠 가사와 함께 나타나는 유희재 용안 🎉  역시 뮤직뱅크가 유독 퍼컬인 희재 오늘도 라이브면 라이브, 미모면 미모, 다아아아 찢었다 👍 👍 👍 👍 👍",
+    "video_id": "NPB0hwQv9_E"
+   }
+  },
+  {
+   "group": "트렌드지",
+   "n_videos": 4,
+   "n_comments": 69,
+   "avg_likes_per_comment": 1.8,
+   "lang_pct": {
+    "en": 58.0,
+    "ko": 30.4,
+    "other": 8.7,
+    "ja": 2.9
+   },
+   "foreign_pct": 69.6,
+   "pos_pct": 30.4,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "trendz",
+    "group",
+    "wear",
+    "tank",
+    "tops",
+    "more",
+    "cool",
+    "love",
+    "always",
+    "amazing",
+    "performance",
+    "can",
+    "your",
+    "트렌드지",
+    "live"
+   ],
+   "top_comment": {
+    "likes": 10,
+    "text": "So amazing performers they deserve more attention 🔥🔥🔥",
+    "video_id": "UH2RdkXZD2M"
+   }
+  },
+  {
+   "group": "캔디샵",
+   "n_videos": 2,
+   "n_comments": 68,
+   "avg_likes_per_comment": 5.0,
+   "lang_pct": {
+    "ko": 54.4,
+    "en": 42.6,
+    "zh": 1.5,
+    "other": 1.5
+   },
+   "foreign_pct": 45.6,
+   "pos_pct": 57.4,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "love",
+    "캔디샵",
+    "sarang",
+    "girls",
+    "vocals",
+    "사랑이",
+    "수이",
+    "more",
+    "soram",
+    "candy",
+    "shop",
+    "좋아요",
+    "라이브",
+    "julia",
+    "잘한다"
+   ],
+   "top_comment": {
+    "likes": 40,
+    "text": "이번달에 나온 곡중 이곡이 젤 낫던데..",
+    "video_id": "Q7Q0iMo_8xk"
+   }
+  },
+  {
+   "group": "프림로즈",
+   "n_videos": 3,
+   "n_comments": 64,
+   "avg_likes_per_comment": 4.7,
+   "lang_pct": {
+    "en": 56.2,
+    "ko": 23.4,
+    "other": 17.2,
+    "zh": 3.1
+   },
+   "foreign_pct": 76.6,
+   "pos_pct": 50.0,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "primrose",
+    "love",
+    "rainie",
+    "나현",
+    "hayun",
+    "하윤",
+    "루비",
+    "레이니",
+    "ruby",
+    "nahyun",
+    "프림로즈",
+    "great",
+    "fighting",
+    "they",
+    "small"
+   ],
+   "top_comment": {
+    "likes": 10,
+    "text": "Primrose did again a great job. keep fighting",
+    "video_id": "H0bsR873PZk"
+   }
+  },
+  {
+   "group": "더윈드",
+   "n_videos": 2,
+   "n_comments": 64,
+   "avg_likes_per_comment": 4.5,
+   "lang_pct": {
+    "ko": 56.2,
+    "en": 32.8,
+    "other": 4.7,
+    "ja": 3.1,
+    "zh": 3.1
+   },
+   "foreign_pct": 43.8,
+   "pos_pct": 51.6,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "더윈드",
+    "hanbin",
+    "love",
+    "wind",
+    "타나톤",
+    "그룹",
+    "같아서",
+    "did",
+    "well",
+    "fighting",
+    "nya",
+    "짱윈드",
+    "좋다",
+    "계속",
+    "많이"
+   ],
+   "top_comment": {
+    "likes": 46,
+    "text": "노래방 끝나고 나오는 노래만 알고있었는데 이노래로 알고나서 타이틀 다 듣고 왔는데 노래 하나는 진짜 잘뽑는다… 다른 컨셉 굳이 빠지지말고 지금 밀고 있는 청량컨셉으로 쭉가세요\n계속 이렇게 하고 홍보 더 많이 하면 확",
+    "video_id": "x5N7iFz5LNQ"
+   }
+  },
+  {
+   "group": "엠빅",
+   "n_videos": 5,
+   "n_comments": 56,
+   "avg_likes_per_comment": 2.1,
+   "lang_pct": {
+    "en": 58.9,
+    "ko": 30.4,
+    "other": 10.7
+   },
+   "foreign_pct": 69.6,
+   "pos_pct": 32.1,
+   "neg_pct": 1.8,
+   "top_keywords": [
+    "they",
+    "group",
+    "great",
+    "오늘",
+    "코디",
+    "love",
+    "did",
+    "good",
+    "guys",
+    "fighting",
+    "their",
+    "more",
+    "out",
+    "all",
+    "outfits"
+   ],
+   "top_comment": {
+    "likes": 9,
+    "text": "오늘도 너무 잘했어요 오늘 코디 너무 잘어울린다",
+    "video_id": "OFFTAvEGyX8"
+   }
+  },
+  {
+   "group": "데이차일드",
+   "n_videos": 3,
+   "n_comments": 54,
+   "avg_likes_per_comment": 3.7,
+   "lang_pct": {
+    "ko": 46.3,
+    "en": 33.3,
+    "other": 20.4
+   },
+   "foreign_pct": 53.7,
+   "pos_pct": 55.6,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "daychild",
+    "데이차일드",
+    "love",
+    "much",
+    "amazing",
+    "need",
+    "화이팅",
+    "song",
+    "they",
+    "dance",
+    "잘생겨서",
+    "멋진",
+    "케이",
+    "intae",
+    "쎄빠지게"
+   ],
+   "top_comment": {
+    "likes": 15,
+    "text": "데이차일드 stunning 노래 너무 좋아..",
+    "video_id": "vQi4a43EQqI"
+   }
+  },
+  {
+   "group": "아스트로",
+   "n_videos": 1,
+   "n_comments": 50,
+   "avg_likes_per_comment": 2.2,
+   "lang_pct": {
+    "en": 72.0,
+    "ko": 20.0,
+    "ja": 6.0,
+    "th": 2.0
+   },
+   "foreign_pct": 80.0,
+   "pos_pct": 62.0,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "sanha",
+    "yoon",
+    "iconic",
+    "윤산하",
+    "amazing",
+    "aroha",
+    "san",
+    "roha",
+    "more",
+    "ddu",
+    "love",
+    "your",
+    "proud",
+    "산하야",
+    "got"
+   ],
+   "top_comment": {
+    "likes": 10,
+    "text": "the loud cheers of AROHAs make me so proud 💜",
+    "video_id": "P9eiQf8rNJw"
+   }
+  },
+  {
+   "group": "스모즈",
+   "n_videos": 1,
+   "n_comments": 50,
+   "avg_likes_per_comment": 16.6,
+   "lang_pct": {
+    "en": 58.0,
+    "zh": 28.0,
+    "ko": 6.0,
+    "other": 6.0,
+    "ja": 2.0
+   },
+   "foreign_pct": 94.0,
+   "pos_pct": 34.0,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "smorz",
+    "mic",
+    "their",
+    "love",
+    "group",
+    "kpop",
+    "girls",
+    "they",
+    "good",
+    "song",
+    "live",
+    "performance",
+    "think",
+    "something",
+    "hong"
+   ],
+   "top_comment": {
+    "likes": 236,
+    "text": "加油！！！今次氣聲問題冇得忽視，呢D係必經之路，要睇得到你地fans嘅全力支持，呢條路注定唔容易，但記得永遠有一班香港人支持你地！期待你地下次舞臺啊~~~",
+    "video_id": "DwVVqwbwSRM"
+   }
+  },
+  {
+   "group": "올데이프로젝트",
+   "n_videos": 1,
+   "n_comments": 50,
+   "avg_likes_per_comment": 545.7,
+   "lang_pct": {
+    "ko": 78.0,
+    "en": 22.0
+   },
+   "foreign_pct": 22.0,
+   "pos_pct": 34.0,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "타잔",
+    "올데프",
+    "bailey",
+    "love",
+    "know",
+    "today",
+    "댄브",
+    "콘서트",
+    "같음",
+    "she",
+    "good",
+    "열심히",
+    "can",
+    "annie",
+    "did"
+   ],
+   "top_comment": {
+    "likes": 5080,
+    "text": "와 얘네 콘서트 어떻게 할까 ㅈㄴ 기대됨",
+    "video_id": "NtFedNq_tIc"
+   }
+  },
+  {
+   "group": "미야오",
+   "n_videos": 1,
+   "n_comments": 50,
+   "avg_likes_per_comment": 45.4,
+   "lang_pct": {
+    "en": 70.0,
+    "ko": 30.0
+   },
+   "foreign_pct": 70.0,
+   "pos_pct": 46.0,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "they",
+    "meovv",
+    "burning",
+    "ella",
+    "미야오",
+    "much",
+    "cute",
+    "dance",
+    "era",
+    "end",
+    "always",
+    "song",
+    "performance",
+    "vocals",
+    "love"
+   ],
+   "top_comment": {
+    "likes": 384,
+    "text": "Wish they could've gotten a win for burning up - this song is so good 😭",
+    "video_id": "rJNSC9WCuhM"
+   }
+  },
+  {
+   "group": "에스에프나인",
+   "n_videos": 1,
+   "n_comments": 49,
+   "avg_likes_per_comment": 4.4,
+   "lang_pct": {
+    "en": 53.1,
+    "ko": 32.7,
+    "other": 12.2,
+    "ja": 2.0
+   },
+   "foreign_pct": 67.3,
+   "pos_pct": 51.0,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "love",
+    "they",
+    "can",
+    "such",
+    "live",
+    "이번",
+    "guys",
+    "대박나자",
+    "best",
+    "song",
+    "amazing",
+    "your",
+    "have",
+    "all",
+    "where"
+   ],
+   "top_comment": {
+    "likes": 24,
+    "text": "SF9 컴백 대박나자❤❤",
+    "video_id": "1_JQ-Jrr2ME"
+   }
+  },
+  {
+   "group": "우당탕탕 소녀단",
+   "n_videos": 2,
+   "n_comments": 47,
+   "avg_likes_per_comment": 3.2,
+   "lang_pct": {
+    "en": 53.2,
+    "ko": 25.5,
+    "other": 10.6,
+    "ja": 10.6
+   },
+   "foreign_pct": 74.5,
+   "pos_pct": 44.7,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "udtt",
+    "they",
+    "cute",
+    "hanna",
+    "구한나",
+    "risako",
+    "glasses",
+    "song",
+    "views",
+    "their",
+    "proud",
+    "her",
+    "has",
+    "congrats",
+    "화이팅"
+   ],
+   "top_comment": {
+    "likes": 14,
+    "text": "노래 제대로 들어보니까 진짜좋다...청량하다 ㅠ",
+    "video_id": "wCZSYmZA9aY"
+   }
+  },
+  {
+   "group": "루네이트",
+   "n_videos": 3,
+   "n_comments": 44,
+   "avg_likes_per_comment": 1.8,
+   "lang_pct": {
+    "en": 47.7,
+    "ko": 45.5,
+    "other": 4.5,
+    "ja": 2.3
+   },
+   "foreign_pct": 54.5,
+   "pos_pct": 52.3,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "lun",
+    "will",
+    "group",
+    "love",
+    "fighting",
+    "luv",
+    "soon",
+    "know",
+    "how",
+    "change",
+    "audience",
+    "have",
+    "hard",
+    "good",
+    "루네이트"
+   ],
+   "top_comment": {
+    "likes": 15,
+    "text": "곡도 좋지만 비주얼이랑 스타일링도 탑급인데,,, 조회수 왜 이렇게 낮지? 😮",
+    "video_id": "g_CwKFNLGAE"
+   }
+  },
+  {
+   "group": "더킹덤",
+   "n_videos": 1,
+   "n_comments": 41,
+   "avg_likes_per_comment": 6.0,
+   "lang_pct": {
+    "en": 85.4,
+    "ko": 9.8,
+    "other": 4.9
+   },
+   "foreign_pct": 90.2,
+   "pos_pct": 29.3,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "kingdom",
+    "happy",
+    "back",
+    "see",
+    "stage",
+    "our",
+    "kings",
+    "beautiful",
+    "love",
+    "again",
+    "dancers",
+    "they",
+    "song",
+    "una",
+    "guys"
+   ],
+   "top_comment": {
+    "likes": 32,
+    "text": "I'm so happy to see them performing on stage again😭❤️",
+    "video_id": "keYQqYbM2Ys"
+   }
+  },
+  {
+   "group": "비에이이일칠삼",
+   "n_videos": 2,
+   "n_comments": 40,
+   "avg_likes_per_comment": 3.9,
+   "lang_pct": {
+    "en": 62.5,
+    "ko": 25.0,
+    "other": 7.5,
+    "ja": 5.0
+   },
+   "foreign_pct": 75.0,
+   "pos_pct": 42.5,
+   "neg_pct": 2.5,
+   "top_keywords": [
+    "bae",
+    "hangyul",
+    "song",
+    "love",
+    "back",
+    "group",
+    "more",
+    "good",
+    "ending",
+    "배칠삼",
+    "wear",
+    "from",
+    "welcome",
+    "let",
+    "fairies"
+   ],
+   "top_comment": {
+    "likes": 11,
+    "text": "배칠삼 이번에 진짜 감다살이다 ㅠㅠ\n전체적으로 무대 구성이나 안무나 노래 포즈 다 애니메이션 속 케이팝  캐릭터들 무대 같아😢😮👏🏻👏🏻❤\n웃는 모습 너무 예쁘다 ❤\n꼭 국내 음방 활동 오래 시켜주고 다른 노래들도 이",
+    "video_id": "4SoSUwgLZ2s"
+   }
+  },
+  {
+   "group": "아이몬드",
+   "n_videos": 1,
+   "n_comments": 38,
+   "avg_likes_per_comment": 4.3,
+   "lang_pct": {
+    "en": 57.9,
+    "ko": 26.3,
+    "other": 15.8
+   },
+   "foreign_pct": 73.7,
+   "pos_pct": 47.4,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "mond",
+    "love",
+    "girls",
+    "그들이",
+    "best",
+    "song",
+    "good",
+    "wow",
+    "ning",
+    "please",
+    "let",
+    "these",
+    "much",
+    "job",
+    "직접"
+   ],
+   "top_comment": {
+    "likes": 16,
+    "text": "I:mond we love you you are the best",
+    "video_id": "RS79VS4u6xs"
+   }
+  },
+  {
+   "group": "엘라스트",
+   "n_videos": 2,
+   "n_comments": 36,
+   "avg_likes_per_comment": 2.0,
+   "lang_pct": {
+    "en": 66.7,
+    "ko": 16.7,
+    "other": 11.1,
+    "ja": 5.6
+   },
+   "foreign_pct": 83.3,
+   "pos_pct": 47.2,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "last",
+    "they",
+    "엘라스트",
+    "all",
+    "their",
+    "them",
+    "vocals",
+    "crazy",
+    "love",
+    "los",
+    "deserve",
+    "much",
+    "recognition",
+    "talented",
+    "live"
+   ],
+   "top_comment": {
+    "likes": 11,
+    "text": "They deserve so much recognition for how talented E’last truly is! They work hard and you can see that through all of th",
+    "video_id": "Xmym57stOAw"
+   }
+  },
+  {
+   "group": "러브원",
+   "n_videos": 2,
+   "n_comments": 24,
+   "avg_likes_per_comment": 2.7,
+   "lang_pct": {
+    "en": 45.8,
+    "ko": 20.8,
+    "other": 20.8,
+    "ja": 12.5
+   },
+   "foreign_pct": 79.2,
+   "pos_pct": 37.5,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "유솜",
+    "loveone",
+    "볼하트",
+    "하트만들기",
+    "love",
+    "divas",
+    "유나",
+    "아연",
+    "hear",
+    "live",
+    "vocals",
+    "lindas",
+    "just",
+    "its",
+    "slayed"
+   ],
+   "top_comment": {
+    "likes": 9,
+    "text": "I just discovered love one with this release and they’re the only reason I’ve been watching broadcasts again. \n\nI just l",
+    "video_id": "72pg87Tt2Bc"
+   }
+  },
+  {
+   "group": "다이몬",
+   "n_videos": 2,
+   "n_comments": 24,
+   "avg_likes_per_comment": 2.8,
+   "lang_pct": {
+    "ko": 45.8,
+    "en": 33.3,
+    "other": 12.5,
+    "ja": 8.3
+   },
+   "foreign_pct": 54.2,
+   "pos_pct": 41.7,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "dxmon",
+    "다이몬",
+    "화이팅",
+    "열기구",
+    "활동",
+    "comebacks",
+    "민준이는",
+    "해도",
+    "잘생겼구나",
+    "cutie",
+    "love",
+    "babies",
+    "좋아요",
+    "hee",
+    "뮤직뱅크"
+   ],
+   "top_comment": {
+    "likes": 5,
+    "text": "민준이는 뭘 해도 잘생겼구나",
+    "video_id": "orIcqF_lkYQ"
+   }
+  },
+  {
+   "group": "이스트샤인",
+   "n_videos": 2,
+   "n_comments": 17,
+   "avg_likes_per_comment": 0.4,
+   "lang_pct": {
+    "en": 76.5,
+    "ko": 17.6,
+    "other": 5.9
+   },
+   "foreign_pct": 82.4,
+   "pos_pct": 23.5,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "eastshine",
+    "song",
+    "canci",
+    "merece",
+    "cute",
+    "cool",
+    "job",
+    "realmente",
+    "bonita",
+    "ser",
+    "escuchada",
+    "todo",
+    "mundo",
+    "esto",
+    "apoyooooo"
+   ],
+   "top_comment": {
+    "likes": 2,
+    "text": "1빠",
+    "video_id": "efwSu1yOZzE"
+   }
+  },
+  {
+   "group": "에이머스",
+   "n_videos": 1,
+   "n_comments": 12,
+   "avg_likes_per_comment": 0.8,
+   "lang_pct": {
+    "en": 58.3,
+    "ko": 41.7
+   },
+   "foreign_pct": 58.3,
+   "pos_pct": 8.3,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "aimers",
+    "song",
+    "cool",
+    "에이머스",
+    "좋은데",
+    "cute",
+    "최은준",
+    "김도륜",
+    "좋다",
+    "멋있어",
+    "starry",
+    "night",
+    "fun",
+    "thank",
+    "your"
+   ],
+   "top_comment": {
+    "likes": 1,
+    "text": "최은준 김도륜 개 좋다 진짜... 에이머스 진짜 너무 멋있어 ㅠㅠㅠ",
+    "video_id": "7x_meHV-KX8"
+   }
+  },
+  {
+   "group": "위치스",
+   "n_videos": 1,
+   "n_comments": 11,
+   "avg_likes_per_comment": 1.8,
+   "lang_pct": {
+    "en": 54.5,
+    "ko": 45.5
+   },
+   "foreign_pct": 54.5,
+   "pos_pct": 27.3,
+   "neg_pct": 0.0,
+   "top_keywords": [
+    "좋고",
+    "sweet",
+    "good",
+    "your",
+    "갠적으로",
+    "마리랑",
+    "마고",
+    "너무너무",
+    "매력적임",
+    "언니들아",
+    "제발",
+    "떠주세요",
+    "mew",
+    "cute",
+    "also"
+   ],
+   "top_comment": {
+    "likes": 4,
+    "text": "MEW is so cute also love her sweet voice ♡",
+    "video_id": "H9khcnnPQQc"
+   }
+  }
+ ]
+}

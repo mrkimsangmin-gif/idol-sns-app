@@ -605,6 +605,138 @@
       "total_saves": 329945,
       "posts": [
         {
+          "date": "2026-06-17",
+          "format_type": "Reels",
+          "shortcode": "DZrz3NwNUpV",
+          "posted_at": "2026-06-17T20:00:52+09:00",
+          "hour_kst": 20,
+          "likes": 46253,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0
+        },
+        {
+          "date": "2026-06-19",
+          "format_type": "Reels",
+          "shortcode": "DZxSsv1ye_L",
+          "posted_at": "2026-06-19T23:07:11+09:00",
+          "hour_kst": 23,
+          "likes": 109584,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0
+        },
+        {
+          "date": "2026-06-11",
+          "format_type": "Reels",
+          "shortcode": "DZcU7XTSviM",
+          "posted_at": "2026-06-11T19:41:29+09:00",
+          "hour_kst": 19,
+          "likes": 142723,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0
+        },
+        {
+          "date": "2026-06-11",
+          "format_type": "Reels",
+          "shortcode": "DZcXFkySMay",
+          "posted_at": "2026-06-11T20:00:25+09:00",
+          "hour_kst": 20,
+          "likes": 104043,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0
+        },
+        {
+          "date": "2026-06-12",
+          "format_type": "Reels",
+          "shortcode": "DZeyiG7Sg0O",
+          "posted_at": "2026-06-12T18:39:40+09:00",
+          "hour_kst": 18,
+          "likes": 113422,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0
+        },
+        {
+          "date": "2026-06-13",
+          "format_type": "Reels",
+          "shortcode": "DZgp585SOQD",
+          "posted_at": "2026-06-13T12:03:12+09:00",
+          "hour_kst": 12,
+          "likes": 36071,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0
+        },
+        {
+          "date": "2026-06-03",
+          "format_type": "Reels",
+          "shortcode": "DZHpHvSyfgd",
+          "posted_at": "2026-06-03T18:53:51+09:00",
+          "hour_kst": 18,
+          "likes": 140481,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0
+        },
+        {
+          "date": "2026-06-03",
+          "format_type": "Reels",
+          "shortcode": "DZHw0fFBXk_",
+          "posted_at": "2026-06-03T20:00:08+09:00",
+          "hour_kst": 20,
+          "likes": 166600,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0
+        },
+        {
+          "date": "2026-06-04",
+          "format_type": "Reels",
+          "shortcode": "DZHOZMqSVAR",
+          "posted_at": "2026-06-04T19:00:01+09:00",
+          "hour_kst": 19,
+          "likes": 102042,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0
+        },
+        {
+          "date": "2026-06-04",
+          "format_type": "Reels",
+          "shortcode": "DZHww8-Bqlm",
+          "posted_at": "2026-06-04T20:00:02+09:00",
+          "hour_kst": 20,
+          "likes": 84825,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0
+        },
+        {
+          "date": "2026-06-05",
+          "format_type": "Reels",
+          "shortcode": "DZMl_nXSO1i",
+          "posted_at": "2026-06-05T17:02:31+09:00",
+          "hour_kst": 17,
+          "likes": 56089,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0
+        },
+        {
+          "date": "2026-06-05",
+          "format_type": "Reels",
+          "shortcode": "DZMxLgvBRy3",
+          "posted_at": "2026-06-05T18:40:10+09:00",
+          "hour_kst": 18,
+          "likes": 100303,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0
+        },
+        {
           "date": "2026-05-24",
           "format_type": "Reels",
           "shortcode": "DYtQoPVSJPz",
@@ -18262,6 +18394,28 @@
       "total_shares": 5738,
       "total_saves": 8207,
       "posts": [
+        {
+          "date": "2026-06-01",
+          "format_type": "Reels",
+          "shortcode": "DZCB8y-BvoK",
+          "posted_at": "2026-06-01T14:36:45+09:00",
+          "hour_kst": 14,
+          "likes": 4840,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0
+        },
+        {
+          "date": "2026-06-01",
+          "format_type": "Reels",
+          "shortcode": "DZCmf4ExY_F",
+          "posted_at": "2026-06-01T19:57:23+09:00",
+          "hour_kst": 19,
+          "likes": 1286,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0
+        },
         {
           "index": 1,
           "likes": 711,
@@ -82592,5 +82746,5 @@
       "posts": []
     }
   },
-  "timestamp_fetched_at": "2026-05-30T13:06:45.066963"
+  "timestamp_fetched_at": "2026-06-20T13:06:32.261218"
 }

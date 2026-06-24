@@ -2,18 +2,143 @@
   "name": "스트레이키즈",
   "name_en": "Stray Kids",
   "slug": "stray-kids",
-  "tiktok_url": "https://www.tiktok.com/@straykids_official",
-  "crawled_at": "2026-05-26T05:15:51.213625",
+  "tiktok_url": "https://www.tiktok.com/@jypestraykids",
+  "crawled_at": "2026-06-20T09:54:40.225304",
   "profile": {
-    "display_name": "",
-    "username": "",
-    "verified": false,
+    "display_name": "Stray Kids",
+    "username": "@jypestraykids",
+    "verified": true,
     "category": "",
-    "followers": 0,
+    "followers": 36573000,
     "following": 0,
-    "total_likes": 0,
-    "bio": ""
+    "total_likes": 1950000000,
+    "bio": "Stray-Kids.lnk.to/DOIT"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 6196000,
+      "likes": 1034000,
+      "comments": 17000,
+      "shares": 53000,
+      "saves": 118000,
+      "posted_at": "2026-06-19",
+      "caption": "&#127821;&#127854;&#129375;&#127851; #StrayKids #스트레이키즈 #YouMakeStrayKidsStay",
+      "hashtags": [
+        "StrayKids",
+        "스트레이키즈",
+        "YouMakeStrayKidsStay"
+      ],
+      "music": "照井順政의 Delirious",
+      "category": "General"
+    },
+    {
+      "views": 6496000,
+      "likes": 250000,
+      "comments": 3269,
+      "shares": 4674,
+      "saves": 39000,
+      "posted_at": "2026-06-19",
+      "caption": "조별과제 대참사 #StrayKids #스트레이키즈 #스키즈코드 #SKZCODE #오늘은피캉스",
+      "hashtags": [
+        "StrayKids",
+        "스트레이키즈",
+        "스키즈코드",
+        "SKZCODE",
+        "오늘은피캉스"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 24902000,
+      "likes": 727000,
+      "comments": 9491,
+      "shares": 23000,
+      "saves": 97000,
+      "posted_at": "2026-06-19",
+      "caption": "흔한 방학 시즌 PC방 풍경 #StrayKids #스트레이키즈 #스키즈코드 #SKZCO…자세히",
+      "hashtags": [
+        "StrayKids",
+        "스트레이키즈",
+        "스키즈코드",
+        "SKZCO"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 2609000,
+      "likes": 1009000,
+      "comments": 19000,
+      "shares": 34000,
+      "saves": 128000,
+      "posted_at": "2026-06-18",
+      "caption": "파라파라나 춰야겠다 #StrayKids #스트레이키즈 #리노 #LeeKnow #Yo…자세히",
+      "hashtags": [
+        "StrayKids",
+        "스트레이키즈",
+        "리노",
+        "LeeKnow",
+        "Yo"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 2083000,
+      "likes": 993000,
+      "comments": 17000,
+      "shares": 27000,
+      "saves": 123000,
+      "posted_at": "2026-06-17",
+      "caption": "&#129430; #StrayKids #스트레이키즈 #YouMakeStrayKidsStay",
+      "hashtags": [
+        "StrayKids",
+        "스트레이키즈",
+        "YouMakeStrayKidsStay"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 1510000,
+      "likes": 1159000,
+      "comments": 30000,
+      "shares": 49000,
+      "saves": 162000,
+      "posted_at": "2026-06-08",
+      "caption": "૮ • ﻌ - ა♥ #StrayKids #스트레이키즈 #승민 #Seungmin #YouMakeStrayKidsStay",
+      "hashtags": [
+        "StrayKids",
+        "스트레이키즈",
+        "승민",
+        "Seungmin",
+        "YouMakeStrayKidsStay"
+      ],
+      "music": "RIANNOR의 Tell Me Your Truth",
+      "category": "General"
+    },
+    {
+      "views": 2222000,
+      "likes": 688000,
+      "comments": 10000,
+      "shares": 9034,
+      "saves": 84000,
+      "posted_at": "2026-06-07",
+      "caption": "Gov Ball with STAY &#128151;&#10;함께해 주셔서 감사합니다 STAY&#128151; 모두 …자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 7,
+    "posts_last_30d": 7,
+    "avg_views": 6574000,
+    "avg_likes": 837142,
+    "avg_comments": 15108,
+    "avg_shares": 28529,
+    "avg_saves": 107285,
+    "engagement_rate": 15.03
+  }
 }

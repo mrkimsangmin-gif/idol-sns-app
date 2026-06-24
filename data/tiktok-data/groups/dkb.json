@@ -3,17 +3,18 @@
   "name_en": "DKB",
   "slug": "dkb",
   "tiktok_url": "https://www.tiktok.com/@official.dkb",
-  "crawled_at": "2026-05-26T06:02:17.527594",
+  "crawled_at": "2026-06-21T22:02:15.885147",
   "profile": {
-    "display_name": "",
-    "username": "",
-    "verified": false,
+    "display_name": "다크비(DKB)",
+    "username": "@official.dkb",
+    "verified": true,
     "category": "",
-    "followers": 0,
+    "followers": 1082000,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 25636000,
     "bio": ""
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "error": "IndexError: list index out of range"
 }
