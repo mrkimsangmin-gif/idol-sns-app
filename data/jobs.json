@@ -629,6 +629,17 @@
       "source": "잡코리아"
     },
     {
+      "id": 795,
+      "company": "에스투엔터테인먼트",
+      "position": "콘텐츠본부 영상팀 (대리급)",
+      "category": "영상",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-07-24",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49443968",
+      "source": "잡코리아"
+    },
+    {
       "id": 667,
       "company": "모드하우스",
       "position": "재무회계 담당자",
@@ -923,6 +934,39 @@
       "location": "서울 강남구",
       "deadline": "2026-08-22",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49434062",
+      "source": "잡코리아"
+    },
+    {
+      "id": 792,
+      "company": "미스틱스토리",
+      "position": "Visual Creative 영상 제작/편집 직무",
+      "category": "영상",
+      "career": "경력",
+      "location": "서울 용산구",
+      "deadline": "2026-08-23",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49448138",
+      "source": "잡코리아"
+    },
+    {
+      "id": 793,
+      "company": "알비더블유",
+      "position": "스타일지원팀 팀원",
+      "category": "기타",
+      "career": "신입·경력",
+      "location": "서울 동대문구",
+      "deadline": "2026-08-23",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49447170",
+      "source": "잡코리아"
+    },
+    {
+      "id": 794,
+      "company": "빅히트뮤직",
+      "position": "퍼포먼스디렉터 (BTS 담당)",
+      "category": "기타",
+      "career": "경력",
+      "location": "서울 용산구",
+      "deadline": "2026-08-23",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49446261",
       "source": "잡코리아"
     },
     {
@@ -2288,6 +2332,17 @@
       "deadline": "상시채용",
       "url": "https://recruit-apply.jype.com/o/224114",
       "source": "JYP엔터테인먼트"
+    },
+    {
+      "id": 790,
+      "company": "미스틱스토리",
+      "position": "Visual Creative 영상 제작/편집 직무",
+      "category": "영상",
+      "career": "경력",
+      "location": "서울",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/mysticenter",
+      "source": "잡코리아"
     }
   ],
   "categories": [
@@ -2303,5 +2358,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-06-25T09:04:40.459868"
+  "updatedAt": "2026-06-25T09:34:43.165615"
 }
