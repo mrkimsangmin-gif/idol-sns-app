@@ -3,17 +3,39 @@
   "name_en": "LE SSERAFIM",
   "slug": "le-sserafim",
   "tiktok_url": "https://www.tiktok.com/@le_sserafim",
-  "crawled_at": "2026-05-09T07:14:39.458974",
+  "crawled_at": "2026-06-20T09:46:24.564808",
   "profile": {
     "display_name": "LE SSERAFIM",
-    "username": "",
+    "username": "@le_sserafim",
     "verified": true,
     "category": "",
-    "followers": 0,
+    "followers": 15354000,
     "following": 0,
-    "total_likes": 0,
-    "bio": "LE SSERAFIM Official TikTok&#10;LE SSERAFIM 공식 틱톡&#10;'CELEBRATION' OUT NOW&#10;The 2nd Studio Album 'PUREFLOW' pt.1, May 22"
+    "total_likes": 1090000000,
+    "bio": "LE SSERAFIM Official TikTok&#10;The 2nd Studio Album ‘PUREFLOW’ pt.1 OUT NOW&#10;Listen to ‘BOOMPALA’"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 514000,
+      "likes": 673000,
+      "comments": 5828,
+      "shares": 27000,
+      "saves": 44000,
+      "posted_at": "2026-05-21",
+      "caption": "게시물 129 | &lt;BOOMPALA&gt; MV TEASER 2&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "MV"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 514000,
+    "avg_likes": 673000,
+    "avg_comments": 5828,
+    "avg_shares": 27000,
+    "avg_saves": 44000,
+    "engagement_rate": 145.88
+  }
 }

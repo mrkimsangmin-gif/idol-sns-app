@@ -1,7 +1,7 @@
 {
   "_meta": {
     "version": "1.0",
-    "last_updated": "2026-05-05",
+    "last_updated": "2026-06-17",
     "description": "그룹/멤버 별칭 매핑 (자동 생성 + 수동 보정)"
   },
   "groups": {
@@ -1604,6 +1604,123 @@
         "mamamoo",
         "MAMAMOO"
       ]
+    },
+    "더씬드롬": {
+      "slug": "the-ssyndrome",
+      "name_en": "THE SSYNDROME",
+      "aliases": [
+        "THE SSYNDROME",
+        "the ssyndrome",
+        "SSYNDROME",
+        "씬드롬"
+      ],
+      "fandom": "",
+      "_added": "2026-06-17 (이달의아이돌 패널 보강)"
+    },
+    "데일리디렉션": {
+      "slug": "daily-direction",
+      "name_en": "DAILY:DIRECTION",
+      "aliases": [
+        "DAILY:DIRECTION",
+        "DAILYDIRECTION",
+        "daily direction",
+        "데일리 디렉션"
+      ],
+      "fandom": "",
+      "_added": "2026-06-17 (이달의아이돌 패널 보강)"
+    },
+    "레이턴시": {
+      "slug": "latency",
+      "name_en": "LATENCY",
+      "aliases": [
+        "LATENCY",
+        "latency"
+      ],
+      "fandom": "",
+      "_added": "2026-06-17 (이달의아이돌 패널 보강)"
+    },
+    "모디세이": {
+      "slug": "modyssey",
+      "name_en": "MODYSSEY",
+      "aliases": [
+        "MODYSSEY",
+        "modyssey"
+      ],
+      "fandom": "",
+      "_added": "2026-06-17 (이달의아이돌 패널 보강)"
+    },
+    "스텔라라이브": {
+      "slug": "stellive",
+      "name_en": "Stellive",
+      "aliases": [
+        "Stellive",
+        "stellive",
+        "스텔라이브",
+        "스텔라"
+      ],
+      "fandom": "",
+      "_added": "2026-06-17 (이달의아이돌 패널 보강)"
+    },
+    "앤더블": {
+      "slug": "and2ble",
+      "name_en": "AND2BLE",
+      "aliases": [
+        "AND2BLE",
+        "and2ble",
+        "앤더블"
+      ],
+      "fandom": "",
+      "_added": "2026-06-17 (이달의아이돌 패널 보강)"
+    },
+    "언차일드": {
+      "slug": "unchild",
+      "name_en": "UNCHILD",
+      "aliases": [
+        "UNCHILD",
+        "unchild"
+      ],
+      "fandom": "",
+      "_added": "2026-06-17 (이달의아이돌 패널 보강)"
+    },
+    "에스투잇": {
+      "slug": "s2it",
+      "name_en": "S2IT",
+      "aliases": [
+        "S2IT",
+        "s2it"
+      ],
+      "fandom": "",
+      "_added": "2026-06-17 (이달의아이돌 패널 보강)"
+    },
+    "오위스": {
+      "slug": "owis",
+      "name_en": "OWIS",
+      "aliases": [
+        "OWIS",
+        "owis"
+      ],
+      "fandom": "",
+      "_added": "2026-06-17 (이달의아이돌 패널 보강)"
+    },
+    "키빗업": {
+      "slug": "keyvitup",
+      "name_en": "KEYVITUP",
+      "aliases": [
+        "KEYVITUP",
+        "keyvitup"
+      ],
+      "fandom": "",
+      "_added": "2026-06-17 (이달의아이돌 패널 보강)"
+    },
+    "튜넥스": {
+      "slug": "tunexx",
+      "name_en": "TUNEXX",
+      "aliases": [
+        "TUNEXX",
+        "tunexx"
+      ],
+      "fandom": "",
+      "_added": "2026-06-17 (이달의아이돌 패널 보강)"
     }
   },
   "members": {

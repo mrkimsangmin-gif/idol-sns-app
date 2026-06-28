@@ -3,17 +3,51 @@
   "name_en": "Rocket Punch",
   "slug": "rocket-punch",
   "tiktok_url": "https://www.tiktok.com/@official_rocketpunch",
-  "crawled_at": "2026-05-26T05:23:49.764760",
+  "crawled_at": "2026-06-20T11:09:34.767916",
   "profile": {
     "display_name": "Rocket Punch(로켓펀치)",
-    "username": "",
+    "username": "@official_rocketpunch",
     "verified": true,
     "category": "",
-    "followers": 0,
+    "followers": 367000,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 7912000,
     "bio": "#RocketPunch ( #로켓펀치 ) Official TikTok"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 7605,
+      "likes": 1081,
+      "comments": 21,
+      "shares": 17,
+      "saves": 81,
+      "posted_at": "2026-06-13",
+      "caption": "So perf&#128076; &#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 24000,
+      "likes": 1478,
+      "comments": 42,
+      "shares": 39,
+      "saves": 115,
+      "posted_at": "2026-06-05",
+      "caption": "ℋℯ&#119990;&#120007;&#120009;&#119991;ℯ&#119990;&#120009;&#128151;&#128048; &#10;…자세히",
+      "hashtags": [],
+      "music": "Nightcore의 Heartbeat",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 2,
+    "posts_last_30d": 2,
+    "avg_views": 15802,
+    "avg_likes": 1279,
+    "avg_comments": 31,
+    "avg_shares": 28,
+    "avg_saves": 98,
+    "engagement_rate": 9.09
+  }
 }

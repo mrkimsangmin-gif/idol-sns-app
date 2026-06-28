@@ -2,94 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 655,
-      "company": "쓰리와이코프레이션",
-      "position": "회계 담당자",
-      "category": "경영지원",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-06-25",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49245789",
-      "source": "잡코리아"
-    },
-    {
-      "id": 656,
-      "company": "쓰리와이코프레이션",
-      "position": "재무 담당자",
-      "category": "경영지원",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-06-25",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49245697",
-      "source": "잡코리아"
-    },
-    {
-      "id": 534,
-      "company": "더블랙레이블",
-      "position": "광고팀",
-      "category": "마케팅",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-06-26",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49061933",
-      "source": "잡코리아"
-    },
-    {
-      "id": 539,
-      "company": "미스틱스토리",
-      "position": "음원, 음반 제작 A&R (과장급)",
-      "category": "프로듀싱",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-06-26",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49065861",
-      "source": "잡코리아"
-    },
-    {
-      "id": 540,
-      "company": "케이오지엔터테인먼트",
-      "position": "레이블사업관리",
-      "category": "영업",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-06-26",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49065863",
-      "source": "잡코리아"
-    },
-    {
-      "id": 541,
-      "company": "플레디스엔터테인먼트",
-      "position": "AP Visual Creative (Design)",
-      "category": "디자인",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-06-26",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49066414",
-      "source": "잡코리아"
-    },
-    {
-      "id": 546,
-      "company": "빌리프랩",
-      "position": "콘텐츠기획(사진콘텐츠제작)",
-      "category": "영상",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-06-27",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49071925",
-      "source": "잡코리아"
-    },
-    {
-      "id": 662,
-      "company": "브랜뉴뮤직",
-      "position": "매니지먼트팀",
-      "category": "매니지먼트",
-      "career": "신입·경력",
-      "location": "서울 강남구",
-      "deadline": "2026-06-27",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49262546",
-      "source": "잡코리아"
-    },
-    {
       "id": 663,
       "company": "위드어스엔터테인먼트",
       "position": "영상팀 채용",
@@ -308,6 +220,17 @@
       "deadline": "2026-07-09",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49337978",
       "source": "잡코리아"
+    },
+    {
+      "id": 796,
+      "company": "SM엔터테인먼트",
+      "position": "음반 마케팅 및 프로젝트 매니지먼트 담당자 채용 (경력)",
+      "category": "영업",
+      "career": "경력 5년 이상",
+      "location": "서울 성동구",
+      "deadline": "2026-07-09",
+      "url": "https://recruit.smentertainment.com/ko/o/224334",
+      "source": "SM엔터테인먼트"
     },
     {
       "id": 589,
@@ -629,6 +552,94 @@
       "source": "잡코리아"
     },
     {
+      "id": 795,
+      "company": "에스투엔터테인먼트",
+      "position": "콘텐츠본부 영상팀 (대리급)",
+      "category": "영상",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-07-24",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49443968",
+      "source": "잡코리아"
+    },
+    {
+      "id": 799,
+      "company": "이든엔터테인먼트",
+      "position": "영상 파트 담당자",
+      "category": "기타",
+      "career": "신입",
+      "location": "서울 성동구",
+      "deadline": "2026-07-25",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49455255",
+      "source": "잡코리아"
+    },
+    {
+      "id": 801,
+      "company": "블리츠웨이뮤직",
+      "position": "팬마케팅 담당자",
+      "category": "마케팅",
+      "career": "무관",
+      "location": "서울 강남구",
+      "deadline": "2026-07-25",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49454569",
+      "source": "잡코리아"
+    },
+    {
+      "id": 802,
+      "company": "에스투엔터테인먼트",
+      "position": "가수 매니저",
+      "category": "기타",
+      "career": "신입·경력",
+      "location": "서울 강남구",
+      "deadline": "2026-07-25",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49454111",
+      "source": "잡코리아"
+    },
+    {
+      "id": 803,
+      "company": "온원엔터테인먼트",
+      "position": "보컬 시간강사",
+      "category": "기타",
+      "career": "무관",
+      "location": "서울 강남구",
+      "deadline": "2026-07-25",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49453065",
+      "source": "잡코리아"
+    },
+    {
+      "id": 804,
+      "company": "이든엔터테인먼트",
+      "position": "마케팅팀 부서장",
+      "category": "마케팅",
+      "career": "경력",
+      "location": "서울 성동구",
+      "deadline": "2026-07-25",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49452283",
+      "source": "잡코리아"
+    },
+    {
+      "id": 805,
+      "company": "쓰리와이코프레이션",
+      "position": "회계 담당자",
+      "category": "경영지원",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-07-26",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49463794",
+      "source": "잡코리아"
+    },
+    {
+      "id": 807,
+      "company": "와이에이치엔터테인먼트",
+      "position": "팬마케팅팀",
+      "category": "마케팅",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-07-26",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49462069",
+      "source": "잡코리아"
+    },
+    {
       "id": 667,
       "company": "모드하우스",
       "position": "재무회계 담당자",
@@ -926,26 +937,59 @@
       "source": "잡코리아"
     },
     {
-      "id": 385,
-      "company": "HYBE",
-      "position": "중국 사업 운영 지원(공연이벤트)",
-      "category": "마케팅",
-      "career": "경력 1년 이상",
+      "id": 792,
+      "company": "미스틱스토리",
+      "position": "Visual Creative 영상 제작/편집 직무",
+      "category": "영상",
+      "career": "경력",
       "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/208869",
-      "source": "하이브"
+      "deadline": "2026-08-23",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49448138",
+      "source": "잡코리아"
     },
     {
-      "id": 386,
-      "company": "HYBE",
-      "position": "뮤직그룹 라이프스타일브랜드실장",
-      "category": "마케팅",
-      "career": "경력 10년 이상",
+      "id": 793,
+      "company": "알비더블유",
+      "position": "스타일지원팀 팀원",
+      "category": "기타",
+      "career": "신입·경력",
+      "location": "서울 동대문구",
+      "deadline": "2026-08-23",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49447170",
+      "source": "잡코리아"
+    },
+    {
+      "id": 794,
+      "company": "빅히트뮤직",
+      "position": "퍼포먼스디렉터 (BTS 담당)",
+      "category": "기타",
+      "career": "경력",
       "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/208751",
-      "source": "하이브"
+      "deadline": "2026-08-23",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49446261",
+      "source": "잡코리아"
+    },
+    {
+      "id": 797,
+      "company": "더블랙레이블",
+      "position": "글로벌 음반·음원 유통 및 해외사업 담당",
+      "category": "해외사업",
+      "career": "경력",
+      "location": "서울 용산구",
+      "deadline": "2026-08-24",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49455809",
+      "source": "잡코리아"
+    },
+    {
+      "id": 800,
+      "company": "빅히트뮤직",
+      "position": "아티스트 사업관리 (계약직) (TXT 담당)",
+      "category": "영업",
+      "career": "경력",
+      "location": "서울 용산구",
+      "deadline": "2026-08-24",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49455271",
+      "source": "잡코리아"
     },
     {
       "id": 390,
@@ -1190,28 +1234,6 @@
       "source": "하이브"
     },
     {
-      "id": 504,
-      "company": "HYBE",
-      "position": "경영기획",
-      "category": "경영지원",
-      "career": "경력 3~10년",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/213527",
-      "source": "하이브"
-    },
-    {
-      "id": 510,
-      "company": "HYBE",
-      "position": "글로벌 오디션 IMC 마케팅",
-      "category": "신인개발",
-      "career": "경력 4~5년",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/213719",
-      "source": "하이브"
-    },
-    {
       "id": 511,
       "company": "SOURCE MUSIC",
       "position": "영상콘텐츠제작",
@@ -1253,17 +1275,6 @@
       "location": "서울 용산구",
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/214042",
-      "source": "하이브"
-    },
-    {
-      "id": 522,
-      "company": "HYBE Media Studio",
-      "position": "뉴미디어콘텐츠제작PD",
-      "category": "영상",
-      "career": "경력 6년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/214034",
       "source": "하이브"
     },
     {
@@ -2288,6 +2299,50 @@
       "deadline": "상시채용",
       "url": "https://recruit-apply.jype.com/o/224114",
       "source": "JYP엔터테인먼트"
+    },
+    {
+      "id": 790,
+      "company": "미스틱스토리",
+      "position": "Visual Creative 영상 제작/편집 직무",
+      "category": "영상",
+      "career": "경력",
+      "location": "서울",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/mysticenter",
+      "source": "잡코리아"
+    },
+    {
+      "id": 808,
+      "company": "패러블",
+      "position": "커머스사업팀 MD",
+      "category": "기타",
+      "career": "경력",
+      "location": "경기 고양시",
+      "deadline": "상시채용",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49461694",
+      "source": "잡코리아"
+    },
+    {
+      "id": 809,
+      "company": "블루밍그레이스",
+      "position": "공연 기획·제작·운영 매니저",
+      "category": "영업",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "상시채용",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49459968",
+      "source": "잡코리아"
+    },
+    {
+      "id": 810,
+      "company": "와이에이치엔터테인먼트",
+      "position": "팬마케팅팀",
+      "category": "마케팅",
+      "career": "경력",
+      "location": "서울",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/koreayuehua",
+      "source": "잡코리아"
     }
   ],
   "categories": [
@@ -2303,5 +2358,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-06-25T09:04:40.459868"
+  "updatedAt": "2026-06-28T09:33:51.305608"
 }

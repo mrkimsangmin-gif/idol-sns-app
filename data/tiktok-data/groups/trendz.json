@@ -3,17 +3,18 @@
   "name_en": "TRENDZ",
   "slug": "trendz",
   "tiktok_url": "https://www.tiktok.com/@trendz_offcl",
-  "crawled_at": "2026-05-09T09:22:16.601028",
+  "crawled_at": "2026-06-21T22:07:09.544744",
   "profile": {
     "display_name": "TRENDZ 트렌드지",
-    "username": "",
+    "username": "@trendz_offcl",
     "verified": true,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 645000,
+    "following": 1,
+    "total_likes": 15303000,
     "bio": "TRENDZ(트렌드지) Official TikTok"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "error": "IndexError: list index out of range"
 }
