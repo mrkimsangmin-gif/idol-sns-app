@@ -3,17 +3,69 @@
   "name_en": "Dreamcatcher",
   "slug": "dreamcatcher",
   "tiktok_url": "https://www.tiktok.com/@official_dreamcatcher",
-  "crawled_at": "2026-05-26T05:21:01.050188",
+  "crawled_at": "2026-06-20T10:44:44.570727",
   "profile": {
     "display_name": "Dreamcatcher(드림캐쳐)",
-    "username": "",
+    "username": "@official_dreamcatcher",
     "verified": true,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 1540000,
+    "following": 1,
+    "total_likes": 30815000,
     "bio": "Dreamcatcher(드림캐쳐) Official TikTok"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 27000,
+      "likes": 768,
+      "comments": 19,
+      "shares": 12,
+      "saves": 36,
+      "posted_at": "2026-06-10",
+      "caption": "유아유(UAU) Official Trailer #수아 #SUA&#10;…자세히",
+      "hashtags": [
+        "수아",
+        "SUA"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 71000,
+      "likes": 1239,
+      "comments": 28,
+      "shares": 27,
+      "saves": 62,
+      "posted_at": "2026-06-09",
+      "caption": "유아유(UAU) Official Trailer #지유 #JIU&#10;…자세히",
+      "hashtags": [
+        "지유",
+        "JIU"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 27000,
+      "likes": 1483,
+      "comments": 24,
+      "shares": 14,
+      "saves": 92,
+      "posted_at": "2026-05-27",
+      "caption": "[&#127916;] 유아유(UAU) [혹시 면접관님도.. 지각 자주 하세요❔] | 혼돈의 아바타 면접&#128221;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 3,
+    "posts_last_30d": 3,
+    "avg_views": 41666,
+    "avg_likes": 1163,
+    "avg_comments": 23,
+    "avg_shares": 17,
+    "avg_saves": 63,
+    "engagement_rate": 3.04
+  }
 }

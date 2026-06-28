@@ -3,17 +3,39 @@
   "name_en": "SF9",
   "slug": "sf9",
   "tiktok_url": "https://www.tiktok.com/@sf9official",
-  "crawled_at": "2026-05-26T05:38:18.932217",
+  "crawled_at": "2026-06-21T20:49:25.736833",
   "profile": {
     "display_name": "SF9 Official",
-    "username": "",
+    "username": "@sf9official",
     "verified": true,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 558000,
+    "following": 1,
+    "total_likes": 8040000,
     "bio": ""
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 13000,
+      "likes": 2422,
+      "comments": 70,
+      "shares": 73,
+      "saves": 120,
+      "posted_at": "2026-06-01",
+      "caption": "&#119939;&#119955;&#119952;&#119948;&#119942;&#119951; &#119960;&#119938;&#119962; &#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 13000,
+    "avg_likes": 2422,
+    "avg_comments": 70,
+    "avg_shares": 73,
+    "avg_saves": 120,
+    "engagement_rate": 20.65
+  }
 }

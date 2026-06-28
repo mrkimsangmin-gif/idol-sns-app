@@ -3,17 +3,135 @@
   "name_en": "Geenius",
   "slug": "geenius",
   "tiktok_url": "https://www.tiktok.com/@geeniusofficial",
-  "crawled_at": "2026-05-09T08:02:54.224474",
+  "crawled_at": "2026-06-10T06:16:25.156336",
   "profile": {
     "display_name": "GEENIUS",
-    "username": "",
+    "username": "@geeniusofficial",
     "verified": false,
     "category": "",
-    "followers": 0,
+    "followers": 64000,
     "following": 0,
-    "total_likes": 0,
-    "bio": "geenius official TikTok"
+    "total_likes": 1266000,
+    "bio": "geenius official TikTok&#10;&#128279; https://www.instagram.com/geenius_official"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 2829,
+      "likes": 81,
+      "comments": 6,
+      "shares": 1,
+      "saves": 7,
+      "posted_at": "2026-06-09",
+      "caption": "Dont stop! making pop &#127911;&#128191;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 6239,
+      "likes": 146,
+      "comments": 8,
+      "shares": 4,
+      "saves": 12,
+      "posted_at": "2026-06-05",
+      "caption": "chu&#128139;&#128536;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 2900,
+      "likes": 196,
+      "comments": 11,
+      "shares": 3,
+      "saves": 18,
+      "posted_at": "2026-05-31",
+      "caption": "HBD Kuromi Yeyoung ~&#128420;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 1786,
+      "likes": 145,
+      "comments": 8,
+      "shares": 5,
+      "saves": 17,
+      "posted_at": "2026-05-27",
+      "caption": "low &#128071;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 3256,
+      "likes": 285,
+      "comments": 11,
+      "shares": 2,
+      "saves": 25,
+      "posted_at": "2026-05-22",
+      "caption": "J'sais que tu restes un fan de moi &#128139;&#10;…자세히",
+      "hashtags": [],
+      "music": "Jäde의 Fan2moi",
+      "category": "General"
+    },
+    {
+      "views": 2310,
+      "likes": 330,
+      "comments": 12,
+      "shares": 6,
+      "saves": 27,
+      "posted_at": "2026-05-19",
+      "caption": "like that &#128147;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 422,
+      "likes": 271,
+      "comments": 20,
+      "shares": 2,
+      "saves": 25,
+      "posted_at": "2026-05-18",
+      "caption": "&#128523;&#128062;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 871,
+      "likes": 643,
+      "comments": 21,
+      "shares": 22,
+      "saves": 69,
+      "posted_at": "2026-05-11",
+      "caption": "io ti voglio bene assai &#128159;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 1227,
+      "likes": 357,
+      "comments": 5,
+      "shares": 1,
+      "saves": 32,
+      "posted_at": "2026-05-11",
+      "caption": "more espresso ☕&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 9,
+    "posts_last_30d": 9,
+    "avg_views": 2426,
+    "avg_likes": 272,
+    "avg_comments": 11,
+    "avg_shares": 5,
+    "avg_saves": 25,
+    "engagement_rate": 12.98
+  }
 }

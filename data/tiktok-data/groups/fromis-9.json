@@ -3,17 +3,117 @@
   "name_en": "fromis_9",
   "slug": "fromis-9",
   "tiktok_url": "https://www.tiktok.com/@official_fromis9",
-  "crawled_at": "2026-05-09T07:31:23.130670",
+  "crawled_at": "2026-06-20T10:31:50.245302",
   "profile": {
-    "display_name": "",
-    "username": "",
-    "verified": false,
+    "display_name": "fromis_9",
+    "username": "@official_fromis9",
+    "verified": true,
     "category": "",
-    "followers": 0,
+    "followers": 2011000,
     "following": 0,
-    "total_likes": 0,
-    "bio": ""
+    "total_likes": 56800000,
+    "bio": "❄️ Special Digital Single [하얀 그리움]"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 158000,
+      "likes": 33000,
+      "comments": 256,
+      "shares": 603,
+      "saves": 3044,
+      "posted_at": "2026-06-10",
+      "caption": "beat drop&#128165;&#10;…자세히",
+      "hashtags": [],
+      "music": "Monica의 Everytime Tha Beat Drop (feat. Dem Franchize Boyz)",
+      "category": "General"
+    },
+    {
+      "views": 208000,
+      "likes": 38000,
+      "comments": 266,
+      "shares": 1041,
+      "saves": 3530,
+      "posted_at": "2026-06-09",
+      "caption": "&#128068;&#128105;&#127995;‍❤️‍&#128105;&#127995;  &#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 259000,
+      "likes": 12000,
+      "comments": 186,
+      "shares": 215,
+      "saves": 915,
+      "posted_at": "2026-06-01",
+      "caption": "BE MY BABYYY&#127874;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 35000,
+      "likes": 3850,
+      "comments": 56,
+      "shares": 76,
+      "saves": 325,
+      "posted_at": "2026-05-25",
+      "caption": "[&#127808;] #flover &#10;fromis_9 OFFICIAL FANCLUB…자세히",
+      "hashtags": [
+        "flover"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 110000,
+      "likes": 7740,
+      "comments": 94,
+      "shares": 159,
+      "saves": 899,
+      "posted_at": "2026-05-22",
+      "caption": "[&#127837;] #flover&#10;fromis_9 OFFICIAL FANCLUB…자세히",
+      "hashtags": [
+        "flover"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 37000,
+      "likes": 4579,
+      "comments": 65,
+      "shares": 80,
+      "saves": 480,
+      "posted_at": "2026-05-21",
+      "caption": "[&#127819;] #flover&#10;fromis_9 OFFICIAL FANCLUB…자세히",
+      "hashtags": [
+        "flover"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 213000,
+      "likes": 12000,
+      "comments": 114,
+      "shares": 231,
+      "saves": 1028,
+      "posted_at": "2026-05-21",
+      "caption": "260520 셋로그 제출합니다&#129331;&#10;…자세히",
+      "hashtags": [],
+      "music": "프로미스나인의 Love=Disaster",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 7,
+    "posts_last_30d": 7,
+    "avg_views": 145714,
+    "avg_likes": 15881,
+    "avg_comments": 148,
+    "avg_shares": 343,
+    "avg_saves": 1460,
+    "engagement_rate": 12.24
+  }
 }

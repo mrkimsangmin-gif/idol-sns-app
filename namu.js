@@ -15,7 +15,7 @@ var searchIndexData = null;     // search-index.json 역인덱스 데이터
 var groupEmbedIndex = null;     // group-embed-index.json (lazy load, 임베딩 유사도 검색용)
 
 // 캐시 버스팅 버전
-const NAMU_DATA_VERSION = '20260608';
+const NAMU_DATA_VERSION = '20260629';
 
 // ============================================================
 // 진입점
