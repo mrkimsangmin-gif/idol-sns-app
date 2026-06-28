@@ -2,28 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 546,
-      "company": "빌리프랩",
-      "position": "콘텐츠기획(사진콘텐츠제작)",
-      "category": "영상",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-06-27",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49071925",
-      "source": "잡코리아"
-    },
-    {
-      "id": 662,
-      "company": "브랜뉴뮤직",
-      "position": "매니지먼트팀",
-      "category": "매니지먼트",
-      "career": "신입·경력",
-      "location": "서울 강남구",
-      "deadline": "2026-06-27",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49262546",
-      "source": "잡코리아"
-    },
-    {
       "id": 663,
       "company": "위드어스엔터테인먼트",
       "position": "영상팀 채용",
@@ -2369,5 +2347,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-06-27T09:34:57.455246"
+  "updatedAt": "2026-06-28T09:03:53.007802"
 }
