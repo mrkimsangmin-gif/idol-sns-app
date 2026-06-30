@@ -2,17 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 532,
-      "company": "하이브",
-      "position": "뮤직그룹 전략",
-      "category": "기타",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-06-29",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49087195",
-      "source": "잡코리아"
-    },
-    {
       "id": 678,
       "company": "오감엔터테인먼트",
       "position": "경영지원팀",
@@ -934,17 +923,6 @@
       "location": "서울 용산구",
       "deadline": "2026-08-24",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49455271",
-      "source": "잡코리아"
-    },
-    {
-      "id": 390,
-      "company": "클렙",
-      "position": "아티스트 운영 지원 분야",
-      "category": "영업",
-      "career": "신입·경력",
-      "location": "서울",
-      "deadline": "",
-      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/klap2025",
       "source": "잡코리아"
     },
     {
@@ -2303,5 +2281,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-06-29T09:33:08.766394"
+  "updatedAt": "2026-06-30T09:05:26.844972"
 }
