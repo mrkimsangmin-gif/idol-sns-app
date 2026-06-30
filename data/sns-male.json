@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31T13:34:59.000Z",
+  "generated": "2026-06-30T21:34:54.000Z",
   "version": 3,
   "gender": "남자",
   "snsList": [
@@ -41,7 +41,8 @@
         "2026-02",
         "2026-03",
         "2026-04",
-        "2026-05"
+        "2026-05",
+        "2026-06"
       ],
       "records": [
         {
@@ -10333,6 +10334,468 @@
           "group": "MODYSSEY",
           "date": "2026-05",
           "count": 13077
+        },
+        {
+          "name": "세븐틴",
+          "group": "SEVENTEEN",
+          "date": "2026-06",
+          "count": 2143741
+        },
+        {
+          "name": "방탄소년단",
+          "group": "BTS",
+          "date": "2026-06",
+          "count": 5663151
+        },
+        {
+          "name": "스트레이키즈",
+          "group": "Stray Kids",
+          "date": "2026-06",
+          "count": 752426
+        },
+        {
+          "name": "엔시티 드림",
+          "group": "NCT DREAM",
+          "date": "2026-06",
+          "count": 1507307
+        },
+        {
+          "name": "투모로우바이투게더",
+          "group": "TXT",
+          "date": "2026-06",
+          "count": 1083186
+        },
+        {
+          "name": "엔하이픈",
+          "group": "ENHYPEN",
+          "date": "2026-06",
+          "count": 759417
+        },
+        {
+          "name": "제로베이스원",
+          "group": "ZEROBASEONE",
+          "date": "2026-06",
+          "count": 957566
+        },
+        {
+          "name": "엔시티 일이칠",
+          "group": "NCT 127",
+          "date": "2026-06",
+          "count": 865498
+        },
+        {
+          "name": "플레이브",
+          "group": "PLAVE",
+          "date": "2026-06",
+          "count": 960604
+        },
+        {
+          "name": "라이즈",
+          "group": "RIIZE",
+          "date": "2026-06",
+          "count": 628407
+        },
+        {
+          "name": "보이넥스트도어",
+          "group": "BOYNEXTDOOR",
+          "date": "2026-06",
+          "count": 499910
+        },
+        {
+          "name": "더보이즈",
+          "group": "THE BOYZ",
+          "date": "2026-06",
+          "count": 136131
+        },
+        {
+          "name": "투어스",
+          "group": "TWS",
+          "date": "2026-06",
+          "count": 703082
+        },
+        {
+          "name": "아이콘",
+          "group": "Ikon",
+          "date": "2026-06",
+          "count": 607915
+        },
+        {
+          "name": "몬스타엑스",
+          "group": "MONSTA X",
+          "date": "2026-06",
+          "count": 166247
+        },
+        {
+          "name": "아스트로",
+          "group": "ASTRO",
+          "date": "2026-06",
+          "count": 130004
+        },
+        {
+          "name": "엑스디너리 히어로즈",
+          "group": "Xdinary Heroes",
+          "date": "2026-06",
+          "count": 169260
+        },
+        {
+          "name": "피원하모니",
+          "group": "P1Harmony",
+          "date": "2026-06",
+          "count": 208485
+        },
+        {
+          "name": "에스에프나인",
+          "group": "SF9",
+          "date": "2026-06",
+          "count": 105224
+        },
+        {
+          "name": "템페스트",
+          "group": "TEMPEST",
+          "date": "2026-06",
+          "count": 539123
+        },
+        {
+          "name": "에이비식스",
+          "group": "AB6IX",
+          "date": "2026-06",
+          "count": 213781
+        },
+        {
+          "name": "펜타곤",
+          "group": "PENTAGON",
+          "date": "2026-06",
+          "count": 107410
+        },
+        {
+          "name": "오메가엑스",
+          "group": "OMEGA X",
+          "date": "2026-06",
+          "count": 6892
+        },
+        {
+          "name": "에이티즈",
+          "group": "ATEEZ",
+          "date": "2026-06",
+          "count": 64081
+        },
+        {
+          "name": "이펙스",
+          "group": "EPEX",
+          "date": "2026-06",
+          "count": 18444
+        },
+        {
+          "name": "데이식스",
+          "group": "DAY6",
+          "date": "2026-06",
+          "count": 59009
+        },
+        {
+          "name": "크래비티",
+          "group": "CRAVITY",
+          "date": "2026-06",
+          "count": 165438
+        },
+        {
+          "name": "킥플립",
+          "group": "KickFlip",
+          "date": "2026-06",
+          "count": 215997
+        },
+        {
+          "name": "골든차일드",
+          "group": "Golden Child, GNCD",
+          "date": "2026-06",
+          "count": 18748
+        },
+        {
+          "name": "드리핀",
+          "group": "DRIPPIN",
+          "date": "2026-06",
+          "count": 46780
+        },
+        {
+          "name": "루네이트",
+          "group": "LUN8",
+          "date": "2026-06",
+          "count": 31355
+        },
+        {
+          "name": "넥스지",
+          "group": "NEXZ",
+          "date": "2026-06",
+          "count": 209478
+        },
+        {
+          "name": "에잇턴",
+          "group": "8TURN",
+          "date": "2026-06",
+          "count": 34888
+        },
+        {
+          "name": "씨아이엑스",
+          "group": "CIX",
+          "date": "2026-06",
+          "count": 6721
+        },
+        {
+          "name": "이븐",
+          "group": "EVNNE",
+          "date": "2026-06",
+          "count": 223374
+        },
+        {
+          "name": "나우즈",
+          "group": "NOWZ",
+          "date": "2026-06",
+          "count": 225313
+        },
+        {
+          "name": "앰퍼샌드원",
+          "group": "AMPERS&ONE",
+          "date": "2026-06",
+          "count": 135602
+        },
+        {
+          "name": "파우",
+          "group": "POW",
+          "date": "2026-06",
+          "count": 180279
+        },
+        {
+          "name": "소디엑",
+          "group": "XODIAC",
+          "date": "2026-06",
+          "count": 61422
+        },
+        {
+          "name": "유나이트",
+          "group": "YOUNITE",
+          "date": "2026-06",
+          "count": 163064
+        },
+        {
+          "name": "배너",
+          "group": "VANNER",
+          "date": "2026-06",
+          "count": 3407
+        },
+        {
+          "name": "비에이이일칠삼",
+          "group": "BAE173",
+          "date": "2026-06",
+          "count": 22590
+        },
+        {
+          "name": "에이티투메이저",
+          "group": "82MAJOR",
+          "date": "2026-06",
+          "count": 99967
+        },
+        {
+          "name": "판타지보이즈",
+          "group": "FANTASY BOYS",
+          "date": "2026-06",
+          "count": 103916
+        },
+        {
+          "name": "위아이",
+          "group": "WEi",
+          "date": "2026-06",
+          "count": 4297
+        },
+        {
+          "name": "휘브",
+          "group": "WHIB",
+          "date": "2026-06",
+          "count": 161150
+        },
+        {
+          "name": "다이몬",
+          "group": "DXMON",
+          "date": "2026-06",
+          "count": 21598
+        },
+        {
+          "name": "온앤오프",
+          "group": "ONF",
+          "date": "2026-06",
+          "count": 6246
+        },
+        {
+          "name": "엠씨엔디",
+          "group": "MCND",
+          "date": "2026-06",
+          "count": 9271
+        },
+        {
+          "name": "싸이커스",
+          "group": "xikers",
+          "date": "2026-06",
+          "count": 29067
+        },
+        {
+          "name": "누에라",
+          "group": "NouerA",
+          "date": "2026-06",
+          "count": 66419
+        },
+        {
+          "name": "엔싸인",
+          "group": "n.SSign",
+          "date": "2026-06",
+          "count": 56799
+        },
+        {
+          "name": "다크비",
+          "group": "DKB",
+          "date": "2026-06",
+          "count": 10801
+        },
+        {
+          "name": "엘라스트",
+          "group": "E'LAST",
+          "date": "2026-06",
+          "count": 796
+        },
+        {
+          "name": "올아워즈",
+          "group": "ALL(H)OURS",
+          "date": "2026-06",
+          "count": 52127
+        },
+        {
+          "name": "세븐어스",
+          "group": "SEVENUS",
+          "date": "2026-06",
+          "count": 1964
+        },
+        {
+          "name": "원팩트",
+          "group": "ONE PACT",
+          "date": "2026-06",
+          "count": 23281
+        },
+        {
+          "name": "엔카이브",
+          "group": "NCHIVE",
+          "date": "2026-06",
+          "count": 7508
+        },
+        {
+          "name": "하우",
+          "group": "HAWW",
+          "date": "2026-06",
+          "count": 210
+        },
+        {
+          "name": "이스트샤인",
+          "group": "EASTSHINE",
+          "date": "2026-06",
+          "count": 185
+        },
+        {
+          "name": "클로즈 유어 아이즈",
+          "group": "CLOSE YOUR EYES",
+          "date": "2026-06",
+          "count": 40091
+        },
+        {
+          "name": "아홉",
+          "group": "AHOF",
+          "date": "2026-06",
+          "count": 114047
+        },
+        {
+          "name": "뉴비트",
+          "group": "NEWBEAT",
+          "date": "2026-06",
+          "count": 43965
+        },
+        {
+          "name": "아이딧",
+          "group": "IDID",
+          "date": "2026-06",
+          "count": 16945
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-06",
+          "count": 78167
+        },
+        {
+          "name": "아이덴티티",
+          "group": "idntt",
+          "date": "2026-06",
+          "count": 23495
+        },
+        {
+          "name": "코르티스",
+          "group": "CORTIS",
+          "date": "2026-06",
+          "count": 786236
+        },
+        {
+          "name": "알파드라이브원",
+          "group": "ALPHA DRIVE ONE",
+          "date": "2026-06",
+          "count": 263233
+        },
+        {
+          "name": "엠빅",
+          "group": "AM8IC",
+          "date": "2026-06",
+          "count": 120849
+        },
+        {
+          "name": "에이엠피",
+          "group": "AxMxP",
+          "date": "2026-06",
+          "count": 7028
+        },
+        {
+          "name": "롱샷",
+          "group": "LNGSHOT",
+          "date": "2026-06",
+          "count": 212221
+        },
+        {
+          "name": "유어즈",
+          "group": "YUHZ",
+          "date": "2026-06",
+          "count": 2734
+        },
+        {
+          "name": "튜넥스",
+          "group": "TUNEXX",
+          "date": "2026-06",
+          "count": 2439
+        },
+        {
+          "name": "모디세이",
+          "group": "MODYSSEY",
+          "date": "2026-06",
+          "count": 14145
+        },
+        {
+          "name": "키빗업",
+          "group": "KEYVITUP",
+          "date": "2026-06",
+          "count": 5754
+        },
+        {
+          "name": "앤더블",
+          "group": "AND2BLE",
+          "date": "2026-06",
+          "count": 337159
+        },
+        {
+          "name": "베이온",
+          "group": "VAYONN",
+          "date": "2026-06",
+          "count": 4830
         }
       ]
     },
@@ -10364,7 +10827,8 @@
         "2026-02",
         "2026-03",
         "2026-04",
-        "2026-05"
+        "2026-05",
+        "2026-06"
       ],
       "records": [
         {
@@ -24214,6 +24678,630 @@
           "group": "THE SSYNDROME",
           "date": "2026-05",
           "count": 172
+        },
+        {
+          "name": "세븐틴",
+          "group": "SEVENTEEN",
+          "date": "2026-06",
+          "count": 1581000
+        },
+        {
+          "name": "방탄소년단",
+          "group": "BTS",
+          "date": "2026-06",
+          "count": 1014000
+        },
+        {
+          "name": "스트레이키즈",
+          "group": "Stray Kids",
+          "date": "2026-06",
+          "count": 597000
+        },
+        {
+          "name": "엔시티 드림",
+          "group": "NCT DREAM",
+          "date": "2026-06",
+          "count": 562000
+        },
+        {
+          "name": "투모로우바이투게더",
+          "group": "TXT",
+          "date": "2026-06",
+          "count": 587000
+        },
+        {
+          "name": "엔하이픈",
+          "group": "ENHYPEN",
+          "date": "2026-06",
+          "count": 531000
+        },
+        {
+          "name": "제로베이스원",
+          "group": "ZEROBASEONE",
+          "date": "2026-06",
+          "count": 415000
+        },
+        {
+          "name": "엔시티 일이칠",
+          "group": "NCT 127",
+          "date": "2026-06",
+          "count": 320000
+        },
+        {
+          "name": "플레이브",
+          "group": "PLAVE",
+          "date": "2026-06",
+          "count": 755000
+        },
+        {
+          "name": "트레저",
+          "group": "TREASURE",
+          "date": "2026-06",
+          "count": 238000
+        },
+        {
+          "name": "라이즈",
+          "group": "RIIZE",
+          "date": "2026-06",
+          "count": 402000
+        },
+        {
+          "name": "보이넥스트도어",
+          "group": "BOYNEXTDOOR",
+          "date": "2026-06",
+          "count": 149000
+        },
+        {
+          "name": "더보이즈",
+          "group": "THE BOYZ",
+          "date": "2026-06",
+          "count": 111000
+        },
+        {
+          "name": "투어스",
+          "group": "TWS",
+          "date": "2026-06",
+          "count": 253000
+        },
+        {
+          "name": "아이콘",
+          "group": "Ikon",
+          "date": "2026-06",
+          "count": 88000
+        },
+        {
+          "name": "몬스타엑스",
+          "group": "MONSTA X",
+          "date": "2026-06",
+          "count": 62000
+        },
+        {
+          "name": "아스트로",
+          "group": "ASTRO",
+          "date": "2026-06",
+          "count": 53000
+        },
+        {
+          "name": "엑스디너리 히어로즈",
+          "group": "Xdinary Heroes",
+          "date": "2026-06",
+          "count": 45000
+        },
+        {
+          "name": "피원하모니",
+          "group": "P1Harmony",
+          "date": "2026-06",
+          "count": 51000
+        },
+        {
+          "name": "에스에프나인",
+          "group": "SF9",
+          "date": "2026-06",
+          "count": 38000
+        },
+        {
+          "name": "템페스트",
+          "group": "TEMPEST",
+          "date": "2026-06",
+          "count": 36000
+        },
+        {
+          "name": "에이비식스",
+          "group": "AB6IX",
+          "date": "2026-06",
+          "count": 35000
+        },
+        {
+          "name": "펜타곤",
+          "group": "PENTAGON",
+          "date": "2026-06",
+          "count": 33000
+        },
+        {
+          "name": "오메가엑스",
+          "group": "OMEGA X",
+          "date": "2026-06",
+          "count": 31000
+        },
+        {
+          "name": "에이티즈",
+          "group": "ATEEZ",
+          "date": "2026-06",
+          "count": 36000
+        },
+        {
+          "name": "이펙스",
+          "group": "EPEX",
+          "date": "2026-06",
+          "count": 28000
+        },
+        {
+          "name": "데이식스",
+          "group": "DAY6",
+          "date": "2026-06",
+          "count": 32000
+        },
+        {
+          "name": "크래비티",
+          "group": "CRAVITY",
+          "date": "2026-06",
+          "count": 26000
+        },
+        {
+          "name": "원어스",
+          "group": "ONEUS",
+          "date": "2026-06",
+          "count": 23000
+        },
+        {
+          "name": "킥플립",
+          "group": "KickFlip",
+          "date": "2026-06",
+          "count": 30000
+        },
+        {
+          "name": "골든차일드",
+          "group": "Golden Child, GNCD",
+          "date": "2026-06",
+          "count": 16000
+        },
+        {
+          "name": "드리핀",
+          "group": "DRIPPIN",
+          "date": "2026-06",
+          "count": 17000
+        },
+        {
+          "name": "루네이트",
+          "group": "LUN8",
+          "date": "2026-06",
+          "count": 15000
+        },
+        {
+          "name": "넥스지",
+          "group": "NEXZ",
+          "date": "2026-06",
+          "count": 37000
+        },
+        {
+          "name": "에잇턴",
+          "group": "8TURN",
+          "date": "2026-06",
+          "count": 16000
+        },
+        {
+          "name": "씨아이엑스",
+          "group": "CIX",
+          "date": "2026-06",
+          "count": 11000
+        },
+        {
+          "name": "이븐",
+          "group": "EVNNE",
+          "date": "2026-06",
+          "count": 12000
+        },
+        {
+          "name": "나우즈",
+          "group": "NOWZ",
+          "date": "2026-06",
+          "count": 13000
+        },
+        {
+          "name": "더뉴식스",
+          "group": "THE NEW SIX",
+          "date": "2026-06",
+          "count": 9017
+        },
+        {
+          "name": "앰퍼샌드원",
+          "group": "AMPERS&ONE",
+          "date": "2026-06",
+          "count": 11000
+        },
+        {
+          "name": "파우",
+          "group": "POW",
+          "date": "2026-06",
+          "count": 15000
+        },
+        {
+          "name": "소디엑",
+          "group": "XODIAC",
+          "date": "2026-06",
+          "count": 7762
+        },
+        {
+          "name": "유나이트",
+          "group": "YOUNITE",
+          "date": "2026-06",
+          "count": 7764
+        },
+        {
+          "name": "배너",
+          "group": "VANNER",
+          "date": "2026-06",
+          "count": 7144
+        },
+        {
+          "name": "비에이이일칠삼",
+          "group": "BAE173",
+          "date": "2026-06",
+          "count": 7756
+        },
+        {
+          "name": "에이티투메이저",
+          "group": "82MAJOR",
+          "date": "2026-06",
+          "count": 18000
+        },
+        {
+          "name": "판타지보이즈",
+          "group": "FANTASY BOYS",
+          "date": "2026-06",
+          "count": 6475
+        },
+        {
+          "name": "더윈드",
+          "group": "The Wind",
+          "date": "2026-06",
+          "count": 7169
+        },
+        {
+          "name": "위아이",
+          "group": "WEi",
+          "date": "2026-06",
+          "count": 7470
+        },
+        {
+          "name": "휘브",
+          "group": "WHIB",
+          "date": "2026-06",
+          "count": 7001
+        },
+        {
+          "name": "다이몬",
+          "group": "DXMON",
+          "date": "2026-06",
+          "count": 4846
+        },
+        {
+          "name": "온앤오프",
+          "group": "ONF",
+          "date": "2026-06",
+          "count": 5611
+        },
+        {
+          "name": "미래소년",
+          "group": "MIRAE",
+          "date": "2026-06",
+          "count": 4230
+        },
+        {
+          "name": "엠씨엔디",
+          "group": "MCND",
+          "date": "2026-06",
+          "count": 4337
+        },
+        {
+          "name": "싸이커스",
+          "group": "xikers",
+          "date": "2026-06",
+          "count": 7606
+        },
+        {
+          "name": "누에라",
+          "group": "NouerA",
+          "date": "2026-06",
+          "count": 15000
+        },
+        {
+          "name": "엔싸인",
+          "group": "n.SSign",
+          "date": "2026-06",
+          "count": 4652
+        },
+        {
+          "name": "다크비",
+          "group": "DKB",
+          "date": "2026-06",
+          "count": 3774
+        },
+        {
+          "name": "에이티비오",
+          "group": "ATBO",
+          "date": "2026-06",
+          "count": 3179
+        },
+        {
+          "name": "엘라스트",
+          "group": "E'LAST",
+          "date": "2026-06",
+          "count": 3438
+        },
+        {
+          "name": "아크",
+          "group": "ARrC",
+          "date": "2026-06",
+          "count": 4286
+        },
+        {
+          "name": "노매드",
+          "group": "NOMAD",
+          "date": "2026-06",
+          "count": 3433
+        },
+        {
+          "name": "올아워즈",
+          "group": "ALL(H)OURS",
+          "date": "2026-06",
+          "count": 3902
+        },
+        {
+          "name": "트렌드지",
+          "group": "TRENDZ",
+          "date": "2026-06",
+          "count": 2819
+        },
+        {
+          "name": "나인아이",
+          "group": "NINE.i",
+          "date": "2026-06",
+          "count": 2315
+        },
+        {
+          "name": "세븐어스",
+          "group": "SEVENUS",
+          "date": "2026-06",
+          "count": 2083
+        },
+        {
+          "name": "에이머스",
+          "group": "AIMERS",
+          "date": "2026-06",
+          "count": 2211
+        },
+        {
+          "name": "원팩트",
+          "group": "ONE PACT",
+          "date": "2026-06",
+          "count": 2535
+        },
+        {
+          "name": "티아이오티",
+          "group": "TIOT",
+          "date": "2026-06",
+          "count": 1850
+        },
+        {
+          "name": "엔카이브",
+          "group": "NCHIVE",
+          "date": "2026-06",
+          "count": 1879
+        },
+        {
+          "name": "더킹덤",
+          "group": "The KingDom",
+          "date": "2026-06",
+          "count": 1418
+        },
+        {
+          "name": "블리처스",
+          "group": "BLITZERS",
+          "date": "2026-06",
+          "count": 1132
+        },
+        {
+          "name": "웨이커",
+          "group": "WAKER",
+          "date": "2026-06",
+          "count": 690
+        },
+        {
+          "name": "워터파이어",
+          "group": "WATERFIRE",
+          "date": "2026-06",
+          "count": 505
+        },
+        {
+          "name": "피커스",
+          "group": "PICKUS",
+          "date": "2026-06",
+          "count": 490
+        },
+        {
+          "name": "어센트",
+          "group": "ASC2NT",
+          "date": "2026-06",
+          "count": 570
+        },
+        {
+          "name": "하우",
+          "group": "HAWW",
+          "date": "2026-06",
+          "count": 399
+        },
+        {
+          "name": "이스트샤인",
+          "group": "EASTSHINE",
+          "date": "2026-06",
+          "count": 449
+        },
+        {
+          "name": "이오닛",
+          "group": "AEONIT",
+          "date": "2026-06",
+          "count": 336
+        },
+        {
+          "name": "비디유",
+          "group": "B.D.U",
+          "date": "2026-06",
+          "count": 303
+        },
+        {
+          "name": "데이차일드",
+          "group": "DayChild",
+          "date": "2026-06",
+          "count": 398
+        },
+        {
+          "name": "드래곤포니",
+          "group": "Dragon Pony",
+          "date": "2026-06",
+          "count": 556
+        },
+        {
+          "name": "클로즈 유어 아이즈",
+          "group": "CLOSE YOUR EYES",
+          "date": "2026-06",
+          "count": 31000
+        },
+        {
+          "name": "아홉",
+          "group": "AHOF",
+          "date": "2026-06",
+          "count": 17000
+        },
+        {
+          "name": "엑스러브",
+          "group": "XLOV",
+          "date": "2026-06",
+          "count": 10000
+        },
+        {
+          "name": "뉴비트",
+          "group": "NEWBEAT",
+          "date": "2026-06",
+          "count": 5491
+        },
+        {
+          "name": "아이딧",
+          "group": "IDID",
+          "date": "2026-06",
+          "count": 11000
+        },
+        {
+          "name": "비보이즈",
+          "group": "BE BOYS",
+          "date": "2026-06",
+          "count": 107
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-06",
+          "count": 55000
+        },
+        {
+          "name": "아이덴티티",
+          "group": "idntt",
+          "date": "2026-06",
+          "count": 17000
+        },
+        {
+          "name": "코르티스",
+          "group": "CORTIS",
+          "date": "2026-06",
+          "count": 446000
+        },
+        {
+          "name": "알파드라이브원",
+          "group": "ALPHA DRIVE ONE",
+          "date": "2026-06",
+          "count": 64000
+        },
+        {
+          "name": "엠빅",
+          "group": "AM8IC",
+          "date": "2026-06",
+          "count": 2995
+        },
+        {
+          "name": "에이엠피",
+          "group": "AxMxP",
+          "date": "2026-06",
+          "count": 6952
+        },
+        {
+          "name": "롱샷",
+          "group": "LNGSHOT",
+          "date": "2026-06",
+          "count": 51000
+        },
+        {
+          "name": "네이즈",
+          "group": "NAZE",
+          "date": "2026-06",
+          "count": 421
+        },
+        {
+          "name": "유어즈",
+          "group": "YUHZ",
+          "date": "2026-06",
+          "count": 2497
+        },
+        {
+          "name": "데일리디렉션",
+          "group": "DAILY:DIRECTION",
+          "date": "2026-06",
+          "count": 764
+        },
+        {
+          "name": "튜넥스",
+          "group": "TUNEXX",
+          "date": "2026-06",
+          "count": 3947
+        },
+        {
+          "name": "더씬드롬",
+          "group": "THE SSYNDROME",
+          "date": "2026-06",
+          "count": 171
+        },
+        {
+          "name": "모디세이",
+          "group": "MODYSSEY",
+          "date": "2026-06",
+          "count": 6915
+        },
+        {
+          "name": "키빗업",
+          "group": "KEYVITUP",
+          "date": "2026-06",
+          "count": 4446
+        },
+        {
+          "name": "앤더블",
+          "group": "AND2BLE",
+          "date": "2026-06",
+          "count": 105000
+        },
+        {
+          "name": "베이온",
+          "group": "VAYONN",
+          "date": "2026-06",
+          "count": 2885
         }
       ]
     },
@@ -24245,7 +25333,8 @@
         "2026-02",
         "2026-03",
         "2026-04",
-        "2026-05"
+        "2026-05",
+        "2026-06"
       ],
       "records": [
         {
@@ -38161,6 +39250,630 @@
           "group": "KEYVITUP",
           "date": "2026-05",
           "count": 11929
+        },
+        {
+          "name": "세븐틴",
+          "group": "SEVENTEEN",
+          "date": "2026-06",
+          "count": 13454749
+        },
+        {
+          "name": "방탄소년단",
+          "group": "BTS",
+          "date": "2026-06",
+          "count": 45178914
+        },
+        {
+          "name": "스트레이키즈",
+          "group": "Stray Kids",
+          "date": "2026-06",
+          "count": 11606486
+        },
+        {
+          "name": "엔시티 드림",
+          "group": "NCT DREAM",
+          "date": "2026-06",
+          "count": 10861473
+        },
+        {
+          "name": "투모로우바이투게더",
+          "group": "TXT",
+          "date": "2026-06",
+          "count": 11588616
+        },
+        {
+          "name": "엔하이픈",
+          "group": "ENHYPEN",
+          "date": "2026-06",
+          "count": 8252927
+        },
+        {
+          "name": "제로베이스원",
+          "group": "ZEROBASEONE",
+          "date": "2026-06",
+          "count": 1142113
+        },
+        {
+          "name": "엔시티 일이칠",
+          "group": "NCT 127",
+          "date": "2026-06",
+          "count": 9679968
+        },
+        {
+          "name": "플레이브",
+          "group": "PLAVE",
+          "date": "2026-06",
+          "count": 349711
+        },
+        {
+          "name": "트레저",
+          "group": "TREASURE",
+          "date": "2026-06",
+          "count": 2475698
+        },
+        {
+          "name": "라이즈",
+          "group": "RIIZE",
+          "date": "2026-06",
+          "count": 892843
+        },
+        {
+          "name": "보이넥스트도어",
+          "group": "BOYNEXTDOOR",
+          "date": "2026-06",
+          "count": 863185
+        },
+        {
+          "name": "더보이즈",
+          "group": "THE BOYZ",
+          "date": "2026-06",
+          "count": 1710730
+        },
+        {
+          "name": "투어스",
+          "group": "TWS",
+          "date": "2026-06",
+          "count": 463425
+        },
+        {
+          "name": "아이콘",
+          "group": "Ikon",
+          "date": "2026-06",
+          "count": 1145135
+        },
+        {
+          "name": "몬스타엑스",
+          "group": "MONSTA X",
+          "date": "2026-06",
+          "count": 4805675
+        },
+        {
+          "name": "아스트로",
+          "group": "ASTRO",
+          "date": "2026-06",
+          "count": 4370512
+        },
+        {
+          "name": "엑스디너리 히어로즈",
+          "group": "Xdinary Heroes",
+          "date": "2026-06",
+          "count": 473370
+        },
+        {
+          "name": "피원하모니",
+          "group": "P1Harmony",
+          "date": "2026-06",
+          "count": 595158
+        },
+        {
+          "name": "에스에프나인",
+          "group": "SF9",
+          "date": "2026-06",
+          "count": 759094
+        },
+        {
+          "name": "템페스트",
+          "group": "TEMPEST",
+          "date": "2026-06",
+          "count": 248022
+        },
+        {
+          "name": "에이비식스",
+          "group": "AB6IX",
+          "date": "2026-06",
+          "count": 545418
+        },
+        {
+          "name": "펜타곤",
+          "group": "PENTAGON",
+          "date": "2026-06",
+          "count": 1165156
+        },
+        {
+          "name": "오메가엑스",
+          "group": "OMEGA X",
+          "date": "2026-06",
+          "count": 128425
+        },
+        {
+          "name": "에이티즈",
+          "group": "ATEEZ",
+          "date": "2026-06",
+          "count": 4684757
+        },
+        {
+          "name": "이펙스",
+          "group": "EPEX",
+          "date": "2026-06",
+          "count": 185738
+        },
+        {
+          "name": "데이식스",
+          "group": "DAY6",
+          "date": "2026-06",
+          "count": 2211087
+        },
+        {
+          "name": "크래비티",
+          "group": "CRAVITY",
+          "date": "2026-06",
+          "count": 616752
+        },
+        {
+          "name": "원어스",
+          "group": "ONEUS",
+          "date": "2026-06",
+          "count": 763698
+        },
+        {
+          "name": "킥플립",
+          "group": "KickFlip",
+          "date": "2026-06",
+          "count": 130546
+        },
+        {
+          "name": "골든차일드",
+          "group": "Golden Child, GNCD",
+          "date": "2026-06",
+          "count": 309623
+        },
+        {
+          "name": "드리핀",
+          "group": "DRIPPIN",
+          "date": "2026-06",
+          "count": 153210
+        },
+        {
+          "name": "루네이트",
+          "group": "LUN8",
+          "date": "2026-06",
+          "count": 40362
+        },
+        {
+          "name": "넥스지",
+          "group": "NEXZ",
+          "date": "2026-06",
+          "count": 174523
+        },
+        {
+          "name": "에잇턴",
+          "group": "8TURN",
+          "date": "2026-06",
+          "count": 96332
+        },
+        {
+          "name": "씨아이엑스",
+          "group": "CIX",
+          "date": "2026-06",
+          "count": 390370
+        },
+        {
+          "name": "이븐",
+          "group": "EVNNE",
+          "date": "2026-06",
+          "count": 162903
+        },
+        {
+          "name": "나우즈",
+          "group": "NOWZ",
+          "date": "2026-06",
+          "count": 23279
+        },
+        {
+          "name": "더뉴식스",
+          "group": "THE NEW SIX",
+          "date": "2026-06",
+          "count": 165286
+        },
+        {
+          "name": "앰퍼샌드원",
+          "group": "AMPERS&ONE",
+          "date": "2026-06",
+          "count": 48331
+        },
+        {
+          "name": "파우",
+          "group": "POW",
+          "date": "2026-06",
+          "count": 62657
+        },
+        {
+          "name": "소디엑",
+          "group": "XODIAC",
+          "date": "2026-06",
+          "count": 141116
+        },
+        {
+          "name": "유나이트",
+          "group": "YOUNITE",
+          "date": "2026-06",
+          "count": 64648
+        },
+        {
+          "name": "배너",
+          "group": "VANNER",
+          "date": "2026-06",
+          "count": 43715
+        },
+        {
+          "name": "비에이이일칠삼",
+          "group": "BAE173",
+          "date": "2026-06",
+          "count": 128547
+        },
+        {
+          "name": "에이티투메이저",
+          "group": "82MAJOR",
+          "date": "2026-06",
+          "count": 50822
+        },
+        {
+          "name": "판타지보이즈",
+          "group": "FANTASY BOYS",
+          "date": "2026-06",
+          "count": 33783
+        },
+        {
+          "name": "더윈드",
+          "group": "The Wind",
+          "date": "2026-06",
+          "count": 29501
+        },
+        {
+          "name": "위아이",
+          "group": "WEi",
+          "date": "2026-06",
+          "count": 284713
+        },
+        {
+          "name": "휘브",
+          "group": "WHIB",
+          "date": "2026-06",
+          "count": 45642
+        },
+        {
+          "name": "다이몬",
+          "group": "DXMON",
+          "date": "2026-06",
+          "count": 11031
+        },
+        {
+          "name": "온앤오프",
+          "group": "ONF",
+          "date": "2026-06",
+          "count": 132821
+        },
+        {
+          "name": "미래소년",
+          "group": "MIRAE",
+          "date": "2026-06",
+          "count": 108435
+        },
+        {
+          "name": "엠씨엔디",
+          "group": "MCND",
+          "date": "2026-06",
+          "count": 269988
+        },
+        {
+          "name": "싸이커스",
+          "group": "xikers",
+          "date": "2026-06",
+          "count": 185681
+        },
+        {
+          "name": "누에라",
+          "group": "NouerA",
+          "date": "2026-06",
+          "count": 26910
+        },
+        {
+          "name": "엔싸인",
+          "group": "n.SSign",
+          "date": "2026-06",
+          "count": 34080
+        },
+        {
+          "name": "다크비",
+          "group": "DKB",
+          "date": "2026-06",
+          "count": 133978
+        },
+        {
+          "name": "에이티비오",
+          "group": "ATBO",
+          "date": "2026-06",
+          "count": 68232
+        },
+        {
+          "name": "엘라스트",
+          "group": "E'LAST",
+          "date": "2026-06",
+          "count": 182047
+        },
+        {
+          "name": "아크",
+          "group": "ARrC",
+          "date": "2026-06",
+          "count": 20409
+        },
+        {
+          "name": "노매드",
+          "group": "NOMAD",
+          "date": "2026-06",
+          "count": 18345
+        },
+        {
+          "name": "올아워즈",
+          "group": "ALL(H)OURS",
+          "date": "2026-06",
+          "count": 18957
+        },
+        {
+          "name": "트렌드지",
+          "group": "TRENDZ",
+          "date": "2026-06",
+          "count": 50061
+        },
+        {
+          "name": "나인아이",
+          "group": "NINE.i",
+          "date": "2026-06",
+          "count": 49141
+        },
+        {
+          "name": "세븐어스",
+          "group": "SEVENUS",
+          "date": "2026-06",
+          "count": 7112
+        },
+        {
+          "name": "에이머스",
+          "group": "AIMERS",
+          "date": "2026-06",
+          "count": 23402
+        },
+        {
+          "name": "원팩트",
+          "group": "ONE PACT",
+          "date": "2026-06",
+          "count": 50873
+        },
+        {
+          "name": "티아이오티",
+          "group": "TIOT",
+          "date": "2026-06",
+          "count": 66235
+        },
+        {
+          "name": "엔카이브",
+          "group": "NCHIVE",
+          "date": "2026-06",
+          "count": 11993
+        },
+        {
+          "name": "더킹덤",
+          "group": "The KingDom",
+          "date": "2026-06",
+          "count": 111328
+        },
+        {
+          "name": "블리처스",
+          "group": "BLITZERS",
+          "date": "2026-06",
+          "count": 54435
+        },
+        {
+          "name": "웨이커",
+          "group": "WAKER",
+          "date": "2026-06",
+          "count": 10318
+        },
+        {
+          "name": "워터파이어",
+          "group": "WATERFIRE",
+          "date": "2026-06",
+          "count": 5313
+        },
+        {
+          "name": "피커스",
+          "group": "PICKUS",
+          "date": "2026-06",
+          "count": 3984
+        },
+        {
+          "name": "어센트",
+          "group": "ASC2NT",
+          "date": "2026-06",
+          "count": 6489
+        },
+        {
+          "name": "하우",
+          "group": "HAWW",
+          "date": "2026-06",
+          "count": 11824
+        },
+        {
+          "name": "이스트샤인",
+          "group": "EASTSHINE",
+          "date": "2026-06",
+          "count": 4329
+        },
+        {
+          "name": "이오닛",
+          "group": "AEONIT",
+          "date": "2026-06",
+          "count": 5256
+        },
+        {
+          "name": "비디유",
+          "group": "B.D.U",
+          "date": "2026-06",
+          "count": 14333
+        },
+        {
+          "name": "데이차일드",
+          "group": "DayChild",
+          "date": "2026-06",
+          "count": 2031
+        },
+        {
+          "name": "드래곤포니",
+          "group": "Dragon Pony",
+          "date": "2026-06",
+          "count": 16425
+        },
+        {
+          "name": "클로즈 유어 아이즈",
+          "group": "CLOSE YOUR EYES",
+          "date": "2026-06",
+          "count": 79818
+        },
+        {
+          "name": "아홉",
+          "group": "AHOF",
+          "date": "2026-06",
+          "count": 137130
+        },
+        {
+          "name": "엑스러브",
+          "group": "XLOV",
+          "date": "2026-06",
+          "count": 158866
+        },
+        {
+          "name": "뉴비트",
+          "group": "NEWBEAT",
+          "date": "2026-06",
+          "count": 25082
+        },
+        {
+          "name": "아이딧",
+          "group": "IDID",
+          "date": "2026-06",
+          "count": 60519
+        },
+        {
+          "name": "비보이즈",
+          "group": "BE BOYS",
+          "date": "2026-06",
+          "count": 4582
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-06",
+          "count": 77282
+        },
+        {
+          "name": "아이덴티티",
+          "group": "idntt",
+          "date": "2026-06",
+          "count": 48898
+        },
+        {
+          "name": "코르티스",
+          "group": "CORTIS",
+          "date": "2026-06",
+          "count": 1118079
+        },
+        {
+          "name": "알파드라이브원",
+          "group": "ALPHA DRIVE ONE",
+          "date": "2026-06",
+          "count": 433442
+        },
+        {
+          "name": "엠빅",
+          "group": "AM8IC",
+          "date": "2026-06",
+          "count": 2620
+        },
+        {
+          "name": "에이엠피",
+          "group": "AxMxP",
+          "date": "2026-06",
+          "count": 13409
+        },
+        {
+          "name": "롱샷",
+          "group": "LNGSHOT",
+          "date": "2026-06",
+          "count": 249619
+        },
+        {
+          "name": "네이즈",
+          "group": "NAZE",
+          "date": "2026-06",
+          "count": 10001
+        },
+        {
+          "name": "유어즈",
+          "group": "YUHZ",
+          "date": "2026-06",
+          "count": 11585
+        },
+        {
+          "name": "데일리디렉션",
+          "group": "DAILY:DIRECTION",
+          "date": "2026-06",
+          "count": 16927
+        },
+        {
+          "name": "튜넥스",
+          "group": "TUNEXX",
+          "date": "2026-06",
+          "count": 19291
+        },
+        {
+          "name": "더씬드롬",
+          "group": "THE SSYNDROME",
+          "date": "2026-06",
+          "count": 5393
+        },
+        {
+          "name": "모디세이",
+          "group": "MODYSSEY",
+          "date": "2026-06",
+          "count": 44777
+        },
+        {
+          "name": "키빗업",
+          "group": "KEYVITUP",
+          "date": "2026-06",
+          "count": 12496
+        },
+        {
+          "name": "앤더블",
+          "group": "AND2BLE",
+          "date": "2026-06",
+          "count": 130772
+        },
+        {
+          "name": "베이온",
+          "group": "VAYONN",
+          "date": "2026-06",
+          "count": 12923
         }
       ]
     },
@@ -38192,7 +39905,8 @@
         "2026-02",
         "2026-03",
         "2026-04",
-        "2026-05"
+        "2026-05",
+        "2026-06"
       ],
       "records": [
         {
@@ -44698,6 +46412,348 @@
           "group": "YUHZ",
           "date": "2026-05",
           "count": 2143
+        },
+        {
+          "name": "세븐틴",
+          "group": "SEVENTEEN",
+          "date": "2026-06",
+          "count": 2132629
+        },
+        {
+          "name": "스트레이키즈",
+          "group": "Stray Kids",
+          "date": "2026-06",
+          "count": 564852
+        },
+        {
+          "name": "엔시티 드림",
+          "group": "NCT DREAM",
+          "date": "2026-06",
+          "count": 747670
+        },
+        {
+          "name": "투모로우바이투게더",
+          "group": "TXT",
+          "date": "2026-06",
+          "count": 795403
+        },
+        {
+          "name": "엔하이픈",
+          "group": "ENHYPEN",
+          "date": "2026-06",
+          "count": 697875
+        },
+        {
+          "name": "제로베이스원",
+          "group": "ZEROBASEONE",
+          "date": "2026-06",
+          "count": 485226
+        },
+        {
+          "name": "엔시티 일이칠",
+          "group": "NCT 127",
+          "date": "2026-06",
+          "count": 463004
+        },
+        {
+          "name": "플레이브",
+          "group": "PLAVE",
+          "date": "2026-06",
+          "count": 391008
+        },
+        {
+          "name": "트레저",
+          "group": "TREASURE",
+          "date": "2026-06",
+          "count": 228016
+        },
+        {
+          "name": "라이즈",
+          "group": "RIIZE",
+          "date": "2026-06",
+          "count": 634164
+        },
+        {
+          "name": "보이넥스트도어",
+          "group": "BOYNEXTDOOR",
+          "date": "2026-06",
+          "count": 153331
+        },
+        {
+          "name": "더보이즈",
+          "group": "THE BOYZ",
+          "date": "2026-06",
+          "count": 42651
+        },
+        {
+          "name": "투어스",
+          "group": "TWS",
+          "date": "2026-06",
+          "count": 463902
+        },
+        {
+          "name": "몬스타엑스",
+          "group": "MONSTA X",
+          "date": "2026-06",
+          "count": 25561
+        },
+        {
+          "name": "엑스디너리 히어로즈",
+          "group": "Xdinary Heroes",
+          "date": "2026-06",
+          "count": 67576
+        },
+        {
+          "name": "피원하모니",
+          "group": "P1Harmony",
+          "date": "2026-06",
+          "count": 101554
+        },
+        {
+          "name": "템페스트",
+          "group": "TEMPEST",
+          "date": "2026-06",
+          "count": 43580
+        },
+        {
+          "name": "펜타곤",
+          "group": "PENTAGON",
+          "date": "2026-06",
+          "count": 35206
+        },
+        {
+          "name": "오메가엑스",
+          "group": "OMEGA X",
+          "date": "2026-06",
+          "count": 17117
+        },
+        {
+          "name": "에이티즈",
+          "group": "ATEEZ",
+          "date": "2026-06",
+          "count": 56087
+        },
+        {
+          "name": "이펙스",
+          "group": "EPEX",
+          "date": "2026-06",
+          "count": 4307
+        },
+        {
+          "name": "크래비티",
+          "group": "CRAVITY",
+          "date": "2026-06",
+          "count": 55262
+        },
+        {
+          "name": "킥플립",
+          "group": "KickFlip",
+          "date": "2026-06",
+          "count": 50916
+        },
+        {
+          "name": "드리핀",
+          "group": "DRIPPIN",
+          "date": "2026-06",
+          "count": 15271
+        },
+        {
+          "name": "루네이트",
+          "group": "LUN8",
+          "date": "2026-06",
+          "count": 2819
+        },
+        {
+          "name": "넥스지",
+          "group": "NEXZ",
+          "date": "2026-06",
+          "count": 84894
+        },
+        {
+          "name": "에잇턴",
+          "group": "8TURN",
+          "date": "2026-06",
+          "count": 8854
+        },
+        {
+          "name": "이븐",
+          "group": "EVNNE",
+          "date": "2026-06",
+          "count": 26792
+        },
+        {
+          "name": "나우즈",
+          "group": "NOWZ",
+          "date": "2026-06",
+          "count": 21821
+        },
+        {
+          "name": "앰퍼샌드원",
+          "group": "AMPERS&ONE",
+          "date": "2026-06",
+          "count": 14046
+        },
+        {
+          "name": "파우",
+          "group": "POW",
+          "date": "2026-06",
+          "count": 24538
+        },
+        {
+          "name": "소디엑",
+          "group": "XODIAC",
+          "date": "2026-06",
+          "count": 3999
+        },
+        {
+          "name": "유나이트",
+          "group": "YOUNITE",
+          "date": "2026-06",
+          "count": 7213
+        },
+        {
+          "name": "배너",
+          "group": "VANNER",
+          "date": "2026-06",
+          "count": 6175
+        },
+        {
+          "name": "휘브",
+          "group": "WHIB",
+          "date": "2026-06",
+          "count": 5051
+        },
+        {
+          "name": "다이몬",
+          "group": "DXMON",
+          "date": "2026-06",
+          "count": 25124
+        },
+        {
+          "name": "싸이커스",
+          "group": "xikers",
+          "date": "2026-06",
+          "count": 11188
+        },
+        {
+          "name": "누에라",
+          "group": "NouerA",
+          "date": "2026-06",
+          "count": 21042
+        },
+        {
+          "name": "올아워즈",
+          "group": "ALL(H)OURS",
+          "date": "2026-06",
+          "count": 4160
+        },
+        {
+          "name": "엔카이브",
+          "group": "NCHIVE",
+          "date": "2026-06",
+          "count": 298
+        },
+        {
+          "name": "블리처스",
+          "group": "BLITZERS",
+          "date": "2026-06",
+          "count": 1010
+        },
+        {
+          "name": "클로즈 유어 아이즈",
+          "group": "CLOSE YOUR EYES",
+          "date": "2026-06",
+          "count": 28897
+        },
+        {
+          "name": "아홉",
+          "group": "AHOF",
+          "date": "2026-06",
+          "count": 14817
+        },
+        {
+          "name": "아이딧",
+          "group": "IDID",
+          "date": "2026-06",
+          "count": 14753
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-06",
+          "count": 268200
+        },
+        {
+          "name": "아이덴티티",
+          "group": "idntt",
+          "date": "2026-06",
+          "count": 12243
+        },
+        {
+          "name": "코르티스",
+          "group": "CORTIS",
+          "date": "2026-06",
+          "count": 1057473
+        },
+        {
+          "name": "알파드라이브원",
+          "group": "ALPHA DRIVE ONE",
+          "date": "2026-06",
+          "count": 138058
+        },
+        {
+          "name": "엠빅",
+          "group": "AM8IC",
+          "date": "2026-06",
+          "count": 1374
+        },
+        {
+          "name": "에이엠피",
+          "group": "AxMxP",
+          "date": "2026-06",
+          "count": 8998
+        },
+        {
+          "name": "롱샷",
+          "group": "LNGSHOT",
+          "date": "2026-06",
+          "count": 126898
+        },
+        {
+          "name": "유어즈",
+          "group": "YUHZ",
+          "date": "2026-06",
+          "count": 2602
+        },
+        {
+          "name": "튜넥스",
+          "group": "TUNEXX",
+          "date": "2026-06",
+          "count": 1528
+        },
+        {
+          "name": "모디세이",
+          "group": "MODYSSEY",
+          "date": "2026-06",
+          "count": 22880
+        },
+        {
+          "name": "키빗업",
+          "group": "KEYVITUP",
+          "date": "2026-06",
+          "count": 6309
+        },
+        {
+          "name": "앤더블",
+          "group": "AND2BLE",
+          "date": "2026-06",
+          "count": 162951
+        },
+        {
+          "name": "베이온",
+          "group": "VAYONN",
+          "date": "2026-06",
+          "count": 2911
         }
       ]
     },
@@ -44729,7 +46785,8 @@
         "2026-02",
         "2026-03",
         "2026-04",
-        "2026-05"
+        "2026-05",
+        "2026-06"
       ],
       "records": [
         {
@@ -58639,6 +60696,630 @@
           "group": "KEYVITUP",
           "date": "2026-05",
           "count": 29300
+        },
+        {
+          "name": "세븐틴",
+          "group": "SEVENTEEN",
+          "date": "2026-06",
+          "count": 17600000
+        },
+        {
+          "name": "방탄소년단",
+          "group": "BTS",
+          "date": "2026-06",
+          "count": 84900000
+        },
+        {
+          "name": "스트레이키즈",
+          "group": "Stray Kids",
+          "date": "2026-06",
+          "count": 24200000
+        },
+        {
+          "name": "엔시티 드림",
+          "group": "NCT DREAM",
+          "date": "2026-06",
+          "count": 7080000
+        },
+        {
+          "name": "투모로우바이투게더",
+          "group": "TXT",
+          "date": "2026-06",
+          "count": 13600000
+        },
+        {
+          "name": "엔하이픈",
+          "group": "ENHYPEN",
+          "date": "2026-06",
+          "count": 13900000
+        },
+        {
+          "name": "제로베이스원",
+          "group": "ZEROBASEONE",
+          "date": "2026-06",
+          "count": 2120000
+        },
+        {
+          "name": "엔시티 일이칠",
+          "group": "NCT 127",
+          "date": "2026-06",
+          "count": 5630000
+        },
+        {
+          "name": "플레이브",
+          "group": "PLAVE",
+          "date": "2026-06",
+          "count": 1190000
+        },
+        {
+          "name": "트레저",
+          "group": "TREASURE",
+          "date": "2026-06",
+          "count": 8020000
+        },
+        {
+          "name": "라이즈",
+          "group": "RIIZE",
+          "date": "2026-06",
+          "count": 2050000
+        },
+        {
+          "name": "보이넥스트도어",
+          "group": "BOYNEXTDOOR",
+          "date": "2026-06",
+          "count": 2350000
+        },
+        {
+          "name": "더보이즈",
+          "group": "THE BOYZ",
+          "date": "2026-06",
+          "count": 2250000
+        },
+        {
+          "name": "투어스",
+          "group": "TWS",
+          "date": "2026-06",
+          "count": 2020000
+        },
+        {
+          "name": "아이콘",
+          "group": "Ikon",
+          "date": "2026-06",
+          "count": 8660000
+        },
+        {
+          "name": "몬스타엑스",
+          "group": "MONSTA X",
+          "date": "2026-06",
+          "count": 2610000
+        },
+        {
+          "name": "아스트로",
+          "group": "ASTRO",
+          "date": "2026-06",
+          "count": 5520000
+        },
+        {
+          "name": "엑스디너리 히어로즈",
+          "group": "Xdinary Heroes",
+          "date": "2026-06",
+          "count": 1240000
+        },
+        {
+          "name": "피원하모니",
+          "group": "P1Harmony",
+          "date": "2026-06",
+          "count": 1730000
+        },
+        {
+          "name": "에스에프나인",
+          "group": "SF9",
+          "date": "2026-06",
+          "count": 995000
+        },
+        {
+          "name": "템페스트",
+          "group": "TEMPEST",
+          "date": "2026-06",
+          "count": 511000
+        },
+        {
+          "name": "에이비식스",
+          "group": "AB6IX",
+          "date": "2026-06",
+          "count": 503000
+        },
+        {
+          "name": "펜타곤",
+          "group": "PENTAGON",
+          "date": "2026-06",
+          "count": 1690000
+        },
+        {
+          "name": "오메가엑스",
+          "group": "OMEGA X",
+          "date": "2026-06",
+          "count": 394000
+        },
+        {
+          "name": "에이티즈",
+          "group": "ATEEZ",
+          "date": "2026-06",
+          "count": 4930000
+        },
+        {
+          "name": "이펙스",
+          "group": "EPEX",
+          "date": "2026-06",
+          "count": 557000
+        },
+        {
+          "name": "데이식스",
+          "group": "DAY6",
+          "date": "2026-06",
+          "count": 2290000
+        },
+        {
+          "name": "크래비티",
+          "group": "CRAVITY",
+          "date": "2026-06",
+          "count": 890000
+        },
+        {
+          "name": "원어스",
+          "group": "ONEUS",
+          "date": "2026-06",
+          "count": 1590000
+        },
+        {
+          "name": "킥플립",
+          "group": "KickFlip",
+          "date": "2026-06",
+          "count": 677000
+        },
+        {
+          "name": "골든차일드",
+          "group": "Golden Child, GNCD",
+          "date": "2026-06",
+          "count": 378000
+        },
+        {
+          "name": "드리핀",
+          "group": "DRIPPIN",
+          "date": "2026-06",
+          "count": 518000
+        },
+        {
+          "name": "루네이트",
+          "group": "LUN8",
+          "date": "2026-06",
+          "count": 941000
+        },
+        {
+          "name": "넥스지",
+          "group": "NEXZ",
+          "date": "2026-06",
+          "count": 550000
+        },
+        {
+          "name": "에잇턴",
+          "group": "8TURN",
+          "date": "2026-06",
+          "count": 1270000
+        },
+        {
+          "name": "씨아이엑스",
+          "group": "CIX",
+          "date": "2026-06",
+          "count": 1010000
+        },
+        {
+          "name": "이븐",
+          "group": "EVNNE",
+          "date": "2026-06",
+          "count": 653000
+        },
+        {
+          "name": "나우즈",
+          "group": "NOWZ",
+          "date": "2026-06",
+          "count": 179000
+        },
+        {
+          "name": "더뉴식스",
+          "group": "THE NEW SIX",
+          "date": "2026-06",
+          "count": 805000
+        },
+        {
+          "name": "앰퍼샌드원",
+          "group": "AMPERS&ONE",
+          "date": "2026-06",
+          "count": 339000
+        },
+        {
+          "name": "파우",
+          "group": "POW",
+          "date": "2026-06",
+          "count": 191000
+        },
+        {
+          "name": "소디엑",
+          "group": "XODIAC",
+          "date": "2026-06",
+          "count": 722000
+        },
+        {
+          "name": "유나이트",
+          "group": "YOUNITE",
+          "date": "2026-06",
+          "count": 126000
+        },
+        {
+          "name": "배너",
+          "group": "VANNER",
+          "date": "2026-06",
+          "count": 99600
+        },
+        {
+          "name": "비에이이일칠삼",
+          "group": "BAE173",
+          "date": "2026-06",
+          "count": 250000
+        },
+        {
+          "name": "에이티투메이저",
+          "group": "82MAJOR",
+          "date": "2026-06",
+          "count": 552000
+        },
+        {
+          "name": "판타지보이즈",
+          "group": "FANTASY BOYS",
+          "date": "2026-06",
+          "count": 74700
+        },
+        {
+          "name": "더윈드",
+          "group": "The Wind",
+          "date": "2026-06",
+          "count": 734000
+        },
+        {
+          "name": "위아이",
+          "group": "WEi",
+          "date": "2026-06",
+          "count": 694000
+        },
+        {
+          "name": "휘브",
+          "group": "WHIB",
+          "date": "2026-06",
+          "count": 646000
+        },
+        {
+          "name": "다이몬",
+          "group": "DXMON",
+          "date": "2026-06",
+          "count": 66200
+        },
+        {
+          "name": "온앤오프",
+          "group": "ONF",
+          "date": "2026-06",
+          "count": 280000
+        },
+        {
+          "name": "미래소년",
+          "group": "MIRAE",
+          "date": "2026-06",
+          "count": 394000
+        },
+        {
+          "name": "엠씨엔디",
+          "group": "MCND",
+          "date": "2026-06",
+          "count": 376000
+        },
+        {
+          "name": "싸이커스",
+          "group": "xikers",
+          "date": "2026-06",
+          "count": 1020000
+        },
+        {
+          "name": "누에라",
+          "group": "NouerA",
+          "date": "2026-06",
+          "count": 225000
+        },
+        {
+          "name": "엔싸인",
+          "group": "n.SSign",
+          "date": "2026-06",
+          "count": 97200
+        },
+        {
+          "name": "다크비",
+          "group": "DKB",
+          "date": "2026-06",
+          "count": 217000
+        },
+        {
+          "name": "에이티비오",
+          "group": "ATBO",
+          "date": "2026-06",
+          "count": 155000
+        },
+        {
+          "name": "엘라스트",
+          "group": "E'LAST",
+          "date": "2026-06",
+          "count": 284000
+        },
+        {
+          "name": "아크",
+          "group": "ARrC",
+          "date": "2026-06",
+          "count": 410000
+        },
+        {
+          "name": "노매드",
+          "group": "NOMAD",
+          "date": "2026-06",
+          "count": 60100
+        },
+        {
+          "name": "올아워즈",
+          "group": "ALL(H)OURS",
+          "date": "2026-06",
+          "count": 359000
+        },
+        {
+          "name": "트렌드지",
+          "group": "TRENDZ",
+          "date": "2026-06",
+          "count": 189000
+        },
+        {
+          "name": "나인아이",
+          "group": "NINE.i",
+          "date": "2026-06",
+          "count": 237000
+        },
+        {
+          "name": "세븐어스",
+          "group": "SEVENUS",
+          "date": "2026-06",
+          "count": 23800
+        },
+        {
+          "name": "에이머스",
+          "group": "AIMERS",
+          "date": "2026-06",
+          "count": 62100
+        },
+        {
+          "name": "원팩트",
+          "group": "ONE PACT",
+          "date": "2026-06",
+          "count": 158000
+        },
+        {
+          "name": "티아이오티",
+          "group": "TIOT",
+          "date": "2026-06",
+          "count": 86600
+        },
+        {
+          "name": "엔카이브",
+          "group": "NCHIVE",
+          "date": "2026-06",
+          "count": 82300
+        },
+        {
+          "name": "더킹덤",
+          "group": "The KingDom",
+          "date": "2026-06",
+          "count": 380000
+        },
+        {
+          "name": "블리처스",
+          "group": "BLITZERS",
+          "date": "2026-06",
+          "count": 219000
+        },
+        {
+          "name": "웨이커",
+          "group": "WAKER",
+          "date": "2026-06",
+          "count": 78700
+        },
+        {
+          "name": "워터파이어",
+          "group": "WATERFIRE",
+          "date": "2026-06",
+          "count": 5430
+        },
+        {
+          "name": "피커스",
+          "group": "PICKUS",
+          "date": "2026-06",
+          "count": 8860
+        },
+        {
+          "name": "어센트",
+          "group": "ASC2NT",
+          "date": "2026-06",
+          "count": 95800
+        },
+        {
+          "name": "하우",
+          "group": "HAWW",
+          "date": "2026-06",
+          "count": 52600
+        },
+        {
+          "name": "이스트샤인",
+          "group": "EASTSHINE",
+          "date": "2026-06",
+          "count": 44100
+        },
+        {
+          "name": "이오닛",
+          "group": "AEONIT",
+          "date": "2026-06",
+          "count": 19600
+        },
+        {
+          "name": "비디유",
+          "group": "B.D.U",
+          "date": "2026-06",
+          "count": 34800
+        },
+        {
+          "name": "데이차일드",
+          "group": "DayChild",
+          "date": "2026-06",
+          "count": 3920
+        },
+        {
+          "name": "드래곤포니",
+          "group": "Dragon Pony",
+          "date": "2026-06",
+          "count": 41500
+        },
+        {
+          "name": "클로즈 유어 아이즈",
+          "group": "CLOSE YOUR EYES",
+          "date": "2026-06",
+          "count": 717000
+        },
+        {
+          "name": "아홉",
+          "group": "AHOF",
+          "date": "2026-06",
+          "count": 569000
+        },
+        {
+          "name": "엑스러브",
+          "group": "XLOV",
+          "date": "2026-06",
+          "count": 1150000
+        },
+        {
+          "name": "뉴비트",
+          "group": "NEWBEAT",
+          "date": "2026-06",
+          "count": 96400
+        },
+        {
+          "name": "아이딧",
+          "group": "IDID",
+          "date": "2026-06",
+          "count": 170000
+        },
+        {
+          "name": "비보이즈",
+          "group": "BE BOYS",
+          "date": "2026-06",
+          "count": 15500
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-06",
+          "count": 1110000
+        },
+        {
+          "name": "아이덴티티",
+          "group": "idntt",
+          "date": "2026-06",
+          "count": 838000
+        },
+        {
+          "name": "코르티스",
+          "group": "CORTIS",
+          "date": "2026-06",
+          "count": 5350000
+        },
+        {
+          "name": "알파드라이브원",
+          "group": "ALPHA DRIVE ONE",
+          "date": "2026-06",
+          "count": 746000
+        },
+        {
+          "name": "엠빅",
+          "group": "AM8IC",
+          "date": "2026-06",
+          "count": 12500
+        },
+        {
+          "name": "에이엠피",
+          "group": "AxMxP",
+          "date": "2026-06",
+          "count": 314000
+        },
+        {
+          "name": "롱샷",
+          "group": "LNGSHOT",
+          "date": "2026-06",
+          "count": 1700000
+        },
+        {
+          "name": "네이즈",
+          "group": "NAZE",
+          "date": "2026-06",
+          "count": 106000
+        },
+        {
+          "name": "유어즈",
+          "group": "YUHZ",
+          "date": "2026-06",
+          "count": 224000
+        },
+        {
+          "name": "데일리디렉션",
+          "group": "DAILY:DIRECTION",
+          "date": "2026-06",
+          "count": 148000
+        },
+        {
+          "name": "튜넥스",
+          "group": "TUNEXX",
+          "date": "2026-06",
+          "count": 110000
+        },
+        {
+          "name": "더씬드롬",
+          "group": "THE SSYNDROME",
+          "date": "2026-06",
+          "count": 27900
+        },
+        {
+          "name": "모디세이",
+          "group": "MODYSSEY",
+          "date": "2026-06",
+          "count": 76100
+        },
+        {
+          "name": "키빗업",
+          "group": "KEYVITUP",
+          "date": "2026-06",
+          "count": 32900
+        },
+        {
+          "name": "앤더블",
+          "group": "AND2BLE",
+          "date": "2026-06",
+          "count": 239000
+        },
+        {
+          "name": "베이온",
+          "group": "VAYONN",
+          "date": "2026-06",
+          "count": 15100
         }
       ]
     },
@@ -58670,7 +61351,8 @@
         "2026-02",
         "2026-03",
         "2026-04",
-        "2026-05"
+        "2026-05",
+        "2026-06"
       ],
       "records": [
         {
@@ -71950,6 +74632,612 @@
           "group": "THE SSYNDROME",
           "date": "2026-05",
           "count": 36
+        },
+        {
+          "name": "세븐틴",
+          "group": "SEVENTEEN",
+          "date": "2026-06",
+          "count": 2110000
+        },
+        {
+          "name": "방탄소년단",
+          "group": "BTS",
+          "date": "2026-06",
+          "count": 2795000
+        },
+        {
+          "name": "스트레이키즈",
+          "group": "Stray Kids",
+          "date": "2026-06",
+          "count": 751000
+        },
+        {
+          "name": "엔시티 드림",
+          "group": "NCT DREAM",
+          "date": "2026-06",
+          "count": 765000
+        },
+        {
+          "name": "투모로우바이투게더",
+          "group": "TXT",
+          "date": "2026-06",
+          "count": 714000
+        },
+        {
+          "name": "엔하이픈",
+          "group": "ENHYPEN",
+          "date": "2026-06",
+          "count": 770000
+        },
+        {
+          "name": "제로베이스원",
+          "group": "ZEROBASEONE",
+          "date": "2026-06",
+          "count": 310000
+        },
+        {
+          "name": "엔시티 일이칠",
+          "group": "NCT 127",
+          "date": "2026-06",
+          "count": 484000
+        },
+        {
+          "name": "플레이브",
+          "group": "PLAVE",
+          "date": "2026-06",
+          "count": 97000
+        },
+        {
+          "name": "트레저",
+          "group": "TREASURE",
+          "date": "2026-06",
+          "count": 304000
+        },
+        {
+          "name": "라이즈",
+          "group": "RIIZE",
+          "date": "2026-06",
+          "count": 515000
+        },
+        {
+          "name": "보이넥스트도어",
+          "group": "BOYNEXTDOOR",
+          "date": "2026-06",
+          "count": 201000
+        },
+        {
+          "name": "더보이즈",
+          "group": "THE BOYZ",
+          "date": "2026-06",
+          "count": 98000
+        },
+        {
+          "name": "투어스",
+          "group": "TWS",
+          "date": "2026-06",
+          "count": 281000
+        },
+        {
+          "name": "아이콘",
+          "group": "Ikon",
+          "date": "2026-06",
+          "count": 1434000
+        },
+        {
+          "name": "몬스타엑스",
+          "group": "MONSTA X",
+          "date": "2026-06",
+          "count": 212000
+        },
+        {
+          "name": "아스트로",
+          "group": "ASTRO",
+          "date": "2026-06",
+          "count": 159000
+        },
+        {
+          "name": "엑스디너리 히어로즈",
+          "group": "Xdinary Heroes",
+          "date": "2026-06",
+          "count": 91000
+        },
+        {
+          "name": "피원하모니",
+          "group": "P1Harmony",
+          "date": "2026-06",
+          "count": 79000
+        },
+        {
+          "name": "에스에프나인",
+          "group": "SF9",
+          "date": "2026-06",
+          "count": 63000
+        },
+        {
+          "name": "템페스트",
+          "group": "TEMPEST",
+          "date": "2026-06",
+          "count": 21000
+        },
+        {
+          "name": "에이비식스",
+          "group": "AB6IX",
+          "date": "2026-06",
+          "count": 56000
+        },
+        {
+          "name": "펜타곤",
+          "group": "PENTAGON",
+          "date": "2026-06",
+          "count": 98000
+        },
+        {
+          "name": "오메가엑스",
+          "group": "OMEGA X",
+          "date": "2026-06",
+          "count": 29000
+        },
+        {
+          "name": "에이티즈",
+          "group": "ATEEZ",
+          "date": "2026-06",
+          "count": 62000
+        },
+        {
+          "name": "이펙스",
+          "group": "EPEX",
+          "date": "2026-06",
+          "count": 26000
+        },
+        {
+          "name": "데이식스",
+          "group": "DAY6",
+          "date": "2026-06",
+          "count": 129000
+        },
+        {
+          "name": "크래비티",
+          "group": "CRAVITY",
+          "date": "2026-06",
+          "count": 65000
+        },
+        {
+          "name": "원어스",
+          "group": "ONEUS",
+          "date": "2026-06",
+          "count": 51000
+        },
+        {
+          "name": "킥플립",
+          "group": "KickFlip",
+          "date": "2026-06",
+          "count": 29000
+        },
+        {
+          "name": "골든차일드",
+          "group": "Golden Child, GNCD",
+          "date": "2026-06",
+          "count": 21000
+        },
+        {
+          "name": "드리핀",
+          "group": "DRIPPIN",
+          "date": "2026-06",
+          "count": 15000
+        },
+        {
+          "name": "루네이트",
+          "group": "LUN8",
+          "date": "2026-06",
+          "count": 9015
+        },
+        {
+          "name": "넥스지",
+          "group": "NEXZ",
+          "date": "2026-06",
+          "count": 26000
+        },
+        {
+          "name": "에잇턴",
+          "group": "8TURN",
+          "date": "2026-06",
+          "count": 9076
+        },
+        {
+          "name": "씨아이엑스",
+          "group": "CIX",
+          "date": "2026-06",
+          "count": 28000
+        },
+        {
+          "name": "이븐",
+          "group": "EVNNE",
+          "date": "2026-06",
+          "count": 11000
+        },
+        {
+          "name": "나우즈",
+          "group": "NOWZ",
+          "date": "2026-06",
+          "count": 11000
+        },
+        {
+          "name": "더뉴식스",
+          "group": "THE NEW SIX",
+          "date": "2026-06",
+          "count": 11000
+        },
+        {
+          "name": "앰퍼샌드원",
+          "group": "AMPERS&ONE",
+          "date": "2026-06",
+          "count": 7588
+        },
+        {
+          "name": "소디엑",
+          "group": "XODIAC",
+          "date": "2026-06",
+          "count": 4720
+        },
+        {
+          "name": "유나이트",
+          "group": "YOUNITE",
+          "date": "2026-06",
+          "count": 7129
+        },
+        {
+          "name": "배너",
+          "group": "VANNER",
+          "date": "2026-06",
+          "count": 5630
+        },
+        {
+          "name": "비에이이일칠삼",
+          "group": "BAE173",
+          "date": "2026-06",
+          "count": 4061
+        },
+        {
+          "name": "에이티투메이저",
+          "group": "82MAJOR",
+          "date": "2026-06",
+          "count": 30000
+        },
+        {
+          "name": "판타지보이즈",
+          "group": "FANTASY BOYS",
+          "date": "2026-06",
+          "count": 3360
+        },
+        {
+          "name": "더윈드",
+          "group": "The Wind",
+          "date": "2026-06",
+          "count": 7047
+        },
+        {
+          "name": "위아이",
+          "group": "WEi",
+          "date": "2026-06",
+          "count": 13000
+        },
+        {
+          "name": "휘브",
+          "group": "WHIB",
+          "date": "2026-06",
+          "count": 2348
+        },
+        {
+          "name": "다이몬",
+          "group": "DXMON",
+          "date": "2026-06",
+          "count": 4090
+        },
+        {
+          "name": "온앤오프",
+          "group": "ONF",
+          "date": "2026-06",
+          "count": 16000
+        },
+        {
+          "name": "미래소년",
+          "group": "MIRAE",
+          "date": "2026-06",
+          "count": 3653
+        },
+        {
+          "name": "엠씨엔디",
+          "group": "MCND",
+          "date": "2026-06",
+          "count": 2625
+        },
+        {
+          "name": "싸이커스",
+          "group": "xikers",
+          "date": "2026-06",
+          "count": 5220
+        },
+        {
+          "name": "누에라",
+          "group": "NouerA",
+          "date": "2026-06",
+          "count": 7136
+        },
+        {
+          "name": "엔싸인",
+          "group": "n.SSign",
+          "date": "2026-06",
+          "count": 2217
+        },
+        {
+          "name": "다크비",
+          "group": "DKB",
+          "date": "2026-06",
+          "count": 4175
+        },
+        {
+          "name": "에이티비오",
+          "group": "ATBO",
+          "date": "2026-06",
+          "count": 1886
+        },
+        {
+          "name": "엘라스트",
+          "group": "E'LAST",
+          "date": "2026-06",
+          "count": 2859
+        },
+        {
+          "name": "아크",
+          "group": "ARrC",
+          "date": "2026-06",
+          "count": 1511
+        },
+        {
+          "name": "노매드",
+          "group": "NOMAD",
+          "date": "2026-06",
+          "count": 1299
+        },
+        {
+          "name": "올아워즈",
+          "group": "ALL(H)OURS",
+          "date": "2026-06",
+          "count": 1803
+        },
+        {
+          "name": "트렌드지",
+          "group": "TRENDZ",
+          "date": "2026-06",
+          "count": 2466
+        },
+        {
+          "name": "나인아이",
+          "group": "NINE.i",
+          "date": "2026-06",
+          "count": 3545
+        },
+        {
+          "name": "세븐어스",
+          "group": "SEVENUS",
+          "date": "2026-06",
+          "count": 3193
+        },
+        {
+          "name": "에이머스",
+          "group": "AIMERS",
+          "date": "2026-06",
+          "count": 1610
+        },
+        {
+          "name": "원팩트",
+          "group": "ONE PACT",
+          "date": "2026-06",
+          "count": 3050
+        },
+        {
+          "name": "티아이오티",
+          "group": "TIOT",
+          "date": "2026-06",
+          "count": 1322
+        },
+        {
+          "name": "엔카이브",
+          "group": "NCHIVE",
+          "date": "2026-06",
+          "count": 309
+        },
+        {
+          "name": "더킹덤",
+          "group": "The KingDom",
+          "date": "2026-06",
+          "count": 5399
+        },
+        {
+          "name": "블리처스",
+          "group": "BLITZERS",
+          "date": "2026-06",
+          "count": 1849
+        },
+        {
+          "name": "웨이커",
+          "group": "WAKER",
+          "date": "2026-06",
+          "count": 240
+        },
+        {
+          "name": "워터파이어",
+          "group": "WATERFIRE",
+          "date": "2026-06",
+          "count": 130
+        },
+        {
+          "name": "피커스",
+          "group": "PICKUS",
+          "date": "2026-06",
+          "count": 108
+        },
+        {
+          "name": "어센트",
+          "group": "ASC2NT",
+          "date": "2026-06",
+          "count": 313
+        },
+        {
+          "name": "하우",
+          "group": "HAWW",
+          "date": "2026-06",
+          "count": 318
+        },
+        {
+          "name": "이스트샤인",
+          "group": "EASTSHINE",
+          "date": "2026-06",
+          "count": 184
+        },
+        {
+          "name": "이오닛",
+          "group": "AEONIT",
+          "date": "2026-06",
+          "count": 161
+        },
+        {
+          "name": "비디유",
+          "group": "B.D.U",
+          "date": "2026-06",
+          "count": 206
+        },
+        {
+          "name": "드래곤포니",
+          "group": "Dragon Pony",
+          "date": "2026-06",
+          "count": 523
+        },
+        {
+          "name": "클로즈 유어 아이즈",
+          "group": "CLOSE YOUR EYES",
+          "date": "2026-06",
+          "count": 38000
+        },
+        {
+          "name": "아홉",
+          "group": "AHOF",
+          "date": "2026-06",
+          "count": 6757
+        },
+        {
+          "name": "엑스러브",
+          "group": "XLOV",
+          "date": "2026-06",
+          "count": 11000
+        },
+        {
+          "name": "뉴비트",
+          "group": "NEWBEAT",
+          "date": "2026-06",
+          "count": 1344
+        },
+        {
+          "name": "아이딧",
+          "group": "IDID",
+          "date": "2026-06",
+          "count": 5466
+        },
+        {
+          "name": "비보이즈",
+          "group": "BE BOYS",
+          "date": "2026-06",
+          "count": 45
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-06",
+          "count": 160000
+        },
+        {
+          "name": "아이덴티티",
+          "group": "idntt",
+          "date": "2026-06",
+          "count": 5567
+        },
+        {
+          "name": "코르티스",
+          "group": "CORTIS",
+          "date": "2026-06",
+          "count": 703000
+        },
+        {
+          "name": "알파드라이브원",
+          "group": "ALPHA DRIVE ONE",
+          "date": "2026-06",
+          "count": 41000
+        },
+        {
+          "name": "엠빅",
+          "group": "AM8IC",
+          "date": "2026-06",
+          "count": 705
+        },
+        {
+          "name": "에이엠피",
+          "group": "AxMxP",
+          "date": "2026-06",
+          "count": 4032
+        },
+        {
+          "name": "롱샷",
+          "group": "LNGSHOT",
+          "date": "2026-06",
+          "count": 104000
+        },
+        {
+          "name": "네이즈",
+          "group": "NAZE",
+          "date": "2026-06",
+          "count": 163
+        },
+        {
+          "name": "유어즈",
+          "group": "YUHZ",
+          "date": "2026-06",
+          "count": 292
+        },
+        {
+          "name": "데일리디렉션",
+          "group": "DAILY:DIRECTION",
+          "date": "2026-06",
+          "count": 353
+        },
+        {
+          "name": "튜넥스",
+          "group": "TUNEXX",
+          "date": "2026-06",
+          "count": 1506
+        },
+        {
+          "name": "더씬드롬",
+          "group": "THE SSYNDROME",
+          "date": "2026-06",
+          "count": 37
+        },
+        {
+          "name": "모디세이",
+          "group": "MODYSSEY",
+          "date": "2026-06",
+          "count": 4527
+        },
+        {
+          "name": "키빗업",
+          "group": "KEYVITUP",
+          "date": "2026-06",
+          "count": 2519
+        },
+        {
+          "name": "앤더블",
+          "group": "AND2BLE",
+          "date": "2026-06",
+          "count": 63000
         }
       ]
     },
@@ -71981,7 +75269,8 @@
         "2026-02",
         "2026-03",
         "2026-04",
-        "2026-05"
+        "2026-05",
+        "2026-06"
       ],
       "records": [
         {
@@ -85675,6 +88964,624 @@
           "group": "KEYVITUP",
           "date": "2026-05",
           "count": 242953
+        },
+        {
+          "name": "세븐틴",
+          "group": "SEVENTEEN",
+          "date": "2026-06",
+          "count": 4969304
+        },
+        {
+          "name": "방탄소년단",
+          "group": "BTS",
+          "date": "2026-06",
+          "count": 37421352
+        },
+        {
+          "name": "스트레이키즈",
+          "group": "Stray Kids",
+          "date": "2026-06",
+          "count": 9867441
+        },
+        {
+          "name": "엔시티 드림",
+          "group": "NCT DREAM",
+          "date": "2026-06",
+          "count": 2247715
+        },
+        {
+          "name": "투모로우바이투게더",
+          "group": "TXT",
+          "date": "2026-06",
+          "count": 6433132
+        },
+        {
+          "name": "엔하이픈",
+          "group": "ENHYPEN",
+          "date": "2026-06",
+          "count": 8856671
+        },
+        {
+          "name": "제로베이스원",
+          "group": "ZEROBASEONE",
+          "date": "2026-06",
+          "count": 1761848
+        },
+        {
+          "name": "엔시티 일이칠",
+          "group": "NCT 127",
+          "date": "2026-06",
+          "count": 2232839
+        },
+        {
+          "name": "플레이브",
+          "group": "PLAVE",
+          "date": "2026-06",
+          "count": 663207
+        },
+        {
+          "name": "트레저",
+          "group": "TREASURE",
+          "date": "2026-06",
+          "count": 2641917
+        },
+        {
+          "name": "라이즈",
+          "group": "RIIZE",
+          "date": "2026-06",
+          "count": 3077130
+        },
+        {
+          "name": "보이넥스트도어",
+          "group": "BOYNEXTDOOR",
+          "date": "2026-06",
+          "count": 3737567
+        },
+        {
+          "name": "더보이즈",
+          "group": "THE BOYZ",
+          "date": "2026-06",
+          "count": 498778
+        },
+        {
+          "name": "투어스",
+          "group": "TWS",
+          "date": "2026-06",
+          "count": 2814263
+        },
+        {
+          "name": "아이콘",
+          "group": "Ikon",
+          "date": "2026-06",
+          "count": 2372618
+        },
+        {
+          "name": "몬스타엑스",
+          "group": "MONSTA X",
+          "date": "2026-06",
+          "count": 1369341
+        },
+        {
+          "name": "아스트로",
+          "group": "ASTRO",
+          "date": "2026-06",
+          "count": 461206
+        },
+        {
+          "name": "엑스디너리 히어로즈",
+          "group": "Xdinary Heroes",
+          "date": "2026-06",
+          "count": 812178
+        },
+        {
+          "name": "피원하모니",
+          "group": "P1Harmony",
+          "date": "2026-06",
+          "count": 2045053
+        },
+        {
+          "name": "에스에프나인",
+          "group": "SF9",
+          "date": "2026-06",
+          "count": 259025
+        },
+        {
+          "name": "템페스트",
+          "group": "TEMPEST",
+          "date": "2026-06",
+          "count": 47192
+        },
+        {
+          "name": "에이비식스",
+          "group": "AB6IX",
+          "date": "2026-06",
+          "count": 128538
+        },
+        {
+          "name": "펜타곤",
+          "group": "PENTAGON",
+          "date": "2026-06",
+          "count": 723465
+        },
+        {
+          "name": "오메가엑스",
+          "group": "OMEGA X",
+          "date": "2026-06",
+          "count": 114477
+        },
+        {
+          "name": "에이티즈",
+          "group": "ATEEZ",
+          "date": "2026-06",
+          "count": 3844337
+        },
+        {
+          "name": "이펙스",
+          "group": "EPEX",
+          "date": "2026-06",
+          "count": 137903
+        },
+        {
+          "name": "데이식스",
+          "group": "DAY6",
+          "date": "2026-06",
+          "count": 2341367
+        },
+        {
+          "name": "크래비티",
+          "group": "CRAVITY",
+          "date": "2026-06",
+          "count": 256147
+        },
+        {
+          "name": "원어스",
+          "group": "ONEUS",
+          "date": "2026-06",
+          "count": 377410
+        },
+        {
+          "name": "킥플립",
+          "group": "KickFlip",
+          "date": "2026-06",
+          "count": 500239
+        },
+        {
+          "name": "골든차일드",
+          "group": "Golden Child, GNCD",
+          "date": "2026-06",
+          "count": 88216
+        },
+        {
+          "name": "드리핀",
+          "group": "DRIPPIN",
+          "date": "2026-06",
+          "count": 53416
+        },
+        {
+          "name": "루네이트",
+          "group": "LUN8",
+          "date": "2026-06",
+          "count": 37574
+        },
+        {
+          "name": "넥스지",
+          "group": "NEXZ",
+          "date": "2026-06",
+          "count": 698848
+        },
+        {
+          "name": "에잇턴",
+          "group": "8TURN",
+          "date": "2026-06",
+          "count": 200704
+        },
+        {
+          "name": "씨아이엑스",
+          "group": "CIX",
+          "date": "2026-06",
+          "count": 247313
+        },
+        {
+          "name": "이븐",
+          "group": "EVNNE",
+          "date": "2026-06",
+          "count": 235659
+        },
+        {
+          "name": "나우즈",
+          "group": "NOWZ",
+          "date": "2026-06",
+          "count": 88927
+        },
+        {
+          "name": "더뉴식스",
+          "group": "THE NEW SIX",
+          "date": "2026-06",
+          "count": 151211
+        },
+        {
+          "name": "앰퍼샌드원",
+          "group": "AMPERS&ONE",
+          "date": "2026-06",
+          "count": 180617
+        },
+        {
+          "name": "파우",
+          "group": "POW",
+          "date": "2026-06",
+          "count": 86099
+        },
+        {
+          "name": "소디엑",
+          "group": "XODIAC",
+          "date": "2026-06",
+          "count": 127539
+        },
+        {
+          "name": "유나이트",
+          "group": "YOUNITE",
+          "date": "2026-06",
+          "count": 55191
+        },
+        {
+          "name": "배너",
+          "group": "VANNER",
+          "date": "2026-06",
+          "count": 14320
+        },
+        {
+          "name": "비에이이일칠삼",
+          "group": "BAE173",
+          "date": "2026-06",
+          "count": 29704
+        },
+        {
+          "name": "에이티투메이저",
+          "group": "82MAJOR",
+          "date": "2026-06",
+          "count": 398482
+        },
+        {
+          "name": "판타지보이즈",
+          "group": "FANTASY BOYS",
+          "date": "2026-06",
+          "count": 23324
+        },
+        {
+          "name": "더윈드",
+          "group": "The Wind",
+          "date": "2026-06",
+          "count": 86179
+        },
+        {
+          "name": "위아이",
+          "group": "WEi",
+          "date": "2026-06",
+          "count": 66546
+        },
+        {
+          "name": "휘브",
+          "group": "WHIB",
+          "date": "2026-06",
+          "count": 66083
+        },
+        {
+          "name": "다이몬",
+          "group": "DXMON",
+          "date": "2026-06",
+          "count": 48619
+        },
+        {
+          "name": "온앤오프",
+          "group": "ONF",
+          "date": "2026-06",
+          "count": 172795
+        },
+        {
+          "name": "미래소년",
+          "group": "MIRAE",
+          "date": "2026-06",
+          "count": 22830
+        },
+        {
+          "name": "엠씨엔디",
+          "group": "MCND",
+          "date": "2026-06",
+          "count": 70871
+        },
+        {
+          "name": "싸이커스",
+          "group": "xikers",
+          "date": "2026-06",
+          "count": 491528
+        },
+        {
+          "name": "누에라",
+          "group": "NouerA",
+          "date": "2026-06",
+          "count": 66712
+        },
+        {
+          "name": "엔싸인",
+          "group": "n.SSign",
+          "date": "2026-06",
+          "count": 21064
+        },
+        {
+          "name": "다크비",
+          "group": "DKB",
+          "date": "2026-06",
+          "count": 40811
+        },
+        {
+          "name": "에이티비오",
+          "group": "ATBO",
+          "date": "2026-06",
+          "count": 9407
+        },
+        {
+          "name": "엘라스트",
+          "group": "E'LAST",
+          "date": "2026-06",
+          "count": 37062
+        },
+        {
+          "name": "아크",
+          "group": "ARrC",
+          "date": "2026-06",
+          "count": 32856
+        },
+        {
+          "name": "노매드",
+          "group": "NOMAD",
+          "date": "2026-06",
+          "count": 8023
+        },
+        {
+          "name": "올아워즈",
+          "group": "ALL(H)OURS",
+          "date": "2026-06",
+          "count": 276694
+        },
+        {
+          "name": "트렌드지",
+          "group": "TRENDZ",
+          "date": "2026-06",
+          "count": 31913
+        },
+        {
+          "name": "나인아이",
+          "group": "NINE.i",
+          "date": "2026-06",
+          "count": 18016
+        },
+        {
+          "name": "세븐어스",
+          "group": "SEVENUS",
+          "date": "2026-06",
+          "count": 4512
+        },
+        {
+          "name": "에이머스",
+          "group": "AIMERS",
+          "date": "2026-06",
+          "count": 14559
+        },
+        {
+          "name": "원팩트",
+          "group": "ONE PACT",
+          "date": "2026-06",
+          "count": 108846
+        },
+        {
+          "name": "티아이오티",
+          "group": "TIOT",
+          "date": "2026-06",
+          "count": 20546
+        },
+        {
+          "name": "엔카이브",
+          "group": "NCHIVE",
+          "date": "2026-06",
+          "count": 3257
+        },
+        {
+          "name": "더킹덤",
+          "group": "The KingDom",
+          "date": "2026-06",
+          "count": 33060
+        },
+        {
+          "name": "블리처스",
+          "group": "BLITZERS",
+          "date": "2026-06",
+          "count": 40422
+        },
+        {
+          "name": "웨이커",
+          "group": "WAKER",
+          "date": "2026-06",
+          "count": 9422
+        },
+        {
+          "name": "워터파이어",
+          "group": "WATERFIRE",
+          "date": "2026-06",
+          "count": 1430
+        },
+        {
+          "name": "피커스",
+          "group": "PICKUS",
+          "date": "2026-06",
+          "count": 3281
+        },
+        {
+          "name": "어센트",
+          "group": "ASC2NT",
+          "date": "2026-06",
+          "count": 20288
+        },
+        {
+          "name": "하우",
+          "group": "HAWW",
+          "date": "2026-06",
+          "count": 2283
+        },
+        {
+          "name": "이스트샤인",
+          "group": "EASTSHINE",
+          "date": "2026-06",
+          "count": 1878
+        },
+        {
+          "name": "이오닛",
+          "group": "AEONIT",
+          "date": "2026-06",
+          "count": 2365
+        },
+        {
+          "name": "비디유",
+          "group": "B.D.U",
+          "date": "2026-06",
+          "count": 13973
+        },
+        {
+          "name": "데이차일드",
+          "group": "DayChild",
+          "date": "2026-06",
+          "count": 2004
+        },
+        {
+          "name": "드래곤포니",
+          "group": "Dragon Pony",
+          "date": "2026-06",
+          "count": 86243
+        },
+        {
+          "name": "클로즈 유어 아이즈",
+          "group": "CLOSE YOUR EYES",
+          "date": "2026-06",
+          "count": 679907
+        },
+        {
+          "name": "아홉",
+          "group": "AHOF",
+          "date": "2026-06",
+          "count": 186206
+        },
+        {
+          "name": "엑스러브",
+          "group": "XLOV",
+          "date": "2026-06",
+          "count": 2429219
+        },
+        {
+          "name": "뉴비트",
+          "group": "NEWBEAT",
+          "date": "2026-06",
+          "count": 47622
+        },
+        {
+          "name": "아이딧",
+          "group": "IDID",
+          "date": "2026-06",
+          "count": 218406
+        },
+        {
+          "name": "비보이즈",
+          "group": "BE BOYS",
+          "date": "2026-06",
+          "count": 3417
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-06",
+          "count": 2271145
+        },
+        {
+          "name": "아이덴티티",
+          "group": "idntt",
+          "date": "2026-06",
+          "count": 149494
+        },
+        {
+          "name": "코르티스",
+          "group": "CORTIS",
+          "date": "2026-06",
+          "count": 12319934
+        },
+        {
+          "name": "알파드라이브원",
+          "group": "ALPHA DRIVE ONE",
+          "date": "2026-06",
+          "count": 1102781
+        },
+        {
+          "name": "엠빅",
+          "group": "AM8IC",
+          "date": "2026-06",
+          "count": 8328
+        },
+        {
+          "name": "에이엠피",
+          "group": "AxMxP",
+          "date": "2026-06",
+          "count": 90956
+        },
+        {
+          "name": "롱샷",
+          "group": "LNGSHOT",
+          "date": "2026-06",
+          "count": 4959687
+        },
+        {
+          "name": "네이즈",
+          "group": "NAZE",
+          "date": "2026-06",
+          "count": 39381
+        },
+        {
+          "name": "유어즈",
+          "group": "YUHZ",
+          "date": "2026-06",
+          "count": 28256
+        },
+        {
+          "name": "데일리디렉션",
+          "group": "DAILY:DIRECTION",
+          "date": "2026-06",
+          "count": 59825
+        },
+        {
+          "name": "튜넥스",
+          "group": "TUNEXX",
+          "date": "2026-06",
+          "count": 59609
+        },
+        {
+          "name": "더씬드롬",
+          "group": "THE SSYNDROME",
+          "date": "2026-06",
+          "count": 12273
+        },
+        {
+          "name": "모디세이",
+          "group": "MODYSSEY",
+          "date": "2026-06",
+          "count": 167891
+        },
+        {
+          "name": "키빗업",
+          "group": "KEYVITUP",
+          "date": "2026-06",
+          "count": 143954
+        },
+        {
+          "name": "앤더블",
+          "group": "AND2BLE",
+          "date": "2026-06",
+          "count": 942721
         }
       ]
     },
@@ -85683,7 +89590,8 @@
         "2026-02",
         "2026-03",
         "2026-04",
-        "2026-05"
+        "2026-05",
+        "2026-06"
       ],
       "records": [
         {
@@ -88103,6 +92011,630 @@
           "group": "KEYVITUP",
           "date": "2026-05",
           "count": 88000
+        },
+        {
+          "name": "세븐틴",
+          "group": "SEVENTEEN",
+          "date": "2026-06",
+          "count": 16160000
+        },
+        {
+          "name": "방탄소년단",
+          "group": "BTS",
+          "date": "2026-06",
+          "count": 80710000
+        },
+        {
+          "name": "스트레이키즈",
+          "group": "Stray Kids",
+          "date": "2026-06",
+          "count": 33130000
+        },
+        {
+          "name": "엔시티 드림",
+          "group": "NCT DREAM",
+          "date": "2026-06",
+          "count": 13090000
+        },
+        {
+          "name": "투모로우바이투게더",
+          "group": "TXT",
+          "date": "2026-06",
+          "count": 18390000
+        },
+        {
+          "name": "엔하이픈",
+          "group": "ENHYPEN",
+          "date": "2026-06",
+          "count": 22030000
+        },
+        {
+          "name": "제로베이스원",
+          "group": "ZEROBASEONE",
+          "date": "2026-06",
+          "count": 4721000
+        },
+        {
+          "name": "엔시티 일이칠",
+          "group": "NCT 127",
+          "date": "2026-06",
+          "count": 15210000
+        },
+        {
+          "name": "플레이브",
+          "group": "PLAVE",
+          "date": "2026-06",
+          "count": 738000
+        },
+        {
+          "name": "트레저",
+          "group": "TREASURE",
+          "date": "2026-06",
+          "count": 7081000
+        },
+        {
+          "name": "라이즈",
+          "group": "RIIZE",
+          "date": "2026-06",
+          "count": 5084000
+        },
+        {
+          "name": "보이넥스트도어",
+          "group": "BOYNEXTDOOR",
+          "date": "2026-06",
+          "count": 4563000
+        },
+        {
+          "name": "더보이즈",
+          "group": "THE BOYZ",
+          "date": "2026-06",
+          "count": 804000
+        },
+        {
+          "name": "투어스",
+          "group": "TWS",
+          "date": "2026-06",
+          "count": 3512000
+        },
+        {
+          "name": "아이콘",
+          "group": "Ikon",
+          "date": "2026-06",
+          "count": 3411000
+        },
+        {
+          "name": "몬스타엑스",
+          "group": "MONSTA X",
+          "date": "2026-06",
+          "count": 6483000
+        },
+        {
+          "name": "아스트로",
+          "group": "ASTRO",
+          "date": "2026-06",
+          "count": 6285000
+        },
+        {
+          "name": "엑스디너리 히어로즈",
+          "group": "Xdinary Heroes",
+          "date": "2026-06",
+          "count": 2072000
+        },
+        {
+          "name": "피원하모니",
+          "group": "P1Harmony",
+          "date": "2026-06",
+          "count": 3098000
+        },
+        {
+          "name": "에스에프나인",
+          "group": "SF9",
+          "date": "2026-06",
+          "count": 943000
+        },
+        {
+          "name": "템페스트",
+          "group": "TEMPEST",
+          "date": "2026-06",
+          "count": 570000
+        },
+        {
+          "name": "에이비식스",
+          "group": "AB6IX",
+          "date": "2026-06",
+          "count": 1427000
+        },
+        {
+          "name": "펜타곤",
+          "group": "PENTAGON",
+          "date": "2026-06",
+          "count": 1756000
+        },
+        {
+          "name": "오메가엑스",
+          "group": "OMEGA X",
+          "date": "2026-06",
+          "count": 432000
+        },
+        {
+          "name": "에이티즈",
+          "group": "ATEEZ",
+          "date": "2026-06",
+          "count": 11090000
+        },
+        {
+          "name": "이펙스",
+          "group": "EPEX",
+          "date": "2026-06",
+          "count": 814000
+        },
+        {
+          "name": "데이식스",
+          "group": "DAY6",
+          "date": "2026-06",
+          "count": 2812000
+        },
+        {
+          "name": "크래비티",
+          "group": "CRAVITY",
+          "date": "2026-06",
+          "count": 2039000
+        },
+        {
+          "name": "원어스",
+          "group": "ONEUS",
+          "date": "2026-06",
+          "count": 1807000
+        },
+        {
+          "name": "킥플립",
+          "group": "KickFlip",
+          "date": "2026-06",
+          "count": 1296000
+        },
+        {
+          "name": "골든차일드",
+          "group": "Golden Child, GNCD",
+          "date": "2026-06",
+          "count": 509000
+        },
+        {
+          "name": "드리핀",
+          "group": "DRIPPIN",
+          "date": "2026-06",
+          "count": 294000
+        },
+        {
+          "name": "루네이트",
+          "group": "LUN8",
+          "date": "2026-06",
+          "count": 428000
+        },
+        {
+          "name": "넥스지",
+          "group": "NEXZ",
+          "date": "2026-06",
+          "count": 1125000
+        },
+        {
+          "name": "에잇턴",
+          "group": "8TURN",
+          "date": "2026-06",
+          "count": 622000
+        },
+        {
+          "name": "씨아이엑스",
+          "group": "CIX",
+          "date": "2026-06",
+          "count": 1141000
+        },
+        {
+          "name": "이븐",
+          "group": "EVNNE",
+          "date": "2026-06",
+          "count": 527000
+        },
+        {
+          "name": "나우즈",
+          "group": "NOWZ",
+          "date": "2026-06",
+          "count": 637000
+        },
+        {
+          "name": "더뉴식스",
+          "group": "THE NEW SIX",
+          "date": "2026-06",
+          "count": 687000
+        },
+        {
+          "name": "앰퍼샌드원",
+          "group": "AMPERS&ONE",
+          "date": "2026-06",
+          "count": 608000
+        },
+        {
+          "name": "파우",
+          "group": "POW",
+          "date": "2026-06",
+          "count": 845000
+        },
+        {
+          "name": "소디엑",
+          "group": "XODIAC",
+          "date": "2026-06",
+          "count": 1566000
+        },
+        {
+          "name": "유나이트",
+          "group": "YOUNITE",
+          "date": "2026-06",
+          "count": 463000
+        },
+        {
+          "name": "배너",
+          "group": "VANNER",
+          "date": "2026-06",
+          "count": 297000
+        },
+        {
+          "name": "비에이이일칠삼",
+          "group": "BAE173",
+          "date": "2026-06",
+          "count": 516000
+        },
+        {
+          "name": "에이티투메이저",
+          "group": "82MAJOR",
+          "date": "2026-06",
+          "count": 629000
+        },
+        {
+          "name": "판타지보이즈",
+          "group": "FANTASY BOYS",
+          "date": "2026-06",
+          "count": 153000
+        },
+        {
+          "name": "더윈드",
+          "group": "The Wind",
+          "date": "2026-06",
+          "count": 257000
+        },
+        {
+          "name": "위아이",
+          "group": "WEi",
+          "date": "2026-06",
+          "count": 1156000
+        },
+        {
+          "name": "휘브",
+          "group": "WHIB",
+          "date": "2026-06",
+          "count": 379000
+        },
+        {
+          "name": "다이몬",
+          "group": "DXMON",
+          "date": "2026-06",
+          "count": 118000
+        },
+        {
+          "name": "온앤오프",
+          "group": "ONF",
+          "date": "2026-06",
+          "count": 295000
+        },
+        {
+          "name": "미래소년",
+          "group": "MIRAE",
+          "date": "2026-06",
+          "count": 326000
+        },
+        {
+          "name": "엠씨엔디",
+          "group": "MCND",
+          "date": "2026-06",
+          "count": 856000
+        },
+        {
+          "name": "싸이커스",
+          "group": "xikers",
+          "date": "2026-06",
+          "count": 1385000
+        },
+        {
+          "name": "누에라",
+          "group": "NouerA",
+          "date": "2026-06",
+          "count": 174000
+        },
+        {
+          "name": "엔싸인",
+          "group": "n.SSign",
+          "date": "2026-06",
+          "count": 172000
+        },
+        {
+          "name": "다크비",
+          "group": "DKB",
+          "date": "2026-06",
+          "count": 518000
+        },
+        {
+          "name": "에이티비오",
+          "group": "ATBO",
+          "date": "2026-06",
+          "count": 346000
+        },
+        {
+          "name": "엘라스트",
+          "group": "E'LAST",
+          "date": "2026-06",
+          "count": 520000
+        },
+        {
+          "name": "아크",
+          "group": "ARrC",
+          "date": "2026-06",
+          "count": 231000
+        },
+        {
+          "name": "노매드",
+          "group": "NOMAD",
+          "date": "2026-06",
+          "count": 576000
+        },
+        {
+          "name": "올아워즈",
+          "group": "ALL(H)OURS",
+          "date": "2026-06",
+          "count": 249000
+        },
+        {
+          "name": "트렌드지",
+          "group": "TRENDZ",
+          "date": "2026-06",
+          "count": 911000
+        },
+        {
+          "name": "나인아이",
+          "group": "NINE.i",
+          "date": "2026-06",
+          "count": 97000
+        },
+        {
+          "name": "세븐어스",
+          "group": "SEVENUS",
+          "date": "2026-06",
+          "count": 628000
+        },
+        {
+          "name": "에이머스",
+          "group": "AIMERS",
+          "date": "2026-06",
+          "count": 58000
+        },
+        {
+          "name": "원팩트",
+          "group": "ONE PACT",
+          "date": "2026-06",
+          "count": 392000
+        },
+        {
+          "name": "티아이오티",
+          "group": "TIOT",
+          "date": "2026-06",
+          "count": 151000
+        },
+        {
+          "name": "엔카이브",
+          "group": "NCHIVE",
+          "date": "2026-06",
+          "count": 86000
+        },
+        {
+          "name": "더킹덤",
+          "group": "The KingDom",
+          "date": "2026-06",
+          "count": 225000
+        },
+        {
+          "name": "블리처스",
+          "group": "BLITZERS",
+          "date": "2026-06",
+          "count": 444000
+        },
+        {
+          "name": "웨이커",
+          "group": "WAKER",
+          "date": "2026-06",
+          "count": 531000
+        },
+        {
+          "name": "워터파이어",
+          "group": "WATERFIRE",
+          "date": "2026-06",
+          "count": 13000
+        },
+        {
+          "name": "피커스",
+          "group": "PICKUS",
+          "date": "2026-06",
+          "count": 9580
+        },
+        {
+          "name": "어센트",
+          "group": "ASC2NT",
+          "date": "2026-06",
+          "count": 105000
+        },
+        {
+          "name": "하우",
+          "group": "HAWW",
+          "date": "2026-06",
+          "count": 45000
+        },
+        {
+          "name": "이스트샤인",
+          "group": "EASTSHINE",
+          "date": "2026-06",
+          "count": 70000
+        },
+        {
+          "name": "이오닛",
+          "group": "AEONIT",
+          "date": "2026-06",
+          "count": 14000
+        },
+        {
+          "name": "비디유",
+          "group": "B.D.U",
+          "date": "2026-06",
+          "count": 73000
+        },
+        {
+          "name": "데이차일드",
+          "group": "DayChild",
+          "date": "2026-06",
+          "count": 14000
+        },
+        {
+          "name": "드래곤포니",
+          "group": "Dragon Pony",
+          "date": "2026-06",
+          "count": 128000
+        },
+        {
+          "name": "클로즈 유어 아이즈",
+          "group": "CLOSE YOUR EYES",
+          "date": "2026-06",
+          "count": 560000
+        },
+        {
+          "name": "아홉",
+          "group": "AHOF",
+          "date": "2026-06",
+          "count": 1195000
+        },
+        {
+          "name": "엑스러브",
+          "group": "XLOV",
+          "date": "2026-06",
+          "count": 1797000
+        },
+        {
+          "name": "뉴비트",
+          "group": "NEWBEAT",
+          "date": "2026-06",
+          "count": 254000
+        },
+        {
+          "name": "아이딧",
+          "group": "IDID",
+          "date": "2026-06",
+          "count": 436000
+        },
+        {
+          "name": "비보이즈",
+          "group": "BE BOYS",
+          "date": "2026-06",
+          "count": 34000
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-06",
+          "count": 1714000
+        },
+        {
+          "name": "아이덴티티",
+          "group": "idntt",
+          "date": "2026-06",
+          "count": 552000
+        },
+        {
+          "name": "코르티스",
+          "group": "CORTIS",
+          "date": "2026-06",
+          "count": 13790000
+        },
+        {
+          "name": "알파드라이브원",
+          "group": "ALPHA DRIVE ONE",
+          "date": "2026-06",
+          "count": 2344000
+        },
+        {
+          "name": "엠빅",
+          "group": "AM8IC",
+          "date": "2026-06",
+          "count": 35000
+        },
+        {
+          "name": "에이엠피",
+          "group": "AxMxP",
+          "date": "2026-06",
+          "count": 399000
+        },
+        {
+          "name": "롱샷",
+          "group": "LNGSHOT",
+          "date": "2026-06",
+          "count": 3234000
+        },
+        {
+          "name": "네이즈",
+          "group": "NAZE",
+          "date": "2026-06",
+          "count": 47000
+        },
+        {
+          "name": "유어즈",
+          "group": "YUHZ",
+          "date": "2026-06",
+          "count": 290000
+        },
+        {
+          "name": "데일리디렉션",
+          "group": "DAILY:DIRECTION",
+          "date": "2026-06",
+          "count": 362000
+        },
+        {
+          "name": "튜넥스",
+          "group": "TUNEXX",
+          "date": "2026-06",
+          "count": 143000
+        },
+        {
+          "name": "더씬드롬",
+          "group": "THE SSYNDROME",
+          "date": "2026-06",
+          "count": 9390
+        },
+        {
+          "name": "모디세이",
+          "group": "MODYSSEY",
+          "date": "2026-06",
+          "count": 170000
+        },
+        {
+          "name": "키빗업",
+          "group": "KEYVITUP",
+          "date": "2026-06",
+          "count": 107000
+        },
+        {
+          "name": "앤더블",
+          "group": "AND2BLE",
+          "date": "2026-06",
+          "count": 791000
+        },
+        {
+          "name": "베이온",
+          "group": "VAYONN",
+          "date": "2026-06",
+          "count": 43000
         }
       ]
     }
