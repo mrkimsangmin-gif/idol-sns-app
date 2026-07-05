@@ -3,17 +3,161 @@
   "name_en": "PLAVE",
   "slug": "plave",
   "tiktok_url": "https://www.tiktok.com/@plave_official",
-  "crawled_at": "2026-05-09T08:29:42.566783",
+  "crawled_at": "2026-06-21T20:16:22.729032",
   "profile": {
     "display_name": "PLAVE 플레이브",
-    "username": "",
+    "username": "@plave_official",
     "verified": true,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 1821000,
+    "following": 1,
+    "total_likes": 52274000,
     "bio": "PLAVE Official TikTok&#10;플레이브 공식 틱톡"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 512000,
+      "likes": 7482,
+      "comments": 153,
+      "shares": 126,
+      "saves": 627,
+      "posted_at": "2026-06-21",
+      "caption": "Sketchbook confession &#128140;&#10;Would you come see PLAVE at the …자세히",
+      "hashtags": [],
+      "music": "PLAVE의 WAY 4 LUV",
+      "category": "General"
+    },
+    {
+      "views": 287000,
+      "likes": 20000,
+      "comments": 260,
+      "shares": 498,
+      "saves": 1647,
+      "posted_at": "2026-06-19",
+      "caption": "Incheon Concert Loading : BAMBY CAM&#10;…자세히",
+      "hashtags": [],
+      "music": "PLAVE의 Dash",
+      "category": "Performance"
+    },
+    {
+      "views": 687000,
+      "likes": 49000,
+      "comments": 494,
+      "shares": 2514,
+      "saves": 4412,
+      "posted_at": "2026-06-18",
+      "caption": "다이죠부 - ✌️✨&#10;…자세히",
+      "hashtags": [],
+      "music": "HALCALI의 おつかれSUMMER (かまってVer.)",
+      "category": "General"
+    },
+    {
+      "views": 127000,
+      "likes": 37000,
+      "comments": 461,
+      "shares": 1445,
+      "saves": 3237,
+      "posted_at": "2026-06-17",
+      "caption": "플리들 콘서트 올 때까지 파라파라나 추고 있어야겠다 맛떼루용~&#128150;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 217000,
+      "likes": 16000,
+      "comments": 281,
+      "shares": 428,
+      "saves": 1338,
+      "posted_at": "2026-06-16",
+      "caption": "Sketchbook confession &#128140;&#10;Would you come see PLAVE at the …자세히",
+      "hashtags": [],
+      "music": "PLAVE의 WAY 4 LUV",
+      "category": "General"
+    },
+    {
+      "views": 129000,
+      "likes": 114000,
+      "comments": 2042,
+      "shares": 9518,
+      "saves": 10000,
+      "posted_at": "2026-06-11",
+      "caption": "Sit down ☺️&#128545;&#129320;&#129392;&#10;…자세히",
+      "hashtags": [],
+      "music": "PLAVE 플레이브의 오리지널 사운드 - PLAVE 플레이브",
+      "category": "General"
+    },
+    {
+      "views": 23000,
+      "likes": 27000,
+      "comments": 325,
+      "shares": 875,
+      "saves": 2369,
+      "posted_at": "2026-06-08",
+      "caption": "OKay OKay &#128076;&#128076;&#10;…자세히",
+      "hashtags": [],
+      "music": "xikers(싸이커스)의 OKay",
+      "category": "General"
+    },
+    {
+      "views": 68000,
+      "likes": 49000,
+      "comments": 469,
+      "shares": 1337,
+      "saves": 3329,
+      "posted_at": "2026-06-05",
+      "caption": "better work work work &#128188;&#128293;&#128285;&#10;…자세히",
+      "hashtags": [],
+      "music": "Billlie의 WORK",
+      "category": "General"
+    },
+    {
+      "views": 154000,
+      "likes": 24000,
+      "comments": 525,
+      "shares": 1215,
+      "saves": 2220,
+      "posted_at": "2026-06-04",
+      "caption": "PLAVE&#10;4th Mini Album…자세히",
+      "hashtags": [],
+      "music": "PLAVE 플레이브의 오리지널 사운드 - PLAVE 플레이브",
+      "category": "Promotion"
+    },
+    {
+      "views": 251000,
+      "likes": 333000,
+      "comments": 4451,
+      "shares": 22000,
+      "saves": 22000,
+      "posted_at": "2026-05-26",
+      "caption": "#chongqing &#127949;️三三☲=&#128168;&#10;…자세히",
+      "hashtags": [
+        "chongqing"
+      ],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 316000,
+      "likes": 67000,
+      "comments": 627,
+      "shares": 2260,
+      "saves": 5186,
+      "posted_at": "2026-05-26",
+      "caption": "You like me a little bit? &#128058;❤️&#10;…자세히",
+      "hashtags": [],
+      "music": "MattyBRaps의 Little Bit",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 11,
+    "posts_last_30d": 11,
+    "avg_views": 251909,
+    "avg_likes": 67589,
+    "avg_comments": 917,
+    "avg_shares": 3837,
+    "avg_saves": 5124,
+    "engagement_rate": 30.75
+  }
 }

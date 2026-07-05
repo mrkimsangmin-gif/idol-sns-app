@@ -3,17 +3,77 @@
   "name_en": "MADEIN",
   "slug": "madein",
   "tiktok_url": "https://www.tiktok.com/@madein_u",
-  "crawled_at": "2026-05-09T07:52:05.053765",
+  "crawled_at": "2026-06-20T11:24:02.371900",
   "profile": {
-    "display_name": "",
-    "username": "",
+    "display_name": "MADEIN",
+    "username": "@madein_u",
     "verified": false,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 291000,
+    "following": 1,
+    "total_likes": 11247000,
     "bio": ""
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 46000,
+      "likes": 2432,
+      "comments": 31,
+      "shares": 34,
+      "saves": 189,
+      "posted_at": "2026-06-13",
+      "caption": "CHICO! ❤️‍&#128293;❤️‍&#128293;❤️‍&#128293;❤️‍&#128293;&#10;…자세히",
+      "hashtags": [],
+      "music": "MADEIN의 오리지널 사운드 - MADEIN",
+      "category": "General"
+    },
+    {
+      "views": 162000,
+      "likes": 7669,
+      "comments": 39,
+      "shares": 76,
+      "saves": 246,
+      "posted_at": "2026-06-08",
+      "caption": "&#128049;&#128062;&#10;…자세히",
+      "hashtags": [],
+      "music": "MADEIN의 오리지널 사운드 - MADEIN",
+      "category": "General"
+    },
+    {
+      "views": 73000,
+      "likes": 1087,
+      "comments": 15,
+      "shares": 10,
+      "saves": 56,
+      "posted_at": "2026-06-06",
+      "caption": "주문하신 #셋로그 가 도착했습니다 &#129331;&#10;…자세히",
+      "hashtags": [
+        "셋로그"
+      ],
+      "music": "MADEIN의 오리지널 사운드 - MADEIN",
+      "category": "General"
+    },
+    {
+      "views": 44000,
+      "likes": 1891,
+      "comments": 26,
+      "shares": 12,
+      "saves": 134,
+      "posted_at": "2026-05-26",
+      "caption": "바풍 한 번씩 다 해봤잖아?! &#129767;&#128168;&#10;…자세히",
+      "hashtags": [],
+      "music": "MADEIN의 오리지널 사운드 - MADEIN",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 4,
+    "posts_last_30d": 4,
+    "avg_views": 81250,
+    "avg_likes": 3269,
+    "avg_comments": 27,
+    "avg_shares": 33,
+    "avg_saves": 156,
+    "engagement_rate": 4.29
+  }
 }

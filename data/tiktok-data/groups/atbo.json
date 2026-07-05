@@ -2,18 +2,19 @@
   "name": "에이티비오",
   "name_en": "ATBO",
   "slug": "atbo",
-  "tiktok_url": "https://www.tiktok.com/@atbo.official",
-  "crawled_at": "2026-05-26T06:03:09.149736",
+  "tiktok_url": "https://www.tiktok.com/@atboground",
+  "crawled_at": "2026-06-21T22:02:32.286763",
   "profile": {
-    "display_name": "",
-    "username": "",
+    "display_name": "ATBO",
+    "username": "@atboground",
     "verified": false,
     "category": "",
-    "followers": 0,
+    "followers": 723000,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 6206000,
     "bio": ""
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "error": "IndexError: list index out of range"
 }

@@ -3,17 +3,39 @@
   "name_en": "OMEGA X",
   "slug": "omega-x",
   "tiktok_url": "https://www.tiktok.com/@omega_x_official",
-  "crawled_at": "2026-05-26T05:42:06.801881",
+  "crawled_at": "2026-06-21T20:54:57.082904",
   "profile": {
     "display_name": "OMEGA X",
-    "username": "",
+    "username": "@omega_x_official",
     "verified": false,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 552000,
+    "following": 1,
+    "total_likes": 17811000,
     "bio": "OMEGA X Official TikTok&#10;오메가엑스 공식 틱톡"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 4463,
+      "likes": 7195,
+      "comments": 190,
+      "shares": 334,
+      "saves": 550,
+      "posted_at": "2026-06-18",
+      "caption": "OMEGA X (오메가엑스) &#10;4th Mini Album [&#119932;&#119925;&#119914;&#119912;&#119927;&#119927;&#119916;&#119915;]…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "Promotion"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 4463,
+    "avg_likes": 7195,
+    "avg_comments": 190,
+    "avg_shares": 334,
+    "avg_saves": 550,
+    "engagement_rate": 185.28
+  }
 }

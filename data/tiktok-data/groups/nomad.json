@@ -3,17 +3,18 @@
   "name_en": "NOMAD",
   "slug": "nomad",
   "tiktok_url": "https://tiktok.com/@nomad_entofficial",
-  "crawled_at": "2026-05-26T06:05:44.031270",
+  "crawled_at": "2026-06-21T22:05:14.825434",
   "profile": {
-    "display_name": "",
-    "username": "",
+    "display_name": "NOMAD",
+    "username": "@nomad_entofficial",
     "verified": false,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
-    "bio": ""
+    "followers": 182000,
+    "following": 1,
+    "total_likes": 2677000,
+    "bio": "NOMAD OFFICIAL TIKTOK"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "error": "IndexError: list index out of range"
 }

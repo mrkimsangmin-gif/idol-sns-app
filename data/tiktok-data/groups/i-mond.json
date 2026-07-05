@@ -3,17 +3,111 @@
   "name_en": "I:MOND",
   "slug": "i-mond",
   "tiktok_url": "https://www.tiktok.com/@i.mond_official",
-  "crawled_at": "2026-05-26T05:29:44.297227",
+  "crawled_at": "2026-06-20T11:44:23.755385",
   "profile": {
     "display_name": "&#128142;I:mond&#128150;",
-    "username": "",
+    "username": "@i.mond_official",
     "verified": false,
     "category": "",
-    "followers": 0,
+    "followers": 20000,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 415000,
     "bio": "I:mond (아이몬드) official"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "views": 7505,
+      "likes": 491,
+      "comments": 25,
+      "shares": 9,
+      "saves": 34,
+      "posted_at": "2026-06-19",
+      "caption": "절대 뒤를 돌아보지마&#129782;&#127995;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 14000,
+      "likes": 1217,
+      "comments": 31,
+      "shares": 16,
+      "saves": 61,
+      "posted_at": "2026-06-18",
+      "caption": "설쿠아즈도 마카레나&#128131;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 6239,
+      "likes": 13000,
+      "comments": 227,
+      "shares": 390,
+      "saves": 990,
+      "posted_at": "2026-06-13",
+      "caption": "&#129723;&#10;@XLOV …자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 4915,
+      "likes": 770,
+      "comments": 37,
+      "shares": 32,
+      "saves": 63,
+      "posted_at": "2026-06-04",
+      "caption": "앞으로는 이어폰을 꼭 챙기세요&#128517;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 4205,
+      "likes": 813,
+      "comments": 45,
+      "shares": 21,
+      "saves": 61,
+      "posted_at": "2026-05-29",
+      "caption": "미쿠가 이어폰을 안 가져왔을 때…&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 8381,
+      "likes": 734,
+      "comments": 56,
+      "shares": 15,
+      "saves": 54,
+      "posted_at": "2026-05-26",
+      "caption": "섹시 (호소인) 이설&#128139;&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    },
+    {
+      "views": 2474,
+      "likes": 1084,
+      "comments": 52,
+      "shares": 20,
+      "saves": 71,
+      "posted_at": "2026-05-21",
+      "caption": "미쿠야 혹시 “킹”…받아줄 수 있어…?&#10;…자세히",
+      "hashtags": [],
+      "music": "",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 7,
+    "posts_last_30d": 7,
+    "avg_views": 6817,
+    "avg_likes": 2587,
+    "avg_comments": 67,
+    "avg_shares": 71,
+    "avg_saves": 190,
+    "engagement_rate": 42.79
+  }
 }
