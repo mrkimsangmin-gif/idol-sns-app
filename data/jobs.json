@@ -2,28 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 581,
-      "company": "빅히트뮤직",
-      "position": "제작PM(1그룹)",
-      "category": "기타",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-07-07",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49133125",
-      "source": "잡코리아"
-    },
-    {
-      "id": 582,
-      "company": "모드하우스",
-      "position": "플랫폼 운영 담당자",
-      "category": "기타",
-      "career": "무관",
-      "location": "서울 강남구",
-      "deadline": "2026-07-07",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49135965",
-      "source": "잡코리아"
-    },
-    {
       "id": 693,
       "company": "쓰리와이코프레이션",
       "position": "아티스트 일본 사업 담당자",
@@ -1077,28 +1055,6 @@
       "location": "서울 강남구",
       "deadline": "2026-08-31",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49503631",
-      "source": "잡코리아"
-    },
-    {
-      "id": 415,
-      "company": "타이탄콘텐츠",
-      "position": "디자인 부문 채용",
-      "category": "디자인",
-      "career": "경력",
-      "location": "서울",
-      "deadline": "",
-      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/titan0613",
-      "source": "잡코리아"
-    },
-    {
-      "id": 420,
-      "company": "모어비전",
-      "position": "경영지원팀 회계파트",
-      "category": "경영지원",
-      "career": "경력",
-      "location": "서울",
-      "deadline": "",
-      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/morevision",
       "source": "잡코리아"
     },
     {
@@ -2893,6 +2849,17 @@
       "deadline": "상시채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49490257",
       "source": "잡코리아"
+    },
+    {
+      "id": 861,
+      "company": "HYBE INDIA",
+      "position": "Business Operations Manager (Contract)",
+      "category": "매니지먼트",
+      "career": "경력 3년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/226620",
+      "source": "하이브"
     }
   ],
   "categories": [
@@ -2908,5 +2875,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-07-07T09:00:32.445289"
+  "updatedAt": "2026-07-08T09:00:59.131464"
 }
