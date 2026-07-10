@@ -68,17 +68,6 @@
       "source": "잡코리아"
     },
     {
-      "id": 707,
-      "company": "오크컴퍼니",
-      "position": "아티스트 콘텐츠 영상팀 PD",
-      "category": "영상",
-      "career": "경력",
-      "location": "서울 마포구",
-      "deadline": "2026-07-11",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49355271",
-      "source": "잡코리아"
-    },
-    {
       "id": 765,
       "company": "모어비전",
       "position": "경영지원팀 회계파트",
@@ -530,6 +519,17 @@
       "source": "잡코리아"
     },
     {
+      "id": 887,
+      "company": "큐브엔터테인먼트",
+      "position": "매니지먼트 배우팀",
+      "category": "기타",
+      "career": "신입·경력",
+      "location": "서울 성동구",
+      "deadline": "2026-07-31",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49549021",
+      "source": "잡코리아"
+    },
+    {
       "id": 849,
       "company": "에프엔씨엔터테인먼트",
       "position": "트레이닝팀",
@@ -648,6 +648,17 @@
       "location": "서울 강남구",
       "deadline": "2026-08-08",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49343721",
+      "source": "잡코리아"
+    },
+    {
+      "id": 883,
+      "company": "스타쉽엔터테인먼트",
+      "position": "아티스트 운영 담당자",
+      "category": "영업",
+      "career": "무관",
+      "location": "서울 강남구",
+      "deadline": "2026-08-08",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49551308",
       "source": "잡코리아"
     },
     {
@@ -1157,15 +1168,26 @@
       "source": "잡코리아"
     },
     {
-      "id": 452,
-      "company": "HYBE",
-      "position": "라이프스타일브랜드사업 지원*",
+      "id": 884,
+      "company": "빌리프랩",
+      "position": "마케팅 콘텐츠기획(영상콘텐츠제작)",
       "category": "마케팅",
-      "career": "무관",
+      "career": "경력",
       "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/212418",
-      "source": "하이브"
+      "deadline": "2026-09-07",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49550189",
+      "source": "잡코리아"
+    },
+    {
+      "id": 888,
+      "company": "에프앤에프엔터테인먼트",
+      "position": "제작사업부문",
+      "category": "프로듀싱",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "2026-09-07",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49548302",
+      "source": "잡코리아"
     },
     {
       "id": 466,
@@ -1201,39 +1223,6 @@
       "source": "잡코리아"
     },
     {
-      "id": 493,
-      "company": "DRIMAGE",
-      "position": "게임 웹 기획자 (Web PM/UX)",
-      "category": "디자인",
-      "career": "경력 3년 이상",
-      "location": "서울 강남구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/213256",
-      "source": "하이브"
-    },
-    {
-      "id": 494,
-      "company": "HYBE",
-      "position": "재무/회계 - 재무정산 Jr.",
-      "category": "경영지원",
-      "career": "경력 2년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/213162",
-      "source": "하이브"
-    },
-    {
-      "id": 495,
-      "company": "HYBE NEB",
-      "position": "콘텐츠 마케팅",
-      "category": "마케팅",
-      "career": "경력 3년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/212569",
-      "source": "하이브"
-    },
-    {
       "id": 496,
       "company": "BIGHIT MUSIC",
       "position": "(비공개)[BIGHIT MUSIC] A&R(3그룹)",
@@ -1242,61 +1231,6 @@
       "location": "서울 용산구",
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/119720",
-      "source": "하이브"
-    },
-    {
-      "id": 497,
-      "company": "Blue Garage",
-      "position": "사내변호사(팀장)",
-      "category": "기타",
-      "career": "경력 5년 이상",
-      "location": "서울 강동구",
-      "deadline": "상시채용",
-      "url": "https://recruit-apply.jype.com/o/165858",
-      "source": "JYP엔터테인먼트"
-    },
-    {
-      "id": 503,
-      "company": "HYBE",
-      "position": "자산관리 (업무 공간 구축 및 시설 운영)",
-      "category": "경영지원",
-      "career": "경력 5년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/213587",
-      "source": "하이브"
-    },
-    {
-      "id": 504,
-      "company": "HYBE",
-      "position": "경영기획",
-      "category": "경영지원",
-      "career": "경력 3~10년",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/213527",
-      "source": "하이브"
-    },
-    {
-      "id": 509,
-      "company": "HYBE",
-      "position": "T&D사업기획",
-      "category": "영업",
-      "career": "경력 3~5년",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/213796",
-      "source": "하이브"
-    },
-    {
-      "id": 510,
-      "company": "HYBE",
-      "position": "글로벌 오디션 IMC 마케팅",
-      "category": "신인개발",
-      "career": "경력 4~5년",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/213719",
       "source": "하이브"
     },
     {
@@ -1311,28 +1245,6 @@
       "source": "하이브"
     },
     {
-      "id": 513,
-      "company": "HYBE",
-      "position": "뮤직퍼블리싱",
-      "category": "기타",
-      "career": "경력 1~7년",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/213983",
-      "source": "하이브"
-    },
-    {
-      "id": 514,
-      "company": "Weverse Company",
-      "position": "재무기획*",
-      "category": "경영지원",
-      "career": "무관",
-      "location": "경기도 성남시",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/213846",
-      "source": "하이브"
-    },
-    {
       "id": 515,
       "company": "Blue Garage",
       "position": "AI Artist / AI Artist Designer",
@@ -1342,39 +1254,6 @@
       "deadline": "상시채용",
       "url": "https://recruit-apply.jype.com/o/213850",
       "source": "JYP엔터테인먼트"
-    },
-    {
-      "id": 521,
-      "company": "PLEDIS Entertainment",
-      "position": "Visual Creative(Artist Visual Development)",
-      "category": "기타",
-      "career": "경력 5년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/214042",
-      "source": "하이브"
-    },
-    {
-      "id": 522,
-      "company": "HYBE Media Studio",
-      "position": "뉴미디어콘텐츠제작PD",
-      "category": "영상",
-      "career": "경력 6년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/214034",
-      "source": "하이브"
-    },
-    {
-      "id": 523,
-      "company": "KOZ Entertainment",
-      "position": "콘텐츠기획(사진)",
-      "category": "기타",
-      "career": "경력 2~7년",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/214461",
-      "source": "하이브"
     },
     {
       "id": 525,
@@ -1429,17 +1308,6 @@
       "location": "서울 서초구",
       "deadline": "상시채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49069232",
-      "source": "잡코리아"
-    },
-    {
-      "id": 545,
-      "company": "패러블엔터테인먼트",
-      "position": "크리에이터 매니지먼트 매니저",
-      "category": "기타",
-      "career": "경력",
-      "location": "경기 고양시",
-      "deadline": "상시채용",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49069692",
       "source": "잡코리아"
     },
     {
@@ -1520,17 +1388,6 @@
       "source": "하이브"
     },
     {
-      "id": 573,
-      "company": "Blue Garage",
-      "position": "온라인사업팀 팀장",
-      "category": "영업",
-      "career": "경력 5년 이상",
-      "location": "서울 강동구",
-      "deadline": "상시채용",
-      "url": "https://recruit-apply.jype.com/o/215596",
-      "source": "JYP엔터테인먼트"
-    },
-    {
       "id": 578,
       "company": "블루밍그레이스",
       "position": "AI Artist / Designer",
@@ -1542,28 +1399,6 @@
       "source": "잡코리아"
     },
     {
-      "id": 584,
-      "company": "ABD",
-      "position": "아티스트콘텐츠 마케팅 Sr.",
-      "category": "마케팅",
-      "career": "경력 7년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/209474",
-      "source": "하이브"
-    },
-    {
-      "id": 585,
-      "company": "ABD",
-      "position": "아티스트매니지먼트 Sr.",
-      "category": "매니지먼트",
-      "career": "경력 7년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/209357",
-      "source": "하이브"
-    },
-    {
       "id": 590,
       "company": "HYBE Label Service",
       "position": "음원/음반 M&P",
@@ -1572,17 +1407,6 @@
       "location": "서울 용산구",
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/216023",
-      "source": "하이브"
-    },
-    {
-      "id": 591,
-      "company": "BIGHIT MUSIC",
-      "position": "아티스트콘텐츠 제작(2그룹)",
-      "category": "영상",
-      "career": "경력 5년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/215869",
       "source": "하이브"
     },
     {
@@ -2048,17 +1872,6 @@
       "source": "잡코리아"
     },
     {
-      "id": 684,
-      "company": "JYP ENTERTAINMENT",
-      "position": "Publishing A&R (신입/경력)",
-      "category": "프로듀싱",
-      "career": "무관",
-      "location": "서울 강동구",
-      "deadline": "상시채용",
-      "url": "https://recruit-apply.jype.com/o/219466",
-      "source": "JYP엔터테인먼트"
-    },
-    {
       "id": 685,
       "company": "HYBE INDIA",
       "position": "Content Manager",
@@ -2067,17 +1880,6 @@
       "location": "서울 용산구",
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/219746",
-      "source": "하이브"
-    },
-    {
-      "id": 686,
-      "company": "Weverse Company",
-      "position": "커머스 구매/발주 관리*",
-      "category": "기타",
-      "career": "무관",
-      "location": "경기도 성남시",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/219895",
       "source": "하이브"
     },
     {
@@ -2111,17 +1913,6 @@
       "location": "서울 용산구",
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/154366",
-      "source": "하이브"
-    },
-    {
-      "id": 698,
-      "company": "HYBE",
-      "position": "인사데이터 운영(HRIS) 담당*",
-      "category": "경영지원",
-      "career": "경력 1년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/220889",
       "source": "하이브"
     },
     {
@@ -2816,6 +2607,17 @@
       "deadline": "",
       "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/edamrecruit",
       "source": "잡코리아"
+    },
+    {
+      "id": 885,
+      "company": "에이엠에이",
+      "position": "HR 인사총무 담당자",
+      "category": "경영지원",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "상시채용",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49549361",
+      "source": "잡코리아"
     }
   ],
   "categories": [
@@ -2831,5 +2633,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-07-10T09:00:47.071821"
+  "updatedAt": "2026-07-10T09:35:23.175178"
 }
