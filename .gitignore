@@ -1,5 +1,6 @@
 # 서비스 계정 인증 파일
 06.jobs/credentials/
+07.analytics/credentials/
 .clasp.json
 
 # Python
@@ -21,6 +22,7 @@ node_modules/
 06.douyin/
 06.jobs/
 04.album_sales/
+07.analytics/
 
 # 대형 원본 데이터 (분할 JSON으로 대체)
 data/namu-wiki.json
@@ -80,6 +82,10 @@ TDD_100_REPORT.md
 
 # backup files (auto-added 2026-05-21)
 *.bak
+*.bak_*
+*.bak.*
 
 # 오케스트레이터 런타임 상태 (사이트 미서빙, checkout 차단 방지)
 data/orchestrator_state.json
+data/.orchestrator_paused
+data/.s23_poll.lock
