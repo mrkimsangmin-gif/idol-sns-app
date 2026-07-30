@@ -5073,6 +5073,275 @@ async function callGeminiDirect(query, context, signal) {
 }
 
 // ============================================================
+// 임베딩 유사도 폴백 (Method B-0.5)
+// - 적용 조건: isSimilarityQuery() 통과한 쿼리에만 실행
+// - group-embed-index.json → lazy load → Float32Array
+// - Gemini Embedding API (gemini-embedding-001) → 쿼리 임베딩
+// - 코사인 유사도 Top-5 반환 (자기 언급 그룹 제외, 중복 제거)
+// ============================================================
+
+/**
+ * 쿼리가 "유사 그룹 탐색" 의도인지 판별
+ * - 옵트-인 방식: 유사도 키워드가 명시적으로 있을 때만 true
+ * - 콘텐츠 질문(최초/언제/왜 등)이 포함되면 false (블로커 우선)
+ */
+function isSimilarityQuery(query) {
+    // 콘텐츠 질문 블로커 (이 패턴이 있으면 무조건 false)
+    var CONTENT_BLOCKERS = /최초|최고|원조|시초|기원|역사|언제|어디서|어떻게|왜\s|이유|누가\s*먼저|몇\s*년도|무슨\s*의미|어원|배경|사건|논란|몇\s*명|멤버\s*수|소속사\s*이름/;
+    if (CONTENT_BLOCKERS.test(query)) return false;
+    // 유사도 탐색 트리거 (이 패턴이 있어야 true)
+    var SIM_TRIGGERS = /비슷한|비슷하|유사한|같은\s*(스타일|분위기|느낌|컨셉|콘셉|장르|계열)|닮은|대신\s*들을|대신\s*추천|추천.*그룹|그룹.*추천|비슷한\s*그룹|같은\s*그룹/;
+    return SIM_TRIGGERS.test(query);
+}
+
+/**
+ * 쿼리에서 언급된 그룹의 slug 목록을 추출 (자기 자신 제외용)
+ * - 공백 기준 토큰 분리 후 각 토큰을 그대로/조사 제거 버전으로 findGroupByName 시도
+ * - 문자 클래스로 글자를 제거하면 그룹명이 깨지므로 slice 방식으로 조사 처리
+ */
+function extractMentionedGroupSlugs(query) {
+    var slugs = [];
+    if (!namuIndexData) return slugs;
+
+    var tokens = query.split(/[\s,]+/).filter(function(t) { return t.length >= 2; });
+
+    function tryAdd(name) {
+        if (!name || name.length < 2) return;
+        var g = findGroupByName(name);
+        if (!g) {
+            var alias = resolveGroupAlias(name);
+            if (alias) g = findGroupByName(alias);
+        }
+        if (g && slugs.indexOf(g.slug) === -1) slugs.push(g.slug);
+    }
+
+    for (var i = 0; i < tokens.length; i++) {
+        var tok = tokens[i];
+        tryAdd(tok);
+        // 조사 제거 시도: 끝에서 1~3자를 잘라낸 버전으로도 매칭
+        // (에스파랑 → 에스파, 블랙핑크를 → 블랙핑크 등)
+        if (tok.length > 3) tryAdd(tok.slice(0, -1));
+        if (tok.length > 4) tryAdd(tok.slice(0, -2));
+        if (tok.length > 5) tryAdd(tok.slice(0, -3));
+    }
+    // 연속 2토큰 매칭 ("방탄 소년단" 등 공백 포함 그룹명)
+    for (var i = 0; i < tokens.length - 1; i++) {
+        tryAdd(tokens[i] + tokens[i + 1]);
+        tryAdd(tokens[i] + ' ' + tokens[i + 1]);
+    }
+    return slugs;
+}
+
+/**
+ * 두 Float32Array 벡터의 코사인 유사도 계산
+ */
+function cosineSimilarity(a, b) {
+    var dot = 0, normA = 0, normB = 0;
+    for (var i = 0; i < a.length; i++) {
+        dot += a[i] * b[i];
+        normA += a[i] * a[i];
+        normB += b[i] * b[i];
+    }
+    if (normA === 0 || normB === 0) return 0;
+    return dot / (Math.sqrt(normA) * Math.sqrt(normB));
+}
+
+/**
+ * group-embed-index.json lazy load (메모리 캐시)
+ * 첫 호출 시 fetch + Float32Array 변환, 이후 캐시 반환
+ */
+async function loadGroupEmbedIndex() {
+    if (groupEmbedIndex) return groupEmbedIndex; // 메모리 캐시 히트
+    try {
+        var version = (typeof NAMU_DATA_VERSION !== 'undefined') ? NAMU_DATA_VERSION : '1';
+        var res = await fetch('/data/group-embed-index.json?v=' + version);
+        if (!res.ok) return null;
+        var data = await res.json();
+        // embedding 배열 → Float32Array 변환 (cosine similarity 계산 최적화)
+        data.groups = data.groups.map(function(g) {
+            g._emb = new Float32Array(g.embedding);
+            delete g.embedding; // 메모리 절약 (원본 JS 배열 해제)
+            return g;
+        });
+        groupEmbedIndex = data;
+        console.log('%c🧠 그룹 임베딩 인덱스 로드 완료', 'color:#9C27B0;font-weight:bold',
+            data.groups.length + '개 그룹, dim=' + data.dim);
+        return groupEmbedIndex;
+    } catch (e) {
+        console.warn('그룹 임베딩 인덱스 로드 실패:', e);
+        return null;
+    }
+}
+
+/**
+ * 임베딩 유사도 폴백 검색
+ * @param {string} query - 검색 쿼리
+ * @param {AbortSignal} signal - 취소 시그널
+ * @param {Array} excludeSlugs - 결과에서 제외할 slug 목록 (쿼리에 언급된 그룹)
+ * @returns {Array|null} [{group, sim}, ...] 상위 그룹 목록 또는 null
+ */
+async function embeddingFallback(query, signal, excludeSlugs) {
+    var apiKey = localStorage.getItem('GEMINI_API_KEY');
+    if (!apiKey) return null;
+
+    var embedIndex = await loadGroupEmbedIndex();
+    if (!embedIndex || !embedIndex.groups || embedIndex.groups.length === 0) return null;
+
+    if (signal && signal.aborted) return null;
+
+    var controller = new AbortController();
+    var timeoutId = setTimeout(function() { controller.abort(); }, 15000);
+    var abortHandler = null;
+    if (signal) {
+        if (signal.aborted) { clearTimeout(timeoutId); return null; }
+        abortHandler = function() { controller.abort(); };
+        signal.addEventListener('abort', abortHandler);
+    }
+
+    try {
+        console.log('%c🧠 임베딩 유사도 검색', 'color:#9C27B0;font-weight:bold', query);
+        var payload = {
+            model: 'models/gemini-embedding-001',
+            content: { parts: [{ text: query }] },
+            taskType: 'RETRIEVAL_QUERY',
+            outputDimensionality: 768  // 저장된 임베딩과 차원 일치 필수 (기본값 3072)
+        };
+        var res = await fetch(
+            'https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:embedContent?key=' + apiKey,
+            {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                signal: controller.signal,
+                body: JSON.stringify(payload)
+            }
+        );
+        clearTimeout(timeoutId);
+        if (abortHandler) signal.removeEventListener('abort', abortHandler);
+        if (signal && signal.aborted) return null;
+
+        if (!res.ok) {
+            console.warn('임베딩 API 오류:', res.status);
+            return null;
+        }
+        var result = await res.json();
+        var vals = result.embedding && result.embedding.values;
+        if (!vals || vals.length !== embedIndex.dim) return null;
+        var queryEmb = new Float32Array(vals);
+
+        // 코사인 유사도 계산 (전체 그룹)
+        var scores = embedIndex.groups.map(function(g) {
+            return { group: g, sim: cosineSimilarity(g._emb, queryEmb) };
+        });
+        scores.sort(function(a, b) { return b.sim - a.sim; });
+
+        // 필터링 1: 쿼리에 언급된 그룹 제외 (자기 자신 매칭 방지)
+        var excluded = excludeSlugs || [];
+        var afterExclude = scores.filter(function(x) {
+            return excluded.indexOf(x.group.slug) === -1;
+        });
+
+        // 필터링 2: 이름 기준 중복 제거 (동일 그룹이 다른 slug로 존재하는 경우 방어)
+        var seenNames = {};
+        var deduped = [];
+        for (var i = 0; i < afterExclude.length; i++) {
+            var key = afterExclude[i].group.name + '|' + afterExclude[i].group.gender;
+            if (!seenNames[key]) {
+                seenNames[key] = true;
+                deduped.push(afterExclude[i]);
+            }
+        }
+
+        // 필터링 3: 임계값 0.63 (실측 유사 그룹 분포 기준)
+        // - 그룹 자신을 제외한 상위 매치는 실측 0.634~0.672 구간에 분포
+        // - 0.63 미만은 임베딩 공간에서 의미있는 근접도가 없음
+        var topGroups = deduped.slice(0, 5).filter(function(x) { return x.sim >= 0.63; });
+        return topGroups.length > 0 ? topGroups : null;
+    } catch (e) {
+        clearTimeout(timeoutId);
+        if (abortHandler && signal) signal.removeEventListener('abort', abortHandler);
+        if (e.name === 'AbortError') return null;
+        console.warn('임베딩 폴백 오류:', e);
+        return null;
+    }
+}
+
+/**
+ * 임베딩 유사도 검색 결과 렌더링 (유사 그룹 카드)
+ * - 유사도 수치 미표시 (오해 방지)
+ * - 데뷔연도·소속사 표시로 그룹 식별 보조
+ */
+function renderEmbeddingFallbackResults(container, query, topGroups) {
+    var html = '<div class="smart-answer-card unified-results">'
+        + '<div class="smart-answer-header">'
+        + '<span class="smart-answer-icon">🔀</span>'
+        + '<h6 class="smart-answer-title">비슷한 그룹</h6>'
+        + '</div>'
+        + '<div class="smart-answer-body">'
+        + '<p class="text-muted small mb-3">그룹 프로필 텍스트 기반 결과입니다. 음악 스타일·콘셉트와 다를 수 있습니다.</p>';
+
+    for (var i = 0; i < topGroups.length; i++) {
+        var item = topGroups[i];
+        var g = item.group;
+        var genderClass = g.gender === '여자' ? 'text-danger' : 'text-primary';
+        var genderIcon = g.gender === '여자' ? '♀' : '♂';
+        // 순위 표시 (1~5위)로 상대적 유사도 전달 — 절대 수치 미노출
+        var rankLabel = ['①', '②', '③', '④', '⑤'][i] || '';
+
+        html += '<div class="unified-result-item" onclick="loadNamuGroupBySlug(\'' + escapeSingleQuote(g.slug) + '\')" style="cursor:pointer; padding: 10px; border-bottom: 1px solid #eee;">'
+            + '<div class="d-flex justify-content-between align-items-start">'
+            + '<div>'
+            + '<span class="me-1 text-muted">' + rankLabel + '</span>'
+            + '<span class="' + genderClass + ' me-1">' + genderIcon + '</span>'
+            + '<strong>' + escapeHtml(g.name) + '</strong>'
+            + ' <small class="text-muted">' + escapeHtml(g.name_en || '') + '</small>'
+            + '</div>'
+            + '</div>'
+            + '</div>';
+    }
+
+    html += '</div></div>';
+    container.innerHTML = html;
+
+    // AI 심화 검색 버튼 (음악 스타일 등 더 정확한 답변 필요 시)
+    // synthesizeWithGemini는 data-raw-context 필수라 임베딩 결과에 부적합
+    // → askGeminiAboutSimilarGroups 사용 (raw_text 없이 Gemini 직접 질의)
+    var deepBtn = document.createElement('div');
+    deepBtn.className = 'text-center mt-2';
+    deepBtn.innerHTML = '<button class="btn btn-outline-primary btn-sm" onclick="askGeminiAboutSimilarGroups(this, \'' + escapeSingleQuote(query) + '\')">'
+        + (typeof CHAT_AI_ICON_SVG !== 'undefined' ? CHAT_AI_ICON_SVG : '🤖') + ' AI로 더 자세히 찾아보기</button>';
+    container.appendChild(deepBtn);
+}
+
+/**
+ * 임베딩 결과 "AI로 더 자세히 찾아보기" 버튼 핸들러
+ * - synthesizeWithGemini와 달리 data-raw-context 불필요
+ * - Gemini에게 직접 질의 (K-POP 일반 지식 활용)
+ */
+async function askGeminiAboutSimilarGroups(btnEl, query) {
+    // 버튼 비활성화 + 로딩 상태
+    btnEl.disabled = true;
+    btnEl.innerHTML = '<span class="spinner-border spinner-border-sm"></span> AI 검색 중...';
+
+    // 채팅 UI 또는 namuSmartAnswer 영역에 렌더링
+    var aiTarget = getChatAiBody() || document.getElementById('namuSmartAnswer');
+
+    var result = await callGeminiFlash(query);
+
+    if (result && result._aborted) {
+        btnEl.disabled = false;
+        btnEl.innerHTML = (typeof CHAT_AI_ICON_SVG !== 'undefined' ? CHAT_AI_ICON_SVG : '🤖') + ' AI로 더 자세히 찾아보기';
+        return;
+    }
+    if (result && !result._error) {
+        renderGeminiAnswer(aiTarget, result, null, null, null);
+        trackEvent('namu_smart_search', { query: query, method: 'embedding_ai' });
+    } else {
+        btnEl.disabled = false;
+        btnEl.innerHTML = (typeof CHAT_AI_ICON_SVG !== 'undefined' ? CHAT_AI_ICON_SVG : '🤖') + ' AI로 더 자세히 찾아보기';
+    }
+}
+
+// ============================================================
 // 복합 질의 전용 Gemini 합성 함수 (Retrieve & Synthesize)
 // - 자동 컨텍스트 빌드 생략 (focused context 직접 전달)
 // - 데이터 분석 특화 시스템 프롬프트 (순위표 + 요약 지시)
@@ -6834,6 +7103,25 @@ async function handleSmartSearch(query) {
         trackEvent('namu_smart_search', { query: query, method: 'unified', result_count: unifiedResult.results.length });
         logSearchToGAS({ query: query, group: '', intent_type: 'unified', response_method: 'unified', response_time_ms: Date.now() - searchStartTime, success: true });
         return;
+    }
+
+    // Method B-0.5: 임베딩 유사도 폴백
+    // 조건: GEMINI_API_KEY 보유 + "비슷한/유사한" 의도 쿼리에만 적용
+    if (localStorage.getItem('GEMINI_API_KEY') && isSimilarityQuery(normalizedQ)) {
+        updateSearchProgress(aiBody, 1, '🔀 유사 그룹 검색 중');
+        // 쿼리에 언급된 그룹은 결과에서 제외 (자기 자신 매칭 방지)
+        var mentionedSlugs = extractMentionedGroupSlugs(normalizedQ);
+        var embedGroups = await embeddingFallback(normalizedQ, searchSignal, mentionedSlugs);
+        if (searchSignal.aborted) return;
+        if (embedGroups && embedGroups.length > 0) {
+            renderEmbeddingFallbackResults(aiBody, query, embedGroups);
+            trackEvent('namu_smart_search', { query: query, method: 'embedding', result_count: embedGroups.length });
+            logSearchToGAS({ query: query, group: '', intent_type: 'embedding', response_method: 'embedding', response_time_ms: Date.now() - searchStartTime, success: true });
+            // 임베딩 카드 표시 후 종료 (설명/비교는 카드 내 "AI로 더 자세히 찾아보기" 버튼으로 처리)
+            // fall-through 금지: B-1의 updateSearchProgress가 container.innerHTML='' 실행 시
+            // 이미 표시된 임베딩 카드가 사라지는 버그 발생
+            return;
+        }
     }
 
     // Method B-1: 크로스그룹 raw_text 키워드 검색
