@@ -89,3 +89,6 @@ TDD_100_REPORT.md
 data/orchestrator_state.json
 data/.orchestrator_paused
 data/.s23_poll.lock
+
+# 2026-07-31 .git 손상 복구 시 보존한 백업(정상운영 확인 후 삭제 예정)
+.git.corrupt-backup-*/
