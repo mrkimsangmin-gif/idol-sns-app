@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T21:34:54.000Z",
+  "generated": "2026-08-01T09:39:30.000Z",
   "version": 3,
   "gender": "여자",
   "snsList": [
@@ -42,7 +42,8 @@
         "2026-03",
         "2026-04",
         "2026-05",
-        "2026-06"
+        "2026-06",
+        "2026-07"
       ],
       "records": [
         {
@@ -6338,6 +6339,276 @@
           "group": "UNCHILD",
           "date": "2026-06",
           "count": 31000
+        },
+        {
+          "name": "블랙핑크",
+          "group": "BLACKPINK",
+          "date": "2026-07",
+          "count": 5784963
+        },
+        {
+          "name": "에스파",
+          "group": "aespa",
+          "date": "2026-07",
+          "count": 2019848
+        },
+        {
+          "name": "아이들",
+          "group": "i-dle",
+          "date": "2026-07",
+          "count": 1426662
+        },
+        {
+          "name": "레드벨벳",
+          "group": "Red Velvet",
+          "date": "2026-07",
+          "count": 1479234
+        },
+        {
+          "name": "뉴진스",
+          "group": "NewJeans",
+          "date": "2026-07",
+          "count": 625055
+        },
+        {
+          "name": "있지",
+          "group": "ITZY",
+          "date": "2026-07",
+          "count": 823115
+        },
+        {
+          "name": "아이브",
+          "group": "IVE",
+          "date": "2026-07",
+          "count": 357525
+        },
+        {
+          "name": "베이비몬스터",
+          "group": "BABYMONSTER",
+          "date": "2026-07",
+          "count": 921558
+        },
+        {
+          "name": "르세라핌",
+          "group": "LE SSERAFIM",
+          "date": "2026-07",
+          "count": 663695
+        },
+        {
+          "name": "엔믹스",
+          "group": "NMIXX",
+          "date": "2026-07",
+          "count": 542578
+        },
+        {
+          "name": "우주소녀",
+          "group": "WJSN",
+          "date": "2026-07",
+          "count": 1963119
+        },
+        {
+          "name": "아일릿",
+          "group": "ILLIT",
+          "date": "2026-07",
+          "count": 523809
+        },
+        {
+          "name": "스테이씨",
+          "group": "STAYC",
+          "date": "2026-07",
+          "count": 209303
+        },
+        {
+          "name": "미야오",
+          "group": "MEOVV",
+          "date": "2026-07",
+          "count": 321774
+        },
+        {
+          "name": "케플러",
+          "group": "Kep1er",
+          "date": "2026-07",
+          "count": 221921
+        },
+        {
+          "name": "키스오브라이프",
+          "group": "KISS OF LIFE",
+          "date": "2026-07",
+          "count": 228277
+        },
+        {
+          "name": "프로미스나인",
+          "group": "fromis_9",
+          "date": "2026-07",
+          "count": 224074
+        },
+        {
+          "name": "트리플에스",
+          "group": "tripleS",
+          "date": "2026-07",
+          "count": 226635
+        },
+        {
+          "name": "오마이걸",
+          "group": "OH MY GIRL",
+          "date": "2026-07",
+          "count": 11646
+        },
+        {
+          "name": "드림캐쳐",
+          "group": "Dreamcatcher",
+          "date": "2026-07",
+          "count": 149268
+        },
+        {
+          "name": "하이키",
+          "group": "H1-KEY",
+          "date": "2026-07",
+          "count": 237470
+        },
+        {
+          "name": "우아",
+          "group": "WOOAH",
+          "date": "2026-07",
+          "count": 29427
+        },
+        {
+          "name": "영파씨",
+          "group": "YOUNG POSSE",
+          "date": "2026-07",
+          "count": 11344
+        },
+        {
+          "name": "위클리",
+          "group": "Weeekly",
+          "date": "2026-07",
+          "count": 14319
+        },
+        {
+          "name": "유니스",
+          "group": "UNIS",
+          "date": "2026-07",
+          "count": 270918
+        },
+        {
+          "name": "트라이비",
+          "group": "TRI.BE",
+          "date": "2026-07",
+          "count": 30076
+        },
+        {
+          "name": "리센느",
+          "group": "RESCENE",
+          "date": "2026-07",
+          "count": 35224
+        },
+        {
+          "name": "로켓펀치",
+          "group": "Rocket Punch",
+          "date": "2026-07",
+          "count": 6309
+        },
+        {
+          "name": "세이마이네임",
+          "group": "SMN",
+          "date": "2026-07",
+          "count": 35618
+        },
+        {
+          "name": "아르테미스",
+          "group": "ARTMS",
+          "date": "2026-07",
+          "count": 128561
+        },
+        {
+          "name": "에이디야",
+          "group": "ADYA",
+          "date": "2026-07",
+          "count": 77429
+        },
+        {
+          "name": "오드유스",
+          "group": "ODD YOUTH",
+          "date": "2026-07",
+          "count": 23825
+        },
+        {
+          "name": "프림로즈",
+          "group": "PRIMROSE",
+          "date": "2026-07",
+          "count": 512
+        },
+        {
+          "name": "크랙시",
+          "group": "CRAXY",
+          "date": "2026-07",
+          "count": 312
+        },
+        {
+          "name": "버비",
+          "group": "Burvey",
+          "date": "2026-07",
+          "count": 187
+        },
+        {
+          "name": "하츠투하츠",
+          "group": "Hearts2Hearts",
+          "date": "2026-07",
+          "count": 351832
+        },
+        {
+          "name": "키키",
+          "group": "KiiiKiii",
+          "date": "2026-07",
+          "count": 239532
+        },
+        {
+          "name": "앳하트",
+          "group": "AtHeart",
+          "date": "2026-07",
+          "count": 1058
+        },
+        {
+          "name": "이프아이",
+          "group": "ifeye",
+          "date": "2026-07",
+          "count": 100743
+        },
+        {
+          "name": "힛지스",
+          "group": "HITGS",
+          "date": "2026-07",
+          "count": 1697
+        },
+        {
+          "name": "키라스",
+          "group": "KIIRAS",
+          "date": "2026-07",
+          "count": 21020
+        },
+        {
+          "name": "베이비돈크라이",
+          "group": "Baby DONT Cry",
+          "date": "2026-07",
+          "count": 112549
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-07",
+          "count": 77644
+        },
+        {
+          "name": "에스투잇",
+          "group": "S2IT",
+          "date": "2026-07",
+          "count": 1301
+        },
+        {
+          "name": "언차일드",
+          "group": "UNCHILD",
+          "date": "2026-07",
+          "count": 32779
         }
       ]
     },
@@ -6370,7 +6641,8 @@
         "2026-03",
         "2026-04",
         "2026-05",
-        "2026-06"
+        "2026-06",
+        "2026-07"
       ],
       "records": [
         {
@@ -17964,6 +18236,510 @@
           "group": "LATENCY",
           "date": "2026-06",
           "count": 367
+        },
+        {
+          "name": "블랙핑크",
+          "group": "BLACKPINK",
+          "date": "2026-07",
+          "count": 2144000
+        },
+        {
+          "name": "에스파",
+          "group": "aespa",
+          "date": "2026-07",
+          "count": 1485000
+        },
+        {
+          "name": "아이들",
+          "group": "i-dle",
+          "date": "2026-07",
+          "count": 1162000
+        },
+        {
+          "name": "레드벨벳",
+          "group": "Red Velvet",
+          "date": "2026-07",
+          "count": 616000
+        },
+        {
+          "name": "뉴진스",
+          "group": "NewJeans",
+          "date": "2026-07",
+          "count": 550000
+        },
+        {
+          "name": "있지",
+          "group": "ITZY",
+          "date": "2026-07",
+          "count": 488000
+        },
+        {
+          "name": "트와이스",
+          "group": "TWICE",
+          "date": "2026-07",
+          "count": 466000
+        },
+        {
+          "name": "아이브",
+          "group": "IVE",
+          "date": "2026-07",
+          "count": 461000
+        },
+        {
+          "name": "베이비몬스터",
+          "group": "BABYMONSTER",
+          "date": "2026-07",
+          "count": 359000
+        },
+        {
+          "name": "르세라핌",
+          "group": "LE SSERAFIM",
+          "date": "2026-07",
+          "count": 284000
+        },
+        {
+          "name": "엔믹스",
+          "group": "NMIXX",
+          "date": "2026-07",
+          "count": 288000
+        },
+        {
+          "name": "우주소녀",
+          "group": "WJSN",
+          "date": "2026-07",
+          "count": 153000
+        },
+        {
+          "name": "아일릿",
+          "group": "ILLIT",
+          "date": "2026-07",
+          "count": 243000
+        },
+        {
+          "name": "스테이씨",
+          "group": "STAYC",
+          "date": "2026-07",
+          "count": 105000
+        },
+        {
+          "name": "미야오",
+          "group": "MEOVV",
+          "date": "2026-07",
+          "count": 111000
+        },
+        {
+          "name": "케플러",
+          "group": "Kep1er",
+          "date": "2026-07",
+          "count": 57000
+        },
+        {
+          "name": "키스오브라이프",
+          "group": "KISS OF LIFE",
+          "date": "2026-07",
+          "count": 63000
+        },
+        {
+          "name": "프로미스나인",
+          "group": "fromis_9",
+          "date": "2026-07",
+          "count": 48000
+        },
+        {
+          "name": "트리플에스",
+          "group": "tripleS",
+          "date": "2026-07",
+          "count": 49000
+        },
+        {
+          "name": "오마이걸",
+          "group": "OH MY GIRL",
+          "date": "2026-07",
+          "count": 35000
+        },
+        {
+          "name": "드림캐쳐",
+          "group": "Dreamcatcher",
+          "date": "2026-07",
+          "count": 32000
+        },
+        {
+          "name": "하이키",
+          "group": "H1-KEY",
+          "date": "2026-07",
+          "count": 30000
+        },
+        {
+          "name": "우아",
+          "group": "WOOAH",
+          "date": "2026-07",
+          "count": 18000
+        },
+        {
+          "name": "비비지",
+          "group": "VIVIZ",
+          "date": "2026-07",
+          "count": 19000
+        },
+        {
+          "name": "이즈나",
+          "group": "izna",
+          "date": "2026-07",
+          "count": 24000
+        },
+        {
+          "name": "빌리",
+          "group": "Billlie",
+          "date": "2026-07",
+          "count": 17000
+        },
+        {
+          "name": "퍼플키스",
+          "group": "PURPLE KISS",
+          "date": "2026-07",
+          "count": 14000
+        },
+        {
+          "name": "큐더블유이알",
+          "group": "QWER",
+          "date": "2026-07",
+          "count": 15000
+        },
+        {
+          "name": "영파씨",
+          "group": "YOUNG POSSE",
+          "date": "2026-07",
+          "count": 16000
+        },
+        {
+          "name": "위클리",
+          "group": "Weeekly",
+          "date": "2026-07",
+          "count": 11000
+        },
+        {
+          "name": "유니스",
+          "group": "UNIS",
+          "date": "2026-07",
+          "count": 10000
+        },
+        {
+          "name": "클라씨",
+          "group": "CLASS:y",
+          "date": "2026-07",
+          "count": 6942
+        },
+        {
+          "name": "트라이비",
+          "group": "TRI.BE",
+          "date": "2026-07",
+          "count": 6078
+        },
+        {
+          "name": "리센느",
+          "group": "RESCENE",
+          "date": "2026-07",
+          "count": 28000
+        },
+        {
+          "name": "로켓펀치",
+          "group": "Rocket Punch",
+          "date": "2026-07",
+          "count": 5710
+        },
+        {
+          "name": "아이칠린",
+          "group": "ICHILLIN'",
+          "date": "2026-07",
+          "count": 6118
+        },
+        {
+          "name": "블랙스완",
+          "group": "BLACKSWAN",
+          "date": "2026-07",
+          "count": 5519
+        },
+        {
+          "name": "첫사랑",
+          "group": "CSR",
+          "date": "2026-07",
+          "count": 5065
+        },
+        {
+          "name": "세이마이네임",
+          "group": "SMN",
+          "date": "2026-07",
+          "count": 9518
+        },
+        {
+          "name": "아트비트",
+          "group": "ARTBEAT v",
+          "date": "2026-07",
+          "count": 5015
+        },
+        {
+          "name": "피프티피프티",
+          "group": "FIFTY FIFTY",
+          "date": "2026-07",
+          "count": 9669
+        },
+        {
+          "name": "메이딘",
+          "group": "MADEIN",
+          "date": "2026-07",
+          "count": 5330
+        },
+        {
+          "name": "아르테미스",
+          "group": "ARTMS",
+          "date": "2026-07",
+          "count": 6993
+        },
+        {
+          "name": "배드빌런",
+          "group": "BADVILLAIN",
+          "date": "2026-07",
+          "count": 4035
+        },
+        {
+          "name": "에이디야",
+          "group": "ADYA",
+          "date": "2026-07",
+          "count": 2897
+        },
+        {
+          "name": "트레이서",
+          "group": "Tracer",
+          "date": "2026-07",
+          "count": 3276
+        },
+        {
+          "name": "아이리스",
+          "group": "IRRIS",
+          "date": "2026-07",
+          "count": 2303
+        },
+        {
+          "name": "비웨이브",
+          "group": "BEWAVE",
+          "date": "2026-07",
+          "count": 2079
+        },
+        {
+          "name": "아일리원",
+          "group": "ILY:1",
+          "date": "2026-07",
+          "count": 1819
+        },
+        {
+          "name": "캔디샵",
+          "group": "Candy Shop",
+          "date": "2026-07",
+          "count": 2041
+        },
+        {
+          "name": "시크릿넘버",
+          "group": "SECRET NUMBER",
+          "date": "2026-07",
+          "count": 1391
+        },
+        {
+          "name": "오드유스",
+          "group": "ODD YOUTH",
+          "date": "2026-07",
+          "count": 2331
+        },
+        {
+          "name": "프림로즈",
+          "group": "PRIMROSE",
+          "date": "2026-07",
+          "count": 1118
+        },
+        {
+          "name": "지니어스",
+          "group": "Geenius",
+          "date": "2026-07",
+          "count": 976
+        },
+        {
+          "name": "크랙시",
+          "group": "CRAXY",
+          "date": "2026-07",
+          "count": 822
+        },
+        {
+          "name": "루셈블",
+          "group": "Loossemble",
+          "date": "2026-07",
+          "count": 704
+        },
+        {
+          "name": "유니코드",
+          "group": "UNICODE",
+          "date": "2026-07",
+          "count": 509
+        },
+        {
+          "name": "위나",
+          "group": "We;Na",
+          "date": "2026-07",
+          "count": 455
+        },
+        {
+          "name": "위치스",
+          "group": "W!TCHX",
+          "date": "2026-07",
+          "count": 395
+        },
+        {
+          "name": "러브원",
+          "group": "LOVEONE",
+          "date": "2026-07",
+          "count": 557
+        },
+        {
+          "name": "수피아",
+          "group": "SPIA",
+          "date": "2026-07",
+          "count": 221
+        },
+        {
+          "name": "아이몬드",
+          "group": "I:MOND",
+          "date": "2026-07",
+          "count": 274
+        },
+        {
+          "name": "버비",
+          "group": "Burvey",
+          "date": "2026-07",
+          "count": 482
+        },
+        {
+          "name": "하츠투하츠",
+          "group": "Hearts2Hearts",
+          "date": "2026-07",
+          "count": 146000
+        },
+        {
+          "name": "키키",
+          "group": "KiiiKiii",
+          "date": "2026-07",
+          "count": 48000
+        },
+        {
+          "name": "아이리제",
+          "group": "IRISÉ",
+          "date": "2026-07",
+          "count": 4621
+        },
+        {
+          "name": "앳하트",
+          "group": "AtHeart",
+          "date": "2026-07",
+          "count": 4503
+        },
+        {
+          "name": "이프아이",
+          "group": "ifeye",
+          "date": "2026-07",
+          "count": 9323
+        },
+        {
+          "name": "븨븨에스",
+          "group": "VVS",
+          "date": "2026-07",
+          "count": 463
+        },
+        {
+          "name": "힛지스",
+          "group": "HITGS",
+          "date": "2026-07",
+          "count": 3302
+        },
+        {
+          "name": "우당탕탕 소녀단",
+          "group": "UDTT",
+          "date": "2026-07",
+          "count": 380
+        },
+        {
+          "name": "키라스",
+          "group": "KIIRAS",
+          "date": "2026-07",
+          "count": 1492
+        },
+        {
+          "name": "유스피어",
+          "group": "USPEER",
+          "date": "2026-07",
+          "count": 2175
+        },
+        {
+          "name": "스모즈",
+          "group": "SMORZ",
+          "date": "2026-07",
+          "count": 152
+        },
+        {
+          "name": "어블룸",
+          "group": "ablume",
+          "date": "2026-07",
+          "count": 1019
+        },
+        {
+          "name": "베이비돈크라이",
+          "group": "Baby DONT Cry",
+          "date": "2026-07",
+          "count": 8103
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-07",
+          "count": 55000
+        },
+        {
+          "name": "오위스",
+          "group": "OWIS",
+          "date": "2026-07",
+          "count": 1011
+        },
+        {
+          "name": "에스투잇",
+          "group": "S2IT",
+          "date": "2026-07",
+          "count": 2020
+        },
+        {
+          "name": "언차일드",
+          "group": "UNCHILD",
+          "date": "2026-07",
+          "count": 21000
+        },
+        {
+          "name": "스텔라라이브",
+          "group": "Stellive",
+          "date": "2026-07",
+          "count": 1
+        },
+        {
+          "name": "레이턴시",
+          "group": "LATENCY",
+          "date": "2026-07",
+          "count": 369
+        },
+        {
+          "name": "아워벌스데이",
+          "group": "OURBIRTHDAY",
+          "date": "2026-07",
+          "count": 704
+        },
+        {
+          "name": "키비츠",
+          "group": "Keyveatz",
+          "date": "2026-07",
+          "count": 2064
         }
       ]
     },
@@ -17996,7 +18772,8 @@
         "2026-03",
         "2026-04",
         "2026-05",
-        "2026-06"
+        "2026-06",
+        "2026-07"
       ],
       "records": [
         {
@@ -29584,6 +30361,504 @@
           "group": "LATENCY",
           "date": "2026-06",
           "count": 20097
+        },
+        {
+          "name": "블랙핑크",
+          "group": "BLACKPINK",
+          "date": "2026-07",
+          "count": 11481087
+        },
+        {
+          "name": "에스파",
+          "group": "aespa",
+          "date": "2026-07",
+          "count": 5090965
+        },
+        {
+          "name": "아이들",
+          "group": "i-dle",
+          "date": "2026-07",
+          "count": 2351773
+        },
+        {
+          "name": "레드벨벳",
+          "group": "Red Velvet",
+          "date": "2026-07",
+          "count": 6149355
+        },
+        {
+          "name": "뉴진스",
+          "group": "NewJeans",
+          "date": "2026-07",
+          "count": 1996509
+        },
+        {
+          "name": "있지",
+          "group": "ITZY",
+          "date": "2026-07",
+          "count": 6474939
+        },
+        {
+          "name": "트와이스",
+          "group": "TWICE",
+          "date": "2026-07",
+          "count": 12698057
+        },
+        {
+          "name": "아이브",
+          "group": "IVE",
+          "date": "2026-07",
+          "count": 1840482
+        },
+        {
+          "name": "베이비몬스터",
+          "group": "BABYMONSTER",
+          "date": "2026-07",
+          "count": 938240
+        },
+        {
+          "name": "르세라핌",
+          "group": "LE SSERAFIM",
+          "date": "2026-07",
+          "count": 2187915
+        },
+        {
+          "name": "엔믹스",
+          "group": "NMIXX",
+          "date": "2026-07",
+          "count": 1249702
+        },
+        {
+          "name": "우주소녀",
+          "group": "WJSN",
+          "date": "2026-07",
+          "count": 363121
+        },
+        {
+          "name": "아일릿",
+          "group": "ILLIT",
+          "date": "2026-07",
+          "count": 304217
+        },
+        {
+          "name": "스테이씨",
+          "group": "STAYC",
+          "date": "2026-07",
+          "count": 730189
+        },
+        {
+          "name": "미야오",
+          "group": "MEOVV",
+          "date": "2026-07",
+          "count": 157249
+        },
+        {
+          "name": "케플러",
+          "group": "Kep1er",
+          "date": "2026-07",
+          "count": 1064469
+        },
+        {
+          "name": "키스오브라이프",
+          "group": "KISS OF LIFE",
+          "date": "2026-07",
+          "count": 255025
+        },
+        {
+          "name": "프로미스나인",
+          "group": "fromis_9",
+          "date": "2026-07",
+          "count": 509493
+        },
+        {
+          "name": "트리플에스",
+          "group": "tripleS",
+          "date": "2026-07",
+          "count": 229409
+        },
+        {
+          "name": "오마이걸",
+          "group": "OH MY GIRL",
+          "date": "2026-07",
+          "count": 350191
+        },
+        {
+          "name": "드림캐쳐",
+          "group": "Dreamcatcher",
+          "date": "2026-07",
+          "count": 473713
+        },
+        {
+          "name": "하이키",
+          "group": "H1-KEY",
+          "date": "2026-07",
+          "count": 62055
+        },
+        {
+          "name": "우아",
+          "group": "WOOAH",
+          "date": "2026-07",
+          "count": 128286
+        },
+        {
+          "name": "비비지",
+          "group": "VIVIZ",
+          "date": "2026-07",
+          "count": 242403
+        },
+        {
+          "name": "이즈나",
+          "group": "izna",
+          "date": "2026-07",
+          "count": 198729
+        },
+        {
+          "name": "빌리",
+          "group": "Billlie",
+          "date": "2026-07",
+          "count": 315316
+        },
+        {
+          "name": "퍼플키스",
+          "group": "PURPLE KISS",
+          "date": "2026-07",
+          "count": 179014
+        },
+        {
+          "name": "큐더블유이알",
+          "group": "QWER",
+          "date": "2026-07",
+          "count": 52967
+        },
+        {
+          "name": "영파씨",
+          "group": "YOUNG POSSE",
+          "date": "2026-07",
+          "count": 33333
+        },
+        {
+          "name": "위클리",
+          "group": "Weeekly",
+          "date": "2026-07",
+          "count": 261314
+        },
+        {
+          "name": "유니스",
+          "group": "UNIS",
+          "date": "2026-07",
+          "count": 106863
+        },
+        {
+          "name": "클라씨",
+          "group": "CLASS:y",
+          "date": "2026-07",
+          "count": 82558
+        },
+        {
+          "name": "트라이비",
+          "group": "TRI.BE",
+          "date": "2026-07",
+          "count": 76496
+        },
+        {
+          "name": "리센느",
+          "group": "RESCENE",
+          "date": "2026-07",
+          "count": 67513
+        },
+        {
+          "name": "로켓펀치",
+          "group": "Rocket Punch",
+          "date": "2026-07",
+          "count": 97448
+        },
+        {
+          "name": "아이칠린",
+          "group": "ICHILLIN'",
+          "date": "2026-07",
+          "count": 35103
+        },
+        {
+          "name": "블랙스완",
+          "group": "BLACKSWAN",
+          "date": "2026-07",
+          "count": 55093
+        },
+        {
+          "name": "첫사랑",
+          "group": "CSR",
+          "date": "2026-07",
+          "count": 52200
+        },
+        {
+          "name": "세이마이네임",
+          "group": "SMN",
+          "date": "2026-07",
+          "count": 70463
+        },
+        {
+          "name": "아트비트",
+          "group": "ARTBEAT v",
+          "date": "2026-07",
+          "count": 8432
+        },
+        {
+          "name": "피프티피프티",
+          "group": "FIFTY FIFTY",
+          "date": "2026-07",
+          "count": 87295
+        },
+        {
+          "name": "메이딘",
+          "group": "MADEIN",
+          "date": "2026-07",
+          "count": 64889
+        },
+        {
+          "name": "아르테미스",
+          "group": "ARTMS",
+          "date": "2026-07",
+          "count": 194477
+        },
+        {
+          "name": "배드빌런",
+          "group": "BADVILLAIN",
+          "date": "2026-07",
+          "count": 25187
+        },
+        {
+          "name": "에이디야",
+          "group": "ADYA",
+          "date": "2026-07",
+          "count": 15794
+        },
+        {
+          "name": "트레이서",
+          "group": "Tracer",
+          "date": "2026-07",
+          "count": 6637
+        },
+        {
+          "name": "아이리스",
+          "group": "IRRIS",
+          "date": "2026-07",
+          "count": 21437
+        },
+        {
+          "name": "비웨이브",
+          "group": "BEWAVE",
+          "date": "2026-07",
+          "count": 5236
+        },
+        {
+          "name": "아일리원",
+          "group": "ILY:1",
+          "date": "2026-07",
+          "count": 40460
+        },
+        {
+          "name": "캔디샵",
+          "group": "Candy Shop",
+          "date": "2026-07",
+          "count": 8151
+        },
+        {
+          "name": "시크릿넘버",
+          "group": "SECRET NUMBER",
+          "date": "2026-07",
+          "count": 216604
+        },
+        {
+          "name": "오드유스",
+          "group": "ODD YOUTH",
+          "date": "2026-07",
+          "count": 15051
+        },
+        {
+          "name": "프림로즈",
+          "group": "PRIMROSE",
+          "date": "2026-07",
+          "count": 11009
+        },
+        {
+          "name": "지니어스",
+          "group": "Geenius",
+          "date": "2026-07",
+          "count": 11502
+        },
+        {
+          "name": "크랙시",
+          "group": "CRAXY",
+          "date": "2026-07",
+          "count": 12062
+        },
+        {
+          "name": "루셈블",
+          "group": "Loossemble",
+          "date": "2026-07",
+          "count": 93208
+        },
+        {
+          "name": "유니코드",
+          "group": "UNICODE",
+          "date": "2026-07",
+          "count": 3041
+        },
+        {
+          "name": "위나",
+          "group": "We;Na",
+          "date": "2026-07",
+          "count": 2650
+        },
+        {
+          "name": "위치스",
+          "group": "W!TCHX",
+          "date": "2026-07",
+          "count": 6361
+        },
+        {
+          "name": "러브원",
+          "group": "LOVEONE",
+          "date": "2026-07",
+          "count": 6736
+        },
+        {
+          "name": "수피아",
+          "group": "SPIA",
+          "date": "2026-07",
+          "count": 1159
+        },
+        {
+          "name": "아이몬드",
+          "group": "I:MOND",
+          "date": "2026-07",
+          "count": 3790
+        },
+        {
+          "name": "버비",
+          "group": "Burvey",
+          "date": "2026-07",
+          "count": 913
+        },
+        {
+          "name": "하츠투하츠",
+          "group": "Hearts2Hearts",
+          "date": "2026-07",
+          "count": 452378
+        },
+        {
+          "name": "키키",
+          "group": "KiiiKiii",
+          "date": "2026-07",
+          "count": 138050
+        },
+        {
+          "name": "아이리제",
+          "group": "IRISÉ",
+          "date": "2026-07",
+          "count": 8634
+        },
+        {
+          "name": "앳하트",
+          "group": "AtHeart",
+          "date": "2026-07",
+          "count": 14555
+        },
+        {
+          "name": "이프아이",
+          "group": "ifeye",
+          "date": "2026-07",
+          "count": 20099
+        },
+        {
+          "name": "힛지스",
+          "group": "HITGS",
+          "date": "2026-07",
+          "count": 9933
+        },
+        {
+          "name": "우당탕탕 소녀단",
+          "group": "UDTT",
+          "date": "2026-07",
+          "count": 5397
+        },
+        {
+          "name": "키라스",
+          "group": "KIIRAS",
+          "date": "2026-07",
+          "count": 12733
+        },
+        {
+          "name": "유스피어",
+          "group": "USPEER",
+          "date": "2026-07",
+          "count": 11055
+        },
+        {
+          "name": "스모즈",
+          "group": "SMORZ",
+          "date": "2026-07",
+          "count": 2879
+        },
+        {
+          "name": "어블룸",
+          "group": "ablume",
+          "date": "2026-07",
+          "count": 38021
+        },
+        {
+          "name": "베이비돈크라이",
+          "group": "Baby DONT Cry",
+          "date": "2026-07",
+          "count": 22631
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-07",
+          "count": 76944
+        },
+        {
+          "name": "오위스",
+          "group": "OWIS",
+          "date": "2026-07",
+          "count": 10151
+        },
+        {
+          "name": "에스투잇",
+          "group": "S2IT",
+          "date": "2026-07",
+          "count": 1428
+        },
+        {
+          "name": "언차일드",
+          "group": "UNCHILD",
+          "date": "2026-07",
+          "count": 29085
+        },
+        {
+          "name": "스텔라라이브",
+          "group": "Stellive",
+          "date": "2026-07",
+          "count": 93536
+        },
+        {
+          "name": "레이턴시",
+          "group": "LATENCY",
+          "date": "2026-07",
+          "count": 19738
+        },
+        {
+          "name": "아워벌스데이",
+          "group": "OURBIRTHDAY",
+          "date": "2026-07",
+          "count": 9364
+        },
+        {
+          "name": "키비츠",
+          "group": "Keyveatz",
+          "date": "2026-07",
+          "count": 8562
         }
       ]
     },
@@ -29616,7 +30891,8 @@
         "2026-03",
         "2026-04",
         "2026-05",
-        "2026-06"
+        "2026-06",
+        "2026-07"
       ],
       "records": [
         {
@@ -41072,6 +42348,510 @@
           "group": "LATENCY",
           "date": "2026-06",
           "count": 60700
+        },
+        {
+          "name": "블랙핑크",
+          "group": "BLACKPINK",
+          "date": "2026-07",
+          "count": 101000000
+        },
+        {
+          "name": "에스파",
+          "group": "aespa",
+          "date": "2026-07",
+          "count": 8760000
+        },
+        {
+          "name": "아이들",
+          "group": "i-dle",
+          "date": "2026-07",
+          "count": 9770000
+        },
+        {
+          "name": "레드벨벳",
+          "group": "Red Velvet",
+          "date": "2026-07",
+          "count": 5570000
+        },
+        {
+          "name": "뉴진스",
+          "group": "NewJeans",
+          "date": "2026-07",
+          "count": 8600000
+        },
+        {
+          "name": "있지",
+          "group": "ITZY",
+          "date": "2026-07",
+          "count": 9990000
+        },
+        {
+          "name": "트와이스",
+          "group": "TWICE",
+          "date": "2026-07",
+          "count": 19400000
+        },
+        {
+          "name": "아이브",
+          "group": "IVE",
+          "date": "2026-07",
+          "count": 5180000
+        },
+        {
+          "name": "베이비몬스터",
+          "group": "BABYMONSTER",
+          "date": "2026-07",
+          "count": 12700000
+        },
+        {
+          "name": "르세라핌",
+          "group": "LE SSERAFIM",
+          "date": "2026-07",
+          "count": 8370000
+        },
+        {
+          "name": "엔믹스",
+          "group": "NMIXX",
+          "date": "2026-07",
+          "count": 4680000
+        },
+        {
+          "name": "우주소녀",
+          "group": "WJSN",
+          "date": "2026-07",
+          "count": 323000
+        },
+        {
+          "name": "아일릿",
+          "group": "ILLIT",
+          "date": "2026-07",
+          "count": 5920000
+        },
+        {
+          "name": "스테이씨",
+          "group": "STAYC",
+          "date": "2026-07",
+          "count": 1860000
+        },
+        {
+          "name": "미야오",
+          "group": "MEOVV",
+          "date": "2026-07",
+          "count": 1430000
+        },
+        {
+          "name": "케플러",
+          "group": "Kep1er",
+          "date": "2026-07",
+          "count": 2540000
+        },
+        {
+          "name": "키스오브라이프",
+          "group": "KISS OF LIFE",
+          "date": "2026-07",
+          "count": 2110000
+        },
+        {
+          "name": "프로미스나인",
+          "group": "fromis_9",
+          "date": "2026-07",
+          "count": 1280000
+        },
+        {
+          "name": "트리플에스",
+          "group": "tripleS",
+          "date": "2026-07",
+          "count": 2950000
+        },
+        {
+          "name": "오마이걸",
+          "group": "OH MY GIRL",
+          "date": "2026-07",
+          "count": 1050000
+        },
+        {
+          "name": "드림캐쳐",
+          "group": "Dreamcatcher",
+          "date": "2026-07",
+          "count": 1780000
+        },
+        {
+          "name": "하이키",
+          "group": "H1-KEY",
+          "date": "2026-07",
+          "count": 438000
+        },
+        {
+          "name": "우아",
+          "group": "WOOAH",
+          "date": "2026-07",
+          "count": 420000
+        },
+        {
+          "name": "비비지",
+          "group": "VIVIZ",
+          "date": "2026-07",
+          "count": 742000
+        },
+        {
+          "name": "이즈나",
+          "group": "izna",
+          "date": "2026-07",
+          "count": 2030000
+        },
+        {
+          "name": "빌리",
+          "group": "Billlie",
+          "date": "2026-07",
+          "count": 826000
+        },
+        {
+          "name": "퍼플키스",
+          "group": "PURPLE KISS",
+          "date": "2026-07",
+          "count": 698000
+        },
+        {
+          "name": "큐더블유이알",
+          "group": "QWER",
+          "date": "2026-07",
+          "count": 1340000
+        },
+        {
+          "name": "영파씨",
+          "group": "YOUNG POSSE",
+          "date": "2026-07",
+          "count": 364000
+        },
+        {
+          "name": "위클리",
+          "group": "Weeekly",
+          "date": "2026-07",
+          "count": 416000
+        },
+        {
+          "name": "유니스",
+          "group": "UNIS",
+          "date": "2026-07",
+          "count": 853000
+        },
+        {
+          "name": "클라씨",
+          "group": "CLASS:y",
+          "date": "2026-07",
+          "count": 339000
+        },
+        {
+          "name": "트라이비",
+          "group": "TRI.BE",
+          "date": "2026-07",
+          "count": 649000
+        },
+        {
+          "name": "리센느",
+          "group": "RESCENE",
+          "date": "2026-07",
+          "count": 869000
+        },
+        {
+          "name": "로켓펀치",
+          "group": "Rocket Punch",
+          "date": "2026-07",
+          "count": 199000
+        },
+        {
+          "name": "아이칠린",
+          "group": "ICHILLIN'",
+          "date": "2026-07",
+          "count": 114000
+        },
+        {
+          "name": "블랙스완",
+          "group": "BLACKSWAN",
+          "date": "2026-07",
+          "count": 908000
+        },
+        {
+          "name": "첫사랑",
+          "group": "CSR",
+          "date": "2026-07",
+          "count": 137000
+        },
+        {
+          "name": "세이마이네임",
+          "group": "SMN",
+          "date": "2026-07",
+          "count": 488000
+        },
+        {
+          "name": "아트비트",
+          "group": "ARTBEAT v",
+          "date": "2026-07",
+          "count": 5050000
+        },
+        {
+          "name": "피프티피프티",
+          "group": "FIFTY FIFTY",
+          "date": "2026-07",
+          "count": 2210000
+        },
+        {
+          "name": "메이딘",
+          "group": "MADEIN",
+          "date": "2026-07",
+          "count": 192000
+        },
+        {
+          "name": "아르테미스",
+          "group": "ARTMS",
+          "date": "2026-07",
+          "count": 1050000
+        },
+        {
+          "name": "배드빌런",
+          "group": "BADVILLAIN",
+          "date": "2026-07",
+          "count": 185000
+        },
+        {
+          "name": "에이디야",
+          "group": "ADYA",
+          "date": "2026-07",
+          "count": 15600
+        },
+        {
+          "name": "트레이서",
+          "group": "Tracer",
+          "date": "2026-07",
+          "count": 3620
+        },
+        {
+          "name": "아이리스",
+          "group": "IRRIS",
+          "date": "2026-07",
+          "count": 48300
+        },
+        {
+          "name": "비웨이브",
+          "group": "BEWAVE",
+          "date": "2026-07",
+          "count": 213000
+        },
+        {
+          "name": "아일리원",
+          "group": "ILY:1",
+          "date": "2026-07",
+          "count": 166000
+        },
+        {
+          "name": "캔디샵",
+          "group": "Candy Shop",
+          "date": "2026-07",
+          "count": 38000
+        },
+        {
+          "name": "시크릿넘버",
+          "group": "SECRET NUMBER",
+          "date": "2026-07",
+          "count": 1600000
+        },
+        {
+          "name": "오드유스",
+          "group": "ODD YOUTH",
+          "date": "2026-07",
+          "count": 46800
+        },
+        {
+          "name": "프림로즈",
+          "group": "PRIMROSE",
+          "date": "2026-07",
+          "count": 136000
+        },
+        {
+          "name": "지니어스",
+          "group": "Geenius",
+          "date": "2026-07",
+          "count": 45300
+        },
+        {
+          "name": "크랙시",
+          "group": "CRAXY",
+          "date": "2026-07",
+          "count": 237000
+        },
+        {
+          "name": "루셈블",
+          "group": "Loossemble",
+          "date": "2026-07",
+          "count": 237000
+        },
+        {
+          "name": "유니코드",
+          "group": "UNICODE",
+          "date": "2026-07",
+          "count": 1020
+        },
+        {
+          "name": "위나",
+          "group": "We;Na",
+          "date": "2026-07",
+          "count": 30400
+        },
+        {
+          "name": "위치스",
+          "group": "W!TCHX",
+          "date": "2026-07",
+          "count": 8610
+        },
+        {
+          "name": "러브원",
+          "group": "LOVEONE",
+          "date": "2026-07",
+          "count": 25900
+        },
+        {
+          "name": "수피아",
+          "group": "SPIA",
+          "date": "2026-07",
+          "count": 381
+        },
+        {
+          "name": "아이몬드",
+          "group": "I:MOND",
+          "date": "2026-07",
+          "count": 15800
+        },
+        {
+          "name": "버비",
+          "group": "Burvey",
+          "date": "2026-07",
+          "count": 67300
+        },
+        {
+          "name": "하츠투하츠",
+          "group": "Hearts2Hearts",
+          "date": "2026-07",
+          "count": 3370000
+        },
+        {
+          "name": "키키",
+          "group": "KiiiKiii",
+          "date": "2026-07",
+          "count": 519000
+        },
+        {
+          "name": "아이리제",
+          "group": "IRISÉ",
+          "date": "2026-07",
+          "count": 107000
+        },
+        {
+          "name": "앳하트",
+          "group": "AtHeart",
+          "date": "2026-07",
+          "count": 1490000
+        },
+        {
+          "name": "이프아이",
+          "group": "ifeye",
+          "date": "2026-07",
+          "count": 296000
+        },
+        {
+          "name": "븨븨에스",
+          "group": "VVS",
+          "date": "2026-07",
+          "count": 72200
+        },
+        {
+          "name": "힛지스",
+          "group": "HITGS",
+          "date": "2026-07",
+          "count": 77000
+        },
+        {
+          "name": "우당탕탕 소녀단",
+          "group": "UDTT",
+          "date": "2026-07",
+          "count": 109000
+        },
+        {
+          "name": "키라스",
+          "group": "KIIRAS",
+          "date": "2026-07",
+          "count": 216000
+        },
+        {
+          "name": "유스피어",
+          "group": "USPEER",
+          "date": "2026-07",
+          "count": 41000
+        },
+        {
+          "name": "스모즈",
+          "group": "SMORZ",
+          "date": "2026-07",
+          "count": 137000
+        },
+        {
+          "name": "어블룸",
+          "group": "ablume",
+          "date": "2026-07",
+          "count": 97200
+        },
+        {
+          "name": "베이비돈크라이",
+          "group": "Baby DONT Cry",
+          "date": "2026-07",
+          "count": 638000
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-07",
+          "count": 1120000
+        },
+        {
+          "name": "오위스",
+          "group": "OWIS",
+          "date": "2026-07",
+          "count": 88700
+        },
+        {
+          "name": "에스투잇",
+          "group": "S2IT",
+          "date": "2026-07",
+          "count": 9510
+        },
+        {
+          "name": "언차일드",
+          "group": "UNCHILD",
+          "date": "2026-07",
+          "count": 881000
+        },
+        {
+          "name": "스텔라라이브",
+          "group": "Stellive",
+          "date": "2026-07",
+          "count": 252000
+        },
+        {
+          "name": "레이턴시",
+          "group": "LATENCY",
+          "date": "2026-07",
+          "count": 61300
+        },
+        {
+          "name": "아워벌스데이",
+          "group": "OURBIRTHDAY",
+          "date": "2026-07",
+          "count": 63400
+        },
+        {
+          "name": "키비츠",
+          "group": "Keyveatz",
+          "date": "2026-07",
+          "count": 279000
         }
       ]
     },
@@ -41104,7 +42884,8 @@
         "2026-03",
         "2026-04",
         "2026-05",
-        "2026-06"
+        "2026-06",
+        "2026-07"
       ],
       "records": [
         {
@@ -52566,6 +54347,474 @@
           "group": "LATENCY",
           "date": "2026-06",
           "count": 302
+        },
+        {
+          "name": "블랙핑크",
+          "group": "BLACKPINK",
+          "date": "2026-07",
+          "count": 8497000
+        },
+        {
+          "name": "에스파",
+          "group": "aespa",
+          "date": "2026-07",
+          "count": 2761000
+        },
+        {
+          "name": "아이들",
+          "group": "i-dle",
+          "date": "2026-07",
+          "count": 2901000
+        },
+        {
+          "name": "레드벨벳",
+          "group": "Red Velvet",
+          "date": "2026-07",
+          "count": 1431000
+        },
+        {
+          "name": "뉴진스",
+          "group": "NewJeans",
+          "date": "2026-07",
+          "count": 1837000
+        },
+        {
+          "name": "있지",
+          "group": "ITZY",
+          "date": "2026-07",
+          "count": 1167000
+        },
+        {
+          "name": "트와이스",
+          "group": "TWICE",
+          "date": "2026-07",
+          "count": 1623000
+        },
+        {
+          "name": "아이브",
+          "group": "IVE",
+          "date": "2026-07",
+          "count": 1280000
+        },
+        {
+          "name": "베이비몬스터",
+          "group": "BABYMONSTER",
+          "date": "2026-07",
+          "count": 1039000
+        },
+        {
+          "name": "르세라핌",
+          "group": "LE SSERAFIM",
+          "date": "2026-07",
+          "count": 801000
+        },
+        {
+          "name": "엔믹스",
+          "group": "NMIXX",
+          "date": "2026-07",
+          "count": 560000
+        },
+        {
+          "name": "우주소녀",
+          "group": "WJSN",
+          "date": "2026-07",
+          "count": 227000
+        },
+        {
+          "name": "아일릿",
+          "group": "ILLIT",
+          "date": "2026-07",
+          "count": 806000
+        },
+        {
+          "name": "미야오",
+          "group": "MEOVV",
+          "date": "2026-07",
+          "count": 216000
+        },
+        {
+          "name": "케플러",
+          "group": "Kep1er",
+          "date": "2026-07",
+          "count": 191000
+        },
+        {
+          "name": "키스오브라이프",
+          "group": "KISS OF LIFE",
+          "date": "2026-07",
+          "count": 253000
+        },
+        {
+          "name": "프로미스나인",
+          "group": "fromis_9",
+          "date": "2026-07",
+          "count": 124000
+        },
+        {
+          "name": "트리플에스",
+          "group": "tripleS",
+          "date": "2026-07",
+          "count": 126000
+        },
+        {
+          "name": "오마이걸",
+          "group": "OH MY GIRL",
+          "date": "2026-07",
+          "count": 193000
+        },
+        {
+          "name": "드림캐쳐",
+          "group": "Dreamcatcher",
+          "date": "2026-07",
+          "count": 108000
+        },
+        {
+          "name": "하이키",
+          "group": "H1-KEY",
+          "date": "2026-07",
+          "count": 61000
+        },
+        {
+          "name": "비비지",
+          "group": "VIVIZ",
+          "date": "2026-07",
+          "count": 44000
+        },
+        {
+          "name": "이즈나",
+          "group": "izna",
+          "date": "2026-07",
+          "count": 28000
+        },
+        {
+          "name": "빌리",
+          "group": "Billlie",
+          "date": "2026-07",
+          "count": 43000
+        },
+        {
+          "name": "큐더블유이알",
+          "group": "QWER",
+          "date": "2026-07",
+          "count": 26000
+        },
+        {
+          "name": "영파씨",
+          "group": "YOUNG POSSE",
+          "date": "2026-07",
+          "count": 26000
+        },
+        {
+          "name": "위클리",
+          "group": "Weeekly",
+          "date": "2026-07",
+          "count": 19000
+        },
+        {
+          "name": "유니스",
+          "group": "UNIS",
+          "date": "2026-07",
+          "count": 15000
+        },
+        {
+          "name": "트라이비",
+          "group": "TRI.BE",
+          "date": "2026-07",
+          "count": 41000
+        },
+        {
+          "name": "리센느",
+          "group": "RESCENE",
+          "date": "2026-07",
+          "count": 76000
+        },
+        {
+          "name": "로켓펀치",
+          "group": "Rocket Punch",
+          "date": "2026-07",
+          "count": 16000
+        },
+        {
+          "name": "아이칠린",
+          "group": "ICHILLIN'",
+          "date": "2026-07",
+          "count": 4119
+        },
+        {
+          "name": "블랙스완",
+          "group": "BLACKSWAN",
+          "date": "2026-07",
+          "count": 18000
+        },
+        {
+          "name": "첫사랑",
+          "group": "CSR",
+          "date": "2026-07",
+          "count": 6685
+        },
+        {
+          "name": "세이마이네임",
+          "group": "SMN",
+          "date": "2026-07",
+          "count": 29000
+        },
+        {
+          "name": "아트비트",
+          "group": "ARTBEAT v",
+          "date": "2026-07",
+          "count": 612
+        },
+        {
+          "name": "피프티피프티",
+          "group": "FIFTY FIFTY",
+          "date": "2026-07",
+          "count": 117000
+        },
+        {
+          "name": "아르테미스",
+          "group": "ARTMS",
+          "date": "2026-07",
+          "count": 12000
+        },
+        {
+          "name": "배드빌런",
+          "group": "BADVILLAIN",
+          "date": "2026-07",
+          "count": 6302
+        },
+        {
+          "name": "에이디야",
+          "group": "ADYA",
+          "date": "2026-07",
+          "count": 2470
+        },
+        {
+          "name": "트레이서",
+          "group": "Tracer",
+          "date": "2026-07",
+          "count": 64
+        },
+        {
+          "name": "아이리스",
+          "group": "IRRIS",
+          "date": "2026-07",
+          "count": 2091
+        },
+        {
+          "name": "비웨이브",
+          "group": "BEWAVE",
+          "date": "2026-07",
+          "count": 2451
+        },
+        {
+          "name": "아일리원",
+          "group": "ILY:1",
+          "date": "2026-07",
+          "count": 2849
+        },
+        {
+          "name": "캔디샵",
+          "group": "Candy Shop",
+          "date": "2026-07",
+          "count": 2060
+        },
+        {
+          "name": "시크릿넘버",
+          "group": "SECRET NUMBER",
+          "date": "2026-07",
+          "count": 3233
+        },
+        {
+          "name": "오드유스",
+          "group": "ODD YOUTH",
+          "date": "2026-07",
+          "count": 1069
+        },
+        {
+          "name": "프림로즈",
+          "group": "PRIMROSE",
+          "date": "2026-07",
+          "count": 1016
+        },
+        {
+          "name": "지니어스",
+          "group": "Geenius",
+          "date": "2026-07",
+          "count": 516
+        },
+        {
+          "name": "크랙시",
+          "group": "CRAXY",
+          "date": "2026-07",
+          "count": 1821
+        },
+        {
+          "name": "루셈블",
+          "group": "Loossemble",
+          "date": "2026-07",
+          "count": 4605
+        },
+        {
+          "name": "유니코드",
+          "group": "UNICODE",
+          "date": "2026-07",
+          "count": 350
+        },
+        {
+          "name": "위나",
+          "group": "We;Na",
+          "date": "2026-07",
+          "count": 84
+        },
+        {
+          "name": "위치스",
+          "group": "W!TCHX",
+          "date": "2026-07",
+          "count": 72
+        },
+        {
+          "name": "러브원",
+          "group": "LOVEONE",
+          "date": "2026-07",
+          "count": 441
+        },
+        {
+          "name": "수피아",
+          "group": "SPIA",
+          "date": "2026-07",
+          "count": 205
+        },
+        {
+          "name": "아이몬드",
+          "group": "I:MOND",
+          "date": "2026-07",
+          "count": 157
+        },
+        {
+          "name": "버비",
+          "group": "Burvey",
+          "date": "2026-07",
+          "count": 416
+        },
+        {
+          "name": "하츠투하츠",
+          "group": "Hearts2Hearts",
+          "date": "2026-07",
+          "count": 290000
+        },
+        {
+          "name": "키키",
+          "group": "KiiiKiii",
+          "date": "2026-07",
+          "count": 106000
+        },
+        {
+          "name": "아이리제",
+          "group": "IRISÉ",
+          "date": "2026-07",
+          "count": 3109
+        },
+        {
+          "name": "앳하트",
+          "group": "AtHeart",
+          "date": "2026-07",
+          "count": 30
+        },
+        {
+          "name": "이프아이",
+          "group": "ifeye",
+          "date": "2026-07",
+          "count": 7787
+        },
+        {
+          "name": "븨븨에스",
+          "group": "VVS",
+          "date": "2026-07",
+          "count": 869
+        },
+        {
+          "name": "힛지스",
+          "group": "HITGS",
+          "date": "2026-07",
+          "count": 3780
+        },
+        {
+          "name": "키라스",
+          "group": "KIIRAS",
+          "date": "2026-07",
+          "count": 839
+        },
+        {
+          "name": "유스피어",
+          "group": "USPEER",
+          "date": "2026-07",
+          "count": 1790
+        },
+        {
+          "name": "스모즈",
+          "group": "SMORZ",
+          "date": "2026-07",
+          "count": 436
+        },
+        {
+          "name": "어블룸",
+          "group": "ablume",
+          "date": "2026-07",
+          "count": 1305
+        },
+        {
+          "name": "베이비돈크라이",
+          "group": "Baby DONT Cry",
+          "date": "2026-07",
+          "count": 12000
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-07",
+          "count": 161000
+        },
+        {
+          "name": "오위스",
+          "group": "OWIS",
+          "date": "2026-07",
+          "count": 1771
+        },
+        {
+          "name": "에스투잇",
+          "group": "S2IT",
+          "date": "2026-07",
+          "count": 721
+        },
+        {
+          "name": "언차일드",
+          "group": "UNCHILD",
+          "date": "2026-07",
+          "count": 20000
+        },
+        {
+          "name": "스텔라라이브",
+          "group": "Stellive",
+          "date": "2026-07",
+          "count": 28
+        },
+        {
+          "name": "레이턴시",
+          "group": "LATENCY",
+          "date": "2026-07",
+          "count": 333
+        },
+        {
+          "name": "아워벌스데이",
+          "group": "OURBIRTHDAY",
+          "date": "2026-07",
+          "count": 331
+        },
+        {
+          "name": "키비츠",
+          "group": "Keyveatz",
+          "date": "2026-07",
+          "count": 1931
         }
       ]
     },
@@ -52598,7 +54847,8 @@
         "2026-03",
         "2026-04",
         "2026-05",
-        "2026-06"
+        "2026-06",
+        "2026-07"
       ],
       "records": [
         {
@@ -64054,6 +66304,510 @@
           "group": "LATENCY",
           "date": "2026-06",
           "count": 67861
+        },
+        {
+          "name": "블랙핑크",
+          "group": "BLACKPINK",
+          "date": "2026-07",
+          "count": 19693324
+        },
+        {
+          "name": "에스파",
+          "group": "aespa",
+          "date": "2026-07",
+          "count": 10936839
+        },
+        {
+          "name": "아이들",
+          "group": "i-dle",
+          "date": "2026-07",
+          "count": 7133712
+        },
+        {
+          "name": "레드벨벳",
+          "group": "Red Velvet",
+          "date": "2026-07",
+          "count": 5430884
+        },
+        {
+          "name": "뉴진스",
+          "group": "NewJeans",
+          "date": "2026-07",
+          "count": 14076737
+        },
+        {
+          "name": "있지",
+          "group": "ITZY",
+          "date": "2026-07",
+          "count": 4727796
+        },
+        {
+          "name": "트와이스",
+          "group": "TWICE",
+          "date": "2026-07",
+          "count": 14997708
+        },
+        {
+          "name": "아이브",
+          "group": "IVE",
+          "date": "2026-07",
+          "count": 5904384
+        },
+        {
+          "name": "베이비몬스터",
+          "group": "BABYMONSTER",
+          "date": "2026-07",
+          "count": 7828872
+        },
+        {
+          "name": "르세라핌",
+          "group": "LE SSERAFIM",
+          "date": "2026-07",
+          "count": 21776580
+        },
+        {
+          "name": "엔믹스",
+          "group": "NMIXX",
+          "date": "2026-07",
+          "count": 4173439
+        },
+        {
+          "name": "우주소녀",
+          "group": "WJSN",
+          "date": "2026-07",
+          "count": 305475
+        },
+        {
+          "name": "아일릿",
+          "group": "ILLIT",
+          "date": "2026-07",
+          "count": 22070755
+        },
+        {
+          "name": "스테이씨",
+          "group": "STAYC",
+          "date": "2026-07",
+          "count": 1550525
+        },
+        {
+          "name": "미야오",
+          "group": "MEOVV",
+          "date": "2026-07",
+          "count": 5144051
+        },
+        {
+          "name": "케플러",
+          "group": "Kep1er",
+          "date": "2026-07",
+          "count": 780116
+        },
+        {
+          "name": "키스오브라이프",
+          "group": "KISS OF LIFE",
+          "date": "2026-07",
+          "count": 3953024
+        },
+        {
+          "name": "프로미스나인",
+          "group": "fromis_9",
+          "date": "2026-07",
+          "count": 1950797
+        },
+        {
+          "name": "트리플에스",
+          "group": "tripleS",
+          "date": "2026-07",
+          "count": 1118410
+        },
+        {
+          "name": "오마이걸",
+          "group": "OH MY GIRL",
+          "date": "2026-07",
+          "count": 754807
+        },
+        {
+          "name": "드림캐쳐",
+          "group": "Dreamcatcher",
+          "date": "2026-07",
+          "count": 556570
+        },
+        {
+          "name": "하이키",
+          "group": "H1-KEY",
+          "date": "2026-07",
+          "count": 276870
+        },
+        {
+          "name": "우아",
+          "group": "WOOAH",
+          "date": "2026-07",
+          "count": 222670
+        },
+        {
+          "name": "비비지",
+          "group": "VIVIZ",
+          "date": "2026-07",
+          "count": 753090
+        },
+        {
+          "name": "이즈나",
+          "group": "izna",
+          "date": "2026-07",
+          "count": 1676412
+        },
+        {
+          "name": "빌리",
+          "group": "Billlie",
+          "date": "2026-07",
+          "count": 477739
+        },
+        {
+          "name": "퍼플키스",
+          "group": "PURPLE KISS",
+          "date": "2026-07",
+          "count": 203037
+        },
+        {
+          "name": "큐더블유이알",
+          "group": "QWER",
+          "date": "2026-07",
+          "count": 502317
+        },
+        {
+          "name": "영파씨",
+          "group": "YOUNG POSSE",
+          "date": "2026-07",
+          "count": 418948
+        },
+        {
+          "name": "위클리",
+          "group": "Weeekly",
+          "date": "2026-07",
+          "count": 565493
+        },
+        {
+          "name": "유니스",
+          "group": "UNIS",
+          "date": "2026-07",
+          "count": 264042
+        },
+        {
+          "name": "클라씨",
+          "group": "CLASS:y",
+          "date": "2026-07",
+          "count": 266041
+        },
+        {
+          "name": "트라이비",
+          "group": "TRI.BE",
+          "date": "2026-07",
+          "count": 444057
+        },
+        {
+          "name": "리센느",
+          "group": "RESCENE",
+          "date": "2026-07",
+          "count": 2062665
+        },
+        {
+          "name": "로켓펀치",
+          "group": "Rocket Punch",
+          "date": "2026-07",
+          "count": 55235
+        },
+        {
+          "name": "아이칠린",
+          "group": "ICHILLIN'",
+          "date": "2026-07",
+          "count": 46078
+        },
+        {
+          "name": "블랙스완",
+          "group": "BLACKSWAN",
+          "date": "2026-07",
+          "count": 61115
+        },
+        {
+          "name": "첫사랑",
+          "group": "CSR",
+          "date": "2026-07",
+          "count": 55684
+        },
+        {
+          "name": "세이마이네임",
+          "group": "SMN",
+          "date": "2026-07",
+          "count": 321683
+        },
+        {
+          "name": "아트비트",
+          "group": "ARTBEAT v",
+          "date": "2026-07",
+          "count": 2437
+        },
+        {
+          "name": "피프티피프티",
+          "group": "FIFTY FIFTY",
+          "date": "2026-07",
+          "count": 6154107
+        },
+        {
+          "name": "메이딘",
+          "group": "MADEIN",
+          "date": "2026-07",
+          "count": 51398
+        },
+        {
+          "name": "아르테미스",
+          "group": "ARTMS",
+          "date": "2026-07",
+          "count": 333727
+        },
+        {
+          "name": "배드빌런",
+          "group": "BADVILLAIN",
+          "date": "2026-07",
+          "count": 260038
+        },
+        {
+          "name": "에이디야",
+          "group": "ADYA",
+          "date": "2026-07",
+          "count": 5728
+        },
+        {
+          "name": "트레이서",
+          "group": "Tracer",
+          "date": "2026-07",
+          "count": 167
+        },
+        {
+          "name": "아이리스",
+          "group": "IRRIS",
+          "date": "2026-07",
+          "count": 2388
+        },
+        {
+          "name": "비웨이브",
+          "group": "BEWAVE",
+          "date": "2026-07",
+          "count": 7430
+        },
+        {
+          "name": "아일리원",
+          "group": "ILY:1",
+          "date": "2026-07",
+          "count": 17103
+        },
+        {
+          "name": "캔디샵",
+          "group": "Candy Shop",
+          "date": "2026-07",
+          "count": 8032
+        },
+        {
+          "name": "시크릿넘버",
+          "group": "SECRET NUMBER",
+          "date": "2026-07",
+          "count": 327417
+        },
+        {
+          "name": "오드유스",
+          "group": "ODD YOUTH",
+          "date": "2026-07",
+          "count": 35880
+        },
+        {
+          "name": "프림로즈",
+          "group": "PRIMROSE",
+          "date": "2026-07",
+          "count": 61940
+        },
+        {
+          "name": "지니어스",
+          "group": "Geenius",
+          "date": "2026-07",
+          "count": 1992
+        },
+        {
+          "name": "크랙시",
+          "group": "CRAXY",
+          "date": "2026-07",
+          "count": 12789
+        },
+        {
+          "name": "루셈블",
+          "group": "Loossemble",
+          "date": "2026-07",
+          "count": 442286
+        },
+        {
+          "name": "유니코드",
+          "group": "UNICODE",
+          "date": "2026-07",
+          "count": 1784
+        },
+        {
+          "name": "위나",
+          "group": "We;Na",
+          "date": "2026-07",
+          "count": 1655
+        },
+        {
+          "name": "위치스",
+          "group": "W!TCHX",
+          "date": "2026-07",
+          "count": 1613
+        },
+        {
+          "name": "러브원",
+          "group": "LOVEONE",
+          "date": "2026-07",
+          "count": 13647
+        },
+        {
+          "name": "수피아",
+          "group": "SPIA",
+          "date": "2026-07",
+          "count": 867
+        },
+        {
+          "name": "아이몬드",
+          "group": "I:MOND",
+          "date": "2026-07",
+          "count": 1756
+        },
+        {
+          "name": "버비",
+          "group": "Burvey",
+          "date": "2026-07",
+          "count": 4439
+        },
+        {
+          "name": "하츠투하츠",
+          "group": "Hearts2Hearts",
+          "date": "2026-07",
+          "count": 8036957
+        },
+        {
+          "name": "키키",
+          "group": "KiiiKiii",
+          "date": "2026-07",
+          "count": 3222859
+        },
+        {
+          "name": "아이리제",
+          "group": "IRISÉ",
+          "date": "2026-07",
+          "count": 13925
+        },
+        {
+          "name": "앳하트",
+          "group": "AtHeart",
+          "date": "2026-07",
+          "count": 567332
+        },
+        {
+          "name": "이프아이",
+          "group": "ifeye",
+          "date": "2026-07",
+          "count": 414556
+        },
+        {
+          "name": "븨븨에스",
+          "group": "VVS",
+          "date": "2026-07",
+          "count": 64440
+        },
+        {
+          "name": "힛지스",
+          "group": "HITGS",
+          "date": "2026-07",
+          "count": 141629
+        },
+        {
+          "name": "우당탕탕 소녀단",
+          "group": "UDTT",
+          "date": "2026-07",
+          "count": 18666
+        },
+        {
+          "name": "키라스",
+          "group": "KIIRAS",
+          "date": "2026-07",
+          "count": 42410
+        },
+        {
+          "name": "유스피어",
+          "group": "USPEER",
+          "date": "2026-07",
+          "count": 41517
+        },
+        {
+          "name": "스모즈",
+          "group": "SMORZ",
+          "date": "2026-07",
+          "count": 9375
+        },
+        {
+          "name": "어블룸",
+          "group": "ablume",
+          "date": "2026-07",
+          "count": 46727
+        },
+        {
+          "name": "베이비돈크라이",
+          "group": "Baby DONT Cry",
+          "date": "2026-07",
+          "count": 272075
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-07",
+          "count": 1998440
+        },
+        {
+          "name": "오위스",
+          "group": "OWIS",
+          "date": "2026-07",
+          "count": 71538
+        },
+        {
+          "name": "에스투잇",
+          "group": "S2IT",
+          "date": "2026-07",
+          "count": 4715
+        },
+        {
+          "name": "언차일드",
+          "group": "UNCHILD",
+          "date": "2026-07",
+          "count": 875301
+        },
+        {
+          "name": "스텔라라이브",
+          "group": "Stellive",
+          "date": "2026-07",
+          "count": 20070
+        },
+        {
+          "name": "레이턴시",
+          "group": "LATENCY",
+          "date": "2026-07",
+          "count": 51329
+        },
+        {
+          "name": "아워벌스데이",
+          "group": "OURBIRTHDAY",
+          "date": "2026-07",
+          "count": 50703
+        },
+        {
+          "name": "키비츠",
+          "group": "Keyveatz",
+          "date": "2026-07",
+          "count": 580549
         }
       ]
     },
@@ -64086,7 +66840,8 @@
         "2026-03",
         "2026-04",
         "2026-05",
-        "2026-06"
+        "2026-06",
+        "2026-07"
       ],
       "records": [
         {
@@ -68942,6 +71697,210 @@
           "group": "UNCHILD",
           "date": "2026-06",
           "count": 46787
+        },
+        {
+          "name": "에스파",
+          "group": "aespa",
+          "date": "2026-07",
+          "count": 2020886
+        },
+        {
+          "name": "아이들",
+          "group": "i-dle",
+          "date": "2026-07",
+          "count": 2116101
+        },
+        {
+          "name": "레드벨벳",
+          "group": "Red Velvet",
+          "date": "2026-07",
+          "count": 606126
+        },
+        {
+          "name": "뉴진스",
+          "group": "NewJeans",
+          "date": "2026-07",
+          "count": 989726
+        },
+        {
+          "name": "있지",
+          "group": "ITZY",
+          "date": "2026-07",
+          "count": 884032
+        },
+        {
+          "name": "아이브",
+          "group": "IVE",
+          "date": "2026-07",
+          "count": 263679
+        },
+        {
+          "name": "베이비몬스터",
+          "group": "BABYMONSTER",
+          "date": "2026-07",
+          "count": 766076
+        },
+        {
+          "name": "르세라핌",
+          "group": "LE SSERAFIM",
+          "date": "2026-07",
+          "count": 715565
+        },
+        {
+          "name": "엔믹스",
+          "group": "NMIXX",
+          "date": "2026-07",
+          "count": 651975
+        },
+        {
+          "name": "아일릿",
+          "group": "ILLIT",
+          "date": "2026-07",
+          "count": 607868
+        },
+        {
+          "name": "스테이씨",
+          "group": "STAYC",
+          "date": "2026-07",
+          "count": 168381
+        },
+        {
+          "name": "미야오",
+          "group": "MEOVV",
+          "date": "2026-07",
+          "count": 234227
+        },
+        {
+          "name": "케플러",
+          "group": "Kep1er",
+          "date": "2026-07",
+          "count": 59913
+        },
+        {
+          "name": "키스오브라이프",
+          "group": "KISS OF LIFE",
+          "date": "2026-07",
+          "count": 150221
+        },
+        {
+          "name": "트리플에스",
+          "group": "tripleS",
+          "date": "2026-07",
+          "count": 143553
+        },
+        {
+          "name": "드림캐쳐",
+          "group": "Dreamcatcher",
+          "date": "2026-07",
+          "count": 60865
+        },
+        {
+          "name": "하이키",
+          "group": "H1-KEY",
+          "date": "2026-07",
+          "count": 116707
+        },
+        {
+          "name": "우아",
+          "group": "WOOAH",
+          "date": "2026-07",
+          "count": 64956
+        },
+        {
+          "name": "큐더블유이알",
+          "group": "QWER",
+          "date": "2026-07",
+          "count": 51944
+        },
+        {
+          "name": "위클리",
+          "group": "Weeekly",
+          "date": "2026-07",
+          "count": 16531
+        },
+        {
+          "name": "유니스",
+          "group": "UNIS",
+          "date": "2026-07",
+          "count": 14443
+        },
+        {
+          "name": "트라이비",
+          "group": "TRI.BE",
+          "date": "2026-07",
+          "count": 22338
+        },
+        {
+          "name": "리센느",
+          "group": "RESCENE",
+          "date": "2026-07",
+          "count": 95145
+        },
+        {
+          "name": "블랙스완",
+          "group": "BLACKSWAN",
+          "date": "2026-07",
+          "count": 26004
+        },
+        {
+          "name": "아트비트",
+          "group": "ARTBEAT v",
+          "date": "2026-07",
+          "count": 44328
+        },
+        {
+          "name": "아르테미스",
+          "group": "ARTMS",
+          "date": "2026-07",
+          "count": 25174
+        },
+        {
+          "name": "하츠투하츠",
+          "group": "Hearts2Hearts",
+          "date": "2026-07",
+          "count": 361828
+        },
+        {
+          "name": "키키",
+          "group": "KiiiKiii",
+          "date": "2026-07",
+          "count": 129018
+        },
+        {
+          "name": "이프아이",
+          "group": "ifeye",
+          "date": "2026-07",
+          "count": 18579
+        },
+        {
+          "name": "힛지스",
+          "group": "HITGS",
+          "date": "2026-07",
+          "count": 8986
+        },
+        {
+          "name": "키라스",
+          "group": "KIIRAS",
+          "date": "2026-07",
+          "count": 553
+        },
+        {
+          "name": "베이비돈크라이",
+          "group": "Baby DONT Cry",
+          "date": "2026-07",
+          "count": 20585
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-07",
+          "count": 267611
+        },
+        {
+          "name": "언차일드",
+          "group": "UNCHILD",
+          "date": "2026-07",
+          "count": 48495
         }
       ]
     },
@@ -68951,7 +71910,8 @@
         "2026-03",
         "2026-04",
         "2026-05",
-        "2026-06"
+        "2026-06",
+        "2026-07"
       ],
       "records": [
         {
@@ -71305,6 +74265,498 @@
           "group": "LATENCY",
           "date": "2026-06",
           "count": 79000
+        },
+        {
+          "name": "블랙핑크",
+          "group": "BLACKPINK",
+          "date": "2026-07",
+          "count": 57770000
+        },
+        {
+          "name": "에스파",
+          "group": "aespa",
+          "date": "2026-07",
+          "count": 16740000
+        },
+        {
+          "name": "아이들",
+          "group": "i-dle",
+          "date": "2026-07",
+          "count": 13190000
+        },
+        {
+          "name": "레드벨벳",
+          "group": "Red Velvet",
+          "date": "2026-07",
+          "count": 11490000
+        },
+        {
+          "name": "뉴진스",
+          "group": "NewJeans",
+          "date": "2026-07",
+          "count": 12710000
+        },
+        {
+          "name": "있지",
+          "group": "ITZY",
+          "date": "2026-07",
+          "count": 19350000
+        },
+        {
+          "name": "트와이스",
+          "group": "TWICE",
+          "date": "2026-07",
+          "count": 29980000
+        },
+        {
+          "name": "아이브",
+          "group": "IVE",
+          "date": "2026-07",
+          "count": 6896000
+        },
+        {
+          "name": "베이비몬스터",
+          "group": "BABYMONSTER",
+          "date": "2026-07",
+          "count": 10090000
+        },
+        {
+          "name": "르세라핌",
+          "group": "LE SSERAFIM",
+          "date": "2026-07",
+          "count": 10980000
+        },
+        {
+          "name": "엔믹스",
+          "group": "NMIXX",
+          "date": "2026-07",
+          "count": 6146000
+        },
+        {
+          "name": "우주소녀",
+          "group": "WJSN",
+          "date": "2026-07",
+          "count": 1007000
+        },
+        {
+          "name": "아일릿",
+          "group": "ILLIT",
+          "date": "2026-07",
+          "count": 7622000
+        },
+        {
+          "name": "스테이씨",
+          "group": "STAYC",
+          "date": "2026-07",
+          "count": 2054000
+        },
+        {
+          "name": "미야오",
+          "group": "MEOVV",
+          "date": "2026-07",
+          "count": 2976000
+        },
+        {
+          "name": "케플러",
+          "group": "Kep1er",
+          "date": "2026-07",
+          "count": 3563000
+        },
+        {
+          "name": "키스오브라이프",
+          "group": "KISS OF LIFE",
+          "date": "2026-07",
+          "count": 3011000
+        },
+        {
+          "name": "프로미스나인",
+          "group": "fromis_9",
+          "date": "2026-07",
+          "count": 1843000
+        },
+        {
+          "name": "트리플에스",
+          "group": "tripleS",
+          "date": "2026-07",
+          "count": 1090000
+        },
+        {
+          "name": "오마이걸",
+          "group": "OH MY GIRL",
+          "date": "2026-07",
+          "count": 1158000
+        },
+        {
+          "name": "드림캐쳐",
+          "group": "Dreamcatcher",
+          "date": "2026-07",
+          "count": 1019000
+        },
+        {
+          "name": "하이키",
+          "group": "H1-KEY",
+          "date": "2026-07",
+          "count": 329000
+        },
+        {
+          "name": "우아",
+          "group": "WOOAH",
+          "date": "2026-07",
+          "count": 654000
+        },
+        {
+          "name": "비비지",
+          "group": "VIVIZ",
+          "date": "2026-07",
+          "count": 1316000
+        },
+        {
+          "name": "이즈나",
+          "group": "izna",
+          "date": "2026-07",
+          "count": 2214000
+        },
+        {
+          "name": "빌리",
+          "group": "Billlie",
+          "date": "2026-07",
+          "count": 1159000
+        },
+        {
+          "name": "퍼플키스",
+          "group": "PURPLE KISS",
+          "date": "2026-07",
+          "count": 574000
+        },
+        {
+          "name": "큐더블유이알",
+          "group": "QWER",
+          "date": "2026-07",
+          "count": 687000
+        },
+        {
+          "name": "영파씨",
+          "group": "YOUNG POSSE",
+          "date": "2026-07",
+          "count": 378000
+        },
+        {
+          "name": "위클리",
+          "group": "Weeekly",
+          "date": "2026-07",
+          "count": 1063000
+        },
+        {
+          "name": "유니스",
+          "group": "UNIS",
+          "date": "2026-07",
+          "count": 2037000
+        },
+        {
+          "name": "클라씨",
+          "group": "CLASS:y",
+          "date": "2026-07",
+          "count": 269000
+        },
+        {
+          "name": "트라이비",
+          "group": "TRI.BE",
+          "date": "2026-07",
+          "count": 340000
+        },
+        {
+          "name": "리센느",
+          "group": "RESCENE",
+          "date": "2026-07",
+          "count": 844000
+        },
+        {
+          "name": "로켓펀치",
+          "group": "Rocket Punch",
+          "date": "2026-07",
+          "count": 293000
+        },
+        {
+          "name": "아이칠린",
+          "group": "ICHILLIN'",
+          "date": "2026-07",
+          "count": 169000
+        },
+        {
+          "name": "블랙스완",
+          "group": "BLACKSWAN",
+          "date": "2026-07",
+          "count": 448000
+        },
+        {
+          "name": "첫사랑",
+          "group": "CSR",
+          "date": "2026-07",
+          "count": 72000
+        },
+        {
+          "name": "세이마이네임",
+          "group": "SMN",
+          "date": "2026-07",
+          "count": 419000
+        },
+        {
+          "name": "피프티피프티",
+          "group": "FIFTY FIFTY",
+          "date": "2026-07",
+          "count": 936000
+        },
+        {
+          "name": "메이딘",
+          "group": "MADEIN",
+          "date": "2026-07",
+          "count": 379000
+        },
+        {
+          "name": "아르테미스",
+          "group": "ARTMS",
+          "date": "2026-07",
+          "count": 492000
+        },
+        {
+          "name": "배드빌런",
+          "group": "BADVILLAIN",
+          "date": "2026-07",
+          "count": 342000
+        },
+        {
+          "name": "에이디야",
+          "group": "ADYA",
+          "date": "2026-07",
+          "count": 33000
+        },
+        {
+          "name": "트레이서",
+          "group": "Tracer",
+          "date": "2026-07",
+          "count": 6495
+        },
+        {
+          "name": "아이리스",
+          "group": "IRRIS",
+          "date": "2026-07",
+          "count": 24000
+        },
+        {
+          "name": "비웨이브",
+          "group": "BEWAVE",
+          "date": "2026-07",
+          "count": 238000
+        },
+        {
+          "name": "아일리원",
+          "group": "ILY:1",
+          "date": "2026-07",
+          "count": 750000
+        },
+        {
+          "name": "캔디샵",
+          "group": "Candy Shop",
+          "date": "2026-07",
+          "count": 207000
+        },
+        {
+          "name": "시크릿넘버",
+          "group": "SECRET NUMBER",
+          "date": "2026-07",
+          "count": 994000
+        },
+        {
+          "name": "오드유스",
+          "group": "ODD YOUTH",
+          "date": "2026-07",
+          "count": 86000
+        },
+        {
+          "name": "프림로즈",
+          "group": "PRIMROSE",
+          "date": "2026-07",
+          "count": 36000
+        },
+        {
+          "name": "지니어스",
+          "group": "Geenius",
+          "date": "2026-07",
+          "count": 56000
+        },
+        {
+          "name": "크랙시",
+          "group": "CRAXY",
+          "date": "2026-07",
+          "count": 101000
+        },
+        {
+          "name": "루셈블",
+          "group": "Loossemble",
+          "date": "2026-07",
+          "count": 304000
+        },
+        {
+          "name": "유니코드",
+          "group": "UNICODE",
+          "date": "2026-07",
+          "count": 16000
+        },
+        {
+          "name": "위나",
+          "group": "We;Na",
+          "date": "2026-07",
+          "count": 583000
+        },
+        {
+          "name": "위치스",
+          "group": "W!TCHX",
+          "date": "2026-07",
+          "count": 121000
+        },
+        {
+          "name": "러브원",
+          "group": "LOVEONE",
+          "date": "2026-07",
+          "count": 27000
+        },
+        {
+          "name": "수피아",
+          "group": "SPIA",
+          "date": "2026-07",
+          "count": 82000
+        },
+        {
+          "name": "아이몬드",
+          "group": "I:MOND",
+          "date": "2026-07",
+          "count": 13000
+        },
+        {
+          "name": "버비",
+          "group": "Burvey",
+          "date": "2026-07",
+          "count": 201000
+        },
+        {
+          "name": "하츠투하츠",
+          "group": "Hearts2Hearts",
+          "date": "2026-07",
+          "count": 5350000
+        },
+        {
+          "name": "키키",
+          "group": "KiiiKiii",
+          "date": "2026-07",
+          "count": 1453000
+        },
+        {
+          "name": "아이리제",
+          "group": "IRISÉ",
+          "date": "2026-07",
+          "count": 44000
+        },
+        {
+          "name": "앳하트",
+          "group": "AtHeart",
+          "date": "2026-07",
+          "count": 201000
+        },
+        {
+          "name": "이프아이",
+          "group": "ifeye",
+          "date": "2026-07",
+          "count": 283000
+        },
+        {
+          "name": "힛지스",
+          "group": "HITGS",
+          "date": "2026-07",
+          "count": 122000
+        },
+        {
+          "name": "우당탕탕 소녀단",
+          "group": "UDTT",
+          "date": "2026-07",
+          "count": 39000
+        },
+        {
+          "name": "키라스",
+          "group": "KIIRAS",
+          "date": "2026-07",
+          "count": 239000
+        },
+        {
+          "name": "유스피어",
+          "group": "USPEER",
+          "date": "2026-07",
+          "count": 38000
+        },
+        {
+          "name": "스모즈",
+          "group": "SMORZ",
+          "date": "2026-07",
+          "count": 57000
+        },
+        {
+          "name": "어블룸",
+          "group": "ablume",
+          "date": "2026-07",
+          "count": 67000
+        },
+        {
+          "name": "베이비돈크라이",
+          "group": "Baby DONT Cry",
+          "date": "2026-07",
+          "count": 893000
+        },
+        {
+          "name": "올데이프로젝트",
+          "group": "ALLDAY PROJECT",
+          "date": "2026-07",
+          "count": 1710000
+        },
+        {
+          "name": "오위스",
+          "group": "OWIS",
+          "date": "2026-07",
+          "count": 51000
+        },
+        {
+          "name": "에스투잇",
+          "group": "S2IT",
+          "date": "2026-07",
+          "count": 19000
+        },
+        {
+          "name": "언차일드",
+          "group": "UNCHILD",
+          "date": "2026-07",
+          "count": 1012000
+        },
+        {
+          "name": "스텔라라이브",
+          "group": "Stellive",
+          "date": "2026-07",
+          "count": 28000
+        },
+        {
+          "name": "레이턴시",
+          "group": "LATENCY",
+          "date": "2026-07",
+          "count": 79000
+        },
+        {
+          "name": "아워벌스데이",
+          "group": "OURBIRTHDAY",
+          "date": "2026-07",
+          "count": 110000
+        },
+        {
+          "name": "키비츠",
+          "group": "Keyveatz",
+          "date": "2026-07",
+          "count": 105000
         }
       ]
     }
