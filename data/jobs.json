@@ -2,17 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 709,
-      "company": "모드하우스",
-      "position": "숏폼 콘텐츠 담당자",
-      "category": "기타",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-08-11",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49369151",
-      "source": "잡코리아"
-    },
-    {
       "id": 900,
       "company": "와이에이치엔터테인먼트",
       "position": "영상팀(롱폼/숏폼 콘텐츠 담당)",
@@ -1047,6 +1036,39 @@
       "source": "잡코리아"
     },
     {
+      "id": 1060,
+      "company": "비웨이브 엔터테인먼트",
+      "position": "로드매니저 담당자",
+      "category": "매니지먼트",
+      "career": "무관",
+      "location": "서울 마포구",
+      "deadline": "2026-09-10",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49764846",
+      "source": "잡코리아"
+    },
+    {
+      "id": 1062,
+      "company": "온원엔터테인먼트",
+      "position": "베이비/키즈 엔터테인먼트 사무업무",
+      "category": "기타",
+      "career": "무관",
+      "location": "서울 은평구",
+      "deadline": "2026-09-10",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49763473",
+      "source": "잡코리아"
+    },
+    {
+      "id": 1064,
+      "company": "인코오드(iNKode)",
+      "position": "매니지먼트 현장 담당자",
+      "category": "기타",
+      "career": "신입·경력",
+      "location": "서울 마포구",
+      "deadline": "2026-09-10",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49760774",
+      "source": "잡코리아"
+    },
+    {
       "id": 903,
       "company": "케이오지엔터테인먼트",
       "position": "영상콘텐츠기획,제작 Jr. (계약직)",
@@ -1520,14 +1542,14 @@
       "source": "잡코리아"
     },
     {
-      "id": 599,
-      "company": "패러블엔터테인먼트",
-      "position": "크리에이터 숏폼 콘텐츠 매니저",
-      "category": "기타",
+      "id": 1063,
+      "company": "모드하우스",
+      "position": "영상 콘텐츠 제작",
+      "category": "영상",
       "career": "경력",
-      "location": "경기 고양시",
-      "deadline": "상시채용",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49158354",
+      "location": "서울 강남구",
+      "deadline": "2026-10-10",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49763221",
       "source": "잡코리아"
     },
     {
@@ -2763,17 +2785,6 @@
       "source": "잡코리아"
     },
     {
-      "id": 943,
-      "company": "HYBE",
-      "position": "윤리경영 담당자",
-      "category": "경영지원",
-      "career": "경력 3년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/229024",
-      "source": "하이브"
-    },
-    {
       "id": 944,
       "company": "BELIFT LAB",
       "position": "마케팅 콘텐츠기획(영상콘텐츠제작) Sr.",
@@ -3190,6 +3201,28 @@
       "deadline": "상시채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49751259",
       "source": "잡코리아"
+    },
+    {
+      "id": 1061,
+      "company": "하이브",
+      "position": "위버스매거진에디터",
+      "category": "기타",
+      "career": "무관",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49764721",
+      "source": "잡코리아"
+    },
+    {
+      "id": 1065,
+      "company": "블루밍그레이스",
+      "position": "언론홍보(PR) 담당자",
+      "category": "마케팅",
+      "career": "경력",
+      "location": "서울 강남구",
+      "deadline": "상시채용",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49758386",
+      "source": "잡코리아"
     }
   ],
   "categories": [
@@ -3205,5 +3238,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-08-11T09:34:46.405332"
+  "updatedAt": "2026-08-12T09:35:35.004896"
 }
