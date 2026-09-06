@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-31T00:30:01+09:00",
-  "chart_date": "2026-08-31",
+  "updated_at": "2026-09-07T00:30:01+09:00",
+  "chart_date": "2026-09-07",
   "chart_type": "daily",
   "tracks": [
     {
@@ -14,15 +14,6 @@
     },
     {
       "rank": 2,
-      "song_id": "602839323",
-      "title": "BiiiG",
-      "artist": "BIGBANG (빅뱅)",
-      "album": "BiiiG",
-      "artist_id": "198094",
-      "album_id": "14463127"
-    },
-    {
-      "rank": 3,
       "song_id": "602024048",
       "title": "갑자기",
       "artist": "아이오아이 (I.O.I)",
@@ -31,13 +22,22 @@
       "album_id": "13399673"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "song_id": "601807965",
       "title": "REDRED",
       "artist": "CORTIS (코르티스)",
       "album": "GREENGREEN",
       "artist_id": "4491260",
       "album_id": "13338387"
+    },
+    {
+      "rank": 4,
+      "song_id": "602839323",
+      "title": "BiiiG",
+      "artist": "BIGBANG (빅뱅)",
+      "album": "BiiiG",
+      "artist_id": "198094",
+      "album_id": "14463127"
     },
     {
       "rank": 5,
@@ -59,21 +59,21 @@
     },
     {
       "rank": 7,
-      "song_id": "601899271",
-      "title": "It′s Me",
-      "artist": "아일릿(ILLIT)",
-      "album": "MAMIHLAPINATAPAI",
-      "artist_id": "3743525",
-      "album_id": "13362401"
-    },
-    {
-      "rank": 8,
       "song_id": "602322595",
       "title": "BAD",
       "artist": "ATEEZ(에이티즈)",
       "album": "GOLDEN HOUR : Part.5",
       "artist_id": "2398260",
       "album_id": "13752815"
+    },
+    {
+      "rank": 8,
+      "song_id": "601899271",
+      "title": "It′s Me",
+      "artist": "아일릿(ILLIT)",
+      "album": "MAMIHLAPINATAPAI",
+      "artist_id": "3743525",
+      "album_id": "13362401"
     },
     {
       "rank": 9,
@@ -104,21 +104,21 @@
     },
     {
       "rank": 12,
-      "song_id": "601479669",
-      "title": "캐치 캐치",
-      "artist": "YENA (최예나)",
-      "album": "LOVE CATCHER",
-      "artist_id": "2399724",
-      "album_id": "12908035"
-    },
-    {
-      "rank": 13,
       "song_id": "36397952",
       "title": "Drowning",
       "artist": "WOODZ",
       "album": "OO-LI",
       "artist_id": "2086047",
       "album_id": "11183506"
+    },
+    {
+      "rank": 13,
+      "song_id": "601479669",
+      "title": "캐치 캐치",
+      "artist": "YENA (최예나)",
+      "album": "LOVE CATCHER",
+      "artist_id": "2399724",
+      "album_id": "12908035"
     },
     {
       "rank": 14,
@@ -149,15 +149,6 @@
     },
     {
       "rank": 17,
-      "song_id": "601719413",
-      "title": "소문의 낙원",
-      "artist": "AKMU (악뮤)",
-      "album": "개화",
-      "artist_id": "712452",
-      "album_id": "13312398"
-    },
-    {
-      "rank": 18,
       "song_id": "39504779",
       "title": "0+0",
       "artist": "한로로",
@@ -166,7 +157,25 @@
       "album_id": "11982233"
     },
     {
+      "rank": 18,
+      "song_id": "601719413",
+      "title": "소문의 낙원",
+      "artist": "AKMU (악뮤)",
+      "album": "개화",
+      "artist_id": "712452",
+      "album_id": "13312398"
+    },
+    {
       "rank": 19,
+      "song_id": "602939768",
+      "title": "노스탈지아",
+      "artist": "BIG Naughty (서동현)",
+      "album": "노스탈지아",
+      "artist_id": "2744750",
+      "album_id": "14494275"
+    },
+    {
+      "rank": 20,
       "song_id": "602313594",
       "title": "Lemon Tang",
       "artist": "Hearts2Hearts (하츠투하츠)",
@@ -175,7 +184,16 @@
       "album_id": "13750428"
     },
     {
-      "rank": 20,
+      "rank": 21,
+      "song_id": "602732384",
+      "title": "Pop Off Pop Off",
+      "artist": "KiiiKiii (키키)",
+      "album": "WhyKiiiKiii",
+      "artist_id": "4099078",
+      "album_id": "14429080"
+    },
+    {
+      "rank": 22,
       "song_id": "601719416",
       "title": "기쁨, 슬픔, 아름다운 마음",
       "artist": "AKMU (악뮤)",
@@ -184,7 +202,7 @@
       "album_id": "13312398"
     },
     {
-      "rank": 21,
+      "rank": 23,
       "song_id": "600299706",
       "title": "타임캡슐",
       "artist": "다비치",
@@ -193,34 +211,7 @@
       "album_id": "12163032"
     },
     {
-      "rank": 22,
-      "song_id": "38242510",
-      "title": "HOME SWEET HOME (feat. 태양, 대성)",
-      "artist": "G-DRAGON",
-      "album": "HOME SWEET HOME (feat. 태양, 대성)",
-      "artist_id": "6984",
-      "album_id": "11647670"
-    },
-    {
-      "rank": 23,
-      "song_id": "601013499",
-      "title": "404 (New Era)",
-      "artist": "KiiiKiii (키키)",
-      "album": "Delulu Pack",
-      "artist_id": "4099078",
-      "album_id": "12806237"
-    },
-    {
       "rank": 24,
-      "song_id": "36985781",
-      "title": "생각을 멈추다 보면",
-      "artist": "최유리",
-      "album": "생각을 멈추다 보면",
-      "artist_id": "2645970",
-      "album_id": "11369106"
-    },
-    {
-      "rank": 25,
       "song_id": "32061975",
       "title": "어떻게 이별까지 사랑하겠어, 널 사랑하는 거지",
       "artist": "AKMU (악뮤)",
@@ -229,22 +220,31 @@
       "album_id": "10331947"
     },
     {
+      "rank": 25,
+      "song_id": "38242510",
+      "title": "HOME SWEET HOME (feat. 태양, 대성)",
+      "artist": "G-DRAGON",
+      "album": "HOME SWEET HOME (feat. 태양, 대성)",
+      "artist_id": "6984",
+      "album_id": "11647670"
+    },
+    {
       "rank": 26,
-      "song_id": "601237102",
-      "title": "BANG BANG",
-      "artist": "IVE (아이브)",
-      "album": "REVIVE+",
-      "artist_id": "3055146",
-      "album_id": "12845274"
+      "song_id": "601013499",
+      "title": "404 (New Era)",
+      "artist": "KiiiKiii (키키)",
+      "album": "Delulu Pack",
+      "artist_id": "4099078",
+      "album_id": "12806237"
     },
     {
       "rank": 27,
-      "song_id": "602732384",
-      "title": "Pop Off Pop Off",
-      "artist": "KiiiKiii (키키)",
-      "album": "WhyKiiiKiii",
-      "artist_id": "4099078",
-      "album_id": "14429080"
+      "song_id": "36985781",
+      "title": "생각을 멈추다 보면",
+      "artist": "최유리",
+      "album": "생각을 멈추다 보면",
+      "artist_id": "2645970",
+      "album_id": "11369106"
     },
     {
       "rank": 28,
@@ -257,12 +257,12 @@
     },
     {
       "rank": 29,
-      "song_id": "38733032",
-      "title": "어제보다 슬픈 오늘",
-      "artist": "우디 (Woody)",
-      "album": "어제보다 슬픈 오늘",
-      "artist_id": "673033",
-      "album_id": "11756010"
+      "song_id": "601237102",
+      "title": "BANG BANG",
+      "artist": "IVE (아이브)",
+      "album": "REVIVE+",
+      "artist_id": "3055146",
+      "album_id": "12845274"
     },
     {
       "rank": 30,
@@ -275,24 +275,15 @@
     },
     {
       "rank": 31,
-      "song_id": "31927275",
-      "title": "한 페이지가 될 수 있게",
-      "artist": "DAY6 (데이식스)",
-      "album": "The Book of Us : Gravity",
-      "artist_id": "894864",
-      "album_id": "10307346"
+      "song_id": "38733032",
+      "title": "어제보다 슬픈 오늘",
+      "artist": "우디 (Woody)",
+      "album": "어제보다 슬픈 오늘",
+      "artist_id": "673033",
+      "album_id": "11756010"
     },
     {
       "rank": 32,
-      "song_id": "600243411",
-      "title": "Blue Valentine",
-      "artist": "NMIXX",
-      "album": "Blue Valentine",
-      "artist_id": "3070786",
-      "album_id": "12149391"
-    },
-    {
-      "rank": 33,
       "song_id": "38626852",
       "title": "너에게 닿기를",
       "artist": "10CM",
@@ -301,7 +292,25 @@
       "album_id": "11730411"
     },
     {
+      "rank": 33,
+      "song_id": "600243411",
+      "title": "Blue Valentine",
+      "artist": "NMIXX",
+      "album": "Blue Valentine",
+      "artist_id": "3070786",
+      "album_id": "12149391"
+    },
+    {
       "rank": 34,
+      "song_id": "31927275",
+      "title": "한 페이지가 될 수 있게",
+      "artist": "DAY6 (데이식스)",
+      "album": "The Book of Us : Gravity",
+      "artist_id": "894864",
+      "album_id": "10307346"
+    },
+    {
+      "rank": 35,
       "song_id": "38429074",
       "title": "모르시나요(PROD.로코베리)",
       "artist": "조째즈",
@@ -310,7 +319,7 @@
       "album_id": "11685729"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "song_id": "39298775",
       "title": "뛰어(JUMP)",
       "artist": "BLACKPINK",
@@ -319,25 +328,7 @@
       "album_id": "11890480"
     },
     {
-      "rank": 36,
-      "song_id": "601879407",
-      "title": "Heavy Serenade",
-      "artist": "NMIXX",
-      "album": "Heavy Serenade",
-      "artist_id": "3070786",
-      "album_id": "13357541"
-    },
-    {
       "rank": 37,
-      "song_id": "37390939",
-      "title": "소나기",
-      "artist": "이클립스 (ECLIPSE)",
-      "album": "선재 업고 튀어 OST Part 1",
-      "artist_id": "3752136",
-      "album_id": "11459325"
-    },
-    {
-      "rank": 38,
       "song_id": "38104031",
       "title": "내게 사랑이 뭐냐고 물어본다면",
       "artist": "로이킴",
@@ -346,22 +337,31 @@
       "album_id": "11616312"
     },
     {
-      "rank": 39,
-      "song_id": "37228861",
-      "title": "천상연",
-      "artist": "이창섭",
-      "album": "천상연 (웹툰 '선녀외전' X 이창섭 (LEE CHANGSUB))",
-      "artist_id": "672288",
-      "album_id": "11421941"
-    },
-    {
-      "rank": 40,
+      "rank": 38,
       "song_id": "39307948",
       "title": "멸종위기사랑",
       "artist": "이찬혁",
       "album": "EROS",
       "artist_id": "712453",
       "album_id": "11891198"
+    },
+    {
+      "rank": 39,
+      "song_id": "38300904",
+      "title": "toxic till the end",
+      "artist": "로제 (ROSÉ)",
+      "album": "rosie",
+      "artist_id": "995171",
+      "album_id": "11659696"
+    },
+    {
+      "rank": 40,
+      "song_id": "37228861",
+      "title": "천상연",
+      "artist": "이창섭",
+      "album": "천상연 (웹툰 '선녀외전' X 이창섭 (LEE CHANGSUB))",
+      "artist_id": "672288",
+      "album_id": "11421941"
     },
     {
       "rank": 41,
@@ -374,12 +374,12 @@
     },
     {
       "rank": 42,
-      "song_id": "38123332",
-      "title": "Whiplash",
-      "artist": "aespa",
-      "album": "Whiplash - The 5th Mini Album",
-      "artist_id": "2899555",
-      "album_id": "11620540"
+      "song_id": "37390939",
+      "title": "소나기",
+      "artist": "이클립스 (ECLIPSE)",
+      "album": "선재 업고 튀어 OST Part 1",
+      "artist_id": "3752136",
+      "album_id": "11459325"
     },
     {
       "rank": 43,
@@ -392,51 +392,24 @@
     },
     {
       "rank": 44,
-      "song_id": "38300904",
-      "title": "toxic till the end",
-      "artist": "로제 (ROSÉ)",
-      "album": "rosie",
-      "artist_id": "995171",
-      "album_id": "11659696"
+      "song_id": "601879407",
+      "title": "Heavy Serenade",
+      "artist": "NMIXX",
+      "album": "Heavy Serenade",
+      "artist_id": "3070786",
+      "album_id": "13357541"
     },
     {
       "rank": 45,
-      "song_id": "37323944",
-      "title": "HAPPY",
-      "artist": "DAY6 (데이식스)",
-      "album": "Fourever",
-      "artist_id": "894864",
-      "album_id": "11444397"
+      "song_id": "38123332",
+      "title": "Whiplash",
+      "artist": "aespa",
+      "album": "Whiplash - The 5th Mini Album",
+      "artist_id": "2899555",
+      "album_id": "11620540"
     },
     {
       "rank": 46,
-      "song_id": "602584682",
-      "title": "Less than a Lover",
-      "artist": "제니 (JENNIE)",
-      "album": "Less than a Lover",
-      "artist_id": "995173",
-      "album_id": "13967276"
-    },
-    {
-      "rank": 47,
-      "song_id": "38071559",
-      "title": "청춘만화",
-      "artist": "이무진",
-      "album": "만화 (滿花)",
-      "artist_id": "2138620",
-      "album_id": "11608521"
-    },
-    {
-      "rank": 48,
-      "song_id": "30962526",
-      "title": "모든 날, 모든 순간 (Every day, Every Moment)",
-      "artist": "폴킴",
-      "album": "'키스 먼저 할까요?' OST Part.3",
-      "artist_id": "752425",
-      "album_id": "10149492"
-    },
-    {
-      "rank": 49,
       "song_id": "33411344",
       "title": "봄 내음보다 너를",
       "artist": "김나영",
@@ -445,13 +418,40 @@
       "album_id": "10592109"
     },
     {
+      "rank": 47,
+      "song_id": "37323944",
+      "title": "HAPPY",
+      "artist": "DAY6 (데이식스)",
+      "album": "Fourever",
+      "artist_id": "894864",
+      "album_id": "11444397"
+    },
+    {
+      "rank": 48,
+      "song_id": "38071559",
+      "title": "청춘만화",
+      "artist": "이무진",
+      "album": "만화 (滿花)",
+      "artist_id": "2138620",
+      "album_id": "11608521"
+    },
+    {
+      "rank": 49,
+      "song_id": "602584682",
+      "title": "Less than a Lover",
+      "artist": "제니 (JENNIE)",
+      "album": "Less than a Lover",
+      "artist_id": "995173",
+      "album_id": "13967276"
+    },
+    {
       "rank": 50,
-      "song_id": "33241003",
-      "title": "그대 작은 나의 세상이 되어",
-      "artist": "카더가든",
-      "album": "부재",
-      "artist_id": "735506",
-      "album_id": "10554647"
+      "song_id": "30962526",
+      "title": "모든 날, 모든 순간 (Every day, Every Moment)",
+      "artist": "폴킴",
+      "album": "'키스 먼저 할까요?' OST Part.3",
+      "artist_id": "752425",
+      "album_id": "10149492"
     },
     {
       "rank": 51,
@@ -473,30 +473,30 @@
     },
     {
       "rank": 53,
-      "song_id": "602683997",
-      "title": "Surfin' Boy",
-      "artist": "Red Velvet (레드벨벳)",
-      "album": "Velvet Summer - Summer Mini Album",
-      "artist_id": "780066",
-      "album_id": "14329378"
+      "song_id": "33241003",
+      "title": "그대 작은 나의 세상이 되어",
+      "artist": "카더가든",
+      "album": "부재",
+      "artist_id": "735506",
+      "album_id": "10554647"
     },
     {
       "rank": 54,
-      "song_id": "38120327",
-      "title": "APT.",
-      "artist": "로제 (ROSÉ)",
-      "album": "APT.",
-      "artist_id": "995171",
-      "album_id": "11619809"
-    },
-    {
-      "rank": 55,
       "song_id": "38123338",
       "title": "나는 반딧불",
       "artist": "황가람",
       "album": "나는 반딧불",
       "artist_id": "716631",
       "album_id": "11620541"
+    },
+    {
+      "rank": 55,
+      "song_id": "38120327",
+      "title": "APT.",
+      "artist": "로제 (ROSÉ)",
+      "album": "APT.",
+      "artist_id": "995171",
+      "album_id": "11619809"
     },
     {
       "rank": 56,
@@ -509,12 +509,12 @@
     },
     {
       "rank": 57,
-      "song_id": "37140709",
-      "title": "첫 만남은 계획대로 되지 않아",
-      "artist": "TWS (투어스)",
-      "album": "Sparkling Blue",
-      "artist_id": "3679688",
-      "album_id": "11391902"
+      "song_id": "602683997",
+      "title": "Surfin' Boy",
+      "artist": "Red Velvet (레드벨벳)",
+      "album": "Velvet Summer - Summer Mini Album",
+      "artist_id": "780066",
+      "album_id": "14329378"
     },
     {
       "rank": 58,
@@ -527,6 +527,15 @@
     },
     {
       "rank": 59,
+      "song_id": "37140709",
+      "title": "첫 만남은 계획대로 되지 않아",
+      "artist": "TWS (투어스)",
+      "album": "Sparkling Blue",
+      "artist_id": "3679688",
+      "album_id": "11391902"
+    },
+    {
+      "rank": 60,
       "song_id": "34753369",
       "title": "입춘",
       "artist": "한로로",
@@ -535,7 +544,7 @@
       "album_id": "10890163"
     },
     {
-      "rank": 60,
+      "rank": 61,
       "song_id": "1556553",
       "title": "Love Love Love (Feat. Yoong Jin Of Casker)",
       "artist": "에픽하이 (EPIK HIGH)",
@@ -544,7 +553,7 @@
       "album_id": "342967"
     },
     {
-      "rank": 61,
+      "rank": 62,
       "song_id": "602540014",
       "title": "Vitamin ME",
       "artist": "프로미스나인",
@@ -553,16 +562,16 @@
       "album_id": "13816948"
     },
     {
-      "rank": 62,
-      "song_id": "35454426",
-      "title": "Hype Boy",
-      "artist": "NewJeans",
-      "album": "NewJeans 1st EP 'New Jeans'",
-      "artist_id": "3114174",
-      "album_id": "11011565"
+      "rank": 63,
+      "song_id": "602940179",
+      "title": "Skibidi",
+      "artist": "소녀시대-효리수 (Girls' Generation-HRS)",
+      "album": "Skibidi",
+      "artist_id": "5182427",
+      "album_id": "14494370"
     },
     {
-      "rank": 63,
+      "rank": 64,
       "song_id": "37375706",
       "title": "청혼하지 않을 이유를 못 찾았어",
       "artist": "이무진",
@@ -571,7 +580,7 @@
       "album_id": "11455285"
     },
     {
-      "rank": 64,
+      "rank": 65,
       "song_id": "33496587",
       "title": "다정히 내 이름을 부르면",
       "artist": "경서예지",
@@ -580,16 +589,16 @@
       "album_id": "10610525"
     },
     {
-      "rank": 65,
-      "song_id": "39161085",
-      "title": "STYLE",
-      "artist": "Hearts2Hearts (하츠투하츠)",
-      "album": "STYLE",
-      "artist_id": "4096106",
-      "album_id": "11858555"
+      "rank": 66,
+      "song_id": "35454426",
+      "title": "Hype Boy",
+      "artist": "NewJeans",
+      "album": "NewJeans 1st EP 'New Jeans'",
+      "artist_id": "3114174",
+      "album_id": "11011565"
     },
     {
-      "rank": 66,
+      "rank": 67,
       "song_id": "34061322",
       "title": "사랑은 늘 도망가",
       "artist": "임영웅",
@@ -598,7 +607,7 @@
       "album_id": "10735654"
     },
     {
-      "rank": 67,
+      "rank": 68,
       "song_id": "37323943",
       "title": "Welcome to the Show",
       "artist": "DAY6 (데이식스)",
@@ -607,34 +616,7 @@
       "album_id": "11444397"
     },
     {
-      "rank": 68,
-      "song_id": "36617841",
-      "title": "Seven (feat. Latto) - Clean Ver.",
-      "artist": "정국",
-      "album": "Seven (feat. Latto) - Clean Ver.",
-      "artist_id": "725987",
-      "album_id": "11286070"
-    },
-    {
       "rank": 69,
-      "song_id": "37347911",
-      "title": "Magnetic",
-      "artist": "아일릿(ILLIT)",
-      "album": "SUPER REAL ME",
-      "artist_id": "3743525",
-      "album_id": "11450069"
-    },
-    {
-      "rank": 70,
-      "song_id": "38444825",
-      "title": "REBEL HEART",
-      "artist": "IVE (아이브)",
-      "album": "IVE EMPATHY",
-      "artist_id": "3055146",
-      "album_id": "11689783"
-    },
-    {
-      "rank": 71,
       "song_id": "601719493",
       "title": "Runaway",
       "artist": "RESCENE (리센느)",
@@ -643,16 +625,25 @@
       "album_id": "13312413"
     },
     {
-      "rank": 72,
-      "song_id": "38426197",
-      "title": "오늘만 I LOVE YOU",
-      "artist": "BOYNEXTDOOR",
-      "album": "오늘만 I LOVE YOU",
-      "artist_id": "3458776",
-      "album_id": "11685070"
+      "rank": 70,
+      "song_id": "37901626",
+      "title": "Die With A Smile",
+      "artist": "Lady Gaga",
+      "album": "Die With A Smile",
+      "artist_id": "253688",
+      "album_id": "11568901"
     },
     {
-      "rank": 73,
+      "rank": 71,
+      "song_id": "37347911",
+      "title": "Magnetic",
+      "artist": "아일릿(ILLIT)",
+      "album": "SUPER REAL ME",
+      "artist_id": "3743525",
+      "album_id": "11450069"
+    },
+    {
+      "rank": 72,
       "song_id": "1121123",
       "title": "사랑은 봄비처럼...이별은 겨울비처럼...",
       "artist": "임현정",
@@ -661,13 +652,22 @@
       "album_id": "314795"
     },
     {
+      "rank": 73,
+      "song_id": "39161085",
+      "title": "STYLE",
+      "artist": "Hearts2Hearts (하츠투하츠)",
+      "album": "STYLE",
+      "artist_id": "4096106",
+      "album_id": "11858555"
+    },
+    {
       "rank": 74,
-      "song_id": "37901626",
-      "title": "Die With A Smile",
-      "artist": "Lady Gaga",
-      "album": "Die With A Smile",
-      "artist_id": "253688",
-      "album_id": "11568901"
+      "song_id": "36617841",
+      "title": "Seven (feat. Latto) - Clean Ver.",
+      "artist": "정국",
+      "album": "Seven (feat. Latto) - Clean Ver.",
+      "artist_id": "725987",
+      "album_id": "11286070"
     },
     {
       "rank": 75,
@@ -680,6 +680,24 @@
     },
     {
       "rank": 76,
+      "song_id": "38426197",
+      "title": "오늘만 I LOVE YOU",
+      "artist": "BOYNEXTDOOR",
+      "album": "오늘만 I LOVE YOU",
+      "artist_id": "3458776",
+      "album_id": "11685070"
+    },
+    {
+      "rank": 77,
+      "song_id": "38444825",
+      "title": "REBEL HEART",
+      "artist": "IVE (아이브)",
+      "album": "IVE EMPATHY",
+      "artist_id": "3055146",
+      "album_id": "11689783"
+    },
+    {
+      "rank": 78,
       "song_id": "38635449",
       "title": "Flower",
       "artist": "오반(OVAN)",
@@ -688,16 +706,7 @@
       "album_id": "11732247"
     },
     {
-      "rank": 77,
-      "song_id": "601555642",
-      "title": "SWIM",
-      "artist": "방탄소년단",
-      "album": "ARIRANG",
-      "artist_id": "672375",
-      "album_id": "12927820"
-    },
-    {
-      "rank": 78,
+      "rank": 79,
       "song_id": "39566906",
       "title": "시작의 아이 ❍",
       "artist": "박다혜",
@@ -706,22 +715,13 @@
       "album_id": "12012550"
     },
     {
-      "rank": 79,
-      "song_id": "32872978",
-      "title": "Dynamite",
-      "artist": "방탄소년단",
-      "album": "Dynamite (DayTime Version)",
-      "artist_id": "672375",
-      "album_id": "10479150"
-    },
-    {
       "rank": 80,
-      "song_id": "39156202",
-      "title": "FAMOUS",
-      "artist": "ALLDAY PROJECT",
-      "album": "FAMOUS",
-      "artist_id": "4346804",
-      "album_id": "11857160"
+      "song_id": "601555642",
+      "title": "SWIM",
+      "artist": "방탄소년단",
+      "album": "ARIRANG",
+      "artist_id": "672375",
+      "album_id": "12927820"
     },
     {
       "rank": 81,
@@ -734,6 +734,24 @@
     },
     {
       "rank": 82,
+      "song_id": "32872978",
+      "title": "Dynamite",
+      "artist": "방탄소년단",
+      "album": "Dynamite (DayTime Version)",
+      "artist_id": "672375",
+      "album_id": "10479150"
+    },
+    {
+      "rank": 83,
+      "song_id": "39156202",
+      "title": "FAMOUS",
+      "artist": "ALLDAY PROJECT",
+      "album": "FAMOUS",
+      "artist_id": "4346804",
+      "album_id": "11857160"
+    },
+    {
+      "rank": 84,
       "song_id": "37053556",
       "title": "에피소드",
       "artist": "이무진",
@@ -742,7 +760,7 @@
       "album_id": "11382987"
     },
     {
-      "rank": 83,
+      "rank": 85,
       "song_id": "600359330",
       "title": "달리 표현할 수 없어요",
       "artist": "로이킴",
@@ -751,16 +769,7 @@
       "album_id": "12176812"
     },
     {
-      "rank": 84,
-      "song_id": "600354699",
-      "title": "SPAGHETTI (feat. j-hope of BTS)",
-      "artist": "LE SSERAFIM (르세라핌)",
-      "album": "SPAGHETTI",
-      "artist_id": "3092950",
-      "album_id": "12175901"
-    },
-    {
-      "rank": 85,
+      "rank": 86,
       "song_id": "601379618",
       "title": "눈을 감아도(2026)",
       "artist": "순순희(지환)",
@@ -769,7 +778,16 @@
       "album_id": "12879655"
     },
     {
-      "rank": 86,
+      "rank": 87,
+      "song_id": "600354699",
+      "title": "SPAGHETTI (feat. j-hope of BTS)",
+      "artist": "LE SSERAFIM (르세라핌)",
+      "album": "SPAGHETTI",
+      "artist_id": "3092950",
+      "album_id": "12175901"
+    },
+    {
+      "rank": 88,
       "song_id": "36356993",
       "title": "I AM",
       "artist": "IVE (아이브)",
@@ -778,7 +796,7 @@
       "album_id": "11211297"
     },
     {
-      "rank": 87,
+      "rank": 89,
       "song_id": "30244931",
       "title": "봄날",
       "artist": "방탄소년단",
@@ -787,31 +805,13 @@
       "album_id": "10037969"
     },
     {
-      "rank": 88,
-      "song_id": "601968268",
-      "title": "WDA (Whole Different Animal) (Feat. G-DRAGON)",
-      "artist": "aespa",
-      "album": "LEMONADE - The 2nd Album",
-      "artist_id": "2899555",
-      "album_id": "13384085"
-    },
-    {
-      "rank": 89,
+      "rank": 90,
       "song_id": "600513208",
       "title": "ONE MORE TIME",
       "artist": "ALLDAY PROJECT",
       "album": "ALLDAY PROJECT",
       "artist_id": "4346804",
       "album_id": "12392184"
-    },
-    {
-      "rank": 90,
-      "song_id": "602066108",
-      "title": "BOOMPALA",
-      "artist": "LE SSERAFIM (르세라핌)",
-      "album": "'PUREFLOW' pt.1",
-      "artist_id": "3092950",
-      "album_id": "13349271"
     },
     {
       "rank": 91,
@@ -824,33 +824,15 @@
     },
     {
       "rank": 92,
-      "song_id": "1913501",
-      "title": "하루 하루",
-      "artist": "BIGBANG (빅뱅)",
-      "album": "Stand Up (2008 빅뱅 3rd Mini Album)",
-      "artist_id": "198094",
-      "album_id": "392870"
+      "song_id": "601968268",
+      "title": "WDA (Whole Different Animal) (Feat. G-DRAGON)",
+      "artist": "aespa",
+      "album": "LEMONADE - The 2nd Album",
+      "artist_id": "2899555",
+      "album_id": "13384085"
     },
     {
       "rank": 93,
-      "song_id": "601356371",
-      "title": "BLACKHOLE",
-      "artist": "IVE (아이브)",
-      "album": "REVIVE+",
-      "artist_id": "3055146",
-      "album_id": "12845274"
-    },
-    {
-      "rank": 94,
-      "song_id": "601555636",
-      "title": "Body to Body",
-      "artist": "방탄소년단",
-      "album": "ARIRANG",
-      "artist_id": "672375",
-      "album_id": "12927820"
-    },
-    {
-      "rank": 95,
       "song_id": "600791038",
       "title": "이 밤을 빌려 말해요",
       "artist": "PLAVE",
@@ -859,22 +841,40 @@
       "album_id": "12458320"
     },
     {
+      "rank": 94,
+      "song_id": "1913501",
+      "title": "하루 하루",
+      "artist": "BIGBANG (빅뱅)",
+      "album": "Stand Up (2008 빅뱅 3rd Mini Album)",
+      "artist_id": "198094",
+      "album_id": "392870"
+    },
+    {
+      "rank": 95,
+      "song_id": "602066108",
+      "title": "BOOMPALA",
+      "artist": "LE SSERAFIM (르세라핌)",
+      "album": "'PUREFLOW' pt.1",
+      "artist_id": "3092950",
+      "album_id": "13349271"
+    },
+    {
       "rank": 96,
+      "song_id": "601555636",
+      "title": "Body to Body",
+      "artist": "방탄소년단",
+      "album": "ARIRANG",
+      "artist_id": "672375",
+      "album_id": "12927820"
+    },
+    {
+      "rank": 97,
       "song_id": "34908740",
       "title": "우리들의 블루스",
       "artist": "임영웅",
       "album": "IM HERO",
       "artist_id": "994944",
       "album_id": "10923444"
-    },
-    {
-      "rank": 97,
-      "song_id": "600280518",
-      "title": "OVERDRIVE",
-      "artist": "TWS (투어스)",
-      "album": "play hard",
-      "artist_id": "3679688",
-      "album_id": "12128505"
     },
     {
       "rank": 98,
@@ -887,21 +887,21 @@
     },
     {
       "rank": 99,
-      "song_id": "602606494",
-      "title": "Shut The Door",
-      "artist": "Young K (DAY6)",
-      "album": "YOUNGEST",
-      "artist_id": "895389",
-      "album_id": "14039492"
+      "song_id": "601356371",
+      "title": "BLACKHOLE",
+      "artist": "IVE (아이브)",
+      "album": "REVIVE+",
+      "artist_id": "3055146",
+      "album_id": "12845274"
     },
     {
       "rank": 100,
-      "song_id": "39166705",
-      "title": "Soda Pop",
-      "artist": "KPop Demon Hunters Cast",
-      "album": "KPop Demon Hunters (Soundtrack from the Netflix Film)",
-      "artist_id": "4348387",
-      "album_id": "11859863"
+      "song_id": "600280518",
+      "title": "OVERDRIVE",
+      "artist": "TWS (투어스)",
+      "album": "play hard",
+      "artist_id": "3679688",
+      "album_id": "12128505"
     }
   ]
 }
