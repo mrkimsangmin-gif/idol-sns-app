@@ -3,17 +3,23 @@
   "name_en": "CRAXY",
   "slug": "craxy",
   "tiktok_url": "https://www.tiktok.com/@craxy_official",
-  "crawled_at": "2026-06-20T11:36:46.508571",
+  "crawled_at": "2026-09-07T21:01:31.133Z",
   "profile": {
     "display_name": "CRAXY(크랙시)",
-    "username": "@craxy_official",
+    "username": "craxy_official",
     "verified": true,
     "category": "",
-    "followers": 228000,
+    "followers": 226000,
     "following": 0,
-    "total_likes": 2746000,
+    "total_likes": 2800000,
     "bio": "크랙시(CRAXY)&#10;▶️Youtube : @CRAXY-SAI&#10;▶️Instagram : @craxy_official"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 51,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T21:01:31.133Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-07T21:01:31.133Z",
+  "profile_status": "fresh_crawled"
 }

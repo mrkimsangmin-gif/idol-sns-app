@@ -2,18 +2,24 @@
   "name": "핑크버스",
   "name_en": "PINKVERSE",
   "slug": "pinkverse",
-  "tiktok_url": "https://www.tiktok.com/@pinkverse_official",
-  "crawled_at": "2026-09-01T07:58:40.895786",
+  "tiktok_url": "https://www.tiktok.com/@pinkverse_universe",
+  "crawled_at": "2026-09-08T00:39:49.971Z",
   "profile": {
-    "display_name": "",
-    "username": "",
+    "display_name": "PINKVERSE",
+    "username": "pinkverse_universe",
     "verified": false,
     "category": "",
-    "followers": 0,
+    "followers": 7209,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 76800,
     "bio": ""
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:39:49.971Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:39:49.971Z",
+  "profile_status": "fresh_crawled"
 }

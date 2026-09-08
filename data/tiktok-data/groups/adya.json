@@ -3,17 +3,23 @@
   "name_en": "ADYA",
   "slug": "adya",
   "tiktok_url": "https://www.tiktok.com/@adya_house",
-  "crawled_at": "2026-06-20T11:27:59.303977",
+  "crawled_at": "2026-09-08T00:32:41.409Z",
   "profile": {
     "display_name": "ADYA(에이디야)",
-    "username": "@adya_house",
+    "username": "adya_house",
     "verified": false,
     "category": "",
-    "followers": 122000,
+    "followers": 120200,
     "following": 1,
-    "total_likes": 2748000,
+    "total_likes": 2700000,
     "bio": "ADYA(에이디야) Official TikTok&#10;starting House Entertainment"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 35,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:32:41.409Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:32:41.409Z",
+  "profile_status": "fresh_crawled"
 }

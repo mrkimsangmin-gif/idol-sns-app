@@ -3,16 +3,16 @@
   "name_en": "Weeekly",
   "slug": "weeekly",
   "tiktok_url": "https://www.tiktok.com/@weeekly",
-  "crawled_at": "2026-06-20T10:59:18.542185",
+  "crawled_at": "2026-09-07T20:57:00.170Z",
   "profile": {
     "display_name": "Weeekly (위클리)",
-    "username": "@weeekly",
+    "username": "weeekly",
     "verified": true,
     "category": "",
-    "followers": 1413000,
+    "followers": 1400000,
     "following": 0,
-    "total_likes": 25155000,
-    "bio": "Weeekly 6th Mini Album [Bliss]&#10;2024.07.09 6PM (KST)"
+    "total_likes": 25200000,
+    "bio": "Weeekly 6th Mini Album [Bliss]\n2024.07.09 6PM (KST)"
   },
   "posts": [
     {
@@ -465,6 +465,12 @@
     "avg_comments": 0,
     "avg_shares": 0,
     "avg_saves": 0,
-    "engagement_rate": 0.0
-  }
+    "engagement_rate": 0
+  },
+  "raw_items_count": 51,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T20:57:00.170Z",
+  "posts_status": "historical_preserved",
+  "profile_crawled_at": "2026-09-07T20:57:00.170Z",
+  "profile_status": "fresh_crawled"
 }

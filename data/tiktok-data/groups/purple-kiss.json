@@ -3,17 +3,23 @@
   "name_en": "PURPLE KISS",
   "slug": "purple-kiss",
   "tiktok_url": "https://www.tiktok.com/@rbw_purplekiss",
-  "crawled_at": "2026-06-20T10:54:20.139584",
+  "crawled_at": "2026-09-08T00:39:34.139Z",
   "profile": {
     "display_name": "purplekiss_official",
-    "username": "@rbw_purplekiss",
+    "username": "rbw_purplekiss",
     "verified": true,
     "category": "",
-    "followers": 560000,
+    "followers": 559000,
     "following": 0,
-    "total_likes": 11861000,
-    "bio": "PURPLE KISS Official TikTok"
+    "total_likes": 11900000,
+    "bio": "No bio yet"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 16,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:39:34.139Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:39:34.139Z",
+  "profile_status": "fresh_crawled"
 }

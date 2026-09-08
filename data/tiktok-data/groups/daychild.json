@@ -3,17 +3,23 @@
   "name_en": "DayChild",
   "slug": "daychild",
   "tiktok_url": "https://www.tiktok.com/@daychild_official",
-  "crawled_at": "2026-06-21T22:21:35.702660",
+  "crawled_at": "2026-09-08T00:23:28.178Z",
   "profile": {
-    "display_name": "",
-    "username": "",
+    "display_name": "DAYCHILD",
+    "username": "daychild_official",
     "verified": false,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 11900,
+    "following": 1,
+    "total_likes": 93700,
     "bio": ""
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:23:28.178Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:23:28.178Z",
+  "profile_status": "fresh_crawled"
 }

@@ -3,17 +3,23 @@
   "name_en": "W!TCHX",
   "slug": "w-tchx",
   "tiktok_url": "https://www.tiktok.com/@witchxofficial",
-  "crawled_at": "2026-06-20T11:41:18.445817",
+  "crawled_at": "2026-09-07T21:01:42.928Z",
   "profile": {
     "display_name": "WiTCHX (위치스)",
-    "username": "@witchxofficial",
+    "username": "witchxofficial",
     "verified": false,
     "category": "",
-    "followers": 79000,
+    "followers": 77500,
     "following": 3,
-    "total_likes": 1496000,
+    "total_likes": 1500000,
     "bio": ""
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 16,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T21:01:42.928Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-07T21:01:42.928Z",
+  "profile_status": "fresh_crawled"
 }

@@ -2,18 +2,24 @@
   "name": "위키미키",
   "name_en": "Weki Meki",
   "slug": "weki-meki",
-  "tiktok_url": "https://www.tiktok.com/@weki_meki",
-  "crawled_at": "2026-09-01T07:59:32.624576",
+  "tiktok_url": "https://www.tiktok.com/@wm_official",
+  "crawled_at": "2026-09-08T00:37:45.748Z",
   "profile": {
-    "display_name": "",
-    "username": "",
-    "verified": false,
+    "display_name": "Weki Meki 위키미키",
+    "username": "wm_official",
+    "verified": true,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 401100,
+    "following": 1,
+    "total_likes": 3100000,
     "bio": ""
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 16,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:37:45.748Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:37:45.748Z",
+  "profile_status": "fresh_crawled"
 }

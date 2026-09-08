@@ -3,15 +3,15 @@
   "name_en": "VANNER",
   "slug": "vanner",
   "tiktok_url": "https://www.tiktok.com/@vanner_official",
-  "crawled_at": "2026-06-21T21:46:00.742327",
+  "crawled_at": "2026-09-07T21:10:00.932Z",
   "profile": {
     "display_name": "VANNER",
-    "username": "@vanner_official",
+    "username": "vanner_official",
     "verified": true,
     "category": "",
-    "followers": 430000,
+    "followers": 432100,
     "following": 0,
-    "total_likes": 8890000,
+    "total_likes": 8900000,
     "bio": "#VANNER Official TikTok"
   },
   "posts": [
@@ -193,5 +193,11 @@
     "avg_shares": 27,
     "avg_saves": 103,
     "engagement_rate": 21.04
-  }
+  },
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T21:10:00.932Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-07T21:10:00.932Z",
+  "profile_status": "fresh_crawled"
 }

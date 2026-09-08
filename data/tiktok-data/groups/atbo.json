@@ -3,18 +3,23 @@
   "name_en": "ATBO",
   "slug": "atbo",
   "tiktok_url": "https://www.tiktok.com/@atboground",
-  "crawled_at": "2026-06-21T22:02:32.286763",
+  "crawled_at": "2026-09-08T00:33:20.429Z",
   "profile": {
     "display_name": "ATBO",
-    "username": "@atboground",
+    "username": "atboground",
     "verified": false,
     "category": "",
-    "followers": 723000,
+    "followers": 720100,
     "following": 0,
-    "total_likes": 6206000,
+    "total_likes": 6200000,
     "bio": ""
   },
   "posts": [],
   "stats": {},
-  "error": "IndexError: list index out of range"
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:33:20.429Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:33:20.429Z",
+  "profile_status": "fresh_crawled"
 }

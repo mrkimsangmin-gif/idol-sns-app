@@ -1,0 +1,2961 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <link rel="icon" type="image/png" href="/favicon_aimcontents.png">
+    <!-- 채용 JSON 사전 로드: JS 파싱 중 백그라운드 다운로드 -->
+    <link rel="preload" href="/data/jobs.json" as="fetch" crossorigin="anonymous">
+    <title>K-POP 아이돌 나무위키 데이터베이스 (190개 그룹) | 아이엠콘텐츠</title>
+    <meta name="description"
+        content="1세대부터 5세대까지 190개 K-POP 아이돌 그룹의 소속사, 데뷔일, 멤버 프로필, 앨범 초동 판매량, SNS 링크 나무위키 총정리.">
+    <meta name="keywords" content="아이돌 순위, 아이돌 틱톡 순위, K-POP 틱톡 랭킹, 아이돌 숏폼 순위, 도우인 챌린지 순위, 아이돌 SNS 순위, K-POP 팔로워 순위, 유튜브 구독자 순위, 인스타그램 팔로워 순위, 웨이보 순위, 컴백 일정, 나무위키, 아이엠콘텐츠">
+    <meta name="author" content="아이엠콘텐츠 (Aimcontents)">
+
+    <!-- SEO: canonical URL -->
+    <link rel="canonical" href="https://aimcontents.com/namu/">
+    <!-- SEO: 검색엔진 사이트 인증 -->
+    <meta name="google-site-verification" content="qNNCan1MH3AX7Fa9E7tGCIxNA8V7Dn6DWtO1TjIlOsM" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aimcontents.com/namu/">
+    <meta property="og:title" content="K-POP 아이돌 나무위키 데이터베이스 (190개 그룹) | 아이엠콘텐츠">
+    <meta property="og:description" content="1세대부터 5세대까지 190개 K-POP 아이돌 그룹의 소속사, 데뷔일, 멤버 프로필, 앨범 초동 판매량, SNS 링크 나무위키 총정리.">
+    <meta property="og:image" content="https://aimcontents.com/logo_aimcontents.png">
+    <meta property="og:site_name" content="아이엠콘텐츠">
+    <meta property="og:locale" content="ko_KR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://aimcontents.com/namu/">
+    <meta name="twitter:title" content="K-POP 아이돌 나무위키 데이터베이스 (190개 그룹) | 아이엠콘텐츠">
+    <meta name="twitter:description" content="1세대부터 5세대까지 190개 K-POP 아이돌 그룹의 소속사, 데뷔일, 멤버 프로필, 앨범 초동 판매량, SNS 링크 나무위키 총정리.">
+    <meta name="twitter:image" content="https://aimcontents.com/logo_aimcontents.png">
+
+    <!-- GitHub Pages SPA 라우팅: 404.html에서 전달된 경로 복원 -->
+    <script>
+        (function(l) {
+            if (l.search[1] === '/') {
+                var decoded = l.search.slice(1).split('&').map(function(s) {
+                    return s.replace(/~and~/g, '&');
+                }).join('?');
+                window.history.replaceState(null, null,
+                    l.pathname.slice(0, -1) + decoded + l.hash
+                );
+            }
+        }(window.location));
+    </script>
+
+    <!-- Google Analytics 4 (봇 필터링 포함) -->
+    <script>
+        // 봇/크롤러 감지: UA 문자열 + 비인간 행동 패턴
+        window.__isBot = (function() {
+            var ua = navigator.userAgent || '';
+            // 알려진 봇 UA 패턴
+            if (/bot|crawl|spider|slurp|lighthouse|headless|phantom|puppeteer|selenium|wget|curl|python|java\/|ahref|semrush|mj12|dotbot|petalbot|bytespider|gptbot|claudebot|barkrowler|dataforseo/i.test(ua)) return true;
+            // WebDriver 감지 (Selenium, Puppeteer 등)
+            if (navigator.webdriver) return true;
+            // 플러그인 0개 + 언어 미설정 = headless 브라우저 의심
+            if (!navigator.plugins || navigator.plugins.length === 0) {
+                if (!navigator.language && !navigator.languages) return true;
+            }
+            return false;
+        })();
+    </script>
+    <script>
+        // 봇이 아닌 경우에만 GA4 로드
+        if (!window.__isBot) {
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=G-G0ZEFEPQPG';
+            document.head.appendChild(s);
+        }
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        if (!window.__isBot) {
+            gtag('js', new Date());
+            gtag('config', 'G-G0ZEFEPQPG', {
+                send_page_view: true,
+                cookie_flags: 'SameSite=None;Secure'
+            });
+        }
+    </script>
+
+    <!-- Schema.org 구조화 데이터 (브랜드 개체 인식) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "아이엠콘텐츠",
+      "alternateName": ["Aimcontents", "AIM Contents", "AIMCONTENTS"],
+      "url": "https://aimcontents.com",
+      "logo": "https://aimcontents.com/logo_aimcontents.png"
+    }
+    </script>
+
+    <!-- Schema.org 웹사이트 (검색 사이트링크 지원) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "K-Idol SNS & TikTok Ranking | 아이엠콘텐츠",
+      "url": "https://aimcontents.com",
+      "description": "K-POP 아이돌 SNS·틱톡·도우인 팔로워 순위 - 틱톡, 유튜브, 인스타그램, 웨이보, 빌리빌리, 도우인",
+      "inLanguage": "ko",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://aimcontents.com/ranking?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- Schema.org 데이터셋 (랭킹 데이터 인식) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dataset",
+      "name": "K-POP 아이돌 SNS 팔로워 및 틱톡·숏폼 순위 데이터",
+      "description": "주간·월별 K-POP 아이돌의 틱톡, 유튜브, 인스타그램, 웨이보, 빌리빌리, QQ뮤직, 도우인 팔로워 수 및 숏폼 참여율(ER) 순위",
+      "url": "https://aimcontents.com/ranking",
+      "creator": {
+        "@type": "Organization",
+        "name": "아이엠콘텐츠"
+      },
+      "temporalCoverage": "2024-03/..",
+      "spatialCoverage": "Global",
+      "keywords": ["K-POP", "아이돌", "SNS 순위", "틱톡", "TikTok", "아이돌 틱톡 순위", "아이돌 숏폼 순위", "도우인", "유튜브", "인스타그램", "웨이보", "빌리빌리", "팔로워 순위"]
+    }
+    </script>
+
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons (업체정보 모달 아이콘용) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <script type="application/ld+json" data-static="namu-hub">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "K-POP 아이돌 나무위키 데이터베이스 (190개 그룹)",
+  "description": "1세대부터 5세대까지 K-POP 아이돌 그룹의 소속사, 데뷔일, 팬덤명, 멤버 프로필, 앨범 판매량 데이터베이스.",
+  "url": "https://aimcontents.com/namu/",
+  "numberOfItems": 190,
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "에스파 (aespa)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "에스파",
+          "alternateName": "aespa",
+          "url": "https://aimcontents.com/namu/aespa/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "뉴진스 (NewJeans)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "뉴진스",
+          "alternateName": "NewJeans",
+          "url": "https://aimcontents.com/namu/newjeans/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "르세라핌 (LE SSERAFIM)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "르세라핌",
+          "alternateName": "LE SSERAFIM",
+          "url": "https://aimcontents.com/namu/le-sserafim/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "방탄소년단 (BTS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "방탄소년단",
+          "alternateName": "BTS",
+          "url": "https://aimcontents.com/namu/bts/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "세븐틴 (SEVENTEEN)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "세븐틴",
+          "alternateName": "SEVENTEEN",
+          "url": "https://aimcontents.com/namu/seventeen/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "블랙핑크 (BLACKPINK)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "블랙핑크",
+          "alternateName": "BLACKPINK",
+          "url": "https://aimcontents.com/namu/blackpink/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "트와이스 (TWICE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "트와이스",
+          "alternateName": "TWICE",
+          "url": "https://aimcontents.com/namu/twice/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "스트레이키즈 (Stray Kids)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "스트레이키즈",
+          "alternateName": "Stray Kids",
+          "url": "https://aimcontents.com/namu/stray-kids/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "투모로우바이투게더 (TXT)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "투모로우바이투게더",
+          "alternateName": "TXT",
+          "url": "https://aimcontents.com/namu/txt/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": "아이들 (i-dle)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아이들",
+          "alternateName": "i-dle",
+          "url": "https://aimcontents.com/namu/i-dle/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "name": "레드벨벳 (Red Velvet)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "레드벨벳",
+          "alternateName": "Red Velvet",
+          "url": "https://aimcontents.com/namu/red-velvet/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 12,
+        "name": "있지 (ITZY)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "있지",
+          "alternateName": "ITZY",
+          "url": "https://aimcontents.com/namu/itzy/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 13,
+        "name": "아이브 (IVE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아이브",
+          "alternateName": "IVE",
+          "url": "https://aimcontents.com/namu/ive/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 14,
+        "name": "베이비몬스터 (BABYMONSTER)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "베이비몬스터",
+          "alternateName": "BABYMONSTER",
+          "url": "https://aimcontents.com/namu/babymonster/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 15,
+        "name": "엔믹스 (NMIXX)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "엔믹스",
+          "alternateName": "NMIXX",
+          "url": "https://aimcontents.com/namu/nmixx/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 16,
+        "name": "우주소녀 (WJSN)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "우주소녀",
+          "alternateName": "WJSN",
+          "url": "https://aimcontents.com/namu/wjsn/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 17,
+        "name": "아일릿 (ILLIT)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아일릿",
+          "alternateName": "ILLIT",
+          "url": "https://aimcontents.com/namu/illit/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 18,
+        "name": "스테이씨 (STAYC)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "스테이씨",
+          "alternateName": "STAYC",
+          "url": "https://aimcontents.com/namu/stayc/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 19,
+        "name": "미야오 (MEOVV)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "미야오",
+          "alternateName": "MEOVV",
+          "url": "https://aimcontents.com/namu/meovv/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 20,
+        "name": "케플러 (Kep1er)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "케플러",
+          "alternateName": "Kep1er",
+          "url": "https://aimcontents.com/namu/kep1er/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 21,
+        "name": "키스오브라이프 (KISS OF LIFE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "키스오브라이프",
+          "alternateName": "KISS OF LIFE",
+          "url": "https://aimcontents.com/namu/kiss-of-life/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 22,
+        "name": "프로미스나인 (fromis_9)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "프로미스나인",
+          "alternateName": "fromis_9",
+          "url": "https://aimcontents.com/namu/fromis-9/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 23,
+        "name": "트리플에스 (tripleS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "트리플에스",
+          "alternateName": "tripleS",
+          "url": "https://aimcontents.com/namu/triples/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 24,
+        "name": "오마이걸 (OH MY GIRL)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "오마이걸",
+          "alternateName": "OH MY GIRL",
+          "url": "https://aimcontents.com/namu/oh-my-girl/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 25,
+        "name": "드림캐쳐 (Dreamcatcher)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "드림캐쳐",
+          "alternateName": "Dreamcatcher",
+          "url": "https://aimcontents.com/namu/dreamcatcher/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 26,
+        "name": "하이키 (H1-KEY)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "하이키",
+          "alternateName": "H1-KEY",
+          "url": "https://aimcontents.com/namu/h1-key/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 27,
+        "name": "우아 (WOOAH)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "우아",
+          "alternateName": "WOOAH",
+          "url": "https://aimcontents.com/namu/wooah/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 28,
+        "name": "비비지 (VIVIZ)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "비비지",
+          "alternateName": "VIVIZ",
+          "url": "https://aimcontents.com/namu/viviz/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 29,
+        "name": "이즈나 (izna)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "이즈나",
+          "alternateName": "izna",
+          "url": "https://aimcontents.com/namu/izna/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 30,
+        "name": "빌리 (Billlie)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "빌리",
+          "alternateName": "Billlie",
+          "url": "https://aimcontents.com/namu/billlie/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 31,
+        "name": "퍼플키스 (PURPLE KISS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "퍼플키스",
+          "alternateName": "PURPLE KISS",
+          "url": "https://aimcontents.com/namu/purple-kiss/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 32,
+        "name": "큐더블유이알 (QWER)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "큐더블유이알",
+          "alternateName": "QWER",
+          "url": "https://aimcontents.com/namu/qwer/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 33,
+        "name": "영파씨 (YOUNG POSSE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "영파씨",
+          "alternateName": "YOUNG POSSE",
+          "url": "https://aimcontents.com/namu/young-posse/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 34,
+        "name": "위클리 (Weeekly)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "위클리",
+          "alternateName": "Weeekly",
+          "url": "https://aimcontents.com/namu/weeekly/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 35,
+        "name": "유니스 (UNIS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "유니스",
+          "alternateName": "UNIS",
+          "url": "https://aimcontents.com/namu/unis/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 36,
+        "name": "클라씨 (CLASS:y)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "클라씨",
+          "alternateName": "CLASS:y",
+          "url": "https://aimcontents.com/namu/class-y/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 37,
+        "name": "트라이비 (TRI.BE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "트라이비",
+          "alternateName": "TRI.BE",
+          "url": "https://aimcontents.com/namu/tri-be/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 38,
+        "name": "리센느 (RESCENE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "리센느",
+          "alternateName": "RESCENE",
+          "url": "https://aimcontents.com/namu/rescene/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 39,
+        "name": "로켓펀치 (Rocket Punch)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "로켓펀치",
+          "alternateName": "Rocket Punch",
+          "url": "https://aimcontents.com/namu/rocket-punch/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 40,
+        "name": "아이칠린 (ICHILLIN')",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아이칠린",
+          "alternateName": "ICHILLIN'",
+          "url": "https://aimcontents.com/namu/ichillin/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 41,
+        "name": "블랙스완 (BLACKSWAN)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "블랙스완",
+          "alternateName": "BLACKSWAN",
+          "url": "https://aimcontents.com/namu/blackswan/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 42,
+        "name": "첫사랑 (CSR)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "첫사랑",
+          "alternateName": "CSR",
+          "url": "https://aimcontents.com/namu/csr/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 43,
+        "name": "세이마이네임 (SMN)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "세이마이네임",
+          "alternateName": "SMN",
+          "url": "https://aimcontents.com/namu/smn/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 44,
+        "name": "아트비트 (ARTBEAT v)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아트비트",
+          "alternateName": "ARTBEAT v",
+          "url": "https://aimcontents.com/namu/artbeat-v/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 45,
+        "name": "피프티피프티 (FIFTY FIFTY)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "피프티피프티",
+          "alternateName": "FIFTY FIFTY",
+          "url": "https://aimcontents.com/namu/fifty-fifty/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 46,
+        "name": "메이딘 (MADEIN)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "메이딘",
+          "alternateName": "MADEIN",
+          "url": "https://aimcontents.com/namu/madein/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 47,
+        "name": "아르테미스 (ARTMS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아르테미스",
+          "alternateName": "ARTMS",
+          "url": "https://aimcontents.com/namu/artms/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 48,
+        "name": "배드빌런 (BADVILLAIN)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "배드빌런",
+          "alternateName": "BADVILLAIN",
+          "url": "https://aimcontents.com/namu/badvillain/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 49,
+        "name": "에이디야 (ADYA)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "에이디야",
+          "alternateName": "ADYA",
+          "url": "https://aimcontents.com/namu/adya/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 50,
+        "name": "트레이서 (Tracer)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "트레이서",
+          "alternateName": "Tracer",
+          "url": "https://aimcontents.com/namu/tracer/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 51,
+        "name": "아이리스 (IRRIS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아이리스",
+          "alternateName": "IRRIS",
+          "url": "https://aimcontents.com/namu/irris/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 52,
+        "name": "비웨이브 (BEWAVE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "비웨이브",
+          "alternateName": "BEWAVE",
+          "url": "https://aimcontents.com/namu/bewave/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 53,
+        "name": "아일리원 (ILY:1)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아일리원",
+          "alternateName": "ILY:1",
+          "url": "https://aimcontents.com/namu/ily-1/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 54,
+        "name": "캔디샵 (Candy Shop)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "캔디샵",
+          "alternateName": "Candy Shop",
+          "url": "https://aimcontents.com/namu/candy-shop/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 55,
+        "name": "시크릿넘버 (SECRET NUMBER)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "시크릿넘버",
+          "alternateName": "SECRET NUMBER",
+          "url": "https://aimcontents.com/namu/secret-number/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 56,
+        "name": "오드유스 (ODD YOUTH)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "오드유스",
+          "alternateName": "ODD YOUTH",
+          "url": "https://aimcontents.com/namu/odd-youth/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 57,
+        "name": "프림로즈 (PRIMROSE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "프림로즈",
+          "alternateName": "PRIMROSE",
+          "url": "https://aimcontents.com/namu/primrose/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 58,
+        "name": "지니어스 (Geenius)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "지니어스",
+          "alternateName": "Geenius",
+          "url": "https://aimcontents.com/namu/geenius/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 59,
+        "name": "크랙시 (CRAXY)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "크랙시",
+          "alternateName": "CRAXY",
+          "url": "https://aimcontents.com/namu/craxy/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 60,
+        "name": "루셈블 (Loossemble)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "루셈블",
+          "alternateName": "Loossemble",
+          "url": "https://aimcontents.com/namu/loossemble/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 61,
+        "name": "유니코드 (UNICODE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "유니코드",
+          "alternateName": "UNICODE",
+          "url": "https://aimcontents.com/namu/unicode/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 62,
+        "name": "위나 (We;Na)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "위나",
+          "alternateName": "We;Na",
+          "url": "https://aimcontents.com/namu/we-na/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 63,
+        "name": "위치스 (W!TCHX)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "위치스",
+          "alternateName": "W!TCHX",
+          "url": "https://aimcontents.com/namu/w-tchx/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 64,
+        "name": "러브원 (LOVEONE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "러브원",
+          "alternateName": "LOVEONE",
+          "url": "https://aimcontents.com/namu/loveone/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 65,
+        "name": "수피아 (SPIA)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "수피아",
+          "alternateName": "SPIA",
+          "url": "https://aimcontents.com/namu/spia/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 66,
+        "name": "아이몬드 (I:MOND)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아이몬드",
+          "alternateName": "I:MOND",
+          "url": "https://aimcontents.com/namu/i-mond/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 67,
+        "name": "버비 (Burvey)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "버비",
+          "alternateName": "Burvey",
+          "url": "https://aimcontents.com/namu/burvey/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 68,
+        "name": "하츠투하츠 (Hearts2Hearts)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "하츠투하츠",
+          "alternateName": "Hearts2Hearts",
+          "url": "https://aimcontents.com/namu/hearts2hearts/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 69,
+        "name": "키키 (KiiiKiii)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "키키",
+          "alternateName": "KiiiKiii",
+          "url": "https://aimcontents.com/namu/kiiikiii/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 70,
+        "name": "아이리제 (IRISÉ)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아이리제",
+          "alternateName": "IRISÉ",
+          "url": "https://aimcontents.com/namu/iris/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 71,
+        "name": "앳하트 (AtHeart)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "앳하트",
+          "alternateName": "AtHeart",
+          "url": "https://aimcontents.com/namu/atheart/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 72,
+        "name": "이프아이 (ifeye)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "이프아이",
+          "alternateName": "ifeye",
+          "url": "https://aimcontents.com/namu/ifeye/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 73,
+        "name": "븨븨에스 (VVS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "븨븨에스",
+          "alternateName": "VVS",
+          "url": "https://aimcontents.com/namu/vvs/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 74,
+        "name": "힛지스 (HITGS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "힛지스",
+          "alternateName": "HITGS",
+          "url": "https://aimcontents.com/namu/hitgs/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 75,
+        "name": "우당탕탕 소녀단 (UDTT)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "우당탕탕 소녀단",
+          "alternateName": "UDTT",
+          "url": "https://aimcontents.com/namu/udtt/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 76,
+        "name": "키라스 (KIIRAS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "키라스",
+          "alternateName": "KIIRAS",
+          "url": "https://aimcontents.com/namu/kiiras/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 77,
+        "name": "유스피어 (USPEER)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "유스피어",
+          "alternateName": "USPEER",
+          "url": "https://aimcontents.com/namu/uspeer/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 78,
+        "name": "스모즈 (SMORZ)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "스모즈",
+          "alternateName": "SMORZ",
+          "url": "https://aimcontents.com/namu/smorz/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 79,
+        "name": "어블룸 (ablume)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "어블룸",
+          "alternateName": "ablume",
+          "url": "https://aimcontents.com/namu/ablume/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 80,
+        "name": "베이비돈크라이 (Baby DONT Cry)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "베이비돈크라이",
+          "alternateName": "Baby DONT Cry",
+          "url": "https://aimcontents.com/namu/baby-dont-cry/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 81,
+        "name": "올데이프로젝트 (ALLDAY PROJECT)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "올데이프로젝트",
+          "alternateName": "ALLDAY PROJECT",
+          "url": "https://aimcontents.com/namu/allday-project/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 82,
+        "name": "엔시티 드림 (NCT DREAM)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "엔시티 드림",
+          "alternateName": "NCT DREAM",
+          "url": "https://aimcontents.com/namu/nct-dream/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 83,
+        "name": "엔하이픈 (ENHYPEN)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "엔하이픈",
+          "alternateName": "ENHYPEN",
+          "url": "https://aimcontents.com/namu/enhypen/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 84,
+        "name": "제로베이스원 (ZEROBASEONE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "제로베이스원",
+          "alternateName": "ZEROBASEONE",
+          "url": "https://aimcontents.com/namu/zerobaseone/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 85,
+        "name": "엔시티 일이칠 (NCT 127)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "엔시티 일이칠",
+          "alternateName": "NCT 127",
+          "url": "https://aimcontents.com/namu/nct-127/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 86,
+        "name": "플레이브 (PLAVE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "플레이브",
+          "alternateName": "PLAVE",
+          "url": "https://aimcontents.com/namu/plave/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 87,
+        "name": "트레저 (TREASURE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "트레저",
+          "alternateName": "TREASURE",
+          "url": "https://aimcontents.com/namu/treasure/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 88,
+        "name": "라이즈 (RIIZE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "라이즈",
+          "alternateName": "RIIZE",
+          "url": "https://aimcontents.com/namu/riize/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 89,
+        "name": "보이넥스트도어 (BOYNEXTDOOR)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "보이넥스트도어",
+          "alternateName": "BOYNEXTDOOR",
+          "url": "https://aimcontents.com/namu/boynextdoor/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 90,
+        "name": "더보이즈 (THE BOYZ)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "더보이즈",
+          "alternateName": "THE BOYZ",
+          "url": "https://aimcontents.com/namu/the-boyz/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 91,
+        "name": "투어스 (TWS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "투어스",
+          "alternateName": "TWS",
+          "url": "https://aimcontents.com/namu/tws/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 92,
+        "name": "아이콘 (Ikon)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아이콘",
+          "alternateName": "Ikon",
+          "url": "https://aimcontents.com/namu/ikon/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 93,
+        "name": "몬스타엑스 (MONSTA X)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "몬스타엑스",
+          "alternateName": "MONSTA X",
+          "url": "https://aimcontents.com/namu/monsta-x/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 94,
+        "name": "아스트로 (ASTRO)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아스트로",
+          "alternateName": "ASTRO",
+          "url": "https://aimcontents.com/namu/astro/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 95,
+        "name": "엑스디너리 히어로즈 (Xdinary Heroes)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "엑스디너리 히어로즈",
+          "alternateName": "Xdinary Heroes",
+          "url": "https://aimcontents.com/namu/xdinary-heroes/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 96,
+        "name": "피원하모니 (P1Harmony)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "피원하모니",
+          "alternateName": "P1Harmony",
+          "url": "https://aimcontents.com/namu/p1harmony/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 97,
+        "name": "에스에프나인 (SF9)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "에스에프나인",
+          "alternateName": "SF9",
+          "url": "https://aimcontents.com/namu/sf9/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 98,
+        "name": "템페스트 (TEMPEST)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "템페스트",
+          "alternateName": "TEMPEST",
+          "url": "https://aimcontents.com/namu/tempest/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 99,
+        "name": "에이비식스 (AB6IX)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "에이비식스",
+          "alternateName": "AB6IX",
+          "url": "https://aimcontents.com/namu/ab6ix/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 100,
+        "name": "펜타곤 (PENTAGON)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "펜타곤",
+          "alternateName": "PENTAGON",
+          "url": "https://aimcontents.com/namu/pentagon/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 101,
+        "name": "오메가엑스 (OMEGA X)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "오메가엑스",
+          "alternateName": "OMEGA X",
+          "url": "https://aimcontents.com/namu/omega-x/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 102,
+        "name": "에이티즈 (ATEEZ)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "에이티즈",
+          "alternateName": "ATEEZ",
+          "url": "https://aimcontents.com/namu/ateez/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 103,
+        "name": "이펙스 (EPEX)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "이펙스",
+          "alternateName": "EPEX",
+          "url": "https://aimcontents.com/namu/epex/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 104,
+        "name": "데이식스 (DAY6)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "데이식스",
+          "alternateName": "DAY6",
+          "url": "https://aimcontents.com/namu/day6/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 105,
+        "name": "크래비티 (CRAVITY)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "크래비티",
+          "alternateName": "CRAVITY",
+          "url": "https://aimcontents.com/namu/cravity/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 106,
+        "name": "원어스 (ONEUS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "원어스",
+          "alternateName": "ONEUS",
+          "url": "https://aimcontents.com/namu/oneus/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 107,
+        "name": "킥플립 (KickFlip)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "킥플립",
+          "alternateName": "KickFlip",
+          "url": "https://aimcontents.com/namu/kickflip/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 108,
+        "name": "골든차일드 (Golden Child, GNCD)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "골든차일드",
+          "alternateName": "Golden Child, GNCD",
+          "url": "https://aimcontents.com/namu/golden-child-gncd/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 109,
+        "name": "드리핀 (DRIPPIN)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "드리핀",
+          "alternateName": "DRIPPIN",
+          "url": "https://aimcontents.com/namu/drippin/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 110,
+        "name": "루네이트 (LUN8)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "루네이트",
+          "alternateName": "LUN8",
+          "url": "https://aimcontents.com/namu/lun8/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 111,
+        "name": "넥스지 (NEXZ)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "넥스지",
+          "alternateName": "NEXZ",
+          "url": "https://aimcontents.com/namu/nexz/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 112,
+        "name": "에잇턴 (8TURN)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "에잇턴",
+          "alternateName": "8TURN",
+          "url": "https://aimcontents.com/namu/8turn/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 113,
+        "name": "씨아이엑스 (CIX)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "씨아이엑스",
+          "alternateName": "CIX",
+          "url": "https://aimcontents.com/namu/cix/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 114,
+        "name": "이븐 (EVNNE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "이븐",
+          "alternateName": "EVNNE",
+          "url": "https://aimcontents.com/namu/evnne/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 115,
+        "name": "나우즈 (NOWZ)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "나우즈",
+          "alternateName": "NOWZ",
+          "url": "https://aimcontents.com/namu/nowz/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 116,
+        "name": "더뉴식스 (THE NEW SIX)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "더뉴식스",
+          "alternateName": "THE NEW SIX",
+          "url": "https://aimcontents.com/namu/the-new-six/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 117,
+        "name": "앰퍼샌드원 (AMPERS&ONE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "앰퍼샌드원",
+          "alternateName": "AMPERS&ONE",
+          "url": "https://aimcontents.com/namu/ampers-one/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 118,
+        "name": "파우 (POW)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "파우",
+          "alternateName": "POW",
+          "url": "https://aimcontents.com/namu/pow/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 119,
+        "name": "소디엑 (XODIAC)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "소디엑",
+          "alternateName": "XODIAC",
+          "url": "https://aimcontents.com/namu/xodiac/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 120,
+        "name": "유나이트 (YOUNITE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "유나이트",
+          "alternateName": "YOUNITE",
+          "url": "https://aimcontents.com/namu/younite/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 121,
+        "name": "배너 (VANNER)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "배너",
+          "alternateName": "VANNER",
+          "url": "https://aimcontents.com/namu/vanner/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 122,
+        "name": "비에이이일칠삼 (BAE173)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "비에이이일칠삼",
+          "alternateName": "BAE173",
+          "url": "https://aimcontents.com/namu/bae173/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 123,
+        "name": "에이티투메이저 (82MAJOR)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "에이티투메이저",
+          "alternateName": "82MAJOR",
+          "url": "https://aimcontents.com/namu/82major/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 124,
+        "name": "판타지보이즈 (FANTASY BOYS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "판타지보이즈",
+          "alternateName": "FANTASY BOYS",
+          "url": "https://aimcontents.com/namu/fantasy-boys/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 125,
+        "name": "더윈드 (The Wind)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "더윈드",
+          "alternateName": "The Wind",
+          "url": "https://aimcontents.com/namu/the-wind/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 126,
+        "name": "위아이 (WEi)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "위아이",
+          "alternateName": "WEi",
+          "url": "https://aimcontents.com/namu/wei/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 127,
+        "name": "휘브 (WHIB)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "휘브",
+          "alternateName": "WHIB",
+          "url": "https://aimcontents.com/namu/whib/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 128,
+        "name": "다이몬 (DXMON)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "다이몬",
+          "alternateName": "DXMON",
+          "url": "https://aimcontents.com/namu/dxmon/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 129,
+        "name": "온앤오프 (ONF)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "온앤오프",
+          "alternateName": "ONF",
+          "url": "https://aimcontents.com/namu/onf/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 130,
+        "name": "미래소년 (MIRAE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "미래소년",
+          "alternateName": "MIRAE",
+          "url": "https://aimcontents.com/namu/mirae/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 131,
+        "name": "엠씨엔디 (MCND)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "엠씨엔디",
+          "alternateName": "MCND",
+          "url": "https://aimcontents.com/namu/mcnd/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 132,
+        "name": "싸이커스 (xikers)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "싸이커스",
+          "alternateName": "xikers",
+          "url": "https://aimcontents.com/namu/xikers/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 133,
+        "name": "누에라 (NouerA)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "누에라",
+          "alternateName": "NouerA",
+          "url": "https://aimcontents.com/namu/nouera/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 134,
+        "name": "엔싸인 (n.SSign)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "엔싸인",
+          "alternateName": "n.SSign",
+          "url": "https://aimcontents.com/namu/n-ssign/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 135,
+        "name": "다크비 (DKB)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "다크비",
+          "alternateName": "DKB",
+          "url": "https://aimcontents.com/namu/dkb/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 136,
+        "name": "에이티비오 (ATBO)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "에이티비오",
+          "alternateName": "ATBO",
+          "url": "https://aimcontents.com/namu/atbo/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 137,
+        "name": "엘라스트 (E'LAST)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "엘라스트",
+          "alternateName": "E'LAST",
+          "url": "https://aimcontents.com/namu/e-last/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 138,
+        "name": "아크 (ARrC)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아크",
+          "alternateName": "ARrC",
+          "url": "https://aimcontents.com/namu/arrc/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 139,
+        "name": "노매드 (NOMAD)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "노매드",
+          "alternateName": "NOMAD",
+          "url": "https://aimcontents.com/namu/nomad/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 140,
+        "name": "올아워즈 (ALL(H)OURS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "올아워즈",
+          "alternateName": "ALL(H)OURS",
+          "url": "https://aimcontents.com/namu/all-h-ours/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 141,
+        "name": "트렌드지 (TRENDZ)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "트렌드지",
+          "alternateName": "TRENDZ",
+          "url": "https://aimcontents.com/namu/trendz/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 142,
+        "name": "나인아이 (NINE.i)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "나인아이",
+          "alternateName": "NINE.i",
+          "url": "https://aimcontents.com/namu/nine-i/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 143,
+        "name": "세븐어스 (SEVENUS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "세븐어스",
+          "alternateName": "SEVENUS",
+          "url": "https://aimcontents.com/namu/sevenus/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 144,
+        "name": "에이머스 (AIMERS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "에이머스",
+          "alternateName": "AIMERS",
+          "url": "https://aimcontents.com/namu/aimers/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 145,
+        "name": "원팩트 (ONE PACT)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "원팩트",
+          "alternateName": "ONE PACT",
+          "url": "https://aimcontents.com/namu/one-pact/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 146,
+        "name": "티아이오티 (TIOT)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "티아이오티",
+          "alternateName": "TIOT",
+          "url": "https://aimcontents.com/namu/tiot/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 147,
+        "name": "엔카이브 (NCHIVE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "엔카이브",
+          "alternateName": "NCHIVE",
+          "url": "https://aimcontents.com/namu/nchive/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 148,
+        "name": "더킹덤 (The KingDom)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "더킹덤",
+          "alternateName": "The KingDom",
+          "url": "https://aimcontents.com/namu/the-kingdom/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 149,
+        "name": "블리처스 (BLITZERS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "블리처스",
+          "alternateName": "BLITZERS",
+          "url": "https://aimcontents.com/namu/blitzers/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 150,
+        "name": "웨이커 (WAKER)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "웨이커",
+          "alternateName": "WAKER",
+          "url": "https://aimcontents.com/namu/waker/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 151,
+        "name": "워터파이어 (WATERFIRE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "워터파이어",
+          "alternateName": "WATERFIRE",
+          "url": "https://aimcontents.com/namu/waterfire/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 152,
+        "name": "피커스 (PICKUS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "피커스",
+          "alternateName": "PICKUS",
+          "url": "https://aimcontents.com/namu/pickus/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 153,
+        "name": "어센트 (ASC2NT)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "어센트",
+          "alternateName": "ASC2NT",
+          "url": "https://aimcontents.com/namu/asc2nt/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 154,
+        "name": "하우 (HAWW)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "하우",
+          "alternateName": "HAWW",
+          "url": "https://aimcontents.com/namu/haww/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 155,
+        "name": "이스트샤인 (EASTSHINE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "이스트샤인",
+          "alternateName": "EASTSHINE",
+          "url": "https://aimcontents.com/namu/eastshine/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 156,
+        "name": "이오닛 (AEONIT)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "이오닛",
+          "alternateName": "AEONIT",
+          "url": "https://aimcontents.com/namu/aeonit/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 157,
+        "name": "비디유 (B.D.U)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "비디유",
+          "alternateName": "B.D.U",
+          "url": "https://aimcontents.com/namu/b-d-u/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 158,
+        "name": "데이차일드 (DayChild)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "데이차일드",
+          "alternateName": "DayChild",
+          "url": "https://aimcontents.com/namu/daychild/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 159,
+        "name": "드래곤포니 (Dragon Pony)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "드래곤포니",
+          "alternateName": "Dragon Pony",
+          "url": "https://aimcontents.com/namu/dragon-pony/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 160,
+        "name": "클로즈 유어 아이즈 (CLOSE YOUR EYES)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "클로즈 유어 아이즈",
+          "alternateName": "CLOSE YOUR EYES",
+          "url": "https://aimcontents.com/namu/close-your-eyes/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 161,
+        "name": "아홉 (AHOF)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아홉",
+          "alternateName": "AHOF",
+          "url": "https://aimcontents.com/namu/ahof/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 162,
+        "name": "엑스러브 (XLOV)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "엑스러브",
+          "alternateName": "XLOV",
+          "url": "https://aimcontents.com/namu/xlov/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 163,
+        "name": "뉴비트 (NEWBEAT)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "뉴비트",
+          "alternateName": "NEWBEAT",
+          "url": "https://aimcontents.com/namu/newbeat/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 164,
+        "name": "아이딧 (IDID)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아이딧",
+          "alternateName": "IDID",
+          "url": "https://aimcontents.com/namu/idid/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 165,
+        "name": "비보이즈 (BE BOYS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "비보이즈",
+          "alternateName": "BE BOYS",
+          "url": "https://aimcontents.com/namu/be-boys/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 166,
+        "name": "아이덴티티 (idntt)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "아이덴티티",
+          "alternateName": "idntt",
+          "url": "https://aimcontents.com/namu/idntt/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 167,
+        "name": "코르티스 (CORTIS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "코르티스",
+          "alternateName": "CORTIS",
+          "url": "https://aimcontents.com/namu/cortis/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 168,
+        "name": "알파드라이브원 (ALPHA DRIVE ONE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "알파드라이브원",
+          "alternateName": "ALPHA DRIVE ONE",
+          "url": "https://aimcontents.com/namu/alpha-drive-one/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 169,
+        "name": "엠빅 (AM8IC)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "엠빅",
+          "alternateName": "AM8IC",
+          "url": "https://aimcontents.com/namu/am8ic/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 170,
+        "name": "에이엠피 (AxMxP)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "에이엠피",
+          "alternateName": "AxMxP",
+          "url": "https://aimcontents.com/namu/axmxp/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 171,
+        "name": "롱샷 (LNGSHOT)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "롱샷",
+          "alternateName": "LNGSHOT",
+          "url": "https://aimcontents.com/namu/lngshot/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 172,
+        "name": "네이즈 (NAZE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "네이즈",
+          "alternateName": "NAZE",
+          "url": "https://aimcontents.com/namu/naze/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 173,
+        "name": "유어즈 (YUHZ)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "유어즈",
+          "alternateName": "YUHZ",
+          "url": "https://aimcontents.com/namu/yuhz/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 174,
+        "name": "마마무 (MAMAMOO)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "마마무",
+          "alternateName": "MAMAMOO",
+          "url": "https://aimcontents.com/namu/mamamoo/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 175,
+        "name": "데일리디렉션 (DAILY:DIRECTION)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "데일리디렉션",
+          "alternateName": "DAILY:DIRECTION",
+          "url": "https://aimcontents.com/namu/daily-direction/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 176,
+        "name": "키빗업 (KEYVITUP)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "키빗업",
+          "alternateName": "KEYVITUP",
+          "url": "https://aimcontents.com/namu/keyvitup/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 177,
+        "name": "모디세이 (MODYSSEY)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "모디세이",
+          "alternateName": "MODYSSEY",
+          "url": "https://aimcontents.com/namu/modyssey/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 178,
+        "name": "오위스 (OWIS)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "오위스",
+          "alternateName": "OWIS",
+          "url": "https://aimcontents.com/namu/owis/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 179,
+        "name": "에스투잇 (S2IT)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "에스투잇",
+          "alternateName": "S2IT",
+          "url": "https://aimcontents.com/namu/s2it/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 180,
+        "name": "더씬드롬 (THE SSYNDROME)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "더씬드롬",
+          "alternateName": "THE SSYNDROME",
+          "url": "https://aimcontents.com/namu/the-ssyndrome/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 181,
+        "name": "튜넥스 (TUNEXX)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "튜넥스",
+          "alternateName": "TUNEXX",
+          "url": "https://aimcontents.com/namu/tunexx/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 182,
+        "name": "언차일드 (UNCHILD)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "언차일드",
+          "alternateName": "UNCHILD",
+          "url": "https://aimcontents.com/namu/unchild/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 183,
+        "name": "에버글로우 (EVERGLOW)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "에버글로우",
+          "alternateName": "EVERGLOW",
+          "url": "https://aimcontents.com/namu/everglow/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 184,
+        "name": "라임라이트 (LIMELIGHT)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "라임라이트",
+          "alternateName": "LIMELIGHT",
+          "url": "https://aimcontents.com/namu/limelight/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 185,
+        "name": "핑크버스 (PINKVERSE)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "핑크버스",
+          "alternateName": "PINKVERSE",
+          "url": "https://aimcontents.com/namu/pinkverse/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 186,
+        "name": "위키미키 (Weki Meki)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "위키미키",
+          "alternateName": "Weki Meki",
+          "url": "https://aimcontents.com/namu/weki-meki/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 187,
+        "name": "시그니처 (cignature)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "시그니처",
+          "alternateName": "cignature",
+          "url": "https://aimcontents.com/namu/cignature/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 188,
+        "name": "에이퓨처 (Afuture)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "에이퓨처",
+          "alternateName": "Afuture",
+          "url": "https://aimcontents.com/namu/afuture/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 189,
+        "name": "포레스텔라 (Forestella)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "포레스텔라",
+          "alternateName": "Forestella",
+          "url": "https://aimcontents.com/namu/forestella/"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 190,
+        "name": "라포엠 (LA POEM)",
+        "item": {
+          "@type": "MusicGroup",
+          "name": "라포엠",
+          "alternateName": "LA POEM",
+          "url": "https://aimcontents.com/namu/la-poem/"
+        }
+      }
+    ]
+  }
+}
+    </script>
+    <script type="application/ld+json" data-static="namu-hub">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "홈",
+      "item": "https://aimcontents.com"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "나무위키 DB",
+      "item": "https://aimcontents.com/namu/"
+    }
+  ]
+}
+    </script>
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/" onclick="event.preventDefault(); route('home')" style="cursor: pointer;">
+                <img src="/logo_aimcontents.png" alt="AIMCONTENTS" width="227" height="40" style="height: 40px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="메뉴 열기">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/ranking" onclick="event.preventDefault(); route('home')">SNS랭킹</a>
+                    </li>
+                    <!-- 월간차트: 독립 정적 페이지 (SPA 외부, route() 미사용) -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/monthly/2026-07/boys/">월간차트<span class="nav-new-badge" data-expire="2026-09-30">NEW</span></a>
+                    </li>
+                    <li class="nav-item d-none">
+                        <a class="nav-link" href="/namu" onclick="event.preventDefault(); route('namu')">나무위키<span class="nav-new-badge" data-expire="2026-12-31">NEW</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/comeback" onclick="event.preventDefault(); route('comeback')">컴백일정</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/news" onclick="event.preventDefault(); route('news')">엔터뉴스</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/douyin" onclick="event.preventDefault(); route('douyin')">중국트렌드</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/jobs" onclick="event.preventDefault(); route('jobs')">채용정보</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/links" onclick="event.preventDefault(); route('links')">링크모음</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/vendors" onclick="event.preventDefault(); route('vendors')">업체정보</a>
+                    </li>
+                    <!-- 인사이트: 별도 페이지 (SPA 외부) -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/insight/index_insight.html">인사이트</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container" style="margin-top: 80px; padding-bottom: 50px;">
+
+        <section id="page-home" class="page-section d-none">
+            <h1 class="mb-3 fw-bold fs-5">K-POP 아이돌 SNS 팔로워 순위</h1>
+
+            <div class="card border-0 shadow-sm p-3 mb-4">
+                <div class="row g-2">
+                    <!-- 성별 선택 -->
+                    <div class="col-6 col-md-3">
+                        <div class="dropdown">
+                            <button class="btn btn-white border dropdown-toggle w-100 text-start" type="button"
+                                id="genderDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true"
+                                aria-expanded="false">
+                                남자
+                            </button>
+                            <ul class="dropdown-menu w-100" aria-labelledby="genderDropdown" data-bs-popper="static">
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('gender', '남자'); return false;">남자</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('gender', '여자'); return false;">여자</a></li>
+                            </ul>
+                            <input type="hidden" id="gender" value="남자">
+                        </div>
+                    </div>
+
+                    <!-- SNS 선택 -->
+                    <div class="col-6 col-md-3">
+                        <div class="dropdown">
+                            <button class="btn btn-white border dropdown-toggle w-100 text-start" type="button"
+                                id="snsDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true"
+                                aria-expanded="false">
+                                웨이보
+                            </button>
+                            <ul class="dropdown-menu w-100" aria-labelledby="snsDropdown" data-bs-popper="static">
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', '웨이보'); return false;">웨이보</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', '차오화'); return false;">웨이보(슈퍼챗)</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', '빌리빌리'); return false;">빌리빌리</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', 'QQ뮤직'); return false;">QQ뮤직</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', 'X(트위터)'); return false;">X(트위터)</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', '유튜브'); return false;">유튜브</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', '스포티파이'); return false;">스포티파이</a></li>
+                                <li><a class="dropdown-item" href="#"
+                                        onclick="updateFilter('sns', '인스타그램'); return false;">인스타그램</a></li>
+                            </ul>
+                            <input type="hidden" id="sns" value="웨이보">
+                        </div>
+                    </div>
+
+                    <!-- 월 선택 -->
+                    <div class="col-6 col-md-3">
+                        <div class="dropdown">
+                            <button class="btn btn-white border dropdown-toggle w-100 text-start" type="button"
+                                id="monthDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true"
+                                aria-expanded="false">
+                                조회 월 선택
+                            </button>
+                            <ul class="dropdown-menu w-100" id="monthDropdownMenu" aria-labelledby="monthDropdown"
+                                data-bs-popper="static" style="max-height: 300px; overflow-y: auto;">
+                                <!-- 동적으로 생성 -->
+                            </ul>
+                            <input type="hidden" id="month" value="">
+                        </div>
+                    </div>
+
+                    <!-- 검색 -->
+                    <div class="col-6 col-md-3">
+                        <input type="text" class="form-control border" id="searchInput" placeholder="그룹 검색">
+                    </div>
+                </div>
+            </div>
+
+            <div id="result-area" class="row g-3">
+                <div class="text-center py-5">데이터를 조회해주세요.</div>
+            </div>
+        </section>
+
+        <section id="page-comeback" class="page-section d-none">
+            <h2 class="mb-3 fw-bold fs-5">K-POP 아이돌 컴백/데뷔 일정</h2>
+            <div class="card border-0 shadow-sm p-3">
+                <div class="calendar-container">
+                    <!-- 컴백일정 캘린더 + 추가 캘린더 + 한국 공휴일 캘린더 -->
+                    <iframe
+                        src="https://calendar.google.com/calendar/embed?src=2f47846077df13dd16e51aed01222df79b809105acca22fa7a7b56f050661abf%40group.calendar.google.com&src=58f8b93d722dc9175aae4c14e685918cdf7f5b2f5056c479ebf49b72dc2c73c5%40group.calendar.google.com&src=ko.south_korea%23holiday%40group.v.calendar.google.com&ctz=Asia%2FSeoul&color=%23F4511E&color=%23BAB6B6&color=%230B8043"
+                        style="border: 0" width="100%" height="700" frameborder="0" scrolling="no">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        <section id="page-news" class="page-section d-none">
+            <h2 class="mb-3 fw-bold fs-5">실시간 엔터테인먼트 뉴스</h2>
+            <p class="text-muted small mb-3">업데이트: <span id="newsUpdateTime">-</span></p>
+            <div id="newsLoading" class="text-center py-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2 text-muted">뉴스를 불러오는 중...</p>
+            </div>
+            <div id="newsContainer" class="row g-3" style="display: none;">
+            </div>
+        </section>
+        <section id="page-links" class="page-section d-none">
+            <h2 class="mb-3 fw-bold fs-5">K-POP 링크 모음</h2>
+
+            <!-- 카테고리 탭 -->
+            <div id="linksCategoryTabs" class="links-category-tabs mb-3">
+                <!-- JS에서 동적 생성 -->
+            </div>
+
+            <!-- 로딩 (스켈레톤 UI) -->
+            <div id="linksLoading" style="display: none;">
+                <!-- 스켈레톤 카테고리 탭 -->
+                <div class="skeleton-category-tabs">
+                    <div class="skeleton-tab"></div>
+                    <div class="skeleton-tab"></div>
+                    <div class="skeleton-tab"></div>
+                    <div class="skeleton-tab"></div>
+                </div>
+                <!-- 스켈레톤 서브카테고리 -->
+                <div class="skeleton-subcategory-title"></div>
+                <!-- 스켈레톤 링크 카드들 -->
+                <div class="links-grid">
+                    <div class="skeleton-link-card">
+                        <div class="skeleton-link-info">
+                            <div class="skeleton-text title"></div>
+                            <div class="skeleton-text desc"></div>
+                        </div>
+                        <div class="skeleton-btn"></div>
+                    </div>
+                    <div class="skeleton-link-card">
+                        <div class="skeleton-link-info">
+                            <div class="skeleton-text title"></div>
+                            <div class="skeleton-text desc"></div>
+                        </div>
+                        <div class="skeleton-btn"></div>
+                    </div>
+                    <div class="skeleton-link-card">
+                        <div class="skeleton-link-info">
+                            <div class="skeleton-text title"></div>
+                            <div class="skeleton-text desc"></div>
+                        </div>
+                        <div class="skeleton-btn"></div>
+                    </div>
+                    <div class="skeleton-link-card">
+                        <div class="skeleton-link-info">
+                            <div class="skeleton-text title"></div>
+                            <div class="skeleton-text desc"></div>
+                        </div>
+                        <div class="skeleton-btn"></div>
+                    </div>
+                    <div class="skeleton-link-card">
+                        <div class="skeleton-link-info">
+                            <div class="skeleton-text title"></div>
+                            <div class="skeleton-text desc"></div>
+                        </div>
+                        <div class="skeleton-btn"></div>
+                    </div>
+                    <div class="skeleton-link-card">
+                        <div class="skeleton-link-info">
+                            <div class="skeleton-text title"></div>
+                            <div class="skeleton-text desc"></div>
+                        </div>
+                        <div class="skeleton-btn"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 링크 목록 -->
+            <div id="linksContainer">
+                <!-- JS에서 동적 생성 -->
+            </div>
+        </section>
+
+        <section id="page-jobs" class="page-section d-none">
+            <h2 class="mb-3 fw-bold fs-5">엔터테인먼트 채용정보</h2>
+
+            <!-- 카테고리 필터 탭 -->
+            <div id="jobsCategoryTabs" class="jobs-category-tabs mb-3">
+                <button class="jobs-category-tab active" data-category="all" onclick="filterJobsByCategory('all')">
+                    전체
+                </button>
+                <button class="jobs-category-tab" data-category="마케팅" onclick="filterJobsByCategory('마케팅')">
+                    마케팅
+                </button>
+                <button class="jobs-category-tab" data-category="영상" onclick="filterJobsByCategory('영상')">
+                    영상
+                </button>
+                <button class="jobs-category-tab" data-category="신인개발" onclick="filterJobsByCategory('신인개발')">
+                    신인개발
+                </button>
+                <button class="jobs-category-tab" data-category="매니지먼트" onclick="filterJobsByCategory('매니지먼트')">
+                    매니지먼트
+                </button>
+                <button class="jobs-category-tab" data-category="프로듀싱" onclick="filterJobsByCategory('프로듀싱')">
+                    프로듀싱
+                </button>
+                <button class="jobs-category-tab" data-category="디자인" onclick="filterJobsByCategory('디자인')">
+                    디자인
+                </button>
+                <button class="jobs-category-tab" data-category="IT" onclick="filterJobsByCategory('IT')">
+                    IT
+                </button>
+                <button class="jobs-category-tab" data-category="영업" onclick="filterJobsByCategory('영업')">
+                    영업
+                </button>
+                <button class="jobs-category-tab" data-category="경영지원" onclick="filterJobsByCategory('경영지원')">
+                    경영지원
+                </button>
+                <button class="jobs-category-tab" data-category="해외사업" onclick="filterJobsByCategory('해외사업')">
+                    해외사업
+                </button>
+                <button class="jobs-category-tab" data-category="기타" onclick="filterJobsByCategory('기타')">
+                    기타
+                </button>
+            </div>
+
+            <!-- 로딩 -->
+            <div id="jobsLoading" class="text-center py-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2 text-muted">채용정보를 불러오는 중...</p>
+            </div>
+
+            <!-- 채용 카드 목록 -->
+            <div id="jobsContainer" class="row g-3" style="display: none;">
+                <!-- JS에서 동적 생성 -->
+            </div>
+
+            <!-- 출처 표기 -->
+            <div class="jobs-disclaimer mt-4">
+                <small class="text-muted">
+                    💼 본 채용 정보는 사람인·잡코리아 등 외부 채용 사이트에 등록된 공개 정보를 기반으로 한 링크 큐레이션 서비스입니다.
+                    채용 관련 모든 상세 내용 및 지원은 원문 사이트에서 확인하시기 바랍니다.
+                </small>
+            </div>
+        </section>
+
+        <section id="page-vendors" class="page-section d-none">
+            <!-- 상단 헤더: 제목 + 신규 등록 버튼 -->
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="fw-bold m-0 fs-5">엔터테인먼트 업체정보</h2>
+                <button class="btn btn-sm btn-primary" onclick="openVendorForm('new')">
+                    + 신규업체 등록
+                </button>
+            </div>
+
+            <!-- 검색바 -->
+            <div class="vendor-search-bar mb-3">
+                <input type="text" class="form-control" id="vendorSearchInput"
+                    placeholder="업체명 또는 키워드 검색" oninput="filterVendors()">
+            </div>
+
+            <!-- 대분류 카테고리 탭 -->
+            <div id="vendorCategoryTabs" class="vendor-category-tabs mb-2">
+                <button class="vendor-category-tab active" data-category="all" onclick="filterVendorsByCategory('all')">
+                    전체
+                </button>
+            </div>
+
+            <!-- 소분류 필터 (대분류 선택 시 표시) -->
+            <div id="vendorSubcategoryTabs" class="vendor-subcategory-tabs mb-3" style="display: none;">
+            </div>
+
+            <!-- 로딩 -->
+            <div id="vendorsLoading" class="text-center py-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2 text-muted">업체정보를 불러오는 중...</p>
+            </div>
+
+            <!-- 업체 카드 목록 -->
+            <div id="vendorsContainer" class="row g-3" style="display: none;">
+            </div>
+        </section>
+
+        <!-- 업체 상세정보 모달 -->
+        <div class="modal fade" id="vendorDetailModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bold" id="vModalCompany">업체명</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                    </div>
+                    <div class="modal-body">
+                        <span id="vModalCategory" class="badge bg-secondary mb-3 d-inline-block">카테고리</span>
+
+                        <!-- 연락처 정보 목록 (모든 항목 항상 표시) -->
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item px-0">
+                                <strong>담당자:</strong> <span id="vModalContact"></span>
+                            </li>
+                            <li class="list-group-item px-0">
+                                <strong>휴대전화:</strong> <span id="vModalMobile"></span>
+                            </li>
+                            <li class="list-group-item px-0">
+                                <strong>일반전화:</strong> <span id="vModalPhone"></span>
+                            </li>
+                            <li class="list-group-item px-0 d-flex justify-content-between align-items-center">
+                                <div><strong>이메일:</strong> <span id="vModalEmail"></span></div>
+                                <button type="button" class="btn btn-outline-secondary btn-sm" id="vModalEmailCopyBtn"
+                                    onclick="copyVendorEmail()" style="display:none;" title="이메일 복사">
+                                    <i class="bi bi-clipboard"></i> <span>복사</span>
+                                </button>
+                            </li>
+                            <li class="list-group-item px-0">
+                                <strong>홈페이지:</strong> <span id="vModalWebsite"></span>
+                            </li>
+                            <li class="list-group-item px-0">
+                                <strong>SNS:</strong> <span id="vModalSns"></span>
+                            </li>
+                        </ul>
+
+                        <!-- 포트폴리오 (항상 표시) -->
+                        <div class="mb-3">
+                            <label class="fw-bold small text-muted">포트폴리오</label>
+                            <div class="bg-light p-2 rounded mt-1" id="vModalPortfolio"
+                                style="white-space: pre-wrap; font-size: 0.9rem; min-height: 32px;"></div>
+                        </div>
+
+                        <!-- 비고 (항상 표시) -->
+                        <div class="mb-3">
+                            <label class="fw-bold small text-muted">비고</label>
+                            <div class="bg-light p-2 rounded mt-1" id="vModalNote"
+                                style="white-space: pre-wrap; font-size: 0.9rem; min-height: 32px;"></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                            onclick="openVendorForm('update')">
+                            정보 수정 요청
+                        </button>
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">닫기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 업체 등록/수정 요청 폼 모달 -->
+        <div class="modal fade" id="vendorFormModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bold" id="vendorFormTitle">신규 업체 등록</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="hidden" id="vendorFormType">
+                        <!-- 업체명 -->
+                        <div class="mb-3">
+                            <label class="form-label">업체명</label> <span class="text-danger">*</span>
+                            <input type="text" class="form-control" id="vendorFormCompany" required>
+                        </div>
+                        <!-- 카테고리 / 담당자 -->
+                        <div class="row g-2 mb-3">
+                            <div class="col-6">
+                                <label class="form-label">카테고리</label>
+                                <select class="form-select" id="vendorFormCategory"></select>
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label">신청자/담당자</label>
+                                <input type="text" class="form-control" id="vendorFormContactName" placeholder="성함">
+                            </div>
+                        </div>
+                        <!-- 휴대전화 / 일반전화 -->
+                        <div class="row g-2 mb-3">
+                            <div class="col-6">
+                                <label class="form-label">휴대전화</label>
+                                <input type="tel" class="form-control" id="vendorFormMobile" placeholder="010-0000-0000">
+                            </div>
+                            <div class="col-6">
+                                <label class="form-label">일반전화</label>
+                                <input type="tel" class="form-control" id="vendorFormPhone" placeholder="02-000-0000">
+                            </div>
+                        </div>
+                        <!-- 이메일 -->
+                        <div class="mb-3">
+                            <label class="form-label">이메일</label>
+                            <input type="email" class="form-control" id="vendorFormEmail" placeholder="example@email.com">
+                        </div>
+                        <!-- 홈페이지 -->
+                        <div class="mb-3">
+                            <label class="form-label">홈페이지</label>
+                            <input type="url" class="form-control" id="vendorFormWebsite" placeholder="https://example.com">
+                        </div>
+                        <!-- 상세 내용 -->
+                        <div class="mb-3">
+                            <label class="form-label">상세 내용 (포트폴리오 등)</label>
+                            <textarea class="form-control" id="vendorFormDetails" rows="4"
+                                placeholder="수정할 내용이나 포트폴리오 URL 등을 적어주세요."></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">취소</button>
+                        <button type="button" class="btn btn-primary" id="vendorFormSubmitBtn"
+                            onclick="submitVendorForm()">요청 보내기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="page-douyin" class="page-section d-none">
+            <h2 class="mb-3 fw-bold fs-5">중국 도우인 인기 챌린지 <span id="douyinWeekBadge" class="douyin-week-badge"></span></h2>
+
+            <!-- 업데이트 시간 -->
+            <div id="douyinUpdateTime" class="text-muted small mb-3"></div>
+
+            <!-- 로딩 -->
+            <div id="douyinLoading" class="text-center py-5">
+                <div class="spinner-border text-danger" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2 text-muted">챌린지 데이터를 불러오는 중...</p>
+            </div>
+
+            <!-- 챌린지 카드 목록 -->
+            <div id="douyinContainer" class="row g-3" style="display: none;"></div>
+        </section>
+
+        <!-- 나무위키 검색 페이지 -->
+        <section id="page-namu" class="page-section">
+            <h2 class="mb-3 fw-bold fs-5">K-POP 아이돌 나무위키 검색</h2>
+
+            <!-- 검색바 -->
+            <div class="namu-search-container mb-4">
+                <div class="position-relative">
+                    <input type="text" class="form-control form-control-lg namu-search-input"
+                           id="namuSearchInput" placeholder="그룹/멤버 검색 또는 질문"
+                           autocomplete="off">
+                    <div id="namuSearchResults" class="namu-search-dropdown" style="display: none;"></div>
+                </div>
+            </div>
+
+            <!-- 추천 질문 칩 (검색창 아래) -->
+            <div id="namuRecommendedChips" class="namu-chips-container"></div>
+
+            <!-- 채팅형 스마트 검색 컨테이너 -->
+            <div id="namuSmartAnswer" class="chat-container mb-3" style="display: none;"></div>
+
+            <!-- 검색 결과 영역 -->
+            <div id="namuSearchView">
+    <div class="col-12 mt-3">
+        <div class="alert alert-light border mb-4">
+            <strong>K-POP 아이돌 데이터베이스 아카이브</strong> — 총 190개 그룹의 나무위키 요약 정보, 멤버 프로필, 앨범 판매량 및 공식 SNS 링크를 제공합니다.
+        </div>
+        
+        <div class="mb-4">
+            <h3 class="fs-6 fw-bold text-primary mb-2">👧 걸그룹 (86팀)</h3>
+            <div class="table-responsive">
+                <table class="table table-sm table-hover align-middle">
+                    <thead class="table-light">
+                        <tr><th>그룹명</th><th>소속사</th><th>데뷔일</th><th>세대</th></tr>
+                    </thead>
+                    <tbody><tr><td><a href="/namu/aespa/" class="fw-bold text-decoration-none">에스파 (aespa)</a></td><td>SM엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/newjeans/" class="fw-bold text-decoration-none">뉴진스 (NewJeans)</a></td><td>ADOR</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/le-sserafim/" class="fw-bold text-decoration-none">르세라핌 (LE SSERAFIM)</a></td><td>쏘스뮤직</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/blackpink/" class="fw-bold text-decoration-none">블랙핑크 (BLACKPINK)</a></td><td>YG엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/twice/" class="fw-bold text-decoration-none">트와이스 (TWICE)</a></td><td>JYP엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/i-dle/" class="fw-bold text-decoration-none">아이들 (i-dle)</a></td><td>큐브엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/red-velvet/" class="fw-bold text-decoration-none">레드벨벳 (Red Velvet)</a></td><td>SM엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/itzy/" class="fw-bold text-decoration-none">있지 (ITZY)</a></td><td>JYP엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/ive/" class="fw-bold text-decoration-none">아이브 (IVE)</a></td><td>스타쉽엔터테인먼트 (1본부)</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/babymonster/" class="fw-bold text-decoration-none">베이비몬스터 (BABYMONSTER)</a></td><td>YG엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/nmixx/" class="fw-bold text-decoration-none">엔믹스 (NMIXX)</a></td><td>JYP엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/wjsn/" class="fw-bold text-decoration-none">우주소녀 (WJSN)</a></td><td>스타쉽엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/illit/" class="fw-bold text-decoration-none">아일릿 (ILLIT)</a></td><td>빌리프랩</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/stayc/" class="fw-bold text-decoration-none">스테이씨 (STAYC)</a></td><td>하이업엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/meovv/" class="fw-bold text-decoration-none">미야오 (MEOVV)</a></td><td>THEBLACKLABEL</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/kep1er/" class="fw-bold text-decoration-none">케플러 (Kep1er)</a></td><td>웨이크원</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/kiss-of-life/" class="fw-bold text-decoration-none">키스오브라이프 (KISS OF LIFE)</a></td><td>S2엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/fromis-9/" class="fw-bold text-decoration-none">프로미스나인 (fromis_9)</a></td><td>어센드엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/triples/" class="fw-bold text-decoration-none">트리플에스 (tripleS)</a></td><td>모드하우스</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/oh-my-girl/" class="fw-bold text-decoration-none">오마이걸 (OH MY GIRL)</a></td><td>WM엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/dreamcatcher/" class="fw-bold text-decoration-none">드림캐쳐 (Dreamcatcher)</a></td><td>드림캐쳐컴퍼니</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/h1-key/" class="fw-bold text-decoration-none">하이키 (H1-KEY)</a></td><td>초이크리에이티브랩</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/wooah/" class="fw-bold text-decoration-none">우아 (WOOAH)</a></td><td>H music 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/viviz/" class="fw-bold text-decoration-none">비비지 (VIVIZ)</a></td><td>무소속</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/izna/" class="fw-bold text-decoration-none">이즈나 (izna)</a></td><td>웨이크원</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/billlie/" class="fw-bold text-decoration-none">빌리 (Billlie)</a></td><td>미스틱스토리</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/purple-kiss/" class="fw-bold text-decoration-none">퍼플키스 (PURPLE KISS)</a></td><td>RBW</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/qwer/" class="fw-bold text-decoration-none">큐더블유이알 (QWER)</a></td><td>쓰리와이코프레이션</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/young-posse/" class="fw-bold text-decoration-none">영파씨 (YOUNG POSSE)</a></td><td>DSP미디어, 비츠엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/weeekly/" class="fw-bold text-decoration-none">위클리 (Weeekly)</a></td><td>IST엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/unis/" class="fw-bold text-decoration-none">유니스 (UNIS)</a></td><td>F&amp;F엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/class-y/" class="fw-bold text-decoration-none">클라씨 (CLASS:y)</a></td><td>K타이거즈 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/tri-be/" class="fw-bold text-decoration-none">트라이비 (TRI.BE)</a></td><td>티알엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/rescene/" class="fw-bold text-decoration-none">리센느 (RESCENE)</a></td><td>더뮤즈엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/rocket-punch/" class="fw-bold text-decoration-none">로켓펀치 (Rocket Punch)</a></td><td></td><td>-</td><td>-</td></tr><tr><td><a href="/namu/ichillin/" class="fw-bold text-decoration-none">아이칠린 (ICHILLIN&#x27;)</a></td><td></td><td>-</td><td>-</td></tr><tr><td><a href="/namu/blackswan/" class="fw-bold text-decoration-none">블랙스완 (BLACKSWAN)</a></td><td>디알뮤직</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/csr/" class="fw-bold text-decoration-none">첫사랑 (CSR)</a></td><td>CSR E&amp;M, 팝뮤직</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/smn/" class="fw-bold text-decoration-none">세이마이네임 (SMN)</a></td><td>iNKODE</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/artbeat-v/" class="fw-bold text-decoration-none">아트비트 (ARTBEAT v)</a></td><td>에이비크리에이티브</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/fifty-fifty/" class="fw-bold text-decoration-none">피프티피프티 (FIFTY FIFTY)</a></td><td>어트랙트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/madein/" class="fw-bold text-decoration-none">메이딘 (MADEIN)</a></td><td>143엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/artms/" class="fw-bold text-decoration-none">아르테미스 (ARTMS)</a></td><td>모드하우스</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/badvillain/" class="fw-bold text-decoration-none">배드빌런 (BADVILLAIN)</a></td><td>빅플래닛메이드엔터</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/adya/" class="fw-bold text-decoration-none">에이디야 (ADYA)</a></td><td>스타팅하우스</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/tracer/" class="fw-bold text-decoration-none">트레이서 (Tracer)</a></td><td>글림미디어</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/irris/" class="fw-bold text-decoration-none">아이리스 (IRRIS)</a></td><td>태원엔터테인먼트, 저스티스 레코즈</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/bewave/" class="fw-bold text-decoration-none">비웨이브 (BEWAVE)</a></td><td>골드더스트 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/ily-1/" class="fw-bold text-decoration-none">아일리원 (ILY:1)</a></td><td>FC ENM</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/candy-shop/" class="fw-bold text-decoration-none">캔디샵 (Candy Shop)</a></td><td></td><td>-</td><td>-</td></tr><tr><td><a href="/namu/secret-number/" class="fw-bold text-decoration-none">시크릿넘버 (SECRET NUMBER)</a></td><td>바인엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/odd-youth/" class="fw-bold text-decoration-none">오드유스 (ODD YOUTH)</a></td><td>티오피미디어</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/primrose/" class="fw-bold text-decoration-none">프림로즈 (PRIMROSE)</a></td><td>AO 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/geenius/" class="fw-bold text-decoration-none">지니어스 (Geenius)</a></td><td>하우스오브뮤직엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/craxy/" class="fw-bold text-decoration-none">크랙시 (CRAXY)</a></td><td>SAI엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/loossemble/" class="fw-bold text-decoration-none">루셈블 (Loossemble)</a></td><td>CTDENM</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/unicode/" class="fw-bold text-decoration-none">유니코드 (UNICODE)</a></td><td></td><td>-</td><td>-</td></tr><tr><td><a href="/namu/we-na/" class="fw-bold text-decoration-none">위나 (We;Na)</a></td><td>RBC AMUSEMENT</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/w-tchx/" class="fw-bold text-decoration-none">위치스 (W!TCHX)</a></td><td>아트폼엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/loveone/" class="fw-bold text-decoration-none">러브원 (LOVEONE)</a></td><td>초록별 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/spia/" class="fw-bold text-decoration-none">수피아 (SPIA)</a></td><td>캄푸스엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/i-mond/" class="fw-bold text-decoration-none">아이몬드 (I:MOND)</a></td><td>EMMP Company</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/burvey/" class="fw-bold text-decoration-none">버비 (Burvey)</a></td><td>온원엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/hearts2hearts/" class="fw-bold text-decoration-none">하츠투하츠 (Hearts2Hearts)</a></td><td>SM엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/kiiikiii/" class="fw-bold text-decoration-none">키키 (KiiiKiii)</a></td><td>스타쉽엔터테인먼트 (3본부)</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/iris/" class="fw-bold text-decoration-none">아이리제 (IRISÉ)</a></td><td>패러블</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/atheart/" class="fw-bold text-decoration-none">앳하트 (AtHeart)</a></td><td>타이탄콘텐츠</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/ifeye/" class="fw-bold text-decoration-none">이프아이 (ifeye)</a></td><td>하이헷엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/vvs/" class="fw-bold text-decoration-none">븨븨에스 (VVS)</a></td><td>MZMC Inc.</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/hitgs/" class="fw-bold text-decoration-none">힛지스 (HITGS)</a></td><td></td><td>-</td><td>-</td></tr><tr><td><a href="/namu/udtt/" class="fw-bold text-decoration-none">우당탕탕 소녀단 (UDTT)</a></td><td>원헌드레드</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/kiiras/" class="fw-bold text-decoration-none">키라스 (KIIRAS)</a></td><td>린브랜딩</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/uspeer/" class="fw-bold text-decoration-none">유스피어 (USPEER)</a></td><td>MW엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/smorz/" class="fw-bold text-decoration-none">스모즈 (SMORZ)</a></td><td>에코엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/ablume/" class="fw-bold text-decoration-none">어블룸 (ablume)</a></td><td>MASSIVE E&amp;C</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/baby-dont-cry/" class="fw-bold text-decoration-none">베이비돈크라이 (Baby DONT Cry)</a></td><td>P NATION</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/mamamoo/" class="fw-bold text-decoration-none">마마무 (MAMAMOO)</a></td><td>RBW</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/owis/" class="fw-bold text-decoration-none">오위스 (OWIS)</a></td><td>올마이애닉도츠</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/s2it/" class="fw-bold text-decoration-none">에스투잇 (S2IT)</a></td><td>몬스터브레인</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/unchild/" class="fw-bold text-decoration-none">언차일드 (UNCHILD)</a></td><td>하이업엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/everglow/" class="fw-bold text-decoration-none">에버글로우 (EVERGLOW)</a></td><td>치타컴퍼니</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/limelight/" class="fw-bold text-decoration-none">라임라이트 (LIMELIGHT)</a></td><td>143엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/pinkverse/" class="fw-bold text-decoration-none">핑크버스 (PINKVERSE)</a></td><td>원헌드레드레이블</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/weki-meki/" class="fw-bold text-decoration-none">위키미키 (Weki Meki)</a></td><td>판타지오</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/cignature/" class="fw-bold text-decoration-none">시그니처 (cignature)</a></td><td>J9 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/afuture/" class="fw-bold text-decoration-none">에이퓨처 (Afuture)</a></td><td>포바이포 크리에이티브</td><td>-</td><td>-</td></tr></tbody>
+                </table>
+            </div>
+        </div>
+        
+        
+        <div class="mb-4">
+            <h3 class="fs-6 fw-bold text-primary mb-2">👦 보이그룹 (104팀)</h3>
+            <div class="table-responsive">
+                <table class="table table-sm table-hover align-middle">
+                    <thead class="table-light">
+                        <tr><th>그룹명</th><th>소속사</th><th>데뷔일</th><th>세대</th></tr>
+                    </thead>
+                    <tbody><tr><td><a href="/namu/bts/" class="fw-bold text-decoration-none">방탄소년단 (BTS)</a></td><td>빅히트 뮤직</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/seventeen/" class="fw-bold text-decoration-none">세븐틴 (SEVENTEEN)</a></td><td>플레디스 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/stray-kids/" class="fw-bold text-decoration-none">스트레이키즈 (Stray Kids)</a></td><td>JYP엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/txt/" class="fw-bold text-decoration-none">투모로우바이투게더 (TXT)</a></td><td></td><td>-</td><td>-</td></tr><tr><td><a href="/namu/allday-project/" class="fw-bold text-decoration-none">올데이프로젝트 (ALLDAY PROJECT)</a></td><td>THEBLACKLABEL</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/nct-dream/" class="fw-bold text-decoration-none">엔시티 드림 (NCT DREAM)</a></td><td>SM엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/enhypen/" class="fw-bold text-decoration-none">엔하이픈 (ENHYPEN)</a></td><td>빌리프랩</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/zerobaseone/" class="fw-bold text-decoration-none">제로베이스원 (ZEROBASEONE)</a></td><td>웨이크원</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/nct-127/" class="fw-bold text-decoration-none">엔시티 일이칠 (NCT 127)</a></td><td>SM엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/plave/" class="fw-bold text-decoration-none">플레이브 (PLAVE)</a></td><td>VLAST</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/treasure/" class="fw-bold text-decoration-none">트레저 (TREASURE)</a></td><td>YG엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/riize/" class="fw-bold text-decoration-none">라이즈 (RIIZE)</a></td><td>SM엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/boynextdoor/" class="fw-bold text-decoration-none">보이넥스트도어 (BOYNEXTDOOR)</a></td><td>KOZ 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/the-boyz/" class="fw-bold text-decoration-none">더보이즈 (THE BOYZ)</a></td><td>무소속</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/tws/" class="fw-bold text-decoration-none">투어스 (TWS)</a></td><td>플레디스 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/ikon/" class="fw-bold text-decoration-none">아이콘 (Ikon)</a></td><td>143엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/monsta-x/" class="fw-bold text-decoration-none">몬스타엑스 (MONSTA X)</a></td><td>스타쉽엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/astro/" class="fw-bold text-decoration-none">아스트로 (ASTRO)</a></td><td>판타지오</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/xdinary-heroes/" class="fw-bold text-decoration-none">엑스디너리 히어로즈 (Xdinary Heroes)</a></td><td>JYP엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/p1harmony/" class="fw-bold text-decoration-none">피원하모니 (P1Harmony)</a></td><td>FNC엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/sf9/" class="fw-bold text-decoration-none">에스에프나인 (SF9)</a></td><td>FNC엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/tempest/" class="fw-bold text-decoration-none">템페스트 (TEMPEST)</a></td><td>YH엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/ab6ix/" class="fw-bold text-decoration-none">에이비식스 (AB6IX)</a></td><td>브랜뉴뮤직</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/pentagon/" class="fw-bold text-decoration-none">펜타곤 (PENTAGON)</a></td><td>큐브엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/omega-x/" class="fw-bold text-decoration-none">오메가엑스 (OMEGA X)</a></td><td>IPQ</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/ateez/" class="fw-bold text-decoration-none">에이티즈 (ATEEZ)</a></td><td>KQ 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/epex/" class="fw-bold text-decoration-none">이펙스 (EPEX)</a></td><td>C9엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/day6/" class="fw-bold text-decoration-none">데이식스 (DAY6)</a></td><td>JYP엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/cravity/" class="fw-bold text-decoration-none">크래비티 (CRAVITY)</a></td><td>스타쉽엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/oneus/" class="fw-bold text-decoration-none">원어스 (ONEUS)</a></td><td>B.WAVE 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/kickflip/" class="fw-bold text-decoration-none">킥플립 (KickFlip)</a></td><td>JYP엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/golden-child-gncd/" class="fw-bold text-decoration-none">골든차일드 (Golden Child, GNCD)</a></td><td>울림엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/drippin/" class="fw-bold text-decoration-none">드리핀 (DRIPPIN)</a></td><td>울림엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/lun8/" class="fw-bold text-decoration-none">루네이트 (LUN8)</a></td><td>판타지오</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/nexz/" class="fw-bold text-decoration-none">넥스지 (NEXZ)</a></td><td>JYP엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/8turn/" class="fw-bold text-decoration-none">에잇턴 (8TURN)</a></td><td>MNH엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/cix/" class="fw-bold text-decoration-none">씨아이엑스 (CIX)</a></td><td>C9 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/evnne/" class="fw-bold text-decoration-none">이븐 (EVNNE)</a></td><td>젤리피쉬엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/nowz/" class="fw-bold text-decoration-none">나우즈 (NOWZ)</a></td><td>큐브엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/the-new-six/" class="fw-bold text-decoration-none">더뉴식스 (THE NEW SIX)</a></td><td>P NATION</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/ampers-one/" class="fw-bold text-decoration-none">앰퍼샌드원 (AMPERS&amp;ONE)</a></td><td>FNC엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/pow/" class="fw-bold text-decoration-none">파우 (POW)</a></td><td>그리드엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/xodiac/" class="fw-bold text-decoration-none">소디엑 (XODIAC)</a></td><td>잭소 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/younite/" class="fw-bold text-decoration-none">유나이트 (YOUNITE)</a></td><td>파라뮤직</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/vanner/" class="fw-bold text-decoration-none">배너 (VANNER)</a></td><td>무소속</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/bae173/" class="fw-bold text-decoration-none">비에이이일칠삼 (BAE173)</a></td><td>포켓돌스튜디오</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/82major/" class="fw-bold text-decoration-none">에이티투메이저 (82MAJOR)</a></td><td>그레이트엠 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/fantasy-boys/" class="fw-bold text-decoration-none">판타지보이즈 (FANTASY BOYS)</a></td><td>엠이오 | 포켓돌스튜디오</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/the-wind/" class="fw-bold text-decoration-none">더윈드 (The Wind)</a></td><td>위드어스엔터테인먼트, 팡스타엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/wei/" class="fw-bold text-decoration-none">위아이 (WEi)</a></td><td>위엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/whib/" class="fw-bold text-decoration-none">휘브 (WHIB)</a></td><td>CJ ENM</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/dxmon/" class="fw-bold text-decoration-none">다이몬 (DXMON)</a></td><td>H music 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/onf/" class="fw-bold text-decoration-none">온앤오프 (ONF)</a></td><td>케이아이엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/mirae/" class="fw-bold text-decoration-none">미래소년 (MIRAE)</a></td><td>DSP미디어</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/mcnd/" class="fw-bold text-decoration-none">엠씨엔디 (MCND)</a></td><td>티오피미디어</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/xikers/" class="fw-bold text-decoration-none">싸이커스 (xikers)</a></td><td>KQ 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/nouera/" class="fw-bold text-decoration-none">누에라 (NouerA)</a></td><td>누아엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/n-ssign/" class="fw-bold text-decoration-none">엔싸인 (n.SSign)</a></td><td>nCH 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/dkb/" class="fw-bold text-decoration-none">다크비 (DKB)</a></td><td>브레이브엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/atbo/" class="fw-bold text-decoration-none">에이티비오 (ATBO)</a></td><td>IST엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/e-last/" class="fw-bold text-decoration-none">엘라스트 (E&#x27;LAST)</a></td><td>E엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/arrc/" class="fw-bold text-decoration-none">아크 (ARrC)</a></td><td>미스틱스토리</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/nomad/" class="fw-bold text-decoration-none">노매드 (NOMAD)</a></td><td>노매드 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/all-h-ours/" class="fw-bold text-decoration-none">올아워즈 (ALL(H)OURS)</a></td><td>이든엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/trendz/" class="fw-bold text-decoration-none">트렌드지 (TRENDZ)</a></td><td>글로벌에이치미디어</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/nine-i/" class="fw-bold text-decoration-none">나인아이 (NINE.i)</a></td><td>FC ENM</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/sevenus/" class="fw-bold text-decoration-none">세븐어스 (SEVENUS)</a></td><td>PCS엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/aimers/" class="fw-bold text-decoration-none">에이머스 (AIMERS)</a></td><td>HYPER RHYTHM</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/one-pact/" class="fw-bold text-decoration-none">원팩트 (ONE PACT)</a></td><td>ARMADA 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/tiot/" class="fw-bold text-decoration-none">티아이오티 (TIOT)</a></td><td>레드스타트이엔엠</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/nchive/" class="fw-bold text-decoration-none">엔카이브 (NCHIVE)</a></td><td>오브문스튜디오</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/the-kingdom/" class="fw-bold text-decoration-none">더킹덤 (The KingDom)</a></td><td>GF엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/blitzers/" class="fw-bold text-decoration-none">블리처스 (BLITZERS)</a></td><td>우조엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/waker/" class="fw-bold text-decoration-none">웨이커 (WAKER)</a></td><td>하울링엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/waterfire/" class="fw-bold text-decoration-none">워터파이어 (WATERFIRE)</a></td><td>주식회사 워터파이어</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/pickus/" class="fw-bold text-decoration-none">피커스 (PICKUS)</a></td><td>TNK엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/asc2nt/" class="fw-bold text-decoration-none">어센트 (ASC2NT)</a></td><td>이오엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/haww/" class="fw-bold text-decoration-none">하우 (HAWW)</a></td><td>비스킷엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/eastshine/" class="fw-bold text-decoration-none">이스트샤인 (EASTSHINE)</a></td><td>티엠엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/aeonit/" class="fw-bold text-decoration-none">이오닛 (AEONIT)</a></td><td>ONMIND</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/b-d-u/" class="fw-bold text-decoration-none">비디유 (B.D.U)</a></td><td>오르카뮤직</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/daychild/" class="fw-bold text-decoration-none">데이차일드 (DayChild)</a></td><td>블랙베어엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/dragon-pony/" class="fw-bold text-decoration-none">드래곤포니 (Dragon Pony)</a></td><td>안테나</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/close-your-eyes/" class="fw-bold text-decoration-none">클로즈 유어 아이즈 (CLOSE YOUR EYES)</a></td><td>UNCORE</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/ahof/" class="fw-bold text-decoration-none">아홉 (AHOF)</a></td><td>F&amp;F엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/xlov/" class="fw-bold text-decoration-none">엑스러브 (XLOV)</a></td><td>WM엔터테인먼트, 257엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/newbeat/" class="fw-bold text-decoration-none">뉴비트 (NEWBEAT)</a></td><td>비트인터렉티브</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/idid/" class="fw-bold text-decoration-none">아이딧 (IDID)</a></td><td></td><td>-</td><td>-</td></tr><tr><td><a href="/namu/be-boys/" class="fw-bold text-decoration-none">비보이즈 (BE BOYS)</a></td><td>오크컴퍼니</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/idntt/" class="fw-bold text-decoration-none">아이덴티티 (idntt)</a></td><td>모드하우스</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/cortis/" class="fw-bold text-decoration-none">코르티스 (CORTIS)</a></td><td>빅히트 뮤직</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/alpha-drive-one/" class="fw-bold text-decoration-none">알파드라이브원 (ALPHA DRIVE ONE)</a></td><td></td><td>-</td><td>-</td></tr><tr><td><a href="/namu/am8ic/" class="fw-bold text-decoration-none">엠빅 (AM8IC)</a></td><td>TOV엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/axmxp/" class="fw-bold text-decoration-none">에이엠피 (AxMxP)</a></td><td>FNC엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/lngshot/" class="fw-bold text-decoration-none">롱샷 (LNGSHOT)</a></td><td>MORE VISION</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/naze/" class="fw-bold text-decoration-none">네이즈 (NAZE)</a></td><td>C9 엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/yuhz/" class="fw-bold text-decoration-none">유어즈 (YUHZ)</a></td><td>피나클엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/daily-direction/" class="fw-bold text-decoration-none">데일리디렉션 (DAILY:DIRECTION)</a></td><td>ODDWAVE</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/keyvitup/" class="fw-bold text-decoration-none">키빗업 (KEYVITUP)</a></td><td></td><td>-</td><td>-</td></tr><tr><td><a href="/namu/modyssey/" class="fw-bold text-decoration-none">모디세이 (MODYSSEY)</a></td><td>ONECEAD</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/the-ssyndrome/" class="fw-bold text-decoration-none">더씬드롬 (THE SSYNDROME)</a></td><td>드림캐쳐컴퍼니</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/tunexx/" class="fw-bold text-decoration-none">튜넥스 (TUNEXX)</a></td><td>IST엔터테인먼트</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/forestella/" class="fw-bold text-decoration-none">포레스텔라 (Forestella)</a></td><td>비트인터렉티브</td><td>-</td><td>-</td></tr><tr><td><a href="/namu/la-poem/" class="fw-bold text-decoration-none">라포엠 (LA POEM)</a></td><td>드라마하우스 스튜디오</td><td>-</td><td>-</td></tr></tbody>
+                </table>
+            </div>
+        </div>
+        
+        
+    </div>
+    </div>
+
+            <!-- 랭킹 테이블 영역 -->
+            <div id="namuRankingView" style="display: none;">
+                <div class="d-flex gap-2 mb-3 flex-wrap align-items-center">
+                    <div class="namu-gender-filter">
+                        <button class="namu-filter-btn active" data-gender="all" onclick="filterNamuRanking('gender', 'all')">전체</button>
+                        <button class="namu-filter-btn" data-gender="여자" onclick="filterNamuRanking('gender', '여자')">여자</button>
+                        <button class="namu-filter-btn" data-gender="남자" onclick="filterNamuRanking('gender', '남자')">남자</button>
+                    </div>
+                    <select class="form-select form-select-sm" id="namuRankingYear" onchange="filterNamuRanking('year', this.value)" style="width: auto;">
+                        <option value="all">전체 연도</option>
+                    </select>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover namu-ranking-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 50px;">#</th>
+                                <th>그룹</th>
+                                <th>앨범</th>
+                                <th>유형</th>
+                                <th>발매일</th>
+                                <th class="text-end">초동</th>
+                            </tr>
+                        </thead>
+                        <tbody id="namuRankingBody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 그룹 상세 영역 -->
+            <div id="namuGroupDetail" style="display: none;">
+                <button class="btn btn-outline-secondary btn-sm mb-3" onclick="backToNamuList()">← 목록으로</button>
+                <div id="namuGroupHeader" class="mb-3"></div>
+                <div class="namu-detail-tabs mb-3">
+                    <button class="namu-detail-tab active" data-dtab="profile" onclick="switchNamuDetailTab('profile')">프로필</button>
+                    <button class="namu-detail-tab" data-dtab="members" onclick="switchNamuDetailTab('members')">멤버</button>
+                    <button class="namu-detail-tab" data-dtab="discography" onclick="switchNamuDetailTab('discography')">디스코그래피</button>
+                    <button class="namu-detail-tab" data-dtab="chart" onclick="switchNamuDetailTab('chart')">판매량 차트</button>
+                    <button class="namu-detail-tab" data-dtab="streaming" onclick="switchNamuDetailTab('streaming')">스트리밍</button>
+                </div>
+                <div id="namuDetailContent"></div>
+                <div id="namuCrossLinks" class="mt-4"></div>
+            </div>
+
+            <!-- 로딩 -->
+            <div id="namuLoading" class="text-center py-5" style="display: none;">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2 text-muted">데이터를 불러오는 중...</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 아이돌 상세 모달 -->
+    <div class="modal fade" id="idolModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <div>
+                        <h5 class="modal-title fw-bold" id="idolName">블랙핑크</h5>
+                        <p class="text-muted mb-0 small" id="idolGroup">BLACKPINK</p>
+                        <small class="text-muted" id="idolInfo">YG Entertainment • 2016년 데뷔</small>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <!-- 나무위키 -->
+                    <div id="namuWikiSection" class="mb-3" style="display: none;">
+                        <a href="#" target="_blank" id="namuWikiLink" class="btn btn-outline-success btn-sm w-100">
+                            📚 나무위키에서 보기
+                        </a>
+                    </div>
+
+                    <!-- SNS 링크 -->
+                    <div class="mb-3">
+                        <label class="form-label fw-bold small">SNS 링크</label>
+                        <div class="d-flex flex-wrap gap-2" id="snsLinks">
+                            <!-- 동적으로 생성 -->
+                        </div>
+                    </div>
+
+                    <!-- 메모 -->
+                    <div id="noteSection" style="display: none;">
+                        <label class="form-label fw-bold small">메모</label>
+                        <p class="text-muted mb-0" id="idolNote">-</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SEO: 검색 크롤러용 정적 콘텐츠 (JS 로드 후 숨김) -->
+    
+    <!-- JS 비활성 시 안내 메시지 -->
+    
+
+    <!-- 모바일 하단 플로팅 탭 바 (Mobile Bottom Navigation Bar) -->
+    <nav id="mobileBottomNav" class="mobile-bottom-nav d-lg-none" aria-label="모바일 하단 탐색">
+        <div class="mobile-bottom-nav-container">
+            <a href="/ranking" class="mobile-nav-item" data-page="home" onclick="event.preventDefault(); route('home');">
+                <div class="mobile-nav-icon"><i class="bi bi-trophy-fill"></i></div>
+                <span class="mobile-nav-label">홈/랭킹</span>
+            </a>
+            <a href="/comeback" class="mobile-nav-item" data-page="comeback" onclick="event.preventDefault(); route('comeback');">
+                <div class="mobile-nav-icon"><i class="bi bi-calendar-event-fill"></i></div>
+                <span class="mobile-nav-label">컴백</span>
+            </a>
+            <a href="/news" class="mobile-nav-item" data-page="news" onclick="event.preventDefault(); route('news');">
+                <div class="mobile-nav-icon"><i class="bi bi-newspaper"></i></div>
+                <span class="mobile-nav-label">엔터뉴스</span>
+            </a>
+            <a href="/jobs" class="mobile-nav-item" data-page="jobs" onclick="event.preventDefault(); route('jobs');">
+                <div class="mobile-nav-icon"><i class="bi bi-briefcase-fill"></i></div>
+                <span class="mobile-nav-label">채용정보</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- 마크다운 렌더링 (채팅 UI용) -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/db.js"></script>
+    <script>
+        // 드롭다운은 Bootstrap 기본 동작(클릭)으로 작동
+        // Hover 동작이 필요하면 아래 주석 해제:
+        /*
+        document.addEventListener('DOMContentLoaded', function () {
+            const dropdowns = document.querySelectorAll('.dropdown');
+
+            dropdowns.forEach(dropdown => {
+                const toggle = dropdown.querySelector('[data-bs-toggle="dropdown"]');
+
+                dropdown.addEventListener('mouseenter', function () {
+                    const bsDropdown = new bootstrap.Dropdown(toggle);
+                    bsDropdown.show();
+                });
+
+                dropdown.addEventListener('mouseleave', function () {
+                    const bsDropdown = bootstrap.Dropdown.getInstance(toggle);
+                    if (bsDropdown) bsDropdown.hide();
+                });
+            });
+        });
+        */
+    </script>
+    <script src="/script.js?v=20260321"></script>
+    <script src="/namu.js?v=20260307seo"></script>
+    <!-- Gemini API 키는 GAS 서버사이드(Script Properties)에서 관리 -->
+    <script src="/namu-smart-search.js?v=20260307p"></script>
+    <script>
+        // NEW 뱃지 만료 자동 제거 (data-expire 날짜 이후 숨김)
+        document.querySelectorAll('.nav-new-badge[data-expire]').forEach(function(el) {
+            if (new Date() >= new Date(el.dataset.expire)) el.remove();
+        });
+    </script>
+</body>
+
+</html>

@@ -200,12 +200,12 @@ def build_ranking_page(month, sns_slug, gender_slug, topn=50):
     # head 메타
     t = replace_once(
         t,
-        "<title>아이돌 SNS 팔로워 순위 - 웨이보·빌리빌리·유튜브·스포티파이·인스타그램 | 아이엠콘텐츠</title>",
+        "<title>아이돌 SNS 팔로워 순위 - 틱톡·유튜브·인스타·웨이보·도우인 | 아이엠콘텐츠</title>",
         f"<title>{esc(title)}</title>", "title")
     t = replace_once(
         t,
-        ('content="K-POP 아이돌 SNS 팔로워 순위, 컴백 일정, 실시간 엔터테인먼트 뉴스를 한눈에 확인하세요. '
-         '웨이보, 빌리빌리, 유튜브, 스포티파이 등 주요 SNS 플랫폼의 최신 순위 정보를 제공합니다.">'),
+        ('content="K-POP 아이돌 틱톡(TikTok)·유튜브·인스타그램·웨이보·빌리빌리·도우인 SNS 순위 및 팔로워 랭킹. '
+         '188개 아이돌 그룹의 숏폼 참여율(ER), 컴백 일정, 나무위키 정보를 매주/매월 업데이트합니다.">'),
         f'content="{esc(desc)}">', "meta description")
     t = replace_once(t, '<link rel="canonical" href="https://aimcontents.com/">',
                      f'<link rel="canonical" href="{url}">', "canonical")
@@ -213,17 +213,17 @@ def build_ranking_page(month, sns_slug, gender_slug, topn=50):
                      f'<meta property="og:url" content="{url}">', "og:url")
     t = replace_once(t, '<meta name="twitter:url" content="https://aimcontents.com/">',
                      f'<meta name="twitter:url" content="{url}">', "twitter:url")
-    t = replace_once(t, '<meta property="og:title" content="K-Idol SNS Ranking | 아이엠콘텐츠">',
+    t = replace_once(t, '<meta property="og:title" content="K-POP 아이돌 SNS·틱톡·유튜브 팔로워 순위 | 아이엠콘텐츠">',
                      f'<meta property="og:title" content="{esc(title)}">', "og:title")
-    t = replace_once(t, '<meta name="twitter:title" content="K-Idol SNS Ranking | 아이엠콘텐츠">',
+    t = replace_once(t, '<meta name="twitter:title" content="K-POP 아이돌 SNS·틱톡·유튜브 팔로워 순위 | 아이엠콘텐츠">',
                      f'<meta name="twitter:title" content="{esc(title)}">', "twitter:title")
     t = replace_once(
         t,
-        '<meta property="og:description" content="K-POP 아이돌 SNS 팔로워 순위, 컴백 일정, 실시간 엔터테인먼트 뉴스를 한눈에 확인하세요.">',
+        '<meta property="og:description" content="K-POP 아이돌 틱톡(TikTok), 유튜브, 인스타그램, 웨이보, 도우인 SNS 팔로워 순위와 컴백 일정, 188개 그룹 상세 정보.">',
         f'<meta property="og:description" content="{esc(desc)}">', "og:description")
     t = replace_once(
         t,
-        '<meta name="twitter:description" content="K-POP 아이돌 SNS 팔로워 순위, 컴백 일정, 실시간 엔터테인먼트 뉴스를 한눈에 확인하세요.">',
+        '<meta name="twitter:description" content="K-POP 아이돌 틱톡(TikTok), 유튜브, 인스타그램, 웨이보, 도우인 SNS 팔로워 순위와 컴백 일정, 188개 그룹 상세 정보.">',
         f'<meta name="twitter:description" content="{esc(desc)}">', "twitter:description")
 
     # JSON-LD 주입

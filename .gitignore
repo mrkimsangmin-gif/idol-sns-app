@@ -34,6 +34,11 @@ data/old/
 data/youtube-comments-all.json
 data/guyso.db
 *.db
+*.db-shm
+*.db-wal
+data/tiktok-data/groups/test_*.json
+data/tiktok-data/crawl-progress-*.json
+rebuild_initial_data_*.py
 data/collect_all.log
 data/comments_*.json
 data/comments_*.log

@@ -3,17 +3,126 @@
   "name_en": "S2IT",
   "slug": "s2it",
   "tiktok_url": "https://www.tiktok.com/@s2it_official",
-  "crawled_at": "2026-09-01T07:56:05.539842",
+  "crawled_at": "2026-09-07T21:18:53.243Z",
   "profile": {
-    "display_name": "",
-    "username": "",
+    "display_name": "S2iT_official",
+    "username": "s2it_official",
     "verified": false,
     "category": "",
-    "followers": 0,
+    "followers": 26400,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 358900,
     "bio": ""
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "id": "7682344675268660501",
+      "views": 66700,
+      "likes": 7560,
+      "comments": 297,
+      "shares": 482,
+      "saves": 569,
+      "posted_at": "2026-09-06",
+      "caption": "S2IT (에스투잇) - 'Blue Crush' Offical Teaser 1 26.09.15 TUE 6PM (KST)  #에스투잇 #S2IT #BlueCrush #S2IT_BlueCrush #teaser",
+      "hashtags": [
+        "에스투잇",
+        "s2it",
+        "bluecrush",
+        "s2it_bluecrush",
+        "teaser"
+      ],
+      "music": "오리지널 사운드 - S2iT_official",
+      "category": "Promotion"
+    },
+    {
+      "id": "7680837533751676180",
+      "views": 14600,
+      "likes": 1075,
+      "comments": 52,
+      "shares": 21,
+      "saves": 93,
+      "posted_at": "2026-09-02",
+      "caption": "AAA #s2it #에스투잇 #haru #sea ",
+      "hashtags": [
+        "s2it",
+        "에스투잇",
+        "haru",
+        "sea"
+      ],
+      "music": "오리지널 사운드 - S2iT_official",
+      "category": "General"
+    },
+    {
+      "id": "7678686192703048980",
+      "views": 66000,
+      "likes": 8839,
+      "comments": 188,
+      "shares": 161,
+      "saves": 501,
+      "posted_at": "2026-08-27",
+      "caption": "너는 너 하나면 돼 #에스투잇 #s2it #효빈 #hyobin",
+      "hashtags": [
+        "에스투잇",
+        "s2it",
+        "효빈",
+        "hyobin"
+      ],
+      "music": "오리지널 사운드 - S2iT_official",
+      "category": "General"
+    },
+    {
+      "id": "7676326772782189842",
+      "views": 123800,
+      "likes": 3177,
+      "comments": 97,
+      "shares": 175,
+      "saves": 290,
+      "posted_at": "2026-08-21",
+      "caption": "단발머리하고 그댈 만나러가 ( ‘ ̫ - )‐☆💋 #에스투잇 #s2it #승비 #seungbi #단발머리 ",
+      "hashtags": [
+        "에스투잇",
+        "s2it",
+        "승비",
+        "seungbi",
+        "단발머리"
+      ],
+      "music": "오리지널 사운드 - S2iT_official",
+      "category": "General"
+    },
+    {
+      "id": "7674426891972955410",
+      "views": 35000,
+      "likes": 3511,
+      "comments": 120,
+      "shares": 135,
+      "saves": 285,
+      "posted_at": "2026-08-16",
+      "caption": "흥흥흥 !💢 #s2it #에스투잇 #hyobin #HARU #장단즈 ",
+      "hashtags": [
+        "s2it",
+        "에스투잇",
+        "hyobin",
+        "haru",
+        "장단즈"
+      ],
+      "music": "오리지널 사운드 - S2iT_official",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 5,
+    "posts_last_30d": 5,
+    "avg_views": 61220,
+    "avg_likes": 4832,
+    "avg_comments": 150,
+    "avg_shares": 194,
+    "avg_saves": 347,
+    "engagement_rate": 9.03
+  },
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T21:18:53.243Z",
+  "posts_status": "fresh_crawled",
+  "profile_crawled_at": "2026-09-07T21:18:53.243Z",
+  "profile_status": "fresh_crawled"
 }

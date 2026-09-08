@@ -3,17 +3,23 @@
   "name_en": "DAY6",
   "slug": "day6",
   "tiktok_url": "https://www.tiktok.com/@day6_official",
-  "crawled_at": "2026-06-21T20:58:37.769767",
+  "crawled_at": "2026-09-07T21:07:49.234Z",
   "profile": {
     "display_name": "DAY6",
-    "username": "@day6_official",
+    "username": "day6_official",
     "verified": true,
     "category": "",
-    "followers": 443000,
+    "followers": 454200,
     "following": 0,
-    "total_likes": 827000,
+    "total_likes": 1200000,
     "bio": ""
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 1,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T21:07:49.234Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-07T21:07:49.234Z",
+  "profile_status": "fresh_crawled"
 }

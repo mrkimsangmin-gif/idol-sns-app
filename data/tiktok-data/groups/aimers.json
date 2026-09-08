@@ -3,17 +3,156 @@
   "name_en": "AIMERS",
   "slug": "aimers",
   "tiktok_url": "https://www.tiktok.com/@aimers_amrs",
-  "crawled_at": "2026-07-15T19:46:00.677685",
+  "crawled_at": "2026-09-08T00:32:53.960Z",
   "profile": {
     "display_name": "AIMERS",
-    "username": "@aimers_amrs",
+    "username": "aimers_amrs",
     "verified": false,
     "category": "",
-    "followers": 178000,
+    "followers": 179400,
     "following": 0,
-    "total_likes": 4704000,
+    "total_likes": 4700000,
     "bio": "AIMERS OFFICIAL TIKTOK"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "id": "7682769467948010770",
+      "views": 1451,
+      "likes": 344,
+      "comments": 17,
+      "shares": 7,
+      "saves": 28,
+      "posted_at": "2026-09-07",
+      "caption": "Come touch me ✨ #ENHYPEN #BloodyParadise  #AIMERS #DORYUN #도륜 에이머스 ",
+      "hashtags": [
+        "ENHYPEN",
+        "BloodyParadise",
+        "AIMERS",
+        "DORYUN",
+        "도륜"
+      ],
+      "music": "Bloody Paradise",
+      "category": "General"
+    },
+    {
+      "id": "7677520400414264597",
+      "views": 3963,
+      "likes": 1113,
+      "comments": 31,
+      "shares": 78,
+      "saves": 89,
+      "posted_at": "2026-08-24",
+      "caption": "set me free😎 #AIMERS #에이머스 #DORYUN #도륜 #iMuz ",
+      "hashtags": [
+        "aimers",
+        "에이머스",
+        "doryun",
+        "도륜",
+        "imuz"
+      ],
+      "music": "sonido original",
+      "category": "General"
+    },
+    {
+      "id": "7675302826863758613",
+      "views": 98100,
+      "likes": 30600,
+      "comments": 306,
+      "shares": 764,
+      "saves": 2654,
+      "posted_at": "2026-08-18",
+      "caption": "We're not cute anymore🤷 #AIMERS #에이머스 #NOT_CUTE_ANYMORE",
+      "hashtags": [
+        "aimers",
+        "에이머스",
+        "not_cute_anymore"
+      ],
+      "music": "오리지널 사운드 - AIMERS",
+      "category": "Variety"
+    },
+    {
+      "id": "7674989366632123656",
+      "views": 3222,
+      "likes": 615,
+      "comments": 31,
+      "shares": 82,
+      "saves": 72,
+      "posted_at": "2026-08-17",
+      "caption": "My name is 🕷️🕸️❤️  #AIMERS #에이머스 #승환 #SEUNGHWAN #spiderman ",
+      "hashtags": [
+        "aimers",
+        "에이머스",
+        "승환",
+        "seunghwan",
+        "spiderman"
+      ],
+      "music": "original sound",
+      "category": "General"
+    },
+    {
+      "id": "7673507344201846032",
+      "views": 2787,
+      "likes": 269,
+      "comments": 11,
+      "shares": 9,
+      "saves": 19,
+      "posted_at": "2026-08-13",
+      "caption": "도륜이의 MC LOG🎤 #AIMERS #에이머스 #DORYUN #도륜",
+      "hashtags": [],
+      "music": "오리지널 사운드 - AIMERS",
+      "category": "General"
+    },
+    {
+      "id": "7673511004227063047",
+      "views": 11200,
+      "likes": 2455,
+      "comments": 38,
+      "shares": 74,
+      "saves": 230,
+      "posted_at": "2026-08-13",
+      "caption": "Fendi🖤 #AIMERS #에이머스 #iMuz ",
+      "hashtags": [
+        "AIMERS",
+        "에이머스",
+        "iMuz"
+      ],
+      "music": "Fendi 2",
+      "category": "General"
+    },
+    {
+      "id": "7672783587191655687",
+      "views": 3034,
+      "likes": 648,
+      "comments": 16,
+      "shares": 11,
+      "saves": 48,
+      "posted_at": "2026-08-11",
+      "caption": "🫱🫲🤭  #AIMERS 에이머스 #요엘 #YOEL #승환 #SEUNGHWAN ",
+      "hashtags": [
+        "aimers",
+        "요엘",
+        "yoel",
+        "승환",
+        "seunghwan"
+      ],
+      "music": "âm thanh gốc - -.-",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 7,
+    "posts_last_30d": 7,
+    "avg_views": 17679,
+    "avg_likes": 5149,
+    "avg_comments": 64,
+    "avg_shares": 146,
+    "avg_saves": 448,
+    "engagement_rate": 32.85
+  },
+  "raw_items_count": 33,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:32:53.960Z",
+  "posts_status": "fresh_crawled",
+  "profile_crawled_at": "2026-09-08T00:32:53.960Z",
+  "profile_status": "fresh_crawled"
 }

@@ -3,17 +3,23 @@
   "name_en": "VIVIZ",
   "slug": "viviz",
   "tiktok_url": "https://www.tiktok.com/@viviz_bpm",
-  "crawled_at": "2026-06-20T10:52:13.860380",
+  "crawled_at": "2026-09-08T00:27:44.293Z",
   "profile": {
     "display_name": "VIVIZ",
-    "username": "@viviz_bpm",
+    "username": "viviz_bpm",
     "verified": true,
     "category": "",
-    "followers": 1635000,
+    "followers": 1600000,
     "following": 0,
-    "total_likes": 79203000,
+    "total_likes": 79300000,
     "bio": "VIVIZ Official TikTok"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:27:44.293Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:27:44.293Z",
+  "profile_status": "fresh_crawled"
 }

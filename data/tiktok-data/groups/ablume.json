@@ -3,15 +3,15 @@
   "name_en": "ablume",
   "slug": "ablume",
   "tiktok_url": "https://www.tiktok.com/@ablume_official",
-  "crawled_at": "2026-06-21T19:56:02.132811",
+  "crawled_at": "2026-09-07T21:04:05.404Z",
   "profile": {
     "display_name": "ablume official",
-    "username": "@ablume_official",
+    "username": "ablume_official",
     "verified": false,
     "category": "",
-    "followers": 126000,
+    "followers": 124600,
     "following": 0,
-    "total_likes": 1276000,
+    "total_likes": 1300000,
     "bio": "ablume(어블룸) 1st Single Album ‘Echo’&#10;2025. 05. 09 12PM (KST)"
   },
   "posts": [
@@ -531,6 +531,12 @@
     "avg_comments": 0,
     "avg_shares": 0,
     "avg_saves": 0,
-    "engagement_rate": 0.0
-  }
+    "engagement_rate": 0
+  },
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T21:04:05.404Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-07T21:04:05.404Z",
+  "profile_status": "fresh_crawled"
 }

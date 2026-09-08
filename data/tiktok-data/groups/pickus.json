@@ -3,17 +3,23 @@
   "name_en": "PICKUS",
   "slug": "pickus",
   "tiktok_url": "https://www.tiktok.com/@pickus_offcl",
-  "crawled_at": "2026-06-21T22:16:24.993838",
+  "crawled_at": "2026-09-08T00:39:46.595Z",
   "profile": {
-    "display_name": "",
-    "username": "",
+    "display_name": "PICKUS",
+    "username": "pickus_offcl",
     "verified": false,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 15000,
+    "following": 1,
+    "total_likes": 309600,
     "bio": ""
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 16,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:39:46.595Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:39:46.595Z",
+  "profile_status": "fresh_crawled"
 }

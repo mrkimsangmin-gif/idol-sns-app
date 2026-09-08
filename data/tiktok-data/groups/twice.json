@@ -3,7 +3,7 @@
   "name_en": "TWICE",
   "slug": "twice",
   "tiktok_url": "https://www.tiktok.com/@twice_tiktok_official",
-  "crawled_at": "2026-09-03T07:07:59.170807",
+  "crawled_at": "2026-09-07T20:43:21.516Z",
   "profile": {
     "display_name": "TWICE",
     "username": "twice_tiktok_official",
@@ -15,5 +15,11 @@
     "bio": "One in a Million! Hello We are TWICE💖\nLet’s TikTok with TWICE!"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T20:43:21.516Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-07T20:43:21.516Z",
+  "profile_status": "fresh_crawled"
 }

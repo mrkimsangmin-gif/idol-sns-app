@@ -3,9 +3,327 @@
   "name_en": "STAYC",
   "slug": "stayc",
   "tiktok_url": "https://www.tiktok.com/@stayc_official",
-  "crawled_at": "2026-09-04T08:05:26.449476",
-  "profile": {},
-  "posts": [],
-  "stats": {},
-  "error": "SSR 데이터 없음"
+  "crawled_at": "2026-09-07T20:43:22.965Z",
+  "profile": {
+    "display_name": "STAYC",
+    "username": "stayc_official",
+    "verified": true,
+    "category": "",
+    "followers": 2800000,
+    "following": 1,
+    "total_likes": 93300000,
+    "bio": "STAYC The 6th Single Album 【2:LOVE】\n➫ 2026.06.16 TUE 6PM (KST)"
+  },
+  "posts": [
+    {
+      "id": "7682665742642253077",
+      "views": 15500,
+      "likes": 5376,
+      "comments": 118,
+      "shares": 131,
+      "saves": 411,
+      "posted_at": "2026-09-07",
+      "caption": "내가 왔다🐥 #STAYC #스테이씨 #Sumin #수민",
+      "hashtags": [],
+      "music": "폼폼",
+      "category": "General"
+    },
+    {
+      "id": "7681160768448122132",
+      "views": 424800,
+      "likes": 60000,
+      "comments": 209,
+      "shares": 722,
+      "saves": 2925,
+      "posted_at": "2026-09-03",
+      "caption": "#베스티 #연애의조건 #LoveOptions #역주행 #STAYC #스테이씨 #Sieun #시은",
+      "hashtags": [],
+      "music": "연애의 조건 (Love Options)",
+      "category": "General"
+    },
+    {
+      "id": "7679304638172122375",
+      "views": 37200,
+      "likes": 6693,
+      "comments": 127,
+      "shares": 121,
+      "saves": 562,
+      "posted_at": "2026-08-30",
+      "caption": "회사에서 딴짓하면 기분이 조크든요 #STAYC #스테이씨  #Yoon #윤",
+      "hashtags": [
+        "stayc",
+        "스테이씨",
+        "yoon",
+        "윤"
+      ],
+      "music": "오리지널 사운드 - STAYC",
+      "category": "General"
+    },
+    {
+      "id": "7678020434255744273",
+      "views": 35500,
+      "likes": 8938,
+      "comments": 107,
+      "shares": 187,
+      "saves": 583,
+      "posted_at": "2026-08-27",
+      "caption": "Greedy 🎫 https://stayc.lnk.to/tour #STAYC #스테이씨  #Sieun #시은",
+      "hashtags": [
+        "stayc",
+        "스테이씨",
+        "sieun",
+        "시은"
+      ],
+      "music": "Greedy",
+      "category": "General"
+    },
+    {
+      "id": "7678017116167064848",
+      "views": 22000,
+      "likes": 4619,
+      "comments": 80,
+      "shares": 83,
+      "saves": 380,
+      "posted_at": "2026-08-27",
+      "caption": "나랑 손 잡을래? 🎫 https://stayc.lnk.to/tour #STAYC #스테이씨  #Seeun #세은",
+      "hashtags": [
+        "stayc",
+        "스테이씨",
+        "seeun",
+        "세은"
+      ],
+      "music": "민들레 (single ver.)",
+      "category": "General"
+    },
+    {
+      "id": "7678011501357174033",
+      "views": 49900,
+      "likes": 13400,
+      "comments": 128,
+      "shares": 278,
+      "saves": 997,
+      "posted_at": "2026-08-27",
+      "caption": "#bubblepop 🫧 🎫 https://stayc.lnk.to/tour #STAYC #스테이씨  #Sumin #수민",
+      "hashtags": [
+        "stayc",
+        "스테이씨",
+        "sumin",
+        "수민"
+      ],
+      "music": "BUBBLE POP!",
+      "category": "General"
+    },
+    {
+      "id": "7678007656321436945",
+      "views": 127300,
+      "likes": 33300,
+      "comments": 363,
+      "shares": 689,
+      "saves": 1900,
+      "posted_at": "2026-08-26",
+      "caption": "this that pretty girl #Mantra  🎫 https://stayc.lnk.to/tour #STAYC #스테이씨  #J #재이",
+      "hashtags": [
+        "stayc",
+        "스테이씨",
+        "j",
+        "재이"
+      ],
+      "music": "Mantra",
+      "category": "General"
+    },
+    {
+      "id": "7678001736505773328",
+      "views": 16000,
+      "likes": 3549,
+      "comments": 66,
+      "shares": 76,
+      "saves": 280,
+      "posted_at": "2026-08-26",
+      "caption": "나는 스테이씨로 데뷔했는데 맹그로브 명창 가수가 됐다 🎫 https://stayc.lnk.to/tour #STAYC #스테이씨  #Yoon #윤",
+      "hashtags": [
+        "stayc",
+        "스테이씨",
+        "yoon",
+        "윤"
+      ],
+      "music": "맹그로브",
+      "category": "General"
+    },
+    {
+      "id": "7677989773037833473",
+      "views": 68900,
+      "likes": 17700,
+      "comments": 219,
+      "shares": 656,
+      "saves": 1444,
+      "posted_at": "2026-08-26",
+      "caption": "Bo Peep Bo Peep🐈 🎫 https://stayc.lnk.to/tour #STAYC #스테이씨  #ISA #아이사",
+      "hashtags": [
+        "stayc",
+        "스테이씨",
+        "isa",
+        "아이사"
+      ],
+      "music": "Bo Peep Bo Peep",
+      "category": "General"
+    },
+    {
+      "id": "7675003969248201992",
+      "views": 67200,
+      "likes": 15600,
+      "comments": 173,
+      "shares": 300,
+      "saves": 823,
+      "posted_at": "2026-08-21",
+      "caption": "여기에 스윗 취향 세 개 정도는 있겠지 😋 #STAYC #스테이씨 #STAY_CLOSER  #2026_STAYC_FANCON_TOUR",
+      "hashtags": [
+        "stayc",
+        "스테이씨",
+        "stay_closer",
+        "2026_stayc_fancon_tour"
+      ],
+      "music": "오리지널 사운드 - STAYC",
+      "category": "General"
+    },
+    {
+      "id": "7675000271671495943",
+      "views": 43300,
+      "likes": 9123,
+      "comments": 115,
+      "shares": 180,
+      "saves": 695,
+      "posted_at": "2026-08-20",
+      "caption": "찾았다 내 팬콘 텐션 😎 #STAYC #스테이씨  #Sieun #시은 #ISA #아이사 #STAY_CLOSER  #2026_STAYC_FANCON_TOUR",
+      "hashtags": [
+        "stayc",
+        "스테이씨",
+        "sieun",
+        "시은",
+        "isa",
+        "아이사",
+        "stay_closer",
+        "2026_stayc_fancon_tour"
+      ],
+      "music": "Touch The Sky",
+      "category": "General"
+    },
+    {
+      "id": "7674996762783845639",
+      "views": 44900,
+      "likes": 10300,
+      "comments": 155,
+      "shares": 234,
+      "saves": 746,
+      "posted_at": "2026-08-19",
+      "caption": "팬콘 혼자 가기 무서울 때 이 영상을 트세요 #STAYC #스테이씨  #Seeun #세은 #Yoon #윤 #STAY_CLOSER  #2026_STAYC_FANCON_TOUR",
+      "hashtags": [
+        "stayc",
+        "스테이씨",
+        "seeun",
+        "세은",
+        "윤",
+        "stay_closer",
+        "2026_stayc_fancon_tour"
+      ],
+      "music": "오리지널 사운드 - STAYC",
+      "category": "General"
+    },
+    {
+      "id": "7674973697471565074",
+      "views": 30900,
+      "likes": 6366,
+      "comments": 124,
+      "shares": 119,
+      "saves": 510,
+      "posted_at": "2026-08-18",
+      "caption": "스윗 뛸 준비 됐나~? #STAYC #스테이씨  #Sumin #수민 #J #재이 #STAY_CLOSER  #2026_STAYC_FANCON_TOUR",
+      "hashtags": [
+        "stayc",
+        "스테이씨",
+        "sumin",
+        "수민",
+        "j",
+        "재이",
+        "stay_closer",
+        "2026_stayc_fancon_tour"
+      ],
+      "music": "Starships",
+      "category": "General"
+    },
+    {
+      "id": "7672281330217962772",
+      "views": 398300,
+      "likes": 69200,
+      "comments": 973,
+      "shares": 16100,
+      "saves": 4797,
+      "posted_at": "2026-08-14",
+      "caption": "스테이씨 팬콘을 즐기는 방법 #STAYC #스테이씨 #Seeun #세은 #Yoon #윤 #STAY_CLOSER #2026_STAYC_FANCON_TOUR",
+      "hashtags": [
+        "stayc",
+        "스테이씨",
+        "seeun",
+        "세은",
+        "yoon",
+        "윤",
+        "stay_closer",
+        "2026_stayc_fancon_tour"
+      ],
+      "music": "Я буду ебать (feat. IHI)",
+      "category": "General"
+    },
+    {
+      "id": "7672266398013377813",
+      "views": 42800,
+      "likes": 7677,
+      "comments": 128,
+      "shares": 112,
+      "saves": 501,
+      "posted_at": "2026-08-13",
+      "caption": "스테이씨에게 마음껏 스포를 해보라고 했다 #STAYC #스테이씨  #STAY_CLOSER #2026_STAYC_FANCON_TOUR",
+      "hashtags": [
+        "stayc",
+        "스테이씨",
+        "stay_closer",
+        "2026_stayc_fancon_tour"
+      ],
+      "music": "오리지널 사운드 - STAYC",
+      "category": "General"
+    },
+    {
+      "id": "7672227268978101524",
+      "views": 56800,
+      "likes": 12200,
+      "comments": 151,
+      "shares": 243,
+      "saves": 719,
+      "posted_at": "2026-08-12",
+      "caption": "2 L0VE with #조나단 💗 #STAYC #스테이씨  #2LOVE #2L0VE",
+      "hashtags": [
+        "조나단",
+        "stayc",
+        "스테이씨",
+        "2love",
+        "2l0ve"
+      ],
+      "music": "2 L0VE",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 16,
+    "posts_last_30d": 16,
+    "avg_views": 92581,
+    "avg_likes": 17752,
+    "avg_comments": 202,
+    "avg_shares": 1264,
+    "avg_saves": 1142,
+    "engagement_rate": 21.99
+  },
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T20:43:22.965Z",
+  "posts_status": "fresh_crawled",
+  "profile_crawled_at": "2026-09-07T20:43:22.965Z",
+  "profile_status": "fresh_crawled"
 }

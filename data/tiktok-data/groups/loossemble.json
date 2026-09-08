@@ -3,17 +3,23 @@
   "name_en": "Loossemble",
   "slug": "loossemble",
   "tiktok_url": "https://www.tiktok.com/@loossemble_official",
-  "crawled_at": "2026-06-20T11:37:34.324079",
+  "crawled_at": "2026-09-08T00:24:31.396Z",
   "profile": {
     "display_name": "Loossemble",
-    "username": "@loossemble_official",
+    "username": "loossemble_official",
     "verified": false,
     "category": "",
-    "followers": 411000,
+    "followers": 412500,
     "following": 0,
-    "total_likes": 11034000,
+    "total_likes": 11100000,
     "bio": "Loossemble Official TikTok"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:24:31.396Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:24:31.396Z",
+  "profile_status": "fresh_crawled"
 }

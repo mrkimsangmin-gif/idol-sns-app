@@ -3,17 +3,23 @@
   "name_en": "WATERFIRE",
   "slug": "waterfire",
   "tiktok_url": "https://www.tiktok.com/@waterfire_official",
-  "crawled_at": "2026-06-25T05:16:02.671495",
+  "crawled_at": "2026-09-08T00:36:33.229Z",
   "profile": {
-    "display_name": "",
-    "username": "",
+    "display_name": "user58969149385",
+    "username": "waterfire_official",
     "verified": false,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 14300,
+    "following": 1,
+    "total_likes": 131000,
     "bio": ""
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 33,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:36:33.229Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:36:33.229Z",
+  "profile_status": "fresh_crawled"
 }

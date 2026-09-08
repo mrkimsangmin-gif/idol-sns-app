@@ -2,19 +2,24 @@
   "name": "노매드",
   "name_en": "NOMAD",
   "slug": "nomad",
-  "tiktok_url": "https://tiktok.com/@nomad_entofficial",
-  "crawled_at": "2026-06-21T22:05:14.825434",
+  "tiktok_url": "https://www.tiktok.com/@nomad_entofficial",
+  "crawled_at": "2026-09-07T21:12:58.978Z",
   "profile": {
     "display_name": "NOMAD",
-    "username": "@nomad_entofficial",
+    "username": "nomad_entofficial",
     "verified": false,
     "category": "",
-    "followers": 182000,
+    "followers": 177600,
     "following": 1,
-    "total_likes": 2677000,
+    "total_likes": 2700000,
     "bio": "NOMAD OFFICIAL TIKTOK"
   },
   "posts": [],
   "stats": {},
-  "error": "IndexError: list index out of range"
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T21:12:58.978Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-07T21:12:58.978Z",
+  "profile_status": "fresh_crawled"
 }

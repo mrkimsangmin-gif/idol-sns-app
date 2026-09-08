@@ -2,18 +2,128 @@
   "name": "블랙스완",
   "name_en": "BLACKSWAN",
   "slug": "blackswan",
-  "tiktok_url": "https://v.douyin.com/EBHlWthhcrk",
-  "crawled_at": "2026-09-03T07:07:55.211333",
+  "tiktok_url": "https://www.tiktok.com/@blackswan__official",
+  "crawled_at": "2026-09-08T00:26:30.990Z",
   "profile": {
-    "display_name": "抖音号：87761532573",
-    "username": "",
+    "display_name": "Blackswan",
+    "username": "blackswan__official",
     "verified": false,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 1100000,
+    "following": 4,
+    "total_likes": 20900000,
     "bio": ""
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "id": "7680103867689766151",
+      "views": 15000,
+      "likes": 793,
+      "comments": 26,
+      "shares": 4,
+      "saves": 28,
+      "posted_at": "2026-08-31",
+      "caption": "That #블랙스완 #가비 #스리야 #동묘 #BLACKSWAN ",
+      "hashtags": [
+        "블랙스완",
+        "가비",
+        "스리야",
+        "동묘",
+        "blackswan"
+      ],
+      "music": "오리지널 사운드 - Blackswan",
+      "category": "General"
+    },
+    {
+      "id": "7679740431990607122",
+      "views": 19800,
+      "likes": 1771,
+      "comments": 25,
+      "shares": 13,
+      "saves": 66,
+      "posted_at": "2026-08-30",
+      "caption": "꽃무늬 셔츠 #블랙스완 #가비 #스리야 #동묘",
+      "hashtags": [
+        "블랙스완",
+        "가비",
+        "스리야",
+        "동묘"
+      ],
+      "music": "오리지널 사운드 - Blackswan",
+      "category": "General"
+    },
+    {
+      "id": "7679440098013793544",
+      "views": 13600,
+      "likes": 1203,
+      "comments": 21,
+      "shares": 6,
+      "saves": 47,
+      "posted_at": "2026-08-29",
+      "caption": "손은 눈보다 빠르다 #블랙스완 #가비 #스리야 #BLACKSWAN #동묘 ",
+      "hashtags": [
+        "블랙스완",
+        "가비",
+        "스리야",
+        "blackswan",
+        "동묘"
+      ],
+      "music": "오리지널 사운드 - Blackswan",
+      "category": "General"
+    },
+    {
+      "id": "7672340721810165000",
+      "views": 91700,
+      "likes": 4855,
+      "comments": 47,
+      "shares": 50,
+      "saves": 167,
+      "posted_at": "2026-08-10",
+      "caption": "콩국수에 소금 vs 설탕?🧂 풀버전은 유튜브에서 확인해 주세요!  #가비 #스리야 #블랙스완 #성수동 #브이로그 ",
+      "hashtags": [
+        "가비",
+        "스리야",
+        "블랙스완",
+        "성수동",
+        "브이로그"
+      ],
+      "music": "original sound - Blackswan",
+      "category": "Behind/Vlog"
+    },
+    {
+      "id": "7671954479855553810",
+      "views": 45100,
+      "likes": 3191,
+      "comments": 42,
+      "shares": 108,
+      "saves": 134,
+      "posted_at": "2026-08-09",
+      "caption": "🍭👵🏻 솜사탕 아니면 할머니머리? 🫪 풀버전은 유튜브에서 확인해 주세요!  #가비 #스리야 #블랙스완 #성수동 #브이로그 ",
+      "hashtags": [
+        "가비",
+        "스리야",
+        "블랙스완",
+        "성수동",
+        "브이로그"
+      ],
+      "music": "오리지널 사운드 - Blackswan",
+      "category": "Behind/Vlog"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 5,
+    "posts_last_30d": 5,
+    "avg_views": 37040,
+    "avg_likes": 2362,
+    "avg_comments": 32,
+    "avg_shares": 36,
+    "avg_saves": 88,
+    "engagement_rate": 6.8
+  },
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:26:30.990Z",
+  "posts_status": "fresh_crawled",
+  "profile_crawled_at": "2026-09-08T00:26:30.990Z",
+  "profile_status": "fresh_crawled"
 }

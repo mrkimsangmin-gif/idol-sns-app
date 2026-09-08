@@ -3,18 +3,23 @@
   "name_en": "BAE173",
   "slug": "bae173",
   "tiktok_url": "https://www.tiktok.com/@official__bae173",
-  "crawled_at": "2026-06-21T21:48:23.548608",
+  "crawled_at": "2026-09-07T21:10:12.743Z",
   "profile": {
     "display_name": "BAE173",
-    "username": "@official__bae173",
+    "username": "official__bae173",
     "verified": true,
     "category": "",
-    "followers": 772000,
+    "followers": 765200,
     "following": 1,
-    "total_likes": 18762000,
+    "total_likes": 18900000,
     "bio": "BAE173 OFFICIAL Tik Tok"
   },
   "posts": [],
   "stats": {},
-  "error": "IndexError: list index out of range"
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T21:10:12.743Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-07T21:10:12.743Z",
+  "profile_status": "fresh_crawled"
 }

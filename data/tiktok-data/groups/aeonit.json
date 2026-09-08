@@ -3,17 +3,23 @@
   "name_en": "AEONIT",
   "slug": "aeonit",
   "tiktok_url": "https://www.tiktok.com/@aeonit_official",
-  "crawled_at": "2026-06-21T22:19:52.156972",
+  "crawled_at": "2026-09-08T00:38:22.584Z",
   "profile": {
-    "display_name": "",
-    "username": "",
+    "display_name": "AEONIT(이오닛)",
+    "username": "aeonit_official",
     "verified": false,
     "category": "",
-    "followers": 0,
+    "followers": 52200,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 1200000,
     "bio": ""
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:38:22.584Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:38:22.584Z",
+  "profile_status": "fresh_crawled"
 }

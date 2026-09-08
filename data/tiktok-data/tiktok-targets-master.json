@@ -1,0 +1,1541 @@
+{
+  "updated_at": "2026-09-08T08:35:00Z",
+  "total_targets": 191,
+  "already_completed": 93,
+  "pending_to_crawl": 98,
+  "targets": [
+    {
+      "name": "골든차일드",
+      "name_en": "Golden Child, GNCD",
+      "slug": "golden-child-gncd",
+      "handle": "goldenchildofficial",
+      "url": "https://www.tiktok.com/@goldenchildofficial",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "나우즈",
+      "name_en": "NOWZ",
+      "slug": "nowz",
+      "handle": "cube_nowz",
+      "url": "https://www.tiktok.com/@cube_nowz",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "나인아이",
+      "name_en": "NINE.i",
+      "slug": "nine-i",
+      "handle": "nine.i_official",
+      "url": "https://www.tiktok.com/@nine.i_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "네이즈",
+      "name_en": "NAZE",
+      "slug": "naze",
+      "handle": "naze_official",
+      "url": "https://www.tiktok.com/@naze_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "넥스지",
+      "name_en": "NEXZ",
+      "slug": "nexz",
+      "handle": "nexz_official",
+      "url": "https://www.tiktok.com/@nexz_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "노매드",
+      "name_en": "NOMAD",
+      "slug": "nomad",
+      "handle": "nomad_entofficial",
+      "url": "https://www.tiktok.com/@nomad_entofficial",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "누에라",
+      "name_en": "NouerA",
+      "slug": "nouera",
+      "handle": "nouera_official",
+      "url": "https://www.tiktok.com/@nouera_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "뉴비트",
+      "name_en": "NEWBEAT",
+      "slug": "newbeat",
+      "handle": "newbeat_official",
+      "url": "https://www.tiktok.com/@newbeat_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "뉴진스",
+      "name_en": "NewJeans",
+      "slug": "newjeans",
+      "handle": "newjeans_official",
+      "url": "https://www.tiktok.com/@newjeans_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "다이몬",
+      "name_en": "DXMON",
+      "slug": "dxmon",
+      "handle": "dxmon_official",
+      "url": "https://www.tiktok.com/@dxmon_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "다크비",
+      "name_en": "DKB",
+      "slug": "dkb",
+      "handle": "official.dkb",
+      "url": "https://www.tiktok.com/@official.dkb",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "더뉴식스",
+      "name_en": "THE NEW SIX",
+      "slug": "the-new-six",
+      "handle": "officialtnx",
+      "url": "https://www.tiktok.com/@officialtnx",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "더보이즈",
+      "name_en": "THE BOYZ",
+      "slug": "the-boyz",
+      "handle": "theboyz_officl",
+      "url": "https://www.tiktok.com/@theboyz_officl",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "더씬드롬",
+      "name_en": "THE SSYNDROME",
+      "slug": "the-ssyndrome",
+      "handle": "thessyndrome_official",
+      "url": "https://www.tiktok.com/@thessyndrome_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "더윈드",
+      "name_en": "The Wind",
+      "slug": "the-wind",
+      "handle": "official_thewind",
+      "url": "https://www.tiktok.com/@official_thewind",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "더킹덤",
+      "name_en": "The KingDom",
+      "slug": "the-kingdom",
+      "handle": "thekingdom_gfent",
+      "url": "https://www.tiktok.com/@thekingdom_gfent",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "데이식스",
+      "name_en": "DAY6",
+      "slug": "day6",
+      "handle": "day6_official",
+      "url": "https://www.tiktok.com/@day6_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "데이차일드",
+      "name_en": "DayChild",
+      "slug": "daychild",
+      "handle": "daychild_official",
+      "url": "https://www.tiktok.com/@daychild_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "데일리디렉션",
+      "name_en": "DAILY:DIRECTION",
+      "slug": "daily-direction",
+      "handle": "daily_direction",
+      "url": "https://www.tiktok.com/@daily_direction",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "드래곤포니",
+      "name_en": "Dragon Pony",
+      "slug": "dragon-pony",
+      "handle": "dragon_pony_",
+      "url": "https://www.tiktok.com/@dragon_pony_",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "드리핀",
+      "name_en": "DRIPPIN",
+      "slug": "drippin",
+      "handle": "wearedrippin",
+      "url": "https://www.tiktok.com/@wearedrippin",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "드림캐쳐",
+      "name_en": "Dreamcatcher",
+      "slug": "dreamcatcher",
+      "handle": "official_dreamcatcher",
+      "url": "https://www.tiktok.com/@official_dreamcatcher",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "라이즈",
+      "name_en": "RIIZE",
+      "slug": "riize",
+      "handle": "riize_official",
+      "url": "https://www.tiktok.com/@riize_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "라임라이트",
+      "name_en": "LIMELIGHT",
+      "slug": "limelight",
+      "handle": "limelightseoul",
+      "url": "https://www.tiktok.com/@limelightseoul",
+      "source": "user_verified_override",
+      "user_verified": true
+    },
+    {
+      "name": "러브원",
+      "name_en": "LOVEONE",
+      "slug": "loveone",
+      "handle": "loveone_tik",
+      "url": "https://www.tiktok.com/@loveone_tik",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "레드벨벳",
+      "name_en": "Red Velvet",
+      "slug": "red-velvet",
+      "handle": "redvelvet_smtown",
+      "url": "https://www.tiktok.com/@redvelvet_smtown",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "로켓펀치",
+      "name_en": "Rocket Punch",
+      "slug": "rocket-punch",
+      "handle": "official_rocketpunch",
+      "url": "https://www.tiktok.com/@official_rocketpunch",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "롱샷",
+      "name_en": "LNGSHOT",
+      "slug": "lngshot",
+      "handle": "lngshot4sho",
+      "url": "https://www.tiktok.com/@lngshot4sho",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "루네이트",
+      "name_en": "LUN8",
+      "slug": "lun8",
+      "handle": "lun8_official",
+      "url": "https://www.tiktok.com/@lun8_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "루셈블",
+      "name_en": "Loossemble",
+      "slug": "loossemble",
+      "handle": "loossemble_official",
+      "url": "https://www.tiktok.com/@loossemble_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "르세라핌",
+      "name_en": "LE SSERAFIM",
+      "slug": "le-sserafim",
+      "handle": "le_sserafim",
+      "url": "https://www.tiktok.com/@le_sserafim",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "리센느",
+      "name_en": "RESCENE",
+      "slug": "rescene",
+      "handle": "rescene_official",
+      "url": "https://www.tiktok.com/@rescene_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "마마무",
+      "name_en": "MAMAMOO",
+      "slug": "mamamoo",
+      "handle": "official_mamamoo",
+      "url": "https://www.tiktok.com/@official_mamamoo",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "메이딘",
+      "name_en": "MADEIN",
+      "slug": "madein",
+      "handle": "madein_u",
+      "url": "https://www.tiktok.com/@madein_u",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "모디세이",
+      "name_en": "MODYSSEY",
+      "slug": "modyssey",
+      "handle": "modyssey.official",
+      "url": "https://www.tiktok.com/@modyssey.official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "몬스타엑스",
+      "name_en": "MONSTA X",
+      "slug": "monsta-x",
+      "handle": "monsta_x_514",
+      "url": "https://www.tiktok.com/@monsta_x_514",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "미래소년",
+      "name_en": "MIRAE",
+      "slug": "mirae",
+      "handle": "official_mirae",
+      "url": "https://www.tiktok.com/@official_mirae",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "미야오",
+      "name_en": "MEOVV",
+      "slug": "meovv",
+      "handle": "meovv_official",
+      "url": "https://www.tiktok.com/@meovv_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "방탄소년단",
+      "name_en": "BTS",
+      "slug": "bts",
+      "handle": "bts_official_bighit",
+      "url": "https://www.tiktok.com/@bts_official_bighit",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "배너",
+      "name_en": "VANNER",
+      "slug": "vanner",
+      "handle": "vanner_official",
+      "url": "https://www.tiktok.com/@vanner_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "배드빌런",
+      "name_en": "BADVILLAIN",
+      "slug": "badvillain",
+      "handle": "badvillain_bpm",
+      "url": "https://www.tiktok.com/@badvillain_bpm",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "버비",
+      "name_en": "Burvey",
+      "slug": "burvey",
+      "handle": "official_burvey",
+      "url": "https://www.tiktok.com/@official_burvey",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "베이비돈크라이",
+      "name_en": "Baby DONT Cry",
+      "slug": "baby-dont-cry",
+      "handle": "babydontcry.official",
+      "url": "https://www.tiktok.com/@babydontcry.official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "베이비몬스터",
+      "name_en": "BABYMONSTER",
+      "slug": "babymonster",
+      "handle": "babymonster_yg_tiktok",
+      "url": "https://www.tiktok.com/@babymonster_yg_tiktok",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "보이넥스트도어",
+      "name_en": "BOYNEXTDOOR",
+      "slug": "boynextdoor",
+      "handle": "boynextdoor_official",
+      "url": "https://www.tiktok.com/@boynextdoor_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "블랙스완",
+      "name_en": "BLACKSWAN",
+      "slug": "blackswan",
+      "handle": "blackswan__official",
+      "url": "https://www.tiktok.com/@blackswan__official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "블랙핑크",
+      "name_en": "BLACKPINK",
+      "slug": "blackpink",
+      "handle": "bp_tiktok",
+      "url": "https://www.tiktok.com/@bp_tiktok",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "블리처스",
+      "name_en": "BLITZERS",
+      "slug": "blitzers",
+      "handle": "blitzers_official",
+      "url": "https://www.tiktok.com/@blitzers_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "븨븨에스",
+      "name_en": "VVS",
+      "slug": "vvs",
+      "handle": "vvssodvs",
+      "url": "https://www.tiktok.com/@vvssodvs",
+      "source": "user_verified_override",
+      "user_verified": true
+    },
+    {
+      "name": "비디유",
+      "name_en": "B.D.U",
+      "slug": "b-d-u",
+      "handle": "bdu4official_",
+      "url": "https://www.tiktok.com/@bdu4official_",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "비보이즈",
+      "name_en": "BE BOYS",
+      "slug": "be-boys",
+      "handle": "beboys_official",
+      "url": "https://www.tiktok.com/@beboys_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "비비지",
+      "name_en": "VIVIZ",
+      "slug": "viviz",
+      "handle": "viviz_bpm",
+      "url": "https://www.tiktok.com/@viviz_bpm",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "비에이이일칠삼",
+      "name_en": "BAE173",
+      "slug": "bae173",
+      "handle": "official__bae173",
+      "url": "https://www.tiktok.com/@official__bae173",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "비웨이브",
+      "name_en": "BEWAVE",
+      "slug": "bewave",
+      "handle": "bewave_official",
+      "url": "https://www.tiktok.com/@bewave_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "빌리",
+      "name_en": "Billlie",
+      "slug": "billlie",
+      "handle": "billlie.official",
+      "url": "https://www.tiktok.com/@billlie.official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "세븐어스",
+      "name_en": "SEVENUS",
+      "slug": "sevenus",
+      "handle": "sevenus_official",
+      "url": "https://www.tiktok.com/@sevenus_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "세븐틴",
+      "name_en": "SEVENTEEN",
+      "slug": "seventeen",
+      "handle": "seventeen17_official",
+      "url": "https://www.tiktok.com/@seventeen17_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "세이마이네임",
+      "name_en": "SMN",
+      "slug": "smn",
+      "handle": "sa2m2nam3",
+      "url": "https://www.tiktok.com/@sa2m2nam3",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "소디엑",
+      "name_en": "XODIAC",
+      "slug": "xodiac",
+      "handle": "official.xodiac",
+      "url": "https://www.tiktok.com/@official.xodiac",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "수피아",
+      "name_en": "SPIA",
+      "slug": "spia",
+      "handle": "spia_official",
+      "url": "https://www.tiktok.com/@spia_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "스모즈",
+      "name_en": "SMORZ",
+      "slug": "smorz",
+      "handle": "smorz_official_",
+      "url": "https://www.tiktok.com/@smorz_official_",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "스테이씨",
+      "name_en": "STAYC",
+      "slug": "stayc",
+      "handle": "stayc_official",
+      "url": "https://www.tiktok.com/@stayc_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "스트레이키즈",
+      "name_en": "Stray Kids",
+      "slug": "stray-kids",
+      "handle": "jypestraykids",
+      "url": "https://www.tiktok.com/@jypestraykids",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "시그니처",
+      "name_en": "cignature",
+      "slug": "cignature",
+      "handle": "cignature_j9",
+      "url": "https://www.tiktok.com/@cignature_j9",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "시크릿넘버",
+      "name_en": "SECRET NUMBER",
+      "slug": "secret-number",
+      "handle": "secretnumber.official",
+      "url": "https://www.tiktok.com/@secretnumber.official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "싸이커스",
+      "name_en": "xikers",
+      "slug": "xikers",
+      "handle": "xikers_official",
+      "url": "https://www.tiktok.com/@xikers_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "씨아이엑스",
+      "name_en": "CIX",
+      "slug": "cix",
+      "handle": "cix_official",
+      "url": "https://www.tiktok.com/@cix_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아르테미스",
+      "name_en": "ARTMS",
+      "slug": "artms",
+      "handle": "official_artms",
+      "url": "https://www.tiktok.com/@official_artms",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아스트로",
+      "name_en": "ASTRO",
+      "slug": "astro",
+      "handle": "astro_official",
+      "url": "https://www.tiktok.com/@astro_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아이덴티티",
+      "name_en": "idntt",
+      "slug": "idntt",
+      "handle": "idntt_cosmo",
+      "url": "https://www.tiktok.com/@idntt_cosmo",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아이들",
+      "name_en": "i-dle",
+      "slug": "i-dle",
+      "handle": "official_i_dle",
+      "url": "https://www.tiktok.com/@official_i_dle",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아이딧",
+      "name_en": "IDID",
+      "slug": "idid",
+      "handle": "idid_starship",
+      "url": "https://www.tiktok.com/@idid_starship",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아이리스",
+      "name_en": "IRRIS",
+      "slug": "irris",
+      "handle": "irris_offcl",
+      "url": "https://www.tiktok.com/@irris_offcl",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아이리제",
+      "name_en": "IRISÉ",
+      "slug": "iris",
+      "handle": "official_irise",
+      "url": "https://www.tiktok.com/@official_irise",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아이몬드",
+      "name_en": "I:MOND",
+      "slug": "i-mond",
+      "handle": "i.mond_official",
+      "url": "https://www.tiktok.com/@i.mond_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아이브",
+      "name_en": "IVE",
+      "slug": "ive",
+      "handle": "ive.official",
+      "url": "https://www.tiktok.com/@ive.official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아이아이아이",
+      "name_en": "iii",
+      "slug": "iii",
+      "handle": "iiiofficial",
+      "url": "https://www.tiktok.com/@iiiofficial",
+      "source": "china_sns_master"
+    },
+    {
+      "name": "아이칠린",
+      "name_en": "ICHILLIN'",
+      "slug": "ichillin",
+      "handle": "ichillin_km",
+      "url": "https://www.tiktok.com/@ichillin_km",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아이콘",
+      "name_en": "Ikon",
+      "slug": "ikon",
+      "handle": "ikon_tiktok",
+      "url": "https://www.tiktok.com/@ikon_tiktok",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아일리원",
+      "name_en": "ILY:1",
+      "slug": "ily-1",
+      "handle": "fcenm_ily1",
+      "url": "https://www.tiktok.com/@fcenm_ily1",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아일릿",
+      "name_en": "ILLIT",
+      "slug": "illit",
+      "handle": "illit_official",
+      "url": "https://www.tiktok.com/@illit_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아크",
+      "name_en": "ARrC",
+      "slug": "arrc",
+      "handle": "official.arrc",
+      "url": "https://www.tiktok.com/@official.arrc",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아트비트",
+      "name_en": "ARTBEAT v",
+      "slug": "artbeat-v",
+      "handle": "artbeat.official",
+      "url": "https://www.tiktok.com/@artbeat.official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "아홉",
+      "name_en": "AHOF",
+      "slug": "ahof",
+      "handle": "ahof_official",
+      "url": "https://www.tiktok.com/@ahof_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "알파드라이브원",
+      "name_en": "ALPHA DRIVE ONE",
+      "slug": "alpha-drive-one",
+      "handle": "ald1_official",
+      "url": "https://www.tiktok.com/@ald1_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "앰퍼샌드원",
+      "name_en": "AMPERS&ONE",
+      "slug": "ampers-one",
+      "handle": "ampersandone",
+      "url": "https://www.tiktok.com/@ampersandone",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "앳하트",
+      "name_en": "AtHeart",
+      "slug": "atheart",
+      "handle": "atheart.titan",
+      "url": "https://www.tiktok.com/@atheart.titan",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "어블룸",
+      "name_en": "ablume",
+      "slug": "ablume",
+      "handle": "ablume_official",
+      "url": "https://www.tiktok.com/@ablume_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "어센트",
+      "name_en": "ASC2NT",
+      "slug": "asc2nt",
+      "handle": "asc2nt_official",
+      "url": "https://www.tiktok.com/@asc2nt_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "언차일드",
+      "name_en": "UNCHILD",
+      "slug": "unchild",
+      "handle": "official_unchild",
+      "url": "https://www.tiktok.com/@official_unchild",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "에버글로우",
+      "name_en": "EVERGLOW",
+      "slug": "everglow",
+      "handle": "everglowofficial",
+      "url": "https://www.tiktok.com/@everglowofficial",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "에스에프나인",
+      "name_en": "SF9",
+      "slug": "sf9",
+      "handle": "sf9official",
+      "url": "https://www.tiktok.com/@sf9official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "에스투잇",
+      "name_en": "S2IT",
+      "slug": "s2it",
+      "handle": "s2it_official",
+      "url": "https://www.tiktok.com/@s2it_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "에스파",
+      "name_en": "aespa",
+      "slug": "aespa",
+      "handle": "aespa_official",
+      "url": "https://www.tiktok.com/@aespa_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "에이디야",
+      "name_en": "ADYA",
+      "slug": "adya",
+      "handle": "adya_house",
+      "url": "https://www.tiktok.com/@adya_house",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "에이머스",
+      "name_en": "AIMERS",
+      "slug": "aimers",
+      "handle": "aimers_amrs",
+      "url": "https://www.tiktok.com/@aimers_amrs",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "에이비식스",
+      "name_en": "AB6IX",
+      "slug": "ab6ix",
+      "handle": "ab6ix.official",
+      "url": "https://www.tiktok.com/@ab6ix.official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "에이엠피",
+      "name_en": "AxMxP",
+      "slug": "axmxp",
+      "handle": "axmxp_official",
+      "url": "https://www.tiktok.com/@axmxp_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "에이티비오",
+      "name_en": "ATBO",
+      "slug": "atbo",
+      "handle": "atboground",
+      "url": "https://www.tiktok.com/@atboground",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "에이티즈",
+      "name_en": "ATEEZ",
+      "slug": "ateez",
+      "handle": "ateez_official_",
+      "url": "https://www.tiktok.com/@ateez_official_",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "에이티투메이저",
+      "name_en": "82MAJOR",
+      "slug": "82major",
+      "handle": "82major_official",
+      "url": "https://www.tiktok.com/@82major_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "에이퓨처",
+      "name_en": "Afuture",
+      "slug": "afuture",
+      "handle": "4x4dancecrew",
+      "url": "https://www.tiktok.com/@4x4dancecrew",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "에잇턴",
+      "name_en": "8TURN",
+      "slug": "8turn",
+      "handle": "8turn_official",
+      "url": "https://www.tiktok.com/@8turn_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "엑스디너리 히어로즈",
+      "name_en": "Xdinary Heroes",
+      "slug": "xdinary-heroes",
+      "handle": "xheroes_official",
+      "url": "https://www.tiktok.com/@xheroes_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "엑스러브",
+      "name_en": "XLOV",
+      "slug": "xlov",
+      "handle": "xlov_official",
+      "url": "https://www.tiktok.com/@xlov_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "엔믹스",
+      "name_en": "NMIXX",
+      "slug": "nmixx",
+      "handle": "nmixx_official",
+      "url": "https://www.tiktok.com/@nmixx_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "엔시티 드림",
+      "name_en": "NCT DREAM",
+      "slug": "nct-dream",
+      "handle": "official_nct",
+      "url": "https://www.tiktok.com/@official_nct",
+      "source": "namu_wiki_original"
+    },
+    {
+      "name": "엔시티 일이칠",
+      "name_en": "NCT 127",
+      "slug": "nct-127",
+      "handle": "official_nct",
+      "url": "https://www.tiktok.com/@official_nct",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "엔싸인",
+      "name_en": "n.SSign",
+      "slug": "n-ssign",
+      "handle": "nch_nssign",
+      "url": "https://www.tiktok.com/@nch_nssign",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "엔카이브",
+      "name_en": "NCHIVE",
+      "slug": "nchive",
+      "handle": "nchive_official",
+      "url": "https://www.tiktok.com/@nchive_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "엔하이픈",
+      "name_en": "ENHYPEN",
+      "slug": "enhypen",
+      "handle": "enhypen",
+      "url": "https://www.tiktok.com/@enhypen",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "엘라스트",
+      "name_en": "E'LAST",
+      "slug": "e-last",
+      "handle": "elast.official",
+      "url": "https://www.tiktok.com/@elast.official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "엠빅",
+      "name_en": "AM8IC",
+      "slug": "am8ic",
+      "handle": "am8ic_tov",
+      "url": "https://www.tiktok.com/@am8ic_tov",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "엠씨엔디",
+      "name_en": "MCND",
+      "slug": "mcnd",
+      "handle": "mcndofficial_",
+      "url": "https://www.tiktok.com/@mcndofficial_",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "영파씨",
+      "name_en": "YOUNG POSSE",
+      "slug": "young-posse",
+      "handle": "youngposseup",
+      "url": "https://www.tiktok.com/@youngposseup",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "오드유스",
+      "name_en": "ODD YOUTH",
+      "slug": "odd-youth",
+      "handle": "odd_youth",
+      "url": "https://www.tiktok.com/@odd_youth",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "오마이걸",
+      "name_en": "OH MY GIRL",
+      "slug": "oh-my-girl",
+      "handle": "wm_ohmygirl",
+      "url": "https://www.tiktok.com/@wm_ohmygirl",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "오메가엑스",
+      "name_en": "OMEGA X",
+      "slug": "omega-x",
+      "handle": "omega_x_official",
+      "url": "https://www.tiktok.com/@omega_x_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "오위스",
+      "name_en": "OWIS",
+      "slug": "owis",
+      "handle": "owis_official",
+      "url": "https://www.tiktok.com/@owis_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "온앤오프",
+      "name_en": "ONF",
+      "slug": "onf",
+      "handle": "onf_offcl",
+      "url": "https://www.tiktok.com/@onf_offcl",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "올데이프로젝트",
+      "name_en": "ALLDAY PROJECT",
+      "slug": "allday-project",
+      "handle": "allday_project",
+      "url": "https://www.tiktok.com/@allday_project",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "올아워즈",
+      "name_en": "ALL(H)OURS",
+      "slug": "all-h-ours",
+      "handle": "all_h_ours",
+      "url": "https://www.tiktok.com/@all_h_ours",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "우당탕탕 소녀단",
+      "name_en": "UDTT",
+      "slug": "udtt",
+      "handle": "udtt_official",
+      "url": "https://www.tiktok.com/@udtt_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "우아",
+      "name_en": "WOOAH",
+      "slug": "wooah",
+      "handle": "wooah_hm",
+      "url": "https://www.tiktok.com/@wooah_hm",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "우주소녀",
+      "name_en": "WJSN",
+      "slug": "wjsn",
+      "handle": "official_wjsn",
+      "url": "https://www.tiktok.com/@official_wjsn",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "워터파이어",
+      "name_en": "WATERFIRE",
+      "slug": "waterfire",
+      "handle": "waterfire_official",
+      "url": "https://www.tiktok.com/@waterfire_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "원어스",
+      "name_en": "ONEUS",
+      "slug": "oneus",
+      "handle": "bwave_oneus",
+      "url": "https://www.tiktok.com/@bwave_oneus",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "원팩트",
+      "name_en": "ONE PACT",
+      "slug": "one-pact",
+      "handle": "0nepact",
+      "url": "https://www.tiktok.com/@0nepact",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "웨이커",
+      "name_en": "WAKER",
+      "slug": "waker",
+      "handle": "official_waker",
+      "url": "https://www.tiktok.com/@official_waker",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "위나",
+      "name_en": "We;Na",
+      "slug": "we-na",
+      "handle": "wena_official_",
+      "url": "https://www.tiktok.com/@wena_official_",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "위아이",
+      "name_en": "WEi",
+      "slug": "wei",
+      "handle": "wei__official",
+      "url": "https://www.tiktok.com/@wei__official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "위치스",
+      "name_en": "W!TCHX",
+      "slug": "w-tchx",
+      "handle": "witchxofficial",
+      "url": "https://www.tiktok.com/@witchxofficial",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "위클리",
+      "name_en": "Weeekly",
+      "slug": "weeekly",
+      "handle": "weeekly",
+      "url": "https://www.tiktok.com/@weeekly",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "위키미키",
+      "name_en": "Weki Meki",
+      "slug": "weki-meki",
+      "handle": "wm_official",
+      "url": "https://www.tiktok.com/@wm_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "유나이트",
+      "name_en": "YOUNITE",
+      "slug": "younite",
+      "handle": "younite_officl",
+      "url": "https://www.tiktok.com/@younite_officl",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "유니스",
+      "name_en": "UNIS",
+      "slug": "unis",
+      "handle": "unis_offcl",
+      "url": "https://www.tiktok.com/@unis_offcl",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "유니코드",
+      "name_en": "UNICODE",
+      "slug": "unicode",
+      "handle": "unicode_official",
+      "url": "https://www.tiktok.com/@unicode_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "유스피어",
+      "name_en": "USPEER",
+      "slug": "uspeer",
+      "handle": "uspeer.official",
+      "url": "https://www.tiktok.com/@uspeer.official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "유어즈",
+      "name_en": "YUHZ",
+      "slug": "yuhz",
+      "handle": "yuhz_official",
+      "url": "https://www.tiktok.com/@yuhz_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "이븐",
+      "name_en": "EVNNE",
+      "slug": "evnne",
+      "handle": "evnne_official",
+      "url": "https://www.tiktok.com/@evnne_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "이스트샤인",
+      "name_en": "EASTSHINE",
+      "slug": "eastshine",
+      "handle": "official_eastshine",
+      "url": "https://www.tiktok.com/@official_eastshine",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "이오닛",
+      "name_en": "AEONIT",
+      "slug": "aeonit",
+      "handle": "aeonit_official",
+      "url": "https://www.tiktok.com/@aeonit_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "이즈나",
+      "name_en": "izna",
+      "slug": "izna",
+      "handle": "izna_offcl",
+      "url": "https://www.tiktok.com/@izna_offcl",
+      "source": "user_verified_override",
+      "user_verified": true
+    },
+    {
+      "name": "이펙스",
+      "name_en": "EPEX",
+      "slug": "epex",
+      "handle": "epex.official",
+      "url": "https://www.tiktok.com/@epex.official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "이프아이",
+      "name_en": "ifeye",
+      "slug": "ifeye",
+      "handle": "ifeye_official",
+      "url": "https://www.tiktok.com/@ifeye_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "있지",
+      "name_en": "ITZY",
+      "slug": "itzy",
+      "handle": "itzyofficial",
+      "url": "https://www.tiktok.com/@itzyofficial",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "제로베이스원",
+      "name_en": "ZEROBASEONE",
+      "slug": "zerobaseone",
+      "handle": "zb1_official",
+      "url": "https://www.tiktok.com/@zb1_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "지니어스",
+      "name_en": "Geenius",
+      "slug": "geenius",
+      "handle": "geeniusofficial",
+      "url": "https://www.tiktok.com/@geeniusofficial",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "첫사랑",
+      "name_en": "CSR",
+      "slug": "csr",
+      "handle": "csr.offcl",
+      "url": "https://www.tiktok.com/@csr.offcl",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "캔디샵",
+      "name_en": "Candy Shop",
+      "slug": "candy-shop",
+      "handle": "brave.candyshop",
+      "url": "https://www.tiktok.com/@brave.candyshop",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "케플러",
+      "name_en": "Kep1er",
+      "slug": "kep1er",
+      "handle": "official_kep1er",
+      "url": "https://www.tiktok.com/@official_kep1er",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "코르티스",
+      "name_en": "CORTIS",
+      "slug": "cortis",
+      "handle": "cortis_bighit",
+      "url": "https://www.tiktok.com/@cortis_bighit",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "큐더블유이알",
+      "name_en": "QWER",
+      "slug": "qwer",
+      "handle": "qwerband_official",
+      "url": "https://www.tiktok.com/@qwerband_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "크래비티",
+      "name_en": "CRAVITY",
+      "slug": "cravity",
+      "handle": "cravityofficial",
+      "url": "https://www.tiktok.com/@cravityofficial",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "크랙시",
+      "name_en": "CRAXY",
+      "slug": "craxy",
+      "handle": "craxy_official",
+      "url": "https://www.tiktok.com/@craxy_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "클라씨",
+      "name_en": "CLASS:y",
+      "slug": "class-y",
+      "handle": "classy_tiktok_",
+      "url": "https://www.tiktok.com/@classy_tiktok_",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "클로즈 유어 아이즈",
+      "name_en": "CLOSE YOUR EYES",
+      "slug": "close-your-eyes",
+      "handle": "closeyoureyes_official",
+      "url": "https://www.tiktok.com/@closeyoureyes_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "키라스",
+      "name_en": "KIIRAS",
+      "slug": "kiiras",
+      "handle": "official_kiiras",
+      "url": "https://www.tiktok.com/@official_kiiras",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "키빗업",
+      "name_en": "KEYVITUP",
+      "slug": "keyvitup",
+      "handle": "keyvitup_inkode",
+      "url": "https://www.tiktok.com/@keyvitup_inkode",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "키스오브라이프",
+      "name_en": "KISS OF LIFE",
+      "slug": "kiss-of-life",
+      "handle": "kissoflife_official",
+      "url": "https://www.tiktok.com/@kissoflife_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "키키",
+      "name_en": "KiiiKiii",
+      "slug": "kiiikiii",
+      "handle": "kiiikiii_official",
+      "url": "https://www.tiktok.com/@kiiikiii_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "킥플립",
+      "name_en": "KickFlip",
+      "slug": "kickflip",
+      "handle": "kickflip_jype",
+      "url": "https://www.tiktok.com/@kickflip_jype",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "템페스트",
+      "name_en": "TEMPEST",
+      "slug": "tempest",
+      "handle": "tpstofficial_",
+      "url": "https://www.tiktok.com/@tpstofficial_",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "투모로우바이투게더",
+      "name_en": "TXT",
+      "slug": "txt",
+      "handle": "txt.bighitent",
+      "url": "https://www.tiktok.com/@txt.bighitent",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "투어스",
+      "name_en": "TWS",
+      "slug": "tws",
+      "handle": "tws_pledis",
+      "url": "https://www.tiktok.com/@tws_pledis",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "튜넥스",
+      "name_en": "TUNEXX",
+      "slug": "tunexx",
+      "handle": "tunexx_official",
+      "url": "https://www.tiktok.com/@tunexx_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "튜이드",
+      "name_en": "TUIDE",
+      "slug": "tuide",
+      "handle": "tuide_official",
+      "url": "https://www.tiktok.com/@tuide_official",
+      "source": "china_sns_master"
+    },
+    {
+      "name": "트라이비",
+      "name_en": "TRI.BE",
+      "slug": "tri-be",
+      "handle": "tribedaloca",
+      "url": "https://www.tiktok.com/@tribedaloca",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "트레이서",
+      "name_en": "Tracer",
+      "slug": "tracer",
+      "handle": "tracer_official",
+      "url": "https://www.tiktok.com/@tracer_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "트레저",
+      "name_en": "TREASURE",
+      "slug": "treasure",
+      "handle": "yg_treasure_tiktok",
+      "url": "https://www.tiktok.com/@yg_treasure_tiktok",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "트렌드지",
+      "name_en": "TRENDZ",
+      "slug": "trendz",
+      "handle": "trendz_offcl",
+      "url": "https://www.tiktok.com/@trendz_offcl",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "트리플에스",
+      "name_en": "tripleS",
+      "slug": "triples",
+      "handle": "triplescosmos",
+      "url": "https://www.tiktok.com/@triplescosmos",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "트와이스",
+      "name_en": "TWICE",
+      "slug": "twice",
+      "handle": "twice_tiktok_official",
+      "url": "https://www.tiktok.com/@twice_tiktok_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "티아이오티",
+      "name_en": "TIOT",
+      "slug": "tiot",
+      "handle": "tiot_now",
+      "url": "https://www.tiktok.com/@tiot_now",
+      "source": "user_verified_override",
+      "user_verified": true
+    },
+    {
+      "name": "파우",
+      "name_en": "POW",
+      "slug": "pow",
+      "handle": "pow_grid",
+      "url": "https://www.tiktok.com/@pow_grid",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "판타지보이즈",
+      "name_en": "FANTASY BOYS",
+      "slug": "fantasy-boys",
+      "handle": "official_fantasyboys",
+      "url": "https://www.tiktok.com/@official_fantasyboys",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "퍼플키스",
+      "name_en": "PURPLE KISS",
+      "slug": "purple-kiss",
+      "handle": "rbw_purplekiss",
+      "url": "https://www.tiktok.com/@rbw_purplekiss",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "펜타곤",
+      "name_en": "PENTAGON",
+      "slug": "pentagon",
+      "handle": "official_ptg",
+      "url": "https://www.tiktok.com/@official_ptg",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "프로미스나인",
+      "name_en": "fromis_9",
+      "slug": "fromis-9",
+      "handle": "official_fromis9",
+      "url": "https://www.tiktok.com/@official_fromis9",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "프림로즈",
+      "name_en": "PRIMROSE",
+      "slug": "primrose",
+      "handle": "primrose_0fficial",
+      "url": "https://www.tiktok.com/@primrose_0fficial",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "플레이브",
+      "name_en": "PLAVE",
+      "slug": "plave",
+      "handle": "plave_official",
+      "url": "https://www.tiktok.com/@plave_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "피원하모니",
+      "name_en": "P1Harmony",
+      "slug": "p1harmony",
+      "handle": "p1harmony",
+      "url": "https://www.tiktok.com/@p1harmony",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "피커스",
+      "name_en": "PICKUS",
+      "slug": "pickus",
+      "handle": "pickus_offcl",
+      "url": "https://www.tiktok.com/@pickus_offcl",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "피프티피프티",
+      "name_en": "FIFTY FIFTY",
+      "slug": "fifty-fifty",
+      "handle": "we_fiftyfifty",
+      "url": "https://www.tiktok.com/@we_fiftyfifty",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "핑크버스",
+      "name_en": "PINKVERSE",
+      "slug": "pinkverse",
+      "handle": "pinkverse_universe",
+      "url": "https://www.tiktok.com/@pinkverse_universe",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "하우",
+      "name_en": "HAWW",
+      "slug": "haww",
+      "handle": "haww_official_",
+      "url": "https://www.tiktok.com/@haww_official_",
+      "source": "user_verified_override",
+      "user_verified": true
+    },
+    {
+      "name": "하이키",
+      "name_en": "H1-KEY",
+      "slug": "h1-key",
+      "handle": "h1key_choi",
+      "url": "https://www.tiktok.com/@h1key_choi",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "하츠웨이브",
+      "name_en": "hrtz.wav",
+      "slug": "hrtz-wav",
+      "handle": "hrtzwav",
+      "url": "https://www.tiktok.com/@hrtzwav",
+      "source": "china_sns_master"
+    },
+    {
+      "name": "하츠투하츠",
+      "name_en": "Hearts2Hearts",
+      "slug": "hearts2hearts",
+      "handle": "hearts2hearts",
+      "url": "https://www.tiktok.com/@hearts2hearts",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "휘브",
+      "name_en": "WHIB",
+      "slug": "whib",
+      "handle": "whib_official",
+      "url": "https://www.tiktok.com/@whib_official",
+      "source": "china_verified_override"
+    },
+    {
+      "name": "힛지스",
+      "name_en": "HITGS",
+      "slug": "hitgs",
+      "handle": "hitgs.offcl",
+      "url": "https://www.tiktok.com/@hitgs.offcl",
+      "source": "china_verified_override"
+    }
+  ]
+}

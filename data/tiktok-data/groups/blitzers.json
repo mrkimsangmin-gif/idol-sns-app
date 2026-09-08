@@ -3,17 +3,23 @@
   "name_en": "BLITZERS",
   "slug": "blitzers",
   "tiktok_url": "https://www.tiktok.com/@blitzers_official",
-  "crawled_at": "2026-07-15T19:51:08.277899",
+  "crawled_at": "2026-09-07T21:15:36.488Z",
   "profile": {
     "display_name": "BLITZERS",
-    "username": "@blitzers_official",
+    "username": "blitzers_official",
     "verified": true,
     "category": "",
-    "followers": 1273000,
+    "followers": 1300000,
     "following": 2,
-    "total_likes": 25284000,
+    "total_likes": 25300000,
     "bio": "BLITZERS Official TikTok"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T21:15:36.488Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-07T21:15:36.488Z",
+  "profile_status": "fresh_crawled"
 }

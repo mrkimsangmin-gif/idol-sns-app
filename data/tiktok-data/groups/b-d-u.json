@@ -3,17 +3,23 @@
   "name_en": "B.D.U",
   "slug": "b-d-u",
   "tiktok_url": "https://www.tiktok.com/@bdu4official_",
-  "crawled_at": "2026-07-15T19:56:40.269960",
+  "crawled_at": "2026-09-08T00:27:31.539Z",
   "profile": {
     "display_name": "B.D.U (비디유)",
-    "username": "@bdu4official_",
+    "username": "bdu4official_",
     "verified": true,
     "category": "",
-    "followers": 86000,
+    "followers": 84700,
     "following": 0,
-    "total_likes": 647000,
+    "total_likes": 648300,
     "bio": "B.D.U (비디유) Official Tiktok"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:27:31.539Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:27:31.539Z",
+  "profile_status": "fresh_crawled"
 }

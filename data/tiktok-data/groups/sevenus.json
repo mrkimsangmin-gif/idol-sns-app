@@ -3,17 +3,128 @@
   "name_en": "SEVENUS",
   "slug": "sevenus",
   "tiktok_url": "https://www.tiktok.com/@sevenus_official",
-  "crawled_at": "2026-07-05T15:01:44.161972",
+  "crawled_at": "2026-09-08T00:28:11.947Z",
   "profile": {
     "display_name": "세븐어스(SEVENUS)",
-    "username": "",
+    "username": "sevenus_official",
     "verified": false,
     "category": "",
-    "followers": 0,
+    "followers": 7540,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 149400,
     "bio": ""
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "id": "7681233889175637255",
+      "views": 973,
+      "likes": 193,
+      "comments": 7,
+      "shares": 3,
+      "saves": 7,
+      "posted_at": "2026-09-03",
+      "caption": "귀여워 귀여워🥰 #SEVENUS #세븐어스  #HEEJAE #희재  #Beyond_the_Wind",
+      "hashtags": [
+        "sevenus",
+        "세븐어스",
+        "heejae",
+        "희재",
+        "beyond_the_wind"
+      ],
+      "music": "오리지널 사운드 - 세븐어스(SEVENUS)",
+      "category": "Variety"
+    },
+    {
+      "id": "7679719906618756360",
+      "views": 543,
+      "likes": 123,
+      "comments": 9,
+      "shares": 0,
+      "saves": 4,
+      "posted_at": "2026-08-30",
+      "caption": "에코🔊 #SEVENUS #세븐어스  #HEEJAE #희재  #Beyond_the_Wind",
+      "hashtags": [
+        "sevenus",
+        "세븐어스",
+        "heejae",
+        "희재",
+        "beyond_the_wind"
+      ],
+      "music": "오리지널 사운드 - 세븐어스(SEVENUS)",
+      "category": "General"
+    },
+    {
+      "id": "7675255203435957522",
+      "views": 1571,
+      "likes": 332,
+      "comments": 8,
+      "shares": 7,
+      "saves": 17,
+      "posted_at": "2026-08-19",
+      "caption": "SODA🥤🫧 #SEVENUS #HEEJAE #희재  #Beyond_the_Wind #SODASODA ",
+      "hashtags": [
+        "sevenus",
+        "heejae",
+        "희재",
+        "beyond_the_wind",
+        "sodasoda"
+      ],
+      "music": "SODA SODA",
+      "category": "General"
+    },
+    {
+      "id": "7673393461701168392",
+      "views": 1359,
+      "likes": 265,
+      "comments": 9,
+      "shares": 5,
+      "saves": 6,
+      "posted_at": "2026-08-14",
+      "caption": "clap👏 #SEVENUS #세븐어스  #HEEJAE #희재  #Beyond_the_Wind",
+      "hashtags": [
+        "sevenus",
+        "세븐어스",
+        "heejae",
+        "희재",
+        "beyond_the_wind"
+      ],
+      "music": "오리지널 사운드 - 세븐어스(SEVENUS)",
+      "category": "General"
+    },
+    {
+      "id": "7672282399648075026",
+      "views": 1498,
+      "likes": 314,
+      "comments": 12,
+      "shares": 5,
+      "saves": 13,
+      "posted_at": "2026-08-11",
+      "caption": "찌릿찌릿💡 #SEVENUS #세븐어스  #HEEJAE #희재  #Beyond_the_Wind",
+      "hashtags": [
+        "SEVENUS",
+        "세븐어스",
+        "HEEJAE",
+        "희재",
+        "Beyond_the_Wind"
+      ],
+      "music": "사랑을 했다 (LOVE SCENARIO)",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 5,
+    "posts_last_30d": 5,
+    "avg_views": 1188,
+    "avg_likes": 245,
+    "avg_comments": 9,
+    "avg_shares": 4,
+    "avg_saves": 9,
+    "engagement_rate": 22.53
+  },
+  "raw_items_count": 35,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:28:11.947Z",
+  "posts_status": "fresh_crawled",
+  "profile_crawled_at": "2026-09-08T00:28:11.947Z",
+  "profile_status": "fresh_crawled"
 }

@@ -2,18 +2,71 @@
   "name": "프림로즈",
   "name_en": "PRIMROSE",
   "slug": "primrose",
-  "tiktok_url": "https://www.tiktok.com/@primrose_official",
-  "crawled_at": "2026-06-20T11:36:09.334696",
+  "tiktok_url": "https://www.tiktok.com/@primrose_0fficial",
+  "crawled_at": "2026-09-08T00:39:38.369Z",
   "profile": {
-    "display_name": "Primrose Official",
-    "username": "@primrose_official",
-    "verified": false,
+    "display_name": "프림로즈 PRIMROSE",
+    "username": "primrose_0fficial",
+    "verified": true,
     "category": "",
-    "followers": 4,
-    "following": 3,
-    "total_likes": 0,
+    "followers": 79300,
+    "following": 0,
+    "total_likes": 1200000,
     "bio": ""
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "id": "7681140554486304021",
+      "views": 2788,
+      "likes": 779,
+      "comments": 27,
+      "shares": 17,
+      "saves": 72,
+      "posted_at": "2026-09-03",
+      "caption": "찌-릿 🩻⚡️ #PRIMROSE #프림로즈  #RUBY #NAHYUN",
+      "hashtags": [
+        "primrose",
+        "프림로즈",
+        "ruby",
+        "nahyun"
+      ],
+      "music": "사랑을 했다 (LOVE SCENARIO)",
+      "category": "General"
+    },
+    {
+      "id": "7676329706215542036",
+      "views": 8635,
+      "likes": 1458,
+      "comments": 71,
+      "shares": 42,
+      "saves": 110,
+      "posted_at": "2026-08-21",
+      "caption": "Happy birthday RUBY 🥳 Make a wish ⭐️ #HAPPY_RUBY_DAY #RUBY #루비 #PRIMROSE #프림로즈",
+      "hashtags": [
+        "happy_ruby_day",
+        "ruby",
+        "루비",
+        "primrose",
+        "프림로즈"
+      ],
+      "music": "오리지널 사운드 - 프림로즈 PRIMROSE",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 2,
+    "posts_last_30d": 2,
+    "avg_views": 5711,
+    "avg_likes": 1118,
+    "avg_comments": 49,
+    "avg_shares": 29,
+    "avg_saves": 91,
+    "engagement_rate": 22.55
+  },
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:39:38.369Z",
+  "posts_status": "fresh_crawled",
+  "profile_crawled_at": "2026-09-08T00:39:38.369Z",
+  "profile_status": "fresh_crawled"
 }

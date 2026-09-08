@@ -3,17 +3,23 @@
   "name_en": "NewJeans",
   "slug": "newjeans",
   "tiktok_url": "https://www.tiktok.com/@newjeans_official",
-  "crawled_at": "2026-06-20T09:45:37.127591",
+  "crawled_at": "2026-09-07T20:43:21.133Z",
   "profile": {
     "display_name": "NewJeans",
-    "username": "@newjeans_official",
+    "username": "newjeans_official",
     "verified": true,
     "category": "",
-    "followers": 13007000,
+    "followers": 14200000,
     "following": 1,
-    "total_likes": 450000000,
-    "bio": "We Are NewJeans&#128086;"
+    "total_likes": 481100000,
+    "bio": "We Are NewJeans👖"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T20:43:21.133Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-07T20:43:21.133Z",
+  "profile_status": "fresh_crawled"
 }

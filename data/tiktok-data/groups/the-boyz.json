@@ -3,17 +3,23 @@
   "name_en": "THE BOYZ",
   "slug": "the-boyz",
   "tiktok_url": "https://www.tiktok.com/@theboyz_officl",
-  "crawled_at": "2026-06-21T20:32:13.257635",
+  "crawled_at": "2026-09-07T21:05:24.923Z",
   "profile": {
     "display_name": "THE BOYZ",
-    "username": "@theboyz_officl",
+    "username": "theboyz_officl",
     "verified": true,
     "category": "",
-    "followers": 1044000,
+    "followers": 1100000,
     "following": 0,
-    "total_likes": 24390000,
+    "total_likes": 24500000,
     "bio": "더보이즈 (THE BOYZ) Official TikTok"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T21:05:24.923Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-07T21:05:24.923Z",
+  "profile_status": "fresh_crawled"
 }

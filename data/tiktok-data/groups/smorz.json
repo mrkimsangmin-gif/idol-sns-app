@@ -3,17 +3,23 @@
   "name_en": "SMORZ",
   "slug": "smorz",
   "tiktok_url": "https://www.tiktok.com/@smorz_official_",
-  "crawled_at": "2026-05-09T08:22:02.856890",
+  "crawled_at": "2026-09-08T00:28:49.521Z",
   "profile": {
     "display_name": "SMORZ_official",
-    "username": "",
+    "username": "smorz_official_",
     "verified": false,
     "category": "",
-    "followers": 0,
+    "followers": 30600,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 245900,
     "bio": "SMORZ OFFICIAL TIKTOK"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 34,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:28:49.521Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:28:49.521Z",
+  "profile_status": "fresh_crawled"
 }

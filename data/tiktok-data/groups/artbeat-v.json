@@ -3,17 +3,23 @@
   "name_en": "ARTBEAT v",
   "slug": "artbeat-v",
   "tiktok_url": "https://www.tiktok.com/@artbeat.official",
-  "crawled_at": "2026-05-09T07:50:21.544548",
+  "crawled_at": "2026-09-08T00:31:50.200Z",
   "profile": {
-    "display_name": "",
-    "username": "",
+    "display_name": "ARTBEAT",
+    "username": "artbeat.official",
     "verified": false,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 1900000,
+    "following": 2,
+    "total_likes": 69400000,
     "bio": ""
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:31:50.200Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:31:50.200Z",
+  "profile_status": "fresh_crawled"
 }

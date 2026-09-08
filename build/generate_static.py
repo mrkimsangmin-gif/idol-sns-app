@@ -250,6 +250,53 @@ def build_detail_html(g, qas, updated=""):
             )
         parts.append("</tbody></table></section>")
 
+    # 5) 크로스 링크 위젯 (실시간 SNS 랭킹 & 컴백 캘린더 & 도우인 & 타 아이돌 탐색)
+    parts.append(f'''
+    <section class="mt-4 pt-3 border-top">
+        <div class="card border-0 bg-light p-3 rounded-3 shadow-sm">
+            <h3 class="fs-6 fw-bold mb-3">🔗 {esc(g['name'])} 더 알아보기 & 실시간 K-POP 데이터</h3>
+            <div class="row g-2">
+                <div class="col-12 col-md-6">
+                    <a href="/ranking" class="btn btn-outline-primary w-100 py-2 d-flex align-items-center justify-content-between text-start">
+                        <span>
+                            <strong class="d-block">🏆 실시간 SNS & 틱톡 순위</strong>
+                            <small class="text-muted">191개 아이돌 팔로워 & 숏폼 참여율(ER) 비교</small>
+                        </span>
+                        <i class="bi bi-chevron-right text-primary"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a href="/comeback" class="btn btn-outline-success w-100 py-2 d-flex align-items-center justify-content-between text-start">
+                        <span>
+                            <strong class="d-block">📅 K-POP 컴백 & 데뷔 캘린더</strong>
+                            <small class="text-muted">2026년 최신 앨범 발매일 및 컴백 스케줄</small>
+                        </span>
+                        <i class="bi bi-chevron-right text-success"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a href="/jobs" class="btn btn-outline-warning text-dark w-100 py-2 d-flex align-items-center justify-content-between text-start">
+                        <span>
+                            <strong class="d-block">💼 엔터테인먼트 채용정보</strong>
+                            <small class="text-muted">하이브·SM·JYP·YG 등 기획사 실시간 채용공고</small>
+                        </span>
+                        <i class="bi bi-chevron-right text-warning"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6">
+                    <a href="/news" class="btn btn-outline-info text-dark w-100 py-2 d-flex align-items-center justify-content-between text-start">
+                        <span>
+                            <strong class="d-block">📰 실시간 엔터뉴스</strong>
+                            <small class="text-muted">K-POP 컴백·기획사 동향 실시간 업계 소식</small>
+                        </span>
+                        <i class="bi bi-chevron-right text-info"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    ''')
+
     return "\n".join(parts)
 
 
@@ -284,13 +331,13 @@ def build_group_page(slug):
     # 1) <head> 메타 치환
     t = replace_once(
         t,
-        "<title>아이돌 SNS 팔로워 순위 - 웨이보·빌리빌리·유튜브·스포티파이·인스타그램 | 아이엠콘텐츠</title>",
+        "<title>아이돌 SNS 팔로워 순위 - 틱톡·유튜브·인스타·웨이보·도우인 | 아이엠콘텐츠</title>",
         f"<title>{esc(title)}</title>",
         "title",
     )
     # description (홈 meta description 한 줄 통째 치환)
-    home_desc_anchor = ('content="K-POP 아이돌 SNS 팔로워 순위, 컴백 일정, 실시간 엔터테인먼트 뉴스를 한눈에 확인하세요. '
-                        '웨이보, 빌리빌리, 유튜브, 스포티파이 등 주요 SNS 플랫폼의 최신 순위 정보를 제공합니다.">')
+    home_desc_anchor = ('content="K-POP 아이돌 틱톡(TikTok)·유튜브·인스타그램·웨이보·빌리빌리·도우인 SNS 순위 및 팔로워 랭킹. '
+                        '188개 아이돌 그룹의 숏폼 참여율(ER), 컴백 일정, 나무위키 정보를 매주/매월 업데이트합니다.">')
     t = replace_once(t, home_desc_anchor, f'content="{esc(desc)}">', "meta description")
     t = replace_once(t, '<link rel="canonical" href="https://aimcontents.com/">',
                      f'<link rel="canonical" href="{url}">', "canonical")
@@ -298,17 +345,17 @@ def build_group_page(slug):
                      f'<meta property="og:url" content="{url}">', "og:url")
     t = replace_once(t, '<meta name="twitter:url" content="https://aimcontents.com/">',
                      f'<meta name="twitter:url" content="{url}">', "twitter:url")
-    t = replace_once(t, '<meta property="og:title" content="K-Idol SNS Ranking | 아이엠콘텐츠">',
+    t = replace_once(t, '<meta property="og:title" content="K-POP 아이돌 SNS·틱톡·유튜브 팔로워 순위 | 아이엠콘텐츠">',
                      f'<meta property="og:title" content="{esc(title)}">', "og:title")
-    t = replace_once(t, '<meta name="twitter:title" content="K-Idol SNS Ranking | 아이엠콘텐츠">',
+    t = replace_once(t, '<meta name="twitter:title" content="K-POP 아이돌 SNS·틱톡·유튜브 팔로워 순위 | 아이엠콘텐츠">',
                      f'<meta name="twitter:title" content="{esc(title)}">', "twitter:title")
     t = replace_once(
         t,
-        '<meta property="og:description" content="K-POP 아이돌 SNS 팔로워 순위, 컴백 일정, 실시간 엔터테인먼트 뉴스를 한눈에 확인하세요.">',
+        '<meta property="og:description" content="K-POP 아이돌 틱톡(TikTok), 유튜브, 인스타그램, 웨이보, 도우인 SNS 팔로워 순위와 컴백 일정, 188개 그룹 상세 정보.">',
         f'<meta property="og:description" content="{esc(desc)}">', "og:description")
     t = replace_once(
         t,
-        '<meta name="twitter:description" content="K-POP 아이돌 SNS 팔로워 순위, 컴백 일정, 실시간 엔터테인먼트 뉴스를 한눈에 확인하세요.">',
+        '<meta name="twitter:description" content="K-POP 아이돌 틱톡(TikTok), 유튜브, 인스타그램, 웨이보, 도우인 SNS 팔로워 순위와 컴백 일정, 188개 그룹 상세 정보.">',
         f'<meta name="twitter:description" content="{esc(desc)}">', "twitter:description")
 
     # 2) JSON-LD 주입 (</head> 직전)
@@ -346,6 +393,10 @@ def build_group_page(slug):
     updated = data_updated()
     t = replace_once(t, '<div id="namuDetailContent"></div>',
                      f'<div id="namuDetailContent">{build_detail_html(g, qas, updated)}</div>', "detail")
+
+    # 모바일 하단 네비게이션 active 제거 (상세 페이지에서는 탭 미선택)
+    t = replace_once(t, '<a href="/ranking" class="mobile-nav-item active" data-page="home"',
+                     '<a href="/ranking" class="mobile-nav-item" data-page="home"', "mobile-nav home inactive")
 
     out_dir = ROOT / "namu" / slug
     out_dir.mkdir(parents=True, exist_ok=True)

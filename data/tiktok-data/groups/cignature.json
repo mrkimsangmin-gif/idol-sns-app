@@ -3,17 +3,23 @@
   "name_en": "cignature",
   "slug": "cignature",
   "tiktok_url": "https://www.tiktok.com/@cignature_j9",
-  "crawled_at": "2026-07-05T15:32:21.834152",
+  "crawled_at": "2026-09-08T00:29:01.597Z",
   "profile": {
     "display_name": "시그니처(cignature)",
-    "username": "",
+    "username": "cignature_j9",
     "verified": true,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 305400,
+    "following": 2,
+    "total_likes": 5800000,
     "bio": "cignature(시그니처)&#10;5th EP Album ‘Sweetie but Saltie’&#10;2024.06.10 6PM&#10;&#127754;"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 33,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:29:01.597Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:29:01.597Z",
+  "profile_status": "fresh_crawled"
 }

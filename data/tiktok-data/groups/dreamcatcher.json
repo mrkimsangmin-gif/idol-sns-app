@@ -3,69 +3,108 @@
   "name_en": "Dreamcatcher",
   "slug": "dreamcatcher",
   "tiktok_url": "https://www.tiktok.com/@official_dreamcatcher",
-  "crawled_at": "2026-06-20T10:44:44.570727",
+  "crawled_at": "2026-09-07T20:56:07.143Z",
   "profile": {
     "display_name": "Dreamcatcher(드림캐쳐)",
-    "username": "@official_dreamcatcher",
+    "username": "official_dreamcatcher",
     "verified": true,
     "category": "",
-    "followers": 1540000,
+    "followers": 1500000,
     "following": 1,
-    "total_likes": 30815000,
+    "total_likes": 31200000,
     "bio": "Dreamcatcher(드림캐쳐) Official TikTok"
   },
   "posts": [
     {
-      "views": 27000,
-      "likes": 768,
-      "comments": 19,
-      "shares": 12,
-      "saves": 36,
-      "posted_at": "2026-06-10",
-      "caption": "유아유(UAU) Official Trailer #수아 #SUA&#10;…자세히",
+      "id": "7676039272473873684",
+      "views": 28500,
+      "likes": 2998,
+      "comments": 37,
+      "shares": 40,
+      "saves": 193,
+      "posted_at": "2026-08-20",
+      "caption": "[🎬] -ˋˏ 지유의 하루 ˎˊ-  | JI U「星动祉约」광저우 팬미팅 비하인드 🔗 https://youtu.be/k2nMxeNqsCk #유아유 #UAU #Dreamcatcher_UAU #JIU #JIU广州见面会",
       "hashtags": [
-        "수아",
-        "SUA"
+        "유아유",
+        "uau",
+        "dreamcatcher_uau",
+        "jiu",
+        "jiu广州见面会"
       ],
-      "music": "",
-      "category": "General"
+      "music": "오리지널 사운드 - Dreamcatcher(드림캐쳐)",
+      "category": "Behind/Vlog"
     },
     {
-      "views": 71000,
-      "likes": 1239,
-      "comments": 28,
-      "shares": 27,
-      "saves": 62,
-      "posted_at": "2026-06-09",
-      "caption": "유아유(UAU) Official Trailer #지유 #JIU&#10;…자세히",
+      "id": "7675295062133067028",
+      "views": 14200,
+      "likes": 2411,
+      "comments": 26,
+      "shares": 22,
+      "saves": 146,
+      "posted_at": "2026-08-18",
+      "caption": "[🎬] 【𝐏𝐥𝐚𝐲 #02】 Your Youth ⁎⁺˳✧ ༚🎶 | 'GENE' 활동 비하인드 2편 🔗 https://youtu.be/GKro5IFN1xw #유아유 #UAU #Dreamcatcher_UAU Playlist #Your Youth",
       "hashtags": [
+        "02",
+        "유아유",
+        "uau",
+        "dreamcatcher_uau",
+        "your"
+      ],
+      "music": "오리지널 사운드 - Dreamcatcher(드림캐쳐)",
+      "category": "Behind/Vlog"
+    },
+    {
+      "id": "7673515720277249301",
+      "views": 48000,
+      "likes": 10500,
+      "comments": 119,
+      "shares": 191,
+      "saves": 521,
+      "posted_at": "2026-08-13",
+      "caption": "[📹] We're a different gene with 이시연, 이준영님😎✨ #이시연 #이준영 #유아유 #지유 #GENE_Challenge",
+      "hashtags": [
+        "이시연",
+        "이준영",
+        "유아유",
         "지유",
-        "JIU"
+        "gene_challenge"
       ],
-      "music": "",
-      "category": "General"
+      "music": "오리지널 사운드 - Dreamcatcher(드림캐쳐)",
+      "category": "Challenge/Dance"
     },
     {
-      "views": 27000,
-      "likes": 1483,
-      "comments": 24,
-      "shares": 14,
-      "saves": 92,
-      "posted_at": "2026-05-27",
-      "caption": "[&#127916;] 유아유(UAU) [혹시 면접관님도.. 지각 자주 하세요❔] | 혼돈의 아바타 면접&#128221;…자세히",
-      "hashtags": [],
-      "music": "",
+      "id": "7671916150812462357",
+      "views": 24900,
+      "likes": 3479,
+      "comments": 53,
+      "shares": 49,
+      "saves": 220,
+      "posted_at": "2026-08-09",
+      "caption": "[📹] UAU 2026 FANCON [Playlist #Your Youth] in Seoul  Looking at me, I'm looking at you💕  #유아유 #UAU  #Dreamcatcher_UAU ",
+      "hashtags": [
+        "your",
+        "유아유",
+        "uau",
+        "dreamcatcher_uau"
+      ],
+      "music": "오리지널 사운드 - Dreamcatcher(드림캐쳐)",
       "category": "General"
     }
   ],
   "stats": {
-    "total_posts_crawled": 3,
-    "posts_last_30d": 3,
-    "avg_views": 41666,
-    "avg_likes": 1163,
-    "avg_comments": 23,
-    "avg_shares": 17,
-    "avg_saves": 63,
-    "engagement_rate": 3.04
-  }
+    "total_posts_crawled": 4,
+    "posts_last_30d": 4,
+    "avg_views": 28900,
+    "avg_likes": 4847,
+    "avg_comments": 58,
+    "avg_shares": 75,
+    "avg_saves": 270,
+    "engagement_rate": 18.17
+  },
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T20:56:07.143Z",
+  "posts_status": "fresh_crawled",
+  "profile_crawled_at": "2026-09-07T20:56:07.143Z",
+  "profile_status": "fresh_crawled"
 }

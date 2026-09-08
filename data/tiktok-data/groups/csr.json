@@ -3,15 +3,15 @@
   "name_en": "CSR",
   "slug": "csr",
   "tiktok_url": "https://www.tiktok.com/@csr.offcl",
-  "crawled_at": "2026-06-20T11:14:32.232555",
+  "crawled_at": "2026-09-07T20:57:47.418Z",
   "profile": {
     "display_name": "첫사랑(CSR)",
-    "username": "@csr.offcl",
+    "username": "csr.offcl",
     "verified": false,
     "category": "",
-    "followers": 190000,
+    "followers": 188100,
     "following": 3,
-    "total_likes": 4409000,
+    "total_likes": 4400000,
     "bio": "첫사랑(CSR) Official TikTok"
   },
   "posts": [
@@ -42,5 +42,11 @@
     "avg_shares": 34,
     "avg_saves": 75,
     "engagement_rate": 9.84
-  }
+  },
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T20:57:47.418Z",
+  "posts_status": "historical_preserved",
+  "profile_crawled_at": "2026-09-07T20:57:47.418Z",
+  "profile_status": "fresh_crawled"
 }

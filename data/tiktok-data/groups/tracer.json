@@ -3,17 +3,23 @@
   "name_en": "Tracer",
   "slug": "tracer",
   "tiktok_url": "https://www.tiktok.com/@tracer_official",
-  "crawled_at": "2026-06-20T11:28:46.787340",
+  "crawled_at": "2026-09-07T20:59:29.369Z",
   "profile": {
     "display_name": "tracer | 트레이서",
-    "username": "@tracer_official",
+    "username": "tracer_official",
     "verified": false,
     "category": "",
-    "followers": 5388,
+    "followers": 5272,
     "following": 0,
-    "total_likes": 35000,
-    "bio": "TRACER OFFICIAL TIKTOK&#10;https://x.com/tracerofficial_"
+    "total_likes": 35600,
+    "bio": "TRACER OFFICIAL TIKTOK\nhttps://x.com/tracerofficial_"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T20:59:29.369Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-07T20:59:29.369Z",
+  "profile_status": "fresh_crawled"
 }

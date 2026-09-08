@@ -3,15 +3,15 @@
   "name_en": "BEWAVE",
   "slug": "bewave",
   "tiktok_url": "https://www.tiktok.com/@bewave_official",
-  "crawled_at": "2026-06-20T11:29:35.095440",
+  "crawled_at": "2026-09-08T00:27:58.992Z",
   "profile": {
     "display_name": "BEWAVE",
-    "username": "@bewave_official",
+    "username": "bewave_official",
     "verified": false,
     "category": "",
-    "followers": 155000,
+    "followers": 153800,
     "following": 6,
-    "total_likes": 788000,
+    "total_likes": 788700,
     "bio": "BEWAVE OFFICIAL TIKTOK"
   },
   "posts": [
@@ -485,6 +485,12 @@
     "avg_comments": 0,
     "avg_shares": 0,
     "avg_saves": 0,
-    "engagement_rate": 0.0
-  }
+    "engagement_rate": 0
+  },
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:27:58.992Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:27:58.992Z",
+  "profile_status": "fresh_crawled"
 }

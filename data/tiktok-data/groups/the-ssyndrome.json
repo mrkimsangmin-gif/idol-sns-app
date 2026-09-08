@@ -3,17 +3,90 @@
   "name_en": "THE SSYNDROME",
   "slug": "the-ssyndrome",
   "tiktok_url": "https://www.tiktok.com/@thessyndrome_official",
-  "crawled_at": "2026-06-21T22:40:35.572125",
+  "crawled_at": "2026-09-08T00:23:02.092Z",
   "profile": {
-    "display_name": "",
-    "username": "",
+    "display_name": "thessyndrome_official",
+    "username": "thessyndrome_official",
     "verified": false,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 4613,
+    "following": 1,
+    "total_likes": 51000,
     "bio": ""
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "id": "7681247032446766356",
+      "views": 1143,
+      "likes": 197,
+      "comments": 6,
+      "shares": 2,
+      "saves": 6,
+      "posted_at": "2026-09-03",
+      "caption": "[#PlayTHESSYN] Tokai - ‘그건 우리가 아닌데 (not us.)’ Covered by 양희교, 도민규 (THE SSYNDROME) #THESSYNDROME #더씬드롬 #Tokai #그건우리가아닌데",
+      "hashtags": [
+        "playthessyn",
+        "thessyndrome",
+        "더씬드롬",
+        "tokai",
+        "그건우리가아닌데"
+      ],
+      "music": "오리지널 사운드 - thessyndrome_official",
+      "category": "General"
+    },
+    {
+      "id": "7680876993969163540",
+      "views": 1268,
+      "likes": 288,
+      "comments": 8,
+      "shares": 2,
+      "saves": 13,
+      "posted_at": "2026-09-02",
+      "caption": "[#PlayTHESSYN] Mrs. GREEN APPLE - ‘青と夏 (Ao To Natsu)’ Covered by 신세이 (THE SSYNDROME)  #THESSYNDROME #더씬드롬 #MrsGREENAPPLE #青と夏",
+      "hashtags": [
+        "playthessyn",
+        "thessyndrome",
+        "더씬드롬",
+        "mrsgreenapple",
+        "青と夏"
+      ],
+      "music": "오리지널 사운드 - thessyndrome_official",
+      "category": "General"
+    },
+    {
+      "id": "7673842711375400213",
+      "views": 4471,
+      "likes": 618,
+      "comments": 17,
+      "shares": 23,
+      "saves": 23,
+      "posted_at": "2026-08-14",
+      "caption": "[#PlayTHESSYN] Hearts2Hearts 하츠투하츠 - ‘ICONIC HEART’ Covered by 신세이 (THE SSYNDROME) #THESSYNDROME #더씬드롬 #ICONICHEART #Guitar",
+      "hashtags": [
+        "playthessyn",
+        "thessyndrome",
+        "더씬드롬",
+        "iconicheart",
+        "guitar"
+      ],
+      "music": "오리지널 사운드 - thessyndrome_official",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 3,
+    "posts_last_30d": 3,
+    "avg_views": 2294,
+    "avg_likes": 367,
+    "avg_comments": 10,
+    "avg_shares": 9,
+    "avg_saves": 14,
+    "engagement_rate": 17.48
+  },
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:23:02.092Z",
+  "posts_status": "fresh_crawled",
+  "profile_crawled_at": "2026-09-08T00:23:02.092Z",
+  "profile_status": "fresh_crawled"
 }

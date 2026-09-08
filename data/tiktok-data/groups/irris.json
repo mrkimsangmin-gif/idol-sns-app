@@ -3,17 +3,23 @@
   "name_en": "IRRIS",
   "slug": "irris",
   "tiktok_url": "https://www.tiktok.com/@irris_offcl",
-  "crawled_at": "2026-05-09T07:56:23.713851",
+  "crawled_at": "2026-09-08T00:30:32.139Z",
   "profile": {
-    "display_name": "",
-    "username": "",
+    "display_name": "IRRIS (아이리스)",
+    "username": "irris_offcl",
     "verified": false,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 68600,
+    "following": 1,
+    "total_likes": 489500,
     "bio": ""
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:30:32.139Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:30:32.139Z",
+  "profile_status": "fresh_crawled"
 }

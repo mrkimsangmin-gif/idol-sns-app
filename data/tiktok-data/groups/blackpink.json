@@ -3,17 +3,52 @@
   "name_en": "BLACKPINK",
   "slug": "blackpink",
   "tiktok_url": "https://www.tiktok.com/@bp_tiktok",
-  "crawled_at": "2026-06-20T09:52:32.806483",
+  "crawled_at": "2026-09-08T00:26:44.600Z",
   "profile": {
     "display_name": "BLΛƆKPIИK",
-    "username": "@bp_tiktok",
+    "username": "bp_tiktok",
     "verified": true,
     "category": "",
-    "followers": 52305000,
+    "followers": 52600000,
     "following": 8,
-    "total_likes": 680000000,
+    "total_likes": 689200000,
     "bio": "BLACKPINK 3rd MINI ALBUM [DEADLINE]"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "id": "7674922798707461394",
+      "views": 6000000,
+      "likes": 1800000,
+      "comments": 24900,
+      "shares": 66900,
+      "saves": 123500,
+      "posted_at": "2026-08-17",
+      "caption": "BLACKPINK 10th Anniversary MEET & GREET 🖤💗 #BLACKPINK #블랙핑크 #10THANNIVERSARY #WITHBLINK #YG ",
+      "hashtags": [
+        "blackpink",
+        "블랙핑크",
+        "10thanniversary",
+        "withblink",
+        "yg"
+      ],
+      "music": "Yeah Yeah Yeah",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 1,
+    "posts_last_30d": 1,
+    "avg_views": 6000000,
+    "avg_likes": 1800000,
+    "avg_comments": 24900,
+    "avg_shares": 66900,
+    "avg_saves": 123500,
+    "engagement_rate": 33.59
+  },
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:26:44.600Z",
+  "posts_status": "fresh_crawled",
+  "profile_crawled_at": "2026-09-08T00:26:44.600Z",
+  "profile_status": "fresh_crawled"
 }

@@ -3,17 +3,23 @@
   "name_en": "ARrC",
   "slug": "arrc",
   "tiktok_url": "https://www.tiktok.com/@official.arrc",
-  "crawled_at": "2026-07-15T19:44:07.381775",
+  "crawled_at": "2026-09-08T00:31:37.642Z",
   "profile": {
     "display_name": "ARrC (아크)",
-    "username": "@official.arrc",
+    "username": "official.arrc",
     "verified": false,
     "category": "",
-    "followers": 363000,
+    "followers": 358700,
     "following": 0,
-    "total_likes": 8912000,
+    "total_likes": 9000000,
     "bio": "ARrC the 2nd single album [&#120278;&#120295;&#120293;&#120287;+&#120276;&#120287;&#120295;+&#120294;&#120286;&#120284;&#120284;&#120279;]&#10;⚠️ System Reboot : 2025.11.03 MON 6PM KST"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:31:37.642Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:31:37.642Z",
+  "profile_status": "fresh_crawled"
 }

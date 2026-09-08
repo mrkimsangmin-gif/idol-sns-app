@@ -3,15 +3,15 @@
   "name_en": "Rocket Punch",
   "slug": "rocket-punch",
   "tiktok_url": "https://www.tiktok.com/@official_rocketpunch",
-  "crawled_at": "2026-06-20T11:09:34.767916",
+  "crawled_at": "2026-09-07T20:57:35.680Z",
   "profile": {
     "display_name": "Rocket Punch(로켓펀치)",
-    "username": "@official_rocketpunch",
+    "username": "official_rocketpunch",
     "verified": true,
     "category": "",
-    "followers": 367000,
+    "followers": 364900,
     "following": 0,
-    "total_likes": 7912000,
+    "total_likes": 7900000,
     "bio": "#RocketPunch ( #로켓펀치 ) Official TikTok"
   },
   "posts": [
@@ -49,5 +49,11 @@
     "avg_shares": 28,
     "avg_saves": 98,
     "engagement_rate": 9.09
-  }
+  },
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T20:57:35.680Z",
+  "posts_status": "historical_preserved",
+  "profile_crawled_at": "2026-09-07T20:57:35.680Z",
+  "profile_status": "fresh_crawled"
 }

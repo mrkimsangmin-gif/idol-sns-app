@@ -3,17 +3,23 @@
   "name_en": "FANTASY BOYS",
   "slug": "fantasy-boys",
   "tiktok_url": "https://www.tiktok.com/@fantasyboys_official",
-  "crawled_at": "2026-07-15T19:38:18.489332",
+  "crawled_at": "2026-09-07T21:10:24.756Z",
   "profile": {
     "display_name": "My Teenage Boy",
-    "username": "@fantasyboys_official",
+    "username": "fantasyboys_official",
     "verified": false,
     "category": "",
-    "followers": 1303,
+    "followers": 1294,
     "following": 14,
     "total_likes": 960,
     "bio": "Personal account for MBC new boy group survival program 방과후 설렘 season 2!"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 1,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T21:10:24.756Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-07T21:10:24.756Z",
+  "profile_status": "fresh_crawled"
 }

@@ -3,18 +3,23 @@
   "name_en": "E'LAST",
   "slug": "e-last",
   "tiktok_url": "https://www.tiktok.com/@elast.official",
-  "crawled_at": "2026-06-21T22:02:48.482057",
+  "crawled_at": "2026-09-08T00:34:49.857Z",
   "profile": {
     "display_name": "E'LAST (엘라스트)",
-    "username": "@elast.official",
+    "username": "elast.official",
     "verified": true,
     "category": "",
-    "followers": 1566000,
+    "followers": 1600000,
     "following": 0,
-    "total_likes": 27750000,
+    "total_likes": 28000000,
     "bio": "E'LAST official TIKTOK"
   },
   "posts": [],
   "stats": {},
-  "error": "IndexError: list index out of range"
+  "raw_items_count": 35,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:34:49.857Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:34:49.857Z",
+  "profile_status": "fresh_crawled"
 }

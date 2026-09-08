@@ -3,17 +3,23 @@
   "name_en": "CIX",
   "slug": "cix",
   "tiktok_url": "https://www.tiktok.com/@cix_official",
-  "crawled_at": "2026-06-21T21:24:29.906666",
+  "crawled_at": "2026-09-08T00:29:27.948Z",
   "profile": {
     "display_name": "CIX (씨아이엑스)",
-    "username": "@cix_official",
+    "username": "cix_official",
     "verified": true,
     "category": "",
-    "followers": 1161000,
+    "followers": 1200000,
     "following": 2,
-    "total_likes": 22742000,
+    "total_likes": 22700000,
     "bio": ""
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:29:27.948Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:29:27.948Z",
+  "profile_status": "fresh_crawled"
 }

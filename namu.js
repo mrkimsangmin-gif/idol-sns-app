@@ -272,6 +272,7 @@ async function loadNamuGroupBySlug(slug) {
 
         renderNamuGroupHeader(namuCurrentGroup);
         switchNamuDetailTab('profile');
+        renderNamuCrossLinks(namuCurrentGroup);
 
         trackEvent('namu_group_view', {
             group_name: namuCurrentGroup.name,
@@ -366,6 +367,42 @@ function renderNamuGroupHeader(group) {
         '<span class="text-muted">' + group.name_en + '</span>' +
         '<span class="badge ' + genderBadgeClass + '">' + group.gender + '</span>' +
         namuLink +
+        '</div>';
+}
+
+function renderNamuCrossLinks(group) {
+    var container = document.getElementById('namuCrossLinks');
+    if (!container) return;
+    var name = group ? (group.name || '') : '아이돌';
+    container.innerHTML =
+        '<div class="card border-0 bg-light p-3 rounded-3 shadow-sm">' +
+        '<h5 class="fs-6 fw-bold mb-3">🔗 ' + name + ' 더 알아보기 & 실시간 데이터</h5>' +
+        '<div class="row g-2">' +
+        '<div class="col-12 col-md-6">' +
+        '<a href="/ranking" class="btn btn-outline-primary w-100 py-2 d-flex align-items-center justify-content-between text-start cross-link-card" onclick="event.preventDefault(); route(\'home\');">' +
+        '<span><strong class="d-block">🏆 실시간 SNS & 틱톡 순위</strong><small class="text-muted">191개 아이돌 팔로워 & 참여율(ER) 비교</small></span>' +
+        '<i class="bi bi-chevron-right text-primary"></i>' +
+        '</a>' +
+        '</div>' +
+        '<div class="col-12 col-md-6">' +
+        '<a href="/comeback" class="btn btn-outline-success w-100 py-2 d-flex align-items-center justify-content-between text-start cross-link-card" onclick="event.preventDefault(); route(\'comeback\');">' +
+        '<span><strong class="d-block">📅 K-POP 컴백 & 데뷔 캘린더</strong><small class="text-muted">2026년 최신 앨범 발매일 및 컴백 스케줄</small></span>' +
+        '<i class="bi bi-chevron-right text-success"></i>' +
+        '</a>' +
+        '</div>' +
+        '<div class="col-12 col-md-6">' +
+        '<a href="/jobs" class="btn btn-outline-warning text-dark w-100 py-2 d-flex align-items-center justify-content-between text-start cross-link-card" onclick="event.preventDefault(); route(\'jobs\');">' +
+        '<span><strong class="d-block">💼 엔터테인먼트 채용정보</strong><small class="text-muted">하이브·SM·JYP·YG 등 기획사 실시간 채용공고</small></span>' +
+        '<i class="bi bi-chevron-right text-warning"></i>' +
+        '</a>' +
+        '</div>' +
+        '<div class="col-12 col-md-6">' +
+        '<a href="/news" class="btn btn-outline-info text-dark w-100 py-2 d-flex align-items-center justify-content-between text-start cross-link-card" onclick="event.preventDefault(); route(\'news\');">' +
+        '<span><strong class="d-block">📰 실시간 엔터뉴스</strong><small class="text-muted">K-POP 컴백·기획사 동향 실시간 업계 소식</small></span>' +
+        '<i class="bi bi-chevron-right text-info"></i>' +
+        '</a>' +
+        '</div>' +
+        '</div>' +
         '</div>';
 }
 

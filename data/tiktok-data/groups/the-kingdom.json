@@ -3,17 +3,23 @@
   "name_en": "The KingDom",
   "slug": "the-kingdom",
   "tiktok_url": "https://www.tiktok.com/@thekingdom_gfent",
-  "crawled_at": "2026-07-15T19:50:30.641290",
+  "crawled_at": "2026-09-07T21:15:24.590Z",
   "profile": {
     "display_name": "TheKingDom_gfent",
-    "username": "@thekingdom_gfent",
+    "username": "thekingdom_gfent",
     "verified": true,
     "category": "",
-    "followers": 322000,
-    "following": 2,
-    "total_likes": 4962000,
+    "followers": 320800,
+    "following": 3,
+    "total_likes": 5000000,
     "bio": "The KingDom Official Tik Tok"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T21:15:24.590Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-07T21:15:24.590Z",
+  "profile_status": "fresh_crawled"
 }

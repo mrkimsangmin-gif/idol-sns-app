@@ -3,17 +3,23 @@
   "name_en": "BADVILLAIN",
   "slug": "badvillain",
   "tiktok_url": "https://www.tiktok.com/@badvillain_bpm",
-  "crawled_at": "2026-06-20T11:27:11.659109",
+  "crawled_at": "2026-09-08T00:25:39.026Z",
   "profile": {
     "display_name": "BADVILLAIN",
-    "username": "@badvillain_bpm",
+    "username": "badvillain_bpm",
     "verified": true,
     "category": "",
-    "followers": 1003000,
+    "followers": 985900,
     "following": 0,
-    "total_likes": 36735000,
+    "total_likes": 36800000,
     "bio": "BADVILLAIN Official TikTok"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:25:39.026Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:25:39.026Z",
+  "profile_status": "fresh_crawled"
 }

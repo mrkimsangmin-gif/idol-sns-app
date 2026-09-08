@@ -3,17 +3,23 @@
   "name_en": "SPIA",
   "slug": "spia",
   "tiktok_url": "https://www.tiktok.com/@spia_official",
-  "crawled_at": "2026-05-09T08:09:35.438449",
+  "crawled_at": "2026-09-08T00:28:37.547Z",
   "profile": {
     "display_name": "user82193521454",
-    "username": "",
+    "username": "spia_official",
     "verified": false,
     "category": "",
-    "followers": 0,
+    "followers": 65600,
     "following": 0,
-    "total_likes": 0,
+    "total_likes": 211800,
     "bio": ""
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 32,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T00:28:37.547Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T00:28:37.547Z",
+  "profile_status": "fresh_crawled"
 }

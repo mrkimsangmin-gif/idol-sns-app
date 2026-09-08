@@ -2,18 +2,24 @@
   "name": "라임라이트",
   "name_en": "LIMELIGHT",
   "slug": "limelight",
-  "tiktok_url": "https://www.tiktok.com/@limelight_143",
-  "crawled_at": "2026-07-05T15:30:20.451703",
+  "tiktok_url": "https://www.tiktok.com/@limelightseoul",
+  "crawled_at": "2026-09-08T01:00:24.540Z",
   "profile": {
-    "display_name": "Рози",
-    "username": "",
+    "display_name": "матуся дипiнса",
+    "username": "limelightseoul",
     "verified": false,
     "category": "",
-    "followers": 0,
-    "following": 0,
-    "total_likes": 0,
+    "followers": 334,
+    "following": 13,
+    "total_likes": 4138,
     "bio": "мое сердечко только принадлежит limelight"
   },
   "posts": [],
-  "stats": {}
+  "stats": {},
+  "raw_items_count": 16,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-08T01:00:24.540Z",
+  "posts_status": "not_collected",
+  "profile_crawled_at": "2026-09-08T01:00:24.540Z",
+  "profile_status": "fresh_crawled"
 }

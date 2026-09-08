@@ -3,18 +3,241 @@
   "name_en": "DKB",
   "slug": "dkb",
   "tiktok_url": "https://www.tiktok.com/@official.dkb",
-  "crawled_at": "2026-06-21T22:02:15.885147",
+  "crawled_at": "2026-09-07T21:12:14.165Z",
   "profile": {
     "display_name": "다크비(DKB)",
-    "username": "@official.dkb",
+    "username": "official.dkb",
     "verified": true,
     "category": "",
-    "followers": 1082000,
+    "followers": 1100000,
     "following": 0,
-    "total_likes": 25636000,
+    "total_likes": 26000000,
     "bio": ""
   },
-  "posts": [],
-  "stats": {},
-  "error": "IndexError: list index out of range"
+  "posts": [
+    {
+      "id": "7682723211389406484",
+      "views": 104300,
+      "likes": 30200,
+      "comments": 158,
+      "shares": 535,
+      "saves": 1597,
+      "posted_at": "2026-09-07",
+      "caption": "Is this how the wayfboys do?   @wayfboys  #다크비 #DKB #유쿠 #해리준 ",
+      "hashtags": [
+        "다크비",
+        "dkb",
+        "유쿠",
+        "해리준"
+      ],
+      "music": "original sound",
+      "category": "General"
+    },
+    {
+      "id": "7682036513911229717",
+      "views": 13700,
+      "likes": 3844,
+      "comments": 45,
+      "shares": 70,
+      "saves": 158,
+      "posted_at": "2026-09-05",
+      "caption": "뜨겁다🔥 #다크비 #DKB #D1 #준서 #DKBinJAPAN",
+      "hashtags": [
+        "다크비",
+        "dkb",
+        "d1",
+        "준서",
+        "dkbinjapan"
+      ],
+      "music": "Like Fire",
+      "category": "General"
+    },
+    {
+      "id": "7681619867891436821",
+      "views": 11100,
+      "likes": 1693,
+      "comments": 19,
+      "shares": 34,
+      "saves": 68,
+      "posted_at": "2026-09-04",
+      "caption": "So Strawberry🍓 in FUJIKYU @MAZZEL  #다크비 #DKB #유쿠 #YUKU #DKBinJAPAN",
+      "hashtags": [
+        "다크비",
+        "dkb",
+        "유쿠",
+        "yuku",
+        "dkbinjapan"
+      ],
+      "music": "So Strawberry - 1sabi version",
+      "category": "General"
+    },
+    {
+      "id": "7678642681429511445",
+      "views": 18900,
+      "likes": 4261,
+      "comments": 41,
+      "shares": 42,
+      "saves": 216,
+      "posted_at": "2026-08-27",
+      "caption": "THIS & THAT👉👈 #다크비 #DKB #희찬 #HEECHAN #THIS_AND_THAT",
+      "hashtags": [
+        "다크비",
+        "dkb",
+        "희찬",
+        "heechan",
+        "this_and_that"
+      ],
+      "music": "This & That",
+      "category": "General"
+    },
+    {
+      "id": "7677610864266022165",
+      "views": 22900,
+      "likes": 4627,
+      "comments": 57,
+      "shares": 96,
+      "saves": 324,
+      "posted_at": "2026-08-24",
+      "caption": "😈 #다크비 #DKB #희찬 #HEECHAN #DKBinJAPAN",
+      "hashtags": [
+        "다크비",
+        "dkb",
+        "희찬",
+        "heechan",
+        "dkbinjapan"
+      ],
+      "music": "Bloody Paradise",
+      "category": "General"
+    },
+    {
+      "id": "7676469316744711444",
+      "views": 10100,
+      "likes": 1480,
+      "comments": 24,
+      "shares": 18,
+      "saves": 46,
+      "posted_at": "2026-08-21",
+      "caption": "돌리고 돌리고🔄 #다크비 #DKB #GK #지케이 #지화자",
+      "hashtags": [
+        "다크비",
+        "dkb",
+        "gk",
+        "지케이",
+        "지화자"
+      ],
+      "music": "돌리고 돌리고",
+      "category": "General"
+    },
+    {
+      "id": "7675722189282430228",
+      "views": 13500,
+      "likes": 2480,
+      "comments": 28,
+      "shares": 35,
+      "saves": 98,
+      "posted_at": "2026-08-19",
+      "caption": "🔀RANDOM SWITCH🔘 Dc: @ヨージンゴ⛵️  #다크비 #DKB #유쿠 #YUKU #DKBinJAPAN",
+      "hashtags": [
+        "다크비",
+        "dkb",
+        "유쿠",
+        "yuku",
+        "dkbinjapan"
+      ],
+      "music": "Random Switch - remix",
+      "category": "General"
+    },
+    {
+      "id": "7673481259728833813",
+      "views": 100300,
+      "likes": 19000,
+      "comments": 95,
+      "shares": 479,
+      "saves": 707,
+      "posted_at": "2026-08-13",
+      "caption": "My name is miles morales 🕷️ #다크비 #DKB #해리준 #HARRY_JUNE #DKBinJAPAN",
+      "hashtags": [
+        "다크비",
+        "dkb",
+        "해리준",
+        "harry_june",
+        "dkbinjapan"
+      ],
+      "music": "original sound",
+      "category": "General"
+    },
+    {
+      "id": "7673117819420134677",
+      "views": 14800,
+      "likes": 2108,
+      "comments": 23,
+      "shares": 42,
+      "saves": 99,
+      "posted_at": "2026-08-12",
+      "caption": "BBを見ると最後もキュン❤️‍🔥 BB를 보면 마지막도 두근❤️‍🔥 #다크비 #DKB #희찬 #HEECHAN #DKBinJAPAN",
+      "hashtags": [
+        "다크비",
+        "dkb",
+        "희찬",
+        "heechan",
+        "dkbinjapan"
+      ],
+      "music": "Saishowa Kyun!",
+      "category": "General"
+    },
+    {
+      "id": "7671999477774863637",
+      "views": 16300,
+      "likes": 3094,
+      "comments": 49,
+      "shares": 45,
+      "saves": 129,
+      "posted_at": "2026-08-09",
+      "caption": "Switch it up👾 #다크비 #DKB #준서 #JUNSEO #DKBinJAPAN",
+      "hashtags": [
+        "다크비",
+        "dkb",
+        "준서",
+        "junseo",
+        "dkbinjapan"
+      ],
+      "music": "Random Switch - remix",
+      "category": "General"
+    },
+    {
+      "id": "7671969509804117268",
+      "views": 489900,
+      "likes": 93900,
+      "comments": 180,
+      "shares": 1963,
+      "saves": 4462,
+      "posted_at": "2026-08-09",
+      "caption": "갈비뼈 사이사이가 ⚡️⚡️ #다크비 #DKB #D1 #해리준 #DKBinJAPAN",
+      "hashtags": [
+        "다크비",
+        "dkb",
+        "d1",
+        "해리준",
+        "dkbinjapan"
+      ],
+      "music": "original sound",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 11,
+    "posts_last_30d": 11,
+    "avg_views": 74163,
+    "avg_likes": 15153,
+    "avg_comments": 65,
+    "avg_shares": 305,
+    "avg_saves": 718,
+    "engagement_rate": 21.9
+  },
+  "raw_items_count": 48,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T21:12:14.165Z",
+  "posts_status": "fresh_crawled",
+  "profile_crawled_at": "2026-09-07T21:12:14.165Z",
+  "profile_status": "fresh_crawled"
 }

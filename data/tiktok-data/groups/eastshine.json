@@ -2,18 +2,374 @@
   "name": "이스트샤인",
   "name_en": "EASTSHINE",
   "slug": "eastshine",
-  "tiktok_url": "https://www.tiktok.com/@official_eastshine?lang=ko-KR",
-  "crawled_at": "2026-07-15T19:56:02.203292",
+  "tiktok_url": "https://www.tiktok.com/@official_eastshine",
+  "crawled_at": "2026-09-07T21:16:32.683Z",
   "profile": {
     "display_name": "EASTSHINE",
-    "username": "@official_eastshine",
+    "username": "official_eastshine",
     "verified": false,
     "category": "",
-    "followers": 118000,
+    "followers": 117400,
     "following": 1,
-    "total_likes": 3541000,
+    "total_likes": 3600000,
     "bio": "EASTSHINE 2ND MINI ALBUM 『LUMINOUS』"
   },
-  "posts": [],
-  "stats": {}
+  "posts": [
+    {
+      "id": "7681974339285077256",
+      "views": 989,
+      "likes": 266,
+      "comments": 10,
+      "shares": 2,
+      "saves": 12,
+      "posted_at": "2026-09-05",
+      "caption": "EASTSHINE  2nd Single Album [어이쿠 EOI_KU] 🅒🅗🅐🅛🅛🅔🅝🅖🅔 🪩 2026.09.09 18:00 PM (KST) #이스트샤인 #EASTSHINE #EOI_KU #어이쿠 #어이쿠_챌린지 ",
+      "hashtags": [
+        "이스트샤인",
+        "eastshine",
+        "eoi_ku",
+        "어이쿠",
+        "어이쿠_챌린지"
+      ],
+      "music": "어이쿠 (Short Ver. 1)",
+      "category": "Promotion"
+    },
+    {
+      "id": "7680489258594995464",
+      "views": 605,
+      "likes": 97,
+      "comments": 12,
+      "shares": 4,
+      "saves": 4,
+      "posted_at": "2026-09-01",
+      "caption": "EASTSHINE  2nd Single Album [어이쿠 EOI_KU] Coming Soon! 2026.09.09 18:00 PM (KST) #이스트샤인 #EASTSHINE  #EOI_KU #어이쿠 ",
+      "hashtags": [
+        "이스트샤인",
+        "eastshine",
+        "eoi_ku",
+        "어이쿠"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "Promotion"
+    },
+    {
+      "id": "7679709111063219463",
+      "views": 692,
+      "likes": 172,
+      "comments": 6,
+      "shares": 4,
+      "saves": 11,
+      "posted_at": "2026-08-30",
+      "caption": "[#현] 머스캣 마음 녹일 현이 옴 ..🍪❤️‍🔥 #이스트샤인 #EASTSHINE  #HYUN #イーストシャイン",
+      "hashtags": [
+        "현",
+        "이스트샤인",
+        "eastshine",
+        "hyun",
+        "イーストシャイン"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "General"
+    },
+    {
+      "id": "7678676958032497928",
+      "views": 622,
+      "likes": 164,
+      "comments": 8,
+      "shares": 2,
+      "saves": 11,
+      "posted_at": "2026-08-27",
+      "caption": "온세상 과즙 다 어디갔나 했더니 전부 여기 °. ♡ .° #이스트샤인 #EASTSHINE  #아이엘 #루민  #イーストシャイン ",
+      "hashtags": [
+        "이스트샤인",
+        "eastshine",
+        "아이엘",
+        "루민",
+        "イーストシャイン"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "General"
+    },
+    {
+      "id": "7678593408113413384",
+      "views": 639,
+      "likes": 146,
+      "comments": 13,
+      "shares": 4,
+      "saves": 4,
+      "posted_at": "2026-08-27",
+      "caption": "힙할래? 귀여울래? 하나만 해 👾🫶🏻 #이스트샤인 #EASTSHINE  #아이엘 #피닉스  #イーストシャイン ",
+      "hashtags": [
+        "이스트샤인",
+        "eastshine",
+        "아이엘",
+        "피닉스",
+        "イーストシャイン"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "Variety"
+    },
+    {
+      "id": "7678303705967578375",
+      "views": 599,
+      "likes": 166,
+      "comments": 8,
+      "shares": 1,
+      "saves": 12,
+      "posted_at": "2026-08-26",
+      "caption": "춤🕺신🪩춤🕺왕🪩 #이스트샤인 #EASTSHINE #현 #루민 #イーストシャイン",
+      "hashtags": [
+        "이스트샤인",
+        "eastshine",
+        "현",
+        "루민",
+        "イーストシャイン"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "General"
+    },
+    {
+      "id": "7678242095919861010",
+      "views": 570,
+      "likes": 131,
+      "comments": 8,
+      "shares": 1,
+      "saves": 7,
+      "posted_at": "2026-08-26",
+      "caption": "[#루민]  금발 루민은 너무 좋은 느낌을 줌🧚🏻‍♂️ #이스트샤인 #EASTSHINE  #LUMIN #イーストシャイン ",
+      "hashtags": [
+        "루민",
+        "이스트샤인",
+        "eastshine",
+        "lumin",
+        "イーストシャイン"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "General"
+    },
+    {
+      "id": "7677934179505442055",
+      "views": 624,
+      "likes": 157,
+      "comments": 6,
+      "shares": 2,
+      "saves": 13,
+      "posted_at": "2026-08-25",
+      "caption": "머스캣 심장 저격하러 옴 🫶🏻💗 #이스트샤인 #EASTSHINE #아이엘 #동재 #イーストシャイン",
+      "hashtags": [
+        "이스트샤인",
+        "eastshine",
+        "아이엘",
+        "동재",
+        "イーストシャイン"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "General"
+    },
+    {
+      "id": "7677844388449389832",
+      "views": 712,
+      "likes": 195,
+      "comments": 6,
+      "shares": 6,
+      "saves": 5,
+      "posted_at": "2026-08-25",
+      "caption": "[#피닉스]  닉스가 왜이리 멋있어 .o♡₊˚ ପ⸝⸝・o・⸝⸝ଓ ˚｡  #이스트샤인 #EASTSHINE  #PHOENIX #イーストシャイン ",
+      "hashtags": [
+        "피닉스",
+        "이스트샤인",
+        "eastshine",
+        "phoenix",
+        "イーストシャイン"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "General"
+    },
+    {
+      "id": "7677576784442903815",
+      "views": 2167,
+      "likes": 628,
+      "comments": 26,
+      "shares": 13,
+      "saves": 51,
+      "posted_at": "2026-08-24",
+      "caption": "EASTSHINE Vibes!🪩🕺 #이스트샤인 #EASTSHINE  #イーストシャイン #อีสไชน์  #guap ",
+      "hashtags": [
+        "이스트샤인",
+        "eastshine",
+        "イーストシャイン",
+        "อีสไชน์",
+        "guap"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "General"
+    },
+    {
+      "id": "7677479985506012423",
+      "views": 793,
+      "likes": 181,
+      "comments": 12,
+      "shares": 8,
+      "saves": 13,
+      "posted_at": "2026-08-24",
+      "caption": "This & That 🤍🖤 #이스트샤인 #EASTSHINE #아이엘 #현 #イーストシャイン",
+      "hashtags": [
+        "이스트샤인",
+        "eastshine",
+        "아이엘",
+        "현",
+        "イーストシャイン"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "General"
+    },
+    {
+      "id": "7677193629206662408",
+      "views": 709,
+      "likes": 171,
+      "comments": 11,
+      "shares": 5,
+      "saves": 8,
+      "posted_at": "2026-08-23",
+      "caption": "🐾≽^• ˕ • ྀི≼ 🐾 #이스트샤인 #EASTSHINE #イーストシャイン #อีสไชน์",
+      "hashtags": [
+        "이스트샤인",
+        "eastshine",
+        "イーストシャイン",
+        "อีสไชน์"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "General"
+    },
+    {
+      "id": "7677125463361211655",
+      "views": 624,
+      "likes": 162,
+      "comments": 6,
+      "shares": 1,
+      "saves": 10,
+      "posted_at": "2026-08-23",
+      "caption": "머스캣 첫사랑 기억 조작 사건.. 🤦‍♂️💚 #이스트샤인 #EASTSHINE #아이엘 #피닉스 #イーストシャイン",
+      "hashtags": [
+        "이스트샤인",
+        "eastshine",
+        "아이엘",
+        "피닉스",
+        "イーストシャイン"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "General"
+    },
+    {
+      "id": "7676815928549477650",
+      "views": 639,
+      "likes": 122,
+      "comments": 5,
+      "shares": 3,
+      "saves": 8,
+      "posted_at": "2026-08-22",
+      "caption": "bye-bye .. 바이올린🎻🕺 #이스트샤인 #EASTSHINE #동재 #현 #루민 ",
+      "hashtags": [
+        "이스트샤인",
+        "eastshine",
+        "동재",
+        "현",
+        "루민"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "General"
+    },
+    {
+      "id": "7676454635871243528",
+      "views": 819,
+      "likes": 150,
+      "comments": 7,
+      "shares": 1,
+      "saves": 7,
+      "posted_at": "2026-08-21",
+      "caption": "He’s starin’ at me🚶‍♂️🏃‍♂️ #이스트샤인 #EASTSHINE  #현 #피닉스  #イーストシャイン ",
+      "hashtags": [
+        "이스트샤인",
+        "eastshine",
+        "현",
+        "피닉스",
+        "イーストシャイン"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "General"
+    },
+    {
+      "id": "7676076876066147592",
+      "views": 655,
+      "likes": 128,
+      "comments": 6,
+      "shares": 0,
+      "saves": 7,
+      "posted_at": "2026-08-20",
+      "caption": "[#IEL] 아 잠만 귀여운데? 머스캣 긴급 소집 🍇🚨 #이스트샤인 #EASTSHINE #아이엘 #イーストシャイン ",
+      "hashtags": [
+        "iel",
+        "이스트샤인",
+        "eastshine",
+        "아이엘",
+        "イーストシャイン"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "Variety"
+    },
+    {
+      "id": "7675703281737420050",
+      "views": 842,
+      "likes": 198,
+      "comments": 7,
+      "shares": 0,
+      "saves": 12,
+      "posted_at": "2026-08-19",
+      "caption": "[#루민] 새깅의#루미ᄂ새깅의지 말아오셨다 👅✨ #이스트샤인 #EASTSHINE  #イーストシャイン  #อีสไชน์",
+      "hashtags": [
+        "루민",
+        "루미ᄂ새깅의",
+        "이스트샤인",
+        "EASTSHINE",
+        "イーストシャイン",
+        "อีสไชน์"
+      ],
+      "music": "오리지널 사운드 - EASTSHINE",
+      "category": "General"
+    },
+    {
+      "id": "7675291910780636436",
+      "views": 702,
+      "likes": 173,
+      "comments": 3,
+      "shares": 10,
+      "saves": 7,
+      "posted_at": "2026-08-18",
+      "caption": "아 이번 거 좀 쉽지 않았다 🥴 #이스트샤인 #EASTSHINE #イーストシャイン  #อีสไชน์",
+      "hashtags": [
+        "이스트샤인",
+        "eastshine",
+        "イーストシャイン",
+        "อีสไชน์"
+      ],
+      "music": "original sound - j4boo",
+      "category": "General"
+    }
+  ],
+  "stats": {
+    "total_posts_crawled": 18,
+    "posts_last_30d": 18,
+    "avg_views": 777,
+    "avg_likes": 189,
+    "avg_comments": 8,
+    "avg_shares": 3,
+    "avg_saves": 11,
+    "engagement_rate": 27.4
+  },
+  "raw_items_count": 51,
+  "reached_cutoff": true,
+  "posts_crawled_at": "2026-09-07T21:16:32.683Z",
+  "posts_status": "fresh_crawled",
+  "profile_crawled_at": "2026-09-07T21:16:32.683Z",
+  "profile_status": "fresh_crawled"
 }
