@@ -12,7 +12,7 @@
     <title>2026년 6월 남자 유튜브(YouTube) 팔로워 순위 | 아이엠콘텐츠</title>
     <meta name="description"
         content="2026년 6월 기준 K-POP 남자 아이돌 유튜브 팔로워 순위. 1위 방탄소년단 84,900,000명 등 상위 50팀. 매월 집계.">
-    <meta name="keywords" content="아이돌 순위, 아이돌 SNS 순위, K-POP 팔로워 순위, 웨이보 팔로워, 아이돌 빌리빌리, 아이돌 유튜브 구독자, 아이돌 스포티파이, QQ뮤직, 아이돌 인스타그램, 컴백 일정, 엔터뉴스, 아이엠콘텐츠">
+    <meta name="keywords" content="아이돌 순위, 아이돌 틱톡 순위, K-POP 틱톡 랭킹, 아이돌 숏폼 순위, 도우인 챌린지 순위, 아이돌 SNS 순위, K-POP 팔로워 순위, 유튜브 구독자 순위, 인스타그램 팔로워 순위, 웨이보 순위, 컴백 일정, 나무위키, 아이엠콘텐츠">
     <meta name="author" content="아이엠콘텐츠 (Aimcontents)">
 
     <!-- SEO: canonical URL -->
@@ -104,9 +104,9 @@
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "K-Idol SNS Ranking | 아이엠콘텐츠",
+      "name": "K-Idol SNS & TikTok Ranking | 아이엠콘텐츠",
       "url": "https://aimcontents.com",
-      "description": "K-POP 아이돌 SNS 팔로워 순위 - 웨이보, 빌리빌리, 유튜브, 스포티파이",
+      "description": "K-POP 아이돌 SNS·틱톡·도우인 팔로워 순위 - 틱톡, 유튜브, 인스타그램, 웨이보, 빌리빌리, 도우인",
       "inLanguage": "ko",
       "potentialAction": {
         "@type": "SearchAction",
@@ -121,8 +121,8 @@
     {
       "@context": "https://schema.org",
       "@type": "Dataset",
-      "name": "K-POP 아이돌 SNS 팔로워 순위 데이터",
-      "description": "월별 K-POP 아이돌의 웨이보, 빌리빌리, QQ뮤직, X(트위터), 유튜브, 스포티파이 팔로워 수 랭킹",
+      "name": "K-POP 아이돌 SNS 팔로워 및 틱톡·숏폼 순위 데이터",
+      "description": "주간·월별 K-POP 아이돌의 틱톡, 유튜브, 인스타그램, 웨이보, 빌리빌리, QQ뮤직, 도우인 팔로워 수 및 숏폼 참여율(ER) 순위",
       "url": "https://aimcontents.com/ranking",
       "creator": {
         "@type": "Organization",
@@ -130,7 +130,7 @@
       },
       "temporalCoverage": "2024-03/..",
       "spatialCoverage": "Global",
-      "keywords": ["K-POP", "아이돌", "SNS", "웨이보", "빌리빌리", "유튜브", "스포티파이", "팔로워 순위"]
+      "keywords": ["K-POP", "아이돌", "SNS 순위", "틱톡", "TikTok", "아이돌 틱톡 순위", "아이돌 숏폼 순위", "도우인", "유튜브", "인스타그램", "웨이보", "빌리빌리", "팔로워 순위"]
     }
     </script>
 
@@ -863,7 +863,7 @@
                         <a class="nav-link" href="/monthly/2026-07/boys/">월간차트<span class="nav-new-badge" data-expire="2026-09-30">NEW</span></a>
                     </li>
                     <li class="nav-item d-none">
-                        <a class="nav-link" href="/namu" onclick="event.preventDefault(); route('namu')">나무위키<span class="nav-new-badge" data-expire="2026-04-03">NEW</span></a>
+                        <a class="nav-link" href="/namu" onclick="event.preventDefault(); route('namu')">나무위키<span class="nav-new-badge" data-expire="2026-12-31">NEW</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/comeback" onclick="event.preventDefault(); route('comeback')">컴백일정</a>
@@ -1382,6 +1382,7 @@
                     <button class="namu-detail-tab" data-dtab="streaming" onclick="switchNamuDetailTab('streaming')">스트리밍</button>
                 </div>
                 <div id="namuDetailContent"></div>
+                <div id="namuCrossLinks" class="mt-4"></div>
             </div>
 
             <!-- 로딩 -->
@@ -1437,6 +1438,28 @@
     
     <!-- JS 비활성 시 안내 메시지 -->
     
+
+    <!-- 모바일 하단 플로팅 탭 바 (Mobile Bottom Navigation Bar) -->
+    <nav id="mobileBottomNav" class="mobile-bottom-nav d-lg-none" aria-label="모바일 하단 탐색">
+        <div class="mobile-bottom-nav-container">
+            <a href="/ranking" class="mobile-nav-item active" data-page="home" onclick="event.preventDefault(); route('home');">
+                <div class="mobile-nav-icon"><i class="bi bi-trophy-fill"></i></div>
+                <span class="mobile-nav-label">홈/랭킹</span>
+            </a>
+            <a href="/comeback" class="mobile-nav-item" data-page="comeback" onclick="event.preventDefault(); route('comeback');">
+                <div class="mobile-nav-icon"><i class="bi bi-calendar-event-fill"></i></div>
+                <span class="mobile-nav-label">컴백</span>
+            </a>
+            <a href="/news" class="mobile-nav-item" data-page="news" onclick="event.preventDefault(); route('news');">
+                <div class="mobile-nav-icon"><i class="bi bi-newspaper"></i></div>
+                <span class="mobile-nav-label">엔터뉴스</span>
+            </a>
+            <a href="/jobs" class="mobile-nav-item" data-page="jobs" onclick="event.preventDefault(); route('jobs');">
+                <div class="mobile-nav-icon"><i class="bi bi-briefcase-fill"></i></div>
+                <span class="mobile-nav-label">채용정보</span>
+            </a>
+        </div>
+    </nav>
 
     <!-- 마크다운 렌더링 (채팅 UI용) -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
