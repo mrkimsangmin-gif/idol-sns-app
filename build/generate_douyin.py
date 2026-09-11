@@ -83,25 +83,66 @@ def build_baked_content(challenges, updated_at):
         trend = esc(c.get("trend_reason", ""))
         ch_url = c.get("challenge_url", "")
         
-        cards.append(f"""
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="card h-100 shadow-sm border-0">
-                <div class="card-body">
-                    <div class="d-flex justify-content-between align-items-center mb-2">
-                        <span class="badge bg-danger fs-6">#{rank}</span>
-                        <span class="text-muted small">참여자: <strong>{parts_raw}</strong></span>
-                    </div>
-                    <h5 class="card-title fw-bold mb-1">{title_ko}</h5>
+        cover_url = c.get("cover_url", "")
+        video_url = c.get("video_url", "")
+        
+        main_click_url = video_url or ch_url
+
+        thumb_html = ""
+        if cover_url:
+            thumb_html = f"""
+            <div class="position-relative overflow-hidden rounded-top" style="height: 220px; background: #000;">
+                <img src="/{esc(cover_url)}" class="w-100 h-100 object-fit-cover transition-scale" alt="{title_ko}" loading="lazy">
+                <span class="position-absolute top-0 start-0 m-2 badge bg-danger fs-6 shadow-sm">#{rank}</span>
+                <span class="position-absolute bottom-0 end-0 m-2 badge bg-dark bg-opacity-75 text-white small">참여 {parts_raw}</span>
+            </div>
+            """
+        else:
+            thumb_html = f"""
+            <div class="d-flex justify-content-between align-items-center p-3 pb-0">
+                <span class="badge bg-danger fs-6">#{rank}</span>
+                <span class="text-muted small">참여자: <strong>{parts_raw}</strong></span>
+            </div>
+            """
+
+        title_html = f'<h5 class="card-title fw-bold mb-1">{title_ko}</h5>'
+
+        action_btns = []
+        if video_url:
+            action_btns.append(f'<a href="{esc(video_url)}" target="_blank" rel="noopener" class="btn btn-danger btn-sm">▶ 영상 재생</a>')
+        if ch_url:
+            action_btns.append(f'<a href="{esc(ch_url)}" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm">검색 보기</a>')
+        action_html = " ".join(action_btns)
+
+        card_content = f"""
+            <div class="card h-100 shadow-sm border-0 overflow-hidden position-relative hover-shadow transition-all" style="cursor: pointer;">
+                {thumb_html}
+                <div class="card-body d-flex flex-column">
+                    {title_html}
                     <p class="text-muted small mb-2">{title_zh}</p>
                     <p class="card-text small text-secondary mb-3">{summary}</p>
-                    <div class="d-flex justify-content-between align-items-center mt-auto">
+                    <div class="d-flex justify-content-between align-items-center mt-auto pt-2 border-top">
                         <span class="badge bg-light text-dark">{trend}</span>
-                        {f'<a href="{esc(ch_url)}" target="_blank" rel="noopener" class="btn btn-outline-danger btn-sm">도우인 보기</a>' if ch_url else ''}
+                        <div class="position-relative" style="z-index: 2;">{action_html}</div>
                     </div>
                 </div>
             </div>
-        </div>
-        """)
+        """
+
+        if main_click_url:
+            cards.append(f"""
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="{esc(main_click_url)}" target="_blank" rel="noopener" class="text-decoration-none text-dark d-block h-100">
+                    {card_content}
+                </a>
+            </div>
+            """)
+        else:
+            cards.append(f"""
+            <div class="col-12 col-md-6 col-lg-4">
+                {card_content}
+            </div>
+            """)
     
     return f"""
     <div class="col-12 mb-3">
@@ -182,6 +223,32 @@ def main():
         '<section id="page-douyin" class="page-section">',
         "show page-douyin"
     )
+    # H1 계층 구조 조정
+    t = replace_once(
+        t,
+        '<h1 class="mb-3 fw-bold fs-5">K-POP 아이돌 SNS 팔로워 순위</h1>',
+        '<h2 class="mb-3 fw-bold fs-5">K-POP 아이돌 SNS 팔로워 순위</h2>',
+        "home h1 demote"
+    )
+    t = replace_once(
+        t,
+        '<h2 class="mb-3 fw-bold fs-5">중국 도우인 인기 챌린지 <span id="douyinWeekBadge" class="douyin-week-badge"></span></h2>',
+        '<h1 class="mb-3 fw-bold fs-5">중국 도우인 인기 챌린지 <span id="douyinWeekBadge" class="douyin-week-badge"></span></h1>',
+        "douyin h1 promote"
+    )
+    # 네비게이션 active 전환
+    t = replace_once(
+        t,
+        '<a class="nav-link active" href="/ranking"',
+        '<a class="nav-link" href="/ranking"',
+        "nav ranking inactive"
+    )
+    t = replace_once(
+        t,
+        '<a class="nav-link" href="/douyin"',
+        '<a class="nav-link active" href="/douyin"',
+        "nav douyin active"
+    )
     # baked cards 주입 및 로딩 스피너 숨김
     baked_html = build_baked_content(challenges, updated_at)
     t = replace_once(
@@ -193,8 +260,15 @@ def main():
     t = replace_once(
         t,
         '<div id="douyinContainer" class="row g-3" style="display: none;"></div>',
-        f'<div id="douyinContainer" class="row g-3" style="display: flex;">{baked_html}</div>',
+        f'<div id="douyinContainer" class="row g-3">{baked_html}</div>',
         "inject douyinContainer"
+    )
+    # script.js가 home 페이지로 리셋하지 않도록 제거 (순수 정적 랜딩 페이지 유지)
+    t = replace_once(
+        t,
+        '<script src="/script.js?v=20260321"></script>',
+        '',
+        "remove script.js for static douyin landing"
     )
     
     out_dir = ROOT / "douyin"
