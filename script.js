@@ -1069,6 +1069,7 @@ function route(pageId, pushState = true) {
 
     // 각 페이지별 데이터 자동 로딩
     if (pageId === 'home' && cachedData.length === 0) loadData(true); // SNS 랭킹 데이터 로드
+    if (pageId === 'comeback' && typeof loadComebackCalendar === 'function') loadComebackCalendar();
     if (pageId === 'news') loadEnterNews();
     if (pageId === 'links') loadLinks();
     if (pageId === 'jobs') loadJobs();

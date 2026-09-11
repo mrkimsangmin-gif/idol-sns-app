@@ -1875,3 +1875,120 @@
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
+
+/* ============================================================
+   📅 K-POP 컴백/데뷔 캘린더 스타일
+   ============================================================ */
+.cal-grid-header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background: #f8f9fa;
+    border-radius: 8px 8px 0 0;
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-align: center;
+}
+.cal-header-cell {
+    padding: 10px 4px;
+}
+.cal-grid-body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: 1px solid #dee2e6;
+    border-top: none;
+    background: #ffffff;
+    border-radius: 0 0 8px 8px;
+}
+.cal-cell {
+    min-height: 105px;
+    border-right: 1px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
+    padding: 6px;
+    position: relative;
+    background: #fff;
+    transition: background-color 0.15s;
+}
+.cal-cell:nth-child(7n) {
+    border-right: none;
+}
+.cal-cell:hover {
+    background: #fafbfc;
+}
+.cal-cell-empty {
+    background: #fdfdfd;
+}
+.cal-cell.cal-today {
+    background: #f0f7ff;
+}
+.cal-date-number {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 4px;
+}
+.cal-today-badge {
+    font-size: 0.65rem;
+    padding: 1px 4px;
+    vertical-align: middle;
+}
+.cal-events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.cal-event-badge {
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+.cal-event-badge:hover {
+    transform: scale(1.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.12);
+}
+.cal-badge-comeback {
+    background-color: #e7f1ff;
+    color: #0d6efd;
+    border: 1px solid #b6d4fe;
+}
+.cal-badge-debut {
+    background-color: #fff3cd;
+    color: #997404;
+    border: 1px solid #ffe69c;
+}
+.cal-event-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: currentColor;
+    flex-shrink: 0;
+}
+.cal-event-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.cal-summary-card:hover {
+    background-color: #f8f9fa !important;
+    border-color: #0d6efd !important;
+}
+@media (max-width: 768px) {
+    .cal-cell {
+        min-height: 80px;
+        padding: 3px;
+    }
+    .cal-event-badge {
+        font-size: 0.68rem;
+        padding: 1px 3px;
+    }
+}
