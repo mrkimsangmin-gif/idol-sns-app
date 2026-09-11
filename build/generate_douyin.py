@@ -114,8 +114,13 @@ def build_baked_content(challenges, updated_at):
             action_btns.append(f'<a href="{esc(ch_url)}" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm">검색 보기</a>')
         action_html = " ".join(action_btns)
 
+        # 카드 전체 클릭 링크 지원:
+        # action_btns의 <a> 태그와 중첩(nested <a>)되면 브라우저 파서가 태그를 강제로 분리하여 상단에 빈 블록(공백)이 생기므로,
+        # onclick 이벤트를 통해 카드 클릭 시 이동하도록 처리
+        click_attr = f' onclick="window.open(\'{esc(main_click_url)}\', \'_blank\');"' if main_click_url else ''
+
         card_content = f"""
-            <div class="card h-100 shadow-sm border-0 overflow-hidden position-relative hover-shadow transition-all" style="cursor: pointer;">
+            <div class="card h-100 shadow-sm border-0 overflow-hidden position-relative hover-shadow transition-all" style="cursor: pointer;"{click_attr}>
                 {thumb_html}
                 <div class="card-body d-flex flex-column">
                     {title_html}
@@ -123,35 +128,19 @@ def build_baked_content(challenges, updated_at):
                     <p class="card-text small text-secondary mb-3">{summary}</p>
                     <div class="d-flex justify-content-between align-items-center mt-auto pt-2 border-top">
                         <span class="badge bg-light text-dark">{trend}</span>
-                        <div class="position-relative" style="z-index: 2;">{action_html}</div>
+                        <div class="position-relative" style="z-index: 2;" onclick="event.stopPropagation();">{action_html}</div>
                     </div>
                 </div>
             </div>
         """
 
-        if main_click_url:
-            cards.append(f"""
-            <div class="col-12 col-md-6 col-lg-4">
-                <a href="{esc(main_click_url)}" target="_blank" rel="noopener" class="text-decoration-none text-dark d-block h-100">
-                    {card_content}
-                </a>
-            </div>
-            """)
-        else:
-            cards.append(f"""
-            <div class="col-12 col-md-6 col-lg-4">
-                {card_content}
-            </div>
-            """)
-    
-    return f"""
-    <div class="col-12 mb-3">
-        <div class="alert alert-light border">
-            <strong>중국 도우인(抖音) 주간 트렌드 분석</strong> — 중국 본토에서 가장 바이럴되고 있는 K-POP 및 숏폼 챌린지 순위입니다. (집계일: {updated_at[:10]})
+        cards.append(f"""
+        <div class="col-12 col-md-6 col-lg-4">
+            {card_content}
         </div>
-    </div>
-    {"".join(cards)}
-    """
+        """)
+    
+    return "".join(cards)
 
 def main():
     data_file = ROOT / "data" / "douyin-challenges.json"
@@ -249,13 +238,25 @@ def main():
         '<a class="nav-link active" href="/douyin"',
         "nav douyin active"
     )
-    # baked cards 주입 및 로딩 스피너 숨김
+    # alert 상단 안내문 및 baked cards 주입, 로딩 스피너 숨김
     baked_html = build_baked_content(challenges, updated_at)
+    alert_box = (
+        f'<div class="alert alert-light border mb-3">\n'
+        f'    <strong>중국 도우인(抖音) 주간 트렌드 분석</strong> — 중국 본토에서 가장 바이럴되고 있는 K-POP 및 숏폼 챌린지 순위입니다. (집계일: {updated_at[:10]})\n'
+        f'</div>'
+    )
     t = replace_once(
         t,
         '<div id="douyinLoading" class="text-center py-5">',
         '<div id="douyinLoading" class="text-center py-5 d-none">',
         "hide douyinLoading"
+    )
+    # douyinUpdateTime 제거(불필요한 빈 높이 방지)
+    t = replace_once(
+        t,
+        '<div id="douyinUpdateTime" class="text-muted small mb-3"></div>',
+        alert_box,
+        "replace douyinUpdateTime with alert_box"
     )
     t = replace_once(
         t,
