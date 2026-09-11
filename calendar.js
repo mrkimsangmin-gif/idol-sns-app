@@ -1,5 +1,13 @@
-let calendarGenderMap = null; // slug or clean name -> '남자' | '여자'
-let calGenderFilter = 'all'; // all, male, female
+// ============================================================
+// 📅 자체 K-POP 컴백/데뷔 캘린더 모듈 (calendar.js)
+// ============================================================
+var calendarEvents = [];
+var currentCalYear = 2026;
+var currentCalMonth = 9; // 1-12
+var calFilter = 'all'; // all, comeback, debut
+var calGenderFilter = 'all'; // all, male, female
+var calSearchQuery = '';
+var calendarGenderMap = null; // slug or clean name -> '남자' | '여자'
 
 async function ensureGenderMap() {
     if (calendarGenderMap) return;
