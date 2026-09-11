@@ -4457,15 +4457,17 @@ async function executeMonthlyComeback(container, intent) {
         return;
     }
 
-    // 테이블 렌더링
+    // 테이블 및 모바일 카드 렌더링
     var html = '<div class="namu-smart-answer">' +
         '<div class="namu-smart-answer-header">' +
         '<span class="namu-smart-icon">📅</span>' +
         '<span class="namu-smart-title">' + escapeHtml(titleParts) + '</span>' +
         '<button class="namu-smart-close" onclick="dismissSmartAnswer()" title="닫기">&times;</button>' +
         '</div>' +
-        '<div class="namu-smart-answer-body">' +
-        '<div class="table-responsive"><table class="table table-sm namu-smart-table">' +
+        '<div class="namu-smart-answer-body">';
+
+    // 1. 데스크톱용 테이블 (d-none d-md-block: PC 화면에서는 일목요연한 표 제공)
+    html += '<div class="d-none d-md-block table-responsive"><table class="table table-sm namu-smart-table mb-2">' +
         '<thead><tr><th>일자</th><th>그룹</th><th>앨범 / 타이틀</th><th>구분</th><th>출처</th></tr></thead>' +
         '<tbody>';
 
@@ -4488,11 +4490,39 @@ async function executeMonthlyComeback(container, intent) {
             '<td>' + item.sourceBadge + '</td>' +
             '</tr>';
     }
+    html += '</tbody></table></div>';
 
-    html += '</tbody></table></div>' +
-        '<div class="d-flex justify-content-between align-items-center mt-2 flex-wrap gap-2">' +
-        '<div class="text-muted small">총 ' + merged.length + '건 (나무위키 앨범 DB + 실시간 캘린더 교차 통합)</div>' +
-        '<a href="/comeback" class="btn btn-sm btn-outline-success" onclick="event.preventDefault(); route(\'comeback\');">' +
+    // 2. 모바일 전용 카드 타임라인 (d-md-none: Galaxy S23 등 모바일에서 좌우 스크롤 0% 완전 제거)
+    html += '<div class="d-md-none namu-comeback-card-list d-flex flex-column gap-2 mb-2">';
+    for (var m = 0; m < merged.length; m++) {
+        var mItem = merged[m];
+        var mGroupHtml = mItem.group_name;
+        if (mItem.group_slug) {
+            mGroupHtml = '<a href="javascript:void(0)" onclick="loadNamuGroupBySlug(\'' +
+                escapeSingleQuote(mItem.group_slug) + '\')" class="text-decoration-none fw-bold" style="font-size:1.05rem;">' +
+                escapeHtml(mItem.group_name) + '</a>';
+        } else {
+            mGroupHtml = '<span class="fw-bold" style="font-size:1.05rem;">' + escapeHtml(mItem.group_name) + '</span>';
+        }
+
+        html += '<div class="card p-2 border shadow-sm" style="background:#fff; border-radius:8px;">' +
+            '<div class="d-flex justify-content-between align-items-center mb-1">' +
+            '<span class="badge bg-secondary font-monospace">' + escapeHtml(mItem.date || '-') + '</span>' +
+            mItem.sourceBadge +
+            '</div>' +
+            '<div class="d-flex justify-content-between align-items-baseline gap-2">' +
+            mGroupHtml +
+            '<span class="badge bg-light text-secondary border small text-nowrap">' + escapeHtml(mItem.album_type || '-') + '</span>' +
+            '</div>' +
+            '<div class="small text-dark mt-1" style="word-break:keep-all;">' + escapeHtml(mItem.album_title || '-') + '</div>' +
+            '</div>';
+    }
+    html += '</div>';
+
+    // 3. 하단 요약 및 바로가기 링크
+    html += '<div class="d-flex justify-content-between align-items-center mt-2 flex-wrap gap-2">' +
+        '<div class="text-muted small">총 ' + merged.length + '건 (나무위키 DB + 실시간 캘린더)</div>' +
+        '<a href="/comeback" class="btn btn-sm btn-outline-success w-100 w-md-auto text-center" onclick="event.preventDefault(); route(\'comeback\');">' +
         '📅 실시간 컴백 캘린더 전체보기 (/comeback) →' +
         '</a>' +
         '</div>' +
