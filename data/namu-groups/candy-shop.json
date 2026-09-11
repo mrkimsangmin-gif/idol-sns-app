@@ -5,74 +5,24 @@
   "gender": "여자",
   "namu_url": "https://namu.wiki/w/Candy%20Shop%28%EC%95%84%EC%9D%B4%EB%8F%8C%29",
   "info": {
-    "멤버수": "4",
-    "데뷔일": "2024.03.27",
-    "소속사": "브레이브엔터테인먼트",
-    "그룹명뜻": "수만 가지 캔디처럼 다채로운 매력으로 리스너들을 사로잡겠다는 포부를 담았다.",
-    "팬덤명": "캔디스 (Candies)",
+    "멤버수": "",
+    "데뷔일": "",
+    "소속사": "",
+    "그룹명뜻": "",
+    "팬덤명": "",
     "응원봉": "",
     "훈장": "",
-    "레이블": "브레이브엔터테인먼트",
-    "유통사": "카카오엔터테인먼트",
+    "레이블": "",
+    "유통사": "",
     "결성일": "",
     "활동유 유형": "걸그룹",
-    "인스타그램": "https://www.instagram.com/brave_candyshop/",
-    "유튜브": "https://www.youtube.com/@BRAVE.CandyShop",
-    "X(트위터)": "https://twitter.com/BRAVE_CandyShop",
+    "인스타그램": "",
+    "유튜브": "",
+    "X(트위터)": "",
     "틱톡": "",
-    "멤버목록": "소람, 수이, 사랑, 줄리아",
-    "활동유형": "걸그룹"
+    "멤버목록": ""
   },
-  "members": [
-    {
-      "name": "소람",
-      "본명": "정소람",
-      "생년월일": "2005.09.24",
-      "출생연도": "2005",
-      "출신지": "대한민국",
-      "역할": "리더, 메인보컬",
-      "키": "163cm",
-      "MBTI": "ENFJ",
-      "혈액형": "O형",
-      "info": "캔디샵의 리더이자 메인보컬"
-    },
-    {
-      "name": "수이",
-      "본명": "조수이",
-      "생년월일": "2007.08.15",
-      "출생연도": "2007",
-      "출신지": "대한민국",
-      "역할": "메인댄서, 서브보컬",
-      "키": "164cm",
-      "MBTI": "ESFP",
-      "혈액형": "O형",
-      "info": "방과후 설렘 출신"
-    },
-    {
-      "name": "사랑",
-      "본명": "최사랑",
-      "생년월일": "2007.11.30",
-      "출생연도": "2007",
-      "출신지": "대한민국",
-      "역할": "메인래퍼",
-      "키": "165cm",
-      "MBTI": "INFP",
-      "혈액형": "B형",
-      "info": "방과후 설렘 출신 래퍼"
-    },
-    {
-      "name": "줄리아",
-      "본명": "조혜원",
-      "생년월일": "2008.03.11",
-      "출생연도": "2008",
-      "출신지": "대한민국",
-      "역할": "서브보컬, 막내",
-      "키": "164cm",
-      "MBTI": "ISTP",
-      "혈액형": "B형",
-      "info": "새롭게 합류한 막내 멤버"
-    }
-  ],
+  "members": [],
   "albums": [
     {
       "title": "Hashtag#",
@@ -134,5 +84,39 @@
       "누적_써클": "-",
       "비고": "𝐃𝐨𝐧'𝐭 𝐂𝐫𝐲"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 7540,
+      "spotify_id": "47bUCJh3LXBeQtrTnWEwXn",
+      "top_tracks": [
+        {
+          "title": "Good Girl",
+          "play_count": 687617,
+          "uri": "spotify:track:60g4aWGlvFq9riY0jrTdtZ"
+        },
+        {
+          "title": "Don’t Cry",
+          "play_count": 279083,
+          "uri": "spotify:track:2AvjSaqjZfPJjiFDKXw390"
+        },
+        {
+          "title": "TIP TOE",
+          "play_count": 138586,
+          "uri": "spotify:track:65QEXobLqddjn9u2BHAv0c"
+        },
+        {
+          "title": "Candy#",
+          "play_count": 149676,
+          "uri": "spotify:track:2zKkPAFM2LpZETM9i4puaD"
+        },
+        {
+          "title": "Welcome To My World",
+          "play_count": 68861,
+          "uri": "spotify:track:2ALyPE35doBqbfInV6FJHo"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

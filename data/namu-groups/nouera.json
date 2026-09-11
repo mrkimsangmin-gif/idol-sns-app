@@ -159,5 +159,172 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 53617,
+      "spotify_id": "4YsiijJHnCAjqS9cIXNoTI",
+      "top_tracks": [
+        {
+          "title": "POP IT LIKE",
+          "play_count": 56102,
+          "uri": "spotify:track:0gvr5CBsUgd1PlYsHmvJ3V"
+        },
+        {
+          "title": "N.I.N (New is Now)",
+          "play_count": 559416,
+          "uri": "spotify:track:0F2ntvKX2dNrY8DEEePCHC"
+        },
+        {
+          "title": "Silhouette",
+          "play_count": 23754,
+          "uri": "spotify:track:7cfolLdAVa56V1ltaIj6O0"
+        },
+        {
+          "title": "We are young",
+          "play_count": 17631,
+          "uri": "spotify:track:3WV8ClB26jumU0ppxhmCSF"
+        },
+        {
+          "title": "MU",
+          "play_count": 502343,
+          "uri": "spotify:track:3QhIdQkVUI0tXOnxumSGWf"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1057697,
+      "track_count": 19,
+      "mean_views": 55668,
+      "max_views": 159122,
+      "albums": [
+        {
+          "title": "POP IT LIKE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "POP IT LIKE",
+              "video_id": "wIcwz0nmgVQ",
+              "youtube_views": 42555
+            },
+            {
+              "title": "Silhouette",
+              "video_id": "vEDidq56eLg",
+              "youtube_views": 12022
+            },
+            {
+              "title": "A-LIST",
+              "video_id": "2KQtLVInIzE",
+              "youtube_views": 19300
+            },
+            {
+              "title": "We are young",
+              "video_id": "yzoUej4L8oo",
+              "youtube_views": 7056
+            }
+          ]
+        },
+        {
+          "title": "n: number of cases",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "MYSELF (MYSELF)",
+              "video_id": "YRaFH5e3IZU",
+              "youtube_views": 44061
+            },
+            {
+              "title": "n (number of cases) (n (number of cases))",
+              "video_id": "nBFnGSyCXoo",
+              "youtube_views": 134358
+            },
+            {
+              "title": "MAKE YOU MOVE (MAKE YOU MOVE)",
+              "video_id": "c9Svq_U9_xY",
+              "youtube_views": 77660
+            },
+            {
+              "title": "WARNING! (WARNING!)",
+              "video_id": "xlzjFSpOf3c",
+              "youtube_views": 54184
+            },
+            {
+              "title": "FINALE (FINALE)",
+              "video_id": "MjP1gLgx6ts",
+              "youtube_views": 47195
+            },
+            {
+              "title": "BNB (Beauty and the Beast) (BNB (Beauty and the Beast))",
+              "video_id": "Xbs0NcJSjxM",
+              "youtube_views": 116752
+            }
+          ]
+        },
+        {
+          "title": "BNB (Beauty and the Beast) (Shorts Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BNB (Beauty and the Beast) (Pitch up ver.) (BNB (Beauty and the Beast) (Pitch up ver.))",
+              "video_id": "c28h0hklLxM",
+              "youtube_views": 2663
+            },
+            {
+              "title": "BNB (Beauty and the Beast) (Sped up ver.) (BNB (Beauty and the Beast) (Sped up ver.))",
+              "video_id": "6HdrYmy26k8",
+              "youtube_views": 1861
+            }
+          ]
+        },
+        {
+          "title": "New is Now",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Sparkle (Sparkle)",
+              "video_id": "YfYrnaPWybA",
+              "youtube_views": 31273
+            },
+            {
+              "title": "N.I.N (New is Now) (N.I.N (New is Now))",
+              "video_id": "6ta9yfIh4lo",
+              "youtube_views": 159122
+            },
+            {
+              "title": "Bring the Crunk (Bring the Crunk)",
+              "video_id": "rAFnfmLHFyY",
+              "youtube_views": 62756
+            },
+            {
+              "title": "MU (무한대 (無限大))",
+              "video_id": "jcvREsc3B7g",
+              "youtube_views": 15313
+            },
+            {
+              "title": "Jet Stream (Jet Stream)",
+              "video_id": "KDgGrfi1_PM",
+              "youtube_views": 69538
+            },
+            {
+              "title": "Pairing (Pairing)",
+              "video_id": "0j34p092KY0",
+              "youtube_views": 53717
+            }
+          ]
+        },
+        {
+          "title": "MU (무한대 (無限大))",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "MU (무한대 (無限大))",
+              "video_id": "v2OIwfNi2To",
+              "youtube_views": 106311
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

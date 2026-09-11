@@ -769,5 +769,892 @@
       "누적_써클": "-",
       "비고": "#2 Performance Ver."
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2390544,
+      "spotify_id": "7f4ignuCJhLXfZ9giKT7rH",
+      "top_tracks": [
+        {
+          "title": "Fact Check",
+          "play_count": 115948244,
+          "uri": "spotify:track:5H46gVYLDwpxbsIgPoihO4"
+        },
+        {
+          "title": "Kick It",
+          "play_count": 170053412,
+          "uri": "spotify:track:0yFq4GHDqLfeceyAs63B3W"
+        },
+        {
+          "title": "Walk",
+          "play_count": 48935366,
+          "uri": "spotify:track:5o5mfjvxzxRChb45hbWuuw"
+        },
+        {
+          "title": "Cherry Bomb",
+          "play_count": 163065643,
+          "uri": "spotify:track:3o8QzWsiiqTUVgBZfHgF58"
+        },
+        {
+          "title": "2 Baddies",
+          "play_count": 80797051,
+          "uri": "spotify:track:7035sowF3NNYDfRUO8GF9H"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 299558483,
+      "track_count": 145,
+      "mean_views": 2065920,
+      "max_views": 29515710,
+      "albums": [
+        {
+          "title": "WALK - The 6th Album",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Intro: Wall to Wall",
+              "video_id": "Tjap-6JYY4g",
+              "youtube_views": 427319
+            },
+            {
+              "title": "삐그덕 Walk",
+              "video_id": "wBUeINkAhNI",
+              "youtube_views": 13484271
+            },
+            {
+              "title": "No Clue",
+              "video_id": "0wUHrjWx9LI",
+              "youtube_views": 1103577
+            },
+            {
+              "title": "오렌지색 물감 Orange Seoul",
+              "video_id": "vbPoHDNmp78",
+              "youtube_views": 1040098
+            },
+            {
+              "title": "Pricey",
+              "video_id": "E4YTnzfbe-c",
+              "youtube_views": 1805936
+            },
+            {
+              "title": "Time Capsule",
+              "video_id": "3XRBx1KiHKM",
+              "youtube_views": 893309
+            },
+            {
+              "title": "영화처럼 Can't Help Myself",
+              "video_id": "LSzCqI7HGs0",
+              "youtube_views": 1584266
+            },
+            {
+              "title": "Rain Drop",
+              "video_id": "_JM2LNfzNRI",
+              "youtube_views": 762523
+            },
+            {
+              "title": "Gas",
+              "video_id": "WfLEsYlbqV0",
+              "youtube_views": 1710238
+            },
+            {
+              "title": "서서히 Suddenly",
+              "video_id": "zi0k27_rD80",
+              "youtube_views": 727627
+            },
+            {
+              "title": "사랑한다는 말의 뜻을 알아가자 Meaning of Love",
+              "video_id": "HeQuq-7oL0M",
+              "youtube_views": 3512181
+            }
+          ]
+        },
+        {
+          "title": "Fact Check - The 5th Album",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Fact Check 불가사의; 不可思議",
+              "video_id": "8_vebseoZaM",
+              "youtube_views": 20276882
+            },
+            {
+              "title": "무중력 Space",
+              "video_id": "McEf3W-igRI",
+              "youtube_views": 3123709
+            },
+            {
+              "title": "Parade 행진",
+              "video_id": "eMT-GQrh2A4",
+              "youtube_views": 1301764
+            },
+            {
+              "title": "Angel Eyes",
+              "video_id": "V4RbjUMjyd8",
+              "youtube_views": 2158169
+            },
+            {
+              "title": "Yacht",
+              "video_id": "FCQ2_XE54cM",
+              "youtube_views": 1230813
+            },
+            {
+              "title": "Je Ne Sais Quoi",
+              "video_id": "HhgBKIt3D1k",
+              "youtube_views": 1261399
+            },
+            {
+              "title": "별의 시 Love is a beauty",
+              "video_id": "5mWbt1rCg-Y",
+              "youtube_views": 1075682
+            },
+            {
+              "title": "소나기 Misty",
+              "video_id": "5AhooTyitIg",
+              "youtube_views": 634225
+            },
+            {
+              "title": "Real Life",
+              "video_id": "tmXSq5bQvSU",
+              "youtube_views": 604379
+            }
+          ]
+        },
+        {
+          "title": "Ay-Yo - The 4th Album Repackage",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Ay-Yo",
+              "video_id": "GFxYJDLPoyc",
+              "youtube_views": 6338342
+            },
+            {
+              "title": "Faster",
+              "video_id": "UZ_awywJNiE",
+              "youtube_views": 227621
+            },
+            {
+              "title": "질주 2 Baddies",
+              "video_id": "7rajFLcL2vk",
+              "youtube_views": 222792
+            },
+            {
+              "title": "Time Lapse",
+              "video_id": "spSceBV3qNk",
+              "youtube_views": 167084
+            },
+            {
+              "title": "DJ",
+              "video_id": "ylEf0iQkKkE",
+              "youtube_views": 1721489
+            },
+            {
+              "title": "불시착 Crash Landing",
+              "video_id": "YU-fYhH075w",
+              "youtube_views": 164636
+            },
+            {
+              "title": "Designer",
+              "video_id": "lWbLjOGSDuY",
+              "youtube_views": 172004
+            },
+            {
+              "title": "윤슬 Gold Dust",
+              "video_id": "O9OHV3I1ZPk",
+              "youtube_views": 187229
+            },
+            {
+              "title": "흑백 영화 Black Clouds",
+              "video_id": "Kn7mLdJtjC4",
+              "youtube_views": 140949
+            },
+            {
+              "title": "Playback",
+              "video_id": "gkdTJFC07wA",
+              "youtube_views": 99554
+            },
+            {
+              "title": "Skyscraper 摩天樓; 마천루",
+              "video_id": "030kOnrYl3g",
+              "youtube_views": 2487354
+            },
+            {
+              "title": "Tasty 貘",
+              "video_id": "3XJUWGnrp5s",
+              "youtube_views": 136122
+            },
+            {
+              "title": "Vitamin",
+              "video_id": "uUBEOiBTmv8",
+              "youtube_views": 110575
+            },
+            {
+              "title": "LOL (Laugh-Out-Loud)",
+              "video_id": "XbMFmhgZ0jM",
+              "youtube_views": 111775
+            },
+            {
+              "title": "1, 2, 7 (Time Stops)",
+              "video_id": "Xgrc8bwDM5E",
+              "youtube_views": 100763
+            }
+          ]
+        },
+        {
+          "title": "질주 2 Baddies - The 4th Album",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Faster",
+              "video_id": "J2kiX0OzefU",
+              "youtube_views": 2559467
+            },
+            {
+              "title": "질주 2 Baddies",
+              "video_id": "erITdIMYUUU",
+              "youtube_views": 11418694
+            },
+            {
+              "title": "Time Lapse",
+              "video_id": "lbE0QG8U8u8",
+              "youtube_views": 898051
+            },
+            {
+              "title": "불시착 Crash Landing",
+              "video_id": "IO_VkTFQLfE",
+              "youtube_views": 966866
+            },
+            {
+              "title": "Designer",
+              "video_id": "0cE58SyquQs",
+              "youtube_views": 5478542
+            },
+            {
+              "title": "윤슬 Gold Dust",
+              "video_id": "t9NYwSPYrTQ",
+              "youtube_views": 4737840
+            },
+            {
+              "title": "흑백 영화 Black Clouds",
+              "video_id": "mMypn8rWgKo",
+              "youtube_views": 2680326
+            },
+            {
+              "title": "Playback",
+              "video_id": "CjgkFyuBM1U",
+              "youtube_views": 385873
+            },
+            {
+              "title": "Tasty 貘",
+              "video_id": "PIdXLMKUU1s",
+              "youtube_views": 951809
+            },
+            {
+              "title": "Vitamin",
+              "video_id": "ss9IFSCl3Yc",
+              "youtube_views": 1249683
+            },
+            {
+              "title": "LOL (Laugh-Out-Loud)",
+              "video_id": "dOEfT2ZGj9M",
+              "youtube_views": 1232977
+            },
+            {
+              "title": "1, 2, 7 (Time Stops)",
+              "video_id": "OwhOmo_VrEU",
+              "youtube_views": 1357180
+            }
+          ]
+        },
+        {
+          "title": "Favorite - The 3rd Album Repackage",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Favorite (Vampire)",
+              "video_id": "ZSOZ6Bg4AJQ",
+              "youtube_views": 16383319
+            },
+            {
+              "title": "Sticker",
+              "video_id": "Hcu2_X8qGsg",
+              "youtube_views": 690162
+            },
+            {
+              "title": "Love On The Floor",
+              "video_id": "oabdZFlX6ig",
+              "youtube_views": 3430206
+            },
+            {
+              "title": "Lemonade",
+              "video_id": "fVfCTX6Qchs",
+              "youtube_views": 1242564
+            },
+            {
+              "title": "Breakfast",
+              "video_id": "6m9pHdFRGQs",
+              "youtube_views": 362060
+            },
+            {
+              "title": "Pilot",
+              "video_id": "NKkXK9f4Lr0",
+              "youtube_views": 3061298
+            },
+            {
+              "title": "같은 시선 Focus",
+              "video_id": "d5FMnSoog-I",
+              "youtube_views": 327272
+            },
+            {
+              "title": "내일의 나에게 The Rainy Night",
+              "video_id": "6ItvzbIgwak",
+              "youtube_views": 395377
+            },
+            {
+              "title": "Far",
+              "video_id": "S8Ynsfz9RgA",
+              "youtube_views": 225893
+            },
+            {
+              "title": "Bring The Noize",
+              "video_id": "JHgHkPQt02U",
+              "youtube_views": 205893
+            },
+            {
+              "title": "Magic Carpet Ride",
+              "video_id": "abpy_UTlO_0",
+              "youtube_views": 319941
+            },
+            {
+              "title": "Road Trip",
+              "video_id": "5yHjd-EAPdo",
+              "youtube_views": 841223
+            },
+            {
+              "title": "Dreamer",
+              "video_id": "5F8ATY6AkxQ",
+              "youtube_views": 335226
+            },
+            {
+              "title": "다시 만나는 날 Promise You",
+              "video_id": "rOyWB2IB6l8",
+              "youtube_views": 419966
+            }
+          ]
+        },
+        {
+          "title": "Sticker - The 3rd Album",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Sticker",
+              "video_id": "qDgPJccj7TE",
+              "youtube_views": 9674081
+            },
+            {
+              "title": "Lemonade",
+              "video_id": "M3m0S1dcbOU",
+              "youtube_views": 12874056
+            },
+            {
+              "title": "Breakfast",
+              "video_id": "5jtkbUj8jcE",
+              "youtube_views": 1226292
+            },
+            {
+              "title": "같은 시선 Focus",
+              "video_id": "9TtdzkendDI",
+              "youtube_views": 1193982
+            },
+            {
+              "title": "내일의 나에게 The Rainy Night",
+              "video_id": "mweigzK1Xlk",
+              "youtube_views": 1902161
+            },
+            {
+              "title": "Far",
+              "video_id": "7En5LclCK4Q",
+              "youtube_views": 974318
+            },
+            {
+              "title": "Bring The Noize",
+              "video_id": "T7-gf2mvM3s",
+              "youtube_views": 1308244
+            },
+            {
+              "title": "Magic Carpet Ride",
+              "video_id": "LOdUOirJ-5g",
+              "youtube_views": 1759370
+            },
+            {
+              "title": "Road Trip",
+              "video_id": "JLsWVol3pFI",
+              "youtube_views": 5670680
+            },
+            {
+              "title": "Dreamer",
+              "video_id": "7BnpQaJQ7Zw",
+              "youtube_views": 1556140
+            },
+            {
+              "title": "다시 만나는 날 Promise You",
+              "video_id": "RtF0CrER5zo",
+              "youtube_views": 1647715
+            }
+          ]
+        },
+        {
+          "title": "NCT #127 Neo Zone: The Final Round – The 2nd Album Repackage",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Punch",
+              "video_id": "8g113TIPCuU",
+              "youtube_views": 4135931
+            },
+            {
+              "title": "NonStop",
+              "video_id": "aeisWJKYt54",
+              "youtube_views": 1186481
+            },
+            {
+              "title": "서곡 Prelude 序曲",
+              "video_id": "HcxdCNobCu4",
+              "youtube_views": 414983
+            },
+            {
+              "title": "영웅 Kick It 英雄",
+              "video_id": "Ypn7pytNYac",
+              "youtube_views": 536505
+            },
+            {
+              "title": "꿈 Boom",
+              "video_id": "o_wrTQqGuF8",
+              "youtube_views": 328165
+            },
+            {
+              "title": "낮잠 Pandora's Box",
+              "video_id": "0RPJsYuhzUw",
+              "youtube_views": 368634
+            },
+            {
+              "title": "Day Dream 白日夢",
+              "video_id": "OrHgKv7U0ME",
+              "youtube_views": 175486
+            },
+            {
+              "title": "너의 하루 Make Your Day",
+              "video_id": "u17gtYgvOj4",
+              "youtube_views": 1013838
+            },
+            {
+              "title": "Interlude: Neo Zone",
+              "video_id": "-RSvgrXftJs",
+              "youtube_views": 131187
+            },
+            {
+              "title": "뿔 MAD DOG",
+              "video_id": "HJ12rpoMq5s",
+              "youtube_views": 141929
+            },
+            {
+              "title": "Sit Down!",
+              "video_id": "b7O2WhFqKdU",
+              "youtube_views": 206490
+            },
+            {
+              "title": "메아리 Love Me Now",
+              "video_id": "SfKCDpgTbmg",
+              "youtube_views": 338464
+            },
+            {
+              "title": "우산 Love Song",
+              "video_id": "L78muvKe4Jk",
+              "youtube_views": 1167154
+            },
+            {
+              "title": "백야 White Night",
+              "video_id": "33ICeITcDPE",
+              "youtube_views": 280096
+            },
+            {
+              "title": "Not Alone",
+              "video_id": "pjZ-LRso8hU",
+              "youtube_views": 263240
+            },
+            {
+              "title": "Dreams Come True",
+              "video_id": "bw_IZCH2Ab4",
+              "youtube_views": 454117
+            },
+            {
+              "title": "Elevator (127F)",
+              "video_id": "xnRu036r1ko",
+              "youtube_views": 654495
+            }
+          ]
+        },
+        {
+          "title": "NCT #127 Neo Zone - The 2nd Album",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Elevator (127F)",
+              "video_id": "NREfNoDhgRE",
+              "youtube_views": 3604746
+            },
+            {
+              "title": "영웅 Kick It 英雄",
+              "video_id": "T4U2Wy_Qtg0",
+              "youtube_views": 29515710
+            },
+            {
+              "title": "꿈 Boom",
+              "video_id": "PI6mp9wXd1Y",
+              "youtube_views": 1608684
+            },
+            {
+              "title": "낮잠 Pandora’s Box",
+              "video_id": "FHdbpWrHaoM",
+              "youtube_views": 1662405
+            },
+            {
+              "title": "Day Dream 白日夢",
+              "video_id": "URL1tbT1AhY",
+              "youtube_views": 1059354
+            },
+            {
+              "title": "Interlude: Neo Zone",
+              "video_id": "vsOxp-uGLHA",
+              "youtube_views": 398758
+            },
+            {
+              "title": "뿔 MAD DOG",
+              "video_id": "8KacCVKlcA0",
+              "youtube_views": 953390
+            },
+            {
+              "title": "Sit Down!",
+              "video_id": "9sg7yVuJADc",
+              "youtube_views": 2316370
+            },
+            {
+              "title": "메아리 Love Me Now",
+              "video_id": "qKt5j_SIWdg",
+              "youtube_views": 2127160
+            },
+            {
+              "title": "우산 Love Song",
+              "video_id": "_zGncXkUMFM",
+              "youtube_views": 6430621
+            },
+            {
+              "title": "백야 White Night",
+              "video_id": "gKLSJRzNwBw",
+              "youtube_views": 1638146
+            },
+            {
+              "title": "Not Alone",
+              "video_id": "w3QYJbK5T5E",
+              "youtube_views": 1081221
+            },
+            {
+              "title": "Dreams Come True",
+              "video_id": "bbGwHlXjZ64",
+              "youtube_views": 1730994
+            }
+          ]
+        },
+        {
+          "title": "Awaken",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "Lips",
+              "video_id": "dH84DhjP_cI",
+              "youtube_views": 458052
+            },
+            {
+              "title": "Wakey-Wakey",
+              "video_id": "sLOO6qi-DgU",
+              "youtube_views": 823555
+            },
+            {
+              "title": "Chain",
+              "video_id": "pIxyfDm0sso",
+              "youtube_views": 109997
+            },
+            {
+              "title": "Regular (English Ver.)",
+              "video_id": "q3kESqGIZRU",
+              "youtube_views": 24654
+            },
+            {
+              "title": "Touch (Japanese Ver.)",
+              "video_id": "J45iF1WTs5w",
+              "youtube_views": 230240
+            },
+            {
+              "title": "Blow My Mind",
+              "video_id": "BhInxbIroMI",
+              "youtube_views": 249835
+            },
+            {
+              "title": "Limitless (Japanese Ver.)",
+              "video_id": "V2SrMo-HaNk",
+              "youtube_views": 74484
+            },
+            {
+              "title": "Long Slow Distance",
+              "video_id": "xDJ4hhV5SJE",
+              "youtube_views": 474911
+            },
+            {
+              "title": "Kitchen Beat",
+              "video_id": "LigQfvGoDbo",
+              "youtube_views": 228482
+            },
+            {
+              "title": "Cherry Bomb (Korean Ver.)",
+              "video_id": "8VBFAENM3mk",
+              "youtube_views": 34657
+            },
+            {
+              "title": "Fire Truck (Korean Ver.)",
+              "video_id": "m45NR3aIWzU",
+              "youtube_views": 26998
+            },
+            {
+              "title": "End to Start",
+              "video_id": "vPDaEc_0y-A",
+              "youtube_views": 337897
+            }
+          ]
+        },
+        {
+          "title": "NCT #127 Regulate - The 1st Album Repackage",
+          "year": "2018",
+          "tracks": [
+            {
+              "title": "지금 우리 (City 127)",
+              "video_id": "X__20qoUwHA",
+              "youtube_views": 888270
+            },
+            {
+              "title": "Regular (Korean Version)",
+              "video_id": "KeX31FfJ7FI",
+              "youtube_views": 1277504
+            },
+            {
+              "title": "Replay (PM 01:27)",
+              "video_id": "Ho2q8XFLW9I",
+              "youtube_views": 600429
+            },
+            {
+              "title": "Welcome To My Playground",
+              "video_id": "I2_NC900qYM",
+              "youtube_views": 10198658
+            },
+            {
+              "title": "Knock On",
+              "video_id": "fbQ4VjTS-7s",
+              "youtube_views": 453375
+            },
+            {
+              "title": "나의 모든 순간 (No Longer)",
+              "video_id": "K1MnUwMFucw",
+              "youtube_views": 1084744
+            },
+            {
+              "title": "내 Van (My Van)",
+              "video_id": "UJHj82MLFHo",
+              "youtube_views": 225205
+            },
+            {
+              "title": "Interlude: Regular to Irregular",
+              "video_id": "tQCD4Ero0N8",
+              "youtube_views": 128038
+            },
+            {
+              "title": "Simon Says",
+              "video_id": "g8levlGEciw",
+              "youtube_views": 16133891
+            },
+            {
+              "title": "악몽 (Come Back)",
+              "video_id": "ST-_b2Ygwus",
+              "youtube_views": 564451
+            },
+            {
+              "title": "신기루 (Fly Away With Me)",
+              "video_id": "teR9lah6ilc",
+              "youtube_views": 535131
+            },
+            {
+              "title": "Chain (Korean Version)",
+              "video_id": "nEFfqhbaibI",
+              "youtube_views": 1148084
+            },
+            {
+              "title": "Regular (English Version)",
+              "video_id": "p6CBcMhZjNw",
+              "youtube_views": 3626950
+            },
+            {
+              "title": "Run Back 2 U (Bonus Track)",
+              "video_id": "KSRNLGAhOwI",
+              "youtube_views": 342841
+            }
+          ]
+        },
+        {
+          "title": "Colors",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Colors",
+              "video_id": "gyUL0qVWCvY",
+              "youtube_views": 305736
+            }
+          ]
+        },
+        {
+          "title": "Be There For Me - Winter Special Single",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Be There For Me",
+              "video_id": "nzzpE5J_p4Q",
+              "youtube_views": 5278766
+            },
+            {
+              "title": "나 홀로 집에 Home Alone",
+              "video_id": "d0YyJ1RhpQI",
+              "youtube_views": 1669662
+            },
+            {
+              "title": "하얀 거짓말 White Lie",
+              "video_id": "-kg3PlgWThU",
+              "youtube_views": 1121399
+            }
+          ]
+        },
+        {
+          "title": "Fact Check 불가사의; 不可思議 (Sped Up)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Fact Check 불가사의; 不可思議 (Sped Up)",
+              "video_id": "qMUkz3FoXV8",
+              "youtube_views": 23676
+            }
+          ]
+        },
+        {
+          "title": "Sunny Road",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Sunny Road",
+              "video_id": "gFFhLqzUbBk",
+              "youtube_views": 316153
+            }
+          ]
+        },
+        {
+          "title": "질주 2 Baddies",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "질주 2 Baddies",
+              "video_id": "Y9y7dK87CXw",
+              "youtube_views": 128794
+            }
+          ]
+        },
+        {
+          "title": "Faster",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Faster",
+              "video_id": "QjxRvQQnoBg",
+              "youtube_views": 118086
+            }
+          ]
+        },
+        {
+          "title": "아날로그 트립 Analog Trip NCT 127 OST",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Amino Acid",
+              "video_id": "RdtsDBZ6LLQ",
+              "youtube_views": 1620508
+            }
+          ]
+        },
+        {
+          "title": "Save",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Save",
+              "video_id": "-G0jOKgznvQ",
+              "youtube_views": 4409044
+            }
+          ]
+        },
+        {
+          "title": "LOVEHOLIC",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "gimme gimme",
+              "video_id": "-rcCCkDsXBE",
+              "youtube_views": 1063636
+            },
+            {
+              "title": "Lipstick",
+              "video_id": "iJc0O_X4Xb0",
+              "youtube_views": 345918
+            },
+            {
+              "title": "First Love",
+              "video_id": "ojDaBAEq1fY",
+              "youtube_views": 1368195
+            },
+            {
+              "title": "Chica Bom Bom",
+              "video_id": "7VdwVVQwlsA",
+              "youtube_views": 865494
+            },
+            {
+              "title": "영웅 Kick It 英雄",
+              "video_id": "kOVKO7MNAXc",
+              "youtube_views": 55134
+            },
+            {
+              "title": "Right Now",
+              "video_id": "xPxb8xeyc2I",
+              "youtube_views": 235570
+            }
+          ]
+        },
+        {
+          "title": "Highway to Heaven (English Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Highway to Heaven (English Version)",
+              "video_id": "Oc20LEn4A-M",
+              "youtube_views": 1375222
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -314,5 +314,364 @@
       "누적_써클": "-",
       "비고": "WIN -Korean ver.-"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 265120,
+      "spotify_id": "1lHfzEkKmmvdVDDDLKkcsd",
+      "top_tracks": [
+        {
+          "title": "Movie Star",
+          "play_count": 43442354,
+          "uri": "spotify:track:65pVi11JqwSZqUuYAqLP36"
+        },
+        {
+          "title": "Jungle",
+          "play_count": 17672361,
+          "uri": "spotify:track:0QyLYuhCdzwVk9OkmvwAjh"
+        },
+        {
+          "title": "THUNDER",
+          "play_count": 1619298,
+          "uri": "spotify:track:3yGt3kgfeNIrILkgDXugWn"
+        },
+        {
+          "title": "Save me, Kill me",
+          "play_count": 6036925,
+          "uri": "spotify:track:0Z5gF9M35PmrQooN2lDlkK"
+        },
+        {
+          "title": "Cinema",
+          "play_count": 14801098,
+          "uri": "spotify:track:45WEkgFSP5Af8Huepaj4P1"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 8593339,
+      "track_count": 49,
+      "mean_views": 175374,
+      "max_views": 1666143,
+      "albums": [
+        {
+          "title": "Pinky Swear",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "All For You",
+              "video_id": "fuPY_6bySuw",
+              "youtube_views": 88195
+            },
+            {
+              "title": "Wondering",
+              "video_id": "_lqKGDWsI1Q",
+              "youtube_views": 51738
+            },
+            {
+              "title": "Pinky Swear",
+              "video_id": "dv_xs8rIZjU",
+              "youtube_views": 130969
+            },
+            {
+              "title": "Future maker",
+              "video_id": "RwKyDGcjIhs",
+              "youtube_views": 42713
+            },
+            {
+              "title": "Labyrinth",
+              "video_id": "yMhZ3DlQISM",
+              "youtube_views": 42294
+            },
+            {
+              "title": "WIN (\"The God of HighSchool\" ED)",
+              "video_id": "BQPF4Fk4LVs",
+              "youtube_views": 250743
+            },
+            {
+              "title": "I'll Take You",
+              "video_id": "bo_npai0jz8",
+              "youtube_views": 28947
+            },
+            {
+              "title": "Plastic Umbrella",
+              "video_id": "as18FfIhZRE",
+              "youtube_views": 46732
+            },
+            {
+              "title": "With you",
+              "video_id": "tKhy2XckSc0",
+              "youtube_views": 46878
+            },
+            {
+              "title": "Revival",
+              "video_id": "inUm0HsCQQs",
+              "youtube_views": 134090
+            }
+          ]
+        },
+        {
+          "title": "CIX 1st Album 'OK' Prologue : Be OK",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "BAD DREAM",
+              "video_id": "8NEdz2fzu-0",
+              "youtube_views": 13742
+            },
+            {
+              "title": "Off My Mind",
+              "video_id": "p41lgkr8hdA",
+              "youtube_views": 5755
+            },
+            {
+              "title": "WAVE",
+              "video_id": "w3D-Tb86hIo",
+              "youtube_views": 26297
+            },
+            {
+              "title": "LOST",
+              "video_id": "uBtjaFMWJP8",
+              "youtube_views": 3766
+            },
+            {
+              "title": "Genie in a Bottle",
+              "video_id": "Ggw26qC-Ve8",
+              "youtube_views": 2867
+            },
+            {
+              "title": "20",
+              "video_id": "qOYSC0_1HJA",
+              "youtube_views": 10388
+            },
+            {
+              "title": "ICE",
+              "video_id": "xjd5H5ypzNs",
+              "youtube_views": 4106
+            },
+            {
+              "title": "In & Out",
+              "video_id": "2AcM5UtAhyA",
+              "youtube_views": 4819
+            },
+            {
+              "title": "Confession",
+              "video_id": "kxy0nMKoBVU",
+              "youtube_views": 2237
+            },
+            {
+              "title": "Here For You",
+              "video_id": "wtRxE8qJg9Q",
+              "youtube_views": 1119
+            }
+          ]
+        },
+        {
+          "title": "CIX 8th EP Album GO Chapter 1 : GO Together",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "S.O.S (S.O.S)",
+              "video_id": "FCbQR0O0eEo",
+              "youtube_views": 98181
+            },
+            {
+              "title": "WONDER YOU (니가 궁금해)",
+              "video_id": "HPJf378CXi4",
+              "youtube_views": 281152
+            },
+            {
+              "title": "UPSTANDER (UPSTANDER)",
+              "video_id": "GrGb3-yGpAc",
+              "youtube_views": 64255
+            },
+            {
+              "title": "IN MY DREAMS (환상 속의 그대)",
+              "video_id": "OhHT8Hofi_U",
+              "youtube_views": 68660
+            }
+          ]
+        },
+        {
+          "title": "CIX 7th EP Album 'THUNDER FEVER'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Bad Moves (Bad Moves)",
+              "video_id": "FBMQy2l-mw8",
+              "youtube_views": 193691
+            },
+            {
+              "title": "THUNDER (THUNDER)",
+              "video_id": "19U4wPN5pCY",
+              "youtube_views": 676673
+            },
+            {
+              "title": "Lovers or Enemies (Lovers or Enemies)",
+              "video_id": "U9WIHS_TPwA",
+              "youtube_views": 17884
+            },
+            {
+              "title": "My name is shadow (My name is shadow)",
+              "video_id": "Rr67_9ODbHk",
+              "youtube_views": 18934
+            },
+            {
+              "title": "My Everlasting Sun (My Everlasting Sun)",
+              "video_id": "y0YTPqVdQQY",
+              "youtube_views": 119445
+            }
+          ]
+        },
+        {
+          "title": "CIX 1st Single Album ‘0 or 1’",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Lovers or Enemies (Lovers or Enemies)",
+              "video_id": "r379hoFcI_o",
+              "youtube_views": 707654
+            },
+            {
+              "title": "My name is shadow (그림자)",
+              "video_id": "nNkGkywfA3s",
+              "youtube_views": 130783
+            }
+          ]
+        },
+        {
+          "title": "CIX 6th EP Album 'OK' Episode 2 : I'm OK",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Back to life",
+              "video_id": "qxRURsTVnQg",
+              "youtube_views": 181746
+            },
+            {
+              "title": "Save me, Kill me",
+              "video_id": "DXCnrckrODE",
+              "youtube_views": 1666143
+            },
+            {
+              "title": "Curtain Call",
+              "video_id": "hYqNim15-68",
+              "youtube_views": 228690
+            },
+            {
+              "title": "Color",
+              "video_id": "qoRyXenan6A",
+              "youtube_views": 226459
+            }
+          ]
+        },
+        {
+          "title": "CIX 5th EP Album ‘OK’ Episode 1 : OK Not",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Without You",
+              "video_id": "YQzussbB9m8",
+              "youtube_views": 718613
+            },
+            {
+              "title": "458",
+              "video_id": "RV4BhU3S8Uw",
+              "youtube_views": 831707
+            },
+            {
+              "title": "Bend the Rules",
+              "video_id": "Hv89IYmrBTE",
+              "youtube_views": 370323
+            },
+            {
+              "title": "Drown in Luv",
+              "video_id": "7MAlNXFqbAI",
+              "youtube_views": 533279
+            }
+          ]
+        },
+        {
+          "title": "Wondering",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Wondering",
+              "video_id": "3yw45mTmv6E",
+              "youtube_views": 34544
+            }
+          ]
+        },
+        {
+          "title": "Pinky Swear",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Pinky Swear",
+              "video_id": "bM1cLTPpTJg",
+              "youtube_views": 87917
+            }
+          ]
+        },
+        {
+          "title": "TESSERACT (Prod. Hui, Minit)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "TESSERACT (Prod. Hui, Minit)",
+              "video_id": "YpkMv5Srcu8",
+              "youtube_views": 83287
+            }
+          ]
+        },
+        {
+          "title": "All For You",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "All For You",
+              "video_id": "6In3hTOAnJY",
+              "youtube_views": 24697
+            },
+            {
+              "title": "With you",
+              "video_id": "BHZVXbC8YKA",
+              "youtube_views": 75934
+            },
+            {
+              "title": "Cinema (Japanese Version)",
+              "video_id": "cGB-3WRGOeA",
+              "youtube_views": 57776
+            },
+            {
+              "title": "All For You (Instrumental)",
+              "video_id": "lNdN7OVQUic",
+              "youtube_views": 11738
+            },
+            {
+              "title": "With you (Instrumental)",
+              "video_id": "c9VprLOei4s",
+              "youtube_views": 6340
+            },
+            {
+              "title": "Cinema (Japanese Version) (Instrumental)",
+              "video_id": "ykkYPgob21o",
+              "youtube_views": 9768
+            }
+          ]
+        },
+        {
+          "title": "All For You",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "All For You",
+              "video_id": "dGyjVDZrpsc",
+              "youtube_views": 128671
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

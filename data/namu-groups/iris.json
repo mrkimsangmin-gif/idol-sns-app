@@ -79,5 +79,110 @@
       "누적_써클": "-",
       "비고": "LOVEGAME"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 16658,
+      "spotify_id": "0QQS9kR4qcFg7PLwr3JHgN",
+      "top_tracks": [
+        {
+          "title": "LOVE GAME",
+          "play_count": 523533,
+          "uri": "spotify:track:0d9vze9k7D1H7GOJZHjRev"
+        },
+        {
+          "title": "IRIDISCENT",
+          "play_count": 168771,
+          "uri": "spotify:track:77OZjnlDOhGT0MC7tMJL0z"
+        },
+        {
+          "title": "Wings",
+          "play_count": 221169,
+          "uri": "spotify:track:3LTpV2o1uer2BJ3RlbauKz"
+        },
+        {
+          "title": "KIIRI",
+          "play_count": 154973,
+          "uri": "spotify:track:4WqdjMrxnnatkb3pSVx7qR"
+        },
+        {
+          "title": "ZERØ",
+          "play_count": 106063,
+          "uri": "spotify:track:75Zagq3hkhZfN6em8wLPiN"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1317374,
+      "track_count": 9,
+      "mean_views": 146374,
+      "max_views": 498204,
+      "albums": [
+        {
+          "title": "LOVEGAME",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "LOVEGAME",
+              "video_id": "1bfH6f-Qtok",
+              "youtube_views": 498204
+            }
+          ]
+        },
+        {
+          "title": "IRIDESCENT",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "KIIRI",
+              "video_id": "cwIt-EwDr84",
+              "youtube_views": 110071
+            },
+            {
+              "title": "ZERØ",
+              "video_id": "2UNP_CQXg04",
+              "youtube_views": 151498
+            },
+            {
+              "title": "TIZ",
+              "video_id": "lU3vei7-TaU",
+              "youtube_views": 40703
+            },
+            {
+              "title": "SHANA",
+              "video_id": "y7-CgCWekeM",
+              "youtube_views": 50466
+            },
+            {
+              "title": "LUNÉ",
+              "video_id": "4m9qBPUF-w8",
+              "youtube_views": 84164
+            },
+            {
+              "title": "IRIDESCENT",
+              "video_id": "N1W_HDBcePs",
+              "youtube_views": 177543
+            }
+          ]
+        },
+        {
+          "title": "Wings",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Wings",
+              "video_id": "FvAA_hdncq4",
+              "youtube_views": 196194
+            },
+            {
+              "title": "Wings (Instrumental)",
+              "video_id": "qyd1wpfpyfg",
+              "youtube_views": 8531
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

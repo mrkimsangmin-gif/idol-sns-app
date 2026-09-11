@@ -736,5 +736,39 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 534877,
+      "spotify_id": "0CmvFWTX9zmMNCUi6fHtAx",
+      "top_tracks": [
+        {
+          "title": "REVEAL",
+          "play_count": 40029456,
+          "uri": "spotify:track:14tNUeer5gUbUYvhYYTclS"
+        },
+        {
+          "title": "WATCH IT",
+          "play_count": 17648206,
+          "uri": "spotify:track:3UQw1V8gM5YihFDcnjNkWN"
+        },
+        {
+          "title": "Salty",
+          "play_count": 20743232,
+          "uri": "spotify:track:7Gj8f0zhVvSveNuXRkUGhN"
+        },
+        {
+          "title": "No Air",
+          "play_count": 35787165,
+          "uri": "spotify:track:0mve4vxmwumqI6gnw7euma"
+        },
+        {
+          "title": "The Stealer",
+          "play_count": 34220688,
+          "uri": "spotify:track:2DQgD8rAJLKNptQFK70ndO"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -191,5 +191,189 @@
       "누적_써클": "-",
       "비고": "Sweat & Sour"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 340480,
+      "spotify_id": "1YPfjEiECyLURKu09GfilS",
+      "top_tracks": [
+        {
+          "title": "UFO (ATTENT!ON)",
+          "play_count": 1041903,
+          "uri": "spotify:track:0u5b93C2mDGVfCsMGCdH6T"
+        },
+        {
+          "title": "ShaLala",
+          "play_count": 4459078,
+          "uri": "spotify:track:7JSBM7BSHafBx7RwV5waxR"
+        },
+        {
+          "title": "iLy",
+          "play_count": 2969531,
+          "uri": "spotify:track:4L43LBtfaYIFH1ECv3Xxyz"
+        },
+        {
+          "title": "WaveWay",
+          "play_count": 4783423,
+          "uri": "spotify:track:2xc4Lw2KPK98ZgUfHh3o1D"
+        },
+        {
+          "title": "Hard to Love",
+          "play_count": 420975,
+          "uri": "spotify:track:6FQrKPTJV6emsqH32qOekH"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 14934533,
+      "track_count": 20,
+      "mean_views": 746726,
+      "max_views": 4256926,
+      "albums": [
+        {
+          "title": "&Our Vibe",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Bad Idea",
+              "video_id": "66DoWFWqW_A",
+              "youtube_views": 184947
+            },
+            {
+              "title": "UFO (ATTENT!ON)",
+              "video_id": "kMODKgRgr0E",
+              "youtube_views": 828852
+            },
+            {
+              "title": "Delulu Solulu",
+              "video_id": "cofk7LkRoQU",
+              "youtube_views": 126770
+            },
+            {
+              "title": "Hard to Love",
+              "video_id": "0ETtAnBB52A",
+              "youtube_views": 247687
+            },
+            {
+              "title": "SAY MY NAME",
+              "video_id": "CoRjGBNPCgA",
+              "youtube_views": 223767
+            }
+          ]
+        },
+        {
+          "title": "My lovely journey OST Part.6",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "문을 나선 순간 (Vocal. 소하)",
+              "video_id": "OLduoCbmr50",
+              "youtube_views": 188480
+            },
+            {
+              "title": "문을 나선 순간 (Vocal. 소하) (Inst.)",
+              "video_id": "feH8GMqAD1k",
+              "youtube_views": 8866
+            }
+          ]
+        },
+        {
+          "title": "iLy",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "iLy",
+              "video_id": "HpmKH9wMNQg",
+              "youtube_views": 2486334
+            }
+          ]
+        },
+        {
+          "title": "L.O.V.E (Romantic)) (Villain With A Crush X SAY MY NAME) (Original Webtoon Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "L.O.V.E (Romantic)",
+              "video_id": "H_Sklf4uFT8",
+              "youtube_views": 346541
+            },
+            {
+              "title": "L.O.V.E (Romantic) Instrumental",
+              "video_id": "uXBY95ynCzM",
+              "youtube_views": 15526
+            }
+          ]
+        },
+        {
+          "title": "ShaLala (Japanese version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ShaLala (Japanese Version)",
+              "video_id": "4rnmWTqsBRM",
+              "youtube_views": 128411
+            }
+          ]
+        },
+        {
+          "title": "My Name Is…",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "XOXO",
+              "video_id": "hp3lEMkwiC4",
+              "youtube_views": 425912
+            },
+            {
+              "title": "1,2,3,4",
+              "video_id": "UTCcJiuS1yo",
+              "youtube_views": 331604
+            },
+            {
+              "title": "ShaLala",
+              "video_id": "CZczXpZX5Y4",
+              "youtube_views": 4256926
+            },
+            {
+              "title": "For My Dream",
+              "video_id": "67db0xD7eDk",
+              "youtube_views": 157059
+            },
+            {
+              "title": "He told me",
+              "video_id": "akuYg74n-vc",
+              "youtube_views": 313284
+            }
+          ]
+        },
+        {
+          "title": "SAY MY NAME",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Be a Star",
+              "video_id": "5BTSosFnAzo",
+              "youtube_views": 362116
+            },
+            {
+              "title": "WaveWay",
+              "video_id": "_zgXU_Gx5ww",
+              "youtube_views": 3505666
+            },
+            {
+              "title": "8llowme",
+              "video_id": "21WnUsDqbIM",
+              "youtube_views": 415828
+            },
+            {
+              "title": "Goldilocks Water",
+              "video_id": "XJwPhqJp9mg",
+              "youtube_views": 379957
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

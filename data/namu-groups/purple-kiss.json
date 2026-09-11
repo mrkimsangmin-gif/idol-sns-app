@@ -287,5 +287,470 @@
       "누적_써클": "-",
       "비고": "빙글빙글"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 235028,
+      "spotify_id": "62T5PGHWJ9sxP2SJq20IHq",
+      "top_tracks": [
+        {
+          "title": "Sweet Juice",
+          "play_count": 21737098,
+          "uri": "spotify:track:2th6UWbfVz3hsSDzQAKqy2"
+        },
+        {
+          "title": "Zombie",
+          "play_count": 17245187,
+          "uri": "spotify:track:5zTp64MsWOTdAWWXK7zEPK"
+        },
+        {
+          "title": "Nerdy",
+          "play_count": 11589989,
+          "uri": "spotify:track:6KExHY2Eo0DphK63s2dfYi"
+        },
+        {
+          "title": "Ponzona",
+          "play_count": 13023805,
+          "uri": "spotify:track:597wvQ0bqfJgszRg4eDVy1"
+        },
+        {
+          "title": "DOREMI",
+          "play_count": 1113814,
+          "uri": "spotify:track:05NoTRUIxv24AvRfdPmMkV"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 40470969,
+      "track_count": 69,
+      "mean_views": 586535,
+      "max_views": 4818580,
+      "albums": [
+        {
+          "title": "OUR NOW",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "DOREMI -English ver.- (DOREMI -English ver.-)",
+              "video_id": "pclbzgh4KDg",
+              "youtube_views": 601702
+            },
+            {
+              "title": "WANT U BACK (WANT U BACK)",
+              "video_id": "ZzVDBWySze8",
+              "youtube_views": 240264
+            },
+            {
+              "title": "Unhappily Ever After (Unhappily Ever After)",
+              "video_id": "Q-rwTyk79NM",
+              "youtube_views": 423456
+            },
+            {
+              "title": "Ponzona -English ver.- (Ponzona -English ver.-)",
+              "video_id": "q6DiGAzGNXc",
+              "youtube_views": 318202
+            },
+            {
+              "title": "Zombie -English ver.- (Zombie -English ver.-)",
+              "video_id": "SwWS9ldZ-OQ",
+              "youtube_views": 11804
+            },
+            {
+              "title": "memeM -English ver.- (memeM -English ver.-)",
+              "video_id": "44xHK8d5Yb8",
+              "youtube_views": 59031
+            },
+            {
+              "title": "Sweet Juice -English ver.- (Sweet Juice -English ver.-)",
+              "video_id": "STIN9CnREPE",
+              "youtube_views": 231305
+            },
+            {
+              "title": "7HEAVEN -English ver.- (7HEAVEN -English ver.-)",
+              "video_id": "9wZqXi3YLCE",
+              "youtube_views": 93494
+            }
+          ]
+        },
+        {
+          "title": "memeM",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Intro : Illusion (Intro : Illusion)",
+              "video_id": "WxZUw0OwQ48",
+              "youtube_views": 172192
+            },
+            {
+              "title": "memeM (memeM (맴맴))",
+              "video_id": "FY604jD_gGk",
+              "youtube_views": 1473990
+            },
+            {
+              "title": "Oh My Gosh (날 좀 봐 (Oh My Gosh))",
+              "video_id": "DgWtUpP3oZY",
+              "youtube_views": 475425
+            },
+            {
+              "title": "Pretty Psycho (Pretty Psycho)",
+              "video_id": "KQYHqT8SuAk",
+              "youtube_views": 2190563
+            },
+            {
+              "title": "JOAH (좋아 (JOAH))",
+              "video_id": "G8BLekQ43z0",
+              "youtube_views": 516079
+            },
+            {
+              "title": "Hate me, Hurt me, Love me (Hate me, Hurt me, Love me)",
+              "video_id": "pAjAZQkxawY",
+              "youtube_views": 508527
+            },
+            {
+              "title": "Cursor (빈틈 (Cursor))",
+              "video_id": "IuHweUAp0Xw",
+              "youtube_views": 346852
+            }
+          ]
+        },
+        {
+          "title": "INTO VIOLET",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Intro : Crown (Intro : Crown)",
+              "video_id": "uSkDfszqrhg",
+              "youtube_views": 273549
+            },
+            {
+              "title": "Ponzona (Ponzona)",
+              "video_id": "mYwOouioV88",
+              "youtube_views": 3461058
+            },
+            {
+              "title": "Can We Talk Again (Can We Talk Again)",
+              "video_id": "ULCXofuTLBM",
+              "youtube_views": 151512
+            },
+            {
+              "title": "Skip Skip (Skip Skip)",
+              "video_id": "xAop4TdFV0M",
+              "youtube_views": 1064451
+            },
+            {
+              "title": "Hello (Hello)",
+              "video_id": "qauUH0wfDi8",
+              "youtube_views": 435684
+            },
+            {
+              "title": "My Heart Skip a Beat (My Heart Skip a Beat)",
+              "video_id": "ZFF8gRSIE84",
+              "youtube_views": 135090
+            },
+            {
+              "title": "Period (마침표 (Period))",
+              "video_id": "Rfyom0eMVUE",
+              "youtube_views": 431278
+            }
+          ]
+        },
+        {
+          "title": "A Violet to Remember",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Breath",
+              "video_id": "B_8vbqwGNb0",
+              "youtube_views": 471205
+            },
+            {
+              "title": "Breath (Inst.)",
+              "video_id": "Hsb70Wk7zFc",
+              "youtube_views": 3747
+            }
+          ]
+        },
+        {
+          "title": "I Miss My...",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "DOREMI (DOREMI)",
+              "video_id": "ZkxdK252GG4",
+              "youtube_views": 1831643
+            },
+            {
+              "title": "LOST & FOUND (LOST & FOUND)",
+              "video_id": "ZKlhq5Y6bPg",
+              "youtube_views": 413913
+            },
+            {
+              "title": "VVV (VVV)",
+              "video_id": "IVfwxXcdlfY",
+              "youtube_views": 176414
+            }
+          ]
+        },
+        {
+          "title": "HEADWAY",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Intro : Concrete Jungle (Intro : Concrete Jungle)",
+              "video_id": "A6t-WtZnE8c",
+              "youtube_views": 56786
+            },
+            {
+              "title": "ON MY BIKE (ON MY BIKE)",
+              "video_id": "iTw5WUwbQS0",
+              "youtube_views": 1538674
+            },
+            {
+              "title": "Sweet Nightmare (Sweet Nightmare)",
+              "video_id": "DhplUbhjb6E",
+              "youtube_views": 421394
+            },
+            {
+              "title": "Encore (Encore)",
+              "video_id": "Wis_0VJXuxY",
+              "youtube_views": 369261
+            },
+            {
+              "title": "Light the way (Light the way)",
+              "video_id": "7QoA2NTWaR0",
+              "youtube_views": 327444
+            }
+          ]
+        },
+        {
+          "title": "ON THE VIOLET",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "BBB - Japanese ver. -",
+              "video_id": "kUhR0stsiHM",
+              "youtube_views": 24394
+            },
+            {
+              "title": "Pretty Psycho - Japanese ver. -",
+              "video_id": "NnaPbkyhknQ",
+              "youtube_views": 52220
+            },
+            {
+              "title": "7HEAVEN - Japanese ver. -",
+              "video_id": "aO-d_TTFGzM",
+              "youtube_views": 32944
+            },
+            {
+              "title": "So Far So Good - Japanese ver. -",
+              "video_id": "1V_hWcvV3TY",
+              "youtube_views": 38783
+            }
+          ]
+        },
+        {
+          "title": "BXX (Sped up)",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Intro : Crush (Sped up) (Intro : Crush (Sped up))",
+              "video_id": "lTfvp55g8eo",
+              "youtube_views": 7419
+            },
+            {
+              "title": "BBB (Sped up) (BBB (Sped up))",
+              "video_id": "3RBAatM299A",
+              "youtube_views": 16530
+            },
+            {
+              "title": "BITTER SWEET (Sped up) (BITTER SWEET (Sped up))",
+              "video_id": "aB0jFGJWZw0",
+              "youtube_views": 5789
+            },
+            {
+              "title": "Toy Boy (Sped up) (Toy Boy (Sped up))",
+              "video_id": "tLzNaesZtTM",
+              "youtube_views": 11020
+            },
+            {
+              "title": "Heart Attack (Sped up) (Heart Attack (Sped up))",
+              "video_id": "_KdS_SIuiAc",
+              "youtube_views": 16704
+            },
+            {
+              "title": "Voyager (Sped up) (Voyager (Sped up))",
+              "video_id": "ZdsYw_G6GDU",
+              "youtube_views": 3918
+            }
+          ]
+        },
+        {
+          "title": "BXX",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Intro : Crush (Intro : Crush)",
+              "video_id": "dqI_OaFHISE",
+              "youtube_views": 100609
+            },
+            {
+              "title": "BBB (BBB)",
+              "video_id": "cYl3j7XZpI0",
+              "youtube_views": 1236995
+            },
+            {
+              "title": "BITTER SWEET (BITTER SWEET)",
+              "video_id": "pYGRHwSNa-k",
+              "youtube_views": 400064
+            },
+            {
+              "title": "Toy Boy (Toy Boy)",
+              "video_id": "uBFmJ5tXB8M",
+              "youtube_views": 533896
+            },
+            {
+              "title": "Heart Attack (Heart Attack)",
+              "video_id": "9ntw4lLWjyM",
+              "youtube_views": 1225680
+            },
+            {
+              "title": "Voyager (Voyager)",
+              "video_id": "Z-4V4x9idJ8",
+              "youtube_views": 682793
+            }
+          ]
+        },
+        {
+          "title": "FESTA",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "7HEAVEN (7HEAVEN)",
+              "video_id": "CbTYpOFOPZA",
+              "youtube_views": 1148580
+            },
+            {
+              "title": "Biscuit (Biscuit)",
+              "video_id": "QLm3MKnQze8",
+              "youtube_views": 266554
+            },
+            {
+              "title": "Mistake (Mistake)",
+              "video_id": "6VjTKAoygnE",
+              "youtube_views": 345924
+            }
+          ]
+        },
+        {
+          "title": "DEAR VIOLET",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Sweet Juice -Japanese ver.-",
+              "video_id": "ZeHitEgsbjg",
+              "youtube_views": 88379
+            },
+            {
+              "title": "Nerdy -Japanese ver.-",
+              "video_id": "jAyQJb24vpw",
+              "youtube_views": 140647
+            },
+            {
+              "title": "memeM -Japanese ver.-",
+              "video_id": "RVUCguK9wLM",
+              "youtube_views": 43927
+            },
+            {
+              "title": "トナリ",
+              "video_id": "jHB3JhqR-10",
+              "youtube_views": 161153
+            },
+            {
+              "title": "Zombie -Japanese ver.-",
+              "video_id": "xRvjvQ2Bvc8",
+              "youtube_views": 50149
+            },
+            {
+              "title": "Ponzona -Japanese ver.-",
+              "video_id": "gQG9Y-LXHkY",
+              "youtube_views": 101388
+            }
+          ]
+        },
+        {
+          "title": "Cabin Fever",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Intro : Save Me (Intro : Save Me)",
+              "video_id": "e6_kOupQZQU",
+              "youtube_views": 315930
+            },
+            {
+              "title": "Sweet Juice (Sweet Juice)",
+              "video_id": "UiOyoalCStU",
+              "youtube_views": 4818580
+            },
+            {
+              "title": "T4ke (T4ke)",
+              "video_id": "0VHdP5Kdwrw",
+              "youtube_views": 793890
+            },
+            {
+              "title": "Autopilot (Autopilot)",
+              "video_id": "xlUGwGaow34",
+              "youtube_views": 1283811
+            },
+            {
+              "title": "agit (아지트 (agit))",
+              "video_id": "9U66iJuOguw",
+              "youtube_views": 529938
+            },
+            {
+              "title": "So Far So Good (So Far So Good)",
+              "video_id": "p1m-XOOwoBg",
+              "youtube_views": 508661
+            }
+          ]
+        },
+        {
+          "title": "Geekyland",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Intro : Bye Bye Bully (Intro : Bye Bye Bully)",
+              "video_id": "SuxYNkWtVic",
+              "youtube_views": 137915
+            },
+            {
+              "title": "Nerdy (Nerdy)",
+              "video_id": "faIl6ADj200",
+              "youtube_views": 3913762
+            },
+            {
+              "title": "FireFlower (불꽃 (FireFlower))",
+              "video_id": "A1zFF1Lko4k",
+              "youtube_views": 343726
+            },
+            {
+              "title": "Can't stop dreamin' (Can't stop dreamin')",
+              "video_id": "ucO-MTj2UJQ",
+              "youtube_views": 462181
+            },
+            {
+              "title": "Love Is Dead (Love Is Dead)",
+              "video_id": "SrAetys5rz4",
+              "youtube_views": 867632
+            },
+            {
+              "title": "SuMMer RaiN (SuMMer RaiN)",
+              "video_id": "OrprRyj_L-o",
+              "youtube_views": 532495
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -455,5 +455,39 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 1743282,
+      "spotify_id": "3KonOYiLsU53m4yT7gNotP",
+      "top_tracks": [
+        {
+          "title": "DARARI",
+          "play_count": 271469539,
+          "uri": "spotify:track:0dcnrLo8s1rhjm8euGjI4n"
+        },
+        {
+          "title": "YELLOW",
+          "play_count": 31875535,
+          "uri": "spotify:track:7jKwFhIqA1a1HLk6AsVDYc"
+        },
+        {
+          "title": "PARADISE",
+          "play_count": 19338604,
+          "uri": "spotify:track:20pXBnV8q1xnWzSijxq6QM"
+        },
+        {
+          "title": "JIKJIN",
+          "play_count": 138625093,
+          "uri": "spotify:track:2bnJ8IxZnVc2YmUaX0sZap"
+        },
+        {
+          "title": "HELLO",
+          "play_count": 92036808,
+          "uri": "spotify:track:1ex8euBuzVyqjThnYfwY2k"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

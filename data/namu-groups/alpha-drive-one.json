@@ -5,119 +5,9 @@
   "gender": "남자",
   "namu_url": "https://namu.wiki/w/ALPHA%20DRIVE%20ONE",
   "info": {
-    "틱톡": "https://www.tiktok.com/@ald1_official",
-    "소속사": "웨이크원",
-    "데뷔일": "2026.01.12",
-    "멤버수": "8",
-    "멤버목록": "리오, 준서, 아르노, 건우, 상원, 씬롱, 안신, 상현",
-    "활동유형": "보이그룹",
-    "팬덤명": "",
-    "응원봉": "",
-    "레이블": "웨이크원",
-    "유통사": "지니뮤직",
-    "그룹명뜻": "보이즈플래닛2 데뷔조로 최고(Alpha)를 향해 질주하는 하나의 팀.",
-    "인스타그램": "https://www.instagram.com/ald1.official/",
-    "유튜브": "https://www.youtube.com/@ALD1.official",
-    "X(트위터)": "https://x.com/ALD1_official"
+    "틱톡": "https://www.tiktok.com/@ald1_official"
   },
-  "members": [
-    {
-      "name": "리오",
-      "본명": "리오",
-      "생년월일": "2004.03.11",
-      "출생연도": "2004",
-      "출신지": "대한민국",
-      "역할": "리더, 보컬",
-      "키": "181cm",
-      "MBTI": "ENFJ",
-      "혈액형": "A형",
-      "info": "알파드라이브원의 리더"
-    },
-    {
-      "name": "준서",
-      "본명": "김준서",
-      "생년월일": "2004.09.20",
-      "출생연도": "2004",
-      "출신지": "대한민국",
-      "역할": "메인댄서",
-      "키": "182cm",
-      "MBTI": "ISFP",
-      "혈액형": "O형",
-      "info": "메인댄서"
-    },
-    {
-      "name": "아르노",
-      "본명": "아르노",
-      "생년월일": "2005.01.17",
-      "출생연도": "2005",
-      "출신지": "프랑스",
-      "역할": "보컬",
-      "키": "184cm",
-      "MBTI": "ENTP",
-      "혈액형": "B형",
-      "info": "글로벌 멤버"
-    },
-    {
-      "name": "건우",
-      "본명": "이건우",
-      "생년월일": "2005.06.08",
-      "출생연도": "2005",
-      "출신지": "대한민국",
-      "역할": "메인보컬",
-      "키": "179cm",
-      "MBTI": "INFJ",
-      "혈액형": "A형",
-      "info": "메인보컬"
-    },
-    {
-      "name": "상원",
-      "본명": "이상원",
-      "생년월일": "2006.02.14",
-      "출생연도": "2006",
-      "출신지": "대한민국",
-      "역할": "래퍼",
-      "키": "180cm",
-      "MBTI": "ESTP",
-      "혈액형": "AB형",
-      "info": "래퍼"
-    },
-    {
-      "name": "씬롱",
-      "본명": "씬롱",
-      "생년월일": "2006.08.03",
-      "출생연도": "2006",
-      "출신지": "중국",
-      "역할": "댄서, 보컬",
-      "키": "178cm",
-      "MBTI": "ISFJ",
-      "혈액형": "O형",
-      "info": "댄서"
-    },
-    {
-      "name": "안신",
-      "본명": "안신",
-      "생년월일": "2007.05.29",
-      "출생연도": "2007",
-      "출신지": "대한민국",
-      "역할": "보컬",
-      "키": "183cm",
-      "MBTI": "INFP",
-      "혈액형": "A형",
-      "info": "보컬"
-    },
-    {
-      "name": "상현",
-      "본명": "박상현",
-      "생년월일": "2008.04.12",
-      "출생연도": "2008",
-      "출신지": "대한민국",
-      "역할": "막내, 댄서",
-      "키": "180cm",
-      "MBTI": "ISTP",
-      "혈액형": "B형",
-      "info": "막내"
-    }
-  ],
+  "members": [],
   "albums": [
     {
       "title": "FORMULA",
@@ -149,5 +39,94 @@
       "누적_써클": "-",
       "비고": "프롤로그 싱글"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 1001773,
+      "spotify_id": "1Sal7hVz3weo0mvYZPiWHT",
+      "top_tracks": [
+        {
+          "title": "FREAK ALARM",
+          "play_count": 11833482,
+          "uri": "spotify:track:44V5j1NOwRWBV8krmLnr4J"
+        },
+        {
+          "title": "FORMULA",
+          "play_count": 9338425,
+          "uri": "spotify:track:7z81drJrJ391T2RRwFLNTk"
+        },
+        {
+          "title": "Cinnamon Shake",
+          "play_count": 3689627,
+          "uri": "spotify:track:1Y6uJQVtPFSIZ9KQM6ENLk"
+        },
+        {
+          "title": "Raw Flame",
+          "play_count": 3750605,
+          "uri": "spotify:track:3rOllwiAip3C9sEN3Zdw8Y"
+        },
+        {
+          "title": "Chains",
+          "play_count": 3356037,
+          "uri": "spotify:track:1PK7aiFztDakbQI31cgpPP"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 4252910,
+      "track_count": 7,
+      "mean_views": 607558,
+      "max_views": 1320632,
+      "albums": [
+        {
+          "title": "EUPHORIA",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "FORMULA",
+              "video_id": "mLrgVzTsPHg",
+              "youtube_views": 98828
+            },
+            {
+              "title": "FREAK ALARM",
+              "video_id": "sswr-7fPU3c",
+              "youtube_views": 1320632
+            },
+            {
+              "title": "Raw Flame",
+              "video_id": "rjiIOZCpbx4",
+              "youtube_views": 519220
+            },
+            {
+              "title": "Chains",
+              "video_id": "JXD8tm38eTw",
+              "youtube_views": 267289
+            },
+            {
+              "title": "Never Been 2 Heaven",
+              "video_id": "XJ4XrrsnmuM",
+              "youtube_views": 310698
+            },
+            {
+              "title": "Cinnamon Shake",
+              "video_id": "houY-xCpqoQ",
+              "youtube_views": 503066
+            }
+          ]
+        },
+        {
+          "title": "FORMULA",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "FORMULA",
+              "video_id": "RmN-N_v-y6U",
+              "youtube_views": 1233177
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

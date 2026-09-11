@@ -5,85 +5,24 @@
   "gender": "여자",
   "namu_url": "https://namu.wiki/w/HITGS",
   "info": {
-    "멤버수": "5",
-    "데뷔일": "2025.04.16",
-    "소속사": "H music 엔터테인먼트",
-    "그룹명뜻": "언제 어디서나 세상에 큰 충격을 주겠다는 포부를 담은 걸그룹.",
+    "멤버수": "",
+    "데뷔일": "",
+    "소속사": "",
+    "그룹명뜻": "",
     "팬덤명": "",
     "응원봉": "",
     "훈장": "",
-    "레이블": "H music",
-    "유통사": "카카오엔터테인먼트",
+    "레이블": "",
+    "유통사": "",
     "결성일": "",
-    "활동유형": "걸그룹",
-    "인스타그램": "https://www.instagram.com/hitgs_offcl/",
-    "유튜브": "https://www.youtube.com/@hitgs_offcl",
-    "X(트위터)": "https://x.com/HITGS_offcl",
+    "활동유형": "",
+    "인스타그램": "",
+    "유튜브": "",
+    "X(트위터)": "",
     "틱톡": "",
-    "멤버목록": "비비, 서진, 서희, 혜린, 이유"
+    "멤버목록": ""
   },
-  "members": [
-    {
-      "name": "서진",
-      "본명": "박서진",
-      "생년월일": "2004.05.12",
-      "출생연도": "2004",
-      "출신지": "대한민국",
-      "역할": "리더, 보컬",
-      "키": "166cm",
-      "MBTI": "ENFJ",
-      "혈액형": "A형",
-      "info": "힛지스의 리더"
-    },
-    {
-      "name": "비비",
-      "본명": "비비안",
-      "생년월일": "2005.08.20",
-      "출생연도": "2005",
-      "출신지": "미국",
-      "역할": "보컬, 댄서",
-      "키": "165cm",
-      "MBTI": "ESFP",
-      "혈액형": "O형",
-      "info": "글로벌 멤버"
-    },
-    {
-      "name": "서희",
-      "본명": "이서희",
-      "생년월일": "2006.01.15",
-      "출생연도": "2006",
-      "출신지": "대한민국",
-      "역할": "메인댄서",
-      "키": "167cm",
-      "MBTI": "ISFP",
-      "혈액형": "B형",
-      "info": "메인댄서"
-    },
-    {
-      "name": "혜린",
-      "본명": "정혜린",
-      "생년월일": "2007.03.09",
-      "출생연도": "2007",
-      "출신지": "대한민국",
-      "역할": "메인보컬",
-      "키": "163cm",
-      "MBTI": "INFP",
-      "혈액형": "A형",
-      "info": "메인보컬"
-    },
-    {
-      "name": "이유",
-      "본명": "강이유",
-      "생년월일": "2008.11.22",
-      "출생연도": "2008",
-      "출신지": "대한민국",
-      "역할": "래퍼, 막내",
-      "키": "162cm",
-      "MBTI": "ISTP",
-      "혈액형": "AB형",
-      "info": "막내"
-    }
-  ],
+  "members": [],
   "albums": [
     {
       "title": "Things we love : H",
@@ -145,5 +84,116 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 81999,
+      "spotify_id": "5a83Luu0ndnR1enk1rn83V",
+      "top_tracks": [
+        {
+          "title": "SOURPATCH",
+          "play_count": 1861388,
+          "uri": "spotify:track:6fuMhofxOh5ZmDWUYZnfaO"
+        },
+        {
+          "title": "HAPPY",
+          "play_count": 394185,
+          "uri": "spotify:track:1RKdxCUdiyGSWscrdx7Aq6"
+        },
+        {
+          "title": "A-HA!",
+          "play_count": 280188,
+          "uri": "spotify:track:1LSjczwxC2j0KecAWkdPNk"
+        },
+        {
+          "title": "CHARIZZMA",
+          "play_count": 366162,
+          "uri": "spotify:track:4Hn0GvDg93eOaNxcSHg3Yi"
+        },
+        {
+          "title": "GROSS",
+          "play_count": 461719,
+          "uri": "spotify:track:010b7ratgDLYeyd2RWYlhB"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 4329439,
+      "track_count": 9,
+      "mean_views": 481048,
+      "max_views": 1674350,
+      "albums": [
+        {
+          "title": "Things we love : I",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "HAPPY (HAPPY)",
+              "video_id": "r_QK3l1JzyQ",
+              "youtube_views": 292019
+            },
+            {
+              "title": "A-HA! (A-HA!)",
+              "video_id": "8HHC6eWIm5M",
+              "youtube_views": 284011
+            },
+            {
+              "title": "PAGE (PAGE)",
+              "video_id": "tGo9-_kufmY",
+              "youtube_views": 758709
+            },
+            {
+              "title": "GROSS (GROSS)",
+              "video_id": "760AJjZV1L0",
+              "youtube_views": 4718
+            },
+            {
+              "title": "CHARIZZMA (CHARIZZMA)",
+              "video_id": "4E-kI2Z_Rjw",
+              "youtube_views": 4607
+            }
+          ]
+        },
+        {
+          "title": "CHARIZZMA",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "CHARIZZMA (CHARIZZMA)",
+              "video_id": "lF_yurwrpOs",
+              "youtube_views": 598207
+            }
+          ]
+        },
+        {
+          "title": "GROSS",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "GROSS (GROSS)",
+              "video_id": "pV6T903ciJU",
+              "youtube_views": 512875
+            }
+          ]
+        },
+        {
+          "title": "The 1st Single Album - Things we love : H",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SOURPATCH (SOURPATCH)",
+              "video_id": "wbatCFur47M",
+              "youtube_views": 1674350
+            },
+            {
+              "title": "Never Be Me (Never Be Me)",
+              "video_id": "X8GPbN2LYPg",
+              "youtube_views": 199943
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

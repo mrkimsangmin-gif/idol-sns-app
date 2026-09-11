@@ -107,5 +107,68 @@
       "누적_써클": "-",
       "비고": "수록곡은 모두 영어 가사로 이루어져 있다."
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 12399,
+      "spotify_id": "4s2pgu0LdVcJvTlmvysg65",
+      "top_tracks": [
+        {
+          "title": "I want you to",
+          "play_count": 790253,
+          "uri": "spotify:track:6mFl1IDAlZ97b1wsXCRh0X"
+        },
+        {
+          "title": "Bleeding Heart",
+          "play_count": 137734,
+          "uri": "spotify:track:2fVmQ2xPADbqrlafdrO9dW"
+        },
+        {
+          "title": "Love Drive",
+          "play_count": 113230,
+          "uri": "spotify:track:3z5p8n7CgS7oVe6bDSY5mW"
+        },
+        {
+          "title": "My Only Love",
+          "play_count": 82662,
+          "uri": "spotify:track:0oI4TjNbMN4LJHk2K4ojJS"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1521715,
+      "track_count": 4,
+      "mean_views": 380428,
+      "max_views": 1024517,
+      "albums": [
+        {
+          "title": "ALWAYS SOME MORE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "I want you to",
+              "video_id": "I6YYqKY2pz8",
+              "youtube_views": 1024517
+            },
+            {
+              "title": "Love Drive",
+              "video_id": "JyoUYvw01nk",
+              "youtube_views": 211111
+            },
+            {
+              "title": "Bleeding Heart",
+              "video_id": "FnEpsftOTD8",
+              "youtube_views": 208701
+            },
+            {
+              "title": "My Only Love",
+              "video_id": "LgHNu052ALE",
+              "youtube_views": 77386
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

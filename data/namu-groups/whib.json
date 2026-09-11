@@ -133,5 +133,147 @@
       "누적_써클": "1,2**",
       "비고": "ETERNAL"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 97517,
+      "spotify_id": "4pTBL6fTowmWTa61ef7RNb",
+      "top_tracks": [
+        {
+          "title": "ROCK THE NATION",
+          "play_count": 214347,
+          "uri": "spotify:track:5eUqyBKFdnSDjaljStvIbC"
+        },
+        {
+          "title": "ELEVATE",
+          "play_count": 114787,
+          "uri": "spotify:track:2QCOgZ74aR4WG77yBOaEnb"
+        },
+        {
+          "title": "NO SHINE",
+          "play_count": 80609,
+          "uri": "spotify:track:1qpH1kzZxGPEfz8kUHqjXR"
+        },
+        {
+          "title": "BANG OUT",
+          "play_count": 378791,
+          "uri": "spotify:track:4DTxOXmrJsgDkiSl1nCapH"
+        },
+        {
+          "title": "Still typing.. (subtitle: blank)",
+          "play_count": 237045,
+          "uri": "spotify:track:0dEpctQ4a01K7xtl3QhnXt"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1258734,
+      "track_count": 14,
+      "mean_views": 89909,
+      "max_views": 221045,
+      "albums": [
+        {
+          "title": "ROCK THE NATION",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "WHO'S THE NEXT",
+              "video_id": "yQDj9GVAxLE",
+              "youtube_views": 24255
+            },
+            {
+              "title": "ROCK THE NATION",
+              "video_id": "esP5L5XH_6M",
+              "youtube_views": 63684
+            },
+            {
+              "title": "DDANG",
+              "video_id": "bfM_keNUKFA",
+              "youtube_views": 13139
+            },
+            {
+              "title": "ELEVATE",
+              "video_id": "5k8ZvmLosPM",
+              "youtube_views": 32723
+            },
+            {
+              "title": "NO SHINE",
+              "video_id": "pOjCDw6msLw",
+              "youtube_views": 17781
+            }
+          ]
+        },
+        {
+          "title": "BANG OUT",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BANG OUT (BANG OUT)",
+              "video_id": "vs9-SymKoCU",
+              "youtube_views": 196631
+            },
+            {
+              "title": "Still typing.. (subtitle: blank) (Still typing.. (부제: 빈칸))",
+              "video_id": "iJztLuqZYZI",
+              "youtube_views": 47300
+            }
+          ]
+        },
+        {
+          "title": "Rush of Joy",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Rush of Joy (배로 (Rush of Joy))",
+              "video_id": "1VvXbCOL2V0",
+              "youtube_views": 132814
+            },
+            {
+              "title": "Play (해! (Play))",
+              "video_id": "1Dz-ft78Www",
+              "youtube_views": 85472
+            }
+          ]
+        },
+        {
+          "title": "ETERNAL YOUTH : KICK IT",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "KICK IT (KICK IT)",
+              "video_id": "N10ltO_s81k",
+              "youtube_views": 211279
+            },
+            {
+              "title": "IN THE MOOD (IN THE MOOD)",
+              "video_id": "odIjULWY5jo",
+              "youtube_views": 86459
+            },
+            {
+              "title": "KICK IT (English ver.) (KICK IT (English ver.))",
+              "video_id": "HJ92uFfYnd8",
+              "youtube_views": 15639
+            }
+          ]
+        },
+        {
+          "title": "Cut-Out",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BANG! (BANG!)",
+              "video_id": "XA3IzKNdbKQ",
+              "youtube_views": 221045
+            },
+            {
+              "title": "DIZZY (DIZZY)",
+              "video_id": "gSIDfWqYGFc",
+              "youtube_views": 110513
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

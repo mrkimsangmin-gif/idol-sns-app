@@ -187,5 +187,221 @@
       "누적_써클": "-",
       "비고": "안녕 내일"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 78215,
+      "spotify_id": "3q4h0WRGyR0Qcx88vwyzkd",
+      "top_tracks": [
+        {
+          "title": "With US",
+          "play_count": 4882592,
+          "uri": "spotify:track:56R2Pn5bi2EWbuO1fZWXUh"
+        },
+        {
+          "title": "Only One",
+          "play_count": 1237414,
+          "uri": "spotify:track:7JYn7yfGVOVs639BKb2exc"
+        },
+        {
+          "title": "Hello, My First Love",
+          "play_count": 1366780,
+          "uri": "spotify:track:6hZNzsNJAS1FFNJF0PI5jf"
+        },
+        {
+          "title": "ISLAND",
+          "play_count": 2008814,
+          "uri": "spotify:track:5d5uB8YAUkG5zNf7yp4Cmk"
+        },
+        {
+          "title": "Heart Fluttering",
+          "play_count": 388705,
+          "uri": "spotify:track:1DbEKfRapMzbRf5RJ33RCB"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 10950365,
+      "track_count": 24,
+      "mean_views": 456265,
+      "max_views": 4419935,
+      "albums": [
+        {
+          "title": "Hello Tomorrow",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Hello Tomorrow",
+              "video_id": "U4qbJ3RZ9aA",
+              "youtube_views": 94019
+            }
+          ]
+        },
+        {
+          "title": "Only One Story",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Intro : My",
+              "video_id": "T1moJPCLP7c",
+              "youtube_views": 14162
+            },
+            {
+              "title": "Only One",
+              "video_id": "BcDbNJ9jmXM",
+              "youtube_views": 1259026
+            },
+            {
+              "title": "Memory Film",
+              "video_id": "eBOnx9-uhxI",
+              "youtube_views": 96647
+            }
+          ]
+        },
+        {
+          "title": "NEW:SPACE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Hello, My Space",
+              "video_id": "HKQd65bux3Y",
+              "youtube_views": 22746
+            },
+            {
+              "title": "New Space",
+              "video_id": "kUIg4l6IZGU",
+              "youtube_views": 33986
+            }
+          ]
+        },
+        {
+          "title": "Hello : My First Love",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Hello, My First Love",
+              "video_id": "6PipZg-H56U",
+              "youtube_views": 1456426
+            },
+            {
+              "title": "Whoo",
+              "video_id": "TAu7BVX1zqk",
+              "youtube_views": 98093
+            },
+            {
+              "title": "I Don’t Thing",
+              "video_id": "XQyeMf769lQ",
+              "youtube_views": 167231
+            },
+            {
+              "title": "Good Morning",
+              "video_id": "9iNOhfcRnlU",
+              "youtube_views": 102586
+            },
+            {
+              "title": "Way To Home",
+              "video_id": "0xHznd_Tly0",
+              "youtube_views": 79030
+            }
+          ]
+        },
+        {
+          "title": "Sirius Part. 2",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Sirius Part. 2",
+              "video_id": "t2bi906hzjk",
+              "youtube_views": 131119
+            }
+          ]
+        },
+        {
+          "title": "Our : YouthTeen",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "H! TEEN",
+              "video_id": "29cqekPaKOg",
+              "youtube_views": 214710
+            },
+            {
+              "title": "Heart Fluttering",
+              "video_id": "g1AaWZNAta4",
+              "youtube_views": 231862
+            },
+            {
+              "title": "Friendship",
+              "video_id": "9CLKd8oxj5w",
+              "youtube_views": 180170
+            },
+            {
+              "title": "Happy B Day",
+              "video_id": "gXFxY1Dvaic",
+              "youtube_views": 69906
+            }
+          ]
+        },
+        {
+          "title": "Ready : Summer vacation",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Ready",
+              "video_id": "ClZ8cSLVEIQ",
+              "youtube_views": 29876
+            },
+            {
+              "title": "WE GO",
+              "video_id": "wgMZhpHExcQ",
+              "youtube_views": 403837
+            },
+            {
+              "title": "Summer vacation",
+              "video_id": "10C4LiVcALU",
+              "youtube_views": 15956
+            }
+          ]
+        },
+        {
+          "title": "Summer vacation",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Summer vacation",
+              "video_id": "NI99pOERkX8",
+              "youtube_views": 257700
+            }
+          ]
+        },
+        {
+          "title": "Beginning : The Wind Page",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Sirius",
+              "video_id": "qVJZqs_p6IE",
+              "youtube_views": 249633
+            },
+            {
+              "title": "ISLAND",
+              "video_id": "wLFVruTlyGA",
+              "youtube_views": 959079
+            },
+            {
+              "title": "Do it",
+              "video_id": "MRLViFfWZZk",
+              "youtube_views": 362630
+            },
+            {
+              "title": "With US",
+              "video_id": "N3eDrp5vmTE",
+              "youtube_views": 4419935
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

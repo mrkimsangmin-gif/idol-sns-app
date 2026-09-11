@@ -239,5 +239,212 @@
       "누적_써클": "-",
       "비고": "참여 음반, 곡: Super Star"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 98064,
+      "spotify_id": "3jcfHmXvjOgHzfyVE55GzZ",
+      "top_tracks": [
+        {
+          "title": "Psycho and Beautiful",
+          "play_count": 3980592,
+          "uri": "spotify:track:66hTmSvvdanE90lCEp7ogV"
+        },
+        {
+          "title": "Tick Tick Boom",
+          "play_count": 6756133,
+          "uri": "spotify:track:5CGu1xKXdFIScS9gHiVosM"
+        },
+        {
+          "title": "SHUT DOWN",
+          "play_count": 6965089,
+          "uri": "spotify:track:5BVB03000Trb3zHlkjqJFe"
+        },
+        {
+          "title": "Crack-Crack-Crackle",
+          "play_count": 2699255,
+          "uri": "spotify:track:4cFkNoWvPbLJSe7bay50sI"
+        },
+        {
+          "title": "CLASSY",
+          "play_count": 5582155,
+          "uri": "spotify:track:7LEupZwTQBhbvvHmxttUeP"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 7630305,
+      "track_count": 21,
+      "mean_views": 363347,
+      "max_views": 2071618,
+      "albums": [
+        {
+          "title": "LOVE XX",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Psycho and Beautiful (Psycho and Beautiful)",
+              "video_id": "zP6lD7uWDDg",
+              "youtube_views": 1786043
+            },
+            {
+              "title": "Love Game (Love Game)",
+              "video_id": "JrP7Zwp2q90",
+              "youtube_views": 234743
+            },
+            {
+              "title": "Psycho and Beautiful (Inst) (Psycho and Beautiful (Inst))",
+              "video_id": "BqhF4ooUJHk",
+              "youtube_views": 27213
+            },
+            {
+              "title": "Love Game (Inst) (Love Game (Inst))",
+              "video_id": "G4T2qR63NpY",
+              "youtube_views": 7298
+            }
+          ]
+        },
+        {
+          "title": "Crack-Crack-Crackle",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Crack-Crack-Crackle",
+              "video_id": "Pti1AYOJI-g",
+              "youtube_views": 1189565
+            }
+          ]
+        },
+        {
+          "title": "My Love",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "My Love",
+              "video_id": "Gmo51voIukY",
+              "youtube_views": 3141
+            }
+          ]
+        },
+        {
+          "title": "Target",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Target",
+              "video_id": "5OJrgI1e7wM",
+              "youtube_views": 136192
+            }
+          ]
+        },
+        {
+          "title": "Day&Night",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Tick Tick Boom",
+              "video_id": "q9CdCrQfHfA",
+              "youtube_views": 26922
+            },
+            {
+              "title": "ZEALOUS",
+              "video_id": "c6QSqo9aHyc",
+              "youtube_views": 14998
+            }
+          ]
+        },
+        {
+          "title": "Can I Call It Love",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Can I Call It Love",
+              "video_id": "2vF0dRzApDY",
+              "youtube_views": 689508
+            },
+            {
+              "title": "Can I Call It Love (Instrumental)",
+              "video_id": "rDZgAVcqROw",
+              "youtube_views": 7171
+            }
+          ]
+        },
+        {
+          "title": "NEW FESTA EPISODE.9 (뉴페스타 EPISODE.9)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "A chance encounter (어쩌다 마주친 그대)",
+              "video_id": "CMK_4PktwBw",
+              "youtube_views": 22079
+            },
+            {
+              "title": "In Summer (여름 안에서)",
+              "video_id": "vBE8MyEsgg4",
+              "youtube_views": 63299
+            },
+            {
+              "title": "CLASSY (CLASSY)",
+              "video_id": "2e-QqXx4_1w",
+              "youtube_views": 47652
+            }
+          ]
+        },
+        {
+          "title": "SHUT DOWN (JP Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SHUT DOWN (JP Version)",
+              "video_id": "Hykivmt71qs",
+              "youtube_views": 130300
+            },
+            {
+              "title": "SAME SAME DIFFERENT (JP Version)",
+              "video_id": "JDi1lxRYujk",
+              "youtube_views": 5060
+            }
+          ]
+        },
+        {
+          "title": "SAME SAME DIFFERENT (JP Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SAME SAME DIFFERENT (JP Version)",
+              "video_id": "qteHt9I5-eI",
+              "youtube_views": 57750
+            }
+          ]
+        },
+        {
+          "title": "LIVES ACROSS",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "CLASSY",
+              "video_id": "G59XJGFlBXM",
+              "youtube_views": 2071618
+            },
+            {
+              "title": "SURPRISE",
+              "video_id": "j5B3WE4zApU",
+              "youtube_views": 401677
+            },
+            {
+              "title": "SAME SAME DIFFERENT",
+              "video_id": "d3cMep0KVF4",
+              "youtube_views": 313004
+            },
+            {
+              "title": "DIVIN’ INTO YOU",
+              "video_id": "lVIWbm_pEZ4",
+              "youtube_views": 395072
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

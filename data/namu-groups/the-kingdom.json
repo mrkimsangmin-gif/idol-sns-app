@@ -277,5 +277,396 @@
       "누적_써클": "-",
       "비고": "사랑만들기 + 할 수 있어"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 38079,
+      "spotify_id": "0p5Ot7c8cFHtS82hd1WBN3",
+      "top_tracks": [
+        {
+          "title": "Excalibur",
+          "play_count": 3931395,
+          "uri": "spotify:track:5uNEmROkf5izWfrQ9oLvAQ"
+        },
+        {
+          "title": "Last Flower",
+          "play_count": 209995,
+          "uri": "spotify:track:0M1NR0EXFkMoy8nt4JNXKH"
+        },
+        {
+          "title": "KARMA",
+          "play_count": 3067047,
+          "uri": "spotify:track:7r0SUODm7Wq4yTpT2KKtg8"
+        },
+        {
+          "title": "Ascension",
+          "play_count": 1817771,
+          "uri": "spotify:track:0ZabC2gf38O0lQsPs00irH"
+        },
+        {
+          "title": "Dystopia",
+          "play_count": 1276192,
+          "uri": "spotify:track:6tksGYo7SrnXF7Cj3sLWav"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 6514583,
+      "track_count": 59,
+      "mean_views": 110416,
+      "max_views": 492445,
+      "albums": [
+        {
+          "title": "History Of Kingdom: Pt. VII. JAHAN",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "INTRO: APOCALYPSE",
+              "video_id": "4SaNz5AySrY",
+              "youtube_views": 20412
+            },
+            {
+              "title": "COUP D’ETAT",
+              "video_id": "nwL1CO2m4gc",
+              "youtube_views": 221734
+            },
+            {
+              "title": "LOVE SONG",
+              "video_id": "yvYlXwAoLKc",
+              "youtube_views": 89020
+            },
+            {
+              "title": "X-GAME",
+              "video_id": "5aSswrW9WUs",
+              "youtube_views": 90417
+            },
+            {
+              "title": "ON MY WAY",
+              "video_id": "0zi-pLa__0Y",
+              "youtube_views": 93279
+            },
+            {
+              "title": "SANDCASTLE",
+              "video_id": "MwVmR5AKvBA",
+              "youtube_views": 81927
+            },
+            {
+              "title": "COUP D’ETAT (Instrumental)",
+              "video_id": "6Z9JFu6JK1U",
+              "youtube_views": 22212
+            }
+          ]
+        },
+        {
+          "title": "History Of Kingdom: Pt. Ⅵ. Mujin",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Intro: Stigma",
+              "video_id": "z5y-gdtGY8E",
+              "youtube_views": 35021
+            },
+            {
+              "title": "Dystopia",
+              "video_id": "e2NOOUUOe_8",
+              "youtube_views": 270487
+            },
+            {
+              "title": "Song of the Wind",
+              "video_id": "bH9com9B818",
+              "youtube_views": 150618
+            },
+            {
+              "title": "Elements",
+              "video_id": "Qj9Z9HaTnCY",
+              "youtube_views": 109336
+            },
+            {
+              "title": "My Wave",
+              "video_id": "8M9cRTpktpU",
+              "youtube_views": 71480
+            },
+            {
+              "title": "Love is Pain",
+              "video_id": "uRsrrNUgISc",
+              "youtube_views": 99946
+            },
+            {
+              "title": "Dystopia (Instrumental)",
+              "video_id": "sQC76qNz3Xk",
+              "youtube_views": 23681
+            }
+          ]
+        },
+        {
+          "title": "History Of Kingdom: Pt.Ⅴ. Louis",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Intro: Requiem",
+              "video_id": "hLD4gua9rGg",
+              "youtube_views": 32419
+            },
+            {
+              "title": "Long Live The King",
+              "video_id": "VMD3jY8mwPQ",
+              "youtube_views": 315189
+            },
+            {
+              "title": "Period",
+              "video_id": "QQo-zZLbfW4",
+              "youtube_views": 119603
+            },
+            {
+              "title": "Destiny",
+              "video_id": "niufXRM0EQw",
+              "youtube_views": 133251
+            },
+            {
+              "title": "WAKA WAKA",
+              "video_id": "j64yCnfKnf0",
+              "youtube_views": 55575
+            },
+            {
+              "title": "Poison",
+              "video_id": "lLxDiKHG6Dg",
+              "youtube_views": 101730
+            },
+            {
+              "title": "Long Live The King (Instrumental)",
+              "video_id": "XF5ptOAI_EQ",
+              "youtube_views": 19239
+            }
+          ]
+        },
+        {
+          "title": "History Of Kingdom: Pt. IV. Dann",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Intro: Palace",
+              "video_id": "--1DEeTcC5E",
+              "youtube_views": 37317
+            },
+            {
+              "title": "Ascension",
+              "video_id": "S5WtJYt29tg",
+              "youtube_views": 283049
+            },
+            {
+              "title": "Blinder",
+              "video_id": "jT7agq68vno",
+              "youtube_views": 92574
+            },
+            {
+              "title": "Illusion",
+              "video_id": "3lRbCiiNJBs",
+              "youtube_views": 141868
+            },
+            {
+              "title": "Appetite",
+              "video_id": "ga9y0321eGw",
+              "youtube_views": 141024
+            },
+            {
+              "title": "The Song of Dann (Promise)",
+              "video_id": "mA5TwO11ShY",
+              "youtube_views": 211205
+            },
+            {
+              "title": "Ascension (Instrumental)",
+              "video_id": "vNRyKGocskE",
+              "youtube_views": 27705
+            }
+          ]
+        },
+        {
+          "title": "History Of Kingdom: Pt. III. Ivan",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Intro: Legacy of Hatred",
+              "video_id": "Td1Kqz9NKSU",
+              "youtube_views": 38240
+            },
+            {
+              "title": "Black Crown",
+              "video_id": "A7Iq1NL4MAI",
+              "youtube_views": 245381
+            },
+            {
+              "title": "Fallen Star",
+              "video_id": "RnBO7Hm1iNY",
+              "youtube_views": 114512
+            },
+            {
+              "title": "We Are",
+              "video_id": "XgyclFXgmlE",
+              "youtube_views": 190221
+            },
+            {
+              "title": "Burn",
+              "video_id": "Ix9XEHNJrz0",
+              "youtube_views": 111634
+            },
+            {
+              "title": "ON AIR",
+              "video_id": "HqMMvj-3-vA",
+              "youtube_views": 86775
+            },
+            {
+              "title": "Black Crown (Instrumental)",
+              "video_id": "lrR3VANk694",
+              "youtube_views": 25197
+            }
+          ]
+        },
+        {
+          "title": "History Of Kingdom: Part II . Chiwoo",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Intro: Echoes of Nirvana",
+              "video_id": "5hJCaU58Lt8",
+              "youtube_views": 50421
+            },
+            {
+              "title": "KARMA",
+              "video_id": "g-SgJRE_qy4",
+              "youtube_views": 492445
+            },
+            {
+              "title": "Eternity",
+              "video_id": "ovaSZQqGcH4",
+              "youtube_views": 90684
+            },
+            {
+              "title": "Magical",
+              "video_id": "I-oIpGBLuB0",
+              "youtube_views": 205952
+            },
+            {
+              "title": "Warning",
+              "video_id": "yBpaL7dSLvY",
+              "youtube_views": 217671
+            },
+            {
+              "title": "MAKE US",
+              "video_id": "QnEzc8bVBNg",
+              "youtube_views": 55933
+            },
+            {
+              "title": "KARMA (Instrumental)",
+              "video_id": "l9oLXsaPX3g",
+              "youtube_views": 34652
+            }
+          ]
+        },
+        {
+          "title": "History Of Kingdom: Pt. I. Arthur",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Intro: Majestic Departure",
+              "video_id": "eo_qBY-bRy8",
+              "youtube_views": 25155
+            },
+            {
+              "title": "Excalibur",
+              "video_id": "87jmG7lqsA4",
+              "youtube_views": 208058
+            },
+            {
+              "title": "Night Air",
+              "video_id": "dU1rR_BsS7U",
+              "youtube_views": 43786
+            },
+            {
+              "title": "Picasso",
+              "video_id": "g73ICxZT3f0",
+              "youtube_views": 73465
+            },
+            {
+              "title": "X",
+              "video_id": "pZCwF5gBaro",
+              "youtube_views": 28462
+            },
+            {
+              "title": "Night Air (Acoustic Ver.)",
+              "video_id": "H0dBwnu2wE4",
+              "youtube_views": 20724
+            },
+            {
+              "title": "Excalibur (Instrumental)",
+              "video_id": "V4Ayf20DTfE",
+              "youtube_views": 12991
+            }
+          ]
+        },
+        {
+          "title": "the flower of the moon",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Last Flower",
+              "video_id": "q9KicY_7o5g",
+              "youtube_views": 72223
+            },
+            {
+              "title": "Festival",
+              "video_id": "COB7HYMKDTY",
+              "youtube_views": 13951
+            },
+            {
+              "title": "Forget",
+              "video_id": "QW2BI2efpcY",
+              "youtube_views": 67986
+            },
+            {
+              "title": "Last Flower (Instrumental)",
+              "video_id": "IoGFcOPNE20",
+              "youtube_views": 6128
+            }
+          ]
+        },
+        {
+          "title": "REALIZE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Flip that Coin",
+              "video_id": "8IcieZwnMYA",
+              "youtube_views": 338039
+            },
+            {
+              "title": "ENERGY",
+              "video_id": "moM2yKLsvW0",
+              "youtube_views": 105680
+            },
+            {
+              "title": "RusHush",
+              "video_id": "5ePRPTle04Q",
+              "youtube_views": 124858
+            },
+            {
+              "title": "GUNDAM",
+              "video_id": "_URkbMjldTY",
+              "youtube_views": 148821
+            },
+            {
+              "title": "BEST THING",
+              "video_id": "DD3BX617zVk",
+              "youtube_views": 87336
+            },
+            {
+              "title": "Together",
+              "video_id": "NSMVGXSaHsY",
+              "youtube_views": 85884
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

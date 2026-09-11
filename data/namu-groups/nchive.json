@@ -137,5 +137,39 @@
       "누적_써클": "-",
       "비고": "LUV+ME Track Video"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 3801,
+      "spotify_id": "3DA03oZ7LDPXNup162ton5",
+      "top_tracks": [
+        {
+          "title": "CAN'T CATCH ME",
+          "play_count": 27309,
+          "uri": "spotify:track:1o4zoaOfSioQadjDmrMvhk"
+        },
+        {
+          "title": "Racer",
+          "play_count": 110294,
+          "uri": "spotify:track:4VZpFlqSmkNeCSTihvmrTc"
+        },
+        {
+          "title": "Fireworks",
+          "play_count": 54164,
+          "uri": "spotify:track:2Z8nnjb9vQqdWRt3BSXxJA"
+        },
+        {
+          "title": "Flash",
+          "play_count": 14074,
+          "uri": "spotify:track:09W2FuTFDxbkX522VYQAm4"
+        },
+        {
+          "title": "Dive In",
+          "play_count": 48540,
+          "uri": "spotify:track:01qVbv1y2TFnMgtk2XQxkw"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

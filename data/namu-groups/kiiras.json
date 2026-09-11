@@ -125,5 +125,138 @@
       "누적_써클": "",
       "비고": "싱글 2집"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 34387,
+      "spotify_id": "21reDxe0sRtmiUmBIfffaZ",
+      "top_tracks": [
+        {
+          "title": "BANG BANG!",
+          "play_count": 354592,
+          "uri": "spotify:track:3slGM2bvDw2tNpsbxOZLPR"
+        },
+        {
+          "title": "KILL MA BO$$",
+          "play_count": 559558,
+          "uri": "spotify:track:2Fi5t4tvfo4jJK6MFLgUcw"
+        },
+        {
+          "title": "D.D.D.D",
+          "play_count": 108780,
+          "uri": "spotify:track:5I4BqleDs3q0qVvoMZplK7"
+        },
+        {
+          "title": "ZILLER!",
+          "play_count": 183719,
+          "uri": "spotify:track:2nN9LqqBFhquYyqgjO0bKf"
+        },
+        {
+          "title": "KIIRASMAS",
+          "play_count": 53092,
+          "uri": "spotify:track:4ZS0ihT9lEzL4MKjDip7N5"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1104216,
+      "track_count": 11,
+      "mean_views": 100383,
+      "max_views": 402512,
+      "albums": [
+        {
+          "title": "KIIRASMAS",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "KIIRASMAS",
+              "video_id": "lAR3rKedt1w",
+              "youtube_views": 70972
+            }
+          ]
+        },
+        {
+          "title": "BANG BANG!",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "D.D.D.D",
+              "video_id": "U7FStrWr_cc",
+              "youtube_views": 111216
+            },
+            {
+              "title": "BANG BANG!",
+              "video_id": "zCRyHHeDdoc",
+              "youtube_views": 321176
+            },
+            {
+              "title": "BANG BANG! (Inst.)",
+              "video_id": "Sd-dgUs8eTg",
+              "youtube_views": 6724
+            }
+          ]
+        },
+        {
+          "title": "BANG BANG!",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BANG BANG!",
+              "video_id": "_S66XDHKeGo",
+              "youtube_views": 17019
+            }
+          ]
+        },
+        {
+          "title": "KILL MA BO$$",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "KILL MA BO$$",
+              "video_id": "THS-OLO0oDM",
+              "youtube_views": 45443
+            },
+            {
+              "title": "ZILLER!",
+              "video_id": "z-20Mm8MnnM",
+              "youtube_views": 104858
+            },
+            {
+              "title": "KILL MA BO$$ (Real Country Mix ver.)",
+              "video_id": "gqTuxBls_OM",
+              "youtube_views": 18829
+            },
+            {
+              "title": "KILL MA BO$$ (Instrumental)",
+              "video_id": "4-LUNt7M6dk",
+              "youtube_views": 2958
+            }
+          ]
+        },
+        {
+          "title": "KILL MA BO$$",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "KILL MA BO$$ (KILL MA BO$$)",
+              "video_id": "y-buFk-9gww",
+              "youtube_views": 402512
+            }
+          ]
+        },
+        {
+          "title": "KILL MA BO$$ (Short ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "KILL MA BO$$ (Short ver.) (KILL MA BO$$ (Short ver.))",
+              "video_id": "hSS9DridLnk",
+              "youtube_views": 2509
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

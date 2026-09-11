@@ -103,5 +103,171 @@
       "누적_써클": "-",
       "비고": "사계의 봄 OST Part 1"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 107356,
+      "spotify_id": "2XUQUIfzPtEZtkjU0D9y8C",
+      "top_tracks": [
+        {
+          "title": "SEE YOU LATER",
+          "play_count": 1171516,
+          "uri": "spotify:track:15q2nuxEjPin3TAum685tf"
+        },
+        {
+          "title": "PASS",
+          "play_count": 184758,
+          "uri": "spotify:track:0V32dVXNkIfrRrenhbR0Sz"
+        },
+        {
+          "title": "Thereafter",
+          "play_count": 130572,
+          "uri": "spotify:track:0XUwd2IUSjzOrqGkz8kE1P"
+        },
+        {
+          "title": "I Did It",
+          "play_count": 360067,
+          "uri": "spotify:track:6AKmmsg5C3p86Nm8qwzYc1"
+        },
+        {
+          "title": "Punch-Drunk",
+          "play_count": 105120,
+          "uri": "spotify:track:0h6lFZY3Q69WFUT0SAfBPG"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 2191259,
+      "track_count": 20,
+      "mean_views": 109562,
+      "max_views": 400884,
+      "albums": [
+        {
+          "title": "Amplify My Way",
+          "year": "2026",
+          "tracks": [
+            {
+              "title": "PASS",
+              "video_id": "WDCX8bKblYc",
+              "youtube_views": 145876
+            },
+            {
+              "title": "Too Much",
+              "video_id": "h4_MMHVl32w",
+              "youtube_views": 16257
+            },
+            {
+              "title": "Punch-Drunk",
+              "video_id": "YKQ1qXlY380",
+              "youtube_views": 18687
+            },
+            {
+              "title": "I Melody You",
+              "video_id": "62MFyi8Crus",
+              "youtube_views": 22504
+            },
+            {
+              "title": "Thereafter",
+              "video_id": "QUrjKW1GR5s",
+              "youtube_views": 145884
+            },
+            {
+              "title": "Bittersweet",
+              "video_id": "DFJqv5Pwwfw",
+              "youtube_views": 20384
+            },
+            {
+              "title": "Be yours",
+              "video_id": "6DZmMT0RC1A",
+              "youtube_views": 31356
+            }
+          ]
+        },
+        {
+          "title": "AxMxP",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Calling All You (Calling All You)",
+              "video_id": "kQmA5p2M3mY",
+              "youtube_views": 86336
+            },
+            {
+              "title": "Love Poem (너는 나를 시인으로 만들어 (Love Poem))",
+              "video_id": "v-QajRnzWYU",
+              "youtube_views": 356411
+            },
+            {
+              "title": "White T-shirt (White T-shirt)",
+              "video_id": "JXGifEFhmIs",
+              "youtube_views": 201737
+            },
+            {
+              "title": "Season of Tears (우기가 찾아와 (Season of Tears))",
+              "video_id": "oxlGR9Mk9jo",
+              "youtube_views": 84063
+            },
+            {
+              "title": "My Secret Story (너만 모르는 나의 이야기 (My Secret Story))",
+              "video_id": "XXjcVG6J9TI",
+              "youtube_views": 121600
+            },
+            {
+              "title": "Shocking Drama (Shocking Drama)",
+              "video_id": "8UVVnA8XKgE",
+              "youtube_views": 145939
+            },
+            {
+              "title": "Monday To Sunday (Monday To Sunday)",
+              "video_id": "pu_7EMCYDlQ",
+              "youtube_views": 149197
+            },
+            {
+              "title": "Headbang (Headbang)",
+              "video_id": "HDB_q6uGXVM",
+              "youtube_views": 68154
+            },
+            {
+              "title": "I Did It (I Did It)",
+              "video_id": "-RIcbPH9iNU",
+              "youtube_views": 124004
+            },
+            {
+              "title": "Buzzer Beater (Buzzer Beater)",
+              "video_id": "hptS44fBSZQ",
+              "youtube_views": 39048
+            }
+          ]
+        },
+        {
+          "title": "AxMxPxaradox",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "AxMxPxaradox",
+              "video_id": "51r_4iXKCWA",
+              "youtube_views": 2521
+            }
+          ]
+        },
+        {
+          "title": "Spring of Youth (Original Soundtrack) Part.1",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SEE YOU LATER",
+              "video_id": "s4mQvhbc270",
+              "youtube_views": 400884
+            },
+            {
+              "title": "SEE YOU LATER (Inst.)",
+              "video_id": "6VnIZHBHK-Q",
+              "youtube_views": 10417
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

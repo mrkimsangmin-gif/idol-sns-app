@@ -605,5 +605,390 @@
       "누적_써클": "",
       "비고": "Gimme Dat Love"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 7147706,
+      "spotify_id": "2AfmfGFbe0A0WsTYm0SDTx",
+      "top_tracks": [
+        {
+          "title": "Mono (Feat. skaiwater)",
+          "play_count": 14111752,
+          "uri": "spotify:track:2KYKOG5dNgY4sZHWf5hr3g"
+        },
+        {
+          "title": "Queencard",
+          "play_count": 417587595,
+          "uri": "spotify:track:68r87x3VZdAMhv8nBVuynz"
+        },
+        {
+          "title": "Nxde",
+          "play_count": 319978589,
+          "uri": "spotify:track:7Ejqkb9YfldcLoh8B6bXgj"
+        },
+        {
+          "title": "TOMBOY",
+          "play_count": 369400525,
+          "uri": "spotify:track:6WYsZJDfUOftGVji74yYSU"
+        },
+        {
+          "title": "POP/STARS",
+          "play_count": 419717733,
+          "uri": "spotify:track:3em2uN4cCWHcCXhjMzJ8ps"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 380082011,
+      "track_count": 53,
+      "mean_views": 7171358,
+      "max_views": 149760622,
+      "albums": [
+        {
+          "title": "We are i-dle",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "LATATA (i-dle ver.) (LATATA (i-dle ver.))",
+              "video_id": "rxlQ5OgscMo",
+              "youtube_views": 575737
+            },
+            {
+              "title": "HANN (Alone) (i-dle ver.) (한(一) (i-dle ver.))",
+              "video_id": "gVMx_g2EZBM",
+              "youtube_views": 276119
+            },
+            {
+              "title": "Senorita (i-dle ver.) (Senorita (i-dle ver.))",
+              "video_id": "9BtAwTlIZrI",
+              "youtube_views": 245533
+            },
+            {
+              "title": "Uh-Oh (i-dle ver.) (Uh-Oh (i-dle ver.))",
+              "video_id": "KQZlCpsRG5Y",
+              "youtube_views": 203314
+            },
+            {
+              "title": "Oh my god (i-dle ver.) (Oh my god (i-dle ver.))",
+              "video_id": "agS7Ys9WR9M",
+              "youtube_views": 308133
+            },
+            {
+              "title": "LION (i-dle ver.) (LION (i-dle ver.))",
+              "video_id": "jp7CnpbB-rQ",
+              "youtube_views": 306983
+            },
+            {
+              "title": "i’M THE TREND (i-dle ver.) (i’M THE TREND (i-dle ver.))",
+              "video_id": "ZJJCum3klMQ",
+              "youtube_views": 173678
+            },
+            {
+              "title": "DUMDi DUMDi (i-dle ver.) (덤디덤디 (DUMDi DUMDi) (i-dle ver.))",
+              "video_id": "WKc3BGQ7FjI",
+              "youtube_views": 171058
+            },
+            {
+              "title": "HWAA (i-dle ver.) (화(火花) (i-dle ver.))",
+              "video_id": "DQOSZMlu620",
+              "youtube_views": 268901
+            }
+          ]
+        },
+        {
+          "title": "2",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Super Lady (Super Lady)",
+              "video_id": "DWP7XTudxcg",
+              "youtube_views": 51200513
+            },
+            {
+              "title": "Revenge (Revenge)",
+              "video_id": "J2XMe2bGx4Q",
+              "youtube_views": 4636299
+            },
+            {
+              "title": "Doll (Doll)",
+              "video_id": "aa-970O1GEc",
+              "youtube_views": 5523681
+            },
+            {
+              "title": "Vision (Vision)",
+              "video_id": "zMQ9Mufkwb0",
+              "youtube_views": 2536090
+            },
+            {
+              "title": "7Days (7Days)",
+              "video_id": "xk9-O-NmIJo",
+              "youtube_views": 6700388
+            },
+            {
+              "title": "Fate (나는 아픈 건 딱 질색이니까)",
+              "video_id": "vBJVWOOsB4A",
+              "youtube_views": 149760622
+            },
+            {
+              "title": "Rollie (Rollie)",
+              "video_id": "TBrlE7qFx2o",
+              "youtube_views": 4583360
+            },
+            {
+              "title": "Wife (Wife)",
+              "video_id": "B0WWnKfat1A",
+              "youtube_views": 30994720
+            }
+          ]
+        },
+        {
+          "title": "I NEVER DIE",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "TOMBOY (TOMBOY)",
+              "video_id": "R8vTHi-h3kE",
+              "youtube_views": 81219
+            },
+            {
+              "title": "Never Stop Me (말리지 마)",
+              "video_id": "VwhaC-NFbZo",
+              "youtube_views": 67226
+            },
+            {
+              "title": "VILLAIN DIES (VILLAIN DIES)",
+              "video_id": "8OTuIGtNacg",
+              "youtube_views": 100946
+            },
+            {
+              "title": "ALREADY (ALREADY)",
+              "video_id": "uUu7FmjqO1E",
+              "youtube_views": 75915
+            },
+            {
+              "title": "POLAROID (POLAROID)",
+              "video_id": "dJdemmguASc",
+              "youtube_views": 68261
+            },
+            {
+              "title": "ESCAPE (ESCAPE)",
+              "video_id": "tbehg21dZAA",
+              "youtube_views": 78446
+            },
+            {
+              "title": "LIAR (LIAR)",
+              "video_id": "FrTVbpNi76E",
+              "youtube_views": 84386
+            },
+            {
+              "title": "MY BAG (MY BAG)",
+              "video_id": "958Ggzo5CdA",
+              "youtube_views": 46512
+            }
+          ]
+        },
+        {
+          "title": "Mono (feat. skaiwater)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Mono (Feat. skaiwater)",
+              "video_id": "7Hh9rm_9Aco",
+              "youtube_views": 9131093
+            }
+          ]
+        },
+        {
+          "title": "i-dle",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Where Do We Go",
+              "video_id": "8N7VN2kRGxc",
+              "youtube_views": 1473985
+            },
+            {
+              "title": "Invincible",
+              "video_id": "BiaPFyAu7t0",
+              "youtube_views": 875257
+            },
+            {
+              "title": "Farewell to the World",
+              "video_id": "FlpiE5vpEzY",
+              "youtube_views": 430790
+            },
+            {
+              "title": "Fate (Japanese ver.)",
+              "video_id": "-QxkLeBY85Q",
+              "youtube_views": 140984
+            },
+            {
+              "title": "Queencard (Japanese ver.)",
+              "video_id": "FnDu_-mgV2M",
+              "youtube_views": 241000
+            }
+          ]
+        },
+        {
+          "title": "Fate (Japanese ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Fate (Japanese ver.)",
+              "video_id": "tujptltnMvM",
+              "youtube_views": 454544
+            }
+          ]
+        },
+        {
+          "title": "'Solo Leveling:ARISE' (Original Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ARISE",
+              "video_id": "PZIfT1aXED8",
+              "youtube_views": 740098
+            },
+            {
+              "title": "ARISE (Instrumental)",
+              "video_id": "4EeLXMmQdME",
+              "youtube_views": 11451
+            }
+          ]
+        },
+        {
+          "title": "We are",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Good Thing (Good Thing)",
+              "video_id": "b_lHhgt08yQ",
+              "youtube_views": 14588993
+            },
+            {
+              "title": "Girlfriend (Girlfriend)",
+              "video_id": "gQMmFQWUSgE",
+              "youtube_views": 2841259
+            },
+            {
+              "title": "Love Tease (Love Tease)",
+              "video_id": "wxmuTI96h68",
+              "youtube_views": 1504961
+            },
+            {
+              "title": "Chain (Chain)",
+              "video_id": "Y9T7Rm9dXxc",
+              "youtube_views": 1779251
+            },
+            {
+              "title": "Unstoppable (Unstoppable)",
+              "video_id": "tG8-iN9WC4c",
+              "youtube_views": 1355775
+            },
+            {
+              "title": "If You Want (그래도 돼요)",
+              "video_id": "chjPWMknHgU",
+              "youtube_views": 1253845
+            }
+          ]
+        },
+        {
+          "title": "Good Thing (Short ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Good Thing (Short ver.) (Good Thing (Short ver.))",
+              "video_id": "0bXbHPizjx8",
+              "youtube_views": 426007
+            }
+          ]
+        },
+        {
+          "title": "I SWAY",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Klaxon (클락션 (Klaxon))",
+              "video_id": "-hUX3-eXmUE",
+              "youtube_views": 54658173
+            },
+            {
+              "title": "Last Forever (Last Forever)",
+              "video_id": "docmg0oGpXY",
+              "youtube_views": 3244291
+            },
+            {
+              "title": "Bloom (Bloom)",
+              "video_id": "QKhpMrixFco",
+              "youtube_views": 3883165
+            },
+            {
+              "title": "Neverland (Neverland)",
+              "video_id": "t0Dox99MAIc",
+              "youtube_views": 2125442
+            }
+          ]
+        },
+        {
+          "title": "Abracadabra [THE SEASONS: Red Carpet with Lee Hyo Ri]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Abracadabra",
+              "video_id": "iY2zXgejnvI",
+              "youtube_views": 3457640
+            },
+            {
+              "title": "Abracadabra (Instrumental)",
+              "video_id": "FOibJsOBCa0",
+              "youtube_views": 108053
+            }
+          ]
+        },
+        {
+          "title": "Wife",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Wife (Wife)",
+              "video_id": "Zgh97eWYLs8",
+              "youtube_views": 13478054
+            }
+          ]
+        },
+        {
+          "title": "HEAT",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "I DO",
+              "video_id": "fZsCqQK5F5A",
+              "youtube_views": 137891
+            },
+            {
+              "title": "I Want That",
+              "video_id": "2ksDnWkgniM",
+              "youtube_views": 653215
+            },
+            {
+              "title": "Eyes Roll",
+              "video_id": "Y8j-t_Hdrv4",
+              "youtube_views": 1751717
+            },
+            {
+              "title": "Flip It",
+              "video_id": "mXVOZjZXNfw",
+              "youtube_views": 119271
+            },
+            {
+              "title": "Tall Trees",
+              "video_id": "0eJJhGTPLP8",
+              "youtube_views": 147766
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -295,5 +295,329 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 429731,
+      "spotify_id": "5bxwvIM9PX0CkpS6f1L2Ff",
+      "top_tracks": [
+        {
+          "title": "XXL",
+          "play_count": 18790238,
+          "uri": "spotify:track:05QXjyZgsAq6J84J6SlbyV"
+        },
+        {
+          "title": "VISA",
+          "play_count": 658226,
+          "uri": "spotify:track:3rLQaj0aIBRBEsSwHGY0HP"
+        },
+        {
+          "title": "FREESTYLE",
+          "play_count": 2614759,
+          "uri": "spotify:track:2irWsdZn8v8NEzyr08JTTN"
+        },
+        {
+          "title": "ATE THAT",
+          "play_count": 8110773,
+          "uri": "spotify:track:6spCL6M22BQACNDd70Gov3"
+        },
+        {
+          "title": "MACARONI CHEESE",
+          "play_count": 8585045,
+          "uri": "spotify:track:1CqMpf1w1IPWWq4Zxa2RxK"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 27551639,
+      "track_count": 42,
+      "mean_views": 655991,
+      "max_views": 10118939,
+      "albums": [
+        {
+          "title": "Growing Pain pt.1 : FREE",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "YSSR",
+              "video_id": "xKtiWJtMJ8k",
+              "youtube_views": 349131
+            },
+            {
+              "title": "FREESTYLE",
+              "video_id": "u44WHX1MgXE",
+              "youtube_views": 1128247
+            },
+            {
+              "title": "ADHD",
+              "video_id": "W-FFXstPhjY",
+              "youtube_views": 181549
+            },
+            {
+              "title": "School’s Out (SUNHYE, DOEUN)",
+              "video_id": "05kKRYETsvs",
+              "youtube_views": 609133
+            },
+            {
+              "title": "MON3Y 8ANK",
+              "video_id": "R5X5HGJHfew",
+              "youtube_views": 101603
+            },
+            {
+              "title": "soju",
+              "video_id": "PfycYVmMOT0",
+              "youtube_views": 108551
+            },
+            {
+              "title": "Same Shit, Another One",
+              "video_id": "o16aOeWMGOk",
+              "youtube_views": 136884
+            }
+          ]
+        },
+        {
+          "title": "COLD",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "COLD (feat.10CM)",
+              "video_id": "_WyuvQFmhPA",
+              "youtube_views": 924981
+            },
+            {
+              "title": "Lovestagram",
+              "video_id": "ukVnn7Hm4VU",
+              "youtube_views": 52358
+            },
+            {
+              "title": "Blue Dot",
+              "video_id": "2Fql5vKks5E",
+              "youtube_views": 411246
+            },
+            {
+              "title": "Daddy Don't Leave Me",
+              "video_id": "UNB9u_Y3N-o",
+              "youtube_views": 42511
+            },
+            {
+              "title": "Santa Claus Left Me No Goodz",
+              "video_id": "39Aj7Vl499A",
+              "youtube_views": 56695
+            },
+            {
+              "title": "Oskar's Drawing",
+              "video_id": "14FBlICAO0s",
+              "youtube_views": 37102
+            },
+            {
+              "title": "COLD (YPS Colder Ver.)",
+              "video_id": "40IGri_DTno",
+              "youtube_views": 56751
+            }
+          ]
+        },
+        {
+          "title": "VISA / Pilot3",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "VISA",
+              "video_id": "742bD3GD1vM",
+              "youtube_views": 260954
+            },
+            {
+              "title": "Pilot3 (feat. KOONTA)",
+              "video_id": "OmIvWEwtYmg",
+              "youtube_views": 142692
+            }
+          ]
+        },
+        {
+          "title": "LOSE YOUR SHXT ('Hearts' Series Vol. 3)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "LOSE YOUR SHXT",
+              "video_id": "lHQStcAh7PY",
+              "youtube_views": 317668
+            }
+          ]
+        },
+        {
+          "title": "Head over Heels, Pt. 2 (Original Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "UPSIDE DOWN",
+              "video_id": "zlJjCKIg7QI",
+              "youtube_views": 324794
+            },
+            {
+              "title": "UPSIDE DOWN (Instrumental)",
+              "video_id": "aeuqLwJxdFM",
+              "youtube_views": 10068
+            }
+          ]
+        },
+        {
+          "title": "Street Carol…(With John Park)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Street Carol…(With John Park)",
+              "video_id": "jBcPvIOeU6Y",
+              "youtube_views": 152987
+            }
+          ]
+        },
+        {
+          "title": "Year 1 : We Still Loading",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "We Still Loading (FEAT. Los, Rick Bridges, Northfacegawd, DJ SKY)",
+              "video_id": "Jz4Cwc_jN-k",
+              "youtube_views": 66593
+            },
+            {
+              "title": "MACARONI CHEESE (inst.)",
+              "video_id": "UYTCX2I9t_k",
+              "youtube_views": 15925
+            },
+            {
+              "title": "XXL (inst.)",
+              "video_id": "tbiJxVt9t1o",
+              "youtube_views": 27410
+            },
+            {
+              "title": "On My Scars (inst.)",
+              "video_id": "P37Kdu6cjLI",
+              "youtube_views": 12779
+            },
+            {
+              "title": "ATE THAT (inst.)",
+              "video_id": "61h-rsC3ffk",
+              "youtube_views": 31011
+            },
+            {
+              "title": "We Still Loading (inst.)",
+              "video_id": "IdT6BJvTgio",
+              "youtube_views": 7426
+            }
+          ]
+        },
+        {
+          "title": "ATE THAT EP",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Loading…",
+              "video_id": "ubzMIXJYeYg",
+              "youtube_views": 345977
+            },
+            {
+              "title": "ATE THAT",
+              "video_id": "BsxsQ1_BeXU",
+              "youtube_views": 3653257
+            },
+            {
+              "title": "Bananas",
+              "video_id": "Xkw8RCu1Y6U",
+              "youtube_views": 207827
+            },
+            {
+              "title": "Umbrella",
+              "video_id": "m1znHsOev9k",
+              "youtube_views": 177255
+            }
+          ]
+        },
+        {
+          "title": "On My Scars (feat.Lil Cherry, Dbo)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "On My Scars (feat.Lil Cherry, Dbo)",
+              "video_id": "l49_13rZ40s",
+              "youtube_views": 149286
+            }
+          ]
+        },
+        {
+          "title": "XXL EP",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Scars",
+              "video_id": "D2pKNiIwgz4",
+              "youtube_views": 443242
+            },
+            {
+              "title": "XXL",
+              "video_id": "pujRVgMu3Sw",
+              "youtube_views": 10118939
+            },
+            {
+              "title": "DND (feat.BM of KARD)",
+              "video_id": "ZFKOnP_65_w",
+              "youtube_views": 459271
+            },
+            {
+              "title": "ROTY",
+              "video_id": "sPmxolWXutg",
+              "youtube_views": 363905
+            },
+            {
+              "title": "Skyline",
+              "video_id": "5AZwvIhoyQo",
+              "youtube_views": 286459
+            }
+          ]
+        },
+        {
+          "title": "YOUNG POSSE UP (feat.Verbal Jint, NSW yoon, Token)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "YOUNG POSSE UP (feat.Verbal Jint, NSW yoon, Token)",
+              "video_id": "hc-S2TXMuVw",
+              "youtube_views": 652975
+            },
+            {
+              "title": "YOUNG POSSE UP (inst.)",
+              "video_id": "0697Vu6TtnM",
+              "youtube_views": 64482
+            }
+          ]
+        },
+        {
+          "title": "MACARONI CHEESE EP",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "POSSE UP!",
+              "video_id": "vQyex-OirbU",
+              "youtube_views": 1302047
+            },
+            {
+              "title": "MACARONI CHEESE",
+              "video_id": "-xNEp-fq1mY",
+              "youtube_views": 2901626
+            },
+            {
+              "title": "OTB",
+              "video_id": "XSXBYIpe_-8",
+              "youtube_views": 683375
+            },
+            {
+              "title": "Cooing",
+              "video_id": "by2f1_OE9Gs",
+              "youtube_views": 174667
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

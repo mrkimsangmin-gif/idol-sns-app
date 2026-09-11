@@ -187,5 +187,232 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 16496,
+      "spotify_id": "1JHWiZqATDzLpkKLOC88pW",
+      "top_tracks": [
+        {
+          "title": "LiKE THAT",
+          "play_count": 79260,
+          "uri": "spotify:track:5tMCxcEG24Q6z8Q8V1ZysR"
+        },
+        {
+          "title": "Vanilla Choco Shake",
+          "play_count": 287289,
+          "uri": "spotify:track:6pqdrxYFbBXPKUjqaw7DlF"
+        },
+        {
+          "title": "11:59",
+          "play_count": 17928,
+          "uri": "spotify:track:4sJgfaOYAfYSCRNAUgkBgf"
+        },
+        {
+          "title": "Lucid Dream",
+          "play_count": 17073,
+          "uri": "spotify:track:1oVyKjKwOsiDsdhMOgsCPH"
+        },
+        {
+          "title": "Sugar Crush",
+          "play_count": 16418,
+          "uri": "spotify:track:3gnfSjDZUt7lrr2nD1KhMp"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 935953,
+      "track_count": 31,
+      "mean_views": 30192,
+      "max_views": 119613,
+      "albums": [
+        {
+          "title": "In Elixir: Spellbound",
+          "year": "2026",
+          "tracks": [
+            {
+              "title": "11:59",
+              "video_id": "F8YTLNrg8nE",
+              "youtube_views": 8041
+            },
+            {
+              "title": "LiKE THAT",
+              "video_id": "HmvN6_dfw4w",
+              "youtube_views": 23340
+            },
+            {
+              "title": "Lucid Dream",
+              "video_id": "2o-ZtXsxZmw",
+              "youtube_views": 12471
+            },
+            {
+              "title": "Revive",
+              "video_id": "KmSlxi6ml04",
+              "youtube_views": 7534
+            },
+            {
+              "title": "10 outta 10",
+              "video_id": "iA3yayWO0eU",
+              "youtube_views": 6557
+            },
+            {
+              "title": "Dawn Star",
+              "video_id": "EZOhyZQXqQI",
+              "youtube_views": 13116
+            },
+            {
+              "title": "Feeling",
+              "video_id": "7qyDkTz0iTM",
+              "youtube_views": 6144
+            },
+            {
+              "title": "Sugar Crush",
+              "video_id": "Kz1MxUopzxU",
+              "youtube_views": 9679
+            },
+            {
+              "title": "Drop Out",
+              "video_id": "_oY1fsMILFY",
+              "youtube_views": 4577
+            },
+            {
+              "title": "Dreaming Talk : DAY 3",
+              "video_id": "l1dlGh0On9k",
+              "youtube_views": 1800
+            }
+          ]
+        },
+        {
+          "title": "Sweet Tape",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Intro: Where do we go",
+              "video_id": "ci-uMiUKUtQ",
+              "youtube_views": 10700
+            },
+            {
+              "title": "Vanilla Choco Shake",
+              "video_id": "fz_ZjF5Net8",
+              "youtube_views": 119613
+            },
+            {
+              "title": "Call My Name",
+              "video_id": "-TFLMEQe39s",
+              "youtube_views": 51331
+            },
+            {
+              "title": "Dolce",
+              "video_id": "RZwj83Rq88U",
+              "youtube_views": 18699
+            },
+            {
+              "title": "Don’t Worry",
+              "video_id": "BBiskqDe2qM",
+              "youtube_views": 74565
+            },
+            {
+              "title": "To.X",
+              "video_id": "7-M1YlIYbt8",
+              "youtube_views": 17356
+            },
+            {
+              "title": "Rest",
+              "video_id": "p401w89P31M",
+              "youtube_views": 36590
+            },
+            {
+              "title": "Lollipop",
+              "video_id": "Bjwi6YKfs48",
+              "youtube_views": 64953
+            },
+            {
+              "title": "Dreaming Talk: DAY 2",
+              "video_id": "VzNCr1NmWAA",
+              "youtube_views": 3615
+            }
+          ]
+        },
+        {
+          "title": "Mission of School",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Intro: Find the light inside",
+              "video_id": "Unmjzgf9g0g",
+              "youtube_views": 7528
+            },
+            {
+              "title": "DASH",
+              "video_id": "04dvk5THUVs",
+              "youtube_views": 10312
+            },
+            {
+              "title": "ATLANTIS",
+              "video_id": "NB5zke4m6bY",
+              "youtube_views": 74251
+            },
+            {
+              "title": "Day Dream",
+              "video_id": "-z024vibArY",
+              "youtube_views": 86001
+            },
+            {
+              "title": "Start With Me",
+              "video_id": "H-zhJ5kLCec",
+              "youtube_views": 34628
+            },
+            {
+              "title": "Forever",
+              "video_id": "WOxNDF9Moqw",
+              "youtube_views": 75377
+            },
+            {
+              "title": "SPIRIT",
+              "video_id": "zIIOIJLNqAg",
+              "youtube_views": 34886
+            },
+            {
+              "title": "Paradise",
+              "video_id": "83uOOgeEpWs",
+              "youtube_views": 28968
+            },
+            {
+              "title": "ATLANTIS (English Version)",
+              "video_id": "P_x39UDopW4",
+              "youtube_views": 22850
+            },
+            {
+              "title": "Dreaming Talk: DAY 1",
+              "video_id": "B2nDaM_7Xdc",
+              "youtube_views": 4336
+            }
+          ]
+        },
+        {
+          "title": "Always Be There",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Always Be There",
+              "video_id": "rtFRHyGe3S4",
+              "youtube_views": 24370
+            }
+          ]
+        },
+        {
+          "title": "DASH",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "DASH",
+              "video_id": "HpXE1qOROzY",
+              "youtube_views": 41765
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

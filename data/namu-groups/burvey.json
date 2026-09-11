@@ -113,5 +113,131 @@
       "누적_써클": "-",
       "비고": "2nd Single"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 7128,
+      "spotify_id": "28mV9iMDOFBVXfW0pgfbRz",
+      "top_tracks": [
+        {
+          "title": "SUGAR RIDING",
+          "play_count": 27675,
+          "uri": "spotify:track:0Wyx8rRzbY0Ys5dPDbuEVW"
+        },
+        {
+          "title": "AQUA BLUE",
+          "play_count": 22910,
+          "uri": "spotify:track:4yH5budDMJmo7NUM102xNv"
+        },
+        {
+          "title": "MELTING STAR",
+          "play_count": 12725,
+          "uri": "spotify:track:4T72bdOTBo3OBoxqOEcxmR"
+        },
+        {
+          "title": "clap",
+          "play_count": 38545,
+          "uri": "spotify:track:7N0FNdfscQaNGriqpwEWFx"
+        },
+        {
+          "title": "AEIOU",
+          "play_count": 27348,
+          "uri": "spotify:track:4eGun3yGgo5JdZqnzoAbAd"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 285865,
+      "track_count": 12,
+      "mean_views": 23822,
+      "max_views": 113981,
+      "albums": [
+        {
+          "title": "SUGAR RIDING",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SUGAR RIDING",
+              "video_id": "vQdJ12k2cxI",
+              "youtube_views": 59498
+            },
+            {
+              "title": "MELTING STAR",
+              "video_id": "eCEyBMR4-0A",
+              "youtube_views": 3969
+            },
+            {
+              "title": "SUGAR RIDING (inst.)",
+              "video_id": "g7vD1uWgtRg",
+              "youtube_views": 822
+            },
+            {
+              "title": "MELTING STAR (inst.)",
+              "video_id": "Vn9EXM2fi-4",
+              "youtube_views": 383
+            }
+          ]
+        },
+        {
+          "title": "AQUA BLUE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "AQUA BLUE",
+              "video_id": "8bjPJjBfAiM",
+              "youtube_views": 113981
+            },
+            {
+              "title": "AQUA BLUE (inst.)",
+              "video_id": "fLYkeQbEq40",
+              "youtube_views": 1212
+            }
+          ]
+        },
+        {
+          "title": "AEIOU",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "I Don't Give A What",
+              "video_id": "F8eK4IO_wnI",
+              "youtube_views": 11589
+            },
+            {
+              "title": "아에이오우 (AEIOU)",
+              "video_id": "2BdWCj0TY2E",
+              "youtube_views": 41604
+            },
+            {
+              "title": "4 You",
+              "video_id": "mPwykvpYuLg",
+              "youtube_views": 6071
+            },
+            {
+              "title": "Goodie",
+              "video_id": "rx5gTDp3zlU",
+              "youtube_views": 24345
+            }
+          ]
+        },
+        {
+          "title": "don't look away",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "딴 데 보지마",
+              "video_id": "pERg7q1n_Vs",
+              "youtube_views": 20903
+            },
+            {
+              "title": "딴 데 보지마 (inst.)",
+              "video_id": "-fbTYDmul_Q",
+              "youtube_views": 1488
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

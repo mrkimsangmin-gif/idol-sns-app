@@ -356,5 +356,257 @@
       "누적_써클": "-",
       "비고": "Happy Christmas"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 552109,
+      "spotify_id": "73B9bjqS2Z5KLXNGqXf64m",
+      "top_tracks": [
+        {
+          "title": "After School",
+          "play_count": 227621430,
+          "uri": "spotify:track:52CBUrIdyf8tbZaUY9iawE"
+        },
+        {
+          "title": "Tag Me (@Me)",
+          "play_count": 11784719,
+          "uri": "spotify:track:4Zv9jfmPxCmn7NFHvSCwO4"
+        },
+        {
+          "title": "Holiday Party",
+          "play_count": 15041173,
+          "uri": "spotify:track:1oVEVmVaI590kt8bCZ90uU"
+        },
+        {
+          "title": "Ven para",
+          "play_count": 7448838,
+          "uri": "spotify:track:3kwr2hlIDwmwVAjKC7zshR"
+        },
+        {
+          "title": "Good Day (Special Daileee)",
+          "play_count": 1880274,
+          "uri": "spotify:track:2bxQoEPkVPlCNTUACMnEbh"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 18370147,
+      "track_count": 30,
+      "mean_views": 612338,
+      "max_views": 3766360,
+      "albums": [
+        {
+          "title": "Bliss",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Twenties (Twenties)",
+              "video_id": "TOLXjyGh10Y",
+              "youtube_views": 265372
+            },
+            {
+              "title": "LIGHTS ON (LIGHTS ON)",
+              "video_id": "L_EKlFfalN8",
+              "youtube_views": 632538
+            },
+            {
+              "title": "Dance Dance Dance! (Dance Dance Dance!)",
+              "video_id": "QM0uRNQOmdk",
+              "youtube_views": 162613
+            },
+            {
+              "title": "Classic (Classic)",
+              "video_id": "Iy3CUJCt7ok",
+              "youtube_views": 107661
+            },
+            {
+              "title": "Page (A Story That Reached Me) (Page (내게 닿은 이야기))",
+              "video_id": "omoTqdcCxzg",
+              "youtube_views": 162473
+            }
+          ]
+        },
+        {
+          "title": "Stranger",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Stranger (Stranger)",
+              "video_id": "tRa7CHdmvn4",
+              "youtube_views": 1018345
+            },
+            {
+              "title": "Stranger (English Ver.) (Stranger (English Ver.))",
+              "video_id": "sl7T5ETOX-g",
+              "youtube_views": 34841
+            }
+          ]
+        },
+        {
+          "title": "ColoRise",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "ODYSSEY (ODYSSEY)",
+              "video_id": "v6F_A9UXK8U",
+              "youtube_views": 303724
+            },
+            {
+              "title": "VROOM VROOM (VROOM VROOM)",
+              "video_id": "kjP452iCnLU",
+              "youtube_views": 1970046
+            },
+            {
+              "title": "Backwards (Backwards)",
+              "video_id": "Lcxj5g2fSQI",
+              "youtube_views": 829497
+            },
+            {
+              "title": "Sweet Dream (Sweet Dream)",
+              "video_id": "W-2xHkwkKno",
+              "youtube_views": 1011249
+            },
+            {
+              "title": "A+ (A+)",
+              "video_id": "E9C8Y6wDcek",
+              "youtube_views": 700444
+            },
+            {
+              "title": "RUBY-DUBY-DU (RUBY-DUBY-DU)",
+              "video_id": "PcEN5d4lmR4",
+              "youtube_views": 485950
+            }
+          ]
+        },
+        {
+          "title": "Good Day (Special Daileee)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Good Day (Special Daileee) (Good Day (Special Daileee))",
+              "video_id": "gSf_G-he3DI",
+              "youtube_views": 907217
+            }
+          ]
+        },
+        {
+          "title": "YAOKI Project part.1",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Happy Christmas",
+              "video_id": "XeNnRR2Bb-A",
+              "youtube_views": 13593
+            },
+            {
+              "title": "Happy Christmas (Inst.)",
+              "video_id": "v9W8_enIt80",
+              "youtube_views": 147
+            }
+          ]
+        },
+        {
+          "title": "Love(Weeekly X Kim Eana Project) (Love(위클리 X 김이나 프로젝트))",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Love(Weeekly X Kim Eana Project) (Love(위클리 X 김이나 프로젝트))",
+              "video_id": "p-Qpim5wnTQ",
+              "youtube_views": 476778
+            },
+            {
+              "title": "Love(Weeekly X Kim Eana Project) (Inst.) (Love(위클리 X 김이나 프로젝트) (Inst.))",
+              "video_id": "pHuT0ZJ9D6c",
+              "youtube_views": 11582
+            }
+          ]
+        },
+        {
+          "title": "Play Game : AWAKE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Ven para (Ven para)",
+              "video_id": "uuL4gh-lXnw",
+              "youtube_views": 2148406
+            },
+            {
+              "title": "Solar (Solar)",
+              "video_id": "meOoBTzeNWc",
+              "youtube_views": 514911
+            },
+            {
+              "title": "Where Is My Love? (Where Is My Love?)",
+              "video_id": "ZDlltv5MP-A",
+              "youtube_views": 284634
+            }
+          ]
+        },
+        {
+          "title": "이홍기의 플레이리스트 [ONCE]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "가슴소리",
+              "video_id": "B93WPg4b5gE",
+              "youtube_views": 3451
+            },
+            {
+              "title": "매일밤",
+              "video_id": "XDm_R-yfGaA",
+              "youtube_views": 253644
+            }
+          ]
+        },
+        {
+          "title": "Girls' World Season 2, Pt. 1 (Original Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Best Friend (We Can)",
+              "video_id": "6SMFMutHWsU",
+              "youtube_views": 314358
+            },
+            {
+              "title": "Best Friend (We Can) (Inst.)",
+              "video_id": "mTFsG6tc_ZY",
+              "youtube_views": 8468
+            }
+          ]
+        },
+        {
+          "title": "Play Game : Holiday",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Weekend (Weekend)",
+              "video_id": "JOHbf_ZhzV4",
+              "youtube_views": 580023
+            },
+            {
+              "title": "Check It Out (Check It Out)",
+              "video_id": "sXfyfY25TZE",
+              "youtube_views": 529111
+            },
+            {
+              "title": "Holiday Party (Holiday Party)",
+              "video_id": "OovfOK2YzoM",
+              "youtube_views": 3766360
+            },
+            {
+              "title": "La Luna (La Luna)",
+              "video_id": "9ii6jtUm-_8",
+              "youtube_views": 468807
+            },
+            {
+              "title": "Memories Of Summer Rain (Memories Of Summer Rain)",
+              "video_id": "Wi5Rrbp9nGY",
+              "youtube_views": 403904
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

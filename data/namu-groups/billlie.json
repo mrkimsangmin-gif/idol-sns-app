@@ -319,5 +319,359 @@
       "누적_써클": "-",
       "비고": "SNAP (feat. sokodomo)"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 387602,
+      "spotify_id": "2GQxKDojobwBjZMPf7aoh0",
+      "top_tracks": [
+        {
+          "title": "GingaMingaYo (the strange world)",
+          "play_count": 44013321,
+          "uri": "spotify:track:53Wa5dwbGUT8Jcg08FYfV5"
+        },
+        {
+          "title": "BYOB (bring your own best friend)",
+          "play_count": 13908920,
+          "uri": "spotify:track:1XC46heLGYz83ResGphueE"
+        },
+        {
+          "title": "cloud palace",
+          "play_count": 378564,
+          "uri": "spotify:track:1dsuEyZ0ZPgL7Z1HAaFSek"
+        },
+        {
+          "title": "cloud palace - Before moonset mix",
+          "play_count": 244081,
+          "uri": "spotify:track:5nBOkzsdzL7MYTSGt1X4qA"
+        },
+        {
+          "title": "EUNOIA",
+          "play_count": 14221455,
+          "uri": "spotify:track:0a56sRmdBxCON2nkEgjDqC"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 7190492,
+      "track_count": 48,
+      "mean_views": 149801,
+      "max_views": 1789955,
+      "albums": [
+        {
+          "title": "the Billage of perception: chapter two Original Soundtrack from “the end of the world and the awakening”",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "the prologue ~ the Birth of emotion",
+              "video_id": "hlfnCZ_VRA4",
+              "youtube_views": 5719
+            },
+            {
+              "title": "back to the world (the $UN palace)",
+              "video_id": "m4iCRp_SO3Q",
+              "youtube_views": 2619
+            },
+            {
+              "title": "RING ma Bell ~ the howling memories",
+              "video_id": "bCxkNRXEW6g",
+              "youtube_views": 2704
+            },
+            {
+              "title": "the anonymous hide and seek",
+              "video_id": "RFaXMNgvolg",
+              "youtube_views": 3094
+            },
+            {
+              "title": "B@ck 2 where we Belong",
+              "video_id": "Z3ieQlw6x0s",
+              "youtube_views": 1767
+            },
+            {
+              "title": "who’s the Joker ~ overture to Billlie",
+              "video_id": "B4ASBzSdLno",
+              "youtube_views": 2258
+            },
+            {
+              "title": "snowy night before the end of the world",
+              "video_id": "-BGJANSmPaY",
+              "youtube_views": 1707
+            },
+            {
+              "title": "B-B’rave",
+              "video_id": "_CNUFqvxOXc",
+              "youtube_views": 1788
+            },
+            {
+              "title": "RING ma Bell ~ retrogression of time",
+              "video_id": "HP0U7leZJY4",
+              "youtube_views": 1753
+            },
+            {
+              "title": "the Birth of emotion and the end of the world",
+              "video_id": "jo7btPERr8A",
+              "youtube_views": 1740
+            },
+            {
+              "title": "epilogue ~ reprise of the $UN palace",
+              "video_id": "zCTH9dDpd44",
+              "youtube_views": 2482
+            }
+          ]
+        },
+        {
+          "title": "the collective soul and unconscious: chapter one Original Soundtrack from \"what is your B?\"",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "prologue ~ 1/1",
+              "video_id": "UX5dCdiU-qU",
+              "youtube_views": 4446
+            },
+            {
+              "title": "the rumor ~ whatchamacallit",
+              "video_id": "FXZ_7mpEi5E",
+              "youtube_views": 2280
+            },
+            {
+              "title": "flipp!ng a coin (instrumental Version)",
+              "video_id": "xtKLRDU3PaQ",
+              "youtube_views": 2577
+            },
+            {
+              "title": "a sign ~ overture to Billlie",
+              "video_id": "P_E6bvkkVr8",
+              "youtube_views": 4022
+            },
+            {
+              "title": "everybody’s got a $ECRET (instrumental Version)",
+              "video_id": "_2bErlNuhZg",
+              "youtube_views": 1602
+            },
+            {
+              "title": "moon palace ~ the invitation",
+              "video_id": "-n93I4FVVAU",
+              "youtube_views": 3987
+            },
+            {
+              "title": "welcome to the strange world ~ GGMGY",
+              "video_id": "9J2cyg-qZOU",
+              "youtube_views": 2198
+            },
+            {
+              "title": "M◐◑N in the fog",
+              "video_id": "HBxocdc8iDo",
+              "youtube_views": 2665
+            },
+            {
+              "title": "epilogue ~ reprise",
+              "video_id": "uwnt5wTyQvE",
+              "youtube_views": 1986
+            },
+            {
+              "title": "a sign ~ overture to Billlie reprise",
+              "video_id": "rRvgHSsBoZ4",
+              "youtube_views": 1974
+            }
+          ]
+        },
+        {
+          "title": "cloud palace ~ false awakening",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "cloud palace",
+              "video_id": "0ZrO8_AKVcc",
+              "youtube_views": 291599
+            },
+            {
+              "title": "cloud palace (Before moonset mix)",
+              "video_id": "Pjdkmn14Dd0",
+              "youtube_views": 132474
+            },
+            {
+              "title": "cloud palace (Before moonrise mix)",
+              "video_id": "c3vnOK67_ok",
+              "youtube_views": 88467
+            }
+          ]
+        },
+        {
+          "title": "The Savior (Dead Mansion X Billlie) (Original Webtoon Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "The Savior Japanese Version",
+              "video_id": "--WNfNtgVF8",
+              "youtube_views": 33004
+            }
+          ]
+        },
+        {
+          "title": "The Savior (Dead Mansion X Billlie) (Original Webtoon Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "The Savior",
+              "video_id": "aVBQbsnOFvc",
+              "youtube_views": 146344
+            },
+            {
+              "title": "The Savior Instrumental",
+              "video_id": "ytoz4gibQPw",
+              "youtube_views": 4907
+            }
+          ]
+        },
+        {
+          "title": "Of All We Have Lost",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "remembrance candy",
+              "video_id": "oN52XBmf6rw",
+              "youtube_views": 1789955
+            },
+            {
+              "title": "trampoline",
+              "video_id": "mY7kj8KSM5o",
+              "youtube_views": 82040
+            },
+            {
+              "title": "Bluerose",
+              "video_id": "EHxLMDtgOhU",
+              "youtube_views": 515002
+            },
+            {
+              "title": "BTTB (Back to the Basics)",
+              "video_id": "bs_0nLhGMY0",
+              "youtube_views": 364844
+            },
+            {
+              "title": "shame",
+              "video_id": "UMNfuu0wYGc",
+              "youtube_views": 694436
+            },
+            {
+              "title": "dream diary ~ etching mémoires of midnight rêverie",
+              "video_id": "qqHqEIrK4FM",
+              "youtube_views": 267403
+            }
+          ]
+        },
+        {
+          "title": "trampoline",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "trampoline",
+              "video_id": "fKoUVOOPdo4",
+              "youtube_views": 1555411
+            }
+          ]
+        },
+        {
+          "title": "Knock-on Effect",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "DOMINO ~ butterfly effect - Japanese ver. -",
+              "video_id": "jAAWVq2NHIk",
+              "youtube_views": 235230
+            },
+            {
+              "title": "DANG! (hocus pocus) - Japanese ver. -",
+              "video_id": "ARD4a1yLwtQ",
+              "youtube_views": 168009
+            },
+            {
+              "title": "BYOB (bring your own best friend) - Japanese ver. -",
+              "video_id": "tiSyj9BMHGY",
+              "youtube_views": 181534
+            },
+            {
+              "title": "RING ma Bell (what a wonderful world) - Japanese ver. -",
+              "video_id": "66Ji0jJPkCM",
+              "youtube_views": 68851
+            },
+            {
+              "title": "GingaMingaYo (the strange world) - Japanese ver. -",
+              "video_id": "1tA6GAVEOo0",
+              "youtube_views": 109125
+            }
+          ]
+        },
+        {
+          "title": "DANG! (hocus pocus) - Japanese ver. -",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "DANG! (hocus pocus) - Japanese ver. -",
+              "video_id": "HJ8kTnwuhlA",
+              "youtube_views": 32008
+            }
+          ]
+        },
+        {
+          "title": "‘the Billlie’s odditorium’ the second edition",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "January 0th (a hope song)",
+              "video_id": "NEVRdUGn9a8",
+              "youtube_views": 184422
+            },
+            {
+              "title": "January 0th (a hope song) (Inst.)",
+              "video_id": "XZKVpOP98zw",
+              "youtube_views": 4623
+            }
+          ]
+        },
+        {
+          "title": "the Billlie's odditorium' the first edition",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "the soul savior ~ I don't need a superman",
+              "video_id": "XiIxcM6m5-0",
+              "youtube_views": 23575
+            },
+            {
+              "title": "the soul savior ~ I don't need a superman (Inst.)",
+              "video_id": "SE4qI0Xdwm4",
+              "youtube_views": 2153
+            }
+          ]
+        },
+        {
+          "title": "side-B : memoirs of echo unseen",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "DANG! (hocus pocus)",
+              "video_id": "1XkYIVc5abU",
+              "youtube_views": 82265
+            },
+            {
+              "title": "BYOB (bring your own best friend)",
+              "video_id": "_Iz_YZtzVys",
+              "youtube_views": 40107
+            },
+            {
+              "title": "DANG! (hocus pocus) (English Ver.)",
+              "video_id": "zvQi_OMiHCQ",
+              "youtube_views": 4689
+            },
+            {
+              "title": "BYOB (bring your own best friend) (English Ver.)",
+              "video_id": "QyUf3DQ1Mlc",
+              "youtube_views": 32647
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

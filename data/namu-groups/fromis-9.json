@@ -405,5 +405,39 @@
       "누적_써클": "",
       "비고": "-"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 1614348,
+      "spotify_id": "24nUVBIlCGi4twz4nYxJum",
+      "top_tracks": [
+        {
+          "title": "Supersonic",
+          "play_count": 58396386,
+          "uri": "spotify:track:6oNLSQX8bcAdbCElZYju3v"
+        },
+        {
+          "title": "Love Me Back",
+          "play_count": 49143582,
+          "uri": "spotify:track:2IMPPA9UZpqTnnVIy9lDHU"
+        },
+        {
+          "title": "DM",
+          "play_count": 71565068,
+          "uri": "spotify:track:7B9W7Qsy5M2kyUNjQYIEG8"
+        },
+        {
+          "title": "White Memories",
+          "play_count": 4131231,
+          "uri": "spotify:track:7hCdtQsaKCBXrITaPNK2iE"
+        },
+        {
+          "title": "LIKE YOU BETTER",
+          "play_count": 11428273,
+          "uri": "spotify:track:7t4Z19BqZ23ExgdiOP0nf6"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -103,5 +103,34 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 1087,
+      "spotify_id": "1fmbTqkJpjvAB4tqCFCR3L",
+      "top_tracks": [
+        {
+          "title": "Deeeep",
+          "play_count": 109192,
+          "uri": "spotify:track:6MBbzdHOmGF8d2zdDIxpxZ"
+        },
+        {
+          "title": "Daddy's Little Girl",
+          "play_count": 70846,
+          "uri": "spotify:track:5grqQw8zylROY30fyE0Hnu"
+        },
+        {
+          "title": "Daddy's Little Girl (Inst.)",
+          "play_count": 3804,
+          "uri": "spotify:track:1ooxsJ9q9E1MDzvPkoMTGF"
+        },
+        {
+          "title": "Deeeep (Inst.)",
+          "play_count": 3953,
+          "uri": "spotify:track:2cWyJP2m6l3U6vrBRaJuZM"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

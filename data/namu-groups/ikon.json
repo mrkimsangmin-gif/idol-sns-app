@@ -639,5 +639,597 @@
       "누적_써클": "-",
       "비고": "iKON JAPAN TOUR 2022 [FLASHBACK] ENCORE IN OSAKA"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2000100,
+      "spotify_id": "5qRSs6mvI17zrkJpOHkCoM",
+      "top_tracks": [
+        {
+          "title": "LOVE SCENARIO",
+          "play_count": 422427730,
+          "uri": "spotify:track:3d3ELsqKlQ7WA0a10Isu3l"
+        },
+        {
+          "title": "KILLING ME",
+          "play_count": 138948759,
+          "uri": "spotify:track:1IbpTcFDHRD87cGQOhVCDP"
+        },
+        {
+          "title": "RHYTHM TA",
+          "play_count": 63832388,
+          "uri": "spotify:track:5T7NN5LxcfMEudEbya2wcE"
+        },
+        {
+          "title": "BEST FRIEND",
+          "play_count": 47620073,
+          "uri": "spotify:track:1AhfmrzSrDmOIstpRO9wTI"
+        },
+        {
+          "title": "MY TYPE",
+          "play_count": 28187132,
+          "uri": "spotify:track:4gxLDYnbnyNiUd6YrlmppO"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 350847855,
+      "track_count": 92,
+      "mean_views": 3813563,
+      "max_views": 123291434,
+      "albums": [
+        {
+          "title": "TAKE OFF",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "U",
+              "video_id": "x9HenizT9Xg",
+              "youtube_views": 1758327
+            },
+            {
+              "title": "Tantara",
+              "video_id": "icI1lB0vqNk",
+              "youtube_views": 1722252
+            },
+            {
+              "title": "RUM PUM PUM",
+              "video_id": "0ojY6ZBtwGQ",
+              "youtube_views": 641256
+            },
+            {
+              "title": "Like a Movie",
+              "video_id": "tUUdMUDYgdw",
+              "youtube_views": 1117818
+            },
+            {
+              "title": "Driving Slowly",
+              "video_id": "qngW8OTiJNI",
+              "youtube_views": 1028037
+            },
+            {
+              "title": "Never Forget You",
+              "video_id": "Ax2RzGa-PeE",
+              "youtube_views": 694597
+            },
+            {
+              "title": "All The Way Here",
+              "video_id": "bv3Va1O-aXo",
+              "youtube_views": 604070
+            },
+            {
+              "title": "FIGHTING - SONG SOLO",
+              "video_id": "AwtzP54tvBw",
+              "youtube_views": 270238
+            },
+            {
+              "title": "Kiss Me - DK SOLO",
+              "video_id": "0ZbkwNxanlE",
+              "youtube_views": 306428
+            },
+            {
+              "title": "Want You Back - JU-NE SOLO",
+              "video_id": "ZzlnTE4DTkw",
+              "youtube_views": 534154
+            }
+          ]
+        },
+        {
+          "title": "NEW KIDS REPACKAGE : THE NEW KIDS",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "I'M OK",
+              "video_id": "11yz3omRv6o",
+              "youtube_views": 3435669
+            },
+            {
+              "title": "BLING BLING",
+              "video_id": "tRq5PDse0D8",
+              "youtube_views": 27579
+            },
+            {
+              "title": "사랑을 했다 (LOVE SCENARIO)",
+              "video_id": "vecSVX1QYbQ",
+              "youtube_views": 414322
+            },
+            {
+              "title": "죽겠다 (KILLING ME)",
+              "video_id": "Zq1XhNdjC44",
+              "youtube_views": 46979
+            },
+            {
+              "title": "바람 (FREEDOM)",
+              "video_id": "hEsKZY3NkDY",
+              "youtube_views": 16913
+            },
+            {
+              "title": "벌 떼 (B-DAY)",
+              "video_id": "W5htN3RhX8U",
+              "youtube_views": 21458
+            },
+            {
+              "title": "고무줄다리기 (RUBBER BAND)",
+              "video_id": "7yEpomQg-6g",
+              "youtube_views": 27127
+            },
+            {
+              "title": "BEAUTIFUL",
+              "video_id": "ZUG2S1YhC20",
+              "youtube_views": 26150
+            },
+            {
+              "title": "칵테일 (COCKTAIL)",
+              "video_id": "9sBIGUbr7mQ",
+              "youtube_views": 26967
+            },
+            {
+              "title": "ONLY YOU",
+              "video_id": "B-iEQYuTrBY",
+              "youtube_views": 24619
+            },
+            {
+              "title": "EVERYTHING",
+              "video_id": "fCIJOnT-4l4",
+              "youtube_views": 21880
+            },
+            {
+              "title": "나를 사랑하지 않나요? (LOVE ME)",
+              "video_id": "0XC6bBxGxPc",
+              "youtube_views": 20973
+            },
+            {
+              "title": "내가 모르게 (DON'T LET ME KNOW)",
+              "video_id": "U_1RV-ZVVPM",
+              "youtube_views": 24179
+            },
+            {
+              "title": "이별길 (GOODBYE ROAD)",
+              "video_id": "oWjrFZb7dJM",
+              "youtube_views": 18658
+            },
+            {
+              "title": "LONG TIME NO SEE",
+              "video_id": "BZl1iEG-Kmo",
+              "youtube_views": 27437
+            },
+            {
+              "title": "BEST FRIEND",
+              "video_id": "uSYofBvlhf4",
+              "youtube_views": 1266077
+            },
+            {
+              "title": "JUST GO",
+              "video_id": "E8g5adkEUWQ",
+              "youtube_views": 23324
+            },
+            {
+              "title": "좋아해요 (ADORE YOU)",
+              "video_id": "VXWKu_Qtdng",
+              "youtube_views": 14977
+            },
+            {
+              "title": "잊지마요 (DON’T FORGET)",
+              "video_id": "XVGVRNcoI-M",
+              "youtube_views": 22029
+            },
+            {
+              "title": "나쁜놈 (JERK)",
+              "video_id": "25khPZ-kOts",
+              "youtube_views": 21287
+            },
+            {
+              "title": "꼴좋다 (PERFECT)",
+              "video_id": "RR_LCmeYdWY",
+              "youtube_views": 18808
+            },
+            {
+              "title": "안아보자 (HUG ME)",
+              "video_id": "DnjO9QNNxfc",
+              "youtube_views": 18127
+            },
+            {
+              "title": "줄게 (JUST FOR YOU)",
+              "video_id": "KaBDKfaG3ZQ",
+              "youtube_views": 16781
+            }
+          ]
+        },
+        {
+          "title": "Return",
+          "year": "2018",
+          "tracks": [
+            {
+              "title": "LOVE SCENARIO (사랑을 했다)",
+              "video_id": "OmEPFmyKO74",
+              "youtube_views": 123291434
+            },
+            {
+              "title": "BEAUTIFUL",
+              "video_id": "DvdcYuD2pHc",
+              "youtube_views": 3384074
+            },
+            {
+              "title": "ONE AND ONLY (돗대) (B.I SOLO)",
+              "video_id": "OOQs0mfD8iM",
+              "youtube_views": 1111068
+            },
+            {
+              "title": "BEST FRIEND",
+              "video_id": "VF28zFvAIEY",
+              "youtube_views": 22716480
+            },
+            {
+              "title": "EVERYTHING",
+              "video_id": "VP346Pnq-_U",
+              "youtube_views": 1322454
+            },
+            {
+              "title": "JERK (나쁜놈)",
+              "video_id": "Lesv3n5E68Y",
+              "youtube_views": 4667691
+            },
+            {
+              "title": "HUG ME (안아보자)",
+              "video_id": "Q2k5tH7ssXU",
+              "youtube_views": 2531144
+            },
+            {
+              "title": "SINOSIJAK (시노시작)",
+              "video_id": "J6ez5vWwzOI",
+              "youtube_views": 1473441
+            },
+            {
+              "title": "DON'T FORGET (잊지마요)",
+              "video_id": "fbpL_qXJ9To",
+              "youtube_views": 4699078
+            },
+            {
+              "title": "LOVE ME (나를 사랑하지 않나요?)",
+              "video_id": "VhZsfF9Pgw8",
+              "youtube_views": 819903
+            },
+            {
+              "title": "JUST GO",
+              "video_id": "hFdcnRys7yc",
+              "youtube_views": 3907881
+            },
+            {
+              "title": "LONG TIME NO SEE",
+              "video_id": "Gxbw-3mMPyg",
+              "youtube_views": 5753998
+            },
+            {
+              "title": "Love Me (Instrumental)",
+              "video_id": "bx3ARdQMbjw",
+              "youtube_views": 136677
+            }
+          ]
+        },
+        {
+          "title": "Welcome Back",
+          "year": "2015",
+          "tracks": [
+            {
+              "title": "DUMB & DUMBER",
+              "video_id": "k0K_LNfDV4A",
+              "youtube_views": 2486093
+            },
+            {
+              "title": "WHAT'S WRONG?",
+              "video_id": "QZGWBhpTnOk",
+              "youtube_views": 810577
+            },
+            {
+              "title": "I MISS YOU SO BAD",
+              "video_id": "cmxHcdFoPRo",
+              "youtube_views": 1057322
+            },
+            {
+              "title": "리듬 타 (RHYTHM TA)",
+              "video_id": "7YmzwNwqIsw",
+              "youtube_views": 199563
+            },
+            {
+              "title": "ANTHEM",
+              "video_id": "STjK8U8NAZc",
+              "youtube_views": 58294
+            },
+            {
+              "title": "APOLOGY",
+              "video_id": "6C16DM332js",
+              "youtube_views": 100895
+            },
+            {
+              "title": "AIRPLANE",
+              "video_id": "MThUr-wKe74",
+              "youtube_views": 140012
+            },
+            {
+              "title": "취향저격 (MY TYPE)",
+              "video_id": "TJLF8hetwEQ",
+              "youtube_views": 13586964
+            },
+            {
+              "title": "오늘따라 (TODAY)",
+              "video_id": "I72Ai4s7kVQ",
+              "youtube_views": 82794
+            },
+            {
+              "title": "WELCOME BACK",
+              "video_id": "f2rrtgBO4-Y",
+              "youtube_views": 77828
+            },
+            {
+              "title": "Rhythm Ta Remix (Rock Version)",
+              "video_id": "FH51uNdvPM4",
+              "youtube_views": 2219219
+            }
+          ]
+        },
+        {
+          "title": "WELCOME BACK",
+          "year": "2015",
+          "tracks": [
+            {
+              "title": "APOLOGY",
+              "video_id": "-a_FjTcUxzA",
+              "youtube_views": 3680813
+            },
+            {
+              "title": "ANTHEM",
+              "video_id": "8mLU7Sba34o",
+              "youtube_views": 713597
+            },
+            {
+              "title": "WELCOME BACK",
+              "video_id": "KBMeiEwY5rs",
+              "youtube_views": 931057
+            },
+            {
+              "title": "리듬 타 (RHYTHM TA)",
+              "video_id": "RhJgmDmzItg",
+              "youtube_views": 20224621
+            },
+            {
+              "title": "취향저격 (MY TYPE)",
+              "video_id": "HZw-oWvYdZc",
+              "youtube_views": 6462916
+            },
+            {
+              "title": "오늘따라 (TODAY)",
+              "video_id": "kcug6LxP1Uc",
+              "youtube_views": 1205467
+            },
+            {
+              "title": "AIRPLANE",
+              "video_id": "BW37E7kCyMI",
+              "youtube_views": 8646358
+            },
+            {
+              "title": "솔직하게 (M.U.P)",
+              "video_id": "b209-VD1hIc",
+              "youtube_views": 654394
+            }
+          ]
+        },
+        {
+          "title": "In My Head",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "In My Head",
+              "video_id": "R-zS2OODXJM",
+              "youtube_views": 20717
+            }
+          ]
+        },
+        {
+          "title": "PANORAMA",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "T.T.M",
+              "video_id": "lnUU5coQ6gA",
+              "youtube_views": 1423100
+            },
+            {
+              "title": "PANORAMA",
+              "video_id": "QYK3Wegyogs",
+              "youtube_views": 2066492
+            }
+          ]
+        },
+        {
+          "title": "FLASHBACK",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "너라는 이유 (BUT YOU)",
+              "video_id": "OlAQwNknQzI",
+              "youtube_views": 4173528
+            },
+            {
+              "title": "용 (龍) (DRAGON)",
+              "video_id": "yJgjT22UU08",
+              "youtube_views": 1029984
+            },
+            {
+              "title": "말도 안 돼 (FOR REAL?)",
+              "video_id": "aqOCzZYJ7hk",
+              "youtube_views": 1281022
+            },
+            {
+              "title": "금 (GOLD)",
+              "video_id": "QpzwYh4yYKs",
+              "youtube_views": 544395
+            },
+            {
+              "title": "그대 이름 (NAME)",
+              "video_id": "zt1O_zzkkTs",
+              "youtube_views": 1887194
+            }
+          ]
+        },
+        {
+          "title": "왜왜왜 (Why Why Why)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "왜왜왜 (Why Why Why)",
+              "video_id": "ysjumAUoats",
+              "youtube_views": 5698054
+            }
+          ]
+        },
+        {
+          "title": "i DECIDE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "뛰어들게 Dive",
+              "video_id": "e4qXhgRR7uA",
+              "youtube_views": 5362610
+            },
+            {
+              "title": "너란 바람 따라 Flower",
+              "video_id": "lS4JXiqchQo",
+              "youtube_views": 6092930
+            },
+            {
+              "title": "견딜만해 Holding On",
+              "video_id": "Myw196K3t3k",
+              "youtube_views": 4028864
+            },
+            {
+              "title": "온 세상 All The World",
+              "video_id": "PFSQSekKSmI",
+              "youtube_views": 1027603
+            },
+            {
+              "title": "Ah Yeah",
+              "video_id": "eeXsgH35_i8",
+              "youtube_views": 755866
+            }
+          ]
+        },
+        {
+          "title": "NEW KIDS : THE FINAL",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "이별길 (Goodbye Road)",
+              "video_id": "Maqv_5NvDuY",
+              "youtube_views": 13908344
+            },
+            {
+              "title": "내가 모르게 (Don't Let Me Know)",
+              "video_id": "E0JFGOLwzbY",
+              "youtube_views": 1753582
+            },
+            {
+              "title": "좋아해요 (Adore You)",
+              "video_id": "SLGgm1FbnA8",
+              "youtube_views": 1300699
+            },
+            {
+              "title": "꼴좋다 (PERFECT)",
+              "video_id": "Rhzhsr4xjeg",
+              "youtube_views": 1144684
+            }
+          ]
+        },
+        {
+          "title": "NEW KIDS : CONTINUE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "죽겠다 (KILLING ME)",
+              "video_id": "DyIAPKKjm5M",
+              "youtube_views": 25929699
+            },
+            {
+              "title": "바람 (FREEDOM)",
+              "video_id": "A7nnGd7q0bA",
+              "youtube_views": 1454707
+            },
+            {
+              "title": "ONLY YOU",
+              "video_id": "1Gwm9CHVM6M",
+              "youtube_views": 1191387
+            },
+            {
+              "title": "칵테일 (COCKTAIL)",
+              "video_id": "lcS1GOCjMQI",
+              "youtube_views": 853606
+            },
+            {
+              "title": "줄게 (JUST FOR YOU)",
+              "video_id": "i6CeuDpsEfg",
+              "youtube_views": 3215341
+            }
+          ]
+        },
+        {
+          "title": "Rubber Band",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "고무줄다리기 (Rubber Band)",
+              "video_id": "92fpuGPFD3M",
+              "youtube_views": 1193107
+            }
+          ]
+        },
+        {
+          "title": "NEW KIDS : BEGIN",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "블링블링 (Bling Bling)",
+              "video_id": "lmz31-5CpHk",
+              "youtube_views": 5931537
+            },
+            {
+              "title": "벌떼 (B-Day)",
+              "video_id": "frTH3m965tw",
+              "youtube_views": 2730722
+            }
+          ]
+        },
+        {
+          "title": "WYD",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "오늘 모해 (WYD)",
+              "video_id": "lvmETSNKU0A",
+              "youtube_views": 1434477
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

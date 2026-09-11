@@ -241,5 +241,364 @@
       "누적_써클": "-",
       "비고": "디지털 싱글"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 922038,
+      "spotify_id": "7Lq3yAtwi0Z7zpxEwbQQNZ",
+      "top_tracks": [
+        {
+          "title": "MANIAC",
+          "play_count": 136750819,
+          "uri": "spotify:track:35ZccqI4iHVR0puhGc1u0U"
+        },
+        {
+          "title": "Shhh!",
+          "play_count": 20748057,
+          "uri": "spotify:track:55sQksosEmdlCZvU5JcuOV"
+        },
+        {
+          "title": "La La Love Me",
+          "play_count": 6480120,
+          "uri": "spotify:track:6l0bVqiuv0HE7FxUG1TOkA"
+        },
+        {
+          "title": "BOP BOP!",
+          "play_count": 37636659,
+          "uri": "spotify:track:2AwqzgFzSptWquSdz5qCPX"
+        },
+        {
+          "title": "Untie",
+          "play_count": 11727063,
+          "uri": "spotify:track:7sGf2pzXXjDftDJ4ukbep5"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 76777416,
+      "track_count": 49,
+      "mean_views": 1566886,
+      "max_views": 34284399,
+      "albums": [
+        {
+          "title": "The 1st Album 'A Montage of ( )'",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "La La Love Me",
+              "video_id": "5gheOSMP-Bc",
+              "youtube_views": 4089915
+            },
+            {
+              "title": "Hands Off My Heart",
+              "video_id": "XSIrhnkTvT4",
+              "youtube_views": 420525
+            },
+            {
+              "title": "Citrus",
+              "video_id": "4VxhlAFrqGE",
+              "youtube_views": 425017
+            },
+            {
+              "title": "Sticker",
+              "video_id": "pdfw26OPgv8",
+              "youtube_views": 940802
+            },
+            {
+              "title": "Toxic",
+              "video_id": "ln78QmJYvxM",
+              "youtube_views": 590746
+            },
+            {
+              "title": "Hipnotic (SINB Solo)",
+              "video_id": "W4xpYBWL5rU",
+              "youtube_views": 330749
+            },
+            {
+              "title": "Love Language (UMJI Solo)",
+              "video_id": "ZN-BzEDtcpk",
+              "youtube_views": 2209670
+            },
+            {
+              "title": "Milky Way (EUNHA Solo)",
+              "video_id": "t7Kig5MVMEc",
+              "youtube_views": 543554
+            },
+            {
+              "title": "Wildflower",
+              "video_id": "wyTw3cuHsf8",
+              "youtube_views": 986631
+            }
+          ]
+        },
+        {
+          "title": "The 1st Mini Album 'Beam Of Prism'",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Intro.",
+              "video_id": "fLobToBwyII",
+              "youtube_views": 26163
+            },
+            {
+              "title": "BOP BOP!",
+              "video_id": "T_3uQ6WiNvI",
+              "youtube_views": 3693884
+            },
+            {
+              "title": "Fiesta",
+              "video_id": "jdEolPBDiNk",
+              "youtube_views": 135670
+            },
+            {
+              "title": "Tweet Tweet",
+              "video_id": "p3sAOE1aq8k",
+              "youtube_views": 452180
+            },
+            {
+              "title": "Lemonade",
+              "video_id": "Lnp8B9DfAMM",
+              "youtube_views": 193960
+            },
+            {
+              "title": "Love You Like",
+              "video_id": "ra1s1kQg6RM",
+              "youtube_views": 343345
+            },
+            {
+              "title": "Mirror",
+              "video_id": "SK5lAvNg5Ec",
+              "youtube_views": 429557
+            }
+          ]
+        },
+        {
+          "title": "100RED Winter Special Single ‘The Last Christmas'",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "The Last Christmas",
+              "video_id": "mwmHE4YkGWg",
+              "youtube_views": 829966
+            }
+          ]
+        },
+        {
+          "title": "The 5th Mini Album 'VOYAGE'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Shhh!",
+              "video_id": "pAN90mazr60",
+              "youtube_views": 9079618
+            },
+            {
+              "title": "Cliché",
+              "video_id": "irBDYaZ9nZ0",
+              "youtube_views": 1164104
+            },
+            {
+              "title": "Full Moon",
+              "video_id": "PbIMshq0uPg",
+              "youtube_views": 165246
+            },
+            {
+              "title": "Hypnotize",
+              "video_id": "cuya3R_hNZk",
+              "youtube_views": 259459
+            },
+            {
+              "title": "Love & Tears",
+              "video_id": "rcjJwet3I-Q",
+              "youtube_views": 248341
+            }
+          ]
+        },
+        {
+          "title": "The 4th Mini Album 'VERSUS'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "MANIAC",
+              "video_id": "NqLB6ub1BOw",
+              "youtube_views": 34284399
+            },
+            {
+              "title": "Untie",
+              "video_id": "jhnYCKlqicE",
+              "youtube_views": 3699533
+            },
+            {
+              "title": "Overflow",
+              "video_id": "IcA6hxxZ440",
+              "youtube_views": 203396
+            },
+            {
+              "title": "Day by day",
+              "video_id": "ZZV3PouyqOU",
+              "youtube_views": 152884
+            },
+            {
+              "title": "Up 2 Me",
+              "video_id": "Fp53ZVV6cY4",
+              "youtube_views": 251330
+            }
+          ]
+        },
+        {
+          "title": "My Lovely Liar, Pt. 1 (Original Television Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Spoiler",
+              "video_id": "zw1Tu4u2dGY",
+              "youtube_views": 695427
+            },
+            {
+              "title": "Spoiler (Instrumental)",
+              "video_id": "ovlKtm2KYhU",
+              "youtube_views": 19354
+            }
+          ]
+        },
+        {
+          "title": "True to Love, Pt. 7 (Original Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Make Me Love U",
+              "video_id": "lM8pmNo-osI",
+              "youtube_views": 354388
+            },
+            {
+              "title": "Make Me Love U (Instrumental)",
+              "video_id": "be2uvtKEtBk",
+              "youtube_views": 12395
+            }
+          ]
+        },
+        {
+          "title": "The 3rd Mini Album 'VarioUS'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "PULL UP",
+              "video_id": "6hHb38zcnzk",
+              "youtube_views": 1340125
+            },
+            {
+              "title": "Blue Clue",
+              "video_id": "NuQyKqv72Yo",
+              "youtube_views": 196699
+            },
+            {
+              "title": "Love or Die",
+              "video_id": "key0qfvyNlM",
+              "youtube_views": 962654
+            },
+            {
+              "title": "Vanilla Sugar Killer",
+              "video_id": "cVuxzBXdLWI",
+              "youtube_views": 136300
+            },
+            {
+              "title": "Overdrive",
+              "video_id": "d1_t0ziAdVE",
+              "youtube_views": 200736
+            },
+            {
+              "title": "So Special",
+              "video_id": "NBnjdeLZNjQ",
+              "youtube_views": 116902
+            }
+          ]
+        },
+        {
+          "title": "Come on baby tonight (Ditto X VIVIZ) (늘 지금처럼 (영화 '동감' X VIVIZ (비비지)))",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Come on baby tonight (Ditto X VIVIZ) (늘 지금처럼 (영화 '동감' X VIVIZ (비비지)))",
+              "video_id": "1P6jZGCopFk",
+              "youtube_views": 647140
+            },
+            {
+              "title": "Come on baby tonight (Ditto X VIVIZ) (Inst.) (늘 지금처럼 (영화 '동감' X VIVIZ...",
+              "video_id": "XroEBm_rooU",
+              "youtube_views": 20233
+            }
+          ]
+        },
+        {
+          "title": "Rum Pum Pum",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Rum Pum Pum",
+              "video_id": "vMIppcK0tEI",
+              "youtube_views": 2038652
+            }
+          ]
+        },
+        {
+          "title": "The 2nd Mini Album 'Summer Vibe'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "LOVEADE",
+              "video_id": "nEvwIbwC5wg",
+              "youtube_views": 482285
+            },
+            {
+              "title": "SIESTA",
+              "video_id": "4byMEUeOPd8",
+              "youtube_views": 226251
+            },
+            {
+              "title": "Party Pop",
+              "video_id": "ucPWOtwUgw8",
+              "youtube_views": 240119
+            },
+            {
+              "title": "Love Love Love",
+              "video_id": "G6M-qNC5B0E",
+              "youtube_views": 1393074
+            },
+            {
+              "title": "#FLASHBACK",
+              "video_id": "-xK8airLrsA",
+              "youtube_views": 107134
+            },
+            {
+              "title": "Dance",
+              "video_id": "tFA88AZ0am4",
+              "youtube_views": 56235
+            }
+          ]
+        },
+        {
+          "title": "Bop Bop! (Yves V Remix)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BOP BOP! (Yves V Remix)",
+              "video_id": "fCQdbI0XLe4",
+              "youtube_views": 900546
+            },
+            {
+              "title": "BOP BOP! (Yves V Remix)",
+              "video_id": "UuHEfttoLJM",
+              "youtube_views": 441052
+            },
+            {
+              "title": "BOP BOP! (Yves V Remix)",
+              "video_id": "WX4yFq2k2kE",
+              "youtube_views": 39071
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

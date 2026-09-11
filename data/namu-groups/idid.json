@@ -5,109 +5,24 @@
   "gender": "남자",
   "namu_url": "https://namu.wiki/w/IDID%28%EC%95%84%EC%9D%B4%EB%8F%8C%29",
   "info": {
-    "멤버수": "7",
-    "데뷔일": "2025.09.15",
-    "소속사": "스타쉽엔터테인먼트",
-    "그룹명뜻": "I DID, 스스로 해내겠다는 자신감과 포부를 뜻함.",
+    "멤버수": "",
+    "데뷔일": "",
+    "소속사": "",
+    "그룹명뜻": "",
     "팬덤명": "",
     "응원봉": "",
     "훈장": "",
-    "레이블": "스타쉽엔터테인먼트",
-    "유통사": "카카오엔터테인먼트",
+    "레이블": "",
+    "유통사": "",
     "결성일": "",
-    "활동유형": "보이그룹",
+    "활동유형": "",
     "인스타그램": "",
     "유튜브": "",
     "X(트위터)": "",
     "틱톡": "",
-    "멤버목록": "장용훈, 김민재, 박원빈, 추유찬, 박성현, 백준혁, 정세민"
+    "멤버목록": ""
   },
-  "members": [
-    {
-      "name": "장용훈",
-      "본명": "장용훈",
-      "생년월일": "2005.02.14",
-      "출생연도": "2005",
-      "출신지": "대한민국",
-      "역할": "리더, 보컬",
-      "키": "180cm",
-      "MBTI": "ENFJ",
-      "혈액형": "O형",
-      "info": "아이딧의 리더"
-    },
-    {
-      "name": "김민재",
-      "본명": "김민재",
-      "생년월일": "2005.08.19",
-      "출생연도": "2005",
-      "출신지": "대한민국",
-      "역할": "메인보컬",
-      "키": "178cm",
-      "MBTI": "ISFJ",
-      "혈액형": "A형",
-      "info": "메인보컬"
-    },
-    {
-      "name": "박원빈",
-      "본명": "박원빈",
-      "생년월일": "2006.03.22",
-      "출생연도": "2006",
-      "출신지": "대한민국",
-      "역할": "메인댄서",
-      "키": "181cm",
-      "MBTI": "ESFP",
-      "혈액형": "B형",
-      "info": "메인댄서"
-    },
-    {
-      "name": "추유찬",
-      "본명": "추유찬",
-      "생년월일": "2006.10.05",
-      "출생연도": "2006",
-      "출신지": "대한민국",
-      "역할": "래퍼",
-      "키": "179cm",
-      "MBTI": "ENTP",
-      "혈액형": "A형",
-      "info": "래퍼"
-    },
-    {
-      "name": "박성현",
-      "본명": "박성현",
-      "생년월일": "2007.01.11",
-      "출생연도": "2007",
-      "출신지": "대한민국",
-      "역할": "보컬, 댄서",
-      "키": "182cm",
-      "MBTI": "INFP",
-      "혈액형": "AB형",
-      "info": "보컬"
-    },
-    {
-      "name": "백준혁",
-      "본명": "백준혁",
-      "생년월일": "2007.07.29",
-      "출생연도": "2007",
-      "출신지": "대한민국",
-      "역할": "보컬",
-      "키": "177cm",
-      "MBTI": "ISFP",
-      "혈액형": "O형",
-      "info": "보컬"
-    },
-    {
-      "name": "정세민",
-      "본명": "정세민",
-      "생년월일": "2008.04.18",
-      "출생연도": "2008",
-      "출신지": "대한민국",
-      "역할": "막내, 댄서",
-      "키": "180cm",
-      "MBTI": "ISTP",
-      "혈액형": "A형",
-      "info": "막내"
-    }
-  ],
+  "members": [],
   "albums": [
     {
       "title": "STEP IT UP",
@@ -139,5 +54,120 @@
       "누적_써클": "-",
       "비고": "첫 번째 디지털 싱글"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 114919,
+      "spotify_id": "67PXCkgEZryiYFJw691hPn",
+      "top_tracks": [
+        {
+          "title": "PUSH BACK",
+          "play_count": 932799,
+          "uri": "spotify:track:2oXZU3GXBaz0NAeswRNZE2"
+        },
+        {
+          "title": "STEP IT UP",
+          "play_count": 1430994,
+          "uri": "spotify:track:1FCj33CWl1pCJnDZZGpF1y"
+        },
+        {
+          "title": "CHAN-RAN",
+          "play_count": 735942,
+          "uri": "spotify:track:2IFLWO1orOeeuAUCcTgji3"
+        },
+        {
+          "title": "SLOW TIDE",
+          "play_count": 504074,
+          "uri": "spotify:track:7mpCjMzECQdL20Gkzra68I"
+        },
+        {
+          "title": "Taking Off - Through Your Dreams",
+          "play_count": 348858,
+          "uri": "spotify:track:0cfQUDZT92CB6Pi027eJs6"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 615387,
+      "track_count": 11,
+      "mean_views": 55944,
+      "max_views": 144413,
+      "albums": [
+        {
+          "title": "I did it.",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "CHAN-RAN (제멋대로 찬란하게)",
+              "video_id": "nX3lLkItYxc",
+              "youtube_views": 144413
+            },
+            {
+              "title": "SLOW TIDE (SLOW TIDE)",
+              "video_id": "XwKDMSD9mRk",
+              "youtube_views": 84111
+            },
+            {
+              "title": "STEP IT UP (STEP IT UP)",
+              "video_id": "d2cNs7wslCM",
+              "youtube_views": 7895
+            },
+            {
+              "title": "ImPerfect (ImPerfect)",
+              "video_id": "DTqOUqxU7Yw",
+              "youtube_views": 27137
+            },
+            {
+              "title": "So G.oo.D (So G.oo.D (네가 미치도록 좋아))",
+              "video_id": "nCSQTbm7zk8",
+              "youtube_views": 34900
+            },
+            {
+              "title": "STICKY BOMB (STICKY BOMB)",
+              "video_id": "PHEADZF5Lac",
+              "youtube_views": 14690
+            },
+            {
+              "title": "Taking Off - Through Your Dreams (꿈을 꿰뚫는 순간(飛必沖天))",
+              "video_id": "Gi-eY3mLIok",
+              "youtube_views": 58631
+            },
+            {
+              "title": "Blooming CROWN (꽃피울 CROWN)",
+              "video_id": "za2335istVA",
+              "youtube_views": 39210
+            }
+          ]
+        },
+        {
+          "title": "PUSH BACK",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "PUSH BACK",
+              "video_id": "w8MOs-MY-7M",
+              "youtube_views": 115236
+            },
+            {
+              "title": "Heaven Smiles",
+              "video_id": "vfaHtRPLGkA",
+              "youtube_views": 18831
+            }
+          ]
+        },
+        {
+          "title": "STEP IT UP",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "STEP IT UP (STEP IT UP)",
+              "video_id": "PAIm6jXsj7w",
+              "youtube_views": 70333
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

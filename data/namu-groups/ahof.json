@@ -193,5 +193,114 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 173084,
+      "spotify_id": "4qfEQKZj3GXPjLBEppvHTH",
+      "top_tracks": [
+        {
+          "title": "Pinocchio",
+          "play_count": 7098336,
+          "uri": "spotify:track:3hXsfPCNGZnZx0l4AYvh8E"
+        },
+        {
+          "title": "Rendezvous",
+          "play_count": 14402974,
+          "uri": "spotify:track:4nKnOIDXFjRSMG4vkXDwzY"
+        },
+        {
+          "title": "Run at 1.5x Speed",
+          "play_count": 3589337,
+          "uri": "spotify:track:0OK4dl8w07OOD2GEp1zGbk"
+        },
+        {
+          "title": "Everything is Love",
+          "play_count": 3465965,
+          "uri": "spotify:track:6i8uu8k3CENvEniHVMi0VM"
+        },
+        {
+          "title": "Never Lose You",
+          "play_count": 3467810,
+          "uri": "spotify:track:3uqd5mmT6y8DcKYHNsWXil"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 9232897,
+      "track_count": 11,
+      "mean_views": 839354,
+      "max_views": 3954770,
+      "albums": [
+        {
+          "title": "The Passage",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Everything is Love",
+              "video_id": "41lmpZuOYk0",
+              "youtube_views": 455846
+            },
+            {
+              "title": "Run at 1.5x Speed",
+              "video_id": "tpvnmSZa9S4",
+              "youtube_views": 358568
+            },
+            {
+              "title": "Pinocchio",
+              "video_id": "Bnz9K8xNE9c",
+              "youtube_views": 1328202
+            },
+            {
+              "title": "Never Lose You",
+              "video_id": "_y-Ea8AQO0A",
+              "youtube_views": 323532
+            },
+            {
+              "title": "The Sleeping Diary",
+              "video_id": "Eb0ZT6ccsu0",
+              "youtube_views": 520678
+            }
+          ]
+        },
+        {
+          "title": "WHO WE ARE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "The Little Star (소년, 무대 위로 넘어지다 (Intro))",
+              "video_id": "jysUZdr5r20",
+              "youtube_views": 345184
+            },
+            {
+              "title": "The Universe (파랑 학교, 초록 잔디, 빨간 운동화)",
+              "video_id": "JDzoo6cKmts",
+              "youtube_views": 840186
+            },
+            {
+              "title": "Rendezvous (그곳에서 다시 만나기로 해 (Rendezvous))",
+              "video_id": "38ZA73J4OAc",
+              "youtube_views": 3954770
+            },
+            {
+              "title": "Incompleted (미완성은 아닐거야)",
+              "video_id": "Nhm3zNkdjXs",
+              "youtube_views": 566801
+            },
+            {
+              "title": "Cosmic Underdog (우주 최고의 꼴찌)",
+              "video_id": "Spq34N-2BZA",
+              "youtube_views": 409806
+            },
+            {
+              "title": "AHOF (아홉, 우리가 빛나는 숫자 (Outro))",
+              "video_id": "9cebENyUEb4",
+              "youtube_views": 129324
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

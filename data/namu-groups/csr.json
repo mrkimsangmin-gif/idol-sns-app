@@ -249,5 +249,39 @@
       "누적_써클": "-",
       "비고": "숨길 수 없는 맘인걸"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 52176,
+      "spotify_id": "06MX3Ecb8PHyNFmq8irTWC",
+      "top_tracks": [
+        {
+          "title": "Shining Bright",
+          "play_count": 4870890,
+          "uri": "spotify:track:2E4E9jhBX8aAAACBG19Ked"
+        },
+        {
+          "title": "Pop? Pop!",
+          "play_count": 5362297,
+          "uri": "spotify:track:3YN1BTbPyHC4h05Bw3u2g9"
+        },
+        {
+          "title": "LOVETICON (♡TiCON)",
+          "play_count": 2854197,
+          "uri": "spotify:track:3HLLUrOUQCdGcXgbKn4BDg"
+        },
+        {
+          "title": "Euratcha!",
+          "play_count": 959952,
+          "uri": "spotify:track:2kHntOK23nfbIFVn6xInNK"
+        },
+        {
+          "title": "Pretty mob",
+          "play_count": 645647,
+          "uri": "spotify:track:5hyGp7V6Kg5C6oAmCUzXNr"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

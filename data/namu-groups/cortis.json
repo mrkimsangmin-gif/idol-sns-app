@@ -155,5 +155,105 @@
       "누적_써클": "-",
       "비고": "리드 싱글"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 7365261,
+      "spotify_id": "1ebt9HnXdyYA6KgLXr1n4P",
+      "top_tracks": [
+        {
+          "title": "GO!",
+          "play_count": 145680781,
+          "uri": "spotify:track:6OWWZtNQORY1McaZmOrwhc"
+        },
+        {
+          "title": "FaSHioN",
+          "play_count": 133499896,
+          "uri": "spotify:track:4ecdsGz3Hg6TKPwQ0ZOdJz"
+        },
+        {
+          "title": "JoyRide",
+          "play_count": 53191390,
+          "uri": "spotify:track:6T17ZI0glfM2IGLdUwtnLK"
+        },
+        {
+          "title": "What You Want",
+          "play_count": 57683641,
+          "uri": "spotify:track:3rAcN3CLeSrkhIZN8PHbwb"
+        },
+        {
+          "title": "Mention Me - From The Movie \"GOAT\"",
+          "play_count": 10201196,
+          "uri": "spotify:track:3f0OEJd7mlPNhmH3fUOrqy"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 91650820,
+      "track_count": 8,
+      "mean_views": 11456352,
+      "max_views": 36491174,
+      "albums": [
+        {
+          "title": "COLOR OUTSIDE THE LINES",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "GO!",
+              "video_id": "7wJsfALKRR8",
+              "youtube_views": 36491174
+            },
+            {
+              "title": "What You Want",
+              "video_id": "QaOjavN_EOU",
+              "youtube_views": 1167943
+            },
+            {
+              "title": "FaSHioN",
+              "video_id": "GCkhFdMdGOY",
+              "youtube_views": 29964789
+            },
+            {
+              "title": "JoyRide",
+              "video_id": "TZHoqQnUbas",
+              "youtube_views": 10987983
+            },
+            {
+              "title": "Lullaby",
+              "video_id": "5_K85U2qXuw",
+              "youtube_views": 3575658
+            },
+            {
+              "title": "What You Want (feat. Teezo Touchdown)",
+              "video_id": "9NBX6X5Vyvo",
+              "youtube_views": 914746
+            }
+          ]
+        },
+        {
+          "title": "What You Want (feat. Teezo Touchdown) (feat. Teezo Touchdown)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "What You Want (feat. Teezo Touchdown)",
+              "video_id": "cmvJ_Gv11dY",
+              "youtube_views": 182485
+            }
+          ]
+        },
+        {
+          "title": "What You Want",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "What You Want",
+              "video_id": "-BX7DpABCbE",
+              "youtube_views": 8366042
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

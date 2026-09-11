@@ -415,5 +415,335 @@
       "누적_써클": "-",
       "비고": "타이틀곡: ICONIC BY MISTAKE"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 13389712,
+      "spotify_id": "36cgvBn0aadzOijnjjwqMN",
+      "top_tracks": [
+        {
+          "title": "NOT CUTE ANYMORE",
+          "play_count": 133139487,
+          "uri": "spotify:track:1k0JAiH11gHL9dc5dfQjQr"
+        },
+        {
+          "title": "Magnetic",
+          "play_count": 776377463,
+          "uri": "spotify:track:1aKvZDoLGkNMxoRYgkckZG"
+        },
+        {
+          "title": "jellyous",
+          "play_count": 101399890,
+          "uri": "spotify:track:51pREVFJeAJGvhJ1rYCKZH"
+        },
+        {
+          "title": "Billyeoon Goyangi (Do the Dance)",
+          "play_count": 120269547,
+          "uri": "spotify:track:4p0uVFAXKUISu8yp9gNtWE"
+        },
+        {
+          "title": "Tick-Tack",
+          "play_count": 164431967,
+          "uri": "spotify:track:0znsc67nMhP4X9hjhvoyeP"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 203231257,
+      "track_count": 42,
+      "mean_views": 4838839,
+      "max_views": 56357750,
+      "albums": [
+        {
+          "title": "NOT CUTE ANYMORE (Holiday Remixes)",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "NOT CUTE ANYMORE",
+              "video_id": "q_bLEyiJ7mE",
+              "youtube_views": 220173
+            },
+            {
+              "title": "NOT CUTE ANYMORE (Holiday Party ver.)",
+              "video_id": "fcKxJxoRLg4",
+              "youtube_views": 577371
+            },
+            {
+              "title": "NOT CUTE ANYMORE (Holiday Night ver.)",
+              "video_id": "iGj7zmka_qQ",
+              "youtube_views": 175605
+            },
+            {
+              "title": "NOT CUTE ANYMORE (Sped Up ver.)",
+              "video_id": "3buWRXyxEW4",
+              "youtube_views": 256113
+            },
+            {
+              "title": "NOT CUTE ANYMORE (Holiday Party Sped up ver.)",
+              "video_id": "Q5bO79MuvU4",
+              "youtube_views": 75335
+            },
+            {
+              "title": "NOT CUTE ANYMORE (Holiday Night Sped up ver.)",
+              "video_id": "r8RetIw9UYE",
+              "youtube_views": 71903
+            },
+            {
+              "title": "NOT CUTE ANYMORE (Instrumental)",
+              "video_id": "xijrYWJTays",
+              "youtube_views": 224747
+            }
+          ]
+        },
+        {
+          "title": "Billyeoon Goyangi (Do the Dance) (Remixes)",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "빌려온 고양이 (Do the Dance)",
+              "video_id": "_oxkM9D6ZlY",
+              "youtube_views": 3948635
+            },
+            {
+              "title": "빌려온 고양이 (Do the Dance) (Snail's House Remix)",
+              "video_id": "1npRQWACRUg",
+              "youtube_views": 1721596
+            },
+            {
+              "title": "빌려온 고양이 (Do the Dance) (Sunlight Remix)",
+              "video_id": "blQn1jHarV0",
+              "youtube_views": 440899
+            },
+            {
+              "title": "빌려온 고양이 (Do the Dance) (Fig Tape Remix)",
+              "video_id": "wcfu-Sm7SAo",
+              "youtube_views": 255989
+            },
+            {
+              "title": "빌려온 고양이 (Do the Dance) (Do the Dance) (Breakbot & Irfane Remix)",
+              "video_id": "Wz1tglvY4uw",
+              "youtube_views": 142556
+            },
+            {
+              "title": "빌려온 고양이 (Do the Dance) (Slowed + Reverb)",
+              "video_id": "tOpicgenvYs",
+              "youtube_views": 251073
+            },
+            {
+              "title": "빌려온 고양이 (Do the Dance) (Instrumental)",
+              "video_id": "bxBhPAXK9ec",
+              "youtube_views": 1535186
+            }
+          ]
+        },
+        {
+          "title": "Cherish (My Love) (Remixes)",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Cherish (My Love)",
+              "video_id": "U6OBFwXMPzw",
+              "youtube_views": 18875703
+            },
+            {
+              "title": "Cherish (My Love) (Deep Dive Remix)",
+              "video_id": "bSOuNc0k2Ic",
+              "youtube_views": 352120
+            },
+            {
+              "title": "Cherish (My Love) (Moonlight Remix)",
+              "video_id": "RnH7MRVi3C4",
+              "youtube_views": 3064502
+            },
+            {
+              "title": "Cherish (My Love) (Fever Remix)",
+              "video_id": "F1T8s7Rx3-8",
+              "youtube_views": 425368
+            },
+            {
+              "title": "Cherish (My Love) (Sped Up)",
+              "video_id": "x1sJN22pLpA",
+              "youtube_views": 74424
+            },
+            {
+              "title": "Cherish (My Love) (Slowed + Reverb)",
+              "video_id": "sJpBlElqzCo",
+              "youtube_views": 56125
+            },
+            {
+              "title": "Cherish (My Love) (Instrumental)",
+              "video_id": "O73guBeqTu0",
+              "youtube_views": 724171
+            }
+          ]
+        },
+        {
+          "title": "Sunday Morning",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Sunday Morning",
+              "video_id": "m5JAnsvvqTk",
+              "youtube_views": 3025483
+            }
+          ]
+        },
+        {
+          "title": "ALL FOR YOU, 2027",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ALL FOR YOU",
+              "video_id": "pZnHampBN0U",
+              "youtube_views": 783019
+            },
+            {
+              "title": "ALL FOR YOU (Instrumental)",
+              "video_id": "LeWMUEZuCa0",
+              "youtube_views": 23332
+            }
+          ]
+        },
+        {
+          "title": "NOT CUTE ANYMORE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "NOT CUTE ANYMORE",
+              "video_id": "HP8qpxRpIW8",
+              "youtube_views": 41120502
+            },
+            {
+              "title": "NOT ME",
+              "video_id": "ANU0lVGfWyo",
+              "youtube_views": 3318207
+            }
+          ]
+        },
+        {
+          "title": "Pokémon | Secret Quest (Original Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Secret Quest",
+              "video_id": "yc7qqGfN0g8",
+              "youtube_views": 952995
+            },
+            {
+              "title": "Secret Quest (Instrumental)",
+              "video_id": "8AfUfrumA84",
+              "youtube_views": 42611
+            }
+          ]
+        },
+        {
+          "title": "Toki Yo Tomare",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Toki Yo Tomare",
+              "video_id": "PfMGfcgdm3Q",
+              "youtube_views": 7562221
+            },
+            {
+              "title": "Topping",
+              "video_id": "MAcjOEzWU5Q",
+              "youtube_views": 314698
+            },
+            {
+              "title": "Karitekita Neko (Do the Dance) (Japanese Ver.)",
+              "video_id": "Ga7eSUkFZBQ",
+              "youtube_views": 1184198
+            },
+            {
+              "title": "Almond Chocolate",
+              "video_id": "YLU4-zR8LQo",
+              "youtube_views": 128455
+            }
+          ]
+        },
+        {
+          "title": "Topping",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Topping",
+              "video_id": "2BAXPAkLl88",
+              "youtube_views": 3731468
+            }
+          ]
+        },
+        {
+          "title": "jellyous",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "jellyous",
+              "video_id": "jDrP5Pb2f_o",
+              "youtube_views": 233619
+            },
+            {
+              "title": "jellyous (Feat. Sophie Powers)",
+              "video_id": "omlhd5Xm-zU",
+              "youtube_views": 1811404
+            }
+          ]
+        },
+        {
+          "title": "bomb",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "little monster",
+              "video_id": "O4GnXupvK3Y",
+              "youtube_views": 4039867
+            },
+            {
+              "title": "빌려온 고양이 (Do the Dance)",
+              "video_id": "RwrZPCKLs2E",
+              "youtube_views": 56357750
+            },
+            {
+              "title": "jellyous",
+              "video_id": "5_8h8Ao_p08",
+              "youtube_views": 31677968
+            },
+            {
+              "title": "oops!",
+              "video_id": "iIFTQcBiEJA",
+              "youtube_views": 5139225
+            },
+            {
+              "title": "밤소풍",
+              "video_id": "imnphAoMVL0",
+              "youtube_views": 2889713
+            }
+          ]
+        },
+        {
+          "title": "See U Tonight (feat. YUNAH & MINJU of ILLIT)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "See U Tonight (feat. YUNAH & MINJU of ILLIT)",
+              "video_id": "CKrNx6NN-NM",
+              "youtube_views": 1080506
+            }
+          ]
+        },
+        {
+          "title": "Almond Chocolate (Korean Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Almond Chocolate (Korean Ver.)",
+              "video_id": "lrDmvNc7_yI",
+              "youtube_views": 4344422
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

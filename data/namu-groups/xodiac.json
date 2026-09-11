@@ -303,5 +303,227 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 61024,
+      "spotify_id": "1Yhs3H3tkZhk4mSQgzECWb",
+      "top_tracks": [
+        {
+          "title": "SPECIAL LOVE",
+          "play_count": 7460923,
+          "uri": "spotify:track:11RrLN6I83tZKAKBxkPSsn"
+        },
+        {
+          "title": "Alibi",
+          "play_count": 356857,
+          "uri": "spotify:track:5DCbuNL8WLu82xTobkyznj"
+        },
+        {
+          "title": "HEYDAY",
+          "play_count": 2582902,
+          "uri": "spotify:track:4F06nQOQWNVREhOU8iax6Y"
+        },
+        {
+          "title": "Sun Hits You",
+          "play_count": 180455,
+          "uri": "spotify:track:6nvTEhZJeF2K2O7833mN62"
+        },
+        {
+          "title": "LEMONADE",
+          "play_count": 2704457,
+          "uri": "spotify:track:1DcgCdbq9EFIbCHRDrcWLu"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 10842580,
+      "track_count": 24,
+      "mean_views": 451774,
+      "max_views": 1408416,
+      "albums": [
+        {
+          "title": "Alibi",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Alibi",
+              "video_id": "tTrzARV4edQ",
+              "youtube_views": 241867
+            },
+            {
+              "title": "Sun Hits You",
+              "video_id": "kE9qJXIH8bQ",
+              "youtube_views": 365741
+            }
+          ]
+        },
+        {
+          "title": "GLOWY DAY",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "TIME 2 SHINE",
+              "video_id": "yLPbo4HKHRA",
+              "youtube_views": 193001
+            },
+            {
+              "title": "MY LOVE",
+              "video_id": "-5TBpnZ8Q4k",
+              "youtube_views": 88283
+            },
+            {
+              "title": "LOVERS OR JUST FRIENDS",
+              "video_id": "Tpy9xMs75Ec",
+              "youtube_views": 567385
+            }
+          ]
+        },
+        {
+          "title": "MY LOVE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "MY LOVE",
+              "video_id": "Rrmrm11L1ss",
+              "youtube_views": 905999
+            }
+          ]
+        },
+        {
+          "title": "SOME DAY",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "OUR DAYS",
+              "video_id": "6AnnhwP83yo",
+              "youtube_views": 313752
+            },
+            {
+              "title": "FOREVER YOUNG",
+              "video_id": "b0g1deuDinA",
+              "youtube_views": 326580
+            },
+            {
+              "title": "BETTER WITH YOU",
+              "video_id": "8XrmnWBZBks",
+              "youtube_views": 1060828
+            },
+            {
+              "title": "LEAN ON ME",
+              "video_id": "i7MbcEEQlUs",
+              "youtube_views": 886630
+            },
+            {
+              "title": "MAGIC",
+              "video_id": "O1QnjAQZX3w",
+              "youtube_views": 465669
+            }
+          ]
+        },
+        {
+          "title": "XOUL DAY",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "HEYDAY",
+              "video_id": "H6rdTWaTvz4",
+              "youtube_views": 582084
+            },
+            {
+              "title": "CREME BRULEE",
+              "video_id": "xxRbNiBF_Pw",
+              "youtube_views": 1089434
+            },
+            {
+              "title": "WONDERFUL TONIGHT",
+              "video_id": "cT3jINAp3KM",
+              "youtube_views": 1324205
+            }
+          ]
+        },
+        {
+          "title": "FIRST SNOW",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "FIRST SNOW",
+              "video_id": "fzEIX8oLpuw",
+              "youtube_views": 329620
+            }
+          ]
+        },
+        {
+          "title": "ONLY FUN",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "LEMONADE",
+              "video_id": "knskrkWdkVo",
+              "youtube_views": 4707
+            },
+            {
+              "title": "ONLY FUN",
+              "video_id": "hZNsnLZS6hM",
+              "youtube_views": 231526
+            }
+          ]
+        },
+        {
+          "title": "LEMONADE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "LEMONADE",
+              "video_id": "_kEvOwt32n4",
+              "youtube_views": 419307
+            }
+          ]
+        },
+        {
+          "title": "THROW A DICE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "CALLING",
+              "video_id": "SmJ04V5BjOs",
+              "youtube_views": 8006
+            },
+            {
+              "title": "THROW A DICE",
+              "video_id": "3Q33tgH3Jw4",
+              "youtube_views": 8047
+            },
+            {
+              "title": "SPECIAL LOVE",
+              "video_id": "-rPEneOIy_I",
+              "youtube_views": 8137
+            },
+            {
+              "title": "MIDNIGHT SKY",
+              "video_id": "dvDaSFIHvLU",
+              "youtube_views": 7008
+            },
+            {
+              "title": "ALWAYS",
+              "video_id": "HgfiSHhUtnY",
+              "youtube_views": 6348
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL LOVE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SPECIAL LOVE",
+              "video_id": "Va21Xpxd32A",
+              "youtube_views": 1408416
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

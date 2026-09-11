@@ -237,5 +237,271 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 33335,
+      "spotify_id": "60315n11JElel8KhdHg8jM",
+      "top_tracks": [
+        {
+          "title": "왜 이러니",
+          "play_count": 189961,
+          "uri": "spotify:track:4Fge5M1t2E746wfOy4gjBf"
+        },
+        {
+          "title": "Crush on U",
+          "play_count": 1743282,
+          "uri": "spotify:track:2ZnPDErWgk6i2Vqh4xEEMG"
+        },
+        {
+          "title": "JAWS",
+          "play_count": 1309090,
+          "uri": "spotify:track:1c5kZR43Op22rrsVv9jrBT"
+        },
+        {
+          "title": "사랑했다",
+          "play_count": 1629432,
+          "uri": "spotify:track:4NLX51HWYhwWv9VqdJgYjc"
+        },
+        {
+          "title": "Fifty-Fifty",
+          "play_count": 532833,
+          "uri": "spotify:track:5Su70BpO6XilzuCjgR2OG2"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 47003,
+      "track_count": 34,
+      "mean_views": 1382,
+      "max_views": 9406,
+      "albums": [
+        {
+          "title": "NEW CHAPTER : DESEAR",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Turned Up",
+              "video_id": "s0NRRoGw8eY",
+              "youtube_views": 3053
+            },
+            {
+              "title": "단 하루 하루만 내 여자친구가 돼줄래",
+              "video_id": "SJj4CSE8qfI",
+              "youtube_views": 0
+            },
+            {
+              "title": "왜 이러니",
+              "video_id": "rO8osXnyPro",
+              "youtube_views": 0
+            },
+            {
+              "title": "Snap",
+              "video_id": "ymQdaWJEw3c",
+              "youtube_views": 427
+            },
+            {
+              "title": "BLACKOUT",
+              "video_id": "sc92HNkIiYc",
+              "youtube_views": 526
+            },
+            {
+              "title": "WHAT",
+              "video_id": "Z_qxo730OB4",
+              "youtube_views": 1010
+            },
+            {
+              "title": "NOBODY",
+              "video_id": "aQQIBNozcWQ",
+              "youtube_views": 1152
+            },
+            {
+              "title": "BAE (Before Anyone Else)",
+              "video_id": "1BUlKxlXukc",
+              "youtube_views": 1167
+            }
+          ]
+        },
+        {
+          "title": "NEW CHAPTER : DESEAR",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "단 하루 하루만 내 여자친구가 돼줄래",
+              "video_id": "uF1HXlLbh7A",
+              "youtube_views": 2476
+            },
+            {
+              "title": "왜 이러니",
+              "video_id": "yIH_GM6fUvw",
+              "youtube_views": 3920
+            }
+          ]
+        },
+        {
+          "title": "To. My Dear",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "To. My Dear",
+              "video_id": "JETRPEXuAWQ",
+              "youtube_views": 587
+            }
+          ]
+        },
+        {
+          "title": "NEW CHAPTER : LUCEAT",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Fifty-Fifty",
+              "video_id": "0NEIGTdz4ag",
+              "youtube_views": 4876
+            },
+            {
+              "title": "CRIMSON",
+              "video_id": "poMD_BcqrUk",
+              "youtube_views": 338
+            },
+            {
+              "title": "너",
+              "video_id": "9F0MtFaYtP8",
+              "youtube_views": 832
+            }
+          ]
+        },
+        {
+          "title": "ODYSSEY:DaSH",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "get him UGH (걸음마)",
+              "video_id": "OPfFt7AzlYg",
+              "youtube_views": 697
+            },
+            {
+              "title": "DaSH",
+              "video_id": "b2mksMqTQzc",
+              "youtube_views": 4171
+            },
+            {
+              "title": "toez",
+              "video_id": "DUs8aNUyNLI",
+              "youtube_views": 378
+            },
+            {
+              "title": "DaSH inst",
+              "video_id": "iBB_WMEucSo",
+              "youtube_views": 47
+            }
+          ]
+        },
+        {
+          "title": "INTERSECTION : BLAZE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Runnin'",
+              "video_id": "k3YrPozwoHM",
+              "youtube_views": 274
+            },
+            {
+              "title": "짜증나게",
+              "video_id": "LvJIKZTibUk",
+              "youtube_views": 700
+            },
+            {
+              "title": "JAWS",
+              "video_id": "ZjO41qpOX9c",
+              "youtube_views": 5014
+            },
+            {
+              "title": "혼자가 아니야",
+              "video_id": "Io9D0PTvb7g",
+              "youtube_views": 827
+            },
+            {
+              "title": "JAWS Instrumental",
+              "video_id": "Qsvu1Knp1k4",
+              "youtube_views": 55
+            }
+          ]
+        },
+        {
+          "title": "INTERSECTION : TRACE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "#Trace",
+              "video_id": "bnhQv-mipZI",
+              "youtube_views": 350
+            },
+            {
+              "title": "사랑했다",
+              "video_id": "tAJz1QOuvhY",
+              "youtube_views": 1339
+            },
+            {
+              "title": "I Can’t Sleep",
+              "video_id": "CslxGjfWxps",
+              "youtube_views": 649
+            },
+            {
+              "title": "Green Light",
+              "video_id": "IXhyGCe9Qmk",
+              "youtube_views": 605
+            },
+            {
+              "title": "사랑했다 Instrumental",
+              "video_id": "zbkLOSzbvxQ",
+              "youtube_views": 63
+            }
+          ]
+        },
+        {
+          "title": "모두 너야",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "모두 너야",
+              "video_id": "KdezpQjpS9Q",
+              "youtube_views": 224
+            }
+          ]
+        },
+        {
+          "title": "INTERSECTION : SPARK",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "prelude : with me",
+              "video_id": "sOwDn7CHhOc",
+              "youtube_views": 176
+            },
+            {
+              "title": "Crush on U (반하겠어)",
+              "video_id": "qB_mryOp4jE",
+              "youtube_views": 9406
+            },
+            {
+              "title": "FLY",
+              "video_id": "m5l8-lN22ck",
+              "youtube_views": 739
+            },
+            {
+              "title": "죽어도 못하는 말",
+              "video_id": "2wMxtsvP-Xc",
+              "youtube_views": 244
+            },
+            {
+              "title": "모두 너야",
+              "video_id": "BjpfJd4PjGs",
+              "youtube_views": 681
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -283,5 +283,411 @@
       "누적_써클": "-",
       "비고": "혼자 보는 영화(feat.휘서)"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 257494,
+      "spotify_id": "5GwQwY63I9hrUUFlQB8FYU",
+      "top_tracks": [
+        {
+          "title": "Rose Blossom",
+          "play_count": 14036768,
+          "uri": "spotify:track:29j6SXQOmfSbiemMriO25W"
+        },
+        {
+          "title": "Summer Was You",
+          "play_count": 2985106,
+          "uri": "spotify:track:7fiSE0NQwgJPj5QHhln8L1"
+        },
+        {
+          "title": "To. My First Love",
+          "play_count": 134113,
+          "uri": "spotify:track:10nSl4tuKAfdHiSPppxrNY"
+        },
+        {
+          "title": "Not Like a Movie",
+          "play_count": 397297,
+          "uri": "spotify:track:1jcg5d5YaYJinVeU5mtR3C"
+        },
+        {
+          "title": "Thinkin' About You",
+          "play_count": 4377987,
+          "uri": "spotify:track:3GF5L6dW04zWSP9SYAtp5L"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 135541986,
+      "track_count": 56,
+      "mean_views": 2420392,
+      "max_views": 88467765,
+      "albums": [
+        {
+          "title": "LOVECHAPTER",
+          "year": "2026",
+          "tracks": [
+            {
+              "title": "Be full of Romantic",
+              "video_id": "zrh8U7IGsA4",
+              "youtube_views": 235192
+            },
+            {
+              "title": "To. My First Love",
+              "video_id": "P_nEdat7Vmk",
+              "youtube_views": 618417
+            },
+            {
+              "title": "Stuck with You",
+              "video_id": "JhaiWyACKgg",
+              "youtube_views": 79297
+            },
+            {
+              "title": "My Wish",
+              "video_id": "ICjKneyzXKc",
+              "youtube_views": 83377
+            },
+            {
+              "title": "Not Like a Movie",
+              "video_id": "RbDB4AbwZ3k",
+              "youtube_views": 118134
+            },
+            {
+              "title": "To. My First Love (Instrumental)",
+              "video_id": "pIp4KuvS4XE",
+              "youtube_views": 15013
+            },
+            {
+              "title": "Not Like a Movie (Instrumental)",
+              "video_id": "WM4ksKfXxnM",
+              "youtube_views": 9619
+            }
+          ]
+        },
+        {
+          "title": "H1-KEY 2nd Mini Album [Seoul Dreaming]",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Intro : Seoul Dreaming",
+              "video_id": "QR2h38A_HuI",
+              "youtube_views": 49146
+            },
+            {
+              "title": "SEOUL (Such a Beautiful City)",
+              "video_id": "yvy3Aitwd84",
+              "youtube_views": 2414213
+            },
+            {
+              "title": "불빛을 꺼뜨리지 마 (Time to Shine)",
+              "video_id": "IxJxpjHjHiE",
+              "youtube_views": 978410
+            },
+            {
+              "title": "Low-key Scared But H1-KEY Ready",
+              "video_id": "SomA4SjDmvo",
+              "youtube_views": 341314
+            },
+            {
+              "title": "Magical Dream",
+              "video_id": "-9bQt-V9JME",
+              "youtube_views": 184915
+            },
+            {
+              "title": "SEOUL (Such a Beautiful City) (Instrumental)",
+              "video_id": "A1rrG_-L4Xo",
+              "youtube_views": 30968
+            },
+            {
+              "title": "Time to Shine (Instrumental)",
+              "video_id": "tHpnKixTucE",
+              "youtube_views": 26489
+            }
+          ]
+        },
+        {
+          "title": "H1-KEY 1st Mini Album [Rose Blossom]",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Ring the Alarm",
+              "video_id": "oeg66U9ICM4",
+              "youtube_views": 234612
+            },
+            {
+              "title": "Rose Blossom",
+              "video_id": "Na_sJ7XtDl0",
+              "youtube_views": 88467765
+            },
+            {
+              "title": "Crown Jewel",
+              "video_id": "xPpVFyYFQmc",
+              "youtube_views": 349049
+            },
+            {
+              "title": "You Are My Key (for M1-KEY)",
+              "video_id": "cdLZyLF7oDo",
+              "youtube_views": 616540
+            },
+            {
+              "title": "Dream Trip",
+              "video_id": "8z2p2P3lxmY",
+              "youtube_views": 96687
+            },
+            {
+              "title": "Rose Blossom (Instrumental)",
+              "video_id": "K8UpriaW1DA",
+              "youtube_views": 206785
+            },
+            {
+              "title": "ATHLETIC GIRL (2023 Remaster)",
+              "video_id": "MlhZpkMapDA",
+              "youtube_views": 106723
+            }
+          ]
+        },
+        {
+          "title": "RUN",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "RUN",
+              "video_id": "jbCCxpYvkXs",
+              "youtube_views": 1368312
+            },
+            {
+              "title": "Catch 'n' Release",
+              "video_id": "z8QELYj0Uyg",
+              "youtube_views": 281811
+            },
+            {
+              "title": "Heart Light",
+              "video_id": "wdb5VrohYzE",
+              "youtube_views": 561902
+            },
+            {
+              "title": "RUN (Instrumental)",
+              "video_id": "fS7JPUoovMg",
+              "youtube_views": 13952
+            },
+            {
+              "title": "Catch 'n' Release (Instrumental)",
+              "video_id": "NeH0I_eD87c",
+              "youtube_views": 11862
+            },
+            {
+              "title": "Heart Light (Instrumental)",
+              "video_id": "CKXQhgFamEo",
+              "youtube_views": 9961
+            },
+            {
+              "title": "H1-KEY Voice Letter for M1-KEY",
+              "video_id": "4LcFuR9gUWI",
+              "youtube_views": 0
+            }
+          ]
+        },
+        {
+          "title": "Not Like a Movie",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Not Like a Movie",
+              "video_id": "_UiZ-Uuw1ro",
+              "youtube_views": 1947970
+            }
+          ]
+        },
+        {
+          "title": "Lovestruck - Japanese ver. -",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Good for U - Japanese ver. -",
+              "video_id": "rz46-19BrHc",
+              "youtube_views": 33932
+            },
+            {
+              "title": "Summer Was You -Japanese Ver.-",
+              "video_id": "K8JvX0MzRvg",
+              "youtube_views": 7361
+            },
+            {
+              "title": "One, Two, Three, Four - Japanese ver. -",
+              "video_id": "7-hIIkmwPbE",
+              "youtube_views": 4643
+            },
+            {
+              "title": "Let Me Be Your Sea - Japanese ver. -",
+              "video_id": "LgR8Skik6Mg",
+              "youtube_views": 19005
+            },
+            {
+              "title": "Summer Was You (Instrumental)",
+              "video_id": "wxF2FU4Tkg8",
+              "youtube_views": 1729
+            }
+          ]
+        },
+        {
+          "title": "Summer Was You -Japanese ver.-",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Summer Was You -Japanese Ver.-",
+              "video_id": "RsVWT2XBP4M",
+              "youtube_views": 97874
+            },
+            {
+              "title": "Summer Was You (Instrumental)",
+              "video_id": "t9lTAfYRChA",
+              "youtube_views": 2007
+            }
+          ]
+        },
+        {
+          "title": "H1-KEY 4th Mini Album [Lovestruck] (Short Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Summer Was You",
+              "video_id": "nfraORuzuS4",
+              "youtube_views": 177225
+            },
+            {
+              "title": "Summer Was You (Short Ver.1)",
+              "video_id": "rV7VpsOF2og",
+              "youtube_views": 28857
+            },
+            {
+              "title": "Summer Was You (Short Ver.2)",
+              "video_id": "cAGDB34cksQ",
+              "youtube_views": 8550
+            }
+          ]
+        },
+        {
+          "title": "H1-KEY 4th Mini Album [Lovestruck]",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Good for U",
+              "video_id": "0HqGFEzEJtg",
+              "youtube_views": 1222542
+            },
+            {
+              "title": "Summer Was You",
+              "video_id": "VnJSlzKW-Is",
+              "youtube_views": 22675461
+            },
+            {
+              "title": "One, Two, Three, Four",
+              "video_id": "M_zpihb5UEo",
+              "youtube_views": 229197
+            },
+            {
+              "title": "Let Me Be Your Sea",
+              "video_id": "SOvFxcYqLbI",
+              "youtube_views": 1564540
+            },
+            {
+              "title": "Summer Was You (Instrumental)",
+              "video_id": "9mBXazqnwI8",
+              "youtube_views": 30309
+            }
+          ]
+        },
+        {
+          "title": "Re: Thinkin' About You (Short Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Re: Thinkin' About You (Short Ver.1)",
+              "video_id": "lK46KoGPegc",
+              "youtube_views": 6901
+            },
+            {
+              "title": "Re: Thinkin' About You (Short Ver.2)",
+              "video_id": "ymRv3ljYJAU",
+              "youtube_views": 5017
+            }
+          ]
+        },
+        {
+          "title": "Re: Thinkin' About You",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Re: Thinkin' About You",
+              "video_id": "zDTMnlCLHHQ",
+              "youtube_views": 663165
+            }
+          ]
+        },
+        {
+          "title": "Let It Burn (Sped Up)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Let It Burn (Sped Up)",
+              "video_id": "uBOpJUHWnLI",
+              "youtube_views": 204800
+            },
+            {
+              "title": "Let It Burn (Sped Up)",
+              "video_id": "_VUo_tpRxkE",
+              "youtube_views": 6993
+            },
+            {
+              "title": "Let It Burn (Sped Up)",
+              "video_id": "4z3Obx6mjq0",
+              "youtube_views": 5912
+            }
+          ]
+        },
+        {
+          "title": "H1-KEY 3rd Mini Album [LOVE or HATE]",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Let It Burn",
+              "video_id": "oSDnzcr8888",
+              "youtube_views": 6918004
+            },
+            {
+              "title": "♥ Letter",
+              "video_id": "OGtr_qHoaCw",
+              "youtube_views": 324817
+            },
+            {
+              "title": "Iconic",
+              "video_id": "YVnk75ej7r4",
+              "youtube_views": 956332
+            },
+            {
+              "title": "Rainfalls",
+              "video_id": "26-AOSyirPo",
+              "youtube_views": 866371
+            }
+          ]
+        },
+        {
+          "title": "H1-KEYnote #2 [Deeper]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Deeper",
+              "video_id": "1iQHTGzsTzY",
+              "youtube_views": 16423
+            },
+            {
+              "title": "Deeper (Sped Up)",
+              "video_id": "A3ZnYCZN6xE",
+              "youtube_views": 5584
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

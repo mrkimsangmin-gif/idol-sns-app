@@ -454,5 +454,409 @@
       "누적_써클": "-",
       "비고": "Paradise, Framework"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 237167,
+      "spotify_id": "6FkhUhUwSPl3mGB6mmE8wn",
+      "top_tracks": [
+        {
+          "title": "Lemonade Fever",
+          "play_count": 958231,
+          "uri": "spotify:track:6tywjVskwCOlog3bRWus42"
+        },
+        {
+          "title": "Love or Die",
+          "play_count": 6755585,
+          "uri": "spotify:track:6UyOqNdJweSjjZsguSgYO1"
+        },
+        {
+          "title": "SET NET G0?!",
+          "play_count": 1134598,
+          "uri": "spotify:track:6caqFtBxhs0Ms2fW5YDb1f"
+        },
+        {
+          "title": "BLAST OUT",
+          "play_count": 78038,
+          "uri": "spotify:track:6TLlOLLcsxBrtlWsGzVF37"
+        },
+        {
+          "title": "Now or Never",
+          "play_count": 1541877,
+          "uri": "spotify:track:4IxDz5uLTRq8HcSbvVXk81"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 19381787,
+      "track_count": 64,
+      "mean_views": 302840,
+      "max_views": 2087280,
+      "albums": [
+        {
+          "title": "Dare to Crave : Epilogue",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Lemonade Fever",
+              "video_id": "c_hmnwzmgJ8",
+              "youtube_views": 218969
+            },
+            {
+              "title": "OXYGEN",
+              "video_id": "dc5LiL98PZc",
+              "youtube_views": 34858
+            },
+            {
+              "title": "Everyday",
+              "video_id": "S3kgRR0Uygw",
+              "youtube_views": 71530
+            },
+            {
+              "title": "On My Way",
+              "video_id": "QNV4oJVgxro",
+              "youtube_views": 4284
+            },
+            {
+              "title": "SWISH",
+              "video_id": "YwBzwxvHYjI",
+              "youtube_views": 5431
+            },
+            {
+              "title": "SET NET G0?!",
+              "video_id": "2eOcrHLqfVE",
+              "youtube_views": 3926
+            },
+            {
+              "title": "Rendez-vous",
+              "video_id": "cewRh5fIDyQ",
+              "youtube_views": 2408
+            },
+            {
+              "title": "PARANOIA",
+              "video_id": "6xyIHK2H5ls",
+              "youtube_views": 2248
+            },
+            {
+              "title": "Straight Up To Heaven (Sung by JUNGMO, WOOBIN, SEONGMIN)",
+              "video_id": "HSILf9_zJ7w",
+              "youtube_views": 2014
+            },
+            {
+              "title": "Stadium (Sung by ALLEN, WONJIN, HYEONGJUN)",
+              "video_id": "dOOlvOU5K3o",
+              "youtube_views": 1908
+            },
+            {
+              "title": "Marionette (Sung by SERIM, MINHEE, TAEYOUNG)",
+              "video_id": "Uw96VihWeNQ",
+              "youtube_views": 1825
+            },
+            {
+              "title": "Underdog",
+              "video_id": "gNrdIZdjYpc",
+              "youtube_views": 1810
+            },
+            {
+              "title": "Click, Flash, Pow",
+              "video_id": "P4TpBdRK8IY",
+              "youtube_views": 1881
+            },
+            {
+              "title": "Love Me Again",
+              "video_id": "04070piOamg",
+              "youtube_views": 1721
+            },
+            {
+              "title": "Wish Upon A Star",
+              "video_id": "rg1uQqjwy8g",
+              "youtube_views": 2000
+            }
+          ]
+        },
+        {
+          "title": "Dare to Crave",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "On My Way",
+              "video_id": "jjvIT-g8MFY",
+              "youtube_views": 193987
+            },
+            {
+              "title": "SWISH",
+              "video_id": "l0sVSFfYYc8",
+              "youtube_views": 97298
+            },
+            {
+              "title": "SET NET G0?!",
+              "video_id": "bYSZAvzwhGY",
+              "youtube_views": 267879
+            },
+            {
+              "title": "Rendez-vous",
+              "video_id": "KGrTDBlsUp4",
+              "youtube_views": 52804
+            },
+            {
+              "title": "PARANOIA",
+              "video_id": "WQztk0BEgsU",
+              "youtube_views": 45826
+            },
+            {
+              "title": "Straight Up To Heaven (Sung by JUNGMO, WOOBIN, SEONGMIN)",
+              "video_id": "uOIfIsQXRJs",
+              "youtube_views": 19422
+            },
+            {
+              "title": "Stadium (Sung by ALLEN, WONJIN, HYEONGJUN)",
+              "video_id": "sDgjWbheboA",
+              "youtube_views": 34290
+            },
+            {
+              "title": "Marionette (Sung by SERIM, MINHEE, TAEYOUNG)",
+              "video_id": "X6T-5w9hnNY",
+              "youtube_views": 34571
+            },
+            {
+              "title": "Underdog",
+              "video_id": "MmPSaHeiI20",
+              "youtube_views": 77270
+            },
+            {
+              "title": "Click, Flash, Pow",
+              "video_id": "dBdPQ1UfaVw",
+              "youtube_views": 27321
+            },
+            {
+              "title": "Love Me Again",
+              "video_id": "brcr_V0fnyo",
+              "youtube_views": 60813
+            },
+            {
+              "title": "Wish Upon A Star",
+              "video_id": "OoL8lVcJISo",
+              "youtube_views": 40563
+            }
+          ]
+        },
+        {
+          "title": "CRAVITY 1ST ALBUM PART 2 [LIBERTY : IN OUR COSMOS]",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Adrenaline (Adrenaline)",
+              "video_id": "9EN4jRSUuR0",
+              "youtube_views": 1793932
+            },
+            {
+              "title": "POW! (POW!)",
+              "video_id": "JIswwf-35hU",
+              "youtube_views": 187816
+            },
+            {
+              "title": "BOPPIN’ (BOPPIN’)",
+              "video_id": "kPDv-Cf5Ja0",
+              "youtube_views": 126647
+            },
+            {
+              "title": "Chandelier (Chandelier)",
+              "video_id": "hW5rEYd87mg",
+              "youtube_views": 103719
+            },
+            {
+              "title": "FLIP THE FRAME (FLIP THE FRAME)",
+              "video_id": "OG08f-T9ycY",
+              "youtube_views": 180025
+            },
+            {
+              "title": "Maybe Baby (좋아하나봐)",
+              "video_id": "z5o3sl6mIh0",
+              "youtube_views": 384475
+            },
+            {
+              "title": "Late Night (Late Night)",
+              "video_id": "-1l57uG-Ec0",
+              "youtube_views": 298046
+            },
+            {
+              "title": "Outro : In Our Cosmos (Outro : In Our Cosmos)",
+              "video_id": "RxCcC3bUsaw",
+              "youtube_views": 50006
+            }
+          ]
+        },
+        {
+          "title": "CRAVITY 1ST ALBUM PART 1 [The Awakening: Written In The Stars]",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Intro : New Horizon (Intro : New Horizon)",
+              "video_id": "C8AKscxMjkQ",
+              "youtube_views": 79626
+            },
+            {
+              "title": "Gas Pedal (Gas Pedal)",
+              "video_id": "YJuJCW04IkM",
+              "youtube_views": 689130
+            },
+            {
+              "title": "VENI VIDI VICI (VENI VIDI VICI)",
+              "video_id": "bboQcIAlt68",
+              "youtube_views": 988332
+            },
+            {
+              "title": "CHINGA-LINGA (CHINGA-LINGA)",
+              "video_id": "PfW-VWEBn6g",
+              "youtube_views": 162122
+            },
+            {
+              "title": "Celebrate (Celebrate)",
+              "video_id": "4f7dNM8aNtU",
+              "youtube_views": 184117
+            },
+            {
+              "title": "Grand Prix (Grand Prix)",
+              "video_id": "cMheAKY5AR8",
+              "youtube_views": 246011
+            },
+            {
+              "title": "Divin' (Divin')",
+              "video_id": "OwdbGOO8E_Y",
+              "youtube_views": 274919
+            },
+            {
+              "title": "GO GO (GO GO)",
+              "video_id": "ocDLZ0px934",
+              "youtube_views": 330098
+            }
+          ]
+        },
+        {
+          "title": "HIDEOUT: BE OUR VOICE - SEASON 3.",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "My Turn (My Turn)",
+              "video_id": "pXj6frdQ8GA",
+              "youtube_views": 2087280
+            },
+            {
+              "title": "Call my name (Call my name)",
+              "video_id": "tBr0GLXX5rQ",
+              "youtube_views": 378854
+            },
+            {
+              "title": "Mammoth (Mammoth)",
+              "video_id": "HmwEpGsJE2M",
+              "youtube_views": 269690
+            },
+            {
+              "title": "Bad Habits (Bad Habits)",
+              "video_id": "OiN9CPCOGMo",
+              "youtube_views": 526510
+            },
+            {
+              "title": "Moonlight (Moonlight)",
+              "video_id": "jDXSOgkdVy8",
+              "youtube_views": 205770
+            },
+            {
+              "title": "Dangerous (Dangerous)",
+              "video_id": "8spfrIuLHWE",
+              "youtube_views": 214543
+            },
+            {
+              "title": "Give me your love (Give me your love)",
+              "video_id": "-X-wZP1egxc",
+              "youtube_views": 325773
+            }
+          ]
+        },
+        {
+          "title": "HIDEOUT: THE NEW DAY WE STEP INTO - SEASON 2.",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Flame (Flame)",
+              "video_id": "Ykp9Nps-CxY",
+              "youtube_views": 878346
+            },
+            {
+              "title": "Believer (Believer)",
+              "video_id": "EuNY_pMDdQs",
+              "youtube_views": 385296
+            },
+            {
+              "title": "Ohh Ahh (Ohh Ahh)",
+              "video_id": "8EwINZ_IMP0",
+              "youtube_views": 746438
+            },
+            {
+              "title": "Realize (Realize)",
+              "video_id": "KrNO8buseo8",
+              "youtube_views": 451361
+            },
+            {
+              "title": "HOT AIR BALLOON (열기구)",
+              "video_id": "aB71Ipd4o94",
+              "youtube_views": 393294
+            },
+            {
+              "title": "Sunrise (Sunrise)",
+              "video_id": "4ZvEEQerxWA",
+              "youtube_views": 345616
+            },
+            {
+              "title": "Breathing (호흡(Breathing))",
+              "video_id": "dNAUxqnnDXY",
+              "youtube_views": 414026
+            }
+          ]
+        },
+        {
+          "title": "HIDEOUT: REMEMBER WHO WE ARE - SEASON1.",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Top of the Chain (Top of the Chain)",
+              "video_id": "phHmDykXpPo",
+              "youtube_views": 325847
+            },
+            {
+              "title": "Break all the Rules (Break all the Rules)",
+              "video_id": "649jud1nakw",
+              "youtube_views": 975205
+            },
+            {
+              "title": "JUMPER (JUMPER)",
+              "video_id": "d86w75IaVdk",
+              "youtube_views": 751705
+            },
+            {
+              "title": "Blackout (Blackout)",
+              "video_id": "p7HzDAmmpaA",
+              "youtube_views": 233649
+            },
+            {
+              "title": "Stay (낯섦)",
+              "video_id": "UqpBEyFVzTI",
+              "youtube_views": 389347
+            },
+            {
+              "title": "Cloud 9 (Cloud 9)",
+              "video_id": "NWb0oXKJouQ",
+              "youtube_views": 1230000
+            },
+            {
+              "title": "Star (별)",
+              "video_id": "B0v9sQXUl1Y",
+              "youtube_views": 465359
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

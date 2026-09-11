@@ -486,5 +486,552 @@
       "누적_써클": "-",
       "비고": "Ice Cream"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 3914215,
+      "spotify_id": "2KC9Qb60EaY0kW4eH68vr3",
+      "top_tracks": [
+        {
+          "title": "WANNABE",
+          "play_count": 435194349,
+          "uri": "spotify:track:2IYnnkPXK1zvoCIHAkyiFA"
+        },
+        {
+          "title": "TUNNEL VISION",
+          "play_count": 15879807,
+          "uri": "spotify:track:7InUGlO9nGHcrirzOcQzzT"
+        },
+        {
+          "title": "THAT'S A NO NO",
+          "play_count": 18111453,
+          "uri": "spotify:track:5Dxoukq4UC29A7OjQTbHgw"
+        },
+        {
+          "title": "LOCO",
+          "play_count": 307549875,
+          "uri": "spotify:track:6hAznmvhIfHE4vSZYsyONI"
+        },
+        {
+          "title": "달라달라 (DALLA DALLA)",
+          "play_count": 280264659,
+          "uri": "spotify:track:5JA4q7xkeSxmhgfAkPWnWW"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 330304245,
+      "track_count": 83,
+      "mean_views": 3979569,
+      "max_views": 126571397,
+      "albums": [
+        {
+          "title": "Collector",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "ROCK & ROLL",
+              "video_id": "9C8pXhowhY4",
+              "youtube_views": 197898
+            },
+            {
+              "title": "I. I. Know Me",
+              "video_id": "mPKfG2xi_dA",
+              "youtube_views": 39479
+            },
+            {
+              "title": "Out of season",
+              "video_id": "VhpPA0jVSys",
+              "youtube_views": 13698
+            },
+            {
+              "title": "Trigger",
+              "video_id": "G9xjajwzXEI",
+              "youtube_views": 27697
+            },
+            {
+              "title": "Wind Ride",
+              "video_id": "eZ8fP3UILjw",
+              "youtube_views": 62072
+            },
+            {
+              "title": "Algorhythm (Final Ver.)",
+              "video_id": "IVGW4qwNw7k",
+              "youtube_views": 15440
+            },
+            {
+              "title": "No Biggie (Final Ver.)",
+              "video_id": "KfgMTCWJdxk",
+              "youtube_views": 6271
+            },
+            {
+              "title": "GOLD (Japanese ver.)",
+              "video_id": "uaG3a2VYW6Q",
+              "youtube_views": 3496
+            },
+            {
+              "title": "Imaginary Friend (Japanese ver.)",
+              "video_id": "cNMUPKFGMA4",
+              "youtube_views": 5219
+            },
+            {
+              "title": "Girls Will Be Girls (Japanese ver.)",
+              "video_id": "ZDlVpnhSWeE",
+              "youtube_views": 40941
+            }
+          ]
+        },
+        {
+          "title": "GOLD",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "GOLD",
+              "video_id": "ZYua8nujCFU",
+              "youtube_views": 9886431
+            },
+            {
+              "title": "Imaginary Friend",
+              "video_id": "LvwTmj1nY9s",
+              "youtube_views": 22278457
+            },
+            {
+              "title": "Bad Girls R Us",
+              "video_id": "PfE_bxJ5k2o",
+              "youtube_views": 1879246
+            },
+            {
+              "title": "Supernatural",
+              "video_id": "NxtsCb9Jrfk",
+              "youtube_views": 1911123
+            },
+            {
+              "title": "FIVE",
+              "video_id": "0sLQSsKUWiU",
+              "youtube_views": 2413217
+            },
+            {
+              "title": "VAY  (Feat. Changbin of Stray Kids)",
+              "video_id": "ARxdsGOsLI0",
+              "youtube_views": 3321031
+            },
+            {
+              "title": "BORN TO BE  (Final Ver.)",
+              "video_id": "6RSfWLZQY8c",
+              "youtube_views": 8766279
+            },
+            {
+              "title": "UNTOUCHABLE  (Final Ver.)",
+              "video_id": "oqyIASEhXCc",
+              "youtube_views": 11298249
+            },
+            {
+              "title": "Mr. Vampire  (Final Ver.)",
+              "video_id": "ZD0cuY3N6jY",
+              "youtube_views": 2170305
+            },
+            {
+              "title": "Dynamite  (Final Ver.)",
+              "video_id": "K9vrwiXpWmc",
+              "youtube_views": 1064934
+            },
+            {
+              "title": "Escalator  (Final Ver.)",
+              "video_id": "3q7xZt7xAAw",
+              "youtube_views": 809530
+            }
+          ]
+        },
+        {
+          "title": "BORN TO BE",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "BORN TO BE",
+              "video_id": "QsOm-NxMjXk",
+              "youtube_views": 13255416
+            },
+            {
+              "title": "UNTOUCHABLE",
+              "video_id": "Vq1PNZkUQjg",
+              "youtube_views": 23643317
+            },
+            {
+              "title": "Mr. Vampire",
+              "video_id": "oABOOWYN5Ck",
+              "youtube_views": 6037290
+            },
+            {
+              "title": "Dynamite",
+              "video_id": "gZxxWGD-k5U",
+              "youtube_views": 1185447
+            },
+            {
+              "title": "Crown On My Head (YEJI)",
+              "video_id": "nCDHXw5GSDU",
+              "youtube_views": 2045519
+            },
+            {
+              "title": "Blossom (LIA)",
+              "video_id": "ebA3k0BK9Kc",
+              "youtube_views": 1749078
+            },
+            {
+              "title": "Run Away (RYUJIN)",
+              "video_id": "JkpcLwR3VTk",
+              "youtube_views": 2281284
+            },
+            {
+              "title": "Mine (CHAERYEONG)",
+              "video_id": "jr-Fpfe3OMw",
+              "youtube_views": 1711433
+            },
+            {
+              "title": "Yet, but (YUNA)",
+              "video_id": "e365KI_DLUc",
+              "youtube_views": 1024146
+            },
+            {
+              "title": "Escalator",
+              "video_id": "92Ke-C-JcE0",
+              "youtube_views": 653253
+            }
+          ]
+        },
+        {
+          "title": "RINGO",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "RINGO",
+              "video_id": "ydq52XWSDpI",
+              "youtube_views": 162164
+            },
+            {
+              "title": "Sugar-holic",
+              "video_id": "I6LO08Ka90s",
+              "youtube_views": 29402
+            },
+            {
+              "title": "Playlist",
+              "video_id": "m-Nxol_UQWI",
+              "youtube_views": 51611
+            },
+            {
+              "title": "STYLE",
+              "video_id": "jR8-ctM4zVA",
+              "youtube_views": 40195
+            },
+            {
+              "title": "Voltage",
+              "video_id": "mR5dI8NF5ao",
+              "youtube_views": 42978
+            },
+            {
+              "title": "Spice",
+              "video_id": "F8GgtNUL5EM",
+              "youtube_views": 28177
+            },
+            {
+              "title": "Blah Blah Blah",
+              "video_id": "qfvn0JKwA8g",
+              "youtube_views": 40719
+            },
+            {
+              "title": "Can’t tie me down",
+              "video_id": "guUGL1FJPfU",
+              "youtube_views": 16272
+            },
+            {
+              "title": "SNEAKERS -Japanese ver.-",
+              "video_id": "mo2gQrPLalM",
+              "youtube_views": 7152
+            },
+            {
+              "title": "Cheshire -Japanese ver.-",
+              "video_id": "tY472L0O6a0",
+              "youtube_views": 19173
+            },
+            {
+              "title": "Trust Me (MIDZY) -Japanese ver.-",
+              "video_id": "ZsFsgtyCydM",
+              "youtube_views": 6247
+            }
+          ]
+        },
+        {
+          "title": "CRAZY IN LOVE",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "LOCO",
+              "video_id": "AzifmextSDM",
+              "youtube_views": 126571397
+            },
+            {
+              "title": "SWIPE",
+              "video_id": "2WczEw6XO0o",
+              "youtube_views": 18755403
+            },
+            {
+              "title": "Sooo LUCKY",
+              "video_id": "6wSj1coZmu0",
+              "youtube_views": 2866236
+            },
+            {
+              "title": "#Twenty",
+              "video_id": "ptK2ksLVYwE",
+              "youtube_views": 9419613
+            },
+            {
+              "title": "B [OO] M-BOXX",
+              "video_id": "a8SJ_0CbVZo",
+              "youtube_views": 1752301
+            },
+            {
+              "title": "Gas Me Up",
+              "video_id": "AQrU6TrkwvA",
+              "youtube_views": 1598051
+            },
+            {
+              "title": "LOVE is",
+              "video_id": "in0SRybHXLM",
+              "youtube_views": 3907543
+            },
+            {
+              "title": "Chillin' Chillin'",
+              "video_id": "91EfQzmS81o",
+              "youtube_views": 3424698
+            },
+            {
+              "title": "Mirror",
+              "video_id": "q_a2fyIMIOI",
+              "youtube_views": 1775868
+            },
+            {
+              "title": "LOCO (English Ver.)",
+              "video_id": "-6gdPbihCNk",
+              "youtube_views": 2451351
+            },
+            {
+              "title": "달라달라 DALLA DALLA (Inst.)",
+              "video_id": "J-mzcgXDw1I",
+              "youtube_views": 612894
+            },
+            {
+              "title": "ICY (Inst.)",
+              "video_id": "OCCQ9OaEeqY",
+              "youtube_views": 450015
+            },
+            {
+              "title": "WANNABE (Inst.)",
+              "video_id": "n7BTTe9vJMs",
+              "youtube_views": 1012827
+            },
+            {
+              "title": "Not Shy (Inst.)",
+              "video_id": "3jr3uvczVlI",
+              "youtube_views": 643874
+            },
+            {
+              "title": "마.피.아. In the morning (Inst.)",
+              "video_id": "L6AnaIP8XGI",
+              "youtube_views": 802621
+            },
+            {
+              "title": "LOCO (Inst.)",
+              "video_id": "kLX_fr8bdV0",
+              "youtube_views": 2204121
+            }
+          ]
+        },
+        {
+          "title": "TUNNEL VISION",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Focus",
+              "video_id": "HZ7x9Cki_MY",
+              "youtube_views": 198712
+            },
+            {
+              "title": "TUNNEL VISION",
+              "video_id": "odYUWj1TX8w",
+              "youtube_views": 5700467
+            },
+            {
+              "title": "DYT",
+              "video_id": "2iLIO-arC18",
+              "youtube_views": 452202
+            },
+            {
+              "title": "Flicker",
+              "video_id": "bhrOD0mCyM4",
+              "youtube_views": 578440
+            },
+            {
+              "title": "Nocturne",
+              "video_id": "NzEns1DUBgM",
+              "youtube_views": 883966
+            },
+            {
+              "title": "8-BIT HEART",
+              "video_id": "rQOvH4GaQAI",
+              "youtube_views": 626770
+            }
+          ]
+        },
+        {
+          "title": "Girls Will Be Girls",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Girls Will Be Girls",
+              "video_id": "YLnw83LtBYM",
+              "youtube_views": 8399129
+            },
+            {
+              "title": "Kiss & Tell",
+              "video_id": "H624ONjONsM",
+              "youtube_views": 3050202
+            },
+            {
+              "title": "Locked N Loaded",
+              "video_id": "udXtUSDKPxA",
+              "youtube_views": 855884
+            },
+            {
+              "title": "Promise",
+              "video_id": "CkOByaeFEQs",
+              "youtube_views": 1532175
+            },
+            {
+              "title": "Walk",
+              "video_id": "AEDp56LXWRM",
+              "youtube_views": 736585
+            }
+          ]
+        },
+        {
+          "title": "GOLD (English Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "GOLD (English Ver.)",
+              "video_id": "0j0VIkpc9KY",
+              "youtube_views": 607102
+            },
+            {
+              "title": "Imaginary Friend (English Ver.)",
+              "video_id": "Ya0DvyGfzkk",
+              "youtube_views": 3567072
+            }
+          ]
+        },
+        {
+          "title": "Algorhythm",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Algorhythm",
+              "video_id": "jNJTzV_5_Mw",
+              "youtube_views": 239206
+            },
+            {
+              "title": "No Biggie",
+              "video_id": "EOyqEufKvLg",
+              "youtube_views": 13743
+            },
+            {
+              "title": "Algorhythm (Instrumental)",
+              "video_id": "-p17wtC96Bw",
+              "youtube_views": 5035
+            },
+            {
+              "title": "No Biggie (Instrumental)",
+              "video_id": "N8wq2Egijbo",
+              "youtube_views": 2528
+            }
+          ]
+        },
+        {
+          "title": "No Biggie",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "No Biggie",
+              "video_id": "whP110ZPcbM",
+              "youtube_views": 127493
+            }
+          ]
+        },
+        {
+          "title": "Like Magic",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Like Magic",
+              "video_id": "4CUHN2xw8eU",
+              "youtube_views": 2496984
+            },
+            {
+              "title": "Like Magic (Instrumental)",
+              "video_id": "iF3vF1sinVg",
+              "youtube_views": 229009
+            }
+          ]
+        },
+        {
+          "title": "Sugar-holic",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Sugar-holic",
+              "video_id": "3upsyMyFjkc",
+              "youtube_views": 102462
+            }
+          ]
+        },
+        {
+          "title": "Strong Girl Nam-soon OST Part.1",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SUPERPOWERS",
+              "video_id": "nYCPs5LMLcU",
+              "youtube_views": 697786
+            },
+            {
+              "title": "SUPERPOWERS (Inst.)",
+              "video_id": "NbKzmIWisu4",
+              "youtube_views": 33402
+            }
+          ]
+        },
+        {
+          "title": "RINGO",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "RINGO",
+              "video_id": "t_-RgzwIV_8",
+              "youtube_views": 674472
+            }
+          ]
+        },
+        {
+          "title": "Trust Me (MIDZY) -Japanese ver.-",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Trust Me (MIDZY) -Japanese ver.-",
+              "video_id": "s02I5146JJI",
+              "youtube_views": 3320
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

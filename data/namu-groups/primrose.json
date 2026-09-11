@@ -133,5 +133,173 @@
       "누적_써클": "-",
       "비고": "Love Your Flower"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 15820,
+      "spotify_id": "1nE2Iu4qK1fzslPJcLGq66",
+      "top_tracks": [
+        {
+          "title": "Love Your Flower",
+          "play_count": 180354,
+          "uri": "spotify:track:3YCSEjFJTceJXxzC4gdKei"
+        },
+        {
+          "title": "Steal Heart",
+          "play_count": 152390,
+          "uri": "spotify:track:4BN3C62hCBcWLXnPPsepdn"
+        },
+        {
+          "title": "CINEMA",
+          "play_count": 125432,
+          "uri": "spotify:track:2oI6dp7Q4Amp1FcqSRr5fD"
+        },
+        {
+          "title": "Freyja",
+          "play_count": 163448,
+          "uri": "spotify:track:7uAmy80cFLuIJQWdsLMGni"
+        },
+        {
+          "title": "LAFFY TAFFY",
+          "play_count": 172553,
+          "uri": "spotify:track:5YQbevxJxhMp6RzdXq1mng"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1267809,
+      "track_count": 18,
+      "mean_views": 70433,
+      "max_views": 230721,
+      "albums": [
+        {
+          "title": "Love Your Flower",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Love Your Flower",
+              "video_id": "GCmQgeZOkO4",
+              "youtube_views": 230721
+            }
+          ]
+        },
+        {
+          "title": "CINEMA",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "CINEMA",
+              "video_id": "m-PqWNnYXHM",
+              "youtube_views": 219266
+            }
+          ]
+        },
+        {
+          "title": "Steal Heart",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "CASE#4",
+              "video_id": "dDGqpC8x9tQ",
+              "youtube_views": 5089
+            },
+            {
+              "title": "Steal Heart",
+              "video_id": "yhJDN0gTAYk",
+              "youtube_views": 132067
+            },
+            {
+              "title": "Mission Escape",
+              "video_id": "lbBy8py1V18",
+              "youtube_views": 4912
+            },
+            {
+              "title": "Trick or Trigg",
+              "video_id": "6zJa4F_Ft0c",
+              "youtube_views": 57890
+            },
+            {
+              "title": "Feel It",
+              "video_id": "a-bwumGS4KM",
+              "youtube_views": 66791
+            }
+          ]
+        },
+        {
+          "title": "REVIVAL",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Freyja",
+              "video_id": "ra9sO8oLa0A",
+              "youtube_views": 122703
+            },
+            {
+              "title": "Freyja (Instrumental)",
+              "video_id": "QOB4az2YLso",
+              "youtube_views": 1514
+            }
+          ]
+        },
+        {
+          "title": "LAFFY TAFFY",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "LAFFY TAFFY",
+              "video_id": "kl78dlZcB0Y",
+              "youtube_views": 103322
+            },
+            {
+              "title": "AWAKEN LIGHT",
+              "video_id": "54eAGFpc6-Q",
+              "youtube_views": 26883
+            },
+            {
+              "title": "FLY AWAY",
+              "video_id": "4KxP5oyOPBs",
+              "youtube_views": 20281
+            },
+            {
+              "title": "SIPPIN′ ON",
+              "video_id": "5EBBpXx5wJQ",
+              "youtube_views": 54735
+            },
+            {
+              "title": "LAFFY TAFFY (ENG Version)",
+              "video_id": "pjXrLsvdamg",
+              "youtube_views": 23888
+            }
+          ]
+        },
+        {
+          "title": "RED MOON",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "INTRO _130°",
+              "video_id": "jRyeD6Kk6wQ",
+              "youtube_views": 5094
+            },
+            {
+              "title": "PRIMROSE",
+              "video_id": "iOYCd9i8ZRQ",
+              "youtube_views": 129452
+            },
+            {
+              "title": "COMELY",
+              "video_id": "0HC8lTyjNsk",
+              "youtube_views": 24482
+            },
+            {
+              "title": "PLAY",
+              "video_id": "mSjIk7xs0Mc",
+              "youtube_views": 38719
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -387,5 +387,237 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 58867,
+      "spotify_id": "1iyFL3CRuKW7PXgPH4VxSP",
+      "top_tracks": [
+        {
+          "title": "In The Dark",
+          "play_count": 657226,
+          "uri": "spotify:track:4ByIwUEB12eKgYeFA8NqwV"
+        },
+        {
+          "title": "nocturnal",
+          "play_count": 195015,
+          "uri": "spotify:track:2EsCdC8ozqpfbE9m668Agk"
+        },
+        {
+          "title": "LIGHTHOUSE",
+          "play_count": 4172839,
+          "uri": "spotify:track:6Zv31tXdpqXPuMXIT4Pq7p"
+        },
+        {
+          "title": "Silly Kid",
+          "play_count": 160399,
+          "uri": "spotify:track:2rnz5nzpVL9sp5WISKD5cc"
+        },
+        {
+          "title": "Unfreeze",
+          "play_count": 1114875,
+          "uri": "spotify:track:7Ko3Ark4s7OL7sQIo1ToHR"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 2016721,
+      "track_count": 26,
+      "mean_views": 77566,
+      "max_views": 204218,
+      "albums": [
+        {
+          "title": "In The Dark (暮色独白)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "In The Dark (暮色独白)",
+              "video_id": "dBaxcbZ9BE4",
+              "youtube_views": 41160
+            }
+          ]
+        },
+        {
+          "title": "As I am",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "In The Dark",
+              "video_id": "1f3H8xsKXKQ",
+              "youtube_views": 166828
+            },
+            {
+              "title": "nocturnal",
+              "video_id": "c3LyjxulaXA",
+              "youtube_views": 125749
+            },
+            {
+              "title": "CHILL",
+              "video_id": "-iM9cAgdS2s",
+              "youtube_views": 34172
+            },
+            {
+              "title": "Silly Kid",
+              "video_id": "e4oy1ESdbX4",
+              "youtube_views": 132435
+            },
+            {
+              "title": "How deep is your love?",
+              "video_id": "IXzN5CHsjoI",
+              "youtube_views": 131923
+            }
+          ]
+        },
+        {
+          "title": "My Way",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "My Way",
+              "video_id": "G0jtbXJil_Q",
+              "youtube_views": 117612
+            }
+          ]
+        },
+        {
+          "title": "My Way –TV Edit Ver.–",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "My Way –TV Size ver.–",
+              "video_id": "lvzR6i8dTj0",
+              "youtube_views": 36056
+            }
+          ]
+        },
+        {
+          "title": "Unfreeze (Chinese Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Unfreeze (Chinese Version)",
+              "video_id": "34f-3E85Eb4",
+              "youtube_views": 9841
+            }
+          ]
+        },
+        {
+          "title": "RE: Full of Youth",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "WE ARE THE YOUNG",
+              "video_id": "RCT5Kbo_noo",
+              "youtube_views": 180243
+            },
+            {
+              "title": "Unfreeze",
+              "video_id": "J6HT-4jjTgM",
+              "youtube_views": 199753
+            },
+            {
+              "title": "Destiny",
+              "video_id": "nJq5vvqThPk",
+              "youtube_views": 23349
+            },
+            {
+              "title": "ONLY U CAN",
+              "video_id": "x_wdnfEBjOU",
+              "youtube_views": 175983
+            },
+            {
+              "title": "COME BACK HOME",
+              "video_id": "hHMzUZcZfo0",
+              "youtube_views": 204218
+            }
+          ]
+        },
+        {
+          "title": "Destiny",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Destiny",
+              "video_id": "48XcptUlNeU",
+              "youtube_views": 109557
+            }
+          ]
+        },
+        {
+          "title": "BUBBLE GUM",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Bubble Gum",
+              "video_id": "NVMZry9xzqY",
+              "youtube_views": 13740
+            },
+            {
+              "title": "Broken Record",
+              "video_id": "VYf6fs-mnoI",
+              "youtube_views": 95193
+            },
+            {
+              "title": "LIGHTHOUSE –Japanese ver.–",
+              "video_id": "bB7qq57ck4Y",
+              "youtube_views": 26846
+            },
+            {
+              "title": "Slow Motion –Japanese ver.–",
+              "video_id": "INz9js5cWHc",
+              "youtube_views": 10715
+            },
+            {
+              "title": "Bubble Gum –Instrumental–",
+              "video_id": "OHykdw4un4Q",
+              "youtube_views": 6393
+            },
+            {
+              "title": "Broken Record –Instrumental–",
+              "video_id": "MuC6bNsw3TU",
+              "youtube_views": 4948
+            }
+          ]
+        },
+        {
+          "title": "Bubble Gum",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Bubble Gum",
+              "video_id": "tYBXE0cQec4",
+              "youtube_views": 79162
+            }
+          ]
+        },
+        {
+          "title": "ROAD TO KINGDOM : ACE OF ACE 〈NO LIMIT〉 Part. 1",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Sherlock",
+              "video_id": "1YC41DEl5Qg",
+              "youtube_views": 26009
+            },
+            {
+              "title": "Jopping",
+              "video_id": "ywoVgxdl23Y",
+              "youtube_views": 61237
+            },
+            {
+              "title": "Sherlock (Instrumental)",
+              "video_id": "dFsBlGA3Ym0",
+              "youtube_views": 939
+            },
+            {
+              "title": "Jopping (Instrumental)",
+              "video_id": "BadWxlLfiuk",
+              "youtube_views": 2660
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

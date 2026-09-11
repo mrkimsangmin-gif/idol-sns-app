@@ -123,5 +123,39 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 11283,
+      "spotify_id": "4PMPD2EeaqBCSccsWUkgNS",
+      "top_tracks": [
+        {
+          "title": "FUNNY HONEY",
+          "play_count": 343811,
+          "uri": "spotify:track:2guEMPi3y839QP04ND5Ui4"
+        },
+        {
+          "title": "Drama Queen",
+          "play_count": 131243,
+          "uri": "spotify:track:4DGVbRseu6wm4iZi25Bcog"
+        },
+        {
+          "title": "LOVE HIGH",
+          "play_count": 67881,
+          "uri": "spotify:track:05yQyKQKWFeoL1iU5bzn7f"
+        },
+        {
+          "title": "시간을 건너서",
+          "play_count": 26423,
+          "uri": "spotify:track:2hODwpdDVJPFwYccse1uDf"
+        },
+        {
+          "title": "Dreamin'",
+          "play_count": 66810,
+          "uri": "spotify:track:18yZ09RjIQcuh3dSLT2H4k"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

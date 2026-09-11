@@ -611,5 +611,927 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 5107734,
+      "spotify_id": "7nqOGRxlXj7N2JYbgNEjYH",
+      "top_tracks": [
+        {
+          "title": "THUNDER",
+          "play_count": 96328713,
+          "uri": "spotify:track:6oeMntjclWLoguzwj5ECTo"
+        },
+        {
+          "title": "Super",
+          "play_count": 306685062,
+          "uri": "spotify:track:3AOf6YEpxQ894FmrwI9k96"
+        },
+        {
+          "title": "HOT",
+          "play_count": 288597009,
+          "uri": "spotify:track:6I2tqFhk8tq69iursYxuxd"
+        },
+        {
+          "title": "Rock with you",
+          "play_count": 227042189,
+          "uri": "spotify:track:6LnEoRQKMcaFTR5UvaKuBy"
+        },
+        {
+          "title": "VERY NICE",
+          "play_count": 231299744,
+          "uri": "spotify:track:1Rrj7KyS2R6SP9CQMDJW1w"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1203641780,
+      "track_count": 152,
+      "mean_views": 7918695,
+      "max_views": 139127856,
+      "albums": [
+        {
+          "title": "SEVENTEEN 5th Album ‘HAPPY BURSTDAY’",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "HBD",
+              "video_id": "h5dk1hCL_oY",
+              "youtube_views": 5261111
+            },
+            {
+              "title": "THUNDER",
+              "video_id": "e3ADD0pYwxQ",
+              "youtube_views": 23401025
+            },
+            {
+              "title": "Bad Influence (Prod. by Pharrell Williams)",
+              "video_id": "0e85MgyyjUY",
+              "youtube_views": 3363482
+            },
+            {
+              "title": "Skyfall (THE 8 Solo)",
+              "video_id": "FqUWr8s6CKM",
+              "youtube_views": 2247665
+            },
+            {
+              "title": "Fortunate Change (JOSHUA Solo)",
+              "video_id": "TgIq0FWjDY0",
+              "youtube_views": 3153389
+            },
+            {
+              "title": "99.9% (WONWOO Solo)",
+              "video_id": "loImcORooxg",
+              "youtube_views": 4978923
+            },
+            {
+              "title": "Raindrops (SEUNGKWAN Solo)",
+              "video_id": "rHHuqf3MgBU",
+              "youtube_views": 4622712
+            },
+            {
+              "title": "Damage (HOSHI Solo) (feat. Timbaland)",
+              "video_id": "vNbsR3AOzxY",
+              "youtube_views": 2567755
+            },
+            {
+              "title": "Shake It Off (MINGYU Solo)",
+              "video_id": "KygqgzntG6s",
+              "youtube_views": 3367830
+            },
+            {
+              "title": "Happy Virus (DK Solo)",
+              "video_id": "tQxisM9mxp4",
+              "youtube_views": 4126357
+            },
+            {
+              "title": "운명 (WOOZI Solo)",
+              "video_id": "NpVaGtQUNqU",
+              "youtube_views": 4298947
+            },
+            {
+              "title": "Shining Star (Vernon Solo)",
+              "video_id": "0qFsZeS4Onk",
+              "youtube_views": 1809908
+            },
+            {
+              "title": "쌍둥이자리 (Gemini) (JUN Solo)",
+              "video_id": "Em0K_VD2I1s",
+              "youtube_views": 2185188
+            },
+            {
+              "title": "Trigger (DINO Solo)",
+              "video_id": "NoWvQllASGI",
+              "youtube_views": 1858282
+            },
+            {
+              "title": "우연 (JEONGHAN Solo)",
+              "video_id": "6gr-sH_yy1A",
+              "youtube_views": 2703495
+            },
+            {
+              "title": "Jungle (S.COUPS Solo)",
+              "video_id": "cnw3gIYs7Pc",
+              "youtube_views": 2756593
+            }
+          ]
+        },
+        {
+          "title": "SEVENTEEN 11th Mini Album ‘SEVENTEENTH HEAVEN’",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "SOS (Prod. Marshmello)",
+              "video_id": "DNlOdUvZqLc",
+              "youtube_views": 10961105
+            },
+            {
+              "title": "음악의 신",
+              "video_id": "uXq_VHY8qW8",
+              "youtube_views": 46724611
+            },
+            {
+              "title": "Diamond Days",
+              "video_id": "GutitYJGa-8",
+              "youtube_views": 4179864
+            },
+            {
+              "title": "Back 2 Back",
+              "video_id": "P8KdeQrQ4vQ",
+              "youtube_views": 3897769
+            },
+            {
+              "title": "Monster",
+              "video_id": "dvBOAeLr0dY",
+              "youtube_views": 9053840
+            },
+            {
+              "title": "하품",
+              "video_id": "lPSGFS0HvOo",
+              "youtube_views": 8308282
+            },
+            {
+              "title": "Headliner",
+              "video_id": "svSmclT0s5Y",
+              "youtube_views": 8121601
+            },
+            {
+              "title": "음악의 신 (Inst.)",
+              "video_id": "782zekqwXCw",
+              "youtube_views": 1114141
+            }
+          ]
+        },
+        {
+          "title": "ALWAYS YOURS",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Ima -Even if the world ends tomorrow-",
+              "video_id": "S9y9qyG8uCs",
+              "youtube_views": 12612599
+            },
+            {
+              "title": "Sara Sara",
+              "video_id": "lIV7EntLFsM",
+              "youtube_views": 962376
+            },
+            {
+              "title": "Call Call Call!",
+              "video_id": "nfRxywNfhzg",
+              "youtube_views": 648272
+            },
+            {
+              "title": "Happy Ending",
+              "video_id": "094dWzSJ2QY",
+              "youtube_views": 665832
+            },
+            {
+              "title": "Maiochiruhanabira (Fallin' Flower)",
+              "video_id": "Uxi7oIJBHUs",
+              "youtube_views": 626774
+            },
+            {
+              "title": "24H",
+              "video_id": "cis8OA2kAjs",
+              "youtube_views": 544045
+            },
+            {
+              "title": "Not Alone",
+              "video_id": "rUekTvHUyzA",
+              "youtube_views": 576983
+            },
+            {
+              "title": "Power of Love",
+              "video_id": "ZN_hkatXWRU",
+              "youtube_views": 369293
+            },
+            {
+              "title": "DREAM",
+              "video_id": "HK92N4MTc4c",
+              "youtube_views": 350486
+            },
+            {
+              "title": "HIGHLIGHT (Japanese ver.)",
+              "video_id": "bnAEEibLUhg",
+              "youtube_views": 267379
+            },
+            {
+              "title": "Lean On Me (Japanese ver.)",
+              "video_id": "fya6Zzz9Ww4",
+              "youtube_views": 285106
+            },
+            {
+              "title": "20 (Japanese ver.)",
+              "video_id": "zj39abKEkKI",
+              "youtube_views": 296730
+            },
+            {
+              "title": "LOVE LETTER (Japanese ver.)",
+              "video_id": "zpVKoxaCMOU",
+              "youtube_views": 278078
+            },
+            {
+              "title": "Oh My! (Japanese ver.)",
+              "video_id": "oZdnfTvrSgg",
+              "youtube_views": 321344
+            },
+            {
+              "title": "Healing (Japanese ver.)",
+              "video_id": "xWR3IoUEnnI",
+              "youtube_views": 273602
+            },
+            {
+              "title": "Good to Me (Japanese ver.)",
+              "video_id": "YLqHfiJ1IN4",
+              "youtube_views": 306928
+            },
+            {
+              "title": "Smile Flower (Japanese ver.)",
+              "video_id": "Za6q5dWhqFg",
+              "youtube_views": 248182
+            },
+            {
+              "title": "Pinwheel (Japanese ver.)",
+              "video_id": "Qw1GRCVmZgI",
+              "youtube_views": 359325
+            },
+            {
+              "title": "247 (Japanese ver.)",
+              "video_id": "XtJUP8u6FKo",
+              "youtube_views": 280905
+            },
+            {
+              "title": "Chilli (Japanese Version)",
+              "video_id": "lO3_rPPbLHk",
+              "youtube_views": 226975
+            },
+            {
+              "title": "Together (Japanese Version)",
+              "video_id": "4OXoQrraNYI",
+              "youtube_views": 427102
+            },
+            {
+              "title": "Run to You (Japanese ver.)",
+              "video_id": "sfg8fmRM7A4",
+              "youtube_views": 292550
+            },
+            {
+              "title": "HOME;RUN (Japanese ver.)",
+              "video_id": "i_UaajJh644",
+              "youtube_views": 209152
+            },
+            {
+              "title": "Home (Japanese ver.)",
+              "video_id": "IhXGcqf16ww",
+              "youtube_views": 207088
+            },
+            {
+              "title": "Snap Shoot (Japanese ver.)",
+              "video_id": "XogVOOr7CZE",
+              "youtube_views": 251037
+            },
+            {
+              "title": "Rock with you (Japanese ver.)",
+              "video_id": "Y_Ww9nTJfAQ",
+              "youtube_views": 194409
+            },
+            {
+              "title": "All My Love (Japanese ver.)",
+              "video_id": "QYsQS7bCTZQ",
+              "youtube_views": 216091
+            }
+          ]
+        },
+        {
+          "title": "SEVENTEEN 4th Album Repackage ‘SECTOR 17’",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "돌고 돌아",
+              "video_id": "b1NgvwOKMR8",
+              "youtube_views": 13655338
+            },
+            {
+              "title": "_WORLD",
+              "video_id": "waSxahLWSAM",
+              "youtube_views": 29416818
+            },
+            {
+              "title": "Fallin’ Flower (Korean Ver.)",
+              "video_id": "y5Ypazf3ezM",
+              "youtube_views": 5551325
+            },
+            {
+              "title": "CHEERS",
+              "video_id": "3HDcHqWMCPA",
+              "youtube_views": 28826949
+            },
+            {
+              "title": "Darl+ing",
+              "video_id": "payW8UWcy1k",
+              "youtube_views": 1039105
+            },
+            {
+              "title": "HOT",
+              "video_id": "uVYvPzdDzzg",
+              "youtube_views": 1569663
+            },
+            {
+              "title": "DON QUIXOTE",
+              "video_id": "Ldn4jfWK1QE",
+              "youtube_views": 1022440
+            },
+            {
+              "title": "March",
+              "video_id": "EBF_cN1uoDM",
+              "youtube_views": 1041671
+            },
+            {
+              "title": "Domino",
+              "video_id": "QR8goi4CVt4",
+              "youtube_views": 876179
+            },
+            {
+              "title": "Shadow",
+              "video_id": "g1Dk_NsgFks",
+              "youtube_views": 1085568
+            },
+            {
+              "title": "노래해",
+              "video_id": "dINFMQNvwYA",
+              "youtube_views": 822089
+            },
+            {
+              "title": "IF you leave me",
+              "video_id": "8WUIoaKB6eg",
+              "youtube_views": 834761
+            },
+            {
+              "title": "Ash",
+              "video_id": "6S6i4LrMMOM",
+              "youtube_views": 942964
+            }
+          ]
+        },
+        {
+          "title": "SEVENTEEN 4th Album 'Face the Sun'",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Darl+ing",
+              "video_id": "G01MzZLf87k",
+              "youtube_views": 36925787
+            },
+            {
+              "title": "HOT",
+              "video_id": "jAk2WBAjzlI",
+              "youtube_views": 78860347
+            },
+            {
+              "title": "DON QUIXOTE",
+              "video_id": "ZQ0lxe2kAds",
+              "youtube_views": 23556469
+            },
+            {
+              "title": "March",
+              "video_id": "dDiMaUFBvq4",
+              "youtube_views": 12063162
+            },
+            {
+              "title": "Domino",
+              "video_id": "K12HzTWm90w",
+              "youtube_views": 5760411
+            },
+            {
+              "title": "Shadow",
+              "video_id": "iMeRzDphbuc",
+              "youtube_views": 29032343
+            },
+            {
+              "title": "노래해",
+              "video_id": "zSnKi7hqFsQ",
+              "youtube_views": 4957203
+            },
+            {
+              "title": "IF you leave me",
+              "video_id": "5RknkX3_Qcg",
+              "youtube_views": 6125987
+            },
+            {
+              "title": "Ash",
+              "video_id": "GtQchMj4Wwo",
+              "youtube_views": 12416287
+            }
+          ]
+        },
+        {
+          "title": "Attacca: 9th Mini Album",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "소용돌이",
+              "video_id": "7q9Ubv3othc",
+              "youtube_views": 24466725
+            },
+            {
+              "title": "Rock with you",
+              "video_id": "5qqlqhMNG8s",
+              "youtube_views": 61551171
+            },
+            {
+              "title": "Crush",
+              "video_id": "jKy1ScMpb9M",
+              "youtube_views": 9813687
+            },
+            {
+              "title": "PANG!",
+              "video_id": "QeM0yemiPdQ",
+              "youtube_views": 4591549
+            },
+            {
+              "title": "매일 그대라서 행복하다",
+              "video_id": "dBiQaxLhE-Y",
+              "youtube_views": 12525195
+            },
+            {
+              "title": "그리워하는 것까지",
+              "video_id": "K5IezKEzEds",
+              "youtube_views": 6804653
+            },
+            {
+              "title": "2 MINUS 1 (Digital Only)",
+              "video_id": "O8KzsdZC1ec",
+              "youtube_views": 7295120
+            }
+          ]
+        },
+        {
+          "title": "An Ode",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "HIT",
+              "video_id": "qpbJcxKX_rI",
+              "youtube_views": 17866958
+            },
+            {
+              "title": "거짓말을 해",
+              "video_id": "czXT1WXcH9o",
+              "youtube_views": 4386579
+            },
+            {
+              "title": "독 : Fear",
+              "video_id": "nPMTUn2e_fs",
+              "youtube_views": 9396675
+            },
+            {
+              "title": "Let me hear you say",
+              "video_id": "ACOu79ngh1Q",
+              "youtube_views": 6547595
+            },
+            {
+              "title": "247",
+              "video_id": "oxr-iKJEgAU",
+              "youtube_views": 3645848
+            },
+            {
+              "title": "Second Life",
+              "video_id": "-kcG8UjJAeM",
+              "youtube_views": 5778153
+            },
+            {
+              "title": "Network Love",
+              "video_id": "cCrJYMxhuBA",
+              "youtube_views": 2379252
+            },
+            {
+              "title": "Back it up",
+              "video_id": "IbVdIhp5g4U",
+              "youtube_views": 4134115
+            },
+            {
+              "title": "Lucky",
+              "video_id": "a76e-un97-A",
+              "youtube_views": 2355239
+            },
+            {
+              "title": "Snap Shoot",
+              "video_id": "RmM7HSzVvOk",
+              "youtube_views": 11576041
+            },
+            {
+              "title": "Happy Ending (Korean Ver.)",
+              "video_id": "1immFaTDDsc",
+              "youtube_views": 2171071
+            }
+          ]
+        },
+        {
+          "title": "TEEN, AGE",
+          "year": "2017",
+          "tracks": [
+            {
+              "title": "Intro. New World",
+              "video_id": "QE6hljUk6Gc",
+              "youtube_views": 1458874
+            },
+            {
+              "title": "CHANGE UP",
+              "video_id": "d5RzlBtBwH0",
+              "youtube_views": 4248574
+            },
+            {
+              "title": "Without You (모자를 눌러 쓰고)",
+              "video_id": "x9Stx6tL8oM",
+              "youtube_views": 3158159
+            },
+            {
+              "title": "CLAP (박수)",
+              "video_id": "hhq04YRzYr4",
+              "youtube_views": 30986128
+            },
+            {
+              "title": "BRING IT (날 쏘고 가라)",
+              "video_id": "Jn-jfOJY2ts",
+              "youtube_views": 4436328
+            },
+            {
+              "title": "Lilili Yabbay (13월의 춤)",
+              "video_id": "MLlq4gtC55Q",
+              "youtube_views": 3180187
+            },
+            {
+              "title": "TRAUMA",
+              "video_id": "Fe71ctA-dTw",
+              "youtube_views": 4290466
+            },
+            {
+              "title": "Pinwheel (바람개비)",
+              "video_id": "ihga84cng-U",
+              "youtube_views": 10701433
+            },
+            {
+              "title": "Flower",
+              "video_id": "xpsAH1x5Pcg",
+              "youtube_views": 4026924
+            },
+            {
+              "title": "ROCKET",
+              "video_id": "bx0aG5mH1bg",
+              "youtube_views": 2706551
+            },
+            {
+              "title": "Hello",
+              "video_id": "HmyzBmEGgDs",
+              "youtube_views": 2568901
+            },
+            {
+              "title": "Campfire (캠프파이어)",
+              "video_id": "LOs59fpc6Ys",
+              "youtube_views": 16877820
+            },
+            {
+              "title": "Outro. Incompletion",
+              "video_id": "bx5Dy4aNfyA",
+              "youtube_views": 550768
+            }
+          ]
+        },
+        {
+          "title": "Going Seventeen",
+          "year": "2016",
+          "tracks": [
+            {
+              "title": "BEAUTIFUL",
+              "video_id": "TVaeTwHc2Lc",
+              "youtube_views": 12022029
+            },
+            {
+              "title": "BOOMBOOM (붐붐)",
+              "video_id": "HvOxMRz1H90",
+              "youtube_views": 11005075
+            },
+            {
+              "title": "HIGHLIGHT",
+              "video_id": "WRWg4EA_dwQ",
+              "youtube_views": 3945737
+            },
+            {
+              "title": "Lean On Me (기대)",
+              "video_id": "QZRXNIhb_UQ",
+              "youtube_views": 3309530
+            },
+            {
+              "title": "Fast Pace (빠른 걸음)",
+              "video_id": "iJnidUQBuDw",
+              "youtube_views": 7606352
+            },
+            {
+              "title": "Don't listen in secret (몰래 듣지 마요)",
+              "video_id": "ACOU14kmhAY",
+              "youtube_views": 5308429
+            },
+            {
+              "title": "I Don't Know (글쎄)",
+              "video_id": "LDd8sYs_Nos",
+              "youtube_views": 4032006
+            },
+            {
+              "title": "Smile Flower (웃음꽃)",
+              "video_id": "xe4DkhDuie8",
+              "youtube_views": 6457550
+            }
+          ]
+        },
+        {
+          "title": "Love&Letter repackage album",
+          "year": "2016",
+          "tracks": [
+            {
+              "title": "NO F.U.N (NO F.U.N)",
+              "video_id": "TPO0WgPzSlk",
+              "youtube_views": 1971920
+            },
+            {
+              "title": "VERY NICE (아주 NICE)",
+              "video_id": "s3CjsNjiKyc",
+              "youtube_views": 78626630
+            },
+            {
+              "title": "Healing (힐링)",
+              "video_id": "ny_NaU55rOg",
+              "youtube_views": 3544455
+            },
+            {
+              "title": "SIMPLE (SIMPLE)",
+              "video_id": "mS-_ZVQ_XW0",
+              "youtube_views": 4692760
+            },
+            {
+              "title": "Space (끝이 안보여)",
+              "video_id": "2dIyiFAQfLQ",
+              "youtube_views": 1689430
+            },
+            {
+              "title": "Chuck (엄지척)",
+              "video_id": "rnTJtf2YSHc",
+              "youtube_views": 508197
+            },
+            {
+              "title": "Pretty U (예쁘다)",
+              "video_id": "evc4YkNlurE",
+              "youtube_views": 5999726
+            },
+            {
+              "title": "Still Lonely (이놈의 인기)",
+              "video_id": "xXVU5TB2jaM",
+              "youtube_views": 862556
+            },
+            {
+              "title": "Hit Song (유행가)",
+              "video_id": "wikktG8Gp8k",
+              "youtube_views": 628337
+            },
+            {
+              "title": "Say Yes (SAY YES)",
+              "video_id": "wHlg6W1R3hA",
+              "youtube_views": 1086810
+            },
+            {
+              "title": "Drift Away (떠내려가)",
+              "video_id": "0ww_3aWhhXE",
+              "youtube_views": 649425
+            },
+            {
+              "title": "Adore U (Vocal Team Ver.) (아낀다 (VOCAL TEAM VER.))",
+              "video_id": "PEGb0EaV31E",
+              "youtube_views": 475312
+            },
+            {
+              "title": "Monday To Saturday (Hiphop Team Ver.) (만.세 (HIPHOP TEAM VER.))",
+              "video_id": "PVedKjHJREU",
+              "youtube_views": 446561
+            },
+            {
+              "title": "Shining Diamond (Performance Team Ver.) (SHINING DIAMOND (PERFORMANCE TEAM VER.))",
+              "video_id": "YnBhE6HE-fc",
+              "youtube_views": 354089
+            },
+            {
+              "title": "Love Letter (사랑쪽지 (LOVE LETTER))",
+              "video_id": "fJquWD13T0I",
+              "youtube_views": 853971
+            }
+          ]
+        },
+        {
+          "title": "Tiny Light",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Tiny Light",
+              "video_id": "H81NsniDjTk",
+              "youtube_views": 927771
+            }
+          ]
+        },
+        {
+          "title": "SEVENTEEN 5th Album ‘HAPPY BURSTDAY’",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Bad Influence (Prod. by Pharrell Williams) (Explicit Ver.)",
+              "video_id": "XoItl5sQX1I",
+              "youtube_views": 127918
+            }
+          ]
+        },
+        {
+          "title": "Where love passed",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Where love passed",
+              "video_id": "99Dtv9F4yfo",
+              "youtube_views": 2206888
+            }
+          ]
+        },
+        {
+          "title": "SEVENTEEN JAPAN 4TH SINGLE [Shohikigen]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Shohikigen",
+              "video_id": "8icS62NbfHY",
+              "youtube_views": 316546
+            },
+            {
+              "title": "Circles (Japanese ver.)",
+              "video_id": "KyYSp6zozmk",
+              "youtube_views": 586394
+            },
+            {
+              "title": "MAESTRO (Japanese ver.)",
+              "video_id": "Q9IVvsuoYOI",
+              "youtube_views": 412032
+            }
+          ]
+        },
+        {
+          "title": "Shohikigen",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Shohikigen",
+              "video_id": "PX2jeu6RqWY",
+              "youtube_views": 3631367
+            }
+          ]
+        },
+        {
+          "title": "SEVENTEEN 12th Mini Album 'SPILL THE FEELS'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Eyes on you",
+              "video_id": "cbqE4jOM7XM",
+              "youtube_views": 5614757
+            },
+            {
+              "title": "LOVE, MONEY, FAME (feat. DJ Khaled)",
+              "video_id": "hQDLBzU0CVM",
+              "youtube_views": 17816036
+            },
+            {
+              "title": "1 TO 13",
+              "video_id": "Cx4ytbd2tZI",
+              "youtube_views": 3845490
+            },
+            {
+              "title": "사탕",
+              "video_id": "tA-FizlZp7Q",
+              "youtube_views": 5104129
+            },
+            {
+              "title": "Rain",
+              "video_id": "r2wizo1mz-w",
+              "youtube_views": 3980607
+            },
+            {
+              "title": "Water",
+              "video_id": "bGgeM2VxMzM",
+              "youtube_views": 5786775
+            }
+          ]
+        },
+        {
+          "title": "Sara Sara",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Sara Sara",
+              "video_id": "aHI5NW6Ss7s",
+              "youtube_views": 4994276
+            }
+          ]
+        },
+        {
+          "title": "SEVENTEEN 10th Mini Album ‘FML’",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "F*ck My Life",
+              "video_id": "SB03Cbc50i8",
+              "youtube_views": 13687654
+            },
+            {
+              "title": "손오공",
+              "video_id": "Ex2BKaNX8xA",
+              "youtube_views": 139127856
+            },
+            {
+              "title": "Fire",
+              "video_id": "HJYmVv-lOkg",
+              "youtube_views": 12160875
+            },
+            {
+              "title": "I Don’t Understand But I Luv U",
+              "video_id": "MGK5wZJDXjo",
+              "youtube_views": 27089193
+            },
+            {
+              "title": "먼지",
+              "video_id": "QaILH-kvbR4",
+              "youtube_views": 10361635
+            },
+            {
+              "title": "April shower",
+              "video_id": "T8Jjbq5mRck",
+              "youtube_views": 9655295
+            }
+          ]
+        },
+        {
+          "title": "BETTING",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BETTING",
+              "video_id": "lbeMoH4diWk",
+              "youtube_views": 2014057
+            }
+          ]
+        },
+        {
+          "title": "DREAM",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "DREAM",
+              "video_id": "uzKHk8IjBjg",
+              "youtube_views": 4317345
+            },
+            {
+              "title": "Rock with you (Japanese ver.)",
+              "video_id": "viWTqZ3F4-0",
+              "youtube_views": 1058953
+            },
+            {
+              "title": "All My Love (Japanese ver.)",
+              "video_id": "cRqUUKTi0no",
+              "youtube_views": 786235
+            },
+            {
+              "title": "Darl+ing (Holiday ver.)",
+              "video_id": "uztE4tqosjY",
+              "youtube_views": 1732686
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

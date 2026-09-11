@@ -173,5 +173,39 @@
       "누적_써클": "",
       "비고": "Get it On"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 24364,
+      "spotify_id": "4IAcb0MN1CCHpwUaq5iEUU",
+      "top_tracks": [
+        {
+          "title": "Potential",
+          "play_count": 749563,
+          "uri": "spotify:track:16178ZTU8FsObgMeNkWFdD"
+        },
+        {
+          "title": "Undeniable",
+          "play_count": 318108,
+          "uri": "spotify:track:4drkTx3m8rbbBoFh58nc4A"
+        },
+        {
+          "title": "분명 그녀가 나를 보고 웃잖아",
+          "play_count": 536100,
+          "uri": "spotify:track:4HdhvgjXXIlqFtK8H7wcf1"
+        },
+        {
+          "title": "New Tomorrow",
+          "play_count": 756413,
+          "uri": "spotify:track:60ujvhbThKGrkkKEiio2dA"
+        },
+        {
+          "title": "FANTASY",
+          "play_count": 773807,
+          "uri": "spotify:track:4RKT2liNU8zqwtVa4nURkX"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

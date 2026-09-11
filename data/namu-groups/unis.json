@@ -231,5 +231,196 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 319877,
+      "spotify_id": "48xyu8QHo1IhsQZGlgNGYZ",
+      "top_tracks": [
+        {
+          "title": "SWICY",
+          "play_count": 9125953,
+          "uri": "spotify:track:3owGQ1rmtKXpvwHmF0S2CZ"
+        },
+        {
+          "title": "Pinky Lady - UNIS",
+          "play_count": 280859,
+          "uri": "spotify:track:0YttCAHtwWBIU434qZ5jRW"
+        },
+        {
+          "title": "mwah...(JP Ver.)",
+          "play_count": 1084453,
+          "uri": "spotify:track:7etjtPzap4rbUVMKm3G2KD"
+        },
+        {
+          "title": "Curious",
+          "play_count": 11670523,
+          "uri": "spotify:track:0O0ivmVOezvyrCkcxEvrCl"
+        },
+        {
+          "title": "SUPERWOMAN",
+          "play_count": 15963941,
+          "uri": "spotify:track:4NZZdFybgGq1Xwx4wq2BdB"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 19331388,
+      "track_count": 19,
+      "mean_views": 1017441,
+      "max_views": 3561258,
+      "albums": [
+        {
+          "title": "mwah...(EN Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "mwah...",
+              "video_id": "UwceugNYOuE",
+              "youtube_views": 27945
+            }
+          ]
+        },
+        {
+          "title": "mwah...(JP Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "幸せになんかならないでね",
+              "video_id": "enTrosNBJ0w",
+              "youtube_views": 242196
+            }
+          ]
+        },
+        {
+          "title": "MoshiMoshi♡ (EN Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "MoshiMoshi♡",
+              "video_id": "RvZEOq5MGzY",
+              "youtube_views": 55838
+            }
+          ]
+        },
+        {
+          "title": "MoshiMoshi♡ (JP Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "もしもし♡",
+              "video_id": "0R3N7geqyWg",
+              "youtube_views": 310149
+            }
+          ]
+        },
+        {
+          "title": "Shaking My Head",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Shaking My Head",
+              "video_id": "fcBpQYnNsQ0",
+              "youtube_views": 175640
+            }
+          ]
+        },
+        {
+          "title": "See you in my dream (꿈에서 또 만나)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "See you in my dream (꿈에서 또 만나)",
+              "video_id": "MOudTwsEXzU",
+              "youtube_views": 798182
+            }
+          ]
+        },
+        {
+          "title": "The 2nd Mini Album 'SWICY'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "From a seed called ‘Hey, what’s up?’ ('뭐해?'라는 씨앗에서)",
+              "video_id": "4zatywIJzFc",
+              "youtube_views": 936582
+            },
+            {
+              "title": "SWICY (SWICY)",
+              "video_id": "n-7hid-q_zI",
+              "youtube_views": 3561258
+            },
+            {
+              "title": "DDANG! (땡! (DDANG!))",
+              "video_id": "uTIBQ3t-nn0",
+              "youtube_views": 321178
+            },
+            {
+              "title": "Good Feeling (Good Feeling)",
+              "video_id": "3mvOoCw6VjA",
+              "youtube_views": 685509
+            },
+            {
+              "title": "Spring rain (봄비)",
+              "video_id": "ehNYtCDxC_M",
+              "youtube_views": 1364175
+            }
+          ]
+        },
+        {
+          "title": "CURIOUS",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Curious (너만 몰라)",
+              "video_id": "lBT3QhT1zf8",
+              "youtube_views": 2791570
+            },
+            {
+              "title": "Datin' Myself (Datin' Myself)",
+              "video_id": "cvQph1H8zAQ",
+              "youtube_views": 686708
+            },
+            {
+              "title": "Poppin' (Poppin')",
+              "video_id": "eA8tNE_-ZxQ",
+              "youtube_views": 845670
+            }
+          ]
+        },
+        {
+          "title": "The 1st Mini Album 'WE UNIS'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "SUPERWOMAN (SUPERWOMAN)",
+              "video_id": "d8Yc9LpvkwI",
+              "youtube_views": 3031297
+            },
+            {
+              "title": "Butterfly's Dream (Butterfly's Dream)",
+              "video_id": "jFX_-0rzcOI",
+              "youtube_views": 409818
+            },
+            {
+              "title": "Whatchu Need (Whatchu Need)",
+              "video_id": "nOb_y-yEKZY",
+              "youtube_views": 654456
+            },
+            {
+              "title": "Dopamine(UNIS Ver.) (Dopamine(UNIS Ver.))",
+              "video_id": "_ZI44nmtFQw",
+              "youtube_views": 1135921
+            },
+            {
+              "title": "Dream of girls(UNIS Ver.) (꿈의 소녀(Dream of girls)(UNIS Ver.))",
+              "video_id": "Djokh3tfmeE",
+              "youtube_views": 1297296
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

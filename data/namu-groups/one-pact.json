@@ -205,5 +205,333 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 146768,
+      "spotify_id": "6ypgjfzuOVkVw9FEyh2UD5",
+      "top_tracks": [
+        {
+          "title": "Pull Up",
+          "play_count": 98471,
+          "uri": "spotify:track:79MExvq75fclMHnLMLHcc1"
+        },
+        {
+          "title": "SANE",
+          "play_count": 102434,
+          "uri": "spotify:track:1xvKv2s1glXmM7r7onnU0s"
+        },
+        {
+          "title": "DESERVED",
+          "play_count": 2988594,
+          "uri": "spotify:track:33iEkYyCgQBJNTRN2fkY4S"
+        },
+        {
+          "title": "YES, NO, MAYBE",
+          "play_count": 990798,
+          "uri": "spotify:track:0tdwohWGtZzDZq9DQ055A9"
+        },
+        {
+          "title": "Vampire (Special Track)",
+          "play_count": 53431,
+          "uri": "spotify:track:7hsrLhpHh8Oq9ewSe9cBmx"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 4573974,
+      "track_count": 44,
+      "mean_views": 103953,
+      "max_views": 450429,
+      "albums": [
+        {
+          "title": "ONE FACT",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "PASSOUT (feat. TAG) (JONG WOO Solo Version)",
+              "video_id": "nZPVOVqKEtY",
+              "youtube_views": 7974
+            },
+            {
+              "title": "180928~ (JAY CHANG Solo Version)",
+              "video_id": "l5LoEuSmpjo",
+              "youtube_views": 8105
+            },
+            {
+              "title": "Signal (SEONG MIN Solo Version)",
+              "video_id": "Tt0vhNyIk38",
+              "youtube_views": 18155
+            },
+            {
+              "title": "someone else (TAG Solo Version)",
+              "video_id": "F03BpWEBhyE",
+              "youtube_views": 38423
+            },
+            {
+              "title": "Keyring (YE DAM Solo Version)",
+              "video_id": "JOhUgPnTd4A",
+              "youtube_views": 5191
+            },
+            {
+              "title": "YES, NO, MAYBE",
+              "video_id": "Gk1NQePz-6Y",
+              "youtube_views": 229303
+            },
+            {
+              "title": "blind",
+              "video_id": "PhFKvcUAsMI",
+              "youtube_views": 50757
+            },
+            {
+              "title": "lucky",
+              "video_id": "skHUIiHwDvs",
+              "youtube_views": 75225
+            }
+          ]
+        },
+        {
+          "title": "PINK CRUSH",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "& Heart",
+              "video_id": "mRQMpCZk-So",
+              "youtube_views": 71641
+            },
+            {
+              "title": "WILD:",
+              "video_id": "4ckjzR0gzhk",
+              "youtube_views": 89882
+            },
+            {
+              "title": "B2U",
+              "video_id": "CoPe22xWElE",
+              "youtube_views": 102303
+            },
+            {
+              "title": "wait!",
+              "video_id": "hegkc7eMXnE",
+              "youtube_views": 257387
+            },
+            {
+              "title": "Confession",
+              "video_id": "dO7XvF9wpK0",
+              "youtube_views": 40774
+            },
+            {
+              "title": "100!",
+              "video_id": "TOTLi7__ivU",
+              "youtube_views": 177216
+            },
+            {
+              "title": "Never Stop",
+              "video_id": "hYGeJvZIfu4",
+              "youtube_views": 51707
+            }
+          ]
+        },
+        {
+          "title": "1'ONLY",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "O-P",
+              "video_id": "E3G5c4e1HQw",
+              "youtube_views": 26051
+            },
+            {
+              "title": "SANE",
+              "video_id": "InbxulQCZ7w",
+              "youtube_views": 44460
+            },
+            {
+              "title": "Pull Up",
+              "video_id": "o9ULpvwmKbw",
+              "youtube_views": 41275
+            },
+            {
+              "title": "DO U FXXKING LOVE ME TOO",
+              "video_id": "q3sK7lp6JXM",
+              "youtube_views": 13272
+            },
+            {
+              "title": "Vampire (Special Track)",
+              "video_id": "M6HXlTwJn1s",
+              "youtube_views": 19693
+            }
+          ]
+        },
+        {
+          "title": "ONE PACK",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "PASSOUT (feat. TAG) (JONG WOO Solo Version)",
+              "video_id": "OYOqd8rwVjk",
+              "youtube_views": 104902
+            },
+            {
+              "title": "180928~ (JAY CHANG Solo Version)",
+              "video_id": "zaE0gqXmqlY",
+              "youtube_views": 78436
+            },
+            {
+              "title": "Signal (SEONG MIN Solo Version)",
+              "video_id": "cWGwxMrRu9g",
+              "youtube_views": 48764
+            },
+            {
+              "title": "someone else (TAG Solo Version)",
+              "video_id": "ntjyke71mAY",
+              "youtube_views": 145459
+            },
+            {
+              "title": "Keyring (YE DAM Solo Version)",
+              "video_id": "pi2RLz9ttA8",
+              "youtube_views": 34643
+            }
+          ]
+        },
+        {
+          "title": "Until now (Korean Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Until now (Korean Version)",
+              "video_id": "_CWhxADbXT0",
+              "youtube_views": 31332
+            }
+          ]
+        },
+        {
+          "title": "Everyday X-MAS",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Everyday X-MAS",
+              "video_id": "J1MCLq6nqS0",
+              "youtube_views": 37731
+            }
+          ]
+        },
+        {
+          "title": "fallIn'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "At the last moment",
+              "video_id": "PzaHzlb23bQ",
+              "youtube_views": 132777
+            },
+            {
+              "title": "DESERVED",
+              "video_id": "rzW3pHjxa2M",
+              "youtube_views": 334608
+            },
+            {
+              "title": "I still do",
+              "video_id": "R0b2AxtBwbg",
+              "youtube_views": 111914
+            },
+            {
+              "title": "Reach you",
+              "video_id": "zQj3UtzwGjI",
+              "youtube_views": 40642
+            },
+            {
+              "title": "Next life",
+              "video_id": "LSscoK-5E5Q",
+              "youtube_views": 62865
+            },
+            {
+              "title": "My dear",
+              "video_id": "KfQLAr9SqkM",
+              "youtube_views": 43740
+            }
+          ]
+        },
+        {
+          "title": "Until now",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Until now",
+              "video_id": "If3ozcpKCO4",
+              "youtube_views": 38710
+            }
+          ]
+        },
+        {
+          "title": "PARADOXX",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "FXX OFF",
+              "video_id": "61-ckTajUn0",
+              "youtube_views": 241271
+            },
+            {
+              "title": "DEJAVU",
+              "video_id": "9HOwAnIaRz4",
+              "youtube_views": 60771
+            },
+            {
+              "title": "PERIOD",
+              "video_id": "OkaoV0ZS4e8",
+              "youtube_views": 196064
+            }
+          ]
+        },
+        {
+          "title": "Must Be Nice (Japanese Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Must Be Nice (Japanese Version)",
+              "video_id": "qjNOahCf0nw",
+              "youtube_views": 45385
+            }
+          ]
+        },
+        {
+          "title": "Moment",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Hot Stuff",
+              "video_id": "cuVUwVeS04Q",
+              "youtube_views": 224178
+            },
+            {
+              "title": "Must Be Nice",
+              "video_id": "DEgnYxnBVsA",
+              "youtube_views": 450429
+            },
+            {
+              "title": "G.O.A.T",
+              "video_id": "lZB02xGHgGs",
+              "youtube_views": 175981
+            },
+            {
+              "title": "RUSH IN 2 U",
+              "video_id": "n6neqpomOSQ",
+              "youtube_views": 162825
+            },
+            {
+              "title": "Loading",
+              "video_id": "8SuwYrKAo58",
+              "youtube_views": 213029
+            },
+            {
+              "title": "illusion",
+              "video_id": "fXlaJQW9RpQ",
+              "youtube_views": 188724
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

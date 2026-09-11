@@ -243,5 +243,293 @@
       "누적_써클": "-",
       "비고": "Right Now"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 13493324,
+      "spotify_id": "6HvZYsbFfjnjFrWF950C9d",
+      "top_tracks": [
+        {
+          "title": "Ditto",
+          "play_count": 893809447,
+          "uri": "spotify:track:3r8RuvgbX9s7ammBn07D3W"
+        },
+        {
+          "title": "Super Shy",
+          "play_count": 833837637,
+          "uri": "spotify:track:5sdQOyqq2IDhvmx2lHOpwd"
+        },
+        {
+          "title": "New Jeans",
+          "play_count": 508635699,
+          "uri": "spotify:track:6rdkCkjk6D12xRpdMXy0I2"
+        },
+        {
+          "title": "OMG",
+          "play_count": 920328479,
+          "uri": "spotify:track:65FftemJ1DbbZ45DUfHJXE"
+        },
+        {
+          "title": "Hype Boy",
+          "play_count": 748138007,
+          "uri": "spotify:track:0a4MMyCrzT0En247IhqZbD"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1960649810,
+      "track_count": 36,
+      "mean_views": 54462494,
+      "max_views": 348012020,
+      "albums": [
+        {
+          "title": "NJWMX",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Ditto – 250 Remix",
+              "video_id": "Dk9L4P1qP2g",
+              "youtube_views": 10551092
+            },
+            {
+              "title": "OMG – FRNK Remix",
+              "video_id": "MEAfAviN1Ms",
+              "youtube_views": 5894662
+            },
+            {
+              "title": "Attention – 250 Remix",
+              "video_id": "gIwcxYidIA8",
+              "youtube_views": 11654377
+            },
+            {
+              "title": "Hype Boy – 250 Remix",
+              "video_id": "zfCXPtfCNkU",
+              "youtube_views": 3621503
+            },
+            {
+              "title": "Cookie – FRNK Remix",
+              "video_id": "Tca6jgfhn4A",
+              "youtube_views": 3530330
+            },
+            {
+              "title": "Hurt – 250 Remix",
+              "video_id": "4UaUJ_cRTUA",
+              "youtube_views": 2543045
+            },
+            {
+              "title": "Ditto – 250 Remix (Instrumental)",
+              "video_id": "k2FGXJo5Ifs",
+              "youtube_views": 918825
+            },
+            {
+              "title": "OMG – FRNK Remix (Instrumental)",
+              "video_id": "o1ptROZF4hY",
+              "youtube_views": 615455
+            },
+            {
+              "title": "Attention – 250 Remix (Instrumental)",
+              "video_id": "CZdMC3KDnco",
+              "youtube_views": 1146754
+            },
+            {
+              "title": "Hype Boy – 250 Remix (Instrumental)",
+              "video_id": "t9ERIqgb7TY",
+              "youtube_views": 495997
+            },
+            {
+              "title": "Cookie – FRNK Remix (Instrumental)",
+              "video_id": "74j5EMPzZdA",
+              "youtube_views": 417769
+            },
+            {
+              "title": "Hurt – 250 Remix (Instrumental)",
+              "video_id": "-1H9bv3EG8g",
+              "youtube_views": 401063
+            }
+          ]
+        },
+        {
+          "title": "Supernatural",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Supernatural",
+              "video_id": "8yXGI3kcLsw",
+              "youtube_views": 151565842
+            },
+            {
+              "title": "Right Now",
+              "video_id": "B1Vv1zQyR04",
+              "youtube_views": 36418686
+            },
+            {
+              "title": "Supernatural (Instrumental)",
+              "video_id": "uwlpTFqRChQ",
+              "youtube_views": 2797608
+            },
+            {
+              "title": "Right Now (Instrumental)",
+              "video_id": "ck6MiZYXF6Q",
+              "youtube_views": 1339415
+            }
+          ]
+        },
+        {
+          "title": "How Sweet",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "How Sweet",
+              "video_id": "vrM2mrI83uk",
+              "youtube_views": 175495958
+            },
+            {
+              "title": "Bubble Gum",
+              "video_id": "GV_HP7yoIyc",
+              "youtube_views": 107987854
+            },
+            {
+              "title": "How Sweet (Instrumental)",
+              "video_id": "Pn6NvSeI8Og",
+              "youtube_views": 2597077
+            },
+            {
+              "title": "Bubble Gum (Instrumental)",
+              "video_id": "Elq9yHuz4ZU",
+              "youtube_views": 1698924
+            }
+          ]
+        },
+        {
+          "title": "NewJeans X MY DEMON (NewJeans X 마이데몬)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Our Night is more beautiful than your Day (우리의 밤은 당신의 낮보다 아름답다)",
+              "video_id": "AmzIk-4Fj2s",
+              "youtube_views": 13462444
+            },
+            {
+              "title": "Our Night is more beautiful than your Day (Inst.) (우리의 밤은 당신의 낮보다...",
+              "video_id": "DVLuj4pXSuk",
+              "youtube_views": 425220
+            }
+          ]
+        },
+        {
+          "title": "GODS",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "GODS",
+              "video_id": "lzfyoYEGvM0",
+              "youtube_views": 11135925
+            }
+          ]
+        },
+        {
+          "title": "A Time Called You (Music from The Netflix Series)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Beautiful Restriction",
+              "video_id": "BEi3tU61ixc",
+              "youtube_views": 9423360
+            }
+          ]
+        },
+        {
+          "title": "NewJeans 2nd EP 'Get Up'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "New Jeans",
+              "video_id": "Krr2u8BUtLw",
+              "youtube_views": 94026073
+            },
+            {
+              "title": "Super Shy",
+              "video_id": "n7ePZLn9_lQ",
+              "youtube_views": 140800703
+            },
+            {
+              "title": "ETA",
+              "video_id": "XCkpalH6Ppk",
+              "youtube_views": 187040496
+            },
+            {
+              "title": "Cool With You",
+              "video_id": "-jEmhjZr8RE",
+              "youtube_views": 61376907
+            },
+            {
+              "title": "Get Up",
+              "video_id": "SXM1q0CTfew",
+              "youtube_views": 22339716
+            },
+            {
+              "title": "ASAP",
+              "video_id": "nFigEiB9P5c",
+              "youtube_views": 38613471
+            }
+          ]
+        },
+        {
+          "title": "NewJeans 'Super Shy'",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "New Jeans",
+              "video_id": "vyqcKf0ilNY",
+              "youtube_views": 39142772
+            },
+            {
+              "title": "Super Shy",
+              "video_id": "0c7zGU2C2mM",
+              "youtube_views": 132136165
+            }
+          ]
+        },
+        {
+          "title": "Zero",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Zero",
+              "video_id": "pMVpKyipkWU",
+              "youtube_views": 19419884
+            }
+          ]
+        },
+        {
+          "title": "NewJeans 'OMG'",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "OMG",
+              "video_id": "2Kff0U8w-aU",
+              "youtube_views": 348012020
+            },
+            {
+              "title": "Ditto",
+              "video_id": "V6TEcoNUmc8",
+              "youtube_views": 211997965
+            }
+          ]
+        },
+        {
+          "title": "Ditto",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Ditto",
+              "video_id": "-g9I2neQR7w",
+              "youtube_views": 109604453
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

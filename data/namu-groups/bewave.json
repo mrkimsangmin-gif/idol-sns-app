@@ -91,5 +91,94 @@
       "누적_써클": "-",
       "비고": "BEWAVE-JIUN&YUNSEUL 유닛 앨범"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 6342,
+      "spotify_id": "6zbrLeJOnL0pEOgaRwZnaT",
+      "top_tracks": [
+        {
+          "title": "Hard to get to you",
+          "play_count": 309009,
+          "uri": "spotify:track:30jnphyPsHAiRPhaBk7KUf"
+        },
+        {
+          "title": "SING !",
+          "play_count": 313360,
+          "uri": "spotify:track:2IyG3qJvbW9Mx4fH5lrdKb"
+        },
+        {
+          "title": "Shine",
+          "play_count": 115246,
+          "uri": "spotify:track:5gdziZU7X8PSc07wOdGR87"
+        },
+        {
+          "title": "Never lose you again",
+          "play_count": 68511,
+          "uri": "spotify:track:0gsP5fm0arg0CGOPc2yPZz"
+        },
+        {
+          "title": "Blue Wave",
+          "play_count": 58235,
+          "uri": "spotify:track:3kvxDJjpWjwMLNlYw8r3VM"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1919201,
+      "track_count": 7,
+      "mean_views": 274171,
+      "max_views": 717860,
+      "albums": [
+        {
+          "title": "Be your Wave",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Hard to get to you (너에게로 가는 길이 너무 어려워)",
+              "video_id": "G1OuZgswlII",
+              "youtube_views": 717860
+            },
+            {
+              "title": "Never lose you again (다시는 너의 손을 놓고 싶지 않아)",
+              "video_id": "kP56jbqAcZI",
+              "youtube_views": 414093
+            },
+            {
+              "title": "Hard to get to you (Inst.) (너에게로 가는 길이 너무 어려워 (Inst.))",
+              "video_id": "eD11Fylq03U",
+              "youtube_views": 7353
+            }
+          ]
+        },
+        {
+          "title": "BE;WAVE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Blue Wave (Blue Wave)",
+              "video_id": "xsxcPQfcFd4",
+              "youtube_views": 39303
+            },
+            {
+              "title": "SING ! (SING !)",
+              "video_id": "qGa8HU4vPOk",
+              "youtube_views": 325687
+            },
+            {
+              "title": "Shine (Shine)",
+              "video_id": "7-DauCz2IGY",
+              "youtube_views": 409320
+            },
+            {
+              "title": "SING ! (Inst.) (SING ! (Inst.))",
+              "video_id": "trfv1whubsM",
+              "youtube_views": 5585
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

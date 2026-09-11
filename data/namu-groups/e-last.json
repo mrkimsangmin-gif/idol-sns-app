@@ -187,5 +187,358 @@
       "누적_써클": "-",
       "비고": "일본 디지털 싱글"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 38207,
+      "spotify_id": "0NztgA9b1KEJLjLVqMwd9y",
+      "top_tracks": [
+        {
+          "title": "Dark Dream",
+          "play_count": 3037257,
+          "uri": "spotify:track:6CWGueLHg5lmG43fy27oJQ"
+        },
+        {
+          "title": "Tame",
+          "play_count": 17014,
+          "uri": "spotify:track:0oyoiaSXh4HvHbHUEyUrYo"
+        },
+        {
+          "title": "Dangerous",
+          "play_count": 3364447,
+          "uri": "spotify:track:50DL5njQWzcOzJdS2OR8cP"
+        },
+        {
+          "title": "TEARS OF CHAOS",
+          "play_count": 2402909,
+          "uri": "spotify:track:0ocXXOaJuoNy0GZecVGmHt"
+        },
+        {
+          "title": "Creature",
+          "play_count": 1495331,
+          "uri": "spotify:track:6Ic1LFxLwE7diI7OzPUNbK"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1815499,
+      "track_count": 49,
+      "mean_views": 37051,
+      "max_views": 166600,
+      "albums": [
+        {
+          "title": "EVERLASTING",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Intro Dystopia",
+              "video_id": "Z7F9gUOa0cE",
+              "youtube_views": 10251
+            },
+            {
+              "title": "Gasoline",
+              "video_id": "WU3s10fsgdQ",
+              "youtube_views": 87516
+            },
+            {
+              "title": "i",
+              "video_id": "ogILaIQVGm4",
+              "youtube_views": 27690
+            },
+            {
+              "title": "Addiction",
+              "video_id": "13_QhjNNTY0",
+              "youtube_views": 52347
+            },
+            {
+              "title": "Fade Out",
+              "video_id": "U34L_gcTo2c",
+              "youtube_views": 64539
+            },
+            {
+              "title": "Dark Light",
+              "video_id": "jdobzSIWa1g",
+              "youtube_views": 39565
+            },
+            {
+              "title": "Candy Shop",
+              "video_id": "Xquf9vJwpbg",
+              "youtube_views": 32919
+            },
+            {
+              "title": "Rewind",
+              "video_id": "gZINPe80_kQ",
+              "youtube_views": 25950
+            },
+            {
+              "title": "You",
+              "video_id": "XEkIZ02JL1E",
+              "youtube_views": 43183
+            },
+            {
+              "title": "Forever and one",
+              "video_id": "43GJ2zyGOp0",
+              "youtube_views": 147938
+            }
+          ]
+        },
+        {
+          "title": "3rd Mini Album [ROAR]",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Intro",
+              "video_id": "bvkIcRngT-Q",
+              "youtube_views": 4286
+            },
+            {
+              "title": "Creature",
+              "video_id": "Bv0Dd8hPQDI",
+              "youtube_views": 62098
+            },
+            {
+              "title": "Poison",
+              "video_id": "F9tW1HOYrHo",
+              "youtube_views": 12334
+            },
+            {
+              "title": "Desire",
+              "video_id": "S_66uupTCkM",
+              "youtube_views": 32074
+            },
+            {
+              "title": "Shelter",
+              "video_id": "hHRbpSi-lp4",
+              "youtube_views": 12157
+            },
+            {
+              "title": "Let me free",
+              "video_id": "xsBi9ZCnzJ4",
+              "youtube_views": 7641
+            },
+            {
+              "title": "Nightmare",
+              "video_id": "X0d4eXsl_Vo",
+              "youtube_views": 26836
+            }
+          ]
+        },
+        {
+          "title": "2nd Single [Tame]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Tame",
+              "video_id": "pJ9voGp361g",
+              "youtube_views": 47771
+            },
+            {
+              "title": "Tame (Instrumental)",
+              "video_id": "RZ7sAZ-L3v8",
+              "youtube_views": 819
+            }
+          ]
+        },
+        {
+          "title": "5th Mini Album [Versus]",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Crazy Train",
+              "video_id": "QtxqY8iDYOY",
+              "youtube_views": 51954
+            },
+            {
+              "title": "Gotham",
+              "video_id": "I-D61rOwwc4",
+              "youtube_views": 19362
+            },
+            {
+              "title": "Emergency",
+              "video_id": "2evQdj6cC7U",
+              "youtube_views": 14523
+            },
+            {
+              "title": "Drive",
+              "video_id": "wT1Y6q-x9eE",
+              "youtube_views": 39179
+            },
+            {
+              "title": "Misery",
+              "video_id": "P7iUVIhJEYY",
+              "youtube_views": 52842
+            }
+          ]
+        },
+        {
+          "title": "퍼스트 러브 (Original Television Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "DIVE INTO YOU",
+              "video_id": "6Q8ckah9iwc",
+              "youtube_views": 855
+            },
+            {
+              "title": "ALRIGHT",
+              "video_id": "s_YydZHDU94",
+              "youtube_views": 409
+            }
+          ]
+        },
+        {
+          "title": "iDENTIFICATION",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Kiss me Baby",
+              "video_id": "0R3i_uLs8HU",
+              "youtube_views": 106330
+            },
+            {
+              "title": "NEVERLAND",
+              "video_id": "BFJRHxGpKFY",
+              "youtube_views": 25618
+            },
+            {
+              "title": "Together",
+              "video_id": "5_HNTc6-uYs",
+              "youtube_views": 74924
+            },
+            {
+              "title": "Rain",
+              "video_id": "xmBmDX-4ZkI",
+              "youtube_views": 40084
+            },
+            {
+              "title": "Thrill",
+              "video_id": "Y0iYQXRw7JA",
+              "youtube_views": 3237
+            },
+            {
+              "title": "Thrill (Japanese Version)",
+              "video_id": "TGnuvz6qQJo",
+              "youtube_views": 1821
+            }
+          ]
+        },
+        {
+          "title": "Thrill (Japanese Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Thrill (Japanese Version)",
+              "video_id": "SaYxnEhb7zk",
+              "youtube_views": 3885
+            }
+          ]
+        },
+        {
+          "title": "Thrill",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Thrill",
+              "video_id": "a9-kshSrY6Y",
+              "youtube_views": 166600
+            },
+            {
+              "title": "Thrill (Instrumental)",
+              "video_id": "ms-7JJHZHiI",
+              "youtube_views": 4511
+            }
+          ]
+        },
+        {
+          "title": "Dark Dream",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Dark Dream",
+              "video_id": "OsON-dYsZp8",
+              "youtube_views": 134199
+            },
+            {
+              "title": "Muse",
+              "video_id": "0NL8sBiIvs0",
+              "youtube_views": 22391
+            },
+            {
+              "title": "To.Lie",
+              "video_id": "8EAkqmxLGa4",
+              "youtube_views": 25688
+            },
+            {
+              "title": "Dark Dream (Instrumental)",
+              "video_id": "SarDLGBg5vg",
+              "youtube_views": 5362
+            }
+          ]
+        },
+        {
+          "title": "2nd Mini Album 'Awake'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Intro.",
+              "video_id": "mbNLfijkBpk",
+              "youtube_views": 5252
+            },
+            {
+              "title": "TEARS OF CHAOS",
+              "video_id": "gPlQDr1bSKM",
+              "youtube_views": 59863
+            },
+            {
+              "title": "Dangerous",
+              "video_id": "DHSxHtXRJ8Q",
+              "youtube_views": 76571
+            },
+            {
+              "title": "Present",
+              "video_id": "KHfOT-izxxI",
+              "youtube_views": 11333
+            },
+            {
+              "title": "Because Of You",
+              "video_id": "nGLWQXGNH-g",
+              "youtube_views": 14104
+            }
+          ]
+        },
+        {
+          "title": "1st Mini Album 'Day Dream'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Intro.",
+              "video_id": "3Z0gCy9YoiI",
+              "youtube_views": 5524
+            },
+            {
+              "title": "Swear",
+              "video_id": "8SEne9KydfQ",
+              "youtube_views": 37977
+            },
+            {
+              "title": "Sunrise",
+              "video_id": "mI085LKhA0U",
+              "youtube_views": 25983
+            },
+            {
+              "title": "My Flower",
+              "video_id": "kEhUMPRkxUg",
+              "youtube_views": 19713
+            },
+            {
+              "title": "Light",
+              "video_id": "oi7Vn02nyC4",
+              "youtube_views": 27491
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

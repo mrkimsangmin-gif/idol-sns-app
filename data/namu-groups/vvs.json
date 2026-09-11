@@ -127,5 +127,120 @@
       "누적_써클": "-",
       "비고": "1집 EP"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 62857,
+      "spotify_id": "48I72itlO50Fhw7BImZ1XJ",
+      "top_tracks": [
+        {
+          "title": "D.I.M.M.",
+          "play_count": 1923158,
+          "uri": "spotify:track:1DEARfKkzuVeSIXlM03ztI"
+        },
+        {
+          "title": "TOUCH IT",
+          "play_count": 604640,
+          "uri": "spotify:track:0Wbo8YOcGPaCDiXvPa6r0m"
+        },
+        {
+          "title": "PURRFECT",
+          "play_count": 760199,
+          "uri": "spotify:track:2xYAvmflFtPGpceqDhyeim"
+        },
+        {
+          "title": "FACT$",
+          "play_count": 427235,
+          "uri": "spotify:track:7En72n0G3vxBpdjtwqoNPd"
+        },
+        {
+          "title": "TEA",
+          "play_count": 483278,
+          "uri": "spotify:track:2qYsC9SS321xSGXJe7TQME"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1434439,
+      "track_count": 11,
+      "mean_views": 130403,
+      "max_views": 559605,
+      "albums": [
+        {
+          "title": "D.I.M.M.",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "FREE (Intro)",
+              "video_id": "2otiRZ49cmQ",
+              "youtube_views": 21992
+            },
+            {
+              "title": "TEA",
+              "video_id": "vq6z2dDunx8",
+              "youtube_views": 9552
+            },
+            {
+              "title": "FACT$",
+              "video_id": "PUcC1xIAaUY",
+              "youtube_views": 19514
+            },
+            {
+              "title": "PURRFECT",
+              "video_id": "RbrpK4P9OF8",
+              "youtube_views": 10551
+            },
+            {
+              "title": "NEW PHONE (Interlude)",
+              "video_id": "6HS0hfNAmVY",
+              "youtube_views": 28687
+            },
+            {
+              "title": "D.I.M.M.",
+              "video_id": "2hgWOf8J3YM",
+              "youtube_views": 559605
+            },
+            {
+              "title": "TOUCH IT",
+              "video_id": "PZ3EoupcnHw",
+              "youtube_views": 191802
+            },
+            {
+              "title": "SHINE (Outro)",
+              "video_id": "SlYlr3mDUzo",
+              "youtube_views": 15929
+            }
+          ]
+        },
+        {
+          "title": "PURRFECT",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "PURRFECT",
+              "video_id": "_GmtrOcU5dQ",
+              "youtube_views": 202295
+            }
+          ]
+        },
+        {
+          "title": "TEA",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "TEA",
+              "video_id": "apO844Zb_KM",
+              "youtube_views": 199776
+            },
+            {
+              "title": "FACT$",
+              "video_id": "51UtvOFreNs",
+              "youtube_views": 174736
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

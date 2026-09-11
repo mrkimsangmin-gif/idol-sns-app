@@ -117,5 +117,59 @@
       "누적_써클": "-",
       "비고": "WICKED GAME"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 9663,
+      "spotify_id": "1p7Fm42iZrBEvG2wIaRCoL",
+      "top_tracks": [
+        {
+          "title": "Telepathy",
+          "play_count": 211550,
+          "uri": "spotify:track:00ra0iPFDA6qs14svP4GnE"
+        },
+        {
+          "title": "ZOOM",
+          "play_count": 292151,
+          "uri": "spotify:track:5koizuWzXgVvvJxeToiU1t"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 656294,
+      "track_count": 3,
+      "mean_views": 218764,
+      "max_views": 376077,
+      "albums": [
+        {
+          "title": "SPEED ZONE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ZOOM (ZOOM)",
+              "video_id": "DGR-QIafqFE",
+              "youtube_views": 376077
+            },
+            {
+              "title": "Telepathy (Telepathy)",
+              "video_id": "YOBIC5Otf78",
+              "youtube_views": 273078
+            }
+          ]
+        },
+        {
+          "title": "Zoom (Challenge ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Zoom (Challenge ver.) (Zoom (Challenge ver.))",
+              "video_id": "hMWMeKdKn9s",
+              "youtube_views": 7139
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

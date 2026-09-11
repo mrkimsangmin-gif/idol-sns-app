@@ -397,5 +397,369 @@
       "누적_써클": "-",
       "비고": "겁나니 (Scared)"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 1707797,
+      "spotify_id": "3JjvsPeGMbDJqsphe2z8xU",
+      "top_tracks": [
+        {
+          "title": "Pretty Boy",
+          "play_count": 26263021,
+          "uri": "spotify:track:4etRRTZx5odrdgKiZqGSZ6"
+        },
+        {
+          "title": "UNIQUE",
+          "play_count": 1355612,
+          "uri": "spotify:track:2UcWuaUqRrKRL8iTA92ELO"
+        },
+        {
+          "title": "DUH!",
+          "play_count": 17646882,
+          "uri": "spotify:track:6Ts5zvNORCcfLG7K5etvuA"
+        },
+        {
+          "title": "Killin' It",
+          "play_count": 48692839,
+          "uri": "spotify:track:2E7qG81LXdZEfobhcrVm06"
+        },
+        {
+          "title": "Fall In Love Again",
+          "play_count": 35338927,
+          "uri": "spotify:track:7e2t41hCiR0sV4Lgv555v3"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 76287592,
+      "track_count": 50,
+      "mean_views": 1525751,
+      "max_views": 10256883,
+      "albums": [
+        {
+          "title": "SAD SONG",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "SAD SONG (SAD SONG)",
+              "video_id": "Q6kzOHkVC-E",
+              "youtube_views": 6701301
+            },
+            {
+              "title": "It's Alright (It's Alright)",
+              "video_id": "ebmogW6MbmI",
+              "youtube_views": 2299376
+            },
+            {
+              "title": "Last Call (Last Call)",
+              "video_id": "5n5um8-swh4",
+              "youtube_views": 1305545
+            },
+            {
+              "title": "Welcome To (Welcome To)",
+              "video_id": "mTgVF1Xxpbc",
+              "youtube_views": 664693
+            },
+            {
+              "title": "All You (All You)",
+              "video_id": "U1uE5mXgNmc",
+              "youtube_views": 1012699
+            },
+            {
+              "title": "WASP (WASP)",
+              "video_id": "h49z3Kg05U8",
+              "youtube_views": 1178429
+            },
+            {
+              "title": "SAD SONG (English Version) (SAD SONG (English Version))",
+              "video_id": "SOLXA6YeJXQ",
+              "youtube_views": 1232505
+            }
+          ]
+        },
+        {
+          "title": "때깔 (Killin' It)",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Killin' It (때깔 (Killin' It))",
+              "video_id": "cT1NH4E_Sbg",
+              "youtube_views": 10256883
+            },
+            {
+              "title": "Late Night Calls (Late Night Calls)",
+              "video_id": "gfn77Dfp7Zw",
+              "youtube_views": 2611636
+            },
+            {
+              "title": "Everybody Clap (Everybody Clap)",
+              "video_id": "mqNBGIwM9ik",
+              "youtube_views": 934786
+            },
+            {
+              "title": "Love Story (꿍꿍이 (Love Story))",
+              "video_id": "KdxdilS92Yg",
+              "youtube_views": 1327741
+            },
+            {
+              "title": "Countdown To Love (Countdown To Love)",
+              "video_id": "Rer5GkKpVNI",
+              "youtube_views": 747101
+            },
+            {
+              "title": "Emergency (Emergency)",
+              "video_id": "mQVNoeAgFLk",
+              "youtube_views": 526348
+            },
+            {
+              "title": "2Nite (2Nite)",
+              "video_id": "8XOwWsELOdc",
+              "youtube_views": 932336
+            },
+            {
+              "title": "Let Me Love You (Let Me Love You)",
+              "video_id": "YYYB5nCYbOc",
+              "youtube_views": 828937
+            },
+            {
+              "title": "Street Star (Street Star)",
+              "video_id": "gnwBIA_WZpw",
+              "youtube_views": 697544
+            },
+            {
+              "title": "I See U (I See U)",
+              "video_id": "0OuFfdP98eQ",
+              "youtube_views": 1928191
+            }
+          ]
+        },
+        {
+          "title": "UNIQUE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "UNIQUE",
+              "video_id": "9moTCYPmBMY",
+              "youtube_views": 454293
+            },
+            {
+              "title": "Pandemonium",
+              "video_id": "wyippKdeD2M",
+              "youtube_views": 308774
+            },
+            {
+              "title": "L.O.Y.L.",
+              "video_id": "7nb4RhQsdd0",
+              "youtube_views": 287014
+            },
+            {
+              "title": "Wednesday Girl",
+              "video_id": "yMqekPtvjmI",
+              "youtube_views": 228407
+            },
+            {
+              "title": "Triple 7",
+              "video_id": "rs7_C5NJrTo",
+              "youtube_views": 260037
+            },
+            {
+              "title": "ICE (VVS)",
+              "video_id": "B5xNW63nCrI",
+              "youtube_views": 347995
+            }
+          ]
+        },
+        {
+          "title": "EX",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "EX",
+              "video_id": "9TuEQmnBr-I",
+              "youtube_views": 2353549
+            },
+            {
+              "title": "Dancing Queen",
+              "video_id": "ffg9xJyu3nY",
+              "youtube_views": 1563534
+            },
+            {
+              "title": "Stupid Brain",
+              "video_id": "C_D0XADvL1o",
+              "youtube_views": 1504093
+            },
+            {
+              "title": "Night Of My Life",
+              "video_id": "Vs45gq3Z9EY",
+              "youtube_views": 368989
+            },
+            {
+              "title": "EX (Spanish Version)",
+              "video_id": "aYONvuDok2I",
+              "youtube_views": 520715
+            }
+          ]
+        },
+        {
+          "title": "DUH!",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "DUH! (DUH!)",
+              "video_id": "0I-u364xack",
+              "youtube_views": 4566993
+            },
+            {
+              "title": "Pretty Boy (Pretty Boy)",
+              "video_id": "uO_sBWQUTsU",
+              "youtube_views": 8003261
+            },
+            {
+              "title": "Murmur (Murmur)",
+              "video_id": "CxNp61K-etQ",
+              "youtube_views": 1236405
+            },
+            {
+              "title": "Flashy (Flashy)",
+              "video_id": "fb2im5PaUPY",
+              "youtube_views": 877053
+            },
+            {
+              "title": "Over And Over (Over And Over)",
+              "video_id": "6GKTwHrxJrM",
+              "youtube_views": 746572
+            },
+            {
+              "title": "Work (Work)",
+              "video_id": "Bmy9j-b1VoI",
+              "youtube_views": 1234725
+            }
+          ]
+        },
+        {
+          "title": "STAGE FIGHTER(STF) Original Vol.2",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "R.O.P (Reign of Peace) (Prod. Czaer)",
+              "video_id": "Ll9CiQHkfyE",
+              "youtube_views": 863665
+            },
+            {
+              "title": "R.O.P (Reign of Peace) (Instrumental) (Prod. Czaer)",
+              "video_id": "D2H5XR-rwYY",
+              "youtube_views": 41933
+            }
+          ]
+        },
+        {
+          "title": "Killin' It (English Version) (때깔 (Killin' It) (English Version))",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Killin' It (English Version) (때깔 (Killin' It) (English Version))",
+              "video_id": "3iQNYTeEqyE",
+              "youtube_views": 141581
+            }
+          ]
+        },
+        {
+          "title": "Fall In Love Again (Slowed + Reverb Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Fall In Love Again (Slowed + Reverb Version)",
+              "video_id": "pgFUnm21lnk",
+              "youtube_views": 50876
+            },
+            {
+              "title": "Fall In Love Again",
+              "video_id": "3ZeTl0g0eiA",
+              "youtube_views": 13862
+            }
+          ]
+        },
+        {
+          "title": "Fall In Love Again (Sped Up Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Fall In Love Again (Sped Up Version)",
+              "video_id": "A7Viosi-9fE",
+              "youtube_views": 59583
+            },
+            {
+              "title": "Fall In Love Again",
+              "video_id": "24G06UiTAq8",
+              "youtube_views": 7160
+            }
+          ]
+        },
+        {
+          "title": "Fall In Love Again",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Fall In Love Again",
+              "video_id": "FlbVKdkQvxE",
+              "youtube_views": 6337629
+            },
+            {
+              "title": "Fall In Love Again (Instrumental)",
+              "video_id": "aSACO3DexeQ",
+              "youtube_views": 40198
+            }
+          ]
+        },
+        {
+          "title": "JUMP (English Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "JUMP (English Version) (JUMP (English Version))",
+              "video_id": "dYkMUUDeUY8",
+              "youtube_views": 117668
+            }
+          ]
+        },
+        {
+          "title": "HARMONY : ALL IN",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "JUMP (JUMP)",
+              "video_id": "dLDn4evlk3Y",
+              "youtube_views": 4420432
+            },
+            {
+              "title": "Love Me For Me (Love Me For Me)",
+              "video_id": "SFL9_C434L0",
+              "youtube_views": 925588
+            },
+            {
+              "title": "New Classic (New Classic)",
+              "video_id": "mV3uAkCTmCg",
+              "youtube_views": 640366
+            },
+            {
+              "title": "More Than Words (More Than Words)",
+              "video_id": "DpPBE9MdD8o",
+              "youtube_views": 726959
+            },
+            {
+              "title": "Heartbeat Drum (Heartbeat Drum)",
+              "video_id": "q3LgG2ReVig",
+              "youtube_views": 851431
+            },
+            {
+              "title": "I Am You (I Am You)",
+              "video_id": "IxhSxuYwkJU",
+              "youtube_views": 1000201
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

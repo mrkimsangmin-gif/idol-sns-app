@@ -103,5 +103,99 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 6331,
+      "spotify_id": "1SRmmtrnAo0UK0NUROJRjz",
+      "top_tracks": [
+        {
+          "title": "My One",
+          "play_count": 612873,
+          "uri": "spotify:track:67dGM7vsArZNWZ9qrXFKsR"
+        },
+        {
+          "title": "Everlasting Miracle",
+          "play_count": 296753,
+          "uri": "spotify:track:6NJlbASPHW6PONyMjdruQz"
+        },
+        {
+          "title": "Forget All",
+          "play_count": 224568,
+          "uri": "spotify:track:0rqCMIZpwN2pFjcfEjGkR3"
+        },
+        {
+          "title": "My One - English Version",
+          "play_count": 220356,
+          "uri": "spotify:track:4o1tpzldNxhNQXBcE9biI4"
+        },
+        {
+          "title": "aH-OOh!",
+          "play_count": 236152,
+          "uri": "spotify:track:57rTTV7fLtVpuJnxkcr7uT"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 532400,
+      "track_count": 8,
+      "mean_views": 66550,
+      "max_views": 187400,
+      "albums": [
+        {
+          "title": "X-mas Treat",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Must Have love (2024 Version)",
+              "video_id": "Sv_ZFX_X7HE",
+              "youtube_views": 20958
+            },
+            {
+              "title": "Must Have love (Eng Version)",
+              "video_id": "Tyqz7rb4bTc",
+              "youtube_views": 2970
+            },
+            {
+              "title": "Must Have love (Instrumental)",
+              "video_id": "fRAcbxhkoks",
+              "youtube_views": 777
+            }
+          ]
+        },
+        {
+          "title": "Wishpool",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "My One",
+              "video_id": "0nErLeAVOWQ",
+              "youtube_views": 187400
+            },
+            {
+              "title": "Everlasting Miracle",
+              "video_id": "wuS5-fzngZw",
+              "youtube_views": 187277
+            },
+            {
+              "title": "Forget All",
+              "video_id": "vSBJtQmO6so",
+              "youtube_views": 49118
+            },
+            {
+              "title": "aH-OOh!",
+              "video_id": "Tw90jA_rsck",
+              "youtube_views": 45873
+            },
+            {
+              "title": "My One (English Version)",
+              "video_id": "Z7YNbJVmOpc",
+              "youtube_views": 38027
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

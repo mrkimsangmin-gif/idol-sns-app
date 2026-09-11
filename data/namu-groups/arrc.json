@@ -159,5 +159,167 @@
       "누적_써클": "-",
       "비고": "SKIID"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 41523,
+      "spotify_id": "0aI0llD36ZH9ZDplS8TblP",
+      "top_tracks": [
+        {
+          "title": "awesome",
+          "play_count": 414420,
+          "uri": "spotify:track:6hnzYx4y2NcPyqyHrMM22b"
+        },
+        {
+          "title": "S&S (sour and sweet)",
+          "play_count": 1751295,
+          "uri": "spotify:track:1GeFTnXC5r8swRolj7vCgr"
+        },
+        {
+          "title": "SKIID",
+          "play_count": 193984,
+          "uri": "spotify:track:69Lfa6t4sskn5BwiHJ1nch"
+        },
+        {
+          "title": "dummy",
+          "play_count": 1136147,
+          "uri": "spotify:track:0sAq8cN9lvt9dkAWa5DtWb"
+        },
+        {
+          "title": "nu kidz",
+          "play_count": 281551,
+          "uri": "spotify:track:4rnhpp3CTVJ7bgr3fTcOWi"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1719465,
+      "track_count": 18,
+      "mean_views": 95525,
+      "max_views": 363910,
+      "albums": [
+        {
+          "title": "CTRL+ALT+SKIID",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SKIID",
+              "video_id": "lyHQSHV5kq0",
+              "youtube_views": 62576
+            },
+            {
+              "title": "WoW (Way of Winning) (with MOON SUA X SIYOON)",
+              "video_id": "7CSeOkhmQIw",
+              "youtube_views": 29505
+            }
+          ]
+        },
+        {
+          "title": "HOPE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "awesome",
+              "video_id": "QRU4TV3Cyss",
+              "youtube_views": 85242
+            },
+            {
+              "title": "dawns",
+              "video_id": "oo0cX98xSM8",
+              "youtube_views": 27330
+            },
+            {
+              "title": "kick back",
+              "video_id": "ZdMZbw19LGQ",
+              "youtube_views": 45076
+            },
+            {
+              "title": "vitamin I",
+              "video_id": "vhExKSKM9yc",
+              "youtube_views": 38852
+            },
+            {
+              "title": "night life",
+              "video_id": "sHnX48vuhfs",
+              "youtube_views": 63217
+            }
+          ]
+        },
+        {
+          "title": "nu kidz: out the box",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "nu kidz",
+              "video_id": "VFoF3YGvPAk",
+              "youtube_views": 363910
+            },
+            {
+              "title": "loop.dll",
+              "video_id": "hCR6Ctj6rCo",
+              "youtube_views": 41420
+            },
+            {
+              "title": "accident ~ at the studio",
+              "video_id": "ont_gRkTPMQ",
+              "youtube_views": 64232
+            },
+            {
+              "title": "alien in Seoul",
+              "video_id": "dr3jRXnN7k4",
+              "youtube_views": 54493
+            },
+            {
+              "title": "connected",
+              "video_id": "AneTUWMO3dQ",
+              "youtube_views": 90876
+            }
+          ]
+        },
+        {
+          "title": "AR^C",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "S & S (sour and sweet)",
+              "video_id": "w6VhkJ483OQ",
+              "youtube_views": 229467
+            },
+            {
+              "title": "light up",
+              "video_id": "N6tAercUSbs",
+              "youtube_views": 132118
+            },
+            {
+              "title": "shadow",
+              "video_id": "B1DSBdomLNc",
+              "youtube_views": 135706
+            },
+            {
+              "title": "duality",
+              "video_id": "Oz31zoIdxQU",
+              "youtube_views": 54818
+            },
+            {
+              "title": "dummy (nu skull mix)",
+              "video_id": "JSOn0t9saIs",
+              "youtube_views": 31110
+            }
+          ]
+        },
+        {
+          "title": "dummy",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "dummy",
+              "video_id": "zyZMJxFlLuA",
+              "youtube_views": 169517
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -123,5 +123,183 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 66838,
+      "spotify_id": "2aRhzujDfJ1mVe2XdddXYL",
+      "top_tracks": [
+        {
+          "title": "Not Out",
+          "play_count": 644971,
+          "uri": "spotify:track:3vpxOqE2uaaH3lf09soVnA"
+        },
+        {
+          "title": "Oh Perfect!",
+          "play_count": 40231,
+          "uri": "spotify:track:3LKZCLEnspadu6UQIOTPVD"
+        },
+        {
+          "title": "Radio Silence",
+          "play_count": 395968,
+          "uri": "spotify:track:1wJNpkpNrZEZId1F2Gz83K"
+        },
+        {
+          "title": "Palm Lines",
+          "play_count": 34066,
+          "uri": "spotify:track:406oyoc9ClMAdEjtSwAOzV"
+        },
+        {
+          "title": "POP UP",
+          "play_count": 746612,
+          "uri": "spotify:track:1hZUb6Lk1YUENriSC9bI8H"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 7008433,
+      "track_count": 20,
+      "mean_views": 350421,
+      "max_views": 1228783,
+      "albums": [
+        {
+          "title": "RUN RUN RUN",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "손금",
+              "video_id": "AC6TzCw2uDc",
+              "youtube_views": 46872
+            },
+            {
+              "title": "아 마음대로 다 된다!",
+              "video_id": "OpRzgzU8RUo",
+              "youtube_views": 61670
+            },
+            {
+              "title": "Zombie",
+              "video_id": "LlrWBMTH5zE",
+              "youtube_views": 32856
+            },
+            {
+              "title": "리허설",
+              "video_id": "5z0jNx5gUdI",
+              "youtube_views": 35941
+            },
+            {
+              "title": "숨긴 마음",
+              "video_id": "ovMbxFRZXDw",
+              "youtube_views": 36057
+            }
+          ]
+        },
+        {
+          "title": "So Nice (GMF2025 ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "So Nice (GMF2025 ver.)",
+              "video_id": "6hbiTnI8LEs",
+              "youtube_views": 125353
+            }
+          ]
+        },
+        {
+          "title": "Radio Silence (지구소년)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Radio Silence (지구소년)",
+              "video_id": "LfOegd5LDN0",
+              "youtube_views": 935928
+            },
+            {
+              "title": "Radio Silence (Inst.) (지구소년 (Inst.))",
+              "video_id": "seDO6QdtBjE",
+              "youtube_views": 13422
+            }
+          ]
+        },
+        {
+          "title": "You pour down on me (Crushology 101 OST Part.6) (네가 쏟아진다 (바니와 오빠들 OST Part.6))",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "You pour down on me (네가 쏟아진다)",
+              "video_id": "qF0mPVwqaGU",
+              "youtube_views": 197086
+            },
+            {
+              "title": "You pour down on me (Inst.) (네가 쏟아진다 (Inst.))",
+              "video_id": "SwkEtS0pHpA",
+              "youtube_views": 8060
+            }
+          ]
+        },
+        {
+          "title": "Not Out",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Not Out (Not Out)",
+              "video_id": "7ObZk03flxs",
+              "youtube_views": 1138204
+            },
+            {
+              "title": "NEVER (NEVER)",
+              "video_id": "nUyGHdM-pTs",
+              "youtube_views": 232711
+            },
+            {
+              "title": "Waste (Waste)",
+              "video_id": "W2yjuAPw8So",
+              "youtube_views": 168793
+            },
+            {
+              "title": "To. Nosy Boy (이타심 (To. Nosy Boy))",
+              "video_id": "nkKHhAMsWB8",
+              "youtube_views": 177809
+            },
+            {
+              "title": "On Air (On Air)",
+              "video_id": "0759_4c8VTk",
+              "youtube_views": 333843
+            }
+          ]
+        },
+        {
+          "title": "POP UP",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "POP UP (POP UP)",
+              "video_id": "yc-eNqLjDMA",
+              "youtube_views": 1228783
+            },
+            {
+              "title": "Morse Code (모스부호)",
+              "video_id": "7XCT7OQvKy8",
+              "youtube_views": 1107906
+            },
+            {
+              "title": "Ouroboros (꼬리를 먹는 뱀)",
+              "video_id": "axcHmayliNM",
+              "youtube_views": 480383
+            },
+            {
+              "title": "Traffic Jam (Traffic Jam)",
+              "video_id": "qgFcXc8X3-Q",
+              "youtube_views": 217953
+            },
+            {
+              "title": "Pity Punk (Pity Punk)",
+              "video_id": "2SnNdC_wtYw",
+              "youtube_views": 428803
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

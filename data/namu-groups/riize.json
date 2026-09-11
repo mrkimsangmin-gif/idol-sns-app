@@ -548,5 +548,360 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2572975,
+      "spotify_id": "2jOm3cYujQx6o1dxuiuqaX",
+      "top_tracks": [
+        {
+          "title": "Fame",
+          "play_count": 18817451,
+          "uri": "spotify:track:7pjjoNOZQW7H8pOSCFIvsX"
+        },
+        {
+          "title": "Love 119",
+          "play_count": 91653919,
+          "uri": "spotify:track:0lUtQTBt2ydznYzuAeYFrZ"
+        },
+        {
+          "title": "Boom Boom Bass",
+          "play_count": 76658097,
+          "uri": "spotify:track:6Ixrp3yXfzv5brZXmZuXXN"
+        },
+        {
+          "title": "All of You",
+          "play_count": 2354581,
+          "uri": "spotify:track:1M4MWyhWTpFCvJJoCva3Ij"
+        },
+        {
+          "title": "Memories",
+          "play_count": 80966702,
+          "uri": "spotify:track:7egcmrxRDee6C5M3AtXZ7L"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 172778648,
+      "track_count": 47,
+      "mean_views": 3676141,
+      "max_views": 38624421,
+      "albums": [
+        {
+          "title": "ODYSSEY - The 1st Album",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Odyssey",
+              "video_id": "NcSAdS6Q5y8",
+              "youtube_views": 2666453
+            },
+            {
+              "title": "Bag Bad Back",
+              "video_id": "iBcECxESFuQ",
+              "youtube_views": 6845576
+            },
+            {
+              "title": "잉걸 Ember to Solar",
+              "video_id": "5Ua_-BNJlTw",
+              "youtube_views": 3608197
+            },
+            {
+              "title": "Fly Up",
+              "video_id": "WcHGD0oJwew",
+              "youtube_views": 8459824
+            },
+            {
+              "title": "Show Me Love",
+              "video_id": "JHRAamKdXSE",
+              "youtube_views": 2435403
+            },
+            {
+              "title": "Passage",
+              "video_id": "OXhUE9OVAXg",
+              "youtube_views": 717883
+            },
+            {
+              "title": "Midnight Mirage",
+              "video_id": "M8soLn5CXF4",
+              "youtube_views": 3816963
+            },
+            {
+              "title": "모든 하루의 끝 The End of the Day",
+              "video_id": "hoNKoz5KQVk",
+              "youtube_views": 4490611
+            },
+            {
+              "title": "Inside My Love",
+              "video_id": "4nGBKRYy_KA",
+              "youtube_views": 3267923
+            },
+            {
+              "title": "Another Life",
+              "video_id": "QNRbCqS_bhs",
+              "youtube_views": 2019306
+            }
+          ]
+        },
+        {
+          "title": "RIIZING : Epilogue - The 1st Mini Album",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Combo",
+              "video_id": "thQMIlsB9hI",
+              "youtube_views": 4086203
+            },
+            {
+              "title": "Boom Boom Bass",
+              "video_id": "VBD42skOjDg",
+              "youtube_views": 174386
+            },
+            {
+              "title": "Siren",
+              "video_id": "awffo54NdaY",
+              "youtube_views": 156114
+            },
+            {
+              "title": "Impossible",
+              "video_id": "53eWUtchlCE",
+              "youtube_views": 138137
+            },
+            {
+              "title": "9 Days",
+              "video_id": "NcY_YYO8CBE",
+              "youtube_views": 121119
+            },
+            {
+              "title": "Honestly",
+              "video_id": "k8NKPcUsAbU",
+              "youtube_views": 340426
+            },
+            {
+              "title": "One Kiss",
+              "video_id": "b0Xds9boR5k",
+              "youtube_views": 151171
+            },
+            {
+              "title": "Talk Saxy",
+              "video_id": "-teOXbu9u3w",
+              "youtube_views": 152978
+            },
+            {
+              "title": "Love 119",
+              "video_id": "hGcMvn-cj0o",
+              "youtube_views": 100087
+            }
+          ]
+        },
+        {
+          "title": "RIIZING - The 1st Mini Album",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Boom Boom Bass",
+              "video_id": "5FpxMXiZ5k4",
+              "youtube_views": 38624421
+            },
+            {
+              "title": "Siren",
+              "video_id": "UtrldF7GRfU",
+              "youtube_views": 414550
+            },
+            {
+              "title": "Impossible",
+              "video_id": "ZH9NMuvp7Vs",
+              "youtube_views": 381652
+            },
+            {
+              "title": "9 Days",
+              "video_id": "aNdXqEZudQY",
+              "youtube_views": 368273
+            },
+            {
+              "title": "Honestly",
+              "video_id": "VHGlXQYEjTU",
+              "youtube_views": 354395
+            },
+            {
+              "title": "One Kiss",
+              "video_id": "iPGzzOIwAtc",
+              "youtube_views": 352809
+            },
+            {
+              "title": "Talk Saxy",
+              "video_id": "N9I5RrS7XLQ",
+              "youtube_views": 294466
+            },
+            {
+              "title": "Love 119",
+              "video_id": "j8lENZIRL5c",
+              "youtube_views": 279458
+            }
+          ]
+        },
+        {
+          "title": "All of You",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "All of You",
+              "video_id": "bBlqnKwFfT8",
+              "youtube_views": 145492
+            },
+            {
+              "title": "Flashlight",
+              "video_id": "aVJwmhuzF4w",
+              "youtube_views": 205691
+            }
+          ]
+        },
+        {
+          "title": "All of You",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "All of You",
+              "video_id": "TaUkKrX2yQI",
+              "youtube_views": 370409
+            }
+          ]
+        },
+        {
+          "title": "Fame",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Something’s in the Water",
+              "video_id": "p-ox-Fs0wuA",
+              "youtube_views": 597560
+            },
+            {
+              "title": "Fame",
+              "video_id": "imNY0JRrKfs",
+              "youtube_views": 4889462
+            },
+            {
+              "title": "Sticky Like",
+              "video_id": "wkyPA7xjWnU",
+              "youtube_views": 1592027
+            }
+          ]
+        },
+        {
+          "title": "Hug 포옹",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Hug 포옹",
+              "video_id": "os53MucpmRo",
+              "youtube_views": 7059675
+            }
+          ]
+        },
+        {
+          "title": "Lucky",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Lucky",
+              "video_id": "kXF5V0brKTI",
+              "youtube_views": 1949335
+            },
+            {
+              "title": "Be My Next",
+              "video_id": "vbgHyLVLYUI",
+              "youtube_views": 950458
+            },
+            {
+              "title": "Same Key",
+              "video_id": "b_b_vmDmd9M",
+              "youtube_views": 170344
+            }
+          ]
+        },
+        {
+          "title": "Same Key",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Same Key",
+              "video_id": "17fibA7NqF8",
+              "youtube_views": 989133
+            }
+          ]
+        },
+        {
+          "title": "RIIZING",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Siren",
+              "video_id": "hRj4eSZuJLI",
+              "youtube_views": 444988
+            },
+            {
+              "title": "Impossible",
+              "video_id": "qFEns_3BcUA",
+              "youtube_views": 466662
+            },
+            {
+              "title": "9 Days",
+              "video_id": "t0Uqdec_eHU",
+              "youtube_views": 4276162
+            },
+            {
+              "title": "Honestly",
+              "video_id": "cGVhRVPU5so",
+              "youtube_views": 7953610
+            },
+            {
+              "title": "One Kiss",
+              "video_id": "HGv9Hc9EdNo",
+              "youtube_views": 7771784
+            }
+          ]
+        },
+        {
+          "title": "Impossible",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Impossible",
+              "video_id": "Vvi9iekRbK8",
+              "youtube_views": 23888947
+            },
+            {
+              "title": "Siren",
+              "video_id": "xRTWuX27wd0",
+              "youtube_views": 277547
+            }
+          ]
+        },
+        {
+          "title": "Siren",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Siren",
+              "video_id": "m6M6awqPPns",
+              "youtube_views": 22698661
+            }
+          ]
+        },
+        {
+          "title": "Love 119 (Japanese Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Love 119 (Japanese Version)",
+              "video_id": "lXvz-1z-H1g",
+              "youtube_views": 1261917
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

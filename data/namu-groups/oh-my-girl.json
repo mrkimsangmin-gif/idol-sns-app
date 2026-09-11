@@ -1048,5 +1048,629 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 691649,
+      "spotify_id": "2019zR22qK2RBvCqtudBaI",
+      "top_tracks": [
+        {
+          "title": "Dolphin",
+          "play_count": 86422047,
+          "uri": "spotify:track:5gpojs9yi3nm8aC3BOg6q5"
+        },
+        {
+          "title": "Nonstop",
+          "play_count": 87747688,
+          "uri": "spotify:track:4ljXOIFNSjnGA2VuCYHQTS"
+        },
+        {
+          "title": "Dun Dun Dance",
+          "play_count": 55998201,
+          "uri": "spotify:track:5rp3c6ueLX4XjTeDS1RLjN"
+        },
+        {
+          "title": "The fifth season (SSFWL)",
+          "play_count": 29287104,
+          "uri": "spotify:track:3OOule225U6G8jfuR9tHIB"
+        },
+        {
+          "title": "Secret Garden",
+          "play_count": 25803850,
+          "uri": "spotify:track:1xB3DS43HzAz7YKhjSFSwl"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 42786298,
+      "track_count": 96,
+      "mean_views": 445690,
+      "max_views": 15467869,
+      "albums": [
+        {
+          "title": "OH MY GIRL BEST",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Real Love Japanese ver.",
+              "video_id": "9huOhLrDsfk",
+              "youtube_views": 15088
+            },
+            {
+              "title": "Dun Dun Dance Japanese ver.",
+              "video_id": "ULD1u8c8e7s",
+              "youtube_views": 21441
+            },
+            {
+              "title": "Dolphin Japanese ver.",
+              "video_id": "8D48vvoU_js",
+              "youtube_views": 20103
+            },
+            {
+              "title": "Nonstop Japanese ver.",
+              "video_id": "AnZNwUghS5Y",
+              "youtube_views": 21700
+            },
+            {
+              "title": "Etoile",
+              "video_id": "cCpXmApWknk",
+              "youtube_views": 12205
+            },
+            {
+              "title": "Eternally",
+              "video_id": "ZJ1tlpDjmwg",
+              "youtube_views": 10492
+            },
+            {
+              "title": "BUNGEE Japanese ver.",
+              "video_id": "IfZKFACkBgI",
+              "youtube_views": 10210
+            },
+            {
+              "title": "五番目の季節 Japanese ver.",
+              "video_id": "zqUK2-DxqXA",
+              "youtube_views": 16220
+            },
+            {
+              "title": "花火 (Remember Me) Japanese ver.",
+              "video_id": "DavK6OAMwN4",
+              "youtube_views": 11660
+            },
+            {
+              "title": "Twilight Japanese ver.",
+              "video_id": "JPDfHmaBBuI",
+              "youtube_views": 8356
+            },
+            {
+              "title": "Secret Garden Japanese ver.",
+              "video_id": "PxlbRVK0OoE",
+              "youtube_views": 11027
+            },
+            {
+              "title": "Sixteen Japanese ver.",
+              "video_id": "_O0uNnO8aps",
+              "youtube_views": 6643
+            },
+            {
+              "title": "Coloring Book Japanese ver.",
+              "video_id": "cYhWfj4x6yM",
+              "youtube_views": 6150
+            },
+            {
+              "title": "A-ing Japanese ver.",
+              "video_id": "qui0Ts5xUg0",
+              "youtube_views": 6896
+            },
+            {
+              "title": "WINDY DAY Japanese ver.",
+              "video_id": "q7_yWValtpE",
+              "youtube_views": 7612
+            },
+            {
+              "title": "LIAR LIAR Japanese ver.",
+              "video_id": "3XAoh_ya8O4",
+              "youtube_views": 8288
+            },
+            {
+              "title": "一歩二歩 Japanese ver.",
+              "video_id": "9rUq_nSdy6Y",
+              "youtube_views": 8107
+            },
+            {
+              "title": "CLOSER Japanese ver.",
+              "video_id": "yj1L_6iiQHc",
+              "youtube_views": 7704
+            },
+            {
+              "title": "CUPID Japanese ver.",
+              "video_id": "5RKsHtJubCA",
+              "youtube_views": 5830
+            }
+          ]
+        },
+        {
+          "title": "Real Love",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Real Love (Real Love)",
+              "video_id": "Dk0n1riBmz0",
+              "youtube_views": 2648743
+            },
+            {
+              "title": "Drip (Drip)",
+              "video_id": "a9d3uWK7HaQ",
+              "youtube_views": 345489
+            },
+            {
+              "title": "Eden (Eden)",
+              "video_id": "8BZ17Z9r-Io",
+              "youtube_views": 193261
+            },
+            {
+              "title": "Replay (Replay)",
+              "video_id": "N_xd9iIPvRE",
+              "youtube_views": 84538
+            },
+            {
+              "title": "Parachute (Parachute)",
+              "video_id": "9_QZl9Yh9l8",
+              "youtube_views": 66797
+            },
+            {
+              "title": "Kiss & Fix (Kiss & Fix)",
+              "video_id": "M6RvJocbCQ8",
+              "youtube_views": 137163
+            },
+            {
+              "title": "Blink (Blink)",
+              "video_id": "xevx_AypYn0",
+              "youtube_views": 265385
+            },
+            {
+              "title": "Dear Rose (Dear Rose)",
+              "video_id": "38F3EMR7Tio",
+              "youtube_views": 602099
+            },
+            {
+              "title": "Sailing Heart (항해)",
+              "video_id": "WDyBgVP2aVY",
+              "youtube_views": 76074
+            },
+            {
+              "title": "Real Love (Instrumental) (Real Love (Instrumental))",
+              "video_id": "LTufDUzQ_E0",
+              "youtube_views": 9694
+            }
+          ]
+        },
+        {
+          "title": "OH MY GIRL SUMMER PACKAGE [FALL IN LOVE]",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "BUNGEE (Fall in Love) (BUNGEE (Fall in Love))",
+              "video_id": "ydzdMHdIFfc",
+              "youtube_views": 1711235
+            },
+            {
+              "title": "Tropical Love (Tropical Love)",
+              "video_id": "Pc5X6l_ULnU",
+              "youtube_views": 440297
+            },
+            {
+              "title": "The fifth season (SSFWL) (다섯 번째 계절 (SSFWL))",
+              "video_id": "bMU6FRdWKF0",
+              "youtube_views": 23721
+            },
+            {
+              "title": "Shower (소나기)",
+              "video_id": "PBEy29gTaEU",
+              "youtube_views": 136387
+            },
+            {
+              "title": "Case No.L5VE (미제 (Case No.L5VE))",
+              "video_id": "om36T36yj8Q",
+              "youtube_views": 10385
+            },
+            {
+              "title": "Tic Toc (Tic Toc)",
+              "video_id": "jmAJcnKFohE",
+              "youtube_views": 7171
+            },
+            {
+              "title": "Gravity (유성 (Gravity))",
+              "video_id": "yrYRM7SM7e4",
+              "youtube_views": 7304
+            },
+            {
+              "title": "Crime Scene (Crime Scene)",
+              "video_id": "JLaa_4o9wLg",
+              "youtube_views": 9622
+            },
+            {
+              "title": "Underwater Love (심해 (마음이라는 바다))",
+              "video_id": "Q8BO5EqAaB4",
+              "youtube_views": 18661
+            },
+            {
+              "title": "Vogue (Vogue)",
+              "video_id": "vAC2DirSub4",
+              "youtube_views": 5351
+            },
+            {
+              "title": "Checkmate  (Checkmate)",
+              "video_id": "IrcwltAJyYU",
+              "youtube_views": 21848
+            },
+            {
+              "title": "The fifth season (SSFWL) (다섯 번째 계절 (SSFWL) (Inst.))",
+              "video_id": "B18WLbfA1bA",
+              "youtube_views": 20677
+            }
+          ]
+        },
+        {
+          "title": "OH MY GIRL",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "5th Season Japanese version",
+              "video_id": "I_h5XbaFTn8",
+              "youtube_views": 155599
+            },
+            {
+              "title": "A-ing Japanese version",
+              "video_id": "1vk1E1YpveM",
+              "youtube_views": 88837
+            },
+            {
+              "title": "One Step Two Step Japanese version",
+              "video_id": "Z8vujulsx8c",
+              "youtube_views": 96161
+            },
+            {
+              "title": "Twilight Japanese version",
+              "video_id": "M8W_8goj0dU",
+              "youtube_views": 88556
+            },
+            {
+              "title": "Sixteen Japanese version",
+              "video_id": "zjbBrHEhG14",
+              "youtube_views": 36047
+            },
+            {
+              "title": "Touch My Heart",
+              "video_id": "yKTVu-GQshw",
+              "youtube_views": 125476
+            },
+            {
+              "title": "Dakishimeruno",
+              "video_id": "EGca81PqSRI",
+              "youtube_views": 97603
+            }
+          ]
+        },
+        {
+          "title": "THE FIFTH SEASON",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "The fifth season (SSFWL) (다섯 번째 계절 (SSFWL))",
+              "video_id": "SKDd7AJNsx4",
+              "youtube_views": 15467869
+            },
+            {
+              "title": "Shower (소나기)",
+              "video_id": "mVfV74QqqvE",
+              "youtube_views": 701350
+            },
+            {
+              "title": "Case No.L5VE (미제 (Case No.L5VE))",
+              "video_id": "FNLT97B5N8I",
+              "youtube_views": 337186
+            },
+            {
+              "title": "Tic Toc (Tic Toc)",
+              "video_id": "C4X8RTnspkE",
+              "youtube_views": 252756
+            },
+            {
+              "title": "Gravity (유성 (Gravity))",
+              "video_id": "35bsre7WXDs",
+              "youtube_views": 120435
+            },
+            {
+              "title": "Crime Scene (Crime Scene)",
+              "video_id": "ug67P8aNW2o",
+              "youtube_views": 148692
+            },
+            {
+              "title": "Underwater Love (심해 (마음이라는 바다))",
+              "video_id": "tGgtvFbOIDk",
+              "youtube_views": 265978
+            },
+            {
+              "title": "Vogue (Vogue)",
+              "video_id": "OJVY0vjR7UQ",
+              "youtube_views": 50493
+            },
+            {
+              "title": "Checkmate (Checkmate)",
+              "video_id": "sIyJNZs2KnA",
+              "youtube_views": 221904
+            },
+            {
+              "title": "The fifth season (SSFWL) (Instrumental) (다섯 번째 계절 (SSFWL) (Instrumental))",
+              "video_id": "Mtv-CreSp60",
+              "youtube_views": 19506
+            }
+          ]
+        },
+        {
+          "title": "Japan Debut Album",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "Hanabi(Remember Me) Japanese version",
+              "video_id": "gDbd3kFE_7c",
+              "youtube_views": 179932
+            },
+            {
+              "title": "Secret Garden Japanese version",
+              "video_id": "udjqlRwt-rg",
+              "youtube_views": 96379
+            },
+            {
+              "title": "Coloring Book Japanese version",
+              "video_id": "O7U1Wk4kbS0",
+              "youtube_views": 42859
+            },
+            {
+              "title": "Windy Day Japanese version",
+              "video_id": "M1YmOfqpZwY",
+              "youtube_views": 104038
+            },
+            {
+              "title": "Liar Liar Japanese version",
+              "video_id": "Jc9B15zNEkU",
+              "youtube_views": 44337
+            },
+            {
+              "title": "Closer Japanese version",
+              "video_id": "bZQVHjIih8k",
+              "youtube_views": 198837
+            },
+            {
+              "title": "Cupid Japanese version",
+              "video_id": "8sinrsmMwP8",
+              "youtube_views": 40279
+            }
+          ]
+        },
+        {
+          "title": "WINDY DAY",
+          "year": "2016",
+          "tracks": [
+            {
+              "title": "WINDY DAY (WINDY DAY)",
+              "video_id": "xpwJgOLvpH0",
+              "youtube_views": 2458798
+            },
+            {
+              "title": "STUPID IN LOVE (STUPID IN LOVE)",
+              "video_id": "tCOy-TGZBxo",
+              "youtube_views": 52246
+            },
+            {
+              "title": "LIAR LIAR (LIAR LIAR)",
+              "video_id": "idwKWjDUdH8",
+              "youtube_views": 21943
+            },
+            {
+              "title": "B612 (B612)",
+              "video_id": "qU4r6XIQSmc",
+              "youtube_views": 11653
+            },
+            {
+              "title": "I FOUND LOVE (I FOUND LOVE)",
+              "video_id": "S2vsbX20NoM",
+              "youtube_views": 15167
+            },
+            {
+              "title": "KNOCK KNOCK (KNOCK KNOCK)",
+              "video_id": "t7XHSpYlanc",
+              "youtube_views": 10439
+            },
+            {
+              "title": "STEP BY STEP (한 발짝 두 발짝)",
+              "video_id": "9oC-CbJSz88",
+              "youtube_views": 116913
+            },
+            {
+              "title": "LIAR LIAR (Chinese Ver.) (LIAR LIAR (Chinese Ver.))",
+              "video_id": "hP7USszhDIA",
+              "youtube_views": 10452
+            }
+          ]
+        },
+        {
+          "title": "Weather Diary (일기예보)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Weather Diary (일기예보)",
+              "video_id": "88AnVNslgFY",
+              "youtube_views": 692855
+            },
+            {
+              "title": "Weather Diary (Inst.) (일기예보 (Inst.))",
+              "video_id": "KBypHmNC9eg",
+              "youtube_views": 11583
+            }
+          ]
+        },
+        {
+          "title": "Oh My",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Oh My (Oh My)",
+              "video_id": "QnUGb7y-tdk",
+              "youtube_views": 1403483
+            }
+          ]
+        },
+        {
+          "title": "Dreamy Resonance",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Classified (Classified)",
+              "video_id": "aK5uZskvFzw",
+              "youtube_views": 6187010
+            },
+            {
+              "title": "Start Up (Start Up)",
+              "video_id": "PX2z7ZC90qE",
+              "youtube_views": 949312
+            },
+            {
+              "title": "La La La La (Mimi, SeungHee) (La La La La (미미, 승희))",
+              "video_id": "Yt5MBjjiJRE",
+              "youtube_views": 365143
+            },
+            {
+              "title": "Sway (YOU & I) (Yubin, Arin) (Sway (YOU & I) (유빈, 아린))",
+              "video_id": "HqQ1l49jVc8",
+              "youtube_views": 279623
+            },
+            {
+              "title": "Love Me Like You Do (HyoJung, YooA) (Love Me Like You Do (효정, 유아) )",
+              "video_id": "8dZZk-bYj84",
+              "youtube_views": 203992
+            },
+            {
+              "title": "Heavenly (Heavenly)",
+              "video_id": "IcNRplLB_Og",
+              "youtube_views": 588403
+            }
+          ]
+        },
+        {
+          "title": "Golden Hourglass",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Celebrate (Celebrate)",
+              "video_id": "TV2h6n1Zbaw",
+              "youtube_views": 184443
+            },
+            {
+              "title": "Summer Comes (여름이 들려 (Summer Comes))",
+              "video_id": "rNLYFoos2F8",
+              "youtube_views": 2091053
+            },
+            {
+              "title": "Queen B (내 Type)",
+              "video_id": "jo6M8AvA75Y",
+              "youtube_views": 56472
+            },
+            {
+              "title": "Dirty Laundry (Dirty Laundry)",
+              "video_id": "gV4tBSgolDY",
+              "youtube_views": 247953
+            },
+            {
+              "title": "Paradise (Paradise)",
+              "video_id": "_qQ_PuvvSRk",
+              "youtube_views": 81256
+            },
+            {
+              "title": "Miracle (미라클 (Miracle))",
+              "video_id": "Q7jLC3nk6QE",
+              "youtube_views": 10959
+            }
+          ]
+        },
+        {
+          "title": "Miracle",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Miracle (미라클 (Miracle))",
+              "video_id": "at-NEhkMX9I",
+              "youtube_views": 166655
+            }
+          ]
+        },
+        {
+          "title": "Real Love Japanese version",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Real Love Japanese ver.",
+              "video_id": "UqK6twP1b2Q",
+              "youtube_views": 10944
+            }
+          ]
+        },
+        {
+          "title": "Shark",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Shark",
+              "video_id": "6XXvCfwtXBk",
+              "youtube_views": 229551
+            }
+          ]
+        },
+        {
+          "title": "JAPAN 2nd Single \"Dun Dun Dance Japanese Version\"",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Dun Dun Dance Japanese ver.",
+              "video_id": "LYkeupQxU_M",
+              "youtube_views": 10322
+            },
+            {
+              "title": "Dolphin Japanese ver.",
+              "video_id": "xU5xuJaEIjk",
+              "youtube_views": 6733
+            },
+            {
+              "title": "Nonstop Japanese ver.",
+              "video_id": "Ta2nwXs20yI",
+              "youtube_views": 6166
+            }
+          ]
+        },
+        {
+          "title": "Dolphin (Japanese Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Dolphin Japanese ver.",
+              "video_id": "wLNQnwiUY-U",
+              "youtube_views": 138244
+            }
+          ]
+        },
+        {
+          "title": "Dun Dun Dance Japanese version",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Dun Dun Dance Japanese ver.",
+              "video_id": "ghGfNy8iuMQ",
+              "youtube_views": 127789
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

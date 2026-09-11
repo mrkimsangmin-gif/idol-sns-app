@@ -5,73 +5,23 @@
   "gender": "여자",
   "namu_url": "https://namu.wiki/w/UDTT",
   "info": {
-    "멤버수": "4",
-    "데뷔일": "2025.01.10",
-    "소속사": "SW엔터테인먼트",
-    "그룹명뜻": "예측 불가능하고 통통 튀는 매력을 가진 소녀들.",
+    "멤버수": "",
+    "데뷔일": "2024.06.24",
+    "소속사": "원헌드레드",
+    "그룹명뜻": "우당탕탕 소녀단은 '우당탕탕'이라는 의성어처럼 예측 불가능하고 통통 튀는 매력을 가진 소녀들이라는 의미를 담고 있다.",
     "팬덤명": "",
     "응원봉": "",
     "훈장": "",
-    "레이블": "SW엔터테인먼트",
+    "레이블": "원헌드레드레이블",
     "유통사": "카카오엔터테인먼트",
     "결성일": "",
     "활동유형": "걸그룹",
-    "인스타그램": "https://www.instagram.com/udtt._.official/",
+    "인스타그램": "https://www.instagram.com/udtt_official/",
     "유튜브": "https://www.youtube.com/@UDTT_official",
-    "X(트위터)": "https://x.com/udtt_official",
-    "틱톡": "https://www.tiktok.com/@udtt_official",
-    "멤버목록": "리사코, 한채희, 구한나, 권예진"
+    "X(트위터)": "https://x.com/UDTT_official",
+    "틱톡": "https://www.tiktok.com/@udtt_official"
   },
-  "members": [
-    {
-      "name": "한채희",
-      "본명": "한채희",
-      "생년월일": "2003.07.21",
-      "출생연도": "2003",
-      "출신지": "대한민국",
-      "역할": "리더, 보컬",
-      "키": "165cm",
-      "MBTI": "ENFJ",
-      "혈액형": "A형",
-      "info": "리더"
-    },
-    {
-      "name": "리사코",
-      "본명": "리사코",
-      "생년월일": "2004.02.18",
-      "출생연도": "2004",
-      "출신지": "일본",
-      "역할": "메인댄서",
-      "키": "162cm",
-      "MBTI": "ISFP",
-      "혈액형": "O형",
-      "info": "메인댄서"
-    },
-    {
-      "name": "구한나",
-      "본명": "구한나",
-      "생년월일": "2005.09.11",
-      "출생연도": "2005",
-      "출신지": "대한민국",
-      "역할": "메인보컬",
-      "키": "164cm",
-      "MBTI": "INFP",
-      "혈액형": "B형",
-      "info": "메인보컬"
-    },
-    {
-      "name": "권예진",
-      "본명": "권예진",
-      "생년월일": "2006.11.05",
-      "출생연도": "2006",
-      "출신지": "대한민국",
-      "역할": "래퍼, 막내",
-      "키": "166cm",
-      "MBTI": "ISTP",
-      "혈액형": "A형",
-      "info": "막내"
-    }
-  ],
+  "members": [],
   "albums": [
     {
       "title": "RETRY",
@@ -113,5 +63,24 @@
       "누적_써클": "",
       "비고": "타이틀곡: 우당탕탕"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 7361,
+      "spotify_id": "5MepLDNyvE91lO3yqJhMIx",
+      "top_tracks": [
+        {
+          "title": "REALLY REALLY",
+          "play_count": 180376,
+          "uri": "spotify:track:34C8fy57oOgt7kEm0ciIta"
+        },
+        {
+          "title": "RETRY",
+          "play_count": 171380,
+          "uri": "spotify:track:4dud779PKbX0sYxUNm2ZHM"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

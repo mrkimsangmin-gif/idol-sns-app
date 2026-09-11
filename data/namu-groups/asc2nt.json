@@ -154,5 +154,157 @@
       "누적_써클": "-",
       "비고": "Still Rose"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 34059,
+      "spotify_id": "4w6MZBLb4aIZpffyA52Doq",
+      "top_tracks": [
+        {
+          "title": "Still Rose",
+          "play_count": 49933,
+          "uri": "spotify:track:6MgrdZL7zA381FLAQiaITj"
+        },
+        {
+          "title": "DON'T MOVE",
+          "play_count": 164833,
+          "uri": "spotify:track:0BxA7X4Sd1vPWS1CLDec8S"
+        },
+        {
+          "title": "Replay",
+          "play_count": 50511,
+          "uri": "spotify:track:6sCYLG2f1f2iBEJ0WeGAag"
+        },
+        {
+          "title": "The Boy In The Mirror (feat. Yun Hyerin)",
+          "play_count": 11245,
+          "uri": "spotify:track:1vt7b34HtWNnugixCSSHEg"
+        },
+        {
+          "title": "Full Moon",
+          "play_count": 10300,
+          "uri": "spotify:track:3fR2OPiNLUVaBqbwqyLUNr"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 315161,
+      "track_count": 16,
+      "mean_views": 19697,
+      "max_views": 42353,
+      "albums": [
+        {
+          "title": "STILL : I",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "The Boy In The Mirror",
+              "video_id": "KfKjziniw7Y",
+              "youtube_views": 18600
+            },
+            {
+              "title": "Still Rose",
+              "video_id": "i7YzMQlEGSE",
+              "youtube_views": 34581
+            },
+            {
+              "title": "Purple Rain",
+              "video_id": "07ND1_-b3-k",
+              "youtube_views": 5570
+            },
+            {
+              "title": "Full Moon",
+              "video_id": "x5ItCso21TI",
+              "youtube_views": 9932
+            },
+            {
+              "title": "Replay",
+              "video_id": "M3ahnXuradA",
+              "youtube_views": 1501
+            }
+          ]
+        },
+        {
+          "title": "Replay",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Replay",
+              "video_id": "-qAsqRZCqQ0",
+              "youtube_views": 16278
+            }
+          ]
+        },
+        {
+          "title": "Conversion Part.2",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "DON'T MOVE",
+              "video_id": "TAc4aLn35cw",
+              "youtube_views": 41844
+            },
+            {
+              "title": "You Already Have My Heart, My Dear.",
+              "video_id": "PrwLkcBDhMA",
+              "youtube_views": 15004
+            },
+            {
+              "title": "You're my season",
+              "video_id": "KEQJF6xcolo",
+              "youtube_views": 42042
+            }
+          ]
+        },
+        {
+          "title": "Conversion Part.1",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Sweet Devil",
+              "video_id": "G48YrrU4ZeE",
+              "youtube_views": 21042
+            },
+            {
+              "title": "Checkmate",
+              "video_id": "riY72n7i_Z4",
+              "youtube_views": 9190
+            },
+            {
+              "title": "불어 (Your Echo)",
+              "video_id": "-rfPrDYIFLs",
+              "youtube_views": 19479
+            }
+          ]
+        },
+        {
+          "title": "Expecting Tomorrow",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "The Reason",
+              "video_id": "-UrbVCDKeEk",
+              "youtube_views": 5538
+            },
+            {
+              "title": "LOVE ME DO",
+              "video_id": "7KYgd9BmcXE",
+              "youtube_views": 42353
+            },
+            {
+              "title": "Beautiful girl",
+              "video_id": "js_CiAJBxTE",
+              "youtube_views": 29423
+            },
+            {
+              "title": "LOVE ME DO (English ver.)",
+              "video_id": "XqpOCk2qw00",
+              "youtube_views": 2784
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

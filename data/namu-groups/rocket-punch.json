@@ -5,85 +5,24 @@
   "gender": "여자",
   "namu_url": "https://namu.wiki/w/%EB%A1%9C%EC%BC%93%ED%8E%80%EC%B9%98",
   "info": {
-    "멤버수": "5",
-    "데뷔일": "2019.08.07",
-    "소속사": "울림엔터테인먼트",
-    "그룹명뜻": "지루한 일상에 날리는 신선한 한 방의 펀치라는 의미를 담고 있다.",
-    "팬덤명": "켓치 (Ketchy)",
-    "응원봉": "켓치봉",
+    "멤버수": "",
+    "데뷔일": "",
+    "소속사": "",
+    "그룹명뜻": "",
+    "팬덤명": "",
+    "응원봉": "",
     "훈장": "",
-    "레이블": "울림엔터테인먼트",
-    "유통사": "카카오엔터테인먼트",
+    "레이블": "",
+    "유통사": "",
     "결성일": "",
     "활동유형": "걸그룹",
-    "인스타그램": "https://www.instagram.com/official_rcpc_/",
-    "유튜브": "https://www.youtube.com/@RocketPunch",
-    "X(트위터)": "https://twitter.com/RocketPunch",
+    "인스타그램": "",
+    "유튜브": "",
+    "X(트위터)": "",
     "틱톡": "https://www.tiktok.com/@official_rocketpunch",
-    "멤버목록": "연희, 수윤, 윤경, 소희, 다현"
+    "멤버목록": ""
   },
-  "members": [
-    {
-      "name": "연희",
-      "본명": "김연희",
-      "생년월일": "2000.12.06",
-      "출생연도": "2000",
-      "출신지": "대한민국",
-      "역할": "리더, 보컬",
-      "키": "161cm",
-      "MBTI": "ENFP",
-      "혈액형": "B형",
-      "info": "로켓펀치의 리더"
-    },
-    {
-      "name": "수윤",
-      "본명": "김수윤",
-      "생년월일": "2001.03.17",
-      "출생연도": "2001",
-      "출신지": "대한민국",
-      "역할": "메인보컬",
-      "키": "170cm",
-      "MBTI": "ISFJ",
-      "혈액형": "A형",
-      "info": "프로듀스 48 출신 보컬"
-    },
-    {
-      "name": "윤경",
-      "본명": "서윤경",
-      "생년월일": "2001.11.01",
-      "출생연도": "2001",
-      "출신지": "대한민국",
-      "역할": "메인댄서, 래퍼",
-      "키": "161cm",
-      "MBTI": "ISFJ",
-      "혈액형": "O형",
-      "info": "파워풀한 댄스 실력의 메인댄서"
-    },
-    {
-      "name": "소희",
-      "본명": "김소희",
-      "생년월일": "2003.08.14",
-      "출생연도": "2003",
-      "출신지": "대한민국",
-      "역할": "보컬, 댄서",
-      "키": "161cm",
-      "MBTI": "INFJ",
-      "혈액형": "A형",
-      "info": "프로듀스 48 출신 보컬"
-    },
-    {
-      "name": "다현",
-      "본명": "정다현",
-      "생년월일": "2005.04.29",
-      "출생연도": "2005",
-      "출신지": "대한민국",
-      "역할": "보컬, 막내",
-      "키": "160cm",
-      "MBTI": "ESFJ",
-      "혈액형": "A형",
-      "info": "로켓펀치의 막내"
-    }
-  ],
+  "members": [],
   "albums": [
     {
       "title": "Pink Punch",
@@ -185,5 +124,358 @@
       "누적_써클": "18,948",
       "비고": "타이틀곡: BOOM"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 55513,
+      "spotify_id": "4hozqATxbpy9TwKWRT8QVO",
+      "top_tracks": [
+        {
+          "title": "BIM BAM BUM",
+          "play_count": 9425877,
+          "uri": "spotify:track:7JfqtEztxAA11Q7O9N6ryT"
+        },
+        {
+          "title": "FLASH",
+          "play_count": 3585011,
+          "uri": "spotify:track:2Purw8ZAANLan4cMqsKVp7"
+        },
+        {
+          "title": "Ring Ring",
+          "play_count": 6220777,
+          "uri": "spotify:track:1LmAeYKwK2BA2FFUMyTXD2"
+        },
+        {
+          "title": "CHIQUITA",
+          "play_count": 3620500,
+          "uri": "spotify:track:0dap7YUNPlUiEPYSA1bRg3"
+        },
+        {
+          "title": "BOUNCY",
+          "play_count": 4267446,
+          "uri": "spotify:track:4e2jwApIRQsKPOwymevCFu"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 17729699,
+      "track_count": 49,
+      "mean_views": 361830,
+      "max_views": 2605666,
+      "albums": [
+        {
+          "title": "ドキドキLOVE",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Bubble Up！",
+              "video_id": "p7FUyMAbOXg",
+              "youtube_views": 11479
+            },
+            {
+              "title": "ドキドキLOVE",
+              "video_id": "0ZurK_EZyAc",
+              "youtube_views": 74156
+            },
+            {
+              "title": "JOLLY JOLLY",
+              "video_id": "4XgmiXdK29k",
+              "youtube_views": 8033
+            },
+            {
+              "title": "ピタパ",
+              "video_id": "piyKN20fHTI",
+              "youtube_views": 58694
+            },
+            {
+              "title": "Let’s Dance",
+              "video_id": "ioqACV3X1hw",
+              "youtube_views": 6509
+            },
+            {
+              "title": "Fiore",
+              "video_id": "5yCAQttbWJ4",
+              "youtube_views": 61513
+            },
+            {
+              "title": "Wonderland",
+              "video_id": "VU5gzw1g65g",
+              "youtube_views": 40115
+            },
+            {
+              "title": "BIM BAM BUM Japanese ver.",
+              "video_id": "E4OPGUez-d0",
+              "youtube_views": 2946
+            },
+            {
+              "title": "BOUNCY Japanese ver.",
+              "video_id": "Tb7hxkUBBP8",
+              "youtube_views": 2861
+            },
+            {
+              "title": "Ring Ring Japanese ver.",
+              "video_id": "GqZGSbnGu2E",
+              "youtube_views": 4591
+            }
+          ]
+        },
+        {
+          "title": "BOOM",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BOOM (BOOM)",
+              "video_id": "1fXegfBjlHM",
+              "youtube_views": 857275
+            },
+            {
+              "title": "Alive (Alive)",
+              "video_id": "Ts5V99Sj6xA",
+              "youtube_views": 234455
+            },
+            {
+              "title": "Give Me Your Heart (Give Me Your Heart)",
+              "video_id": "cS3Qe27dRFc",
+              "youtube_views": 217029
+            }
+          ]
+        },
+        {
+          "title": "SODA",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SODA (Vocal. Yunkyoung, Sohee, Dahyun)",
+              "video_id": "UCgW2NeTscY",
+              "youtube_views": 61636
+            },
+            {
+              "title": "SODA (Vocal. Yunkyoung, Sohee, Dahyun) (Instrumental)",
+              "video_id": "FhwgJ37mL5A",
+              "youtube_views": 2292
+            }
+          ]
+        },
+        {
+          "title": "FLASH",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "FLASH (FLASH)",
+              "video_id": "bsCJ2Y5K6KI",
+              "youtube_views": 2332073
+            },
+            {
+              "title": "Moon Prism (Moon Prism)",
+              "video_id": "kxo986FBo5U",
+              "youtube_views": 410279
+            },
+            {
+              "title": "Beep Beep (Beep Beep)",
+              "video_id": "xcrYffFhTlw",
+              "youtube_views": 727214
+            }
+          ]
+        },
+        {
+          "title": "Fiore",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Fiore",
+              "video_id": "HwTVcePN7sk",
+              "youtube_views": 73408
+            },
+            {
+              "title": "BOUNCY Japanese ver.",
+              "video_id": "zyLOPbMAlVQ",
+              "youtube_views": 3878
+            }
+          ]
+        },
+        {
+          "title": "YELLOW PUNCH",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "YELLOW PUNCH (YELLOW PUNCH)",
+              "video_id": "lUqQ2Yeh250",
+              "youtube_views": 59887
+            },
+            {
+              "title": "CHIQUITA (CHIQUITA)",
+              "video_id": "SXkEaECsG9s",
+              "youtube_views": 1369189
+            },
+            {
+              "title": "In My World (주인공 (In My World))",
+              "video_id": "mu_boKufiLU",
+              "youtube_views": 317477
+            },
+            {
+              "title": "Red Balloon (덤덤 (Red Balloon))",
+              "video_id": "FtEZfG9dVik",
+              "youtube_views": 209111
+            },
+            {
+              "title": "Love More (어제, 오늘 내일보다 더)",
+              "video_id": "YsTxliBPFvk",
+              "youtube_views": 139741
+            },
+            {
+              "title": "LOUDER (LOUDER)",
+              "video_id": "HZ2H73drq6I",
+              "youtube_views": 197288
+            }
+          ]
+        },
+        {
+          "title": "Bubble Up！",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Overture",
+              "video_id": "qGaq5klxrh8",
+              "youtube_views": 12028
+            },
+            {
+              "title": "Bubble Up！",
+              "video_id": "KmTQVbX-6gE",
+              "youtube_views": 208800
+            },
+            {
+              "title": "JOLLY JOLLY",
+              "video_id": "0mjg9rznik8",
+              "youtube_views": 25982
+            },
+            {
+              "title": "SUMMER DAYS",
+              "video_id": "mnfTxi3087k",
+              "youtube_views": 34781
+            },
+            {
+              "title": "Let's Dance",
+              "video_id": "V7nCAl3F3pk",
+              "youtube_views": 84127
+            },
+            {
+              "title": "BIM BAM BUM Japanese ver.",
+              "video_id": "snK_qgXgR9U",
+              "youtube_views": 12150
+            }
+          ]
+        },
+        {
+          "title": "Ring Ring (Acoustic Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Ring Ring (Acoustic Ver.) (Ring Ring (Acoustic Ver.))",
+              "video_id": "G6rPpDPI6RU",
+              "youtube_views": 124196
+            }
+          ]
+        },
+        {
+          "title": "Ring Ring",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Ring Ring (Ring Ring)",
+              "video_id": "6TtMHjZzb30",
+              "youtube_views": 2605666
+            },
+            {
+              "title": "I Want U Bad (I Want U Bad)",
+              "video_id": "oJwe9mSpx1Y",
+              "youtube_views": 201692
+            },
+            {
+              "title": "Ride (Ride)",
+              "video_id": "xxA50-wcMfE",
+              "youtube_views": 443108
+            }
+          ]
+        },
+        {
+          "title": "BLUE PUNCH",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "BLUE PUNCH (BLUE PUNCH)",
+              "video_id": "0qK_E5C1Zi8",
+              "youtube_views": 87506
+            },
+            {
+              "title": "JUICY (JUICY)",
+              "video_id": "jeIZPtCavfE",
+              "youtube_views": 1117296
+            },
+            {
+              "title": "SUMMER PUNCH! (SUMMER PUNCH!)",
+              "video_id": "UQTVB8QxXxI",
+              "youtube_views": 354635
+            },
+            {
+              "title": "One Summer Night (여름밤)",
+              "video_id": "9TE6Kj7D3QY",
+              "youtube_views": 262453
+            },
+            {
+              "title": "TWINKLE STAR (TWINKLE STAR)",
+              "video_id": "umZjY-rDZys",
+              "youtube_views": 608451
+            },
+            {
+              "title": "THE THE (THE THE)",
+              "video_id": "8LHZGLQ-2Dw",
+              "youtube_views": 472982
+            }
+          ]
+        },
+        {
+          "title": "RED PUNCH",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "RED PUNCH (RED PUNCH)",
+              "video_id": "aDkA4acSt9U",
+              "youtube_views": 105589
+            },
+            {
+              "title": "BOUNCY (BOUNCY)",
+              "video_id": "OvZrHPIksDw",
+              "youtube_views": 1926214
+            },
+            {
+              "title": "So Solo (So Solo)",
+              "video_id": "FOxRrVGHADo",
+              "youtube_views": 406379
+            },
+            {
+              "title": "Fireworks (Fireworks)",
+              "video_id": "J6liHjs2Z2c",
+              "youtube_views": 273034
+            },
+            {
+              "title": "Paper Star (종이별 (Paper Star))",
+              "video_id": "6mnmz2w5qKc",
+              "youtube_views": 117631
+            },
+            {
+              "title": "Lilac (다시, 봄 (Lilac))",
+              "video_id": "CsjAjxIkquc",
+              "youtube_views": 286031
+            },
+            {
+              "title": "Girl Friend (여자사람친구 (Girl Friend))",
+              "video_id": "rvo84a0tdE8",
+              "youtube_views": 475839
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

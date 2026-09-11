@@ -271,5 +271,216 @@
       "누적_써클": "-",
       "비고": "명호"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 247123,
+      "spotify_id": "7tCg9aiVKZ5Cmhbfb7UoqM",
+      "top_tracks": [
+        {
+          "title": "BRUISE",
+          "play_count": 702730,
+          "uri": "spotify:track:5eYhUukI5PVCqSLOmO8Idq"
+        },
+        {
+          "title": "TIC TAC",
+          "play_count": 15569659,
+          "uri": "spotify:track:60Oo6tKR0ckwZsRr95NrjL"
+        },
+        {
+          "title": "EXCEL",
+          "play_count": 4014762,
+          "uri": "spotify:track:0hPbVp26JuqHo0N3JPvdDZ"
+        },
+        {
+          "title": "Electric Heart",
+          "play_count": 724506,
+          "uri": "spotify:track:4gQjxEDB5hxu6PLCjvTAva"
+        },
+        {
+          "title": "Close To Me",
+          "play_count": 477057,
+          "uri": "spotify:track:51Ig7TcbToEWxEFykfduIK"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 2508300,
+      "track_count": 23,
+      "mean_views": 109056,
+      "max_views": 517468,
+      "albums": [
+        {
+          "title": "The 3rd Digital Single BRUISE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BRUISE",
+              "video_id": "YuOH66CnN2A",
+              "youtube_views": 315667
+            }
+          ]
+        },
+        {
+          "title": "Electric Heart : Born to Glow",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Electric Heart",
+              "video_id": "We4PSxsFyjU",
+              "youtube_views": 517468
+            },
+            {
+              "title": "Close To Me",
+              "video_id": "1Oy4rkgSbsc",
+              "youtube_views": 57480
+            }
+          ]
+        },
+        {
+          "title": "LEGGO",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "LEGGO",
+              "video_id": "fRRBlhygUIY",
+              "youtube_views": 61783
+            },
+            {
+              "title": "I Want You Now",
+              "video_id": "RGVjBgDOjbw",
+              "youtube_views": 57426
+            }
+          ]
+        },
+        {
+          "title": "Like a Friend",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Like a Friend",
+              "video_id": "nZ9VGNMgISw",
+              "youtube_views": 128374
+            }
+          ]
+        },
+        {
+          "title": "You Are My Reason",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "You Are My Reason",
+              "video_id": "pQQl5_zH47c",
+              "youtube_views": 58977
+            }
+          ]
+        },
+        {
+          "title": "ROAD TO KINGDOM : ACE OF ACE 〈IDENTITY〉 Part. 1",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "TIC TAC",
+              "video_id": "u3Dz849UbKc",
+              "youtube_views": 115843
+            },
+            {
+              "title": "Love or Die",
+              "video_id": "OmtAgIFFDMU",
+              "youtube_views": 191800
+            },
+            {
+              "title": "Love or Die",
+              "video_id": "-hav30FUDxw",
+              "youtube_views": 239344
+            },
+            {
+              "title": "WATERFALL",
+              "video_id": "n5IZen_U4bE",
+              "youtube_views": 39576
+            },
+            {
+              "title": "TIC TAC (Instrumental)",
+              "video_id": "t_sGRxoYIIs",
+              "youtube_views": 7058
+            },
+            {
+              "title": "Love or Die (Instrumental)",
+              "video_id": "aOa6rEmnOvs",
+              "youtube_views": 7153
+            },
+            {
+              "title": "Love or Die (Instrumental)",
+              "video_id": "yPSl-nwLp7s",
+              "youtube_views": 8805
+            },
+            {
+              "title": "WATERFALL (Instrumental)",
+              "video_id": "w_woIrsYK4E",
+              "youtube_views": 1693
+            }
+          ]
+        },
+        {
+          "title": "RU-PUM PUM (Japanese version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "RU-PUM PUM (Japanese version)",
+              "video_id": "XaCAd6BuiVs",
+              "youtube_views": 10060
+            }
+          ]
+        },
+        {
+          "title": "STUNNING",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "THE GAME",
+              "video_id": "uHCAAo6Y0ac",
+              "youtube_views": 61418
+            },
+            {
+              "title": "RU-PUM PUM",
+              "video_id": "-LlQMQ23Wgo",
+              "youtube_views": 278488
+            },
+            {
+              "title": "NOM",
+              "video_id": "DXb_xk5kGIo",
+              "youtube_views": 53801
+            },
+            {
+              "title": "WE HERE",
+              "video_id": "99_a2o_SFBM",
+              "youtube_views": 80922
+            },
+            {
+              "title": "GLOW",
+              "video_id": "EAcasYbrsvQ",
+              "youtube_views": 103223
+            }
+          ]
+        },
+        {
+          "title": "The Uncanny Counter 2, Pt. 3 (Original Television Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Watch",
+              "video_id": "rBfByarq5aA",
+              "youtube_views": 105781
+            },
+            {
+              "title": "Watch (Instrumental)",
+              "video_id": "Se0i26J7De4",
+              "youtube_views": 6160
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

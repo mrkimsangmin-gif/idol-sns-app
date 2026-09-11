@@ -213,5 +213,251 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 381560,
+      "spotify_id": "0XufO9nLOKNN0w0qNrDrZy",
+      "top_tracks": [
+        {
+          "title": "T.B.H",
+          "play_count": 23492142,
+          "uri": "spotify:track:39gaUtq2z4ejJbno7tWHbL"
+        },
+        {
+          "title": "My Name is Malguem",
+          "play_count": 13902062,
+          "uri": "spotify:track:1lTBkwEm0wim9RsMXqtqWy"
+        },
+        {
+          "title": "Dear",
+          "play_count": 6416427,
+          "uri": "spotify:track:2ryzy7LSXUDFg5G05znHsL"
+        },
+        {
+          "title": "Discord",
+          "play_count": 11671106,
+          "uri": "spotify:track:2kTKlEtnGx5z8oi4O06yqC"
+        },
+        {
+          "title": "Harmony of Stars",
+          "play_count": 5156681,
+          "uri": "spotify:track:1b2jcwnf3JwuyWiG3xTPsp"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 524520818,
+      "track_count": 30,
+      "mean_views": 17484027,
+      "max_views": 141980896,
+      "albums": [
+        {
+          "title": "2nd Mini Album 'Algorithm's Blossom'",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "INTRO (INTRO)",
+              "video_id": "Lb3mQdm-UHs",
+              "youtube_views": 801663
+            },
+            {
+              "title": "FAKE IDOL (가짜 아이돌)",
+              "video_id": "derG9wlkd40",
+              "youtube_views": 737109
+            },
+            {
+              "title": "My Name is Malguem (내 이름 맑음)",
+              "video_id": "9yfrVqCcrS0",
+              "youtube_views": 101588465
+            },
+            {
+              "title": "Let’s Love (사랑하자)",
+              "video_id": "91Mn22CFvCE",
+              "youtube_views": 3917774
+            },
+            {
+              "title": "run! run! run! (달리기)",
+              "video_id": "txAakIbx4lA",
+              "youtube_views": 2841482
+            },
+            {
+              "title": "Goodbye My Sadness (안녕, 나의 슬픔)",
+              "video_id": "8ShYRkhBD2s",
+              "youtube_views": 15090154
+            },
+            {
+              "title": "REBOUND (메아리)",
+              "video_id": "5kf41s91RE8",
+              "youtube_views": 8725206
+            },
+            {
+              "title": "OUTRO (OUTRO)",
+              "video_id": "1xEYv_fd-II",
+              "youtube_views": 605847
+            }
+          ]
+        },
+        {
+          "title": "1st Mini Album 'MANITO'",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "T.B.H (고민중독)",
+              "video_id": "pbELDkeLdho",
+              "youtube_views": 141980896
+            },
+            {
+              "title": "SODA (SODA)",
+              "video_id": "SKztjYndS_s",
+              "youtube_views": 9848609
+            },
+            {
+              "title": "Free-Dumb (자유선언)",
+              "video_id": "Tor2ElSVEAk",
+              "youtube_views": 4805167
+            },
+            {
+              "title": "G9JB (지구정복)",
+              "video_id": "a0OkChjJWl8",
+              "youtube_views": 6503586
+            },
+            {
+              "title": "Ferris Wheel (대관람차)",
+              "video_id": "cmnJZFlKXUU",
+              "youtube_views": 11291415
+            },
+            {
+              "title": "Make Our Highlight (불꽃놀이)",
+              "video_id": "HBsU1GpsGKw",
+              "youtube_views": 12423015
+            },
+            {
+              "title": "Manito (마니또)",
+              "video_id": "bjq3GHO_Cc0",
+              "youtube_views": 3281729
+            }
+          ]
+        },
+        {
+          "title": "Special Single 'Blue Whale' (Special Single '흰수염고래')",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Blue Whale (흰수염고래)",
+              "video_id": "6tXCKF33IzM",
+              "youtube_views": 4399219
+            }
+          ]
+        },
+        {
+          "title": "3rd Mini Album 'In a million noises, I'll be your harmony' (3rd Mini Album '난 네 편이야, 온 세상이 불협일지라도')",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Dear (눈물참기)",
+              "video_id": "SUx0-btw2nQ",
+              "youtube_views": 38586010
+            },
+            {
+              "title": "Be Happy (행복해져라)",
+              "video_id": "PRH8JkIe0Ho",
+              "youtube_views": 5234606
+            },
+            {
+              "title": "#QWER (검색어는 QWER)",
+              "video_id": "8-XjAXrS0bs",
+              "youtube_views": 2351732
+            },
+            {
+              "title": "OVERDRIVE (OVERDRIVE)",
+              "video_id": "kdPfMUAzmSo",
+              "youtube_views": 2387579
+            },
+            {
+              "title": "D-Day (D-Day)",
+              "video_id": "YCaTtV9zu6A",
+              "youtube_views": 3357998
+            },
+            {
+              "title": "Yours Sincerely (Yours Sincerely)",
+              "video_id": "-Fz2vfp4BdY",
+              "youtube_views": 2015002
+            }
+          ]
+        },
+        {
+          "title": "Discord (Japanese Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Discord (Japanese Ver.) (Discord (Japanese Ver.))",
+              "video_id": "FOP5Y-OJB1I",
+              "youtube_views": 318838
+            }
+          ]
+        },
+        {
+          "title": "청춘서약 (Youth Promise)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "청춘서약 (Youth Promise)",
+              "video_id": "TP7vip3udvY",
+              "youtube_views": 3020715
+            }
+          ]
+        },
+        {
+          "title": "FAKE IDOL (가짜 아이돌)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "FAKE IDOL (가짜 아이돌)",
+              "video_id": "UTc81pAAEsc",
+              "youtube_views": 14245307
+            }
+          ]
+        },
+        {
+          "title": "1st Single Album 'Harmony from Discord'",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Harmony of Stars (별의 하모니)",
+              "video_id": "1BTTbopyDWw",
+              "youtube_views": 38841631
+            },
+            {
+              "title": "Discord (Discord)",
+              "video_id": "-kcZNuFYnns",
+              "youtube_views": 75196242
+            },
+            {
+              "title": "Secret Diary (수수께끼 다이어리)",
+              "video_id": "H6alWf2odU8",
+              "youtube_views": 7489981
+            },
+            {
+              "title": "Discord (Inst.) (Discord (Inst.))",
+              "video_id": "MWLQruih09w",
+              "youtube_views": 735404
+            }
+          ]
+        },
+        {
+          "title": "Discord (TAK Remix)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Discord (TAK Remix) (Discord (TAK Remix))",
+              "video_id": "MZ5lkYhm6xQ",
+              "youtube_views": 1898437
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -115,5 +115,175 @@
       "누적_써클": "26,803",
       "비고": "TTYL"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 380921,
+      "spotify_id": "1kbVoxpFh1eDOXumLmVdKY",
+      "top_tracks": [
+        {
+          "title": "TTYL",
+          "play_count": 29955534,
+          "uri": "spotify:track:3AXryyinIY17WLddIcNjwT"
+        },
+        {
+          "title": "Girls’ Night",
+          "play_count": 5088737,
+          "uri": "spotify:track:0hnxybqZeJzU85jSwf5cdG"
+        },
+        {
+          "title": "Strawberry soda",
+          "play_count": 4161143,
+          "uri": "spotify:track:0Kb4j4M1dfjPqfPopx55E4"
+        },
+        {
+          "title": "Sensitive",
+          "play_count": 7547494,
+          "uri": "spotify:track:6A1dCPrUYhg56ukp4zlEUw"
+        },
+        {
+          "title": "Cotton Candy",
+          "play_count": 2518520,
+          "uri": "spotify:track:1MpNPKjqwznhmNiRk41T3r"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 17836216,
+      "track_count": 22,
+      "mean_views": 810737,
+      "max_views": 5999599,
+      "albums": [
+        {
+          "title": "One Of A Kind",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Intro (A butterfly's signal)",
+              "video_id": "FdWpC6wyHnY",
+              "youtube_views": 55987
+            },
+            {
+              "title": "Girls’ Night",
+              "video_id": "HBX1UjhD7NY",
+              "youtube_views": 897497
+            },
+            {
+              "title": "Moonlight",
+              "video_id": "3nRCzUxGtLI",
+              "youtube_views": 641139
+            },
+            {
+              "title": "Boomerang",
+              "video_id": "oqYzYSN4CxA",
+              "youtube_views": 288338
+            },
+            {
+              "title": "He Said I Said",
+              "video_id": "wWR9oMuqVes",
+              "youtube_views": 271635
+            },
+            {
+              "title": "Truman Show",
+              "video_id": "0OXk23C5zwg",
+              "youtube_views": 493498
+            },
+            {
+              "title": "Starlight",
+              "video_id": "fnwmtf0eQZ8",
+              "youtube_views": 656164
+            },
+            {
+              "title": "Girls’ Night (Instrumental)",
+              "video_id": "hVTaLAeIZD4",
+              "youtube_views": 34138
+            }
+          ]
+        },
+        {
+          "title": "Loossemble",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Intro: Searching for their friends",
+              "video_id": "92R5M99wITU",
+              "youtube_views": 96276
+            },
+            {
+              "title": "Sensitive",
+              "video_id": "Xu04H1Sqofk",
+              "youtube_views": 2888673
+            },
+            {
+              "title": "Real world",
+              "video_id": "wjNfDxiD04E",
+              "youtube_views": 636709
+            },
+            {
+              "title": "Colouring",
+              "video_id": "X7hMrLuWgBk",
+              "youtube_views": 819447
+            },
+            {
+              "title": "Newtopia",
+              "video_id": "PV8Z3fGHFok",
+              "youtube_views": 716226
+            },
+            {
+              "title": "Strawberry soda",
+              "video_id": "TSPFG9ZuEmI",
+              "youtube_views": 857016
+            },
+            {
+              "title": "Day by day",
+              "video_id": "GIZCzNQ6vzc",
+              "youtube_views": 629414
+            },
+            {
+              "title": "Sensitive (English Version)",
+              "video_id": "wTAYO8J_HHs",
+              "youtube_views": 89361
+            }
+          ]
+        },
+        {
+          "title": "TTYL",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "FANATICISM",
+              "video_id": "QTPt_uOVexc",
+              "youtube_views": 92362
+            },
+            {
+              "title": "TTYL",
+              "video_id": "2vD6PwSTHDE",
+              "youtube_views": 5999599
+            },
+            {
+              "title": "Cotton Candy",
+              "video_id": "o9tv8qXatm4",
+              "youtube_views": 576088
+            },
+            {
+              "title": "Confessions",
+              "video_id": "mHVQgqZrsvY",
+              "youtube_views": 470184
+            },
+            {
+              "title": "Hocus Pocus",
+              "video_id": "QNpsAHBQhe4",
+              "youtube_views": 332901
+            },
+            {
+              "title": "Secret Diary",
+              "video_id": "_mH2RapoWJ8",
+              "youtube_views": 293564
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

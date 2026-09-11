@@ -409,5 +409,562 @@
       "누적_써클": "-",
       "비고": "Love Your Everything"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 87191,
+      "spotify_id": "5zShiwTHlygdfsXj6eavTu",
+      "top_tracks": [
+        {
+          "title": "WANNABE",
+          "play_count": 16289256,
+          "uri": "spotify:track:0lLDInOmkZTWz14Lm0dcMY"
+        },
+        {
+          "title": "Burn It",
+          "play_count": 7329641,
+          "uri": "spotify:track:6vcJyCa9NgFQer7O6X1NY7"
+        },
+        {
+          "title": "ONE(Lucid Dream)",
+          "play_count": 6875214,
+          "uri": "spotify:track:1ZhhiI06eIjXZjXK6OXO8u"
+        },
+        {
+          "title": "Ra Pam Pam",
+          "play_count": 4593885,
+          "uri": "spotify:track:7aJSEhH3kzrcr4g0uGXUC7"
+        },
+        {
+          "title": "Without You",
+          "play_count": 6407913,
+          "uri": "spotify:track:6P79WvoWD60NKDHxKNxfxn"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 20908652,
+      "track_count": 85,
+      "mean_views": 245984,
+      "max_views": 2624983,
+      "albums": [
+        {
+          "title": "DDARA",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Game Changer (Game Changer)",
+              "video_id": "NL6efmBoBlU",
+              "youtube_views": 23854
+            },
+            {
+              "title": "Ra Pam Pam (Ra Pam Pam)",
+              "video_id": "imX_hxRcCYs",
+              "youtube_views": 16467
+            },
+            {
+              "title": "DDARA (DDARA)",
+              "video_id": "fVy7qE2V1i0",
+              "youtube_views": 456525
+            },
+            {
+              "title": "OASIS (OASIS)",
+              "video_id": "Mgpol1WZi_0",
+              "youtube_views": 186395
+            },
+            {
+              "title": "Bottom Of The Ocean (Bottom Of The Ocean)",
+              "video_id": "smroaiFW-GE",
+              "youtube_views": 22688
+            },
+            {
+              "title": "Fanfare (빵빠레)",
+              "video_id": "oNPj6ubFSiA",
+              "youtube_views": 19334
+            },
+            {
+              "title": "Singing In The Rain (Joo Chan & Bo Min) (Singing In The Rain (Joo Chan & Bo Min))",
+              "video_id": "cefU1L6qXQc",
+              "youtube_views": 10973
+            },
+            {
+              "title": "GAME (TAG & Ji Beom) (GAME (TAG & Ji Beom))",
+              "video_id": "idtWvaYGsJI",
+              "youtube_views": 14618
+            },
+            {
+              "title": "Spell (Spell (주문을 걸어))",
+              "video_id": "2OCs-SHcYZ0",
+              "youtube_views": 18281
+            },
+            {
+              "title": "Out The Window (Dae Yeol Solo) (창밖으로 우리가 흘러 (Dae Yeol Solo))",
+              "video_id": "R6Ih5gX4sBE",
+              "youtube_views": 8502
+            },
+            {
+              "title": "POPPIN’ (Y & Jang Jun) (POPPIN’ (Y & Jang Jun))",
+              "video_id": "dfl89qFaiTE",
+              "youtube_views": 16096
+            },
+            {
+              "title": "That Feeling (Seung Min & Dong Hyun & Jae Hyun) (느낌적인 느낌 (Seung Min & Dong Hyun &...",
+              "video_id": "RWQ_9SFeLSM",
+              "youtube_views": 11350
+            },
+            {
+              "title": "I Know (난 알아요)",
+              "video_id": "c04P8fwX9qk",
+              "youtube_views": 9493
+            }
+          ]
+        },
+        {
+          "title": "Golden Child 2nd Album [Game Changer]",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Game Changer (Game Changer)",
+              "video_id": "YxBKVykbBq8",
+              "youtube_views": 64176
+            },
+            {
+              "title": "Ra Pam Pam (Ra Pam Pam)",
+              "video_id": "QDC7m5vTk1c",
+              "youtube_views": 1043105
+            },
+            {
+              "title": "Bottom Of The Ocean (Bottom Of The Ocean)",
+              "video_id": "hAqOZZ0V7Yg",
+              "youtube_views": 314377
+            },
+            {
+              "title": "Fanfare (빵빠레)",
+              "video_id": "2aK95wp5TRk",
+              "youtube_views": 524954
+            },
+            {
+              "title": "Singing In The Rain (Joo Chan & Bo Min) (Singing In The Rain (Joo Chan & Bo Min))",
+              "video_id": "-8Jnj0IgqKA",
+              "youtube_views": 349830
+            },
+            {
+              "title": "GAME (TAG & Ji Beom) (GAME (TAG & Ji Beom))",
+              "video_id": "fr91kz-_mEk",
+              "youtube_views": 330463
+            },
+            {
+              "title": "Spell (Spell (주문을 걸어))",
+              "video_id": "jMtoSkKhJCk",
+              "youtube_views": 173620
+            },
+            {
+              "title": "Out The Window (Dae Yeol Solo) (창밖으로 우리가 흘러 (Dae Yeol Solo))",
+              "video_id": "O4KNvsjC5Gs",
+              "youtube_views": 224594
+            },
+            {
+              "title": "POPPIN’ (Y & Jang Jun) (POPPIN’ (Y & Jang Jun))",
+              "video_id": "jki7lVO3bT0",
+              "youtube_views": 171825
+            },
+            {
+              "title": "That Feeling (Seung Min & Dong Hyun & Jae Hyun) (느낌적인 느낌 (Seung Min & Dong Hyun &...",
+              "video_id": "eUNcgZaHsjA",
+              "youtube_views": 224055
+            },
+            {
+              "title": "I Know (난 알아요)",
+              "video_id": "qLGv1s17YxQ",
+              "youtube_views": 200841
+            }
+          ]
+        },
+        {
+          "title": "Golden Child 4th Mini Album [Take A Leap]",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Take Off (Take Off)",
+              "video_id": "-l9Fzc-F3mI",
+              "youtube_views": 77960
+            },
+            {
+              "title": "ONE(Lucid Dream) (ONE(Lucid Dream))",
+              "video_id": "rd0Jj3c3mm8",
+              "youtube_views": 1503870
+            },
+            {
+              "title": "OMG (훅 들어와(OMG))",
+              "video_id": "5BzmhwsZAeM",
+              "youtube_views": 376504
+            },
+            {
+              "title": "Moment (혼잣말)",
+              "video_id": "dja5g9rWYgk",
+              "youtube_views": 363603
+            },
+            {
+              "title": "Make Me Love (Make Me Love)",
+              "video_id": "kTUThCBgrWM",
+              "youtube_views": 320363
+            },
+            {
+              "title": "H.E.R (H.E.R(그녀에게))",
+              "video_id": "QQxnpnxCwhc",
+              "youtube_views": 203023
+            },
+            {
+              "title": "Pass Me By (Pass Me By)",
+              "video_id": "pr0YK3JVOpE",
+              "youtube_views": 197980
+            }
+          ]
+        },
+        {
+          "title": "Golden Child 1st Album Repackage [Without You]",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Re-boot (Re-boot)",
+              "video_id": "X720LSvCtY4",
+              "youtube_views": 55771
+            },
+            {
+              "title": "WANNABE (WANNABE)",
+              "video_id": "GQOfjD-nSKU",
+              "youtube_views": 29832
+            },
+            {
+              "title": "Without You (Without You)",
+              "video_id": "Y1OoknuCYbs",
+              "youtube_views": 906877
+            },
+            {
+              "title": "I Love U Crazy! (I Love U Crazy!)",
+              "video_id": "lq1uTwbNbUQ",
+              "youtube_views": 412225
+            },
+            {
+              "title": "Lately (느껴져(Lately))",
+              "video_id": "dJJ0jBpWeyU",
+              "youtube_views": 35836
+            },
+            {
+              "title": "COMPASS (나침반)",
+              "video_id": "LMT25c-WBn0",
+              "youtube_views": 18777
+            },
+            {
+              "title": "No Matter What (Jang Jun & TAG) Feat. Joo Chan (No Matter What (Jang Jun & TAG) Feat. Joo Chan)",
+              "video_id": "iyOJPpSmZxs",
+              "youtube_views": 27726
+            },
+            {
+              "title": "A Song For Me (Joo Chan Solo) (문제아 (Joo Chan Solo))",
+              "video_id": "cjxkUAI3c28",
+              "youtube_views": 11924
+            },
+            {
+              "title": "Spring Again (그러다 봄)",
+              "video_id": "n5WrTR2RB2w",
+              "youtube_views": 12544
+            },
+            {
+              "title": "She's My Girl (She's My Girl)",
+              "video_id": "ymYsYKNuD58",
+              "youtube_views": 24946
+            },
+            {
+              "title": "Our Heaven (Dae Yeol & Seung Min & Dong Hyun) (둘만의 천국 (Dae Yeol & Seung Min & Dong Hyun))",
+              "video_id": "MicDzQLyF0s",
+              "youtube_views": 21496
+            },
+            {
+              "title": "Fantasia (Y Solo) (Fantasia (Y Solo))",
+              "video_id": "1CrBh_nJqYI",
+              "youtube_views": 28592
+            },
+            {
+              "title": "Don’t run away (도망가지마)",
+              "video_id": "qQaC78HFPz0",
+              "youtube_views": 31474
+            },
+            {
+              "title": "Go Together (Jae Hyun & Ji Beom & Bo Min) (놓지 않기로 해(Jae Hyun & Ji Beom & Bo Min))",
+              "video_id": "Igzcz0GGDco",
+              "youtube_views": 25080
+            }
+          ]
+        },
+        {
+          "title": "Golden Child 1st Album [Re-boot]",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "Re-boot (Re-boot)",
+              "video_id": "k6p7FOBYz-4",
+              "youtube_views": 80514
+            },
+            {
+              "title": "WANNABE (WANNABE)",
+              "video_id": "Lk6hMlas2eA",
+              "youtube_views": 2624983
+            },
+            {
+              "title": "Lately (느껴져 (Lately))",
+              "video_id": "ira8oGVMPlw",
+              "youtube_views": 272591
+            },
+            {
+              "title": "COMPASS (나침반)",
+              "video_id": "eZIEYG07jKM",
+              "youtube_views": 310538
+            },
+            {
+              "title": "No Matter What (Jang Jun & TAG) Feat. Joo Chan (No Matter What (Jang Jun & TAG) Feat. Joo Chan)",
+              "video_id": "FVisB7Ma0Ck",
+              "youtube_views": 130357
+            },
+            {
+              "title": "A Song For Me (Joo Chan Solo) (문제아 (Joo Chan Solo))",
+              "video_id": "y5jJyI7UzU8",
+              "youtube_views": 76689
+            },
+            {
+              "title": "Spring Again (그러다 봄)",
+              "video_id": "KzTnEC92QJk",
+              "youtube_views": 238681
+            },
+            {
+              "title": "She's My Girl (She's My Girl)",
+              "video_id": "cF7V4ctheDw",
+              "youtube_views": 128261
+            },
+            {
+              "title": "Our Heaven (Dae Yeol & Seung Min & Dong Hyun) (둘만의 천국 (Dae Yeol & Seung Min & Dong Hyun))",
+              "video_id": "p6BuzmGDvoc",
+              "youtube_views": 81285
+            },
+            {
+              "title": "Fantasia (Y Solo) (Fantasia (Y Solo))",
+              "video_id": "niVt6I9u1o4",
+              "youtube_views": 250879
+            },
+            {
+              "title": "Don’t run away (도망가지마)",
+              "video_id": "MMaMs6CzeMo",
+              "youtube_views": 284080
+            },
+            {
+              "title": "Go Together (Jae Hyun & Ji Beom & Bo Min) (놓지 않기로 해 (Jae Hyun & Ji Beom & Bo Min))",
+              "video_id": "o1XR6jEuO0U",
+              "youtube_views": 217921
+            }
+          ]
+        },
+        {
+          "title": "Feel me",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Feel me (Feel me)",
+              "video_id": "0R6qjVb0deg",
+              "youtube_views": 572302
+            },
+            {
+              "title": "Blind Love (Blind Love)",
+              "video_id": "uBhSm0bB_uY",
+              "youtube_views": 156950
+            },
+            {
+              "title": "Dear (Dear)",
+              "video_id": "yjbsS7YhxDI",
+              "youtube_views": 163666
+            }
+          ]
+        },
+        {
+          "title": "Invisible Crayon",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Crayon",
+              "video_id": "GrNHm2uZIZA",
+              "youtube_views": 57197
+            },
+            {
+              "title": "Weekends",
+              "video_id": "LeBxzu8EPzs",
+              "youtube_views": 76661
+            },
+            {
+              "title": "Replay (Japanese Version)",
+              "video_id": "rdBOL7gyC1Q",
+              "youtube_views": 13464
+            },
+            {
+              "title": "Ra Pam Pam (Japanese Version)",
+              "video_id": "JVccHC60t9k",
+              "youtube_views": 16307
+            }
+          ]
+        },
+        {
+          "title": "If I were the wind (바람이라면)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "If I were the wind (바람이라면)",
+              "video_id": "qiy7kwGLrMg",
+              "youtube_views": 276608
+            }
+          ]
+        },
+        {
+          "title": "AURA",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "AURA (AURA)",
+              "video_id": "lloCRdOo3jg",
+              "youtube_views": 34701
+            },
+            {
+              "title": "Replay (Replay)",
+              "video_id": "p85yUjNFwWo",
+              "youtube_views": 364943
+            },
+            {
+              "title": "Knocking On My Door (Knocking On My Door)",
+              "video_id": "U3aVa8lG8Qs",
+              "youtube_views": 193618
+            },
+            {
+              "title": "3! 6! 5! (3! 6! 5!)",
+              "video_id": "HXlWuX7hkZI",
+              "youtube_views": 186234
+            },
+            {
+              "title": "Purpose (Purpose)",
+              "video_id": "UleqEwaLaqk",
+              "youtube_views": 185961
+            },
+            {
+              "title": "Miracle (완벽해 (Miracle))",
+              "video_id": "nxbQhzQVMUM",
+              "youtube_views": 85666
+            }
+          ]
+        },
+        {
+          "title": "RATA-TAT-TAT",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "RATA-TAT-TAT",
+              "video_id": "KLWO4u-dsIc",
+              "youtube_views": 93216
+            }
+          ]
+        },
+        {
+          "title": "꽃 피면 달 생각하고 OST Part 9",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Love Your Everything (Sung By 주찬, 지범)",
+              "video_id": "rwYhKwOM724",
+              "youtube_views": 12405
+            },
+            {
+              "title": "Love Your Everything (Inst.)",
+              "video_id": "CyUv6_j_T58",
+              "youtube_views": 1057
+            }
+          ]
+        },
+        {
+          "title": "A Woo!!",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "A Woo!!",
+              "video_id": "STD42S3pScE",
+              "youtube_views": 134237
+            },
+            {
+              "title": "WANNABE (Japanese Version)",
+              "video_id": "Xc5sYJuQdZE",
+              "youtube_views": 40479
+            },
+            {
+              "title": "DamDaDi (Japanese Version)",
+              "video_id": "zQEFKl9YOik",
+              "youtube_views": 41761
+            }
+          ]
+        },
+        {
+          "title": "더 플레이리스트 Part.7",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "모든 날 (Harmony ver)",
+              "video_id": "H18NRMKqRsU",
+              "youtube_views": 23082
+            }
+          ]
+        },
+        {
+          "title": "Golden Child 5th Mini Album [YES.]",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "YES. (YES.)",
+              "video_id": "VobeV9fghXY",
+              "youtube_views": 72913
+            },
+            {
+              "title": "Burn It (안아줄게(Burn It))",
+              "video_id": "wxBpM_6BihU",
+              "youtube_views": 1702873
+            },
+            {
+              "title": "Cool Cool (Cool Cool)",
+              "video_id": "4vMWdCCsuOw",
+              "youtube_views": 515450
+            },
+            {
+              "title": "Round N Round (기다리고 있어)",
+              "video_id": "yok3jZOr6Fk",
+              "youtube_views": 267186
+            },
+            {
+              "title": "Milky Way (Milky Way)",
+              "video_id": "iBFGPblGa1I",
+              "youtube_views": 317004
+            },
+            {
+              "title": "Breathe (Breathe)",
+              "video_id": "5_UcSUX-zgg",
+              "youtube_views": 1407262
+            }
+          ]
+        },
+        {
+          "title": "SING STREET - Lovelyz X Golden Child 'Under the Sky of Suncheon' (싱스트리트 - 러블리즈 X 골든차일드 '순천의 하늘 아래에서')",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Under the Sky of Suncheon (Sung by Baby Soul, Ryu Su Jeong, TAG, Hong Joo Chan) (순천의...",
+              "video_id": "rSeG7SJpwA4",
+              "youtube_views": 75851
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

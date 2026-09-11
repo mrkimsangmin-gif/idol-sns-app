@@ -239,5 +239,321 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 39112,
+      "spotify_id": "4l4eMvpA4K7X02j08cbkNV",
+      "top_tracks": [
+        {
+          "title": "1 of 9",
+          "play_count": 2902878,
+          "uri": "spotify:track:6DB6p1dVSNWJbmrbF34icS"
+        },
+        {
+          "title": "Love it",
+          "play_count": 813706,
+          "uri": "spotify:track:574gYm7iFWEUO4DbF5NGEF"
+        },
+        {
+          "title": "GEEKIN",
+          "play_count": 542581,
+          "uri": "spotify:track:6vP4NceJJLHM9xddBbKrH9"
+        },
+        {
+          "title": "BOMBA",
+          "play_count": 194542,
+          "uri": "spotify:track:4UOhWJXihWNNNaDwGSUSqP"
+        },
+        {
+          "title": "Rock Steady",
+          "play_count": 190236,
+          "uri": "spotify:track:5vUJ7PG0aY89m04btGQPih"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 5117048,
+      "track_count": 44,
+      "mean_views": 116296,
+      "max_views": 688955,
+      "albums": [
+        {
+          "title": "YOUNI-T",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "AMIE SONG (AMIE SONG)",
+              "video_id": "jgqdpXbYWNI",
+              "youtube_views": 38642
+            },
+            {
+              "title": "Rock Steady (Rock Steady)",
+              "video_id": "M9Us5gxjiTg",
+              "youtube_views": 214063
+            },
+            {
+              "title": "GASOLINE (GASOLINE)",
+              "video_id": "gx4mYtt2Pzc",
+              "youtube_views": 56623
+            },
+            {
+              "title": "Who's Next? (HYUNGSEOK, DEY, KYUNGMUN) (Who's Next? (형석, DEY, 경문))",
+              "video_id": "l1ynygwidDs",
+              "youtube_views": 34903
+            },
+            {
+              "title": "Twilight Rush (EUNHO, STEVE) (Twilight Rush (은호, 스티브))",
+              "video_id": "m11olmLIIrs",
+              "youtube_views": 39306
+            },
+            {
+              "title": "Miracle Day (EUNSANG, WOONO, SION) (Miracle Day (은상, 우노, 시온))",
+              "video_id": "mv2jSNJouaE",
+              "youtube_views": 67090
+            },
+            {
+              "title": "GOOD TO GO (GOOD TO GO)",
+              "video_id": "4_76lLraETs",
+              "youtube_views": 85429
+            }
+          ]
+        },
+        {
+          "title": "BOMBA",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BOMBA (BOMBA)",
+              "video_id": "bRktSOL4i4E",
+              "youtube_views": 88346
+            },
+            {
+              "title": "Poco Loco (Baile Funk Remix) (Poco Loco (Baile Funk Remix))",
+              "video_id": "KJEA3XtCMEA",
+              "youtube_views": 45356
+            }
+          ]
+        },
+        {
+          "title": "Y",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Perfume (너의 향기는 나를 깨우니까 (Perfume))",
+              "video_id": "ecaYU756ozA",
+              "youtube_views": 86800
+            },
+            {
+              "title": "TASTE (TASTE)",
+              "video_id": "vS8AgTPe3Pw",
+              "youtube_views": 118113
+            },
+            {
+              "title": "Episode (Episode)",
+              "video_id": "htUJ_FBIy80",
+              "youtube_views": 42731
+            }
+          ]
+        },
+        {
+          "title": "ANOTHER",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "How We Do (How We Do)",
+              "video_id": "KgDBMkbXfFU",
+              "youtube_views": 45794
+            },
+            {
+              "title": "GEEKIN (GEEKIN)",
+              "video_id": "_utmWdJmdW0",
+              "youtube_views": 179789
+            },
+            {
+              "title": "Poco Loco (Poco Loco)",
+              "video_id": "JNcLTKnn5Ro",
+              "youtube_views": 81920
+            },
+            {
+              "title": "ONE+WON (ONE+WON)",
+              "video_id": "SFnOG5-7VU0",
+              "youtube_views": 52141
+            },
+            {
+              "title": "OMH (Out My Head) (OMH (Out My Head))",
+              "video_id": "BRPeOhxM7Gg",
+              "youtube_views": 50880
+            }
+          ]
+        },
+        {
+          "title": "빛 : BIT Part.2",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Chili Pop (Chili Pop)",
+              "video_id": "2TDQ7-r-DQA",
+              "youtube_views": 36761
+            },
+            {
+              "title": "Love it (정했어 (Love it))",
+              "video_id": "OLQI8tlvx50",
+              "youtube_views": 382450
+            },
+            {
+              "title": "F!zzy Soda Love (F!zzy Soda Love)",
+              "video_id": "avZ0vtNBXCs",
+              "youtube_views": 52874
+            },
+            {
+              "title": "Cupcake (Cupcake)",
+              "video_id": "OmVNwiyWEdI",
+              "youtube_views": 81321
+            },
+            {
+              "title": "A star called you (너라는 별)",
+              "video_id": "U5ylnlU0VzY",
+              "youtube_views": 98353
+            }
+          ]
+        },
+        {
+          "title": "빛 : BIT Part.1",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "ICY (ICY)",
+              "video_id": "Xp0zI2Rtp7U",
+              "youtube_views": 25384
+            },
+            {
+              "title": "WATERFALL (WATERFALL)",
+              "video_id": "pZdrGRzIvJM",
+              "youtube_views": 376419
+            },
+            {
+              "title": "LOOK AT THE TV (LOOK AT THE TV)",
+              "video_id": "Z0k_-SMwW3A",
+              "youtube_views": 98620
+            },
+            {
+              "title": "TRIP (TRIP)",
+              "video_id": "24blZ-2D6Wk",
+              "youtube_views": 108709
+            },
+            {
+              "title": "SLOGAN (SLOGAN)",
+              "video_id": "NCu8HMvV_5M",
+              "youtube_views": 41412
+            }
+          ]
+        },
+        {
+          "title": "YOUNI-ON",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Time's Up (Time's Up)",
+              "video_id": "-DUbJhxSdz4",
+              "youtube_views": 62038
+            },
+            {
+              "title": "Bad Cupid (Bad Cupid)",
+              "video_id": "FnxSrOJeYfQ",
+              "youtube_views": 359038
+            },
+            {
+              "title": "Power (Power)",
+              "video_id": "RdkwPONYusY",
+              "youtube_views": 68317
+            },
+            {
+              "title": "99% (99%)",
+              "video_id": "sFGaJuKNOMk",
+              "youtube_views": 30835
+            },
+            {
+              "title": "Pump Your Sneakers (Pump Your Sneakers)",
+              "video_id": "T6MwiNntoqQ",
+              "youtube_views": 60142
+            },
+            {
+              "title": "Bestie (Bestie)",
+              "video_id": "2cuPV_wQT1o",
+              "youtube_views": 157918
+            }
+          ]
+        },
+        {
+          "title": "YOUNI-Q",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "TRAVELER (TRAVELER)",
+              "video_id": "2fibbZOCcek",
+              "youtube_views": 71493
+            },
+            {
+              "title": "AVIATOR (AVIATOR)",
+              "video_id": "yP2I2Ekzdxo",
+              "youtube_views": 153040
+            },
+            {
+              "title": "SWISH (SWISH)",
+              "video_id": "M6S8la5_-UI",
+              "youtube_views": 47477
+            },
+            {
+              "title": "COME AROUND (COME AROUND)",
+              "video_id": "jmmnz3TliRk",
+              "youtube_views": 135867
+            },
+            {
+              "title": "I LIKE YOU (널 좋아해)",
+              "video_id": "KArxkcmC7Fs",
+              "youtube_views": 198116
+            }
+          ]
+        },
+        {
+          "title": "YOUNI-BIRTH",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "YOUNI-BIRTH (YOUNI-BIRTH)",
+              "video_id": "gGhWGifWDt0",
+              "youtube_views": 101423
+            },
+            {
+              "title": "1 of 9 (1 of 9)",
+              "video_id": "f1NHSDjNrD0",
+              "youtube_views": 688955
+            },
+            {
+              "title": "EVERYBODY (Feat. DJ Juice) (EVERYBODY (Feat. DJ Juice))",
+              "video_id": "DAG-bcaBA1o",
+              "youtube_views": 148234
+            },
+            {
+              "title": "RING RING RING (RING RING RING)",
+              "video_id": "-OGtMWW8i90",
+              "youtube_views": 87378
+            },
+            {
+              "title": "ODYSSEY (ODYSSEY)",
+              "video_id": "5vCkfOLDqNc",
+              "youtube_views": 26905
+            },
+            {
+              "title": "I GOT THE FEELING (그런 느낌이 와)",
+              "video_id": "TJJxQIVeaHw",
+              "youtube_views": 89643
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

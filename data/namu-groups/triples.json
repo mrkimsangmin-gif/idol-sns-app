@@ -732,5 +732,882 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 966046,
+      "spotify_id": "5Z71xE9prhpHrqL5thVMyK",
+      "top_tracks": [
+        {
+          "title": "Girls Never Die",
+          "play_count": 53232492,
+          "uri": "spotify:track:0Ol7uhYjodbXAKKarXdn6r"
+        },
+        {
+          "title": "Are You Alive",
+          "play_count": 15191846,
+          "uri": "spotify:track:0KEgaOvobKmv9VVQg2WI0P"
+        },
+        {
+          "title": "Cameo Love",
+          "play_count": 2996972,
+          "uri": "spotify:track:1JR7Ko9pkVRXuKWZz8VZQF"
+        },
+        {
+          "title": "Generation",
+          "play_count": 54679577,
+          "uri": "spotify:track:1RHTdr5QfviCYI70QPPDJN"
+        },
+        {
+          "title": "Rising",
+          "play_count": 34276503,
+          "uri": "spotify:track:6QCPweR3aP6nj7P43WpiZs"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 85147779,
+      "track_count": 143,
+      "mean_views": 595439,
+      "max_views": 35050145,
+      "albums": [
+        {
+          "title": "4study4work4inst Vol.3",
+          "year": "2026",
+          "tracks": [
+            {
+              "title": "Are You Alive (Inst.)",
+              "video_id": "GhKr7NZSjjE",
+              "youtube_views": 5996
+            },
+            {
+              "title": "Detective Soseol (Inst.)",
+              "video_id": "0sUaYftSfd4",
+              "youtube_views": 3337
+            },
+            {
+              "title": "Firework Diary (Inst.)",
+              "video_id": "U0WDcIycJWk",
+              "youtube_views": 3592
+            },
+            {
+              "title": "Love Child (Inst.)",
+              "video_id": "a89BrGMggio",
+              "youtube_views": 1383
+            },
+            {
+              "title": "Persona (Inst.)",
+              "video_id": "zaO_l_MCZpg",
+              "youtube_views": 2527
+            },
+            {
+              "title": "Too Hot (Inst.)",
+              "video_id": "5B5PKsiV5DQ",
+              "youtube_views": 1594
+            },
+            {
+              "title": "Diablo (Inst.)",
+              "video_id": "KgbRaRuUCVc",
+              "youtube_views": 1800
+            },
+            {
+              "title": "Friend Zone (Inst.)",
+              "video_id": "xgKu6IICcFc",
+              "youtube_views": 1203
+            },
+            {
+              "title": "Love2Love (Inst.)",
+              "video_id": "VJ_71frNyT4",
+              "youtube_views": 4110
+            },
+            {
+              "title": "Fly Up (Inst.)",
+              "video_id": "of420ocgtpY",
+              "youtube_views": 3817
+            },
+            {
+              "title": "Cameo Love (Inst.)",
+              "video_id": "ym6iwOmqkF4",
+              "youtube_views": 2010
+            },
+            {
+              "title": "Bubble Gum Girl (Inst.)",
+              "video_id": "SnalgpJqR_0",
+              "youtube_views": 2096
+            },
+            {
+              "title": "Q&A (Inst.)",
+              "video_id": "nbhQ7VFzd1E",
+              "youtube_views": 1520
+            },
+            {
+              "title": "Christmas Alone (Inst.)",
+              "video_id": "pVlERo2DZV0",
+              "youtube_views": 1161
+            }
+          ]
+        },
+        {
+          "title": "tripleS hatch! <SecretHimitsuBimil>",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Password",
+              "video_id": "5la6RuPKb3E",
+              "youtube_views": 42504
+            },
+            {
+              "title": "Headphones",
+              "video_id": "xe9j9hPn6Bc",
+              "youtube_views": 133475
+            },
+            {
+              "title": "Tokimetique",
+              "video_id": "h3aCKy0GqCw",
+              "youtube_views": 242691
+            },
+            {
+              "title": "TOKYO",
+              "video_id": "8AxWLxiaY4Q",
+              "youtube_views": 85150
+            },
+            {
+              "title": "Oshare",
+              "video_id": "28U3yFL9de4",
+              "youtube_views": 236223
+            },
+            {
+              "title": "Untitled",
+              "video_id": "eJaKd0JDgw0",
+              "youtube_views": 19248
+            },
+            {
+              "title": "### (hatch! Version)",
+              "video_id": "1uCtjtRk_-Q",
+              "youtube_views": 54469
+            }
+          ]
+        },
+        {
+          "title": "<ASSEMBLE25>",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "@% (Alpha Percent)",
+              "video_id": "mFBU3vTJHzs",
+              "youtube_views": 47609
+            },
+            {
+              "title": "Are You Alive",
+              "video_id": "iRy6w_9PDN4",
+              "youtube_views": 4661904
+            },
+            {
+              "title": "Detective Soseol",
+              "video_id": "Lzf78xIZbsc",
+              "youtube_views": 330165
+            },
+            {
+              "title": "Firework Diary",
+              "video_id": "-1UkDzBRKJc",
+              "youtube_views": 233558
+            },
+            {
+              "title": "Love Child",
+              "video_id": "O-6Vh-2IHj4",
+              "youtube_views": 154058
+            },
+            {
+              "title": "Persona",
+              "video_id": "2xre4zwEICM",
+              "youtube_views": 139436
+            },
+            {
+              "title": "Too Hot",
+              "video_id": "0aGf4J0Pqx0",
+              "youtube_views": 210570
+            },
+            {
+              "title": "Diablo",
+              "video_id": "IKUdEVy5mpM",
+              "youtube_views": 393800
+            },
+            {
+              "title": "Friend Zone",
+              "video_id": "b2bE8AfQvaY",
+              "youtube_views": 81622
+            },
+            {
+              "title": "Love2Love",
+              "video_id": "32JdPuHGDXM",
+              "youtube_views": 523029
+            }
+          ]
+        },
+        {
+          "title": "4study4work4inst Vol.2",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Girls Never Die (Inst.) (Girls Never Die (Inst.))",
+              "video_id": "CXlWP4HwjUE",
+              "youtube_views": 60917
+            },
+            {
+              "title": "Heart Raider (Inst.) (가시권 (Heart Raider) (Inst.))",
+              "video_id": "wapzhYat07U",
+              "youtube_views": 9179
+            },
+            {
+              "title": "Midnight Flower (Inst.) (Midnight Flower (Inst.))",
+              "video_id": "-mpT_Tv4MD4",
+              "youtube_views": 5891
+            },
+            {
+              "title": "White Soul Sneakers (Inst.) (White Soul Sneakers (Inst.))",
+              "video_id": "n7PuwCfv10I",
+              "youtube_views": 5398
+            },
+            {
+              "title": "Chiyu (Inst.) (치유 (Chiyu) (Inst.))",
+              "video_id": "CLBPxzVY-Pk",
+              "youtube_views": 4893
+            },
+            {
+              "title": "24 (Inst.) (24 (Inst.))",
+              "video_id": "H1yESGpo3Zg",
+              "youtube_views": 9078
+            },
+            {
+              "title": "Beyond the Beyond (Inst.) (이면의 이면 (Beyond the Beyond) (Inst.))",
+              "video_id": "j3jxsN56uv8",
+              "youtube_views": 5249
+            },
+            {
+              "title": "Non Scale (Inst.) (Non Scale (Inst.))",
+              "video_id": "d1gXXP7xRSU",
+              "youtube_views": 5766
+            },
+            {
+              "title": "Dimension (Inst.) (Dimension (Inst.))",
+              "video_id": "KSIPDYjU_Vw",
+              "youtube_views": 4270
+            },
+            {
+              "title": "Inner Dance (Inst.) (내적 댄스 (Inner Dance) (Inst.))",
+              "video_id": "tLKaJvzByiE",
+              "youtube_views": 6578
+            },
+            {
+              "title": "Hit the Floor (Inst.) (Hit the Floor (Inst.))",
+              "video_id": "aivZ_Dufuzs",
+              "youtube_views": 5816
+            },
+            {
+              "title": "Choom (Inst.) (Choom (Inst.))",
+              "video_id": "FHn-sWhZb04",
+              "youtube_views": 3473
+            },
+            {
+              "title": "Éclair (Inst.) (Éclair (Inst.))",
+              "video_id": "XpNFCqIEZsI",
+              "youtube_views": 3739
+            },
+            {
+              "title": "Love Soseol (Inst.) (연애소설 (Love Soseol) (Inst.))",
+              "video_id": "fvg7Z24ThZs",
+              "youtube_views": 4676
+            },
+            {
+              "title": "Atmosphere (VV Ver.) (Inst.) (Atmosphere (VV Ver.) (Inst.))",
+              "video_id": "G1K_RXXNkP0",
+              "youtube_views": 3501
+            },
+            {
+              "title": "12 Rings (Inst.) (12 Rings (Inst.))",
+              "video_id": "FAAQuVg5Ioc",
+              "youtube_views": 2814
+            },
+            {
+              "title": "Vision (Inst.) (Vision (Inst.))",
+              "video_id": "urtfDVUJtw0",
+              "youtube_views": 3289
+            },
+            {
+              "title": "Bionic Power (Inst.) (Bionic Power (Inst.))",
+              "video_id": "ek9kmX8gGo0",
+              "youtube_views": 3401
+            }
+          ]
+        },
+        {
+          "title": "Visionary Vision <Performante>",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Visual Virtue (Visual Virtue)",
+              "video_id": "Q9WTvf0Qidg",
+              "youtube_views": 38044
+            },
+            {
+              "title": "Hit the Floor (Hit the Floor)",
+              "video_id": "6ap36caq7V0",
+              "youtube_views": 960938
+            },
+            {
+              "title": "Choom (Choom)",
+              "video_id": "9cpbSIIqG5Y",
+              "youtube_views": 107466
+            },
+            {
+              "title": "Éclair (Éclair)",
+              "video_id": "nc6fXOipIaE",
+              "youtube_views": 133778
+            },
+            {
+              "title": "Love Soseol (연애소설 (Love Soseol))",
+              "video_id": "DUVo-9J5zDE",
+              "youtube_views": 150246
+            },
+            {
+              "title": "Atmosphere (VV Ver.) (Atmosphere (VV Ver.))",
+              "video_id": "uzLXoJP7rKI",
+              "youtube_views": 68862
+            },
+            {
+              "title": "12 Rings (12 Rings)",
+              "video_id": "GvPmee8HKXY",
+              "youtube_views": 58922
+            },
+            {
+              "title": "Vision (Vision)",
+              "video_id": "mhZWuL1pYDM",
+              "youtube_views": 88939
+            },
+            {
+              "title": "Bionic Power (Bionic Power)",
+              "video_id": "163GNogZckA",
+              "youtube_views": 116974
+            },
+            {
+              "title": "Visionary Vision (Visionary Vision)",
+              "video_id": "Wpn-9EdSlLM",
+              "youtube_views": 23490
+            }
+          ]
+        },
+        {
+          "title": "<ASSEMBLE24>",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "S (S)",
+              "video_id": "Tdrc9f69SQU",
+              "youtube_views": 100171
+            },
+            {
+              "title": "Girls Never Die (Girls Never Die)",
+              "video_id": "1m2JZf3F2JE",
+              "youtube_views": 35050145
+            },
+            {
+              "title": "Heart Raider (가시권 (Heart Raider))",
+              "video_id": "QfoMAOXlnHM",
+              "youtube_views": 308189
+            },
+            {
+              "title": "Midnight Flower (Midnight Flower)",
+              "video_id": "p3GxvijX0nM",
+              "youtube_views": 315503
+            },
+            {
+              "title": "White Soul Sneakers (White Soul Sneakers)",
+              "video_id": "T_MxKGLed9E",
+              "youtube_views": 312086
+            },
+            {
+              "title": "Chiyu (치유 (Chiyu))",
+              "video_id": "ZMz0PNuB2kQ",
+              "youtube_views": 256744
+            },
+            {
+              "title": "24 (24)",
+              "video_id": "BCdqK1I8syg",
+              "youtube_views": 1331206
+            },
+            {
+              "title": "Beyond the Beyond (이면의 이면 (Beyond the Beyond))",
+              "video_id": "Falha8RubcU",
+              "youtube_views": 252655
+            },
+            {
+              "title": "Non Scale (Non Scale)",
+              "video_id": "fasOdVF7SYc",
+              "youtube_views": 476749
+            },
+            {
+              "title": "Dimension (Dimension)",
+              "video_id": "SjvTioX9FyY",
+              "youtube_views": 349126
+            }
+          ]
+        },
+        {
+          "title": "4study4work4inst Vol.1",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Generation (Inst.) (Generation (Inst.))",
+              "video_id": "vXlDTeYqsaw",
+              "youtube_views": 52782
+            },
+            {
+              "title": "Rolex (Inst.) (Rolex (Inst.))",
+              "video_id": "WtlPLegNj7E",
+              "youtube_views": 18273
+            },
+            {
+              "title": "Charla (Inst.) (찰나 (Charla) (Inst.))",
+              "video_id": "pdRfI1IE4h0",
+              "youtube_views": 13679
+            },
+            {
+              "title": "Dimension (AAA Ver.) (Inst.) (Dimension (AAA Ver.) (Inst.))",
+              "video_id": "3pDyt3a9aEA",
+              "youtube_views": 13854
+            },
+            {
+              "title": "Beam (Inst.) (Beam (Inst.))",
+              "video_id": "s7IWHqwzrPw",
+              "youtube_views": 11508
+            },
+            {
+              "title": "Rising (Inst.) (Rising (Inst.))",
+              "video_id": "li26VV4vl-w",
+              "youtube_views": 33368
+            },
+            {
+              "title": "Colorful (Inst.) (Colorful (Inst.))",
+              "video_id": "GxKwLJFrqFY",
+              "youtube_views": 13038
+            },
+            {
+              "title": "The Baddest (Inst.) (The Baddest (Inst.))",
+              "video_id": "e4aXw1j7fQk",
+              "youtube_views": 10566
+            },
+            {
+              "title": "New Look (Inst.) (New Look (Inst.))",
+              "video_id": "6q4D6j6frCg",
+              "youtube_views": 10789
+            },
+            {
+              "title": "Cherry Talk (Inst.) (Cherry Talk (Inst.))",
+              "video_id": "9qWDHUSULkI",
+              "youtube_views": 14063
+            },
+            {
+              "title": "Touch (Inst.) (Touch (Inst.))",
+              "video_id": "9ckjxUE-U6Y",
+              "youtube_views": 9847
+            },
+            {
+              "title": "Hide & Seek (Inst.) ((숨겨 봐봐) Hide & Seek (Inst.))",
+              "video_id": "glqN_4g83gI",
+              "youtube_views": 10603
+            },
+            {
+              "title": "Deja-Vu (Inst.) (Deja-Vu (Inst.))",
+              "video_id": "3IXmGgd-1OI",
+              "youtube_views": 8604
+            },
+            {
+              "title": "Dimension (KRE Ver.) (Inst.) (Dimension (KRE Ver.) (Inst.))",
+              "video_id": "ploiOvAW6Ww",
+              "youtube_views": 7885
+            },
+            {
+              "title": "Touch+ (Inst.) (Touch+ (Inst.))",
+              "video_id": "seJvQ83J9HM",
+              "youtube_views": 6321
+            },
+            {
+              "title": "Girls’ Capitalism (Inst.) (Girls’ Capitalism (Inst.))",
+              "video_id": "xbjDYFEWU_4",
+              "youtube_views": 24769
+            },
+            {
+              "title": "Complexity (Inst.) (복합성 (Complexity) (Inst.))",
+              "video_id": "wUPDKLbIgPk",
+              "youtube_views": 9386
+            },
+            {
+              "title": "Black Soul Dress (Inst.) (Black Soul Dress (Inst.))",
+              "video_id": "XVbuIz8iYBg",
+              "youtube_views": 10457
+            },
+            {
+              "title": "Seoul Sonyo Sound (Inst.) (Seoul Sonyo Sound (Inst.))",
+              "video_id": "yODtdbya_78",
+              "youtube_views": 9677
+            },
+            {
+              "title": "Cry Baby (Inst.) (Cry Baby (Inst.))",
+              "video_id": "8KUs2Rjq0Kg",
+              "youtube_views": 6756
+            },
+            {
+              "title": "Speed Love (Inst.) (Speed Love (Inst.))",
+              "video_id": "UzO5salpimE",
+              "youtube_views": 10252
+            },
+            {
+              "title": "Invincible (Inst.) (Invincible (Inst.))",
+              "video_id": "q14H4EZjhnk",
+              "youtube_views": 11507
+            },
+            {
+              "title": "Rhodanthe (Inst.) (Rhodanthe (Inst.))",
+              "video_id": "ijxN5ab75ho",
+              "youtube_views": 7920
+            },
+            {
+              "title": "Heavy Metal Wings (Inst.) (Heavy Metal Wings (Inst.))",
+              "video_id": "Fpfmnf6HaZE",
+              "youtube_views": 6762
+            },
+            {
+              "title": "37.5 Celcius (Inst.) (미열 37.5 (Inst.))",
+              "video_id": "jZPyhr6c4XI",
+              "youtube_views": 7588
+            },
+            {
+              "title": "Moto Princess (Inst.) (Moto Princess (Inst.))",
+              "video_id": "t1xpfOXugrI",
+              "youtube_views": 9131
+            },
+            {
+              "title": "Oui (Inst.) (Oui (Inst.))",
+              "video_id": "CncVW1vO_-I",
+              "youtube_views": 5181
+            },
+            {
+              "title": "Enhanced Flower (Inst.) (Enhanced Flower (Inst.))",
+              "video_id": "yqd4gj01Zgc",
+              "youtube_views": 5768
+            },
+            {
+              "title": "Just Do It (Inst.) (Just Do It (Inst.))",
+              "video_id": "2Ye45H0VHFI",
+              "youtube_views": 10951
+            },
+            {
+              "title": "Door (Inst.) (Door (Inst.))",
+              "video_id": "lrDHpFmXh80",
+              "youtube_views": 6519
+            },
+            {
+              "title": "Farewell My First (Inst.) (첫 이별 (Farewell My First) (Inst.))",
+              "video_id": "pmqHGwX8f1o",
+              "youtube_views": 5259
+            }
+          ]
+        },
+        {
+          "title": "EVOLution <⟡>",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "&#10209; (&#10209;)",
+              "video_id": "bX1xV4zjHik",
+              "youtube_views": 87218
+            },
+            {
+              "title": "Invincible (Invincible)",
+              "video_id": "pIQUsBBA4yI",
+              "youtube_views": 1744753
+            },
+            {
+              "title": "Rhodanthe (Rhodanthe)",
+              "video_id": "bNz2w3t60iQ",
+              "youtube_views": 603112
+            },
+            {
+              "title": "Heavy Metal Wings (Heavy Metal Wings)",
+              "video_id": "OEZQvCn0kFA",
+              "youtube_views": 489497
+            },
+            {
+              "title": "37.5 Celsius (미열 37.5)",
+              "video_id": "h_N7Zu7EYXk",
+              "youtube_views": 543415
+            },
+            {
+              "title": "Moto Princess (Moto Princess)",
+              "video_id": "hHchgRAHoVE",
+              "youtube_views": 654184
+            },
+            {
+              "title": "Oui (Oui)",
+              "video_id": "XCQfNBrpKzw",
+              "youtube_views": 178460
+            },
+            {
+              "title": "Enhanced Flower (Enhanced Flower)",
+              "video_id": "-396nvhUGfU",
+              "youtube_views": 115632
+            }
+          ]
+        },
+        {
+          "title": "LOVElution <ↀ>",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "&#8576; (&#8576;)",
+              "video_id": "XttfGwZXtE8",
+              "youtube_views": 150965
+            },
+            {
+              "title": "Girls’ Capitalism (Girls’ Capitalism)",
+              "video_id": "Jg6U0k1kjng",
+              "youtube_views": 6230531
+            },
+            {
+              "title": "Complexity (복합성 (Complexity))",
+              "video_id": "xGljQ0z1GNU",
+              "youtube_views": 521606
+            },
+            {
+              "title": "Black Soul Dress (Black Soul Dress)",
+              "video_id": "-OvlIUP7mNY",
+              "youtube_views": 904680
+            },
+            {
+              "title": "Seoul Sonyo Sound (Seoul Sonyo Sound)",
+              "video_id": "ZLMGwt3UfwA",
+              "youtube_views": 270920
+            },
+            {
+              "title": "Cry Baby (Cry Baby)",
+              "video_id": "Yk2fAZKV2P4",
+              "youtube_views": 285920
+            },
+            {
+              "title": "Speed Love (Speed Love)",
+              "video_id": "GBnIOU9S6YU",
+              "youtube_views": 308141
+            },
+            {
+              "title": "Number 8 (Number 8)",
+              "video_id": "XmIxM3Zs-is",
+              "youtube_views": 107620
+            }
+          ]
+        },
+        {
+          "title": "ASSEMBLE",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Beam (Beam)",
+              "video_id": "bYZa4cWillQ",
+              "youtube_views": 459773
+            },
+            {
+              "title": "Before the Rise (Before the Rise)",
+              "video_id": "gk5a7pgqPw0",
+              "youtube_views": 207201
+            },
+            {
+              "title": "Rising (Rising)",
+              "video_id": "CeLmJFg6ANY",
+              "youtube_views": 15223162
+            },
+            {
+              "title": "Colorful (Colorful)",
+              "video_id": "AZkCQoJBN-I",
+              "youtube_views": 1540054
+            },
+            {
+              "title": "The Baddest (The Baddest)",
+              "video_id": "tIk0GK9TbAE",
+              "youtube_views": 481693
+            },
+            {
+              "title": "New Look (New Look)",
+              "video_id": "feeJZePrIcc",
+              "youtube_views": 1232998
+            },
+            {
+              "title": "Chowall (초월 (Chowall))",
+              "video_id": "eSpj2xDdBxg",
+              "youtube_views": 172998
+            }
+          ]
+        },
+        {
+          "title": "Tokimetique",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Tokimetique",
+              "video_id": "g7eWRfcM7jU",
+              "youtube_views": 23658
+            },
+            {
+              "title": "Tokimetique -Shin Sakiura Remix-",
+              "video_id": "p4IhR2Kc_Ms",
+              "youtube_views": 33532
+            },
+            {
+              "title": "Tokimetique TV Edit",
+              "video_id": "v3hRAbGrxoU",
+              "youtube_views": 7188
+            }
+          ]
+        },
+        {
+          "title": "msnz <Beyond Beauty>",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Magic Shine New Zone",
+              "video_id": "x2OE6o7xnNQ",
+              "youtube_views": 24882
+            },
+            {
+              "title": "Fly Up",
+              "video_id": "7iDhXNeo87c",
+              "youtube_views": 353084
+            },
+            {
+              "title": "Cameo Love",
+              "video_id": "GFZsHyjtpuo",
+              "youtube_views": 458528
+            },
+            {
+              "title": "Bubble Gum Girl",
+              "video_id": "4wHuyhf_FoE",
+              "youtube_views": 148237
+            },
+            {
+              "title": "Q&A",
+              "video_id": "7M7lq2ODAbs",
+              "youtube_views": 170994
+            },
+            {
+              "title": "Christmas Alone",
+              "video_id": "3eUu8oGLwcc",
+              "youtube_views": 452364
+            }
+          ]
+        },
+        {
+          "title": "tripleS hatch! <Password>",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Password",
+              "video_id": "azE40pM923o",
+              "youtube_views": 463745
+            }
+          ]
+        },
+        {
+          "title": "Rising -Japanese Version-",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Rising -Japanese Version-",
+              "video_id": "8ucDS_QdlmI",
+              "youtube_views": 30565
+            }
+          ]
+        },
+        {
+          "title": "Girls Never Die -Japanese Version-",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Girls Never Die -Japanese Version-",
+              "video_id": "vNj4YWWUAcA",
+              "youtube_views": 76058
+            }
+          ]
+        },
+        {
+          "title": "Friendly Rivalry (Music from the U+ Original Series), Pt. 4",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "PainDrop (by SeoYeon, JiWoo, YuBin, SoHyun)",
+              "video_id": "rsgwaXPNvFM",
+              "youtube_views": 216032
+            },
+            {
+              "title": "PainDrop (by SeoYeon, JiWoo, YuBin, SoHyun) (Instrumental)",
+              "video_id": "xVTwdCsuLz0",
+              "youtube_views": 16666
+            }
+          ]
+        },
+        {
+          "title": "Dreaming (Shooting Stars X tripleS) (Dreaming (골 때리는 그녀들 X tripleS (트리플에스)))",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Dreaming (by YooYeon, YuBin, DaHyun, ShiOn) (Dreaming (by 유연, 유빈, 다현, 시온))",
+              "video_id": "pxBdyVXaSGU",
+              "youtube_views": 100028
+            },
+            {
+              "title": "Dreaming (by YooYeon, YuBin, DaHyun, ShiOn) (Inst.) (Dreaming (by 유연, 유빈, 다현,...",
+              "video_id": "nmSfSgB4XAM",
+              "youtube_views": 10876
+            }
+          ]
+        },
+        {
+          "title": "tripleS hatch! <Untitled>",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Untitled",
+              "video_id": "JlP29Bplmvw",
+              "youtube_views": 347005
+            }
+          ]
+        },
+        {
+          "title": "Polaroid",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Polaroid (by NaKyoung, Mayu, ShiOn, ChaeWon) (Polaroid (by 나경, 마유, 시온, 채원))",
+              "video_id": "ShgX1Hyc5gk",
+              "youtube_views": 481958
+            },
+            {
+              "title": "Polaroid (by NaKyoung, Mayu, ShiOn, ChaeWon) (Inst.) (Polaroid (by 나경, 마유, 시온,...",
+              "video_id": "LwZpO6mPz-U",
+              "youtube_views": 11492
+            }
+          ]
+        },
+        {
+          "title": "<###>",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "###",
+              "video_id": "rycmOCrOAJM",
+              "youtube_views": 549473
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

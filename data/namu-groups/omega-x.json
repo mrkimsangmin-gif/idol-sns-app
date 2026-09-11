@@ -385,5 +385,338 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 91131,
+      "spotify_id": "2FJYWlqgtoiBtXpOy9GGIF",
+      "top_tracks": [
+        {
+          "title": "LOVE ME LIKE",
+          "play_count": 12671241,
+          "uri": "spotify:track:3IXSxojIjh3YuVK53HJQUN"
+        },
+        {
+          "title": "VAMOS",
+          "play_count": 7384359,
+          "uri": "spotify:track:19kvCoRJQGxnEwyqqJphLA"
+        },
+        {
+          "title": "OMEGA X",
+          "play_count": 2800079,
+          "uri": "spotify:track:6Jt4t4qNmD1v7SB8GPz3Zw"
+        },
+        {
+          "title": "WHAT'S GOIN' ON",
+          "play_count": 3219160,
+          "uri": "spotify:track:5RYFLurX0Vg85bgnClS6im"
+        },
+        {
+          "title": "JUNK FOOD",
+          "play_count": 1049861,
+          "uri": "spotify:track:5aEdNj5hYLKwSiO9vKK552"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 11824232,
+      "track_count": 45,
+      "mean_views": 262760,
+      "max_views": 2535901,
+      "albums": [
+        {
+          "title": "Story Written in Music",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "VENUS (연결)",
+              "video_id": "eA4VWr13hTY",
+              "youtube_views": 232108
+            },
+            {
+              "title": "PLAY DUMB",
+              "video_id": "UDZJRmuLXVM",
+              "youtube_views": 400225
+            },
+            {
+              "title": "BINARY STAR",
+              "video_id": "GPOmct-y6ZU",
+              "youtube_views": 147730
+            },
+            {
+              "title": "ALL ABOUT U",
+              "video_id": "9wliK8emMss",
+              "youtube_views": 273179
+            },
+            {
+              "title": "DON'T",
+              "video_id": "P1SmfndSF_k",
+              "youtube_views": 307702
+            },
+            {
+              "title": "TAKE'EM ALL",
+              "video_id": "mgiDPzJG_iQ",
+              "youtube_views": 295989
+            },
+            {
+              "title": "BOUNCE WITH ME",
+              "video_id": "fii6yWijlwc",
+              "youtube_views": 231023
+            },
+            {
+              "title": "DANCE WITH U",
+              "video_id": "gjWoERDnJQU",
+              "youtube_views": 228547
+            },
+            {
+              "title": "전세기",
+              "video_id": "v2lOLnRIr9M",
+              "youtube_views": 245478
+            },
+            {
+              "title": "DRY FLOWER",
+              "video_id": "5CjQnRlCctQ",
+              "youtube_views": 297952
+            },
+            {
+              "title": "CONTROL",
+              "video_id": "IwkXWAXZU1A",
+              "youtube_views": 169920
+            },
+            {
+              "title": "간직해줘 (LOVE)",
+              "video_id": "zM-PdQvMA54",
+              "youtube_views": 594430
+            }
+          ]
+        },
+        {
+          "title": "To.",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Think I Wanna Do",
+              "video_id": "ycCEUIOURPc",
+              "youtube_views": 76260
+            },
+            {
+              "title": "愛の力",
+              "video_id": "o2d2Uwhcpoo",
+              "youtube_views": 44608
+            },
+            {
+              "title": "TOXIC",
+              "video_id": "7UqOhw8EG14",
+              "youtube_views": 49620
+            },
+            {
+              "title": "Cool My Head",
+              "video_id": "cjir4f8nP28",
+              "youtube_views": 15555
+            },
+            {
+              "title": "Bounce It",
+              "video_id": "Mb1DqaBTZuA",
+              "youtube_views": 40083
+            }
+          ]
+        },
+        {
+          "title": "Cool My Head",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Cool My Head",
+              "video_id": "ZYheA5KqRhc",
+              "youtube_views": 55258
+            }
+          ]
+        },
+        {
+          "title": "iykyk",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "LOUDER",
+              "video_id": "ou5ouVxvJv0",
+              "youtube_views": 114411
+            },
+            {
+              "title": "JUNK FOOD",
+              "video_id": "Abd_I2MsFks",
+              "youtube_views": 316482
+            },
+            {
+              "title": "Touch",
+              "video_id": "Ic1Rh1NQnM0",
+              "youtube_views": 293475
+            },
+            {
+              "title": "HEY!",
+              "video_id": "q4vwn49ZwEk",
+              "youtube_views": 157241
+            },
+            {
+              "title": "ISLAND",
+              "video_id": "djERGsCXmGg",
+              "youtube_views": 526740
+            }
+          ]
+        },
+        {
+          "title": "Dolsingles4 OST Part.2",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Tears pouring down",
+              "video_id": "MwX9DbcsERY",
+              "youtube_views": 16864
+            },
+            {
+              "title": "Tears pouring down (Inst.)",
+              "video_id": "ugRutForof0",
+              "youtube_views": 1029
+            }
+          ]
+        },
+        {
+          "title": "Dream",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Dream",
+              "video_id": "KDqhSH67V_c",
+              "youtube_views": 725498
+            }
+          ]
+        },
+        {
+          "title": "A Shoulder to Cry On OST",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Come Together",
+              "video_id": "jEuXUvWj9xs",
+              "youtube_views": 347866
+            },
+            {
+              "title": "너를 다시",
+              "video_id": "jOecLXclvKU",
+              "youtube_views": 792709
+            },
+            {
+              "title": "쉬어가도 돼",
+              "video_id": "PYKIq179LjI",
+              "youtube_views": 232365
+            },
+            {
+              "title": "Come Together (Eng Ver.)",
+              "video_id": "NlGnEQAxVFI",
+              "youtube_views": 100639
+            },
+            {
+              "title": "너를 다시 (Eng Ver.)",
+              "video_id": "O_xfuLlFCf4",
+              "youtube_views": 45563
+            },
+            {
+              "title": "쉬어가도 돼 (Eng Ver.)",
+              "video_id": "9DkRkilcpyM",
+              "youtube_views": 65857
+            }
+          ]
+        },
+        {
+          "title": "Special English Version [LOVE ME LIKE]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "LOVE ME LIKE (Eng Ver.)",
+              "video_id": "yd7wCX1oziM",
+              "youtube_views": 59400
+            }
+          ]
+        },
+        {
+          "title": "Stand up!",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Stand up!",
+              "video_id": "phfRDXcpFEY",
+              "youtube_views": 20930
+            },
+            {
+              "title": "luv 'em",
+              "video_id": "ZctsBN4Exow",
+              "youtube_views": 35985
+            },
+            {
+              "title": "i'm sorry",
+              "video_id": "nDJZEm-9iOg",
+              "youtube_views": 64046
+            },
+            {
+              "title": "Drive",
+              "video_id": "hZ9gp6mEz4I",
+              "youtube_views": 38753
+            },
+            {
+              "title": "#BRB",
+              "video_id": "mLcyMlV_t9A",
+              "youtube_views": 30420
+            },
+            {
+              "title": "OMEGA X (JP ver.)",
+              "video_id": "Zg9yzkRD7nw",
+              "youtube_views": 23512
+            }
+          ]
+        },
+        {
+          "title": "Stand up!",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Stand up!",
+              "video_id": "Lrak02-SRJs",
+              "youtube_views": 60201
+            }
+          ]
+        },
+        {
+          "title": "LOVE ME LIKE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "LOVE ME LIKE",
+              "video_id": "G4hrMaophw0",
+              "youtube_views": 2535901
+            },
+            {
+              "title": "ACTION",
+              "video_id": "TCef8IlJg-k",
+              "youtube_views": 549340
+            },
+            {
+              "title": "12.24",
+              "video_id": "Ufre2VrW4EM",
+              "youtube_views": 169895
+            },
+            {
+              "title": "LIAR",
+              "video_id": "dQWc0RlENCY",
+              "youtube_views": 509413
+            },
+            {
+              "title": "전화해요 (PLEASE) PLEASE",
+              "video_id": "28qd-7RJ46M",
+              "youtube_views": 284030
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

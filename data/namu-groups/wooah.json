@@ -235,5 +235,252 @@
       "누적_써클": "-",
       "비고": "하염없이 너만 (Vocal. 민서 (MINSEO))"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 166636,
+      "spotify_id": "7mgY992t7YTx6UELsoIMRa",
+      "top_tracks": [
+        {
+          "title": "BLUSH",
+          "play_count": 9308636,
+          "uri": "spotify:track:0SheD3EFngYkmaDnjDuMd2"
+        },
+        {
+          "title": "Bad Girl",
+          "play_count": 8243616,
+          "uri": "spotify:track:0N1zTlFxux9l7abfegDTIp"
+        },
+        {
+          "title": "POM POM POM",
+          "play_count": 2226736,
+          "uri": "spotify:track:4KtNoHpc781qroUhOol1I1"
+        },
+        {
+          "title": "Rollercoaster",
+          "play_count": 3918394,
+          "uri": "spotify:track:7uwNVnaOswnVGJ5v8e2bQk"
+        },
+        {
+          "title": "Catch the Stars",
+          "play_count": 4780911,
+          "uri": "spotify:track:2yMIYu0O3TanoqmqpTcoEs"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 16951850,
+      "track_count": 29,
+      "mean_views": 584546,
+      "max_views": 3043226,
+      "albums": [
+        {
+          "title": "Shining on you (The official song of Talk Talk Korea 2024)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Shining on you",
+              "video_id": "keWuUYIwU4Y",
+              "youtube_views": 315527
+            }
+          ]
+        },
+        {
+          "title": "UNFRAMED",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "I’ll Tell You",
+              "video_id": "t7UZfrS7ilI",
+              "youtube_views": 229567
+            },
+            {
+              "title": "POLAROID",
+              "video_id": "L7KN2um-UXk",
+              "youtube_views": 2021134
+            },
+            {
+              "title": "POM POM POM",
+              "video_id": "dlP5AJzBT_4",
+              "youtube_views": 923835
+            },
+            {
+              "title": "BLUSH",
+              "video_id": "xUA5-nc6J98",
+              "youtube_views": 21588
+            },
+            {
+              "title": "Girls love boys",
+              "video_id": "LFRqLdFoquI",
+              "youtube_views": 221485
+            },
+            {
+              "title": "POM POM POM (EDM Version)",
+              "video_id": "AGYqh89HyOA",
+              "youtube_views": 45812
+            }
+          ]
+        },
+        {
+          "title": "Secret princess (Secret Jouju x WOOAH)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Secret princess (Secret Jouju x WOOAH)",
+              "video_id": "FBQmXjvgbao",
+              "youtube_views": 99813
+            },
+            {
+              "title": "Secret princess (Secret Jouju x WOOAH) (Instrumental)",
+              "video_id": "JZdJMCt11to",
+              "youtube_views": 7312
+            }
+          ]
+        },
+        {
+          "title": "BLUSH",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BLUSH",
+              "video_id": "tN8lqg7SO9c",
+              "youtube_views": 2430161
+            }
+          ]
+        },
+        {
+          "title": "Pit-a-Pat",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Rollercoaster (Rollercoaster)",
+              "video_id": "b8wtjkKW9yA",
+              "youtube_views": 3043226
+            },
+            {
+              "title": "LOVE THING (LOVE THING)",
+              "video_id": "QVp8t2V5_HU",
+              "youtube_views": 129147
+            }
+          ]
+        },
+        {
+          "title": "JOY",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Danger (단거(Danger))",
+              "video_id": "Hc133We944g",
+              "youtube_views": 1283020
+            },
+            {
+              "title": "Joyride (Joyride)",
+              "video_id": "wEcjYdaHltY",
+              "youtube_views": 228187
+            },
+            {
+              "title": "Go Away (Go Away)",
+              "video_id": "houDG4B6xx4",
+              "youtube_views": 365151
+            },
+            {
+              "title": "Switch Up (Switch Up)",
+              "video_id": "JagQosZ1GK4",
+              "youtube_views": 432362
+            },
+            {
+              "title": "Straight Up (Straight Up)",
+              "video_id": "aQbCVblhyjI",
+              "youtube_views": 240895
+            },
+            {
+              "title": "Catch the Stars (별 따러 가자)",
+              "video_id": "q5he8V3hnb0",
+              "youtube_views": 17619
+            }
+          ]
+        },
+        {
+          "title": "Catch the Stars (별 따러 가자)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Catch the Stars (별 따러 가자)",
+              "video_id": "aRo4NWeEB3U",
+              "youtube_views": 1884426
+            }
+          ]
+        },
+        {
+          "title": "\"WISH\"",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SCAREDY CAT (겁쟁이)",
+              "video_id": "2cwejBo1ex4",
+              "youtube_views": 428716
+            },
+            {
+              "title": "Purple (Purple)",
+              "video_id": "qcoiQI3pJJE",
+              "youtube_views": 1585453
+            },
+            {
+              "title": "Pandora (Pandora)",
+              "video_id": "vqSVapgJjzs",
+              "youtube_views": 629044
+            }
+          ]
+        },
+        {
+          "title": "Exclamation",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Woo!Ah!",
+              "video_id": "6iKAlDaYs0g",
+              "youtube_views": 6774
+            },
+            {
+              "title": "Payday",
+              "video_id": "K6PCH7HJ070",
+              "youtube_views": 4447
+            },
+            {
+              "title": "woo!ah! (Beat)",
+              "video_id": "TcIq0bYv8U4",
+              "youtube_views": 1597
+            },
+            {
+              "title": "Payday (Beat)",
+              "video_id": "fj1M524xLds",
+              "youtube_views": 1059
+            }
+          ]
+        },
+        {
+          "title": "QURIOUS",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Round & Round",
+              "video_id": "kuXz1mGQEXc",
+              "youtube_views": 30213
+            },
+            {
+              "title": "Bad Girl",
+              "video_id": "NEcVXuQqlHw",
+              "youtube_views": 246120
+            },
+            {
+              "title": "I Don't Miss U",
+              "video_id": "zK6lQuv4u4w",
+              "youtube_views": 78160
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

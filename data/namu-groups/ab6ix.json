@@ -434,5 +434,582 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 158452,
+      "spotify_id": "4y0wFJ5jmCUNRLZfsw1I7g",
+      "top_tracks": [
+        {
+          "title": "BREATHE",
+          "play_count": 30106187,
+          "uri": "spotify:track:4XbyRgWe6yU4wE6WShdTEs"
+        },
+        {
+          "title": "A Minute, A Second",
+          "play_count": 153726,
+          "uri": "spotify:track:5QB4UqWDiTnKdmW4QXHj70"
+        },
+        {
+          "title": "So Sweet (0522)",
+          "play_count": 32984,
+          "uri": "spotify:track:4oyFvxcWfZioOHujaAW7HY"
+        },
+        {
+          "title": "ROSE, SCENT, KISS",
+          "play_count": 8454895,
+          "uri": "spotify:track:5eOb7OPhOkN0gUicVIcOCH"
+        },
+        {
+          "title": "STUPID",
+          "play_count": 334752,
+          "uri": "spotify:track:73zoJOtMEpGqWLGIOCChSz"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 18625917,
+      "track_count": 89,
+      "mean_views": 209279,
+      "max_views": 2919149,
+      "albums": [
+        {
+          "title": "B:COMPLETE (2023)",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "ABSOLUTE (2023)",
+              "video_id": "dgmxOAgPebI",
+              "youtube_views": 15197
+            },
+            {
+              "title": "SHINING STARS (2023)",
+              "video_id": "acdnH_CgiZ4",
+              "youtube_views": 16209
+            },
+            {
+              "title": "BREATHE (2023)",
+              "video_id": "HaTN-0f4wsA",
+              "youtube_views": 21752
+            },
+            {
+              "title": "FRIEND ZONE (2023)",
+              "video_id": "Hu0cQolYjLI",
+              "youtube_views": 8832
+            },
+            {
+              "title": "LIGHT ME UP (2023)",
+              "video_id": "-zazxihYpLU",
+              "youtube_views": 8349
+            },
+            {
+              "title": "DANCE FOR TWO (2023)",
+              "video_id": "4fwccADDUo8",
+              "youtube_views": 10123
+            },
+            {
+              "title": "HOLLYWOOD (2023)",
+              "video_id": "_Cs9J-B-5Zo",
+              "youtube_views": 8015
+            },
+            {
+              "title": "ABSOLUTE (Instrumental)",
+              "video_id": "iofi3KD4vqs",
+              "youtube_views": 3661
+            },
+            {
+              "title": "SHINING STARS (Instrumental)",
+              "video_id": "icF_Kl_TPTc",
+              "youtube_views": 3581
+            },
+            {
+              "title": "BREATHE (Instrumental)",
+              "video_id": "hKASqOQ_I0w",
+              "youtube_views": 6609
+            },
+            {
+              "title": "FRIEND ZONE (Instrumental)",
+              "video_id": "L20kBoXFjSA",
+              "youtube_views": 2203
+            },
+            {
+              "title": "LIGHT ME UP (Instrumental)",
+              "video_id": "rn2OVKV7hP4",
+              "youtube_views": 1809
+            },
+            {
+              "title": "DANCE FOR TWO (Instrumental)",
+              "video_id": "rkVUgzBvYqE",
+              "youtube_views": 1817
+            },
+            {
+              "title": "HOLLYWOOD (Instrumental)",
+              "video_id": "7Cpa3wFaYOE",
+              "youtube_views": 2480
+            }
+          ]
+        },
+        {
+          "title": "TAKE A CHANCE",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Paranoia",
+              "video_id": "YxJSTWTNRBA",
+              "youtube_views": 87847
+            },
+            {
+              "title": "Sugarcoat",
+              "video_id": "R3d5wd4xbJw",
+              "youtube_views": 295706
+            },
+            {
+              "title": "Weightless",
+              "video_id": "eXuooTnWPGw",
+              "youtube_views": 145936
+            },
+            {
+              "title": "Complicated",
+              "video_id": "VMQJLfcNPBk",
+              "youtube_views": 312790
+            },
+            {
+              "title": "Resonance",
+              "video_id": "1EQoYLb2GXs",
+              "youtube_views": 125548
+            },
+            {
+              "title": "Crow",
+              "video_id": "KAsvj0I-5gk",
+              "youtube_views": 112786
+            },
+            {
+              "title": "CHANCE (Korean Version)",
+              "video_id": "uebAKDuJN04",
+              "youtube_views": 37181
+            }
+          ]
+        },
+        {
+          "title": "MO’ COMPLETE",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "SHOWDOWN",
+              "video_id": "iAbmRedPA2M",
+              "youtube_views": 110374
+            },
+            {
+              "title": "LEVEL UP",
+              "video_id": "-2_ZLpde8EM",
+              "youtube_views": 128680
+            },
+            {
+              "title": "CHERRY",
+              "video_id": "1nsVQAC_Vpo",
+              "youtube_views": 805572
+            },
+            {
+              "title": "DOWN FOR YOU",
+              "video_id": "G88pu_5e4bQ",
+              "youtube_views": 205935
+            },
+            {
+              "title": "DO YOU REMEMBER",
+              "video_id": "AZHXkR2nZJ8",
+              "youtube_views": 341317
+            },
+            {
+              "title": "STAY WITH ME",
+              "video_id": "Q5wGBqAISug",
+              "youtube_views": 187924
+            },
+            {
+              "title": "BELIEVE",
+              "video_id": "mS8vkwQC4Yc",
+              "youtube_views": 135089
+            },
+            {
+              "title": "OFF THE RECORD",
+              "video_id": "JgkpNQSMte8",
+              "youtube_views": 181709
+            },
+            {
+              "title": "SIMPLE LOVER",
+              "video_id": "PWHrJp5O1GA",
+              "youtube_views": 122133
+            },
+            {
+              "title": "3\"",
+              "video_id": "UCwZLEHR1KE",
+              "youtube_views": 154748
+            }
+          ]
+        },
+        {
+          "title": "SALUTE: A NEW HOPE",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "APRICITY",
+              "video_id": "Mk6JD-fh5xs",
+              "youtube_views": 327011
+            },
+            {
+              "title": "STAY YOUNG",
+              "video_id": "FIuKEffTcgc",
+              "youtube_views": 905744
+            },
+            {
+              "title": "ENCORE (feat. ABNEW)",
+              "video_id": "H3cgGgjGaa0",
+              "youtube_views": 343486
+            },
+            {
+              "title": "MIRROR",
+              "video_id": "G1Cwit-Dqnw",
+              "youtube_views": 38234
+            },
+            {
+              "title": "SALUTE",
+              "video_id": "JyhnO1rvbBE",
+              "youtube_views": 27966
+            },
+            {
+              "title": "HEAVEN",
+              "video_id": "9nImgu8mSh4",
+              "youtube_views": 40029
+            },
+            {
+              "title": "MAYBE",
+              "video_id": "22wqcqeDBOw",
+              "youtube_views": 24647
+            },
+            {
+              "title": "BLOOM",
+              "video_id": "5YGCcp8SBIc",
+              "youtube_views": 33634
+            },
+            {
+              "title": "BEHIND YOU",
+              "video_id": "83RMuZcwB80",
+              "youtube_views": 29710
+            },
+            {
+              "title": "SURREAL (Alternative Rock Mix)",
+              "video_id": "XGQuP9JSZ-o",
+              "youtube_views": 235258
+            },
+            {
+              "title": "BLIND FOR LOVE (Nu Disco Mix)",
+              "video_id": "8-6A_vD4c9Q",
+              "youtube_views": 153429
+            },
+            {
+              "title": "SALUTE (Instrumental)",
+              "video_id": "vy6NLzDLrig",
+              "youtube_views": 19746
+            },
+            {
+              "title": "STAY YOUNG (Instrumental)",
+              "video_id": "iS66pCAe6dY",
+              "youtube_views": 19716
+            }
+          ]
+        },
+        {
+          "title": "6IXENSE",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "BE THERE",
+              "video_id": "qh7SbsdXrIo",
+              "youtube_views": 252708
+            },
+            {
+              "title": "BLIND FOR LOVE",
+              "video_id": "yoAsSkc3t3o",
+              "youtube_views": 1300602
+            },
+            {
+              "title": "DANDELION",
+              "video_id": "k-HBKakBiw0",
+              "youtube_views": 475062
+            },
+            {
+              "title": "SUNSET",
+              "video_id": "AYQ1-THqGzo",
+              "youtube_views": 219764
+            },
+            {
+              "title": "_AND ME",
+              "video_id": "WRMaQeCozRk",
+              "youtube_views": 244950
+            },
+            {
+              "title": "LOVE AIR",
+              "video_id": "RJ_4iUOJQ04",
+              "youtube_views": 378160
+            },
+            {
+              "title": "PRETTY",
+              "video_id": "3n2CLV2XvR0",
+              "youtube_views": 377075
+            },
+            {
+              "title": "SHADOW",
+              "video_id": "7UXnKRWcMbg",
+              "youtube_views": 212144
+            },
+            {
+              "title": "DEEP INSIDE",
+              "video_id": "L2hsmAN1_FE",
+              "youtube_views": 201788
+            },
+            {
+              "title": "D.R.E.A.M",
+              "video_id": "_94Kv6BnVIc",
+              "youtube_views": 155994
+            },
+            {
+              "title": "NOTHING WITHOUT YOU",
+              "video_id": "6ztMDj09Ir4",
+              "youtube_views": 351473
+            }
+          ]
+        },
+        {
+          "title": "So Sweet (0522)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "So Sweet (0522)",
+              "video_id": "v2QsMYk0E-g",
+              "youtube_views": 63546
+            }
+          ]
+        },
+        {
+          "title": "A Minute, A Second",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "A Minute, A Second",
+              "video_id": "vFXU768Lb2E",
+              "youtube_views": 2048803
+            },
+            {
+              "title": "A Minute, A Second (Instrumental)",
+              "video_id": "SkL5aJ0g5rc",
+              "youtube_views": 2585
+            }
+          ]
+        },
+        {
+          "title": "UPSIDE DOWN",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Square Up",
+              "video_id": "vlTiaadPZ_w",
+              "youtube_views": 81149
+            },
+            {
+              "title": "STUPID",
+              "video_id": "E4H9TE1CXDw",
+              "youtube_views": 2919149
+            },
+            {
+              "title": "Friday Trouble",
+              "video_id": "7WYZLPPesKk",
+              "youtube_views": 72068
+            },
+            {
+              "title": "A Million Dreams",
+              "video_id": "tS7Idjij-p8",
+              "youtube_views": 104299
+            },
+            {
+              "title": "Plan for You",
+              "video_id": "8p8clUyDHII",
+              "youtube_views": 134685
+            }
+          ]
+        },
+        {
+          "title": "BORN LIKE THIS",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "In My Vein",
+              "video_id": "z7K9EuqYf7I",
+              "youtube_views": 99735
+            },
+            {
+              "title": "NVKED",
+              "video_id": "NxB66OOm6Ek",
+              "youtube_views": 234292
+            },
+            {
+              "title": "Forever Young",
+              "video_id": "52x9clcuwfs",
+              "youtube_views": 218687
+            },
+            {
+              "title": "Hurt Me",
+              "video_id": "VzIeZk0AXwo",
+              "youtube_views": 110967
+            },
+            {
+              "title": "Butterfly Effect",
+              "video_id": "y7bD7oWkoLc",
+              "youtube_views": 218666
+            }
+          ]
+        },
+        {
+          "title": "Find YOU",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "KILL ME",
+              "video_id": "0q5QkKjliBY",
+              "youtube_views": 54421
+            },
+            {
+              "title": "F_ix YoU",
+              "video_id": "aokddR4_6Kc",
+              "youtube_views": 27411
+            },
+            {
+              "title": "Just do it!",
+              "video_id": "ML64PT7rGIQ",
+              "youtube_views": 54558
+            },
+            {
+              "title": "Top Tier (Rock Version)",
+              "video_id": "x-AcMbWNWB4",
+              "youtube_views": 14129
+            }
+          ]
+        },
+        {
+          "title": "TRAP / GRAB ME - Japanese ver. -",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "TRAP",
+              "video_id": "nKcOSrC30Bg",
+              "youtube_views": 45602
+            },
+            {
+              "title": "GRAB ME - Japanese ver. -",
+              "video_id": "EHeaB1bNXU4",
+              "youtube_views": 8538
+            },
+            {
+              "title": "SUCKER - Japanese ver. -",
+              "video_id": "0wOWMEHh3O0",
+              "youtube_views": 14174
+            },
+            {
+              "title": "ILY - Japanese ver. -",
+              "video_id": "6CLV9ax6GDo",
+              "youtube_views": 20442
+            },
+            {
+              "title": "TRAP (Instrumental)",
+              "video_id": "gaCrrMif1wI",
+              "youtube_views": 1402
+            }
+          ]
+        },
+        {
+          "title": "GRAB ME - Japanese ver. -",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "GRAB ME - Japanese ver. -",
+              "video_id": "FIyJmz2_VX4",
+              "youtube_views": 13861
+            }
+          ]
+        },
+        {
+          "title": "THE FUTURE IS OURS: FOUND",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "WHISTLE",
+              "video_id": "x_9zn9w8pm0",
+              "youtube_views": 121286
+            },
+            {
+              "title": "GRAB ME",
+              "video_id": "Tl_VaneAUL0",
+              "youtube_views": 444526
+            },
+            {
+              "title": "TRAVELER",
+              "video_id": "TOfcKvKc8BQ",
+              "youtube_views": 230878
+            },
+            {
+              "title": "ALL NIGHT",
+              "video_id": "xosdJjdE5bk",
+              "youtube_views": 109385
+            },
+            {
+              "title": "ILY (I LOVE YOU)",
+              "video_id": "vGMSnDsxWUM",
+              "youtube_views": 200027
+            }
+          ]
+        },
+        {
+          "title": "Siren",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SIREN",
+              "video_id": "voqNXg-0Tik",
+              "youtube_views": 132710
+            }
+          ]
+        },
+        {
+          "title": "THE FUTURE IS OURS: LOST",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "BLAZE",
+              "video_id": "Ojn2GMxLyLI",
+              "youtube_views": 164617
+            },
+            {
+              "title": "LOSER",
+              "video_id": "IKQW0EDml20",
+              "youtube_views": 377252
+            },
+            {
+              "title": "REALITY",
+              "video_id": "vwoT7jc7Z8k",
+              "youtube_views": 97557
+            },
+            {
+              "title": "EDEN",
+              "video_id": "8b3-GTKY-0s",
+              "youtube_views": 48400
+            },
+            {
+              "title": "SUCKER",
+              "video_id": "j-e84skayoc",
+              "youtube_views": 165868
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

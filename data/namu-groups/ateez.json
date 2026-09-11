@@ -740,5 +740,598 @@
       "누적_써클": "-",
       "비고": "Waiting For You"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 4568533,
+      "spotify_id": "68KmkJeZGfwe1OUaivBa2L",
+      "top_tracks": [
+        {
+          "title": "Adrenaline",
+          "play_count": 17612911,
+          "uri": "spotify:track:2VKGO4DNyUK5UxCQB3b3DF"
+        },
+        {
+          "title": "NASA",
+          "play_count": 9832534,
+          "uri": "spotify:track:48G4rDLisHuVgCKg872Tu5"
+        },
+        {
+          "title": "Ice On My Teeth",
+          "play_count": 94745066,
+          "uri": "spotify:track:2QAFTMHp7NeuyM6P2SiB7U"
+        },
+        {
+          "title": "BOUNCY (K-HOT CHILLI PEPPERS)",
+          "play_count": 177022958,
+          "uri": "spotify:track:7Lhm9BUglm30Q6Fb1Fl2By"
+        },
+        {
+          "title": "In Your Fantasy",
+          "play_count": 54824876,
+          "uri": "spotify:track:3Z4BxvgOJ8KupcDIV3OV2f"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 187693130,
+      "track_count": 91,
+      "mean_views": 2062561,
+      "max_views": 24216582,
+      "albums": [
+        {
+          "title": "Ashes to Light",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Ash",
+              "video_id": "QPCvaiYTpB4",
+              "youtube_views": 1827387
+            },
+            {
+              "title": "12 Midnight",
+              "video_id": "Bi2VT1ANg0k",
+              "youtube_views": 501590
+            },
+            {
+              "title": "Tippy Toes",
+              "video_id": "m_eiaI8Gygg",
+              "youtube_views": 712782
+            },
+            {
+              "title": "FACE",
+              "video_id": "ShO-_A2aJ20",
+              "youtube_views": 392723
+            },
+            {
+              "title": "Crescendo",
+              "video_id": "C6nthI1TuD4",
+              "youtube_views": 402726
+            },
+            {
+              "title": "NOT OKAY",
+              "video_id": "sTED8IDqaCg",
+              "youtube_views": 112614
+            },
+            {
+              "title": "Days",
+              "video_id": "v0l4rfN1KmU",
+              "youtube_views": 138502
+            },
+            {
+              "title": "Birthday",
+              "video_id": "uTgz0u40D_I",
+              "youtube_views": 90238
+            },
+            {
+              "title": "Forevermore",
+              "video_id": "dYeYqYXaKtg",
+              "youtube_views": 128843
+            }
+          ]
+        },
+        {
+          "title": "GOLDEN HOUR : Part.3 'In Your Fantasy Edition'",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Lemon Drop",
+              "video_id": "T6S6mvc7qO4",
+              "youtube_views": 362127
+            },
+            {
+              "title": "Masterpiece",
+              "video_id": "x-X_-3bpDKI",
+              "youtube_views": 433345
+            },
+            {
+              "title": "Now this house ain't a home",
+              "video_id": "2r5hcx2kUmQ",
+              "youtube_views": 353531
+            },
+            {
+              "title": "Castle",
+              "video_id": "k9LWEVMBc8g",
+              "youtube_views": 504134
+            },
+            {
+              "title": "Bridge : The Edge of Reality",
+              "video_id": "_vaThMbegPY",
+              "youtube_views": 272093
+            },
+            {
+              "title": "In Your Fantasy",
+              "video_id": "CeGTCxqjbo8",
+              "youtube_views": 10508351
+            },
+            {
+              "title": "NO1 (HONGJOONG)",
+              "video_id": "bwOrcc7voic",
+              "youtube_views": 1757421
+            },
+            {
+              "title": "Skin (SEONGHWA)",
+              "video_id": "isVzwVsp3Kg",
+              "youtube_views": 1882872
+            },
+            {
+              "title": "Slide to me (YUNHO)",
+              "video_id": "nqM1aQXF0fI",
+              "youtube_views": 1606333
+            },
+            {
+              "title": "Legacy (YEOSANG)",
+              "video_id": "4uGd7twhyGs",
+              "youtube_views": 2112176
+            },
+            {
+              "title": "Creep (SAN)",
+              "video_id": "EZJ_bno6x4Y",
+              "youtube_views": 2386580
+            },
+            {
+              "title": "ROAR (MINGI)",
+              "video_id": "Cv0MpuV0wG8",
+              "youtube_views": 1763566
+            },
+            {
+              "title": "Sagittarius (WOOYOUNG)",
+              "video_id": "khEVPPwB2ss",
+              "youtube_views": 1196588
+            },
+            {
+              "title": "To be your light (JONGHO)",
+              "video_id": "cnhSo9LIt1M",
+              "youtube_views": 1529669
+            },
+            {
+              "title": "In Your Fantasy (Korean Ver.)",
+              "video_id": "0QW7dMhSpak",
+              "youtube_views": 1599425
+            }
+          ]
+        },
+        {
+          "title": "THE WORLD EP.FIN : WILL",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "WE KNOW",
+              "video_id": "910397KV1uE",
+              "youtube_views": 2503745
+            },
+            {
+              "title": "Emergency",
+              "video_id": "lD7QRNykbg8",
+              "youtube_views": 1566575
+            },
+            {
+              "title": "Crazy Form",
+              "video_id": "_db-mfu8y1k",
+              "youtube_views": 23963790
+            },
+            {
+              "title": "ARRIBA",
+              "video_id": "_Pd5fZDV33M",
+              "youtube_views": 5310827
+            },
+            {
+              "title": "Silver Light",
+              "video_id": "rMx4Mdv46zY",
+              "youtube_views": 3952485
+            },
+            {
+              "title": "Crescent Part.2",
+              "video_id": "h7mCmsMP9UU",
+              "youtube_views": 548438
+            },
+            {
+              "title": "Dreamy Day",
+              "video_id": "-DscbD-vYgk",
+              "youtube_views": 1949528
+            },
+            {
+              "title": "MATZ (HONGJOONG, SEONGHWA)",
+              "video_id": "_U8Meoo04_o",
+              "youtube_views": 3545391
+            },
+            {
+              "title": "IT′s You (YEOSANG, SAN, WOOYOUNG)",
+              "video_id": "I_QUZnmm-JY",
+              "youtube_views": 5847732
+            },
+            {
+              "title": "Youth (YUNHO, MINGI)",
+              "video_id": "hWNudhMk6qs",
+              "youtube_views": 1980142
+            },
+            {
+              "title": "Everything (JONGHO)",
+              "video_id": "WUxLwpewsos",
+              "youtube_views": 1636363
+            },
+            {
+              "title": "FIN : WILL",
+              "video_id": "MCG0DJLeEyo",
+              "youtube_views": 500699
+            }
+          ]
+        },
+        {
+          "title": "ZERO : FEVER EPILOGUE",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Turbulence",
+              "video_id": "2DPIsnB4RM0",
+              "youtube_views": 3622635
+            },
+            {
+              "title": "Be With You",
+              "video_id": "uKkut0RbWIs",
+              "youtube_views": 496198
+            },
+            {
+              "title": "The Letter",
+              "video_id": "m7KREJ2rKcM",
+              "youtube_views": 469438
+            },
+            {
+              "title": "Still Here (Korean Version)",
+              "video_id": "a1PnjsWjCSA",
+              "youtube_views": 772783
+            },
+            {
+              "title": "Better (Korean Version)",
+              "video_id": "eUloGWHblRs",
+              "youtube_views": 207799
+            },
+            {
+              "title": "The Real (Heung Version)",
+              "video_id": "9kBKZ7Ck12E",
+              "youtube_views": 3798341
+            },
+            {
+              "title": "WAVE (Overture)",
+              "video_id": "j5g7c49wBlc",
+              "youtube_views": 117559
+            },
+            {
+              "title": "WONDERLAND (Symphony No.9 \"From The Wonderland\")",
+              "video_id": "J2x8Q-4Evwo",
+              "youtube_views": 1406742
+            },
+            {
+              "title": "Answer (Ode to Joy)",
+              "video_id": "_Agjk5K6Nd8",
+              "youtube_views": 327120
+            },
+            {
+              "title": "Outro : Over the Horizon",
+              "video_id": "C65nVxvsWwI",
+              "youtube_views": 64214
+            }
+          ]
+        },
+        {
+          "title": "ZERO : FEVER Part.2",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Fireworks (I'm The One)",
+              "video_id": "I13s-OlK_gA",
+              "youtube_views": 3216309
+            },
+            {
+              "title": "The Leaders",
+              "video_id": "7vGGzN70KeA",
+              "youtube_views": 1320037
+            },
+            {
+              "title": "Time Of Love",
+              "video_id": "4EM1sG60oBw",
+              "youtube_views": 281783
+            },
+            {
+              "title": "Take Me Home",
+              "video_id": "uqgzjv8FM3c",
+              "youtube_views": 1435258
+            },
+            {
+              "title": "Celebrate",
+              "video_id": "bPdk7T_csy4",
+              "youtube_views": 270963
+            },
+            {
+              "title": "Take Me Home (English Version)",
+              "video_id": "bC6Mb0mkgaY",
+              "youtube_views": 321007
+            },
+            {
+              "title": "I'm The One (HEAT-TOPPING Version)",
+              "video_id": "hxqShndDiVI",
+              "youtube_views": 213159
+            }
+          ]
+        },
+        {
+          "title": "ZERO : FEVER Part.1",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Dear Diary : 2016.07.29",
+              "video_id": "XHLtcKcWi1k",
+              "youtube_views": 78062
+            },
+            {
+              "title": "FEVER",
+              "video_id": "KfLFF_XuPlA",
+              "youtube_views": 1147997
+            },
+            {
+              "title": "THANXX",
+              "video_id": "uYF2ztCcByA",
+              "youtube_views": 2985737
+            },
+            {
+              "title": "TO THE BEAT",
+              "video_id": "PnPw5CD1Mzo",
+              "youtube_views": 711925
+            },
+            {
+              "title": "INCEPTION",
+              "video_id": "6rMxKrS1FLI",
+              "youtube_views": 4534719
+            },
+            {
+              "title": "Good Lil Boy",
+              "video_id": "Q6h1ucZC7VM",
+              "youtube_views": 510652
+            },
+            {
+              "title": "One Day At A Time",
+              "video_id": "AvuJkaLSSnw",
+              "youtube_views": 442367
+            }
+          ]
+        },
+        {
+          "title": "GOLDEN HOUR : Part.4",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Ghost",
+              "video_id": "qDpEcO1hlZE",
+              "youtube_views": 1102241
+            },
+            {
+              "title": "Adrenaline",
+              "video_id": "3441HgQwUs4",
+              "youtube_views": 4818463
+            },
+            {
+              "title": "NASA",
+              "video_id": "YiDWK3z9Gz0",
+              "youtube_views": 2591790
+            },
+            {
+              "title": "On The Road",
+              "video_id": "uYmTzfKmISQ",
+              "youtube_views": 938612
+            },
+            {
+              "title": "Choose",
+              "video_id": "7FxVIGoowZ0",
+              "youtube_views": 281255
+            }
+          ]
+        },
+        {
+          "title": "Waiting for You (Original Soundtrack from Last Summer)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Waiting for You",
+              "video_id": "CIbMs90GQu0",
+              "youtube_views": 334903
+            },
+            {
+              "title": "Waiting for You (Instrumental)",
+              "video_id": "wB57ZNUT0eQ",
+              "youtube_views": 13937
+            }
+          ]
+        },
+        {
+          "title": "Choose",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Choose",
+              "video_id": "p119468NiY0",
+              "youtube_views": 1352556
+            }
+          ]
+        },
+        {
+          "title": "From (2018)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "From (2018)",
+              "video_id": "aXNPPBlLDqI",
+              "youtube_views": 184226
+            },
+            {
+              "title": "From (2022 EDM Remix Ver.)",
+              "video_id": "EEAajNkrxXI",
+              "youtube_views": 62511
+            }
+          ]
+        },
+        {
+          "title": "GOLDEN HOUR : Part.3",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Lemon Drop",
+              "video_id": "uqf0DWHyFkM",
+              "youtube_views": 10035075
+            },
+            {
+              "title": "Masterpiece",
+              "video_id": "Gon1wrj62-w",
+              "youtube_views": 1933894
+            },
+            {
+              "title": "Now this house ain't a home",
+              "video_id": "MpoJLjNgX9o",
+              "youtube_views": 1386426
+            },
+            {
+              "title": "Castle",
+              "video_id": "doWVVntzWqM",
+              "youtube_views": 2503129
+            },
+            {
+              "title": "Bridge : The Edge of Reality",
+              "video_id": "DRg3LFaQKnE",
+              "youtube_views": 502086
+            }
+          ]
+        },
+        {
+          "title": "SMB (w/ Hongjoong of ATEEZ)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SMB (w/ Hongjoong of ATEEZ)",
+              "video_id": "i6DC_qE1DGw",
+              "youtube_views": 3606964
+            }
+          ]
+        },
+        {
+          "title": "Ice On My Teeth (English Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Ice On My Teeth",
+              "video_id": "srhNRjLiU4c",
+              "youtube_views": 90223
+            },
+            {
+              "title": "Ice On My Teeth (English Ver.)",
+              "video_id": "Q7dttcA7irk",
+              "youtube_views": 1649308
+            }
+          ]
+        },
+        {
+          "title": "GOLDEN HOUR : Part.2",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "DEEP DIVE",
+              "video_id": "Zs2bVRlV9AY",
+              "youtube_views": 2418650
+            },
+            {
+              "title": "Scene 1 : Value",
+              "video_id": "6zlmJjmX3H8",
+              "youtube_views": 473845
+            },
+            {
+              "title": "Ice On My Teeth",
+              "video_id": "rFP1m4-H-tY",
+              "youtube_views": 24216582
+            },
+            {
+              "title": "Man on Fire",
+              "video_id": "gqutH1gIFFs",
+              "youtube_views": 3381629
+            },
+            {
+              "title": "Selfish Waltz",
+              "video_id": "nqqd_VLaVmg",
+              "youtube_views": 3428579
+            },
+            {
+              "title": "Enough",
+              "video_id": "XPLm9hK7HWs",
+              "youtube_views": 2378595
+            }
+          ]
+        },
+        {
+          "title": "Birthday",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Birthday",
+              "video_id": "MmXmjyOjShQ",
+              "youtube_views": 1262655
+            },
+            {
+              "title": "Royal",
+              "video_id": "a1ZgAjaHlBw",
+              "youtube_views": 116272
+            },
+            {
+              "title": "Forevermore",
+              "video_id": "R9M2tQZlrcY",
+              "youtube_views": 759202
+            },
+            {
+              "title": "Birthday (Instrumental)",
+              "video_id": "YyJQNO8OI28",
+              "youtube_views": 74754
+            },
+            {
+              "title": "Royal (Instrumental)",
+              "video_id": "GZp948TQaPM",
+              "youtube_views": 56472
+            },
+            {
+              "title": "Forevermore (Instrumental)",
+              "video_id": "I6Y6IQE_AeE",
+              "youtube_views": 29820
+            }
+          ]
+        },
+        {
+          "title": "Royal",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Royal",
+              "video_id": "CuyW0f4gZWg",
+              "youtube_views": 1074341
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

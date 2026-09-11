@@ -449,5 +449,566 @@
       "누적_써클": "-",
       "비고": "시작"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 606519,
+      "spotify_id": "5V1qsQHdXNm4ZEZHWvFnqQ",
+      "top_tracks": [
+        {
+          "title": "BOCA",
+          "play_count": 67428285,
+          "uri": "spotify:track:2u7p3Bzkv8h0Yx7w7R370n"
+        },
+        {
+          "title": "Scream",
+          "play_count": 61298628,
+          "uri": "spotify:track:7FxshQAsTWmogWU959hz3T"
+        },
+        {
+          "title": "Deja Vu",
+          "play_count": 42526635,
+          "uri": "spotify:track:3qvfE7DGsIlkWzKMOS4gAm"
+        },
+        {
+          "title": "BEcause",
+          "play_count": 35387847,
+          "uri": "spotify:track:0ufYP4HLjzVSLUsGKCIQJH"
+        },
+        {
+          "title": "JUSTICE",
+          "play_count": 11861358,
+          "uri": "spotify:track:4GyhMaDPEILMPp62PUjP3j"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 68274853,
+      "track_count": 87,
+      "mean_views": 784768,
+      "max_views": 5102769,
+      "albums": [
+        {
+          "title": "[Apocalypse : Save us]",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Intro : Save us",
+              "video_id": "fQdwh1J9Qj4",
+              "youtube_views": 103965
+            },
+            {
+              "title": "Locked Inside A Door",
+              "video_id": "Noc8Ba1IKFc",
+              "youtube_views": 578603
+            },
+            {
+              "title": "MAISON",
+              "video_id": "R-oIFbcT0jo",
+              "youtube_views": 2463845
+            },
+            {
+              "title": "Starlight",
+              "video_id": "DcUQp2Cf_04",
+              "youtube_views": 1715573
+            },
+            {
+              "title": "Together",
+              "video_id": "yL9xPI2yx5g",
+              "youtube_views": 378841
+            },
+            {
+              "title": "Always",
+              "video_id": "BG8cSvSMG7k",
+              "youtube_views": 356503
+            },
+            {
+              "title": "Skit : The seven doors",
+              "video_id": "NOLnXKl44-I",
+              "youtube_views": 77337
+            },
+            {
+              "title": "Cherry (Real Miracle) (JI U SOLO)",
+              "video_id": "E5eK-IiNv3Q",
+              "youtube_views": 258128
+            },
+            {
+              "title": "No Dot (SU A SOLO)",
+              "video_id": "h_4GnYgwimE",
+              "youtube_views": 388770
+            },
+            {
+              "title": "Entrancing (SIYEON SOLO)",
+              "video_id": "xg_L7I2WklM",
+              "youtube_views": 977025
+            },
+            {
+              "title": "Winter (HANDONG SOLO)",
+              "video_id": "RNkoEA1gnQc",
+              "youtube_views": 214020
+            },
+            {
+              "title": "For (YOOHYEON SOLO)",
+              "video_id": "0_6fDYFfg1k",
+              "youtube_views": 209175
+            },
+            {
+              "title": "Beauty Full (DAMI SOLO)",
+              "video_id": "34SQwXg91LY",
+              "youtube_views": 250212
+            },
+            {
+              "title": "Playground (GAHYEON SOLO)",
+              "video_id": "GtUUHDh1Dy0",
+              "youtube_views": 250064
+            }
+          ]
+        },
+        {
+          "title": "[Dystopia : Road to Utopia]",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Intro (Intro)",
+              "video_id": "VK2t4Ogj52c",
+              "youtube_views": 95613
+            },
+            {
+              "title": "Odd Eye (Odd Eye)",
+              "video_id": "LTTfzK-ADzQ",
+              "youtube_views": 3176272
+            },
+            {
+              "title": "Wind Blows (바람아 (Wind Blows))",
+              "video_id": "-5QnPKlsXsE",
+              "youtube_views": 721740
+            },
+            {
+              "title": "Poison Love (Poison Love)",
+              "video_id": "birF2goL-k8",
+              "youtube_views": 543319
+            },
+            {
+              "title": "4 Memory (4 Memory)",
+              "video_id": "MDEt3qs5lNc",
+              "youtube_views": 621839
+            },
+            {
+              "title": "New days (시간의 틈 (New days))",
+              "video_id": "dhbiIYS08lI",
+              "youtube_views": 1246514
+            },
+            {
+              "title": "Odd Eye (Inst.) (Odd Eye (Inst.))",
+              "video_id": "C1f8BZQikMk",
+              "youtube_views": 61050
+            }
+          ]
+        },
+        {
+          "title": "1st Album [Dystopia : The Tree of Language]",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Intro (Intro)",
+              "video_id": "GIeeboBgdgo",
+              "youtube_views": 77411
+            },
+            {
+              "title": "Scream (Scream)",
+              "video_id": "467pNurQeM8",
+              "youtube_views": 5102769
+            },
+            {
+              "title": "Tension (Tension)",
+              "video_id": "pXzRb-5L9aw",
+              "youtube_views": 759038
+            },
+            {
+              "title": "Red Sun (Red Sun)",
+              "video_id": "7vtd3mLaVeg",
+              "youtube_views": 1077540
+            },
+            {
+              "title": "Black Or White (Black Or White)",
+              "video_id": "-QAJjjOvaF8",
+              "youtube_views": 1444624
+            },
+            {
+              "title": "Jazz Bar (Jazz Bar)",
+              "video_id": "V4m11THQv9I",
+              "youtube_views": 1098718
+            },
+            {
+              "title": "SAHARA (SAHARA)",
+              "video_id": "VCH2rFuh6dU",
+              "youtube_views": 631955
+            },
+            {
+              "title": "In The Frozen (In The Frozen)",
+              "video_id": "GK9d465bJe8",
+              "youtube_views": 720342
+            },
+            {
+              "title": "Daybreak (새벽)",
+              "video_id": "LoLNM9Q3xtE",
+              "youtube_views": 430877
+            },
+            {
+              "title": "Full Moon (Full Moon)",
+              "video_id": "IGXZ3NWhdlw",
+              "youtube_views": 1056993
+            },
+            {
+              "title": "Over the Sky (하늘을 넘어)",
+              "video_id": "ZiQrmRDVtVA",
+              "youtube_views": 100389
+            },
+            {
+              "title": "Outro (Outro)",
+              "video_id": "vRdgotzK2Zg",
+              "youtube_views": 41919
+            },
+            {
+              "title": "Scream (Inst.) (Scream (Inst.))",
+              "video_id": "KC3trXZcrwQ",
+              "youtube_views": 91347
+            },
+            {
+              "title": "Paradise (Paradise)",
+              "video_id": "Xssv8g_cGr8",
+              "youtube_views": 1049420
+            }
+          ]
+        },
+        {
+          "title": "The Beginning of The End",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "INTRO",
+              "video_id": "sZJblBnvy7A",
+              "youtube_views": 129879
+            },
+            {
+              "title": "Breaking Out",
+              "video_id": "hT3zvwOpPVE",
+              "youtube_views": 790585
+            },
+            {
+              "title": "My Way～この道の先へ～",
+              "video_id": "hm1dYdDKS9M",
+              "youtube_views": 322022
+            },
+            {
+              "title": "Chase Me (Japanese ver.)",
+              "video_id": "LPBIO2B6BEI",
+              "youtube_views": 147588
+            },
+            {
+              "title": "GOOD NIGHT (Japanese ver.)",
+              "video_id": "EDbvV8tLu5E",
+              "youtube_views": 277693
+            },
+            {
+              "title": "Wonderland (Japanese ver.)",
+              "video_id": "s6xu5S-MAOQ",
+              "youtube_views": 52690
+            },
+            {
+              "title": "PIRI～笛を吹け～ (Japanese ver.)",
+              "video_id": "lUIqjU5603o",
+              "youtube_views": 100630
+            },
+            {
+              "title": "What (Japanese ver.)",
+              "video_id": "O8FfqkPvlxE",
+              "youtube_views": 69351
+            },
+            {
+              "title": "I MISS YOU",
+              "video_id": "IWzCsl6dIao",
+              "youtube_views": 574495
+            },
+            {
+              "title": "また一人になった (Japanese ver.)",
+              "video_id": "oxLfVoBOhaY",
+              "youtube_views": 159472
+            },
+            {
+              "title": "YOU AND I (Japanese ver.)",
+              "video_id": "6B4sh12t48w",
+              "youtube_views": 211440
+            },
+            {
+              "title": "OUTRO",
+              "video_id": "lG2-McUApbA",
+              "youtube_views": 63494
+            }
+          ]
+        },
+        {
+          "title": "[My Christmas Sweet Love]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "My Christmas Sweet Love (My Christmas Sweet Love)",
+              "video_id": "I1WkrWo-zug",
+              "youtube_views": 132443
+            },
+            {
+              "title": "Jazz Bar (Carol ver.) (Jazz Bar (Carol ver.))",
+              "video_id": "hdrvfx_C_0k",
+              "youtube_views": 156794
+            },
+            {
+              "title": "Wonderland (Carol ver.) (Wonderland (Carol ver.))",
+              "video_id": "vrSMh0ARKcM",
+              "youtube_views": 170420
+            }
+          ]
+        },
+        {
+          "title": "[VirtuouS]",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Intro : 7' Dreamcatcher (Intro : 7' Dreamcatcher)",
+              "video_id": "dh7ewTpgAGE",
+              "youtube_views": 191463
+            },
+            {
+              "title": "JUSTICE (JUSTICE)",
+              "video_id": "cTbSrtZTqgw",
+              "youtube_views": 3352978
+            },
+            {
+              "title": "STΦMP! (STΦMP!)",
+              "video_id": "5SInKyWgl4U",
+              "youtube_views": 711618
+            },
+            {
+              "title": "2 Rings (2 Rings)",
+              "video_id": "45vTDmQLKRw",
+              "youtube_views": 617209
+            },
+            {
+              "title": "Fireflies (Fireflies)",
+              "video_id": "uCJFerjy9dA",
+              "youtube_views": 876929
+            }
+          ]
+        },
+        {
+          "title": "[VillainS]",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Intro : This My Fashion (Intro : This My Fashion)",
+              "video_id": "CWGCwKCP_0k",
+              "youtube_views": 189862
+            },
+            {
+              "title": "OOTD (OOTD)",
+              "video_id": "5sE36Kv2miM",
+              "youtube_views": 2340324
+            },
+            {
+              "title": "Rising (Rising)",
+              "video_id": "Fbmcb11fh0w",
+              "youtube_views": 1339008
+            },
+            {
+              "title": "Shatter (Shatter)",
+              "video_id": "SecHjKKYCRk",
+              "youtube_views": 807995
+            },
+            {
+              "title": "We Are Young (We Are Young)",
+              "video_id": "jsEzGTVx_qg",
+              "youtube_views": 726880
+            }
+          ]
+        },
+        {
+          "title": "BONVOYAGE (Farewell Ver.) ([BONVOYAGE (Farewell Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BONVOYAGE (Farewell Ver.) (BONVOYAGE (Farewell Ver.))",
+              "video_id": "F2AQDrUI6Kw",
+              "youtube_views": 518657
+            }
+          ]
+        },
+        {
+          "title": "[Apocalypse : From us]",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Intro : From us (Intro : From us)",
+              "video_id": "jDNGxy93cI8",
+              "youtube_views": 246413
+            },
+            {
+              "title": "BONVOYAGE (BONVOYAGE)",
+              "video_id": "S80eJh2YIPM",
+              "youtube_views": 4419333
+            },
+            {
+              "title": "DEMIAN (DEMIAN)",
+              "video_id": "7DK8Acq81t4",
+              "youtube_views": 1344435
+            },
+            {
+              "title": "Propose (Propose)",
+              "video_id": "KzqwSxhBf9Y",
+              "youtube_views": 1591308
+            },
+            {
+              "title": "To. You (To. You)",
+              "video_id": "ttK_mfVmsWE",
+              "youtube_views": 781526
+            }
+          ]
+        },
+        {
+          "title": "[REASON]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "REASON",
+              "video_id": "SeVuERhF9eY",
+              "youtube_views": 1852093
+            },
+            {
+              "title": "REASON (Instrumental)",
+              "video_id": "fxBe8YaDTH0",
+              "youtube_views": 35315
+            }
+          ]
+        },
+        {
+          "title": "[Apocalypse : Follow us]",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Intro : Chaotical X",
+              "video_id": "uVIQiuLtu1g",
+              "youtube_views": 89059
+            },
+            {
+              "title": "VISION",
+              "video_id": "x6U9t_vhONY",
+              "youtube_views": 2223730
+            },
+            {
+              "title": "Fairytale",
+              "video_id": "1EVbRMmxPfg",
+              "youtube_views": 2549345
+            },
+            {
+              "title": "Some Love",
+              "video_id": "jIyBiNSwUJo",
+              "youtube_views": 321934
+            },
+            {
+              "title": "Rainy Day",
+              "video_id": "4dvDcXsqBAM",
+              "youtube_views": 194694
+            },
+            {
+              "title": "Outro : Mother Nature",
+              "video_id": "ilsEd5VmBCI",
+              "youtube_views": 52937
+            }
+          ]
+        },
+        {
+          "title": "[Summer Holiday]",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Intro",
+              "video_id": "cm6KUDLU7CY",
+              "youtube_views": 66532
+            },
+            {
+              "title": "BEcause",
+              "video_id": "Rvqk9aMLpck",
+              "youtube_views": 3909395
+            },
+            {
+              "title": "Airplane",
+              "video_id": "-dP-GPp6jFg",
+              "youtube_views": 285881
+            },
+            {
+              "title": "Whistle",
+              "video_id": "Mhn-vzU1Hd4",
+              "youtube_views": 1572796
+            },
+            {
+              "title": "Alldaylong",
+              "video_id": "h-xwPPWnAPE",
+              "youtube_views": 362575
+            },
+            {
+              "title": "A Heart of Sunflower",
+              "video_id": "MxpRGl737cU",
+              "youtube_views": 435174
+            }
+          ]
+        },
+        {
+          "title": "Eclipse",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Eclipse",
+              "video_id": "wmmgVqoe-YI",
+              "youtube_views": 1142542
+            },
+            {
+              "title": "NO MORE",
+              "video_id": "7hpKRCn896Y",
+              "youtube_views": 184180
+            },
+            {
+              "title": "Don't light my fire",
+              "video_id": "_r2LYookCz8",
+              "youtube_views": 709953
+            },
+            {
+              "title": "Eclipse (Instrumental)",
+              "video_id": "QFCUrLImALk",
+              "youtube_views": 102557
+            },
+            {
+              "title": "NO MORE (Instrumental)",
+              "video_id": "CWEZN1hXf54",
+              "youtube_views": 66041
+            },
+            {
+              "title": "Don't light my fire (Instrumental)",
+              "video_id": "ox37s4ttyYQ",
+              "youtube_views": 78283
+            }
+          ]
+        },
+        {
+          "title": "Eclipse TV Size",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Eclipse TV Size",
+              "video_id": "mU2ok2aTeFk",
+              "youtube_views": 253153
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

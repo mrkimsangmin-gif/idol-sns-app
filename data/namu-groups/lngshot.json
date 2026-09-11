@@ -133,5 +133,145 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 4659941,
+      "spotify_id": "2F4oTJOWkcD1JaTeKEa9h6",
+      "top_tracks": [
+        {
+          "title": "Moonwalkin'",
+          "play_count": 45606971,
+          "uri": "spotify:track:46V2ciN6F5bxjQWityNhkY"
+        },
+        {
+          "title": "Never Let Go",
+          "play_count": 26257982,
+          "uri": "spotify:track:37xebnhvUyM8VyyDDeo65d"
+        },
+        {
+          "title": "Saucin'",
+          "play_count": 20106646,
+          "uri": "spotify:track:7jVr1ZipYJJR4qHxZcQjqa"
+        },
+        {
+          "title": "FaceTime",
+          "play_count": 16314801,
+          "uri": "spotify:track:7Ji60z4V0d0IUbuZMkpjJa"
+        },
+        {
+          "title": "Backseat",
+          "play_count": 7981451,
+          "uri": "spotify:track:2xsZMSE32OCHKWe4A8sM0w"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 38333114,
+      "track_count": 16,
+      "mean_views": 2395819,
+      "max_views": 12240551,
+      "albums": [
+        {
+          "title": "4SHOBOIZ MIXTAPE",
+          "year": "2026",
+          "tracks": [
+            {
+              "title": "Are You Ready",
+              "video_id": "Zl-LzXzy4vc",
+              "youtube_views": 1640372
+            },
+            {
+              "title": "Trust Myself",
+              "video_id": "qKtVcH37Ihs",
+              "youtube_views": 411101
+            },
+            {
+              "title": "Thinking",
+              "video_id": "9kvTYChGqdk",
+              "youtube_views": 1012303
+            },
+            {
+              "title": "All Good",
+              "video_id": "Xs8JrAhxLBk",
+              "youtube_views": 482707
+            },
+            {
+              "title": "Ejeh",
+              "video_id": "5NoVzjDuVvg",
+              "youtube_views": 783160
+            },
+            {
+              "title": "Next 2 U",
+              "video_id": "UiWzYvtDGqU",
+              "youtube_views": 1744789
+            },
+            {
+              "title": "My Side",
+              "video_id": "Z7hPWfi5o2U",
+              "youtube_views": 827460
+            },
+            {
+              "title": "Next 2 U (Sped Up)",
+              "video_id": "T1pZgHAhS0w",
+              "youtube_views": 293703
+            },
+            {
+              "title": "Next 2 U (Carol Remix)",
+              "video_id": "Bh53A8O2RYc",
+              "youtube_views": 551476
+            },
+            {
+              "title": "Next 2 U (Carol Remix) (Sped Up)",
+              "video_id": "5q7ukX83_Ac",
+              "youtube_views": 306673
+            }
+          ]
+        },
+        {
+          "title": "SHOT CALLERS",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Backseat",
+              "video_id": "aFFf203Klig",
+              "youtube_views": 1490726
+            },
+            {
+              "title": "Saucin'",
+              "video_id": "zQ0dUWvLbOg",
+              "youtube_views": 1640036
+            },
+            {
+              "title": "Moonwalkin'",
+              "video_id": "H5O5TKumLwc",
+              "youtube_views": 12240551
+            },
+            {
+              "title": "FaceTime",
+              "video_id": "jOPyzs69N7U",
+              "youtube_views": 4069737
+            },
+            {
+              "title": "Never Let Go",
+              "video_id": "1kcOvEtdFt4",
+              "youtube_views": 6656080
+            }
+          ]
+        },
+        {
+          "title": "Saucin'",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Saucin'",
+              "video_id": "txJ0khveuJI",
+              "youtube_views": 4182240
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

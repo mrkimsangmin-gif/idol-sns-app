@@ -623,5 +623,358 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 445188,
+      "spotify_id": "6hhqsQZhtp9hfaZhSd0VSD",
+      "top_tracks": [
+        {
+          "title": "Bloom hour",
+          "play_count": 678135,
+          "uri": "spotify:track:0sTy2p3PUkU55Hda1rAiFq"
+        },
+        {
+          "title": "Secret",
+          "play_count": 24117147,
+          "uri": "spotify:track:1OIb1AalkGikhzCRbWgchd"
+        },
+        {
+          "title": "As You Wish",
+          "play_count": 23376418,
+          "uri": "spotify:track:42zMiF3EFBg5CsYbgKdhj1"
+        },
+        {
+          "title": "Save Me, Save You",
+          "play_count": 24775406,
+          "uri": "spotify:track:20yOiJHRQGirFYehRSIb6i"
+        },
+        {
+          "title": "Mirror",
+          "play_count": 183808,
+          "uri": "spotify:track:0Ps6ei3b7IcDiEO7Fey16c"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 89440208,
+      "track_count": 49,
+      "mean_views": 1825310,
+      "max_views": 20203771,
+      "albums": [
+        {
+          "title": "HAPPY MOMENT",
+          "year": "2017",
+          "tracks": [
+            {
+              "title": "HAPPY",
+              "video_id": "ks2K7niq7Yc",
+              "youtube_views": 3468281
+            },
+            {
+              "title": "Miracle (기적 같은 아이)",
+              "video_id": "mhc4dArEQ74",
+              "youtube_views": 1027037
+            },
+            {
+              "title": "Mr. BADBOY",
+              "video_id": "S3qW0KLO0DE",
+              "youtube_views": 213287
+            },
+            {
+              "title": "SUGAR",
+              "video_id": "PZkzfj7V1V0",
+              "youtube_views": 224962
+            },
+            {
+              "title": "Babyface",
+              "video_id": "M2wCxfJrMqU",
+              "youtube_views": 445989
+            },
+            {
+              "title": "Plop Plop (퐁당퐁당)",
+              "video_id": "wZPWxQzKV7U",
+              "youtube_views": 131246
+            },
+            {
+              "title": "Follow Me",
+              "video_id": "NlRtvhEQoC0",
+              "youtube_views": 163198
+            },
+            {
+              "title": "B.B.B.Boo",
+              "video_id": "3Qk7Fo1flSs",
+              "youtube_views": 75525
+            },
+            {
+              "title": "Geeminy",
+              "video_id": "8Vreed0NWFo",
+              "youtube_views": 229350
+            },
+            {
+              "title": "Closer to you (지금 만나러 가요)",
+              "video_id": "OMHXZDpD7dg",
+              "youtube_views": 293712
+            }
+          ]
+        },
+        {
+          "title": "Bloom hour",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Bloom hour",
+              "video_id": "McynaplE44Q",
+              "youtube_views": 761473
+            },
+            {
+              "title": "Mirror",
+              "video_id": "b2e0JxnNpOQ",
+              "youtube_views": 198412
+            }
+          ]
+        },
+        {
+          "title": "Sequence",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Last Sequence (Last Sequence)",
+              "video_id": "jsqzpyuzttk",
+              "youtube_views": 5905208
+            },
+            {
+              "title": "Done (Done)",
+              "video_id": "W9SsBaVEXJY",
+              "youtube_views": 1198555
+            },
+            {
+              "title": "Stronger (Sung by Dawon & Yeonjung) (Stronger (Sung by 다원&연정))",
+              "video_id": "EiP6wyWhg4A",
+              "youtube_views": 274160
+            }
+          ]
+        },
+        {
+          "title": "Let Me In",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Let Me In",
+              "video_id": "WHWHZJc84Zs",
+              "youtube_views": 345190
+            }
+          ]
+        },
+        {
+          "title": "it's Live X 우주소녀",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Baby Baby (it's Live Ver.)",
+              "video_id": "l8cT9wc983U",
+              "youtube_views": 85008
+            }
+          ]
+        },
+        {
+          "title": "UNNATURAL",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "UNNATURAL (UNNATURAL)",
+              "video_id": "hdLUzyW0Q5g",
+              "youtube_views": 20203771
+            },
+            {
+              "title": "Last Dance (Last Dance)",
+              "video_id": "26y8ihHAyhA",
+              "youtube_views": 1594942
+            },
+            {
+              "title": "SUPER MOON (원하는 모든 걸 (SUPER MOON))",
+              "video_id": "k1jy8fkiDcA",
+              "youtube_views": 751887
+            },
+            {
+              "title": "New Me (New Me)",
+              "video_id": "Xbwu7KA0aUc",
+              "youtube_views": 722484
+            },
+            {
+              "title": "YALLA (음 (YALLA))",
+              "video_id": "Turk44vZnHM",
+              "youtube_views": 1467864
+            },
+            {
+              "title": "REWIND (잊지 마 (나의 우주))",
+              "video_id": "5gYXnwgvi0c",
+              "youtube_views": 437499
+            }
+          ]
+        },
+        {
+          "title": "Neverland",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "BUTTERFLY (BUTTERFLY)",
+              "video_id": "JDjvrT4i4f8",
+              "youtube_views": 4927749
+            },
+            {
+              "title": "HOLA (HOLA)",
+              "video_id": "eltcoM-_eQA",
+              "youtube_views": 753532
+            },
+            {
+              "title": "Pantomime (Pantomime)",
+              "video_id": "NeNocuufXiI",
+              "youtube_views": 2449523
+            },
+            {
+              "title": "Where You Are (바램)",
+              "video_id": "6ZzHUMYz07w",
+              "youtube_views": 865514
+            },
+            {
+              "title": "Tra-la (불꽃놀이)",
+              "video_id": "7k888RbFM4Y",
+              "youtube_views": 1354976
+            },
+            {
+              "title": "Our Garden (우리의 정원)",
+              "video_id": "MmTn5fQXfYY",
+              "youtube_views": 787096
+            }
+          ]
+        },
+        {
+          "title": "As You Wish",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "As You Wish (이루리)",
+              "video_id": "Jz1Mqg_-SRk",
+              "youtube_views": 19115999
+            },
+            {
+              "title": "Luckitty-cat (행운을 빌어)",
+              "video_id": "KFkVUdb4w5o",
+              "youtube_views": 859686
+            },
+            {
+              "title": "LIGHTS UP (야광별)",
+              "video_id": "D6SLIu0r-Bk",
+              "youtube_views": 338180
+            },
+            {
+              "title": "WW (우와)",
+              "video_id": "zxY91-rG8-o",
+              "youtube_views": 473447
+            },
+            {
+              "title": "BADABOOM (BADABOOM (바다붐))",
+              "video_id": "pdXQDPEiI54",
+              "youtube_views": 720200
+            },
+            {
+              "title": "Full Moon (Full Moon)",
+              "video_id": "naVUlaZ-W8k",
+              "youtube_views": 504343
+            },
+            {
+              "title": "Don’t Touch (Don’t Touch)",
+              "video_id": "6A3UIArdmy8",
+              "youtube_views": 312526
+            }
+          ]
+        },
+        {
+          "title": "SPECIAL ALBUM <For the Summer>",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Boogie Up",
+              "video_id": "eWgx2sE4TfM",
+              "youtube_views": 5716571
+            },
+            {
+              "title": "OH MY SUMMER (눈부셔)",
+              "video_id": "3LRlEemieQc",
+              "youtube_views": 422801
+            },
+            {
+              "title": "My Type",
+              "video_id": "bmufFUGH_sk",
+              "youtube_views": 549067
+            },
+            {
+              "title": "Let’s Dance (우리끼리)",
+              "video_id": "Lv38zjoe-P0",
+              "youtube_views": 464878
+            },
+            {
+              "title": "Sugar Pop",
+              "video_id": "t0_c2bhLHzU",
+              "youtube_views": 425702
+            }
+          ]
+        },
+        {
+          "title": "It's a Good Time (Korean Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "It's a Good Time (Korean Version)",
+              "video_id": "as96hGohJ5I",
+              "youtube_views": 16754
+            }
+          ]
+        },
+        {
+          "title": "WJ STAY?",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "La La Love",
+              "video_id": "aokGIgpUfpY",
+              "youtube_views": 3676984
+            },
+            {
+              "title": "You Got",
+              "video_id": "McmfrWlPOqo",
+              "youtube_views": 798786
+            },
+            {
+              "title": "Star (1억개의 별)",
+              "video_id": "K4vQ4GVtdSQ",
+              "youtube_views": 524150
+            },
+            {
+              "title": "Memories (그때 우리)",
+              "video_id": "cWkoQRShKWo",
+              "youtube_views": 729438
+            },
+            {
+              "title": "Cantabile (칸타빌레) (노래하듯이)",
+              "video_id": "7wNNRrYljF0",
+              "youtube_views": 1649844
+            },
+            {
+              "title": "12 O’clock",
+              "video_id": "Dzz35A5Wa3A",
+              "youtube_views": 308650
+            },
+            {
+              "title": "UJUNG (우주정거장)",
+              "video_id": "UZDbUq2ecCU",
+              "youtube_views": 474772
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

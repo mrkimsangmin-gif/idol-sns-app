@@ -125,5 +125,39 @@
       "누적_써클": "",
       "비고": "DUBI DUBI"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2858,
+      "spotify_id": "3gk4e5MsuqJYjKdakIN8Dk",
+      "top_tracks": [
+        {
+          "title": "MAGIC",
+          "play_count": 389688,
+          "uri": "spotify:track:2IBwamLEmcx3xb5yaGxu35"
+        },
+        {
+          "title": "DUBI DUBI",
+          "play_count": 233061,
+          "uri": "spotify:track:6SG8OjKKMAW47MJtJLSnNM"
+        },
+        {
+          "title": "Aphrodite (Rule The World)",
+          "play_count": 236591,
+          "uri": "spotify:track:7qMc5dpqHj1pmqMZR5OpMi"
+        },
+        {
+          "title": "APHRODITE",
+          "play_count": 88510,
+          "uri": "spotify:track:1zmCkiE1LzJyTttHvyQ4fh"
+        },
+        {
+          "title": "ILYSB",
+          "play_count": 64121,
+          "uri": "spotify:track:1F4uqiMcIkfw7R7BNcyo4s"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -296,5 +296,292 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 69108,
+      "spotify_id": "7IkfFdVcI6HrRKuOO9NvX5",
+      "top_tracks": [
+        {
+          "title": "HOME",
+          "play_count": 381678,
+          "uri": "spotify:track:39AIGxDZhfRre2EPJeLQsh"
+        },
+        {
+          "title": "NOT ENOUGH",
+          "play_count": 991104,
+          "uri": "spotify:track:7mlaiNv0po5vSAnp6KYEgF"
+        },
+        {
+          "title": "BYE BYE BYE",
+          "play_count": 5996895,
+          "uri": "spotify:track:69Nn4yZnYo1nw4mfQvNbfU"
+        },
+        {
+          "title": "OVERDRIVE",
+          "play_count": 2436118,
+          "uri": "spotify:track:1iiQ6wFdJz4uGn2a2cGjaG"
+        },
+        {
+          "title": "TWILIGHT",
+          "play_count": 6311270,
+          "uri": "spotify:track:7ruu3WCZipZT9ST11iI7WV"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 7378421,
+      "track_count": 37,
+      "mean_views": 199416,
+      "max_views": 729469,
+      "albums": [
+        {
+          "title": "Wonderland",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "HOME",
+              "video_id": "JXD42HMM4eM",
+              "youtube_views": 223076
+            },
+            {
+              "title": "DOMINO",
+              "video_id": "b8PHF6JVubc",
+              "youtube_views": 69300
+            },
+            {
+              "title": "One In A Million",
+              "video_id": "xycdWML8Maw",
+              "youtube_views": 57006
+            },
+            {
+              "title": "Gravity",
+              "video_id": "pHordhdx54w",
+              "youtube_views": 37069
+            },
+            {
+              "title": "Everglow",
+              "video_id": "uz7AhMqSjfo",
+              "youtube_views": 109380
+            }
+          ]
+        },
+        {
+          "title": "The Feelings",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "NOT ENOUGH (NOT ENOUGH)",
+              "video_id": "oKTdG0lSuAA",
+              "youtube_views": 400483
+            },
+            {
+              "title": "143 ILY (143 ILY)",
+              "video_id": "9czwixq1ZTg",
+              "youtube_views": 64158
+            },
+            {
+              "title": "FAKE LOVE (FAKE LOVE)",
+              "video_id": "jG_wipWMDpU",
+              "youtube_views": 66689
+            },
+            {
+              "title": "Top Shape (Top Shape)",
+              "video_id": "1ReEJYESFAU",
+              "youtube_views": 48048
+            },
+            {
+              "title": "WITHOUT U (겁이나)",
+              "video_id": "J2xOTuZmmNM",
+              "youtube_views": 61612
+            }
+          ]
+        },
+        {
+          "title": "LOVE2YOU",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "LOVE2YOU (LOVE2YOU)",
+              "video_id": "BSHJDpow-bA",
+              "youtube_views": 103594
+            }
+          ]
+        },
+        {
+          "title": "WAVE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "FAKE LOVE (偽物(FAKE LOVE))",
+              "video_id": "lDCK2Kgsy9w",
+              "youtube_views": 81819
+            },
+            {
+              "title": "All Mine (All Mine)",
+              "video_id": "NCoVubiVZnk",
+              "youtube_views": 90687
+            },
+            {
+              "title": "WITHOUT U (怖いんだ(WITHOUT U))",
+              "video_id": "qu4fizr1pgU",
+              "youtube_views": 39238
+            }
+          ]
+        },
+        {
+          "title": "OVERDRIVE (English Ver.) (질주(OVERDRIVE) (English Ver.))",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "OVERDRIVE (English Ver.) (질주(OVERDRIVE) (English Ver.))",
+              "video_id": "1XYk_5MiAsY",
+              "youtube_views": 19694
+            }
+          ]
+        },
+        {
+          "title": "Love Pt.3 : Eternally",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "OVERDRIVE (질주(OVERDRIVE))",
+              "video_id": "6KPPuK2Vx3A",
+              "youtube_views": 729469
+            },
+            {
+              "title": "Be Alright (chillin') (Be Alright (chillin'))",
+              "video_id": "ZHx6hH-kxdI",
+              "youtube_views": 189069
+            },
+            {
+              "title": "Thriller (Thriller)",
+              "video_id": "YS2U4_MJ5Ik",
+              "youtube_views": 137254
+            },
+            {
+              "title": "All Day With You (너의 행성 (All Day With You))",
+              "video_id": "MYKKEpBpt2g",
+              "youtube_views": 138240
+            },
+            {
+              "title": "End of The Day (하루 끝에 (End of The Day))",
+              "video_id": "jwMacONl61k",
+              "youtube_views": 327521
+            }
+          ]
+        },
+        {
+          "title": "Gift For You",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Gift For You (Gift For You)",
+              "video_id": "o3db9vFxCyQ",
+              "youtube_views": 142949
+            },
+            {
+              "title": "If It Snow (눈이 내리면 따스히 안겨줄래요)",
+              "video_id": "Y0aNMLVKv2U",
+              "youtube_views": 192287
+            }
+          ]
+        },
+        {
+          "title": "Love Pt.2 : Passion",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Moonlight (Moonlight)",
+              "video_id": "BeeFLXAjeKg",
+              "youtube_views": 395294
+            },
+            {
+              "title": "Spray (Spray)",
+              "video_id": "rLs1KCHMfkk",
+              "youtube_views": 714319
+            },
+            {
+              "title": "Higher Ground (Higher Ground)",
+              "video_id": "5sPpMGaRLTA",
+              "youtube_views": 113091
+            },
+            {
+              "title": "ROSE (ROSE)",
+              "video_id": "68Rq_tKW264",
+              "youtube_views": 237293
+            },
+            {
+              "title": "Special Holiday (Special Holiday)",
+              "video_id": "xAwJoev0T3Y",
+              "youtube_views": 224711
+            },
+            {
+              "title": "Umbrella (우산)",
+              "video_id": "j1bOQRhA7CI",
+              "youtube_views": 248202
+            }
+          ]
+        },
+        {
+          "title": "Youth",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Maldives (Maldives)",
+              "video_id": "qROlxHiDyi4",
+              "youtube_views": 92424
+            },
+            {
+              "title": "BYE BYE BYE (Japanese Ver) (BYE BYE BYE (Japanese Ver))",
+              "video_id": "VvS0oNfQ3eo",
+              "youtube_views": 10168
+            },
+            {
+              "title": "16番目の星 (Japanese Ver) (16番目の星 (Japanese Ver))",
+              "video_id": "hU9a2N19tQQ",
+              "youtube_views": 41089
+            }
+          ]
+        },
+        {
+          "title": "Love Pt.1 : First Love",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "BLOSSOM (BLOSSOM (피어나))",
+              "video_id": "EUdrE3Y_87g",
+              "youtube_views": 234845
+            },
+            {
+              "title": "Too Bad (Too Bad)",
+              "video_id": "Ez7ENRgjui8",
+              "youtube_views": 682420
+            },
+            {
+              "title": "Super Bumpy (Super Bumpy)",
+              "video_id": "nmAtd0oDgUk",
+              "youtube_views": 250364
+            },
+            {
+              "title": "Know Ya (Know Ya)",
+              "video_id": "REGZTu3hCaM",
+              "youtube_views": 183184
+            },
+            {
+              "title": "Bad Night (Bad Night)",
+              "video_id": "scm8mR3ZpKA",
+              "youtube_views": 302450
+            },
+            {
+              "title": "Bouquet (꽃다발 (Bouquet))",
+              "video_id": "q0-SyuH9rBQ",
+              "youtube_views": 319925
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -219,5 +219,193 @@
       "누적_써클": "-",
       "비고": "수록 음반: OVEREXPOSED"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 542637,
+      "spotify_id": "1gyIB8QvgXCZsEghjwTDL5",
+      "top_tracks": [
+        {
+          "title": "X",
+          "play_count": 5193661,
+          "uri": "spotify:track:2oZ2EKWo51eXQsn83pjNvj"
+        },
+        {
+          "title": "All My Poetry",
+          "play_count": 6694061,
+          "uri": "spotify:track:1qGihPwp76LainqxoRQ4Y0"
+        },
+        {
+          "title": "SOB",
+          "play_count": 2338640,
+          "uri": "spotify:track:4BRfTPaRcWRJZ4BBLZBm16"
+        },
+        {
+          "title": "Snowy Summer",
+          "play_count": 3307682,
+          "uri": "spotify:track:54zyXasoWKZAYt43c8GQvd"
+        },
+        {
+          "title": "Who's Dat? (Jane Doe)",
+          "play_count": 1776966,
+          "uri": "spotify:track:5ePbhKL5ePb8QzcLAmza7a"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 8296779,
+      "track_count": 22,
+      "mean_views": 377126,
+      "max_views": 1259848,
+      "albums": [
+        {
+          "title": "ETERNALT",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Close Your Eyes",
+              "video_id": "ua7-3khdsJ0",
+              "youtube_views": 435658
+            },
+            {
+              "title": "Subtitled",
+              "video_id": "8ZtrICjmMxk",
+              "youtube_views": 300055
+            },
+            {
+              "title": "All My Poetry",
+              "video_id": "9RnNe7OCcUQ",
+              "youtube_views": 1188567
+            },
+            {
+              "title": "How To Dance",
+              "video_id": "MjSfR79Qu54",
+              "youtube_views": 453907
+            },
+            {
+              "title": "Laid Back",
+              "video_id": "Gyxhd1wlrIY",
+              "youtube_views": 301705
+            },
+            {
+              "title": "To The Woods",
+              "video_id": "SrZsFMfjgRo",
+              "youtube_views": 569642
+            },
+            {
+              "title": "Stay 4 Good",
+              "video_id": "-xtl1tX3pmg",
+              "youtube_views": 253516
+            },
+            {
+              "title": "Upside down",
+              "video_id": "ySrqnJJrV50",
+              "youtube_views": 320575
+            }
+          ]
+        },
+        {
+          "title": "The Judge Returns OST Part.1",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "I GOT IT",
+              "video_id": "QVeXL7uNTTc",
+              "youtube_views": 94461
+            },
+            {
+              "title": "I GOT IT (Inst.)",
+              "video_id": "zKX90HQvUMI",
+              "youtube_views": 4919
+            }
+          ]
+        },
+        {
+          "title": "SOB",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SOB",
+              "video_id": "Y1BrHlpRBm4",
+              "youtube_views": 15680
+            }
+          ]
+        },
+        {
+          "title": "blackout",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "X",
+              "video_id": "JrWE54FH6bA",
+              "youtube_views": 1259848
+            },
+            {
+              "title": "SOB",
+              "video_id": "85g2vp2GzXw",
+              "youtube_views": 434937
+            },
+            {
+              "title": "CHIC",
+              "video_id": "gVS-ny3b-kI",
+              "youtube_views": 149155
+            },
+            {
+              "title": "2.0",
+              "video_id": "xFLWHykycvs",
+              "youtube_views": 317490
+            },
+            {
+              "title": "Who's Dat? (Jane Doe)",
+              "video_id": "rdGUerAGSQ4",
+              "youtube_views": 253110
+            },
+            {
+              "title": "X (English Ver.)",
+              "video_id": "YsePN1hN3DQ",
+              "youtube_views": 52585
+            }
+          ]
+        },
+        {
+          "title": "Snowy Summer (Sped Up)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Snowy Summer (Sped Up)",
+              "video_id": "YWhOjAWudaA",
+              "youtube_views": 17114
+            }
+          ]
+        },
+        {
+          "title": "Snowy Summer",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Paint Candy",
+              "video_id": "ZiQ2aXh7vw0",
+              "youtube_views": 440761
+            },
+            {
+              "title": "Snowy Summer",
+              "video_id": "M36yELSAYZ0",
+              "youtube_views": 893326
+            },
+            {
+              "title": "You",
+              "video_id": "iNzwj-YA05c",
+              "youtube_views": 320404
+            },
+            {
+              "title": "Bubble Tea",
+              "video_id": "Rk5Hldq756c",
+              "youtube_views": 219364
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

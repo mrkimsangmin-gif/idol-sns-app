@@ -125,5 +125,121 @@
       "누적_써클": "",
       "비고": "싱글 2집"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 33996,
+      "spotify_id": "6SG8IvJiwNEHdiubaCUFTi",
+      "top_tracks": [
+        {
+          "title": "Babyface",
+          "play_count": 41669,
+          "uri": "spotify:track:5UMIyID7WDBkOpGizVulol"
+        },
+        {
+          "title": "I Like You",
+          "play_count": 471916,
+          "uri": "spotify:track:6RX842AkuW01Sb15Mcix6l"
+        },
+        {
+          "title": "C♡NDY.exe",
+          "play_count": 13521,
+          "uri": "spotify:track:4uUhSon8N1lolWlfzezf19"
+        },
+        {
+          "title": "Spooky",
+          "play_count": 79067,
+          "uri": "spotify:track:2qr3RLW9FaKijDwqB1aeIg"
+        },
+        {
+          "title": "Bubble Bubble",
+          "play_count": 81857,
+          "uri": "spotify:track:1tczXylOqrpwAotqJ2edBb"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 679095,
+      "track_count": 10,
+      "mean_views": 67909,
+      "max_views": 154201,
+      "albums": [
+        {
+          "title": "ODD YOUTH 2nd Single [Babyface]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Babyface",
+              "video_id": "_BzRriQWPwc",
+              "youtube_views": 36475
+            },
+            {
+              "title": "C♡NDY.exe",
+              "video_id": "M7RRVzID9lo",
+              "youtube_views": 5513
+            }
+          ]
+        },
+        {
+          "title": "ODD YOUTH 1st MINI ALBUM [I Like You]",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Spooky",
+              "video_id": "9IUJZrDGp34",
+              "youtube_views": 56835
+            },
+            {
+              "title": "I Like You",
+              "video_id": "DqA1NHQQ-E4",
+              "youtube_views": 153054
+            },
+            {
+              "title": "Bubble Bubble",
+              "video_id": "m4Rf0WloobA",
+              "youtube_views": 73620
+            },
+            {
+              "title": "Hot Chicken",
+              "video_id": "udS-cJfpUW4",
+              "youtube_views": 68166
+            },
+            {
+              "title": "Bestie",
+              "video_id": "jZLkKyA0haA",
+              "youtube_views": 154201
+            }
+          ]
+        },
+        {
+          "title": "Best Friendz (English ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Best Friendz (English ver.)",
+              "video_id": "y6dgWFwL9b8",
+              "youtube_views": 5475
+            }
+          ]
+        },
+        {
+          "title": "Best Friendz",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Best Friendz",
+              "video_id": "pRoJxM2FUf0",
+              "youtube_views": 52241
+            },
+            {
+              "title": "THAT'S ME",
+              "video_id": "ZBrPctLkOCE",
+              "youtube_views": 73515
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

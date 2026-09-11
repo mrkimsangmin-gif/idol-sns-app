@@ -115,5 +115,110 @@
       "누적_써클": "-",
       "비고": "데뷔 음반"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2762,
+      "spotify_id": "43Y3IZ3LrZD1YsSzG5xRxF",
+      "top_tracks": [
+        {
+          "title": "Siren",
+          "play_count": 26337,
+          "uri": "spotify:track:53UlED4EKHBRnl4ZaxL2V1"
+        },
+        {
+          "title": "LUMOS",
+          "play_count": 106691,
+          "uri": "spotify:track:0Qrn3Cy33RjElWdqp7u3sr"
+        },
+        {
+          "title": "ENDLESS DREAM",
+          "play_count": 66514,
+          "uri": "spotify:track:61UuwMzvBnkyIq12ou1oFX"
+        },
+        {
+          "title": "Navigation",
+          "play_count": 97586,
+          "uri": "spotify:track:20tOzB07zW2b3su45EdUQZ"
+        },
+        {
+          "title": "Vuja De",
+          "play_count": 19765,
+          "uri": "spotify:track:5KzupNb9ALi8g5m49yCAaL"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 495256,
+      "track_count": 9,
+      "mean_views": 55028,
+      "max_views": 171320,
+      "albums": [
+        {
+          "title": "Siren",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Siren",
+              "video_id": "-wOuRS_vUHo",
+              "youtube_views": 22537
+            },
+            {
+              "title": "Vuja De",
+              "video_id": "cih2nzWjghc",
+              "youtube_views": 33658
+            },
+            {
+              "title": "Stupid Love",
+              "video_id": "aEg7_IOavBg",
+              "youtube_views": 24480
+            },
+            {
+              "title": "Let me breathe",
+              "video_id": "b7xZk-xBM-4",
+              "youtube_views": 105788
+            }
+          ]
+        },
+        {
+          "title": "ENDLESS DREAM",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ENDLESS DREAM",
+              "video_id": "jeK7niCuvd8",
+              "youtube_views": 51846
+            },
+            {
+              "title": "ENDLESS DREAM (Instrumental)",
+              "video_id": "ix-GYU_hGDw",
+              "youtube_views": 1927
+            }
+          ]
+        },
+        {
+          "title": "LUMOS",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "All I Need",
+              "video_id": "K-CAl9a7ezk",
+              "youtube_views": 34526
+            },
+            {
+              "title": "LUMOS",
+              "video_id": "yiuYfr3j0TM",
+              "youtube_views": 49174
+            },
+            {
+              "title": "Navigation",
+              "video_id": "sv8u9OIvQpE",
+              "youtube_views": 171320
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

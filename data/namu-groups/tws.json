@@ -209,5 +209,222 @@
       "누적_써클": "-",
       "비고": "데뷔 2주년 기념 디지털 싱글"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2623524,
+      "spotify_id": "4GgBKgxhc649frZDHcXIEz",
+      "top_tracks": [
+        {
+          "title": "OVERDRIVE",
+          "play_count": 22552182,
+          "uri": "spotify:track:5qAfVxNUxjrELshgTpWxLf"
+        },
+        {
+          "title": "plot twist",
+          "play_count": 106231604,
+          "uri": "spotify:track:0aZG8KWrpRnsGL0loUkfSj"
+        },
+        {
+          "title": "Nice to see you again (Korean Ver.)",
+          "play_count": 2946236,
+          "uri": "spotify:track:1mX9SZZfCeTbetghcrp8Jr"
+        },
+        {
+          "title": "Countdown!",
+          "play_count": 21147152,
+          "uri": "spotify:track:0ti0CEUPplsI7AZDyexrXy"
+        },
+        {
+          "title": "If I’m S, Can You Be My N?",
+          "play_count": 41582625,
+          "uri": "spotify:track:2y8vRHEoz15sYDmxyrDePO"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 58774775,
+      "track_count": 23,
+      "mean_views": 2555425,
+      "max_views": 16950928,
+      "albums": [
+        {
+          "title": "Nice to see you again (Korean Ver.) (Sped Up Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "다시 만난 오늘 (Sped Up Ver.)",
+              "video_id": "ZtcP5M6uDjA",
+              "youtube_views": 89402
+            }
+          ]
+        },
+        {
+          "title": "Nice to see you again (Korean Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "다시 만난 오늘",
+              "video_id": "oZ3WDJw0VBo",
+              "youtube_views": 3315398
+            }
+          ]
+        },
+        {
+          "title": "TWS 4th Mini Album 'play hard'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Head Shoulders Knees Toes",
+              "video_id": "pePiCzvHUy4",
+              "youtube_views": 184938
+            },
+            {
+              "title": "OVERDRIVE",
+              "video_id": "QPAWJ2FyRRw",
+              "youtube_views": 16802826
+            },
+            {
+              "title": "HOT BLUE SHOES",
+              "video_id": "ixxvaIwteUs",
+              "youtube_views": 459231
+            },
+            {
+              "title": "Caffeine Rush",
+              "video_id": "9HT9oeHE6qc",
+              "youtube_views": 881657
+            },
+            {
+              "title": "overthinking",
+              "video_id": "3VCOhh5_CUE",
+              "youtube_views": 1161422
+            },
+            {
+              "title": "내일이 되어 줄게",
+              "video_id": "fsJN95M8usc",
+              "youtube_views": 1565459
+            }
+          ]
+        },
+        {
+          "title": "Head Shoulders Knees Toes",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Head Shoulders Knees Toes",
+              "video_id": "w06glSSd6fI",
+              "youtube_views": 1548767
+            }
+          ]
+        },
+        {
+          "title": "Kiss Kiss Shy Shy (Korean Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Kiss Kiss Shy Shy (Korean Ver.)",
+              "video_id": "4RTcBgcVtOE",
+              "youtube_views": 984189
+            }
+          ]
+        },
+        {
+          "title": "Nice to see you again",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Nice to see you again",
+              "video_id": "JrW2mH2zMZE",
+              "youtube_views": 3284750
+            },
+            {
+              "title": "BLOOM",
+              "video_id": "Otqy0PzRDJ4",
+              "youtube_views": 137351
+            },
+            {
+              "title": "plot twist (Japanese ver.)",
+              "video_id": "hefvh2m8SUk",
+              "youtube_views": 99906
+            }
+          ]
+        },
+        {
+          "title": "GOOD BOY (Original Television Soundtrack), Pt. 4",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Brand New Day",
+              "video_id": "3gP3srxG_mA",
+              "youtube_views": 577637
+            },
+            {
+              "title": "Brand New Day (Instrumental)",
+              "video_id": "7LE8P054xmM",
+              "youtube_views": 32847
+            }
+          ]
+        },
+        {
+          "title": "BLOOM (feat. Ayumu Imazu)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BLOOM",
+              "video_id": "Bc-hWqZxZ6I",
+              "youtube_views": 1122480
+            }
+          ]
+        },
+        {
+          "title": "plot twist (Japanese ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "plot twist (Japanese ver.)",
+              "video_id": "WU6EK5WH7P8",
+              "youtube_views": 1071986
+            }
+          ]
+        },
+        {
+          "title": "TWS 3rd Mini Album 'TRY WITH US'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Lucky to be loved",
+              "video_id": "GWteb0H9CLs",
+              "youtube_views": 3524396
+            },
+            {
+              "title": "마음 따라 뛰는 건 멋지지 않아?",
+              "video_id": "u0lUMREEyuk",
+              "youtube_views": 16950928
+            },
+            {
+              "title": "Random Play",
+              "video_id": "822qcQBJTao",
+              "youtube_views": 989324
+            },
+            {
+              "title": "Freestyle",
+              "video_id": "X14vqIEhFNg",
+              "youtube_views": 779360
+            },
+            {
+              "title": "심야 영화",
+              "video_id": "Ytnsx8qxDiM",
+              "youtube_views": 1771550
+            },
+            {
+              "title": "GO BACK",
+              "video_id": "eCYiyQSqGOg",
+              "youtube_views": 1438971
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

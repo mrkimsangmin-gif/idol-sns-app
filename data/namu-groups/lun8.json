@@ -219,5 +219,268 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 41125,
+      "spotify_id": "5LkLwB6VSZLQiFkJa9SPOn",
+      "top_tracks": [
+        {
+          "title": "Lost",
+          "play_count": 285243,
+          "uri": "spotify:track:6dlbp9t6McWNc8r8ZXtYvP"
+        },
+        {
+          "title": "SUPER POWER",
+          "play_count": 1302265,
+          "uri": "spotify:track:08hJKTdPxplmXIatRpelrw"
+        },
+        {
+          "title": "Wild Heart",
+          "play_count": 1690831,
+          "uri": "spotify:track:3GXLBTk7l1Bc7bZp18sqZD"
+        },
+        {
+          "title": "WHIP",
+          "play_count": 782418,
+          "uri": "spotify:track:1UlSTGYf4uBep4oWicvvfk"
+        },
+        {
+          "title": "Butterfly",
+          "play_count": 384848,
+          "uri": "spotify:track:6EX2u3rBDR606W9N37iglB"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 939238,
+      "track_count": 31,
+      "mean_views": 30298,
+      "max_views": 144317,
+      "albums": [
+        {
+          "title": "Elevation",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Wild Heart-JP Ver.-",
+              "video_id": "uI4jK4VjWRw",
+              "youtube_views": 872
+            },
+            {
+              "title": "WE JUST",
+              "video_id": "kdo_soEmM2I",
+              "youtube_views": 1849
+            },
+            {
+              "title": "Together Forever",
+              "video_id": "WtWZXiwpcYM",
+              "youtube_views": 1795
+            },
+            {
+              "title": "MOTLEY CREW",
+              "video_id": "7CCkeovE3w4",
+              "youtube_views": 1572
+            },
+            {
+              "title": "Evergreen",
+              "video_id": "ty379fS4dsc",
+              "youtube_views": 1288
+            },
+            {
+              "title": "WHIP -JP Ver.-",
+              "video_id": "LWzwbMLXZfQ",
+              "youtube_views": 599
+            },
+            {
+              "title": "FEAR AND GREED",
+              "video_id": "zKkAVVYdYGc",
+              "youtube_views": 1269
+            },
+            {
+              "title": "Riding High",
+              "video_id": "T7qT0q0wgUc",
+              "youtube_views": 1376
+            },
+            {
+              "title": "My Tune",
+              "video_id": "KdIaqR0Pev4",
+              "youtube_views": 1168
+            },
+            {
+              "title": "LOUDER",
+              "video_id": "jovSYDm3xcc",
+              "youtube_views": 976
+            },
+            {
+              "title": "We're Not Alone",
+              "video_id": "Z4rvPElx6-k",
+              "youtube_views": 967
+            }
+          ]
+        },
+        {
+          "title": "LOST",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Bad Girl (Bad Girl)",
+              "video_id": "oi_DA5_r30k",
+              "youtube_views": 44006
+            },
+            {
+              "title": "Lost (Lost)",
+              "video_id": "MRY2Zf9hFmk",
+              "youtube_views": 98024
+            },
+            {
+              "title": "Nauty (Nauty)",
+              "video_id": "VnT-2zzRCd8",
+              "youtube_views": 53730
+            }
+          ]
+        },
+        {
+          "title": "Riding High",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Riding High",
+              "video_id": "v89dci8mGRM",
+              "youtube_views": 31082
+            }
+          ]
+        },
+        {
+          "title": "WE JUST",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "WE JUST",
+              "video_id": "XK-2iRAv07g",
+              "youtube_views": 24394
+            }
+          ]
+        },
+        {
+          "title": "MOTLEY CREW",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "MOTLEY CREW",
+              "video_id": "laHZejCmg7k",
+              "youtube_views": 18971
+            }
+          ]
+        },
+        {
+          "title": "Butterfly (나비)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Butterfly (나비(Butterfly))",
+              "video_id": "bRnIBX4W_xs",
+              "youtube_views": 126342
+            }
+          ]
+        },
+        {
+          "title": "Together Forever",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Together Forever",
+              "video_id": "bPjtwNph4MM",
+              "youtube_views": 8700
+            },
+            {
+              "title": "We're Not Alone",
+              "video_id": "ZeJn-iUA-xI",
+              "youtube_views": 4215
+            },
+            {
+              "title": "FEAR AND GREED",
+              "video_id": "J_x0wFbx-rE",
+              "youtube_views": 3302
+            },
+            {
+              "title": "WHIP -JP Ver.-",
+              "video_id": "wGGvTv1As34",
+              "youtube_views": 9488
+            },
+            {
+              "title": "Together Forever (Instrumental)",
+              "video_id": "rCXyL7w3pHU",
+              "youtube_views": 2448
+            }
+          ]
+        },
+        {
+          "title": "Weʼre Not Alone",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "We're Not Alone",
+              "video_id": "p1f1giHnbHM",
+              "youtube_views": 13179
+            }
+          ]
+        },
+        {
+          "title": "FEAR AND GREED",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "FEAR AND GREED",
+              "video_id": "RZLSedud0tw",
+              "youtube_views": 12537
+            }
+          ]
+        },
+        {
+          "title": "Together Forever",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Together Forever",
+              "video_id": "301zLVvhoFs",
+              "youtube_views": 144299
+            }
+          ]
+        },
+        {
+          "title": "AWAKENING",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Ride (Ride)",
+              "video_id": "AT5VhU-Qg0E",
+              "youtube_views": 35543
+            },
+            {
+              "title": "WHIP (WHIP)",
+              "video_id": "Sf7FKKJzqMA",
+              "youtube_views": 144317
+            },
+            {
+              "title": "DELULU (DELULU)",
+              "video_id": "WlWT7El8EYA",
+              "youtube_views": 64616
+            },
+            {
+              "title": "Love Trailer (Love Trailer)",
+              "video_id": "JVa-xdHEzWg",
+              "youtube_views": 49890
+            },
+            {
+              "title": "Life is A Movie (Life is A Movie)",
+              "video_id": "z3CiZS7Hu6s",
+              "youtube_views": 36424
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

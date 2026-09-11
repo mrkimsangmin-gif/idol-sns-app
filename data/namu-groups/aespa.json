@@ -724,5 +724,379 @@
       "누적_써클": "-",
       "비고": "WDA (Whole Different Animal)"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 9747975,
+      "spotify_id": "6YVMFz59CuY7ngCxTxjpxE",
+      "top_tracks": [
+        {
+          "title": "Whiplash",
+          "play_count": 361360061,
+          "uri": "spotify:track:6uPnrBgweGOcwjFL4ItAvV"
+        },
+        {
+          "title": "Drama",
+          "play_count": 453249440,
+          "uri": "spotify:track:5XWlyfo0kZ8LF7VSyfS4Ew"
+        },
+        {
+          "title": "Supernova",
+          "play_count": 396857454,
+          "uri": "spotify:track:2VdSktBqFfkW7y6q5Ik4Z4"
+        },
+        {
+          "title": "Rich Man",
+          "play_count": 71245656,
+          "uri": "spotify:track:53xn9j8QEj4RBJa1MlYqFy"
+        },
+        {
+          "title": "Armageddon",
+          "play_count": 310960390,
+          "uri": "spotify:track:5eWcGfUCrVFMoYskyfkEPE"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 973110292,
+      "track_count": 52,
+      "mean_views": 18713659,
+      "max_views": 156238229,
+      "albums": [
+        {
+          "title": "Armageddon - The 1st Album",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Supernova",
+              "video_id": "G8YNFjruzPk",
+              "youtube_views": 73566794
+            },
+            {
+              "title": "Armageddon",
+              "video_id": "BfI89YxNzVY",
+              "youtube_views": 112094043
+            },
+            {
+              "title": "Set The Tone",
+              "video_id": "Dc3iqQnlHjE",
+              "youtube_views": 10347695
+            },
+            {
+              "title": "Mine",
+              "video_id": "sdD2FVQWFIM",
+              "youtube_views": 3482452
+            },
+            {
+              "title": "Licorice",
+              "video_id": "h-_6RkgeXE0",
+              "youtube_views": 2754755
+            },
+            {
+              "title": "BAHAMA",
+              "video_id": "AYga877-Xk0",
+              "youtube_views": 5800691
+            },
+            {
+              "title": "Long Chat (#♥)",
+              "video_id": "yI6kZDGGjKU",
+              "youtube_views": 5128812
+            },
+            {
+              "title": "Prologue",
+              "video_id": "ighpplgZ1lE",
+              "youtube_views": 11484315
+            },
+            {
+              "title": "Live My Life",
+              "video_id": "wUKaEhMQReU",
+              "youtube_views": 43502998
+            },
+            {
+              "title": "목소리 Melody",
+              "video_id": "OqZ82_EXYjA",
+              "youtube_views": 4244356
+            }
+          ]
+        },
+        {
+          "title": "Girls - The 2nd Mini Album",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Girls",
+              "video_id": "MBbqqWqLPlI",
+              "youtube_views": 87368257
+            },
+            {
+              "title": "도깨비불 Illusion",
+              "video_id": "LP9sF1v-vz4",
+              "youtube_views": 101564838
+            },
+            {
+              "title": "Lingo",
+              "video_id": "rxtdwssXyOs",
+              "youtube_views": 5799648
+            },
+            {
+              "title": "Life's Too Short",
+              "video_id": "i2VGa-ETiM4",
+              "youtube_views": 22784850
+            },
+            {
+              "title": "ICU 쉬어가도 돼",
+              "video_id": "aGV_8CYCN3g",
+              "youtube_views": 6207950
+            },
+            {
+              "title": "Life's Too Short (English Version)",
+              "video_id": "11-yKSQera8",
+              "youtube_views": 1272943
+            },
+            {
+              "title": "Black Mamba",
+              "video_id": "zGSF1sy0xC8",
+              "youtube_views": 1460662
+            },
+            {
+              "title": "Forever 약속",
+              "video_id": "i4loHXi8f3A",
+              "youtube_views": 3927239
+            },
+            {
+              "title": "Dreams Come True",
+              "video_id": "zZDdP0V3pVw",
+              "youtube_views": 1117504
+            }
+          ]
+        },
+        {
+          "title": "ATTITUDE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ATTITUDE",
+              "video_id": "CxweSleGHXw",
+              "youtube_views": 268699
+            }
+          ]
+        },
+        {
+          "title": "Keychain (FROM THE FILM K-POPS!)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Keychain (FROM THE FILM K-POPS!)",
+              "video_id": "ZEbmZ18UHbo",
+              "youtube_views": 538987
+            }
+          ]
+        },
+        {
+          "title": "SYNK : aeXIS LINE - 2025 Special Digital Single",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "BLUE (WINTER Solo)",
+              "video_id": "D5MtRNQBVbk",
+              "youtube_views": 2197137
+            },
+            {
+              "title": "Ketchup And Lemonade (NINGNING Solo)",
+              "video_id": "eET3YAZp4rI",
+              "youtube_views": 1790838
+            },
+            {
+              "title": "Tornado (GISELLE Solo)",
+              "video_id": "01JG_6e9P-0",
+              "youtube_views": 2137656
+            },
+            {
+              "title": "GOOD STUFF (KARINA Solo)",
+              "video_id": "hfO7veqkHns",
+              "youtube_views": 5345608
+            }
+          ]
+        },
+        {
+          "title": "Rich Man (English Version)",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Rich Man (feat. Sevdaliza)",
+              "video_id": "afaBdMRxN-g",
+              "youtube_views": 2877955
+            },
+            {
+              "title": "Rich Man (English Version)",
+              "video_id": "pOvd6hP0LSg",
+              "youtube_views": 1697818
+            }
+          ]
+        },
+        {
+          "title": "Rich Man - The 6th Mini Album",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Rich Man",
+              "video_id": "WAQ5_7YFAVo",
+              "youtube_views": 42534320
+            },
+            {
+              "title": "Drift",
+              "video_id": "fzegclGUXnA",
+              "youtube_views": 3577324
+            },
+            {
+              "title": "Bubble",
+              "video_id": "_ZJ6phl6Dnk",
+              "youtube_views": 1154410
+            },
+            {
+              "title": "Count On Me",
+              "video_id": "tQltFn3Rf2g",
+              "youtube_views": 2630362
+            },
+            {
+              "title": "Angel #48",
+              "video_id": "NJBt1I5p8qY",
+              "youtube_views": 3037236
+            },
+            {
+              "title": "To The Girls",
+              "video_id": "5BeV_tLMFSQ",
+              "youtube_views": 2433579
+            }
+          ]
+        },
+        {
+          "title": "Dark Arts",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Dark Arts",
+              "video_id": "b9CCJMJGHJQ",
+              "youtube_views": 11104395
+            },
+            {
+              "title": "Dark Arts (Instrumental)",
+              "video_id": "aXQfXJ_zO24",
+              "youtube_views": 196291
+            }
+          ]
+        },
+        {
+          "title": "Dirty Work",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Dirty Work",
+              "video_id": "w8P-BIQU1qI",
+              "youtube_views": 43587028
+            },
+            {
+              "title": "Dirty Work (feat. Flo Milli)",
+              "video_id": "apNiR1Lej1s",
+              "youtube_views": 1267885
+            },
+            {
+              "title": "Dirty Work (English Version)",
+              "video_id": "3QvWkv6PSm0",
+              "youtube_views": 870504
+            },
+            {
+              "title": "Dirty Work (Instrumental)",
+              "video_id": "-8xSb4IciBA",
+              "youtube_views": 392074
+            }
+          ]
+        },
+        {
+          "title": "Whiplash (English Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Whiplash (English Version)",
+              "video_id": "xgJ13Dt9F14",
+              "youtube_views": 7888307
+            },
+            {
+              "title": "Whiplash (Steve Aoki Remix)",
+              "video_id": "AuE7BEsEcNc",
+              "youtube_views": 1329173
+            },
+            {
+              "title": "Whiplash (English Version) (Sped Up Version)",
+              "video_id": "B9w_ZLg7TnU",
+              "youtube_views": 201251
+            }
+          ]
+        },
+        {
+          "title": "Whiplash - The 5th Mini Album",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Whiplash",
+              "video_id": "7Jan-2W-IdY",
+              "youtube_views": 156238229
+            },
+            {
+              "title": "Kill It",
+              "video_id": "1u20fRjQwRs",
+              "youtube_views": 4912167
+            },
+            {
+              "title": "Flights, Not Feelings",
+              "video_id": "-EoFSXugF_Q",
+              "youtube_views": 3391030
+            },
+            {
+              "title": "Pink Hoodie",
+              "video_id": "LZpRT9A2wIU",
+              "youtube_views": 4258327
+            },
+            {
+              "title": "Flowers",
+              "video_id": "H12HxUS3Id0",
+              "youtube_views": 7099602
+            },
+            {
+              "title": "Just Another Girl",
+              "video_id": "AqNkbuNkmNk",
+              "youtube_views": 5032980
+            }
+          ]
+        },
+        {
+          "title": "SYNK : PARALLEL LINE - Special Digital Single",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "UP (KARINA Solo)",
+              "video_id": "U1_0Vc-9mNw",
+              "youtube_views": 107659741
+            },
+            {
+              "title": "Dopamine (GISELLE Solo)",
+              "video_id": "hz4kvS7_iR8",
+              "youtube_views": 11814261
+            },
+            {
+              "title": "Bored! (NINGNING Solo)",
+              "video_id": "tkfO6s64ucY",
+              "youtube_views": 11858325
+            },
+            {
+              "title": "Spark (WINTER Solo)",
+              "video_id": "ZKnX1ewd1DA",
+              "youtube_views": 17875991
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

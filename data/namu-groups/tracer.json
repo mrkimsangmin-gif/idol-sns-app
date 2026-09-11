@@ -103,5 +103,39 @@
       "누적_써클": "-",
       "비고": "365"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 1367,
+      "spotify_id": "2LKDGThlRyrd4i5Sxr5fD9",
+      "top_tracks": [
+        {
+          "title": "Love Fantasy - Vocal",
+          "play_count": 61708,
+          "uri": "spotify:track:2eT0QrlgX8zdeHZ5NJA4xp"
+        },
+        {
+          "title": "Love Fantasy - Dirty Channels Edit",
+          "play_count": 16730,
+          "uri": "spotify:track:4FQYDGSdm5E4HlZ8bDn72N"
+        },
+        {
+          "title": "In The Dark",
+          "play_count": 3452,
+          "uri": "spotify:track:6ZuixypHzeSQ31EOrcE1Js"
+        },
+        {
+          "title": "Love Fantasy - Instrumental Mix",
+          "play_count": 2147,
+          "uri": "spotify:track:2B3Iu0yOEKtUNd3MgOKtMn"
+        },
+        {
+          "title": "A Mystery To Me",
+          "play_count": 1941,
+          "uri": "spotify:track:4vGZareSMezbbuTPzlJVUc"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

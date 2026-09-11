@@ -148,5 +148,193 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 5158,
+      "spotify_id": "4wdzXgn8T0JnJdLhdplXfw",
+      "top_tracks": [
+        {
+          "title": "Airplane mode",
+          "play_count": 28582,
+          "uri": "spotify:track:2HYVwgmZJvlr6CEqrJa48n"
+        },
+        {
+          "title": "An enduring dream",
+          "play_count": 14296,
+          "uri": "spotify:track:2J9lvd6x49Go0aHVnoiEOu"
+        },
+        {
+          "title": "Sunny side up",
+          "play_count": 14618,
+          "uri": "spotify:track:7tEsWoStj3QGetg0gBTOqM"
+        },
+        {
+          "title": "Want You Back",
+          "play_count": 141900,
+          "uri": "spotify:track:7ou74UI2i1WF9kOULhB8LF"
+        },
+        {
+          "title": "Wonder Land",
+          "play_count": 206256,
+          "uri": "spotify:track:19ebWm29nBXU3nZ1LyFkbf"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1589763,
+      "track_count": 22,
+      "mean_views": 72261,
+      "max_views": 427134,
+      "albums": [
+        {
+          "title": "WHITE FALL",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Airplane mode",
+              "video_id": "J55PjRHXdl4",
+              "youtube_views": 65141
+            },
+            {
+              "title": "Sunny side up",
+              "video_id": "5Ggkxc101Jc",
+              "youtube_views": 13516
+            },
+            {
+              "title": "An enduring dream",
+              "video_id": "zy06XzDQkdg",
+              "youtube_views": 14735
+            },
+            {
+              "title": "Airplane mode (Instrumental)",
+              "video_id": "y813v78fL_4",
+              "youtube_views": 2037
+            }
+          ]
+        },
+        {
+          "title": "Can I Love You",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "사랑해도 될까요",
+              "video_id": "xx9f3Wx2fYA",
+              "youtube_views": 87450
+            },
+            {
+              "title": "사랑해도 될까요 (inst.)",
+              "video_id": "cIwfgBNdxpQ",
+              "youtube_views": 937
+            }
+          ]
+        },
+        {
+          "title": "STAY TUNED",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Be My World",
+              "video_id": "cGlEyiT_YuI",
+              "youtube_views": 22401
+            },
+            {
+              "title": "by",
+              "video_id": "teZwzvXsJK0",
+              "youtube_views": 62783
+            },
+            {
+              "title": "Starlight",
+              "video_id": "DTryILxabWU",
+              "youtube_views": 16965
+            },
+            {
+              "title": "wish",
+              "video_id": "CQqxEcM-xBY",
+              "youtube_views": 18265
+            },
+            {
+              "title": "SLOMO",
+              "video_id": "2OIPZ9jHITI",
+              "youtube_views": 68895
+            },
+            {
+              "title": "COLD AND SHINY",
+              "video_id": "GzjdDAqrO_g",
+              "youtube_views": 22043
+            }
+          ]
+        },
+        {
+          "title": "SPRING CANVAS",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Want You Back",
+              "video_id": "CU3669xNrQA",
+              "youtube_views": 427134
+            },
+            {
+              "title": "SATELLITE",
+              "video_id": "cXptcfkPnCE",
+              "youtube_views": 39780
+            },
+            {
+              "title": "BLUES",
+              "video_id": "1xvfG0utZM4",
+              "youtube_views": 68646
+            },
+            {
+              "title": "day by day (feat. RODA)",
+              "video_id": "8l6KEferTFI",
+              "youtube_views": 53924
+            },
+            {
+              "title": "Pretty good",
+              "video_id": "3CWuEkWZNck",
+              "youtube_views": 209724
+            }
+          ]
+        },
+        {
+          "title": "MIRROR",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "MIRROR",
+              "video_id": "6tu_uNJ1vEo",
+              "youtube_views": 61954
+            }
+          ]
+        },
+        {
+          "title": "Summús",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Summer Ride",
+              "video_id": "wpwYa2AIxGk",
+              "youtube_views": 94437
+            },
+            {
+              "title": "Wonder Land",
+              "video_id": "sy4kyBGiJf4",
+              "youtube_views": 112222
+            },
+            {
+              "title": "In a Dream",
+              "video_id": "r954AirsxNk",
+              "youtube_views": 116198
+            },
+            {
+              "title": "Wonder Land (Instrumental)",
+              "video_id": "TwZyjRjxhZY",
+              "youtube_views": 10576
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

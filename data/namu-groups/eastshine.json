@@ -125,5 +125,39 @@
       "누적_써클": "",
       "비고": "Lucky Tonight"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2454,
+      "spotify_id": "3moiI2AAzmkX2vG3bxyyUl",
+      "top_tracks": [
+        {
+          "title": "Double Down",
+          "play_count": 89542,
+          "uri": "spotify:track:5KyHqQND52Lo6Dv11HX7Rm"
+        },
+        {
+          "title": "Lucky Tonight",
+          "play_count": 30174,
+          "uri": "spotify:track:0tMhpyKCBZWcl4MyB1TNwk"
+        },
+        {
+          "title": "Loveade",
+          "play_count": 18267,
+          "uri": "spotify:track:0PQlKLLBP3RXpc8vkONWQO"
+        },
+        {
+          "title": "No Matter What I Do",
+          "play_count": 44506,
+          "uri": "spotify:track:54GizPMWBqkn63ydkuuO3d"
+        },
+        {
+          "title": "HEARTTHROB",
+          "play_count": 44269,
+          "uri": "spotify:track:3lqYEax1PWMnQXddGBokkU"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

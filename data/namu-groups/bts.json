@@ -539,5 +539,1072 @@
       "누적_써클": "0,111,8**",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 25279712,
+      "spotify_id": "3Nrfpe0tUJi4K4DXYWgMUX",
+      "top_tracks": [
+        {
+          "title": "Life Goes On",
+          "play_count": 994095978,
+          "uri": "spotify:track:5FVbvttjEvQ8r2BgUcJgNg"
+        },
+        {
+          "title": "Dynamite",
+          "play_count": 2233330954,
+          "uri": "spotify:track:5QDLhrAOJJdNAmCTJ8xMyW"
+        },
+        {
+          "title": "My Universe",
+          "play_count": 1579150666,
+          "uri": "spotify:track:46HNZY1i7O6jwTA7Slo2PI"
+        },
+        {
+          "title": "DNA",
+          "play_count": 783746520,
+          "uri": "spotify:track:3uRLwBjI2TahxslcMTvpFs"
+        },
+        {
+          "title": "작은 것들을 위한 시 (Boy With Luv) (feat. Halsey)",
+          "play_count": 1367081794,
+          "uri": "spotify:track:2V7Gxq4QW2Fm4zizDF0V6Z"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 5122158417,
+      "track_count": 181,
+      "mean_views": 28299217,
+      "max_views": 342258863,
+      "albums": [
+        {
+          "title": "BTS WORLD (Original Soundtrack)",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Heartbeat (BTS World Original Soundtrack)",
+              "video_id": "MGOzWCGT97o",
+              "youtube_views": 12148613
+            },
+            {
+              "title": "Dream Glow (BTS World Original Soundtrack) (Pt. 1)",
+              "video_id": "ygPDo-aFW_k",
+              "youtube_views": 2623086
+            },
+            {
+              "title": "A Brand New Day (BTS World Original Soundtrack) (Pt. 2)",
+              "video_id": "FQ24AlLkzCc",
+              "youtube_views": 2812984
+            },
+            {
+              "title": "All Night (BTS World Original Soundtrack) (Pt. 3)",
+              "video_id": "Kjo7Q7e1faI",
+              "youtube_views": 7912356
+            },
+            {
+              "title": "Captain (Namjun Theme) (BTS World Original Soundtrack) (Instrumental)",
+              "video_id": "dRY3J-zd2r8",
+              "youtube_views": 255037
+            },
+            {
+              "title": "Cake Waltz (Jimin Theme) (BTS World Original Soundtrack) (Instrumental)",
+              "video_id": "BgRLGem3c8U",
+              "youtube_views": 256951
+            },
+            {
+              "title": "Shine (Yunki Theme) (BTS World Original Soundtrack) (Instrumental)",
+              "video_id": "rh7z9vk3XEE",
+              "youtube_views": 188176
+            },
+            {
+              "title": "Not Alone (Jeongguk Theme) (BTS World Original Soundtrack) (Instrumental)",
+              "video_id": "I1sX2oAWmaA",
+              "youtube_views": 176485
+            },
+            {
+              "title": "Friends (Hoseok Theme) (BTS World Original Soundtrack) (Instrumental)",
+              "video_id": "yOzCduoVSmA",
+              "youtube_views": 156955
+            },
+            {
+              "title": "Wish (Seok Jin Theme) (BTS World Original Soundtrack) (Instrumental)",
+              "video_id": "YTkMiCzWoZg",
+              "youtube_views": 156818
+            },
+            {
+              "title": "Flying (Taehyung Theme) (BTS World Original Soundtrack) (Instrumental)",
+              "video_id": "o6CdyFsmZJE",
+              "youtube_views": 147986
+            },
+            {
+              "title": "라라라",
+              "video_id": "UkuvHAZmDQI",
+              "youtube_views": 399234
+            },
+            {
+              "title": "니가 있어",
+              "video_id": "rmhho_lxk3o",
+              "youtube_views": 458571
+            },
+            {
+              "title": "니가 있어 (Orchestra Ver.) (Inst.)",
+              "video_id": "eKmv4MNttO0",
+              "youtube_views": 114880
+            }
+          ]
+        },
+        {
+          "title": "Proof",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Born Singer",
+              "video_id": "TbjUXK2M5n8",
+              "youtube_views": 20975418
+            },
+            {
+              "title": "No More Dream",
+              "video_id": "68YNNXEqFR0",
+              "youtube_views": 2634870
+            },
+            {
+              "title": "N.O",
+              "video_id": "hEWEhWABNGs",
+              "youtube_views": 2067126
+            },
+            {
+              "title": "상남자 (Boy In Luv)",
+              "video_id": "uaFalZ8942s",
+              "youtube_views": 2430814
+            },
+            {
+              "title": "Danger",
+              "video_id": "FHH3pGYQe9s",
+              "youtube_views": 2153066
+            },
+            {
+              "title": "I NEED U",
+              "video_id": "n2PC4JEcjAI",
+              "youtube_views": 4214001
+            },
+            {
+              "title": "RUN",
+              "video_id": "Q4eLCp_MPf4",
+              "youtube_views": 3096027
+            },
+            {
+              "title": "불타오르네 (FIRE)",
+              "video_id": "FD01UuaEpAA",
+              "youtube_views": 2331162
+            },
+            {
+              "title": "피 땀 눈물",
+              "video_id": "e2C0usZmdME",
+              "youtube_views": 5639694
+            },
+            {
+              "title": "봄날",
+              "video_id": "PhIVhGbK6Y4",
+              "youtube_views": 2944338
+            },
+            {
+              "title": "DNA",
+              "video_id": "6As6DOG6saY",
+              "youtube_views": 3031618
+            },
+            {
+              "title": "FAKE LOVE",
+              "video_id": "Fhj8MRp2QBk",
+              "youtube_views": 6225482
+            },
+            {
+              "title": "IDOL",
+              "video_id": "TGYIa5HTTsY",
+              "youtube_views": 2470242
+            },
+            {
+              "title": "작은 것들을 위한 시 (Boy With Luv) (Feat. Halsey)",
+              "video_id": "82YCgGc9bDw",
+              "youtube_views": 1647757
+            },
+            {
+              "title": "ON",
+              "video_id": "BquRi4JAmuw",
+              "youtube_views": 2598626
+            },
+            {
+              "title": "Dynamite",
+              "video_id": "DHycmwZxQ0w",
+              "youtube_views": 1646693
+            },
+            {
+              "title": "Life Goes On",
+              "video_id": "5RzKg4j7WTA",
+              "youtube_views": 2679411
+            },
+            {
+              "title": "Butter",
+              "video_id": "LaaXdTqUnp8",
+              "youtube_views": 1492203
+            },
+            {
+              "title": "Yet To Come",
+              "video_id": "Kh0OF8ZE8co",
+              "youtube_views": 41699204
+            },
+            {
+              "title": "달려라 방탄",
+              "video_id": "a4YwJCZRh5M",
+              "youtube_views": 185738211
+            },
+            {
+              "title": "Intro : Persona",
+              "video_id": "JUQhlskWySs",
+              "youtube_views": 1350411
+            },
+            {
+              "title": "Stay",
+              "video_id": "jW_vnhndKdI",
+              "youtube_views": 2704686
+            },
+            {
+              "title": "Moon",
+              "video_id": "4CSioxKTKPM",
+              "youtube_views": 3006648
+            },
+            {
+              "title": "Jamais Vu",
+              "video_id": "t8_T7vKjluw",
+              "youtube_views": 3052767
+            },
+            {
+              "title": "Trivia 轉 : Seesaw",
+              "video_id": "cPynVaEmx1A",
+              "youtube_views": 3653316
+            },
+            {
+              "title": "BTS Cypher PT.3 : KILLER (Feat. Supreme Boi)",
+              "video_id": "VKoos2VNSh0",
+              "youtube_views": 2150046
+            },
+            {
+              "title": "Outro : Ego",
+              "video_id": "1cZGOnHVz4c",
+              "youtube_views": 1215236
+            },
+            {
+              "title": "Her",
+              "video_id": "DJnMyvPVMmM",
+              "youtube_views": 2015539
+            },
+            {
+              "title": "Filter",
+              "video_id": "O-fBGbhmNk4",
+              "youtube_views": 4819775
+            },
+            {
+              "title": "친구",
+              "video_id": "DE3qvZXYuHM",
+              "youtube_views": 2641340
+            },
+            {
+              "title": "Singularity",
+              "video_id": "-ZMKdfM27uA",
+              "youtube_views": 1368478
+            },
+            {
+              "title": "00:00 (Zero O'Clock)",
+              "video_id": "KIVWOe1MHkY",
+              "youtube_views": 2807643
+            },
+            {
+              "title": "Euphoria",
+              "video_id": "FikUbNZhD6M",
+              "youtube_views": 1890472
+            },
+            {
+              "title": "보조개",
+              "video_id": "-arpDPW9mIY",
+              "youtube_views": 1940101
+            },
+            {
+              "title": "Jump (Demo Ver.)",
+              "video_id": "wLmprpAJq7g",
+              "youtube_views": 5
+            },
+            {
+              "title": "애매한 사이",
+              "video_id": "vDO4huEqWGE",
+              "youtube_views": 3
+            },
+            {
+              "title": "상남자 (Demo Ver.)",
+              "video_id": "GJ3kUqx85YI",
+              "youtube_views": 1
+            },
+            {
+              "title": "따옴표",
+              "video_id": "m7AX7S9qJfw",
+              "youtube_views": 2
+            },
+            {
+              "title": "I NEED U (Demo Ver.)",
+              "video_id": "itnHih4nEbQ",
+              "youtube_views": 2
+            },
+            {
+              "title": "흥탄소년단 (Demo Ver.)",
+              "video_id": "hR69F6O9tkM",
+              "youtube_views": 2
+            },
+            {
+              "title": "Tony Montana (with Jimin)",
+              "video_id": "PWtAaYeMeew",
+              "youtube_views": 1
+            },
+            {
+              "title": "Young Forever (RM Demo Ver.)",
+              "video_id": "7W21Ad-vI4c",
+              "youtube_views": 1
+            },
+            {
+              "title": "봄날 (V Demo Ver.)",
+              "video_id": "S_MkS73kgZA",
+              "youtube_views": 3
+            },
+            {
+              "title": "DNA (j-hope Demo Ver.)",
+              "video_id": "QP0NiyZKJdI",
+              "youtube_views": 3
+            },
+            {
+              "title": "Epiphany (Jin Demo Ver.)",
+              "video_id": "lqg2q85TdEs",
+              "youtube_views": 3
+            },
+            {
+              "title": "Seesaw (Demo Ver.)",
+              "video_id": "eLtk4sGv6n0",
+              "youtube_views": 4
+            },
+            {
+              "title": "Still With You (Acapella)",
+              "video_id": "dEVNMOuerro",
+              "youtube_views": 4
+            },
+            {
+              "title": "For Youth",
+              "video_id": "PCupTKYKpmE",
+              "youtube_views": 41628414
+            }
+          ]
+        },
+        {
+          "title": "BE",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Life Goes On",
+              "video_id": "Q6CRKXKpdSM",
+              "youtube_views": 119127116
+            },
+            {
+              "title": "내 방을 여행하는 법",
+              "video_id": "YSuOwf24psk",
+              "youtube_views": 45212422
+            },
+            {
+              "title": "Blue & Grey",
+              "video_id": "amnspvOH-EE",
+              "youtube_views": 74561255
+            },
+            {
+              "title": "Skit",
+              "video_id": "YkGEbnNj48k",
+              "youtube_views": 11050769
+            },
+            {
+              "title": "잠시",
+              "video_id": "jzHtHAg2igc",
+              "youtube_views": 61611287
+            },
+            {
+              "title": "병",
+              "video_id": "rSi4UIWbtM0",
+              "youtube_views": 45372579
+            },
+            {
+              "title": "Stay",
+              "video_id": "evBAiaYal1o",
+              "youtube_views": 36332652
+            },
+            {
+              "title": "Dynamite",
+              "video_id": "HaEYUJ2aRHs",
+              "youtube_views": 342258863
+            }
+          ]
+        },
+        {
+          "title": "MAP OF THE SOUL: 7 ~ THE JOURNEY ~",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "INTRO : Calling",
+              "video_id": "AVnjeh2Vx30",
+              "youtube_views": 10510733
+            },
+            {
+              "title": "Stay Gold",
+              "video_id": "Lc1fggghPnc",
+              "youtube_views": 25227002
+            },
+            {
+              "title": "Boy With Luv (Japanese ver.)",
+              "video_id": "1-YzDt2SXTg",
+              "youtube_views": 3861625
+            },
+            {
+              "title": "Make It Right (Japanese ver.)",
+              "video_id": "dSQZz6EzgxM",
+              "youtube_views": 3896168
+            },
+            {
+              "title": "Dionysus (Japanese ver.)",
+              "video_id": "JdehEA5WYss",
+              "youtube_views": 3259251
+            },
+            {
+              "title": "IDOL (Japanese ver.)",
+              "video_id": "bev5d3Eaqz4",
+              "youtube_views": 2820454
+            },
+            {
+              "title": "Airplane pt.2 (Japanese ver.)",
+              "video_id": "onCtbpYMPpQ",
+              "youtube_views": 1263720
+            },
+            {
+              "title": "FAKE LOVE (Japanese ver.)",
+              "video_id": "6V5QUPZLg5Y",
+              "youtube_views": 2461481
+            },
+            {
+              "title": "Black Swan (Japanese ver.)",
+              "video_id": "74dalENKT9U",
+              "youtube_views": 2334724
+            },
+            {
+              "title": "ON (Japanese ver.)",
+              "video_id": "ErjYs7KrpQA",
+              "youtube_views": 1998020
+            },
+            {
+              "title": "Lights",
+              "video_id": "VD2D7HcI4S8",
+              "youtube_views": 4702753
+            },
+            {
+              "title": "Your eyes tell",
+              "video_id": "KVAt8jwUobI",
+              "youtube_views": 58880566
+            },
+            {
+              "title": "OUTRO : The Journey",
+              "video_id": "x5Jgo6R2N3s",
+              "youtube_views": 2833072
+            }
+          ]
+        },
+        {
+          "title": "Map of the Soul: 7",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Intro : Persona",
+              "video_id": "wUccVthSGCc",
+              "youtube_views": 4482476
+            },
+            {
+              "title": "Boy With Luv (Feat. Halsey)",
+              "video_id": "naRxHSCFoSg",
+              "youtube_views": 6956703
+            },
+            {
+              "title": "Make It Right",
+              "video_id": "p9qYZz8PVDU",
+              "youtube_views": 4276789
+            },
+            {
+              "title": "Jamais Vu",
+              "video_id": "GjNCQEEMz50",
+              "youtube_views": 7819256
+            },
+            {
+              "title": "Dionysus",
+              "video_id": "cU-J6m79k0I",
+              "youtube_views": 12035429
+            },
+            {
+              "title": "Interlude : Shadow",
+              "video_id": "YgBlISXhoP8",
+              "youtube_views": 15806286
+            },
+            {
+              "title": "Black Swan",
+              "video_id": "0vFDPnkoYuQ",
+              "youtube_views": 67234684
+            },
+            {
+              "title": "Filter",
+              "video_id": "dNUnnb8F-Cw",
+              "youtube_views": 133495157
+            },
+            {
+              "title": "My Time",
+              "video_id": "a_zk4JFK43g",
+              "youtube_views": 66159122
+            },
+            {
+              "title": "Louder than bombs",
+              "video_id": "4ZSVbrV4-Xs",
+              "youtube_views": 74876609
+            },
+            {
+              "title": "ON",
+              "video_id": "1o0CtxZ_Cbo",
+              "youtube_views": 99928697
+            },
+            {
+              "title": "UGH!",
+              "video_id": "1yxEmmYQdl8",
+              "youtube_views": 65575078
+            },
+            {
+              "title": "00:00 (Zero O’Clock)",
+              "video_id": "Nr3ot5gSvkM",
+              "youtube_views": 74907140
+            },
+            {
+              "title": "Inner Child",
+              "video_id": "nt4f4pPCEFs",
+              "youtube_views": 38944064
+            },
+            {
+              "title": "Friends",
+              "video_id": "h7mZX8INIYI",
+              "youtube_views": 59248962
+            },
+            {
+              "title": "Moon",
+              "video_id": "F5H3g0UR7CI",
+              "youtube_views": 56841694
+            },
+            {
+              "title": "Respect",
+              "video_id": "53BA0C6dXpY",
+              "youtube_views": 10808264
+            },
+            {
+              "title": "We are Bulletproof : the Eternal",
+              "video_id": "UNdad29_G20",
+              "youtube_views": 64282422
+            },
+            {
+              "title": "Outro : Ego",
+              "video_id": "EWLlUBax4X4",
+              "youtube_views": 19264540
+            },
+            {
+              "title": "ON (Feat. Sia)",
+              "video_id": "AlwmaGcMjNE",
+              "youtube_views": 10180643
+            }
+          ]
+        },
+        {
+          "title": "MAP OF THE SOUL: PERSONA",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "Intro : Persona",
+              "video_id": "PruLsCEzm4Q",
+              "youtube_views": 9333932
+            },
+            {
+              "title": "작은 것들을 위한 시 (Boy with Luv) feat. Halsey",
+              "video_id": "Q-erYa8cwnc",
+              "youtube_views": 214824684
+            },
+            {
+              "title": "소우주 (Mikrokosmos)",
+              "video_id": "Fw7C6IsDYgI",
+              "youtube_views": 123257829
+            },
+            {
+              "title": "Make It Right",
+              "video_id": "cVVs1loGEVg",
+              "youtube_views": 60345652
+            },
+            {
+              "title": "HOME",
+              "video_id": "ghJURdZKq3I",
+              "youtube_views": 128517954
+            },
+            {
+              "title": "Jamais Vu",
+              "video_id": "G3x17KyNJtg",
+              "youtube_views": 24336444
+            },
+            {
+              "title": "Dionysus",
+              "video_id": "DwRndYRTuyw",
+              "youtube_views": 36781835
+            }
+          ]
+        },
+        {
+          "title": "LOVE YOURSELF 結 'Answer'",
+          "year": "2018",
+          "tracks": [
+            {
+              "title": "Euphoria",
+              "video_id": "0D28qd--kRE",
+              "youtube_views": 162831928
+            },
+            {
+              "title": "Trivia 起 : Just Dance",
+              "video_id": "_xjZtbeKd4E",
+              "youtube_views": 22560168
+            },
+            {
+              "title": "Serendipity (Full Length Edition)",
+              "video_id": "gSsCZJM6OG0",
+              "youtube_views": 53104992
+            },
+            {
+              "title": "DNA",
+              "video_id": "SxAvr92fRg4",
+              "youtube_views": 12335140
+            },
+            {
+              "title": "Dimple",
+              "video_id": "BGQveM9aiBM",
+              "youtube_views": 55881493
+            },
+            {
+              "title": "Trivia 承 : Love",
+              "video_id": "GiKZ_4EkYsA",
+              "youtube_views": 15820072
+            },
+            {
+              "title": "Her",
+              "video_id": "PY22BTTb6Vk",
+              "youtube_views": 7358629
+            },
+            {
+              "title": "Singularity",
+              "video_id": "uyWm8DUK06M",
+              "youtube_views": 7478668
+            },
+            {
+              "title": "FAKE LOVE",
+              "video_id": "0tWU94w_3ig",
+              "youtube_views": 10598856
+            },
+            {
+              "title": "The Truth Untold (Feat. Steve Aoki)",
+              "video_id": "WATSk1MEm40",
+              "youtube_views": 20646812
+            },
+            {
+              "title": "Trivia 轉 : Seesaw",
+              "video_id": "NC_Lo8nRqfA",
+              "youtube_views": 61799549
+            },
+            {
+              "title": "Tear",
+              "video_id": "XoXMwHwlugE",
+              "youtube_views": 6129667
+            },
+            {
+              "title": "Epiphany",
+              "video_id": "w5_X-QFwmoo",
+              "youtube_views": 40788297
+            },
+            {
+              "title": "I'm Fine",
+              "video_id": "dyXhcS04MVY",
+              "youtube_views": 29236229
+            },
+            {
+              "title": "IDOL",
+              "video_id": "9IVhjh15ofo",
+              "youtube_views": 88971573
+            },
+            {
+              "title": "Answer : Love Myself",
+              "video_id": "9mwRYgMmSGE",
+              "youtube_views": 68042882
+            },
+            {
+              "title": "Magic Shop",
+              "video_id": "uDK32k8kDaQ",
+              "youtube_views": 18001133
+            },
+            {
+              "title": "Best Of Me",
+              "video_id": "VMqDSntAbC0",
+              "youtube_views": 66820803
+            },
+            {
+              "title": "Airplane pt.2",
+              "video_id": "4DCOsbO27oY",
+              "youtube_views": 13066706
+            },
+            {
+              "title": "Go Go",
+              "video_id": "XqYdxi16K7U",
+              "youtube_views": 13534949
+            },
+            {
+              "title": "Anpanman",
+              "video_id": "wIq2gPdj_68",
+              "youtube_views": 11216868
+            },
+            {
+              "title": "MIC Drop",
+              "video_id": "e95-Gaj2iXM",
+              "youtube_views": 11158874
+            },
+            {
+              "title": "DNA (Pedal 2 LA Mix)",
+              "video_id": "Gx9L1nvgGDg",
+              "youtube_views": 3445717
+            },
+            {
+              "title": "FAKE LOVE (Rocking Vibe Mix)",
+              "video_id": "hwBh13zqlVE",
+              "youtube_views": 6894852
+            },
+            {
+              "title": "MIC Drop (Steve Aoki Remix) (Full Length Edition)",
+              "video_id": "zz1MkneRm6A",
+              "youtube_views": 107013368
+            },
+            {
+              "title": "IDOL (feat. Nicki Minaj)",
+              "video_id": "j0KDmsVVxm8",
+              "youtube_views": 12543394
+            }
+          ]
+        },
+        {
+          "title": "LOVE YOURSELF 轉 'Tear'",
+          "year": "2018",
+          "tracks": [
+            {
+              "title": "Intro : Singularity",
+              "video_id": "qHfqRUzz02k",
+              "youtube_views": 10700401
+            },
+            {
+              "title": "FAKE LOVE",
+              "video_id": "NT8ePWlgx_Y",
+              "youtube_views": 93971182
+            },
+            {
+              "title": "The Truth Untold (Feat. Steve Aoki)",
+              "video_id": "ITc-om9SVr4",
+              "youtube_views": 44666984
+            },
+            {
+              "title": "134340",
+              "video_id": "lu0XVRP_Bfc",
+              "youtube_views": 35907072
+            },
+            {
+              "title": "Paradise",
+              "video_id": "obH7iPDAn2Q",
+              "youtube_views": 39099567
+            },
+            {
+              "title": "Love Maze",
+              "video_id": "n_R0-YosZ3g",
+              "youtube_views": 82253761
+            },
+            {
+              "title": "Magic Shop",
+              "video_id": "38k5zr1e0HI",
+              "youtube_views": 122282301
+            },
+            {
+              "title": "Airplane pt.2",
+              "video_id": "3J9G-PWo2oE",
+              "youtube_views": 51958113
+            },
+            {
+              "title": "Anpanman",
+              "video_id": "EBf6lwkChnQ",
+              "youtube_views": 74487943
+            },
+            {
+              "title": "So What",
+              "video_id": "zdLvqiOmWq4",
+              "youtube_views": 67187502
+            },
+            {
+              "title": "Outro : Tear",
+              "video_id": "639hc_F2TZU",
+              "youtube_views": 20437795
+            }
+          ]
+        },
+        {
+          "title": "FACE YOURSELF",
+          "year": "2018",
+          "tracks": [
+            {
+              "title": "INTRO : Ringwanderung",
+              "video_id": "cu0dWNfbWz8",
+              "youtube_views": 7071477
+            },
+            {
+              "title": "Best Of Me (Japanese ver.)",
+              "video_id": "S8GgBQaxYqs",
+              "youtube_views": 2804562
+            },
+            {
+              "title": "Blood Sweat & Tears (Japanese ver.)",
+              "video_id": "1lkvi6WYeYo",
+              "youtube_views": 1462087
+            },
+            {
+              "title": "DNA (Japanese ver.)",
+              "video_id": "Hr-D4b0KYlw",
+              "youtube_views": 1198030
+            },
+            {
+              "title": "Not Today (Japanese ver.)",
+              "video_id": "MyLuByJIxzA",
+              "youtube_views": 1033804
+            },
+            {
+              "title": "MIC Drop (Japanese ver.)",
+              "video_id": "Z_Z_7zEkL3E",
+              "youtube_views": 445015
+            },
+            {
+              "title": "Don't Leave Me",
+              "video_id": "Cz6BUM4F2tY",
+              "youtube_views": 34258185
+            },
+            {
+              "title": "Go Go (Japanese ver.)",
+              "video_id": "uZgU8vdJgzg",
+              "youtube_views": 2500572
+            },
+            {
+              "title": "Crystal Snow",
+              "video_id": "J--bEkGYR-A",
+              "youtube_views": 14464042
+            },
+            {
+              "title": "Spring Day (Japanese ver.)",
+              "video_id": "zCEjkryAB3Y",
+              "youtube_views": 1117858
+            },
+            {
+              "title": "Let Go",
+              "video_id": "h-wATDal7_0",
+              "youtube_views": 54785972
+            },
+            {
+              "title": "OUTRO : Crack",
+              "video_id": "fgvMss6qhnc",
+              "youtube_views": 1587705
+            }
+          ]
+        },
+        {
+          "title": "Love Yourself 承 'Her'",
+          "year": "2017",
+          "tracks": [
+            {
+              "title": "Intro : Serendipity",
+              "video_id": "f_Q_Gr7q00A",
+              "youtube_views": 9792154
+            },
+            {
+              "title": "DNA",
+              "video_id": "IfemyZEhfpY",
+              "youtube_views": 99473296
+            },
+            {
+              "title": "Best Of Me",
+              "video_id": "iefN_3a0Rqk",
+              "youtube_views": 17829858
+            },
+            {
+              "title": "dimple",
+              "video_id": "n81ceM7rlaw",
+              "youtube_views": 38011796
+            },
+            {
+              "title": "Pied Piper",
+              "video_id": "VEZ_Ui6d9AM",
+              "youtube_views": 149417944
+            },
+            {
+              "title": "Skit : Billboard Music Awards Speech",
+              "video_id": "mbAWv_w3Sw8",
+              "youtube_views": 1689865
+            },
+            {
+              "title": "MIC Drop",
+              "video_id": "RCYDsNxdWkA",
+              "youtube_views": 13481523
+            },
+            {
+              "title": "Go Go",
+              "video_id": "AEm5O3VnKi8",
+              "youtube_views": 72774517
+            },
+            {
+              "title": "Outro : Her",
+              "video_id": "2WvGOE95Rjo",
+              "youtube_views": 3790144
+            }
+          ]
+        },
+        {
+          "title": "A Brand New Day (BTS World Original Soundtrack) [Pt. 2]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "A Brand New Day (BTS World Original Soundtrack) (Pt. 2)",
+              "video_id": "w9ncw2BBLUc",
+              "youtube_views": 282524
+            }
+          ]
+        },
+        {
+          "title": "Dream Glow (BTS World Original Soundtrack) (Pt. 1)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Dream Glow (BTS World Original Soundtrack) (Pt. 1)",
+              "video_id": "0xGCHdpdAtw",
+              "youtube_views": 3821942
+            }
+          ]
+        },
+        {
+          "title": "All Night (BTS World Original Soundtrack) [Pt. 3]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "All Night (BTS World Original Soundtrack) (Pt. 3)",
+              "video_id": "URC_-dPJj1Q",
+              "youtube_views": 1937859
+            }
+          ]
+        },
+        {
+          "title": "Take Two",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Take Two",
+              "video_id": "lwAHfOhOONw",
+              "youtube_views": 52960543
+            }
+          ]
+        },
+        {
+          "title": "The Planet",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "The Planet",
+              "video_id": "3Rh57WwV8H0",
+              "youtube_views": 14053710
+            }
+          ]
+        },
+        {
+          "title": "Yet To Come (Hyundai Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Yet To Come (Hyundai Ver.)",
+              "video_id": "-c0SZFC3clw",
+              "youtube_views": 3636910
+            }
+          ]
+        },
+        {
+          "title": "Bad Decisions",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Bad Decisions",
+              "video_id": "c30ePrP5oi4",
+              "youtube_views": 30407935
+            }
+          ]
+        },
+        {
+          "title": "Bad Decisions (Acoustic)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Bad Decisions (Acoustic)",
+              "video_id": "Ksp6TIvbp60",
+              "youtube_views": 536019
+            }
+          ]
+        },
+        {
+          "title": "My Universe",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "My Universe (Acoustic Version)",
+              "video_id": "xvMue4DtNLA",
+              "youtube_views": 2024201
+            },
+            {
+              "title": "My Universe (Supernova 7 Mix)",
+              "video_id": "yTl8KJrOW8U",
+              "youtube_views": 865557
+            },
+            {
+              "title": "My Universe",
+              "video_id": "C_JlVRBMvQo",
+              "youtube_views": 2801631
+            }
+          ]
+        },
+        {
+          "title": "My Universe",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "My Universe",
+              "video_id": "TaZkqPK0sbw",
+              "youtube_views": 156744877
+            },
+            {
+              "title": "My Universe (Instrumental)",
+              "video_id": "o0KCkgJ0cPU",
+              "youtube_views": 992205
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -447,5 +447,374 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 8089130,
+      "spotify_id": "6RHTUrRF63xao58xh9FXYJ",
+      "top_tracks": [
+        {
+          "title": "BANG BANG",
+          "play_count": 27723329,
+          "uri": "spotify:track:5Mm6tCipllD4mCnDKv7hjX"
+        },
+        {
+          "title": "BLACKHOLE",
+          "play_count": 8781713,
+          "uri": "spotify:track:0MtiWniV24IBXmBPeW1v1m"
+        },
+        {
+          "title": "I AM",
+          "play_count": 402590015,
+          "uri": "spotify:track:7KavHYqoVFNB3IUXfs5gvP"
+        },
+        {
+          "title": "XOXZ",
+          "play_count": 55275823,
+          "uri": "spotify:track:2f79jWcTf2pxVxDLdxi1Lm"
+        },
+        {
+          "title": "After LIKE",
+          "play_count": 464144154,
+          "uri": "spotify:track:6CV6j2xz54thzlrWML3kAW"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 367666399,
+      "track_count": 51,
+      "mean_views": 7209145,
+      "max_views": 120704940,
+      "albums": [
+        {
+          "title": "REVIVE+",
+          "year": "2026",
+          "tracks": [
+            {
+              "title": "BLACKHOLE",
+              "video_id": "YfiJDJKt3fE",
+              "youtube_views": 5485687
+            },
+            {
+              "title": "BANG BANG",
+              "video_id": "1moSPsMlDBA",
+              "youtube_views": 1394968
+            },
+            {
+              "title": "Hush",
+              "video_id": "yTlumFuGnfk",
+              "youtube_views": 279972
+            },
+            {
+              "title": "Stuck In Your Head",
+              "video_id": "4zkYoP9Tu6Y",
+              "youtube_views": 223483
+            },
+            {
+              "title": "Fireworks",
+              "video_id": "4ynclMEGhTA",
+              "youtube_views": 354760
+            },
+            {
+              "title": "HOT COFFEE",
+              "video_id": "5NNkwKapkBM",
+              "youtube_views": 318644
+            },
+            {
+              "title": "8 (JANGWONYOUNG Solo)",
+              "video_id": "8k3aQjtyYaE",
+              "youtube_views": 267037
+            },
+            {
+              "title": "Odd (GAEUL Solo)",
+              "video_id": "GsYd1BlSG98",
+              "youtube_views": 1662502
+            },
+            {
+              "title": "Super ICY (LEESEO Solo)",
+              "video_id": "AsdQWxdvQeo",
+              "youtube_views": 157397
+            },
+            {
+              "title": "Unreal (LIZ Solo)",
+              "video_id": "Dq63RkQmY9A",
+              "youtube_views": 214972
+            },
+            {
+              "title": "In Your Heart (REI Solo)",
+              "video_id": "WkNvqP3s73M",
+              "youtube_views": 191640
+            },
+            {
+              "title": "Force (ANYUJIN Solo)",
+              "video_id": "E3P7QwGi0Co",
+              "youtube_views": 197017
+            }
+          ]
+        },
+        {
+          "title": "I've IVE",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Blue Blood (Blue Blood)",
+              "video_id": "qnd9tvU76RU",
+              "youtube_views": 3535492
+            },
+            {
+              "title": "I AM (I AM)",
+              "video_id": "MqcFHCNXiok",
+              "youtube_views": 120704940
+            },
+            {
+              "title": "Kitsch (Kitsch)",
+              "video_id": "NYELDp7RH5Y",
+              "youtube_views": 64465118
+            },
+            {
+              "title": "Lips (Lips)",
+              "video_id": "JPHubmZ7vWM",
+              "youtube_views": 8851860
+            },
+            {
+              "title": "Heroine (Heroine)",
+              "video_id": "ujmKWDnyun8",
+              "youtube_views": 1777670
+            },
+            {
+              "title": "Mine (Mine)",
+              "video_id": "LNR-kjziiqY",
+              "youtube_views": 3329049
+            },
+            {
+              "title": "Hypnosis (섬찟 (Hypnosis))",
+              "video_id": "OVKmzHV_H1M",
+              "youtube_views": 1501465
+            },
+            {
+              "title": "NOT YOUR GIRL (NOT YOUR GIRL)",
+              "video_id": "zOyJ0W13jqc",
+              "youtube_views": 3617220
+            },
+            {
+              "title": "Next Page (궁금해 (Next Page))",
+              "video_id": "5-CG8xezf30",
+              "youtube_views": 1966680
+            },
+            {
+              "title": "Cherish (Cherish)",
+              "video_id": "tiIhI5O193Q",
+              "youtube_views": 3735962
+            },
+            {
+              "title": "Shine With Me (Shine With Me)",
+              "video_id": "fg-PL2-DdMw",
+              "youtube_views": 2134623
+            }
+          ]
+        },
+        {
+          "title": "BANG BANG",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BANG BANG",
+              "video_id": "IrTJnvqnXPY",
+              "youtube_views": 12134806
+            }
+          ]
+        },
+        {
+          "title": "IVE SECRET",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "XOXZ (XOXZ)",
+              "video_id": "QMGkDbcwDxY",
+              "youtube_views": 21700245
+            },
+            {
+              "title": "Wild Bird (Wild Bird)",
+              "video_id": "Lo1xOxxqjjM",
+              "youtube_views": 709595
+            },
+            {
+              "title": "Dear, My Feelings (Dear, My Feelings)",
+              "video_id": "cpBJpXr2mTw",
+              "youtube_views": 1017596
+            },
+            {
+              "title": "GOTCHA (Baddest Eros) (GOTCHA (Baddest Eros))",
+              "video_id": "dTPAMI6mZkI",
+              "youtube_views": 409323
+            },
+            {
+              "title": "♥beats (삐빅 (♥beats))",
+              "video_id": "mUwkk432HKk",
+              "youtube_views": 455046
+            },
+            {
+              "title": "Midnight Kiss (Midnight Kiss)",
+              "video_id": "Fuj2E836oAk",
+              "youtube_views": 547776
+            }
+          ]
+        },
+        {
+          "title": "Be Alright",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Be Alright",
+              "video_id": "v9fBmvrCPbw",
+              "youtube_views": 177921
+            },
+            {
+              "title": "DARE ME",
+              "video_id": "1D843AmhLYo",
+              "youtube_views": 98869
+            },
+            {
+              "title": "Accendio -Japanese version-",
+              "video_id": "nq7OtpzbAac",
+              "youtube_views": 274769
+            },
+            {
+              "title": "Blue Heart -Japanese version-",
+              "video_id": "DxfaFpkZFd4",
+              "youtube_views": 166589
+            },
+            {
+              "title": "WOW -Japanese version-",
+              "video_id": "Wjpk_UDju5U",
+              "youtube_views": 142773
+            }
+          ]
+        },
+        {
+          "title": "Be Alright",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Be Alright",
+              "video_id": "lN73os36XlQ",
+              "youtube_views": 4226182
+            }
+          ]
+        },
+        {
+          "title": "DARE ME",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "DARE ME",
+              "video_id": "VIgjbMKOkHA",
+              "youtube_views": 2453073
+            }
+          ]
+        },
+        {
+          "title": "IVE EMPATHY",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "REBEL HEART (REBEL HEART)",
+              "video_id": "N1so5Q60Chw",
+              "youtube_views": 38575995
+            },
+            {
+              "title": "FLU (FLU)",
+              "video_id": "BKmmSKP63FA",
+              "youtube_views": 1803462
+            },
+            {
+              "title": "You Wanna Cry (You Wanna Cry)",
+              "video_id": "yzbC4Ogrbss",
+              "youtube_views": 932547
+            },
+            {
+              "title": "Thank U (Thank U)",
+              "video_id": "_dmyAcMqEhU",
+              "youtube_views": 612334
+            },
+            {
+              "title": "ATTITUDE (ATTITUDE)",
+              "video_id": "7sJES_4FiAs",
+              "youtube_views": 38078651
+            },
+            {
+              "title": "TKO (TKO)",
+              "video_id": "-HvKupbURf4",
+              "youtube_views": 1322990
+            }
+          ]
+        },
+        {
+          "title": "REBEL HEART",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "REBEL HEART (REBEL HEART)",
+              "video_id": "HCHbFF58Syk",
+              "youtube_views": 9708390
+            }
+          ]
+        },
+        {
+          "title": "Will -Korean version-",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Will -Korean version-",
+              "video_id": "uwSeLW_JvwE",
+              "youtube_views": 840242
+            }
+          ]
+        },
+        {
+          "title": "ALIVE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "CRUSH",
+              "video_id": "4x1NsYmiE0A",
+              "youtube_views": 220722
+            },
+            {
+              "title": "Will",
+              "video_id": "VGbB_6pQ9rg",
+              "youtube_views": 167664
+            },
+            {
+              "title": "I AM -Japanese version-",
+              "video_id": "49zDPyr-a4M",
+              "youtube_views": 396357
+            },
+            {
+              "title": "Off The Record -Japanese version-",
+              "video_id": "FdvK5X5vBbI",
+              "youtube_views": 241252
+            },
+            {
+              "title": "Baddie -Japanese version-",
+              "video_id": "NhKP0DA3QlA",
+              "youtube_views": 356851
+            }
+          ]
+        },
+        {
+          "title": "CRUSH",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "CRUSH",
+              "video_id": "SnuwpfOxP-o",
+              "youtube_views": 3526221
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

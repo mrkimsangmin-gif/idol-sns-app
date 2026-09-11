@@ -195,5 +195,342 @@
       "누적_써클": "-",
       "비고": "참여 음반"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 73277,
+      "spotify_id": "59dDRtMe8DILtibke8FWLK",
+      "top_tracks": [
+        {
+          "title": "ICE AGE",
+          "play_count": 20112165,
+          "uri": "spotify:track:1q2bu7PaEUUiFJYFsAiHiz"
+        },
+        {
+          "title": "Crush",
+          "play_count": 8164229,
+          "uri": "spotify:track:2Gdw7bH1N016pgc6i3JZDR"
+        },
+        {
+          "title": "Spring",
+          "play_count": 7708321,
+          "uri": "spotify:track:6HavrP0eerKhssA8CcG0pi"
+        },
+        {
+          "title": "TOP GANG",
+          "play_count": 5788713,
+          "uri": "spotify:track:7JDBOOf49nKbwNopK8Bbv0"
+        },
+        {
+          "title": "nanana",
+          "play_count": 3914566,
+          "uri": "spotify:track:0BNhwRWWjBWTTEMDncprUt"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 12781363,
+      "track_count": 47,
+      "mean_views": 271943,
+      "max_views": 3251242,
+      "albums": [
+        {
+          "title": "ODD-VENTURE",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Run",
+              "video_id": "7DsXFWmTNfQ",
+              "youtube_views": 61639
+            },
+            {
+              "title": "ODD-VENTURE",
+              "video_id": "gs5muYwku9M",
+              "youtube_views": 176520
+            },
+            {
+              "title": "Pop Star",
+              "video_id": "RZSzcTvu2_c",
+              "youtube_views": 76851
+            },
+            {
+              "title": "Treasure",
+              "video_id": "AxY7kADB7Wk",
+              "youtube_views": 51424
+            },
+            {
+              "title": "Loosen Up",
+              "video_id": "HDSHG1cTTwc",
+              "youtube_views": 71981
+            },
+            {
+              "title": "Cruise",
+              "video_id": "QZnuQiHrwdw",
+              "youtube_views": 43970
+            },
+            {
+              "title": "W.A.T.1 (English Version)",
+              "video_id": "AK2DBXHoaqE",
+              "youtube_views": 75345
+            }
+          ]
+        },
+        {
+          "title": "MCND AGE",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Intro : MCND AGE (Intro : MCND AGE)",
+              "video_id": "L3EIDUvdAZs",
+              "youtube_views": 69067
+            },
+            {
+              "title": "Crush (우당탕 (Crush))",
+              "video_id": "XsBcoeuvTtI",
+              "youtube_views": 1814689
+            },
+            {
+              "title": "LOUDER (LOUDER)",
+              "video_id": "T00-ixkAU5g",
+              "youtube_views": 368158
+            },
+            {
+              "title": "KO, OK! (KO, OK!)",
+              "video_id": "MDQVwbmqWSM",
+              "youtube_views": 177298
+            },
+            {
+              "title": "PLAYER (PLAYER      )",
+              "video_id": "bKjOCQQlTvQ",
+              "youtube_views": 216114
+            },
+            {
+              "title": "Outro (Outro ; ㅁㅊㄴㄷ)",
+              "video_id": "2v0rtnoWDUM",
+              "youtube_views": 96166
+            },
+            {
+              "title": "Not over (아직 끝난거 아이다 (Not over))",
+              "video_id": "hrlU1olaKeo",
+              "youtube_views": 491194
+            }
+          ]
+        },
+        {
+          "title": "EARTH AGE",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Intro ; Earth Age (Intro ; 푸른별 (Earth Age))",
+              "video_id": "VraPTZr2Mtc",
+              "youtube_views": 159971
+            },
+            {
+              "title": "nanana (nanana)",
+              "video_id": "dq2bgldIvKg",
+              "youtube_views": 741696
+            },
+            {
+              "title": "Breathe (숨쉬어 (Breathe))",
+              "video_id": "E9geR32wz5I",
+              "youtube_views": 127158
+            },
+            {
+              "title": "Beautiful (Beautiful)",
+              "video_id": "DvD6kqpllWE",
+              "youtube_views": 257805
+            },
+            {
+              "title": "Galaxy (Galaxy)",
+              "video_id": "hRLFT6yaFrk",
+              "youtube_views": 178494
+            },
+            {
+              "title": "Bumpin’ (쾅쾅쾅 (Bumpin’))",
+              "video_id": "gaNChOfZLZE",
+              "youtube_views": 179836
+            },
+            {
+              "title": "Outro ; Kepler1649c (Outro ; 외딴별 (Kepler1649c))",
+              "video_id": "7DO1R2OGjFA",
+              "youtube_views": 80463
+            }
+          ]
+        },
+        {
+          "title": "SUMMER SINGLE 'ADDD'",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ADDD",
+              "video_id": "Q5E6NS3D_uI",
+              "youtube_views": 47116
+            },
+            {
+              "title": "Campfire",
+              "video_id": "x7e6GmhX9d0",
+              "youtube_views": 60511
+            }
+          ]
+        },
+        {
+          "title": "X10",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "X10",
+              "video_id": "SdiuCb5PBbQ",
+              "youtube_views": 101138
+            },
+            {
+              "title": "Tuning",
+              "video_id": "p7EvNSdyDCg",
+              "youtube_views": 30127
+            },
+            {
+              "title": "Out Louder",
+              "video_id": "xx958UOGMyc",
+              "youtube_views": 32492
+            },
+            {
+              "title": "Girl Friend",
+              "video_id": "jAsYtwe8WUc",
+              "youtube_views": 26923
+            },
+            {
+              "title": "TOP GANG Vol.2",
+              "video_id": "Yl7Vw6ED120",
+              "youtube_views": 57873
+            }
+          ]
+        },
+        {
+          "title": "THE EARTH : SECRET MISSION Chapter.2",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "W.A.T.1",
+              "video_id": "FfV8rot1HKo",
+              "youtube_views": 127561
+            },
+            {
+              "title": "#MOOD",
+              "video_id": "WOLH84eyM9c",
+              "youtube_views": 413529
+            },
+            {
+              "title": "BLOW",
+              "video_id": "13oaztKSBtE",
+              "youtube_views": 52632
+            },
+            {
+              "title": "RED SUN",
+              "video_id": "4geuszlktkI",
+              "youtube_views": 101423
+            },
+            {
+              "title": "JUICE",
+              "video_id": "2eyhw4ODHzA",
+              "youtube_views": 49957
+            },
+            {
+              "title": "Back to you",
+              "video_id": "6HCZQt85rLc",
+              "youtube_views": 58320
+            }
+          ]
+        },
+        {
+          "title": "THE EARTH : SECRET MISSION Chapter.1",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Movin' (Movin' (너에게로...))",
+              "video_id": "wen55xQqktg",
+              "youtube_views": 494915
+            },
+            {
+              "title": "Cat Waltz (고양이 춤 (Cat Waltz))",
+              "video_id": "xov7J5kzEcY",
+              "youtube_views": 107541
+            },
+            {
+              "title": "BowwowwoW (BowwowwoW)",
+              "video_id": "k47LzyyBzQg",
+              "youtube_views": 45240
+            },
+            {
+              "title": "H.B.C (H.B.C)",
+              "video_id": "GUgBvdB58og",
+              "youtube_views": 104567
+            },
+            {
+              "title": "Play Pungak (풍악을 울려 (Play Pungak))",
+              "video_id": "ic1XUvh_KMo",
+              "youtube_views": 74316
+            },
+            {
+              "title": "REASON (REASON)",
+              "video_id": "CuwWIfUqx0g",
+              "youtube_views": 179115
+            }
+          ]
+        },
+        {
+          "title": "떠 (Spring)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Spring (떠 (Spring))",
+              "video_id": "CQhcvcNTKrc",
+              "youtube_views": 549693
+            }
+          ]
+        },
+        {
+          "title": "into the ICE AGE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "into the ICE AGE (into the ICE AGE)",
+              "video_id": "e2_uW_9LJO8",
+              "youtube_views": 102076
+            },
+            {
+              "title": "ICE AGE (ICE AGE)",
+              "video_id": "zVGQ64ScYZE",
+              "youtube_views": 3251242
+            },
+            {
+              "title": "Stereotypes (Stereotypes)",
+              "video_id": "cCndZUfwMeo",
+              "youtube_views": 186703
+            },
+            {
+              "title": "Hey You (Hey You)",
+              "video_id": "vBeAFczpTRU",
+              "youtube_views": 270325
+            },
+            {
+              "title": "TOP GANG (TOP GANG)",
+              "video_id": "aPx6fzmm8oA",
+              "youtube_views": 661865
+            }
+          ]
+        },
+        {
+          "title": "TOP GANG",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "TOP GANG (TOP GANG)",
+              "video_id": "dT5EVZ_61nE",
+              "youtube_views": 78324
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

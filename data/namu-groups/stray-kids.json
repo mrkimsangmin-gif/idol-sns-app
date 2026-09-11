@@ -921,5 +921,817 @@
       "누적_써클": "-",
       "비고": "SKZ-REPLAY 2026 Pt.1"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 10622331,
+      "spotify_id": "2dIgFjalVxs4ThymZ67YCE",
+      "top_tracks": [
+        {
+          "title": "Do It",
+          "play_count": 87718533,
+          "uri": "spotify:track:1uAwfkhhuiAH0pBAWjBlx7"
+        },
+        {
+          "title": "Chk Chk Boom",
+          "play_count": 390803261,
+          "uri": "spotify:track:4Y2SbIvpaBfL2844r8EGgT"
+        },
+        {
+          "title": "신선놀음 DIVINE",
+          "play_count": 61281598,
+          "uri": "spotify:track:0x90VmJtwI0ZK79pp94GpU"
+        },
+        {
+          "title": "CEREMONY",
+          "play_count": 109875176,
+          "uri": "spotify:track:7EdgizR99xZh1EpngDaSBi"
+        },
+        {
+          "title": "락 (樂) LALALALA",
+          "play_count": 343789195,
+          "uri": "spotify:track:26yvgQHa2ozFcwpwHDyUUp"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1402198638,
+      "track_count": 130,
+      "mean_views": 10786143,
+      "max_views": 123987237,
+      "albums": [
+        {
+          "title": "KARMA",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "삐처리 BLEEP",
+              "video_id": "sXrK-mP_G9U",
+              "youtube_views": 9634792
+            },
+            {
+              "title": "CEREMONY",
+              "video_id": "p2AP0yKIlx4",
+              "youtube_views": 22317128
+            },
+            {
+              "title": "CREED",
+              "video_id": "NQxS_nwPZzI",
+              "youtube_views": 9426480
+            },
+            {
+              "title": "엉망 (MESS)",
+              "video_id": "Q-rDglVNQO0",
+              "youtube_views": 5012367
+            },
+            {
+              "title": "In My Head",
+              "video_id": "jQ7W5A-wwKo",
+              "youtube_views": 8701264
+            },
+            {
+              "title": "반전 (Half Time)",
+              "video_id": "Hzp7hy0lIIM",
+              "youtube_views": 5628631
+            },
+            {
+              "title": "Phoenix",
+              "video_id": "QZtn6ec0rH4",
+              "youtube_views": 7850249
+            },
+            {
+              "title": "Ghost",
+              "video_id": "c9ZiUXtcaBw",
+              "youtube_views": 6703713
+            },
+            {
+              "title": "0801",
+              "video_id": "e-GNJiLFj6Q",
+              "youtube_views": 5834988
+            },
+            {
+              "title": "CEREMONY (Festival Version)",
+              "video_id": "Ngb6Jj32mB4",
+              "youtube_views": 3024143
+            },
+            {
+              "title": "CEREMONY (English Version)",
+              "video_id": "SVnJreXFatw",
+              "youtube_views": 1513027
+            }
+          ]
+        },
+        {
+          "title": "合 (HOP) HOP",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Walkin On Water",
+              "video_id": "sd8U4Hfmkfg",
+              "youtube_views": 16957713
+            },
+            {
+              "title": "Bounce Back",
+              "video_id": "vRmkqYlH-nA",
+              "youtube_views": 7899009
+            },
+            {
+              "title": "U (Feat. TABLO)",
+              "video_id": "iqeY3sz8ldk",
+              "youtube_views": 6827335
+            },
+            {
+              "title": "Walkin On Water (HIP Ver.)",
+              "video_id": "of7yhvIadWo",
+              "youtube_views": 3601455
+            },
+            {
+              "title": "Railway (방찬) Railway (Bang Chan)",
+              "video_id": "8Go0B7mNcsU",
+              "youtube_views": 12292821
+            },
+            {
+              "title": "Unfair (필릭스) Unfair (Felix)",
+              "video_id": "PkLLjrGHmhE",
+              "youtube_views": 7789456
+            },
+            {
+              "title": "HALLUCINATION (아이엔) HALLUCINATION (I.N)",
+              "video_id": "qVGUAwi7DnA",
+              "youtube_views": 7270435
+            },
+            {
+              "title": "Youth (리노) Youth (Lee Know)",
+              "video_id": "S1BK-7FVSrc",
+              "youtube_views": 6777980
+            },
+            {
+              "title": "So Good (현진) So Good (Hyunjin)",
+              "video_id": "VPO4egY7n6A",
+              "youtube_views": 7935870
+            },
+            {
+              "title": "ULTRA (창빈) ULTRA (Changbin)",
+              "video_id": "O7xCuSEZeRQ",
+              "youtube_views": 4487859
+            },
+            {
+              "title": "Hold my hand (한) Hold my hand (HAN)",
+              "video_id": "n63HYwU1YJs",
+              "youtube_views": 7966821
+            },
+            {
+              "title": "그렇게, 천천히, 우리 (승민) As we are (Seungmin)",
+              "video_id": "MH35zcHEtBk",
+              "youtube_views": 6515066
+            }
+          ]
+        },
+        {
+          "title": "GIANT",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "GIANT",
+              "video_id": "4Cyrg4pVoOc",
+              "youtube_views": 331992
+            },
+            {
+              "title": "Chk Chk Boom -Japanese ver.-",
+              "video_id": "Xu7K8fRAtiw",
+              "youtube_views": 22396
+            },
+            {
+              "title": "NIGHT",
+              "video_id": "SKLJ8W-RPkE",
+              "youtube_views": 68430
+            },
+            {
+              "title": "Falling Up",
+              "video_id": "mPPeB2TGaHs",
+              "youtube_views": 76369
+            },
+            {
+              "title": "WHY?",
+              "video_id": "mA93LN_xPng",
+              "youtube_views": 47189
+            },
+            {
+              "title": "Saiyan",
+              "video_id": "tMM12VrhGxI",
+              "youtube_views": 101302
+            },
+            {
+              "title": "愛をくれたのに、なぜ (love is painful)",
+              "video_id": "Y2Dnb0Q1h8s",
+              "youtube_views": 108665
+            },
+            {
+              "title": "Christmas Love",
+              "video_id": "-WYmaytI82o",
+              "youtube_views": 156229
+            },
+            {
+              "title": "NIGHT -English ver.-",
+              "video_id": "aM-kVjxqztg",
+              "youtube_views": 21025
+            },
+            {
+              "title": "Falling Up -English ver.-",
+              "video_id": "Wq8sW0ZSz8c",
+              "youtube_views": 36871
+            }
+          ]
+        },
+        {
+          "title": "ATE",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "MOUNTAINS",
+              "video_id": "p56y9erlnO4",
+              "youtube_views": 15623134
+            },
+            {
+              "title": "Chk Chk Boom",
+              "video_id": "eNPmM1DJQ8g",
+              "youtube_views": 84241071
+            },
+            {
+              "title": "JJAM",
+              "video_id": "Xr7CJUT4n-Y",
+              "youtube_views": 24960320
+            },
+            {
+              "title": "I Like It",
+              "video_id": "Oz7v7TP_-3k",
+              "youtube_views": 47318323
+            },
+            {
+              "title": "Runners",
+              "video_id": "2kvAETm2Q4I",
+              "youtube_views": 7265022
+            },
+            {
+              "title": "또 다시 밤 twilight",
+              "video_id": "GBoHUDOc4Qo",
+              "youtube_views": 9723701
+            },
+            {
+              "title": "Stray Kids",
+              "video_id": "2FBBl7e18qM",
+              "youtube_views": 16230457
+            },
+            {
+              "title": "Chk Chk Boom (Festival Ver.)",
+              "video_id": "dT3SzfFOMCI",
+              "youtube_views": 9622965
+            }
+          ]
+        },
+        {
+          "title": "樂-STAR ROCK-STAR",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "MEGAVERSE",
+              "video_id": "7-X_7Tk0wXI",
+              "youtube_views": 41674238
+            },
+            {
+              "title": "락 (樂) LALALALA",
+              "video_id": "HNcmCKTWd6w",
+              "youtube_views": 87067881
+            },
+            {
+              "title": "사각지대 BLIND SPOT",
+              "video_id": "Wx4hglGjwEs",
+              "youtube_views": 12473696
+            },
+            {
+              "title": "COMFLEX",
+              "video_id": "ifK5RIx1CjE",
+              "youtube_views": 12790732
+            },
+            {
+              "title": "가려줘 Cover Me",
+              "video_id": "gfhhFsG-oms",
+              "youtube_views": 23641446
+            },
+            {
+              "title": "Leave",
+              "video_id": "T_6oPwsJgxI",
+              "youtube_views": 12889150
+            },
+            {
+              "title": "Social Path (Feat. LiSA) (Korean Ver.)",
+              "video_id": "fIXeGLm-z-8",
+              "youtube_views": 7056575
+            },
+            {
+              "title": "락 (樂) (Rock Ver.) LALALALA (Rock Ver.)",
+              "video_id": "osFQWe1oX9c",
+              "youtube_views": 6270734
+            }
+          ]
+        },
+        {
+          "title": "5-STAR",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "위인전 Hall of Fame",
+              "video_id": "XRx2vo9UeWg",
+              "youtube_views": 28679222
+            },
+            {
+              "title": "특 S-Class",
+              "video_id": "_M409k9cOcg",
+              "youtube_views": 71065590
+            },
+            {
+              "title": "ITEM",
+              "video_id": "Zme_-F_h63M",
+              "youtube_views": 21272895
+            },
+            {
+              "title": "Super Bowl",
+              "video_id": "kyc-6bMMpco",
+              "youtube_views": 23996417
+            },
+            {
+              "title": "TOPLINE (Feat. Tiger JK)",
+              "video_id": "PiE6xDpbAjU",
+              "youtube_views": 25623301
+            },
+            {
+              "title": "DLC",
+              "video_id": "5YR8AhqsXnA",
+              "youtube_views": 7242210
+            },
+            {
+              "title": "죽어보자 GET LIT",
+              "video_id": "Ouan8NMyOl0",
+              "youtube_views": 10100764
+            },
+            {
+              "title": "충돌 Collision",
+              "video_id": "aNr01u0cBUc",
+              "youtube_views": 13818704
+            },
+            {
+              "title": "FNF",
+              "video_id": "g7rY8xy-Lws",
+              "youtube_views": 6335888
+            },
+            {
+              "title": "Youtiful",
+              "video_id": "-F8Zeild_qY",
+              "youtube_views": 9442317
+            },
+            {
+              "title": "THE SOUND (Korean Ver.)",
+              "video_id": "3tGdvv3gdq8",
+              "youtube_views": 2923648
+            },
+            {
+              "title": "Mixtape : Time Out",
+              "video_id": "HEpZ5SQ198w",
+              "youtube_views": 3393306
+            }
+          ]
+        },
+        {
+          "title": "THE SOUND",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "THE SOUND",
+              "video_id": "PAO1GZgedDU",
+              "youtube_views": 210469
+            },
+            {
+              "title": "Battle Ground",
+              "video_id": "EUeDg1Vth9E",
+              "youtube_views": 115833
+            },
+            {
+              "title": "Lost Me",
+              "video_id": "6ebXsNO408c",
+              "youtube_views": 126753
+            },
+            {
+              "title": "DLMLU",
+              "video_id": "jYZakOrhSCc",
+              "youtube_views": 90293
+            },
+            {
+              "title": "Novel",
+              "video_id": "W632HqslxBg",
+              "youtube_views": 81277
+            },
+            {
+              "title": "CASE 143 -Japanese ver.-",
+              "video_id": "pDErBY89uwE",
+              "youtube_views": 85622
+            },
+            {
+              "title": "CHILL -Japanese ver.-",
+              "video_id": "5SPc2svGSV4",
+              "youtube_views": 24437
+            },
+            {
+              "title": "Scars",
+              "video_id": "zNyPr5A20SM",
+              "youtube_views": 149797
+            },
+            {
+              "title": "ソリクン -Japanese ver.-",
+              "video_id": "ilzBA66lLIs",
+              "youtube_views": 29630
+            },
+            {
+              "title": "There",
+              "video_id": "45QOSvxT2Vo",
+              "youtube_views": 95052
+            }
+          ]
+        },
+        {
+          "title": "SKZ-REPLAY",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "FAM (Korean Ver.)",
+              "video_id": "i-ju-Auf-C8",
+              "youtube_views": 3814575
+            },
+            {
+              "title": "Connected (방찬) Connected (Bang Chan)",
+              "video_id": "fZRZGbc7KHs",
+              "youtube_views": 7890673
+            },
+            {
+              "title": "나지막이 (리노) Limbo (Lee Know)",
+              "video_id": "tUYJdNxrSyk",
+              "youtube_views": 12109768
+            },
+            {
+              "title": "DOODLE (창빈) DOODLE (Changbin)",
+              "video_id": "FLoAVCCrp_E",
+              "youtube_views": 4715016
+            },
+            {
+              "title": "Love Untold (현진) Love Untold (Hyunjin)",
+              "video_id": "hyC1P3COb0o",
+              "youtube_views": 3560562
+            },
+            {
+              "title": "RUN (한) RUN (HAN)",
+              "video_id": "118ii-myShA",
+              "youtube_views": 3288384
+            },
+            {
+              "title": "Deep end (필릭스) Deep end (Felix)",
+              "video_id": "ZVHPTVzadCg",
+              "youtube_views": 10831790
+            },
+            {
+              "title": "내려요 (승민) Stars and Raindrops (Seungmin)",
+              "video_id": "duO5zmmBYVo",
+              "youtube_views": 8339947
+            },
+            {
+              "title": "안아줄게요 (아이엔) Hug Me (I.N)",
+              "video_id": "fhuJiRIT_Yg",
+              "youtube_views": 2930977
+            },
+            {
+              "title": "#LoveSTAY",
+              "video_id": "JJgnhA6JPaQ",
+              "youtube_views": 2590950
+            },
+            {
+              "title": "ZONE (방찬, 창빈, 한) ZONE (Bang Chan, Changbin, HAN)",
+              "video_id": "J7o-UGHiW5A",
+              "youtube_views": 2882851
+            },
+            {
+              "title": "Close (한) Close (HAN)",
+              "video_id": "wswElj5OrMM",
+              "youtube_views": 2094700
+            },
+            {
+              "title": "Streetlight (창빈 Feat. 방찬) Streetlight (Changbin Feat. Bang Chan)",
+              "video_id": "8u5MECLlReA",
+              "youtube_views": 1989873
+            },
+            {
+              "title": "인정하기 싫어 (방찬) i hate to admit (Bang Chan)",
+              "video_id": "ZQ1gF-qSHFw",
+              "youtube_views": 2609060
+            },
+            {
+              "title": "I GOT IT (한) I GOT IT (HAN)",
+              "video_id": "cYFqx_ZLjyA",
+              "youtube_views": 1965653
+            },
+            {
+              "title": "꼬마별 (현진) miss you (Hyunjin)",
+              "video_id": "ajLxrSILWK4",
+              "youtube_views": 1686575
+            },
+            {
+              "title": "막내온탑 (아이엔 Feat. 방찬, 창빈) Maknae On Top (I.N Feat. Bang Chan, Changbin)",
+              "video_id": "KqJqQTUK0Dk",
+              "youtube_views": 5020436
+            },
+            {
+              "title": "외계인 (Alien) Alien (HAN)",
+              "video_id": "vwZSBKuUERU",
+              "youtube_views": 2474610
+            },
+            {
+              "title": "좋으니까 (창빈, 필릭스) Because (Changbin, Felix)",
+              "video_id": "2pPU1uEgBaU",
+              "youtube_views": 3435656
+            },
+            {
+              "title": "조각 (창빈, 승민) Piece of a Puzzle (Changbin, Seungmin)",
+              "video_id": "PaQhniLdEQU",
+              "youtube_views": 1434582
+            },
+            {
+              "title": "Wish You Back (한) Wish You Back (HAN)",
+              "video_id": "7SUp2UA2tdw",
+              "youtube_views": 1995193
+            },
+            {
+              "title": "HaPpY (한) HaPpY (HAN)",
+              "video_id": "Q5Oq3Di1Xl4",
+              "youtube_views": 1562317
+            },
+            {
+              "title": "오늘 밤 나는 불을 켜 (방찬, 창빈, 필릭스, 승민) Up All Night (Bang Chan,...",
+              "video_id": "k23eVp3XQkk",
+              "youtube_views": 3947384
+            },
+            {
+              "title": "Drive (방찬, 리노) Drive (Bang Chan, Lee Know)",
+              "video_id": "TF5ickhLplM",
+              "youtube_views": 5742886
+            },
+            {
+              "title": "ice.cream (현진) ice.cream (Hyunjin)",
+              "video_id": "PL9YakNKsOE",
+              "youtube_views": 2227817
+            }
+          ]
+        },
+        {
+          "title": "MAXIDENT",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "CASE 143",
+              "video_id": "ZeIneYtQ1rw",
+              "youtube_views": 72578484
+            },
+            {
+              "title": "식혀 CHILL",
+              "video_id": "yAM2p0HVxCE",
+              "youtube_views": 9174423
+            },
+            {
+              "title": "Give Me Your TMI",
+              "video_id": "S38g0Hgrhu8",
+              "youtube_views": 6738685
+            },
+            {
+              "title": "SUPER BOARD",
+              "video_id": "vbWkIz67trA",
+              "youtube_views": 8963385
+            },
+            {
+              "title": "3RACHA (방찬, 창빈, 한) 3RACHA (Bang Chan, Changbin, HAN)",
+              "video_id": "sZtkXn_-Kws",
+              "youtube_views": 14472770
+            },
+            {
+              "title": "TASTE (리노, 현진, 필릭스) TASTE (Lee Know, Hyunjin, Felix)",
+              "video_id": "Ihw3CqKMTog",
+              "youtube_views": 38755265
+            },
+            {
+              "title": "나 너 좋아하나봐 (승민, 아이엔) Can't Stop (Seungmin, I.N)",
+              "video_id": "iI2v-CXKXU4",
+              "youtube_views": 6444624
+            },
+            {
+              "title": "CIRCUS (Korean Ver.)",
+              "video_id": "jiQFAC3FWg0",
+              "youtube_views": 4535007
+            }
+          ]
+        },
+        {
+          "title": "ODDINARY",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "거미줄 VENOM",
+              "video_id": "ngBk3v4FWTM",
+              "youtube_views": 26951045
+            },
+            {
+              "title": "MANIAC",
+              "video_id": "VG4lpTHuytc",
+              "youtube_views": 123987237
+            },
+            {
+              "title": "Charmer",
+              "video_id": "BCZE-44jp_I",
+              "youtube_views": 61072670
+            },
+            {
+              "title": "땡 FREEZE",
+              "video_id": "EX0kzkTCXEE",
+              "youtube_views": 12624084
+            },
+            {
+              "title": "Lonely St.",
+              "video_id": "xy7egZzJeTU",
+              "youtube_views": 7807808
+            },
+            {
+              "title": "피어난다 (방찬, 리노, 승민, 아이엔) Waiting For Us (Bang Chan, Lee Know, Seungmin,...",
+              "video_id": "yQ0i2KmtL0g",
+              "youtube_views": 10074818
+            },
+            {
+              "title": "Muddy Water (창빈, 현진, 한, 필릭스) Muddy Water (Changbin, Hyunjin, HAN, Felix)",
+              "video_id": "WVPd9dZqo8Y",
+              "youtube_views": 11267659
+            }
+          ]
+        },
+        {
+          "title": "Endless Sun",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Endless Sun",
+              "video_id": "F-QSLxAyFes",
+              "youtube_views": 1500393
+            }
+          ]
+        },
+        {
+          "title": "DO IT",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Do It",
+              "video_id": "R2tBQp3LiAE",
+              "youtube_views": 18995424
+            },
+            {
+              "title": "신선놀음 DIVINE",
+              "video_id": "FI4pbPmlgwY",
+              "youtube_views": 12959345
+            },
+            {
+              "title": "Holiday",
+              "video_id": "EZh3S8-WmyU",
+              "youtube_views": 5165947
+            },
+            {
+              "title": "Photobook",
+              "video_id": "l5OuKEpNqos",
+              "youtube_views": 3327855
+            },
+            {
+              "title": "Do It (Festival Version)",
+              "video_id": "StNhoo8mp48",
+              "youtube_views": 1959260
+            }
+          ]
+        },
+        {
+          "title": "Hollow",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Hollow",
+              "video_id": "Z5auxVIuuZE",
+              "youtube_views": 67278
+            },
+            {
+              "title": "Parade",
+              "video_id": "Eap4kxmjW1M",
+              "youtube_views": 94186
+            },
+            {
+              "title": "Never Alone",
+              "video_id": "OYsv1gWqeqs",
+              "youtube_views": 74668
+            },
+            {
+              "title": "just a little",
+              "video_id": "-_n444b4I2A",
+              "youtube_views": 110921
+            },
+            {
+              "title": "宿命 (FATE)",
+              "video_id": "yjm_IhWV8y4",
+              "youtube_views": 162369
+            }
+          ]
+        },
+        {
+          "title": "Hollow",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Hollow",
+              "video_id": "n9Er71VTeoU",
+              "youtube_views": 383786
+            }
+          ]
+        },
+        {
+          "title": "Falling Up -English ver.-",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Falling Up -English ver.-",
+              "video_id": "FvG-eUzut30",
+              "youtube_views": 37946
+            }
+          ]
+        },
+        {
+          "title": "Falling Up",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Falling Up",
+              "video_id": "CykFPDKz3I4",
+              "youtube_views": 52706
+            }
+          ]
+        },
+        {
+          "title": "NIGHT -English ver.-",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "NIGHT -English ver.-",
+              "video_id": "VCG-Yuy4hjs",
+              "youtube_views": 10600
+            }
+          ]
+        },
+        {
+          "title": "NIGHT",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "NIGHT",
+              "video_id": "8qyPU82rF_I",
+              "youtube_views": 48150
+            }
+          ]
+        },
+        {
+          "title": "NIGHT -Korean ver.-",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "NIGHT (\"신의 탑 2기 공방전\" OST) -Korean ver.- NIGHT (from \"Tower of God: WORKSHOP...",
+              "video_id": "6eBsTqySALI",
+              "youtube_views": 1272818
+            },
+            {
+              "title": "Falling Up (\"신의 탑 2기 공방전\" OST) -Korean ver.- Falling Up (from \"Tower of God:...",
+              "video_id": "KN7bYCrlJkw",
+              "youtube_views": 2295054
+            }
+          ]
+        },
+        {
+          "title": "SLASH (From “Deadpool & Wolverine”)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SLASH (From “Deadpool & Wolverine”)",
+              "video_id": "BMcgZEWM8UM",
+              "youtube_views": 10397793
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

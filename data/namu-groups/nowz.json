@@ -245,5 +245,207 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 105388,
+      "spotify_id": "1iZwr6w3TWPNezX8yCtRBg",
+      "top_tracks": [
+        {
+          "title": "Problem Child",
+          "play_count": 1193810,
+          "uri": "spotify:track:7aL1LV3lbN5GE88lMgiHt5"
+        },
+        {
+          "title": "HomeRUN",
+          "play_count": 463952,
+          "uri": "spotify:track:0kK6GZAjPQUdg02XhaoEM0"
+        },
+        {
+          "title": "AMMO (feat. YRD Leo)",
+          "play_count": 49387,
+          "uri": "spotify:track:6qQTiRUVoy7vDGO1gWzOAe"
+        },
+        {
+          "title": "Fly to the youth (Feat. YUQI)",
+          "play_count": 959278,
+          "uri": "spotify:track:53SaJpNeNlJjNv6qcyLR0V"
+        },
+        {
+          "title": "HOOKED",
+          "play_count": 50975,
+          "uri": "spotify:track:6ft8y5BcL5tvLxe0z9H5Pn"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 10141828,
+      "track_count": 20,
+      "mean_views": 507091,
+      "max_views": 4999694,
+      "albums": [
+        {
+          "title": "NOWZ",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "AMMO (feat. YRD Leo)",
+              "video_id": "0v82_CBa2EY",
+              "youtube_views": 10949
+            },
+            {
+              "title": "HomeRUN (Japanese ver.)",
+              "video_id": "rBcTzjrVtyI",
+              "youtube_views": 1304
+            },
+            {
+              "title": "GET BUCK (Japanese ver.)",
+              "video_id": "l7_epNgu7Lc",
+              "youtube_views": 980
+            },
+            {
+              "title": "Run with me (Japanese ver.)",
+              "video_id": "mBku8LsSevE",
+              "youtube_views": 1105
+            },
+            {
+              "title": "Fly to the youth (Japanese ver.)",
+              "video_id": "MmapI0eZ30w",
+              "youtube_views": 865
+            }
+          ]
+        },
+        {
+          "title": "AMMO (feat. YRD Leo)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "AMMO (feat. YRD Leo)",
+              "video_id": "F_p4FcZogcI",
+              "youtube_views": 381262
+            }
+          ]
+        },
+        {
+          "title": "HOOKED",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "HOOKED",
+              "video_id": "Xna6CmhjYTA",
+              "youtube_views": 51700
+            }
+          ]
+        },
+        {
+          "title": "Play Ball",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "GET BUCK",
+              "video_id": "Nodm50vYA3Q",
+              "youtube_views": 24878
+            },
+            {
+              "title": "HomeRUN",
+              "video_id": "2XZjbIiFOng",
+              "youtube_views": 966043
+            },
+            {
+              "title": "Run with me",
+              "video_id": "ibuTPzMe1ds",
+              "youtube_views": 2450414
+            }
+          ]
+        },
+        {
+          "title": "IGNITION",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Fly to the youth (Feat. YUQI) (자유롭게 날아 (Feat. 우기 (YUQI)))",
+              "video_id": "zirhWAxP8B8",
+              "youtube_views": 10810
+            },
+            {
+              "title": "EVERGLOW (EVERGLOW)",
+              "video_id": "140NmVJOwb4",
+              "youtube_views": 217269
+            },
+            {
+              "title": "Problem Child (Problem Child (문제아))",
+              "video_id": "sYNqfAMTRnA",
+              "youtube_views": 4999694
+            },
+            {
+              "title": "Louder (Louder)",
+              "video_id": "enVeFWU53V0",
+              "youtube_views": 52683
+            },
+            {
+              "title": "DAY_AND (일기 (DAY_AND))",
+              "video_id": "rEu4G_EmMqA",
+              "youtube_views": 129496
+            }
+          ]
+        },
+        {
+          "title": "Fly to the youth (Feat. YUQI) (Chinese Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Fly to the youth (Feat. YUQI) (Chinese Ver.) (Fly to the youth (Feat. YUQI) (Chinese Ver.))",
+              "video_id": "a0G3X-7YgCw",
+              "youtube_views": 58260
+            }
+          ]
+        },
+        {
+          "title": "Fly to the youth (Feat. YUQI) (자유롭게 날아 (Feat. 우기 (YUQI)))",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Fly to the youth (자유롭게 날아)",
+              "video_id": "ccDzPP5VdAk",
+              "youtube_views": 447708
+            }
+          ]
+        },
+        {
+          "title": "Fly to the youth (Sped up Ver.) (feat. YUQI)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Fly to the youth (Feat. YUQI) (Sped up Ver.) (자유롭게 날아 (Feat. 우기) (Sped up Ver.))",
+              "video_id": "nfGnGHy-elw",
+              "youtube_views": 4858
+            }
+          ]
+        },
+        {
+          "title": "Fly to the youth (Feat. YUQI) (Short Ver.) (자유롭게 날아 (Feat. 우기 (YUQI)) (Short Ver.))",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Fly to the youth (Feat. YUQI) (Short Ver.) (자유롭게 날아 (Feat. 우기) (Short Ver.))",
+              "video_id": "9-8Qysndo-g",
+              "youtube_views": 10588
+            }
+          ]
+        },
+        {
+          "title": "렛츠기릿 (Let's get it)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Let's get it (렛츠기릿 (Let's get it))",
+              "video_id": "GrdkHOqhioE",
+              "youtube_views": 320962
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

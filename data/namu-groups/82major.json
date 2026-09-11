@@ -237,5 +237,227 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 270606,
+      "spotify_id": "1wDstpO8XQNU6GV0S92663",
+      "top_tracks": [
+        {
+          "title": "TROPHY",
+          "play_count": 1671946,
+          "uri": "spotify:track:47Mu43nMCpr04YGL1AlLEp"
+        },
+        {
+          "title": "Sure Thing",
+          "play_count": 3440253,
+          "uri": "spotify:track:3Xi4YPJEV7vYvZpWHh1b7a"
+        },
+        {
+          "title": "Need That Bass",
+          "play_count": 690352,
+          "uri": "spotify:track:24hvygYNzeAxeHMmOn8ggk"
+        },
+        {
+          "title": "Suspicious",
+          "play_count": 787865,
+          "uri": "spotify:track:0xPTFPdlcrPHUm1Ve2eNyy"
+        },
+        {
+          "title": "Say more",
+          "play_count": 732254,
+          "uri": "spotify:track:4CB2mgvK6vVANipsBp0I8v"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 7400859,
+      "track_count": 24,
+      "mean_views": 308369,
+      "max_views": 1306683,
+      "albums": [
+        {
+          "title": "Trophy",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "TROPHY",
+              "video_id": "vtf0B799DlY",
+              "youtube_views": 891699
+            },
+            {
+              "title": "Say more",
+              "video_id": "zWytZnB-Uuw",
+              "youtube_views": 408654
+            },
+            {
+              "title": "Suspicious",
+              "video_id": "WB7P61vaxuk",
+              "youtube_views": 171556
+            },
+            {
+              "title": "Need That Bass",
+              "video_id": "r2Ld_W_NITU",
+              "youtube_views": 319606
+            }
+          ]
+        },
+        {
+          "title": "SILENCE SYNDROME",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "TAKEOVER",
+              "video_id": "05_SQOO9W-k",
+              "youtube_views": 618941
+            },
+            {
+              "title": "Heroes",
+              "video_id": "DXope_d6VKU",
+              "youtube_views": 221406
+            },
+            {
+              "title": "Passport",
+              "video_id": "k1qcxkSH20Q",
+              "youtube_views": 131821
+            },
+            {
+              "title": "Promise You",
+              "video_id": "uQiRmG3NJvs",
+              "youtube_views": 269639
+            }
+          ]
+        },
+        {
+          "title": "X-82",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Stuck",
+              "video_id": "BqYZtbUdoy0",
+              "youtube_views": 850078
+            },
+            {
+              "title": "Thorns",
+              "video_id": "--mtub701_w",
+              "youtube_views": 162412
+            },
+            {
+              "title": "Face Time",
+              "video_id": "UrKTwtSXbLU",
+              "youtube_views": 364089
+            },
+            {
+              "title": "Gossip",
+              "video_id": "WjT2uwbXI8w",
+              "youtube_views": 130483
+            }
+          ]
+        },
+        {
+          "title": "Choke (Sped Up)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Choke (Sped Up)",
+              "video_id": "sFe1duVhakY",
+              "youtube_views": 32718
+            }
+          ]
+        },
+        {
+          "title": "BEAT by 82",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Choke",
+              "video_id": "YYrHpDMDUyk",
+              "youtube_views": 1306683
+            },
+            {
+              "title": "Birthday",
+              "video_id": "ffLumepjztc",
+              "youtube_views": 249430
+            },
+            {
+              "title": "Illegal",
+              "video_id": "59wY-MKZ2tA",
+              "youtube_views": 243605
+            },
+            {
+              "title": "82",
+              "video_id": "psJRFpHinGg",
+              "youtube_views": 141063
+            }
+          ]
+        },
+        {
+          "title": "ON",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "FIRST CLASS",
+              "video_id": "kvq3I9OSzqk",
+              "youtube_views": 266666
+            },
+            {
+              "title": "Sure Thing",
+              "video_id": "BKtJqpss7J0",
+              "youtube_views": 524837
+            },
+            {
+              "title": "Sure Thing (sped up)",
+              "video_id": "JC1m0rxA-HE",
+              "youtube_views": 43365
+            }
+          ]
+        },
+        {
+          "title": "TROPHY (YOON YE CHAN Remix)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "TROPHY (YOON YE CHAN Remix)",
+              "video_id": "Wo4cQlVHPFc",
+              "youtube_views": 13575
+            }
+          ]
+        },
+        {
+          "title": "TROPHY (Yackle Remix)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "TROPHY (Yackle Remix)",
+              "video_id": "TZhwhoDUuR8",
+              "youtube_views": 16377
+            }
+          ]
+        },
+        {
+          "title": "TROPHY (jeonghyeon Remix)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "TROPHY (jeonghyeon Remix)",
+              "video_id": "9e0b7VXKNho",
+              "youtube_views": 13900
+            }
+          ]
+        },
+        {
+          "title": "TAKEOVER - Billy Taner Remix",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "TAKEOVER - Billy Taner Remix",
+              "video_id": "IJBwP35xVuc",
+              "youtube_views": 8256
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

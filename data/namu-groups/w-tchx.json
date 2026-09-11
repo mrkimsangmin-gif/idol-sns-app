@@ -125,5 +125,39 @@
       "누적_써클": "-",
       "비고": "타이틀곡: BLALA"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2599,
+      "spotify_id": "7skRnGeXWAZPkWalXSyyiX",
+      "top_tracks": [
+        {
+          "title": "Run Baby Run",
+          "play_count": 36865,
+          "uri": "spotify:track:2kYY7NwO4tVRBHSiO17dlw"
+        },
+        {
+          "title": "BLALA",
+          "play_count": 48411,
+          "uri": "spotify:track:24V8DuHNwT0KieC1jnds6s"
+        },
+        {
+          "title": "Beautiful Story (Highlight)",
+          "play_count": 12818,
+          "uri": "spotify:track:1lpTotPZiCwYdPGKeB8OIo"
+        },
+        {
+          "title": "Run Baby Run (Instrumental)",
+          "play_count": 3359,
+          "uri": "spotify:track:01ORDmXoSNgOpprkSXUOUv"
+        },
+        {
+          "title": "BLALA (Instrumental)",
+          "play_count": 1982,
+          "uri": "spotify:track:0blwsexRmGteXQk4nYttri"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

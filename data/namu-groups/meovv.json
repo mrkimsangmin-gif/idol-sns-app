@@ -165,5 +165,148 @@
       "누적_써클": "-",
       "비고": "타이틀곡: 띠로리 (DDI RO RI)"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 3039655,
+      "spotify_id": "08hHTBHlv0WRXWlyrsb6Kv",
+      "top_tracks": [
+        {
+          "title": "HANDS UP",
+          "play_count": 94752600,
+          "uri": "spotify:track:5nMZZAx81447SskgOnuRIe"
+        },
+        {
+          "title": "BURNING UP",
+          "play_count": 31061798,
+          "uri": "spotify:track:6QQy6TLGFosP96SREaVaYD"
+        },
+        {
+          "title": "MEOW",
+          "play_count": 106396715,
+          "uri": "spotify:track:1YjhXcHqe2ztp70ArdZOPa"
+        },
+        {
+          "title": "BODY",
+          "play_count": 41638786,
+          "uri": "spotify:track:3I3pAp1C20ZmSO0g8r4yXW"
+        },
+        {
+          "title": "DROP TOP",
+          "play_count": 23447716,
+          "uri": "spotify:track:7K8hbSlXRNCEqt8o3MLOd9"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 61583620,
+      "track_count": 13,
+      "mean_views": 4737201,
+      "max_views": 21683473,
+      "albums": [
+        {
+          "title": "ME ME ME",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ME ME ME",
+              "video_id": "fsMWdnx_wuI",
+              "youtube_views": 1955276
+            }
+          ]
+        },
+        {
+          "title": "MY EYES OPEN VVIDE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "HANDS UP",
+              "video_id": "wDXak3Umfe8",
+              "youtube_views": 213262
+            },
+            {
+              "title": "DROP TOP",
+              "video_id": "OzLbIWcKGP4",
+              "youtube_views": 7503328
+            },
+            {
+              "title": "MEOW",
+              "video_id": "73vmYYC0rEI",
+              "youtube_views": 650268
+            },
+            {
+              "title": "BODY",
+              "video_id": "fcW3qAKPPhk",
+              "youtube_views": 179259
+            },
+            {
+              "title": "TOXIC",
+              "video_id": "lDogEfogXBY",
+              "youtube_views": 243030
+            },
+            {
+              "title": "LIT RIGHT NOW",
+              "video_id": "AqODDbHQb1U",
+              "youtube_views": 749674
+            }
+          ]
+        },
+        {
+          "title": "HANDS UP",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "HANDS UP",
+              "video_id": "CTc-xJ8XRTI",
+              "youtube_views": 21683473
+            }
+          ]
+        },
+        {
+          "title": "TOXIC",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "TOXIC",
+              "video_id": "BzlSXANbWRI",
+              "youtube_views": 4227480
+            },
+            {
+              "title": "BODY",
+              "video_id": "wQTczjAvdMg",
+              "youtube_views": 4750539
+            }
+          ]
+        },
+        {
+          "title": "MEOW",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "MEOW",
+              "video_id": "LFmtgvh1K6Q",
+              "youtube_views": 17997719
+            }
+          ]
+        },
+        {
+          "title": "BURNING UP (Rush Remix)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BURNING UP (Rush Remix)",
+              "video_id": "So24xnfc8qY",
+              "youtube_views": 83337
+            },
+            {
+              "title": "BURNING UP",
+              "video_id": "Tfueho5jyiE",
+              "youtube_views": 1346975
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

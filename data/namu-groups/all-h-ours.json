@@ -159,5 +159,226 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 208840,
+      "spotify_id": "2m5lRlEucobWPA1V6xqxWO",
+      "top_tracks": [
+        {
+          "title": "GIMME GIMME",
+          "play_count": 3939962,
+          "uri": "spotify:track:4QTDaL72TntzXCeoHrl6Cx"
+        },
+        {
+          "title": "SHOCK",
+          "play_count": 4752661,
+          "uri": "spotify:track:0F2s3Lc7LeAlt2w7OokIoL"
+        },
+        {
+          "title": "READY 2 RUMBLE",
+          "play_count": 776496,
+          "uri": "spotify:track:1Vj1oP3Z1PJXsU2HpgEPvO"
+        },
+        {
+          "title": "WAO WAO",
+          "play_count": 1258115,
+          "uri": "spotify:track:1VEcURw5AJrI4OIqBMO07q"
+        },
+        {
+          "title": "GOTCHA",
+          "play_count": 1938847,
+          "uri": "spotify:track:02rhdB4VphNx89HO1ER4cN"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 3984225,
+      "track_count": 25,
+      "mean_views": 159369,
+      "max_views": 927966,
+      "albums": [
+        {
+          "title": "My Spring, My Light, My Breath",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "My Spring, My Light, My Breath",
+              "video_id": "J0B_ribEMEw",
+              "youtube_views": 81684
+            }
+          ]
+        },
+        {
+          "title": "White Christmas (Speed Up / Challenge Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "White Christmas (Speed Up / Challenge Ver.)",
+              "video_id": "33W7UADGjrM",
+              "youtube_views": 1477
+            }
+          ]
+        },
+        {
+          "title": "White Christmas (Challenge Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "White Christmas (Challenge Ver.)",
+              "video_id": "KRk6HuvXu5M",
+              "youtube_views": 956
+            }
+          ]
+        },
+        {
+          "title": "White Christmas",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "White Christmas",
+              "video_id": "PbaWFSjxt1Q",
+              "youtube_views": 67427
+            }
+          ]
+        },
+        {
+          "title": "VCF",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "VCF (VCF)",
+              "video_id": "IvqbikKfp6g",
+              "youtube_views": 14123
+            },
+            {
+              "title": "READY 2 RUMBLE (READY 2 RUMBLE)",
+              "video_id": "lU9c_16QDU4",
+              "youtube_views": 248359
+            },
+            {
+              "title": "DO IT (DO IT)",
+              "video_id": "vARpG6RAy7I",
+              "youtube_views": 93284
+            },
+            {
+              "title": "GOOD JOB (KUNHO, XAYDEN, MASAMI, HYUNBIN) (GOOD JOB (KUNHO, XAYDEN, MASAMI, HYUNBIN))",
+              "video_id": "V094COFwXpY",
+              "youtube_views": 44744
+            },
+            {
+              "title": "La Vida Loca (YOUMIN, MINJE, ON:N, KUNHO) (La Vida Loca (YOUMIN, MINJE, ON:N, KUNHO))",
+              "video_id": "dsMpYjAgpAM",
+              "youtube_views": 92292
+            }
+          ]
+        },
+        {
+          "title": "Smoke Point",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Smoke Point (Smoke Point)",
+              "video_id": "V99KzVltcDY",
+              "youtube_views": 26447
+            },
+            {
+              "title": "Graffiti (Graffiti)",
+              "video_id": "zQUZp-y0MMI",
+              "youtube_views": 13320
+            },
+            {
+              "title": "GIMME GIMME (GIMME GIMME)",
+              "video_id": "JhKieoQATrs",
+              "youtube_views": 613730
+            },
+            {
+              "title": "Kings & Queens (Kings & Queens)",
+              "video_id": "d-g6YJvizfg",
+              "youtube_views": 164922
+            },
+            {
+              "title": "Freaky Fresh (Freaky Fresh)",
+              "video_id": "OKUpQmQio3k",
+              "youtube_views": 71966
+            }
+          ]
+        },
+        {
+          "title": "Graffiti",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Graffiti (Graffiti)",
+              "video_id": "DRWN2tLMtx8",
+              "youtube_views": 131552
+            }
+          ]
+        },
+        {
+          "title": "WITNESS",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "WITNESS (WITNESS)",
+              "video_id": "UGj13eA-7pQ",
+              "youtube_views": 36286
+            },
+            {
+              "title": "SHOCK (도깨비(SHOCK))",
+              "video_id": "KO0Cr27i3Y8",
+              "youtube_views": 927966
+            },
+            {
+              "title": "PSYCHO MANTRA (PSYCHO MANTRA)",
+              "video_id": "gRg75eyFTpc",
+              "youtube_views": 182752
+            },
+            {
+              "title": "'Bout That Issue ('Bout That Issue)",
+              "video_id": "okoR8JPudO0",
+              "youtube_views": 172121
+            },
+            {
+              "title": "Blah Blah (Blah Blah)",
+              "video_id": "bDINm5pF7jQ",
+              "youtube_views": 140381
+            }
+          ]
+        },
+        {
+          "title": "ALL OURS",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Drift (Drift)",
+              "video_id": "rxopX0ee1lQ",
+              "youtube_views": 62580
+            },
+            {
+              "title": "GOTCHA (으랏차차(GOTCHA))",
+              "video_id": "fKA-VXCDCAM",
+              "youtube_views": 373670
+            },
+            {
+              "title": "WAO WAO (WAO WAO)",
+              "video_id": "hXP514NNJtM",
+              "youtube_views": 239484
+            },
+            {
+              "title": "Racer (Racer)",
+              "video_id": "mOuL9FThnlw",
+              "youtube_views": 109742
+            },
+            {
+              "title": "ALL OURS (ALL OURS)",
+              "video_id": "f7FfbTWWWRM",
+              "youtube_views": 72960
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -627,5 +627,521 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 135079,
+      "spotify_id": "0eEhOgZ2x6kv8kLz77WO7b",
+      "top_tracks": [
+        {
+          "title": "We Must Love",
+          "play_count": 9935146,
+          "uri": "spotify:track:1A4YajwEpelSzGoNv1dFk7"
+        },
+        {
+          "title": "Beautiful Beautiful",
+          "play_count": 8482431,
+          "uri": "spotify:track:79QAI89acpSdemBXCNFJzr"
+        },
+        {
+          "title": "Bye My Monster",
+          "play_count": 2211290,
+          "uri": "spotify:track:7MV68p0TgX9YAo1y3SyjU8"
+        },
+        {
+          "title": "Sukhumvit Swimming",
+          "play_count": 5556145,
+          "uri": "spotify:track:2FciWfcHPs6cct6YVjmpyU"
+        },
+        {
+          "title": "Complete (Remastered Version)",
+          "play_count": 5714099,
+          "uri": "spotify:track:5IkqEM7u4iuitF5KFgwtG3"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 17570245,
+      "track_count": 78,
+      "mean_views": 225259,
+      "max_views": 6935866,
+      "albums": [
+        {
+          "title": "SPECIAL ALBUM [Storage of ONF]",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Your Song (Your Song)",
+              "video_id": "KXDzX0SyhJQ",
+              "youtube_views": 213840
+            },
+            {
+              "title": "Runaway (Runaway)",
+              "video_id": "mBJfiF-aI2k",
+              "youtube_views": 75562
+            },
+            {
+              "title": "Traveler (Traveler)",
+              "video_id": "OJ1sYyIUaqw",
+              "youtube_views": 23917
+            },
+            {
+              "title": "GUCCI (GUCCI)",
+              "video_id": "5aFSj25qQU4",
+              "youtube_views": 31796
+            },
+            {
+              "title": "My Song (My Song)",
+              "video_id": "8mjT8VH3vbs",
+              "youtube_views": 115022
+            },
+            {
+              "title": "ON/OFF (Remastered Version) (ON/OFF (Remastered ver.))",
+              "video_id": "8hKEvvRCt84",
+              "youtube_views": 7823
+            },
+            {
+              "title": "If We Dream (Remastered Version) (If We Dream (Remastered ver.))",
+              "video_id": "ldH8eMBUMz4",
+              "youtube_views": 8880
+            },
+            {
+              "title": "86400 (Remastered Version) (스물네 번 (86400) (Remastered ver.))",
+              "video_id": "abnKaWBaS18",
+              "youtube_views": 8549
+            },
+            {
+              "title": "We Must Love (Remastered Version) (사랑하게 될 거야 (We Must Love) (Remastered ver.))",
+              "video_id": "DoyF2Dyyc5E",
+              "youtube_views": 22962
+            },
+            {
+              "title": "Complete (Remastered Version) (Complete (널 만난 순간) (Remastered ver.))",
+              "video_id": "jXRG3SiurW8",
+              "youtube_views": 12531
+            }
+          ]
+        },
+        {
+          "title": "CITY OF ONF",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Ugly Dance",
+              "video_id": "qex-bOeAvRA",
+              "youtube_views": 108733
+            },
+            {
+              "title": "My Genesis (Übermensch)",
+              "video_id": "YlDA0Dmb7Ns",
+              "youtube_views": 49179
+            },
+            {
+              "title": "The Dreamer",
+              "video_id": "-USWc_MiAzI",
+              "youtube_views": 17714
+            },
+            {
+              "title": "Beautiful Beautiful",
+              "video_id": "8Ua188aWI38",
+              "youtube_views": 39798
+            },
+            {
+              "title": "My Name Is",
+              "video_id": "RrxYjD9nNbQ",
+              "youtube_views": 2879
+            },
+            {
+              "title": "Thermometer (ON Team Version)",
+              "video_id": "nj4h3nEspD8",
+              "youtube_views": 3429
+            },
+            {
+              "title": "Secret Triangle (OFF Team Version)",
+              "video_id": "zYHrcoWhB8U",
+              "youtube_views": 4174
+            },
+            {
+              "title": "The Realist",
+              "video_id": "ZwtFPti7XUY",
+              "youtube_views": 4969
+            },
+            {
+              "title": "On-You (Interlude)",
+              "video_id": "gz5IuIxaf0Y",
+              "youtube_views": 3308
+            },
+            {
+              "title": "Trip Advisor",
+              "video_id": "Q3T-VN4DgWI",
+              "youtube_views": 2581
+            },
+            {
+              "title": "Feedback",
+              "video_id": "ez99UnGKUaA",
+              "youtube_views": 3857
+            },
+            {
+              "title": "I.T.I.L.U",
+              "video_id": "MUszvV56OrM",
+              "youtube_views": 3461
+            },
+            {
+              "title": "Beautiful Beautiful (English Version)",
+              "video_id": "qHrtAqpNvLk",
+              "youtube_views": 1497
+            }
+          ]
+        },
+        {
+          "title": "ONF:MY NAME",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Beautiful Beautiful",
+              "video_id": "Sj0q515EOM8",
+              "youtube_views": 2016918
+            },
+            {
+              "title": "My Name Is",
+              "video_id": "QQj8W8sjXBs",
+              "youtube_views": 53611
+            },
+            {
+              "title": "Thermometer (ON Team Version)",
+              "video_id": "NM4Wp3ftm4Q",
+              "youtube_views": 20414
+            },
+            {
+              "title": "Secret Triangle (OFF Team Version)",
+              "video_id": "Wxfbszym3tE",
+              "youtube_views": 44239
+            },
+            {
+              "title": "The Realist",
+              "video_id": "7JBasLe_Gzc",
+              "youtube_views": 36808
+            },
+            {
+              "title": "On-You (Interlude)",
+              "video_id": "QyZmWHUgdkg",
+              "youtube_views": 19769
+            },
+            {
+              "title": "Trip Advisor",
+              "video_id": "7MbgRZ3QWkA",
+              "youtube_views": 32168
+            },
+            {
+              "title": "Feedback",
+              "video_id": "haGfSsQe5x0",
+              "youtube_views": 22563
+            },
+            {
+              "title": "I.T.I.L.U",
+              "video_id": "HqihxSoG7is",
+              "youtube_views": 31109
+            },
+            {
+              "title": "Beautiful Beautiful (English Version)",
+              "video_id": "cBY3vQfvJdc",
+              "youtube_views": 5300
+            }
+          ]
+        },
+        {
+          "title": "SPIN OFF",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Sukhumvit Swimming",
+              "video_id": "IIyaT7dKl1A",
+              "youtube_views": 116733
+            },
+            {
+              "title": "Belle Epoque",
+              "video_id": "ppWUqpxfmMY",
+              "youtube_views": 99644
+            },
+            {
+              "title": "Geppeto",
+              "video_id": "UewNxbFDBLo",
+              "youtube_views": 55185
+            },
+            {
+              "title": "Good Good",
+              "video_id": "mnShwie7ctM",
+              "youtube_views": 26020
+            },
+            {
+              "title": "Cactus",
+              "video_id": "4xPPYFZhCSQ",
+              "youtube_views": 55683
+            },
+            {
+              "title": "Message",
+              "video_id": "8jLerytYmBs",
+              "youtube_views": 34547
+            },
+            {
+              "title": "New World (SPIN OFF Version)",
+              "video_id": "A-X9W_ARXOY",
+              "youtube_views": 89245
+            }
+          ]
+        },
+        {
+          "title": "UNBROKEN",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Put It Back",
+              "video_id": "XrjM6ErAdyY",
+              "youtube_views": 192110
+            },
+            {
+              "title": "Broken Map",
+              "video_id": "HMHjfehYiGw",
+              "youtube_views": 93703
+            },
+            {
+              "title": "Moonlight Festa",
+              "video_id": "mcZMkLvY_gI",
+              "youtube_views": 110155
+            },
+            {
+              "title": "New Dawn",
+              "video_id": "fMCwxNSrapo",
+              "youtube_views": 74102
+            },
+            {
+              "title": "I Found You In Heaven",
+              "video_id": "vdWAW_PLaR4",
+              "youtube_views": 97291
+            }
+          ]
+        },
+        {
+          "title": "여름 빛 (Summer Light)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Summer Light (여름 빛 (Summer Light))",
+              "video_id": "3-INDvtD9Fs",
+              "youtube_views": 503343
+            },
+            {
+              "title": "Summer Light (Inst.) (여름 빛 (Summer Light) (Inst.))",
+              "video_id": "1_Ub69dwmrs",
+              "youtube_views": 6240
+            }
+          ]
+        },
+        {
+          "title": "ONF:MY IDENTITY",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "The Stranger (The Stranger)",
+              "video_id": "eDC_Qs9lC-s",
+              "youtube_views": 713017
+            },
+            {
+              "title": "Night Tale (Night Tale)",
+              "video_id": "guBZmJWyscw",
+              "youtube_views": 286370
+            },
+            {
+              "title": "Nothing but a stranger (ON Team Ver.) (Nothing but a stranger (ON Team Ver.))",
+              "video_id": "DO8FKwstQmQ",
+              "youtube_views": 164358
+            },
+            {
+              "title": "Anti Hero (OFF Team Ver.) (Anti Hero (OFF Team Ver.))",
+              "video_id": "t6K4E8iTYrI",
+              "youtube_views": 174967
+            },
+            {
+              "title": "Good Place (Good Place)",
+              "video_id": "1drB6XP7hd4",
+              "youtube_views": 252115
+            },
+            {
+              "title": "Collab (Collab)",
+              "video_id": "-_BVP-dVND4",
+              "youtube_views": 204725
+            }
+          ]
+        },
+        {
+          "title": "BREWING LOVE, Pt. 1 (Original Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Tipsy On You",
+              "video_id": "Ewe1k_b5z0A",
+              "youtube_views": 274858
+            },
+            {
+              "title": "Tipsy On You (Instrumental)",
+              "video_id": "0NLL-VNACcg",
+              "youtube_views": 5540
+            }
+          ]
+        },
+        {
+          "title": "Beautiful Shadow",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Bye My Monster (Bye My Monster)",
+              "video_id": "pumygjhB3cI",
+              "youtube_views": 6935866
+            },
+            {
+              "title": "Aphrodite (Aphrodite)",
+              "video_id": "1TkH5Ptr9so",
+              "youtube_views": 400354
+            },
+            {
+              "title": "Breath, Haze & Shadow (Breath, Haze & Shadow)",
+              "video_id": "jumbEnikCME",
+              "youtube_views": 387394
+            },
+            {
+              "title": "Chemical Type (Chemical Type)",
+              "video_id": "xWgRTHn4p2w",
+              "youtube_views": 447974
+            },
+            {
+              "title": "Slave To The Rhythm (Slave To The Rhythm)",
+              "video_id": "MwXE5NjwPGE",
+              "youtube_views": 401547
+            }
+          ]
+        },
+        {
+          "title": "LOVE EFFECT (Japanese Version) (LOVE EFFECT -Japanese Ver.-)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "LOVE EFFECT (Japanese Version) (LOVE EFFECT -Japanese Ver.-)",
+              "video_id": "kb0aL53Tdis",
+              "youtube_views": 9344
+            }
+          ]
+        },
+        {
+          "title": "LOVE EFFECT",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Be Here Now (Be Here Now)",
+              "video_id": "-lh4Z3BDl_M",
+              "youtube_views": 53340
+            },
+            {
+              "title": "Love Effect (바람이 분다 (Love Effect))",
+              "video_id": "U2zCxMrNkpU",
+              "youtube_views": 139796
+            },
+            {
+              "title": "Dam Dam Di Ram (Dam Dam Di Ram)",
+              "video_id": "GTUQWmyI-b8",
+              "youtube_views": 43398
+            },
+            {
+              "title": "Arrival (Arrival)",
+              "video_id": "a00gJqo2gAU",
+              "youtube_views": 50738
+            },
+            {
+              "title": "Wind Effect (바람이 부는 이유 (Wind Effect))",
+              "video_id": "FS_P49UlAvg",
+              "youtube_views": 105107
+            }
+          ]
+        },
+        {
+          "title": "6TH MINI ALBUM [Goosebumps]",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Goosebumps (Goosebumps)",
+              "video_id": "6WN9mMB9qYw",
+              "youtube_views": 284799
+            },
+            {
+              "title": "Whistle (Whistle)",
+              "video_id": "jlrvgfZdI1M",
+              "youtube_views": 110405
+            },
+            {
+              "title": "Fat and Sugar (Fat and Sugar)",
+              "video_id": "YxaJEl9XYHc",
+              "youtube_views": 92564
+            },
+            {
+              "title": "Alarm (Alarm)",
+              "video_id": "lH_RPz3Wj4E",
+              "youtube_views": 75397
+            },
+            {
+              "title": "Show Must Go On (Show Must Go On)",
+              "video_id": "zH3x7la47Cg",
+              "youtube_views": 175772
+            }
+          ]
+        },
+        {
+          "title": "SUMMER POPUP ALBUM [POPPING]",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Popping (여름 쏙)",
+              "video_id": "ofoItfjexCA",
+              "youtube_views": 226397
+            },
+            {
+              "title": "Summer Poem (여름 시)",
+              "video_id": "qF8S_qwma0U",
+              "youtube_views": 43741
+            },
+            {
+              "title": "Summer Shape (여름의 모양)",
+              "video_id": "RHGDWhtLDk4",
+              "youtube_views": 23098
+            },
+            {
+              "title": "Dry Ice (여름의 온도)",
+              "video_id": "IGWMNXafexc",
+              "youtube_views": 28471
+            },
+            {
+              "title": "Summer End (여름의 끝)",
+              "video_id": "UtkW7k_fOpU",
+              "youtube_views": 53760
+            }
+          ]
+        },
+        {
+          "title": "Love Revolution OST Part.1 (연애혁명 OST Part.1)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Not a sad song (이별 노래가 아니야 (Not a sad song))",
+              "video_id": "ml-fJfpc2z0",
+              "youtube_views": 782843
+            },
+            {
+              "title": "Not a sad song (Inst.) (이별 노래가 아니야 (Not a sad song) (Inst.))",
+              "video_id": "kzUEPAEwNV0",
+              "youtube_views": 18829
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -135,5 +135,63 @@
       "누적_써클": "-",
       "비고": "MEMORIES"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 605,
+      "spotify_id": "3ICMD33jI4CIykUpX4ySFm",
+      "top_tracks": [
+        {
+          "title": "Click Clack",
+          "play_count": 58965,
+          "uri": "spotify:track:5GM8YJZb1GDUIZwmtwSEN7"
+        },
+        {
+          "title": "Stunning",
+          "play_count": 20059,
+          "uri": "spotify:track:6XQxtPVz1B0up4oaD3bWUO"
+        },
+        {
+          "title": "Only One",
+          "play_count": 6934,
+          "uri": "spotify:track:75Y5fFXiVW9ge50Pwunwqs"
+        },
+        {
+          "title": "illumination",
+          "play_count": 16303,
+          "uri": "spotify:track:4U7jrNg1nkR8XhvJrFNt2M"
+        },
+        {
+          "title": "Same Time",
+          "play_count": 10173,
+          "uri": "spotify:track:1F8Lnco7HDqZfQNBgV6dGV"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 7904,
+      "track_count": 2,
+      "mean_views": 3952,
+      "max_views": 4998,
+      "albums": [
+        {
+          "title": "illumination",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "illumination",
+              "video_id": "_IqY5oQvgXg",
+              "youtube_views": 4998
+            },
+            {
+              "title": "서로 다른 시간의 밤이...",
+              "video_id": "oQNtqCaaCvI",
+              "youtube_views": 2906
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

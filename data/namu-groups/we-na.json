@@ -123,5 +123,39 @@
       "누적_써클": "",
       "비고": "Wake Up (TITLE)"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2021,
+      "spotify_id": "1nlvVchkTmecxdFNflxucN",
+      "top_tracks": [
+        {
+          "title": "Like Psycho",
+          "play_count": 160748,
+          "uri": "spotify:track:6F7SqxOvVD4dMvxN2IBCoV"
+        },
+        {
+          "title": "Queen",
+          "play_count": 119534,
+          "uri": "spotify:track:2B7G6POJP8XyNgaZhaQzfo"
+        },
+        {
+          "title": "We;Na World",
+          "play_count": 19277,
+          "uri": "spotify:track:0er9FT0UYSdkoifg3IYLKf"
+        },
+        {
+          "title": "Baby Step",
+          "play_count": 46911,
+          "uri": "spotify:track:4aufxzbLVjdi4Cqi6I2AIA"
+        },
+        {
+          "title": "바람 - 원이연서 Duo Version",
+          "play_count": 19896,
+          "uri": "spotify:track:4uCUvo1vEyiwU1QnHJdq6X"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

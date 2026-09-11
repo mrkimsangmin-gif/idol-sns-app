@@ -219,5 +219,39 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 40559,
+      "spotify_id": "6Bmr9e9x44iib7equMj5Qj",
+      "top_tracks": [
+        {
+          "title": "NEW DAYZ",
+          "play_count": 1703907,
+          "uri": "spotify:track:5WfZIXUF0PlUMUcETTpk7t"
+        },
+        {
+          "title": "Kart Racer",
+          "play_count": 34852,
+          "uri": "spotify:track:1hnpRy9O93jZs9HI51y02u"
+        },
+        {
+          "title": "Crime",
+          "play_count": 87350,
+          "uri": "spotify:track:0yWMqHZAwjzdDQaDTpv3pk"
+        },
+        {
+          "title": "VAGABOND",
+          "play_count": 618027,
+          "uri": "spotify:track:62zGOAGCpElZUCN0TzP39r"
+        },
+        {
+          "title": "MY WAY",
+          "play_count": 619214,
+          "uri": "spotify:track:6w4QiIpOwtNKDMQBXBkBCS"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -107,5 +107,39 @@
       "누적_써클": "",
       "비고": "어린왕자 TITLE"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2079,
+      "spotify_id": "2xw8h8dxegZ1OMKPlRk18K",
+      "top_tracks": [
+        {
+          "title": "Destapando Farsantes",
+          "play_count": 14239,
+          "uri": "spotify:track:7598fq2Mg0UOcn5EqRpH1e"
+        },
+        {
+          "title": "Little Prince",
+          "play_count": 88135,
+          "uri": "spotify:track:6mbPBjM1a3OksF50BsP9tn"
+        },
+        {
+          "title": "Wolf",
+          "play_count": 32137,
+          "uri": "spotify:track:1qP87mbgOHhuyeHc5Lv6En"
+        },
+        {
+          "title": "Cuando Te Vi",
+          "play_count": 63846,
+          "uri": "spotify:track:6BIu2bbTlIbF0wejmxvr5i"
+        },
+        {
+          "title": "A-CHA!",
+          "play_count": 25685,
+          "uri": "spotify:track:4TqZcEcLJyrCkIaz1njWaW"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

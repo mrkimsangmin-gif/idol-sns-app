@@ -861,5 +861,39 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 1792310,
+      "spotify_id": "0XATRDCYuuGhk0oE7C0o5G",
+      "top_tracks": [
+        {
+          "title": "HIP",
+          "play_count": 308684376,
+          "uri": "spotify:track:24nK8tW7Pt3Inh2utttuoG"
+        },
+        {
+          "title": "Egotistic",
+          "play_count": 151017204,
+          "uri": "spotify:track:3a7OyTsoZ8CCBdvEEvzLBv"
+        },
+        {
+          "title": "gogobebe",
+          "play_count": 134593559,
+          "uri": "spotify:track:6E7jAJN2e3znSHyPCdQqx8"
+        },
+        {
+          "title": "Starry Night",
+          "play_count": 92122638,
+          "uri": "spotify:track:3qUJ0kC9YdBO5qRFdYXeXX"
+        },
+        {
+          "title": "AYA",
+          "play_count": 83508596,
+          "uri": "spotify:track:4BZXVFYCb76Q0Klojq4piV"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

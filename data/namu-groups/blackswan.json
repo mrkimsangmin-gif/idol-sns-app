@@ -153,5 +153,263 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 73167,
+      "spotify_id": "2ujaWf015QoP7x1u20Yq5G",
+      "top_tracks": [
+        {
+          "title": "Roll Up",
+          "play_count": 3474708,
+          "uri": "spotify:track:2KIyd36V2ejCrvlYU1Ci1K"
+        },
+        {
+          "title": "Cat & Mouse",
+          "play_count": 4289792,
+          "uri": "spotify:track:1gL38pTAlg8M9aypzumft8"
+        },
+        {
+          "title": "Karma",
+          "play_count": 5818732,
+          "uri": "spotify:track:0AZ5C3305mRKWX1x0hDF39"
+        },
+        {
+          "title": "Tonight",
+          "play_count": 5040586,
+          "uri": "spotify:track:6a5sIKqXI55hV1xSWYIAne"
+        },
+        {
+          "title": "I Like It Hot",
+          "play_count": 355852,
+          "uri": "spotify:track:5UCYt3hPotkBl99J8sJAQy"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 10031894,
+      "track_count": 36,
+      "mean_views": 278663,
+      "max_views": 2003518,
+      "albums": [
+        {
+          "title": "Roll Up",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "C'est Jamais Vue",
+              "video_id": "SEYwWuGnyXE",
+              "youtube_views": 211918
+            },
+            {
+              "title": "Roll Up",
+              "video_id": "7m468wshgeA",
+              "youtube_views": 1606042
+            },
+            {
+              "title": "Double Down",
+              "video_id": "-YC0T2otM8Y",
+              "youtube_views": 304442
+            },
+            {
+              "title": "La Boum",
+              "video_id": "--oK7J0qI-Y",
+              "youtube_views": 365709
+            },
+            {
+              "title": "C'est Jamais Vue (Inst.)",
+              "video_id": "rt3ZxkYQaPo",
+              "youtube_views": 24163
+            },
+            {
+              "title": "Roll Up (Inst.)",
+              "video_id": "DTGmsyFW9eo",
+              "youtube_views": 37323
+            },
+            {
+              "title": "Double Down (Inst.)",
+              "video_id": "E7AXoYIaiJc",
+              "youtube_views": 11833
+            },
+            {
+              "title": "La Boum (Inst.)",
+              "video_id": "CGFjtNDxOYI",
+              "youtube_views": 10036
+            }
+          ]
+        },
+        {
+          "title": "Goodbye RANIA",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Tonight",
+              "video_id": "rKCHrfaLnwg",
+              "youtube_views": 1431547
+            },
+            {
+              "title": "Over & Over",
+              "video_id": "gQsX3FtuWk0",
+              "youtube_views": 256928
+            },
+            {
+              "title": "Let Me Dance",
+              "video_id": "zM8WBAwTqa0",
+              "youtube_views": 71928
+            },
+            {
+              "title": "Dr. Feel Good (Remix)",
+              "video_id": "uLrRQOYHtJY",
+              "youtube_views": 35230
+            },
+            {
+              "title": "Just Go (Remix)",
+              "video_id": "0nhWjLP7gUQ",
+              "youtube_views": 27211
+            },
+            {
+              "title": "Hello (Remix)",
+              "video_id": "AMUCjXFOS_M",
+              "youtube_views": 19796
+            },
+            {
+              "title": "UP",
+              "video_id": "XC-3XrqTE48",
+              "youtube_views": 56067
+            },
+            {
+              "title": "Demonstrate (Remix)",
+              "video_id": "obq-41psEKQ",
+              "youtube_views": 29644
+            },
+            {
+              "title": "Get Out",
+              "video_id": "IeDsPgO58Dw",
+              "youtube_views": 110145
+            },
+            {
+              "title": "Start a Fire",
+              "video_id": "mOO4Sr8fp5A",
+              "youtube_views": 64949
+            },
+            {
+              "title": "Make me ah",
+              "video_id": "EYAddpmIhhw",
+              "youtube_views": 94784
+            },
+            {
+              "title": "Beep Beep Beep",
+              "video_id": "VS92izeElag",
+              "youtube_views": 64658
+            },
+            {
+              "title": "No Dab",
+              "video_id": "NIdJaUYXqRM",
+              "youtube_views": 35159
+            },
+            {
+              "title": "Breathe Heavy",
+              "video_id": "ZtniL95lrvs",
+              "youtube_views": 57266
+            }
+          ]
+        },
+        {
+          "title": "I Like It Hot",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "I Like It Hot",
+              "video_id": "rYk-xG_6Sf0",
+              "youtube_views": 735461
+            },
+            {
+              "title": "Roll Up Remix",
+              "video_id": "4560uKdzCkM",
+              "youtube_views": 112761
+            },
+            {
+              "title": "I Like It Hot (Inst.)",
+              "video_id": "5dGEPAlmYH0",
+              "youtube_views": 14766
+            },
+            {
+              "title": "Roll Up Remix (Inst.)",
+              "video_id": "59E5MYoguUk",
+              "youtube_views": 6795
+            }
+          ]
+        },
+        {
+          "title": "That Karma - Pop Edition",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Karma - English Version",
+              "video_id": "1Q5YqnEkoEU",
+              "youtube_views": 328905
+            },
+            {
+              "title": "Cat & Mouse - English Version",
+              "video_id": "kJDgSycqruw",
+              "youtube_views": 181905
+            },
+            {
+              "title": "A World Without Pain",
+              "video_id": "BFftL4s5uoo",
+              "youtube_views": 29858
+            }
+          ]
+        },
+        {
+          "title": "That Karma",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Karma",
+              "video_id": "eHxrIumbc88",
+              "youtube_views": 2003518
+            },
+            {
+              "title": "Cat & Mouse",
+              "video_id": "zCHOUP2eenA",
+              "youtube_views": 755771
+            },
+            {
+              "title": "Karma (Inst.)",
+              "video_id": "Mqx1NvR7bWI",
+              "youtube_views": 52492
+            },
+            {
+              "title": "Cat & Mouse (Inst.)",
+              "video_id": "knz53EolgNE",
+              "youtube_views": 33061
+            }
+          ]
+        },
+        {
+          "title": "Close to Me",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Close to Me",
+              "video_id": "FIHQitx-dek",
+              "youtube_views": 611354
+            },
+            {
+              "title": "Close to Me (Eng Version)",
+              "video_id": "iG9HoqTdhkQ",
+              "youtube_views": 171303
+            },
+            {
+              "title": "Get Up (SHARK Remix)",
+              "video_id": "BxIKWLa_ee8",
+              "youtube_views": 67166
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

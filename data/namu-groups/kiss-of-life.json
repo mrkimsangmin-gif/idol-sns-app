@@ -233,5 +233,330 @@
       "누적_써클": "",
       "비고": "Who is she"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 3814531,
+      "spotify_id": "4TEK9tIkcoxib4GxT3O4ky",
+      "top_tracks": [
+        {
+          "title": "Igloo",
+          "play_count": 227678743,
+          "uri": "spotify:track:2DbDefRFJ5YOfXCKOeCJJh"
+        },
+        {
+          "title": "Sticky",
+          "play_count": 172917459,
+          "uri": "spotify:track:4e1aewX6ATPcdfQIqr7gqO"
+        },
+        {
+          "title": "Sugarcoat (NATTY Solo)",
+          "play_count": 124474334,
+          "uri": "spotify:track:0NoeYUnwpb9R26mpylHcR9"
+        },
+        {
+          "title": "Midas Touch",
+          "play_count": 160031158,
+          "uri": "spotify:track:0vaxYDAuAO1nPolC6bQp7V"
+        },
+        {
+          "title": "Lips Hips Kiss",
+          "play_count": 27943855,
+          "uri": "spotify:track:5Q4DLsIx0Fl0IDCCWHsLlH"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 453938067,
+      "track_count": 41,
+      "mean_views": 11071660,
+      "max_views": 91365544,
+      "albums": [
+        {
+          "title": "224",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Lips Hips Kiss (Lips Hips Kiss)",
+              "video_id": "KiBK-owZkqE",
+              "youtube_views": 18098331
+            },
+            {
+              "title": "Tell Me (Tell Me)",
+              "video_id": "brBJpDMypx4",
+              "youtube_views": 3259990
+            },
+            {
+              "title": "k bye (k bye)",
+              "video_id": "yGt1WW3DaVc",
+              "youtube_views": 2274114
+            },
+            {
+              "title": "Painting (Painting)",
+              "video_id": "MzZVRobFPWw",
+              "youtube_views": 969103
+            },
+            {
+              "title": "Slide (Slide)",
+              "video_id": "DJz9er08-38",
+              "youtube_views": 2969660
+            },
+            {
+              "title": "Heart of Gold (Heart of Gold)",
+              "video_id": "lRxGsqGA7d0",
+              "youtube_views": 749550
+            },
+            {
+              "title": "Think Twice (Think Twice)",
+              "video_id": "G8UcrzZOtZM",
+              "youtube_views": 829521
+            }
+          ]
+        },
+        {
+          "title": "Lose Yourself",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Get Loud (Get Loud)",
+              "video_id": "lobrQyqZujY",
+              "youtube_views": 8870339
+            },
+            {
+              "title": "R.E.M (R.E.M)",
+              "video_id": "VpOstCAt6z4",
+              "youtube_views": 7580457
+            },
+            {
+              "title": "Chemistry (Chemistry)",
+              "video_id": "To-RNIGWLS4",
+              "youtube_views": 2755226
+            },
+            {
+              "title": "Igloo (Igloo)",
+              "video_id": "ycZ6X9_APCs",
+              "youtube_views": 91062642
+            },
+            {
+              "title": "Too Many Alex (Too Many Alex)",
+              "video_id": "Moc5jgcgR9Y",
+              "youtube_views": 1144078
+            },
+            {
+              "title": "Back To Me (Back To Me)",
+              "video_id": "uAOGndidLWU",
+              "youtube_views": 2731143
+            },
+            {
+              "title": "No One But Us (No One But Us)",
+              "video_id": "ozoPZdb_lUA",
+              "youtube_views": 5016300
+            }
+          ]
+        },
+        {
+          "title": "Born to be XX",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Bad News (Bad News)",
+              "video_id": "f6u0nPT_9rU",
+              "youtube_views": 34710457
+            },
+            {
+              "title": "Nobody Knows (Nobody Knows)",
+              "video_id": "9BivV8qFP_Y",
+              "youtube_views": 44447428
+            },
+            {
+              "title": "My 808 (My 808)",
+              "video_id": "qu6d9n8M0xA",
+              "youtube_views": 2163937
+            },
+            {
+              "title": "TTG (TTG)",
+              "video_id": "rWIwIAe5e4Y",
+              "youtube_views": 7377360
+            },
+            {
+              "title": "Gentleman (Gentleman)",
+              "video_id": "IPhGwCTAUUs",
+              "youtube_views": 1522820
+            },
+            {
+              "title": "Says It (Says It)",
+              "video_id": "w93k9PZoCtc",
+              "youtube_views": 3010485
+            },
+            {
+              "title": "Bad News (ENG Ver.) (Bad News (ENG Ver.))",
+              "video_id": "JvrUS-AJFV8",
+              "youtube_views": 2419353
+            }
+          ]
+        },
+        {
+          "title": "Lucky (Korean Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Lucky (Korean Ver.)",
+              "video_id": "PTndN0vIE5g",
+              "youtube_views": 459011
+            }
+          ]
+        },
+        {
+          "title": "TOKYO MISSION START",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Lucky",
+              "video_id": "IeYMq3CTW2w",
+              "youtube_views": 3493197
+            },
+            {
+              "title": "Sticky (Japanese Ver.)",
+              "video_id": "QtccBhaEmuE",
+              "youtube_views": 50948
+            },
+            {
+              "title": "Midas Touch (Japanese Ver.)",
+              "video_id": "GJYnnfaqUtY",
+              "youtube_views": 54084
+            },
+            {
+              "title": "Shhh (Japanese Ver.)",
+              "video_id": "y6J-MWjPqx0",
+              "youtube_views": 35077
+            },
+            {
+              "title": "Nobody Knows (Remix)",
+              "video_id": "byl5tbmKjh8",
+              "youtube_views": 450991
+            },
+            {
+              "title": "R.E.M (Remix)",
+              "video_id": "ZXC9D3vMXoo",
+              "youtube_views": 109510
+            }
+          ]
+        },
+        {
+          "title": "Sticky (Japanese Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Sticky (Japanese Ver.)",
+              "video_id": "mU-QQZqQEe0",
+              "youtube_views": 152710
+            }
+          ]
+        },
+        {
+          "title": "KISS ROAD",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Live, Love, Laugh (Live, Love, Laugh)",
+              "video_id": "kKjgQIYSlho",
+              "youtube_views": 675344
+            },
+            {
+              "title": "W.House (W.House)",
+              "video_id": "lcpVk4dHL-U",
+              "youtube_views": 2825039
+            },
+            {
+              "title": "Live, Love, Laugh (Inst.) (Live, Love, Laugh (Inst.))",
+              "video_id": "xc257T2FOPw",
+              "youtube_views": 45939
+            }
+          ]
+        },
+        {
+          "title": "R.E.M",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "R.E.M (R.E.M)",
+              "video_id": "qSKzPiIx1OE",
+              "youtube_views": 2180419
+            }
+          ]
+        },
+        {
+          "title": "STAGE FIGHTER(STF) Original Vol.1",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Maestro of My Heart (Prod. Czaer)",
+              "video_id": "chZwM-GrYyU",
+              "youtube_views": 5903243
+            },
+            {
+              "title": "Maestro of My Heart (Instrumental) (Prod. Czaer)",
+              "video_id": "DqNzqArp5N8",
+              "youtube_views": 203369
+            }
+          ]
+        },
+        {
+          "title": "SUPERPOWER",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SUPERPOWER",
+              "video_id": "ik9LVPZM1Jc",
+              "youtube_views": 870045
+            }
+          ]
+        },
+        {
+          "title": "Sticky",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Sticky (Sticky)",
+              "video_id": "WA97qDH6w9I",
+              "youtube_views": 91365544
+            },
+            {
+              "title": "Te Quiero (Te Quiero)",
+              "video_id": "5eRXZK-YRw8",
+              "youtube_views": 17178246
+            }
+          ]
+        },
+        {
+          "title": "Songstealer - Sixth Sense",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Sixth Sense",
+              "video_id": "DVrBL7BCzWs",
+              "youtube_views": 1524178
+            }
+          ]
+        },
+        {
+          "title": "Midas Touch",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Midas Touch (Midas Touch)",
+              "video_id": "84MvHFDzo8c",
+              "youtube_views": 56115973
+            },
+            {
+              "title": "Nothing (Nothing)",
+              "video_id": "gBR9SoPtOu8",
+              "youtube_views": 26282906
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

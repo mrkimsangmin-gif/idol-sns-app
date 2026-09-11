@@ -325,5 +325,39 @@
       "누적_써클": "-",
       "비고": "뮤직비디오"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 16344,
+      "spotify_id": "05pkCt3DQY5ZC41u7WMk5D",
+      "top_tracks": [
+        {
+          "title": "FORM",
+          "play_count": 1537468,
+          "uri": "spotify:track:5lfn0YTLaNScClWm4cmwU4"
+        },
+        {
+          "title": "JACKPOT",
+          "play_count": 669427,
+          "uri": "spotify:track:4e4RlMOWUnoVkIYyjNjN57"
+        },
+        {
+          "title": "Goodbye & Hello",
+          "play_count": 113907,
+          "uri": "spotify:track:4B131HnHQYxbOdSwktnCec"
+        },
+        {
+          "title": "PERFORMER",
+          "play_count": 630808,
+          "uri": "spotify:track:2arrxX2BubTq86E4N067WY"
+        },
+        {
+          "title": "Pinch Me",
+          "play_count": 72110,
+          "uri": "spotify:track:3lgqjxSp5jn7CknPEM4hEB"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

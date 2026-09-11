@@ -151,5 +151,13 @@
       "누적_써클": "-",
       "비고": "데뷔 음반"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 0,
+      "spotify_id": null,
+      "top_tracks": []
+    },
+    "collected_at": "2026-03-19"
+  }
 }

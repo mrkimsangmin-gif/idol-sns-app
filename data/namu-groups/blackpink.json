@@ -473,5 +473,345 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 26758166,
+      "spotify_id": "41MozSoPIsD1dJM0CLPjZF",
+      "top_tracks": [
+        {
+          "title": "JUMP",
+          "play_count": 548206533,
+          "uri": "spotify:track:4JjJ1KNRrzqstSY0uDuys3"
+        },
+        {
+          "title": "GO",
+          "play_count": 37165399,
+          "uri": "spotify:track:0XanaXeMJJ4VdjWzwok7ZI"
+        },
+        {
+          "title": "Champion",
+          "play_count": 19411569,
+          "uri": "spotify:track:1ozBTzeYuIwCUsMDJTV2fw"
+        },
+        {
+          "title": "Me and my",
+          "play_count": 14638780,
+          "uri": "spotify:track:14ihgY3VH11Uy7zIcoSkP8"
+        },
+        {
+          "title": "Fxxxboy",
+          "play_count": 12043089,
+          "uri": "spotify:track:6C3aCtnqZGMij9FDWeDlQx"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 2142529012,
+      "track_count": 44,
+      "mean_views": 48693841,
+      "max_views": 339147746,
+      "albums": [
+        {
+          "title": "BORN PINK",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Pink Venom",
+              "video_id": "s1ClEKQYSYc",
+              "youtube_views": 15572105
+            },
+            {
+              "title": "Shut Down",
+              "video_id": "UZPZyd5vE1c",
+              "youtube_views": 27879208
+            },
+            {
+              "title": "Typa Girl",
+              "video_id": "Oraf1QiRKcc",
+              "youtube_views": 13694361
+            },
+            {
+              "title": "Yeah Yeah Yeah",
+              "video_id": "Wo6l-CQqZCw",
+              "youtube_views": 5335308
+            },
+            {
+              "title": "Hard to Love",
+              "video_id": "EZXFpnBCZbM",
+              "youtube_views": 6696931
+            },
+            {
+              "title": "The Happiest Girl",
+              "video_id": "ZHMrVDrbyNw",
+              "youtube_views": 6736661
+            },
+            {
+              "title": "Tally",
+              "video_id": "-ECIZOCFd7Y",
+              "youtube_views": 8702712
+            },
+            {
+              "title": "Ready For Love",
+              "video_id": "INN8nx9Rmzg",
+              "youtube_views": 3584654
+            }
+          ]
+        },
+        {
+          "title": "THE ALBUM",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "How You Like That",
+              "video_id": "rrBO9fy6A3s",
+              "youtube_views": 39487555
+            },
+            {
+              "title": "Ice Cream (with Selena Gomez)",
+              "video_id": "ja_Rqf4AFR4",
+              "youtube_views": 17250011
+            },
+            {
+              "title": "Pretty Savage",
+              "video_id": "F8c8f2nK82w",
+              "youtube_views": 339147746
+            },
+            {
+              "title": "Bet You Wanna ft. Cardi B",
+              "video_id": "gXBdvSj9F2I",
+              "youtube_views": 76919181
+            },
+            {
+              "title": "Lovesick Girls",
+              "video_id": "D8RZbI1jfQ0",
+              "youtube_views": 272044873
+            },
+            {
+              "title": "Crazy Over You",
+              "video_id": "u7rKGj13pAs",
+              "youtube_views": 143352125
+            },
+            {
+              "title": "Love To Hate Me",
+              "video_id": "wlzGXcTzdzU",
+              "youtube_views": 144997808
+            },
+            {
+              "title": "You Never Know",
+              "video_id": "4Kk_iaaHd_Y",
+              "youtube_views": 94264309
+            }
+          ]
+        },
+        {
+          "title": "In Your Area, Seoul (Live)",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "Forever Young [Live]",
+              "video_id": "At-lqpWSdLI",
+              "youtube_views": 6185643
+            },
+            {
+              "title": "Stay (Remix) (Live)",
+              "video_id": "4tlLBPp6UvM",
+              "youtube_views": 2867592
+            },
+            {
+              "title": "휘파람 (Whistle) (Live)",
+              "video_id": "iogtVbVCNqg",
+              "youtube_views": 1900630
+            },
+            {
+              "title": "You & I + Only Look At Me [Live]",
+              "video_id": "X2cKSdYi1pY",
+              "youtube_views": 5122740
+            },
+            {
+              "title": "Solo [Live]",
+              "video_id": "XbgdW9nNn2I",
+              "youtube_views": 3117573
+            },
+            {
+              "title": "Really [Live]",
+              "video_id": "UxEguyg3wLo",
+              "youtube_views": 1581021
+            },
+            {
+              "title": "See U Later [Live]",
+              "video_id": "axzzZxqVGQA",
+              "youtube_views": 1643008
+            },
+            {
+              "title": "불장난 (Playing With Fire) (Live)",
+              "video_id": "sD7GeaUoBoQ",
+              "youtube_views": 2648720
+            },
+            {
+              "title": "붐바야 (Boombayah) (Live)",
+              "video_id": "0q_8UJDLE9Q",
+              "youtube_views": 3336149
+            },
+            {
+              "title": "마지막처럼 (As If It’s Your Last) (Live)",
+              "video_id": "JkDY5h27Yt0",
+              "youtube_views": 2161862
+            },
+            {
+              "title": "Whistle (Remix) (Live)",
+              "video_id": "nOsJ9rTGOHo",
+              "youtube_views": 2375042
+            },
+            {
+              "title": "Stay [Live]",
+              "video_id": "HVM1mbJgG24",
+              "youtube_views": 1780719
+            },
+            {
+              "title": "뚜두뚜두 (DDU-DU DDU-DU) (Live)",
+              "video_id": "BYt05vYnpg4",
+              "youtube_views": 2495090
+            },
+            {
+              "title": "뚜두뚜두 (DDU-DU DDU-DU) (Remix) (Live)",
+              "video_id": "ZJJHeI5izHE",
+              "youtube_views": 2980819
+            }
+          ]
+        },
+        {
+          "title": "DEADLINE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "JUMP",
+              "video_id": "qpVpZmSMX7g",
+              "youtube_views": 1098256
+            },
+            {
+              "title": "GO",
+              "video_id": "Bqm3jusHM9I",
+              "youtube_views": 12761965
+            },
+            {
+              "title": "Me and my",
+              "video_id": "99GWRRn1-7g",
+              "youtube_views": 5251397
+            },
+            {
+              "title": "Champion",
+              "video_id": "qE2ljjTFNII",
+              "youtube_views": 8405509
+            },
+            {
+              "title": "Fxxxboy",
+              "video_id": "FI8j4lW9BvU",
+              "youtube_views": 3479292
+            }
+          ]
+        },
+        {
+          "title": "JUMP",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "JUMP",
+              "video_id": "r6Eei81SuqE",
+              "youtube_views": 198533539
+            }
+          ]
+        },
+        {
+          "title": "THE GIRLS (BLACKPINK THE GAME OST)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "THE GIRLS (BLACKPINK THE GAME OST)",
+              "video_id": "eSd0DFWo6tg",
+              "youtube_views": 30829813
+            }
+          ]
+        },
+        {
+          "title": "Pink Venom",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Pink Venom",
+              "video_id": "4N15045PHEA",
+              "youtube_views": 175849260
+            }
+          ]
+        },
+        {
+          "title": "Pretty Savage (Japan Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Pretty Savage (Japan Version)",
+              "video_id": "AkUiAW_rlHM",
+              "youtube_views": 7396640
+            }
+          ]
+        },
+        {
+          "title": "You Never Know (Japan Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "You Never Know (Japan Version)",
+              "video_id": "PqxgT7mS1Wg",
+              "youtube_views": 2837976
+            }
+          ]
+        },
+        {
+          "title": "How You Like That (Japan Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "How You Like That (Japan Version)",
+              "video_id": "25rQE8uUKw4",
+              "youtube_views": 2973939
+            }
+          ]
+        },
+        {
+          "title": "Lovesick Girls (Japan Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Lovesick Girls (Japan Version)",
+              "video_id": "U3c64bb_m34",
+              "youtube_views": 2553447
+            }
+          ]
+        },
+        {
+          "title": "Ice Cream",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Ice Cream (with Selena Gomez)",
+              "video_id": "TUt3guu92Zg",
+              "youtube_views": 139717053
+            }
+          ]
+        },
+        {
+          "title": "How You Like That",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "How You Like That",
+              "video_id": "8mA6jIeojnk",
+              "youtube_views": 294978770
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -189,5 +189,39 @@
       "누적_써클": "-",
       "비고": "Be my love"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 19573,
+      "spotify_id": "4e8UtPYfVPBzWO4PY8CZye",
+      "top_tracks": [
+        {
+          "title": "Young Boy",
+          "play_count": 2070840,
+          "uri": "spotify:track:6FyutIs4pHcf6hKGIHuI2X"
+        },
+        {
+          "title": "Parallel Universe",
+          "play_count": 1112518,
+          "uri": "spotify:track:082mpKdxm3LjJNQwlp9p0y"
+        },
+        {
+          "title": "Hurt",
+          "play_count": 379340,
+          "uri": "spotify:track:2d1URizV4ETDnrT8DIq4Zm"
+        },
+        {
+          "title": "I AM",
+          "play_count": 884144,
+          "uri": "spotify:track:13SGWCb3d4ZTdkLxWjj066"
+        },
+        {
+          "title": "Wasted Youth",
+          "play_count": 484431,
+          "uri": "spotify:track:5bi48f8d2Z1siBQ0cswDwx"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

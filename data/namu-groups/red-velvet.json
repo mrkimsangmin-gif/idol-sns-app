@@ -665,5 +665,734 @@
       "누적_써클": "-",
       "비고": "타이틀곡: Surfin' Boy"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 5406271,
+      "spotify_id": "1z4g3DjTBBZKhvAroFlhOM",
+      "top_tracks": [
+        {
+          "title": "Psycho",
+          "play_count": 545270611,
+          "uri": "spotify:track:3CYH422oy1cZNoo0GTG1TK"
+        },
+        {
+          "title": "러시안 룰렛 Russian Roulette",
+          "play_count": 234681345,
+          "uri": "spotify:track:5HiSc2ZCGn8L3cH3qSwzBT"
+        },
+        {
+          "title": "Bad Boy",
+          "play_count": 351796898,
+          "uri": "spotify:track:5GKwq4sO5ZHKuWaDmdwMQc"
+        },
+        {
+          "title": "Cosmic",
+          "play_count": 92204306,
+          "uri": "spotify:track:4s2MSGZJE1NVmzWkxXB6Qa"
+        },
+        {
+          "title": "Red Flavor",
+          "play_count": 215898065,
+          "uri": "spotify:track:7nKQ5WAcjnG48knyLuo8gO"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1020085736,
+      "track_count": 117,
+      "mean_views": 8718681,
+      "max_views": 207848595,
+      "albums": [
+        {
+          "title": "Cosmic",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Cosmic",
+              "video_id": "csjoN1xMcf4",
+              "youtube_views": 303628
+            },
+            {
+              "title": "Sunflower",
+              "video_id": "jPVQdD5NrXY",
+              "youtube_views": 170663
+            },
+            {
+              "title": "Last Drop",
+              "video_id": "PQAn97YbNsQ",
+              "youtube_views": 108507
+            },
+            {
+              "title": "Love Arcade",
+              "video_id": "DKCK_9FoOjk",
+              "youtube_views": 117432
+            },
+            {
+              "title": "Bubble",
+              "video_id": "vL1hfzO1M14",
+              "youtube_views": 91641
+            },
+            {
+              "title": "Night Drive",
+              "video_id": "xTc6UgrvhG0",
+              "youtube_views": 86819
+            },
+            {
+              "title": "Sweet Dreams",
+              "video_id": "uXI63zIKO1s",
+              "youtube_views": 1122098
+            }
+          ]
+        },
+        {
+          "title": "Chill Kill - The 3rd Album",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Chill Kill",
+              "video_id": "WfB4sNA0W9M",
+              "youtube_views": 29230003
+            },
+            {
+              "title": "Knock Knock (Who's There?)",
+              "video_id": "0yk7AWzFZUI",
+              "youtube_views": 3706946
+            },
+            {
+              "title": "Underwater",
+              "video_id": "5cBe1LZGPs4",
+              "youtube_views": 2643024
+            },
+            {
+              "title": "Will I Ever See You Again?",
+              "video_id": "rXxa-L9pmdM",
+              "youtube_views": 1845663
+            },
+            {
+              "title": "Nightmare",
+              "video_id": "JUX_AZ7MPwI",
+              "youtube_views": 1920623
+            },
+            {
+              "title": "Iced Coffee",
+              "video_id": "k76Rlq59zM0",
+              "youtube_views": 1867914
+            },
+            {
+              "title": "One Kiss",
+              "video_id": "vIXE2aTNbMY",
+              "youtube_views": 2533755
+            },
+            {
+              "title": "Bulldozer",
+              "video_id": "yBwvu3yhpPs",
+              "youtube_views": 1120258
+            },
+            {
+              "title": "Wings",
+              "video_id": "w4IbZtBjBII",
+              "youtube_views": 949078
+            },
+            {
+              "title": "풍경화 Scenery",
+              "video_id": "yVI9Q0pEYek",
+              "youtube_views": 860288
+            }
+          ]
+        },
+        {
+          "title": "Bloom",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Marionette",
+              "video_id": "PSATjsPiCjI",
+              "youtube_views": 266083
+            },
+            {
+              "title": "WILDSIDE",
+              "video_id": "7bvH4ivQYnE",
+              "youtube_views": 737975
+            },
+            {
+              "title": "SAPPY",
+              "video_id": "eC809EiqLzA",
+              "youtube_views": 38387
+            },
+            {
+              "title": "Jackpot",
+              "video_id": "2zpCVbTmZA0",
+              "youtube_views": 114759
+            },
+            {
+              "title": "#Cookie Jar",
+              "video_id": "AqILKtLbW5E",
+              "youtube_views": 243693
+            },
+            {
+              "title": "Snap Snap",
+              "video_id": "UJijP24dgMw",
+              "youtube_views": 105011
+            },
+            {
+              "title": "Sayonara",
+              "video_id": "is6FHcQyKvM",
+              "youtube_views": 36882
+            },
+            {
+              "title": "Aitai-tai",
+              "video_id": "j8Swihdz4FE",
+              "youtube_views": 86769
+            },
+            {
+              "title": "Swimming Pool",
+              "video_id": "JY1lzto1vOQ",
+              "youtube_views": 34756
+            },
+            {
+              "title": "'Cause it's you",
+              "video_id": "3RODn9kIDVE",
+              "youtube_views": 37898
+            },
+            {
+              "title": "Color of Love",
+              "video_id": "1kvz-Ye6VnE",
+              "youtube_views": 119002
+            }
+          ]
+        },
+        {
+          "title": "The Perfect Red Velvet (Repackage)",
+          "year": "2018",
+          "tracks": [
+            {
+              "title": "Bad Boy",
+              "video_id": "I0pC-2pLEWY",
+              "youtube_views": 122894071
+            },
+            {
+              "title": "All Right",
+              "video_id": "hU411ONfzPI",
+              "youtube_views": 1367170
+            },
+            {
+              "title": "피카부 Peek-A-Boo",
+              "video_id": "dp1KCxEvgAU",
+              "youtube_views": 14537784
+            },
+            {
+              "title": "봐 Look",
+              "video_id": "_ySMeIbXnVo",
+              "youtube_views": 1929768
+            },
+            {
+              "title": "I Just",
+              "video_id": "ZQj5O0loEqE",
+              "youtube_views": 1428366
+            },
+            {
+              "title": "Kingdom Come",
+              "video_id": "qyuLudmE9lQ",
+              "youtube_views": 3517225
+            },
+            {
+              "title": "Time To Love",
+              "video_id": "mcWRglxZ2U0",
+              "youtube_views": 3382272
+            },
+            {
+              "title": "두 번째 데이트 My Second Date",
+              "video_id": "s5JxL79FytU",
+              "youtube_views": 954587
+            },
+            {
+              "title": "Attaboy",
+              "video_id": "XYIpchZh-7k",
+              "youtube_views": 694966
+            },
+            {
+              "title": "Perfect 10",
+              "video_id": "YjjZIhZMww4",
+              "youtube_views": 1035190
+            },
+            {
+              "title": "About Love",
+              "video_id": "y0Odu5LVbMo",
+              "youtube_views": 1438179
+            },
+            {
+              "title": "달빛 소리 Moonlight Melody",
+              "video_id": "i3uMwVzw7iw",
+              "youtube_views": 767488
+            }
+          ]
+        },
+        {
+          "title": "Perfect Velvet",
+          "year": "2017",
+          "tracks": [
+            {
+              "title": "피카부 Peek-A-Boo",
+              "video_id": "jxM5V0FBxFs",
+              "youtube_views": 68879330
+            },
+            {
+              "title": "봐 Look",
+              "video_id": "5yYgbkWni2Y",
+              "youtube_views": 1744325
+            },
+            {
+              "title": "I Just",
+              "video_id": "8nweLGWmkjQ",
+              "youtube_views": 1724320
+            },
+            {
+              "title": "Kingdom Come",
+              "video_id": "p9nNUuPei0Y",
+              "youtube_views": 4750244
+            },
+            {
+              "title": "두 번째 데이트 My Second Date",
+              "video_id": "j5WVvwZJIDo",
+              "youtube_views": 1493627
+            },
+            {
+              "title": "Attaboy",
+              "video_id": "TqcvGnI2XXA",
+              "youtube_views": 766423
+            },
+            {
+              "title": "Perfect 10",
+              "video_id": "9OKsddwtcCM",
+              "youtube_views": 808286
+            },
+            {
+              "title": "About Love",
+              "video_id": "TXQ-N2IuK_Y",
+              "youtube_views": 3572950
+            },
+            {
+              "title": "달빛 소리 Moonlight Melody",
+              "video_id": "C0Kj0AisxGU",
+              "youtube_views": 1237011
+            }
+          ]
+        },
+        {
+          "title": "The Red - The 1st Album",
+          "year": "2015",
+          "tracks": [
+            {
+              "title": "Dumb Dumb",
+              "video_id": "EXknw6fStAs",
+              "youtube_views": 25868446
+            },
+            {
+              "title": "Huff n Puff",
+              "video_id": "9eINuufm6TY",
+              "youtube_views": 1675303
+            },
+            {
+              "title": "Campfire",
+              "video_id": "z8ves7pW-xA",
+              "youtube_views": 1086674
+            },
+            {
+              "title": "Red Dress",
+              "video_id": "t3FVWX7u85U",
+              "youtube_views": 1315671
+            },
+            {
+              "title": "Oh Boy",
+              "video_id": "3PgGuUP8_jI",
+              "youtube_views": 17840584
+            },
+            {
+              "title": "Lady's Room",
+              "video_id": "fqVGBEf7jDY",
+              "youtube_views": 1010399
+            },
+            {
+              "title": "Time Slip",
+              "video_id": "-wcUyjmgYWY",
+              "youtube_views": 1136303
+            },
+            {
+              "title": "Don't U Wait No More",
+              "video_id": "gumPi1yX9q0",
+              "youtube_views": 891767
+            },
+            {
+              "title": "Day 1",
+              "video_id": "KTaa3Pbv9c0",
+              "youtube_views": 19202117
+            },
+            {
+              "title": "Cool World",
+              "video_id": "EqGz3TowPe4",
+              "youtube_views": 1197712
+            }
+          ]
+        },
+        {
+          "title": "The ReVe Festival: Finale",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "Psycho",
+              "video_id": "PyyT5tHbOLw",
+              "youtube_views": 207848595
+            },
+            {
+              "title": "In & Out",
+              "video_id": "fh0yHa1Waxk",
+              "youtube_views": 12234768
+            },
+            {
+              "title": "Remember Forever",
+              "video_id": "RooElzQqgNo",
+              "youtube_views": 2054611
+            },
+            {
+              "title": "눈 맞추고, 손 맞대고 Eyes Locked, Hands Locked",
+              "video_id": "0MFUbeI_pao",
+              "youtube_views": 1120116
+            },
+            {
+              "title": "Ladies Night",
+              "video_id": "xYvWmBybryY",
+              "youtube_views": 686564
+            },
+            {
+              "title": "Jumpin’",
+              "video_id": "Ma1mxTVhoPg",
+              "youtube_views": 640819
+            },
+            {
+              "title": "Love Is The Way",
+              "video_id": "qtAcwwp0tY8",
+              "youtube_views": 677373
+            },
+            {
+              "title": "카풀 Carpool",
+              "video_id": "ReS4eDT_jjc",
+              "youtube_views": 1055057
+            },
+            {
+              "title": "음파음파 Umpah Umpah",
+              "video_id": "e0psQMmlzW0",
+              "youtube_views": 2444483
+            },
+            {
+              "title": "LP",
+              "video_id": "bHSxFK_oAlM",
+              "youtube_views": 1024557
+            },
+            {
+              "title": "안녕, 여름 Parade",
+              "video_id": "n-D8aor2oww",
+              "youtube_views": 516791
+            },
+            {
+              "title": "친구가 아냐 Bing Bing",
+              "video_id": "BQouHXkPLFw",
+              "youtube_views": 572450
+            },
+            {
+              "title": "Milkshake",
+              "video_id": "cdwxYqWFB1U",
+              "youtube_views": 527987
+            },
+            {
+              "title": "Sunny Side Up!",
+              "video_id": "Y_UlQ-5Da9s",
+              "youtube_views": 2151525
+            },
+            {
+              "title": "짐살라빔 Zimzalabim",
+              "video_id": "7zyvJw9P4Ao",
+              "youtube_views": 1337589
+            },
+            {
+              "title": "La Rouge (Special Track)",
+              "video_id": "mmHKMfqydiA",
+              "youtube_views": 1745943
+            }
+          ]
+        },
+        {
+          "title": "Cosmic",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Cosmic",
+              "video_id": "9BdE8L1yjPc",
+              "youtube_views": 34561609
+            },
+            {
+              "title": "Sunflower",
+              "video_id": "s3YJq_pAysM",
+              "youtube_views": 7859373
+            },
+            {
+              "title": "Last Drop",
+              "video_id": "q5m2OTr5P20",
+              "youtube_views": 2563272
+            },
+            {
+              "title": "Love Arcade",
+              "video_id": "S7X7GmxIc8A",
+              "youtube_views": 1952975
+            },
+            {
+              "title": "Bubble",
+              "video_id": "rUpKECPWepk",
+              "youtube_views": 1420625
+            },
+            {
+              "title": "Night Drive",
+              "video_id": "hzOL0u9wAyI",
+              "youtube_views": 1675834
+            }
+          ]
+        },
+        {
+          "title": "Beautiful Christmas",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Beautiful Christmas",
+              "video_id": "VGYHcfRnwx4",
+              "youtube_views": 6568363
+            }
+          ]
+        },
+        {
+          "title": "‘The ReVe Festival 2022 - Birthday’",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Birthday",
+              "video_id": "oKpz0d9WBzE",
+              "youtube_views": 13747671
+            },
+            {
+              "title": "BYE BYE",
+              "video_id": "TPNUscDJvew",
+              "youtube_views": 6627949
+            },
+            {
+              "title": "롤러코스터 On A Ride",
+              "video_id": "bpi4tmDfbFw",
+              "youtube_views": 5392394
+            },
+            {
+              "title": "ZOOM",
+              "video_id": "6WCiPEH6Cak",
+              "youtube_views": 6668827
+            },
+            {
+              "title": "Celebrate",
+              "video_id": "nvuO06HkSag",
+              "youtube_views": 1875326
+            }
+          ]
+        },
+        {
+          "title": "'The ReVe Festival 2022 - Feel My Rhythm'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Feel My Rhythm",
+              "video_id": "OXWz_x6-dro",
+              "youtube_views": 122583214
+            },
+            {
+              "title": "Rainbow Halo",
+              "video_id": "QEY1ScXs-mM",
+              "youtube_views": 3760338
+            },
+            {
+              "title": "Beg For Me",
+              "video_id": "3ErVPtN-oas",
+              "youtube_views": 4432821
+            },
+            {
+              "title": "BAMBOLEO",
+              "video_id": "pnZXbDZEaK4",
+              "youtube_views": 6984081
+            },
+            {
+              "title": "Good, Bad, Ugly",
+              "video_id": "GMZlRcpMWq0",
+              "youtube_views": 2038109
+            },
+            {
+              "title": "In My Dreams",
+              "video_id": "jpEebbF-hAo",
+              "youtube_views": 11945135
+            }
+          ]
+        },
+        {
+          "title": "Queendom: The 6th Mini Album",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Queendom",
+              "video_id": "CNOE58t4k_o",
+              "youtube_views": 85673145
+            },
+            {
+              "title": "Pose",
+              "video_id": "rDWM8ZCXic4",
+              "youtube_views": 7815063
+            },
+            {
+              "title": "Knock On Wood",
+              "video_id": "PHINkx2So0s",
+              "youtube_views": 4387533
+            },
+            {
+              "title": "Better Be",
+              "video_id": "_Nhe7PGV9fY",
+              "youtube_views": 2216603
+            },
+            {
+              "title": "Pushin' N Pullin'",
+              "video_id": "dL_GbAFIknI",
+              "youtube_views": 3011939
+            },
+            {
+              "title": "다시, 여름 Hello, Sunset",
+              "video_id": "-xw8ePRkyDE",
+              "youtube_views": 3778952
+            }
+          ]
+        },
+        {
+          "title": "START-UP (Original Television Soundtrack) Pt. 1",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "미래",
+              "video_id": "n551JUqfq9w",
+              "youtube_views": 7490655
+            },
+            {
+              "title": "미래 (Inst.)",
+              "video_id": "rya2_PrOVpk",
+              "youtube_views": 67679
+            }
+          ]
+        },
+        {
+          "title": "Our Beloved BoA #4 - SM STATION",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Milky Way",
+              "video_id": "N_rbL9AwJIM",
+              "youtube_views": 5247626
+            },
+            {
+              "title": "Milky Way (Instrumental)",
+              "video_id": "KGC_oCloSIA",
+              "youtube_views": 103546
+            }
+          ]
+        },
+        {
+          "title": "The ReVe Festival: Day 2",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "음파음파 Umpah Umpah",
+              "video_id": "4gq5i5jdgnY",
+              "youtube_views": 16590953
+            },
+            {
+              "title": "카풀 Carpool",
+              "video_id": "iOjv6c-PMxg",
+              "youtube_views": 3216258
+            },
+            {
+              "title": "Love Is The Way",
+              "video_id": "AKOABJBRafw",
+              "youtube_views": 1412929
+            },
+            {
+              "title": "Jumpin’",
+              "video_id": "zjl19ebzNss",
+              "youtube_views": 1101613
+            },
+            {
+              "title": "Ladies Night",
+              "video_id": "7zLBQLvOty0",
+              "youtube_views": 1376467
+            },
+            {
+              "title": "눈 맞추고, 손 맞대고 Eyes Locked, Hands Locked",
+              "video_id": "Wn9MFo6tzJc",
+              "youtube_views": 1392065
+            }
+          ]
+        },
+        {
+          "title": "Hotel del Luna (Original Television Soundtrack) Pt. 8 (호텔 델루나 OST Part.8)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "어떤 별보다 (어떤 별보다)",
+              "video_id": "_cAdfG7NE6I",
+              "youtube_views": 203885
+            },
+            {
+              "title": "어떤 별보다 (Instrumental) (Instrumental) (어떤 별보다 (Inst.) (Instrumental))",
+              "video_id": "hQtkQqAFYFg",
+              "youtube_views": 2295
+            }
+          ]
+        },
+        {
+          "title": "The ReVe Festival: Day 1",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "짐살라빔 Zimzalabim",
+              "video_id": "q2y_2maXsqU",
+              "youtube_views": 19545830
+            },
+            {
+              "title": "Sunny Side Up!",
+              "video_id": "2QbenuWsG8o",
+              "youtube_views": 8875331
+            },
+            {
+              "title": "Milkshake",
+              "video_id": "KzJEdWTg2b8",
+              "youtube_views": 1450334
+            },
+            {
+              "title": "친구가 아냐 Bing Bing",
+              "video_id": "o3D5zgD8IhM",
+              "youtube_views": 1274366
+            },
+            {
+              "title": "안녕, 여름 Parade",
+              "video_id": "yX9n_CkgHNQ",
+              "youtube_views": 1262417
+            },
+            {
+              "title": "LP",
+              "video_id": "rRMgZP9i73g",
+              "youtube_views": 2642995
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

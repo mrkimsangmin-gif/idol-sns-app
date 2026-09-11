@@ -264,5 +264,241 @@
       "누적_써클": "-",
       "비고": "FINAL"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 160394,
+      "spotify_id": "0DRiXmEOc6dJ6Rug3xi4HZ",
+      "top_tracks": [
+        {
+          "title": "CALL ME BACK",
+          "play_count": 222252,
+          "uri": "spotify:track:7EaR2YLNoIDFgmEBdTh1NS"
+        },
+        {
+          "title": "MOVE",
+          "play_count": 11301710,
+          "uri": "spotify:track:5QzjOeD7eXFZpVVyVC7ls2"
+        },
+        {
+          "title": "Love or Die",
+          "play_count": 6591597,
+          "uri": "spotify:track:5JDfcFU6lCYU7jQJ8dDo8v"
+        },
+        {
+          "title": "Love letter",
+          "play_count": 140671,
+          "uri": "spotify:track:3pYHpHEihyIM9w4s7JGQC7"
+        },
+        {
+          "title": "Kick It 4 Now",
+          "play_count": 6236004,
+          "uri": "spotify:track:5oyt64vcLF0MwDq5XNgx86"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1972107,
+      "track_count": 28,
+      "mean_views": 70432,
+      "max_views": 431445,
+      "albums": [
+        {
+          "title": "CALL ME BACK",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "CALL ME BACK",
+              "video_id": "AClh1PUTHns",
+              "youtube_views": 244502
+            },
+            {
+              "title": "그러니까 내 말은 (Love letter)",
+              "video_id": "TuTZCxzv0fs",
+              "youtube_views": 257569
+            }
+          ]
+        },
+        {
+          "title": "For Real?",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "아 진짜 (For Real?)",
+              "video_id": "ILkMVcTV6t4",
+              "youtube_views": 32802
+            },
+            {
+              "title": "Perfect Danger",
+              "video_id": "zM4nkPG6Ra8",
+              "youtube_views": 9320
+            },
+            {
+              "title": "What If",
+              "video_id": "SU3Apt79mg8",
+              "youtube_views": 46350
+            },
+            {
+              "title": "시간의 틈에서 (At The Moment)",
+              "video_id": "FJB2okLz3C0",
+              "youtube_views": 19673
+            },
+            {
+              "title": "겨울 다시 봄 (By My Side)",
+              "video_id": "eF96SfmKLB4",
+              "youtube_views": 57262
+            }
+          ]
+        },
+        {
+          "title": "ROAD TO KINGDOM : ACE OF ACE 〈VS〉 Part. 1",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Phobia",
+              "video_id": "_vmO2TZKpio",
+              "youtube_views": 118092
+            },
+            {
+              "title": "MANIAC",
+              "video_id": "oSdNDUiLSvw",
+              "youtube_views": 431445
+            },
+            {
+              "title": "Phobia (Instrumental)",
+              "video_id": "ldATzeIScZM",
+              "youtube_views": 4081
+            },
+            {
+              "title": "MANIAC (Instrumental)",
+              "video_id": "FBbzkmv9XE0",
+              "youtube_views": 8050
+            }
+          ]
+        },
+        {
+          "title": "FUEGO",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "FUEGO",
+              "video_id": "4ZSfp-J_q3U",
+              "youtube_views": 62592
+            }
+          ]
+        },
+        {
+          "title": "BOYHOOD",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Kick It 4 Now",
+              "video_id": "Bcg03K1Ci8s",
+              "youtube_views": 110129
+            },
+            {
+              "title": "By You",
+              "video_id": "EUDdVc1KHmg",
+              "youtube_views": 18641
+            },
+            {
+              "title": "Good Day",
+              "video_id": "58nFyawltEg",
+              "youtube_views": 22122
+            },
+            {
+              "title": "최애 (My Bias)",
+              "video_id": "1DW5qhFXkp4",
+              "youtube_views": 10567
+            },
+            {
+              "title": "1000 Miles",
+              "video_id": "PETGGV9YhvM",
+              "youtube_views": 18164
+            },
+            {
+              "title": "Kick It 4 Now (English Ver.)",
+              "video_id": "Puk0NAAEQ6s",
+              "youtube_views": 22761
+            }
+          ]
+        },
+        {
+          "title": "Warm Black Tea (Original Soundtrack) Pt. 1",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Beautiful world (Warm Black Tea Original Soundtrack)",
+              "video_id": "b8SeyGR4XGs",
+              "youtube_views": 74070
+            },
+            {
+              "title": "Beautiful world (Warm Black Tea Original Soundtrack) (Instrumental)",
+              "video_id": "aaiyADl9uEI",
+              "youtube_views": 2090
+            }
+          ]
+        },
+        {
+          "title": "Love Never Dies",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Love Never Dies",
+              "video_id": "vlkSa4qndEs",
+              "youtube_views": 1852
+            },
+            {
+              "title": "I Need U",
+              "video_id": "cDR4B3Q4eSI",
+              "youtube_views": 20787
+            },
+            {
+              "title": "Love or Die",
+              "video_id": "cno_FEc4eSQ",
+              "youtube_views": 90755
+            },
+            {
+              "title": "Wasn’t Ready",
+              "video_id": "S03yDe9nE-Y",
+              "youtube_views": 14150
+            },
+            {
+              "title": "Slingshot",
+              "video_id": "k0ebCcyJ6hs",
+              "youtube_views": 13970
+            },
+            {
+              "title": "따따따 (DDA DDA DDA) (Short Ver.)",
+              "video_id": "WUX5ldcn0Q4",
+              "youtube_views": 5619
+            }
+          ]
+        },
+        {
+          "title": "Love or Die (Rad Museum ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Love or Die (Rad Museum ver.)",
+              "video_id": "qB6qZDdac2o",
+              "youtube_views": 690
+            }
+          ]
+        },
+        {
+          "title": "Love or Die (SOLE ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Love or Die (SOLE ver.)",
+              "video_id": "4ZDGWPsY_BQ",
+              "youtube_views": 254002
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

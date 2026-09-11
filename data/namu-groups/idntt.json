@@ -355,5 +355,141 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 265435,
+      "spotify_id": "18eBHUF4EG1bXtbLZZ6g7M",
+      "top_tracks": [
+        {
+          "title": "Pretty Boy Swag",
+          "play_count": 1210029,
+          "uri": "spotify:track:0IV3CJVZb5nbUgGOnRgHe7"
+        },
+        {
+          "title": "All I Need",
+          "play_count": 321791,
+          "uri": "spotify:track:1L0pXWUh7MmjJ9sEtvbH9W"
+        },
+        {
+          "title": "Yes We Are",
+          "play_count": 620476,
+          "uri": "spotify:track:4Posl8hBAZxPVWguogt3og"
+        },
+        {
+          "title": "BOYtude",
+          "play_count": 2967047,
+          "uri": "spotify:track:2gJv0gGR483rde5GNEJVld"
+        },
+        {
+          "title": "Moon Burn",
+          "play_count": 428712,
+          "uri": "spotify:track:665fzGGx6DzLdBnEoMEH2V"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 735471,
+      "track_count": 14,
+      "mean_views": 52533,
+      "max_views": 273182,
+      "albums": [
+        {
+          "title": "<unevermet>",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "New",
+              "video_id": "V4iLmAVOWD8",
+              "youtube_views": 9247
+            },
+            {
+              "title": "You Never Met",
+              "video_id": "cgKaM15ScII",
+              "youtube_views": 54533
+            },
+            {
+              "title": "Storm",
+              "video_id": "SQ4DEZxO8ls",
+              "youtube_views": 26033
+            },
+            {
+              "title": "BOYtude",
+              "video_id": "_wYh_ZZFl64",
+              "youtube_views": 137531
+            },
+            {
+              "title": "Instant Chemistry",
+              "video_id": "lJYRn9bW_Ro",
+              "youtube_views": 34130
+            },
+            {
+              "title": "EGO : Limitless",
+              "video_id": "FEXvnYs6v00",
+              "youtube_views": 7515
+            },
+            {
+              "title": "Adolescence",
+              "video_id": "hesfXtlnHmQ",
+              "youtube_views": 21072
+            }
+          ]
+        },
+        {
+          "title": "<All I Need>",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "All I Need",
+              "video_id": "rfK4JrNSAeo",
+              "youtube_views": 41099
+            }
+          ]
+        },
+        {
+          "title": "<yesweare>",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "BOYS",
+              "video_id": "kERZkNDXL68",
+              "youtube_views": 6148
+            },
+            {
+              "title": "Yes We Are",
+              "video_id": "7AzC1jSlKxE",
+              "youtube_views": 74596
+            },
+            {
+              "title": "Pretty Boy Swag",
+              "video_id": "7CzOdhSMs4U",
+              "youtube_views": 273182
+            },
+            {
+              "title": "Rage Problem",
+              "video_id": "3kc35qbV9gw",
+              "youtube_views": 12978
+            },
+            {
+              "title": "Moon Burn",
+              "video_id": "NI8e6SJeJ1Q",
+              "youtube_views": 22683
+            }
+          ]
+        },
+        {
+          "title": "<Eight Eleven>",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Eight Eleven",
+              "video_id": "dtyeRX7SFZY",
+              "youtube_views": 14724
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

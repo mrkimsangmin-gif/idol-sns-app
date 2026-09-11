@@ -356,5 +356,241 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 286040,
+      "spotify_id": "213zHiFZwtDVEqyxeCbk07",
+      "top_tracks": [
+        {
+          "title": "Virtual Angel",
+          "play_count": 18908527,
+          "uri": "spotify:track:1eCT7mlUiD0FDaYpFPiE4z"
+        },
+        {
+          "title": "Icarus",
+          "play_count": 6043913,
+          "uri": "spotify:track:3MQBMVAJpXat2VQwTHA8tX"
+        },
+        {
+          "title": "Goddess",
+          "play_count": 2331105,
+          "uri": "spotify:track:0QmdZBQzUdgseYnWirf3cM"
+        },
+        {
+          "title": "Butterfly Effect",
+          "play_count": 3621252,
+          "uri": "spotify:track:0rLzeAH3HxBBQJdHqAyMsn"
+        },
+        {
+          "title": "Obsessed",
+          "play_count": 2301404,
+          "uri": "spotify:track:3PJ6eopgoqxwqt8OHaVPOq"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 2776222,
+      "track_count": 28,
+      "mean_views": 99150,
+      "max_views": 886914,
+      "albums": [
+        {
+          "title": "<Dall>",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "url (url)",
+              "video_id": "zN0k7RzbNdo",
+              "youtube_views": 23855
+            },
+            {
+              "title": "Virtual Angel (Virtual Angel)",
+              "video_id": "ijXTdODLIyM",
+              "youtube_views": 886914
+            },
+            {
+              "title": "Sparkle (Sparkle)",
+              "video_id": "oxoQ0E28Blc",
+              "youtube_views": 141986
+            },
+            {
+              "title": "The Hitchhiker's Guide to the Galaxy (은하수를 여행하는 히치하이커를 위한...",
+              "video_id": "3KmfiXsRenU",
+              "youtube_views": 122092
+            },
+            {
+              "title": "Flower Rhythm (Flower Rhythm)",
+              "video_id": "Kh_ybmGFxKo",
+              "youtube_views": 30462
+            },
+            {
+              "title": "Candy Crush (Candy Crush)",
+              "video_id": "8e0fMlYH_y8",
+              "youtube_views": 125937
+            },
+            {
+              "title": "Air (Air)",
+              "video_id": "W1SC_d4tNEU",
+              "youtube_views": 34928
+            },
+            {
+              "title": "Unf/Air (Unf/Air)",
+              "video_id": "-9mZUnnJP1w",
+              "youtube_views": 89266
+            },
+            {
+              "title": "Distress (조난 (Distress))",
+              "video_id": "YM0pqVeejWw",
+              "youtube_views": 54562
+            },
+            {
+              "title": "Butterfly Effect (Butterfly Effect)",
+              "video_id": "AuDtTELCp2Q",
+              "youtube_views": 90051
+            },
+            {
+              "title": "Birth (Birth)",
+              "video_id": "gkLS5UbRQps",
+              "youtube_views": 27275
+            }
+          ]
+        },
+        {
+          "title": "<Club Icarus>",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Club for the Broken (Club for the Broken)",
+              "video_id": "rnn6knIHzZg",
+              "youtube_views": 14523
+            },
+            {
+              "title": "Icarus (Icarus)",
+              "video_id": "c3cUZHDow2k",
+              "youtube_views": 263440
+            },
+            {
+              "title": "Obsessed (Obsessed)",
+              "video_id": "vV2f0WMh6Xk",
+              "youtube_views": 53094
+            },
+            {
+              "title": "Goddess (Goddess)",
+              "video_id": "jSA1ikLIZnA",
+              "youtube_views": 31862
+            },
+            {
+              "title": "Verified Beauty (Verified Beauty)",
+              "video_id": "RdWLjNpcvUA",
+              "youtube_views": 64319
+            },
+            {
+              "title": "BURN (BURN)",
+              "video_id": "Bfg37Zy7jyE",
+              "youtube_views": 10201
+            }
+          ]
+        },
+        {
+          "title": "<BURN>",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Light It Up (Light It Up)",
+              "video_id": "McZLvOhCGKs",
+              "youtube_views": 6378
+            },
+            {
+              "title": "BURN (BURN)",
+              "video_id": "kuGC6z6_fAo",
+              "youtube_views": 189686
+            }
+          ]
+        },
+        {
+          "title": "<Pre4 : Air>",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Air (Air)",
+              "video_id": "edZor9s2DQg",
+              "youtube_views": 54006
+            }
+          ]
+        },
+        {
+          "title": "<Pre3 : Candy Crush>",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Candy Crush (Candy Crush)",
+              "video_id": "EZLVCZqwS5g",
+              "youtube_views": 242327
+            }
+          ]
+        },
+        {
+          "title": "<Pre2 : Flower Rhythm>",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Flower Rhythm (Flower Rhythm)",
+              "video_id": "N-74dFdVqwU",
+              "youtube_views": 50686
+            }
+          ]
+        },
+        {
+          "title": "<Pre1 : Birth>",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Birth (Birth)",
+              "video_id": "bFe2UE7tqpE",
+              "youtube_views": 107127
+            }
+          ]
+        },
+        {
+          "title": "The Carol 3.0",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "The Carol 3.0 (The Carol 3.0)",
+              "video_id": "12Q4VHPWKZY",
+              "youtube_views": 40069
+            },
+            {
+              "title": "The Carol 3.0 (Eng Ver.) (The Carol 3.0 (Eng Ver.))",
+              "video_id": "4H5YN0bjPSk",
+              "youtube_views": 7528
+            }
+          ]
+        },
+        {
+          "title": "<Club Icarus Remix>",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Icarus (Artronic Waves Remix) (Icarus (Artronic Waves Remix))",
+              "video_id": "E1zkq2l9fBQ",
+              "youtube_views": 2587
+            },
+            {
+              "title": "Icarus (G-high Remix) (Icarus (G-high Remix))",
+              "video_id": "sq1CVxUZkdg",
+              "youtube_views": 8955
+            },
+            {
+              "title": "Icarus (EL CAPITXN Remix) (Icarus (EL CAPITXN Remix))",
+              "video_id": "bkHustz2MsE",
+              "youtube_views": 2106
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

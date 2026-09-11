@@ -218,5 +218,152 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 1103301,
+      "spotify_id": "6EB5QC7lGAu7bSuWQ416d4",
+      "top_tracks": [
+        {
+          "title": "SIGN",
+          "play_count": 29039073,
+          "uri": "spotify:track:6vBVBzf0VeRO4aPwABnohX"
+        },
+        {
+          "title": "Mamma Mia",
+          "play_count": 12104118,
+          "uri": "spotify:track:5mxBUe5ycmUiUkDaLC5yVI"
+        },
+        {
+          "title": "BEEP",
+          "play_count": 15478495,
+          "uri": "spotify:track:21LesVOMCk5j8LqsFBvCc5"
+        },
+        {
+          "title": "Racecar",
+          "play_count": 6794182,
+          "uri": "spotify:track:3ylwpGWNGip7lRhNCpCBLR"
+        },
+        {
+          "title": "IZNA",
+          "play_count": 22478576,
+          "uri": "spotify:track:1Lid3Sc6luHWuiauUM6Ckt"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 67055120,
+      "track_count": 15,
+      "mean_views": 4470341,
+      "max_views": 22533346,
+      "albums": [
+        {
+          "title": "Psycho (Operation: True Love OST)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Psycho",
+              "video_id": "_5RuiH5WNow",
+              "youtube_views": 282426
+            },
+            {
+              "title": "Psycho (Inst.)",
+              "video_id": "HIUUwsz7OQ0",
+              "youtube_views": 22892
+            }
+          ]
+        },
+        {
+          "title": "Not Just Pretty",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Supercrush",
+              "video_id": "N-yoVSMpD5w",
+              "youtube_views": 1932392
+            },
+            {
+              "title": "Mamma Mia",
+              "video_id": "qb6SQIA7uKc",
+              "youtube_views": 6623195
+            },
+            {
+              "title": "Racecar",
+              "video_id": "oVONik56_Q8",
+              "youtube_views": 3706473
+            },
+            {
+              "title": "In the Rain",
+              "video_id": "wAzcfq_UPjA",
+              "youtube_views": 827525
+            },
+            {
+              "title": "SIGN (Remix)",
+              "video_id": "TfdyiXEWdgM",
+              "youtube_views": 663773
+            }
+          ]
+        },
+        {
+          "title": "BEEP",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BEEP",
+              "video_id": "PPNBacc3SVM",
+              "youtube_views": 7988897
+            },
+            {
+              "title": "BEEP (Japan Edition)",
+              "video_id": "EQYajkBf5Mc",
+              "youtube_views": 105407
+            }
+          ]
+        },
+        {
+          "title": "SIGN",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SIGN",
+              "video_id": "KylmS3ncDzQ",
+              "youtube_views": 22533346
+            }
+          ]
+        },
+        {
+          "title": "N/a",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "IZNA",
+              "video_id": "nXBtVVB-WTw",
+              "youtube_views": 10301097
+            },
+            {
+              "title": "TIMEBOMB",
+              "video_id": "I-MYou7K7lo",
+              "youtube_views": 4852547
+            },
+            {
+              "title": "IWALY (izna Version)",
+              "video_id": "o-HAuKf5pzY",
+              "youtube_views": 1857090
+            },
+            {
+              "title": "DRIP",
+              "video_id": "KsDz2w8YR50",
+              "youtube_views": 2480103
+            },
+            {
+              "title": "FAKE IT",
+              "video_id": "WIZ89mvPJkM",
+              "youtube_views": 2877957
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -115,5 +115,115 @@
       "누적_써클": "-",
       "비고": "CARNIVAL"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 9036,
+      "spotify_id": "3hscj9beAfMyBhBxJsHisK",
+      "top_tracks": [
+        {
+          "title": "Automatic",
+          "play_count": 329727,
+          "uri": "spotify:track:6U5AEaTtLE28FBU8PMecjh"
+        },
+        {
+          "title": "No pressure",
+          "play_count": 483164,
+          "uri": "spotify:track:7kLeR8y4onZTbvkJPkYSwI"
+        },
+        {
+          "title": "Eye 2 eye",
+          "play_count": 260157,
+          "uri": "spotify:track:0HuigRzEI5RhDxnfI2CDTX"
+        },
+        {
+          "title": "Lights on",
+          "play_count": 301022,
+          "uri": "spotify:track:6iV92BDHIlbQ1fFD9W2CPG"
+        },
+        {
+          "title": "California love",
+          "play_count": 315974,
+          "uri": "spotify:track:30GVF75McmPCzN7bpcijZD"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 711672,
+      "track_count": 10,
+      "mean_views": 71167,
+      "max_views": 129011,
+      "albums": [
+        {
+          "title": "NOMAD",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "No pressure (No pressure)",
+              "video_id": "u5SAIPyu_6U",
+              "youtube_views": 113568
+            },
+            {
+              "title": "California love (California love)",
+              "video_id": "T4hhHSsnmZs",
+              "youtube_views": 65876
+            },
+            {
+              "title": "Oasis (Oasis)",
+              "video_id": "0RXOCT40CtQ",
+              "youtube_views": 76631
+            },
+            {
+              "title": "Automatic (Automatic)",
+              "video_id": "EaDp3ZKShVg",
+              "youtube_views": 68563
+            },
+            {
+              "title": "Let me love you (Let me love you)",
+              "video_id": "RA_oslEFJjU",
+              "youtube_views": 129011
+            },
+            {
+              "title": "Lights on (Lights on)",
+              "video_id": "yBPZQ_xYWg0",
+              "youtube_views": 83151
+            },
+            {
+              "title": "Eye 2 eye (Eye 2 eye)",
+              "video_id": "y2lfSBsn8BQ",
+              "youtube_views": 68508
+            }
+          ]
+        },
+        {
+          "title": "CARNIVAL",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "CARNIVAL",
+              "video_id": "Gb4h4363acY",
+              "youtube_views": 10422
+            }
+          ]
+        },
+        {
+          "title": "Call Me Back",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Call Me Back",
+              "video_id": "CnrpA08wqd8",
+              "youtube_views": 43299
+            },
+            {
+              "title": "Compare",
+              "video_id": "WdmIE5mZo1k",
+              "youtube_views": 52643
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -251,5 +251,389 @@
       "누적_써클": "15,678",
       "비고": "타이틀곡: Emotion"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 48101,
+      "spotify_id": "4DoedGw38ubJdAT1edFsIx",
+      "top_tracks": [
+        {
+          "title": "Irony",
+          "play_count": 418765,
+          "uri": "spotify:track:7lgkS0moKfp1AXgi3MwmFM"
+        },
+        {
+          "title": "Flirting X",
+          "play_count": 747004,
+          "uri": "spotify:track:4TGctisYgwEoezT5GuDYJ1"
+        },
+        {
+          "title": "Rollercoaster",
+          "play_count": 1833740,
+          "uri": "spotify:track:7pGEgie2m5bx9kxsudyXfU"
+        },
+        {
+          "title": "난 일해",
+          "play_count": 891441,
+          "uri": "spotify:track:0gn7uSwdTwpKLYT6yrSOWw"
+        },
+        {
+          "title": "I Need Love",
+          "play_count": 902375,
+          "uri": "spotify:track:53LfCu2BvhDpsaFUKQXqWU"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 3509026,
+      "track_count": 54,
+      "mean_views": 64981,
+      "max_views": 258499,
+      "albums": [
+        {
+          "title": "We Love You",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Told You",
+              "video_id": "HjE484GSGT8",
+              "youtube_views": 196174
+            },
+            {
+              "title": "All Yours",
+              "video_id": "pfn7veuoQtU",
+              "youtube_views": 77279
+            },
+            {
+              "title": "Paradise",
+              "video_id": "tavcLYxRgRE",
+              "youtube_views": 32992
+            },
+            {
+              "title": "I Need Love",
+              "video_id": "dVkNXRnYYM0",
+              "youtube_views": 6059
+            },
+            {
+              "title": "More than 100 reasons",
+              "video_id": "UHKrt0MCluo",
+              "youtube_views": 7082
+            },
+            {
+              "title": "Feeling",
+              "video_id": "1MS-xxRER5Q",
+              "youtube_views": 6395
+            },
+            {
+              "title": "1 on 1",
+              "video_id": "ZZ97qckyh1I",
+              "youtube_views": 5475
+            },
+            {
+              "title": "Told You (Remix)",
+              "video_id": "NuFcRw2SOnk",
+              "youtube_views": 43503
+            }
+          ]
+        },
+        {
+          "title": "The dice is cast",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "ALL IN",
+              "video_id": "B0EwwPriWXs",
+              "youtube_views": 78535
+            },
+            {
+              "title": "Flower Less",
+              "video_id": "pHgEx9NQ1ZM",
+              "youtube_views": 38796
+            },
+            {
+              "title": "Real Love",
+              "video_id": "JkNAbGc6SIA",
+              "youtube_views": 39982
+            },
+            {
+              "title": "Work Hard",
+              "video_id": "wrKoIMrCmcU",
+              "youtube_views": 50662
+            },
+            {
+              "title": "Sorry Mama",
+              "video_id": "MTEKnHZwQ5k",
+              "youtube_views": 26539
+            },
+            {
+              "title": "Still",
+              "video_id": "BljFctBR0nY",
+              "youtube_views": 89067
+            },
+            {
+              "title": "Fondue",
+              "video_id": "w3TxVV6r9Ek",
+              "youtube_views": 34665
+            },
+            {
+              "title": "Tell'em Boys",
+              "video_id": "EBEq_YdTLbo",
+              "youtube_views": 116405
+            },
+            {
+              "title": "Tell Me Tell Me",
+              "video_id": "cKviLMKtpcY",
+              "youtube_views": 47047
+            },
+            {
+              "title": "Samsung",
+              "video_id": "E6D8ZN1H460",
+              "youtube_views": 14035
+            }
+          ]
+        },
+        {
+          "title": "Emotion",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Irony",
+              "video_id": "emJk0krnxG4",
+              "youtube_views": 134024
+            },
+            {
+              "title": "Snake",
+              "video_id": "w6c4mqxi2EY",
+              "youtube_views": 21912
+            },
+            {
+              "title": "Weekend",
+              "video_id": "7g-8_zcjpk0",
+              "youtube_views": 11633
+            },
+            {
+              "title": "Cinderella",
+              "video_id": "m6pPZ5h5tQk",
+              "youtube_views": 32459
+            },
+            {
+              "title": "Hello, Goodbye (Rollercoaster)",
+              "video_id": "VjO5cGzvPHk",
+              "youtube_views": 6365
+            }
+          ]
+        },
+        {
+          "title": "Hello, Goodbye (Rollercoaster)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Hello, Goodbye (Rollercoaster)",
+              "video_id": "13YSaIErm9M",
+              "youtube_views": 60559
+            }
+          ]
+        },
+        {
+          "title": "Urban Ride",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Star",
+              "video_id": "bk023dQWeRY",
+              "youtube_views": 60611
+            },
+            {
+              "title": "Flirting X",
+              "video_id": "XJPoxnjARe8",
+              "youtube_views": 199040
+            },
+            {
+              "title": "TAEKWONDO",
+              "video_id": "D1LqeY9JcEU",
+              "youtube_views": 41253
+            },
+            {
+              "title": "Traveler (나그네)",
+              "video_id": "t_vdW0Z5zZo",
+              "youtube_views": 34001
+            },
+            {
+              "title": "LET'S DANCE",
+              "video_id": "L73WxZa2e_U",
+              "youtube_views": 27670
+            }
+          ]
+        },
+        {
+          "title": "HIP",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Ghost Ridah (Wow Wow)",
+              "video_id": "Z0k3EstNLKc",
+              "youtube_views": 62743
+            },
+            {
+              "title": "What The Hell",
+              "video_id": "qLzdTLTIQqI",
+              "youtube_views": 118960
+            },
+            {
+              "title": "Me, Me & You (겁이나)",
+              "video_id": "Vk2ETi2n4gI",
+              "youtube_views": 72461
+            },
+            {
+              "title": "Slush",
+              "video_id": "PGqsEPw-Uc4",
+              "youtube_views": 56843
+            },
+            {
+              "title": "Fireworks (쏘아 올려)",
+              "video_id": "3C5GL4LA0m4",
+              "youtube_views": 61236
+            }
+          ]
+        },
+        {
+          "title": "The Wave",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "The Wave",
+              "video_id": "3F6O3xqmY2o",
+              "youtube_views": 40567
+            }
+          ]
+        },
+        {
+          "title": "I Need Love",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "I Need Love",
+              "video_id": "P6ZYTPhVvgU",
+              "youtube_views": 258499
+            },
+            {
+              "title": "More than 100 reasons",
+              "video_id": "kzgqF3abMQ0",
+              "youtube_views": 84538
+            },
+            {
+              "title": "Feeling",
+              "video_id": "8xQejUIZ94A",
+              "youtube_views": 43425
+            },
+            {
+              "title": "1 on 1",
+              "video_id": "6g26S3pGnrQ",
+              "youtube_views": 37447
+            },
+            {
+              "title": "I Need Love (Outro)",
+              "video_id": "vnVkfoHq0ok",
+              "youtube_views": 8660
+            }
+          ]
+        },
+        {
+          "title": "Autumn",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Peep My Show",
+              "video_id": "23Ln75qWiH4",
+              "youtube_views": 30504
+            },
+            {
+              "title": "24/7",
+              "video_id": "yW1oy9L7pRA",
+              "youtube_views": 256795
+            },
+            {
+              "title": "Autumn",
+              "video_id": "S1f33UGTBO8",
+              "youtube_views": 118795
+            },
+            {
+              "title": "Bubble",
+              "video_id": "MQxD2XOfh60",
+              "youtube_views": 43837
+            },
+            {
+              "title": "24/7 (Inst.)",
+              "video_id": "AfXkYDQJKgo",
+              "youtube_views": 7564
+            }
+          ]
+        },
+        {
+          "title": "REBEL",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Sober",
+              "video_id": "qhBh5fHIOKM",
+              "youtube_views": 254911
+            },
+            {
+              "title": "Get Away",
+              "video_id": "4E4D7D-SxqQ",
+              "youtube_views": 116418
+            },
+            {
+              "title": "Rollercoaster",
+              "video_id": "xkSSnHHxdVc",
+              "youtube_views": 9728
+            },
+            {
+              "title": "Sober [Remix]",
+              "video_id": "vtj2rTb8c9o",
+              "youtube_views": 31130
+            }
+          ]
+        },
+        {
+          "title": "Rollercoaster",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Rollercoaster (왜 만나)",
+              "video_id": "KLtsFbO6aYM",
+              "youtube_views": 502
+            },
+            {
+              "title": "Rollercoaster Instrumental (왜 만나 Instrumental)",
+              "video_id": "g3G0Ax-CuyU",
+              "youtube_views": 139
+            }
+          ]
+        },
+        {
+          "title": "The dice is cast",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ALL IN",
+              "video_id": "tm4x81BE0h0",
+              "youtube_views": 167236
+            },
+            {
+              "title": "Flower Less",
+              "video_id": "kaIi6GCurlE",
+              "youtube_views": 53256
+            },
+            {
+              "title": "Real Love",
+              "video_id": "Q30y40D0MA8",
+              "youtube_views": 32613
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

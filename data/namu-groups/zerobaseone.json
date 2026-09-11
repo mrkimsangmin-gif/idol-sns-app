@@ -356,5 +356,320 @@
       "누적_써클": "",
       "비고": "TOP 5"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 1283682,
+      "spotify_id": "7cjg7EkeZy3OI5o9Qthc6n",
+      "top_tracks": [
+        {
+          "title": "LOVEPOCALYPSE",
+          "play_count": 4669731,
+          "uri": "spotify:track:7xbNUUy1y3zNqvp65TXaa9"
+        },
+        {
+          "title": "ICONIK",
+          "play_count": 26417470,
+          "uri": "spotify:track:7srZ5Feiz5S4R4O9jL1Dx4"
+        },
+        {
+          "title": "In Bloom",
+          "play_count": 79849904,
+          "uri": "spotify:track:3F4lHPNHlvr3RpO4tpVOIs"
+        },
+        {
+          "title": "Doctor! Doctor!",
+          "play_count": 32268922,
+          "uri": "spotify:track:4yQ5AHwQd3w7IkV1mtzDwf"
+        },
+        {
+          "title": "Running to Future",
+          "play_count": 5584529,
+          "uri": "spotify:track:6tn8DOizEPVGwqgqdXsYYN"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 32940070,
+      "track_count": 39,
+      "mean_views": 844617,
+      "max_views": 4758949,
+      "albums": [
+        {
+          "title": "NEVER SAY NEVER",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "ICONIK",
+              "video_id": "Bnqic7M7O2U",
+              "youtube_views": 2632060
+            },
+            {
+              "title": "SLAM DUNK",
+              "video_id": "CIlIAVflefs",
+              "youtube_views": 120551
+            },
+            {
+              "title": "Lovesick Game",
+              "video_id": "Fx61knE1fw4",
+              "youtube_views": 698504
+            },
+            {
+              "title": "Goosebumps",
+              "video_id": "IEN318Hz5jk",
+              "youtube_views": 491452
+            },
+            {
+              "title": "Dumb",
+              "video_id": "ntbJ0aI0yCA",
+              "youtube_views": 589409
+            },
+            {
+              "title": "NOW OR NEVER (Korean ver.)",
+              "video_id": "Un-tRWZ2x4U",
+              "youtube_views": 712228
+            },
+            {
+              "title": "EXTRA",
+              "video_id": "Kh65IjhBvU0",
+              "youtube_views": 328962
+            },
+            {
+              "title": "Long Way Back",
+              "video_id": "Q26BsyMo-Xc",
+              "youtube_views": 667066
+            },
+            {
+              "title": "Star Eyes",
+              "video_id": "57eLM3IoqG0",
+              "youtube_views": 590706
+            },
+            {
+              "title": "I Know U Know",
+              "video_id": "MNnVXUp677k",
+              "youtube_views": 517572
+            }
+          ]
+        },
+        {
+          "title": "CINEMA PARADISE",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "GOOD SO BAD",
+              "video_id": "JPamwxZfP6Y",
+              "youtube_views": 3950313
+            },
+            {
+              "title": "KILL THE ROMEO",
+              "video_id": "Qe2jczbwYXs",
+              "youtube_views": 2280083
+            },
+            {
+              "title": "The Sea (ZB1 Remake)",
+              "video_id": "nOrM5x690xg",
+              "youtube_views": 871319
+            },
+            {
+              "title": "Insomnia",
+              "video_id": "nTCovp8SOwg",
+              "youtube_views": 1573062
+            },
+            {
+              "title": "Road Movie",
+              "video_id": "Upok3Va39eY",
+              "youtube_views": 521075
+            },
+            {
+              "title": "Eternity",
+              "video_id": "j2aIW5AdnZA",
+              "youtube_views": 753421
+            },
+            {
+              "title": "YURA YURA (Korean Version)",
+              "video_id": "jBx6ewT0QzQ",
+              "youtube_views": 729827
+            }
+          ]
+        },
+        {
+          "title": "You had me at HELLO",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Solar POWER",
+              "video_id": "SiUZiwfMGps",
+              "youtube_views": 476559
+            },
+            {
+              "title": "Feel the POP",
+              "video_id": "mC4KpT8h4HE",
+              "youtube_views": 4758949
+            },
+            {
+              "title": "Dear ECLIPSE",
+              "video_id": "q8eh2IAVxug",
+              "youtube_views": 909785
+            },
+            {
+              "title": "SWEAT",
+              "video_id": "tMT2lQI0jPo",
+              "youtube_views": 3322619
+            },
+            {
+              "title": "Sunday RIDE",
+              "video_id": "DijM__GJeis",
+              "youtube_views": 936371
+            },
+            {
+              "title": "HELLO",
+              "video_id": "s2RMBfmobuA",
+              "youtube_views": 881790
+            },
+            {
+              "title": "Feel the POP (Sped Up Version)",
+              "video_id": "Y_BI1FxSL88",
+              "youtube_views": 232444
+            }
+          ]
+        },
+        {
+          "title": "RE-FLOW",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Running to Future",
+              "video_id": "MTYQoV3T5gE",
+              "youtube_views": 27012
+            },
+            {
+              "title": "ROSES",
+              "video_id": "Uvtxmm1zle4",
+              "youtube_views": 21647
+            },
+            {
+              "title": "LOVEPOCALYPSE",
+              "video_id": "EVN8-ilWDI4",
+              "youtube_views": 410216
+            }
+          ]
+        },
+        {
+          "title": "ROSES",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ROSES",
+              "video_id": "3nFA4MmU4Z4",
+              "youtube_views": 306532
+            }
+          ]
+        },
+        {
+          "title": "Running to Future",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Running to Future",
+              "video_id": "1-CwhyT2dSg",
+              "youtube_views": 543971
+            }
+          ]
+        },
+        {
+          "title": "ICONIK",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ICONIK (Japanese version)",
+              "video_id": "N-dirF1PdEI",
+              "youtube_views": 4241
+            },
+            {
+              "title": "SLAM DUNK (Japanese version)",
+              "video_id": "ixbnpgKy9WM",
+              "youtube_views": 2365
+            },
+            {
+              "title": "BLUE (Japanese version)",
+              "video_id": "i_E_BpieQhk",
+              "youtube_views": 2178
+            }
+          ]
+        },
+        {
+          "title": "ICONIK (Japanese version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ICONIK (Japanese version)",
+              "video_id": "t32c-e0xOoM",
+              "youtube_views": 5631
+            }
+          ]
+        },
+        {
+          "title": "ICONIK Short ver.",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ICONIK Short ver.",
+              "video_id": "t36P4SMU4BY",
+              "youtube_views": 48740
+            }
+          ]
+        },
+        {
+          "title": "SLAM DUNK",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SLAM DUNK",
+              "video_id": "tKJMVZONS9c",
+              "youtube_views": 888505
+            }
+          ]
+        },
+        {
+          "title": "SLAM DUNK (Short ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SLAM DUNK (Short ver.)",
+              "video_id": "fKc0aKONSjM",
+              "youtube_views": 33142
+            }
+          ]
+        },
+        {
+          "title": "Head over Heels, Pt. 1 (Original Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "D-DAY",
+              "video_id": "6OuCxhHp2Z4",
+              "youtube_views": 652619
+            },
+            {
+              "title": "D-DAY (Instrumental)",
+              "video_id": "szROn0kg7QY",
+              "youtube_views": 23219
+            }
+          ]
+        },
+        {
+          "title": "Only One Story (Korean ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Only One Story (Korean ver.)",
+              "video_id": "bgE7LMwwUDU",
+              "youtube_views": 423925
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

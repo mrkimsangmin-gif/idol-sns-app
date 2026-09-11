@@ -69,5 +69,39 @@
       "누적_써클": "",
       "비고": "첫 번째 미니 앨범, 타이틀곡 Under My"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2623,
+      "spotify_id": "00nA3e6kZ69VkZ649d49N0",
+      "top_tracks": [
+        {
+          "title": "Wonderland",
+          "play_count": 130975,
+          "uri": "spotify:track:6gg6G9Tchx9Ef1WFgyeUWq"
+        },
+        {
+          "title": "Unusal",
+          "play_count": 54434,
+          "uri": "spotify:track:3sY07foxgxKLobIAeikEQ9"
+        },
+        {
+          "title": "Slippery",
+          "play_count": 59245,
+          "uri": "spotify:track:5LAiaRlpyRcsoRzhUqs9yF"
+        },
+        {
+          "title": "Flashlight",
+          "play_count": 24072,
+          "uri": "spotify:track:0DxhTLfCdOqoombodcdW3W"
+        },
+        {
+          "title": "Slippery - Instrumental",
+          "play_count": 5195,
+          "uri": "spotify:track:5u4MEKSh5Tswz02FmodTbJ"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

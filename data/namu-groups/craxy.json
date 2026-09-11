@@ -225,5 +225,267 @@
       "누적_써클": "-",
       "비고": "Reborn"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 14534,
+      "spotify_id": "3C13AlJZ4QWHSruAWe9VPI",
+      "top_tracks": [
+        {
+          "title": "ARIA",
+          "play_count": 915073,
+          "uri": "spotify:track:6CykfIYMh6EVhmO0uQ4SgG"
+        },
+        {
+          "title": "Poison Rose",
+          "play_count": 721700,
+          "uri": "spotify:track:2ktjnehUxCSikYLT1ipC1K"
+        },
+        {
+          "title": "NUGUDOM",
+          "play_count": 697356,
+          "uri": "spotify:track:3qIPUALlG1euPAbi7qk3ll"
+        },
+        {
+          "title": "Undercover",
+          "play_count": 622726,
+          "uri": "spotify:track:1r4UVMjjrwiUphiPCcU5q4"
+        },
+        {
+          "title": "MASQUERADE",
+          "play_count": 170964,
+          "uri": "spotify:track:0nQNSjE5Xlnki4tG2j3Gvg"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 2236424,
+      "track_count": 32,
+      "mean_views": 69888,
+      "max_views": 324779,
+      "albums": [
+        {
+          "title": "XX",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "BLACK OUT",
+              "video_id": "WIUDnekd2Xg",
+              "youtube_views": 156208
+            },
+            {
+              "title": "NUGUDOM",
+              "video_id": "HqwGf8Njv1A",
+              "youtube_views": 324779
+            },
+            {
+              "title": "FINGER FLICK",
+              "video_id": "okQklOXIjH4",
+              "youtube_views": 30244
+            },
+            {
+              "title": "It's alright",
+              "video_id": "lTrZkCDZpUQ",
+              "youtube_views": 136089
+            },
+            {
+              "title": "Lucid Dream",
+              "video_id": "5Seq6Ddu8Ew",
+              "youtube_views": 263447
+            },
+            {
+              "title": "Poison Rose",
+              "video_id": "d3XqaXYknjs",
+              "youtube_views": 0
+            },
+            {
+              "title": "Undercover (EDM Version)",
+              "video_id": "0i_m4To4U5Q",
+              "youtube_views": 14613
+            },
+            {
+              "title": "Cypher (Position)",
+              "video_id": "TSVDsSm-IHo",
+              "youtube_views": 35211
+            }
+          ]
+        },
+        {
+          "title": "MASQUERADE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "MASQUERADE",
+              "video_id": "_ZaRF4hL6pg",
+              "youtube_views": 159529
+            }
+          ]
+        },
+        {
+          "title": "1st SINGLE ALBUM 'RE_'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "CRAZY RACER",
+              "video_id": "CqxZ0UqayTk",
+              "youtube_views": 55315
+            },
+            {
+              "title": "STUPIDZ",
+              "video_id": "nwxHF5mchxU",
+              "youtube_views": 89820
+            },
+            {
+              "title": "DAISY (03/06) (DAISY(3월6일))",
+              "video_id": "Eg10PF3M4ds",
+              "youtube_views": 24394
+            },
+            {
+              "title": "STUPIDZ Instrumental",
+              "video_id": "UkRraY0bwpg",
+              "youtube_views": 2403
+            }
+          ]
+        },
+        {
+          "title": "STUPIDZ",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "STUPIDZ",
+              "video_id": "PdGxYJX5Pso",
+              "youtube_views": 1222
+            }
+          ]
+        },
+        {
+          "title": "NO LIMIT",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "NO LIMIT",
+              "video_id": "TFmFFMJNnIQ",
+              "youtube_views": 23256
+            }
+          ]
+        },
+        {
+          "title": "Poison Rose",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Poison Rose",
+              "video_id": "c0sE3m-iroI",
+              "youtube_views": 291796
+            },
+            {
+              "title": "Poison Rose (Inst.)",
+              "video_id": "10bLTf_Ms9E",
+              "youtube_views": 6455
+            }
+          ]
+        },
+        {
+          "title": "Who Am I",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Interlude：Who am I",
+              "video_id": "20JZNnOlx0g",
+              "youtube_views": 3753
+            },
+            {
+              "title": "Undercover",
+              "video_id": "9Tc8SRrsJMU",
+              "youtube_views": 128985
+            },
+            {
+              "title": "REQUIEM",
+              "video_id": "lU1bAcAcAWE",
+              "youtube_views": 137221
+            },
+            {
+              "title": "LION",
+              "video_id": "6ZEO40Eabu4",
+              "youtube_views": 29255
+            },
+            {
+              "title": "REAL",
+              "video_id": "EwGA66X6i38",
+              "youtube_views": 83079
+            },
+            {
+              "title": "Butterfly",
+              "video_id": "k6u5yNrEDzU",
+              "youtube_views": 89954
+            }
+          ]
+        },
+        {
+          "title": "ZERO 2",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Dance with God",
+              "video_id": "nwOkC6uChrE",
+              "youtube_views": 39295
+            },
+            {
+              "title": "Trigger",
+              "video_id": "visYacotfxY",
+              "youtube_views": 81528
+            },
+            {
+              "title": "Dance with God Instrumental",
+              "video_id": "dxBAvwzXX1o",
+              "youtube_views": 4227
+            }
+          ]
+        },
+        {
+          "title": "ZERO",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "GAIA",
+              "video_id": "DT94u73swUA",
+              "youtube_views": 15202
+            },
+            {
+              "title": "CRAXY Theme (Piano Version)",
+              "video_id": "WHd5IcCw8-A",
+              "youtube_views": 775
+            },
+            {
+              "title": "CRAXY Theme (Orchestral Version)",
+              "video_id": "ngYei3JooFU",
+              "youtube_views": 1054
+            },
+            {
+              "title": "CRAXY Theme (Trailer Version)",
+              "video_id": "qY8Fu7Kgf-s",
+              "youtube_views": 601
+            },
+            {
+              "title": "GAIA Instrumental",
+              "video_id": "S3PZunYZpLI",
+              "youtube_views": 1118
+            }
+          ]
+        },
+        {
+          "title": "My Universe",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "My Universe",
+              "video_id": "iZcL5yBlKXU",
+              "youtube_views": 5596
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

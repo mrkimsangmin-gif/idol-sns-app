@@ -245,5 +245,313 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 337905,
+      "spotify_id": "6QHP8St0MzfNDqjKpwtMht",
+      "top_tracks": [
+        {
+          "title": "TRICKY HOUSE",
+          "play_count": 34085252,
+          "uri": "spotify:track:2MeEPaL5HsW9njvrtP0Agj"
+        },
+        {
+          "title": "ICONIC",
+          "play_count": 2904962,
+          "uri": "spotify:track:4BSx3P80BGTTh0hRmvSvxL"
+        },
+        {
+          "title": "SUPERPOWER (Peak)",
+          "play_count": 1875768,
+          "uri": "spotify:track:5cgk5DRxhBuPcvJpM8KIsz"
+        },
+        {
+          "title": "BREATHE",
+          "play_count": 5275562,
+          "uri": "spotify:track:2P5bbp7BeVtrECPJaN8AFO"
+        },
+        {
+          "title": "Red Sun",
+          "play_count": 4243763,
+          "uri": "spotify:track:3z3eX1eG1Gj0YFDhYPkTrl"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 21383587,
+      "track_count": 40,
+      "mean_views": 534589,
+      "max_views": 8847016,
+      "albums": [
+        {
+          "title": "HOUSE OF TRICKY : Doorbell Ringing",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "The TRICKY’s Secret (The TRICKY’s Secret)",
+              "video_id": "KuoI5YpzOGk",
+              "youtube_views": 150561
+            },
+            {
+              "title": "Doorbell Ringing (Doorbell Ringing)",
+              "video_id": "UJQ5BZCwDuE",
+              "youtube_views": 693131
+            },
+            {
+              "title": "TRICKY HOUSE (도깨비집 (TRICKY HOUSE))",
+              "video_id": "W7c3ohU3Qzo",
+              "youtube_views": 8847016
+            },
+            {
+              "title": "Dynamic (Cheongryang) (Dynamic 淸亮(청량))",
+              "video_id": "3DNSt-3WS98",
+              "youtube_views": 161947
+            },
+            {
+              "title": "ROCKSTAR (ROCKSTAR)",
+              "video_id": "dj80NqCWma4",
+              "youtube_views": 1732619
+            },
+            {
+              "title": "XIKEY (XIKEY)",
+              "video_id": "tCKp5Cj4jA0",
+              "youtube_views": 1754905
+            },
+            {
+              "title": "Oh My Gosh (Oh My Gosh)",
+              "video_id": "z2GONcW-iS8",
+              "youtube_views": 800731
+            }
+          ]
+        },
+        {
+          "title": "HOUSE OF TRICKY : WRECKING THE HOUSE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "ICONIC",
+              "video_id": "D5mszH4TENg",
+              "youtube_views": 26584
+            },
+            {
+              "title": "See You Play (S’il vous plaît)",
+              "video_id": "u2lV-xGAauw",
+              "youtube_views": 111939
+            },
+            {
+              "title": "SUPERPOWER (Peak)",
+              "video_id": "a1wOijHTonA",
+              "youtube_views": 621373
+            },
+            {
+              "title": "Blurry",
+              "video_id": "LP489kHYL5Q",
+              "youtube_views": 84410
+            },
+            {
+              "title": "Right in",
+              "video_id": "wyLbzPaAn8s",
+              "youtube_views": 115113
+            }
+          ]
+        },
+        {
+          "title": "ICONIC",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ICONIC (ICONIC)",
+              "video_id": "gFpmxIGTT08",
+              "youtube_views": 1067086
+            }
+          ]
+        },
+        {
+          "title": "Up All Night",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Up All Night",
+              "video_id": "pn5YqbqoCLM",
+              "youtube_views": 72296
+            },
+            {
+              "title": "100%",
+              "video_id": "FD9S78I-W90",
+              "youtube_views": 11240
+            },
+            {
+              "title": "Period",
+              "video_id": "rb7btzfFKnk",
+              "youtube_views": 8236
+            },
+            {
+              "title": "Up All Night (Instrumental)",
+              "video_id": "KjV5L3elYv4",
+              "youtube_views": 935
+            },
+            {
+              "title": "100% (Instrumental)",
+              "video_id": "gqnDEVgqVG8",
+              "youtube_views": 600
+            },
+            {
+              "title": "Period (Instrumental)",
+              "video_id": "e5vkGRjKQao",
+              "youtube_views": 489
+            }
+          ]
+        },
+        {
+          "title": "BREATHE (tankzzo Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BREATHE (tankzzo Ver.) (BREATHE (tankzzo Ver.))",
+              "video_id": "zXh7JbisOas",
+              "youtube_views": 24369
+            }
+          ]
+        },
+        {
+          "title": "BREATHE (Kikoi Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BREATHE (Kikoi Ver.) (BREATHE (Kikoi Ver.))",
+              "video_id": "nvWkqmVkRGk",
+              "youtube_views": 7129
+            }
+          ]
+        },
+        {
+          "title": "BREATHE (Speed Up Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BREATHE (Speed Up Ver.) (BREATHE (Speed Up Ver.))",
+              "video_id": "Mb3Itos2J_4",
+              "youtube_views": 28688
+            }
+          ]
+        },
+        {
+          "title": "HOUSE OF TRICKY : SPUR",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "You Hide We Seek (You Hide We Seek)",
+              "video_id": "nrCvV2lF9FQ",
+              "youtube_views": 541045
+            },
+            {
+              "title": "BREATHE (BREATHE)",
+              "video_id": "0CkMlD7odJ8",
+              "youtube_views": 1268247
+            },
+            {
+              "title": "HIGHWAY (HIGHWAY)",
+              "video_id": "AzVWoFyGOLU",
+              "youtube_views": 240303
+            },
+            {
+              "title": "Roller Coaster (Roller Coaster)",
+              "video_id": "g9jAWUXy_Dc",
+              "youtube_views": 214119
+            },
+            {
+              "title": "Rock Your Body (Rock Your Body)",
+              "video_id": "9f756FjVGu4",
+              "youtube_views": 185638
+            }
+          ]
+        },
+        {
+          "title": "WITCH (Fury Ver.) (위치 (WITCH) (Fury Ver.))",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "WITCH (Fury Ver.) (위치 (WITCH) (Fury Ver.))",
+              "video_id": "X485aSIWCVw",
+              "youtube_views": 175899
+            }
+          ]
+        },
+        {
+          "title": "HOUSE OF TRICKY : WATCH OUT",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "WATCH OUT (WATCH OUT)",
+              "video_id": "foRMVniho18",
+              "youtube_views": 60468
+            },
+            {
+              "title": "WITCH (위치 (WITCH))",
+              "video_id": "Q3EvUxgsNdU",
+              "youtube_views": 747795
+            },
+            {
+              "title": "BACK OFF (BACK OFF)",
+              "video_id": "hzJLT1pm-yY",
+              "youtube_views": 194852
+            },
+            {
+              "title": "Bittersweet (Bittersweet)",
+              "video_id": "F0ufca-tl2U",
+              "youtube_views": 465743
+            },
+            {
+              "title": "Sandcastle (Sandcastle)",
+              "video_id": "rpgyZPDCeHg",
+              "youtube_views": 294146
+            },
+            {
+              "title": "Hang Around (Hang Around)",
+              "video_id": "vxOwd-dw52o",
+              "youtube_views": 168863
+            }
+          ]
+        },
+        {
+          "title": "Tsuki (Lunatic)",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Tsuki (Lunatic)",
+              "video_id": "e5euphspdv4",
+              "youtube_views": 190699
+            },
+            {
+              "title": "Cool",
+              "video_id": "7pyT6U0tPHE",
+              "youtube_views": 124917
+            },
+            {
+              "title": "Are you serious?",
+              "video_id": "vkXFG2euka4",
+              "youtube_views": 154093
+            },
+            {
+              "title": "Tsuki (Lunatic) (Instrumental)",
+              "video_id": "EdNmqZ7yS9s",
+              "youtube_views": 17037
+            },
+            {
+              "title": "Cool (Instrumental)",
+              "video_id": "NuZQPpO7iM0",
+              "youtube_views": 10273
+            },
+            {
+              "title": "Are you serious? (Instrumental)",
+              "video_id": "Duhzvk0NdF8",
+              "youtube_views": 8053
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

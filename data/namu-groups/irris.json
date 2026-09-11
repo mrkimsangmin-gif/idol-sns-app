@@ -93,5 +93,39 @@
       "누적_써클": "-",
       "비고": "타이틀곡: Stay W!th Me"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2815,
+      "spotify_id": "6njhhu11av9aiIJF5N4z7P",
+      "top_tracks": [
+        {
+          "title": "WANNA KNOW",
+          "play_count": 648951,
+          "uri": "spotify:track:6f6uBrvxzcLNat7Lgw4EeH"
+        },
+        {
+          "title": "Stay W!th Me",
+          "play_count": 184016,
+          "uri": "spotify:track:1aTkX9Lev1bESx0chKTnJI"
+        },
+        {
+          "title": "BYE BYE",
+          "play_count": 199858,
+          "uri": "spotify:track:6AstlVIuZbtviTRCj17W7F"
+        },
+        {
+          "title": "STAY WITH ME",
+          "play_count": 176069,
+          "uri": "spotify:track:72VtaUASUDR0IdEBHYpVK4"
+        },
+        {
+          "title": "WANNA KNOW - Instrumental",
+          "play_count": 19170,
+          "uri": "spotify:track:29WN9oU5dsW3YtbkwrPwQ9"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -247,5 +247,299 @@
       "누적_써클": "-",
       "비고": "바바송 (위 베이비 베어스 테마곡)"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 400113,
+      "spotify_id": "6BgYuNomEs12UIrnxhWE9a",
+      "top_tracks": [
+        {
+          "title": "LORO",
+          "play_count": 22592006,
+          "uri": "spotify:track:7hC3uYrhztvkgNziODNpep"
+        },
+        {
+          "title": "Diamond",
+          "play_count": 17116191,
+          "uri": "spotify:track:4SjL5rKPVxe2K2FnjluuVa"
+        },
+        {
+          "title": "KISS",
+          "play_count": 12589928,
+          "uri": "spotify:track:7MONmJafc7senaIZE3ulWv"
+        },
+        {
+          "title": "WOULD YOU RUN",
+          "play_count": 7619064,
+          "uri": "spotify:track:1PyRHSdxEZgJpN3vWSGNFw"
+        },
+        {
+          "title": "DOOM DOOM TA",
+          "play_count": 10936577,
+          "uri": "spotify:track:4QAR66BbMPgryzKTG21mdP"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 18810419,
+      "track_count": 36,
+      "mean_views": 522511,
+      "max_views": 5580756,
+      "albums": [
+        {
+          "title": "TRI.BE K-Pop Bops",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Diamond",
+              "video_id": "izkCZhGbvIE",
+              "youtube_views": 16807
+            },
+            {
+              "title": "Run",
+              "video_id": "7kVuq1zur2s",
+              "youtube_views": 6481
+            },
+            {
+              "title": "LORO",
+              "video_id": "yeUtHv8gzbM",
+              "youtube_views": 14179
+            },
+            {
+              "title": "KISS",
+              "video_id": "iQhjIihgMpk",
+              "youtube_views": 7227
+            },
+            {
+              "title": "DOOM DOOM TA",
+              "video_id": "No-eQEdeqfs",
+              "youtube_views": 7424
+            },
+            {
+              "title": "WOULD YOU RUN",
+              "video_id": "5c_QJSgqF1I",
+              "youtube_views": 6858
+            },
+            {
+              "title": "WONDERLAND",
+              "video_id": "pQ0lGKMVHfM",
+              "youtube_views": 7233
+            },
+            {
+              "title": "WE ARE YOUNG",
+              "video_id": "7MbGOxikfaI",
+              "youtube_views": 4990
+            },
+            {
+              "title": "RUB-A-DUM",
+              "video_id": "UfjcUNBpnn8",
+              "youtube_views": 5634
+            },
+            {
+              "title": "Loca",
+              "video_id": "OYlbB2_IC1k",
+              "youtube_views": 19423
+            },
+            {
+              "title": "TRUE",
+              "video_id": "vVWnGQc2CGs",
+              "youtube_views": 6101
+            },
+            {
+              "title": "STAY TOGETHER",
+              "video_id": "cambpcsUzIo",
+              "youtube_views": 6482
+            }
+          ]
+        },
+        {
+          "title": "VENI VIDI VICI",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "WOULD YOU RUN",
+              "video_id": "nfQHnabtJfM",
+              "youtube_views": 1811981
+            },
+            {
+              "title": "LOBO",
+              "video_id": "YBjbaQJy-mc",
+              "youtube_views": 460985
+            },
+            {
+              "title": "-18",
+              "video_id": "JSy3wVq8kfg",
+              "youtube_views": 195490
+            },
+            {
+              "title": "GOT YOUR BACK",
+              "video_id": "OVH1PxhKguo",
+              "youtube_views": 200113
+            },
+            {
+              "title": "TRUE",
+              "video_id": "FTSQxCn56w8",
+              "youtube_views": 197685
+            },
+            {
+              "title": "DOOM DOOM TA",
+              "video_id": "7bzpMeBpxjg",
+              "youtube_views": 1083883
+            },
+            {
+              "title": "RUB-A-DUM",
+              "video_id": "og_r-kLZho8",
+              "youtube_views": 25743
+            }
+          ]
+        },
+        {
+          "title": "Diamond",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Diamond",
+              "video_id": "gTj__Sfn6Y0",
+              "youtube_views": 5580756
+            },
+            {
+              "title": "Run",
+              "video_id": "949WSCor9B4",
+              "youtube_views": 249537
+            }
+          ]
+        },
+        {
+          "title": "The Little Drummer Girls",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Papa Noel",
+              "video_id": "LJLWZNEqIw0",
+              "youtube_views": 348312
+            },
+            {
+              "title": "LORO",
+              "video_id": "4wYsupfO4Qs",
+              "youtube_views": 362258
+            }
+          ]
+        },
+        {
+          "title": "WONDERLAND (English Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "WONDERLAND (English Ver.)",
+              "video_id": "mg3aoFJUe-w",
+              "youtube_views": 91420
+            }
+          ]
+        },
+        {
+          "title": "K-909 : twit",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "멍청이 (twit)",
+              "video_id": "LwhASMxzD4E",
+              "youtube_views": 58851
+            }
+          ]
+        },
+        {
+          "title": "W.A.Y",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "STAY TOGETHER",
+              "video_id": "xKaxE6pLIaA",
+              "youtube_views": 307950
+            },
+            {
+              "title": "WE ARE YOUNG",
+              "video_id": "H9JYXpGq8Jc",
+              "youtube_views": 846559
+            },
+            {
+              "title": "WITCH",
+              "video_id": "-YZm6Ob8MEw",
+              "youtube_views": 816705
+            },
+            {
+              "title": "WONDERLAND",
+              "video_id": "1FxJu2mvoL8",
+              "youtube_views": 127219
+            },
+            {
+              "title": "WOULD YOU RUN (Original Ver.)",
+              "video_id": "LTtBZL-5hRc",
+              "youtube_views": 250163
+            }
+          ]
+        },
+        {
+          "title": "Memu Aagamu",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Memu Aagamu",
+              "video_id": "1-4NgZK2_ug",
+              "youtube_views": 1701791
+            }
+          ]
+        },
+        {
+          "title": "LEVIOSA",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "KISS",
+              "video_id": "qGYxoKqpn5A",
+              "youtube_views": 3393528
+            },
+            {
+              "title": "In The Air (777)",
+              "video_id": "I3N5el5xsBo",
+              "youtube_views": 272226
+            }
+          ]
+        },
+        {
+          "title": "A Kind Of Magic (Coke Studio Session)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "A Kind Of Magic (Coke Studio Session)",
+              "video_id": "x8UTjjS7kw4",
+              "youtube_views": 64569
+            }
+          ]
+        },
+        {
+          "title": "The Bha Bha Song (We Baby Bears Theme Korean Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "The Bha Bha Song (We Baby Bears Theme Korean Ver.)",
+              "video_id": "Sx3tRvVmEe0",
+              "youtube_views": 25365
+            }
+          ]
+        },
+        {
+          "title": "The Bha Bha Song (We Baby Bears Theme)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "The Bha Bha Song (We Baby Bears Theme)",
+              "video_id": "F8iiw-CAq68",
+              "youtube_views": 228491
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

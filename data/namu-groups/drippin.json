@@ -227,5 +227,323 @@
       "누적_써클": "-",
       "비고": "Weekend"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 27942,
+      "spotify_id": "5IVacR5tKgTu9HotcG8kkl",
+      "top_tracks": [
+        {
+          "title": "Villain",
+          "play_count": 2208403,
+          "uri": "spotify:track:3xO1I7gH39DTgaai3kGIOY"
+        },
+        {
+          "title": "Young Blood",
+          "play_count": 2087241,
+          "uri": "spotify:track:7oF0wWZkuYMCOyy9aLhOhW"
+        },
+        {
+          "title": "Beautiful MAZE",
+          "play_count": 796566,
+          "uri": "spotify:track:03dsawwfwz82T2cuCgFNza"
+        },
+        {
+          "title": "Nostalgia",
+          "play_count": 2751148,
+          "uri": "spotify:track:7pd6TOInBnDKg44BtCwlXT"
+        },
+        {
+          "title": "SEVEN SINS",
+          "play_count": 711540,
+          "uri": "spotify:track:2byWFY0u4pFZSVbQbbFBA5"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 5631831,
+      "track_count": 42,
+      "mean_views": 134091,
+      "max_views": 517184,
+      "albums": [
+        {
+          "title": "Villain : The End",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "I.N.O (I.N.O)",
+              "video_id": "H4zNwDDhcAE",
+              "youtube_views": 21988
+            },
+            {
+              "title": "The One (The One)",
+              "video_id": "uhiSfdYS5Ak",
+              "youtube_views": 179478
+            },
+            {
+              "title": "Silence (Silence)",
+              "video_id": "e0fnaX9oVx8",
+              "youtube_views": 332807
+            },
+            {
+              "title": "MONSTER (MONSTER)",
+              "video_id": "tWye7vIHc74",
+              "youtube_views": 56032
+            },
+            {
+              "title": "HOME (HOME)",
+              "video_id": "Fazw1nV_d6g",
+              "youtube_views": 94161
+            },
+            {
+              "title": "UTOPIA (UTOPIA)",
+              "video_id": "uFS_kLS_DC4",
+              "youtube_views": 121155
+            },
+            {
+              "title": "DEJA VU (DEJA VU)",
+              "video_id": "u0ugrYQTMGA",
+              "youtube_views": 157235
+            },
+            {
+              "title": "ESCAPE (ESCAPE)",
+              "video_id": "0M4R7ezXD1c",
+              "youtube_views": 47663
+            },
+            {
+              "title": "Champion (Champion)",
+              "video_id": "nbjRtb1l5fg",
+              "youtube_views": 65782
+            },
+            {
+              "title": "When I’m With You (When I’m With You)",
+              "video_id": "vl7ydOvJrk0",
+              "youtube_views": 42134
+            }
+          ]
+        },
+        {
+          "title": "Weekend",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Weekend (Weekend)",
+              "video_id": "tVzC46Oub2I",
+              "youtube_views": 145966
+            },
+            {
+              "title": "Fly High (Fly High)",
+              "video_id": "puWZ7WWPVG4",
+              "youtube_views": 86893
+            },
+            {
+              "title": "TIME (TIME)",
+              "video_id": "DmdGrRUCVmY",
+              "youtube_views": 55091
+            }
+          ]
+        },
+        {
+          "title": "Beautiful MAZE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Beautiful MAZE (Beautiful MAZE)",
+              "video_id": "9-qHQa1rCT4",
+              "youtube_views": 383574
+            },
+            {
+              "title": "Get LOUD (Get LOUD)",
+              "video_id": "KySqYFCAXrQ",
+              "youtube_views": 94710
+            },
+            {
+              "title": "Black MIRROR (Black MIRROR)",
+              "video_id": "fGsZInCGbwg",
+              "youtube_views": 80093
+            }
+          ]
+        },
+        {
+          "title": "SEVEN SINS",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SEVEN SINS (SEVEN SINS)",
+              "video_id": "1TteFd10jNI",
+              "youtube_views": 190187
+            },
+            {
+              "title": "STEREO (STEREO)",
+              "video_id": "mGVayh5l3BY",
+              "youtube_views": 90877
+            },
+            {
+              "title": "BAD BLOOD (BAD BLOOD)",
+              "video_id": "n9bpU1Z8ugM",
+              "youtube_views": 45017
+            }
+          ]
+        },
+        {
+          "title": "Hello Goodbye",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Hello Goodbye",
+              "video_id": "QhfZdjbHMOI",
+              "youtube_views": 39286
+            },
+            {
+              "title": "MIRAI",
+              "video_id": "5mqPpieMit4",
+              "youtube_views": 36547
+            },
+            {
+              "title": "The One (Japanese Version)",
+              "video_id": "IIJAkWyyelg",
+              "youtube_views": 13250
+            }
+          ]
+        },
+        {
+          "title": "DRIPPIN 2nd Single Album [Villain : ZERO]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ZERO (ZERO)",
+              "video_id": "JzCdxDU9v9c",
+              "youtube_views": 240085
+            },
+            {
+              "title": "GAME (GAME)",
+              "video_id": "wfRquX7o3Y8",
+              "youtube_views": 97144
+            },
+            {
+              "title": "Trick and Treat (Trick and Treat)",
+              "video_id": "CzrzH6Q0NCQ",
+              "youtube_views": 38266
+            }
+          ]
+        },
+        {
+          "title": "So Good",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "So Good",
+              "video_id": "qd5hjtvbVxk",
+              "youtube_views": 99073
+            }
+          ]
+        },
+        {
+          "title": "DRIPPIN 3rd Mini Album [Villain]",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "7Villaz (7Villaz)",
+              "video_id": "wqeafrCOoxA",
+              "youtube_views": 32142
+            },
+            {
+              "title": "Villain (Villain)",
+              "video_id": "YvLnyeEag1g",
+              "youtube_views": 461104
+            },
+            {
+              "title": "Switch (Switch)",
+              "video_id": "Ifnamqk45Yo",
+              "youtube_views": 119690
+            },
+            {
+              "title": "SHY (SHY)",
+              "video_id": "mJyW35kL9UM",
+              "youtube_views": 50430
+            },
+            {
+              "title": "Delusion (Delusion)",
+              "video_id": "gclOqwfF7XA",
+              "youtube_views": 135515
+            },
+            {
+              "title": "Remember (Remember)",
+              "video_id": "lhD2W4dUSN8",
+              "youtube_views": 143389
+            }
+          ]
+        },
+        {
+          "title": "VERTIGO",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "VERTIGO",
+              "video_id": "krMHDFb3Gtg",
+              "youtube_views": 43962
+            }
+          ]
+        },
+        {
+          "title": "DRIPPIN 1st Single Album [Free Pass]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Free Pass (Free Pass)",
+              "video_id": "t5LcS_0khTg",
+              "youtube_views": 323481
+            },
+            {
+              "title": "STAY (STAY)",
+              "video_id": "DisxABVqfQk",
+              "youtube_views": 115318
+            },
+            {
+              "title": "WISH (너의 소원 안에 내가 있었으면 해 (WISH))",
+              "video_id": "Bi-zEszOj_k",
+              "youtube_views": 124557
+            }
+          ]
+        },
+        {
+          "title": "DRIPPIN 2nd Mini Album [A Better Tomorrow] (DRIPPIN(드리핀) 2nd Mini Album [A Better Tomorrow])",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "A Better Tomorrow (A Better Tomorrow)",
+              "video_id": "tmwJuh8mLAA",
+              "youtube_views": 39937
+            },
+            {
+              "title": "Young Blood (Young Blood)",
+              "video_id": "gHOXSs_buFg",
+              "youtube_views": 517184
+            },
+            {
+              "title": "Reach out your hands (손을 뻗어봐)",
+              "video_id": "HdasQQiY7Rc",
+              "youtube_views": 275792
+            },
+            {
+              "title": "Without U (Without U)",
+              "video_id": "hJik2-zJXD0",
+              "youtube_views": 126566
+            },
+            {
+              "title": "Firefly (Firefly)",
+              "video_id": "tUYl_K4tYBk",
+              "youtube_views": 91402
+            },
+            {
+              "title": "FATE (FATE)",
+              "video_id": "wpcPO2e4tEs",
+              "youtube_views": 176868
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

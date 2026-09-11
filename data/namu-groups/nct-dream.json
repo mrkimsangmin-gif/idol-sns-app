@@ -508,5 +508,770 @@
       "누적_써클": "-",
       "비고": "SM STATION 3 참여"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2409908,
+      "spotify_id": "1gBUSTR3TyDdTVFIaQnc02",
+      "top_tracks": [
+        {
+          "title": "Beat It Up",
+          "play_count": 49123894,
+          "uri": "spotify:track:4UJwJG0Byki4e9MNTxo8aF"
+        },
+        {
+          "title": "CHILLER",
+          "play_count": 109478600,
+          "uri": "spotify:track:0PNOA20FfXz8c1KVaon1ei"
+        },
+        {
+          "title": "Broken Melodies",
+          "play_count": 86978402,
+          "uri": "spotify:track:1DYPrEzbmlOYbeTDkCDsaA"
+        },
+        {
+          "title": "Don’t Need Your Love",
+          "play_count": 100175597,
+          "uri": "spotify:track:7oEm5Q1virEUB9H0XjWZzF"
+        },
+        {
+          "title": "BOOM",
+          "play_count": 170367937,
+          "uri": "spotify:track:6rcn967QN5JtkPOBDwYIuT"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 519574980,
+      "track_count": 123,
+      "mean_views": 4224186,
+      "max_views": 60663510,
+      "albums": [
+        {
+          "title": "Go Back To The Future",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "BTTF",
+              "video_id": "mpDyMFVr554",
+              "youtube_views": 3211129
+            },
+            {
+              "title": "CHILLER",
+              "video_id": "rL0xHVzAG70",
+              "youtube_views": 2887692
+            },
+            {
+              "title": "I LIKE IT",
+              "video_id": "R3M2yPp5Lus",
+              "youtube_views": 1356780
+            },
+            {
+              "title": "DREAM TEAM",
+              "video_id": "lHRMrPKBPgM",
+              "youtube_views": 991960
+            },
+            {
+              "title": "Interlude : Back to Our Paradise",
+              "video_id": "No0p4SBtKTk",
+              "youtube_views": 507233
+            },
+            {
+              "title": "나의 소나기 ’Bout You",
+              "video_id": "Ur0gmP94V18",
+              "youtube_views": 1558404
+            },
+            {
+              "title": "여름 바람이 불어오면 That Summer",
+              "video_id": "APyYsb5nJ2U",
+              "youtube_views": 1167687
+            },
+            {
+              "title": "새벽별 Miss Me",
+              "video_id": "BiND9gjT-Rw",
+              "youtube_views": 1058500
+            },
+            {
+              "title": "항해 Beautiful Sailing",
+              "video_id": "svJDQQtSBww",
+              "youtube_views": 909451
+            }
+          ]
+        },
+        {
+          "title": "DREAMSCAPE",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "INTRO : DREAMSCAPE",
+              "video_id": "EdSrKIhGePE",
+              "youtube_views": 417291
+            },
+            {
+              "title": "When I'm With You",
+              "video_id": "2a_dPfJubeM",
+              "youtube_views": 4431775
+            },
+            {
+              "title": "Flying Kiss",
+              "video_id": "b18z1NpG448",
+              "youtube_views": 2014131
+            },
+            {
+              "title": "i hate fruits",
+              "video_id": "DEmxTyjIeoM",
+              "youtube_views": 1799512
+            },
+            {
+              "title": "No Escape",
+              "video_id": "UzO6JUMl-L8",
+              "youtube_views": 912244
+            },
+            {
+              "title": "Best of Me",
+              "video_id": "QiidhNNVk4c",
+              "youtube_views": 709352
+            },
+            {
+              "title": "YOU 숲",
+              "video_id": "eYy_XC_AEUI",
+              "youtube_views": 1489549
+            },
+            {
+              "title": "하늘을 나는 꿈 Heavenly",
+              "video_id": "3Q9yxTEttHE",
+              "youtube_views": 1646949
+            },
+            {
+              "title": "밤 Night Poem",
+              "video_id": "bYkHxslhXd0",
+              "youtube_views": 700984
+            },
+            {
+              "title": "Off The Wall",
+              "video_id": "dmAs8DZ4ddg",
+              "youtube_views": 571609
+            },
+            {
+              "title": "Rains in Heaven",
+              "video_id": "KZO12V9IcOE",
+              "youtube_views": 2095338
+            }
+          ]
+        },
+        {
+          "title": "ISTJ - The 3rd Album",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "ISTJ",
+              "video_id": "UM2BijQPd8Y",
+              "youtube_views": 11640605
+            },
+            {
+              "title": "Broken Melodies",
+              "video_id": "szJHZQGYIaY",
+              "youtube_views": 8448616
+            },
+            {
+              "title": "Yogurt Shake",
+              "video_id": "WBxFijDyRec",
+              "youtube_views": 8406906
+            },
+            {
+              "title": "Skateboard",
+              "video_id": "-LQjMVvxYNo",
+              "youtube_views": 1463019
+            },
+            {
+              "title": "파랑 Blue Wave",
+              "video_id": "GMJSjKNvvYE",
+              "youtube_views": 2296941
+            },
+            {
+              "title": "Poison 모래성",
+              "video_id": "nRlhW3ZutcQ",
+              "youtube_views": 2941792
+            },
+            {
+              "title": "SOS",
+              "video_id": "895zQDw7jUs",
+              "youtube_views": 2180668
+            },
+            {
+              "title": "Pretzel (♡)",
+              "video_id": "6ai4CXm1JfQ",
+              "youtube_views": 1012681
+            },
+            {
+              "title": "제자리 걸음 Starry Night",
+              "video_id": "5RLyh1dEDHA",
+              "youtube_views": 1075424
+            },
+            {
+              "title": "Like We Just Met",
+              "video_id": "L3yEzURtj04",
+              "youtube_views": 6113311
+            }
+          ]
+        },
+        {
+          "title": "Beatbox - The 2nd Album Repackage",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Beatbox",
+              "video_id": "3PW1UcIKOyM",
+              "youtube_views": 31680451
+            },
+            {
+              "title": "Fire Alarm",
+              "video_id": "pQN-QuaFaK0",
+              "youtube_views": 491949
+            },
+            {
+              "title": "버퍼링 Glitch Mode",
+              "video_id": "wIPOgtTWTvw",
+              "youtube_views": 515314
+            },
+            {
+              "title": "Arcade",
+              "video_id": "uj0iIec3Bd8",
+              "youtube_views": 449575
+            },
+            {
+              "title": "마지막 인사 To My First",
+              "video_id": "-TJba--T2P8",
+              "youtube_views": 8517462
+            },
+            {
+              "title": "너를 위한 단어 It’s Yours",
+              "video_id": "XCTsAony1Dg",
+              "youtube_views": 496117
+            },
+            {
+              "title": "잘 자 Teddy Bear",
+              "video_id": "h3tXyQXMBQA",
+              "youtube_views": 503078
+            },
+            {
+              "title": "Sorry, Heart",
+              "video_id": "kbA5tOml-uE",
+              "youtube_views": 4186256
+            },
+            {
+              "title": "Replay 내일 봐",
+              "video_id": "FeBCf1gyfbM",
+              "youtube_views": 387973
+            },
+            {
+              "title": "Saturday Drip",
+              "video_id": "JZmcMtpoHcY",
+              "youtube_views": 428105
+            },
+            {
+              "title": "Better Than Gold 지금",
+              "video_id": "4tVNj_mCc_E",
+              "youtube_views": 909851
+            },
+            {
+              "title": "미니카 Drive",
+              "video_id": "Ed-jP8tURHc",
+              "youtube_views": 388230
+            },
+            {
+              "title": "북극성 Never Goodbye",
+              "video_id": "QCJfCMcvsWI",
+              "youtube_views": 723133
+            },
+            {
+              "title": "Rewind",
+              "video_id": "bypZHOCa9bs",
+              "youtube_views": 310989
+            },
+            {
+              "title": "별 밤 On the way",
+              "video_id": "B9eGPG1rmuw",
+              "youtube_views": 3364408
+            }
+          ]
+        },
+        {
+          "title": "Glitch Mode - The 2nd Album",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Fire Alarm",
+              "video_id": "gVduOLCPK8I",
+              "youtube_views": 1908998
+            },
+            {
+              "title": "버퍼링 Glitch Mode",
+              "video_id": "5d-N5nfjDYw",
+              "youtube_views": 19073238
+            },
+            {
+              "title": "Arcade",
+              "video_id": "IZzYeJzkoFQ",
+              "youtube_views": 3607156
+            },
+            {
+              "title": "너를 위한 단어 It’s Yours",
+              "video_id": "6rp90Ldwc_U",
+              "youtube_views": 3051014
+            },
+            {
+              "title": "잘 자 Teddy Bear",
+              "video_id": "vyx6YPSzAZQ",
+              "youtube_views": 3975433
+            },
+            {
+              "title": "Replay 내일 봐",
+              "video_id": "1SxXNJqWHLc",
+              "youtube_views": 1585590
+            },
+            {
+              "title": "Saturday Drip",
+              "video_id": "k6hSt3QjQys",
+              "youtube_views": 6397524
+            },
+            {
+              "title": "Better Than Gold 지금",
+              "video_id": "ISSUPa56d9U",
+              "youtube_views": 7160091
+            },
+            {
+              "title": "미니카 Drive",
+              "video_id": "LTtv3GrKWM0",
+              "youtube_views": 4015751
+            },
+            {
+              "title": "북극성 Never Goodbye",
+              "video_id": "Pw3kmK0i-Os",
+              "youtube_views": 18180570
+            },
+            {
+              "title": "Rewind",
+              "video_id": "SMUuX7zU76M",
+              "youtube_views": 2350870
+            }
+          ]
+        },
+        {
+          "title": "Hello Future - The 1st Album Repackage",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Hello Future",
+              "video_id": "UpeUA9rtAJk",
+              "youtube_views": 35017314
+            },
+            {
+              "title": "Bungee",
+              "video_id": "WMH5KqbjcNA",
+              "youtube_views": 4933830
+            },
+            {
+              "title": "맛 Hot Sauce",
+              "video_id": "xlSHPP4H-GU",
+              "youtube_views": 4188198
+            },
+            {
+              "title": "Diggity",
+              "video_id": "kF1yFhqspjo",
+              "youtube_views": 1733191
+            },
+            {
+              "title": "오르골 Life Is Still Going On",
+              "video_id": "8khwZ4Dql_k",
+              "youtube_views": 60663510
+            },
+            {
+              "title": "고래 Dive Into You",
+              "video_id": "hlrP9GXTx84",
+              "youtube_views": 16709037
+            },
+            {
+              "title": "우리의 계절 My Youth",
+              "video_id": "cJ9J9F3g9cY",
+              "youtube_views": 4252580
+            },
+            {
+              "title": "Rocket",
+              "video_id": "xNGLgw8NcKE",
+              "youtube_views": 1006404
+            },
+            {
+              "title": "Countdown (3, 2, 1)",
+              "video_id": "jWsNcY0f5AQ",
+              "youtube_views": 1042693
+            },
+            {
+              "title": "ANL",
+              "video_id": "rNi8tu7hpcQ",
+              "youtube_views": 3680418
+            },
+            {
+              "title": "주인공 Irreplaceable",
+              "video_id": "JD7T8tu-PLo",
+              "youtube_views": 4249648
+            },
+            {
+              "title": "지금처럼만 Be There For You",
+              "video_id": "c7f44Yk4l6U",
+              "youtube_views": 1102952
+            },
+            {
+              "title": "Rainbow 책갈피",
+              "video_id": "CSQ_okIZwYU",
+              "youtube_views": 5430539
+            }
+          ]
+        },
+        {
+          "title": "Hot Sauce - The 1st Album",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "맛 Hot Sauce",
+              "video_id": "U3XsXjDK8yk",
+              "youtube_views": 39786648
+            },
+            {
+              "title": "Diggity",
+              "video_id": "5cpqXChdTTs",
+              "youtube_views": 7596969
+            },
+            {
+              "title": "고래 Dive Into You",
+              "video_id": "R_XB-r-2fcM",
+              "youtube_views": 29727087
+            },
+            {
+              "title": "우리의 계절 My Youth",
+              "video_id": "U3m82WG_5pI",
+              "youtube_views": 15158074
+            },
+            {
+              "title": "Rocket",
+              "video_id": "H7rO2CJeJx0",
+              "youtube_views": 2594696
+            },
+            {
+              "title": "Countdown (3, 2, 1)",
+              "video_id": "_rPVvSX5O7M",
+              "youtube_views": 3516706
+            },
+            {
+              "title": "ANL",
+              "video_id": "51v4w_MH-zg",
+              "youtube_views": 10410507
+            },
+            {
+              "title": "주인공 Irreplaceable",
+              "video_id": "Wd-zJpV55n4",
+              "youtube_views": 13221813
+            },
+            {
+              "title": "지금처럼만 Be There For You",
+              "video_id": "L3lJUrqRylA",
+              "youtube_views": 5281698
+            },
+            {
+              "title": "Rainbow 책갈피",
+              "video_id": "T5a-FfbC1OA",
+              "youtube_views": 9470661
+            }
+          ]
+        },
+        {
+          "title": "THE DREAM SHOW - The 1st Live Album",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "GO (Live)",
+              "video_id": "a9uveQPG1Jc",
+              "youtube_views": 569192
+            },
+            {
+              "title": "Drippin' (Live)",
+              "video_id": "tBCQ50czo7M",
+              "youtube_views": 283595
+            },
+            {
+              "title": "119 (Live)",
+              "video_id": "i0B82Q7pQZc",
+              "youtube_views": 360825
+            },
+            {
+              "title": "1, 2, 3 (Live)",
+              "video_id": "HC6EXgPhYCk",
+              "youtube_views": 236139
+            },
+            {
+              "title": "We Go Up (Live)",
+              "video_id": "13MjjMV_iP4",
+              "youtube_views": 340484
+            },
+            {
+              "title": "STRONGER (Live)",
+              "video_id": "YUJ70G4hEkQ",
+              "youtube_views": 213031
+            },
+            {
+              "title": "덩크슛 Dunk Shot (Live)",
+              "video_id": "nFgN_qhXbFQ",
+              "youtube_views": 313721
+            },
+            {
+              "title": "Chewing Gum (Live)",
+              "video_id": "COo50-hzSW0",
+              "youtube_views": 291108
+            },
+            {
+              "title": "Dream Run (Live)",
+              "video_id": "8-I7AJaNCGE",
+              "youtube_views": 245639
+            },
+            {
+              "title": "Best Friend (Live)",
+              "video_id": "Ud7m4jwTpYM",
+              "youtube_views": 276440
+            },
+            {
+              "title": "같은 시간 같은 자리 Walk you home (Live)",
+              "video_id": "91_AjD5BVtM",
+              "youtube_views": 593214
+            },
+            {
+              "title": "사랑한단 뜻이야 Candle Light (Live)",
+              "video_id": "fenNYB9dhTw",
+              "youtube_views": 296111
+            },
+            {
+              "title": "We Young (Live)",
+              "video_id": "dQHrpQ0r_dI",
+              "youtube_views": 303947
+            },
+            {
+              "title": "마지막 첫사랑 My First and Last (Live)",
+              "video_id": "rtJ9ybyRcng",
+              "youtube_views": 280350
+            },
+            {
+              "title": "My Page (Live)",
+              "video_id": "LdsttqC6yRs",
+              "youtube_views": 234728
+            },
+            {
+              "title": "사랑이 좀 어려워 Bye My First… (Live)",
+              "video_id": "kMJZqDC5WEI",
+              "youtube_views": 317600
+            },
+            {
+              "title": "Don't Need Your Love (Live)",
+              "video_id": "9f6E0qkZq4E",
+              "youtube_views": 416229
+            },
+            {
+              "title": "Fireflies (Live)",
+              "video_id": "Un0iZlRZpOU",
+              "youtube_views": 293872
+            },
+            {
+              "title": "Trigger the fever (Live)",
+              "video_id": "_O2y9TvVdBc",
+              "youtube_views": 391502
+            },
+            {
+              "title": "BOOM (Live)",
+              "video_id": "jbmSTf68DyU",
+              "youtube_views": 405400
+            },
+            {
+              "title": "La La Love (Live)",
+              "video_id": "7bAaIhG6bQI",
+              "youtube_views": 186678
+            },
+            {
+              "title": "너와 나 Beautiful Time (Live)",
+              "video_id": "Kr-iu0ywpA8",
+              "youtube_views": 238916
+            }
+          ]
+        },
+        {
+          "title": "Beat It Up",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Beat It Up",
+              "video_id": "-W6tkMEKgmc",
+              "youtube_views": 2849403
+            },
+            {
+              "title": "Rush",
+              "video_id": "uWtPJlwMbyw",
+              "youtube_views": 458113
+            },
+            {
+              "title": "Cold Coffee",
+              "video_id": "MLe8JAo9Eh8",
+              "youtube_views": 743675
+            },
+            {
+              "title": "Butterflies",
+              "video_id": "MiCIMPECM2U",
+              "youtube_views": 481876
+            },
+            {
+              "title": "Tempo 0에서 100",
+              "video_id": "1aNAG9JHuQ0",
+              "youtube_views": 404197
+            },
+            {
+              "title": "TRICKY",
+              "video_id": "zh0TIYzT71M",
+              "youtube_views": 537831
+            }
+          ]
+        },
+        {
+          "title": "When I’m With You (Sped Up)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "When I’m With You (Sped Up)",
+              "video_id": "SFRyF64ZeRg",
+              "youtube_views": 70094
+            }
+          ]
+        },
+        {
+          "title": "RE:WORKS",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Hello Future (KENZIE RE:WORKS)",
+              "video_id": "SB3sXsK9dCo",
+              "youtube_views": 158466
+            },
+            {
+              "title": "Hello Future",
+              "video_id": "XMuNNAxTWhY",
+              "youtube_views": 10736
+            }
+          ]
+        },
+        {
+          "title": "Rains in Heaven",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Rains in Heaven",
+              "video_id": "SBQ3KM_7Pjs",
+              "youtube_views": 2092307
+            }
+          ]
+        },
+        {
+          "title": "Moonlight",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Moonlight",
+              "video_id": "gaCZY8_cnV8",
+              "youtube_views": 883263
+            }
+          ]
+        },
+        {
+          "title": "DREAM( )SCAPE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "icantfeelanything",
+              "video_id": "LvhQKz2KZh8",
+              "youtube_views": 1141128
+            },
+            {
+              "title": "Smoothie",
+              "video_id": "Y2MzLqOW0yI",
+              "youtube_views": 8658395
+            },
+            {
+              "title": "BOX",
+              "video_id": "7pBwsU4V5pg",
+              "youtube_views": 2286721
+            },
+            {
+              "title": "Carat Cake",
+              "video_id": "_aOcdOeRjBY",
+              "youtube_views": 862242
+            },
+            {
+              "title": "UNKNOWN",
+              "video_id": "XULgWS6im8o",
+              "youtube_views": 2757602
+            },
+            {
+              "title": "숨 Breathing",
+              "video_id": "a1hnsBl2kKI",
+              "youtube_views": 2317221
+            }
+          ]
+        },
+        {
+          "title": "Broken Melodies (JVKE Remix)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Broken Melodies (JVKE Remix)",
+              "video_id": "ebW5dk1W0S0",
+              "youtube_views": 358506
+            },
+            {
+              "title": "Broken Melodies",
+              "video_id": "Wr_ltG73hMg",
+              "youtube_views": 32253
+            }
+          ]
+        },
+        {
+          "title": "Yogurt Shake (Sped Up)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Yogurt Shake (Sped Up)",
+              "video_id": "2t28PRLRh7M",
+              "youtube_views": 301087
+            }
+          ]
+        },
+        {
+          "title": "Broken Melodies",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Broken Melodies",
+              "video_id": "PB2O-4WNQpw",
+              "youtube_views": 2841947
+            }
+          ]
+        },
+        {
+          "title": "Beatbox (English Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Beatbox (English Version)",
+              "video_id": "u4kcS_BKIaY",
+              "youtube_views": 787364
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

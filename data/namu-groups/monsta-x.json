@@ -756,5 +756,782 @@
       "누적_써클": "-",
       "비고": "무모하고 대책없지만 (with TTG)"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 1208619,
+      "spotify_id": "4TnGh5PKbSjpYqpIdlW5nz",
+      "top_tracks": [
+        {
+          "title": "baby blue",
+          "play_count": 2907340,
+          "uri": "spotify:track:2iUv18ruokAyhWk9w0CTYy"
+        },
+        {
+          "title": "HERO",
+          "play_count": 75490641,
+          "uri": "spotify:track:6gorwqDJ7bsdCHcVs5uS9u"
+        },
+        {
+          "title": "MIDDLE OF THE NIGHT",
+          "play_count": 71354057,
+          "uri": "spotify:track:2QqHAiFdDZKFJkr1xCV9dG"
+        },
+        {
+          "title": "Love Killa",
+          "play_count": 50449479,
+          "uri": "spotify:track:3sPju6MEJhk7Sz8dsRBkLQ"
+        },
+        {
+          "title": "WHO DO U LOVE? (feat. French Montana)",
+          "play_count": 74133337,
+          "uri": "spotify:track:4koDrJbYxIlcDY4gu2a4I8"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 112204136,
+      "track_count": 123,
+      "mean_views": 912228,
+      "max_views": 5925693,
+      "albums": [
+        {
+          "title": "THE X (Deluxe Ver.)",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Do What I Want (Do What I Want)",
+              "video_id": "u8lzi-60NdQ",
+              "youtube_views": 23528
+            },
+            {
+              "title": "N the Front (N the Front)",
+              "video_id": "o9t_5aTMJoU",
+              "youtube_views": 43632
+            },
+            {
+              "title": "Savior (Savior)",
+              "video_id": "TIRCeSrdIS4",
+              "youtube_views": 23886
+            },
+            {
+              "title": "Tuscan Leather (Tuscan Leather)",
+              "video_id": "a0FGf8s-76M",
+              "youtube_views": 31802
+            },
+            {
+              "title": "Catch Me Now (Catch Me Now)",
+              "video_id": "I_q6UMdfiUc",
+              "youtube_views": 26025
+            },
+            {
+              "title": "Fire & Ice (Fire & Ice)",
+              "video_id": "B7z7Su9LexI",
+              "youtube_views": 22985
+            },
+            {
+              "title": "N the Front (H.ONE Remix) (N the Front (H.ONE Remix))",
+              "video_id": "XaqxzLve5ic",
+              "youtube_views": 50925
+            }
+          ]
+        },
+        {
+          "title": "NOW PROJECT vol.1",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Rush Hour (Rerecorded) (Rush Hour (Rerecorded))",
+              "video_id": "wo2gjjcXSvA",
+              "youtube_views": 35029
+            },
+            {
+              "title": "Autobahn (Rerecorded) (Autobahn (Rerecorded))",
+              "video_id": "PBPGlsuQ_1o",
+              "youtube_views": 28553
+            },
+            {
+              "title": "Ride with U (Rerecorded) (Ride with U (Rerecorded))",
+              "video_id": "jbWWW8Kho38",
+              "youtube_views": 25888
+            },
+            {
+              "title": "Mercy (Rerecorded) (Mercy (Rerecorded))",
+              "video_id": "NWrTCuIC9Ck",
+              "youtube_views": 25111
+            },
+            {
+              "title": "LOVE (Rerecorded) (LOVE (Rerecorded))",
+              "video_id": "azAUk4NWtA8",
+              "youtube_views": 26772
+            },
+            {
+              "title": "LOVE FOREVER (Rerecorded) (사랑한다 (Rerecorded))",
+              "video_id": "RfoXKQPYYvM",
+              "youtube_views": 25110
+            },
+            {
+              "title": "Beautiful Liar (Rerecorded) (Beautiful Liar (Rerecorded))",
+              "video_id": "CydobAXCHa8",
+              "youtube_views": 131142
+            },
+            {
+              "title": "LONE RANGER (Rerecorded) (LONE RANGER (Rerecorded))",
+              "video_id": "_qZcOVGp7Cc",
+              "youtube_views": 24680
+            },
+            {
+              "title": "Deny (Rerecorded) (Deny (Rerecorded))",
+              "video_id": "aK7N78_YkiQ",
+              "youtube_views": 21927
+            },
+            {
+              "title": "IT'S ALRIGHT (Rerecorded) (괜찮아 (Rerecorded))",
+              "video_id": "_CYHjivAuos",
+              "youtube_views": 25462
+            }
+          ]
+        },
+        {
+          "title": "The Dreaming",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "One Day",
+              "video_id": "UJJX9hVghaQ",
+              "youtube_views": 2346232
+            },
+            {
+              "title": "You Problem",
+              "video_id": "TbSKd7oDZds",
+              "youtube_views": 2793648
+            },
+            {
+              "title": "Tied to Your Body",
+              "video_id": "qn9JGb5RbSQ",
+              "youtube_views": 789918
+            },
+            {
+              "title": "Whispers in the Dark",
+              "video_id": "3bhGWy3pdtQ",
+              "youtube_views": 1975764
+            },
+            {
+              "title": "Blame Me",
+              "video_id": "RnWJziWT934",
+              "youtube_views": 1610603
+            },
+            {
+              "title": "Secrets",
+              "video_id": "K4MH5-2qc0s",
+              "youtube_views": 1705070
+            },
+            {
+              "title": "About Last Night",
+              "video_id": "XnzGTUB3PBk",
+              "youtube_views": 1214119
+            },
+            {
+              "title": "Better",
+              "video_id": "fx4A-0Cyp_Y",
+              "youtube_views": 583265
+            },
+            {
+              "title": "Blow Your Mind",
+              "video_id": "qLsUywyBxiM",
+              "youtube_views": 705853
+            },
+            {
+              "title": "The Dreaming",
+              "video_id": "njoTgeS4Goc",
+              "youtube_views": 1269842
+            }
+          ]
+        },
+        {
+          "title": "One of a Kind",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "GAMBLER (GAMBLER)",
+              "video_id": "SyS8Vm3UYNw",
+              "youtube_views": 5925693
+            },
+            {
+              "title": "Heaven (Heaven)",
+              "video_id": "3rj6y03CcKo",
+              "youtube_views": 590276
+            },
+            {
+              "title": "Addicted (Addicted)",
+              "video_id": "hummWkaQ8T8",
+              "youtube_views": 430869
+            },
+            {
+              "title": "Secrets (Secrets)",
+              "video_id": "EeL6H_KVCtc",
+              "youtube_views": 695006
+            },
+            {
+              "title": "BEBE (BEBE)",
+              "video_id": "ErByM91VC2M",
+              "youtube_views": 764777
+            },
+            {
+              "title": "Rotate (Rotate)",
+              "video_id": "4FnaSmD_78s",
+              "youtube_views": 1388201
+            },
+            {
+              "title": "Livin’ It Up (Korean Version) (Livin’ It Up (Korean Version))",
+              "video_id": "TUGmDmHEE2s",
+              "youtube_views": 682866
+            }
+          ]
+        },
+        {
+          "title": "Fatal Love",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Love Killa (Love Killa)",
+              "video_id": "VY02Q2ACadU",
+              "youtube_views": 5510576
+            },
+            {
+              "title": "Gasoline (갈증)",
+              "video_id": "OM4-uE6MxSI",
+              "youtube_views": 493466
+            },
+            {
+              "title": "Thriller (Thriller)",
+              "video_id": "O-SpL7XBtoI",
+              "youtube_views": 421385
+            },
+            {
+              "title": "Guess Who (Guess Who)",
+              "video_id": "P7CQ6k5FzSQ",
+              "youtube_views": 350954
+            },
+            {
+              "title": "Nobody Else (Nobody Else)",
+              "video_id": "uhB4ZxDUcs4",
+              "youtube_views": 621008
+            },
+            {
+              "title": "BEASTMODE (BEASTMODE)",
+              "video_id": "-xd2WUna2C8",
+              "youtube_views": 1663538
+            },
+            {
+              "title": "Stand Together (대동단결)",
+              "video_id": "tHUedZbSpI4",
+              "youtube_views": 730057
+            },
+            {
+              "title": "Night View (Night View)",
+              "video_id": "X42t0c-YizA",
+              "youtube_views": 595254
+            },
+            {
+              "title": "Last Carnival (Last Carnival)",
+              "video_id": "gcdi15NPo3M",
+              "youtube_views": 430872
+            },
+            {
+              "title": "Sorry I’m Not Sorry (Sorry I’m Not Sorry)",
+              "video_id": "KMk_dHOaPrQ",
+              "youtube_views": 976313
+            }
+          ]
+        },
+        {
+          "title": "FANTASIA X",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "FANTASIA (FANTASIA)",
+              "video_id": "uDZ9twrIWXg",
+              "youtube_views": 2337629
+            },
+            {
+              "title": "FLOW (FLOW)",
+              "video_id": "61Vi7n96X98",
+              "youtube_views": 316709
+            },
+            {
+              "title": "ZONE (ZONE)",
+              "video_id": "2gmFazEazfY",
+              "youtube_views": 525902
+            },
+            {
+              "title": "Chaotic (Chaotic)",
+              "video_id": "1ULfFOeEUhU",
+              "youtube_views": 184494
+            },
+            {
+              "title": "Beautiful Night (Beautiful Night)",
+              "video_id": "4ck_ikd67_4",
+              "youtube_views": 427390
+            },
+            {
+              "title": "IT AIN’T OVER (IT AIN’T OVER)",
+              "video_id": "1KnsdTVAqfo",
+              "youtube_views": 181212
+            },
+            {
+              "title": "Stand Up (Stand Up)",
+              "video_id": "X1Varym3978",
+              "youtube_views": 958225
+            }
+          ]
+        },
+        {
+          "title": "ALL ABOUT LUV",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "WHO DO U LOVE?",
+              "video_id": "k0Zbd7oDA7A",
+              "youtube_views": 5799795
+            },
+            {
+              "title": "LOVE U",
+              "video_id": "JobwO9uMJVI",
+              "youtube_views": 1075666
+            },
+            {
+              "title": "HAPPY WITHOUT ME",
+              "video_id": "Z-q8g_3TJpQ",
+              "youtube_views": 1650095
+            },
+            {
+              "title": "GOT MY NUMBER",
+              "video_id": "aYO43H7PKgw",
+              "youtube_views": 5194177
+            },
+            {
+              "title": "SOMEONE'S SOMEONE",
+              "video_id": "XDa1sX3ziEo",
+              "youtube_views": 2167727
+            },
+            {
+              "title": "MIDDLE OF THE NIGHT",
+              "video_id": "I4ze9OaKsm4",
+              "youtube_views": 5191172
+            },
+            {
+              "title": "SHE'S THE ONE",
+              "video_id": "BEbXiTd9DG4",
+              "youtube_views": 2022951
+            },
+            {
+              "title": "YOU CAN'T HOLD MY HEART",
+              "video_id": "oEYOm0WWdeI",
+              "youtube_views": 5049077
+            },
+            {
+              "title": "MISBEHAVE",
+              "video_id": "BQB_OTA1i_s",
+              "youtube_views": 1415770
+            },
+            {
+              "title": "BESIDE U",
+              "video_id": "l_CWib0UFPg",
+              "youtube_views": 1001960
+            },
+            {
+              "title": "WHO DO U LOVE? (will.i.am Remix)",
+              "video_id": "QyDY77JI-AQ",
+              "youtube_views": 395775
+            }
+          ]
+        },
+        {
+          "title": "'FOLLOW’ : FIND YOU",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "Find you (Find you)",
+              "video_id": "E5P2_BmC0JA",
+              "youtube_views": 712495
+            },
+            {
+              "title": "Follow (Follow)",
+              "video_id": "rz98Yk_3_qA",
+              "youtube_views": 2276302
+            },
+            {
+              "title": "Monsta Truck (Monsta Truck)",
+              "video_id": "gfhip7AbwWQ",
+              "youtube_views": 351821
+            },
+            {
+              "title": "U R (U R)",
+              "video_id": "WDZEgvvXd7E",
+              "youtube_views": 735586
+            },
+            {
+              "title": "Disaster (Disaster)",
+              "video_id": "2Dq7J0jDqao",
+              "youtube_views": 142054
+            },
+            {
+              "title": "Burn it up (Burn it up)",
+              "video_id": "zLs-B4VJN04",
+              "youtube_views": 227796
+            },
+            {
+              "title": "Mirror (Mirror)",
+              "video_id": "p8lto8mjxRM",
+              "youtube_views": 110981
+            },
+            {
+              "title": "See You Again (See You Again)",
+              "video_id": "7C5K2X39ZzU",
+              "youtube_views": 161612
+            }
+          ]
+        },
+        {
+          "title": "Phenomenon",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "X-Phenomenon",
+              "video_id": "5H8NAz0F5gw",
+              "youtube_views": 407707
+            },
+            {
+              "title": "Livin' It Up",
+              "video_id": "7RGKCv4Al28",
+              "youtube_views": 610589
+            },
+            {
+              "title": "My Beast",
+              "video_id": "Dg2eIvshiNY",
+              "youtube_views": 124351
+            },
+            {
+              "title": "Alligator (Japanese Version)",
+              "video_id": "Y_ZWYRrug4w",
+              "youtube_views": 117033
+            },
+            {
+              "title": "Shoot Out (Japanese Version)",
+              "video_id": "sF1YJ3XPh9Q",
+              "youtube_views": 185088
+            },
+            {
+              "title": "Black Swan",
+              "video_id": "su_KnAMuJvc",
+              "youtube_views": 135015
+            },
+            {
+              "title": "Flash Back",
+              "video_id": "oA5ebfQl0-M",
+              "youtube_views": 86323
+            },
+            {
+              "title": "Swish",
+              "video_id": "knPGGsgLPxI",
+              "youtube_views": 76172
+            },
+            {
+              "title": "Carry On",
+              "video_id": "y52uyoYE6pc",
+              "youtube_views": 98320
+            }
+          ]
+        },
+        {
+          "title": "WE ARE HERE - The 2nd Album Take.2",
+          "year": "2019",
+          "tracks": [
+            {
+              "title": "INTRO : WE ARE HERE (INTRO : WE ARE HERE)",
+              "video_id": "drpBIapoEo0",
+              "youtube_views": 182221
+            },
+            {
+              "title": "Alligator (Alligator)",
+              "video_id": "ckjweo4-Wns",
+              "youtube_views": 3050470
+            },
+            {
+              "title": "Ghost (악몽 (Ghost))",
+              "video_id": "DObo7O4OgT0",
+              "youtube_views": 422930
+            },
+            {
+              "title": "Play it Cool(Prod. Steve Aoki) (Korean Ver.) (Play it Cool(Prod. Steve Aoki) (Korean Ver.))",
+              "video_id": "07gZsTLHeTE",
+              "youtube_views": 1014311
+            },
+            {
+              "title": "No Reason (No Reason)",
+              "video_id": "0JejdfVoVaw",
+              "youtube_views": 657854
+            },
+            {
+              "title": "Give Me Dat (Give Me Dat)",
+              "video_id": "qccAmr7Sguc",
+              "youtube_views": 280095
+            },
+            {
+              "title": "Turbulence (난기류 (Turbulence))",
+              "video_id": "krpaFoXksrQ",
+              "youtube_views": 418477
+            },
+            {
+              "title": "Rodeo (Rodeo)",
+              "video_id": "IFsg0IQYRG0",
+              "youtube_views": 834536
+            },
+            {
+              "title": "Stealer (Stealer)",
+              "video_id": "AOlpHdnXSu0",
+              "youtube_views": 333747
+            },
+            {
+              "title": "Party Time (Party Time)",
+              "video_id": "6iHvddG_l2I",
+              "youtube_views": 1075597
+            }
+          ]
+        },
+        {
+          "title": "growing pains",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "growing pains",
+              "video_id": "VPwM2jScX5w",
+              "youtube_views": 332765
+            }
+          ]
+        },
+        {
+          "title": "baby blue",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "baby blue",
+              "video_id": "ba9MX-bk8LY",
+              "youtube_views": 785459
+            }
+          ]
+        },
+        {
+          "title": "THE X",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Do What I Want (Do What I Want)",
+              "video_id": "dlOn8q8R-qU",
+              "youtube_views": 88210
+            },
+            {
+              "title": "N the Front (N the Front)",
+              "video_id": "R5QWry3uCdc",
+              "youtube_views": 517479
+            },
+            {
+              "title": "Savior (Savior)",
+              "video_id": "NxAoNkfnj9g",
+              "youtube_views": 219607
+            },
+            {
+              "title": "Tuscan Leather (Tuscan Leather)",
+              "video_id": "vzJWga6v4Gs",
+              "youtube_views": 285114
+            },
+            {
+              "title": "Catch Me Now (Catch Me Now)",
+              "video_id": "ajMlDz4AQjM",
+              "youtube_views": 239086
+            },
+            {
+              "title": "Fire & Ice (Fire & Ice)",
+              "video_id": "1vgM6JVltTA",
+              "youtube_views": 213428
+            }
+          ]
+        },
+        {
+          "title": "Do What I Want",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Do What I Want (Do What I Want)",
+              "video_id": "WxWO8xsz6UU",
+              "youtube_views": 770773
+            }
+          ]
+        },
+        {
+          "title": "Beautiful Liar / GAMBLER (JAPAN SPECIAL EDITION)",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Beautiful Liar -Japanese ver.- (Beautiful Liar -Japanese ver.-)",
+              "video_id": "URhNfmSuZi0",
+              "youtube_views": 40178
+            },
+            {
+              "title": "GAMBLER -Japanese ver.- (GAMBLER -Japanese ver.-)",
+              "video_id": "m7V5yk2el1U",
+              "youtube_views": 18514
+            },
+            {
+              "title": "BEASTMODE -Japanese ver.- (BEASTMODE -Japanese ver.-)",
+              "video_id": "HWv6AzUhYW8",
+              "youtube_views": 9388
+            },
+            {
+              "title": "BEBE -Japanese ver.- (BEBE -Japanese ver.-)",
+              "video_id": "Fbgn2nlkBrY",
+              "youtube_views": 8136
+            }
+          ]
+        },
+        {
+          "title": "REASON",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Beautiful Liar (Beautiful Liar)",
+              "video_id": "T5D1LBeqyCU",
+              "youtube_views": 2151961
+            },
+            {
+              "title": "Daydream (Daydream)",
+              "video_id": "UGFrHmfdvrs",
+              "youtube_views": 411022
+            },
+            {
+              "title": "Crescendo (춤사위 (Crescendo))",
+              "video_id": "Y5p-mp0Xsm0",
+              "youtube_views": 353726
+            },
+            {
+              "title": "LONE RANGER (LONE RANGER)",
+              "video_id": "ANKTPyciFVM",
+              "youtube_views": 1138155
+            },
+            {
+              "title": "Deny (Deny)",
+              "video_id": "2vNbBSLQH9Q",
+              "youtube_views": 760832
+            },
+            {
+              "title": "IT'S ALRIGHT (괜찮아)",
+              "video_id": "mYBrhnzYHLU",
+              "youtube_views": 321108
+            }
+          ]
+        },
+        {
+          "title": "Late Night Feels",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Late Night Feels",
+              "video_id": "v1POWNxX-10",
+              "youtube_views": 175394
+            }
+          ]
+        },
+        {
+          "title": "If with U",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "If with U",
+              "video_id": "_7zOEEtlJWM",
+              "youtube_views": 373835
+            }
+          ]
+        },
+        {
+          "title": "SHAPE of LOVE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "LOVE (LOVE)",
+              "video_id": "wK8B8wPJOOs",
+              "youtube_views": 2656367
+            },
+            {
+              "title": "Burning Up (Feat. R3HAB) (Burning Up (Feat. R3HAB))",
+              "video_id": "hm2VIgSH47Y",
+              "youtube_views": 1270255
+            },
+            {
+              "title": "Breathe (Breathe)",
+              "video_id": "6-cMjVqK-rw",
+              "youtube_views": 308210
+            },
+            {
+              "title": "Wildfire (Wildfire)",
+              "video_id": "KcQSbb1zKy0",
+              "youtube_views": 718193
+            },
+            {
+              "title": "LOVE FOREVER (사랑한다)",
+              "video_id": "wEDhSsDzVk4",
+              "youtube_views": 610779
+            },
+            {
+              "title": "AND (AND)",
+              "video_id": "NC7eFZShR_I",
+              "youtube_views": 419357
+            }
+          ]
+        },
+        {
+          "title": "NO LIMIT",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Rush Hour (Rush Hour)",
+              "video_id": "S-gFxzx-8Bs",
+              "youtube_views": 3943117
+            },
+            {
+              "title": "Autobahn (Autobahn)",
+              "video_id": "FY9fvJgNgWA",
+              "youtube_views": 1011623
+            },
+            {
+              "title": "Ride with U (Ride with U)",
+              "video_id": "SuSeaS0HPO4",
+              "youtube_views": 911179
+            },
+            {
+              "title": "Got me in chains (Got me in chains)",
+              "video_id": "-8rIKOkzCAY",
+              "youtube_views": 418657
+            },
+            {
+              "title": "Just love (Just love)",
+              "video_id": "RPWG0TTEqhE",
+              "youtube_views": 788932
+            },
+            {
+              "title": "Mercy (Mercy)",
+              "video_id": "_MGOZlfhRmo",
+              "youtube_views": 713575
+            },
+            {
+              "title": "I got love (I got love)",
+              "video_id": "IGpY2opQQ-w",
+              "youtube_views": 636631
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

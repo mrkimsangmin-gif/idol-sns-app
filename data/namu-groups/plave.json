@@ -255,5 +255,212 @@
       "누적_써클": "-",
       "비고": "오늘도 매진했습니다 OST; 타이틀곡: 괜찮아 사랑이니까"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 486313,
+      "spotify_id": "0k2zyzGq6HX383VlMBOvRG",
+      "top_tracks": [
+        {
+          "title": "BBUU!",
+          "play_count": 7568738,
+          "uri": "spotify:track:6WCEA1cWcv3jfsVXpWdeXR"
+        },
+        {
+          "title": "Bongsoong-a",
+          "play_count": 4828085,
+          "uri": "spotify:track:577VqzH5cBo0KoOrvWcvcO"
+        },
+        {
+          "title": "Chroma Drift",
+          "play_count": 22149997,
+          "uri": "spotify:track:0BA3uoKlu9CsHgXIeAiXmJ"
+        },
+        {
+          "title": "Dash",
+          "play_count": 25958604,
+          "uri": "spotify:track:2sDcIrosoXqiGv1D5OQUvF"
+        },
+        {
+          "title": "숨바꼭질 (Hide and Seek)",
+          "play_count": 2309146,
+          "uri": "spotify:track:3gDP2NEKXvjr43YDpvgmcH"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 52874380,
+      "track_count": 21,
+      "mean_views": 2517827,
+      "max_views": 10036848,
+      "albums": [
+        {
+          "title": "Borrow your night (Original Soundtrack from Even If This Love Disappears Tonight)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Borrow your night",
+              "video_id": "eDlYB_e5k3c",
+              "youtube_views": 1423258
+            },
+            {
+              "title": "Borrow your night (Inst.)",
+              "video_id": "hiTM-xLqGMI",
+              "youtube_views": 24177
+            }
+          ]
+        },
+        {
+          "title": "BBUU! (Christmas Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BBUU! (Christmas Ver.)",
+              "video_id": "c25uUQzxzC0",
+              "youtube_views": 889707
+            }
+          ]
+        },
+        {
+          "title": "PLBBUU",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BBUU!",
+              "video_id": "3K423oPUYXQ",
+              "youtube_views": 2631953
+            },
+            {
+              "title": "숨바꼭질 (Hide and Seek)",
+              "video_id": "Dd8E1gLm4Nk",
+              "youtube_views": 259130
+            },
+            {
+              "title": "Bongsoong-a",
+              "video_id": "S7ySLOGtZF8",
+              "youtube_views": 1261096
+            }
+          ]
+        },
+        {
+          "title": "숨바꼭질 (Hide and Seek)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "숨바꼭질 (Hide and Seek)",
+              "video_id": "v79reBX5JfE",
+              "youtube_views": 2463328
+            }
+          ]
+        },
+        {
+          "title": "かくれんぼ (Hide and Seek)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "かくれんぼ (Hide and Seek)",
+              "video_id": "7UV-0vPdRc8",
+              "youtube_views": 2201835
+            },
+            {
+              "title": "RIZZ - Japanese Ver.",
+              "video_id": "rbg0F69tRk4",
+              "youtube_views": 274829
+            },
+            {
+              "title": "Chroma Drift - Japanese Ver.",
+              "video_id": "4NMz3McgVzQ",
+              "youtube_views": 256402
+            }
+          ]
+        },
+        {
+          "title": "Dash (Sped Up Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Dash (Sped Up Ver.)",
+              "video_id": "71fbvrf93oA",
+              "youtube_views": 149324
+            }
+          ]
+        },
+        {
+          "title": "Caligo Pt.1",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Chroma Drift",
+              "video_id": "pjg2FzTA0S8",
+              "youtube_views": 4831450
+            },
+            {
+              "title": "Dash",
+              "video_id": "EnsuJgsxM-8",
+              "youtube_views": 8004319
+            },
+            {
+              "title": "RIZZ",
+              "video_id": "BnfCZx0DMeY",
+              "youtube_views": 3615237
+            },
+            {
+              "title": "Island",
+              "video_id": "-CsFI3l1nX0",
+              "youtube_views": 3408603
+            },
+            {
+              "title": "12:32 (A to T)",
+              "video_id": "t1muDbnasPs",
+              "youtube_views": 2371085
+            }
+          ]
+        },
+        {
+          "title": "The Fiery Priest 2 (Original Soundtrack) Part.2",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "We don't stop",
+              "video_id": "cNEC8t-sNnY",
+              "youtube_views": 2046999
+            },
+            {
+              "title": "We don't stop (Inst.)",
+              "video_id": "1x37HIi9PBA",
+              "youtube_views": 79641
+            }
+          ]
+        },
+        {
+          "title": "Dear Hyeri, Pt. 4 (Original Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "What If",
+              "video_id": "8ybkTOe4UIQ",
+              "youtube_views": 6483010
+            },
+            {
+              "title": "What If (Instrumental)",
+              "video_id": "CPoN_hP_Vmc",
+              "youtube_views": 162149
+            }
+          ]
+        },
+        {
+          "title": "Pump Up The Volume!",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Pump Up The Volume!",
+              "video_id": "94bRrJ_5T8U",
+              "youtube_views": 10036848
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

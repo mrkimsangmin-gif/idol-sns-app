@@ -175,5 +175,235 @@
       "누적_써클": "19,599",
       "비고": "MY PRIDE (TITLE)"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 27156,
+      "spotify_id": "2hoCMH0KWwpjFJEGh0ECe7",
+      "top_tracks": [
+        {
+          "title": "MY PRIDE",
+          "play_count": 184305,
+          "uri": "spotify:track:5fXi5dl48tR8l0rUlPSa0Y"
+        },
+        {
+          "title": "The Long Season",
+          "play_count": 317512,
+          "uri": "spotify:track:1CPY4rGB0wJ5nx2sajjBxU"
+        },
+        {
+          "title": "Moonrise",
+          "play_count": 288132,
+          "uri": "spotify:track:5JmcFleVcHjkcGoALYwBWi"
+        },
+        {
+          "title": "I Don’t Wanna Wait (IDWW)",
+          "play_count": 72297,
+          "uri": "spotify:track:4CXK0BfOkYUbvwD9EbYiSV"
+        },
+        {
+          "title": "Every Ten Minutes",
+          "play_count": 77515,
+          "uri": "spotify:track:14PSuvCf2TfS86mslFXW7q"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1222737,
+      "track_count": 28,
+      "mean_views": 43669,
+      "max_views": 156530,
+      "albums": [
+        {
+          "title": "MY PRIDE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "I’m the One",
+              "video_id": "n7RCIAINX9Y",
+              "youtube_views": 54880
+            },
+            {
+              "title": "MY PRIDE",
+              "video_id": "zLXJJjp1hgs",
+              "youtube_views": 83513
+            },
+            {
+              "title": "I Don’t Wanna Wait (IDWW)",
+              "video_id": "BpB-JT5iYbs",
+              "youtube_views": 35555
+            },
+            {
+              "title": "Every Ten Minutes",
+              "video_id": "LEgMoJdvBNc",
+              "youtube_views": 66009
+            }
+          ]
+        },
+        {
+          "title": "RUN RUN BAREFOOT (맨발의 청춘)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "RUN RUN BAREFOOT (맨발의 청춘)",
+              "video_id": "7Bjk4f2-ysk",
+              "youtube_views": 25110
+            },
+            {
+              "title": "RUN RUN BAREFOOT (Inst.) (맨발의 청춘 (Inst.))",
+              "video_id": "ouTcEIONBzU",
+              "youtube_views": 846
+            },
+            {
+              "title": "RUN RUN BAREFOOT (Fast ver.) (맨발의 청춘 (Fast ver.))",
+              "video_id": "iupbCI-q9k4",
+              "youtube_views": 3558
+            }
+          ]
+        },
+        {
+          "title": "FLEX LINE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "FLEX LINE",
+              "video_id": "cXXsLtvxFuY",
+              "youtube_views": 19550
+            },
+            {
+              "title": "Always",
+              "video_id": "KGxxPfzNvec",
+              "youtube_views": 41654
+            },
+            {
+              "title": "Sweet Magic",
+              "video_id": "HTTRDOyJ_G0",
+              "youtube_views": 32604
+            },
+            {
+              "title": "Birthday",
+              "video_id": "vB77Vjv1b-s",
+              "youtube_views": 27125
+            }
+          ]
+        },
+        {
+          "title": "Take It Slow",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Take It Slow",
+              "video_id": "jesPpLdZbR4",
+              "youtube_views": 41172
+            },
+            {
+              "title": "Take It Slow (Radio Edit Ver.)",
+              "video_id": "3nVIOVzk8VU",
+              "youtube_views": 27081
+            },
+            {
+              "title": "Take It Slow (Inst.)",
+              "video_id": "XRGXE7GcXS0",
+              "youtube_views": 2003
+            }
+          ]
+        },
+        {
+          "title": "The Long Season",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "The Long Season",
+              "video_id": "gn9bNxyJvmI",
+              "youtube_views": 156530
+            },
+            {
+              "title": "The Long Season (Inst.)",
+              "video_id": "VytCnw3zUfI",
+              "youtube_views": 3245
+            }
+          ]
+        },
+        {
+          "title": "Kick-START",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Goosebumps",
+              "video_id": "PQIcL2PHI_s",
+              "youtube_views": 55942
+            },
+            {
+              "title": "ROCK THANG",
+              "video_id": "e01u7QOY8TU",
+              "youtube_views": 116804
+            },
+            {
+              "title": "Moonrise",
+              "video_id": "O-plL6FzJuM",
+              "youtube_views": 130462
+            },
+            {
+              "title": "Paradise",
+              "video_id": "c15J5BX6yD8",
+              "youtube_views": 100493
+            },
+            {
+              "title": "Baby Shark",
+              "video_id": "V9G-JKAaT6w",
+              "youtube_views": 54490
+            }
+          ]
+        },
+        {
+          "title": "Find the way",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Find the way",
+              "video_id": "JQUKB1Gkcx0",
+              "youtube_views": 95168
+            },
+            {
+              "title": "Find the way (Instrumental)",
+              "video_id": "YbZSpqiW5Eg",
+              "youtube_views": 2960
+            }
+          ]
+        },
+        {
+          "title": "Frame the Blueprint : Prelude to Possibilities",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "This is our time",
+              "video_id": "j74J_SuBMks",
+              "youtube_views": 12659
+            },
+            {
+              "title": "Unbeatable",
+              "video_id": "H-qOKf_VYeg",
+              "youtube_views": 11729
+            },
+            {
+              "title": "BUNGEE",
+              "video_id": "vFveGWR2oJU",
+              "youtube_views": 6966
+            },
+            {
+              "title": "Surfing",
+              "video_id": "IOXoLNHFS24",
+              "youtube_views": 3934
+            },
+            {
+              "title": "Starlight",
+              "video_id": "pk5Hbpafvso",
+              "youtube_views": 10695
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

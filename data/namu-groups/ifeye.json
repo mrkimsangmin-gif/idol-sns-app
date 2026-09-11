@@ -137,5 +137,114 @@
       "누적_써클": "-",
       "비고": "EP 3집"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 449728,
+      "spotify_id": "1g971p3BXozVYNCn7JRMNa",
+      "top_tracks": [
+        {
+          "title": "r u ok?",
+          "play_count": 13567542,
+          "uri": "spotify:track:7LwQfsJ7JzgfFr7ErvcTs6"
+        },
+        {
+          "title": "NERDY",
+          "play_count": 4955882,
+          "uri": "spotify:track:6maRkcBnkwVL0uwjjGazFT"
+        },
+        {
+          "title": "loverboy",
+          "play_count": 1816218,
+          "uri": "spotify:track:4H7mZef7MeCkU2BgsG0lLh"
+        },
+        {
+          "title": "IRL",
+          "play_count": 1501628,
+          "uri": "spotify:track:7f9eZIAVx22NrKZIUsE03L"
+        },
+        {
+          "title": "round and round",
+          "play_count": 656197,
+          "uri": "spotify:track:0c9OwWr1PFzKBDztvy4jZ4"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 7514867,
+      "track_count": 11,
+      "mean_views": 683169,
+      "max_views": 3297969,
+      "albums": [
+        {
+          "title": "sweet tang",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "loverboy",
+              "video_id": "N7jXK752k1w",
+              "youtube_views": 322131
+            },
+            {
+              "title": "friend like me",
+              "video_id": "gOG-JoWljRA",
+              "youtube_views": 346306
+            },
+            {
+              "title": "round and round",
+              "video_id": "iC_ZP_FCUpM",
+              "youtube_views": 151203
+            },
+            {
+              "title": "ifeye (interlude)",
+              "video_id": "ffZ3yE2EI3k",
+              "youtube_views": 59103
+            },
+            {
+              "title": "r u ok?",
+              "video_id": "tEF6aKhfPaQ",
+              "youtube_views": 3297969
+            },
+            {
+              "title": "say moo!",
+              "video_id": "aBAO-1JaLHA",
+              "youtube_views": 137640
+            },
+            {
+              "title": "echo",
+              "video_id": "wP6CIvhKpm0",
+              "youtube_views": 124589
+            }
+          ]
+        },
+        {
+          "title": "ERLU BLUE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "NERDY",
+              "video_id": "rnjyo7CZNzQ",
+              "youtube_views": 2061872
+            },
+            {
+              "title": "IRL",
+              "video_id": "c7rjHR_EkkQ",
+              "youtube_views": 594516
+            },
+            {
+              "title": "BUBBLE UP",
+              "video_id": "gKpYGLpfIns",
+              "youtube_views": 191171
+            },
+            {
+              "title": "NERDY (English Version)",
+              "video_id": "akgrxwP1N-U",
+              "youtube_views": 228367
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

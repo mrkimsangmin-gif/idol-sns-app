@@ -133,5 +133,91 @@
       "누적_써클": "-",
       "비고": "비공개"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 149054,
+      "spotify_id": "0dXoF2Q2WnVrhRT26SJNvs",
+      "top_tracks": [
+        {
+          "title": "I DONT CARE",
+          "play_count": 1689706,
+          "uri": "spotify:track:7h6DJy4HspkjUtOdYtfqv4"
+        },
+        {
+          "title": "Shapeshifter",
+          "play_count": 146496,
+          "uri": "spotify:track:0kkqkpgbkLFpopZqPAH1CO"
+        },
+        {
+          "title": "F Girl",
+          "play_count": 3053636,
+          "uri": "spotify:track:5HaVN6uKNnLu3GVEmbrSBd"
+        },
+        {
+          "title": "Bet You’ll Regret It",
+          "play_count": 1400281,
+          "uri": "spotify:track:2bVH1pUiX20bp2VAm5JcHj"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 2785989,
+      "track_count": 5,
+      "mean_views": 557197,
+      "max_views": 2035312,
+      "albums": [
+        {
+          "title": "Shapeshifter",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Shapeshifter",
+              "video_id": "L1kRWj-52Io",
+              "youtube_views": 242947
+            }
+          ]
+        },
+        {
+          "title": "I DONT CARE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "I DONT CARE",
+              "video_id": "ClVqBH3arZ8",
+              "youtube_views": 2035312
+            }
+          ]
+        },
+        {
+          "title": "I DONT CARE (INST.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "I DONT CARE (INST.)",
+              "video_id": "ilhVE2lZiCg",
+              "youtube_views": 16573
+            }
+          ]
+        },
+        {
+          "title": "F Girl",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "F Girl",
+              "video_id": "TKPNQt6R54Q",
+              "youtube_views": 354238
+            },
+            {
+              "title": "지금을 놓치면 분명 너 후회할 거야 (Bet You’ll Regret It)",
+              "video_id": "3GO929MlgC8",
+              "youtube_views": 136919
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

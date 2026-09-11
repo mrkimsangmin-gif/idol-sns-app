@@ -602,5 +602,1007 @@
       "누적_써클": "-",
       "비고": "물음표"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 257742,
+      "spotify_id": "7LOmc7gyMVMOWF8qwEdn2X",
+      "top_tracks": [
+        {
+          "title": "O Sole Mio",
+          "play_count": 24769208,
+          "uri": "spotify:track:1zZ9IuDffZGH5OoVoUXlHz"
+        },
+        {
+          "title": "Good Guy",
+          "play_count": 20562842,
+          "uri": "spotify:track:52Ympobu59UXxyhdCUww1y"
+        },
+        {
+          "title": "Tear Drop",
+          "play_count": 21809739,
+          "uri": "spotify:track:5T6UFJ0AtAU7gXGybQ0HH7"
+        },
+        {
+          "title": "Now or Never",
+          "play_count": 22448113,
+          "uri": "spotify:track:2gPM5iXzORTiUUyCD3eqxQ"
+        },
+        {
+          "title": "Summer Breeze",
+          "play_count": 11163528,
+          "uri": "spotify:track:6vWl3N99bjIF5I0m3mH3IQ"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 22838846,
+      "track_count": 168,
+      "mean_views": 135945,
+      "max_views": 5395807,
+      "albums": [
+        {
+          "title": "THE BEST ~Dear Fantasy~",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Trauma (Japanese Version)",
+              "video_id": "l9-liN9pumo",
+              "youtube_views": 21392
+            },
+            {
+              "title": "Tear Drop (Japanese Version)",
+              "video_id": "zaGWMZlGtOs",
+              "youtube_views": 14515
+            },
+            {
+              "title": "Fanfare (Japanese Version)",
+              "video_id": "H_Efq44FHWQ",
+              "youtube_views": 11359
+            },
+            {
+              "title": "Roar (Japanese Version)",
+              "video_id": "XCsJj_TyIzM",
+              "youtube_views": 9305
+            },
+            {
+              "title": "Easy Love (Japanese Version)",
+              "video_id": "HCUsZC56yFM",
+              "youtube_views": 28921
+            },
+            {
+              "title": "Boku No Taiyo: O Sole Mio",
+              "video_id": "MpgXyAY6MoA",
+              "youtube_views": 28644
+            },
+            {
+              "title": "Mamma Mia!",
+              "video_id": "I5hAYQNLvM4",
+              "youtube_views": 34862
+            },
+            {
+              "title": "Now or Never (Japanese Version)",
+              "video_id": "CvsS60pn2gE",
+              "youtube_views": 12508
+            },
+            {
+              "title": "Enough (Japanese Version)",
+              "video_id": "2LFrlwndWE4",
+              "youtube_views": 27624
+            },
+            {
+              "title": "RPM (Japanese Version)",
+              "video_id": "TE2uyStFgTU",
+              "youtube_views": 8197
+            },
+            {
+              "title": "Good Guy (Japanese Version)",
+              "video_id": "qqRTO4H7yqA",
+              "youtube_views": 10252
+            },
+            {
+              "title": "Summer Breeze (Japanese Version)",
+              "video_id": "eDAtsK1J3KY",
+              "youtube_views": 9533
+            }
+          ]
+        },
+        {
+          "title": "GOLDEN ECHO",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Summer Breeze (Japanese Version)",
+              "video_id": "p6z5YseIxOI",
+              "youtube_views": 23526
+            },
+            {
+              "title": "One Love (Japanese Version)",
+              "video_id": "lle8UwijPXg",
+              "youtube_views": 56396
+            },
+            {
+              "title": "Go High (Japanese Version)",
+              "video_id": "Hh0su4Gz3jI",
+              "youtube_views": 50751
+            },
+            {
+              "title": "RPM (Japanese Version)",
+              "video_id": "r2m3wXDt18c",
+              "youtube_views": 21538
+            },
+            {
+              "title": "My Story, My Song (Japanese Version)",
+              "video_id": "k3WjUuOt9fs",
+              "youtube_views": 55427
+            },
+            {
+              "title": "See U Tomorrow (Japanese Version)",
+              "video_id": "q4swmA2CIcM",
+              "youtube_views": 36579
+            },
+            {
+              "title": "Good Guy (Japanese Version)",
+              "video_id": "sT1w3xyO0QA",
+              "youtube_views": 208733
+            },
+            {
+              "title": "Round and Round (Japanese Version)",
+              "video_id": "UhC_fV8z77Y",
+              "youtube_views": 98566
+            },
+            {
+              "title": "Like The Hands Held Tight (Japanese Version)",
+              "video_id": "3SthXcZ1Fwk",
+              "youtube_views": 68910
+            },
+            {
+              "title": "Beautiful Light (Japanese Version)",
+              "video_id": "J1XCu9ZjY6o",
+              "youtube_views": 57680
+            }
+          ]
+        },
+        {
+          "title": "2019 FNC KINGDOM \"WINTER FOREST CAMP\" (Live)",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Opening (Live 2019 FNC KINGDOM -WINTER FOREST CAMP-@Makuhari International Exhibition Halls, Chiba)",
+              "video_id": "0gUlSWW6OF8",
+              "youtube_views": 34692
+            },
+            {
+              "title": "RPM (Live 2019 FNC KINGDOM -WINTER FOREST CAMP-@Makuhari International Exhibition Halls, Chiba)",
+              "video_id": "TGRqaq4t66c",
+              "youtube_views": 10277
+            },
+            {
+              "title": "Now or Never (Live 2019 FNC KINGDOM -WINTER FOREST CAMP-@Makuhari International Exhibition...",
+              "video_id": "OSGIifhLk7Q",
+              "youtube_views": 6296
+            },
+            {
+              "title": "O Sole Mio (Live 2019 FNC KINGDOM -WINTER FOREST CAMP-@Makuhari International Exhibition Halls,...",
+              "video_id": "1d_f1_I3P7I",
+              "youtube_views": 5035
+            },
+            {
+              "title": "Enough (Live 2019 FNC KINGDOM -WINTER FOREST CAMP-@Makuhari International Exhibition Halls, Chiba)",
+              "video_id": "VPMcJSLwqMY",
+              "youtube_views": 9016
+            },
+            {
+              "title": "Play Hard (Live 2019 FNC KINGDOM -WINTER FOREST CAMP-@Makuhari International Exhibition Halls,...",
+              "video_id": "K2a5utkYDcQ",
+              "youtube_views": 4088
+            },
+            {
+              "title": "Fanfare (Live 2019 FNC KINGDOM -WINTER FOREST CAMP-@Makuhari International Exhibition Halls, Chiba)",
+              "video_id": "F5rm2-2xy9Q",
+              "youtube_views": 4499
+            }
+          ]
+        },
+        {
+          "title": "2018 FMT \"The Beginning of Fantasy World\" (Live)",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Opening (Live-2018 FMT -The Beginning of Fantasy World-@Zepp Divercity, Tokyo)",
+              "video_id": "ksu4GPT8jM8",
+              "youtube_views": 4008
+            },
+            {
+              "title": "O Sole Mio (Live-2018 FMT -The Beginning of Fantasy World-@Zepp Divercity, Tokyo)",
+              "video_id": "kEw81EOq89c",
+              "youtube_views": 1607
+            },
+            {
+              "title": "ROAR (Live-2018 FMT -The Beginning of Fantasy World-@Zepp Divercity, Tokyo)",
+              "video_id": "hcpBf4nMn2g",
+              "youtube_views": 1174
+            },
+            {
+              "title": "K.O. (Live-2018 FMT -The Beginning of Fantasy World-@Zepp Divercity, Tokyo)",
+              "video_id": "upe-re7nPjw",
+              "youtube_views": 1047
+            },
+            {
+              "title": "Easy Love (Live-2018 FMT -The Beginning of Fantasy World-@Zepp Divercity, Tokyo)",
+              "video_id": "EnPlsydFe10",
+              "youtube_views": 1034
+            },
+            {
+              "title": "Jungle Game (Live-2018 FMT -The Beginning of Fantasy World-@Zepp Divercity, Tokyo)",
+              "video_id": "HOGu-ianS-s",
+              "youtube_views": 1184
+            },
+            {
+              "title": "Fanfare (Live-2018 FMT -The Beginning of Fantasy World-@Zepp Divercity, Tokyo)",
+              "video_id": "iKznhvTspdg",
+              "youtube_views": 890
+            }
+          ]
+        },
+        {
+          "title": "2017 1st Concert \"Fanfare \" (Live)",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Opening (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "24hflXwFsFw",
+              "youtube_views": 9312
+            },
+            {
+              "title": "ROAR (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "rR9Fmbjhi9s",
+              "youtube_views": 3545
+            },
+            {
+              "title": "Easy Love (Japanese ver.) (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "9gXf_4UlYPo",
+              "youtube_views": 2521
+            },
+            {
+              "title": "Still My Lady (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "aQByrjtXJbk",
+              "youtube_views": 1455
+            },
+            {
+              "title": "Hide and Seek (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "4YbUrijU3d0",
+              "youtube_views": 1321
+            },
+            {
+              "title": "4 Step (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "hbhdys2v-Dk",
+              "youtube_views": 1243
+            },
+            {
+              "title": "Jungle Game (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "z147ToMSrnk",
+              "youtube_views": 1419
+            },
+            {
+              "title": "Why (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "FkjnhbbS1g8",
+              "youtube_views": 1523
+            },
+            {
+              "title": "Together (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "RecEsrK_L9Q",
+              "youtube_views": 1064
+            },
+            {
+              "title": "Watch Out (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "KcMWSmOuqqg",
+              "youtube_views": 1624
+            },
+            {
+              "title": "tell me what it is (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "5-69wX7zKYM",
+              "youtube_views": 3905
+            },
+            {
+              "title": "K.O. (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "0o3oUHqvB0U",
+              "youtube_views": 1272
+            },
+            {
+              "title": "Fanfare (Japanese ver.) (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "iymWsuitaiY",
+              "youtube_views": 980
+            },
+            {
+              "title": "Around Farewell (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "QrHuMvz7I74",
+              "youtube_views": 2096
+            },
+            {
+              "title": "So Beautiful (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "cjPTc-y7wAo",
+              "youtube_views": 1388
+            },
+            {
+              "title": "Easy Love (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "EWCAdBvt6xs",
+              "youtube_views": 1181
+            },
+            {
+              "title": "Fanfare (Live-2017 1st Concert -Fanfare@Toyosu PIT, Tokyo)",
+              "video_id": "L44e2_5ngL8",
+              "youtube_views": 1011
+            }
+          ]
+        },
+        {
+          "title": "2019 Hall Tour: RPM (Live)",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Intro (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "J30-pymGTfc",
+              "youtube_views": 10011
+            },
+            {
+              "title": "RPM (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "DhJts7EXzwU",
+              "youtube_views": 3830
+            },
+            {
+              "title": "Now or Never (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "Ioeoj8M4CkY",
+              "youtube_views": 2351
+            },
+            {
+              "title": "See U Tomorrow (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "eiD7mAQ4_ME",
+              "youtube_views": 3706
+            },
+            {
+              "title": "Midnight Road (Arrange ver.) (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "ubTZ7CENOd4",
+              "youtube_views": 8971
+            },
+            {
+              "title": "Enough (Dance Break ver.) (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "pHGky6fqdys",
+              "youtube_views": 2535
+            },
+            {
+              "title": "Unlimited (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "DmKtWbpFBQg",
+              "youtube_views": 1961
+            },
+            {
+              "title": "Bad (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "AZbSNao_eUs",
+              "youtube_views": 8014
+            },
+            {
+              "title": "Echo (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "I3cthH2HjF0",
+              "youtube_views": 3486
+            },
+            {
+              "title": "LIFE IS SO BEAUTIFUL (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "K8UJsaXXLgU",
+              "youtube_views": 1837
+            },
+            {
+              "title": "Round And Round (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "nDTYdaQrejg",
+              "youtube_views": 2395
+            },
+            {
+              "title": "Let's Hang Out + MAMMA MIA! (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "yqEmpOUwJCc",
+              "youtube_views": 6751
+            },
+            {
+              "title": "PHOTOGRAPH (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "ABv7FwcY5YQ",
+              "youtube_views": 1799
+            },
+            {
+              "title": "Intro + Go back in Time (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "xhWM2i3vPew",
+              "youtube_views": 7141
+            },
+            {
+              "title": "O Sole Mio (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "2Cz5FhWCWNE",
+              "youtube_views": 1210
+            },
+            {
+              "title": "Play Hard (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "6LoZ3d-9IAw",
+              "youtube_views": 2108
+            },
+            {
+              "title": "Intro + Dreamer (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "2EE48pWuK0A",
+              "youtube_views": 2346
+            },
+            {
+              "title": "Jungle Game (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "Zk1Ud93DMuw",
+              "youtube_views": 1640
+            },
+            {
+              "title": "RPM (Japanese ver.) (Live-2019 Hall Tour -RPM-@Kanagawa Kenmin Hall, Kanagawa)",
+              "video_id": "J0BuqqFcX38",
+              "youtube_views": 1709
+            }
+          ]
+        },
+        {
+          "title": "MAMMA MIA! (2018 Zepp Tour) [Live]",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Opening (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "Z2Obxe-ZP1E",
+              "youtube_views": 13863
+            },
+            {
+              "title": "MAMMA MIA (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "eIjBtP-sW_Q",
+              "youtube_views": 10736
+            },
+            {
+              "title": "Be my Baby (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "xgCVbFETWbQ",
+              "youtube_views": 8339
+            },
+            {
+              "title": "Fanfare (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "JLbZuSRVvKw",
+              "youtube_views": 5078
+            },
+            {
+              "title": "Just On My Way (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "5IJa062A6yA",
+              "youtube_views": 3435
+            },
+            {
+              "title": "Hide and Seek (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "pWQdXzoa4RY",
+              "youtube_views": 8440
+            },
+            {
+              "title": "Let's Hang Out (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "Tktj3XsZLSI",
+              "youtube_views": 5992
+            },
+            {
+              "title": "Blank (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "BZRAEMqceDw",
+              "youtube_views": 5553
+            },
+            {
+              "title": "Never Say Goodbye (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "fLKRwp8UpgA",
+              "youtube_views": 6084
+            },
+            {
+              "title": "Go back in Time (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "vDR8-895p6Y",
+              "youtube_views": 3409
+            },
+            {
+              "title": "Easy Love (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "1Flgxw3ZoZg",
+              "youtube_views": 3731
+            },
+            {
+              "title": "CHAMPAGNE (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "hPfhPnJLJ5A",
+              "youtube_views": 22117
+            },
+            {
+              "title": "Midnight Road (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "mSG5f7VB5bw",
+              "youtube_views": 3682
+            },
+            {
+              "title": "ROAR (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "wxlpbEN8Rjk",
+              "youtube_views": 4631
+            },
+            {
+              "title": "Jungle Game (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "OA5DCPFD_Ks",
+              "youtube_views": 3271
+            },
+            {
+              "title": "O Sole Mio (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "J6iL9PGpFUI",
+              "youtube_views": 3664
+            },
+            {
+              "title": "Dear Fantasy (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "R2S4m_U3K9s",
+              "youtube_views": 2172
+            },
+            {
+              "title": "Together (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "b9_CPHjoH0o",
+              "youtube_views": 2816
+            },
+            {
+              "title": "MAMMA MIA! -Japanese ver.- (Live-2018 Zepp Tour -MAMMA MIA!-@Zepp Divercity, Tokyo)",
+              "video_id": "KOGqs_TVP24",
+              "youtube_views": 3253
+            }
+          ]
+        },
+        {
+          "title": "2019 Zepp Tour: ILLUMINATE (Live)",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Opening (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "c5faAAJmSvI",
+              "youtube_views": 8861
+            },
+            {
+              "title": "Now or Never (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "ZxJe38d_E1o",
+              "youtube_views": 4002
+            },
+            {
+              "title": "Play Hard (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "V_qmIrNSxY0",
+              "youtube_views": 3085
+            },
+            {
+              "title": "Unlimited (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "xGCU5_vcQb0",
+              "youtube_views": 2954
+            },
+            {
+              "title": "O Sole Mio (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "YkIFJY03q74",
+              "youtube_views": 2856
+            },
+            {
+              "title": "Be My Baby (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "-V9XP1iUAKI",
+              "youtube_views": 2281
+            },
+            {
+              "title": "MAMMA MIA! (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "2mYhh0K85DU",
+              "youtube_views": 3234
+            },
+            {
+              "title": "Different (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "26KW5XLpCqY",
+              "youtube_views": 2703
+            },
+            {
+              "title": "PHOTOGRAPH (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "3yvEVArKcI4",
+              "youtube_views": 2201
+            },
+            {
+              "title": "Rose's (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "1BEiM9pDY0Q",
+              "youtube_views": 7321
+            },
+            {
+              "title": "Zeroff (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "phz-6zbiZi4",
+              "youtube_views": 6200
+            },
+            {
+              "title": "Go Back in Time (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "O1A6iOrlMZs",
+              "youtube_views": 2248
+            },
+            {
+              "title": "Roar (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "cJtRKZ5HX-s",
+              "youtube_views": 1860
+            },
+            {
+              "title": "Life is So Beautiful (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "_zLEXpFd7p8",
+              "youtube_views": 2561
+            },
+            {
+              "title": "80s Retro Mix-Just On My Way & 4 Step (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "aRbtc_2V4oA",
+              "youtube_views": 4248
+            },
+            {
+              "title": "Jungle Game (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "m-FdG2CrdrQ",
+              "youtube_views": 1551
+            },
+            {
+              "title": "Enough (Live-2019 Zepp Tour -ILLUMINATE-@Zepp Divercity, Tokyo)",
+              "video_id": "vUMdfgXItP4",
+              "youtube_views": 1923
+            }
+          ]
+        },
+        {
+          "title": "2017 Special Event \"Fanfare\" (Live)",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Fanfare (Live-2017 Special Event -Fanfare@TSUTAYA O-EAST, Tokyo)",
+              "video_id": "06MCgfdLN2c",
+              "youtube_views": 12691
+            },
+            {
+              "title": "Still My Lady (Live-2017 Special Event -Fanfare@TSUTAYA O-EAST, Tokyo)",
+              "video_id": "46PFLLZrfGQ",
+              "youtube_views": 2473
+            },
+            {
+              "title": "ROAR (Live-2017 Special Event -Fanfare@TSUTAYA O-EAST, Tokyo)",
+              "video_id": "7Tbq3k67Mis",
+              "youtube_views": 1536
+            },
+            {
+              "title": "So Beautiful (Live-2017 Special Event -Fanfare@TSUTAYA O-EAST, Tokyo)",
+              "video_id": "_kVjTAHY6Uc",
+              "youtube_views": 1998
+            },
+            {
+              "title": "Together (Live-2017 Special Event -Fanfare@TSUTAYA O-EAST, Tokyo)",
+              "video_id": "4_zKTJDVMJ4",
+              "youtube_views": 1647
+            },
+            {
+              "title": "4 Step (Live-2017 Special Event -Fanfare@TSUTAYA O-EAST, Tokyo)",
+              "video_id": "JF99JlRVhkw",
+              "youtube_views": 1469
+            },
+            {
+              "title": "Jungle Game (Live-2017 Special Event -Fanfare@TSUTAYA O-EAST, Tokyo)",
+              "video_id": "UQQ8JUb6fwQ",
+              "youtube_views": 1897
+            },
+            {
+              "title": "K.O. (Live-2017 Special Event -Fanfare@TSUTAYA O-EAST, Tokyo)",
+              "video_id": "a58n70fe5Rk",
+              "youtube_views": 1537
+            },
+            {
+              "title": "ROAR (Japanese ver.) (Live-2017 Special Event -Fanfare@TSUTAYA O-EAST, Tokyo)",
+              "video_id": "w9el3edIt-A",
+              "youtube_views": 938
+            },
+            {
+              "title": "Fanfare (Japanese ver.) (Live-2017 Special Event -Fanfare@TSUTAYA O-EAST, Tokyo)",
+              "video_id": "1RDTCDoVYTg",
+              "youtube_views": 1666
+            }
+          ]
+        },
+        {
+          "title": "FIRST COLLECTION",
+          "year": "2020",
+          "tracks": [
+            {
+              "title": "Good Guy (Good Guy)",
+              "video_id": "0cferWVytgs",
+              "youtube_views": 5395807
+            },
+            {
+              "title": "Am I The Only One (나만 그래 (Am I The Only One))",
+              "video_id": "ZPcnPWIP8rM",
+              "youtube_views": 564361
+            },
+            {
+              "title": "Shh (Shh)",
+              "video_id": "YIqViC6uAqA",
+              "youtube_views": 470035
+            },
+            {
+              "title": "Lullu Lalla (룰루랄라 (Lullu Lalla))",
+              "video_id": "5ACJg79WxIg",
+              "youtube_views": 456259
+            },
+            {
+              "title": "One Love (One Love)",
+              "video_id": "Y1jqJf3awEo",
+              "youtube_views": 472641
+            },
+            {
+              "title": "Like The Hands Held Tight (널 꽉 잡은 손만큼 (Like The Hands Held Tight))",
+              "video_id": "-Ex2WnaYbNs",
+              "youtube_views": 562938
+            },
+            {
+              "title": "Fire (타 (Fire))",
+              "video_id": "6m21ItedeG8",
+              "youtube_views": 809977
+            },
+            {
+              "title": "Stop It Now (더 잔인하게 (Stop It Now))",
+              "video_id": "le1gSXLNLPU",
+              "youtube_views": 347559
+            },
+            {
+              "title": "Dance With Us (춤을 출 거야 (Dance With Us))",
+              "video_id": "2ZMKPGmW_vw",
+              "youtube_views": 615576
+            },
+            {
+              "title": "Beautiful Light (Beautiful Light)",
+              "video_id": "F30VL6PuN3E",
+              "youtube_views": 556154
+            }
+          ]
+        },
+        {
+          "title": "LOVE RACE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "LOVE RACE (LOVE RACE)",
+              "video_id": "bSZu40I6s3I",
+              "youtube_views": 346829
+            },
+            {
+              "title": "Suited (Suited)",
+              "video_id": "H3Uuek2Bzts",
+              "youtube_views": 399645
+            },
+            {
+              "title": "Side by Side (Side by Side)",
+              "video_id": "zHWCBUBKVro",
+              "youtube_views": 143201
+            },
+            {
+              "title": "WARURU (WARURU)",
+              "video_id": "1U0ZJHBpg7o",
+              "youtube_views": 259484
+            },
+            {
+              "title": "No No No (No No No)",
+              "video_id": "YfljzVyDLzo",
+              "youtube_views": 146728
+            },
+            {
+              "title": "Love Puzzle (숨은 사랑 찾기 (Love Puzzle))",
+              "video_id": "-udYJAcAXf0",
+              "youtube_views": 204139
+            }
+          ]
+        },
+        {
+          "title": "LOVE RACE (Sped Up)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "LOVE RACE (Sped Up) (LOVE RACE (Sped Up))",
+              "video_id": "PHEfaG12hbs",
+              "youtube_views": 5466
+            }
+          ]
+        },
+        {
+          "title": "LOVE RACE (Challenge)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "LOVE RACE (Challenge) (LOVE RACE (Challenge))",
+              "video_id": "Q7c7vuvirNY",
+              "youtube_views": 4819
+            }
+          ]
+        },
+        {
+          "title": "LOVE RACE (Intro)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "LOVE RACE (Intro) (LOVE RACE (Intro))",
+              "video_id": "7dKVu7uR1tM",
+              "youtube_views": 6187
+            }
+          ]
+        },
+        {
+          "title": "D.W.B.H",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Dont Worry, Be Happy (Japanese ver.)",
+              "video_id": "WJbbWrjpM3Y",
+              "youtube_views": 60393
+            },
+            {
+              "title": "Cruel Love (feat. JAE YOON)",
+              "video_id": "P2mg2QNeD9Q",
+              "youtube_views": 18023
+            },
+            {
+              "title": "Just (feat. JAE YOON)",
+              "video_id": "EofHRpKt6rE",
+              "youtube_views": 13602
+            },
+            {
+              "title": "My Fantasia (feat. JAE YOON)",
+              "video_id": "ZrZxasCtXxc",
+              "youtube_views": 15718
+            },
+            {
+              "title": "Melodrama (feat. JAE YOON)",
+              "video_id": "k4JSgbk4otM",
+              "youtube_views": 14527
+            },
+            {
+              "title": "Don’t Worry, Be Happy (feat. JAE YOON)",
+              "video_id": "MzFymDbWWcE",
+              "youtube_views": 15707
+            }
+          ]
+        },
+        {
+          "title": "FANTASY",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Don’t Worry, Be Happy (Don’t Worry, Be Happy)",
+              "video_id": "BEtLpKOz5Bc",
+              "youtube_views": 585447
+            },
+            {
+              "title": "Cruel Love (Cruel Love)",
+              "video_id": "nvPT9J4NhaY",
+              "youtube_views": 161705
+            },
+            {
+              "title": "Just (그냥 (Just))",
+              "video_id": "W9089kcgRbI",
+              "youtube_views": 165832
+            },
+            {
+              "title": "My Fantasia (My Fantasia)",
+              "video_id": "wQv81MhuVkI",
+              "youtube_views": 166087
+            },
+            {
+              "title": "Melodrama (Melodrama)",
+              "video_id": "HNNzptwAjlw",
+              "youtube_views": 218823
+            }
+          ]
+        },
+        {
+          "title": "Sequence",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "BIBORA (비보라 (BIBORA))",
+              "video_id": "fP3U6mq5L3I",
+              "youtube_views": 1730179
+            },
+            {
+              "title": "Midnight Sun (Midnight Sun)",
+              "video_id": "LC7I9cLC6go",
+              "youtube_views": 304253
+            },
+            {
+              "title": "Domino (Domino)",
+              "video_id": "a1rX4cHypK4",
+              "youtube_views": 199626
+            },
+            {
+              "title": "Strings (Strings)",
+              "video_id": "5RusN30DBas",
+              "youtube_views": 199695
+            },
+            {
+              "title": "Morning Coffee (Morning Coffee)",
+              "video_id": "tyBg1j-IrCo",
+              "youtube_views": 315992
+            },
+            {
+              "title": "Superconductor (Superconductor)",
+              "video_id": "mWqTouYJkho",
+              "youtube_views": 167159
+            }
+          ]
+        },
+        {
+          "title": "Star Struck (Original Television Soundtrack, Pt. 1)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Question Mark",
+              "video_id": "0iEVQb2cb4Y",
+              "youtube_views": 173051
+            },
+            {
+              "title": "Question Mark (Instrumental)",
+              "video_id": "gacuUe6Q--s",
+              "youtube_views": 4017
+            }
+          ]
+        },
+        {
+          "title": "THE PIECE OF9",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Puzzle (Puzzle)",
+              "video_id": "gEURn-6zyKc",
+              "youtube_views": 1538935
+            },
+            {
+              "title": "Love Colour (Love Colour)",
+              "video_id": "PIF5h4NmHLs",
+              "youtube_views": 339912
+            },
+            {
+              "title": "New World (New World)",
+              "video_id": "vCOevSkT3hs",
+              "youtube_views": 188415
+            },
+            {
+              "title": "Fighter (Fighter)",
+              "video_id": "71z8MueHxPM",
+              "youtube_views": 274067
+            },
+            {
+              "title": "Tight (꽉 (Tight))",
+              "video_id": "0ABJTLp5VxI",
+              "youtube_views": 220872
+            },
+            {
+              "title": "Stay with me (Stay with me)",
+              "video_id": "6M8dKcIRSfM",
+              "youtube_views": 289924
+            }
+          ]
+        },
+        {
+          "title": "THE WAVE OF9",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "SCREAM (SCREAM)",
+              "video_id": "GPsDcr4Zsio",
+              "youtube_views": 805222
+            },
+            {
+              "title": "OK OK (OK OK)",
+              "video_id": "sXPurr675Ds",
+              "youtube_views": 383779
+            },
+            {
+              "title": "Summertime Bounce (Don’t Kill My Vibe) (Summertime Bounce (Don’t Kill My Vibe))",
+              "video_id": "-TjdGYW5heo",
+              "youtube_views": 383001
+            },
+            {
+              "title": "Driver (Driver)",
+              "video_id": "zat4mZjyXuw",
+              "youtube_views": 340218
+            },
+            {
+              "title": "Crazy Crazy Love (Crazy Crazy Love)",
+              "video_id": "jgOEqWt0Nes",
+              "youtube_views": 301540
+            },
+            {
+              "title": "Butterfly (Butterfly)",
+              "video_id": "4N217cPaJA8",
+              "youtube_views": 176387
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

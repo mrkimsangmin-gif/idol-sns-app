@@ -351,5 +351,360 @@
       "누적_써클": "120,0**",
       "비고": "Full Metal Jacket"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 83951,
+      "spotify_id": "4e2umhzNHTSeQnSCWPN0uT",
+      "top_tracks": [
+        {
+          "title": "Sunshower",
+          "play_count": 3991731,
+          "uri": "spotify:track:3fcDHjyxOQoGV4UuMdagu0"
+        },
+        {
+          "title": "Youth2Youth",
+          "play_count": 2197679,
+          "uri": "spotify:track:4jxftDEbX3u20EROtLpKyf"
+        },
+        {
+          "title": "UNIVERSE",
+          "play_count": 1131071,
+          "uri": "spotify:track:4Ev0sWpZm6mAGSed0MEgNB"
+        },
+        {
+          "title": "Do 4 Me",
+          "play_count": 4104463,
+          "uri": "spotify:track:3T8rgnYVr3k4KxtEeP0H2o"
+        },
+        {
+          "title": "Anthem of Teen Spirit",
+          "play_count": 3369563,
+          "uri": "spotify:track:3NWxwoXlvgtTd3fNHuX2Vv"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 12150522,
+      "track_count": 47,
+      "mean_views": 258521,
+      "max_views": 2301245,
+      "albums": [
+        {
+          "title": "EPEX 3rd Album Youth Chapter 3 : ROMANTIC YOUTH (EPEX 3rd Album 소화(韶華) 3장 : 낭만 청춘)",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Waffle (아무 일도 없었다)",
+              "video_id": "AFb7tnOHNLw",
+              "youtube_views": 88997
+            },
+            {
+              "title": "Bang (낭만 터지는)",
+              "video_id": "-TNlTFCE3XA",
+              "youtube_views": 41666
+            },
+            {
+              "title": "Picasso (피카소)",
+              "video_id": "4EP1Q8NX_S8",
+              "youtube_views": 7657
+            },
+            {
+              "title": "Grateful to Tears (눈물나게 고마워)",
+              "video_id": "r34C_OBnMIQ",
+              "youtube_views": 380110
+            },
+            {
+              "title": "Dances with Wolves (늑대와 춤을)",
+              "video_id": "vINLWZitp-Y",
+              "youtube_views": 90250
+            },
+            {
+              "title": "Morning to midnight (별 헤는 밤)",
+              "video_id": "7uvboMnCKig",
+              "youtube_views": 107146
+            },
+            {
+              "title": "Whale fall (고래낙하)",
+              "video_id": "mM1FCRnPJvY",
+              "youtube_views": 209932
+            },
+            {
+              "title": "Pluto (플루토)",
+              "video_id": "q9MSDfoLAi8",
+              "youtube_views": 47103
+            }
+          ]
+        },
+        {
+          "title": "EPEX 2nd Album Youth Chapter 2 : YOUTH DEFICIENCY (EPEX 2nd Album 소화(韶華) 2장 : 청춘 결핍)",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "UNIVERSE (UNIVERSE)",
+              "video_id": "mG3w8Wig7eM",
+              "youtube_views": 464357
+            },
+            {
+              "title": "My Girl (My Girl)",
+              "video_id": "xxZXSfaaTbY",
+              "youtube_views": 21989
+            },
+            {
+              "title": "1997 (낭만소녀)",
+              "video_id": "oYJQHXR2QL8",
+              "youtube_views": 89849
+            },
+            {
+              "title": "It is what it is (It is what it is)",
+              "video_id": "S2JFW8wUhb0",
+              "youtube_views": 130139
+            },
+            {
+              "title": "Attosecond (Attosecond)",
+              "video_id": "dcw8M1NwydY",
+              "youtube_views": 92619
+            },
+            {
+              "title": "Wonderful (경이로운 일상)",
+              "video_id": "TZBwXkqNegc",
+              "youtube_views": 141191
+            },
+            {
+              "title": "Closer (잃어버린 것들에 대하여)",
+              "video_id": "jE4Lu_a7bII",
+              "youtube_views": 253562
+            },
+            {
+              "title": "Loner (Loner)",
+              "video_id": "OZGbyJlUXZw",
+              "youtube_views": 83649
+            }
+          ]
+        },
+        {
+          "title": "EPEX 1st Album Youth Chapter 1 : YOUTH DAYS (EPEX 1st Album 소화(韶華) 1장 : 청춘 시절)",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "KILLSHOT (KILLSHOT)",
+              "video_id": "4rcdhOl4XAU",
+              "youtube_views": 90779
+            },
+            {
+              "title": "Breathe in Love (Breathe in Love)",
+              "video_id": "SZFUm8RQuQ8",
+              "youtube_views": 295826
+            },
+            {
+              "title": "Painkiller (Painkiller)",
+              "video_id": "3639azstwC8",
+              "youtube_views": 199825
+            },
+            {
+              "title": "Youth2Youth (청춘에게)",
+              "video_id": "6opfSEu4y2c",
+              "youtube_views": 772850
+            },
+            {
+              "title": "Dominate (Dominate)",
+              "video_id": "wDHJY8sQzN4",
+              "youtube_views": 105334
+            },
+            {
+              "title": "Lay Up (Lay Up)",
+              "video_id": "sQ1eqUJ_CwM",
+              "youtube_views": 58874
+            },
+            {
+              "title": "My Secret (말할 수 있는 비밀)",
+              "video_id": "CkYkA-F2tYY",
+              "youtube_views": 154015
+            },
+            {
+              "title": "Graduation Day (졸업식)",
+              "video_id": "3zbjjUCzR6s",
+              "youtube_views": 23328
+            }
+          ]
+        },
+        {
+          "title": "FOOL (눈물나게 고마워) [Eng Ver.]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "FOOL (눈물나게 고마워) [Eng Ver.] (FOOL (눈물나게 고마워) [Eng Ver.])",
+              "video_id": "qq5O33MMSGA",
+              "youtube_views": 44796
+            }
+          ]
+        },
+        {
+          "title": "Picasso",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Picasso (피카소)",
+              "video_id": "b2T4SH7MqnY",
+              "youtube_views": 57471
+            }
+          ]
+        },
+        {
+          "title": "EPEX & joan 1st Digital Single ‘so nice’",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "so nice (so nice)",
+              "video_id": "tz6oVuLz9Qk",
+              "youtube_views": 91686
+            }
+          ]
+        },
+        {
+          "title": "My Girl",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "My Girl (My Girl)",
+              "video_id": "3PLcY9LhsDg",
+              "youtube_views": 194670
+            }
+          ]
+        },
+        {
+          "title": "Graduation Day (졸업식)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Graduation Day (졸업식)",
+              "video_id": "IeakqQut1XQ",
+              "youtube_views": 294246
+            }
+          ]
+        },
+        {
+          "title": "EPEX 6th EP Album Prelude of Anxiety Chapter 2. ‘Can We Surrender?’ (EPEX 6th EP Album 불안의 서 챕터 2. ‘Can We Surrender?’)",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Surrender (Surrender)",
+              "video_id": "Oqi2pUzYDOc",
+              "youtube_views": 237514
+            },
+            {
+              "title": "FULL METAL JACKET (FULL METAL JACKET)",
+              "video_id": "8y2RbdslYwQ",
+              "youtube_views": 245789
+            },
+            {
+              "title": "Hit The Wall (Hit The Wall)",
+              "video_id": "WYL6w-oXczg",
+              "youtube_views": 122862
+            },
+            {
+              "title": "No Roof (No Roof)",
+              "video_id": "eIzYpEtHJPg",
+              "youtube_views": 87045
+            }
+          ]
+        },
+        {
+          "title": "K-909 : Baby good night",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Baby good night",
+              "video_id": "2p6qgow8Ko8",
+              "youtube_views": 60322
+            }
+          ]
+        },
+        {
+          "title": "EPEX 5th EP Album Prelude of Love Chapter 2. 'Growing Pains' (EPEX 5th EP Album 사랑의 서 챕터 2. '성장통')",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "My Darling (사랑하는 내 님아)",
+              "video_id": "sS551-_N0e0",
+              "youtube_views": 250764
+            },
+            {
+              "title": "Sunshower (여우가 시집가는 날)",
+              "video_id": "f2rhrgFh6NY",
+              "youtube_views": 2301245
+            },
+            {
+              "title": "Goodbye, My First Love (안녕, 나의 첫사랑)",
+              "video_id": "9EiIQH6X5AQ",
+              "youtube_views": 743714
+            },
+            {
+              "title": "SKYLINE (꿈의 능선(SKYLINE))",
+              "video_id": "tL2jE3ut4XY",
+              "youtube_views": 174846
+            }
+          ]
+        },
+        {
+          "title": "EPEX 4th EP Album Prelude of Love Chapter 1. ‘Puppy Love’",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "First Love′s Law",
+              "video_id": "q27hs9DsaBU",
+              "youtube_views": 286271
+            },
+            {
+              "title": "Love Bomb",
+              "video_id": "L1IjBkLfzZo",
+              "youtube_views": 234129
+            },
+            {
+              "title": "Hymn to Love",
+              "video_id": "0B8YtjCyJcs",
+              "youtube_views": 725660
+            },
+            {
+              "title": "The Vow",
+              "video_id": "o-h9KIhYWPc",
+              "youtube_views": 220725
+            }
+          ]
+        },
+        {
+          "title": "3rd EP Album Prelude of Anxiety Chapter 1. ‘21st Century Boys’",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Lone Wolf",
+              "video_id": "QC-TBrEYh10",
+              "youtube_views": 207203
+            },
+            {
+              "title": "Anthem of Teen Spirit",
+              "video_id": "GNF1bW9lQDU",
+              "youtube_views": 748772
+            },
+            {
+              "title": "Burnout",
+              "video_id": "4cChsJoXeAs",
+              "youtube_views": 327735
+            },
+            {
+              "title": "STRIKE",
+              "video_id": "onkxypxObCw",
+              "youtube_views": 251463
+            },
+            {
+              "title": "I′ll go first",
+              "video_id": "-S5l9XoVrXk",
+              "youtube_views": 290547
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

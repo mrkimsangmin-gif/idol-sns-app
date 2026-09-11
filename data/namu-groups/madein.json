@@ -177,5 +177,380 @@
       "누적_써클": "",
       "비고": "안 봐도 비디오"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 83456,
+      "spotify_id": "5Sso2rRE8bs9Ff6bkfqUKe",
+      "top_tracks": [
+        {
+          "title": "Super Obvious",
+          "play_count": 174230,
+          "uri": "spotify:track:077jEiOrEal1E7iGANgexy"
+        },
+        {
+          "title": "UNO",
+          "play_count": 3854402,
+          "uri": "spotify:track:4gB2g4D9WB1L60901tJX2f"
+        },
+        {
+          "title": "PUNG!",
+          "play_count": 69942,
+          "uri": "spotify:track:3f5DP1avcKCiDOkJq40Vqf"
+        },
+        {
+          "title": "LOVE, AFRAID",
+          "play_count": 1140867,
+          "uri": "spotify:track:1pLMNDbYPRpYy1C5vtl3ke"
+        },
+        {
+          "title": "SATURN",
+          "play_count": 408816,
+          "uri": "spotify:track:74ylcg32sIFfh8QgL7fW0A"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 11169725,
+      "track_count": 57,
+      "mean_views": 195960,
+      "max_views": 1878810,
+      "albums": [
+        {
+          "title": "LAST DANCE",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Baby, Maybe Crazy",
+              "video_id": "PrcYNraWrIw",
+              "youtube_views": 189537
+            },
+            {
+              "title": "TA-DA!",
+              "video_id": "W8220LISWHw",
+              "youtube_views": 662249
+            },
+            {
+              "title": "IF U KNOW U KNOW (SUHYE Solo)",
+              "video_id": "C7QDKUiXIKs",
+              "youtube_views": 154759
+            },
+            {
+              "title": "TWENTY TWENTY (MiU Solo) (Korean Version)",
+              "video_id": "7zEdIDOo98A",
+              "youtube_views": 261385
+            },
+            {
+              "title": "TWENTY TWENTY (MiU Solo) (Japanese Version)",
+              "video_id": "Sk6zCZ39mzc",
+              "youtube_views": 47013
+            },
+            {
+              "title": "IF U KNOW U KNOW (SUHYE Solo) (GUITAR)",
+              "video_id": "64NYcrSoQwU",
+              "youtube_views": 91716
+            },
+            {
+              "title": "TWENTY TWENTY (MiU Solo) (Korean Version) (E.PIANO)",
+              "video_id": "LYE7jhgNsZE",
+              "youtube_views": 40669
+            },
+            {
+              "title": "Baby, Maybe Crazy (Accapella)",
+              "video_id": "qkHGpSlArQA",
+              "youtube_views": 6710
+            },
+            {
+              "title": "TA-DA! (Accapella)",
+              "video_id": "tItDr3WW1iw",
+              "youtube_views": 7624
+            },
+            {
+              "title": "IF U KNOW U KNOW (SUHYE Solo) (Accapella)",
+              "video_id": "ARPpHjKUxdY",
+              "youtube_views": 5372
+            },
+            {
+              "title": "TWENTY TWENTY (MiU Solo) (Korean Version) (Accapella)",
+              "video_id": "DciqbAmLaBQ",
+              "youtube_views": 5345
+            },
+            {
+              "title": "TWENTY TWENTY (MiU Solo) (Japanese Version) (Accapella)",
+              "video_id": "caLqQfHySFM",
+              "youtube_views": 2905
+            },
+            {
+              "title": "Baby, Maybe Crazy (Instrumental)",
+              "video_id": "spivwaK1kgw",
+              "youtube_views": 3148
+            },
+            {
+              "title": "TA-DA! (Instrumental)",
+              "video_id": "Q_VbM5netS0",
+              "youtube_views": 3376
+            },
+            {
+              "title": "IF U KNOW U KNOW (Instrumental)",
+              "video_id": "_X7bAomfc3M",
+              "youtube_views": 2938
+            },
+            {
+              "title": "TWENTY TWENTY (Instrumental)",
+              "video_id": "I472YgktcmE",
+              "youtube_views": 2580
+            },
+            {
+              "title": "IF U KNOW U KNOW (GUITAR Instrumental)",
+              "video_id": "whSnHMeqJv4",
+              "youtube_views": 1843
+            },
+            {
+              "title": "TWENTY TWENTY (E.PIANO Instrumental)",
+              "video_id": "N1tgEKxhKYM",
+              "youtube_views": 2115
+            }
+          ]
+        },
+        {
+          "title": "LIMELIGHT",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "StarLight",
+              "video_id": "VY8d7I2AKYk",
+              "youtube_views": 900899
+            },
+            {
+              "title": "Eye To Eye",
+              "video_id": "9roq94Qe524",
+              "youtube_views": 782077
+            },
+            {
+              "title": "Paradise",
+              "video_id": "ibZN5nbuAXI",
+              "youtube_views": 239560
+            },
+            {
+              "title": "Cha Cha",
+              "video_id": "-9BUlQG77ig",
+              "youtube_views": 135778
+            },
+            {
+              "title": "StarLight (Acca.)",
+              "video_id": "Z_p5Kuc5BuU",
+              "youtube_views": 47133
+            },
+            {
+              "title": "Eye To Eye (Acca.)",
+              "video_id": "2HhikQuQm38",
+              "youtube_views": 16420
+            },
+            {
+              "title": "StarLight (Inst.)",
+              "video_id": "iWvPbytEtO4",
+              "youtube_views": 11945
+            },
+            {
+              "title": "Eye To Eye (Inst.)",
+              "video_id": "KbdWkrlVxNw",
+              "youtube_views": 9566
+            }
+          ]
+        },
+        {
+          "title": "Girl Meets Boy",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Super Obvious",
+              "video_id": "XDVfwsDyrMs",
+              "youtube_views": 160353
+            },
+            {
+              "title": "PUNG!",
+              "video_id": "UgWPwk80xns",
+              "youtube_views": 134449
+            },
+            {
+              "title": "Super Obvious (Acca.)",
+              "video_id": "BWgi-DcGfQQ",
+              "youtube_views": 8854
+            },
+            {
+              "title": "PUNG! (Acca.)",
+              "video_id": "hxZ4eVB1sVA",
+              "youtube_views": 3426
+            },
+            {
+              "title": "Super Obvious (Instrumental)",
+              "video_id": "EYq2LiSwrG0",
+              "youtube_views": 2007
+            },
+            {
+              "title": "PUNG! (Instrumental)",
+              "video_id": "-gzAWjsgnrA",
+              "youtube_views": 1339
+            }
+          ]
+        },
+        {
+          "title": "MADEIN FOREVER",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SATURN",
+              "video_id": "xNIC-mVOBhA",
+              "youtube_views": 17961
+            },
+            {
+              "title": "LOVE, AFRAID",
+              "video_id": "6Zx9Nu7sDPw",
+              "youtube_views": 694022
+            },
+            {
+              "title": "SATURN (Accapella)",
+              "video_id": "pEACsOnJZAc",
+              "youtube_views": 7208
+            },
+            {
+              "title": "LOVE, AFRAID (Accapella)",
+              "video_id": "kakx36XMj2I",
+              "youtube_views": 10713
+            },
+            {
+              "title": "SATURN (Instrumental)",
+              "video_id": "uDLJ58SzZKo",
+              "youtube_views": 2673
+            },
+            {
+              "title": "LOVE, AFRAID (Instrumental)",
+              "video_id": "CaLyx6H_gik",
+              "youtube_views": 6499
+            }
+          ]
+        },
+        {
+          "title": "SATURN",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SATURN",
+              "video_id": "2wQVfL-1XYM",
+              "youtube_views": 182773
+            },
+            {
+              "title": "SATURN (Accapella)",
+              "video_id": "2ciOHj_MCtE",
+              "youtube_views": 9243
+            },
+            {
+              "title": "SATURN (Instrumental)",
+              "video_id": "qrWGnT5Pb9o",
+              "youtube_views": 3294
+            }
+          ]
+        },
+        {
+          "title": "RISE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "UNO",
+              "video_id": "0mK5E1ss_1w",
+              "youtube_views": 1878810
+            },
+            {
+              "title": "DADARIDA",
+              "video_id": "EB7GLTMBTfc",
+              "youtube_views": 464664
+            },
+            {
+              "title": "DOPAMINE",
+              "video_id": "zScMpfoUshs",
+              "youtube_views": 271432
+            },
+            {
+              "title": "TIMELINE",
+              "video_id": "-P6gl3fK6H8",
+              "youtube_views": 92162
+            }
+          ]
+        },
+        {
+          "title": "MADELEINE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "MADELEINE",
+              "video_id": "Vq1n_sLt5bU",
+              "youtube_views": 875901
+            },
+            {
+              "title": "MADELEINE (Instrumental)",
+              "video_id": "Ql3p9W4ATAM",
+              "youtube_views": 11988
+            },
+            {
+              "title": "MADELEINE (Accapella)",
+              "video_id": "LOfcr41r1Ug",
+              "youtube_views": 13006
+            }
+          ]
+        },
+        {
+          "title": "LIMELIGHT DEBUT EP 'LOVE & HAPPINESS'",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Honestly",
+              "video_id": "j9kdCnOG06k",
+              "youtube_views": 1841461
+            },
+            {
+              "title": "Blanc Noir",
+              "video_id": "AazufhriBiQ",
+              "youtube_views": 341539
+            },
+            {
+              "title": "Crystal",
+              "video_id": "tyeQdBKAbHI",
+              "youtube_views": 410321
+            },
+            {
+              "title": "Honestly (Inst.)",
+              "video_id": "IDYLqDvjmVQ",
+              "youtube_views": 16094
+            },
+            {
+              "title": "Blanc Noir (Inst.)",
+              "video_id": "Cl8Y2J6wU-U",
+              "youtube_views": 9156
+            },
+            {
+              "title": "Crystal (Inst.)",
+              "video_id": "NqrlWQSmeR0",
+              "youtube_views": 4261
+            },
+            {
+              "title": "Honestly (Acca.)",
+              "video_id": "UI-p3_3EKOY",
+              "youtube_views": 48552
+            },
+            {
+              "title": "Blanc Noir (Acca.)",
+              "video_id": "keV97DA9U3A",
+              "youtube_views": 5384
+            },
+            {
+              "title": "Crystal (Acca.)",
+              "video_id": "ivYj__Px3ow",
+              "youtube_views": 5518
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

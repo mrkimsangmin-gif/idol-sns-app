@@ -468,5 +468,328 @@
       "누적_써클": "-",
       "비고": "Caution"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 4018133,
+      "spotify_id": "28ot3wh4oNmoFOdVajibBl",
+      "top_tracks": [
+        {
+          "title": "Blue Valentine",
+          "play_count": 45894329,
+          "uri": "spotify:track:0FKR7mQJnYqdEmHAMhgQjw"
+        },
+        {
+          "title": "TIC TIC (feat. Pabllo Vittar)",
+          "play_count": 3672195,
+          "uri": "spotify:track:3LI7emieOkgFz1qbVcKR7m"
+        },
+        {
+          "title": "Love Me Like This",
+          "play_count": 146894732,
+          "uri": "spotify:track:2W8UduoifU1zgjKZlfY79S"
+        },
+        {
+          "title": "KNOW ABOUT ME",
+          "play_count": 37542262,
+          "uri": "spotify:track:719MkAinn7QVNoibvtkSHW"
+        },
+        {
+          "title": "DICE",
+          "play_count": 201450672,
+          "uri": "spotify:track:6C734SmqoIYuRWo2qSCnpC"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 288283032,
+      "track_count": 43,
+      "mean_views": 6704256,
+      "max_views": 61906621,
+      "albums": [
+        {
+          "title": "Blue Valentine",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Blue Valentine",
+              "video_id": "TLftyCObb_E",
+              "youtube_views": 60673043
+            },
+            {
+              "title": "SPINNIN′ ON IT",
+              "video_id": "s8FczLzzdCw",
+              "youtube_views": 8671731
+            },
+            {
+              "title": "Phoenix",
+              "video_id": "-2rDU3uTLOo",
+              "youtube_views": 2546515
+            },
+            {
+              "title": "Reality Hurts",
+              "video_id": "SKr-P_BBPaI",
+              "youtube_views": 1798312
+            },
+            {
+              "title": "RICO",
+              "video_id": "p9SZKIXzEMM",
+              "youtube_views": 1525112
+            },
+            {
+              "title": "Game Face",
+              "video_id": "dlbHC91DSSo",
+              "youtube_views": 2013545
+            },
+            {
+              "title": "PODIUM",
+              "video_id": "nnhccW-RHFg",
+              "youtube_views": 2904719
+            },
+            {
+              "title": "Crush On You",
+              "video_id": "AUAKspCh7XM",
+              "youtube_views": 2754562
+            },
+            {
+              "title": "ADORE U",
+              "video_id": "qEtlEiPsnvM",
+              "youtube_views": 2389401
+            },
+            {
+              "title": "Shape of Love",
+              "video_id": "27sJqXZM8iI",
+              "youtube_views": 3058923
+            },
+            {
+              "title": "O.O Part 1 (Baila)",
+              "video_id": "CQfxT3dmkaA",
+              "youtube_views": 1907565
+            },
+            {
+              "title": "O.O Part 2 (Superhero)",
+              "video_id": "PLblcSm_4y8",
+              "youtube_views": 2238938
+            }
+          ]
+        },
+        {
+          "title": "Fe3O4: BREAK",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "DASH",
+              "video_id": "lgvM9exghpY",
+              "youtube_views": 61906621
+            },
+            {
+              "title": "Soñar (Breaker)",
+              "video_id": "QfrxX7yv97k",
+              "youtube_views": 1011319
+            },
+            {
+              "title": "Run For Roses",
+              "video_id": "k81ic6eN6nk",
+              "youtube_views": 14927623
+            },
+            {
+              "title": "BOOM",
+              "video_id": "QQjLJ8MjZMc",
+              "youtube_views": 4591532
+            },
+            {
+              "title": "Passionfruit",
+              "video_id": "HNysLymztDs",
+              "youtube_views": 3655102
+            },
+            {
+              "title": "XOXO",
+              "video_id": "85-YwUU2QDk",
+              "youtube_views": 2260622
+            },
+            {
+              "title": "Break The Wall",
+              "video_id": "hicXm2GONcA",
+              "youtube_views": 4075659
+            }
+          ]
+        },
+        {
+          "title": "TIC TIC (feat. Pabllo Vittar)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "TIC TIC (feat. Pabllo Vittar)",
+              "video_id": "VF5KiYpH-Pg",
+              "youtube_views": 2720969
+            }
+          ]
+        },
+        {
+          "title": "Blue Valentine (MIXX Ver.)",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Blue Valentine",
+              "video_id": "dqztVqD3fz8",
+              "youtube_views": 411375
+            },
+            {
+              "title": "Blue Valentine (English Ver.)",
+              "video_id": "4p22W2KaIIw",
+              "youtube_views": 1504459
+            },
+            {
+              "title": "Blue Valentine (A Cappella Ver.)",
+              "video_id": "vAaO70QaPm0",
+              "youtube_views": 2212210
+            },
+            {
+              "title": "Blue Valentine (Sped Up Ver.)",
+              "video_id": "NnEdG45q5ag",
+              "youtube_views": 192041
+            },
+            {
+              "title": "Blue Valentine (Inst.)",
+              "video_id": "Xgh5D1STVJM",
+              "youtube_views": 194281
+            }
+          ]
+        },
+        {
+          "title": "MEXE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "MEXE",
+              "video_id": "hvU0l6kqPeE",
+              "youtube_views": 2885965
+            }
+          ]
+        },
+        {
+          "title": "Fe3O4: FORWARD",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "High Horse",
+              "video_id": "SvWV-9r-Lkw",
+              "youtube_views": 969616
+            },
+            {
+              "title": "KNOW ABOUT ME",
+              "video_id": "ewJBkYws3AA",
+              "youtube_views": 18263137
+            },
+            {
+              "title": "Slingshot (＜★)",
+              "video_id": "lvy95Y1Bo-M",
+              "youtube_views": 1655082
+            },
+            {
+              "title": "Golden Recipe",
+              "video_id": "IsyxQfVKL18",
+              "youtube_views": 1572257
+            },
+            {
+              "title": "Papillon",
+              "video_id": "BNvTxSZzc5A",
+              "youtube_views": 4023765
+            },
+            {
+              "title": "Ocean",
+              "video_id": "gZrd_qNEghU",
+              "youtube_views": 3893362
+            }
+          ]
+        },
+        {
+          "title": "High Horse",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "High Horse",
+              "video_id": "dixyMxnPuoA",
+              "youtube_views": 5149947
+            }
+          ]
+        },
+        {
+          "title": "Soñar (Spanish Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Soñar (Spanish Ver.)",
+              "video_id": "8SFD1biEYQU",
+              "youtube_views": 1262316
+            }
+          ]
+        },
+        {
+          "title": "Come On",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Come On",
+              "video_id": "2JN_yPzBANE",
+              "youtube_views": 97924
+            }
+          ]
+        },
+        {
+          "title": "Fe3O4: STICK OUT",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "별별별 (See that?)",
+              "video_id": "cWN7SD7kX5k",
+              "youtube_views": 38178883
+            },
+            {
+              "title": "SICKUHH",
+              "video_id": "KQ8EqBKgmVg",
+              "youtube_views": 2944754
+            },
+            {
+              "title": "Red light sign, but we go",
+              "video_id": "ddTDU3Glwdc",
+              "youtube_views": 1817869
+            },
+            {
+              "title": "BEAT BEAT",
+              "video_id": "tFjrC65PsUI",
+              "youtube_views": 4061943
+            },
+            {
+              "title": "Moving On",
+              "video_id": "jjI5vJ0oVqs",
+              "youtube_views": 3023554
+            },
+            {
+              "title": "Love Is Lonely",
+              "video_id": "VV0ocN0U_vU",
+              "youtube_views": 6262284
+            }
+          ]
+        },
+        {
+          "title": "FEIFEI",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "FEIFEI",
+              "video_id": "nEkU2fKfGaU",
+              "youtube_views": 71601
+            },
+            {
+              "title": "FEIFEI Instrumental",
+              "video_id": "3cCEP6FOFaU",
+              "youtube_views": 2594
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

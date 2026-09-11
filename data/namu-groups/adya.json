@@ -135,5 +135,177 @@
       "누적_써클": "-",
       "비고": "이사장님은 9등급 OST Part.2"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 5761,
+      "spotify_id": "4J4tJMuTHFBLuNE93GGvDW",
+      "top_tracks": [
+        {
+          "title": "RIZZ",
+          "play_count": 427036,
+          "uri": "spotify:track:5SpQxEL0mJV5r5hS1a5G3J"
+        },
+        {
+          "title": "Per",
+          "play_count": 686122,
+          "uri": "spotify:track:1Kp9qkgGOB0nXrXdsW6w8o"
+        },
+        {
+          "title": "What′s Up?",
+          "play_count": 196604,
+          "uri": "spotify:track:17rwCD4xLq55Dvzx6aSqrp"
+        },
+        {
+          "title": "A Dazzling Day",
+          "play_count": 30104,
+          "uri": "spotify:track:0HT86KNg9iFbjkcuhlyrdk"
+        },
+        {
+          "title": "RIZZ - Instrumental",
+          "play_count": 20905,
+          "uri": "spotify:track:083eLY2f04Vsy7uGY2AXcX"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 818929,
+      "track_count": 20,
+      "mean_views": 40946,
+      "max_views": 544649,
+      "albums": [
+        {
+          "title": "The Chairman is level 9 (Original Web Drama Soundtrack)",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Only You",
+              "video_id": "Qa6y-u19-CI",
+              "youtube_views": 3739
+            },
+            {
+              "title": "A Dazzling Day",
+              "video_id": "ytn5p4zrKDs",
+              "youtube_views": 1537
+            },
+            {
+              "title": "Repeating on you",
+              "video_id": "Pdj77_q6vtg",
+              "youtube_views": 5197
+            },
+            {
+              "title": "The Chairman is Level 9",
+              "video_id": "O1ds70eKcAc",
+              "youtube_views": 625
+            },
+            {
+              "title": "PIT-A-PAT",
+              "video_id": "G_M19BXD-5I",
+              "youtube_views": 362
+            },
+            {
+              "title": "Quiz Show",
+              "video_id": "UbljF2-lAYA",
+              "youtube_views": 280
+            },
+            {
+              "title": "It’s Me, Pi Deukjin",
+              "video_id": "GSAkzJ8Vxr8",
+              "youtube_views": 229
+            },
+            {
+              "title": "Isu VS Rowoon",
+              "video_id": "TPKTJWvVLzo",
+              "youtube_views": 286
+            },
+            {
+              "title": "Save Me",
+              "video_id": "8TmtXfKKz5U",
+              "youtube_views": 249
+            },
+            {
+              "title": "Shush!",
+              "video_id": "Bt_xp2R_Tnw",
+              "youtube_views": 186
+            },
+            {
+              "title": "My Goofy Friend",
+              "video_id": "4RDMGu40-6U",
+              "youtube_views": 165
+            },
+            {
+              "title": "The Death of Teacher Yoo",
+              "video_id": "hPlavlRmCqE",
+              "youtube_views": 146
+            },
+            {
+              "title": "A Showdown with the Baddies",
+              "video_id": "u1WGbzW8OqU",
+              "youtube_views": 183
+            }
+          ]
+        },
+        {
+          "title": "RIZZ",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "RIZZ",
+              "video_id": "3PjNQOwU64Q",
+              "youtube_views": 140167
+            },
+            {
+              "title": "RIZZ (Instrumental)",
+              "video_id": "lTsDbrqgFUE",
+              "youtube_views": 10723
+            }
+          ]
+        },
+        {
+          "title": "The Chairman is level 9 (Original Web Drama Soundtrack), Pt. 2",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "A Dazzling Day",
+              "video_id": "Xdtcy6IVK0E",
+              "youtube_views": 7994
+            },
+            {
+              "title": "A Dazzling Day (Instrumental)",
+              "video_id": "H6ya8AKMyxM",
+              "youtube_views": 451
+            }
+          ]
+        },
+        {
+          "title": "What's Up?",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "What′s Up?",
+              "video_id": "nWxPG19fztA",
+              "youtube_views": 96398
+            }
+          ]
+        },
+        {
+          "title": "ADYA",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Per",
+              "video_id": "0UVS2wTE3MY",
+              "youtube_views": 544649
+            },
+            {
+              "title": "Per (Instrumental)",
+              "video_id": "dj9qGBojNSU",
+              "youtube_views": 5363
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

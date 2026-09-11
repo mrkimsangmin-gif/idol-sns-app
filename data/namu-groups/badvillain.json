@@ -159,5 +159,101 @@
       "누적_써클": "-",
       "비고": "THRILLER"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 289447,
+      "spotify_id": "2Y7fY3aflbCTxp6h5hw0CV",
+      "top_tracks": [
+        {
+          "title": "BADVILLAIN",
+          "play_count": 21480545,
+          "uri": "spotify:track:6SW0HfLmyvZdVO4cWDQT45"
+        },
+        {
+          "title": "THRILLER",
+          "play_count": 1949812,
+          "uri": "spotify:track:6FVwbv7XgC7xR2FT5ISS4B"
+        },
+        {
+          "title": "ZOOM",
+          "play_count": 4553304,
+          "uri": "spotify:track:0qIs4x4LRxGPaA1lP4IS18"
+        },
+        {
+          "title": "HURRICANE",
+          "play_count": 5414667,
+          "uri": "spotify:track:5GCxvx3ZOj4zpFk2x1nDxR"
+        },
+        {
+          "title": "YAH HO (BADTITUDE)",
+          "play_count": 5231749,
+          "uri": "spotify:track:0dGPBiYrIFUFbcH0CaWaXj"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 8744870,
+      "track_count": 6,
+      "mean_views": 1457478,
+      "max_views": 4752430,
+      "albums": [
+        {
+          "title": "THRILLER",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "THRILLER",
+              "video_id": "Oo0Ndv2M7Pc",
+              "youtube_views": 1111612
+            }
+          ]
+        },
+        {
+          "title": "ZOOM",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ZOOM",
+              "video_id": "K9epM8eyFRE",
+              "youtube_views": 1298721
+            }
+          ]
+        },
+        {
+          "title": "HURRICANE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "HURRICANE",
+              "video_id": "YzVEFpNWscM",
+              "youtube_views": 777284
+            }
+          ]
+        },
+        {
+          "title": "OVERSTEP",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BADVILLAIN",
+              "video_id": "Cxib1mxwwsw",
+              "youtube_views": 4752430
+            },
+            {
+              "title": "YAH HO (BADTITUDE)",
+              "video_id": "TEXQDLX6_es",
+              "youtube_views": 521781
+            },
+            {
+              "title": "+82",
+              "video_id": "8KP4Bfu0HbU",
+              "youtube_views": 283042
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -105,5 +105,19 @@
       "누적_써클": "-",
       "비고": "타이틀곡: I.L.Y, Deja-Vu, Cupid-Dough"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2557,
+      "spotify_id": "1E9Grth4BtkGuX16ppAVyb",
+      "top_tracks": [
+        {
+          "title": "Voyage",
+          "play_count": 590776,
+          "uri": "spotify:track:2OEhXjr5QdfspwjBR85fDv"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

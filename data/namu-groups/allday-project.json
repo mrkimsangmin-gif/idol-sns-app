@@ -155,5 +155,148 @@
       "누적_써클": "-",
       "비고": "뮤직비디오"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 3000344,
+      "spotify_id": "4gEMn0YPOdotLOygnk0Ng2",
+      "top_tracks": [
+        {
+          "title": "LOOK AT ME",
+          "play_count": 19312042,
+          "uri": "spotify:track:41FzP8TjIK1aK4LTVY5TUy"
+        },
+        {
+          "title": "FAMOUS",
+          "play_count": 77220235,
+          "uri": "spotify:track:598bDTl82CSTSDnZG0XhGK"
+        },
+        {
+          "title": "ONE MORE TIME",
+          "play_count": 27569855,
+          "uri": "spotify:track:4eCan7Jb3q0xQ1FAELOtEz"
+        },
+        {
+          "title": "WHERE YOU AT",
+          "play_count": 8356018,
+          "uri": "spotify:track:6vfcaWsN8gBLpfpSCru0Co"
+        },
+        {
+          "title": "WICKED",
+          "play_count": 46386228,
+          "uri": "spotify:track:6zRZyfYNsvgl1y6H5mkR1x"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 110701015,
+      "track_count": 13,
+      "mean_views": 8515462,
+      "max_views": 56486027,
+      "albums": [
+        {
+          "title": "I DON'T BARGAIN",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "I DON'T BARGAIN",
+              "video_id": "y55WCDiIBSg",
+              "youtube_views": 581187
+            }
+          ]
+        },
+        {
+          "title": "ALLDAY PROJECT",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "ONE MORE TIME",
+              "video_id": "EPUrWIOj3I0",
+              "youtube_views": 3655509
+            },
+            {
+              "title": "LOOK AT ME ",
+              "video_id": "hFnA9p7mNjk",
+              "youtube_views": 2560018
+            },
+            {
+              "title": "YOU AND I ",
+              "video_id": "XMVRmI4M89A",
+              "youtube_views": 1338485
+            },
+            {
+              "title": "WHERE YOU AT",
+              "video_id": "PSQc2TkgAbE",
+              "youtube_views": 3393084
+            },
+            {
+              "title": "HOT",
+              "video_id": "SAHSY3RCnrQ",
+              "youtube_views": 317884
+            },
+            {
+              "title": "MEDUSA",
+              "video_id": "q0rY09VU4vY",
+              "youtube_views": 382355
+            }
+          ]
+        },
+        {
+          "title": "ONE MORE TIME",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ONE MORE TIME",
+              "video_id": "tGrZUfRADgs",
+              "youtube_views": 16623579
+            }
+          ]
+        },
+        {
+          "title": "FAMOUS (Sped Up)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "FAMOUS (Sped Up)",
+              "video_id": "r2dICIsbAAA",
+              "youtube_views": 439594
+            },
+            {
+              "title": "WICKED (Sped Up)",
+              "video_id": "urtqk9j0-VM",
+              "youtube_views": 235895
+            }
+          ]
+        },
+        {
+          "title": "FAMOUS",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "FAMOUS",
+              "video_id": "Yrz9I0B1GFM",
+              "youtube_views": 56486027
+            },
+            {
+              "title": "WICKED",
+              "video_id": "1Y-eLB7lHJA",
+              "youtube_views": 24658911
+            }
+          ]
+        },
+        {
+          "title": "WICKED (Diplo Remix)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "WICKED (Diplo Remix)",
+              "video_id": "BLNUiWBW_Q8",
+              "youtube_views": 28487
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

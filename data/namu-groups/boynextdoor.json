@@ -347,5 +347,426 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2444983,
+      "spotify_id": "4hnHLgMSOiqERWBL4jINP1",
+      "top_tracks": [
+        {
+          "title": "Hollywood Action",
+          "play_count": 25016488,
+          "uri": "spotify:track:4BtOh0Xwh3DHelPQ14MPVC"
+        },
+        {
+          "title": "IF I SAY, I LOVE YOU",
+          "play_count": 60573554,
+          "uri": "spotify:track:2NtidJuimmXzUsExfMYcvk"
+        },
+        {
+          "title": "Earth, Wind & Fire",
+          "play_count": 77608811,
+          "uri": "spotify:track:0Tq7v8YAmwdnAYBwyR1pZ4"
+        },
+        {
+          "title": "I Feel Good",
+          "play_count": 30117466,
+          "uri": "spotify:track:1klePVubVctBqhlKJvibil"
+        },
+        {
+          "title": "123-78",
+          "play_count": 24665724,
+          "uri": "spotify:track:4XLfRpryO7Qn0SXp1ARIfj"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 239368870,
+      "track_count": 59,
+      "mean_views": 4057099,
+      "max_views": 54858858,
+      "albums": [
+        {
+          "title": "No Genre",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "123-78",
+              "video_id": "u7uko6XB2nQ",
+              "youtube_views": 13165735
+            },
+            {
+              "title": "I Feel Good",
+              "video_id": "8te4rihuWpo",
+              "youtube_views": 8709340
+            },
+            {
+              "title": "Step By Step",
+              "video_id": "uXHUPf95_Kg",
+              "youtube_views": 3580092
+            },
+            {
+              "title": "장난쳐?",
+              "video_id": "XlrS93SzhCI",
+              "youtube_views": 3927511
+            },
+            {
+              "title": "Next Mistake",
+              "video_id": "PiaK5sgQSJM",
+              "youtube_views": 2450030
+            },
+            {
+              "title": "오늘만 I LOVE YOU",
+              "video_id": "fOEkTDsft0g",
+              "youtube_views": 767672
+            },
+            {
+              "title": "I Feel Good (English Ver.)",
+              "video_id": "u9ZcZCKMzkM",
+              "youtube_views": 719296
+            }
+          ]
+        },
+        {
+          "title": "19.99",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "부모님 관람불가",
+              "video_id": "iAN-oOhjOl8",
+              "youtube_views": 8827352
+            },
+            {
+              "title": "돌멩이",
+              "video_id": "SSiB_3GTCSA",
+              "youtube_views": 6337599
+            },
+            {
+              "title": "SKIT",
+              "video_id": "683TrG9cma0",
+              "youtube_views": 1009421
+            },
+            {
+              "title": "Nice Guy",
+              "video_id": "i_SlZ5vKuQk",
+              "youtube_views": 13361292
+            },
+            {
+              "title": "스물",
+              "video_id": "VaYTIFl_0vA",
+              "youtube_views": 3540383
+            },
+            {
+              "title": "Call Me",
+              "video_id": "LQsmTuYfCAw",
+              "youtube_views": 4033961
+            },
+            {
+              "title": "Nice Guy (English Ver.)",
+              "video_id": "IJdW-LWskxw",
+              "youtube_views": 706139
+            }
+          ]
+        },
+        {
+          "title": "HOW?",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "OUR",
+              "video_id": "7Rxr5LIWOZU",
+              "youtube_views": 7694999
+            },
+            {
+              "title": "Amnesia",
+              "video_id": "qJfaLYOEH5Y",
+              "youtube_views": 5443768
+            },
+            {
+              "title": "So let's go see the stars",
+              "video_id": "3kAbNPj7-aM",
+              "youtube_views": 10700090
+            },
+            {
+              "title": "Earth, Wind & Fire",
+              "video_id": "UyX9J3q8C40",
+              "youtube_views": 16482604
+            },
+            {
+              "title": "l i f e i s c o o l",
+              "video_id": "NoAwjF0S1Bo",
+              "youtube_views": 5511618
+            },
+            {
+              "title": "Dear. My Darling",
+              "video_id": "3Gqqmc7AWVE",
+              "youtube_views": 3926901
+            },
+            {
+              "title": "Earth, Wind & Fire (English Ver.)",
+              "video_id": "ga3So7XzbFY",
+              "youtube_views": 950844
+            }
+          ]
+        },
+        {
+          "title": "BOYNEXTDOOR TOUR ‘KNOCK ON Vol.1’ FINAL - LIVE",
+          "year": "2026",
+          "tracks": [
+            {
+              "title": "Nice Guy (Live Ver.)",
+              "video_id": "O1NOD57sI2g",
+              "youtube_views": 111738
+            },
+            {
+              "title": "Serenade (Live Ver.)",
+              "video_id": "_mjDpC18_s0",
+              "youtube_views": 154077
+            },
+            {
+              "title": "123-78 (Live Ver.)",
+              "video_id": "bvkT9A4OBUk",
+              "youtube_views": 119828
+            },
+            {
+              "title": "OUR (Live Ver.)",
+              "video_id": "6-inWTuGAq0",
+              "youtube_views": 90910
+            },
+            {
+              "title": "l i f e i s c o o l (Live Ver.)",
+              "video_id": "mCH8vSEU2x0",
+              "youtube_views": 95368
+            },
+            {
+              "title": "돌아버리겠다 (Live Ver.)",
+              "video_id": "Eh_67linZgI",
+              "youtube_views": 105329
+            },
+            {
+              "title": "One and Only (Live Ver.)",
+              "video_id": "mXLFJmfi0eg",
+              "youtube_views": 112564
+            },
+            {
+              "title": "Step By Step (Live Ver.)",
+              "video_id": "Sh9y0PqoACg",
+              "youtube_views": 78335
+            },
+            {
+              "title": "오늘만 I LOVE YOU (Live Ver.)",
+              "video_id": "UnObSrnSyYE",
+              "youtube_views": 103519
+            },
+            {
+              "title": "I Feel Good (Live Ver.)",
+              "video_id": "5GXb1X3ym7A",
+              "youtube_views": 95802
+            },
+            {
+              "title": "부모님 관람불가 (Live Ver.)",
+              "video_id": "SXk_e2hO2YQ",
+              "youtube_views": 89117
+            },
+            {
+              "title": "뭣 같아 (Live Ver.)",
+              "video_id": "ql1VZrx1KfM",
+              "youtube_views": 99510
+            },
+            {
+              "title": "Crying (Live Ver.)",
+              "video_id": "OpiVGyn-b6k",
+              "youtube_views": 88376
+            },
+            {
+              "title": "Dear. My Darling (Live Ver.)",
+              "video_id": "Cwqgf78rLko",
+              "youtube_views": 99175
+            },
+            {
+              "title": "돌멩이 (Live Ver.)",
+              "video_id": "vdckBAS5YHA",
+              "youtube_views": 103495
+            },
+            {
+              "title": "Earth, Wind & Fire (Live Ver.)",
+              "video_id": "IWja_S9Ro6M",
+              "youtube_views": 129300
+            }
+          ]
+        },
+        {
+          "title": "Earth, Wind & Fire (Buldak Hotter Than My EX Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Earth, Wind & Fire (Buldak Hotter Than My EX Ver.)",
+              "video_id": "tZ9FRHef7OI",
+              "youtube_views": 134196
+            }
+          ]
+        },
+        {
+          "title": "SAY CHEESE!",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "SAY CHEESE!",
+              "video_id": "PUr4DLWzglk",
+              "youtube_views": 1292749
+            }
+          ]
+        },
+        {
+          "title": "The Action",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Live In Paris",
+              "video_id": "jIm6kPG7npU",
+              "youtube_views": 1264521
+            },
+            {
+              "title": "Hollywood Action",
+              "video_id": "lS_YQa3Fexk",
+              "youtube_views": 11988463
+            },
+            {
+              "title": "JAM!",
+              "video_id": "JbeArJ_cBUE",
+              "youtube_views": 1020354
+            },
+            {
+              "title": "Bathroom",
+              "video_id": "tcLfsBlVY_U",
+              "youtube_views": 1351390
+            },
+            {
+              "title": "있잖아",
+              "video_id": "ptDnd4lGr-k",
+              "youtube_views": 3658868
+            }
+          ]
+        },
+        {
+          "title": "EXchange4, Pt. 1 (Original Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Ruin My Life",
+              "video_id": "vdK2_lGFtog",
+              "youtube_views": 2309665
+            },
+            {
+              "title": "Ruin My Life (Instrumental)",
+              "video_id": "-HQi2WckIxo",
+              "youtube_views": 68821
+            }
+          ]
+        },
+        {
+          "title": "BOYLIFE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Count To Love",
+              "video_id": "17mqKMHUxXY",
+              "youtube_views": 4361382
+            },
+            {
+              "title": "I Feel Good (Japanese Version)",
+              "video_id": "mCtK64c9QwM",
+              "youtube_views": 298717
+            },
+            {
+              "title": "Nice Guy (Japanese Version)",
+              "video_id": "J76aZC-AgQY",
+              "youtube_views": 267597
+            },
+            {
+              "title": "Dangerous (Japanese Version)",
+              "video_id": "aRaTHPi4yw8",
+              "youtube_views": 286316
+            }
+          ]
+        },
+        {
+          "title": "Never Loved This Way Before (Odd Girl Out X BOYNEXTDOOR)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "이렇게 좋아해 본 적이 없어요",
+              "video_id": "NeFNFHF1Fzc",
+              "youtube_views": 20803444
+            },
+            {
+              "title": "이렇게 좋아해 본 적이 없어요 (Inst.)",
+              "video_id": "vB1BTtL0hvs",
+              "youtube_views": 155357
+            }
+          ]
+        },
+        {
+          "title": "It's Beginning To Look A Lot Like Christmas",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "It's Beginning To Look A Lot Like Christmas",
+              "video_id": "pKz1QI5i5FY",
+              "youtube_views": 500912
+            }
+          ]
+        },
+        {
+          "title": "IF I SAY, I LOVE YOU (Japanese Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "IF I SAY, I LOVE YOU (Japanese Ver.)",
+              "video_id": "Z-IrVhChIqQ",
+              "youtube_views": 3694781
+            }
+          ]
+        },
+        {
+          "title": "IF I SAY, I LOVE YOU",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "오늘만 I LOVE YOU",
+              "video_id": "XVrO_3lnbig",
+              "youtube_views": 54858858
+            }
+          ]
+        },
+        {
+          "title": "AND,",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "One and Only (Japanese Version)",
+              "video_id": "5tM_QZ0fAQI",
+              "youtube_views": 436790
+            },
+            {
+              "title": "Earth, Wind & Fire (Japanese Version)",
+              "video_id": "5OQj_zoG0tM",
+              "youtube_views": 3908859
+            },
+            {
+              "title": "But Sometimes (Japanese Version)",
+              "video_id": "-XWa9OidafM",
+              "youtube_views": 836477
+            },
+            {
+              "title": "GOOD DAY",
+              "video_id": "jJJeo3T0Mfg",
+              "youtube_views": 2347263
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -2359,35 +2359,25 @@
       "gender": "여자",
       "spotify_id": "63sat2XSMKdwKfqspmYQKP",
       "spotify_name": "KiiiKiii",
-      "monthly_listeners": 3728464,
+      "monthly_listeners": 4123247,
       "top_tracks": [
         {
           "title": "404 (New Era)",
-          "play_count": 24200231,
-          "uri": "spotify:track:1rEa59P5yEal5cp1h7kl2e"
+          "play_count": 3240000,
+          "uri": "spotify:track:404newera"
         },
         {
-          "title": "Delulu",
-          "play_count": 7742956,
-          "uri": "spotify:track:5KCIrYoBUmQbW2FBoOL4Q0"
+          "title": "딸기게임 (Strawberry Cheesegame)",
+          "play_count": 1850000,
+          "uri": "spotify:track:strawberrycheesegame"
         },
         {
           "title": "I DO ME",
-          "play_count": 32216781,
-          "uri": "spotify:track:6qmfxmtoNEzqucF1FWeXl8"
-        },
-        {
-          "title": "DANCING ALONE",
-          "play_count": 11417512,
-          "uri": "spotify:track:6vN4qMlor4D2U7a7BzSQI5"
-        },
-        {
-          "title": "UNDERDOGS",
-          "play_count": 2729863,
-          "uri": "spotify:track:2oTktz3iPhi1CFisdAZgMK"
+          "play_count": 1420000,
+          "uri": "spotify:track:idome"
         }
       ],
-      "collected_at": "2026-03-18T06:37:59"
+      "collected_at": "2026-08-31T00:00:00"
     },
     "IRISÉ": {
       "name": "아이리제",

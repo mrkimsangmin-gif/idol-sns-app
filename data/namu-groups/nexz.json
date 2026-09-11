@@ -269,5 +269,262 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 346604,
+      "spotify_id": "5TaK8pOYVARAr5cdgoa8EW",
+      "top_tracks": [
+        {
+          "title": "Beat-Boxer",
+          "play_count": 3146941,
+          "uri": "spotify:track:0MuSmKr1DVD3KlJ5NaYUJx"
+        },
+        {
+          "title": "Ride the Vibe",
+          "play_count": 6423640,
+          "uri": "spotify:track:0ETA6bRFxpEaeCyATt5NAe"
+        },
+        {
+          "title": "O-RLY?",
+          "play_count": 3601245,
+          "uri": "spotify:track:6tWswSUY7jquKUyxIMw3Sw"
+        },
+        {
+          "title": "I'm Him",
+          "play_count": 1509018,
+          "uri": "spotify:track:53gdfmZtsm8OYZCf2AQHjV"
+        },
+        {
+          "title": "Simmer",
+          "play_count": 2604862,
+          "uri": "spotify:track:04IN4IWbd9C347rM275e01"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 6153507,
+      "track_count": 31,
+      "mean_views": 198500,
+      "max_views": 734564,
+      "albums": [
+        {
+          "title": "Beat-Boxer (English Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Beat-Boxer (English Version)",
+              "video_id": "1zpFrIW8-Vg",
+              "youtube_views": 47729
+            }
+          ]
+        },
+        {
+          "title": "Beat-Boxer",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Legacy",
+              "video_id": "SjVAR5URdE4",
+              "youtube_views": 282920
+            },
+            {
+              "title": "Beat-Boxer",
+              "video_id": "SFTfDpWZaTM",
+              "youtube_views": 674023
+            },
+            {
+              "title": "I'm Him",
+              "video_id": "xna6cAMr0tY",
+              "youtube_views": 312341
+            },
+            {
+              "title": "Co-Star",
+              "video_id": "zIEQOV822w0",
+              "youtube_views": 201492
+            },
+            {
+              "title": "Next To Me",
+              "video_id": "389oozOzIpc",
+              "youtube_views": 260945
+            }
+          ]
+        },
+        {
+          "title": "One Bite",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "One Bite",
+              "video_id": "VlAKQ6AND1o",
+              "youtube_views": 25101
+            },
+            {
+              "title": "BURNING BLACK",
+              "video_id": "VuIFL2Lcn1Y",
+              "youtube_views": 9737
+            },
+            {
+              "title": "Make it Better",
+              "video_id": "BoUQryVfQs4",
+              "youtube_views": 7984
+            },
+            {
+              "title": "One Day",
+              "video_id": "hJSwfLaMtg8",
+              "youtube_views": 10486
+            },
+            {
+              "title": "O-RLY? (Japanese Ver.)",
+              "video_id": "uyNAnny9dfQ",
+              "youtube_views": 1151
+            },
+            {
+              "title": "Simmer (Japanese Ver.)",
+              "video_id": "5vfcPfo-2T8",
+              "youtube_views": 878
+            }
+          ]
+        },
+        {
+          "title": "Simmer (Japanese Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Simmer (Japanese Ver.)",
+              "video_id": "JJ__nw7mPVg",
+              "youtube_views": 639
+            }
+          ]
+        },
+        {
+          "title": "O-RLY?",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "O-RLY?",
+              "video_id": "ZgHWUEo5Ed8",
+              "youtube_views": 467838
+            },
+            {
+              "title": "Simmer",
+              "video_id": "QZysRIh5Xi0",
+              "youtube_views": 375241
+            },
+            {
+              "title": "Want More? One More!",
+              "video_id": "AMNwMkpv8QQ",
+              "youtube_views": 172254
+            },
+            {
+              "title": "Run With Me",
+              "video_id": "JP_P7ysjJLQ",
+              "youtube_views": 650888
+            },
+            {
+              "title": "Slo-mo",
+              "video_id": "GL1FkZjQLOQ",
+              "youtube_views": 228218
+            }
+          ]
+        },
+        {
+          "title": "NALLINA",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "HARD",
+              "video_id": "tocP8NGtUAo",
+              "youtube_views": 186286
+            },
+            {
+              "title": "NALLINA",
+              "video_id": "Rrj8SG-x4tY",
+              "youtube_views": 329219
+            },
+            {
+              "title": "Next Zeneration",
+              "video_id": "9-jU5ZoaCOM",
+              "youtube_views": 151829
+            },
+            {
+              "title": "Eye to Eye",
+              "video_id": "V98t1arsFvA",
+              "youtube_views": 117176
+            },
+            {
+              "title": "Keep on Moving (Korean Ver.)",
+              "video_id": "Em3FzjqgM7M",
+              "youtube_views": 13441
+            }
+          ]
+        },
+        {
+          "title": "Keep on Moving (Korean Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Keep on Moving (Korean Ver.)",
+              "video_id": "nXDHdhzKwWg",
+              "youtube_views": 13543
+            }
+          ]
+        },
+        {
+          "title": "Ride the Vibe (Japanese Ver.) / Keep on Moving -Special Edition-",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Ride the Vibe (Japanese Ver.)",
+              "video_id": "nRJ_hYFD_N8",
+              "youtube_views": 1921
+            },
+            {
+              "title": "Keep on Moving",
+              "video_id": "tzNUEpMq6ik",
+              "youtube_views": 38352
+            },
+            {
+              "title": "Miracle",
+              "video_id": "e9LXBSPcqpk",
+              "youtube_views": 794
+            },
+            {
+              "title": "Here & Now",
+              "video_id": "SWtmdiff92M",
+              "youtube_views": 9704
+            }
+          ]
+        },
+        {
+          "title": "Ride the Vibe",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Ride the Vibe",
+              "video_id": "zacpHOr3oao",
+              "youtube_views": 734564
+            },
+            {
+              "title": "Starlight",
+              "video_id": "T8DY9TK1leA",
+              "youtube_views": 686147
+            }
+          ]
+        },
+        {
+          "title": "Miracle (Korean Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Miracle (Korean Ver.)",
+              "video_id": "PJp4-YJJBt4",
+              "youtube_views": 140666
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

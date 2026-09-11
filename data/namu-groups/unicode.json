@@ -4,84 +4,8 @@
   "slug": "unicode",
   "gender": "여자",
   "namu_url": "https://namu.wiki/w/%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C%28UNICODE%29",
-  "info": {
-    "소속사": "더블엑스엔터테인먼트",
-    "데뷔일": "2024.04.17",
-    "멤버수": "5",
-    "멤버목록": "에린, 유라, 하나, 미오, 수아",
-    "활동유형": "걸그룹",
-    "팬덤명": "",
-    "응원봉": "",
-    "레이블": "더블엑스엔터테인먼트",
-    "유통사": "카카오엔터테인먼트",
-    "그룹명뜻": "전원 일본인으로 구성된 K-POP 걸그룹으로 전 세계를 하나로 잇겠다는 포부.",
-    "인스타그램": "https://www.instagram.com/unicode.xnet/",
-    "유튜브": "https://www.youtube.com/@UNICODE_official",
-    "X(트위터)": "https://twitter.com/unicode_xnet",
-    "틱톡": ""
-  },
-  "members": [
-    {
-      "name": "에린",
-      "본명": "에린",
-      "생년월일": "2002.11.04",
-      "출생연도": "2002",
-      "출신지": "일본",
-      "역할": "리더, 보컬",
-      "키": "160cm",
-      "MBTI": "ENFJ",
-      "혈액형": "A형",
-      "info": "유니코드의 리더"
-    },
-    {
-      "name": "유라",
-      "본명": "유라",
-      "생년월일": "2003.06.15",
-      "출생연도": "2003",
-      "출신지": "일본",
-      "역할": "메인댄서, 서브보컬",
-      "키": "162cm",
-      "MBTI": "ISFP",
-      "혈액형": "O형",
-      "info": "메인댄서"
-    },
-    {
-      "name": "하나",
-      "본명": "하나",
-      "생년월일": "2003.10.28",
-      "출생연도": "2003",
-      "출신지": "일본",
-      "역할": "메인보컬",
-      "키": "158cm",
-      "MBTI": "INFP",
-      "혈액형": "B형",
-      "info": "메인보컬"
-    },
-    {
-      "name": "미오",
-      "본명": "미오",
-      "생년월일": "2004.03.01",
-      "출생연도": "2004",
-      "출신지": "일본",
-      "역할": "서브보컬",
-      "키": "161cm",
-      "MBTI": "ESFP",
-      "혈액형": "A형",
-      "info": "보컬"
-    },
-    {
-      "name": "수아",
-      "본명": "수아",
-      "생년월일": "2005.08.19",
-      "출생연도": "2005",
-      "출신지": "일본",
-      "역할": "막내, 래퍼",
-      "키": "159cm",
-      "MBTI": "ISTP",
-      "혈액형": "AB형",
-      "info": "막내"
-    }
-  ],
+  "info": {},
+  "members": [],
   "albums": [
     {
       "title": "Hello world",
@@ -113,5 +37,39 @@
       "누적_써클": "-",
       "비고": "첫 번째 디지털 싱글, 타이틀곡 '비 온 뒤 흐림 (Blurry)'"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 1998,
+      "spotify_id": "3dX0pAE3FigjTzBiHajRra",
+      "top_tracks": [
+        {
+          "title": "Let me Love (Prod. by Jin Young)",
+          "play_count": 183265,
+          "uri": "spotify:track:3DMvqQG9wibjtjmrUAvNBn"
+        },
+        {
+          "title": "Spring in my 20th",
+          "play_count": 48436,
+          "uri": "spotify:track:1z35YPlxrHY63zaJr7E4IJ"
+        },
+        {
+          "title": "Blur",
+          "play_count": 56196,
+          "uri": "spotify:track:4rLgitYytXbs998KFy8w58"
+        },
+        {
+          "title": "Drizzle",
+          "play_count": 35337,
+          "uri": "spotify:track:27XqwGjj9acMMsEmsjqwik"
+        },
+        {
+          "title": "Invi : Bon Voyage",
+          "play_count": 13773,
+          "uri": "spotify:track:6MUBKqjdZQOnnR70PQUhi4"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -155,5 +155,136 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 24800,
+      "spotify_id": "3696Y4dRCxairFC7sQAuI4",
+      "top_tracks": [
+        {
+          "title": "Burn Up",
+          "play_count": 1711545,
+          "uri": "spotify:track:6MuGKATZWdlxekc6lPRXVW"
+        },
+        {
+          "title": "Girls, Love boys, Love girls",
+          "play_count": 811593,
+          "uri": "spotify:track:7pcHhqteiHcGKmaD6lOC73"
+        },
+        {
+          "title": "Zip Zip Zip",
+          "play_count": 383566,
+          "uri": "spotify:track:1WxZnMz2lcFskuyx6A7rYi"
+        },
+        {
+          "title": "SPARK",
+          "play_count": 587003,
+          "uri": "spotify:track:14efWkIZpHRkh8Vgyt0U2k"
+        },
+        {
+          "title": "Very",
+          "play_count": 233735,
+          "uri": "spotify:track:6yaajketfjKc4vqwcMmutg"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1914444,
+      "track_count": 13,
+      "mean_views": 147264,
+      "max_views": 385585,
+      "albums": [
+        {
+          "title": "Youth Never DIE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Zip Zip Zip",
+              "video_id": "-nJUcma_GZs",
+              "youtube_views": 99419
+            },
+            {
+              "title": "Heart Balloon",
+              "video_id": "phKCLJKbV1w",
+              "youtube_views": 197152
+            },
+            {
+              "title": "Zip Zip Zip (Instrumental)",
+              "video_id": "ZjB6MlrYg-Q",
+              "youtube_views": 5595
+            }
+          ]
+        },
+        {
+          "title": "HYPERSPACE 911",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Girls, Love boys, Love girls",
+              "video_id": "VHd80-e0ivg",
+              "youtube_views": 268048
+            },
+            {
+              "title": "Vitamin You",
+              "video_id": "yhMtd-G-e2A",
+              "youtube_views": 385585
+            },
+            {
+              "title": "Feel The Vxbe",
+              "video_id": "NbEd4ZxBuyY",
+              "youtube_views": 112741
+            }
+          ]
+        },
+        {
+          "title": "HYPERSPACE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "N.W.B",
+              "video_id": "U4K6Cj4dh8k",
+              "youtube_views": 98451
+            },
+            {
+              "title": "Burn Up",
+              "video_id": "uHnLakRHmrA",
+              "youtube_views": 8749
+            },
+            {
+              "title": "SPARK",
+              "video_id": "sGdtLqxbt98",
+              "youtube_views": 266390
+            },
+            {
+              "title": "Very",
+              "video_id": "079DPyI3cBs",
+              "youtube_views": 80380
+            },
+            {
+              "title": "Burn Up (Instrumental)",
+              "video_id": "P5gH_gQyndw",
+              "youtube_views": 6995
+            },
+            {
+              "title": "SPARK (Instrumental)",
+              "video_id": "d3IAvhJCRGc",
+              "youtube_views": 4587
+            }
+          ]
+        },
+        {
+          "title": "BURN UP",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Burn Up",
+              "video_id": "ZRhfEsa1wY0",
+              "youtube_views": 380352
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

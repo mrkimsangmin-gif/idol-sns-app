@@ -179,5 +179,173 @@
       "누적_써클": "-",
       "비고": "선공개 싱글"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 58410,
+      "spotify_id": "5Zj3vazMOh0sADCiAejr3z",
+      "top_tracks": [
+        {
+          "title": "Look So Good",
+          "play_count": 360637,
+          "uri": "spotify:track:7q5g74MfLvv7ZPfUjYmOB4"
+        },
+        {
+          "title": "Flip the Coin",
+          "play_count": 660385,
+          "uri": "spotify:track:2ngahTOJYKxjJoeBKAjZQt"
+        },
+        {
+          "title": "JeLLo(Sleepers)",
+          "play_count": 522983,
+          "uri": "spotify:track:6m87vdQMpQ2lNavpxGYr2I"
+        },
+        {
+          "title": "HICCUPS",
+          "play_count": 424218,
+          "uri": "spotify:track:0snVTgso3ZEHlPij7CQC1g"
+        },
+        {
+          "title": "Cappuccino",
+          "play_count": 266132,
+          "uri": "spotify:track:6GDSbAtLcpefeOYSRIbVFt"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 843575,
+      "track_count": 18,
+      "mean_views": 46865,
+      "max_views": 131378,
+      "albums": [
+        {
+          "title": "RAW AND RAD",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Intro : RAW AND RAD (feat. Khundi Panda) (Prod. Maalib)",
+              "video_id": "El3iHyqa0rE",
+              "youtube_views": 10644
+            },
+            {
+              "title": "Sounds like Money",
+              "video_id": "O6nvj10zZmk",
+              "youtube_views": 61358
+            },
+            {
+              "title": "JeLLo (Sleepers)",
+              "video_id": "UqSxhsII79g",
+              "youtube_views": 21116
+            },
+            {
+              "title": "HICCUPS",
+              "video_id": "lAXO3tDVy7w",
+              "youtube_views": 14776
+            },
+            {
+              "title": "You,Me +,-",
+              "video_id": "vQjJc0RVbhA",
+              "youtube_views": 10129
+            },
+            {
+              "title": "Flip the Coin",
+              "video_id": "cV_eTy2RM3I",
+              "youtube_views": 131378
+            },
+            {
+              "title": "F.L.Y (Fu**ing Lovely, Lonely Youth) (Prod. LIMHYUNSIK)",
+              "video_id": "SSFZNqJfHrk",
+              "youtube_views": 75092
+            },
+            {
+              "title": "Wonder (Solo. Yeoyeojeong Jeon)",
+              "video_id": "ZXFSrIzZVNw",
+              "youtube_views": 111084
+            },
+            {
+              "title": "We Are Young",
+              "video_id": "-pC1vPWBraY",
+              "youtube_views": 79673
+            },
+            {
+              "title": "Outro : ZERO-SUM GAME (Prod. Maalib)",
+              "video_id": "Z4yCbJsKelg",
+              "youtube_views": 6500
+            }
+          ]
+        },
+        {
+          "title": "Cappuccino (中文版)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Cappuccino (中文版)",
+              "video_id": "NGB1E-6z9Hg",
+              "youtube_views": 1907
+            }
+          ]
+        },
+        {
+          "title": "LOUDER THAN EVER",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Look So Good",
+              "video_id": "eGu1GNo3M24",
+              "youtube_views": 91763
+            },
+            {
+              "title": "LOUD",
+              "video_id": "0l7_gdsBv3E",
+              "youtube_views": 19201
+            },
+            {
+              "title": "Natural",
+              "video_id": "fBkz-THzG80",
+              "youtube_views": 17713
+            },
+            {
+              "title": "Unbelievable",
+              "video_id": "TltD0vAVECI",
+              "youtube_views": 17470
+            }
+          ]
+        },
+        {
+          "title": "Cappuccino",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Cappuccino",
+              "video_id": "sXDktEtro5A",
+              "youtube_views": 53160
+            }
+          ]
+        },
+        {
+          "title": "HICCUPS",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "HICCUPS",
+              "video_id": "9r_UhOu2pH8",
+              "youtube_views": 63959
+            }
+          ]
+        },
+        {
+          "title": "JeLLo(Sleepers)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "JeLLo (Sleepers)",
+              "video_id": "FVBDs60qSBY",
+              "youtube_views": 56652
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

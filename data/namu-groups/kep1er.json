@@ -547,5 +547,424 @@
       "누적_써클": "-",
       "비고": "뮤직비디오"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 847920,
+      "spotify_id": "5R7AMwDeroq6Ls0COQYpS4",
+      "top_tracks": [
+        {
+          "title": "WA DA DA",
+          "play_count": 193209628,
+          "uri": "spotify:track:4gdiCHNbwugojBqr5Jt3pq"
+        },
+        {
+          "title": "Shooting Star",
+          "play_count": 18636165,
+          "uri": "spotify:track:0k2JbfyqtVhiLqGgNuwQGX"
+        },
+        {
+          "title": "BUBBLE GUM",
+          "play_count": 5490330,
+          "uri": "spotify:track:3IUtLSW5FWB0K4RdkvOamG"
+        },
+        {
+          "title": "Up!",
+          "play_count": 62990617,
+          "uri": "spotify:track:3XZAvh2NCDQYHgJei35VQ1"
+        },
+        {
+          "title": "Yum",
+          "play_count": 4414990,
+          "uri": "spotify:track:6KsXEZEbBcH16U31sIyofB"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 28607173,
+      "track_count": 61,
+      "mean_views": 468970,
+      "max_views": 8869522,
+      "albums": [
+        {
+          "title": "Kep1going On",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Last Carnival",
+              "video_id": "h1HBF7qrv6A",
+              "youtube_views": 186166
+            },
+            {
+              "title": "Shooting Star",
+              "video_id": "b3U5ROZUhCE",
+              "youtube_views": 8869522
+            },
+            {
+              "title": "Curious",
+              "video_id": "Df5OynGuYrw",
+              "youtube_views": 660175
+            },
+            {
+              "title": "Flowers, Flutter, Your heart",
+              "video_id": "-lACIsmZ2yw",
+              "youtube_views": 1102283
+            },
+            {
+              "title": "Double Up!",
+              "video_id": "_kOplZoI2RQ",
+              "youtube_views": 415884
+            },
+            {
+              "title": "PUSH BUTTON",
+              "video_id": "3jLzn2Gtx48",
+              "youtube_views": 402335
+            },
+            {
+              "title": "PROBLEM",
+              "video_id": "DkSWHt9LLXE",
+              "youtube_views": 671630
+            },
+            {
+              "title": "Dear Diary",
+              "video_id": "1j3quJou96Q",
+              "youtube_views": 615491
+            },
+            {
+              "title": "Grand Prix (KOR Version)",
+              "video_id": "mSrKS-q37_0",
+              "youtube_views": 52874
+            },
+            {
+              "title": "Straight Line (KOR Version)",
+              "video_id": "YszgsLfQbbs",
+              "youtube_views": 81587
+            }
+          ]
+        },
+        {
+          "title": "Kep1going",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Straight Line",
+              "video_id": "qAJ9T72ozbE",
+              "youtube_views": 407571
+            },
+            {
+              "title": "Grand Prix",
+              "video_id": "8IymPwcwJTA",
+              "youtube_views": 13353
+            },
+            {
+              "title": "We Fresh (Japanese Version)",
+              "video_id": "DdMqCZ2jy8I",
+              "youtube_views": 25363
+            },
+            {
+              "title": "Up! (Japanese Version)",
+              "video_id": "LqADPnuA1uY",
+              "youtube_views": 6966
+            },
+            {
+              "title": "WA DA DA (Japanese Version)",
+              "video_id": "t4RlQXExe0s",
+              "youtube_views": 6859
+            },
+            {
+              "title": "MVSK (Japanese Version)",
+              "video_id": "6heRGG_R_0I",
+              "youtube_views": 37408
+            },
+            {
+              "title": "Celebrate",
+              "video_id": "Ff2l_jMnINA",
+              "youtube_views": 205416
+            },
+            {
+              "title": "Highlight",
+              "video_id": "Rm1BHlDLmG4",
+              "youtube_views": 175159
+            },
+            {
+              "title": "Cruise",
+              "video_id": "qbEKlKtjkPI",
+              "youtube_views": 167738
+            },
+            {
+              "title": "Giddy (Japanese Version)",
+              "video_id": "UFRwFn_ZApc",
+              "youtube_views": 5984
+            },
+            {
+              "title": "Galileo (Japanese Version)",
+              "video_id": "s99VPd8iXo0",
+              "youtube_views": 5316
+            },
+            {
+              "title": "Wing Wing",
+              "video_id": "I8Qfv5udR5A",
+              "youtube_views": 6774
+            },
+            {
+              "title": "I do! Do you?",
+              "video_id": "Sy2IWJMTwxU",
+              "youtube_views": 222431
+            },
+            {
+              "title": "Sugar",
+              "video_id": "zO0ymahF5fE",
+              "youtube_views": 14464
+            },
+            {
+              "title": "Don't Lose Your Smile",
+              "video_id": "m1GVGOO2DrA",
+              "youtube_views": 77538
+            },
+            {
+              "title": "WA DA DA (Japanese Version) ~IMLAY Remix~",
+              "video_id": "bMWpxZLm5iU",
+              "youtube_views": 59542
+            },
+            {
+              "title": "Daisy",
+              "video_id": "lVBfoQve3h8",
+              "youtube_views": 17571
+            },
+            {
+              "title": "tOgether fOrever",
+              "video_id": "TICFKGvVa6Y",
+              "youtube_views": 142207
+            }
+          ]
+        },
+        {
+          "title": "I Stay (From \"Ne Zha 2\")",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "I Stay",
+              "video_id": "sj0eG4iaJFw",
+              "youtube_views": 75785
+            },
+            {
+              "title": "I Stay (Instrumental)",
+              "video_id": "FnMxFdFMPv4",
+              "youtube_views": 4681
+            },
+            {
+              "title": "I Stay (Chinese Ver.)",
+              "video_id": "N-B-QCCN1Ik",
+              "youtube_views": 17512
+            },
+            {
+              "title": "I Stay (Acoustic Instrumental Ver.)",
+              "video_id": "DRjVt3oNHPU",
+              "youtube_views": 3134
+            }
+          ]
+        },
+        {
+          "title": "BUBBLE GUM",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Taste Better",
+              "video_id": "5yzbVOldj9k",
+              "youtube_views": 44679
+            },
+            {
+              "title": "BUBBLE GUM",
+              "video_id": "1J8YUZYQra8",
+              "youtube_views": 1735741
+            },
+            {
+              "title": "Don′t Be Dumb",
+              "video_id": "YTUZHRzHkPI",
+              "youtube_views": 138449
+            },
+            {
+              "title": "Ice Tea",
+              "video_id": "BRdWS_jRWaM",
+              "youtube_views": 227954
+            },
+            {
+              "title": "Yum (KOR ver.)",
+              "video_id": "_UwiSozhZ0Q",
+              "youtube_views": 41769
+            }
+          ]
+        },
+        {
+          "title": "AGAINST THE WORLD",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Yum",
+              "video_id": "_F8kmMCuXyo",
+              "youtube_views": 20961
+            },
+            {
+              "title": "Hell or Heaven",
+              "video_id": "PB8XK9B5tS4",
+              "youtube_views": 136543
+            },
+            {
+              "title": "TIPI-TAP (Japanese Version)",
+              "video_id": "sKDqUwSO7Z0",
+              "youtube_views": 10846
+            },
+            {
+              "title": "Shooting Star (Japanese Version)",
+              "video_id": "vKRYivuQqVY",
+              "youtube_views": 14679
+            },
+            {
+              "title": "PROBLEM (Japanese Version)",
+              "video_id": "F71du7VgKy0",
+              "youtube_views": 9775
+            }
+          ]
+        },
+        {
+          "title": "Yum",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Yum",
+              "video_id": "RA86-UeC9uM",
+              "youtube_views": 735861
+            }
+          ]
+        },
+        {
+          "title": "TIPI-TAP",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "sync-love",
+              "video_id": "QH2ckBZ71ro",
+              "youtube_views": 457096
+            },
+            {
+              "title": "TIPI-TAP",
+              "video_id": "DU2c2Ij4B-A",
+              "youtube_views": 1973944
+            },
+            {
+              "title": "Drip",
+              "video_id": "r3DWU9Az8zw",
+              "youtube_views": 348522
+            },
+            {
+              "title": "Bitter Taste",
+              "video_id": "FOX9fvEfcLc",
+              "youtube_views": 219102
+            },
+            {
+              "title": "Heart Surf",
+              "video_id": "jgJMTr_2OaA",
+              "youtube_views": 1268966
+            }
+          ]
+        },
+        {
+          "title": "Straight Line",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Straight Line",
+              "video_id": "PbUv4Wp8nBo",
+              "youtube_views": 496809
+            }
+          ]
+        },
+        {
+          "title": "<FLY-HIGH> - Special Edition -",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Grand Prix",
+              "video_id": "KykDA0DDTic",
+              "youtube_views": 583994
+            },
+            {
+              "title": "Sugar",
+              "video_id": "xII2E6r5Vow",
+              "youtube_views": 134315
+            },
+            {
+              "title": "Galileo (Japanese Version)",
+              "video_id": "8f_dXHBjb_0",
+              "youtube_views": 185614
+            },
+            {
+              "title": "Giddy (Japanese Version)",
+              "video_id": "FVLngrpfTqk",
+              "youtube_views": 44149
+            }
+          ]
+        },
+        {
+          "title": "Grand Prix",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Grand Prix",
+              "video_id": "tXyBqasaIx8",
+              "youtube_views": 142192
+            }
+          ]
+        },
+        {
+          "title": "Magic Hour",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Galileo",
+              "video_id": "CcdFlI3pJ1Y",
+              "youtube_views": 2743921
+            },
+            {
+              "title": "The Door",
+              "video_id": "b7CSYdHzQBs",
+              "youtube_views": 671205
+            },
+            {
+              "title": "Love on Lock",
+              "video_id": "fF7LhUM29wc",
+              "youtube_views": 402834
+            },
+            {
+              "title": "Tropical Light (Sung by YUJIN, XIAOTING, YOUNGEUN, YESEO)",
+              "video_id": "LWSoGnmqbJw",
+              "youtube_views": 677878
+            },
+            {
+              "title": "TAPE (Sung by MASHIRO, CHAEHYUN, DAYEON, HIKARU, HUENING BAHIYYIH)",
+              "video_id": "O2IwZ5asbd0",
+              "youtube_views": 220126
+            }
+          ]
+        },
+        {
+          "title": "RESCUE TAYO",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "RESCUE TAYO",
+              "video_id": "OF050CkkDwc",
+              "youtube_views": 156385
+            },
+            {
+              "title": "RESCUE TAYO (Inst.)",
+              "video_id": "K6lWfz4QCfc",
+              "youtube_views": 6145
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

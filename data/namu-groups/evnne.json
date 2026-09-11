@@ -225,5 +225,292 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 204864,
+      "spotify_id": "6SYJFHPxXkr4SZJR8aLEml",
+      "top_tracks": [
+        {
+          "title": "TROUBLE",
+          "play_count": 14419376,
+          "uri": "spotify:track:6MSRu5wksC0Esn63XOgmI3"
+        },
+        {
+          "title": "Badder Love",
+          "play_count": 4645055,
+          "uri": "spotify:track:2muqyJpZ71YJ7bP9F69rZM"
+        },
+        {
+          "title": "How Can I Do",
+          "play_count": 1251778,
+          "uri": "spotify:track:2e9IAFsDNri6u0t4Sf9iZ2"
+        },
+        {
+          "title": "XO",
+          "play_count": 1343659,
+          "uri": "spotify:track:4kPD4LhK775GhxjWK5o27r"
+        },
+        {
+          "title": "I ＜3 U (I love U)",
+          "play_count": 1617861,
+          "uri": "spotify:track:6gSEYC7TCNNoeJMGPi13Zk"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 11719384,
+      "track_count": 37,
+      "mean_views": 316740,
+      "max_views": 3278232,
+      "albums": [
+        {
+          "title": "LOVE ANECDOTE(S)",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "dirtybop",
+              "video_id": "e8OJlMJbTE0",
+              "youtube_views": 37842
+            },
+            {
+              "title": "How Can I Do",
+              "video_id": "lxIvzNZf92c",
+              "youtube_views": 491254
+            },
+            {
+              "title": "Mako",
+              "video_id": "uf6Ydg3nwRM",
+              "youtube_views": 98515
+            },
+            {
+              "title": "love chat",
+              "video_id": "eYnprElYc-U",
+              "youtube_views": 115799
+            },
+            {
+              "title": "PUT IT ON ME",
+              "video_id": "RVl-X64WhsQ",
+              "youtube_views": 84235
+            },
+            {
+              "title": "Newest",
+              "video_id": "DuO22y8Q52Y",
+              "youtube_views": 99826
+            }
+          ]
+        },
+        {
+          "title": "HOT MESS",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "HOT MESS",
+              "video_id": "WrBx82PI4-0",
+              "youtube_views": 355640
+            },
+            {
+              "title": "Birthday",
+              "video_id": "SjlFNdHo3nk",
+              "youtube_views": 172270
+            },
+            {
+              "title": "Love Like That",
+              "video_id": "u2p-mgYc5pY",
+              "youtube_views": 266185
+            },
+            {
+              "title": "CROWN",
+              "video_id": "W9csD_0Xe1w",
+              "youtube_views": 164566
+            },
+            {
+              "title": "Youth",
+              "video_id": "WKinBCuBxso",
+              "youtube_views": 181065
+            },
+            {
+              "title": "KESHIKI (Korean Version)",
+              "video_id": "u5-FhA7oGkw",
+              "youtube_views": 32634
+            }
+          ]
+        },
+        {
+          "title": "景色 (KESHIKI)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "景色 (KESHIKI)",
+              "video_id": "c_yl7TTdd04",
+              "youtube_views": 176888
+            }
+          ]
+        },
+        {
+          "title": "RIDE or DIE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Badder Love",
+              "video_id": "LJzL2VWuuaE",
+              "youtube_views": 1242497
+            },
+            {
+              "title": "I ＜3 U (I love U)",
+              "video_id": "2kXL2APS6LE",
+              "youtube_views": 505888
+            },
+            {
+              "title": "XO",
+              "video_id": "e1WV2cdpSf4",
+              "youtube_views": 304108
+            },
+            {
+              "title": "2X",
+              "video_id": "rFy-IrVuGOs",
+              "youtube_views": 168911
+            },
+            {
+              "title": "Boom Bari",
+              "video_id": "fuCn7SzIAd4",
+              "youtube_views": 133060
+            },
+            {
+              "title": "Badder Love (English Version)",
+              "video_id": "UmfUzGrzGUk",
+              "youtube_views": 51495
+            }
+          ]
+        },
+        {
+          "title": "Un: SEEN",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "UGLY",
+              "video_id": "ZELp7lwLAVU",
+              "youtube_views": 857171
+            },
+            {
+              "title": "SYRUP",
+              "video_id": "kMcJhgTVFvc",
+              "youtube_views": 238241
+            },
+            {
+              "title": "K.O. (Keep On)",
+              "video_id": "3hkeXWXpcLo",
+              "youtube_views": 413306
+            },
+            {
+              "title": "Chase",
+              "video_id": "naT2Tb5CoLs",
+              "youtube_views": 164899
+            },
+            {
+              "title": "Festa",
+              "video_id": "bjkvmShtPPY",
+              "youtube_views": 267078
+            }
+          ]
+        },
+        {
+          "title": "Target: ME",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "TROUBLE",
+              "video_id": "ehGdNbiV7x4",
+              "youtube_views": 3278232
+            },
+            {
+              "title": "Role Model",
+              "video_id": "xCC8FtT1zSQ",
+              "youtube_views": 406153
+            },
+            {
+              "title": "Pretty Thing",
+              "video_id": "1AE_weNPiP0",
+              "youtube_views": 264249
+            },
+            {
+              "title": "Your Text",
+              "video_id": "oXIbBP_JRDc",
+              "youtube_views": 382408
+            },
+            {
+              "title": "JUKEBOX",
+              "video_id": "xCkENY2145Q",
+              "youtube_views": 301004
+            },
+            {
+              "title": "Even More",
+              "video_id": "GcOXL-DKr3g",
+              "youtube_views": 387684
+            }
+          ]
+        },
+        {
+          "title": "How Can I Do (BRLLNT Remix)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "How Can I Do (BRLLNT Remix)",
+              "video_id": "xDk2cBZ2tyo",
+              "youtube_views": 25637
+            }
+          ]
+        },
+        {
+          "title": "HOT MESS (Remixes)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "HOT MESS (h4rdy Remix)",
+              "video_id": "hXiO4Hxg0rI",
+              "youtube_views": 3697
+            },
+            {
+              "title": "HOT MESS (HANAEL Remix)",
+              "video_id": "5FK6yyXxdYA",
+              "youtube_views": 2917
+            }
+          ]
+        },
+        {
+          "title": "TROUBLE (arcon Remix)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "TROUBLE (arcon Remix)",
+              "video_id": "IpaS4Jv-3LE",
+              "youtube_views": 13327
+            }
+          ]
+        },
+        {
+          "title": "Badder Love (MINDA Remixes)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Badder Love (Red Remix)",
+              "video_id": "65bNsFBPjhU",
+              "youtube_views": 17076
+            },
+            {
+              "title": "Badder Love (Neon Remix)",
+              "video_id": "IFYVExrra5E",
+              "youtube_views": 4682
+            },
+            {
+              "title": "Badder Love (Chrome Remix)",
+              "video_id": "chtjYDNw3LE",
+              "youtube_views": 8945
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -95,5 +95,110 @@
       "누적_써클": "-",
       "비고": "데뷔 앨범, 타이틀곡 LUKOIE"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 12154,
+      "spotify_id": "3ZyYtYamMtKdAEOuo7fggB",
+      "top_tracks": [
+        {
+          "title": "Buzzin'",
+          "play_count": 108152,
+          "uri": "spotify:track:4LNoLUL3H7C5XMT7SXEELE"
+        },
+        {
+          "title": "Link Up",
+          "play_count": 69711,
+          "uri": "spotify:track:5TfER8xUllHHSdQEMDjX4h"
+        },
+        {
+          "title": "LUKOIE",
+          "play_count": 39269,
+          "uri": "spotify:track:2AXOaWQKnk7dg4yrIqzVnE"
+        },
+        {
+          "title": "Black Moon",
+          "play_count": 38697,
+          "uri": "spotify:track:2K2TDf8LOMxLS5ny0ilQ1w"
+        },
+        {
+          "title": "Escher",
+          "play_count": 31748,
+          "uri": "spotify:track:2zXZeW8icDR4j7KNbYsqid"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 93088,
+      "track_count": 9,
+      "mean_views": 10343,
+      "max_views": 46231,
+      "albums": [
+        {
+          "title": "LUKOIE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Paracosm",
+              "video_id": "7QMo4bvkiDI",
+              "youtube_views": 1848
+            },
+            {
+              "title": "Link Up",
+              "video_id": "z2Iy8M_3hEI",
+              "youtube_views": 46231
+            },
+            {
+              "title": "Escher",
+              "video_id": "MH_X1FS2RAg",
+              "youtube_views": 8485
+            },
+            {
+              "title": "Buzzin'",
+              "video_id": "aWBAOyLI5rY",
+              "youtube_views": 1554
+            },
+            {
+              "title": "LUKOIE",
+              "video_id": "na0dgOP7KK4",
+              "youtube_views": 11113
+            },
+            {
+              "title": "Black Moon",
+              "video_id": "1Pp37sLtbDc",
+              "youtube_views": 12268
+            }
+          ]
+        },
+        {
+          "title": "Buzzin'",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Buzzin' (Shorts Ver.)",
+              "video_id": "GpKP-T76iTU",
+              "youtube_views": 226
+            },
+            {
+              "title": "Buzzin' (Instrumental (Shorts Ver.))",
+              "video_id": "ucipUVqWhVk",
+              "youtube_views": 143
+            }
+          ]
+        },
+        {
+          "title": "Buzzin'",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Buzzin'",
+              "video_id": "FZXJRSe4zo4",
+              "youtube_views": 11220
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

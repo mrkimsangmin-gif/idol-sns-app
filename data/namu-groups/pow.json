@@ -225,5 +225,192 @@
       "누적_써클": "-",
       "비고": "The Demo Tape FLAVOR"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 101366,
+      "spotify_id": "3aycZMYDTnN0trM2XnTI4Y",
+      "top_tracks": [
+        {
+          "title": "Come True (feat. Shin Onyu of Shin In Ryu)",
+          "play_count": 363446,
+          "uri": "spotify:track:0qtrYviuHe78ta3I6Y9xwN"
+        },
+        {
+          "title": "Just Go",
+          "play_count": 275461,
+          "uri": "spotify:track:06N5gDiLRqzyrshVYJtSOn"
+        },
+        {
+          "title": "Favorite",
+          "play_count": 3475591,
+          "uri": "spotify:track:02qdS2zq2LYGkSOr3Q7gMm"
+        },
+        {
+          "title": "Wall Flowers",
+          "play_count": 1252785,
+          "uri": "spotify:track:7hH6xRAqH9yCkPfRVDGHrt"
+        },
+        {
+          "title": "Valentine",
+          "play_count": 2658145,
+          "uri": "spotify:track:7soqW0C2hCCblU402zUalw"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 2798212,
+      "track_count": 17,
+      "mean_views": 164600,
+      "max_views": 704687,
+      "albums": [
+        {
+          "title": "COME TRUE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Come True (feat. Shin Onyu of Shin In Ryu)",
+              "video_id": "Z6Hgx-vycz0",
+              "youtube_views": 212714
+            },
+            {
+              "title": "Just Go",
+              "video_id": "-KrUN6LPxkA",
+              "youtube_views": 224474
+            }
+          ]
+        },
+        {
+          "title": "Come True (sped up) (feat. Shin Onyu)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Come True (feat. Shin Onyu of Shin In Ryu) (sped up)",
+              "video_id": "EjJuazsoidQ",
+              "youtube_views": 5641
+            }
+          ]
+        },
+        {
+          "title": "Wall Flowers",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Wall Flowers",
+              "video_id": "KG6SNK4Cgkg",
+              "youtube_views": 237215
+            }
+          ]
+        },
+        {
+          "title": "Being Tender",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "다정해지는 법",
+              "video_id": "QsvJ5ZYkeaM",
+              "youtube_views": 101059
+            },
+            {
+              "title": "이유",
+              "video_id": "I8M7OsKQArA",
+              "youtube_views": 27930
+            },
+            {
+              "title": "Celebrate",
+              "video_id": "aSsY6gsBt5Q",
+              "youtube_views": 9195
+            },
+            {
+              "title": "Fingerprint",
+              "video_id": "KsPCcrG8Vs0",
+              "youtube_views": 12412
+            }
+          ]
+        },
+        {
+          "title": "다정해지는 법 (Sped Up)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "다정해지는 법 (Sped Up)",
+              "video_id": "OrpYAxqMoLk",
+              "youtube_views": 1744
+            }
+          ]
+        },
+        {
+          "title": "항상 그 자리에 있어 (Original Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "항상 그 자리에 있어",
+              "video_id": "8OCcYLAmfbQ",
+              "youtube_views": 68895
+            }
+          ]
+        },
+        {
+          "title": "Gimme Love",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Gimme Love",
+              "video_id": "In2myatZKug",
+              "youtube_views": 281807
+            }
+          ]
+        },
+        {
+          "title": "Boyfriend",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Boyfriend",
+              "video_id": "IXBcDvZinBY",
+              "youtube_views": 392850
+            },
+            {
+              "title": "I",
+              "video_id": "_E66GxKurz0",
+              "youtube_views": 117228
+            },
+            {
+              "title": "Bae",
+              "video_id": "dT8NNF2eXdA",
+              "youtube_views": 187504
+            },
+            {
+              "title": "Sunset",
+              "video_id": "FHzBC6m6ZLI",
+              "youtube_views": 13975
+            }
+          ]
+        },
+        {
+          "title": "Sunset",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Sunset",
+              "video_id": "CKOO_p3vWB4",
+              "youtube_views": 198882
+            }
+          ]
+        },
+        {
+          "title": "Valentine",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Valentine",
+              "video_id": "rP5dGwNb398",
+              "youtube_views": 704687
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

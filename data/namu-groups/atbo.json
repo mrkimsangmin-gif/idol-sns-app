@@ -227,5 +227,39 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 10721,
+      "spotify_id": "3bwO3gNZVmHwaBttv739g7",
+      "top_tracks": [
+        {
+          "title": "ATTITUDE",
+          "play_count": 1097053,
+          "uri": "spotify:track:4G3kw5Y7pbwK9aE8mjfivE"
+        },
+        {
+          "title": "Monochrome (Color)",
+          "play_count": 1041545,
+          "uri": "spotify:track:2M1kWKx9G2MlVPtwKQjpHp"
+        },
+        {
+          "title": "Next to Me",
+          "play_count": 615334,
+          "uri": "spotify:track:35pgNknwrEIUQByD7ZcGQH"
+        },
+        {
+          "title": "Must Have Love",
+          "play_count": 343118,
+          "uri": "spotify:track:3fixP4VxUKRRg7i8WeViuL"
+        },
+        {
+          "title": "BOUNCE",
+          "play_count": 176143,
+          "uri": "spotify:track:6A5pxRNeIv18ISE8QqQs4l"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

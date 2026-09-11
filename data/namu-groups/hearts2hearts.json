@@ -261,5 +261,174 @@
       "누적_써클": "-",
       "비고": "캐치! 티니핑 시즌4 오프닝 테마"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 6512301,
+      "spotify_id": "1ZLU77nRzQIaP23mVSYpCQ",
+      "top_tracks": [
+        {
+          "title": "RUDE!",
+          "play_count": 28901361,
+          "uri": "spotify:track:2bAQsNqdo62T8akkIvWzGl"
+        },
+        {
+          "title": "FOCUS",
+          "play_count": 50597284,
+          "uri": "spotify:track:6jYiHr12NVKLzn0X7K8aSK"
+        },
+        {
+          "title": "STYLE",
+          "play_count": 90547899,
+          "uri": "spotify:track:5EoV2HmAlkqN1XvsIjOBZZ"
+        },
+        {
+          "title": "The Chase",
+          "play_count": 102000384,
+          "uri": "spotify:track:68UrZQUuO3O6eUiD226xHg"
+        },
+        {
+          "title": "Pretty Please",
+          "play_count": 24983627,
+          "uri": "spotify:track:6oBDhkYQDhFS2q0wQ6xZLO"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 178141656,
+      "track_count": 17,
+      "mean_views": 10478920,
+      "max_views": 54287621,
+      "albums": [
+        {
+          "title": "RUDE!",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "RUDE!",
+              "video_id": "Q4AE3ub4nBM",
+              "youtube_views": 16430993
+            }
+          ]
+        },
+        {
+          "title": "FOCUS - The 1st Mini Album",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "FOCUS",
+              "video_id": "eqKhhG4FVoQ",
+              "youtube_views": 26352340
+            },
+            {
+              "title": "Apple Pie",
+              "video_id": "4k_HiMxY_gg",
+              "youtube_views": 4744489
+            },
+            {
+              "title": "Pretty Please",
+              "video_id": "q2ageHyvApg",
+              "youtube_views": 684258
+            },
+            {
+              "title": "Flutter",
+              "video_id": "sXApG5MkuNU",
+              "youtube_views": 2796601
+            },
+            {
+              "title": "Blue Moon",
+              "video_id": "GxOb7WY88NM",
+              "youtube_views": 2110350
+            }
+          ]
+        },
+        {
+          "title": "Pretty Please",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Pretty Please",
+              "video_id": "ZMppsPVqDt4",
+              "youtube_views": 11162182
+            }
+          ]
+        },
+        {
+          "title": "STYLE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "STYLE",
+              "video_id": "D3tUvbqOAAY",
+              "youtube_views": 51057044
+            }
+          ]
+        },
+        {
+          "title": "The Chase",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "The Chase",
+              "video_id": "dTVCk33AQEs",
+              "youtube_views": 54287621
+            },
+            {
+              "title": "Butterflies",
+              "video_id": "4xkPyVSKu1U",
+              "youtube_views": 6852847
+            }
+          ]
+        },
+        {
+          "title": "The Chase (Sped Up)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "The Chase (Sped Up)",
+              "video_id": "rHwba1N6R4A",
+              "youtube_views": 385382
+            },
+            {
+              "title": "Butterflies (Sped Up)",
+              "video_id": "kxd1-v0P1yc",
+              "youtube_views": 205141
+            }
+          ]
+        },
+        {
+          "title": "FOCUS (Remixes)",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "FOCUS (Jaebin Remix)",
+              "video_id": "Ut-cDAhM3zs",
+              "youtube_views": 445453
+            },
+            {
+              "title": "FOCUS (DJ Seinfeld Remix)",
+              "video_id": "xKP94-tWs9U",
+              "youtube_views": 120895
+            },
+            {
+              "title": "FOCUS (Young Franco Remix)",
+              "video_id": "ryECR8NL674",
+              "youtube_views": 207130
+            },
+            {
+              "title": "FOCUS (sooyeon Remix)",
+              "video_id": "vMIjXs8i82A",
+              "youtube_views": 110081
+            },
+            {
+              "title": "FOCUS",
+              "video_id": "BHOSlalNoxU",
+              "youtube_views": 188849
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -242,5 +242,302 @@
         1
       ]
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 7288656,
+      "spotify_id": "1SIocsqdEefUTE6XKGUiVS",
+      "top_tracks": [
+        {
+          "title": "PSYCHO",
+          "play_count": 58503098,
+          "uri": "spotify:track:7jp2VW62Yt2bDOaRas3hR6"
+        },
+        {
+          "title": "WE GO UP",
+          "play_count": 74495399,
+          "uri": "spotify:track:49DTiFx70EuJLV7hDsCo6z"
+        },
+        {
+          "title": "DRIP",
+          "play_count": 262134550,
+          "uri": "spotify:track:198zDKzyktXRG1PGpidY9h"
+        },
+        {
+          "title": "SHEESH",
+          "play_count": 386198462,
+          "uri": "spotify:track:1njlnn8ZKHI77Pe9szIONR"
+        },
+        {
+          "title": "FOREVER",
+          "play_count": 206256310,
+          "uri": "spotify:track:6b6KXDbDn0s0Jepxm8a3nr"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 857508413,
+      "track_count": 39,
+      "mean_views": 21987395,
+      "max_views": 164212141,
+      "albums": [
+        {
+          "title": "DRIP",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "CLIK CLAK",
+              "video_id": "le_VX8l35XI",
+              "youtube_views": 25373628
+            },
+            {
+              "title": "DRIP",
+              "video_id": "HkiaLCniIj8",
+              "youtube_views": 164212141
+            },
+            {
+              "title": "Love, Maybe",
+              "video_id": "_MlIlA1RJwg",
+              "youtube_views": 17319073
+            },
+            {
+              "title": "Really Like You",
+              "video_id": "yrfnj9Q54m4",
+              "youtube_views": 35160662
+            },
+            {
+              "title": "BILLIONAIRE",
+              "video_id": "uYl9b2DerTQ",
+              "youtube_views": 32563035
+            },
+            {
+              "title": "Love In My Heart",
+              "video_id": "-Fs0KQOsNeE",
+              "youtube_views": 22363275
+            },
+            {
+              "title": "Woke Up In Tokyo (RUKA & ASA)",
+              "video_id": "i2WcUnbZXuU",
+              "youtube_views": 11771808
+            },
+            {
+              "title": "FOREVER",
+              "video_id": "XLj72wrprlM",
+              "youtube_views": 37881901
+            },
+            {
+              "title": "BATTER UP (Remix) - Bonus Track",
+              "video_id": "_G0ywiOt7KQ",
+              "youtube_views": 6557548
+            }
+          ]
+        },
+        {
+          "title": "BABYMONS7ER",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "MONSTERS (Intro)",
+              "video_id": "T1KVOD4BOGU",
+              "youtube_views": 5226305
+            },
+            {
+              "title": "SHEESH",
+              "video_id": "-Uw97CvOgKU",
+              "youtube_views": 149924933
+            },
+            {
+              "title": "LIKE THAT",
+              "video_id": "cO--M-DaMP0",
+              "youtube_views": 70151268
+            },
+            {
+              "title": "Stuck In The Middle (7 ver.)",
+              "video_id": "FXSSw8ZDJUg",
+              "youtube_views": 9662162
+            },
+            {
+              "title": "BATTER UP (7 ver.)",
+              "video_id": "Fvxa9G3UHgg",
+              "youtube_views": 56029117
+            },
+            {
+              "title": "DREAM",
+              "video_id": "R8GkDYfRHtM",
+              "youtube_views": 11802614
+            },
+            {
+              "title": "Stuck In The Middle (Remix)",
+              "video_id": "HXO-GqswKms",
+              "youtube_views": 8586911
+            }
+          ]
+        },
+        {
+          "title": "2025 BABYMONSTER 1st WORLD TOUR <HELLO MONSTERS> IN JAPAN ~2025.04.13 K-ARENA YOKOHAMA~",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "DRIP (Remix) (Live)",
+              "video_id": "KxibDMtB5r8",
+              "youtube_views": 1260444
+            },
+            {
+              "title": "BATTER UP (Live)",
+              "video_id": "_OUeWzS-iGg",
+              "youtube_views": 829023
+            },
+            {
+              "title": "CLIK CLAK (Live)",
+              "video_id": "dt9Uyy2544U",
+              "youtube_views": 654883
+            },
+            {
+              "title": "LIKE THAT (Live)",
+              "video_id": "m-nbWsflJTw",
+              "youtube_views": 565408
+            },
+            {
+              "title": "SHEESH (Live)",
+              "video_id": "gXfbXklqCfc",
+              "youtube_views": 730840
+            },
+            {
+              "title": "Woke Up In Tokyo (RUKA & ASA) (Live)",
+              "video_id": "UdLP5uSX2go",
+              "youtube_views": 315549
+            },
+            {
+              "title": "Love, Maybe (Live)",
+              "video_id": "D2lV5RujuNw",
+              "youtube_views": 384671
+            },
+            {
+              "title": "DREAM (Live)",
+              "video_id": "3ZGUEaz73WY",
+              "youtube_views": 291592
+            },
+            {
+              "title": "BILLIONAIRE (Live)",
+              "video_id": "e-HeOkkML1I",
+              "youtube_views": 567466
+            },
+            {
+              "title": "Really Like You (Live)",
+              "video_id": "cRkRonL61so",
+              "youtube_views": 382359
+            },
+            {
+              "title": "CLAP YOUR HANDS ~ Go Away (2NE1 Cover) (Live)",
+              "video_id": "D4d-75RKP6M",
+              "youtube_views": 773968
+            },
+            {
+              "title": "FOREVER (Live)",
+              "video_id": "4eVslEiKQxE",
+              "youtube_views": 477850
+            },
+            {
+              "title": "Love In My Heart (Live)",
+              "video_id": "bGFDWqYuNWc",
+              "youtube_views": 428263
+            }
+          ]
+        },
+        {
+          "title": "WE GO UP",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "WE GO UP",
+              "video_id": "e2majw1AVrw",
+              "youtube_views": 29686054
+            },
+            {
+              "title": "PSYCHO",
+              "video_id": "JhNsZdw3_Iw",
+              "youtube_views": 22542356
+            },
+            {
+              "title": "SUPA DUPA LUV",
+              "video_id": "khbNf67Cx3E",
+              "youtube_views": 8407860
+            },
+            {
+              "title": "WILD",
+              "video_id": "zemepu6x244",
+              "youtube_views": 4583806
+            }
+          ]
+        },
+        {
+          "title": "HOT SAUCE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "HOT SAUCE",
+              "video_id": "Zb2NO07e_zI",
+              "youtube_views": 22775139
+            }
+          ]
+        },
+        {
+          "title": "Ghost",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Ghost",
+              "video_id": "y3FgAAgMR2A",
+              "youtube_views": 9580694
+            }
+          ]
+        },
+        {
+          "title": "BATTER UP -JP Version",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BATTER UP -JP Version",
+              "video_id": "1x-dtYpV-X0",
+              "youtube_views": 567028
+            }
+          ]
+        },
+        {
+          "title": "FOREVER",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "FOREVER",
+              "video_id": "6DUSDNHzQmw",
+              "youtube_views": 37754357
+            }
+          ]
+        },
+        {
+          "title": "Stuck In The Middle",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Stuck In The Middle",
+              "video_id": "4YkvN4AgCJk",
+              "youtube_views": 6111669
+            }
+          ]
+        },
+        {
+          "title": "BATTER UP",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BATTER UP",
+              "video_id": "JwwhHgLyNSM",
+              "youtube_views": 43250753
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -123,5 +123,145 @@
       "누적_써클": "",
       "비고": "타이틀곡: SERVE"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 1874427,
+      "spotify_id": "2b8aDRZFgUGWiUGchpWsyC",
+      "top_tracks": [
+        {
+          "title": "1&Only",
+          "play_count": 66413035,
+          "uri": "spotify:track:0lOOUAYUITTHYyGWWAqKIr"
+        },
+        {
+          "title": "Rizz",
+          "play_count": 15046118,
+          "uri": "spotify:track:1Wr3KJN8y31KSsfi3WjVgv"
+        },
+        {
+          "title": "Biii:-P",
+          "play_count": 11758621,
+          "uri": "spotify:track:4z7I0iaA063AFHeGElKap5"
+        },
+        {
+          "title": "I'mma Be",
+          "play_count": 17303074,
+          "uri": "spotify:track:09B49mDd16vmAxbRKXdTfd"
+        },
+        {
+          "title": "BIZNESS",
+          "play_count": 12852693,
+          "uri": "spotify:track:298VKd3LRLU5nCbYVPeR64"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 37561214,
+      "track_count": 16,
+      "mean_views": 2347575,
+      "max_views": 17109851,
+      "albums": [
+        {
+          "title": "UXLXVE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Scent",
+              "video_id": "SKvCDNNeB7o",
+              "youtube_views": 1705385
+            },
+            {
+              "title": "Rizz",
+              "video_id": "GXk3HKgMdlQ",
+              "youtube_views": 4067925
+            },
+            {
+              "title": "Dirty Baby",
+              "video_id": "HOEEF1kAijY",
+              "youtube_views": 1017116
+            },
+            {
+              "title": "Biii:-P",
+              "video_id": "ZXktVH-Pgps",
+              "youtube_views": 3371520
+            },
+            {
+              "title": "Kiss and say goodbye",
+              "video_id": "YcRWLt7AZOQ",
+              "youtube_views": 534709
+            },
+            {
+              "title": "Drip Drip",
+              "video_id": "uzCzCSoNr2w",
+              "youtube_views": 843339
+            }
+          ]
+        },
+        {
+          "title": "I ONE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "1 & Only",
+              "video_id": "DFZ_NWdQ-B4",
+              "youtube_views": 17109851
+            },
+            {
+              "title": "1 of LOV",
+              "video_id": "j73E1OZffrg",
+              "youtube_views": 1599049
+            },
+            {
+              "title": "BIZNESS",
+              "video_id": "AiPnEfpqI3E",
+              "youtube_views": 2860748
+            },
+            {
+              "title": "1 & Only (Instrumental)",
+              "video_id": "Y5u9O9nBeUg",
+              "youtube_views": 204977
+            },
+            {
+              "title": "1 of LOV (Instrumental)",
+              "video_id": "_1s9ygg3hxg",
+              "youtube_views": 71946
+            },
+            {
+              "title": "BIZNESS (Instrumental)",
+              "video_id": "v07C7VxB9Ew",
+              "youtube_views": 88712
+            }
+          ]
+        },
+        {
+          "title": "I'mma Be",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "I'mma Be",
+              "video_id": "eTBbnHDxpJM",
+              "youtube_views": 3833536
+            },
+            {
+              "title": "I'mma Be (Backing Track)",
+              "video_id": "Hul_vjFfr3Q",
+              "youtube_views": 101026
+            },
+            {
+              "title": "I'mma Be (88 Techno Remix by dxp)",
+              "video_id": "Tbh2C_8mArA",
+              "youtube_views": 89138
+            },
+            {
+              "title": "I'mma Be (Dark House Remix by dxp)",
+              "video_id": "y_9BiSbS24Y",
+              "youtube_views": 62237
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

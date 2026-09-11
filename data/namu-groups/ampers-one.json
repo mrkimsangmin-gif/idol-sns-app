@@ -169,5 +169,197 @@
       "누적_써클": "-",
       "비고": "GOD"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 150177,
+      "spotify_id": "4T0Chh3DGxJrEs3gM0biqg",
+      "top_tracks": [
+        {
+          "title": "That’s That",
+          "play_count": 1402206,
+          "uri": "spotify:track:2Sf6SXb3LAq4aWq6Pm9akt"
+        },
+        {
+          "title": "He + She = We",
+          "play_count": 1787989,
+          "uri": "spotify:track:1OF96rbmy2GScyaEXuXo43"
+        },
+        {
+          "title": "Kick Start",
+          "play_count": 1441966,
+          "uri": "spotify:track:5SZWHxjlK2Sbt43KjM1dCH"
+        },
+        {
+          "title": "Seesaw",
+          "play_count": 579001,
+          "uri": "spotify:track:6jCCxnX8sobqAXqPGR39I1"
+        },
+        {
+          "title": "On And On",
+          "play_count": 1990159,
+          "uri": "spotify:track:2xeVbsz4Ab2cFX9TgOoZA0"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 4021342,
+      "track_count": 24,
+      "mean_views": 167555,
+      "max_views": 432514,
+      "albums": [
+        {
+          "title": "LOUD & PROUD",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "That’s That (그게 그거지 (That’s That))",
+              "video_id": "rNlKYbEkmJU",
+              "youtube_views": 432514
+            },
+            {
+              "title": "Seesaw (삐걱삐걱 (Seesaw))",
+              "video_id": "_qtMzASZ91o",
+              "youtube_views": 184674
+            },
+            {
+              "title": "Get Famous (Get Famous)",
+              "video_id": "RG1WSaE9uxA",
+              "youtube_views": 58003
+            },
+            {
+              "title": "Move Out (길을 비켜 (Move Out))",
+              "video_id": "584HM6Im2aU",
+              "youtube_views": 71030
+            },
+            {
+              "title": "Did It (일냈어 (Did It))",
+              "video_id": "yg6HvDf_5-8",
+              "youtube_views": 46203
+            },
+            {
+              "title": "I’m Down (I’m Down)",
+              "video_id": "eQvI62OVbBg",
+              "youtube_views": 129940
+            }
+          ]
+        },
+        {
+          "title": "WILD & FREE",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Kick Start (Kick Start)",
+              "video_id": "9KWuQrfjz44",
+              "youtube_views": 253582
+            },
+            {
+              "title": "My Mistake (My Mistake)",
+              "video_id": "d-nl9RAqmts",
+              "youtube_views": 101413
+            },
+            {
+              "title": "Who Are You (Who Are You)",
+              "video_id": "hql2GIs-y_E",
+              "youtube_views": 58453
+            },
+            {
+              "title": "I Know You (I Know You)",
+              "video_id": "quuWRebjxiM",
+              "youtube_views": 85872
+            },
+            {
+              "title": "Knock Knock (Knock Knock)",
+              "video_id": "pQ11_EC-Ar4",
+              "youtube_views": 75220
+            },
+            {
+              "title": "WYD (WYD)",
+              "video_id": "bp_D8uYgiik",
+              "youtube_views": 105124
+            }
+          ]
+        },
+        {
+          "title": "ONE QUESTION",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "He + She = We (He + She = We)",
+              "video_id": "DKlDnKgSI38",
+              "youtube_views": 325918
+            },
+            {
+              "title": "Calling You Back (Calling You Back)",
+              "video_id": "Y3FZjvLshVA",
+              "youtube_views": 63413
+            },
+            {
+              "title": "Slide (Slide)",
+              "video_id": "P6Y0aKfHMIM",
+              "youtube_views": 92646
+            },
+            {
+              "title": "Whip It (Whip It)",
+              "video_id": "GmCPmD0Kx0Y",
+              "youtube_views": 76320
+            },
+            {
+              "title": "Over The Moon (Over The Moon)",
+              "video_id": "JIPSMk6PUcc",
+              "youtube_views": 113177
+            },
+            {
+              "title": "Fly (Fly)",
+              "video_id": "vonI_-oZgdc",
+              "youtube_views": 165558
+            }
+          ]
+        },
+        {
+          "title": "ONE HEARTED",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Broken Heart (Broken Heart)",
+              "video_id": "GWzQd9eDcOc",
+              "youtube_views": 322601
+            },
+            {
+              "title": "Crazy Stupid Fun (Crazy Stupid Fun)",
+              "video_id": "HmjPNFf9UFk",
+              "youtube_views": 136667
+            },
+            {
+              "title": "Someday (Someday)",
+              "video_id": "A545Rkk-4lQ",
+              "youtube_views": 279535
+            }
+          ]
+        },
+        {
+          "title": "AMPERSAND ONE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "On And On (On And On)",
+              "video_id": "6WRUDdmEm-M",
+              "youtube_views": 391404
+            },
+            {
+              "title": "Sweet & Sour (Sweet & Sour)",
+              "video_id": "b1vCbYJZPZg",
+              "youtube_views": 258261
+            },
+            {
+              "title": "Sheesh (Sheesh)",
+              "video_id": "L4kmOC0Z3Ro",
+              "youtube_views": 193814
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

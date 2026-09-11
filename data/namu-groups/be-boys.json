@@ -127,5 +127,89 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 2516,
+      "spotify_id": "0A86PbD7BDlDWi6dtGgJXI",
+      "top_tracks": [
+        {
+          "title": "Earth and Moon",
+          "play_count": 24369,
+          "uri": "spotify:track:5mu3o6CnXpekrU7tIaxMgR"
+        },
+        {
+          "title": "if i ain’t got you",
+          "play_count": 51203,
+          "uri": "spotify:track:7ttVhWEV7D4cifrYEIKXKF"
+        },
+        {
+          "title": "I′M SO SORRY, BUT I LOVE YOU",
+          "play_count": 52449,
+          "uri": "spotify:track:11aFqEJWAh9W880NHQb3oM"
+        },
+        {
+          "title": "CLOVER",
+          "play_count": 20927,
+          "uri": "spotify:track:4cjqXrN46sr0bRFckQtgqG"
+        },
+        {
+          "title": "BE There",
+          "play_count": 13401,
+          "uri": "spotify:track:2eCO5oBVvHHHwBVNCUzK2V"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 50448,
+      "track_count": 6,
+      "mean_views": 8408,
+      "max_views": 20757,
+      "albums": [
+        {
+          "title": "Earth and Moon",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Earth and Moon",
+              "video_id": "f-b42eWnBc0",
+              "youtube_views": 5309
+            },
+            {
+              "title": "Earth and Moon (Instrumental)",
+              "video_id": "UoJGjoE45j8",
+              "youtube_views": 138
+            }
+          ]
+        },
+        {
+          "title": "BE:1",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "I′M SO SORRY, BUT I LOVE YOU",
+              "video_id": "iVmrfO4Dyy0",
+              "youtube_views": 20757
+            },
+            {
+              "title": "if i ain’t got you",
+              "video_id": "u4qnOPBWZmU",
+              "youtube_views": 10598
+            },
+            {
+              "title": "CLOVER",
+              "video_id": "b5_2nYQ_UCw",
+              "youtube_views": 5158
+            },
+            {
+              "title": "BE There",
+              "video_id": "9nDd-98-cm8",
+              "youtube_views": 8488
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

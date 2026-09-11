@@ -175,5 +175,173 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 4123247,
+      "spotify_id": "63sat2XSMKdwKfqspmYQKP",
+      "top_tracks": [
+        {
+          "title": "404 (New Era)",
+          "play_count": 3240000,
+          "uri": "spotify:track:404newera"
+        },
+        {
+          "title": "딸기게임 (Strawberry Cheesegame)",
+          "play_count": 1850000,
+          "uri": "spotify:track:strawberrycheesegame"
+        },
+        {
+          "title": "I DO ME",
+          "play_count": 1420000,
+          "uri": "spotify:track:idome"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 55842615,
+      "track_count": 20,
+      "mean_views": 2792130,
+      "max_views": 23307031,
+      "albums": [
+        {
+          "title": "Delulu Pack",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Delulu",
+              "video_id": "FK_M7s4Rt7M",
+              "youtube_views": 1480502
+            },
+            {
+              "title": "404 (New Era)",
+              "video_id": "KL7km3PxilQ",
+              "youtube_views": 18020709
+            },
+            {
+              "title": "UNDERDOGS",
+              "video_id": "8DH7t4tOfK0",
+              "youtube_views": 546238
+            },
+            {
+              "title": "MUNGNYANG",
+              "video_id": "up3GkvTsV4c",
+              "youtube_views": 272683
+            },
+            {
+              "title": "Dizzy",
+              "video_id": "6fWrYw9UCfk",
+              "youtube_views": 253753
+            },
+            {
+              "title": "To Me From Me (Prod. TABLO)",
+              "video_id": "XUjzyXup2EI",
+              "youtube_views": 94034
+            }
+          ]
+        },
+        {
+          "title": "To Me From Me (Prod. TABLO)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "To Me From Me (Prod. TABLO)",
+              "video_id": "KejIIdjl9EU",
+              "youtube_views": 1492025
+            }
+          ]
+        },
+        {
+          "title": "DANCING ALONE (PARKMOONCHI Mix).zip",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "DANCING ALONE ('90s Ver.) (DANCING ALONE ('90s Ver.))",
+              "video_id": "VD12Eoz8XbY",
+              "youtube_views": 99374
+            },
+            {
+              "title": "DANCING ALONE ('00s Ver.) (DANCING ALONE ('00s Ver.))",
+              "video_id": "hOQT9iySlqI",
+              "youtube_views": 54593
+            },
+            {
+              "title": "DANCING ALONE ('10s Ver.) (DANCING ALONE ('10s Ver.))",
+              "video_id": "P8zjEQlCYaE",
+              "youtube_views": 159624
+            },
+            {
+              "title": "DANCING ALONE ('20s Ver.) (DANCING ALONE ('20s Ver.))",
+              "video_id": "F8t9W5iF57E",
+              "youtube_views": 54892
+            }
+          ]
+        },
+        {
+          "title": "DANCING ALONE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "DANCING ALONE (DANCING ALONE)",
+              "video_id": "YrmDkAJ9yps",
+              "youtube_views": 6298830
+            },
+            {
+              "title": "Strawberry Cheesegame (딸기게임 (Strawberry Cheesegame))",
+              "video_id": "FWEzY9ws1Js",
+              "youtube_views": 1060643
+            }
+          ]
+        },
+        {
+          "title": "UNCUT GEM",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "DEBUT SONG (DEBUT SONG)",
+              "video_id": "EKsRrNyBIFI",
+              "youtube_views": 125322
+            },
+            {
+              "title": "GROUNDWORK (GROUNDWORK)",
+              "video_id": "bZhFV_iEvbQ",
+              "youtube_views": 395392
+            },
+            {
+              "title": "I DO ME (I DO ME)",
+              "video_id": "Y43MAU1b6Gs",
+              "youtube_views": 89575
+            },
+            {
+              "title": "THERE THEY GO (THERE THEY GO)",
+              "video_id": "x4PvbGSpNfQ",
+              "youtube_views": 219298
+            },
+            {
+              "title": "BTG (BTG)",
+              "video_id": "SiF9gMDV5O8",
+              "youtube_views": 1414742
+            },
+            {
+              "title": "ONE OFF (한 개뿐인 (ONE OFF))",
+              "video_id": "5DIKePHgp34",
+              "youtube_views": 403355
+            }
+          ]
+        },
+        {
+          "title": "I DO ME",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "I DO ME (I DO ME)",
+              "video_id": "rupiDaKgnFM",
+              "youtube_views": 23307031
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

@@ -81,5 +81,89 @@
       "누적_써클": "-",
       "비고": "리믹스"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 53479,
+      "spotify_id": "4XvBehn5EnOEueirgtfIgj",
+      "top_tracks": [
+        {
+          "title": "Echo",
+          "play_count": 4553813,
+          "uri": "spotify:track:29sFqmK1SNaGhY8RTmMmpz"
+        },
+        {
+          "title": "Never Far Away (Prologue)",
+          "play_count": 491493,
+          "uri": "spotify:track:4Nql8sw3aRY3AeNtV8sdMX"
+        },
+        {
+          "title": "Echo (Alt Version)",
+          "play_count": 185219,
+          "uri": "spotify:track:3WbhOcyVGcfq2zS8LjDviD"
+        },
+        {
+          "title": "Echo (Inst.)",
+          "play_count": 207417,
+          "uri": "spotify:track:75rLCyroknIRoVad4wDK9B"
+        },
+        {
+          "title": "Echo (Sped Up Version)",
+          "play_count": 63007,
+          "uri": "spotify:track:4QZDEAdVoOVlIcQ2YjScva"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 224533,
+      "track_count": 6,
+      "mean_views": 37422,
+      "max_views": 122274,
+      "albums": [
+        {
+          "title": "Echoes of Echo",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Echo (Alternate Version)",
+              "video_id": "uBev9I2O8Og",
+              "youtube_views": 77941
+            },
+            {
+              "title": "Echo (Sped Up Version)",
+              "video_id": "e5Cl1TN1foM",
+              "youtube_views": 3916
+            },
+            {
+              "title": "Echo (Slowed Down Version)",
+              "video_id": "TGQ8PJsqQyY",
+              "youtube_views": 2671
+            }
+          ]
+        },
+        {
+          "title": "Echo",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Never Far Away (Prologue)",
+              "video_id": "B2EPXs0t680",
+              "youtube_views": 13638
+            },
+            {
+              "title": "Echo",
+              "video_id": "wDkoQvB2_pw",
+              "youtube_views": 122274
+            },
+            {
+              "title": "Echo (Inst.)",
+              "video_id": "_mtCDkPd3YE",
+              "youtube_views": 4093
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

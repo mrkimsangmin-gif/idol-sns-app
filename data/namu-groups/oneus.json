@@ -585,5 +585,633 @@
       "누적_써클": "-",
       "비고": "타이틀곡: 나비효과 (Butterfly Effect)"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 442980,
+      "spotify_id": "3CVYSpM7nfHFG5qCTW7Ht9",
+      "top_tracks": [
+        {
+          "title": "LUNA",
+          "play_count": 21733850,
+          "uri": "spotify:track:5L2uuQUMiub01LRhTKRCFj"
+        },
+        {
+          "title": "Same Scent - Japanese Version",
+          "play_count": 20434076,
+          "uri": "spotify:track:6Po0reh8h94W5WOdA77BW5"
+        },
+        {
+          "title": "Grenade",
+          "play_count": 389939,
+          "uri": "spotify:track:69erutIC5E9VFHtDKerTkd"
+        },
+        {
+          "title": "Valkyrie",
+          "play_count": 31219124,
+          "uri": "spotify:track:0oNFVyzwK6TFdFHSsD1dmC"
+        },
+        {
+          "title": "X",
+          "play_count": 2142858,
+          "uri": "spotify:track:0XTt8RvNdO1zxxTf0L7ZLr"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 46060137,
+      "track_count": 98,
+      "mean_views": 470001,
+      "max_views": 6225118,
+      "albums": [
+        {
+          "title": "Dear.M",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "IKUK (IKUK)",
+              "video_id": "foG0GWrcAkc",
+              "youtube_views": 674116
+            },
+            {
+              "title": "We Are Young (We Are Young)",
+              "video_id": "FNuiO6GGirQ",
+              "youtube_views": 142751
+            },
+            {
+              "title": "DEVILISH LOVE (DEVILISH LOVE)",
+              "video_id": "fqD1beAtRp0",
+              "youtube_views": 151352
+            },
+            {
+              "title": "W (W)",
+              "video_id": "6uTvnzCv83Q",
+              "youtube_views": 178817
+            },
+            {
+              "title": "Rupert's drop (루퍼트의 눈물 (Rupert's drop))",
+              "video_id": "y9VUGm7tjwk",
+              "youtube_views": 28599
+            },
+            {
+              "title": "Valkyrie (Penta Ver.) (발키리 (Valkyrie) (Penta Ver.))",
+              "video_id": "HlVAQj0S_Uk",
+              "youtube_views": 38093
+            },
+            {
+              "title": "Twilight (Penta Ver.) (태양이 떨어진다 (Twilight) (Penta Ver.))",
+              "video_id": "I_kyPicJulU",
+              "youtube_views": 30928
+            },
+            {
+              "title": "LIT (Penta Ver.) (가자 (LIT) (Penta Ver.))",
+              "video_id": "dWMbt9tl7Pg",
+              "youtube_views": 36734
+            },
+            {
+              "title": "A Song Written Easily (Penta Ver.) (쉽게 쓰여진 노래 (A Song Written Easily) (Penta Ver.))",
+              "video_id": "0_0q7uWwOFE",
+              "youtube_views": 37060
+            },
+            {
+              "title": "TO BE OR NOT TO BE (Penta Ver.) (TO BE OR NOT TO BE (Penta Ver.))",
+              "video_id": "Cw0jD-AZHfI",
+              "youtube_views": 32074
+            },
+            {
+              "title": "BBUSYEO (Penta Ver.) (뿌셔 (BBUSYEO) (Penta Ver.))",
+              "video_id": "7xkEY58q850",
+              "youtube_views": 21071
+            },
+            {
+              "title": "No diggity (Penta Ver.) (반박불가 (No diggity) (Penta Ver.))",
+              "video_id": "XnepG8vavp0",
+              "youtube_views": 26746
+            },
+            {
+              "title": "BLACK MIRROR (Penta Ver.) (BLACK MIRROR (Penta Ver.))",
+              "video_id": "2c0mLAlyTSE",
+              "youtube_views": 25540
+            },
+            {
+              "title": "Life is Beautiful (Penta Ver.) (Life is Beautiful (Penta Ver.))",
+              "video_id": "ND2adcD7-Xk",
+              "youtube_views": 20449
+            },
+            {
+              "title": "LUNA (Penta Ver.) (월하미인 (月下美人 : LUNA) (Penta Ver.))",
+              "video_id": "eSOag41dr70",
+              "youtube_views": 37680
+            },
+            {
+              "title": "Bring it on (Penta Ver.) (덤벼 (Bring it on) (Penta Ver.))",
+              "video_id": "MfF96BoX9pU",
+              "youtube_views": 22693
+            },
+            {
+              "title": "Same Scent (Penta Ver.) (Same Scent (Penta Ver.))",
+              "video_id": "7PjXH23sHnk",
+              "youtube_views": 28001
+            }
+          ]
+        },
+        {
+          "title": "Dopamine",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "Dopamine",
+              "video_id": "32mQ8RUnFn4",
+              "youtube_views": 158758
+            },
+            {
+              "title": "過渡期",
+              "video_id": "dAI6FFK2T0E",
+              "youtube_views": 64929
+            },
+            {
+              "title": "Don't know why",
+              "video_id": "PTWjGas-mfQ",
+              "youtube_views": 60570
+            },
+            {
+              "title": "Same Scent (Japanese Version)",
+              "video_id": "VfA4AgGeE8g",
+              "youtube_views": 610358
+            },
+            {
+              "title": "Bring it on (Japanese Version)",
+              "video_id": "Io1IYgwO5DA",
+              "youtube_views": 104146
+            },
+            {
+              "title": "A Song Written Easily (Japanese Version)",
+              "video_id": "AM3Y_aJw9RE",
+              "youtube_views": 126103
+            },
+            {
+              "title": "TO BE OR NOT TO BE (Japanese Version)",
+              "video_id": "Kz0bs0Dl_zg",
+              "youtube_views": 93586
+            },
+            {
+              "title": "Leader",
+              "video_id": "WINjDjmURB0",
+              "youtube_views": 86544
+            },
+            {
+              "title": "Dopamine (Instrumental)",
+              "video_id": "I8ooJMmzGQ0",
+              "youtube_views": 10281
+            }
+          ]
+        },
+        {
+          "title": "MALUS",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Intro : EDEN (Intro : EDEN)",
+              "video_id": "tZoDclG2AAo",
+              "youtube_views": 239908
+            },
+            {
+              "title": "Same Scent (Same Scent)",
+              "video_id": "PYm8NsSC_qs",
+              "youtube_views": 4263910
+            },
+            {
+              "title": "STUPID LOVE (STUPID LOVE)",
+              "video_id": "d1Ife1Tr76w",
+              "youtube_views": 1641760
+            },
+            {
+              "title": "Gravitation (천만분의 1의 확률의 너 (Gravitation))",
+              "video_id": "GCXKElD6A_U",
+              "youtube_views": 656363
+            },
+            {
+              "title": "Mermaid (Mermaid)",
+              "video_id": "xw5-4J8qkDg",
+              "youtube_views": 320401
+            },
+            {
+              "title": "FULL MOON (월광 (FULL MOON))",
+              "video_id": "zOSpQqPBg0E",
+              "youtube_views": 437735
+            },
+            {
+              "title": "Same Scent (English ver.) (Same Scent (English ver.))",
+              "video_id": "lnLpNSP4I5M",
+              "youtube_views": 205118
+            }
+          ]
+        },
+        {
+          "title": "TRICKSTER",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Intro : Who Got the Joker? (Intro : Who Got the Joker?)",
+              "video_id": "TuSZrgo0Y_Q",
+              "youtube_views": 349903
+            },
+            {
+              "title": "Bring it on (덤벼 (Bring it on))",
+              "video_id": "s5vqHKXUxXk",
+              "youtube_views": 1166686
+            },
+            {
+              "title": "Skydivin’ (Skydivin’)",
+              "video_id": "2151LqWUl04",
+              "youtube_views": 401872
+            },
+            {
+              "title": "Firebomb (두 눈 빠지도록 (Firebomb))",
+              "video_id": "MEzZVo16sto",
+              "youtube_views": 361672
+            },
+            {
+              "title": "Fragile (취급주의 (Fragile))",
+              "video_id": "FIraiJszDiI",
+              "youtube_views": 313475
+            },
+            {
+              "title": "Mr. Wolf (Mr. Wolf)",
+              "video_id": "t75-Fg7dEsc",
+              "youtube_views": 760639
+            },
+            {
+              "title": "Bring it on (English ver.) (덤벼 (Bring it on) (English ver.))",
+              "video_id": "ZvPWUdKoqAY",
+              "youtube_views": 214757
+            }
+          ]
+        },
+        {
+          "title": "BLOOD MOON",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Intro : Window (Feat. Choi Ye Lim) (Intro : 창 (窓 : Window) (Feat. 최예림))",
+              "video_id": "zZX2eoo7Hc4",
+              "youtube_views": 156230
+            },
+            {
+              "title": "LUNA (월하미인 (月下美人 : LUNA))",
+              "video_id": "WVHl_m2AZQU",
+              "youtube_views": 6225118
+            },
+            {
+              "title": "Yes Or No (사랑의 결말은 모 아니면 도 (Yes Or No))",
+              "video_id": "OKlkVxmOscM",
+              "youtube_views": 454495
+            },
+            {
+              "title": "Life is Beautiful (Life is Beautiful)",
+              "video_id": "R47rbIKBJRQ",
+              "youtube_views": 604949
+            },
+            {
+              "title": "Shut Up 받고 Crazy Hot! (Shut Up 받고 Crazy Hot!)",
+              "video_id": "1oGPsNy4JfE",
+              "youtube_views": 507725
+            },
+            {
+              "title": "We're in Love (헤엄쳐 (We're in Love))",
+              "video_id": "xYrmVGVq9hg",
+              "youtube_views": 388868
+            },
+            {
+              "title": "Who You Are (Who You Are)",
+              "video_id": "b0Mndwa7VCk",
+              "youtube_views": 374401
+            }
+          ]
+        },
+        {
+          "title": "DEVIL",
+          "year": "2021",
+          "tracks": [
+            {
+              "title": "Intro : Devil is in the detail (Intro : Devil is in the detail)",
+              "video_id": "hVPpACS3F50",
+              "youtube_views": 151718
+            },
+            {
+              "title": "No diggity (반박불가 (No diggity))",
+              "video_id": "Xi2BXwDeGbs",
+              "youtube_views": 4202382
+            },
+            {
+              "title": "Leftover (식은 음식 (Leftover))",
+              "video_id": "oIM0QVQtNRQ",
+              "youtube_views": 509046
+            },
+            {
+              "title": "Incomplete (완벽하지 않아도 괜찮아 (Incomplete))",
+              "video_id": "cKvhbSAfn_o",
+              "youtube_views": 1046186
+            },
+            {
+              "title": "Youth (Youth)",
+              "video_id": "TCWfzxGJivg",
+              "youtube_views": 452022
+            },
+            {
+              "title": "BBUSYEO (뿌셔 (BBUSYEO))",
+              "video_id": "U3HktWdxRX4",
+              "youtube_views": 475822
+            },
+            {
+              "title": "Rewind (우리의 시간은 거꾸로 흐른다 (Rewind))",
+              "video_id": "xSA2gnn_r8I",
+              "youtube_views": 750060
+            },
+            {
+              "title": "Lion Heart (Lion Heart)",
+              "video_id": "6Ej-08srVsU",
+              "youtube_views": 612287
+            },
+            {
+              "title": "What You Doing? (What You Doing?)",
+              "video_id": "fLn36LA-n9o",
+              "youtube_views": 431903
+            },
+            {
+              "title": "I.P.U (눈부시게 빛이 나던 그 날 (I.P.U))",
+              "video_id": "zqp6sIp305Q",
+              "youtube_views": 442332
+            },
+            {
+              "title": "Outro : Connect with US (Outro : Connect with US)",
+              "video_id": "NCpXSVNeXrs",
+              "youtube_views": 118713
+            }
+          ]
+        },
+        {
+          "title": "原",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Grenade",
+              "video_id": "4f6rstu3k6M",
+              "youtube_views": 354177
+            },
+            {
+              "title": "STOP & MOVE",
+              "video_id": "uubyxupune4",
+              "youtube_views": 114600
+            },
+            {
+              "title": "When you're close to me",
+              "video_id": "ghzlWZXYp8s",
+              "youtube_views": 83115
+            }
+          ]
+        },
+        {
+          "title": "Fly to you",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Fly to you",
+              "video_id": "YOi1nOn9JA8",
+              "youtube_views": 598323
+            }
+          ]
+        },
+        {
+          "title": "5x",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "X (X)",
+              "video_id": "wrbUZFSS07I",
+              "youtube_views": 1113705
+            },
+            {
+              "title": "LOVE ME or LOSER (LOVE ME or LOSER)",
+              "video_id": "MEx4nBk_MSk",
+              "youtube_views": 317619
+            },
+            {
+              "title": "RELOAD (RELOAD)",
+              "video_id": "uSvAemAgn8I",
+              "youtube_views": 145398
+            },
+            {
+              "title": "BAD (BAD)",
+              "video_id": "0VycIUXacPs",
+              "youtube_views": 392299
+            },
+            {
+              "title": "TIME MACHINE (Korean Ver.) (TIME MACHINE (Korean Ver.))",
+              "video_id": "CAVRG130pTA",
+              "youtube_views": 160478
+            }
+          ]
+        },
+        {
+          "title": "루퍼트의 눈물 (Rupert's drop)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Rupert's drop (루퍼트의 눈물 (Rupert's drop))",
+              "video_id": "xEGIVHPBTL0",
+              "youtube_views": 240520
+            },
+            {
+              "title": "Rupert's drop (Inst.) (루퍼트의 눈물 (Rupert's drop) (Inst.))",
+              "video_id": "Qgtag5EUQbg",
+              "youtube_views": 8491
+            }
+          ]
+        },
+        {
+          "title": "ROAD TO KINGDOM : ACE OF ACE 〈NO LIMIT〉 Part. 2",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Armageddon",
+              "video_id": "YmsJ_4VKr3Y",
+              "youtube_views": 203949
+            },
+            {
+              "title": "Love Dive",
+              "video_id": "JdmAXl_8Q2E",
+              "youtube_views": 57165
+            },
+            {
+              "title": "LUNA",
+              "video_id": "1U_ecP5bH-E",
+              "youtube_views": 223022
+            },
+            {
+              "title": "Armageddon (Instrumental)",
+              "video_id": "jJ7nSaufaUg",
+              "youtube_views": 5955
+            },
+            {
+              "title": "Love Dive (Instrumental)",
+              "video_id": "crZtU6ujkVY",
+              "youtube_views": 3595
+            },
+            {
+              "title": "LUNA (Instrumental)",
+              "video_id": "Ckiqwyajync",
+              "youtube_views": 9783
+            }
+          ]
+        },
+        {
+          "title": "ROAD TO KINGDOM : ACE OF ACE 〈IDENTITY〉 Part. 2",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ATTITUDE + Get Away",
+              "video_id": "yk7JJwrHchI",
+              "youtube_views": 4981
+            },
+            {
+              "title": "EYE OF THE STORM",
+              "video_id": "qGlVMuFf6nA",
+              "youtube_views": 4841
+            },
+            {
+              "title": "Can′t Stop Shining",
+              "video_id": "j0IRbQawvFc",
+              "youtube_views": 9679
+            },
+            {
+              "title": "No diggity",
+              "video_id": "XFOwfKDe0gI",
+              "youtube_views": 100307
+            },
+            {
+              "title": "ATTITUDE + Get Away (Instrumental)",
+              "video_id": "sfwgU0DgJAw",
+              "youtube_views": 492
+            },
+            {
+              "title": "EYE OF THE STORM (Instrumental)",
+              "video_id": "Fv-8_ZTJ6Us",
+              "youtube_views": 924
+            },
+            {
+              "title": "Can′t Stop Shining (Instrumental)",
+              "video_id": "kZt8PseCPVE",
+              "youtube_views": 729
+            },
+            {
+              "title": "No diggity (Instrumental)",
+              "video_id": "k5I3rsuIv6E",
+              "youtube_views": 1852
+            }
+          ]
+        },
+        {
+          "title": "ROAD TO KINGDOM : ACE OF ACE 〈VS〉 Part. 2",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Kick It",
+              "video_id": "Zbkw4_Ckcek",
+              "youtube_views": 87387
+            },
+            {
+              "title": "WATCH IT",
+              "video_id": "6LmvDcYW9ug",
+              "youtube_views": 48858
+            },
+            {
+              "title": "Kick It (Instrumental)",
+              "video_id": "BrZqgdPVTTQ",
+              "youtube_views": 6234
+            },
+            {
+              "title": "WATCH IT (Instrumental)",
+              "video_id": "IPXi_b66QYc",
+              "youtube_views": 1685
+            }
+          ]
+        },
+        {
+          "title": "Now (Original by Fin.K.L)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Now (Original by Fin.K.L) (Now (Original by Fin.K.L))",
+              "video_id": "bx8hWZZcXH4",
+              "youtube_views": 666256
+            }
+          ]
+        },
+        {
+          "title": "La Dolce Vita",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Intro : Beggin’ you (Intro : Beggin’ you)",
+              "video_id": "AT4DrgSP0kw",
+              "youtube_views": 133013
+            },
+            {
+              "title": "Baila Conmigo (Baila Conmigo)",
+              "video_id": "475G9NvZljc",
+              "youtube_views": 2294885
+            },
+            {
+              "title": "Simulation (Simulation)",
+              "video_id": "IJ9sVgUciGU",
+              "youtube_views": 327505
+            },
+            {
+              "title": "Epilogue (미리보기 (Epilogue))",
+              "video_id": "oZhGs_zlw0k",
+              "youtube_views": 250384
+            },
+            {
+              "title": "Baila Conmigo (Spanish ver.) (Baila Conmigo (Spanish ver.))",
+              "video_id": "kSYw9IXBPFs",
+              "youtube_views": 1315016
+            }
+          ]
+        },
+        {
+          "title": "PYGMALION",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Intro : LETHE (Intro : LETHE)",
+              "video_id": "xl8CkF1MEGU",
+              "youtube_views": 142493
+            },
+            {
+              "title": "ERASE ME (ERASE ME)",
+              "video_id": "eWbLNsTvTdc",
+              "youtube_views": 2697463
+            },
+            {
+              "title": "Unforgettable (잇다 있다 잊었다 (Unforgettable))",
+              "video_id": "NrbLBpl-coc",
+              "youtube_views": 789417
+            },
+            {
+              "title": "ECHO (ECHO)",
+              "video_id": "wdRs1AAp2mU",
+              "youtube_views": 267133
+            },
+            {
+              "title": "Halley's Comet (반짝임 그 찰나의 널 (Halley's Comet))",
+              "video_id": "W3zjmvzWDzQ",
+              "youtube_views": 789974
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

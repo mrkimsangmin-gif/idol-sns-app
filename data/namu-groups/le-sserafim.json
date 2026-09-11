@@ -597,5 +597,574 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 14727728,
+      "spotify_id": "4SpbR6yFEvexJuaBpgAU5p",
+      "top_tracks": [
+        {
+          "title": "SPAGHETTI",
+          "play_count": 215101996,
+          "uri": "spotify:track:2N9miXnewVmUrgl6JSK1FI"
+        },
+        {
+          "title": "CRAZY",
+          "play_count": 441888434,
+          "uri": "spotify:track:4gxEY3Mh5FZZDAJAKPNrCS"
+        },
+        {
+          "title": "ANTIFRAGILE",
+          "play_count": 686536822,
+          "uri": "spotify:track:0bMoNdAnxNR0OuQbGDovrr"
+        },
+        {
+          "title": "Perfect Night",
+          "play_count": 510496648,
+          "uri": "spotify:track:74X2u8JMVooG2QbjRxXwR8"
+        },
+        {
+          "title": "HOT",
+          "play_count": 160850663,
+          "uri": "spotify:track:24Y63uAvj6Oc9jGuTlhlgf"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 862835976,
+      "track_count": 85,
+      "mean_views": 10151011,
+      "max_views": 150584886,
+      "albums": [
+        {
+          "title": "SPAGHETTI",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "SPAGHETTI (feat. j-hope of BTS)",
+              "video_id": "12ELDQy3IUc",
+              "youtube_views": 61150604
+            },
+            {
+              "title": "Pearlies (My oyster is the world)",
+              "video_id": "KWSFaS4ji5k",
+              "youtube_views": 2628146
+            },
+            {
+              "title": "SPAGHETTI (Member ver.)",
+              "video_id": "8Cp-8gZ4mnE",
+              "youtube_views": 28567872
+            },
+            {
+              "title": "SPAGHETTI (feat. j-hope of BTS) (English ver.)",
+              "video_id": "5L9Az1k5fSc",
+              "youtube_views": 1099056
+            },
+            {
+              "title": "SPAGHETTI (feat. j-hope of BTS) (Clean ver.)",
+              "video_id": "a7qfjkz2rd4",
+              "youtube_views": 12114185
+            },
+            {
+              "title": "Pearlies (My oyster is the world) (Clean ver.)",
+              "video_id": "FSV45-84npA",
+              "youtube_views": 232023
+            },
+            {
+              "title": "SPAGHETTI (Member ver.) (Clean ver.)",
+              "video_id": "a-nBcX-KzHE",
+              "youtube_views": 639255
+            },
+            {
+              "title": "SPAGHETTI (feat. j-hope of BTS) (English ver.) (Clean ver.)",
+              "video_id": "Qzs3rT4MwNw",
+              "youtube_views": 376407
+            }
+          ]
+        },
+        {
+          "title": "EASY",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Good Bones",
+              "video_id": "14tbvcSdj0w",
+              "youtube_views": 2974230
+            },
+            {
+              "title": "EASY",
+              "video_id": "Zj9-RiEf4Og",
+              "youtube_views": 80768827
+            },
+            {
+              "title": "Swan Song",
+              "video_id": "eNxb2wt11sM",
+              "youtube_views": 18967309
+            },
+            {
+              "title": "Smart",
+              "video_id": "VwJggqvxGUQ",
+              "youtube_views": 121055023
+            },
+            {
+              "title": "We got so much",
+              "video_id": "9qjFPQqcQM4",
+              "youtube_views": 5227497
+            },
+            {
+              "title": "EASY (Sped Up ver.)",
+              "video_id": "sCZT8P2VW2s",
+              "youtube_views": 1242851
+            },
+            {
+              "title": "EASY (Slowed + Reverb ver.)",
+              "video_id": "Zhx_Nf76iUs",
+              "youtube_views": 670410
+            }
+          ]
+        },
+        {
+          "title": "UNFORGIVEN",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "The World Is My Oyster (2023 Ver.)",
+              "video_id": "kjb5PsoB0Ug",
+              "youtube_views": 2038253
+            },
+            {
+              "title": "FEARLESS (2023 Ver.)",
+              "video_id": "82gb0tGRCvk",
+              "youtube_views": 2655351
+            },
+            {
+              "title": "Blue Flame (2023 Ver.)",
+              "video_id": "qOeMKg6BeGY",
+              "youtube_views": 24082866
+            },
+            {
+              "title": "The Hydra",
+              "video_id": "LLdmZuTCuB8",
+              "youtube_views": 1137822
+            },
+            {
+              "title": "ANTIFRAGILE",
+              "video_id": "5J05GhXujP8",
+              "youtube_views": 2434768
+            },
+            {
+              "title": "Impurities",
+              "video_id": "OKkkewnCttk",
+              "youtube_views": 1200216
+            },
+            {
+              "title": "Burn the Bridge",
+              "video_id": "oRHyRoJQxJ0",
+              "youtube_views": 3086451
+            },
+            {
+              "title": "UNFORGIVEN (feat. Nile Rodgers)",
+              "video_id": "WdiSosDz4ss",
+              "youtube_views": 150584886
+            },
+            {
+              "title": "No-Return (Into the unknown)",
+              "video_id": "wrRu7R7eEBo",
+              "youtube_views": 15167484
+            },
+            {
+              "title": "이브, 프시케 그리고 푸른 수염의 아내",
+              "video_id": "eS-NAO3zmn4",
+              "youtube_views": 142417776
+            },
+            {
+              "title": "피어나 (Between you, me and the lamppost)",
+              "video_id": "ADKDX-H8SJg",
+              "youtube_views": 6624775
+            },
+            {
+              "title": "Flash Forward",
+              "video_id": "X8L2CV9PyHw",
+              "youtube_views": 8663855
+            },
+            {
+              "title": "Fire in the belly",
+              "video_id": "p4S4kwrBvks",
+              "youtube_views": 14833781
+            }
+          ]
+        },
+        {
+          "title": "SPAGHETTI (Bon Appétit Remixes)",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "SPAGHETTI (feat. j-hope of BTS)",
+              "video_id": "AIn90Un5Ynw",
+              "youtube_views": 306402
+            },
+            {
+              "title": "SPAGHETTI (feat. j-hope of BTS) (Hot Chili ver.)",
+              "video_id": "SvX3OFL7R28",
+              "youtube_views": 2221316
+            },
+            {
+              "title": "SPAGHETTI (feat. j-hope of BTS) (Creamy Cheese ver.)",
+              "video_id": "0A9JqvuxhF8",
+              "youtube_views": 400364
+            },
+            {
+              "title": "SPAGHETTI (feat. j-hope of BTS) (Spicy Jalapeno ver.)",
+              "video_id": "Q5fFW82DY40",
+              "youtube_views": 301096
+            },
+            {
+              "title": "SPAGHETTI (feat. j-hope of BTS) (Sped Up ver.)",
+              "video_id": "mUuzp92XoxQ",
+              "youtube_views": 117847
+            },
+            {
+              "title": "SPAGHETTI (feat. j-hope of BTS) (Slowed + Reverb ver.)",
+              "video_id": "UBVUwEOpS6c",
+              "youtube_views": 56276
+            },
+            {
+              "title": "SPAGHETTI (feat. j-hope of BTS) (Instrumental)",
+              "video_id": "zidP-s00lDQ",
+              "youtube_views": 251745
+            }
+          ]
+        },
+        {
+          "title": "Come Over (Remixes)",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Come Over",
+              "video_id": "7_ZaeUOn30k",
+              "youtube_views": 238534
+            },
+            {
+              "title": "Come Over (Hyperpop Remix)",
+              "video_id": "naRXMbJP8Zk",
+              "youtube_views": 233726
+            },
+            {
+              "title": "Come Over (Bossa Nova Remix)",
+              "video_id": "9bdC7iCA5ro",
+              "youtube_views": 175118
+            },
+            {
+              "title": "Come Over (Funk Remix)",
+              "video_id": "npjPl6qJJyk",
+              "youtube_views": 274253
+            },
+            {
+              "title": "Come Over (Sped Up ver.)",
+              "video_id": "l2sIBUsF7VM",
+              "youtube_views": 80367
+            },
+            {
+              "title": "Come Over (Slowed + Reverb ver.)",
+              "video_id": "REf7ACKJFis",
+              "youtube_views": 40272
+            },
+            {
+              "title": "Come Over (Instrumental)",
+              "video_id": "53Fa78Mqoj0",
+              "youtube_views": 137641
+            }
+          ]
+        },
+        {
+          "title": "CRAZY (Party Remixes 1)",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "CRAZY",
+              "video_id": "jBvOZ3RY6I0",
+              "youtube_views": 208285
+            },
+            {
+              "title": "CRAZY (English ver.)",
+              "video_id": "bPONddpEnBs",
+              "youtube_views": 3453494
+            },
+            {
+              "title": "CRAZY (Vogue Remix) (feat. Dashaun Wesley)",
+              "video_id": "U6rjgIj6QWk",
+              "youtube_views": 512237
+            },
+            {
+              "title": "CRAZY (Bounce Up Remix)",
+              "video_id": "Akj7AZqAQEQ",
+              "youtube_views": 224672
+            },
+            {
+              "title": "CRAZY (Dance Remix)",
+              "video_id": "SwlPtpEAbZ0",
+              "youtube_views": 307930
+            },
+            {
+              "title": "CRAZY (Sped Up ver.)",
+              "video_id": "fSAe8-zavWg",
+              "youtube_views": 404234
+            },
+            {
+              "title": "CRAZY (Slowed + Reverb ver.)",
+              "video_id": "8g4IHz-LfPA",
+              "youtube_views": 3951126
+            },
+            {
+              "title": "CRAZY (Instrumental)",
+              "video_id": "oShPzU54haQ",
+              "youtube_views": 1870550
+            }
+          ]
+        },
+        {
+          "title": "Smart (Remixes)",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Smart",
+              "video_id": "fnh-NX7G7Z4",
+              "youtube_views": 1196618
+            },
+            {
+              "title": "Smart (English ver.)",
+              "video_id": "X_6MkhMBulA",
+              "youtube_views": 3322258
+            },
+            {
+              "title": "Smart (Smartest Remix)",
+              "video_id": "sd249Zu2OQI",
+              "youtube_views": 405875
+            },
+            {
+              "title": "Smart (Chill Remix)",
+              "video_id": "wM48ntrCWGc",
+              "youtube_views": 650612
+            },
+            {
+              "title": "Smart (Miami Bass Remix)",
+              "video_id": "AmZ3quIiHDA",
+              "youtube_views": 198037
+            },
+            {
+              "title": "Smart (Festival House Remix)",
+              "video_id": "gyPkRhXskQc",
+              "youtube_views": 523222
+            },
+            {
+              "title": "Smart (Sped Up ver.)",
+              "video_id": "9_u-LoK_Tds",
+              "youtube_views": 509258
+            },
+            {
+              "title": "Smart (Slowed + Reverb ver.)",
+              "video_id": "FcbV4VCA0q0",
+              "youtube_views": 143180
+            },
+            {
+              "title": "Smart (Instrumental)",
+              "video_id": "-mfDEDJE-ZQ",
+              "youtube_views": 510143
+            }
+          ]
+        },
+        {
+          "title": "the NOISE (Contains a Samples of Into The Night)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "the NOISE (Contains a Samples of Into The Night)",
+              "video_id": "PNQ-k7qj9r4",
+              "youtube_views": 1490385
+            }
+          ]
+        },
+        {
+          "title": "butterflies (feat. TAEHYUN, Kim Chaewon of LE SSERAFIM & TAEHYUN of TOMORROW X TOGETHER)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "butterflies (feat. TAEHYUN of TOMORROW X TOGETHER & Kim Chaewon of LE SSERAFIM)",
+              "video_id": "5C2FtWrHzbg",
+              "youtube_views": 3335413
+            }
+          ]
+        },
+        {
+          "title": "DIFFERENT (English ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "DIFFERENT (English ver.)",
+              "video_id": "MBT7imzqIlc",
+              "youtube_views": 4422134
+            }
+          ]
+        },
+        {
+          "title": "DIFFERENT",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "DIFFERENT",
+              "video_id": "XSdFY1ATxOc",
+              "youtube_views": 8943739
+            }
+          ]
+        },
+        {
+          "title": "HOT (English ver.) (feat. JADE)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "HOT",
+              "video_id": "7JMw76O3NiU",
+              "youtube_views": 160474
+            },
+            {
+              "title": "HOT (English ver.) (feat. JADE)",
+              "video_id": "2Ng6ebg3h0E",
+              "youtube_views": 1443475
+            }
+          ]
+        },
+        {
+          "title": "HOT (LE SSERAFIM Package)",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "HOT",
+              "video_id": "q3V-ByAIl3g",
+              "youtube_views": 459297
+            },
+            {
+              "title": "HOT (KIM CHAEWON ver.)",
+              "video_id": "W_1fbrVRGs4",
+              "youtube_views": 364484
+            },
+            {
+              "title": "HOT (SAKURA ver.)",
+              "video_id": "hGm_72EsQwE",
+              "youtube_views": 284935
+            },
+            {
+              "title": "HOT (HUH YUNJIN ver.)",
+              "video_id": "cp4L0RT6wDY",
+              "youtube_views": 315314
+            },
+            {
+              "title": "HOT (KAZUHA ver.)",
+              "video_id": "vCk2hS6FrMc",
+              "youtube_views": 292429
+            },
+            {
+              "title": "HOT (HONG EUNCHAE ver.)",
+              "video_id": "RpIKo3fU8VE",
+              "youtube_views": 91200
+            }
+          ]
+        },
+        {
+          "title": "HOT (English ver.)",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "HOT (English ver.)",
+              "video_id": "qFy6OdGNiFY",
+              "youtube_views": 9854572
+            },
+            {
+              "title": "HOT",
+              "video_id": "m5uPXuc-EHQ",
+              "youtube_views": 752041
+            },
+            {
+              "title": "HOT (Sped Up ver.)",
+              "video_id": "wMbnvmKcoTA",
+              "youtube_views": 92069
+            },
+            {
+              "title": "HOT (Slowed + Reverb ver.)",
+              "video_id": "VYKB693HvOo",
+              "youtube_views": 77627
+            },
+            {
+              "title": "HOT (Instrumental)",
+              "video_id": "Y5F4lqcWOc4",
+              "youtube_views": 359131
+            }
+          ]
+        },
+        {
+          "title": "HOT",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Born Fire",
+              "video_id": "ze5tu-TNqhI",
+              "youtube_views": 956172
+            },
+            {
+              "title": "HOT",
+              "video_id": "cCkAcVOS3ig",
+              "youtube_views": 49111280
+            },
+            {
+              "title": "Come Over",
+              "video_id": "QRRUXq0rvmg",
+              "youtube_views": 20297784
+            },
+            {
+              "title": "Ash",
+              "video_id": "P-99g-lH4O0",
+              "youtube_views": 8361529
+            },
+            {
+              "title": "So Cynical (Badum)",
+              "video_id": "DB7uwxMVIlc",
+              "youtube_views": 3851715
+            }
+          ]
+        },
+        {
+          "title": "CRAZY",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "CRAZY (Japanese ver.)",
+              "video_id": "6w3vSZEK-ps",
+              "youtube_views": 8497533
+            },
+            {
+              "title": "EASY (Japanese ver.)",
+              "video_id": "4OWB1NPkLDc",
+              "youtube_views": 234435
+            },
+            {
+              "title": "Star Signs",
+              "video_id": "7J0pKNGk0Yg",
+              "youtube_views": 114234
+            }
+          ]
+        },
+        {
+          "title": "Star Signs",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Star Signs",
+              "video_id": "rQ4Ks5fVPaQ",
+              "youtube_views": 2803908
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

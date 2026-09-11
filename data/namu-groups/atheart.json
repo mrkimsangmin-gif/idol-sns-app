@@ -199,5 +199,158 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 305184,
+      "spotify_id": "0ON7aUm308hzonzZGpZUvB",
+      "top_tracks": [
+        {
+          "title": "Shut Up",
+          "play_count": 362467,
+          "uri": "spotify:track:6R6zXjhbvw7VtCDdKbuCTQ"
+        },
+        {
+          "title": "Plot Twist",
+          "play_count": 3457381,
+          "uri": "spotify:track:58cliMQMrsZ4XsPKSB3Spu"
+        },
+        {
+          "title": "Push Back",
+          "play_count": 1335357,
+          "uri": "spotify:track:5jrVtotI98LARyvrBi0gu2"
+        },
+        {
+          "title": "Butterfly Doors",
+          "play_count": 127152,
+          "uri": "spotify:track:1U7iwruAyuD1lnsTzuYfY3"
+        },
+        {
+          "title": "Good Girl (AtHeart)",
+          "play_count": 1415436,
+          "uri": "spotify:track:6UU3lxRV39wh2dv4l8efPT"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 715931,
+      "track_count": 15,
+      "mean_views": 47728,
+      "max_views": 223499,
+      "albums": [
+        {
+          "title": "Butterfly Doors",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Butterfly Doors",
+              "video_id": "l2xPEllSQLg",
+              "youtube_views": 39626
+            }
+          ]
+        },
+        {
+          "title": "Shut Up",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Shut Up",
+              "video_id": "HNsWNXCa200",
+              "youtube_views": 48747
+            }
+          ]
+        },
+        {
+          "title": "Plot Twist (English ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Plot Twist (English ver.)",
+              "video_id": "eBq7EoPcJDI",
+              "youtube_views": 1475
+            }
+          ]
+        },
+        {
+          "title": "Plot Twist",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Plot Twist",
+              "video_id": "iBmzRNLI9v8",
+              "youtube_views": 223499
+            },
+            {
+              "title": "Push Back",
+              "video_id": "brj_PL9JuRg",
+              "youtube_views": 177329
+            },
+            {
+              "title": "Dot Dot Dot...",
+              "video_id": "JH3ssMRb0_w",
+              "youtube_views": 66123
+            },
+            {
+              "title": "Knew Me",
+              "video_id": "trf-TCJ70BY",
+              "youtube_views": 12816
+            },
+            {
+              "title": "Good Girl",
+              "video_id": "ZunZBpe2BbM",
+              "youtube_views": 5379
+            }
+          ]
+        },
+        {
+          "title": "Good Girl (AtHeart)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Good Girl",
+              "video_id": "64DaELFuxcQ",
+              "youtube_views": 138609
+            }
+          ]
+        },
+        {
+          "title": "Plot Twist (Remixes)",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Plot Twist (English ver., Cat Dealers Remix)",
+              "video_id": "22jc4lnqvDs",
+              "youtube_views": 869
+            },
+            {
+              "title": "Plot Twist (English ver., Tsu Nami Remix)",
+              "video_id": "N0vbJLcUMM0",
+              "youtube_views": 535
+            },
+            {
+              "title": "Plot Twist (English ver., Sped Up ver.)",
+              "video_id": "1vwhJ7ykqbk",
+              "youtube_views": 390
+            },
+            {
+              "title": "Plot Twist (English ver., Slowed + Reverb ver.)",
+              "video_id": "OM9LyQMGHho",
+              "youtube_views": 332
+            },
+            {
+              "title": "Plot Twist (English ver.)",
+              "video_id": "ziTCNAbRFDg",
+              "youtube_views": 82
+            },
+            {
+              "title": "Plot Twist",
+              "video_id": "q3_2cCWJOE4",
+              "youtube_views": 120
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

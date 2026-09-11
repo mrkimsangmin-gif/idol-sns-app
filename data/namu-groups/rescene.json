@@ -335,5 +335,222 @@
       "누적_써클": "-",
       "비고": "OST"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 732385,
+      "spotify_id": "5deOsjuFTKrNMJW3rKuL8S",
+      "top_tracks": [
+        {
+          "title": "Deja Vu",
+          "play_count": 5706972,
+          "uri": "spotify:track:1pBUzZE9PoKLoPxo6QxsG6"
+        },
+        {
+          "title": "Busy Boy",
+          "play_count": 450861,
+          "uri": "spotify:track:6ufVsXMC1fAePZa5ZRMKdO"
+        },
+        {
+          "title": "Glow Up",
+          "play_count": 9744910,
+          "uri": "spotify:track:12tWYSmupB8x0B4HyalBAm"
+        },
+        {
+          "title": "LOVE ATTACK",
+          "play_count": 8690689,
+          "uri": "spotify:track:6uosenLUNFZtOIih5T0qfV"
+        },
+        {
+          "title": "Pinball",
+          "play_count": 6514404,
+          "uri": "spotify:track:7FzDMnwPhj6qdTT2PRaSYi"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 17350487,
+      "track_count": 23,
+      "mean_views": 754369,
+      "max_views": 4073269,
+      "albums": [
+        {
+          "title": "[RESCENE X ???]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Busy Boy",
+              "video_id": "c70TkZH7fr0",
+              "youtube_views": 233174
+            },
+            {
+              "title": "Busy Boy (Inst.)",
+              "video_id": "1gvTKPTYLE8",
+              "youtube_views": 8736
+            }
+          ]
+        },
+        {
+          "title": "Pinball (Japanese Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ピンボール (Pinball)",
+              "video_id": "Cz-msuk8oqM",
+              "youtube_views": 103989
+            }
+          ]
+        },
+        {
+          "title": "lip bomb",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Heart Drop",
+              "video_id": "DbbKf7k9fX8",
+              "youtube_views": 51237
+            },
+            {
+              "title": "Bloom",
+              "video_id": "Z5LPrVc1MtU",
+              "youtube_views": 1097646
+            },
+            {
+              "title": "Love Echo",
+              "video_id": "0kZRjyGUQc0",
+              "youtube_views": 364947
+            },
+            {
+              "title": "Hello XO",
+              "video_id": "jVKfnPIkTwY",
+              "youtube_views": 290878
+            },
+            {
+              "title": "MVP",
+              "video_id": "TF2y-wSc2ss",
+              "youtube_views": 294475
+            }
+          ]
+        },
+        {
+          "title": "Heart Drop",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Heart Drop",
+              "video_id": "EoJdDngHNxc",
+              "youtube_views": 1280072
+            }
+          ]
+        },
+        {
+          "title": "Love Frequency (Original Soundtrack from Just For Meeting You) (고백주파수 (첫사랑 엔딩 X RESCENE (리센느)))",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Love Frequency (고백주파수)",
+              "video_id": "39gg4Su8MI8",
+              "youtube_views": 87242
+            },
+            {
+              "title": "Love Frequency (Inst.) (고백주파수 (Inst.))",
+              "video_id": "4as776eLYH8",
+              "youtube_views": 5265
+            }
+          ]
+        },
+        {
+          "title": "Dearest (Sped Up Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Deja Vu (Sped Up Version) (Deja Vu (Sped Up Version))",
+              "video_id": "ZbO9PBdFRdc",
+              "youtube_views": 2097664
+            },
+            {
+              "title": "Mood (Sped Up Version) (Mood (Sped Up Version))",
+              "video_id": "VtRqBzYte2g",
+              "youtube_views": 13176
+            }
+          ]
+        },
+        {
+          "title": "Dearest",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Deja Vu (Deja Vu)",
+              "video_id": "_1juftZumOQ",
+              "youtube_views": 4073269
+            },
+            {
+              "title": "Mood (Mood)",
+              "video_id": "5rFDUT1DoBM",
+              "youtube_views": 758803
+            }
+          ]
+        },
+        {
+          "title": "남주의 첫날밤을 가져버렸다 OST Part. 1",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "밤밤밤",
+              "video_id": "UcIt0TBe8pg",
+              "youtube_views": 173957
+            },
+            {
+              "title": "밤밤밤 (Inst.)",
+              "video_id": "zOyWe4g5nx8",
+              "youtube_views": 9079
+            }
+          ]
+        },
+        {
+          "title": "Glow Up (English Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Glow Up (English Version)",
+              "video_id": "h0xUtrb_JBc",
+              "youtube_views": 462764
+            }
+          ]
+        },
+        {
+          "title": "Glow Up",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "CRASH",
+              "video_id": "_ivLUJ3R62U",
+              "youtube_views": 1059604
+            },
+            {
+              "title": "Glow Up",
+              "video_id": "k7D4i1ILCCk",
+              "youtube_views": 2823935
+            },
+            {
+              "title": "Going on",
+              "video_id": "SIre1awR938",
+              "youtube_views": 323340
+            },
+            {
+              "title": "In my lotion",
+              "video_id": "rm3yX5-vusA",
+              "youtube_views": 1315673
+            },
+            {
+              "title": "Cotton Candy",
+              "video_id": "e3xnTvAMezI",
+              "youtube_views": 421562
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

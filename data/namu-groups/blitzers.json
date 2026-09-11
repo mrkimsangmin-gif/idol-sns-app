@@ -217,5 +217,343 @@
       "누적_써클": "-",
       "비고": "OST PART.3"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 43061,
+      "spotify_id": "3Exoh42YMeqnUvYahAGgUE",
+      "top_tracks": [
+        {
+          "title": "Macarena",
+          "play_count": 5080287,
+          "uri": "spotify:track:1K8mA1oiXfjqGKiIIrXklo"
+        },
+        {
+          "title": "Breathe Again",
+          "play_count": 1532827,
+          "uri": "spotify:track:2Jl9HCRE7AxGdFhtvahsJF"
+        },
+        {
+          "title": "Hit The Bass",
+          "play_count": 801790,
+          "uri": "spotify:track:1LXmc606FdkV2LKOxjgw4B"
+        },
+        {
+          "title": "Beautiful Day",
+          "play_count": 1079828,
+          "uri": "spotify:track:5wxlZZhPaxea0jxEyZNZMp"
+        },
+        {
+          "title": "SUPERPOWER",
+          "play_count": 434571,
+          "uri": "spotify:track:7jsMpMsKMBr3cnxLNFeJr0"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 663327,
+      "track_count": 46,
+      "mean_views": 14420,
+      "max_views": 167354,
+      "albums": [
+        {
+          "title": "SUPERPOWER REMIX VOL.1",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "SUPERPOWER (FERRY Remix) (Eng Ver.) (SUPERPOWER(FERRY Remix) (Eng Ver.))",
+              "video_id": "e4eM_wx-I3k",
+              "youtube_views": 6488
+            },
+            {
+              "title": "SUPERPOWER (FERRY Remix) (Kor Ver.) (SUPERPOWER(FERRY Remix) (Kor Ver.))",
+              "video_id": "0vtVOM52bKw",
+              "youtube_views": 1276
+            },
+            {
+              "title": "SUPERPOWER (monotostereo Remix) (Eng Ver.) (SUPERPOWER(monotostereo Remix) (Eng Ver.))",
+              "video_id": "7nwHmHFjnVs",
+              "youtube_views": 1100
+            },
+            {
+              "title": "SUPERPOWER (Kor Ver.) (Sped-Up) (SUPERPOWER (Kor Ver.) (Sped-Up))",
+              "video_id": "xwuL8iJ4tqA",
+              "youtube_views": 436
+            },
+            {
+              "title": "SUPERPOWER (Eng Ver.) (Sped-Up) (SUPERPOWER (Eng Ver.) (Sped-Up))",
+              "video_id": "GQ10msb-e8M",
+              "youtube_views": 519
+            },
+            {
+              "title": "SUPERPOWER (Kor Ver.) (Slow Down) (SUPERPOWER (Kor Ver.) (Slow Down))",
+              "video_id": "0VEYEo8wrUs",
+              "youtube_views": 895
+            },
+            {
+              "title": "SUPERPOWER (Eng Ver.) (Slow Down) (SUPERPOWER (Eng Ver.) (Slow Down))",
+              "video_id": "KYqTxi-hh-I",
+              "youtube_views": 244
+            }
+          ]
+        },
+        {
+          "title": "LUNCH-BOX",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Race Up (Race Up)",
+              "video_id": "97_njFS-F6A",
+              "youtube_views": 68317
+            },
+            {
+              "title": "SUPERPOWER (SUPERPOWER)",
+              "video_id": "wGf6wI7lLDA",
+              "youtube_views": 167354
+            },
+            {
+              "title": "RING RING (RING RING)",
+              "video_id": "Cx1sTpGwBT4",
+              "youtube_views": 58447
+            },
+            {
+              "title": "FXXXIN SPRING (빌어먹을 이 봄 따위)",
+              "video_id": "ABFDwdKw4XU",
+              "youtube_views": 51736
+            },
+            {
+              "title": "SUPERPOWER (Eng Ver.) (SUPERPOWER (Eng Ver.))",
+              "video_id": "cDNl_8ZSIQI",
+              "youtube_views": 16683
+            },
+            {
+              "title": "Macarena (Eng Ver.) (Macarena (Eng Ver.))",
+              "video_id": "MN5vUNPTkH4",
+              "youtube_views": 28442
+            }
+          ]
+        },
+        {
+          "title": "Jun & Jun Pt. 5 (Original Television Soundtrack) (준과 준 OST Part.5)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Tell me it's me (나라고 말해)",
+              "video_id": "yL5Sq6nY3w0",
+              "youtube_views": 28664
+            },
+            {
+              "title": "Tell me it's me (Inst.) (나라고 말해 (Inst.))",
+              "video_id": "IwbsyVtr8h8",
+              "youtube_views": 192
+            }
+          ]
+        },
+        {
+          "title": "Macarena",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Macarena",
+              "video_id": "ktdHuO1Cevk",
+              "youtube_views": 28324
+            },
+            {
+              "title": "Question Mark",
+              "video_id": "RT2HcqKEdqw",
+              "youtube_views": 790
+            }
+          ]
+        },
+        {
+          "title": "Show You (Beautiful Moment OST Part.3)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "보여줄게",
+              "video_id": "lTSoP9dRY0I",
+              "youtube_views": 32187
+            },
+            {
+              "title": "보여줄게 (inst.)",
+              "video_id": "aklJi5Fvz7o",
+              "youtube_views": 732
+            }
+          ]
+        },
+        {
+          "title": "WIN-DOW",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "SLIDE",
+              "video_id": "Q1YHa5W1o4U",
+              "youtube_views": 861
+            },
+            {
+              "title": "Win-Dow",
+              "video_id": "jAcf5XwXFqA",
+              "youtube_views": 149
+            },
+            {
+              "title": "Hit The Bass",
+              "video_id": "UFr2URSDrhA",
+              "youtube_views": 7266
+            },
+            {
+              "title": "Love is New Gravity",
+              "video_id": "qos6YXsrx4A",
+              "youtube_views": 289
+            },
+            {
+              "title": "HAPOOM",
+              "video_id": "wARC0nAOQyM",
+              "youtube_views": 966
+            },
+            {
+              "title": "Gradation",
+              "video_id": "iC_ChGnuhZc",
+              "youtube_views": 1965
+            }
+          ]
+        },
+        {
+          "title": "Cherryblossom After Winter Pt.1 (Original Television Soundtrack) (겨울 지나 벚꽃 OST PART.1)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Beautiful Day (Beautiful Day)",
+              "video_id": "63YRCCUH8UQ",
+              "youtube_views": 138149
+            },
+            {
+              "title": "Beautiful Day (Inst.) (Beautiful Day (Inst.))",
+              "video_id": "xAnsMFSXLW0",
+              "youtube_views": 1646
+            }
+          ]
+        },
+        {
+          "title": "BOBBIN",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Simon Says",
+              "video_id": "TtQ5gdH9ce0",
+              "youtube_views": 708
+            },
+            {
+              "title": "BOBBIN",
+              "video_id": "TwSYYWKxLtU",
+              "youtube_views": 2146
+            },
+            {
+              "title": "Forever In My Heart",
+              "video_id": "m8VyPnhPfog",
+              "youtube_views": 1003
+            }
+          ]
+        },
+        {
+          "title": "SEAT-BELT",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "K-POP",
+              "video_id": "G7kcw1uCswc",
+              "youtube_views": 144
+            },
+            {
+              "title": "Seat-Belt",
+              "video_id": "nJ9Z0EVlWu4",
+              "youtube_views": 798
+            },
+            {
+              "title": "Will Make a Mistake",
+              "video_id": "w6arRVuCKys",
+              "youtube_views": 2066
+            },
+            {
+              "title": "Hop-in",
+              "video_id": "FlTCkn0b0TA",
+              "youtube_views": 445
+            },
+            {
+              "title": "Love Bottle",
+              "video_id": "eitEJQutJMs",
+              "youtube_views": 32
+            },
+            {
+              "title": "Rain Drop",
+              "video_id": "UkA5ysjJjYw",
+              "youtube_views": 181
+            }
+          ]
+        },
+        {
+          "title": "CHECK-IN",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Blitz (Next Level Remix)",
+              "video_id": "uJuAi3RoKa4",
+              "youtube_views": 60
+            },
+            {
+              "title": "Check-In",
+              "video_id": "NmWC0x_NfKM",
+              "youtube_views": 1258
+            },
+            {
+              "title": "Breathe Again",
+              "video_id": "b3DuJFvNSqU",
+              "youtube_views": 3409
+            },
+            {
+              "title": "Ocean Blue",
+              "video_id": "o9IrC6YdtVQ",
+              "youtube_views": 63
+            },
+            {
+              "title": "Dream Pilot",
+              "video_id": "sfpwiEQmja8",
+              "youtube_views": 156
+            },
+            {
+              "title": "Drawing Paper",
+              "video_id": "-8W-xwmhqBw",
+              "youtube_views": 889
+            }
+          ]
+        },
+        {
+          "title": "SUPERPOWER REMIX VOL.4",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "SUPERPOWER(KAZU SHOWTIME Remix) (Kor Ver.) (SUPERPOWER(KAZU SHOWTIME Remix) (Kor Ver.))",
+              "video_id": "Xbt0gCwZXIs",
+              "youtube_views": 3472
+            },
+            {
+              "title": "SUPERPOWER(Ruin Remix) (Kor Ver.) (SUPERPOWER(Ruin Remix) (Kor Ver.))",
+              "video_id": "mIoDKsLRleY",
+              "youtube_views": 1217
+            },
+            {
+              "title": "SUPERPOWER(DJ Gabi House Remix) (Eng Ver.) (SUPERPOWER(DJ Gabi House Remix) (Eng Ver.))",
+              "video_id": "XDA0wqs-aN8",
+              "youtube_views": 641
+            },
+            {
+              "title": "SUPERPOWER(DJ Gabi Bounce Remix) (Eng Ver.) (SUPERPOWER(DJ Gabi Bounce Remix) (Eng Ver.))",
+              "video_id": "qz1VQ52sNPM",
+              "youtube_views": 522
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

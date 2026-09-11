@@ -1013,5 +1013,787 @@
       "누적_써클": "-",
       "비고": "나연/사나/지효/채영"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 16558318,
+      "spotify_id": "7n2Ycct7Beij7Dj7meI4X0",
+      "top_tracks": [
+        {
+          "title": "Strategy",
+          "play_count": 310825981,
+          "uri": "spotify:track:3yXCK8TTnHknY7VVcsNTjx"
+        },
+        {
+          "title": "TAKEDOWN (JEONGYEON, JIHYO, CHAEYOUNG)",
+          "play_count": 297492383,
+          "uri": "spotify:track:66YNrNS01ox8TJwxN67BfY"
+        },
+        {
+          "title": "THIS IS FOR",
+          "play_count": 153119161,
+          "uri": "spotify:track:3fwjo4HYqaQcvdJP3d4twX"
+        },
+        {
+          "title": "What is Love?",
+          "play_count": 631609475,
+          "uri": "spotify:track:7L81PqO3zKKPsfO7jfyvus"
+        },
+        {
+          "title": "Strategy (feat. Megan Thee Stallion)",
+          "play_count": 167803452,
+          "uri": "spotify:track:5111HV1Fb6hfeHH0b7VYMm"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 481844426,
+      "track_count": 124,
+      "mean_views": 3885842,
+      "max_views": 77906994,
+      "albums": [
+        {
+          "title": "TEN: The Story Goes On",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "ME+YOU",
+              "video_id": "AUoqoW7P3dg",
+              "youtube_views": 2518759
+            },
+            {
+              "title": "MEEEEEE (NAYEON)",
+              "video_id": "vnA8--MCU_A",
+              "youtube_views": 3361745
+            },
+            {
+              "title": "FIX A DRINK (JEONGYEON)",
+              "video_id": "1kFNJEIYSaY",
+              "youtube_views": 1208733
+            },
+            {
+              "title": "MOVE LIKE THAT (MOMO)",
+              "video_id": "LkF528yaz9A",
+              "youtube_views": 1495173
+            },
+            {
+              "title": "DECAFFEINATED (SANA)",
+              "video_id": "um6VLQEm500",
+              "youtube_views": 1108096
+            },
+            {
+              "title": "ATM (JIHYO)",
+              "video_id": "WYMyJmm4IMc",
+              "youtube_views": 4567970
+            },
+            {
+              "title": "STONE COLD (MINA)",
+              "video_id": "kOt4ekUkNvs",
+              "youtube_views": 762754
+            },
+            {
+              "title": "CHESS (DAHYUN)",
+              "video_id": "7wlDQRd5lGU",
+              "youtube_views": 711620
+            },
+            {
+              "title": "IN MY ROOM (CHAEYOUNG)",
+              "video_id": "5zrfR0-qwog",
+              "youtube_views": 1084816
+            },
+            {
+              "title": "DIVE IN (TZUYU)",
+              "video_id": "TPHLwBBN00o",
+              "youtube_views": 783001
+            }
+          ]
+        },
+        {
+          "title": "ENEMY",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Up to you",
+              "video_id": "EIIJTqpbGSE",
+              "youtube_views": 56767
+            },
+            {
+              "title": "ENEMY",
+              "video_id": "2tRZ-h7hjNM",
+              "youtube_views": 77317
+            },
+            {
+              "title": "FINE",
+              "video_id": "TqTdOteBND4",
+              "youtube_views": 51718
+            },
+            {
+              "title": "One day",
+              "video_id": "atextttatFs",
+              "youtube_views": 29105
+            },
+            {
+              "title": "Blind in Love",
+              "video_id": "sV6kTlNUKPg",
+              "youtube_views": 19359
+            },
+            {
+              "title": "Love is more",
+              "video_id": "SEXvR3RezIs",
+              "youtube_views": 17886
+            },
+            {
+              "title": "The wish",
+              "video_id": "G5D0y5Az7D8",
+              "youtube_views": 16222
+            },
+            {
+              "title": "Glow",
+              "video_id": "Ss5j6BucuLM",
+              "youtube_views": 16327
+            },
+            {
+              "title": "Like 1",
+              "video_id": "S_H2x-XaWvU",
+              "youtube_views": 18540
+            }
+          ]
+        },
+        {
+          "title": "THIS IS FOR",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "FOUR",
+              "video_id": "fhxq4s36-I4",
+              "youtube_views": 2813883
+            },
+            {
+              "title": "THIS IS FOR",
+              "video_id": "V4QB1mJoafo",
+              "youtube_views": 30317580
+            },
+            {
+              "title": "OPTIONS",
+              "video_id": "0sFFvghflng",
+              "youtube_views": 4042756
+            },
+            {
+              "title": "MARS",
+              "video_id": "N1ExjhcpLso",
+              "youtube_views": 3945505
+            },
+            {
+              "title": "RIGHT HAND GIRL",
+              "video_id": "dtKQfCr7N7I",
+              "youtube_views": 3655303
+            },
+            {
+              "title": "PEACH GELATO",
+              "video_id": "JkEeQK3yNv8",
+              "youtube_views": 1350073
+            },
+            {
+              "title": "HI HELLO",
+              "video_id": "bLfU4eeqOCo",
+              "youtube_views": 1211054
+            },
+            {
+              "title": "BATTITUDE (NAYEON, JEONGYEON, MOMO, MINA)",
+              "video_id": "TOic7n-CDd4",
+              "youtube_views": 2715436
+            },
+            {
+              "title": "DAT AHH DAT OOH (SANA, JIHYO, DAHYUN, CHAEYOUNG, TZUYU)",
+              "video_id": "POxNm2NNyps",
+              "youtube_views": 2658174
+            },
+            {
+              "title": "LET LOVE GO (JEONGYEON, MOMO, SANA, TZUYU)",
+              "video_id": "dTsP-nmggyc",
+              "youtube_views": 2059912
+            },
+            {
+              "title": "G.O.A.T. (MINA, DAHYUN, CHAEYOUNG)",
+              "video_id": "nJRj6-jeSNE",
+              "youtube_views": 1072377
+            },
+            {
+              "title": "TALK (NAYEON, JIHYO)",
+              "video_id": "DvflMF6SSJE",
+              "youtube_views": 2373879
+            },
+            {
+              "title": "SEESAW",
+              "video_id": "V-cGPvu1zQE",
+              "youtube_views": 2240242
+            },
+            {
+              "title": "HEARTBREAK AVENUE",
+              "video_id": "gd5q41kCtHE",
+              "youtube_views": 2885564
+            }
+          ]
+        },
+        {
+          "title": "STRATEGY",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Strategy (feat. Megan Thee Stallion)",
+              "video_id": "DoPErQwgfg8",
+              "youtube_views": 49735058
+            },
+            {
+              "title": "Kiss My Troubles Away",
+              "video_id": "mDQqhGH58P0",
+              "youtube_views": 2684942
+            },
+            {
+              "title": "Like It Like It",
+              "video_id": "Z-hpRjpFmmU",
+              "youtube_views": 3995780
+            },
+            {
+              "title": "Sweetest Obsession",
+              "video_id": "lcOz_NEUO0E",
+              "youtube_views": 2154576
+            },
+            {
+              "title": "Keeper",
+              "video_id": "K8oVsiuDlLA",
+              "youtube_views": 1703659
+            },
+            {
+              "title": "Magical",
+              "video_id": "nxeUtKHTWYU",
+              "youtube_views": 2196941
+            },
+            {
+              "title": "Strategy",
+              "video_id": "nmbiBVPe5bY",
+              "youtube_views": 51264979
+            }
+          ]
+        },
+        {
+          "title": "DIVE",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Beyond the Horizon",
+              "video_id": "pWl9HStx9vs",
+              "youtube_views": 41589
+            },
+            {
+              "title": "DIVE",
+              "video_id": "CRyPtZ_LCI4",
+              "youtube_views": 239823
+            },
+            {
+              "title": "Ocean Deep",
+              "video_id": "8TvWTMH2D0c",
+              "youtube_views": 45166
+            },
+            {
+              "title": "LOVE WARNING",
+              "video_id": "BBtT19coWtk",
+              "youtube_views": 23018
+            },
+            {
+              "title": "Here I am",
+              "video_id": "yBmadXVYkRI",
+              "youtube_views": 63339
+            },
+            {
+              "title": "Inside of me",
+              "video_id": "7GmQ2VWjho4",
+              "youtube_views": 41742
+            },
+            {
+              "title": "Peach Soda",
+              "video_id": "xmWO1lMb2CI",
+              "youtube_views": 23070
+            },
+            {
+              "title": "Echoes of heart",
+              "video_id": "0f-P3YsZPBM",
+              "youtube_views": 31493
+            },
+            {
+              "title": "Dance Again",
+              "video_id": "NzQUG-dOBOs",
+              "youtube_views": 68660
+            },
+            {
+              "title": "Hare Hare",
+              "video_id": "Nya8dt1ttko",
+              "youtube_views": 10545
+            }
+          ]
+        },
+        {
+          "title": "I GOT YOU (Voyage ver.)",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "I GOT YOU (Feat. Lauv)",
+              "video_id": "fuDLc_DoF6Q",
+              "youtube_views": 5102362
+            },
+            {
+              "title": "I GOT YOU (Original)",
+              "video_id": "Bmd2tcvYhjU",
+              "youtube_views": 217138
+            },
+            {
+              "title": "I GOT YOU (Lo-fi ver.)",
+              "video_id": "GZ99f_CZY-c",
+              "youtube_views": 152560
+            },
+            {
+              "title": "I GOT YOU (Hyper ver.)",
+              "video_id": "-aVTEuKp1WA",
+              "youtube_views": 87262
+            },
+            {
+              "title": "I GOT YOU (Garage ver.)",
+              "video_id": "racA765NQFk",
+              "youtube_views": 511526
+            },
+            {
+              "title": "I GOT YOU (Sped Up ver.)",
+              "video_id": "1KxRngLlrSM",
+              "youtube_views": 193899
+            },
+            {
+              "title": "I GOT YOU (Feat. Lauv) (Instrumental)",
+              "video_id": "vdoyceGGySo",
+              "youtube_views": 46276
+            },
+            {
+              "title": "I GOT YOU (Original) (Instrumental)",
+              "video_id": "9eOA06BpjrI",
+              "youtube_views": 30122
+            },
+            {
+              "title": "I GOT YOU (Lo-fi ver.) (Instrumental)",
+              "video_id": "3LqfzqqPNGI",
+              "youtube_views": 31263
+            },
+            {
+              "title": "I GOT YOU (Hyper ver.) (Instrumental)",
+              "video_id": "dYoLBpOw-4I",
+              "youtube_views": 23588
+            },
+            {
+              "title": "I GOT YOU (Garage ver.) (Instrumental)",
+              "video_id": "_nnYyOQBTZw",
+              "youtube_views": 27472
+            },
+            {
+              "title": "I GOT YOU (Sped Up ver.) (Instrumental)",
+              "video_id": "wQpEjmDbhks",
+              "youtube_views": 22475
+            }
+          ]
+        },
+        {
+          "title": "READY TO BE",
+          "year": "2023",
+          "tracks": [
+            {
+              "title": "SET ME FREE",
+              "video_id": "IPk3M154M3s",
+              "youtube_views": 38772841
+            },
+            {
+              "title": "MOONLIGHT SUNRISE",
+              "video_id": "yHEdqF09Mgs",
+              "youtube_views": 22422763
+            },
+            {
+              "title": "GOT THE THRILLS",
+              "video_id": "J0EMiphyUFY",
+              "youtube_views": 4361825
+            },
+            {
+              "title": "BLAME IT ON ME",
+              "video_id": "Mk8hIPg2dNE",
+              "youtube_views": 2734339
+            },
+            {
+              "title": "WALLFLOWER",
+              "video_id": "VzIAZt8I7t8",
+              "youtube_views": 6196162
+            },
+            {
+              "title": "CRAZY STUPID LOVE",
+              "video_id": "pupEHRXBU-w",
+              "youtube_views": 6957918
+            },
+            {
+              "title": "SET ME FREE (ENG)",
+              "video_id": "Cczo7nazBGA",
+              "youtube_views": 3109554
+            }
+          ]
+        },
+        {
+          "title": "BETWEEN 1&2",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Talk that Talk",
+              "video_id": "F2Y0Q9blUPk",
+              "youtube_views": 77906994
+            },
+            {
+              "title": "Queen of Hearts",
+              "video_id": "ddhScf9lMr8",
+              "youtube_views": 8816115
+            },
+            {
+              "title": "Basics",
+              "video_id": "59Z6bDaIQtY",
+              "youtube_views": 11433646
+            },
+            {
+              "title": "Trouble",
+              "video_id": "vm9Lkyp4l9Q",
+              "youtube_views": 3020013
+            },
+            {
+              "title": "Brave",
+              "video_id": "QTy21FWLvqY",
+              "youtube_views": 6861549
+            },
+            {
+              "title": "Gone",
+              "video_id": "eGL-O-vZFMA",
+              "youtube_views": 3592869
+            },
+            {
+              "title": "When We Were Kids",
+              "video_id": "K8vqtOzTd7w",
+              "youtube_views": 3362634
+            }
+          ]
+        },
+        {
+          "title": "Celebrate",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "Celebrate",
+              "video_id": "wLE4KI059nk",
+              "youtube_views": 562055
+            },
+            {
+              "title": "Voices of Delight",
+              "video_id": "XGOoPDGrNV0",
+              "youtube_views": 39835
+            },
+            {
+              "title": "TICK TOCK",
+              "video_id": "ayp88jAKXu4",
+              "youtube_views": 57479
+            },
+            {
+              "title": "Flow like waves",
+              "video_id": "sedi2cDZwS4",
+              "youtube_views": 27156
+            },
+            {
+              "title": "That's all I'm saying",
+              "video_id": "avzY6v5QC68",
+              "youtube_views": 26372
+            },
+            {
+              "title": "Bitter Sweet",
+              "video_id": "EEWUgKQQc70",
+              "youtube_views": 24176
+            },
+            {
+              "title": "Sandcastle",
+              "video_id": "35wtXBUSnQI",
+              "youtube_views": 58300
+            },
+            {
+              "title": "Just be yourself",
+              "video_id": "M0Qy6t63LKU",
+              "youtube_views": 54525
+            },
+            {
+              "title": "Doughnut",
+              "video_id": "3LYLnV94SRQ",
+              "youtube_views": 136955
+            }
+          ]
+        },
+        {
+          "title": "The Feels",
+          "year": "2022",
+          "tracks": [
+            {
+              "title": "The Feels (Benny Benassi Remix)",
+              "video_id": "6b_Tswh0K-s",
+              "youtube_views": 969050
+            },
+            {
+              "title": "The Feels",
+              "video_id": "iOcjYYqpYRo",
+              "youtube_views": 5917515
+            },
+            {
+              "title": "The Feels (The Stereotypes Remix)",
+              "video_id": "iyATSJnzXX0",
+              "youtube_views": 155817
+            },
+            {
+              "title": "The Feels (YVES V Remix)",
+              "video_id": "TNeMXIQntcM",
+              "youtube_views": 109862
+            },
+            {
+              "title": "The Feels (Instrumental)",
+              "video_id": "8Pw_WlZ5Z4A",
+              "youtube_views": 94047
+            },
+            {
+              "title": "The Feels (Benny Benassi Remix Extended)",
+              "video_id": "EkTXR-qzKFo",
+              "youtube_views": 236159
+            },
+            {
+              "title": "The Feels (The Stereotypes Remix Instrumental)",
+              "video_id": "mMxUbUnQfgU",
+              "youtube_views": 52844
+            },
+            {
+              "title": "The Feels (YVES V Remix Instrumental)",
+              "video_id": "_aZGCgXIZXk",
+              "youtube_views": 43438
+            },
+            {
+              "title": "The Feels (Benny Benassi Remix Instrumental)",
+              "video_id": "L-1qxjw8STU",
+              "youtube_views": 55522
+            }
+          ]
+        },
+        {
+          "title": "Like 1",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Like 1",
+              "video_id": "9F6N44-l3-g",
+              "youtube_views": 30308
+            }
+          ]
+        },
+        {
+          "title": "ENEMY",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "ENEMY",
+              "video_id": "uh0lVY7FltQ",
+              "youtube_views": 84420
+            }
+          ]
+        },
+        {
+          "title": "#TWICE5",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Talk that Talk (-Japanese ver.-)",
+              "video_id": "nWZyNxdK2Iw",
+              "youtube_views": 10197
+            },
+            {
+              "title": "SET ME FREE (-Japanese ver.-)",
+              "video_id": "LXaQ65hW4rg",
+              "youtube_views": 4765
+            },
+            {
+              "title": "ONE SPARK (-Japanese ver.-)",
+              "video_id": "5oiYp9MlsmM",
+              "youtube_views": 4541
+            }
+          ]
+        },
+        {
+          "title": "Strategy 2.0",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Strategy (version 1.0)",
+              "video_id": "i7PIYznqMRo",
+              "youtube_views": 5348654
+            },
+            {
+              "title": "Strategy (Slom Remix)",
+              "video_id": "P8addf3qCUU",
+              "youtube_views": 473349
+            },
+            {
+              "title": "Strategy (House)",
+              "video_id": "xBzDOqeaDOw",
+              "youtube_views": 383192
+            },
+            {
+              "title": "Strategy (Moombahton)",
+              "video_id": "qXLJF5CThrU",
+              "youtube_views": 314950
+            },
+            {
+              "title": "Strategy (Instrumental)",
+              "video_id": "L2XvJw5kbt8",
+              "youtube_views": 479545
+            }
+          ]
+        },
+        {
+          "title": "The wish",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "The wish",
+              "video_id": "f8hnCAnToF0",
+              "youtube_views": 39741
+            }
+          ]
+        },
+        {
+          "title": "ONE SPARK",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "ONE SPARK (English ver.)",
+              "video_id": "h0hDXXxGB9s",
+              "youtube_views": 615292
+            },
+            {
+              "title": "ONE SPARK (House ver.)",
+              "video_id": "iB_R-zwhPAo",
+              "youtube_views": 142638
+            },
+            {
+              "title": "ONE SPARK (R&B ver.)",
+              "video_id": "565Nu6_xwoE",
+              "youtube_views": 214653
+            },
+            {
+              "title": "ONE SPARK (Tropical ver.)",
+              "video_id": "3uRYc0jL4Hs",
+              "youtube_views": 97140
+            },
+            {
+              "title": "ONE SPARK (Rave ver.)",
+              "video_id": "djCDyOcHlqE",
+              "youtube_views": 93994
+            },
+            {
+              "title": "ONE SPARK (Instrumental)",
+              "video_id": "wOD_wDVMAfM",
+              "youtube_views": 215802
+            }
+          ]
+        },
+        {
+          "title": "With YOU-th",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "I GOT YOU",
+              "video_id": "4G08xoCJiQw",
+              "youtube_views": 11667833
+            },
+            {
+              "title": "ONE SPARK",
+              "video_id": "FRx4TH0rFvs",
+              "youtube_views": 34418500
+            },
+            {
+              "title": "RUSH",
+              "video_id": "gw5uSSsHm6c",
+              "youtube_views": 3049663
+            },
+            {
+              "title": "NEW NEW",
+              "video_id": "JqEEOtVtBO4",
+              "youtube_views": 3451723
+            },
+            {
+              "title": "BLOOM",
+              "video_id": "paEyc77z3B4",
+              "youtube_views": 2970002
+            },
+            {
+              "title": "YOU GET ME",
+              "video_id": "GzmFNfvKSTY",
+              "youtube_views": 2758648
+            }
+          ]
+        },
+        {
+          "title": "I GOT YOU",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "I GOT YOU",
+              "video_id": "n3VsJ567Ou0",
+              "youtube_views": 3585106
+            },
+            {
+              "title": "I GOT YOU (Instrumental)",
+              "video_id": "9nY9MqpqZQk",
+              "youtube_views": 267727
+            }
+          ]
+        },
+        {
+          "title": "Dance Again",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Dance Again",
+              "video_id": "ZPT-wDghaf8",
+              "youtube_views": 63630
+            }
+          ]
+        },
+        {
+          "title": "Hare Hare",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Hare Hare",
+              "video_id": "A1JsoX3dsSc",
+              "youtube_views": 790545
+            },
+            {
+              "title": "Catch a Wave",
+              "video_id": "oswGphA5HQA",
+              "youtube_views": 65076
+            },
+            {
+              "title": "Hare Hare (Instrumental)",
+              "video_id": "PcdWzs9bMEs",
+              "youtube_views": 10066
+            },
+            {
+              "title": "Catch a Wave (Instrumental)",
+              "video_id": "P7EVckw1xRo",
+              "youtube_views": 4428
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

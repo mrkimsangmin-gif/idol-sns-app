@@ -103,5 +103,39 @@
       "누적_써클": "-",
       "비고": "데뷔 음반"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 1877,
+      "spotify_id": "3WiQKZfcWhqHvCZuU4EPQ6",
+      "top_tracks": [
+        {
+          "title": "Someday",
+          "play_count": 141137,
+          "uri": "spotify:track:3hGN5p1KWy1gLv8bBhYfms"
+        },
+        {
+          "title": "POSSIBLE",
+          "play_count": 80814,
+          "uri": "spotify:track:0yKDsaSU6ehdM4fRCJvi4I"
+        },
+        {
+          "title": "Now",
+          "play_count": 95612,
+          "uri": "spotify:track:1e9AhHyXuzg3a93Y0u9BnC"
+        },
+        {
+          "title": "POSSIBLE - Instrumental",
+          "play_count": 3690,
+          "uri": "spotify:track:4SiBkcHA3NAaianYTCwqYN"
+        },
+        {
+          "title": "Now - Instrumental",
+          "play_count": 2463,
+          "uri": "spotify:track:6ardKS843Rdd12evJkpwaK"
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

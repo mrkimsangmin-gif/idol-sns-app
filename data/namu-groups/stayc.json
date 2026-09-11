@@ -367,5 +367,379 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 1358702,
+      "spotify_id": "01XYiBYaoMJcNhPokrg0l0",
+      "top_tracks": [
+        {
+          "title": "ASAP",
+          "play_count": 147961514,
+          "uri": "spotify:track:5BXr7hYZQOeRttkeWYTq5S"
+        },
+        {
+          "title": "STEREOTYPE",
+          "play_count": 143488722,
+          "uri": "spotify:track:2bZIDMpzVooosmPHn0tHnd"
+        },
+        {
+          "title": "RUN2U",
+          "play_count": 121882556,
+          "uri": "spotify:track:3gFcGnU4kTdMYLXDjH1TK8"
+        },
+        {
+          "title": "GPT",
+          "play_count": 19347987,
+          "uri": "spotify:track:36qXU2yyq1JtGp05omV7bu"
+        },
+        {
+          "title": "SO BAD",
+          "play_count": 79856053,
+          "uri": "spotify:track:13KR2yNRDrbKwR3dOKCDl4"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 50545199,
+      "track_count": 52,
+      "mean_views": 972023,
+      "max_views": 11045923,
+      "albums": [
+        {
+          "title": "STAY ALIVE",
+          "year": "2026",
+          "tracks": [
+            {
+              "title": "MWUAH",
+              "video_id": "pU8WfpN6qZE",
+              "youtube_views": 139731
+            },
+            {
+              "title": "I WANT IT (Japanese Version)",
+              "video_id": "3UFeW5aYeio",
+              "youtube_views": 36224
+            },
+            {
+              "title": "BEBE (Japanese Version)",
+              "video_id": "8dr6TFwous0",
+              "youtube_views": 10466
+            },
+            {
+              "title": "POPPY (Japanese Version)",
+              "video_id": "cv3tr7Mp5Vs",
+              "youtube_views": 10339
+            },
+            {
+              "title": "Teddy Bear (Japanese Version)",
+              "video_id": "q0EWM6triWs",
+              "youtube_views": 7360
+            },
+            {
+              "title": "ASAP (Japanese Version)",
+              "video_id": "_YjOhe8V7Vk",
+              "youtube_views": 7097
+            },
+            {
+              "title": "LIT",
+              "video_id": "DdawrKVxmbo",
+              "youtube_views": 13089
+            },
+            {
+              "title": "STEREOTYPE (Japanese Version)",
+              "video_id": "hK6FzzM_Bow",
+              "youtube_views": 7820
+            },
+            {
+              "title": "Tell Me Now",
+              "video_id": "Ew5aSwFtW94",
+              "youtube_views": 13637
+            },
+            {
+              "title": "Satellite",
+              "video_id": "lXhPoDadxvA",
+              "youtube_views": 58159
+            },
+            {
+              "title": "Lover, Killer",
+              "video_id": "xzxZspLCvXU",
+              "youtube_views": 11826
+            },
+            {
+              "title": "Say My Name",
+              "video_id": "j2L4pmtdfKk",
+              "youtube_views": 46466
+            },
+            {
+              "title": "MEOW",
+              "video_id": "a-8qMH_IlWo",
+              "youtube_views": 10061
+            },
+            {
+              "title": "GPT (Japanese Version)",
+              "video_id": "tXEINeu9zrg",
+              "youtube_views": 5318
+            },
+            {
+              "title": "Bubble (Japanese Version)",
+              "video_id": "4X5Y8DujpkU",
+              "youtube_views": 4757
+            },
+            {
+              "title": "Cheeky Icy Thang (Japanese Version)",
+              "video_id": "sbuqtrjrv8g",
+              "youtube_views": 4137
+            },
+            {
+              "title": "Stay WITH me (Japanese Version)",
+              "video_id": "wthaQ7KIgTY",
+              "youtube_views": 5064
+            }
+          ]
+        },
+        {
+          "title": "Metamorphic",
+          "year": "2024",
+          "tracks": [
+            {
+              "title": "Twenty",
+              "video_id": "1P3k6gaSrPY",
+              "youtube_views": 510076
+            },
+            {
+              "title": "Cheeky Icy Thang",
+              "video_id": "82ZFg7iDGA0",
+              "youtube_views": 6219154
+            },
+            {
+              "title": "1 Thing",
+              "video_id": "nw_5_q9XZ4M",
+              "youtube_views": 3976011
+            },
+            {
+              "title": "Give It 2 Me",
+              "video_id": "-DGK4SmCN38",
+              "youtube_views": 536009
+            },
+            {
+              "title": "Find ( Sieun & Seeun & J )",
+              "video_id": "hdErWXlOmYw",
+              "youtube_views": 496266
+            },
+            {
+              "title": "Let Me Know",
+              "video_id": "R9tSNI-F9Xo",
+              "youtube_views": 754411
+            },
+            {
+              "title": "Nada",
+              "video_id": "o2msjOsmlYA",
+              "youtube_views": 961932
+            },
+            {
+              "title": "Fakin’ ( Sumin & Yoon )",
+              "video_id": "FF2QwRyM-u0",
+              "youtube_views": 957738
+            },
+            {
+              "title": "Roses ( ISA )",
+              "video_id": "-J1StxqwgXk",
+              "youtube_views": 589508
+            },
+            {
+              "title": "Beauty Bomb",
+              "video_id": "7_bHnNjVbuM",
+              "youtube_views": 1222145
+            },
+            {
+              "title": "Gummy Bear",
+              "video_id": "yyFyEsdRlEY",
+              "youtube_views": 422980
+            },
+            {
+              "title": "Stay WITH me",
+              "video_id": "kN2s3D5DOhk",
+              "youtube_views": 1369557
+            },
+            {
+              "title": "Flexing On My Ex",
+              "video_id": "snHxnxILAu0",
+              "youtube_views": 2125790
+            },
+            {
+              "title": "Trouble Maker",
+              "video_id": "VSggKGsobvw",
+              "youtube_views": 489278
+            }
+          ]
+        },
+        {
+          "title": "STEREOTYPE (Chinese Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "STEREOTYPE (Chinese Ver.)",
+              "video_id": "6IKDkjlKHS4",
+              "youtube_views": 58835
+            }
+          ]
+        },
+        {
+          "title": "Teddy Bear (Chinese Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Teddy Bear (Chinese Ver.) (Teddy Bear (Chinese Ver.))",
+              "video_id": "uYZcXeLEA7w",
+              "youtube_views": 34574
+            }
+          ]
+        },
+        {
+          "title": "STAYC Special Single [I WANT IT]",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "I WANT IT (I WANT IT)",
+              "video_id": "2MG_FNLJeYU",
+              "youtube_views": 4884993
+            },
+            {
+              "title": "BOY (BOY)",
+              "video_id": "LeG3tMgE1JQ",
+              "youtube_views": 796086
+            },
+            {
+              "title": "반칙 (Honestly) (반칙(Honestly))",
+              "video_id": "oli85C-OsKI",
+              "youtube_views": 584327
+            }
+          ]
+        },
+        {
+          "title": "Lover, Killer / BEBE (Japanese Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Lover, Killer",
+              "video_id": "bGUo6e6bWoM",
+              "youtube_views": 298512
+            },
+            {
+              "title": "BEBE (Japanese Version)",
+              "video_id": "vUSpL-A9fWk",
+              "youtube_views": 82737
+            }
+          ]
+        },
+        {
+          "title": "S",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "BEBE (BEBE)",
+              "video_id": "r-NpCrUxZCc",
+              "youtube_views": 11045923
+            },
+            {
+              "title": "DIAMOND (DIAMOND)",
+              "video_id": "-INAOro_5AY",
+              "youtube_views": 874001
+            },
+            {
+              "title": "PIPE DOWN (PIPE DOWN)",
+              "video_id": "xxet2UkVgSM",
+              "youtube_views": 676015
+            }
+          ]
+        },
+        {
+          "title": "Over U, Goodbye (Seeun x J)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Over U, Goodbye (Seeun x J)",
+              "video_id": "snagUC7YvJg",
+              "youtube_views": 313156
+            }
+          ]
+        },
+        {
+          "title": "GPT (Japanese Version) / Tell Me Now",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "GPT (Japanese Version)",
+              "video_id": "acU6nRLRpD4",
+              "youtube_views": 135374
+            },
+            {
+              "title": "Tell Me Now",
+              "video_id": "iNkpqr7G6h4",
+              "youtube_views": 283134
+            }
+          ]
+        },
+        {
+          "title": "...l",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "GPT",
+              "video_id": "_6OV-zO1NIc",
+              "youtube_views": 8065868
+            },
+            {
+              "title": "Meant To Be",
+              "video_id": "vmMprrgZx2k",
+              "youtube_views": 701945
+            },
+            {
+              "title": "GPT - Instrumental",
+              "video_id": "eB3-0_AvHAU",
+              "youtube_views": 165218
+            },
+            {
+              "title": "GPT - Acapella",
+              "video_id": "c_HlRAKTRFM",
+              "youtube_views": 110542
+            }
+          ]
+        },
+        {
+          "title": "MEOW / Cheeky Icy Thang (Japanese Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "MEOW",
+              "video_id": "K_YL6MsWOwQ",
+              "youtube_views": 205521
+            },
+            {
+              "title": "Cheeky Icy Thang (Japanese Version)",
+              "video_id": "8eXUPz6CTYo",
+              "youtube_views": 40503
+            },
+            {
+              "title": "MEOW (Remix Version)",
+              "video_id": "PcZ_GLzTm04",
+              "youtube_views": 31143
+            }
+          ]
+        },
+        {
+          "title": "Bubble (Japanese Version)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Bubble (Japanese Version)",
+              "video_id": "NS0Ut_kwhjI",
+              "youtube_views": 134386
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

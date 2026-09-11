@@ -219,5 +219,208 @@
       "누적_써클": "",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 636277,
+      "spotify_id": "6F4yXjmhQBqo6HVr6K234k",
+      "top_tracks": [
+        {
+          "title": "처음 불러보는 노래 (My First Love Song)",
+          "play_count": 4163519,
+          "uri": "spotify:track:3wlSKXBySBUG5Wv9FTXxgm"
+        },
+        {
+          "title": "Twenty",
+          "play_count": 472544,
+          "uri": "spotify:track:5iu6gTajYJEGzF6maepqZd"
+        },
+        {
+          "title": "Mama Said",
+          "play_count": 8716186,
+          "uri": "spotify:track:76G6tgncwiZ3lS2XjztTHy"
+        },
+        {
+          "title": "Umm Great",
+          "play_count": 6914687,
+          "uri": "spotify:track:2T2A9KqSnjY8cXyqouhcum"
+        },
+        {
+          "title": "Knock Knock",
+          "play_count": 4529586,
+          "uri": "spotify:track:2rkut5n6S2xzNfFDqSUOcg"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 19620392,
+      "track_count": 25,
+      "mean_views": 784815,
+      "max_views": 3753038,
+      "albums": [
+        {
+          "title": "My First Flip",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "처음 불러보는 노래 (My First Love Song)",
+              "video_id": "q_lnogWTp5s",
+              "youtube_views": 3753038
+            },
+            {
+              "title": "반창고 (Band-Aid)",
+              "video_id": "pvxez5wihoA",
+              "youtube_views": 987779
+            },
+            {
+              "title": "특이점 (Crush)",
+              "video_id": "p2FMG967zdM",
+              "youtube_views": 288187
+            },
+            {
+              "title": "다시 여기 (Tiki-taka)",
+              "video_id": "b0liTbw9FR4",
+              "youtube_views": 264119
+            },
+            {
+              "title": "Gas On It",
+              "video_id": "R1BlcNvAQMA",
+              "youtube_views": 374999
+            },
+            {
+              "title": "404: Not Found",
+              "video_id": "ACLv7hmz-ns",
+              "youtube_views": 250320
+            },
+            {
+              "title": "악몽을 꿨던 건 비밀이지만 (Secret Nightmare)",
+              "video_id": "n0Nuv7B6RBc",
+              "youtube_views": 821420
+            }
+          ]
+        },
+        {
+          "title": "Kick Out, Flip Now!",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "FREEZE",
+              "video_id": "LXTHpf0bNcY",
+              "youtube_views": 977887
+            },
+            {
+              "title": "제끼자 (Skip It!)",
+              "video_id": "qzYJXPFndyE",
+              "youtube_views": 263083
+            },
+            {
+              "title": "언젠가 태양은 폭발해 (Before the Sun Explodes)",
+              "video_id": "rRexJ0-HH2o",
+              "youtube_views": 641509
+            },
+            {
+              "title": "Electricity",
+              "video_id": "BChER7qnXfA",
+              "youtube_views": 565460
+            },
+            {
+              "title": "Complicated!!",
+              "video_id": "pF4WQcBL1b4",
+              "youtube_views": 413366
+            },
+            {
+              "title": "Code Red",
+              "video_id": "jts3A0mr08Y",
+              "youtube_views": 252281
+            },
+            {
+              "title": "How We KickFlip",
+              "video_id": "ZhvTrgAGrB0",
+              "youtube_views": 384044
+            }
+          ]
+        },
+        {
+          "title": "Twenty",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Twenty",
+              "video_id": "kkWTd89DWnU",
+              "youtube_views": 316666
+            }
+          ]
+        },
+        {
+          "title": "From KickFlip, To WeFlip",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Hyper Slide (Sung by KYEHOON, DONGHWA, MINJE, KEIJU)",
+              "video_id": "OgOm9Ei0BUc",
+              "youtube_views": 307129
+            },
+            {
+              "title": "Good Night (Sung by JUWANG, DONGHYEON)",
+              "video_id": "rwF63Zt2mkM",
+              "youtube_views": 116083
+            }
+          ]
+        },
+        {
+          "title": "To My Beloved Thief, Pt. 2 (Original Soundtrack)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Something Feels Wrong",
+              "video_id": "HHkj1M34QNg",
+              "youtube_views": 227236
+            },
+            {
+              "title": "Something Feels Wrong (Instrumental)",
+              "video_id": "YZtvvJ8ALm8",
+              "youtube_views": 12762
+            }
+          ]
+        },
+        {
+          "title": "Flip it, Kick it!",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Mama Said (뭐가 되려고?)",
+              "video_id": "oscAUWHuEYM",
+              "youtube_views": 2659965
+            },
+            {
+              "title": "응 그래 (Umm Great)",
+              "video_id": "QMmskr9jMcs",
+              "youtube_views": 2140533
+            },
+            {
+              "title": "WARRIORS",
+              "video_id": "jNkCJeRpjzk",
+              "youtube_views": 657795
+            },
+            {
+              "title": "Knock Knock",
+              "video_id": "-7YwzM46Kow",
+              "youtube_views": 1312707
+            },
+            {
+              "title": "Like A Monster",
+              "video_id": "75GAWGlZmUw",
+              "youtube_views": 643461
+            },
+            {
+              "title": "See You On Tomorrow",
+              "video_id": "UZcxVFEWDAk",
+              "youtube_views": 988563
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

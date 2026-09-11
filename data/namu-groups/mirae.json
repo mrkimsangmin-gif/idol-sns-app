@@ -199,5 +199,586 @@
       "누적_써클": "-",
       "비고": "피처링"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 23470,
+      "spotify_id": "3cI5n4TdsnqzKxYPkQLs4b",
+      "top_tracks": [
+        {
+          "title": "Marvelous",
+          "play_count": 2396686,
+          "uri": "spotify:track:45op3j9bOEPAJnqq5gZ3Q5"
+        },
+        {
+          "title": "KILLA",
+          "play_count": 2291330,
+          "uri": "spotify:track:7MyF8hoeUbpv6ZIEVlsTY8"
+        },
+        {
+          "title": "Drip N' Drop",
+          "play_count": 884224,
+          "uri": "spotify:track:5pCAhWYET9Ry4UIB3OmSkC"
+        },
+        {
+          "title": "Splash",
+          "play_count": 1194592,
+          "uri": "spotify:track:6jDg7fyZRymvKPYWdBxTgu"
+        },
+        {
+          "title": "Snow Prince",
+          "play_count": 215902,
+          "uri": "spotify:track:3rCV8mltrSBeDbCrQ0fbWL"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 1640067,
+      "track_count": 91,
+      "mean_views": 18022,
+      "max_views": 490074,
+      "albums": [
+        {
+          "title": "Calm Dreamwaves",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Night's Soft Embrace",
+              "video_id": "L1z4GyfOCZk",
+              "youtube_views": 574
+            },
+            {
+              "title": "Tranquil Sound for the Mind",
+              "video_id": "4tq5w0I9Ztk",
+              "youtube_views": 163
+            },
+            {
+              "title": "Peaceful Slumber Waves",
+              "video_id": "hpfVhsc0MFw",
+              "youtube_views": 90
+            },
+            {
+              "title": "Night Wind Serenade",
+              "video_id": "zZhbu4qhA6I",
+              "youtube_views": 59
+            },
+            {
+              "title": "Dream Escape Music",
+              "video_id": "W18DKg-JRwU",
+              "youtube_views": 60
+            },
+            {
+              "title": "リラックスナッツ",
+              "video_id": "IkPcIOtJXso",
+              "youtube_views": 49
+            },
+            {
+              "title": "寂しい日々",
+              "video_id": "JQTEeXUUl9k",
+              "youtube_views": 52
+            },
+            {
+              "title": "心が落ち着くクルミ割りピアノ",
+              "video_id": "esz8qUEYX9g",
+              "youtube_views": 34
+            },
+            {
+              "title": "会いたい人",
+              "video_id": "qF_nAem3at8",
+              "youtube_views": 36
+            },
+            {
+              "title": "昔の恋",
+              "video_id": "3VQSRVwrTVw",
+              "youtube_views": 31
+            }
+          ]
+        },
+        {
+          "title": "Midnight Serenity",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Breezy Night Tranquility",
+              "video_id": "t5t61lpPpUg",
+              "youtube_views": 248
+            },
+            {
+              "title": "Dreams by the Gentle Stream",
+              "video_id": "KJcqC27YUl4",
+              "youtube_views": 56
+            },
+            {
+              "title": "The Silent Flow of Night",
+              "video_id": "WTsi_9Iwiao",
+              "youtube_views": 51
+            },
+            {
+              "title": "The Comfort of Silence",
+              "video_id": "4uzwGmAQOxU",
+              "youtube_views": 39
+            },
+            {
+              "title": "Moonlit Calmness for Rest",
+              "video_id": "VfN8RajWATQ",
+              "youtube_views": 29
+            },
+            {
+              "title": "昔の恋",
+              "video_id": "3Y7Z95728IU",
+              "youtube_views": 35
+            },
+            {
+              "title": "絆",
+              "video_id": "oZKa9A60c-M",
+              "youtube_views": 28
+            },
+            {
+              "title": "迷い",
+              "video_id": "uI7q_ZiXheE",
+              "youtube_views": 24
+            },
+            {
+              "title": "熟睡できる癒しBGMとナッツの音",
+              "video_id": "Kl1lwDOwtHs",
+              "youtube_views": 35
+            },
+            {
+              "title": "心が落ち着くクルミ割りピアノ",
+              "video_id": "TQ_glYrwyW8",
+              "youtube_views": 30
+            }
+          ]
+        },
+        {
+          "title": "Sleep Serenity: Calm and Soothing Beats",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Breezy Night Tranquility",
+              "video_id": "smauetw0Xdc",
+              "youtube_views": 482
+            },
+            {
+              "title": "Dreams by the Gentle Stream",
+              "video_id": "dylQWfgIj2E",
+              "youtube_views": 120
+            },
+            {
+              "title": "The Silent Flow of Night",
+              "video_id": "-6WRVNWDECc",
+              "youtube_views": 73
+            },
+            {
+              "title": "The Comfort of Silence",
+              "video_id": "mjOvupjDoQ4",
+              "youtube_views": 55
+            },
+            {
+              "title": "Moonlit Calmness for Rest",
+              "video_id": "--aDSQAwEx0",
+              "youtube_views": 47
+            },
+            {
+              "title": "Night's Soft Embrace",
+              "video_id": "obTG4rnj_Wo",
+              "youtube_views": 38
+            },
+            {
+              "title": "Tranquil Sound for the Mind",
+              "video_id": "zcJ6B7VEpJk",
+              "youtube_views": 43
+            },
+            {
+              "title": "Peaceful Slumber Waves",
+              "video_id": "PY5tSdQOMxQ",
+              "youtube_views": 44
+            },
+            {
+              "title": "Night Wind Serenade",
+              "video_id": "K670LwrlbO4",
+              "youtube_views": 39
+            },
+            {
+              "title": "Dream Escape Music",
+              "video_id": "G2Pl1N-GK4w",
+              "youtube_views": 92
+            }
+          ]
+        },
+        {
+          "title": "Somnium",
+          "year": "2025",
+          "tracks": [
+            {
+              "title": "Somnium",
+              "video_id": "QVMfOtZoIuY",
+              "youtube_views": 508
+            },
+            {
+              "title": "Aether",
+              "video_id": "lJNUpz1fWfQ",
+              "youtube_views": 302
+            },
+            {
+              "title": "Caelum",
+              "video_id": "tzQ987DaIMw",
+              "youtube_views": 121
+            },
+            {
+              "title": "Dimora",
+              "video_id": "1uRb_4t8Tl8",
+              "youtube_views": 84
+            },
+            {
+              "title": "Drifted",
+              "video_id": "Lm8ePN2ZRtg",
+              "youtube_views": 69
+            },
+            {
+              "title": "Dwellt",
+              "video_id": "uYIaZUsCJQI",
+              "youtube_views": 69
+            },
+            {
+              "title": "Flewn",
+              "video_id": "pUBYd8mTbHE",
+              "youtube_views": 45
+            },
+            {
+              "title": "Glinted",
+              "video_id": "VbC-IbXDgR0",
+              "youtube_views": 57
+            },
+            {
+              "title": "Holloway",
+              "video_id": "EeYi873XC_k",
+              "youtube_views": 51
+            },
+            {
+              "title": "Loam",
+              "video_id": "nXChhNllfis",
+              "youtube_views": 32
+            },
+            {
+              "title": "Lucine",
+              "video_id": "VtwR1LAdnPo",
+              "youtube_views": 47
+            },
+            {
+              "title": "Mirelle",
+              "video_id": "87Rn7b5EMtM",
+              "youtube_views": 43
+            },
+            {
+              "title": "Morrow",
+              "video_id": "GVfPFqPKgfk",
+              "youtube_views": 86
+            },
+            {
+              "title": "Niveous",
+              "video_id": "_hCMVqCyFx8",
+              "youtube_views": 37
+            },
+            {
+              "title": "Noema",
+              "video_id": "l3duSl1SkR8",
+              "youtube_views": 36
+            },
+            {
+              "title": "Orris",
+              "video_id": "mHI9WHaa_bM",
+              "youtube_views": 36
+            },
+            {
+              "title": "Quieten",
+              "video_id": "n-SL8rAt-Ww",
+              "youtube_views": 33
+            },
+            {
+              "title": "Serein",
+              "video_id": "nvg5N8sHg4s",
+              "youtube_views": 33
+            },
+            {
+              "title": "Solume",
+              "video_id": "8XAWAKTzQ4s",
+              "youtube_views": 47
+            },
+            {
+              "title": "Therene",
+              "video_id": "1qdVDLExBPU",
+              "youtube_views": 38
+            },
+            {
+              "title": "Vellum",
+              "video_id": "2cyczMk3FR8",
+              "youtube_views": 44
+            },
+            {
+              "title": "Vesper",
+              "video_id": "RgAWhRaNdJE",
+              "youtube_views": 43
+            },
+            {
+              "title": "Wend",
+              "video_id": "RB5PHGsp9Cs",
+              "youtube_views": 43
+            },
+            {
+              "title": "Whithers",
+              "video_id": "aaKD7KZEn_Q",
+              "youtube_views": 93
+            }
+          ]
+        },
+        {
+          "title": "잘 지내길 바래",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "If I Knew",
+              "video_id": "BfqbKaC8pTI",
+              "youtube_views": 647
+            },
+            {
+              "title": "Why",
+              "video_id": "nA8e_vVcQ_c",
+              "youtube_views": 582
+            },
+            {
+              "title": "잘 지내길 바래",
+              "video_id": "dZzls42KU9s",
+              "youtube_views": 3447
+            },
+            {
+              "title": "Light Tonight",
+              "video_id": "eUvQM_p15io",
+              "youtube_views": 307
+            }
+          ]
+        },
+        {
+          "title": "Eternal Pulse",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Eternal Pulse",
+              "video_id": "a60jjlZhsBg",
+              "youtube_views": 817
+            }
+          ]
+        },
+        {
+          "title": "REVEL CODE",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "REVEL CODE",
+              "video_id": "q5s6o_wnOT0",
+              "youtube_views": 3815
+            }
+          ]
+        },
+        {
+          "title": "RUNNING UP (Kor Ver.)",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "RUNNING UP (Kor Ver.)",
+              "video_id": "01dt9GCATFA",
+              "youtube_views": 4687
+            },
+            {
+              "title": "RUNNING UP (Inst.)",
+              "video_id": "xgCEVoejqpo",
+              "youtube_views": 944
+            }
+          ]
+        },
+        {
+          "title": "RUNNING UP",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Marvelous (Japanese ver.)",
+              "video_id": "bShqrzhnMeY",
+              "youtube_views": 19159
+            },
+            {
+              "title": "RUNNING UP",
+              "video_id": "VG1yGgXv__s",
+              "youtube_views": 58537
+            },
+            {
+              "title": "JUMP! (Japanese ver.)",
+              "video_id": "E2e0JDNwQjI",
+              "youtube_views": 10559
+            },
+            {
+              "title": "KILLA (Japanese ver.)",
+              "video_id": "Fb7-ZyfswRI",
+              "youtube_views": 25049
+            },
+            {
+              "title": "Dear My Friend (Japanese ver.)",
+              "video_id": "IIQKZK9t_RE",
+              "youtube_views": 13412
+            }
+          ]
+        },
+        {
+          "title": "Boys will be Boys - MIRAE 5th Mini Album",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "GIRL",
+              "video_id": "wM0hX-wLPJg",
+              "youtube_views": 44333
+            },
+            {
+              "title": "JUMP!",
+              "video_id": "mZM1nz4O0EI",
+              "youtube_views": 77213
+            },
+            {
+              "title": "So Different",
+              "video_id": "gdN-nR5g14g",
+              "youtube_views": 17202
+            },
+            {
+              "title": "NOW & FOREVER",
+              "video_id": "0LJ_77q-jHA",
+              "youtube_views": 11135
+            },
+            {
+              "title": "Learn To Fly",
+              "video_id": "RjPxSgz6qAE",
+              "youtube_views": 105682
+            },
+            {
+              "title": "Drop The Bass",
+              "video_id": "rQPiPWzxIuY",
+              "youtube_views": 50015
+            }
+          ]
+        },
+        {
+          "title": "Snow Prince - MIRAE Special Single",
+          "year": "Single",
+          "tracks": [
+            {
+              "title": "Snow Prince",
+              "video_id": "YA7Z05VrItg",
+              "youtube_views": 79608
+            }
+          ]
+        },
+        {
+          "title": "Ourturn - MIRAE 4th Mini Album",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Drip N' Drop",
+              "video_id": "FmvUUyX3aUA",
+              "youtube_views": 490074
+            },
+            {
+              "title": "Welcome To The Future",
+              "video_id": "toJOPhxD6Dw",
+              "youtube_views": 41281
+            },
+            {
+              "title": "Daydreamin'",
+              "video_id": "gmhk_DZsYj4",
+              "youtube_views": 26853
+            },
+            {
+              "title": "What Are You Doing?",
+              "video_id": "sjW_KeBcxeQ",
+              "youtube_views": 41559
+            },
+            {
+              "title": "FALLING STARS",
+              "video_id": "QgrqBEhw8Cw",
+              "youtube_views": 13232
+            }
+          ]
+        },
+        {
+          "title": "Marvelous - MIRAE 3rd Mini Album",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Future Land",
+              "video_id": "cG7E0AHWyLI",
+              "youtube_views": 17378
+            },
+            {
+              "title": "Marvelous",
+              "video_id": "OBAn1Hx77is",
+              "youtube_views": 226826
+            },
+            {
+              "title": "JUICE",
+              "video_id": "dpUcyvB-c90",
+              "youtube_views": 33086
+            },
+            {
+              "title": "Final Cut",
+              "video_id": "m3wR8b-pN_Q",
+              "youtube_views": 11650
+            },
+            {
+              "title": "Amazing",
+              "video_id": "lYovKPoO3_E",
+              "youtube_views": 18755
+            },
+            {
+              "title": "Seven Pages (Dear My Friend)",
+              "video_id": "F9vXtYPPXY8",
+              "youtube_views": 10764
+            }
+          ]
+        },
+        {
+          "title": "Splash - MIRAE 2nd Mini Album",
+          "year": "EP",
+          "tracks": [
+            {
+              "title": "Splash",
+              "video_id": "8KstXjFjgAU",
+              "youtube_views": 66169
+            },
+            {
+              "title": "Bang-Up",
+              "video_id": "kisX3LT5OZY",
+              "youtube_views": 38794
+            },
+            {
+              "title": "New Days",
+              "video_id": "NxoGvZL8pko",
+              "youtube_views": 10486
+            },
+            {
+              "title": "Don't Stop",
+              "video_id": "S_FjL8ZziuM",
+              "youtube_views": 11254
+            },
+            {
+              "title": "#Secret",
+              "video_id": "ZBa94e_fpGc",
+              "youtube_views": 20129
+            },
+            {
+              "title": "SUGAR",
+              "video_id": "g6TovCadsUg",
+              "youtube_views": 29874
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }
