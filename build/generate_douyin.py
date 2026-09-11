@@ -242,7 +242,7 @@ def main():
     baked_html = build_baked_content(challenges, updated_at)
     alert_box = (
         f'<div class="alert alert-light border mb-3">\n'
-        f'    <strong>중국 도우인(抖音) 주간 트렌드 분석</strong> — 중국 본토에서 가장 바이럴되고 있는 K-POP 및 숏폼 챌린지 순위입니다. (집계일: {updated_at[:10]})\n'
+        f'    <strong>중국 도우인(抖音) 주간 트렌드 분석</strong> — 중국 본토에서 가장 바이럴되고 있는 챌린지 순위입니다. (집계일: {updated_at[:10]})\n'
         f'</div>'
     )
     t = replace_once(
