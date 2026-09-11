@@ -10,8 +10,8 @@
 
 var GEMINI_CACHE_PREFIX = 'gemini_v7_'; // v7: 1000자 제한 + 잘림 복구 (TMI/raw text 누출 방지)
 var GEMINI_CACHE_TTL = 7 * 24 * 60 * 60 * 1000; // 7일 (ms)
-if (typeof NAMU_DATA_VERSION === 'undefined') {
-    var NAMU_DATA_VERSION = '1';
+if (typeof globalThis !== 'undefined' && typeof globalThis.NAMU_DATA_VERSION === 'undefined') {
+    globalThis.NAMU_DATA_VERSION = '1';
 }
 
 /**

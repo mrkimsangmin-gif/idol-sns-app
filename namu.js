@@ -15,7 +15,7 @@ var searchIndexData = null;     // search-index.json 역인덱스 데이터
 var groupEmbedIndex = null;     // group-embed-index.json (lazy load, 임베딩 유사도 검색용)
 
 // 캐시 버스팅 버전
-const NAMU_DATA_VERSION = '20260912';
+var NAMU_DATA_VERSION = '20260912';
 
 // ============================================================
 // 진입점
@@ -600,7 +600,8 @@ function renderNamuDiscography(container, group) {
         var a = sorted[i];
         var hanterVal = a['초동_한터'] && a['초동_한터'] !== '-' ? a['초동_한터'] : '-';
         var circleVal = a['초동_써클'] && a['초동_써클'] !== '-' ? a['초동_써클'] : '-';
-        var hasSales = hanterVal !== '-' || circleVal !== '-';
+        var circleCumVal = a['누적_써클'] && a['누적_써클'] !== '-' ? a['누적_써클'] : '-';
+        var hasSales = hanterVal !== '-' || circleVal !== '-' || circleCumVal !== '-';
         var salesClass = hasSales ? 'fw-bold' : 'text-muted';
 
         rows += '<tr>' +
@@ -609,6 +610,7 @@ function renderNamuDiscography(container, group) {
             '<td>' + (a['발매일'] || '-') + '</td>' +
             '<td class="text-end ' + salesClass + '">' + hanterVal + '</td>' +
             '<td class="text-end ' + salesClass + '">' + circleVal + '</td>' +
+            '<td class="text-end ' + (circleCumVal !== '-' ? 'fw-bold text-primary' : 'text-muted') + '">' + circleCumVal + '</td>' +
             '</tr>';
     }
 
@@ -617,11 +619,11 @@ function renderNamuDiscography(container, group) {
         '<table class="table table-hover namu-album-table">' +
         '<thead><tr>' +
         '<th>앨범명</th><th>유형</th><th>발매일</th>' +
-        '<th class="text-end">초동(한터)</th><th class="text-end">초동(써클)</th>' +
+        '<th class="text-end">초동(한터)</th><th class="text-end">초동(써클)</th><th class="text-end">누적(써클)</th>' +
         '</tr></thead>' +
         '<tbody>' + rows + '</tbody>' +
         '</table></div>' +
-        '<small class="text-muted">* 판매량의 ** 표시는 나무위키 원본의 근사치입니다</small>';
+        '<small class="text-muted">* 써클·한터 정규 차트 연동 데이터가 우선 반영되며, ** 표시는 나무위키 원본의 근사치입니다.</small>';
 }
 
 // ============================================================
@@ -757,10 +759,11 @@ function parseSalesValue(str) {
 function renderNamuChart(container, group) {
     var albums = group.albums || [];
 
-    // 초동 데이터 있는 앨범만, 발매일 오름차순
+    // 초동 또는 누적 데이터 있는 앨범만, 발매일 오름차순
     var chartAlbums = albums.filter(function (a) {
         return (a['초동_한터'] && a['초동_한터'] !== '-') ||
-            (a['초동_써클'] && a['초동_써클'] !== '-');
+            (a['초동_써클'] && a['초동_써클'] !== '-') ||
+            (a['누적_써클'] && a['누적_써클'] !== '-');
     }).sort(function (a, b) {
         var dateA = (a['발매일'] || '').replace(/\./g, '-');
         var dateB = (b['발매일'] || '').replace(/\./g, '-');
@@ -782,9 +785,11 @@ function renderNamuChart(container, group) {
     var labels = chartAlbums.map(function (a) { return a.title; });
     var hanterData = chartAlbums.map(function (a) { return parseSalesValue(a['초동_한터']); });
     var circleData = chartAlbums.map(function (a) { return parseSalesValue(a['초동_써클']); });
+    var circleCumData = chartAlbums.map(function (a) { return parseSalesValue(a['누적_써클']); });
 
     var hasHanter = hanterData.some(function (v) { return v > 0; });
     var hasCircle = circleData.some(function (v) { return v > 0; });
+    var hasCircleCum = circleCumData.some(function (v) { return v > 0; });
 
     var datasets = [];
     if (hasHanter) {
@@ -802,6 +807,15 @@ function renderNamuChart(container, group) {
             data: circleData,
             backgroundColor: 'rgba(0, 198, 249, 0.7)',
             borderColor: '#00c6f9',
+            borderWidth: 1
+        });
+    }
+    if (hasCircleCum) {
+        datasets.push({
+            label: '총 누적 (써클)',
+            data: circleCumData,
+            backgroundColor: 'rgba(108, 92, 231, 0.5)',
+            borderColor: '#6c5ce7',
             borderWidth: 1
         });
     }
