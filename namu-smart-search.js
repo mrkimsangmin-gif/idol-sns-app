@@ -3757,6 +3757,24 @@ async function ensureReleasesDataLoaded() {
     }
 }
 
+var calendarEventsData = null;
+var calendarEventsLoaded = false;
+
+// Lazy loader: calendar.json 로드 (실시간 컴백 캘린더 연동용)
+async function ensureCalendarDataLoaded() {
+    if (calendarEventsData && calendarEventsData.length > 0) return true;
+    try {
+        var response = await fetch('/data/calendar.json?v=' + Date.now());
+        var calJson = await response.json();
+        calendarEventsData = calJson.events || [];
+        calendarEventsLoaded = true;
+        return true;
+    } catch (e) {
+        console.warn('캘린더 데이터 로드 실패:', e);
+        return false;
+    }
+}
+
 var _snsDataLoaded = false;
 
 // Lazy loader: script.js의 SNS/메타데이터 캐시를 병렬 로드
@@ -4246,7 +4264,33 @@ async function executeCalendarSchedule(container, intent) {
     container.style.display = 'block';
 }
 
-// --- 월별/반기 컴백/발매 검색 ---
+// 그룹 성별 헬퍼 (캘린더 이벤트용)
+function getEventGenderHelper(name, slug) {
+    if (typeof namuIndexData !== 'undefined' && namuIndexData) {
+        var clean = (name || '').toLowerCase().replace(/[\s\(\)]/g, '');
+        var s = (slug || '').toLowerCase();
+        for (var i = 0; i < namuIndexData.length; i++) {
+            var g = namuIndexData[i];
+            if ((s && g.slug && g.slug.toLowerCase() === s) ||
+                (g.name && g.name.toLowerCase().replace(/[\s\(\)]/g, '') === clean) ||
+                (g.name_en && g.name_en.toLowerCase().replace(/[\s\(\)]/g, '') === clean)) {
+                return g.gender;
+            }
+        }
+    }
+    var fMap = {
+        '이즈나': '여자', 'izna': '여자', '지수': '여자', 'blackpink': '여자', '르세라핌': '여자', 'le-sserafim': '여자',
+        '하츠웨이브': '남자', 'hrtz-wav': '남자', '82메이저': '남자', '82major': '남자',
+        'w3way': '남자', '위웨이': '남자', '몬스타엑스': '남자', 'monsta-x': '남자',
+        '베리베리': '남자', 'verivery': '남자', '빅오션': '남자', 'big-ocean': '남자',
+        '올아워즈': '남자', 'all-h-ours': '남자', '펜타곤': '남자', 'pentagon': '남자',
+        '원어스': '남자', 'oneus': '남자'
+    };
+    var k = (slug || name || '').toLowerCase().replace(/[\s\(\)]/g, '');
+    return fMap[k] || '';
+}
+
+// --- 월별/반기 컴백/발매 검색 (나무위키 앨범 DB + 실시간 캘린더 교차 통합) ---
 async function executeMonthlyComeback(container, intent) {
     var year = intent.year;
     var gender = intent.gender;
@@ -4266,51 +4310,140 @@ async function executeMonthlyComeback(container, intent) {
     titleParts += ' 컴백/발매 앨범';
 
     // 로딩 표시
-    showSmartAnswer(container, titleParts, '릴리스 데이터를 불러오는 중...', 'info');
+    showSmartAnswer(container, titleParts, '릴리스 및 캘린더 데이터를 불러오는 중...', 'info');
 
-    // 릴리스 데이터 lazy load
-    var loaded = await ensureReleasesDataLoaded();
-    if (!loaded || !namuReleasesData || namuReleasesData.length === 0) {
-        showSmartAnswer(container, titleParts, '릴리스 데이터를 불러올 수 없습니다.', 'error');
+    // 릴리스 데이터 및 캘린더 데이터 병렬 로드
+    await Promise.all([
+        ensureReleasesDataLoaded(),
+        ensureCalendarDataLoaded()
+    ]);
+
+    if (!namuReleasesData && !calendarEventsData) {
+        showSmartAnswer(container, titleParts, '컴백/발매 데이터를 불러올 수 없습니다.', 'error');
         return;
     }
 
-    // 연도/월(범위)/성별 필터
     var yearStr = '' + year;
-    var filtered = namuReleasesData.filter(function(a) {
-        var rd = a.release_date || '';
-        // 연도 매칭 (접두사)
-        if (rd.substring(0, 4) !== yearStr) return false;
-        // 월 추출: "2023.06.02" → 6, "2023-01-30" → 1
-        var monthPart = rd.substring(5, 7).replace(/^0/, '');
-        var m = parseInt(monthPart);
-        if (isNaN(m) || m < monthStart || m > monthEnd) return false;
-        // 성별 필터
-        if (gender && a.gender !== gender) return false;
-        return true;
-    });
+    var merged = [];
+    var seenKey = {};
 
-    // 발매일 오름차순 정렬
-    filtered.sort(function(a, b) {
-        return (a.release_date || '').localeCompare(b.release_date || '');
-    });
+    // 1. 나무위키 발매 DB 필터
+    if (namuReleasesData && namuReleasesData.length > 0) {
+        var relFiltered = namuReleasesData.filter(function(a) {
+            var rd = a.release_date || '';
+            if (rd.substring(0, 4) !== yearStr) return false;
+            var monthPart = rd.substring(5, 7).replace(/^0/, '');
+            var m = parseInt(monthPart);
+            if (isNaN(m) || m < monthStart || m > monthEnd) return false;
+            if (gender && a.gender !== gender) return false;
+            return true;
+        });
 
-    // 중복 제거: 같은 그룹 + 같은 앨범명 → 첫 번째만
-    var seen = {};
-    var deduped = [];
-    for (var i = 0; i < filtered.length; i++) {
-        var key = filtered[i].group_slug + '|' + (filtered[i].album_title || '') + '|' + filtered[i].release_date;
-        if (!seen[key]) {
-            seen[key] = true;
-            deduped.push(filtered[i]);
+        for (var i = 0; i < relFiltered.length; i++) {
+            var r = relFiltered[i];
+            var normDate = (r.release_date || '').replace(/-/g, '.');
+            var cleanTitle = (r.group_name || '').toLowerCase().replace(/\s/g, '');
+            var key = normDate + '|' + (r.group_slug || cleanTitle);
+            seenKey[key] = true;
+            merged.push({
+                date: normDate,
+                group_name: r.group_name,
+                group_slug: r.group_slug,
+                album_title: r.album_title,
+                album_type: r.album_type || '정식 발매',
+                source: 'album_db',
+                sourceBadge: '<span class="badge bg-info text-dark">발매확정</span>'
+            });
         }
     }
 
-    if (deduped.length === 0) {
-        var emptyMsg = year + '년 ' + (intent.periodLabel || monthStart + '월') + '에 발매된 앨범 데이터가 없습니다.';
+    // 2. 실시간 컴백 캘린더(calendar.json) 필터 및 병합
+    if (calendarEventsData && calendarEventsData.length > 0) {
+        var calFiltered = calendarEventsData.filter(function(c) {
+            var d = c.date || '';
+            if (d.substring(0, 4) !== yearStr) return false;
+            var monthPart = d.substring(5, 7).replace(/^0/, '');
+            var m = parseInt(monthPart);
+            if (isNaN(m) || m < monthStart || m > monthEnd) return false;
+            if (gender) {
+                var eventGen = getEventGenderHelper(c.title, c.slug);
+                if (eventGen && eventGen !== gender) return false;
+            }
+            return true;
+        });
+
+        for (var k = 0; k < calFiltered.length; k++) {
+            var c = calFiltered[k];
+            var rawDate = c.date || '';
+            var normDate = rawDate.replace(/-/g, '.');
+            if (normDate.endsWith('.00')) normDate = normDate.substring(0, 7) + ' (미정)';
+
+            var cleanName = (c.title || '').replace(/\(Comeback\)|\(Debut\)/gi, '').trim();
+            var cleanKeyName = cleanName.toLowerCase().replace(/\s/g, '');
+
+            // 날짜 미정인 경우, 이미 해당 그룹의 구체적 날짜 일정이 있으면 중복 방지
+            if (normDate.includes('미정')) {
+                var hasExact = merged.some(function(m) {
+                    return !m.date.includes('미정') && (
+                        (m.group_slug && c.slug && m.group_slug === c.slug) ||
+                        m.group_name.replace(/\s/g, '') === cleanKeyName ||
+                        cleanName.includes(m.group_name) ||
+                        m.group_name.includes(cleanName)
+                    );
+                });
+                if (hasExact) continue;
+            }
+
+            // 기존 나무위키 항목과 매칭 확인
+            var exist = null;
+            for (var mIdx = 0; mIdx < merged.length; mIdx++) {
+                var mItem = merged[mIdx];
+                var dateMatch = (mItem.date === normDate || (normDate.includes('미정') && mItem.date.startsWith(normDate.substring(0, 7))));
+                var nameMatch = (mItem.group_slug && c.slug && mItem.group_slug === c.slug) ||
+                                mItem.group_name.replace(/\s/g, '') === cleanKeyName ||
+                                cleanName.includes(mItem.group_name) ||
+                                mItem.group_name.includes(cleanName);
+                if (dateMatch && nameMatch) {
+                    exist = mItem;
+                    break;
+                }
+            }
+
+            if (exist) {
+                exist.source = 'both';
+                exist.sourceBadge = '<span class="badge bg-primary" title="정식 앨범 DB 및 실시간 캘린더 동시 등록">확정(DB+캘린더)</span>';
+                if (!exist.group_slug && c.slug) exist.group_slug = c.slug;
+                continue;
+            }
+
+            var desc = c.description ? c.description.split(' - ')[0] : '컴백/발매 예정';
+            if (desc.length > 35) desc = desc.substring(0, 35) + '...';
+            var albumType = c.title.indexOf('Debut') !== -1 ? '데뷔 예정' : '컴백 예정';
+
+            merged.push({
+                date: normDate,
+                group_name: cleanName,
+                group_slug: c.slug || '',
+                album_title: desc,
+                album_type: albumType,
+                source: 'calendar',
+                sourceBadge: '<span class="badge bg-success" title="실시간 컴백 캘린더 등록 일정">캘린더</span>'
+            });
+        }
+    }
+
+    // 날짜 오름차순 정렬 (미정은 맨 뒤로)
+    merged.sort(function(a, b) {
+        if (a.date.includes('미정') && !b.date.includes('미정')) return 1;
+        if (!a.date.includes('미정') && b.date.includes('미정')) return -1;
+        return a.date.localeCompare(b.date);
+    });
+
+    if (merged.length === 0) {
+        var emptyMsg = year + '년 ' + (intent.periodLabel || monthStart + '월') + '에 예정된 컴백/발매 일정이 없습니다.';
         showSmartAnswer(container, titleParts,
             emptyMsg +
-            '<div class="text-muted small mt-1">나무위키 기준 데이터로, 최신 발매 정보가 아직 반영되지 않았을 수 있습니다.</div>',
+            '<div class="text-muted small mt-2"><a href="/comeback" onclick="event.preventDefault(); route(\'comeback\');">📅 실시간 컴백 캘린더 전체보기 →</a></div>',
             'warning');
         return;
     }
@@ -4324,25 +4457,36 @@ async function executeMonthlyComeback(container, intent) {
         '</div>' +
         '<div class="namu-smart-answer-body">' +
         '<div class="table-responsive"><table class="table table-sm namu-smart-table">' +
-        '<thead><tr><th>발매일</th><th>그룹</th><th>앨범</th><th>유형</th></tr></thead>' +
+        '<thead><tr><th>일자</th><th>그룹</th><th>앨범 / 타이틀</th><th>구분</th><th>출처</th></tr></thead>' +
         '<tbody>';
 
-    for (var j = 0; j < deduped.length; j++) {
-        var album = deduped[j];
-        // 그룹명 클릭 → 그룹 상세 이동
-        var groupLink = '<a href="javascript:void(0)" onclick="showGroupDetail(\'' +
-            escapeHtml(album.group_slug) + '\')" class="text-decoration-none fw-bold">' +
-            escapeHtml(album.group_name) + '</a>';
+    for (var j = 0; j < merged.length; j++) {
+        var item = merged[j];
+        var groupHtml = item.group_name;
+        if (item.group_slug) {
+            groupHtml = '<a href="javascript:void(0)" onclick="loadNamuGroupBySlug(\'' +
+                escapeSingleQuote(item.group_slug) + '\')" class="text-decoration-none fw-bold">' +
+                escapeHtml(item.group_name) + '</a>';
+        } else {
+            groupHtml = '<span class="fw-bold">' + escapeHtml(item.group_name) + '</span>';
+        }
+
         html += '<tr>' +
-            '<td>' + escapeHtml(album.release_date || '-') + '</td>' +
-            '<td>' + groupLink + '</td>' +
-            '<td>' + escapeHtml(album.album_title || '-') + '</td>' +
-            '<td class="text-muted">' + escapeHtml(album.album_type || '-') + '</td>' +
+            '<td class="text-nowrap">' + escapeHtml(item.date || '-') + '</td>' +
+            '<td>' + groupHtml + '</td>' +
+            '<td>' + escapeHtml(item.album_title || '-') + '</td>' +
+            '<td class="text-muted">' + escapeHtml(item.album_type || '-') + '</td>' +
+            '<td>' + item.sourceBadge + '</td>' +
             '</tr>';
     }
 
     html += '</tbody></table></div>' +
-        '<div class="text-muted small" style="margin-top:4px;">총 ' + deduped.length + '건 (나무위키 기준)</div>' +
+        '<div class="d-flex justify-content-between align-items-center mt-2 flex-wrap gap-2">' +
+        '<div class="text-muted small">총 ' + merged.length + '건 (나무위키 앨범 DB + 실시간 캘린더 교차 통합)</div>' +
+        '<a href="/comeback" class="btn btn-sm btn-outline-success" onclick="event.preventDefault(); route(\'comeback\');">' +
+        '📅 실시간 컴백 캘린더 전체보기 (/comeback) →' +
+        '</a>' +
+        '</div>' +
         '</div></div>';
 
     container.innerHTML = html;
