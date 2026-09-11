@@ -200,6 +200,7 @@ function renderCustomCalendar() {
     let gridHtml = '';
     const weekdays = ['일', '월', '화', '수', '목', '금', '토'];
 
+    gridHtml += '<div class="cal-scroll-hint d-md-none text-primary bg-primary-subtle py-1 px-2 rounded small text-center mb-2"><i class="bi bi-arrows-expand me-1"></i>👉 달력을 좌우로 밀어서(스크롤) 전체 요일을 볼 수 있습니다</div>';
     gridHtml += '<div class="cal-scroll-wrapper">';
     gridHtml += '<div class="cal-scroll-inner">';
     gridHtml += '<div class="cal-grid-header">';
@@ -257,7 +258,6 @@ function renderCustomCalendar() {
     gridHtml += '</div>'; // cal-grid-body
     gridHtml += '</div>'; // cal-scroll-inner
     gridHtml += '</div>'; // cal-scroll-wrapper
-    gridHtml += '<div class="cal-scroll-hint d-md-none text-muted small text-center mt-1"><i class="bi bi-arrows-expand me-1"></i>좌우로 스크롤하여 전체 요일을 확인할 수 있습니다</div>';
 
     // 하단 라인업 피드
     let summaryHtml = '<div class="mt-4"><h3 class="fs-6 fw-bold mb-3">이번 달 컴백/데뷔 라인업 (' + filtered.length + '팀)</h3>';
