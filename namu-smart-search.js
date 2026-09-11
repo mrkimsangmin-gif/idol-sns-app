@@ -10,6 +10,9 @@
 
 var GEMINI_CACHE_PREFIX = 'gemini_v7_'; // v7: 1000자 제한 + 잘림 복구 (TMI/raw text 누출 방지)
 var GEMINI_CACHE_TTL = 7 * 24 * 60 * 60 * 1000; // 7일 (ms)
+if (typeof NAMU_DATA_VERSION === 'undefined') {
+    var NAMU_DATA_VERSION = '1';
+}
 
 /**
  * djb2 해시 → base36 문자열 (캐시 키 생성용)
@@ -666,7 +669,8 @@ async function fetchGroupDetail(slug) {
         return smartSearchGroupCache[slug];
     }
     try {
-        var response = await fetch('/data/namu-groups/' + slug + '.json?v=' + NAMU_DATA_VERSION);
+        var vParam = (typeof NAMU_DATA_VERSION !== 'undefined') ? NAMU_DATA_VERSION : '1';
+        var response = await fetch('/data/namu-groups/' + slug + '.json?v=' + vParam);
         if (!response.ok) return null;
         var data = await response.json();
         smartSearchGroupCache[slug] = data;
@@ -1128,10 +1132,40 @@ function parseSmartQuery(query) {
         };
     }
 
-    // 3-2. "{그룹} 몇명" / "{그룹} 멤버 몇명/몇 명" / "{그룹} 인원" / "{그룹} 멤버 수"
-    var countMatch = q.match(/^(.+?)\s*(?:멤버\s*)?(?:몇\s*명|몇명|인원수?|멤버\s*수)\s*[?？]?$/);
+    // 3-1c. 크로스그룹 멤버 성씨 검색: "명씨 성을 가진 아이돌 누구 있어?", "김씨 성 아이돌"
+    var surnameMatch = q.match(/^([가-힣])씨\s*(?:성을\s*가진|성씨\s*인|성)?\s*(?:아이돌|걸그룹|보이그룹|가수|멤버)?\s*(?:누구|누가|어떤|어느)?\s*(?:있어|있나요|있니|목록|리스트)?\s*$/);
+    if (surnameMatch) {
+        var snGender = null;
+        if (/걸그룹|여자/.test(q)) snGender = '여자';
+        if (/보이그룹|남자/.test(q)) snGender = '남자';
+        return {
+            type: 'member_surname_search',
+            surname: surnameMatch[1],
+            gender: snGender
+        };
+    }
+
+    // 3-1d. 크로스그룹 멤버 키 랭킹: "역대 아이돌 키 순위", "걸그룹 키 순위", "아이돌 키 순위"
+    var heightRankMatch = q.match(/^(?:역대\s*)?(?:아이돌|걸그룹|보이그룹)?\s*(?:키|신장)\s*(?:순위|랭킹|top\s*\d*|1위)?\s*$/i);
+    if (heightRankMatch && /키|신장/.test(q) && /순위|랭킹|top|1위|역대/i.test(q)) {
+        var hrGender = null;
+        if (/걸그룹|여자/.test(q)) hrGender = '여자';
+        if (/보이그룹|남자/.test(q)) hrGender = '남자';
+        return {
+            type: 'member_height_ranking',
+            gender: hrGender
+        };
+    }
+
+    // 3-2. "{그룹} 몇명" / "{그룹} 멤버 몇명/몇 명" / "{그룹} 인원" / "{그룹} 멤버 수" / "{그룹} 몇 명인가요"
+    var countMatch = q.match(/^(.+?)\s*(?:[은는이가]\s*)?(?:멤버\s*)?(?:몇\s*명|몇명|인원수?|멤버\s*수)\s*[?？]?$/);
     if (countMatch) {
         var gCount = findGroupByName(countMatch[1].trim());
+        if (!gCount) {
+            // "보이넥스트도어는" -> "보이넥스트도어" 조사 제거 후 재시도
+            var gNameClean = countMatch[1].trim().replace(/(\S{2,})[은는이가]$/, '$1').trim();
+            gCount = findGroupByName(gNameClean);
+        }
         if (gCount) {
             return { type: 'group_field', group: gCount, field: '멤버수' };
         }
@@ -1787,6 +1821,14 @@ async function executeIntent(intent) {
             await executeCalendarSchedule(container, intent);
             return;
 
+        case 'member_surname_search':
+            await executeMemberSurnameSearch(container, intent);
+            return;
+
+        case 'member_height_ranking':
+            await executeMemberHeightRanking(container, intent);
+            return;
+
         case 'monthly_comeback':
             await executeMonthlyComeback(container, intent);
             return;
@@ -1842,11 +1884,32 @@ async function executeGroupField(container, intent) {
     }
 
     var field = intent.field;
-    var value = '';
 
+    // 1. 멤버수 질의: 인원수 + 전체 멤버 명단 함께 표시
     if (field === '멤버수') {
-        value = (detail.members || []).length + '명';
-    } else if (detail.info && detail.info[field]) {
+        var mems = detail.members || [];
+        var count = mems.length || (detail.info ? detail.info['멤버수'] : 0) || 0;
+        var names = mems.map(function(m) { return m.name; }).filter(Boolean).join(', ');
+        var countText = '<strong>' + count + '명</strong>' + (names ? '<br><span class="text-muted" style="font-size:0.92rem;margin-top:4px;display:inline-block;">멤버: ' + escapeHtml(names) + '</span>' : '');
+        showSmartAnswer(container, intent.group.name + ' 멤버수', countText, 'info', intent.group.slug);
+        return;
+    }
+
+    // 2. 그룹 레벨 '국적/출신지' 질의: 멤버 전원의 국적/출신지 테이블로 안내
+    if (field === '출신지' || field === '국적') {
+        await executeGroupMemberTable(container, {
+            type: 'group_member_table',
+            group: intent.group,
+            field: '출신지',
+            fields: ['출신지', '역할'],
+            isProfile: false,
+            unmatchedFields: []
+        });
+        return;
+    }
+
+    var value = '';
+    if (detail.info && detail.info[field]) {
         value = detail.info[field];
     } else {
         value = '정보 없음';
@@ -2523,6 +2586,11 @@ async function executeGroupRawSearch(container, intent) {
     // "훈장"→info["훈장"], "그룹명 뜻"→info["그룹명뜻"], "응원봉"→info["응원봉"]
     if (detail && detail.info) {
         var kwNorm = keyword.replace(/\s/g, '').toLowerCase();
+        // 팬덤명 / 팬클럽 / 팬덤 관련 질의
+        if (/팬덤명뜻|팬덤뜻|팬클럽뜻|팬덤의미/.test(kwNorm) && detail.info['팬덤명']) {
+            showSmartAnswer(container, group.name + ' 팬덤명', detail.info['팬덤명'], 'info', group.slug);
+            return;
+        }
         for (var infoKey in detail.info) {
             if (infoKey.replace(/\s/g, '').toLowerCase() === kwNorm) {
                 var infoVal = detail.info[infoKey];
@@ -3587,11 +3655,14 @@ function buildCalendarSection(events, groupName) {
 
 // SNS 데이터 로드 플래그 (중복 호출 방지)
 var _snsDataLoading = false;
+var namuRankingData = null;
+var namuRankingLoaded = false;
 // Lazy loader: namu-ranking.json 로드 + 초동_써클_numeric 보강
 async function ensureRankingDataLoaded() {
     if (namuRankingData && namuRankingData.length > 0) return true;
     try {
-        var response = await fetch('/data/namu-ranking.json?v=' + NAMU_DATA_VERSION);
+        var vParam = (typeof NAMU_DATA_VERSION !== 'undefined') ? NAMU_DATA_VERSION : '1';
+        var response = await fetch('/data/namu-ranking.json?v=' + vParam);
         var rankingJson = await response.json();
         // plain array 또는 {albums: [...]} 모두 대응
         var rawAlbums = Array.isArray(rankingJson) ? rankingJson : (rankingJson.albums || []);
@@ -4801,6 +4872,177 @@ async function executeSpecificAlbumLookup(container, intent) {
     container.style.display = 'block';
 }
 
+// --- 특정 성씨를 가진 아이돌 검색 (예: 명씨 성을 가진 아이돌) ---
+async function executeMemberSurnameSearch(container, intent) {
+    if (!namuIndexData) return;
+    var surname = intent.surname;
+    var targetGender = intent.gender;
+
+    // 전체 그룹 순회하며 해당 성씨 멤버 탐색
+    var matchedMembers = [];
+    var seenKeys = {};
+
+    for (var i = 0; i < namuIndexData.length; i++) {
+        var g = namuIndexData[i];
+        if (targetGender && g.gender !== targetGender) continue;
+        
+        // 상세 데이터 로드 (fetchGroupDetail 활용)
+        var detail = await fetchGroupDetail(g.slug);
+        var mList = (detail && detail.members) ? detail.members : [];
+        if (mList.length === 0 && g.members) {
+            // 인덱스 멤버 이름으로 간이 체크
+            for (var mi = 0; mi < g.members.length; mi++) {
+                var mName = g.members[mi];
+                if (mName.startsWith(surname)) {
+                    var key = g.name + '|' + mName;
+                    if (!seenKeys[key]) {
+                        seenKeys[key] = true;
+                        matchedMembers.push({
+                            group: g.name,
+                            slug: g.slug,
+                            gender: g.gender,
+                            name: mName,
+                            realName: mName,
+                            role: '-'
+                        });
+                    }
+                }
+            }
+            continue;
+        }
+
+        for (var mj = 0; mj < mList.length; mj++) {
+            var mem = mList[mj];
+            var n = mem.name || '';
+            var rn = (mem['본명'] || '').trim();
+            // 활동명 또는 본명이 해당 성씨로 시작하는지 체크
+            if (n.startsWith(surname) || rn.startsWith(surname)) {
+                var dKey = g.name + '|' + n + '|' + rn;
+                if (!seenKeys[dKey]) {
+                    seenKeys[dKey] = true;
+                    matchedMembers.push({
+                        group: g.name,
+                        slug: g.slug,
+                        gender: g.gender,
+                        name: n,
+                        realName: rn || '-',
+                        role: mem['역할'] || mem['포지션'] || '-'
+                    });
+                }
+            }
+        }
+    }
+
+    if (matchedMembers.length === 0) {
+        showSmartAnswer(container, surname + '씨 성 아이돌', '데이터베이스에서 ' + surname + '씨 성을 가진 멤버를 찾지 못했습니다.', 'info');
+        return;
+    }
+
+    var title = surname + '씨 성을 가진 아이돌 (' + matchedMembers.length + '명)';
+    var html = '<div class="namu-smart-answer">' +
+        '<div class="namu-smart-answer-header">' +
+        '<span class="namu-smart-icon">👤</span>' +
+        '<span class="namu-smart-title">' + escapeHtml(title) + '</span>' +
+        '<button class="namu-smart-close" onclick="dismissSmartAnswer()" title="닫기">&times;</button>' +
+        '</div>' +
+        '<div class="namu-smart-answer-body">' +
+        '<div class="table-responsive"><table class="table table-sm namu-smart-table">' +
+        '<thead><tr><th>#</th><th>그룹</th><th>이름</th><th>본명</th><th>역할</th></tr></thead>' +
+        '<tbody>';
+
+    for (var k = 0; k < matchedMembers.length; k++) {
+        var it = matchedMembers[k];
+        html += '<tr>' +
+            '<td>' + (k + 1) + '</td>' +
+            '<td><a href="javascript:void(0)" onclick="loadNamuGroupBySlug(\'' + escapeSingleQuote(it.slug) + '\')">' + escapeHtml(it.group) + '</a></td>' +
+            '<td class="fw-bold">' + escapeHtml(it.name) + '</td>' +
+            '<td>' + escapeHtml(it.realName) + '</td>' +
+            '<td>' + escapeHtml(it.role) + '</td>' +
+            '</tr>';
+    }
+
+    html += '</tbody></table></div></div></div>';
+    container.innerHTML = html;
+    container.style.display = 'block';
+}
+
+// --- 역대 아이돌 키 순위 랭킹 ---
+async function executeMemberHeightRanking(container, intent) {
+    if (!namuIndexData) return;
+    var targetGender = intent.gender;
+
+    var heightMembers = [];
+    var seenKeys = {};
+
+    for (var i = 0; i < namuIndexData.length; i++) {
+        var g = namuIndexData[i];
+        if (targetGender && g.gender !== targetGender) continue;
+
+        var detail = await fetchGroupDetail(g.slug);
+        var mList = (detail && detail.members) ? detail.members : [];
+        for (var mi = 0; mi < mList.length; mi++) {
+            var mem = mList[mi];
+            var h = mem['키'] || mem['신장'] || '';
+            var hMatch = (h + '').match(/(\d{3}(?:\.\d)?)\s*cm/i) || (h + '').match(/^(\d{3}(?:\.\d)?)/);
+            if (hMatch) {
+                var heightVal = parseFloat(hMatch[1]);
+                var key = g.name + '|' + (mem.name || '');
+                if (!seenKeys[key]) {
+                    seenKeys[key] = true;
+                    heightMembers.push({
+                        group: g.name,
+                        slug: g.slug,
+                        gender: g.gender,
+                        name: mem.name || '-',
+                        height: heightVal,
+                        heightStr: heightVal + 'cm'
+                    });
+                }
+            }
+        }
+    }
+
+    if (heightMembers.length === 0) {
+        showSmartAnswer(container, '아이돌 키 순위', '등록된 키 정보가 없습니다.', 'info');
+        return;
+    }
+
+    // 내림차순 정렬 (장신 순)
+    heightMembers.sort(function(a, b) { return b.height - a.height; });
+    var displayList = heightMembers.slice(0, 15);
+
+    var genderLabel = targetGender ? (targetGender === '여자' ? '걸그룹 ' : '보이그룹 ') : '';
+    var title = '역대 ' + genderLabel + '아이돌 키 순위 TOP ' + displayList.length;
+
+    var html = '<div class="namu-smart-answer">' +
+        '<div class="namu-smart-answer-header">' +
+        '<span class="namu-smart-icon">📏</span>' +
+        '<span class="namu-smart-title">' + escapeHtml(title) + '</span>' +
+        '<button class="namu-smart-close" onclick="dismissSmartAnswer()" title="닫기">&times;</button>' +
+        '</div>' +
+        '<div class="namu-smart-answer-body">' +
+        '<div style="font-size:1.05rem;margin-bottom:8px;">🏆 최장신 1위: <strong>' +
+        escapeHtml(displayList[0].group) + ' ' + escapeHtml(displayList[0].name) + '</strong> (' + displayList[0].heightStr + ')</div>' +
+        '<div class="table-responsive"><table class="table table-sm namu-smart-table">' +
+        '<thead><tr><th>순위</th><th>그룹</th><th>멤버</th><th>키</th></tr></thead>' +
+        '<tbody>';
+
+    for (var k = 0; k < displayList.length; k++) {
+        var it = displayList[k];
+        var rankBadge = (k === 0) ? '🥇 1' : (k === 1) ? '🥈 2' : (k === 2) ? '🥉 3' : (k + 1);
+        html += '<tr' + (k < 3 ? ' style="font-weight:600;"' : '') + '>' +
+            '<td>' + rankBadge + '</td>' +
+            '<td><a href="javascript:void(0)" onclick="loadNamuGroupBySlug(\'' + escapeSingleQuote(it.slug) + '\')">' + escapeHtml(it.group) + '</a></td>' +
+            '<td class="fw-bold">' + escapeHtml(it.name) + '</td>' +
+            '<td>' + escapeHtml(it.heightStr) + '</td>' +
+            '</tr>';
+    }
+
+    html += '</tbody></table></div></div></div>';
+    container.innerHTML = html;
+    container.style.display = 'block';
+}
+
 
 // ============================================================
 // 동명 멤버 선택 UI
@@ -4842,7 +5084,8 @@ function showSmartAnswer(container, title, body, type, slug) {
 
     var html = '<div class="chat-ai-content">';
     html += '<p style="margin-bottom:6px;"><strong>' + icon + ' ' + escapeHtml(title) + '</strong></p>';
-    html += '<p>' + escapeHtml(body) + '</p>';
+    var renderedBody = (body && /<[a-z][\s\S]*>/i.test(body)) ? body : escapeHtml(body);
+    html += '<p>' + renderedBody + '</p>';
 
     if (slug) {
         html += '<div class="chat-ai-detail-link">' +
@@ -5019,7 +5262,7 @@ async function callGeminiDirect(query, context, signal) {
     try {
         console.log('%c🤖 로컬 Gemini 직접 호출', 'color:#2196F3;font-weight:bold', query);
         var response = await fetch(
-            'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=' + apiKey,
+            'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=' + apiKey,
             {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -5395,7 +5638,7 @@ async function callGeminiSynthesize(originalQuery, focusedContext, externalSigna
 
             console.log('%c🔬 복합 질의 Gemini 합성', 'color:#9C27B0;font-weight:bold', originalQuery);
             response = await fetch(
-                'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=' + apiKey,
+                'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=' + apiKey,
                 {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -5680,7 +5923,7 @@ async function callGeminiNamuSynthesize(query, rawContext, externalSignal) {
             }
             console.log('%c🔬 나무 원문 Gemini 정제', 'color:#E91E63;font-weight:bold', query);
             response = await fetch(
-                'https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=' + apiKey,
+                'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=' + apiKey,
                 {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -7381,7 +7624,7 @@ function renderUnifiedSearchResults(container, query, searchResult) {
 
 // 검색 진행 표시 업데이트 (Agentic UX)
 function updateSearchProgress(container, step, message) {
-    if (!container) return;
+    if (!container || typeof container.querySelector !== 'function') return;
     var progressEl = container.querySelector('.search-progress');
     if (!progressEl) {
         // progress 컨테이너 생성
@@ -7417,7 +7660,7 @@ function updateSearchProgress(container, step, message) {
 
 // 검색 진행 표시 제거
 function clearSearchProgress(container) {
-    if (!container) return;
+    if (!container || typeof container.querySelector !== 'function') return;
     var progressEl = container.querySelector('.search-progress');
     if (progressEl) progressEl.remove();
 }
