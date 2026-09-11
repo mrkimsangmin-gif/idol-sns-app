@@ -4372,6 +4372,15 @@ async function executeMonthlyComeback(container, intent) {
             return true;
         });
 
+        // 구체적 날짜 우선 정렬 (미정 날짜는 뒤로 배치하여 중복 스킵 보장)
+        calFiltered.sort(function(a, b) {
+            var da = a.date || '';
+            var db = b.date || '';
+            if (da.endsWith('.00') || da.endsWith('-00')) return 1;
+            if (db.endsWith('.00') || db.endsWith('-00')) return -1;
+            return da.localeCompare(db);
+        });
+
         for (var k = 0; k < calFiltered.length; k++) {
             var c = calFiltered[k];
             var rawDate = c.date || '';
