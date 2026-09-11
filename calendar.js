@@ -181,7 +181,7 @@ function openCalEventModal(eventId) {
     if (ev.slug) {
         body += `<div class="p-3 border rounded border-primary bg-primary bg-opacity-10 d-flex justify-content-between align-items-center">`;
         body += `  <div><div class="fw-bold text-primary">${cleanTitle} 상세 프로필</div><small class="text-muted">멤버 정보, 앨범 디스코그래피, 스트리밍</small></div>`;
-        body += `  <a href="/namu/${ev.slug}/" class="btn btn-sm btn-primary"><i class="bi bi-person-badge me-1"></i>나무위키 뷰</a>`;
+        body += `  <a href="/namu/${ev.slug}/" class="btn btn-sm btn-primary"><i class="bi bi-person-badge me-1"></i>팀 정보</a>`;
         body += `</div>`;
     }
 
