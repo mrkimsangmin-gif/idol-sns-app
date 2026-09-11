@@ -1881,7 +1881,7 @@
    ============================================================ */
 .cal-grid-header {
     display: grid;
-    grid-template-columns: repeat(7, minmax(0, 1fr));
+    grid-template-columns: repeat(7, 1fr);
     background: #f8f9fa;
     border-radius: 8px 8px 0 0;
     border: 1px solid #dee2e6;
@@ -1891,13 +1891,11 @@
     text-align: center;
 }
 .cal-header-cell {
-    padding: 10px 2px;
-    min-width: 0;
-    overflow: hidden;
+    padding: 10px 4px;
 }
 .cal-grid-body {
     display: grid;
-    grid-template-columns: repeat(7, minmax(0, 1fr));
+    grid-template-columns: repeat(7, 1fr);
     border: 1px solid #dee2e6;
     border-top: none;
     background: #ffffff;
@@ -1905,8 +1903,6 @@
 }
 .cal-cell {
     min-height: 105px;
-    min-width: 0; /* 내부 콘텐츠로 인한 너비 팽창 원천 방지 */
-    overflow: hidden;
     border-right: 1px solid #f0f0f0;
     border-top: 1px solid #f0f0f0;
     padding: 6px;
@@ -1953,9 +1949,6 @@
     display: flex;
     align-items: center;
     gap: 4px;
-    min-width: 0;
-    max-width: 100%;
-    width: 100%;
     transition: transform 0.1s, box-shadow 0.1s;
 }
 .cal-event-badge:hover {
