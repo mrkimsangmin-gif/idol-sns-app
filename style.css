@@ -1955,6 +1955,34 @@
     transform: scale(1.02);
     box-shadow: 0 2px 4px rgba(0,0,0,0.12);
 }
+.cal-badge-boy {
+    background-color: #e7f1ff;
+    color: #0d6efd;
+    border: 1px solid #b6d4fe;
+}
+.cal-badge-girl {
+    background-color: #fce8e6;
+    color: #d63384;
+    border: 1px solid #f8d7da;
+}
+.cal-badge-neutral {
+    background-color: #f1f3f5;
+    color: #495057;
+    border: 1px solid #dee2e6;
+}
+.cal-badge-is-debut {
+    box-shadow: 0 0 0 1px #ffc107;
+}
+.cal-debut-tag {
+    font-size: 0.65rem;
+    padding: 0 3px;
+    background-color: #ffc107;
+    color: #000;
+    border-radius: 3px;
+    font-weight: 700;
+    margin-left: auto;
+    flex-shrink: 0;
+}
 .cal-badge-comeback {
     background-color: #e7f1ff;
     color: #0d6efd;
@@ -1966,8 +1994,8 @@
     border: 1px solid #ffe69c;
 }
 .cal-event-dot {
-    width: 5px;
-    height: 5px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
     display: inline-block;
     background-color: currentColor;

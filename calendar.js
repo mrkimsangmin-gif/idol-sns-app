@@ -1,16 +1,41 @@
-// ============================================================
-// 📅 자체 K-POP 컴백/데뷔 캘린더 모듈 (calendar.js)
-// ============================================================
-let calendarEvents = [];
-let currentCalYear = 2026;
-let currentCalMonth = 9; // 1-12
-let calFilter = 'all'; // all, comeback, debut
-let calSearchQuery = '';
+let calendarGenderMap = null; // slug or clean name -> '남자' | '여자'
+let calGenderFilter = 'all'; // all, male, female
+
+async function ensureGenderMap() {
+    if (calendarGenderMap) return;
+    calendarGenderMap = {};
+    try {
+        const resp = await fetch('/data/namu-index.json?v=' + Date.now());
+        const data = await resp.json();
+        (data.groups || []).forEach(g => {
+            const gen = g.gender || '';
+            if (g.slug) calendarGenderMap[g.slug.toLowerCase()] = gen;
+            if (g.name) calendarGenderMap[g.name.toLowerCase().replace(/\s/g, '')] = gen;
+            if (g.name_en) calendarGenderMap[g.name_en.toLowerCase().replace(/\s/g, '')] = gen;
+        });
+    } catch (e) {
+        console.warn('Failed to load namu-index.json for gender map', e);
+    }
+}
+
+function getEventGender(ev) {
+    if (!calendarGenderMap) return 'all';
+    if (ev.slug && calendarGenderMap[ev.slug.toLowerCase()]) {
+        return calendarGenderMap[ev.slug.toLowerCase()];
+    }
+    const clean = ev.title.replace(/\(Comeback\)|\(Debut\)/gi, '').toLowerCase().replace(/\s/g, '');
+    for (const [k, v] of Object.entries(calendarGenderMap)) {
+        if (clean.includes(k) || k.includes(clean)) return v;
+    }
+    return '';
+}
 
 async function loadComebackCalendar() {
     const container = document.getElementById('calendarContainer');
     if (!container) return;
     
+    await ensureGenderMap();
+
     if (calendarEvents.length === 0) {
         try {
             const resp = await fetch('/data/calendar.json?v=' + Date.now());
@@ -44,8 +69,16 @@ function setCalToday() {
 
 function filterCalendar(type) {
     calFilter = type;
-    document.querySelectorAll('.cal-filter-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.filter === type);
+    document.querySelectorAll('.cal-type-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.type === type);
+    });
+    renderCustomCalendar();
+}
+
+function filterCalGender(gender) {
+    calGenderFilter = gender;
+    document.querySelectorAll('.cal-gender-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.gender === gender);
     });
     renderCustomCalendar();
 }
@@ -72,6 +105,10 @@ function renderCustomCalendar() {
         const isDebut = titleLower.includes('debut') || titleLower.includes('데뷔');
         if (calFilter === 'comeback' && isDebut) return false;
         if (calFilter === 'debut' && !isDebut) return false;
+
+        const gen = getEventGender(ev);
+        if (calGenderFilter === 'male' && gen === '여자') return false;
+        if (calGenderFilter === 'female' && gen === '남자') return false;
         
         if (calSearchQuery) {
             const text = (ev.title + ' ' + (ev.description || '') + ' ' + (ev.slug || '')).toLowerCase();
@@ -115,12 +152,23 @@ function renderCustomCalendar() {
 
         dayEvents.forEach(ev => {
             const isDebut = ev.title.includes('데뷔') || ev.title.includes('Debut');
-            const badgeClass = isDebut ? 'cal-badge-debut' : 'cal-badge-comeback';
+            const gen = getEventGender(ev);
+            let badgeClass = 'cal-badge-boy';
+            if (gen === '여자') {
+                badgeClass = 'cal-badge-girl';
+            } else if (gen !== '남자') {
+                badgeClass = 'cal-badge-neutral';
+            }
+            if (isDebut) {
+                badgeClass += ' cal-badge-is-debut';
+            }
+
             const cleanTitle = ev.title.replace(/\(Comeback\)|\(Debut\)/gi, '').trim();
+            const debutTag = isDebut ? '<span class="cal-debut-tag">데뷔</span>' : '';
             
-            gridHtml += `<div class="cal-event-badge ${badgeClass}" onclick="openCalEventModal('${ev.id}')" title="${cleanTitle}">`;
+            gridHtml += `<div class="cal-event-badge ${badgeClass}" onclick="openCalEventModal('${ev.id}')" title="${cleanTitle}${isDebut ? ' (데뷔)' : ''}">`;
             gridHtml += `<span class="cal-event-dot"></span>`;
-            gridHtml += `<span class="cal-event-text">${cleanTitle}</span>`;
+            gridHtml += `<span class="cal-event-text">${cleanTitle}</span>${debutTag}`;
             gridHtml += `</div>`;
         });
 
@@ -137,13 +185,20 @@ function renderCustomCalendar() {
         summaryHtml += '<div class="row g-2">';
         filtered.forEach(ev => {
             const isDebut = ev.title.includes('데뷔') || ev.title.includes('Debut');
-            const badgeClass = isDebut ? 'badge bg-warning text-dark' : 'badge bg-primary';
+            const gen = getEventGender(ev);
+            let genderBadge = '';
+            if (gen === '여자') {
+                genderBadge = '<span class="badge bg-danger-subtle text-danger border border-danger-subtle me-1">👧 걸그룹</span>';
+            } else if (gen === '남자') {
+                genderBadge = '<span class="badge bg-primary-subtle text-primary border border-primary-subtle me-1">👦 보이그룹</span>';
+            }
+            const typeBadge = isDebut ? '<span class="badge bg-warning text-dark me-1">데뷔</span>' : '<span class="badge bg-secondary me-1">컴백</span>';
             const cleanTitle = ev.title.replace(/\(Comeback\)|\(Debut\)/gi, '').trim();
             const d = ev.date.split('-').slice(1).join('/');
             
             summaryHtml += `<div class="col-12 col-md-6 col-lg-4">`;
             summaryHtml += `<div class="cal-summary-card p-2 border rounded bg-white shadow-sm d-flex justify-content-between align-items-center" onclick="openCalEventModal('${ev.id}')" style="cursor:pointer;">`;
-            summaryHtml += `  <div><span class="fw-bold me-2 text-dark">${d}</span> <span class="${badgeClass} me-1">${isDebut ? '데뷔' : '컴백'}</span> <strong>${cleanTitle}</strong></div>`;
+            summaryHtml += `  <div><span class="fw-bold me-2 text-dark">${d}</span>${genderBadge}${typeBadge}<strong>${cleanTitle}</strong></div>`;
             summaryHtml += `  <i class="bi bi-chevron-right text-muted small"></i>`;
             summaryHtml += `</div></div>`;
         });
