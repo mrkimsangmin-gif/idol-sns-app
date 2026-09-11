@@ -12,6 +12,8 @@
     "test:quick": "npx playwright test tests/navigation.spec.ts tests/seo.spec.ts --project='Desktop Chrome'",
     "test:all": "npx playwright test --project='Desktop Chrome' --project='Desktop Firefox' --project='Desktop Safari'",
     "test:all-browsers": "npx playwright test --project='Desktop Chrome' --project='Desktop Firefox' --project='Desktop Safari'",
+    "smoke:cdp": "node scripts/smoke_cdp_check.mjs",
+    "ocr:verify": "python scripts/verify_visual_ocr.py",
     "report": "npx playwright show-report",
     "codegen": "npx playwright codegen https://aimcontents.com"
   },

@@ -69,7 +69,7 @@ test.describe('중국 도우인 인기 챌린지 섹션', () => {
   });
 
   test('도우인 챌린지 제목이 표시되어야 함', async ({ page }) => {
-    const title = page.locator('text=중국 도우인 인기 챌린지');
+    const title = page.locator('h2').filter({ hasText: '중국 도우인 인기 챌린지' }).first();
     await expect(title).toBeVisible();
   });
 

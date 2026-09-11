@@ -138,7 +138,7 @@ test.describe('네비게이션 메뉴', () => {
     await page.getByRole('link', { name: '중국트렌드' }).or(page.locator('text=중국트렌드')).first().click();
     await page.waitForTimeout(500);
     
-    const chinaSection = page.locator('text=중국 도우인 인기 챌린지');
+    const chinaSection = page.locator('h2').filter({ hasText: '중국 도우인 인기 챌린지' }).first();
     await expect(chinaSection).toBeVisible();
   });
 });
