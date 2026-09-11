@@ -2,14 +2,14 @@
 // 📚 나무위키 검색 서비스
 // ========================================
 
-let namuIndexData = null;       // namu-index.json의 groups 배열
-let namuRankingData = null;     // namu-ranking.json의 albums 배열
-let namuCurrentGroup = null;    // 현재 표시 중인 그룹 상세 데이터
-let namuCurrentChart = null;    // Chart.js 인스턴스
-let namuIndexLoaded = false;    // 인덱스 로드 완료 여부
-let namuRankingLoaded = false;  // 랭킹 로드 완료 여부
-let namuRankingGender = 'all';  // 랭킹 성별 필터
-let namuRankingYear = 'all';    // 랭킹 연도 필터
+var namuIndexData = null;       // namu-index.json의 groups 배열
+var namuRankingData = null;     // namu-ranking.json의 albums 배열
+var namuCurrentGroup = null;    // 현재 표시 중인 그룹 상세 데이터
+var namuCurrentChart = null;    // Chart.js 인스턴스
+var namuIndexLoaded = false;    // 인덱스 로드 완료 여부
+var namuRankingLoaded = false;  // 랭킹 로드 완료 여부
+var namuRankingGender = 'all';  // 랭킹 성별 필터
+var namuRankingYear = 'all';    // 랭킹 연도 필터
 var groupAliasData = null;      // group-aliases.json 전체 데이터
 var searchIndexData = null;     // search-index.json 역인덱스 데이터
 var groupEmbedIndex = null;     // group-embed-index.json (lazy load, 임베딩 유사도 검색용)
