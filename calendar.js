@@ -179,7 +179,7 @@ function openCalEventModal(eventId) {
     }
 
     if (ev.slug) {
-        body += `<a href="/namu/${ev.slug}/" class="text-decoration-none d-block p-3 border rounded border-primary bg-primary bg-opacity-10 cal-profile-link-card transition-all">`;
+        body += `<a href="/namu/${ev.slug}/" class="text-decoration-none d-block p-3 border rounded border-primary bg-primary bg-opacity-10 cal-profile-link-card transition-all" onclick="closeCalModalBeforeNav()">`;
         body += `  <div class="d-flex justify-content-between align-items-center">`;
         body += `    <div><div class="fw-bold text-primary">${cleanTitle} 상세 프로필</div><small class="text-muted">멤버 정보, 앨범 디스코그래피, 스트리밍</small></div>`;
         body += `    <span class="btn btn-sm btn-primary"><i class="bi bi-person-badge me-1"></i>팀 정보</span>`;
@@ -199,7 +199,15 @@ function openCalEventModal(eventId) {
 
     const modalEl = document.getElementById('calEventModal');
     if (modalEl) {
-        const bsModal = new bootstrap.Modal(modalEl);
+        const bsModal = bootstrap.Modal.getOrCreateInstance(modalEl);
         bsModal.show();
+    }
+}
+
+function closeCalModalBeforeNav() {
+    const modalEl = document.getElementById('calEventModal');
+    if (modalEl) {
+        const bsModal = bootstrap.Modal.getInstance(modalEl);
+        if (bsModal) bsModal.hide();
     }
 }

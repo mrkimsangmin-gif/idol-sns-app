@@ -244,7 +244,13 @@ async function loadNamuGroupBySlug(slug) {
 
         // URL 업데이트 + SEO 메타 태그 동적 갱신
         var groupTitle = namuCurrentGroup.name + ' (' + namuCurrentGroup.name_en + ') | 나무위키 | 아이엠콘텐츠';
-        history.pushState({ pageId: 'namu', namuSlug: slug }, groupTitle, '/namu/' + slug + '/');
+        var targetPath = '/namu/' + slug + '/';
+        var currentNormPath = window.location.pathname.endsWith('/') ? window.location.pathname : window.location.pathname + '/';
+        if (currentNormPath === targetPath) {
+            history.replaceState({ pageId: 'namu', namuSlug: slug }, groupTitle, targetPath);
+        } else {
+            history.pushState({ pageId: 'namu', namuSlug: slug }, groupTitle, targetPath);
+        }
         document.title = groupTitle;
 
         // SEO: meta description + OG 태그 동적 업데이트 (AI 봇/소셜 공유 대응)
