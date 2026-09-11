@@ -26,15 +26,35 @@ async function ensureGenderMap() {
     }
 }
 
+// 나무위키 인덱스에 아직 등록되지 않았거나 매칭되지 않은 그룹 보완 매핑
+const fallbackGenderMap = {
+    'verivery': '남자',
+    '베리베리': '남자',
+    'big-ocean': '남자',
+    '빅오션': '남자',
+    'w3way': '남자',
+    '위웨이': '남자',
+    'x-in': '여자',
+    '엑신': '여자'
+};
+
 function getEventGender(ev) {
-    if (!calendarGenderMap) return 'all';
-    if (ev.slug && calendarGenderMap[ev.slug.toLowerCase()]) {
-        return calendarGenderMap[ev.slug.toLowerCase()];
+    const slug = (ev.slug || '').toLowerCase();
+    if (fallbackGenderMap[slug]) return fallbackGenderMap[slug];
+
+    if (calendarGenderMap && slug && calendarGenderMap[slug]) {
+        return calendarGenderMap[slug];
     }
-    const clean = ev.title.replace(/\(Comeback\)|\(Debut\)/gi, '').toLowerCase().replace(/\s/g, '');
-    for (const [k, v] of Object.entries(calendarGenderMap)) {
-        if (clean.includes(k) || k.includes(clean)) return v;
+    
+    // 제목에서 괄호 및 영문/한글 분리 토큰 추출
+    const rawTitle = (ev.title || '').replace(/\(Comeback\)|\(Debut\)/gi, '').trim();
+    const tokens = rawTitle.toLowerCase().split(/[\(\)\/\s]+/).filter(t => t.length >= 2);
+    
+    for (const token of tokens) {
+        if (fallbackGenderMap[token]) return fallbackGenderMap[token];
+        if (calendarGenderMap && calendarGenderMap[token]) return calendarGenderMap[token];
     }
+
     return '';
 }
 
