@@ -3777,23 +3777,26 @@ async function ensureSnsDataLoaded() {
     }
 }
 
-// 단일 플랫폼 팔로워 조회: 최신 월 레코드 반환
+// 단일 플랫폼 팔로워 조회: 최신 월 레코드 반환 (date 역순 정렬 보장되지 않는 경우 대비 최신 월 탐색)
 function getSnsFollowerData(groupName, snsName) {
     var genders = ['여자', '남자'];
+    var bestRecord = null;
     for (var gi = 0; gi < genders.length; gi++) {
         var gender = genders[gi];
         var cache = typeof fullSnsCache !== 'undefined' ? fullSnsCache[gender] : null;
         if (!cache || !cache.data || !cache.data[snsName]) continue;
         var snsData = cache.data[snsName];
         var records = snsData.records || [];
-        // 최신 월 우선 (records는 최신→과거 순 정렬 → 정방향 검색)
         for (var i = 0; i < records.length; i++) {
-            if (records[i].name === groupName || records[i].group === groupName) {
-                return { count: records[i].count, date: records[i].date, name: records[i].name };
+            var r = records[i];
+            if (r.name === groupName || r.group === groupName) {
+                if (!bestRecord || (r.date && r.date > bestRecord.date)) {
+                    bestRecord = { count: r.count, date: r.date, name: r.name };
+                }
             }
         }
     }
-    return null;
+    return bestRecord;
 }
 
 // 전 플랫폼 팔로워 조회 (8개)
