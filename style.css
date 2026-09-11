@@ -2020,13 +2020,30 @@
     transform: translateY(-1px);
     box-shadow: 0 4px 10px rgba(13, 110, 253, 0.15);
 }
+.cal-scroll-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 8px;
+}
+.cal-scroll-inner {
+    min-width: 680px; /* 모바일에서도 7개 요일이 찌그러지지 않고 온전히 표시되는 최적 너비 */
+}
+.cal-scroll-hint {
+    font-size: 0.75rem;
+    color: #888;
+}
+
 @media (max-width: 768px) {
     .cal-cell {
-        min-height: 80px;
-        padding: 3px;
+        min-height: 88px;
+        padding: 4px;
     }
     .cal-event-badge {
-        font-size: 0.68rem;
-        padding: 1px 3px;
+        font-size: 0.72rem;
+        padding: 2px 4px;
+    }
+    .cal-summary-card {
+        padding: 8px 12px !important;
     }
 }

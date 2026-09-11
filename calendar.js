@@ -200,6 +200,8 @@ function renderCustomCalendar() {
     let gridHtml = '';
     const weekdays = ['일', '월', '화', '수', '목', '금', '토'];
 
+    gridHtml += '<div class="cal-scroll-wrapper">';
+    gridHtml += '<div class="cal-scroll-inner">';
     gridHtml += '<div class="cal-grid-header">';
     weekdays.forEach((wd, i) => {
         const isSun = i === 0 ? ' text-danger' : (i === 6 ? ' text-primary' : '');
@@ -252,7 +254,10 @@ function renderCustomCalendar() {
         gridHtml += '</div></div>';
     }
 
-    gridHtml += '</div>';
+    gridHtml += '</div>'; // cal-grid-body
+    gridHtml += '</div>'; // cal-scroll-inner
+    gridHtml += '</div>'; // cal-scroll-wrapper
+    gridHtml += '<div class="cal-scroll-hint d-md-none text-muted small text-center mt-1"><i class="bi bi-arrows-expand me-1"></i>좌우로 스크롤하여 전체 요일을 확인할 수 있습니다</div>';
 
     // 하단 라인업 피드
     let summaryHtml = '<div class="mt-4"><h3 class="fs-6 fw-bold mb-3">이번 달 컴백/데뷔 라인업 (' + filtered.length + '팀)</h3>';
@@ -274,9 +279,11 @@ function renderCustomCalendar() {
             const d = ev.date.split('-').slice(1).join('/');
             
             summaryHtml += `<div class="col-12 col-md-6 col-lg-4">`;
-            summaryHtml += `<div class="cal-summary-card p-2 border rounded bg-white shadow-sm d-flex justify-content-between align-items-center" onclick="openCalEventModal('${ev.id}')" style="cursor:pointer;">`;
-            summaryHtml += `  <div><span class="fw-bold me-2 text-dark">${d}</span>${genderBadge}${typeBadge}<strong>${cleanTitle}</strong></div>`;
-            summaryHtml += `  <i class="bi bi-chevron-right text-muted small"></i>`;
+            summaryHtml += `<div class="cal-summary-card p-2 border rounded bg-white shadow-sm d-flex align-items-center justify-content-between gap-2" onclick="openCalEventModal('${ev.id}')" style="cursor:pointer;">`;
+            summaryHtml += `  <div class="d-flex align-items-center flex-wrap gap-1 text-truncate" style="min-width:0;">`;
+            summaryHtml += `    <span class="fw-bold text-dark me-1 flex-shrink-0">${d}</span>${genderBadge}${typeBadge}<span class="fw-semibold text-truncate">${cleanTitle}</span>`;
+            summaryHtml += `  </div>`;
+            summaryHtml += `  <i class="bi bi-chevron-right text-muted small flex-shrink-0"></i>`;
             summaryHtml += `</div></div>`;
         });
         summaryHtml += '</div>';

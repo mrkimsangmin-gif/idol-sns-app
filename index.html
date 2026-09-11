@@ -2552,13 +2552,13 @@
             <!-- 검색 및 필터 컨트롤 -->
             <div class="card border-0 shadow-sm p-3 mb-3">
                 <div class="row g-2 align-items-center">
-                    <div class="col-12 col-md-7 d-flex flex-wrap gap-1">
-                        <div class="btn-group btn-group-sm me-1" role="group">
+                    <div class="col-12 col-md-7 d-flex align-items-center gap-2 overflow-x-auto pb-1 pb-md-0" style="scrollbar-width:none;-ms-overflow-style:none;">
+                        <div class="btn-group btn-group-sm flex-shrink-0" role="group">
                             <button class="btn btn-outline-dark cal-type-btn cal-filter-btn active" data-filter="all" data-type="all" onclick="filterCalendar('all')">전체</button>
                             <button class="btn btn-outline-secondary cal-type-btn cal-filter-btn" data-filter="comeback" data-type="comeback" onclick="filterCalendar('comeback')">컴백만</button>
                             <button class="btn btn-outline-warning text-dark cal-type-btn cal-filter-btn" data-filter="debut" data-type="debut" onclick="filterCalendar('debut')">데뷔만</button>
                         </div>
-                        <div class="btn-group btn-group-sm" role="group">
+                        <div class="btn-group btn-group-sm flex-shrink-0" role="group">
                             <button class="btn btn-outline-dark cal-gender-btn active" data-gender="all" onclick="filterCalGender('all')">전체</button>
                             <button class="btn btn-outline-primary cal-gender-btn" data-gender="male" onclick="filterCalGender('male')">👦 보이그룹</button>
                             <button class="btn btn-outline-danger cal-gender-btn" data-gender="female" onclick="filterCalGender('female')">👧 걸그룹</button>
