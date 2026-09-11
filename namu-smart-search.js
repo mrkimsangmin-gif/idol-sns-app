@@ -1501,6 +1501,22 @@ function parseSmartQuery(query) {
         }
     }
 
+    // 5-a3. "{그룹} 노래 중 조회수가 가장 많은 노래", "{그룹} 조회수 1위 노래/곡/뮤비"
+    // 예: "아이브 노래 중 조회수가 가장 많은 노래는?", "에스파 최다 조회수 곡"
+    if (/조회수|조회\s*수|뷰\s*수|유튜브\s*조회/.test(q) && /노래|곡|뮤비|뮤직비디오|영상|mv|MV/.test(q)) {
+        var songViewsMatch = q.match(/^(.+?)\s*(?:의\s*)?(?:노래|곡|뮤비|뮤직비디오|영상|음악|음원)?(?:\s*중)?\s*(?:유튜브\s*)?(?:조회수|조회\s*수|뷰수)?\s*(?:가\s*)?(?:가장|제일|최다|최고)?\s*(?:많은|높은|1위)?\s*(?:노래|곡|뮤비|뮤직비디오|영상)?\s*$/);
+        if (songViewsMatch) {
+            var gCandidate = songViewsMatch[1].trim().replace(/(\S{2,})[은는이가]$/, '$1').trim();
+            var gViews = findGroupByName(gCandidate);
+            if (gViews) {
+                return {
+                    type: 'group_song_views_ranking',
+                    group: gViews
+                };
+            }
+        }
+    }
+
     // 5-b. "{그룹} {앨범명} 초동/발매일/누적" — 특정 앨범 조회
     var specificAlbumMatch = q.match(/^(.+?)\s+(.+?)\s+(초동|발매일|누적\s*판매량?|판매량)\s*$/);
     if (specificAlbumMatch) {
@@ -1827,6 +1843,10 @@ async function executeIntent(intent) {
 
         case 'member_height_ranking':
             await executeMemberHeightRanking(container, intent);
+            return;
+
+        case 'group_song_views_ranking':
+            await executeGroupSongViewsRanking(container, intent);
             return;
 
         case 'monthly_comeback':
@@ -5042,6 +5062,95 @@ async function executeMemberHeightRanking(container, intent) {
     container.innerHTML = html;
     container.style.display = 'block';
 }
+
+// --- 그룹 노래/뮤직비디오 조회수 순위 랭킹 ("아이브 노래 중 조회수가 가장 많은 노래는?") ---
+async function executeGroupSongViewsRanking(container, intent) {
+    var group = intent.group;
+    var rawResponse = null;
+    try {
+        var vParam = (typeof NAMU_DATA_VERSION !== 'undefined') ? NAMU_DATA_VERSION : '1';
+        rawResponse = await fetch('/data/namu-raw/' + group.slug + '.txt?v=' + vParam);
+    } catch (e) {
+        console.warn('raw_text 로드 실패:', e);
+    }
+
+    var songViews = [];
+    if (rawResponse && rawResponse.ok) {
+        var rawText = await rawResponse.text();
+        var lines = rawText.split('\n');
+        var mvIdx = -1;
+        for (var i = 0; i < lines.length; i++) {
+            if (lines[i].includes('MV YouTube 조회수') || lines[i].includes('뮤직비디오 조회수') || lines[i].includes('뮤직비디오 전체 랭킹')) {
+                mvIdx = i;
+                break;
+            }
+        }
+        if (mvIdx !== -1) {
+            for (var j = mvIdx; j < Math.min(lines.length, mvIdx + 160); j++) {
+                var l = lines[j].trim();
+                // 1, 2, 3 등 순위 줄 감지
+                if (/^\d{1,2}$/.test(l)) {
+                    var rank = parseInt(l);
+                    var songTitle = lines[j + 1] ? lines[j + 1].trim() : '';
+                    var viewsStr = '';
+                    for (var k = j + 1; k < Math.min(lines.length, j + 15); k++) {
+                        var kl = lines[k].trim();
+                        if (/[\d,]+회/.test(kl)) {
+                            viewsStr = kl;
+                            break;
+                        }
+                    }
+                    if (songTitle && viewsStr && !/^(음반|수록|STARSHIP|1theK|SM|JYP|HYBE)$/i.test(songTitle)) {
+                        songViews.push({ rank: rank, title: songTitle, views: viewsStr });
+                    }
+                }
+            }
+        }
+    }
+
+    if (songViews.length === 0) {
+        // 폴백: 일반 raw_text 검색으로 전환
+        await executeGroupRawSearch(container, {
+            group: group,
+            keyword: '조회수 가장 많은 노래'
+        });
+        return;
+    }
+
+    var topSong = songViews[0];
+    var title = group.name + ' 노래/MV 조회수 순위';
+    var html = '<div class="namu-smart-answer">' +
+        '<div class="namu-smart-answer-header">' +
+        '<span class="namu-smart-icon">🎵</span>' +
+        '<span class="namu-smart-title">' + escapeHtml(title) + '</span>' +
+        '<button class="namu-smart-close" onclick="dismissSmartAnswer()" title="닫기">&times;</button>' +
+        '</div>' +
+        '<div class="namu-smart-answer-body">' +
+        '<div style="font-size:1.1rem;margin-bottom:10px;">🏆 최다 조회수 1위: <strong style="color:var(--bs-primary,#0d6efd);">' +
+        escapeHtml(topSong.title) + '</strong> (' + escapeHtml(topSong.views) + ')</div>' +
+        '<div class="table-responsive"><table class="table table-sm namu-smart-table">' +
+        '<thead><tr><th>순위</th><th>곡명</th><th>유튜브 조회수</th></tr></thead>' +
+        '<tbody>';
+
+    for (var m = 0; m < Math.min(songViews.length, 10); m++) {
+        var it = songViews[m];
+        var rankBadge = (m === 0) ? '🥇 1' : (m === 1) ? '🥈 2' : (m === 2) ? '🥉 3' : (m + 1);
+        html += '<tr' + (m < 3 ? ' style="font-weight:600;"' : '') + '>' +
+            '<td>' + rankBadge + '</td>' +
+            '<td class="fw-bold">' + escapeHtml(it.title) + '</td>' +
+            '<td>' + escapeHtml(it.views) + '</td>' +
+            '</tr>';
+    }
+
+    html += '</tbody></table></div>' +
+        '<div class="namu-smart-detail-link">' +
+        '<a href="javascript:void(0)" onclick="loadNamuGroupBySlug(\'' + escapeSingleQuote(group.slug) + '\')">' + escapeHtml(group.name) + ' 상세 보기 →</a>' +
+        '</div></div></div>';
+
+    container.innerHTML = html;
+    container.style.display = 'block';
+}
+
 
 
 // ============================================================
