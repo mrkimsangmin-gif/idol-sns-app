@@ -2022,26 +2022,75 @@
 }
 .cal-scroll-wrapper {
     width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow: hidden; /* 가로 스크롤 완전 제거 */
     border-radius: 8px;
 }
 .cal-scroll-inner {
-    min-width: 680px; /* 모바일에서도 7개 요일이 찌그러지지 않고 온전히 표시되는 최적 너비 */
+    width: 100%;
+    min-width: 100%; /* 가로 스크롤 없이 100% 핏 */
 }
 .cal-scroll-hint {
-    font-size: 0.75rem;
-    color: #888;
+    display: none !important; /* 구글 캘린더처럼 가로 스크롤 힌트 완전 제거 */
+}
+
+/* 오늘 날짜 원형 마크 (구글 캘린더 스타일) */
+.cal-today-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    color: #fff !important;
+    font-weight: 700;
 }
 
 @media (max-width: 768px) {
+    .cal-grid-header {
+        font-size: 0.72rem;
+    }
+    .cal-header-cell {
+        padding: 6px 1px;
+    }
     .cal-cell {
-        min-height: 88px;
-        padding: 4px;
+        min-height: 72px;
+        padding: 2px 1px;
+    }
+    .cal-date-number {
+        font-size: 0.7rem;
+        margin-bottom: 2px;
+        padding-left: 1px;
+    }
+    .cal-today-circle {
+        width: 18px;
+        height: 18px;
+        font-size: 0.65rem;
+    }
+    .cal-events-list {
+        gap: 1.5px;
     }
     .cal-event-badge {
-        font-size: 0.72rem;
-        padding: 2px 4px;
+        font-size: 0.62rem; /* 약 10px */
+        padding: 1.5px 2px;
+        border-radius: 3px;
+        line-height: 1.2;
+        gap: 2px;
+        border: none;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+    }
+    .cal-event-dot {
+        display: none; /* 모바일에서 글자 노출 극대화를 위해 점 숨김 */
+    }
+    .cal-event-text {
+        font-size: 0.62rem;
+        letter-spacing: -0.4px;
+        font-weight: 500;
+    }
+    .cal-debut-tag {
+        font-size: 0.55rem;
+        padding: 0 1.5px;
+        line-height: 1;
     }
     .cal-summary-card {
         padding: 8px 12px !important;

@@ -200,7 +200,6 @@ function renderCustomCalendar() {
     let gridHtml = '';
     const weekdays = ['일', '월', '화', '수', '목', '금', '토'];
 
-    gridHtml += '<div class="cal-scroll-hint d-md-none text-primary bg-primary-subtle py-1 px-2 rounded small text-center mb-2"><i class="bi bi-arrows-expand me-1"></i>👉 달력을 좌우로 밀어서(스크롤) 전체 요일을 볼 수 있습니다</div>';
     gridHtml += '<div class="cal-scroll-wrapper">';
     gridHtml += '<div class="cal-scroll-inner">';
     gridHtml += '<div class="cal-grid-header">';
@@ -225,9 +224,12 @@ function renderCustomCalendar() {
         const dStr = `${monthStr}-${String(d).padStart(2, '0')}`;
         const isToday = isThisYearMonth && d === todayDate;
         const dayEvents = filtered.filter(ev => ev.date === dStr);
+        const dayOfWeekIndex = (firstDayIndex + d - 1) % 7;
+        const colorClass = dayOfWeekIndex === 0 ? ' text-danger' : (dayOfWeekIndex === 6 ? ' text-primary' : '');
 
         gridHtml += `<div class="cal-cell${isToday ? ' cal-today' : ''}">`;
-        gridHtml += `<div class="cal-date-number">${d}${isToday ? ' <span class="badge bg-primary cal-today-badge">오늘</span>' : ''}</div>`;
+        const dateHtml = isToday ? `<span class="cal-today-circle">${d}</span>` : `<span class="${colorClass}">${d}</span>`;
+        gridHtml += `<div class="cal-date-number">${dateHtml}</div>`;
         gridHtml += '<div class="cal-events-list">';
 
         dayEvents.forEach(ev => {
