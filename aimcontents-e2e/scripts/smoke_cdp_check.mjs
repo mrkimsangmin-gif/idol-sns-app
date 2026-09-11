@@ -85,15 +85,15 @@ async function getOrLaunchChrome() {
     '--no-first-run',
     '--no-default-browser-check',
     '--user-data-dir=' + process.env.TEMP + '\\chrome_cdp_e2e_profile'
-  ], { stdio: 'ignore', detached: false });
+  ], { stdio: 'ignore', detached: true });
+  proc.unref();
 
   for (let i = 0; i < 20; i++) {
     await sleep(250);
     try {
       const res = await fetch('http://127.0.0.1:9222/json/version', { signal: AbortSignal.timeout(500) });
       if (res.ok) {
-        const data = await res.json();
-        return { wsUrl: data.webSocketDebuggerUrl, spawned: proc };
+        return { wsUrl: (await res.json()).webSocketDebuggerUrl, pid: proc.pid };
       }
     } catch {}
   }
@@ -106,7 +106,7 @@ async function runSmokeCheck() {
   console.log('🚀 aimcontents.com CDP 초고속 스모크 테스트 시작');
   console.log('====================================================');
 
-  const { wsUrl, spawned } = await getOrLaunchChrome();
+  const { wsUrl, pid } = await getOrLaunchChrome();
   const socket = new WebSocket(wsUrl);
   await new Promise((res, rej) => {
     socket.addEventListener('open', res);
@@ -168,12 +168,38 @@ async function runSmokeCheck() {
         const genderDropdown = !!document.querySelector('#genderDropdown');
         results.push({ name: 'SNS 팔로워 순위 H1 & 드롭다운', pass: snsH1 && genderDropdown, detail: snsH1 ? 'H1 & #genderDropdown 정상' : '미발견' });
 
-        // 6. 전체 H2 개수
+        // 6. 엔터뉴스 H2 섹션 검증
+        const newsH2 = h2Elements.find(el => el.textContent.includes('엔터테인먼트 뉴스'));
+        results.push({ name: '엔터뉴스 H2 헤더', pass: !!newsH2, detail: newsH2 ? newsH2.textContent.trim() : '미발견' });
+
+        // 7. 전체 H2 개수
         results.push({ name: '전체 H2 섹션 개수', pass: h2Elements.length >= 3, detail: h2Elements.length + '개 발견' });
 
         return results;
       })()`
     }, sessionId);
+
+    // 8. 엔터뉴스 실시간 신선도 (/data/news.json 수집 지연 탐지)
+    console.log('[4/4] 엔터뉴스 업데이트 신선도(/data/news.json) 검증 중...');
+    try {
+      const newsRes = await fetch('https://aimcontents.com/data/news.json', { signal: AbortSignal.timeout(3000) });
+      if (newsRes.ok) {
+        const news = await newsRes.json();
+        if (Array.isArray(news) && news.length > 0) {
+          const now = Date.now();
+          const latestCollect = Math.max(...news.map(n => new Date(n.collectTime).getTime()).filter(t => !isNaN(t)));
+          const diffHours = (now - latestCollect) / (1000 * 60 * 60);
+          const isFresh = diffHours <= 6; // 6시간 이내 자동 업데이트 정상 기준
+          checks.result.value.push({
+            name: '엔터뉴스 최신 업데이트(신선도)',
+            pass: isFresh,
+            detail: `최근 수집: ${diffHours.toFixed(1)}시간 전 (${isFresh ? '최신 정상' : '⚠️ 업데이트 지연/중단 의심'})`
+          });
+        }
+      }
+    } catch (e) {
+      checks.result.value.push({ name: '엔터뉴스 JSON 응답', pass: false, detail: e.message });
+    }
 
     console.log('\n================ 검증 결과 요약 ================');
     let allPass = true;
@@ -192,18 +218,25 @@ async function runSmokeCheck() {
     }
 
     // 타겟 정리
-    await cdp.send('Target.closeTarget', { targetId });
-    socket.close();
-
-    if (spawned) {
-      spawned.kill();
+    try { await cdp.send('Browser.close'); } catch {}
+    try { socket.close(); } catch {}
+    if (pid) {
+      try {
+        const { execSync } = await import('node:child_process');
+        execSync(`taskkill /F /PID ${pid}`, { stdio: 'ignore' });
+      } catch {}
     }
 
     return allPass;
   } catch (err) {
     console.error(`[CDP Error] ${err.message}`);
-    socket.close();
-    if (spawned) spawned.kill();
+    try { socket.close(); } catch {}
+    if (pid) {
+      try {
+        const { execSync } = await import('node:child_process');
+        execSync(`taskkill /F /PID ${pid}`, { stdio: 'ignore' });
+      } catch {}
+    }
     return false;
   }
 }
