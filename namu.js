@@ -464,7 +464,10 @@ function renderNamuProfile(container, group) {
     for (var i = 0; i < infoFields.length; i++) {
         var f = infoFields[i];
         var val = info[f.key];
-        if (!val || val === '') continue;
+        if (f.key === '멤버수' && (!val || val === '0' || val === 0) && group.members && group.members.length > 0) {
+            val = String(group.members.length);
+        }
+        if (!val || val === '' || val === '0') continue;
         infoHtml += '<li class="list-group-item px-0"><strong>' + f.icon + ' ' + f.key + ':</strong> ' + val + '</li>';
     }
 
