@@ -1982,6 +1982,16 @@
     background-color: #f8f9fa !important;
     border-color: #0d6efd !important;
 }
+.cal-profile-link-card {
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.cal-profile-link-card:hover {
+    background-color: rgba(13, 110, 253, 0.18) !important;
+    border-color: #0a58ca !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(13, 110, 253, 0.15);
+}
 @media (max-width: 768px) {
     .cal-cell {
         min-height: 80px;
