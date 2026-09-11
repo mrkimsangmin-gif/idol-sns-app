@@ -4468,7 +4468,7 @@ async function executeMonthlyComeback(container, intent) {
 
     // 1. 데스크톱용 테이블 (d-none d-md-block: PC 화면에서는 일목요연한 표 제공)
     html += '<div class="d-none d-md-block table-responsive"><table class="table table-sm namu-smart-table mb-2">' +
-        '<thead><tr><th>일자</th><th>그룹</th><th>앨범 / 타이틀</th><th>구분</th><th>출처</th></tr></thead>' +
+        '<thead><tr><th>일자</th><th>그룹</th><th>앨범 / 타이틀</th><th>구분</th></tr></thead>' +
         '<tbody>';
 
     for (var j = 0; j < merged.length; j++) {
@@ -4487,7 +4487,6 @@ async function executeMonthlyComeback(container, intent) {
             '<td>' + groupHtml + '</td>' +
             '<td>' + escapeHtml(item.album_title || '-') + '</td>' +
             '<td class="text-muted">' + escapeHtml(item.album_type || '-') + '</td>' +
-            '<td>' + item.sourceBadge + '</td>' +
             '</tr>';
     }
     html += '</tbody></table></div>';
@@ -4508,11 +4507,10 @@ async function executeMonthlyComeback(container, intent) {
         html += '<div class="card p-2 border shadow-sm" style="background:#fff; border-radius:8px;">' +
             '<div class="d-flex justify-content-between align-items-center mb-1">' +
             '<span class="badge bg-secondary font-monospace">' + escapeHtml(mItem.date || '-') + '</span>' +
-            mItem.sourceBadge +
+            '<span class="badge bg-light text-secondary border small text-nowrap">' + escapeHtml(mItem.album_type || '-') + '</span>' +
             '</div>' +
             '<div class="d-flex justify-content-between align-items-baseline gap-2">' +
             mGroupHtml +
-            '<span class="badge bg-light text-secondary border small text-nowrap">' + escapeHtml(mItem.album_type || '-') + '</span>' +
             '</div>' +
             '<div class="small text-dark mt-1" style="word-break:keep-all;">' + escapeHtml(mItem.album_title || '-') + '</div>' +
             '</div>';
