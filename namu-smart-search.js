@@ -8007,16 +8007,19 @@ function findGroupsByAgency(agencyTerm) {
     });
 }
 
-// 최고 초동 (문자열)
+// // 최고 초동 (문자열)
 function getMaxSales(detail) {
     var albums = detail.albums || [];
     var maxVal = 0;
     var maxStr = '-';
     for (var i = 0; i < albums.length; i++) {
-        var num = albums[i]['초동_써클_numeric'] || 0;
-        if (num > maxVal) {
-            maxVal = num;
-            maxStr = albums[i]['초동_써클'] || '-';
+        var a = albums[i];
+        var hNum = a['초동_한터_numeric'] || parseInt((a['초동_한터'] || '').replace(/[^0-9]/g, ''), 10) || 0;
+        var cNum = a['초동_써클_numeric'] || parseInt((a['초동_써클'] || '').replace(/[^0-9]/g, ''), 10) || 0;
+        var bestNum = Math.max(hNum, cNum);
+        if (bestNum > maxVal) {
+            maxVal = bestNum;
+            maxStr = Number(bestNum).toLocaleString() + '장 (' + a.title + ')';
         }
     }
     return maxStr;
@@ -8027,24 +8030,36 @@ function getMaxSalesNum(detail) {
     var albums = detail.albums || [];
     var maxVal = 0;
     for (var i = 0; i < albums.length; i++) {
-        var num = albums[i]['초동_써클_numeric'] || 0;
-        if (num > maxVal) maxVal = num;
+        var a = albums[i];
+        var hNum = a['초동_한터_numeric'] || parseInt((a['초동_한터'] || '').replace(/[^0-9]/g, ''), 10) || 0;
+        var cNum = a['초동_써클_numeric'] || parseInt((a['초동_써클'] || '').replace(/[^0-9]/g, ''), 10) || 0;
+        var bestNum = Math.max(hNum, cNum);
+        if (bestNum > maxVal) maxVal = bestNum;
     }
     return maxVal;
 }
 
 // 최근 N개 앨범 초동 데이터 (차트용)
 function getRecentSalesData(detail, n) {
-    var albums = (detail.albums || []).filter(function(a) {
-        return (a['초동_써클_numeric'] || 0) > 0;
+    var albums = (detail.albums || []).map(function(a) {
+        var hNum = a['초동_한터_numeric'] || parseInt((a['초동_한터'] || '').replace(/[^0-9]/g, ''), 10) || 0;
+        var cNum = a['초동_써클_numeric'] || parseInt((a['초동_써클'] || '').replace(/[^0-9]/g, ''), 10) || 0;
+        var best = Math.max(hNum, cNum);
+        return {
+            title: a.title,
+            date: a['발매일'] || '',
+            sales: best
+        };
+    }).filter(function(x) {
+        return x.sales > 0;
     }).sort(function(a, b) {
-        return (a['발매일'] || '').localeCompare(b['발매일'] || '');
+        return a.date.localeCompare(b.date);
     });
 
     var recent = albums.slice(-n);
     return {
-        labels: recent.map(function(a) { return a.title || ''; }),
-        values: recent.map(function(a) { return a['초동_써클_numeric'] || 0; })
+        labels: recent.map(function(a) { return a.title; }),
+        values: recent.map(function(a) { return a.sales; })
     };
 }
 
