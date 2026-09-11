@@ -3138,10 +3138,11 @@ async function executeComparison(container, intent) {
     var g1 = intent.groups[0];
     var g2 = intent.groups[1];
 
-    // 두 그룹 상세 병렬 로드
+    // 두 그룹 상세 및 SNS 데이터 병렬 로드
     var results = await Promise.all([
         fetchGroupDetail(g1.slug),
-        fetchGroupDetail(g2.slug)
+        fetchGroupDetail(g2.slug),
+        ensureSnsDataLoaded()
     ]);
     var d1 = results[0];
     var d2 = results[1];
@@ -3151,6 +3152,18 @@ async function executeComparison(container, intent) {
         return;
     }
 
+    // SNS 팔로워 표기 헬퍼 (만 단위 포맷 + 최신 기준월 표기)
+    function getCompSns(d, platform) {
+        var data = getSnsFollowerData(d.name, platform);
+        if (!data || data.count == null) return '-';
+        var cnt = data.count;
+        var formatted = cnt >= 10000 ? Math.round(cnt / 10000).toLocaleString() + '만' : cnt.toLocaleString();
+        if (data.date) {
+            return formatted + '<br><small class="text-muted" style="font-size:0.75rem;">(' + data.date + ')</small>';
+        }
+        return formatted;
+    }
+
     // 비교 테이블 생성
     var compFields = [
         { label: '소속사', fn: function(d) { return (d.info || {})['소속사'] || '-'; } },
@@ -3158,7 +3171,11 @@ async function executeComparison(container, intent) {
         { label: '멤버수', fn: function(d) { return (d.members || []).length + '명'; } },
         { label: '팬덤명', fn: function(d) { return (d.info || {})['팬덤명'] || '-'; } },
         { label: '앨범 수', fn: function(d) { return (d.albums || []).length + '개'; } },
-        { label: '최고 초동', fn: function(d) { return getMaxSales(d); } }
+        { label: '최고 초동', fn: function(d) { return getMaxSales(d); } },
+        { label: '유튜브 구독자', fn: function(d) { return getCompSns(d, '유튜브'); } },
+        { label: '인스타그램', fn: function(d) { return getCompSns(d, '인스타그램'); } },
+        { label: 'X (트위터)', fn: function(d) { return getCompSns(d, 'X(트위터)'); } },
+        { label: '스포티파이 (월간 청취자)', fn: function(d) { return getCompSns(d, '스포티파이'); } }
     ];
 
     var html = '<div class="namu-smart-answer namu-smart-comparison">' +
@@ -3865,11 +3882,11 @@ function getGroupMetadataLinks(groupName) {
     return links;
 }
 
-// 만 단위 포맷 (1234만, 5,802)
+// 만 단위 포맷 (1,234만, 5,802)
 function formatFollowerCount(count) {
     if (count == null || count === 0) return '-';
     if (count >= 10000) {
-        return Math.round(count / 10000) + '만';
+        return Math.round(count / 10000).toLocaleString() + '만';
     }
     return count.toLocaleString();
 }
