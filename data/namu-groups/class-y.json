@@ -116,8 +116,16 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "20,749",
-      "누적_써클": "20,749",
-      "비고": "타이틀곡: SHUT DOWN"
+      "누적_써클": "37,813",
+      "비고": "타이틀곡: SHUT DOWN",
+      "누적_써클_numeric": 37813,
+      "monthly_timeline": [
+        {
+          "ym": "2022-05",
+          "sales": 20749,
+          "cumulative": 29785
+        }
+      ]
     },
     {
       "title": "LIVES ACROSS",
@@ -126,8 +134,21 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "8,911",
-      "누적_써클": "14,768",
-      "비고": "타이틀곡: CLASSY"
+      "누적_써클": "19,983",
+      "비고": "타이틀곡: CLASSY",
+      "누적_써클_numeric": 19983,
+      "monthly_timeline": [
+        {
+          "ym": "2022-05",
+          "sales": 5857,
+          "cumulative": 19983
+        },
+        {
+          "ym": "2022-06",
+          "sales": 8911,
+          "cumulative": 19983
+        }
+      ]
     },
     {
       "title": "SHUT DOWN -JP Ver.-",
@@ -146,8 +167,16 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "12,738",
-      "누적_써클": "12,738",
-      "비고": "타이틀곡: Tick Tick Boom, ZEALOUS"
+      "누적_써클": "19,579",
+      "비고": "타이틀곡: Tick Tick Boom, ZEALOUS",
+      "누적_써클_numeric": 19579,
+      "monthly_timeline": [
+        {
+          "ym": "2022-10",
+          "sales": 12738,
+          "cumulative": 19579
+        }
+      ]
     },
     {
       "title": "TARGET",
@@ -197,7 +226,14 @@
       "누적_한터": "",
       "초동_써클": "7,203",
       "누적_써클": "7,203",
-      "비고": "타이틀곡: Psycho and Beautiful"
+      "비고": "타이틀곡: Psycho and Beautiful",
+      "monthly_timeline": [
+        {
+          "ym": "2024-12",
+          "sales": 7203,
+          "cumulative": 7203
+        }
+      ]
     },
     {
       "title": "뉴페스타 EPISODE.9",

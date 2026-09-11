@@ -115,9 +115,23 @@
       "발매일": "2021.11.10",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "9,3**",
-      "누적_써클": "24,6**",
-      "비고": "RING X RING"
+      "초동_써클": "88,669",
+      "누적_써클": "178,081",
+      "비고": "RING X RING",
+      "누적_써클_numeric": 178081,
+      "초동_써클_numeric": 88669,
+      "monthly_timeline": [
+        {
+          "ym": "2021-11",
+          "sales": 14729,
+          "cumulative": 24698
+        },
+        {
+          "ym": "2021-12",
+          "sales": 9969,
+          "cumulative": 24698
+        }
+      ]
     },
     {
       "title": "the collective soul and unconscious: snowy night",
@@ -126,8 +140,26 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "-",
-      "누적_써클": "-",
-      "비고": "snowy night"
+      "누적_써클": "91,549",
+      "비고": "snowy night",
+      "누적_써클_numeric": 91549,
+      "monthly_timeline": [
+        {
+          "ym": "2022-02",
+          "sales": 29966,
+          "cumulative": 91549
+        },
+        {
+          "ym": "2022-03",
+          "sales": 44730,
+          "cumulative": 91549
+        },
+        {
+          "ym": "2022-04",
+          "sales": 12946,
+          "cumulative": 91549
+        }
+      ]
     },
     {
       "title": "the collective soul and unconscious: chapter one",
@@ -136,8 +168,26 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "28,5**",
-      "누적_써클": "89,2**",
-      "비고": "GingaMingaYo (the strange world)"
+      "누적_써클": "91,549",
+      "비고": "GingaMingaYo (the strange world)",
+      "누적_써클_numeric": 91549,
+      "monthly_timeline": [
+        {
+          "ym": "2022-02",
+          "sales": 29966,
+          "cumulative": 91549
+        },
+        {
+          "ym": "2022-03",
+          "sales": 44730,
+          "cumulative": 91549
+        },
+        {
+          "ym": "2022-04",
+          "sales": 12946,
+          "cumulative": 91549
+        }
+      ]
     },
     {
       "title": "track by YOON: 팥빙수",
@@ -155,9 +205,23 @@
       "발매일": "2022.08.31",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "21,662",
-      "누적_써클": "89,997",
-      "비고": "RING ma Bell (what a wonderful world)"
+      "초동_써클": "88,669",
+      "누적_써클": "178,081",
+      "비고": "RING ma Bell (what a wonderful world)",
+      "누적_써클_numeric": 178081,
+      "초동_써클_numeric": 88669,
+      "monthly_timeline": [
+        {
+          "ym": "2021-11",
+          "sales": 14729,
+          "cumulative": 24698
+        },
+        {
+          "ym": "2021-12",
+          "sales": 9969,
+          "cumulative": 24698
+        }
+      ]
     },
     {
       "title": "the Billage of perception: chapter three",
@@ -165,9 +229,23 @@
       "발매일": "2023.03.28",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "70,6**",
-      "누적_써클": "92,6**",
-      "비고": "EUNOIA"
+      "초동_써클": "88,669",
+      "누적_써클": "178,081",
+      "비고": "EUNOIA",
+      "누적_써클_numeric": 178081,
+      "초동_써클_numeric": 88669,
+      "monthly_timeline": [
+        {
+          "ym": "2021-11",
+          "sales": 14729,
+          "cumulative": 24698
+        },
+        {
+          "ym": "2021-12",
+          "sales": 9969,
+          "cumulative": 24698
+        }
+      ]
     },
     {
       "title": "GingaMingaYo (the strange world) - Japanese ver. -",
@@ -185,9 +263,23 @@
       "발매일": "2023.10.23",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "35,1**",
-      "누적_써클": "43,0**",
-      "비고": "DANG! (hocus pocus)"
+      "초동_써클": "35,095",
+      "누적_써클": "45,008",
+      "비고": "DANG! (hocus pocus)",
+      "누적_써클_numeric": 45008,
+      "초동_써클_numeric": 35095,
+      "monthly_timeline": [
+        {
+          "ym": "2023-10",
+          "sales": 36100,
+          "cumulative": 45008
+        },
+        {
+          "ym": "2023-11",
+          "sales": 7218,
+          "cumulative": 45008
+        }
+      ]
     },
     {
       "title": "Knock-on Effect",
@@ -226,8 +318,26 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "-",
-      "누적_써클": "-",
-      "비고": "a sign ~ overture to Billlie"
+      "누적_써클": "91,549",
+      "비고": "a sign ~ overture to Billlie",
+      "누적_써클_numeric": 91549,
+      "monthly_timeline": [
+        {
+          "ym": "2022-02",
+          "sales": 29966,
+          "cumulative": 91549
+        },
+        {
+          "ym": "2022-03",
+          "sales": 44730,
+          "cumulative": 91549
+        },
+        {
+          "ym": "2022-04",
+          "sales": 12946,
+          "cumulative": 91549
+        }
+      ]
     },
     {
       "title": "the Billage of perception: chapter two Original Soundtrack from “the end of the world and the awakening”",
@@ -236,8 +346,21 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "-",
-      "누적_써클": "-",
-      "비고": "RING ma Bell ~ the howling memories"
+      "누적_써클": "92,363",
+      "비고": "RING ma Bell ~ the howling memories",
+      "누적_써클_numeric": 92363,
+      "monthly_timeline": [
+        {
+          "ym": "2022-08",
+          "sales": 68335,
+          "cumulative": 92363
+        },
+        {
+          "ym": "2022-09",
+          "sales": 21662,
+          "cumulative": 92363
+        }
+      ]
     },
     {
       "title": "저 별",
@@ -303,11 +426,30 @@
       "title": "the collective soul and unconscious: chapter two",
       "type": "1집 정규앨범",
       "발매일": "2026.05.06",
-      "초동_한터": "",
+      "초동_한터": "38,809",
       "누적_한터": "",
       "초동_써클": "",
-      "누적_써클": "",
-      "비고": "ZAP"
+      "누적_써클": "91,549",
+      "비고": "ZAP",
+      "누적_써클_numeric": 91549,
+      "초동_한터_numeric": 38809,
+      "monthly_timeline": [
+        {
+          "ym": "2022-02",
+          "sales": 29966,
+          "cumulative": 91549
+        },
+        {
+          "ym": "2022-03",
+          "sales": 44730,
+          "cumulative": 91549
+        },
+        {
+          "ym": "2022-04",
+          "sales": 12946,
+          "cumulative": 91549
+        }
+      ]
     },
     {
       "title": "SNAP (feat. sokodomo)",

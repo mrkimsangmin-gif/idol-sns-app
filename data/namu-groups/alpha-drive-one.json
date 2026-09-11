@@ -26,8 +26,16 @@
       "초동_한터": "1,441,270",
       "누적_한터": "",
       "초동_써클": "1,441,2**",
-      "누적_써클": "1,441,2**",
-      "비고": "FREAK ALARM (TITLE)"
+      "누적_써클": "1,430,169",
+      "비고": "FREAK ALARM (TITLE)",
+      "누적_써클_numeric": 1430169,
+      "monthly_timeline": [
+        {
+          "ym": "2026-01",
+          "sales": 1428749,
+          "cumulative": 1409759
+        }
+      ]
     },
     {
       "title": "No School Tomorrow",
