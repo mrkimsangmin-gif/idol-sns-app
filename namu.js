@@ -889,9 +889,9 @@ async function loadNamuRanking() {
                 var htSrc = a['초동_한터'] || '0';
                 a['초동_한터_numeric'] = parseInt(htSrc.replace(/[,*]/g, '')) || 0;
             }
-            // 한터 우선 정렬용 (한터 값 있으면 한터, 없으면 써클)
+            // 한터/써클 중 더 높은 유효 초동 반영 (단일 차트 누락 및 부분집계 왜곡 방지)
             if (!a['초동_best_numeric']) {
-                a['초동_best_numeric'] = a['초동_한터_numeric'] || a['초동_써클_numeric'];
+                a['초동_best_numeric'] = Math.max(a['초동_한터_numeric'] || 0, a['초동_써클_numeric'] || 0);
             }
             if (!a['group_slug']) a['group_slug'] = a['slug'] || '';
         });
