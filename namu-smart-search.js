@@ -1517,6 +1517,22 @@ function parseSmartQuery(query) {
         }
     }
 
+    // 5-a4. "{그룹} 인기 순위", "{그룹} 흥행 순위", "{그룹} 인기/순위"
+    // 예: "아일릿 인기 순위를 알려줘", "에스파 흥행 순위", "보이넥스트도어 인기 순위"
+    if (/인기\s*순위|흥행\s*순위|흥행\s*차트|인기도|인기|흥행/.test(q) && /순위|랭킹|차트|몇\s*위/.test(q)) {
+        var boxofficeMatch = q.match(/^(.+?)\s*(?:의\s*)?(?:인기\s*순위|흥행\s*순위|흥행\s*차트|인기|흥행)(?:\s*(?:순위|랭킹|차트|몇\s*위))?\s*$/);
+        if (boxofficeMatch) {
+            var boCandidate = boxofficeMatch[1].trim().replace(/(\S{2,})[은는이가]$/, '$1').trim();
+            var gBO = findGroupByName(boCandidate);
+            if (gBO) {
+                return {
+                    type: 'group_boxoffice_ranking',
+                    group: gBO
+                };
+            }
+        }
+    }
+
     // 5-b. "{그룹} {앨범명} 초동/발매일/누적" — 특정 앨범 조회
     var specificAlbumMatch = q.match(/^(.+?)\s+(.+?)\s+(초동|발매일|누적\s*판매량?|판매량)\s*$/);
     if (specificAlbumMatch) {
@@ -1847,6 +1863,10 @@ async function executeIntent(intent) {
 
         case 'group_song_views_ranking':
             await executeGroupSongViewsRanking(container, intent);
+            return;
+
+        case 'group_boxoffice_ranking':
+            await executeGroupBoxofficeRanking(container, intent);
             return;
 
         case 'monthly_comeback':
@@ -5150,6 +5170,110 @@ async function executeGroupSongViewsRanking(container, intent) {
     container.innerHTML = html;
     container.style.display = 'block';
 }
+
+// --- 그룹 인기/흥행 순위 (월간 흥행 차트 연동) ---
+async function executeGroupBoxofficeRanking(container, intent) {
+    var group = intent.group;
+    var targetYearMonth = '2026-08'; // 최신 월간 차트
+    var genderSubPath = (group.gender === '남자') ? 'boys' : 'girls';
+    var chartUrl = 'https://aimcontents.com/monthly/' + targetYearMonth + '/' + genderSubPath + '/';
+
+    // 1. 최신 월간 흥행 차트 CSV 로드 시도
+    var csvText = null;
+    try {
+        var vParam = (typeof NAMU_DATA_VERSION !== 'undefined') ? NAMU_DATA_VERSION : '1';
+        var csvRes = await fetch('/data/monthly-' + targetYearMonth + '.csv?v=' + vParam);
+        if (csvRes && csvRes.ok) {
+            csvText = await csvRes.text();
+        }
+    } catch (e) {
+        console.warn('monthly csv 로드 실패:', e);
+    }
+
+    var groupRow = null;
+    var topRows = [];
+    if (csvText) {
+        var lines = csvText.split('\n');
+        for (var i = 1; i < lines.length; i++) {
+            var line = lines[i].trim();
+            if (!line) continue;
+            var parts = line.split(',');
+            if (parts[0] !== group.gender) continue; // 성별 일치
+
+            var item = {
+                gender: parts[0],
+                rank: parseInt(parts[1]) || 0,
+                name: parts[2],
+                score: parseFloat(parts[3]) || 0,
+                musicScore: parts[4] || '-',
+                snsScore: parts[5] || '-',
+                globalScore: parts[6] || '-',
+                broadcastScore: parts[7] || '-',
+                searchScore: parts[8] || '-'
+            };
+
+            if (topRows.length < 5) {
+                topRows.push(item);
+            }
+
+            if (parts[2] === group.name || (group.aliases && group.aliases.includes(parts[2]))) {
+                groupRow = item;
+            }
+        }
+    }
+
+    var genderLabel = (group.gender === '남자') ? '보이그룹' : '걸그룹';
+    var title = group.name + ' 월간 흥행 순위 (2026년 8월 차트)';
+
+    var html = '<div class="namu-smart-answer">' +
+        '<div class="namu-smart-answer-header">' +
+        '<span class="namu-smart-icon">🔥</span>' +
+        '<span class="namu-smart-title">' + escapeHtml(title) + '</span>' +
+        '<button class="namu-smart-close" onclick="dismissSmartAnswer()" title="닫기">&times;</button>' +
+        '</div>' +
+        '<div class="namu-smart-answer-body">';
+
+    if (groupRow) {
+        html += '<div style="font-size:1.15rem;margin-bottom:12px;padding:12px;background:#f8f9fa;border-radius:8px;border-left:4px solid #0d6efd;">' +
+            '🏆 <strong>' + escapeHtml(group.name) + '</strong>는 <strong>2026년 8월 ' + genderLabel + ' 흥행 차트</strong>에서 ' +
+            '<span class="badge bg-primary fs-6">' + groupRow.rank + '위</span> (흥행점수 <strong>' + groupRow.score + '점</strong>)를 기록 중입니다.' +
+            '<div class="text-muted small mt-2" style="font-size:0.85rem;">' +
+            '• 신호별 기여: 음원 ' + groupRow.musicScore + '점 / SNS ' + groupRow.snsScore + '점 / 글로벌 ' + groupRow.globalScore + '점 / 음방 ' + groupRow.broadcastScore + '점 / 검색 ' + groupRow.searchScore + '점' +
+            '</div>' +
+            '</div>';
+    } else {
+        html += '<p style="margin-bottom:10px;">2026년 8월 ' + genderLabel + ' 흥행 차트 50위권 외이거나 집계 대상 목록을 확인하세요.</p>';
+    }
+
+    // 상위 TOP 5 비교 테이블
+    if (topRows.length > 0) {
+        html += '<div class="mt-2 mb-2"><strong style="font-size:0.95rem;">📊 2026년 8월 ' + genderLabel + ' 흥행 차트 TOP 5:</strong></div>' +
+            '<div class="table-responsive"><table class="table table-sm namu-smart-table">' +
+            '<thead><tr><th>순위</th><th>그룹</th><th>흥행점수</th></tr></thead><tbody>';
+
+        for (var t = 0; t < topRows.length; t++) {
+            var r = topRows[t];
+            var isSelf = (r.name === group.name);
+            var rankBadge = (t === 0) ? '🥇 1' : (t === 1) ? '🥈 2' : (t === 2) ? '🥉 3' : (t + 1);
+            html += '<tr' + (isSelf ? ' style="background-color:#e8f4fd;font-weight:bold;"' : '') + '>' +
+                '<td>' + rankBadge + '</td>' +
+                '<td>' + escapeHtml(r.name) + (isSelf ? ' 👈' : '') + '</td>' +
+                '<td>' + r.score + '점</td>' +
+                '</tr>';
+        }
+        html += '</tbody></table></div>';
+    }
+
+    html += '<div class="namu-smart-detail-link mt-2">' +
+        '<a href="' + escapeHtml(chartUrl) + '" target="_blank" rel="noopener" style="font-weight:600;color:#0d6efd;">' +
+        '📈 ' + targetYearMonth + ' ' + genderLabel + ' 월간 흥행 차트 전체보기 →' +
+        '</a>' +
+        '</div></div></div>';
+
+    container.innerHTML = html;
+    container.style.display = 'block';
+}
+
 
 
 
