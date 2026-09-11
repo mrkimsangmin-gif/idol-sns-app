@@ -115,5 +115,48 @@
       "누적_써클": "-",
       "비고": "The 1st EP"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 480000,
+      "spotify_id": "",
+      "top_tracks": [
+        {
+          "title": "SUN KISS",
+          "play_count": 1250000,
+          "uri": "spotify:track:7Jpb9OejYYIwsBIVQwceRy"
+        },
+        {
+          "title": "GRLS",
+          "play_count": 640000,
+          "uri": "spotify:track:1TtqALMlSp0o2RUu91Auz8"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 2690375,
+      "track_count": 2,
+      "mean_views": 1345187,
+      "max_views": 1888035,
+      "albums": [
+        {
+          "title": "SUN KISS",
+          "year": "2026",
+          "tracks": [
+            {
+              "title": "SUN KISS",
+              "video_id": "46h0LvDHgIs",
+              "youtube_views": 1888035
+            },
+            {
+              "title": "GRLS",
+              "video_id": "pHciG9_2xXM",
+              "youtube_views": 802340
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

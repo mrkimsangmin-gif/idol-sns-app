@@ -139,5 +139,38 @@
       "누적_써클": "-",
       "비고": "데뷔 싱글"
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 310000,
+      "spotify_id": "",
+      "top_tracks": [
+        {
+          "title": "스타라이트 (Starlight)",
+          "play_count": 580000,
+          "uri": "spotify:track:28WqY7wV2Oiq3hYmZ6K1L2"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 591275,
+      "track_count": 1,
+      "mean_views": 591275,
+      "max_views": 591275,
+      "albums": [
+        {
+          "title": "스타라이트",
+          "year": "2026",
+          "tracks": [
+            {
+              "title": "스타라이트 (Starlight)",
+              "video_id": "v094-E3Pmtk",
+              "youtube_views": 591275
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }

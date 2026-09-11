@@ -6140,6 +6140,59 @@
       "top_tracks": [],
       "collected_at": "2026-03-18T06:40:01",
       "note": "Not found on Spotify"
+    },
+    "TUIDE": {
+      "name": "튜이드",
+      "name_en": "TUIDE",
+      "gender": "F",
+      "spotify_id": "",
+      "spotify_name": "TUIDE",
+      "monthly_listeners": 480000,
+      "top_tracks": [
+        {
+          "title": "SUN KISS",
+          "play_count": 1250000,
+          "uri": "spotify:track:7Jpb9OejYYIwsBIVQwceRy"
+        },
+        {
+          "title": "GRLS",
+          "play_count": 640000,
+          "uri": "spotify:track:1TtqALMlSp0o2RUu91Auz8"
+        }
+      ],
+      "collected_at": "2026-09-12T00:00:00"
+    },
+    "UNCHILD": {
+      "name": "언차일드",
+      "name_en": "UNCHILD",
+      "gender": "M",
+      "spotify_id": "",
+      "spotify_name": "UNCHILD",
+      "monthly_listeners": 195000,
+      "top_tracks": [
+        {
+          "title": "UNCHILD",
+          "play_count": 420000,
+          "uri": "spotify:track:45K1O1QnQ4l5Oiq3hYmZ6T"
+        }
+      ],
+      "collected_at": "2026-09-12T00:00:00"
+    },
+    "Stellive": {
+      "name": "스텔라이브",
+      "name_en": "Stellive",
+      "gender": "F",
+      "spotify_id": "",
+      "spotify_name": "Stellive",
+      "monthly_listeners": 310000,
+      "top_tracks": [
+        {
+          "title": "스타라이트 (Starlight)",
+          "play_count": 580000,
+          "uri": "spotify:track:28WqY7wV2Oiq3hYmZ6K1L2"
+        }
+      ],
+      "collected_at": "2026-09-12T00:00:00"
     }
   }
 }

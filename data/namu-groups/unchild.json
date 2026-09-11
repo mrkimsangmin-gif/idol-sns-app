@@ -107,5 +107,38 @@
       "누적_써클": "-",
       "비고": ""
     }
-  ]
+  ],
+  "streaming": {
+    "spotify": {
+      "monthly_listeners": 195000,
+      "spotify_id": "",
+      "top_tracks": [
+        {
+          "title": "UNCHILD",
+          "play_count": 420000,
+          "uri": "spotify:track:45K1O1QnQ4l5Oiq3hYmZ6T"
+        }
+      ]
+    },
+    "ytmusic": {
+      "total_views": 445874,
+      "track_count": 1,
+      "mean_views": 445874,
+      "max_views": 445874,
+      "albums": [
+        {
+          "title": "UNCHILD",
+          "year": "2026",
+          "tracks": [
+            {
+              "title": "UNCHILD",
+              "video_id": "wWvu34x2INc",
+              "youtube_views": 445874
+            }
+          ]
+        }
+      ]
+    },
+    "collected_at": "2026-03-19"
+  }
 }
