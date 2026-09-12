@@ -189,6 +189,12 @@
       "name": "Who is she",
       "datePublished": "2026.04.06",
       "albumProductionType": "싱글 2집"
+    },
+    {
+      "@type": "MusicAlbum",
+      "name": "SWEAT",
+      "datePublished": "2026.08.04",
+      "albumProductionType": "싱글 3집"
     }
   ]
 }
@@ -398,27 +404,11 @@
                 </div>
             </div>
 
-            <!-- 검색 및 필터 컨트롤 -->
-            <div class="card border-0 shadow-sm p-3 mb-3">
-                <div class="row g-2 align-items-center">
-                    <div class="col-12 col-md-7 d-flex align-items-center gap-2 overflow-x-auto pb-1 pb-md-0" style="scrollbar-width:none;-ms-overflow-style:none;">
-                        <div class="btn-group btn-group-sm flex-shrink-0" role="group">
-                            <button class="btn btn-outline-dark cal-type-btn cal-filter-btn active" data-filter="all" data-type="all" onclick="filterCalendar('all')">전체</button>
-                            <button class="btn btn-outline-secondary cal-type-btn cal-filter-btn" data-filter="comeback" data-type="comeback" onclick="filterCalendar('comeback')">컴백만</button>
-                            <button class="btn btn-outline-warning text-dark cal-type-btn cal-filter-btn" data-filter="debut" data-type="debut" onclick="filterCalendar('debut')">데뷔만</button>
-                        </div>
-                        <div class="btn-group btn-group-sm flex-shrink-0" role="group">
-                            <button class="btn btn-outline-dark cal-gender-btn active" data-gender="all" onclick="filterCalGender('all')">전체</button>
-                            <button class="btn btn-outline-primary cal-gender-btn" data-gender="male" onclick="filterCalGender('male')">👦 보이그룹</button>
-                            <button class="btn btn-outline-danger cal-gender-btn" data-gender="female" onclick="filterCalGender('female')">👧 걸그룹</button>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-5">
-                        <div class="input-group input-group-sm">
-                            <span class="input-group-text bg-white border-end-0"><i class="bi bi-search text-muted"></i></span>
-                            <input type="text" class="form-control border-start-0" id="calSearchInput" placeholder="그룹명 또는 아티스트 검색 (예: 르세라핌, 원어스)" oninput="searchCalendar(this.value)">
-                        </div>
-                    </div>
+            <!-- 검색 컨트롤 -->
+            <div class="card border-0 shadow-sm p-2 mb-3">
+                <div class="input-group input-group-sm">
+                    <span class="input-group-text bg-white border-end-0"><i class="bi bi-search text-muted"></i></span>
+                    <input type="text" class="form-control border-start-0" id="calSearchInput" placeholder="그룹명 또는 아티스트 검색 (예: 르세라핌, 원어스)" oninput="searchCalendar(this.value)">
                 </div>
             </div>
 
@@ -872,7 +862,7 @@
 <tr><td>벨</td><td>심혜원</td><td>2004.03.20</td><td>대한민국, 미국</td><td>메인보컬</td></tr>
 <tr><td>하늘</td><td>원하늘</td><td>2005.05.25</td><td>대한민국</td><td>리드보컬</td></tr>
 </tbody></table></section>
-<section class="mb-4"><h2 class="fs-5 fw-bold">디스코그래피 (16장)</h2>
+<section class="mb-4"><h2 class="fs-5 fw-bold">디스코그래피 (17장)</h2>
 <table class="table table-sm"><thead><tr><th>앨범</th><th>유형</th><th>발매일</th><th>초동(써클)</th><th>누적(써클)</th></tr></thead><tbody>
 <tr><td>KISS OF LIFE</td><td>1집 미니앨범</td><td>2023.07.05</td><td>3,930</td><td>28,365</td></tr>
 <tr><td>Born to be XX</td><td>2집 미니앨범</td><td>2023.11.08</td><td>47,982</td><td>56,373</td></tr>
@@ -890,6 +880,7 @@
 <tr><td>Maestro of My Heart</td><td>참여 음반</td><td>2024.09.23</td><td>-</td><td>-</td></tr>
 <tr><td>Hold My hand</td><td>참여 음반</td><td>2025.09.05</td><td>-</td><td>-</td></tr>
 <tr><td>Who is she</td><td>싱글 2집</td><td>2026.04.06</td><td>71,2**</td><td></td></tr>
+<tr><td>SWEAT</td><td>싱글 3집</td><td>2026.08.04</td><td></td><td></td></tr>
 </tbody></table></section>
 
     <section class="mt-4 pt-3 border-top">
@@ -1047,7 +1038,7 @@
     <script src="/calendar.js?v=20260912gcal"></script>
     <script src="/namu.js?v=20260912"></script>
     <!-- Gemini API 키는 GAS 서버사이드(Script Properties)에서 관리 -->
-    <script src="/namu-smart-search.js?v=20260307p"></script>
+    <script src="/namu-smart-search.js?v=20260912nosource"></script>
     <script>
         // NEW 뱃지 만료 자동 제거 (data-expire 날짜 이후 숨김)
         document.querySelectorAll('.nav-new-badge[data-expire]').forEach(function(el) {
