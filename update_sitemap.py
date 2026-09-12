@@ -50,6 +50,7 @@ def generate_sitemap():
         ('/douyin/',       ROOT / 'douyin' / 'index.html',   data / 'douyin-challenges.json','weekly',  '0.8'),
         ('/namu/',         ROOT / 'namu' / 'index.html',     data / 'namu-index.json',      'weekly',  '0.9'),
         ('/jobs/',         ROOT / 'jobs' / 'index.html',     data / 'jobs.json',            'daily',   '0.7'),
+        ('/comeback/',     ROOT / 'comeback' / 'index.html', data / 'calendar.json',        'daily',   '0.8'),
         ('/methodology/',  ROOT / 'methodology' / 'index.html', data / 'namu-index.json',   'monthly', '0.5'),
     ]
     static_count = 0
