@@ -1881,7 +1881,7 @@
    ============================================================ */
 .cal-grid-header {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(7, minmax(0, 1fr));
     background: #f8f9fa;
     border-radius: 8px 8px 0 0;
     border: 1px solid #dee2e6;
@@ -1892,10 +1892,12 @@
 }
 .cal-header-cell {
     padding: 10px 4px;
+    min-width: 0;
+    overflow: hidden;
 }
 .cal-grid-body {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(7, minmax(0, 1fr));
     border: 1px solid #dee2e6;
     border-top: none;
     background: #ffffff;
@@ -1903,6 +1905,8 @@
 }
 .cal-cell {
     min-height: 105px;
+    min-width: 0;
+    overflow: hidden;
     border-right: 1px solid #f0f0f0;
     border-top: 1px solid #f0f0f0;
     padding: 6px;
