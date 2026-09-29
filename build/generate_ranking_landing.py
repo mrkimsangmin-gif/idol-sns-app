@@ -32,11 +32,11 @@ def strip_once(text, pattern, label):
 def build_jsonld():
     platforms = [
         {"name": "틱톡 (TikTok)", "url": f"{SITE}/ranking"},
-        {"name": "유튜브 (YouTube)", "url": f"{SITE}/ranking/2026-08/youtube-girls/"},
-        {"name": "인스타그램 (Instagram)", "url": f"{SITE}/ranking/2026-08/instagram-girls/"},
-        {"name": "웨이보 (Weibo)", "url": f"{SITE}/ranking/2026-08/weibo-boys/"},
-        {"name": "스포티파이 (Spotify)", "url": f"{SITE}/ranking/2026-08/spotify-boys/"},
-        {"name": "빌리빌리 (Bilibili)", "url": f"{SITE}/ranking/2026-08/bilibili-boys/"},
+        {"name": "유튜브 (YouTube)", "url": f"{SITE}/ranking/2026-09/youtube-girls/"},
+        {"name": "인스타그램 (Instagram)", "url": f"{SITE}/ranking/2026-09/instagram-girls/"},
+        {"name": "웨이보 (Weibo)", "url": f"{SITE}/ranking/2026-09/weibo-boys/"},
+        {"name": "스포티파이 (Spotify)", "url": f"{SITE}/ranking/2026-09/spotify-boys/"},
+        {"name": "빌리빌리 (Bilibili)", "url": f"{SITE}/ranking/2026-09/bilibili-boys/"},
         {"name": "도우인 (Douyin)", "url": f"{SITE}/douyin/"}
     ]
     items = [{
@@ -90,33 +90,33 @@ def build_baked_content():
             <h2 class="fs-5 fw-bold mb-3">🔥 주요 SNS 플랫폼별 순위 바로가기</h2>
             <div class="row g-2 mb-4">
                 <div class="col-6 col-md-3">
-                    <a href="/ranking/2026-08/youtube-girls/" class="btn btn-outline-danger w-100 py-2 text-start">
+                    <a href="/ranking/2026-09/youtube-girls/" class="btn btn-outline-danger w-100 py-2 text-start">
                         <strong>유튜브 (여자)</strong><br><small class="text-muted">1위 블랙핑크 (1.01억)</small>
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
-                    <a href="/ranking/2026-08/youtube-boys/" class="btn btn-outline-danger w-100 py-2 text-start">
-                        <strong>유튜브 (남자)</strong><br><small class="text-muted">1위 BTS (7,850만)</small>
+                    <a href="/ranking/2026-09/youtube-boys/" class="btn btn-outline-danger w-100 py-2 text-start">
+                        <strong>유튜브 (남자)</strong><br><small class="text-muted">1위 BTS (8,600만)</small>
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
-                    <a href="/ranking/2026-08/weibo-boys/" class="btn btn-outline-warning w-100 py-2 text-start">
+                    <a href="/ranking/2026-09/weibo-boys/" class="btn btn-outline-warning w-100 py-2 text-start">
                         <strong>웨이보 (남자)</strong><br><small class="text-muted">1위 BTS (567만)</small>
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
-                    <a href="/ranking/2026-08/weibo-girls/" class="btn btn-outline-warning w-100 py-2 text-start">
-                        <strong>웨이보 (여자)</strong><br><small class="text-muted">1위 블랙핑크 (782만)</small>
+                    <a href="/ranking/2026-09/weibo-girls/" class="btn btn-outline-warning w-100 py-2 text-start">
+                        <strong>웨이보 (여자)</strong><br><small class="text-muted">1위 블랙핑크 (577만)</small>
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
-                    <a href="/ranking/2026-08/spotify-boys/" class="btn btn-outline-success w-100 py-2 text-start">
-                        <strong>스포티파이 (남자)</strong><br><small class="text-muted">1위 BTS (7,750만)</small>
+                    <a href="/ranking/2026-09/spotify-boys/" class="btn btn-outline-success w-100 py-2 text-start">
+                        <strong>스포티파이 (남자)</strong><br><small class="text-muted">1위 BTS (3,146만)</small>
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
-                    <a href="/ranking/2026-08/spotify-girls/" class="btn btn-outline-success w-100 py-2 text-start">
-                        <strong>스포티파이 (여자)</strong><br><small class="text-muted">1위 블랙핑크 (4,990만)</small>
+                    <a href="/ranking/2026-09/spotify-girls/" class="btn btn-outline-success w-100 py-2 text-start">
+                        <strong>스포티파이 (여자)</strong><br><small class="text-muted">1위 아일릿 (2,020만)</small>
                     </a>
                 </div>
                 <div class="col-6 col-md-3">
