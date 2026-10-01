@@ -64,8 +64,9 @@ class CDPClient extends EventEmitter {
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 async function getOrLaunchChrome() {
+  const cdpPort = 9333;
   try {
-    const res = await fetch('http://127.0.0.1:9222/json/version', { signal: AbortSignal.timeout(1000) });
+    const res = await fetch(`http://127.0.0.1:${cdpPort}/json/version`, { signal: AbortSignal.timeout(1000) });
     if (res.ok) {
       const data = await res.json();
       return { wsUrl: data.webSocketDebuggerUrl, spawned: null };
@@ -77,27 +78,27 @@ async function getOrLaunchChrome() {
     throw new Error('Chrome 실행 파일을 찾을 수 없습니다.');
   }
 
-  console.log(`[CDP] 백그라운드 Chrome 기동 중... (${chromePath})`);
+  console.log(`[CDP] 백그라운드 Chrome 기동 중... (포트 ${cdpPort}, ${chromePath})`);
   const proc = spawn(chromePath, [
     '--headless=new',
-    '--remote-debugging-port=9222',
+    `--remote-debugging-port=${cdpPort}`,
     '--disable-gpu',
     '--no-first-run',
     '--no-default-browser-check',
-    '--user-data-dir=' + process.env.TEMP + '\\chrome_cdp_e2e_profile'
+    '--user-data-dir=' + process.env.TEMP + '\\chrome_cdp_e2e_profile_' + cdpPort
   ], { stdio: 'ignore', detached: true });
   proc.unref();
 
   for (let i = 0; i < 20; i++) {
     await sleep(250);
     try {
-      const res = await fetch('http://127.0.0.1:9222/json/version', { signal: AbortSignal.timeout(500) });
+      const res = await fetch(`http://127.0.0.1:${cdpPort}/json/version`, { signal: AbortSignal.timeout(500) });
       if (res.ok) {
         return { wsUrl: (await res.json()).webSocketDebuggerUrl, pid: proc.pid };
       }
     } catch {}
   }
-  throw new Error('Chrome CDP 포트 9222 연결에 실패했습니다.');
+  throw new Error(`Chrome CDP 포트 ${cdpPort} 연결에 실패했습니다.`);
 }
 
 async function runSmokeCheck() {
