@@ -1276,12 +1276,52 @@
       "source": "Google Alerts"
     },
     {
+      "id": "alert_idle_yuqi_20261008",
+      "date": "2026-10-08",
+      "title": "아이들 (Comeback)",
+      "slug": "i-dle",
+      "description": "아이들 우기, 10월 솔로 컴백 확정…신보 '二十七(27)' 발매 - KBS WORLD",
+      "url": "https://world.kbs.co.kr/service/contents_view.htm?lang=k&menu_cate=enternews&id=&board_seq=471574&page=1&board_code=",
+      "category": "comeback_debut",
+      "source": "Google Alerts"
+    },
+    {
+      "id": "alert_daily_direction_20261014",
+      "date": "2026-10-14",
+      "title": "데일리디렉션 (Comeback)",
+      "slug": "daily-direction",
+      "description": "데일리:디렉션, 10월 14일 첫 미니앨범 발표…3개월 만에 초고속 컴백 - 스포티비뉴스",
+      "url": "https://v.daum.net/v/20260917164548494",
+      "category": "comeback_debut",
+      "source": "Google Alerts"
+    },
+    {
+      "id": "alert_riize_prologue_20261026",
+      "date": "2026-10-26",
+      "title": "라이즈 (Comeback)",
+      "slug": "riize",
+      "description": "라이즈, 내년 정규 2집 컴백 확정..10월 26일 프롤로그 싱글 발매[공식] - 조선비즈",
+      "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/14/GMZDOZJTGFTGCYLFMIYDQZLFME/",
+      "category": "comeback_debut",
+      "source": "Google Alerts"
+    },
+    {
       "id": "alert_1a083eb9a4dc3d70_rescene",
       "date": "2026-11-00",
       "title": "리센느 (Comeback)",
       "slug": "rescene",
       "description": "[단독] 리센느, 11월 컴백…'Pretty Girl' 흥행 잇는다 - The Korea Herald",
       "url": "https://m.koreaherald.com/article/10866446",
+      "category": "comeback_debut",
+      "source": "Google Alerts"
+    },
+    {
+      "id": "alert_rescene_pulse_20261103",
+      "date": "2026-11-03",
+      "title": "리센느 (Comeback)",
+      "slug": "rescene",
+      "description": "리센느, 11월 3일 미니 4집 '펄스'…4개월 만에 컴백 - 연합뉴스",
+      "url": "https://www.yna.co.kr/view/AKR20260922067400005",
       "category": "comeback_debut",
       "source": "Google Alerts"
     }
