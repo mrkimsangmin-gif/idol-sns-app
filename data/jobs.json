@@ -2,28 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 1170,
-      "company": "와이에이치엔터테인먼트",
-      "position": "제작본부 마케팅",
-      "category": "마케팅",
-      "career": "신입·경력",
-      "location": "서울 강남구",
-      "deadline": "2026-10-07",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49943346",
-      "source": "잡코리아"
-    },
-    {
-      "id": 1171,
-      "company": "타이탄콘텐츠",
-      "position": "신인개발팀 (트레이닝)",
-      "category": "신인개발",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-10-07",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49943184",
-      "source": "잡코리아"
-    },
-    {
       "id": 1180,
       "company": "피네이션",
       "position": "매니지먼트팀",
@@ -1542,14 +1520,25 @@
       "source": "잡코리아"
     },
     {
-      "id": 880,
-      "company": "이담엔터테인먼트",
-      "position": "MD 담당",
-      "category": "기타",
+      "id": 1330,
+      "company": "플레디스엔터테인먼트",
+      "position": "아티스트마케팅",
+      "category": "마케팅",
       "career": "경력",
-      "location": "서울",
-      "deadline": "",
-      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/edamrecruit",
+      "location": "서울 용산구",
+      "deadline": "2026-12-06",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50124896",
+      "source": "잡코리아"
+    },
+    {
+      "id": 1331,
+      "company": "앤유엔터",
+      "position": "회계담당자",
+      "category": "경영지원",
+      "career": "경력",
+      "location": "서울 서초구",
+      "deadline": "2026-12-06",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50123270",
       "source": "잡코리아"
     },
     {
@@ -3007,5 +2996,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-10-07T09:35:46.249282"
+  "updatedAt": "2026-10-08T09:34:09.554117"
 }
