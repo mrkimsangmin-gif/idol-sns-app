@@ -2,28 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 1217,
-      "company": "큐브엔터테인먼트",
-      "position": "매니지먼트 가수팀",
-      "category": "기타",
-      "career": "신입·경력",
-      "location": "서울 성동구",
-      "deadline": "2026-10-18",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49995386",
-      "source": "잡코리아"
-    },
-    {
-      "id": 1243,
-      "company": "와이에이치엔터테인먼트",
-      "position": "총무팀",
-      "category": "경영지원",
-      "career": "신입·경력",
-      "location": "서울 강남구",
-      "deadline": "2026-10-18",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50017572",
-      "source": "잡코리아"
-    },
-    {
       "id": 1244,
       "company": "스타쉽엔터테인먼트",
       "position": "A&R 담당자",
@@ -2985,5 +2963,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-10-18T09:34:03.278407"
+  "updatedAt": "2026-10-19T09:34:19.787698"
 }
