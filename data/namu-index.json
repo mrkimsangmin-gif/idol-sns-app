@@ -3553,6 +3553,28 @@
         "유리",
         "수영"
       ]
+    },
+    {
+      "name": "홍이삭",
+      "name_en": "홍이삭",
+      "slug": "",
+      "gender": "남자",
+      "agency": "확인 중",
+      "debut_year": "2026",
+      "album_count": 1,
+      "member_count": 0,
+      "members": []
+    },
+    {
+      "name": "NCT드림",
+      "name_en": "NCT드림",
+      "slug": "nct",
+      "gender": "남자",
+      "agency": "확인 중",
+      "debut_year": "2026",
+      "album_count": 1,
+      "member_count": 0,
+      "members": []
     }
   ]
 }
