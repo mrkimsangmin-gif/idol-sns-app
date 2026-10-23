@@ -2,8 +2,9 @@
 // 📅 자체 K-POP 컴백/데뷔 캘린더 모듈 (calendar.js)
 // ============================================================
 var calendarEvents = [];
-var currentCalYear = 2026;
-var currentCalMonth = 9; // 1-12
+var _initDate = new Date();
+var currentCalYear = _initDate.getFullYear();
+var currentCalMonth = _initDate.getMonth() + 1; // 1-12 (동적 초기화)
 var calFilter = 'all'; // all, comeback, debut
 var calGenderFilter = 'all'; // all, male, female
 var calSearchQuery = '';

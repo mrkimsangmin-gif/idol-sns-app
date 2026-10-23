@@ -1124,6 +1124,14 @@
       "category": "comeback_debut"
     },
     {
+      "id": "debut_tuide_20260825",
+      "date": "2026-08-25",
+      "title": "튜이드 (Debut)",
+      "slug": "tuide",
+      "description": "하이브 레이블 ABD 7인조 신인 걸그룹 튜이드(TUIDE) 정식 데뷔",
+      "category": "comeback_debut"
+    },
+    {
       "id": "26u08197po0g1m9dhomkli0sat@google.com",
       "date": "2026-08-26",
       "title": "SF9(에스에프나인)",
@@ -1200,6 +1208,14 @@
       "url": "https://world.kbs.co.kr/service/contents_view.htm?lang=k&menu_cate=enternews&id=&board_seq=471032",
       "category": "comeback_debut",
       "source": "Google Alerts"
+    },
+    {
+      "id": "debut_hyorisu_20260905",
+      "date": "2026-09-05",
+      "title": "효리수 (Debut)",
+      "slug": "hyorisu",
+      "description": "소녀시대 효연·유리·수영 프로젝트 유닛 효리수 데뷔 싱글 《자꾸만 (Gimme More)》",
+      "category": "comeback_debut"
     },
     {
       "id": "5bnk0mcvdn4ri0km7cl115fk5i@google.com",
@@ -1382,6 +1398,22 @@
       "source": "Google Alerts"
     },
     {
+      "id": "debut_a2o_lite_20261013",
+      "date": "2026-10-13",
+      "title": "A2O LITE (Debut)",
+      "slug": "a2o-lite",
+      "description": "이수만 프로듀서 복귀 9인조 다국적 걸그룹 A2O LITE 정식 데뷔 디지털 싱글 《NEON》",
+      "category": "comeback_debut"
+    },
+    {
+      "id": "debut_a2o_soul_20261013",
+      "date": "2026-10-13",
+      "title": "A2O SOUL (Debut)",
+      "slug": "a2o-soul",
+      "description": "A2O 엔터테인먼트 신인 보이그룹 A2O SOUL 데뷔 선공개 음원 《Under My Skin》",
+      "category": "comeback_debut"
+    },
+    {
       "id": "alert_daily-direction_20261014",
       "date": "2026-10-14",
       "title": "데일리디렉션 (Comeback)",
@@ -1412,6 +1444,22 @@
       "source": "Google Alerts"
     },
     {
+      "id": "comeback_evnne_20261019",
+      "date": "2026-10-19",
+      "title": "이븐 (Comeback)",
+      "slug": "evnne",
+      "description": "이븐, 미니 6집 발매…'LOOK AT MA'로 보여준 거친 자신감 (기사: https://www.topstarnews.net/news/articleView.html?idxno=16252066)",
+      "category": "comeback_debut"
+    },
+    {
+      "id": "comeback_babymonster_20261023",
+      "date": "2026-10-23",
+      "title": "베이비몬스터 (Comeback)",
+      "slug": "babymonster",
+      "description": "올라운더 귀환…베이비몬스터, 레트로 팝 발라드 컴백 D-1 (기사: https://www.newsen.com/news_view.php?uid=202610221330020410)",
+      "category": "comeback_debut"
+    },
+    {
       "id": "alert_riize_20261026",
       "date": "2026-10-26",
       "title": "라이즈 (Comeback)",
@@ -1432,6 +1480,22 @@
       "source": "Google Alerts"
     },
     {
+      "id": "comeback_xlov_20261028",
+      "date": "2026-10-28",
+      "title": "엑스러브 (Comeback)",
+      "slug": "xlov",
+      "description": "엑스러브, 보헤미안 콘셉트로 컴백 세계관 확장 예고 (기사: https://www.topstarnews.net/news/articleView.html?idxno=16252394)",
+      "category": "comeback_debut"
+    },
+    {
+      "id": "comeback_tws_20261102",
+      "date": "2026-11-02",
+      "title": "투어스 (Comeback)",
+      "slug": "tws",
+      "description": "투어스, 무드등 음반 선보인다… ‘TO US’ 컴백 (기사: https://www.bntnews.co.kr/article/view/bnt202610230129)",
+      "category": "comeback_debut"
+    },
+    {
       "id": "alert_rescene_20261103",
       "date": "2026-11-03",
       "title": "리센느 (Comeback)",
@@ -1450,6 +1514,62 @@
       "url": "https://www.yna.co.kr/view/AKR20260922067400005",
       "category": "comeback_debut",
       "source": "Google Alerts"
+    },
+    {
+      "id": "comeback_unchild_20261105",
+      "date": "2026-11-05",
+      "title": "언차일드 (Comeback)",
+      "slug": "unchild",
+      "description": "언차일드, 11월 5일 컴백 확정 (기사: https://www.bntnews.co.kr/article/view/bnt202610230027)",
+      "category": "comeback_debut"
+    },
+    {
+      "id": "comeback_dragonpony_20261105",
+      "date": "2026-11-05",
+      "title": "드래곤포니 (Comeback)",
+      "slug": "dragon-pony",
+      "description": "드래곤포니, 11월 5일 컴백 (기사: https://www.bntnews.co.kr/article/view/bnt202610230029)",
+      "category": "comeback_debut"
+    },
+    {
+      "id": "comeback_p1harmony_20261106",
+      "date": "2026-11-06",
+      "title": "피원하모니 (Comeback)",
+      "slug": "p1harmony",
+      "description": "피원하모니, 11월 6일 컴백…신보 재킷 공개 (기사: https://www.bntnews.co.kr/article/view/bnt202610220025)",
+      "category": "comeback_debut"
+    },
+    {
+      "id": "comeback_nctdream_20261109",
+      "date": "2026-11-09",
+      "title": "NCT DREAM (Comeback)",
+      "slug": "nct-dream",
+      "description": "NCT DREAM, 정규 6집 컴백 예열..스케줄 포스터 공개 (기사: http://www.osen.co.kr/article/G1112896597)",
+      "category": "comeback_debut"
+    },
+    {
+      "id": "comeback_keyvitup_20261109",
+      "date": "2026-11-09",
+      "title": "키빗업 (Comeback)",
+      "slug": "keyvitup",
+      "description": "키빗업, 더 과감해졌다! (타이틀곡 'NA-GARI' 컴백) (기사: https://sports.khan.co.kr/article/202610221219003?pt=nv)",
+      "category": "comeback_debut"
+    },
+    {
+      "id": "comeback_lngshot_20261110",
+      "date": "2026-11-10",
+      "title": "롱샷 (Comeback)",
+      "slug": "lngshot",
+      "description": "LNGSHOT(롱샷) 선공개곡으로 컴백 열기 끌어올려 (기사: https://sports.khan.co.kr/article/202610211828003?pt=nv)",
+      "category": "comeback_debut"
+    },
+    {
+      "id": "comeback_ateez_20261113",
+      "date": "2026-11-13",
+      "title": "에이티즈 (Comeback)",
+      "slug": "ateez",
+      "description": "에이티즈, 선공개곡 ‘Drip’ 발매..11월 13일 컴백 예열 완료 (기사: https://www.heraldmuse.com/article/10912962?ref=naver)",
+      "category": "comeback_debut"
     },
     {
       "id": "alert_txt_20261116",
