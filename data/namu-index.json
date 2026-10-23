@@ -3575,6 +3575,46 @@
       "album_count": 1,
       "member_count": 0,
       "members": []
+    },
+    {
+      "name": "코이키즈",
+      "name_en": "KO1KEYZ",
+      "slug": "ko1keyz",
+      "gender": "남자",
+      "agency": "LAPONE 엔터테인먼트",
+      "debut_year": "2026",
+      "album_count": 1,
+      "member_count": 11,
+      "members": [
+        "케이토",
+        "시영",
+        "신행",
+        "요시키",
+        "다이키",
+        "료가",
+        "잇사",
+        "유라",
+        "류지",
+        "토와",
+        "코스케",
+        "유키"
+      ]
+    },
+    {
+      "name": "아이우에오",
+      "name_en": "AIWEO",
+      "slug": "aiweo",
+      "gender": "여자",
+      "agency": "어센틱",
+      "debut_year": "2026",
+      "album_count": 1,
+      "member_count": 4,
+      "members": [
+        "드림",
+        "다영",
+        "현수",
+        "서유"
+      ]
     }
   ]
 }
