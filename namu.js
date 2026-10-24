@@ -517,10 +517,15 @@ function renderNamuProfile(container, group) {
                 : yt.total_views >= 1000000
                 ? (yt.total_views / 1000000).toFixed(0) + 'M'
                 : yt.total_views.toLocaleString();
+            var ytSearchQuery = encodeURIComponent((group.name || '') + ' ' + (group.name_en || '')).replace(/%20/g, '+');
+            var ytUrl = yt.channel_id 
+                ? 'https://music.youtube.com/channel/' + yt.channel_id 
+                : 'https://music.youtube.com/search?q=' + ytSearchQuery;
             streamHtml += '<div class="col-6"><div class="card bg-light border-0 p-2 text-center">' +
                 '<div class="text-muted small">YT Music 총 조회수</div>' +
                 '<div class="fw-bold fs-5" style="color:#FF0000">' + tvStr + '</div>' +
                 '<div class="text-muted" style="font-size:0.7rem">' + (yt.track_count || 0) + '곡</div>' +
+                '<a href="' + ytUrl + '" target="_blank" class="btn btn-sm btn-outline-danger mt-1" style="font-size:0.7rem">YT Music에서 보기</a>' +
                 '</div></div>';
         }
         streamHtml += '</div>';
@@ -660,15 +665,22 @@ function renderNamuStreaming(container, group) {
     // === 요약 카드 ===
     html += '<div class="row g-2 mb-4">';
     if (sp.monthly_listeners) {
+        var spUrl = sp.spotify_id ? 'https://open.spotify.com/artist/' + sp.spotify_id : '#';
         html += '<div class="col-6 col-md-3"><div class="card border-0 shadow-sm p-2 text-center">' +
             '<div class="text-muted small">Spotify 월간 리스너</div>' +
             '<div class="fw-bold fs-5" style="color:#1DB954">' + _fmtViews(sp.monthly_listeners) + '</div>' +
+            '<a href="' + spUrl + '" target="_blank" class="btn btn-sm btn-outline-success mt-1" style="font-size:0.7rem">Spotify에서 보기</a>' +
             '</div></div>';
     }
     if (yt.total_views) {
+        var ytSearchQuery = encodeURIComponent((group.name || '') + ' ' + (group.name_en || '')).replace(/%20/g, '+');
+        var ytUrl = yt.channel_id 
+            ? 'https://music.youtube.com/channel/' + yt.channel_id 
+            : 'https://music.youtube.com/search?q=' + ytSearchQuery;
         html += '<div class="col-6 col-md-3"><div class="card border-0 shadow-sm p-2 text-center">' +
             '<div class="text-muted small">YT Music 총 조회수</div>' +
             '<div class="fw-bold fs-5" style="color:#FF0000">' + _fmtViews(yt.total_views) + '</div>' +
+            '<a href="' + ytUrl + '" target="_blank" class="btn btn-sm btn-outline-danger mt-1" style="font-size:0.7rem">YT Music에서 보기</a>' +
             '</div></div>';
     }
     if (yt.track_count) {
