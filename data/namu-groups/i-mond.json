@@ -72,36 +72,36 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2623,
+      "monthly_listeners": 1656,
       "spotify_id": "00nA3e6kZ69VkZ649d49N0",
       "top_tracks": [
         {
           "title": "Wonderland",
-          "play_count": 130975,
+          "play_count": 146232,
           "uri": "spotify:track:6gg6G9Tchx9Ef1WFgyeUWq"
         },
         {
           "title": "Unusal",
-          "play_count": 54434,
+          "play_count": 63299,
           "uri": "spotify:track:3sY07foxgxKLobIAeikEQ9"
         },
         {
           "title": "Slippery",
-          "play_count": 59245,
+          "play_count": 65708,
           "uri": "spotify:track:5LAiaRlpyRcsoRzhUqs9yF"
         },
         {
-          "title": "Flashlight",
-          "play_count": 24072,
+          "title": "빛 (Flashlight)",
+          "play_count": 27241,
           "uri": "spotify:track:0DxhTLfCdOqoombodcdW3W"
         },
         {
           "title": "Slippery - Instrumental",
-          "play_count": 5195,
+          "play_count": 5482,
           "uri": "spotify:track:5u4MEKSh5Tswz02FmodTbJ"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

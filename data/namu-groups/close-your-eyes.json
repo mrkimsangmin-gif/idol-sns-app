@@ -260,33 +260,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 542637,
+      "monthly_listeners": 820843,
       "spotify_id": "1gyIB8QvgXCZsEghjwTDL5",
       "top_tracks": [
         {
+          "title": "Open Your Eyes",
+          "play_count": 1455830,
+          "uri": "spotify:track:4UiSq0wCiMwKCQE7TYIpWI"
+        },
+        {
+          "title": "Slowly Bleed",
+          "play_count": 687554,
+          "uri": "spotify:track:0bmbOqiclWD4h5jXv5Wgtu"
+        },
+        {
           "title": "X",
-          "play_count": 5193661,
+          "play_count": 9120603,
           "uri": "spotify:track:2oZ2EKWo51eXQsn83pjNvj"
         },
         {
-          "title": "All My Poetry",
-          "play_count": 6694061,
+          "title": "내 안의 모든 시와 소설은",
+          "play_count": 9612897,
           "uri": "spotify:track:1qGihPwp76LainqxoRQ4Y0"
         },
         {
-          "title": "SOB",
-          "play_count": 2338640,
-          "uri": "spotify:track:4BRfTPaRcWRJZ4BBLZBm16"
+          "title": "Drop That!",
+          "play_count": 422828,
+          "uri": "spotify:track:0yIytxEHCvUcSCVRvwwXEi"
         },
         {
-          "title": "Snowy Summer",
-          "play_count": 3307682,
-          "uri": "spotify:track:54zyXasoWKZAYt43c8GQvd"
+          "title": "Vibe Check",
+          "play_count": 301061,
+          "uri": "spotify:track:4FblTDYGFXmdoL2tOOS8th"
         },
         {
-          "title": "Who's Dat? (Jane Doe)",
-          "play_count": 1776966,
-          "uri": "spotify:track:5ePbhKL5ePb8QzcLAmza7a"
+          "title": "Baby Bossa Nova",
+          "play_count": 271425,
+          "uri": "spotify:track:0ZSkp7U1ZSirJOIYEsTBQv"
+        },
+        {
+          "title": "Fool For You",
+          "play_count": 240696,
+          "uri": "spotify:track:43OK0lMEm8QDenFB2j2HNU"
+        },
+        {
+          "title": "빗속에서 춤추는 법",
+          "play_count": 3554877,
+          "uri": "spotify:track:17TLMCiWbRnNblIfXiDLfF"
+        },
+        {
+          "title": "What If I Miss Love?",
+          "play_count": 1647576,
+          "uri": "spotify:track:0b9coxgVZsElcPHdumwfvM"
         }
       ]
     },
@@ -444,6 +469,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

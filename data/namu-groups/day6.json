@@ -766,33 +766,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2169993,
+      "monthly_listeners": 2214671,
       "spotify_id": "5TnQc2N1iKlFjYD7CPGvFc",
       "top_tracks": [
         {
           "title": "예뻤어 You Were Beautiful",
-          "play_count": 158459487,
+          "play_count": 172707770,
           "uri": "spotify:track:3HAkoNmThZhyFejhpRXXYI"
         },
         {
           "title": "HAPPY",
-          "play_count": 38668145,
+          "play_count": 46821375,
           "uri": "spotify:track:5R5NMy7zc7QPCfdvy8dvCQ"
         },
         {
-          "title": "Love me or Leave me",
-          "play_count": 62988700,
-          "uri": "spotify:track:4MwsWZDbTS2vUwfiwKW3c1"
-        },
-        {
           "title": "Congratulations",
-          "play_count": 76090307,
+          "play_count": 84208540,
           "uri": "spotify:track:06uScjJGabF4rIRdejWOaL"
         },
         {
           "title": "한 페이지가 될 수 있게 Time of Our Life",
-          "play_count": 62113851,
+          "play_count": 69811886,
           "uri": "spotify:track:0EhdXt3y460mTRsi97Pyk5"
+        },
+        {
+          "title": "Love me or Leave me",
+          "play_count": 70445515,
+          "uri": "spotify:track:4MwsWZDbTS2vUwfiwKW3c1"
+        },
+        {
+          "title": "Welcome to the Show",
+          "play_count": 34795334,
+          "uri": "spotify:track:3BMAWsBp4jc35mCmebC3WT"
+        },
+        {
+          "title": "Shoot Me",
+          "play_count": 116757523,
+          "uri": "spotify:track:3krRfDqZgrYwOPU99wowFh"
+        },
+        {
+          "title": "Zombie",
+          "play_count": 67268593,
+          "uri": "spotify:track:0LcQLfS4gjaFyPReRdExtQ"
+        },
+        {
+          "title": "I Loved You",
+          "play_count": 64657313,
+          "uri": "spotify:track:6pXrKg2fKzRICc0SghWrTl"
+        },
+        {
+          "title": "어쩌다보니 Somehow",
+          "play_count": 32854669,
+          "uri": "spotify:track:3op7dq8w9CgJPuio0qNCbY"
         }
       ]
     },
@@ -1513,6 +1538,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

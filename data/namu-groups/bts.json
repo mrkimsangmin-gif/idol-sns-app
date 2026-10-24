@@ -7561,33 +7561,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 25279712,
+      "monthly_listeners": 30692882,
       "spotify_id": "3Nrfpe0tUJi4K4DXYWgMUX",
       "top_tracks": [
         {
-          "title": "Life Goes On",
-          "play_count": 994095978,
-          "uri": "spotify:track:5FVbvttjEvQ8r2BgUcJgNg"
+          "title": "SWIM",
+          "play_count": 1002072933,
+          "uri": "spotify:track:68lbSrXDORS51pmyjZv712"
         },
         {
-          "title": "Dynamite",
-          "play_count": 2233330954,
-          "uri": "spotify:track:5QDLhrAOJJdNAmCTJ8xMyW"
+          "title": "NORMAL",
+          "play_count": 413286837,
+          "uri": "spotify:track:4B4Q7zfd0aHcuhQBfCRnH5"
         },
         {
-          "title": "My Universe",
-          "play_count": 1579150666,
-          "uri": "spotify:track:46HNZY1i7O6jwTA7Slo2PI"
+          "title": "Body to Body",
+          "play_count": 417198896,
+          "uri": "spotify:track:2rKkfc4VZ74FQDc1FF1Zo6"
         },
         {
-          "title": "DNA",
-          "play_count": 783746520,
-          "uri": "spotify:track:3uRLwBjI2TahxslcMTvpFs"
+          "title": "Hooligan",
+          "play_count": 383385431,
+          "uri": "spotify:track:20dAJsyno9ZoBLJtqgQnUI"
         },
         {
-          "title": "작은 것들을 위한 시 (Boy With Luv) (feat. Halsey)",
-          "play_count": 1367081794,
-          "uri": "spotify:track:2V7Gxq4QW2Fm4zizDF0V6Z"
+          "title": "2.0",
+          "play_count": 377981621,
+          "uri": "spotify:track:3bmpXHVie1GTy37OkXJ7Vc"
+        },
+        {
+          "title": "they don’t know ’bout us",
+          "play_count": 318535585,
+          "uri": "spotify:track:0b61A7v9agI08BG21jJPQ9"
+        },
+        {
+          "title": "Come Over",
+          "play_count": 182130315,
+          "uri": "spotify:track:6uvw8GFIqdqaJ4Nr3kN8Rs"
+        },
+        {
+          "title": "Like Animals",
+          "play_count": 312764868,
+          "uri": "spotify:track:2IFND3phjzIG1RcPnHh2hP"
+        },
+        {
+          "title": "Aliens",
+          "play_count": 308259002,
+          "uri": "spotify:track:5tg21NdePCn5m8F9BXOEeJ"
+        },
+        {
+          "title": "FYA",
+          "play_count": 323891247,
+          "uri": "spotify:track:0KmrKOdScRDVYwWS8hkkdv"
         }
       ]
     },
@@ -8624,6 +8649,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -300,33 +300,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 381560,
+      "monthly_listeners": 531487,
       "spotify_id": "0XufO9nLOKNN0w0qNrDrZy",
       "top_tracks": [
         {
-          "title": "T.B.H",
-          "play_count": 23492142,
+          "title": "고민중독",
+          "play_count": 28017943,
           "uri": "spotify:track:39gaUtq2z4ejJbno7tWHbL"
         },
         {
-          "title": "My Name is Malguem",
-          "play_count": 13902062,
+          "title": "내 이름 맑음",
+          "play_count": 17178156,
           "uri": "spotify:track:1lTBkwEm0wim9RsMXqtqWy"
         },
         {
-          "title": "Dear",
-          "play_count": 6416427,
+          "title": "소년만화",
+          "play_count": 637813,
+          "uri": "spotify:track:6YzvWpNuH9s3pwj2obESJn"
+        },
+        {
+          "title": "눈물참기",
+          "play_count": 8951974,
           "uri": "spotify:track:2ryzy7LSXUDFg5G05znHsL"
         },
         {
           "title": "Discord",
-          "play_count": 11671106,
+          "play_count": 13472204,
           "uri": "spotify:track:2kTKlEtnGx5z8oi4O06yqC"
         },
         {
-          "title": "Harmony of Stars",
-          "play_count": 5156681,
+          "title": "피카레스크",
+          "play_count": 265494,
+          "uri": "spotify:track:3rDeAVs3ZJP8F5g7JACfAn"
+        },
+        {
+          "title": "CEREMONY",
+          "play_count": 2147335,
+          "uri": "spotify:track:7CoEOvI85tbkhdgJRd8XfC"
+        },
+        {
+          "title": "별의 하모니",
+          "play_count": 6281088,
           "uri": "spotify:track:1b2jcwnf3JwuyWiG3xTPsp"
+        },
+        {
+          "title": "SHOW DOWN",
+          "play_count": 615577,
+          "uri": "spotify:track:6bJHDnYgkIjmg8xao0aJbB"
+        },
+        {
+          "title": "Our Voyage",
+          "play_count": 889588,
+          "uri": "spotify:track:7Mgm9v9eYxrKZKR5S0AV5W"
         }
       ]
     },
@@ -542,6 +567,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

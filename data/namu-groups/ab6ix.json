@@ -687,33 +687,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 158452,
+      "monthly_listeners": 110641,
       "spotify_id": "4y0wFJ5jmCUNRLZfsw1I7g",
       "top_tracks": [
         {
           "title": "BREATHE",
-          "play_count": 30106187,
+          "play_count": 30762253,
           "uri": "spotify:track:4XbyRgWe6yU4wE6WShdTEs"
         },
         {
-          "title": "A Minute, A Second",
-          "play_count": 153726,
-          "uri": "spotify:track:5QB4UqWDiTnKdmW4QXHj70"
-        },
-        {
-          "title": "So Sweet (0522)",
-          "play_count": 32984,
-          "uri": "spotify:track:4oyFvxcWfZioOHujaAW7HY"
+          "title": "BLIND FOR LOVE",
+          "play_count": 10237362,
+          "uri": "spotify:track:4bUkJxCgAY9e9Tb0r4vOoy"
         },
         {
           "title": "ROSE, SCENT, KISS",
-          "play_count": 8454895,
+          "play_count": 8585753,
           "uri": "spotify:track:5eOb7OPhOkN0gUicVIcOCH"
         },
         {
+          "title": "CLOSE",
+          "play_count": 6516109,
+          "uri": "spotify:track:5CXbZ60u7fq4UjlLnOig5Q"
+        },
+        {
+          "title": "MOONDANCE",
+          "play_count": 4706376,
+          "uri": "spotify:track:3hGQn8GEEjsJD558f6qAtd"
+        },
+        {
+          "title": "THE ANSWER",
+          "play_count": 8022806,
+          "uri": "spotify:track:1L1N5X35wFk8d5VlyNy2Oa"
+        },
+        {
           "title": "STUPID",
-          "play_count": 334752,
+          "play_count": 416482,
           "uri": "spotify:track:73zoJOtMEpGqWLGIOCChSz"
+        },
+        {
+          "title": "CHERRY",
+          "play_count": 4007568,
+          "uri": "spotify:track:5UCTT2liT61iPL2cCV9Gto"
+        },
+        {
+          "title": "Fallin’ (Adrenaline) - AB6IX Remix",
+          "play_count": 4040056,
+          "uri": "spotify:track:2c7h4G9kkMxeKCgh6Md7VR"
+        },
+        {
+          "title": "SHINING STARS",
+          "play_count": 3729138,
+          "uri": "spotify:track:03zPSjqUGeGKCSbNoQJBqd"
         }
       ]
     },
@@ -1260,6 +1285,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

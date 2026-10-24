@@ -334,33 +334,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 6512301,
+      "monthly_listeners": 7473502,
       "spotify_id": "1ZLU77nRzQIaP23mVSYpCQ",
       "top_tracks": [
         {
           "title": "RUDE!",
-          "play_count": 28901361,
+          "play_count": 188081984,
           "uri": "spotify:track:2bAQsNqdo62T8akkIvWzGl"
         },
         {
+          "title": "Lemon Tang",
+          "play_count": 48180309,
+          "uri": "spotify:track:0NGFAcYQVHCIdQea2qSs1I"
+        },
+        {
+          "title": "ICONIC HEART",
+          "play_count": 18043780,
+          "uri": "spotify:track:1j5Z0YcfGBoKoydGscerHk"
+        },
+        {
           "title": "FOCUS",
-          "play_count": 50597284,
+          "play_count": 99693995,
           "uri": "spotify:track:6jYiHr12NVKLzn0X7K8aSK"
         },
         {
           "title": "STYLE",
-          "play_count": 90547899,
+          "play_count": 139883611,
           "uri": "spotify:track:5EoV2HmAlkqN1XvsIjOBZZ"
         },
         {
           "title": "The Chase",
-          "play_count": 102000384,
+          "play_count": 137591489,
           "uri": "spotify:track:68UrZQUuO3O6eUiD226xHg"
         },
         {
+          "title": "Moonride",
+          "play_count": 5733185,
+          "uri": "spotify:track:318Irz9qyCcwS0teqsaNcg"
+        },
+        {
           "title": "Pretty Please",
-          "play_count": 24983627,
+          "play_count": 42336466,
           "uri": "spotify:track:6oBDhkYQDhFS2q0wQ6xZLO"
+        },
+        {
+          "title": "Butterflies",
+          "play_count": 41802670,
+          "uri": "spotify:track:3s3Eo4rb6aq3O62g6z6jtZ"
+        },
+        {
+          "title": "Apple Pie",
+          "play_count": 27212129,
+          "uri": "spotify:track:0jnelJPBaLQcN5IearNmdi"
         }
       ]
     },
@@ -499,6 +524,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

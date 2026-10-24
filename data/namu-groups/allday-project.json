@@ -208,33 +208,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 3000344,
+      "monthly_listeners": 3580723,
       "spotify_id": "4gEMn0YPOdotLOygnk0Ng2",
       "top_tracks": [
         {
-          "title": "LOOK AT ME",
-          "play_count": 19312042,
-          "uri": "spotify:track:41FzP8TjIK1aK4LTVY5TUy"
+          "title": "CRASH",
+          "play_count": 6426242,
+          "uri": "spotify:track:1pU7ywmV4nJsgJcnuPMLyw"
+        },
+        {
+          "title": "TALK",
+          "play_count": 3335468,
+          "uri": "spotify:track:39dzUeR0B8aUxu6yQ2S3KW"
         },
         {
           "title": "FAMOUS",
-          "play_count": 77220235,
+          "play_count": 96084703,
           "uri": "spotify:track:598bDTl82CSTSDnZG0XhGK"
         },
         {
+          "title": "DO IT LIKE THIS",
+          "play_count": 2482459,
+          "uri": "spotify:track:3UfJtQGQNEWQnX0OwRHox5"
+        },
+        {
+          "title": "LOOK AT ME",
+          "play_count": 34242528,
+          "uri": "spotify:track:41FzP8TjIK1aK4LTVY5TUy"
+        },
+        {
           "title": "ONE MORE TIME",
-          "play_count": 27569855,
+          "play_count": 39409363,
           "uri": "spotify:track:4eCan7Jb3q0xQ1FAELOtEz"
         },
         {
-          "title": "WHERE YOU AT",
-          "play_count": 8356018,
-          "uri": "spotify:track:6vfcaWsN8gBLpfpSCru0Co"
+          "title": "WICKED",
+          "play_count": 54914721,
+          "uri": "spotify:track:6zRZyfYNsvgl1y6H5mkR1x"
         },
         {
-          "title": "WICKED",
-          "play_count": 46386228,
-          "uri": "spotify:track:6zRZyfYNsvgl1y6H5mkR1x"
+          "title": "NO 한도",
+          "play_count": 1246822,
+          "uri": "spotify:track:3KcVnfIJKEsSDanTLG8WLN"
+        },
+        {
+          "title": "UP ALL NIGHT",
+          "play_count": 1088289,
+          "uri": "spotify:track:6JeLSyo4INFUBNoUYzAaty"
+        },
+        {
+          "title": "WHERE YOU AT",
+          "play_count": 13693840,
+          "uri": "spotify:track:6vfcaWsN8gBLpfpSCru0Co"
         }
       ]
     },
@@ -347,6 +372,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

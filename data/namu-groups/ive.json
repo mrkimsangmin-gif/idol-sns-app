@@ -1280,33 +1280,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 8089130,
+      "monthly_listeners": 5825189,
       "spotify_id": "6RHTUrRF63xao58xh9FXYJ",
       "top_tracks": [
         {
           "title": "BANG BANG",
-          "play_count": 27723329,
+          "play_count": 87152501,
           "uri": "spotify:track:5Mm6tCipllD4mCnDKv7hjX"
         },
         {
-          "title": "BLACKHOLE",
-          "play_count": 8781713,
-          "uri": "spotify:track:0MtiWniV24IBXmBPeW1v1m"
-        },
-        {
           "title": "I AM",
-          "play_count": 402590015,
+          "play_count": 437132593,
           "uri": "spotify:track:7KavHYqoVFNB3IUXfs5gvP"
         },
         {
-          "title": "XOXZ",
-          "play_count": 55275823,
-          "uri": "spotify:track:2f79jWcTf2pxVxDLdxi1Lm"
+          "title": "After LIKE",
+          "play_count": 491799454,
+          "uri": "spotify:track:6CV6j2xz54thzlrWML3kAW"
         },
         {
-          "title": "After LIKE",
-          "play_count": 464144154,
-          "uri": "spotify:track:6CV6j2xz54thzlrWML3kAW"
+          "title": "LOVE DIVE",
+          "play_count": 512507489,
+          "uri": "spotify:track:0Q5VnK2DYzRyfqQRJuUtvi"
+        },
+        {
+          "title": "Looks Can Kill",
+          "play_count": 1894379,
+          "uri": "spotify:track:39sjfpQLGBJnvwTox6LLkn"
+        },
+        {
+          "title": "REBEL HEART",
+          "play_count": 108987980,
+          "uri": "spotify:track:2JoRBbFJyKytt4y3D0HxQu"
+        },
+        {
+          "title": "ATTITUDE",
+          "play_count": 94904621,
+          "uri": "spotify:track:6VBiGpCFThcOFlldRiCPr9"
+        },
+        {
+          "title": "ELEVEN",
+          "play_count": 389402406,
+          "uri": "spotify:track:7n2FZQsaLb7ZRfRPfEeIvr"
+        },
+        {
+          "title": "BLACKHOLE",
+          "play_count": 31390737,
+          "uri": "spotify:track:0MtiWniV24IBXmBPeW1v1m"
+        },
+        {
+          "title": "XOXZ",
+          "play_count": 72645165,
+          "uri": "spotify:track:2f79jWcTf2pxVxDLdxi1Lm"
         }
       ]
     },
@@ -1645,6 +1670,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

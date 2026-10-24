@@ -349,33 +349,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 39112,
+      "monthly_listeners": 66800,
       "spotify_id": "4l4eMvpA4K7X02j08cbkNV",
       "top_tracks": [
         {
+          "title": "POSE! (姿態)",
+          "play_count": 540498,
+          "uri": "spotify:track:0xCuNHv88Mdyigv64zOexH"
+        },
+        {
           "title": "1 of 9",
-          "play_count": 2902878,
+          "play_count": 3060117,
           "uri": "spotify:track:6DB6p1dVSNWJbmrbF34icS"
         },
         {
-          "title": "Love it",
-          "play_count": 813706,
-          "uri": "spotify:track:574gYm7iFWEUO4DbF5NGEF"
-        },
-        {
           "title": "GEEKIN",
-          "play_count": 542581,
+          "play_count": 598772,
           "uri": "spotify:track:6vP4NceJJLHM9xddBbKrH9"
         },
         {
+          "title": "평행선",
+          "play_count": 57955,
+          "uri": "spotify:track:5T3Lea4g6k4XcpmtnYc8o7"
+        },
+        {
+          "title": "정했어 (Love it)",
+          "play_count": 872556,
+          "uri": "spotify:track:574gYm7iFWEUO4DbF5NGEF"
+        },
+        {
+          "title": "ACORDA PEDRINHO",
+          "play_count": 32559,
+          "uri": "spotify:track:3qMBijzgIkawWgDDBr6uV1"
+        },
+        {
+          "title": "Bad Cupid",
+          "play_count": 792742,
+          "uri": "spotify:track:1t09rPAB9kwHtgYdrUYCcn"
+        },
+        {
           "title": "BOMBA",
-          "play_count": 194542,
+          "play_count": 240405,
           "uri": "spotify:track:4UOhWJXihWNNNaDwGSUSqP"
         },
         {
-          "title": "Rock Steady",
-          "play_count": 190236,
-          "uri": "spotify:track:5vUJ7PG0aY89m04btGQPih"
+          "title": "Nothing",
+          "play_count": 48527,
+          "uri": "spotify:track:4c0VnFThG5soqEu5ClRo1m"
+        },
+        {
+          "title": "WATERFALL",
+          "play_count": 916115,
+          "uri": "spotify:track:4QxTg2DuJPzY8pXNDWAcow"
         }
       ]
     },
@@ -661,6 +686,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

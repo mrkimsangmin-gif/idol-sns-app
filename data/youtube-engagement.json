@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-24T11:09:50.090050+09:00",
+  "generated": "2026-10-24T15:00:11.205029+09:00",
   "period": {
     "start": "2025-10-24",
     "end": "2026-10-24"
   },
-  "total_groups": 161,
-  "total_videos": 22347,
+  "total_groups": 162,
+  "total_videos": 22348,
   "groups": [
     {
       "name": "블랙핑크",
@@ -29623,8 +29623,8 @@
           "video_type": "MV",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": null,
-          "days_from_mv": null,
+          "comeback_phase": "comeback_week",
+          "days_from_mv": 0,
           "source": "label_channel",
           "label_channel": "UC3IZKseVpdzPSBaWxBxundA",
           "label_name": "HYBE LABELS"
@@ -74238,8 +74238,8 @@
           "video_type": "MV",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": null,
-          "days_from_mv": null,
+          "comeback_phase": "comeback_week",
+          "days_from_mv": -5,
           "source": "label_channel",
           "label_channel": "UCEf_Bc-KVd7onSeifS3py9g",
           "label_name": "SMTOWN"
@@ -109344,8 +109344,8 @@
           "video_type": "MV",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": null,
-          "days_from_mv": null,
+          "comeback_phase": "comeback_week",
+          "days_from_mv": -4,
           "source": "label_channel",
           "label_channel": "UCYDmx2Sfpnaxg488yBpZIGg",
           "label_name": "STARSHIP"
@@ -116644,8 +116644,8 @@
           "video_type": "MV",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": null,
-          "days_from_mv": null,
+          "comeback_phase": "comeback_week",
+          "days_from_mv": 0,
           "source": "label_channel",
           "label_channel": "UCQdq-lqPEq_yZ_wP_kuVB9Q",
           "label_name": "KQ Entertainment"
@@ -126115,8 +126115,8 @@
           "video_type": "MV",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": null,
-          "days_from_mv": null,
+          "comeback_phase": "comeback_week",
+          "days_from_mv": 0,
           "source": "label_channel",
           "label_channel": "UCaO6TYtlC8U5ttz62hTrZgg",
           "label_name": "JYP Entertainment"
@@ -167023,6 +167023,56 @@
           "Album_Preview": 1,
           "Dance_Practice": 2,
           "MV_Teaser": 1
+        }
+      }
+    },
+    {
+      "name": "더보이즈",
+      "group": "THE BOYZ",
+      "gender": "남자",
+      "channel_id": "UCkJ1rbOrsyPfBuHNfnLPm-Q",
+      "subscriber_count": 2260000,
+      "videos": [
+        {
+          "video_id": "qbTs-Wbmwl8",
+          "title": "[OFF THE BOYZ] 상연 전역 현장 및 아이돌 라디오 Behind",
+          "published_at": "2026-10-01T09:00:28Z",
+          "duration_seconds": 1581,
+          "views": 54723,
+          "likes": 2824,
+          "comments": 393,
+          "like_ratio": 0.0516,
+          "comment_ratio": 0.0072,
+          "tags": [
+            "크래커엔터테인먼트",
+            "Cre.ker Entertainment",
+            "크래커",
+            "Creker",
+            "THE BOYZ",
+            "더보이즈",
+            "BOY GROUP",
+            "IDOL",
+            "IDOL GROUP",
+            "아이돌그룹"
+          ],
+          "video_type": "Behind",
+          "is_comeback_content": false,
+          "likely_promoted": false,
+          "comeback_phase": "non_comeback",
+          "days_from_mv": null
+        }
+      ],
+      "stats": {
+        "total_videos": 1,
+        "total_views": 54723,
+        "mv_views": 0,
+        "non_mv_views": 54723,
+        "bubble_ratio": 0,
+        "avg_like_ratio": 0.0516,
+        "avg_comment_ratio": 0.0072,
+        "fandom_index": 54723,
+        "types": {
+          "Behind": 1
         }
       }
     },
@@ -262635,8 +262685,8 @@
           "video_type": "MV",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": null,
-          "days_from_mv": null,
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -10,
           "source": "label_channel",
           "label_channel": "UCg8ZzloDPTrOiGztK0C9txQ",
           "label_name": "THEBLACKLABEL"
@@ -262655,8 +262705,8 @@
           "video_type": "MV",
           "is_comeback_content": true,
           "likely_promoted": false,
-          "comeback_phase": null,
-          "days_from_mv": null,
+          "comeback_phase": "pre_comeback",
+          "days_from_mv": -10,
           "source": "label_channel",
           "label_channel": "UCg8ZzloDPTrOiGztK0C9txQ",
           "label_name": "THEBLACKLABEL"

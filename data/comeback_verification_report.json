@@ -1,0 +1,87 @@
+{
+  "verified_at": "2026-10-05T16:49:05.089407",
+  "total_upcoming": 6,
+  "summary": {
+    "PASS": 6,
+    "REVIEW": 0,
+    "REJECT": 0
+  },
+  "details": {
+    "PASS": [
+      {
+        "date": "2026-10-06",
+        "slug": "kickflip",
+        "title": "킥플립 (Comeback)",
+        "score": 40,
+        "status": "PASS",
+        "reasons": [
+          "음반 신호 감지: '컴백'",
+          "음반 신호 감지: '발매'"
+        ],
+        "url": "https://world.kbs.co.kr/service/contents_view.htm?lang=k&menu_cate=enternews&id=&board_seq=471133"
+      },
+      {
+        "date": "2026-10-08",
+        "slug": "i-dle",
+        "title": "아이들 (Comeback)",
+        "score": 40,
+        "status": "PASS",
+        "reasons": [
+          "음반 신호 감지: '컴백'",
+          "음반 신호 감지: '발매'"
+        ],
+        "url": "https://world.kbs.co.kr/service/contents_view.htm?lang=k&menu_cate=enternews&id=&board_seq=471574&page=1&board_code="
+      },
+      {
+        "date": "2026-10-14",
+        "slug": "daily-direction",
+        "title": "데일리디렉션 (Comeback)",
+        "score": 40,
+        "status": "PASS",
+        "reasons": [
+          "음반 신호 감지: '컴백'",
+          "음반 신호 감지: '앨범'"
+        ],
+        "url": "https://v.daum.net/v/20260917164548494"
+      },
+      {
+        "date": "2026-10-26",
+        "slug": "riize",
+        "title": "라이즈 (Comeback)",
+        "score": 40,
+        "status": "PASS",
+        "reasons": [
+          "음반 신호 감지: '컴백'",
+          "음반 신호 감지: '발매'"
+        ],
+        "url": "https://biz.chosun.com/entertainment/enter_general/2026/09/14/GMZDOZJTGFTGCYLFMIYDQZLFME/"
+      },
+      {
+        "date": "2026-11-00",
+        "slug": "rescene",
+        "title": "리센느 (Comeback)",
+        "score": 40,
+        "status": "PASS",
+        "reasons": [
+          "음반 신호 감지: '컴백'",
+          "음반 신호 감지: 'comeback'"
+        ],
+        "url": "https://m.koreaherald.com/article/10866446"
+      },
+      {
+        "date": "2026-11-03",
+        "slug": "rescene",
+        "title": "리센느 (Comeback)",
+        "score": 40,
+        "status": "PASS",
+        "reasons": [
+          "음반 신호 감지: '컴백'",
+          "음반 신호 감지: 'comeback'"
+        ],
+        "url": "https://www.yna.co.kr/view/AKR20260922067400005"
+      }
+    ],
+    "REVIEW": [],
+    "REJECT": []
+  }
+}

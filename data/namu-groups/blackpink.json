@@ -2344,33 +2344,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 26758166,
+      "monthly_listeners": 18710428,
       "spotify_id": "41MozSoPIsD1dJM0CLPjZF",
       "top_tracks": [
         {
-          "title": "JUMP",
-          "play_count": 548206533,
+          "title": "뛰어(JUMP)",
+          "play_count": 712232492,
           "uri": "spotify:track:4JjJ1KNRrzqstSY0uDuys3"
         },
         {
+          "title": "Pink Venom",
+          "play_count": 1043729465,
+          "uri": "spotify:track:5P3o95Jf0YBQRQ4j2XPpfC"
+        },
+        {
+          "title": "마지막처럼",
+          "play_count": 825538983,
+          "uri": "spotify:track:4ZxOuNHhpyOj4gv52MtQpT"
+        },
+        {
+          "title": "How You Like That",
+          "play_count": 1301047316,
+          "uri": "spotify:track:6bvZRLLkBKkmgpBJTTj3QK"
+        },
+        {
+          "title": "Shut Down",
+          "play_count": 918897958,
+          "uri": "spotify:track:6tCd8bPvYnceDG7W9M1RMk"
+        },
+        {
+          "title": "붐바야",
+          "play_count": 735282817,
+          "uri": "spotify:track:13MF2TYuyfITClL1R2ei6e"
+        },
+        {
+          "title": "뚜두뚜두 (DDU-DU DDU-DU)",
+          "play_count": 897532241,
+          "uri": "spotify:track:69BIczdH6QMnFx7dsSssN8"
+        },
+        {
+          "title": "Kill This Love",
+          "play_count": 1084011330,
+          "uri": "spotify:track:6gzR5GdZTevJT8OWW0NeGa"
+        },
+        {
           "title": "GO",
-          "play_count": 37165399,
+          "play_count": 109023486,
           "uri": "spotify:track:0XanaXeMJJ4VdjWzwok7ZI"
         },
         {
-          "title": "Champion",
-          "play_count": 19411569,
-          "uri": "spotify:track:1ozBTzeYuIwCUsMDJTV2fw"
-        },
-        {
-          "title": "Me and my",
-          "play_count": 14638780,
-          "uri": "spotify:track:14ihgY3VH11Uy7zIcoSkP8"
-        },
-        {
-          "title": "Fxxxboy",
-          "play_count": 12043089,
-          "uri": "spotify:track:6C3aCtnqZGMij9FDWeDlQx"
+          "title": "Lovesick Girls",
+          "play_count": 771163589,
+          "uri": "spotify:track:1GMufNnkKAnPLnqKJ5HHxW"
         }
       ]
     },
@@ -2680,6 +2705,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

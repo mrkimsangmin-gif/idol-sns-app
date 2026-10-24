@@ -116,33 +116,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 7128,
+      "monthly_listeners": 16404,
       "spotify_id": "28mV9iMDOFBVXfW0pgfbRz",
       "top_tracks": [
         {
+          "title": "아에이오우",
+          "play_count": 44215,
+          "uri": "spotify:track:4eGun3yGgo5JdZqnzoAbAd"
+        },
+        {
           "title": "SUGAR RIDING",
-          "play_count": 27675,
+          "play_count": 55666,
           "uri": "spotify:track:0Wyx8rRzbY0Ys5dPDbuEVW"
         },
         {
+          "title": "clap",
+          "play_count": 53029,
+          "uri": "spotify:track:7N0FNdfscQaNGriqpwEWFx"
+        },
+        {
           "title": "AQUA BLUE",
-          "play_count": 22910,
+          "play_count": 36781,
           "uri": "spotify:track:4yH5budDMJmo7NUM102xNv"
         },
         {
           "title": "MELTING STAR",
-          "play_count": 12725,
+          "play_count": 24529,
           "uri": "spotify:track:4T72bdOTBo3OBoxqOEcxmR"
         },
         {
-          "title": "clap",
-          "play_count": 38545,
-          "uri": "spotify:track:7N0FNdfscQaNGriqpwEWFx"
+          "title": "I Don't Give A What",
+          "play_count": 12462,
+          "uri": "spotify:track:4O6meHWA1wd4PDbNqpHNS2"
         },
         {
-          "title": "AEIOU",
-          "play_count": 27348,
-          "uri": "spotify:track:4eGun3yGgo5JdZqnzoAbAd"
+          "title": "4 You",
+          "play_count": 23283,
+          "uri": "spotify:track:0jvFDokMCHGZhen7lzW46E"
+        },
+        {
+          "title": "Goodie",
+          "play_count": 13042,
+          "uri": "spotify:track:3geVMuhiyyCocRK1NsQNha"
+        },
+        {
+          "title": "딴 데 보지마",
+          "play_count": 10310,
+          "uri": "spotify:track:7yvTCA51E4fkRIIecMPtNK"
+        },
+        {
+          "title": "clap - City Girls Remix Version",
+          "play_count": 4502,
+          "uri": "spotify:track:3Y6bT01156rrv1IRfP73LX"
         }
       ]
     },
@@ -238,6 +263,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -182,33 +182,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 5158,
+      "monthly_listeners": 3256,
       "spotify_id": "4wdzXgn8T0JnJdLhdplXfw",
       "top_tracks": [
         {
-          "title": "Airplane mode",
-          "play_count": 28582,
-          "uri": "spotify:track:2HYVwgmZJvlr6CEqrJa48n"
-        },
-        {
-          "title": "An enduring dream",
-          "play_count": 14296,
-          "uri": "spotify:track:2J9lvd6x49Go0aHVnoiEOu"
-        },
-        {
-          "title": "Sunny side up",
-          "play_count": 14618,
-          "uri": "spotify:track:7tEsWoStj3QGetg0gBTOqM"
-        },
-        {
           "title": "Want You Back",
-          "play_count": 141900,
+          "play_count": 151653,
           "uri": "spotify:track:7ou74UI2i1WF9kOULhB8LF"
         },
         {
+          "title": "Airplane mode",
+          "play_count": 39278,
+          "uri": "spotify:track:2HYVwgmZJvlr6CEqrJa48n"
+        },
+        {
           "title": "Wonder Land",
-          "play_count": 206256,
+          "play_count": 214253,
           "uri": "spotify:track:19ebWm29nBXU3nZ1LyFkbf"
+        },
+        {
+          "title": "Pretty good",
+          "play_count": 89234,
+          "uri": "spotify:track:3VSI4UKMvrEtEUuhWFyyEU"
+        },
+        {
+          "title": "Sunny side up",
+          "play_count": 22461,
+          "uri": "spotify:track:7tEsWoStj3QGetg0gBTOqM"
+        },
+        {
+          "title": "SLOMO",
+          "play_count": 60479,
+          "uri": "spotify:track:3IVzQdOMc3zAj6S6kM0A4i"
+        },
+        {
+          "title": "COLD AND SHINY",
+          "play_count": 35712,
+          "uri": "spotify:track:7cMjcpUFaKvaQP6nae6hOB"
+        },
+        {
+          "title": "An enduring dream",
+          "play_count": 20961,
+          "uri": "spotify:track:2J9lvd6x49Go0aHVnoiEOu"
+        },
+        {
+          "title": "Summer Ride",
+          "play_count": 131398,
+          "uri": "spotify:track:2JRj9VpJZfIAZT0GmX1hjr"
+        },
+        {
+          "title": "SATELLITE",
+          "play_count": 64322,
+          "uri": "spotify:track:6BQqG0BZOzceHeRU53XUmV"
         }
       ]
     },
@@ -366,6 +391,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -313,33 +313,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 3814531,
+      "monthly_listeners": 3666200,
       "spotify_id": "4TEK9tIkcoxib4GxT3O4ky",
       "top_tracks": [
         {
           "title": "Igloo",
-          "play_count": 227678743,
+          "play_count": 255275496,
           "uri": "spotify:track:2DbDefRFJ5YOfXCKOeCJJh"
         },
         {
+          "title": "Who is she",
+          "play_count": 26618512,
+          "uri": "spotify:track:16iOs2f9G9qRknDgM9cfAw"
+        },
+        {
+          "title": "SWEAT",
+          "play_count": 7525591,
+          "uri": "spotify:track:503e19tHN0QmaraGxAQzt7"
+        },
+        {
           "title": "Sticky",
-          "play_count": 172917459,
+          "play_count": 187865563,
           "uri": "spotify:track:4e1aewX6ATPcdfQIqr7gqO"
         },
         {
           "title": "Sugarcoat (NATTY Solo)",
-          "play_count": 124474334,
+          "play_count": 137654565,
           "uri": "spotify:track:0NoeYUnwpb9R26mpylHcR9"
         },
         {
           "title": "Midas Touch",
-          "play_count": 160031158,
+          "play_count": 172022518,
           "uri": "spotify:track:0vaxYDAuAO1nPolC6bQp7V"
         },
         {
           "title": "Lips Hips Kiss",
-          "play_count": 27943855,
+          "play_count": 36636899,
           "uri": "spotify:track:5Q4DLsIx0Fl0IDCCWHsLlH"
+        },
+        {
+          "title": "Nobody Knows",
+          "play_count": 91830650,
+          "uri": "spotify:track:70efTlnBNM8BvfhfPiqOBN"
+        },
+        {
+          "title": "SUPERPOWER",
+          "play_count": 31276744,
+          "uri": "spotify:track:7y97RbibcWt5kv9RYpZdWy"
+        },
+        {
+          "title": "쉿 (Shhh)",
+          "play_count": 95100092,
+          "uri": "spotify:track:76qqDJijAjFph7sjUxNVG8"
         }
       ]
     },
@@ -634,6 +659,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

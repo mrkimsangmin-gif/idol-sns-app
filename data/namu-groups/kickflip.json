@@ -264,33 +264,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 636277,
+      "monthly_listeners": 698740,
       "spotify_id": "6F4yXjmhQBqo6HVr6K234k",
       "top_tracks": [
         {
-          "title": "처음 불러보는 노래 (My First Love Song)",
-          "play_count": 4163519,
-          "uri": "spotify:track:3wlSKXBySBUG5Wv9FTXxgm"
+          "title": "Kick Off The Wall (Feat. iann dior)",
+          "play_count": 595731,
+          "uri": "spotify:track:6ReoAs5rbmEfNrimlfJAGc"
+        },
+        {
+          "title": "미완성 (Puzzle Piece)",
+          "play_count": 535378,
+          "uri": "spotify:track:59zQxDsKyNs0HEtD1qP7N3"
         },
         {
           "title": "Twenty",
-          "play_count": 472544,
-          "uri": "spotify:track:5iu6gTajYJEGzF6maepqZd"
+          "play_count": 4530156,
+          "uri": "spotify:track:70JYzI2M44UX4Gn4T6ghPn"
+        },
+        {
+          "title": "처음 불러보는 노래 (My First Love Song)",
+          "play_count": 7204897,
+          "uri": "spotify:track:3wlSKXBySBUG5Wv9FTXxgm"
+        },
+        {
+          "title": "눈에 거슬리고 싶어 (Eye-Poppin')",
+          "play_count": 3237155,
+          "uri": "spotify:track:5H5PDoPXLphAySmzKtpnbC"
         },
         {
           "title": "Mama Said",
-          "play_count": 8716186,
+          "play_count": 10524074,
           "uri": "spotify:track:76G6tgncwiZ3lS2XjztTHy"
         },
         {
-          "title": "Umm Great",
-          "play_count": 6914687,
-          "uri": "spotify:track:2T2A9KqSnjY8cXyqouhcum"
+          "title": "휘청 (Rockin’)",
+          "play_count": 176502,
+          "uri": "spotify:track:68yckZzbZJfcJNgR01bjO8"
         },
         {
-          "title": "Knock Knock",
-          "play_count": 4529586,
-          "uri": "spotify:track:2rkut5n6S2xzNfFDqSUOcg"
+          "title": "반창고 (Band-Aid)",
+          "play_count": 3085390,
+          "uri": "spotify:track:1UTiVsUiDLDm7K8XpFleOq"
+        },
+        {
+          "title": "hate blueberry",
+          "play_count": 168585,
+          "uri": "spotify:track:3vRVOxejBcY0kyOuqhoclL"
+        },
+        {
+          "title": "0 (Young)",
+          "play_count": 167190,
+          "uri": "spotify:track:6EnnEX4k8DdoxBeoAUh7Ja"
         }
       ]
     },
@@ -463,6 +488,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -209,33 +209,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 50290,
+      "monthly_listeners": 49422,
       "spotify_id": "5357DGet3KsoJNwVkV7qvy",
       "top_tracks": [
         {
-          "title": "Official",
-          "play_count": 775552,
-          "uri": "spotify:track:3NFN9dqLQaFVI4giGFfQz6"
-        },
-        {
-          "title": "La Luna",
-          "play_count": 1725685,
+          "title": "La Luna (달의 아이)",
+          "play_count": 1890807,
           "uri": "spotify:track:75kvUnuuMDLR13fW3jD1RE"
         },
         {
+          "title": "Official",
+          "play_count": 980271,
+          "uri": "spotify:track:3NFN9dqLQaFVI4giGFfQz6"
+        },
+        {
           "title": "XL (Extra Love)",
-          "play_count": 444972,
+          "play_count": 567513,
           "uri": "spotify:track:1Y8oXmmSDbwkR66oUoI5ow"
         },
         {
+          "title": "Miami",
+          "play_count": 258171,
+          "uri": "spotify:track:6YFG6iL7tTiNWKUjBu0JrP"
+        },
+        {
           "title": "GOT'YA",
-          "play_count": 1420039,
+          "play_count": 1486624,
           "uri": "spotify:track:4aLsggi5JL0YD8AmaSENHU"
         },
         {
-          "title": "Miami",
-          "play_count": 190194,
-          "uri": "spotify:track:6YFG6iL7tTiNWKUjBu0JrP"
+          "title": "Glass Heart",
+          "play_count": 223239,
+          "uri": "spotify:track:7GKpMkxFM9RJO7IBXEq3vU"
+        },
+        {
+          "title": "Alarm (알람)",
+          "play_count": 615151,
+          "uri": "spotify:track:6v5RXtxK1HWGtUEU7EQG58"
+        },
+        {
+          "title": "BITE ME",
+          "play_count": 564637,
+          "uri": "spotify:track:20EMzUVmpC99DaCl559ZH7"
+        },
+        {
+          "title": "SIREN",
+          "play_count": 491414,
+          "uri": "spotify:track:5o7hrNxAsLMAfuEpXtrRkc"
+        },
+        {
+          "title": "KICK-START (킥스타트)",
+          "play_count": 530615,
+          "uri": "spotify:track:0KWHVBiWSYqbJ0dBs3UOi5"
         }
       ]
     },
@@ -473,6 +498,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

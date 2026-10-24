@@ -132,33 +132,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 33996,
+      "monthly_listeners": 77050,
       "spotify_id": "6SG8IvJiwNEHdiubaCUFTi",
       "top_tracks": [
         {
+          "title": "can′t go back",
+          "play_count": 349686,
+          "uri": "spotify:track:1LpDwT0wUPXPIMMQpF5sYr"
+        },
+        {
           "title": "Babyface",
-          "play_count": 41669,
+          "play_count": 601293,
           "uri": "spotify:track:5UMIyID7WDBkOpGizVulol"
         },
         {
+          "title": "Happy",
+          "play_count": 63143,
+          "uri": "spotify:track:385li9jLhXf5IFnrRzZotj"
+        },
+        {
           "title": "I Like You",
-          "play_count": 471916,
+          "play_count": 631799,
           "uri": "spotify:track:6RX842AkuW01Sb15Mcix6l"
         },
         {
+          "title": "Bubble Bubble",
+          "play_count": 140286,
+          "uri": "spotify:track:1tczXylOqrpwAotqJ2edBb"
+        },
+        {
           "title": "C♡NDY.exe",
-          "play_count": 13521,
+          "play_count": 109797,
           "uri": "spotify:track:4uUhSon8N1lolWlfzezf19"
         },
         {
+          "title": "Best Friendz",
+          "play_count": 162657,
+          "uri": "spotify:track:2K9ibxD80FJngTv8dsVqHf"
+        },
+        {
+          "title": "THAT'S ME",
+          "play_count": 170816,
+          "uri": "spotify:track:11A3Yj3Dh75l2Utu5slhcZ"
+        },
+        {
           "title": "Spooky",
-          "play_count": 79067,
+          "play_count": 122397,
           "uri": "spotify:track:2qr3RLW9FaKijDwqB1aeIg"
         },
         {
-          "title": "Bubble Bubble",
-          "play_count": 81857,
-          "uri": "spotify:track:1tczXylOqrpwAotqJ2edBb"
+          "title": "Hot Chicken",
+          "play_count": 83600,
+          "uri": "spotify:track:5xBm5c7Shy833uWecloDf5"
         }
       ]
     },
@@ -244,6 +269,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -400,32 +400,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 286040,
+      "monthly_listeners": 373162,
       "spotify_id": "213zHiFZwtDVEqyxeCbk07",
       "top_tracks": [
         {
           "title": "Virtual Angel",
-          "play_count": 18908527,
+          "play_count": 22397168,
           "uri": "spotify:track:1eCT7mlUiD0FDaYpFPiE4z"
         },
         {
+          "title": "Blue Blood",
+          "play_count": 1919632,
+          "uri": "spotify:track:0U0H8jRrRV3uItkvfD6c6k"
+        },
+        {
+          "title": "Born Stunner",
+          "play_count": 2261750,
+          "uri": "spotify:track:2XvgkULpvqf4UW4YZIFnRf"
+        },
+        {
+          "title": "Pixel Memory",
+          "play_count": 984164,
+          "uri": "spotify:track:35L00tmx3kzbRoJlldLJop"
+        },
+        {
           "title": "Icarus",
-          "play_count": 6043913,
+          "play_count": 7910775,
           "uri": "spotify:track:3MQBMVAJpXat2VQwTHA8tX"
         },
         {
-          "title": "Goddess",
-          "play_count": 2331105,
-          "uri": "spotify:track:0QmdZBQzUdgseYnWirf3cM"
+          "title": "Hyper Crush",
+          "play_count": 763999,
+          "uri": "spotify:track:1KgbrhuTLCO4ayyDa7wug2"
+        },
+        {
+          "title": "Icarus Gang",
+          "play_count": 573475,
+          "uri": "spotify:track:5stJNNpINueSWQ5806oGYb"
+        },
+        {
+          "title": "From Wings To Soul",
+          "play_count": 544653,
+          "uri": "spotify:track:7FoHtGVDfWSiJ5WWoFSMnf"
         },
         {
           "title": "Butterfly Effect",
-          "play_count": 3621252,
+          "play_count": 4460434,
           "uri": "spotify:track:0rLzeAH3HxBBQJdHqAyMsn"
         },
         {
           "title": "Obsessed",
-          "play_count": 2301404,
+          "play_count": 2954198,
           "uri": "spotify:track:3PJ6eopgoqxwqt8OHaVPOq"
         }
       ]
@@ -632,6 +657,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

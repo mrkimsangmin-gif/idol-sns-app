@@ -294,33 +294,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 146768,
+      "monthly_listeners": 114858,
       "spotify_id": "6ypgjfzuOVkVw9FEyh2UD5",
       "top_tracks": [
         {
-          "title": "Pull Up",
-          "play_count": 98471,
-          "uri": "spotify:track:79MExvq75fclMHnLMLHcc1"
-        },
-        {
-          "title": "SANE",
-          "play_count": 102434,
-          "uri": "spotify:track:1xvKv2s1glXmM7r7onnU0s"
+          "title": "U so hot",
+          "play_count": 621964,
+          "uri": "spotify:track:3bFJ65huxQw84xttnbDyX6"
         },
         {
           "title": "DESERVED",
-          "play_count": 2988594,
+          "play_count": 3463458,
           "uri": "spotify:track:33iEkYyCgQBJNTRN2fkY4S"
         },
         {
           "title": "YES, NO, MAYBE",
-          "play_count": 990798,
+          "play_count": 1354640,
           "uri": "spotify:track:0tdwohWGtZzDZq9DQ055A9"
         },
         {
-          "title": "Vampire (Special Track)",
-          "play_count": 53431,
-          "uri": "spotify:track:7hsrLhpHh8Oq9ewSe9cBmx"
+          "title": "Whts yo name",
+          "play_count": 238130,
+          "uri": "spotify:track:5Zv98OJwxAwCdXTRzUGiHw"
+        },
+        {
+          "title": "100!",
+          "play_count": 1437589,
+          "uri": "spotify:track:2Zd5mKEDcw4I5ykv5ZQGyZ"
+        },
+        {
+          "title": "Must Be Nice",
+          "play_count": 3079893,
+          "uri": "spotify:track:4d0muahFRLMhzC4fZbzSey"
+        },
+        {
+          "title": "Pull Up",
+          "play_count": 397731,
+          "uri": "spotify:track:79MExvq75fclMHnLMLHcc1"
+        },
+        {
+          "title": "SANE",
+          "play_count": 438449,
+          "uri": "spotify:track:1xvKv2s1glXmM7r7onnU0s"
+        },
+        {
+          "title": "lucky",
+          "play_count": 537637,
+          "uri": "spotify:track:2vTJYJEVcDS2CmUxpdn7WW"
+        },
+        {
+          "title": "FXX OFF",
+          "play_count": 1196957,
+          "uri": "spotify:track:3Mx5JKcm5zjlWaLjGtquV7"
         }
       ]
     },
@@ -618,6 +643,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

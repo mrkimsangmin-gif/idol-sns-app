@@ -252,33 +252,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 23470,
+      "monthly_listeners": 20280,
       "spotify_id": "3cI5n4TdsnqzKxYPkQLs4b",
       "top_tracks": [
         {
           "title": "Marvelous",
-          "play_count": 2396686,
+          "play_count": 2498785,
           "uri": "spotify:track:45op3j9bOEPAJnqq5gZ3Q5"
         },
         {
           "title": "KILLA",
-          "play_count": 2291330,
+          "play_count": 2357666,
           "uri": "spotify:track:7MyF8hoeUbpv6ZIEVlsTY8"
         },
         {
           "title": "Drip N' Drop",
-          "play_count": 884224,
+          "play_count": 937551,
           "uri": "spotify:track:5pCAhWYET9Ry4UIB3OmSkC"
         },
         {
           "title": "Splash",
-          "play_count": 1194592,
+          "play_count": 1227173,
           "uri": "spotify:track:6jDg7fyZRymvKPYWdBxTgu"
         },
         {
+          "title": "Bang-Up",
+          "play_count": 514246,
+          "uri": "spotify:track:7g9uU5wBl2RowJ5l0glI3Z"
+        },
+        {
+          "title": "JUICE",
+          "play_count": 465664,
+          "uri": "spotify:track:0MvRndObRPDsUofauqtPj8"
+        },
+        {
+          "title": "RUNNING UP",
+          "play_count": 154906,
+          "uri": "spotify:track:2wOyO1aYATNgoQulAp7vGa"
+        },
+        {
+          "title": "비밀 (#Secret)",
+          "play_count": 306211,
+          "uri": "spotify:track:3iQaNIV8JiT2Ru9YKtJeDL"
+        },
+        {
           "title": "Snow Prince",
-          "play_count": 215902,
+          "play_count": 232433,
           "uri": "spotify:track:3rCV8mltrSBeDbCrQ0fbWL"
+        },
+        {
+          "title": "Daydreamin'",
+          "play_count": 153213,
+          "uri": "spotify:track:7vxMPzZfOjlQ4UWxzUE6nY"
         }
       ]
     },
@@ -829,6 +854,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

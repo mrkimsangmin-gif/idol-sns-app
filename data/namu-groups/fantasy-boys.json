@@ -251,36 +251,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 24364,
+      "monthly_listeners": 15837,
       "spotify_id": "4IAcb0MN1CCHpwUaq5iEUU",
       "top_tracks": [
         {
-          "title": "Potential",
-          "play_count": 749563,
-          "uri": "spotify:track:16178ZTU8FsObgMeNkWFdD"
-        },
-        {
-          "title": "Undeniable",
-          "play_count": 318108,
-          "uri": "spotify:track:4drkTx3m8rbbBoFh58nc4A"
+          "title": "Potential - JAPANESE ver.",
+          "play_count": 907528,
+          "uri": "spotify:track:3x0fX1wFOqytUpLGdtXms5"
         },
         {
           "title": "분명 그녀가 나를 보고 웃잖아",
-          "play_count": 536100,
+          "play_count": 594542,
           "uri": "spotify:track:4HdhvgjXXIlqFtK8H7wcf1"
         },
         {
+          "title": "Undeniable",
+          "play_count": 365693,
+          "uri": "spotify:track:4drkTx3m8rbbBoFh58nc4A"
+        },
+        {
           "title": "New Tomorrow",
-          "play_count": 756413,
+          "play_count": 803704,
           "uri": "spotify:track:60ujvhbThKGrkkKEiio2dA"
         },
         {
           "title": "FANTASY",
-          "play_count": 773807,
+          "play_count": 809040,
           "uri": "spotify:track:4RKT2liNU8zqwtVa4nURkX"
+        },
+        {
+          "title": "Flare",
+          "play_count": 105246,
+          "uri": "spotify:track:0R04u57SQNzqziFOp9uDl8"
+        },
+        {
+          "title": "몰랐어 첫사랑인지 스쳐가는 감정인 건지",
+          "play_count": 168373,
+          "uri": "spotify:track:5xVIiMhl6CvWTf4s9TzmpK"
+        },
+        {
+          "title": "One Shot",
+          "play_count": 236755,
+          "uri": "spotify:track:0rhdnOMaoEsQU6NB0P733w"
+        },
+        {
+          "title": "Feeling",
+          "play_count": 157335,
+          "uri": "spotify:track:1R92yL1WW8QVV3iwMgOGy8"
+        },
+        {
+          "title": "있을게",
+          "play_count": 209694,
+          "uri": "spotify:track:6iYbAxeXPl4itnIf6byjHT"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

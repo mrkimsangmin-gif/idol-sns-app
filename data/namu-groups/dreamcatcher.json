@@ -713,33 +713,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 606519,
+      "monthly_listeners": 601411,
       "spotify_id": "5V1qsQHdXNm4ZEZHWvFnqQ",
       "top_tracks": [
         {
           "title": "BOCA",
-          "play_count": 67428285,
-          "uri": "spotify:track:2u7p3Bzkv8h0Yx7w7R370n"
+          "play_count": 69719676,
+          "uri": "spotify:track:3TUV9XVUQReY4EA1e1zJaC"
         },
         {
           "title": "Scream",
-          "play_count": 61298628,
-          "uri": "spotify:track:7FxshQAsTWmogWU959hz3T"
+          "play_count": 63236558,
+          "uri": "spotify:track:02J5w3NVaMhjoGP3dQ4bqX"
         },
         {
           "title": "Deja Vu",
-          "play_count": 42526635,
-          "uri": "spotify:track:3qvfE7DGsIlkWzKMOS4gAm"
+          "play_count": 44051997,
+          "uri": "spotify:track:6AYEdM1tM0txlrzDlyH6MU"
         },
         {
           "title": "BEcause",
-          "play_count": 35387847,
-          "uri": "spotify:track:0ufYP4HLjzVSLUsGKCIQJH"
+          "play_count": 36664200,
+          "uri": "spotify:track:6U9lbMkQrqIjynjxQAYdqh"
         },
         {
           "title": "JUSTICE",
-          "play_count": 11861358,
-          "uri": "spotify:track:4GyhMaDPEILMPp62PUjP3j"
+          "play_count": 12943778,
+          "uri": "spotify:track:1hOTr8qUrmBJpcJBncNGht"
+        },
+        {
+          "title": "MAISON",
+          "play_count": 28790986,
+          "uri": "spotify:track:5c6DOQ4YU20MuiuLnjx8UQ"
+        },
+        {
+          "title": "BONVOYAGE",
+          "play_count": 17419556,
+          "uri": "spotify:track:13L0qFKXPQZKKmBuSvrSf7"
+        },
+        {
+          "title": "YOU AND I",
+          "play_count": 28914485,
+          "uri": "spotify:track:3TVtHfOavXrGmgPibVqf5G"
+        },
+        {
+          "title": "Piri ～ Fue wo Fuke ～ - Japanese Ver.",
+          "play_count": 38428177,
+          "uri": "spotify:track:1bBSQHoeTAaaKGYHutEr60"
+        },
+        {
+          "title": "VISION",
+          "play_count": 15646069,
+          "uri": "spotify:track:4jJA9pOiYtTZvOeHVFm1v7"
         }
       ]
     },
@@ -1270,6 +1295,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

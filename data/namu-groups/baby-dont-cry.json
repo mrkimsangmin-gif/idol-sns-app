@@ -137,28 +137,48 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 149054,
+      "monthly_listeners": 258079,
       "spotify_id": "0dXoF2Q2WnVrhRT26SJNvs",
       "top_tracks": [
         {
+          "title": "Bittersweet",
+          "play_count": 4878225,
+          "uri": "spotify:track:4attgopd8pmrJ03fSDeOI2"
+        },
+        {
           "title": "I DONT CARE",
-          "play_count": 1689706,
+          "play_count": 3139274,
           "uri": "spotify:track:7h6DJy4HspkjUtOdYtfqv4"
         },
         {
           "title": "Shapeshifter",
-          "play_count": 146496,
+          "play_count": 1883669,
           "uri": "spotify:track:0kkqkpgbkLFpopZqPAH1CO"
         },
         {
           "title": "F Girl",
-          "play_count": 3053636,
+          "play_count": 3787036,
           "uri": "spotify:track:5HaVN6uKNnLu3GVEmbrSBd"
         },
         {
-          "title": "Bet You’ll Regret It",
-          "play_count": 1400281,
+          "title": "지금을 놓치면 분명 너 후회할 거야",
+          "play_count": 1654211,
           "uri": "spotify:track:2bVH1pUiX20bp2VAm5JcHj"
+        },
+        {
+          "title": "Mama I’m Alright",
+          "play_count": 329714,
+          "uri": "spotify:track:0etkpBF3n8stJcbtdmCQSx"
+        },
+        {
+          "title": "Tears On My Pillow",
+          "play_count": 259636,
+          "uri": "spotify:track:5lH7FlYMKULfSxyMBsHgHJ"
+        },
+        {
+          "title": "Moves Like Ciara",
+          "play_count": 241022,
+          "uri": "spotify:track:7aPgS4j1aAO8gRENmgYnHI"
         }
       ]
     },
@@ -219,6 +239,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

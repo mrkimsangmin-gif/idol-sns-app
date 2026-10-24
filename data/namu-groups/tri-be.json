@@ -289,33 +289,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 400113,
+      "monthly_listeners": 454343,
       "spotify_id": "6BgYuNomEs12UIrnxhWE9a",
       "top_tracks": [
         {
           "title": "LORO",
-          "play_count": 22592006,
+          "play_count": 26611320,
           "uri": "spotify:track:7hC3uYrhztvkgNziODNpep"
         },
         {
           "title": "Diamond",
-          "play_count": 17116191,
+          "play_count": 19443087,
           "uri": "spotify:track:4SjL5rKPVxe2K2FnjluuVa"
         },
         {
           "title": "KISS",
-          "play_count": 12589928,
+          "play_count": 13136348,
           "uri": "spotify:track:7MONmJafc7senaIZE3ulWv"
         },
         {
           "title": "WOULD YOU RUN",
-          "play_count": 7619064,
+          "play_count": 8032174,
           "uri": "spotify:track:1PyRHSdxEZgJpN3vWSGNFw"
         },
         {
           "title": "DOOM DOOM TA",
-          "play_count": 10936577,
+          "play_count": 11285438,
           "uri": "spotify:track:4QAR66BbMPgryzKTG21mdP"
+        },
+        {
+          "title": "RUB-A-DUM",
+          "play_count": 9014927,
+          "uri": "spotify:track:7rg2OLW7PSFa9OVjjZjYpy"
+        },
+        {
+          "title": "Memu Aagamu",
+          "play_count": 5920378,
+          "uri": "spotify:track:4C81bkQ2tkMmYk4bGFCrv5"
+        },
+        {
+          "title": "Loca",
+          "play_count": 2810595,
+          "uri": "spotify:track:3wiSbXaRcX0NXC6CQIaLYO"
+        },
+        {
+          "title": "우리 하나되어 2021",
+          "play_count": 590975,
+          "uri": "spotify:track:2NOCnoRVXD4RXtaOq5PALC"
+        },
+        {
+          "title": "WITCH",
+          "play_count": 1128623,
+          "uri": "spotify:track:2jDpV2QgvMjQXydP46Ayx4"
         }
       ]
     },
@@ -579,6 +604,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

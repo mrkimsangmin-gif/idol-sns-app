@@ -106,36 +106,41 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1877,
+      "monthly_listeners": 1104,
       "spotify_id": "3WiQKZfcWhqHvCZuU4EPQ6",
       "top_tracks": [
         {
-          "title": "Someday",
-          "play_count": 141137,
-          "uri": "spotify:track:3hGN5p1KWy1gLv8bBhYfms"
+          "title": "어느 날 (Someday)",
+          "play_count": 154567,
+          "uri": "spotify:track:7zpsMhRwUohDIOC5kfFzhn"
+        },
+        {
+          "title": "지금 이 순간",
+          "play_count": 106416,
+          "uri": "spotify:track:5LwDys6dpR7VBlHxLtx3Kt"
         },
         {
           "title": "POSSIBLE",
-          "play_count": 80814,
-          "uri": "spotify:track:0yKDsaSU6ehdM4fRCJvi4I"
+          "play_count": 92568,
+          "uri": "spotify:track:3bvw1ByDT2YKXX9MBLhniu"
         },
         {
-          "title": "Now",
-          "play_count": 95612,
-          "uri": "spotify:track:1e9AhHyXuzg3a93Y0u9BnC"
+          "title": "POSSIBLE (Inst.)",
+          "play_count": 3930,
+          "uri": "spotify:track:2RkKFBn0U3ItOTWoSJdxkP"
         },
         {
-          "title": "POSSIBLE - Instrumental",
-          "play_count": 3690,
-          "uri": "spotify:track:4SiBkcHA3NAaianYTCwqYN"
+          "title": "지금 이 순간 (Inst.)",
+          "play_count": 2607,
+          "uri": "spotify:track:1LO2tFx8nEJRRmlVtmsWie"
         },
         {
-          "title": "Now - Instrumental",
-          "play_count": 2463,
-          "uri": "spotify:track:6ardKS843Rdd12evJkpwaK"
+          "title": "어느 날 (Someday) (Inst.)",
+          "play_count": 2574,
+          "uri": "spotify:track:5EJUF9Lz2nt0VFWiBAcdoa"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

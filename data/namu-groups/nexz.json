@@ -353,33 +353,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 346604,
+      "monthly_listeners": 827468,
       "spotify_id": "5TaK8pOYVARAr5cdgoa8EW",
       "top_tracks": [
         {
+          "title": "SAUCIN′",
+          "play_count": 7089355,
+          "uri": "spotify:track:6SSwHWSTozJADFd1gYMT0B"
+        },
+        {
+          "title": "Mmchk",
+          "play_count": 7855256,
+          "uri": "spotify:track:0ASTfHpDkFpD4aWqj9T5F6"
+        },
+        {
+          "title": "LOCO",
+          "play_count": 1434283,
+          "uri": "spotify:track:3qJuwcJtHXBgkcilFhQ9Mh"
+        },
+        {
+          "title": "APPETITE",
+          "play_count": 1023783,
+          "uri": "spotify:track:4g6ZN2Y9dtvrte9Y74iwgo"
+        },
+        {
           "title": "Beat-Boxer",
-          "play_count": 3146941,
+          "play_count": 5894611,
           "uri": "spotify:track:0MuSmKr1DVD3KlJ5NaYUJx"
         },
         {
           "title": "Ride the Vibe",
-          "play_count": 6423640,
+          "play_count": 8309680,
           "uri": "spotify:track:0ETA6bRFxpEaeCyATt5NAe"
         },
         {
           "title": "O-RLY?",
-          "play_count": 3601245,
+          "play_count": 5521924,
           "uri": "spotify:track:6tWswSUY7jquKUyxIMw3Sw"
         },
         {
-          "title": "I'm Him",
-          "play_count": 1509018,
-          "uri": "spotify:track:53gdfmZtsm8OYZCf2AQHjV"
+          "title": "Simmer",
+          "play_count": 4373769,
+          "uri": "spotify:track:04IN4IWbd9C347rM275e01"
         },
         {
-          "title": "Simmer",
-          "play_count": 2604862,
-          "uri": "spotify:track:04IN4IWbd9C347rM275e01"
+          "title": "20 NOW",
+          "play_count": 719848,
+          "uri": "spotify:track:4ZMPqSTdJpq0pykGcFswdm"
+        },
+        {
+          "title": "I'm Him",
+          "play_count": 3239273,
+          "uri": "spotify:track:53gdfmZtsm8OYZCf2AQHjV"
         }
       ]
     },
@@ -606,6 +631,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

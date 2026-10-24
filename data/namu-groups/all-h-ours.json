@@ -219,33 +219,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 208840,
+      "monthly_listeners": 272670,
       "spotify_id": "2m5lRlEucobWPA1V6xqxWO",
       "top_tracks": [
         {
-          "title": "GIMME GIMME",
-          "play_count": 3939962,
-          "uri": "spotify:track:4QTDaL72TntzXCeoHrl6Cx"
+          "title": "DANG DANG",
+          "play_count": 421404,
+          "uri": "spotify:track:0ZkCSH8wiHEkY7S4luv8CM"
         },
         {
-          "title": "SHOCK",
-          "play_count": 4752661,
+          "title": "도깨비(SHOCK)",
+          "play_count": 6356676,
           "uri": "spotify:track:0F2s3Lc7LeAlt2w7OokIoL"
         },
         {
-          "title": "READY 2 RUMBLE",
-          "play_count": 776496,
-          "uri": "spotify:track:1Vj1oP3Z1PJXsU2HpgEPvO"
+          "title": "DEAD MAN WALKING",
+          "play_count": 2055023,
+          "uri": "spotify:track:523i3lvg9ih2bgsMZZCLSX"
+        },
+        {
+          "title": "GIMME GIMME",
+          "play_count": 5377446,
+          "uri": "spotify:track:4QTDaL72TntzXCeoHrl6Cx"
+        },
+        {
+          "title": "HOP",
+          "play_count": 370052,
+          "uri": "spotify:track:6yHGLTae4jg3459vPQwSEp"
+        },
+        {
+          "title": "으랏차차(GOTCHA)",
+          "play_count": 2400125,
+          "uri": "spotify:track:02rhdB4VphNx89HO1ER4cN"
         },
         {
           "title": "WAO WAO",
-          "play_count": 1258115,
+          "play_count": 1761057,
           "uri": "spotify:track:1VEcURw5AJrI4OIqBMO07q"
         },
         {
-          "title": "GOTCHA",
-          "play_count": 1938847,
-          "uri": "spotify:track:02rhdB4VphNx89HO1ER4cN"
+          "title": "헤엄",
+          "play_count": 110911,
+          "uri": "spotify:track:0tJQlPKQJHsAlhgGiEPoUJ"
+        },
+        {
+          "title": "READY 2 RUMBLE",
+          "play_count": 1217754,
+          "uri": "spotify:track:1Vj1oP3Z1PJXsU2HpgEPvO"
+        },
+        {
+          "title": "Only Me",
+          "play_count": 82658,
+          "uri": "spotify:track:6Rnt0bnygHONj8roxTmfaz"
         }
       ]
     },
@@ -436,6 +461,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

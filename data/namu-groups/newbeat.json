@@ -209,33 +209,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 58410,
+      "monthly_listeners": 52306,
       "spotify_id": "5Zj3vazMOh0sADCiAejr3z",
       "top_tracks": [
         {
           "title": "Look So Good",
-          "play_count": 360637,
+          "play_count": 586703,
           "uri": "spotify:track:7q5g74MfLvv7ZPfUjYmOB4"
         },
         {
           "title": "Flip the Coin",
-          "play_count": 660385,
+          "play_count": 851027,
           "uri": "spotify:track:2ngahTOJYKxjJoeBKAjZQt"
         },
         {
-          "title": "JeLLo(Sleepers)",
-          "play_count": 522983,
-          "uri": "spotify:track:6m87vdQMpQ2lNavpxGYr2I"
-        },
-        {
           "title": "HICCUPS",
-          "play_count": 424218,
+          "play_count": 520777,
           "uri": "spotify:track:0snVTgso3ZEHlPij7CQC1g"
         },
         {
+          "title": "JeLLo(힘숨찐)",
+          "play_count": 622153,
+          "uri": "spotify:track:6m87vdQMpQ2lNavpxGYr2I"
+        },
+        {
+          "title": "F.L.Y(Fu**ing Lovely, Lonely Youth)",
+          "play_count": 231951,
+          "uri": "spotify:track:0sgNOzTzuG2WZf3CJFprHG"
+        },
+        {
+          "title": "LOUD",
+          "play_count": 210245,
+          "uri": "spotify:track:7akrapN1L7YPkpWBcKI0cU"
+        },
+        {
+          "title": "We Are Young",
+          "play_count": 174830,
+          "uri": "spotify:track:4RDn22mKMmgOoZcCCs0TF4"
+        },
+        {
           "title": "Cappuccino",
-          "play_count": 266132,
+          "play_count": 334854,
           "uri": "spotify:track:6GDSbAtLcpefeOYSRIbVFt"
+        },
+        {
+          "title": "Unbelievable",
+          "play_count": 132816,
+          "uri": "spotify:track:2WBFopblihKHG5nTa12wIJ"
+        },
+        {
+          "title": "Natural",
+          "play_count": 166353,
+          "uri": "spotify:track:4JX0usI4kACDyCfNCZUAwa"
         }
       ]
     },
@@ -373,6 +398,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

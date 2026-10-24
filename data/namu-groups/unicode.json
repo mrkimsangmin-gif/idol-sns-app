@@ -42,36 +42,41 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1998,
+      "monthly_listeners": 1661,
       "spotify_id": "3dX0pAE3FigjTzBiHajRra",
       "top_tracks": [
         {
-          "title": "Let me Love (Prod. by Jin Young)",
-          "play_count": 183265,
+          "title": "돌아봐줄래 (Prod. by 진영)",
+          "play_count": 194627,
           "uri": "spotify:track:3DMvqQG9wibjtjmrUAvNBn"
         },
         {
-          "title": "Spring in my 20th",
-          "play_count": 48436,
-          "uri": "spotify:track:1z35YPlxrHY63zaJr7E4IJ"
-        },
-        {
-          "title": "Blur",
-          "play_count": 56196,
+          "title": "불러",
+          "play_count": 62270,
           "uri": "spotify:track:4rLgitYytXbs998KFy8w58"
         },
         {
-          "title": "Drizzle",
-          "play_count": 35337,
+          "title": "스무살의 봄",
+          "play_count": 53890,
+          "uri": "spotify:track:1z35YPlxrHY63zaJr7E4IJ"
+        },
+        {
+          "title": "봄 비",
+          "play_count": 40117,
           "uri": "spotify:track:27XqwGjj9acMMsEmsjqwik"
         },
         {
           "title": "Invi : Bon Voyage",
-          "play_count": 13773,
+          "play_count": 14390,
           "uri": "spotify:track:6MUBKqjdZQOnnR70PQUhi4"
+        },
+        {
+          "title": "Sailors : Outro",
+          "play_count": 9145,
+          "uri": "spotify:track:3833qGVq1Fp7n7niq2Lbtg"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

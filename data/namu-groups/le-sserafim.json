@@ -1154,32 +1154,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 14727728,
+      "monthly_listeners": 18690380,
       "spotify_id": "4SpbR6yFEvexJuaBpgAU5p",
       "top_tracks": [
         {
+          "title": "ICONIC BY MISTAKE",
+          "play_count": 226418797,
+          "uri": "spotify:track:6fl4Gu0lJm5hc8FM5JzCZD"
+        },
+        {
+          "title": "BOOMPALA",
+          "play_count": 98843320,
+          "uri": "spotify:track:41d2WjuL0ikRKVjxmL7ZFz"
+        },
+        {
+          "title": "Made My Night",
+          "play_count": 20701272,
+          "uri": "spotify:track:5MOIAV008posdOGmxiJBsi"
+        },
+        {
           "title": "SPAGHETTI",
-          "play_count": 215101996,
+          "play_count": 316030047,
           "uri": "spotify:track:2N9miXnewVmUrgl6JSK1FI"
         },
         {
           "title": "CRAZY",
-          "play_count": 441888434,
+          "play_count": 519717778,
           "uri": "spotify:track:4gxEY3Mh5FZZDAJAKPNrCS"
         },
         {
           "title": "ANTIFRAGILE",
-          "play_count": 686536822,
+          "play_count": 756337199,
           "uri": "spotify:track:0bMoNdAnxNR0OuQbGDovrr"
         },
         {
           "title": "Perfect Night",
-          "play_count": 510496648,
+          "play_count": 555786714,
           "uri": "spotify:track:74X2u8JMVooG2QbjRxXwR8"
         },
         {
+          "title": "Smart",
+          "play_count": 458692047,
+          "uri": "spotify:track:3lwK3WyKAI5bUuGY1OgGbZ"
+        },
+        {
+          "title": "CELEBRATION",
+          "play_count": 57966956,
+          "uri": "spotify:track:3OKvpTlnhvj8u6fbV53kqC"
+        },
+        {
           "title": "HOT",
-          "play_count": 160850663,
+          "play_count": 202222974,
           "uri": "spotify:track:24Y63uAvj6Oc9jGuTlhlgf"
         }
       ]
@@ -1719,6 +1744,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

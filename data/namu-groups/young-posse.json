@@ -338,33 +338,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 429731,
+      "monthly_listeners": 357301,
       "spotify_id": "5bxwvIM9PX0CkpS6f1L2Ff",
       "top_tracks": [
         {
           "title": "XXL",
-          "play_count": 18790238,
+          "play_count": 21033145,
           "uri": "spotify:track:05QXjyZgsAq6J84J6SlbyV"
         },
         {
-          "title": "VISA",
-          "play_count": 658226,
-          "uri": "spotify:track:3rLQaj0aIBRBEsSwHGY0HP"
-        },
-        {
-          "title": "FREESTYLE",
-          "play_count": 2614759,
-          "uri": "spotify:track:2irWsdZn8v8NEzyr08JTTN"
+          "title": "GO해",
+          "play_count": 191105,
+          "uri": "spotify:track:3ySdjUjy6RJmd5xDfHruWq"
         },
         {
           "title": "ATE THAT",
-          "play_count": 8110773,
+          "play_count": 9139690,
           "uri": "spotify:track:6spCL6M22BQACNDd70Gov3"
         },
         {
+          "title": "FREESTYLE",
+          "play_count": 3602009,
+          "uri": "spotify:track:2irWsdZn8v8NEzyr08JTTN"
+        },
+        {
           "title": "MACARONI CHEESE",
-          "play_count": 8585045,
+          "play_count": 9248953,
           "uri": "spotify:track:1CqMpf1w1IPWWq4Zxa2RxK"
+        },
+        {
+          "title": "미스터 2026",
+          "play_count": 487914,
+          "uri": "spotify:track:7sPUcpeLp5Kndp9JNdJqMf"
+        },
+        {
+          "title": "we don't go to bed tonight",
+          "play_count": 977467,
+          "uri": "spotify:track:4YYLKkdYHTiqHLuwLE2Bnl"
+        },
+        {
+          "title": "VISA",
+          "play_count": 1155822,
+          "uri": "spotify:track:3rLQaj0aIBRBEsSwHGY0HP"
+        },
+        {
+          "title": "POSSE UP!",
+          "play_count": 6119883,
+          "uri": "spotify:track:65K8fTCJvBr0ImV24y9jOn"
+        },
+        {
+          "title": "Haze",
+          "play_count": 73641,
+          "uri": "spotify:track:4zEcgcI2fo5cHvhi7RDLIJ"
         }
       ]
     },
@@ -658,6 +683,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

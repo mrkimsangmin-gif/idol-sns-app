@@ -328,33 +328,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 257494,
+      "monthly_listeners": 261482,
       "spotify_id": "5GwQwY63I9hrUUFlQB8FYU",
       "top_tracks": [
         {
-          "title": "Rose Blossom",
-          "play_count": 14036768,
-          "uri": "spotify:track:29j6SXQOmfSbiemMriO25W"
-        },
-        {
           "title": "Summer Was You",
-          "play_count": 2985106,
+          "play_count": 4984030,
           "uri": "spotify:track:7fiSE0NQwgJPj5QHhln8L1"
         },
         {
-          "title": "To. My First Love",
-          "play_count": 134113,
+          "title": "Rose Blossom",
+          "play_count": 15604053,
+          "uri": "spotify:track:29j6SXQOmfSbiemMriO25W"
+        },
+        {
+          "title": "나의 첫사랑에게 (To. My First Love)",
+          "play_count": 1070564,
           "uri": "spotify:track:10nSl4tuKAfdHiSPppxrNY"
         },
         {
-          "title": "Not Like a Movie",
-          "play_count": 397297,
+          "title": "Thinkin' About You",
+          "play_count": 4907780,
+          "uri": "spotify:track:3GF5L6dW04zWSP9SYAtp5L"
+        },
+        {
+          "title": "Let It Burn",
+          "play_count": 2709163,
+          "uri": "spotify:track:61ErurYjc1oFru6WZgic8X"
+        },
+        {
+          "title": "Good for U",
+          "play_count": 727681,
+          "uri": "spotify:track:0bOgz1Srpp0qCSWAdNrOYV"
+        },
+        {
+          "title": "세상은 영화 같지 않더라",
+          "play_count": 733426,
           "uri": "spotify:track:1jcg5d5YaYJinVeU5mtR3C"
         },
         {
-          "title": "Thinkin' About You",
-          "play_count": 4377987,
-          "uri": "spotify:track:3GF5L6dW04zWSP9SYAtp5L"
+          "title": "SEOUL (Such a Beautiful City)",
+          "play_count": 2034413,
+          "uri": "spotify:track:0SRAuCAtprYCuoks38G5GU"
+        },
+        {
+          "title": "행복합니다",
+          "play_count": 119712,
+          "uri": "spotify:track:5YLCBdqiVEq4vpvxnf5HFb"
+        },
+        {
+          "title": "낭만 한도 초과",
+          "play_count": 297410,
+          "uri": "spotify:track:6UNAA7mSdeM1fMUk2PBA2P"
         }
       ]
     },
@@ -730,6 +755,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

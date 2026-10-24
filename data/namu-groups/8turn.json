@@ -329,33 +329,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 247123,
+      "monthly_listeners": 380623,
       "spotify_id": "7tCg9aiVKZ5Cmhbfb7UoqM",
       "top_tracks": [
         {
-          "title": "BRUISE",
-          "play_count": 702730,
+          "title": "Stagefright",
+          "play_count": 1526491,
+          "uri": "spotify:track:4RGe2TF6AdEGtf2ejkktbu"
+        },
+        {
+          "title": "BRUISE(불씨)",
+          "play_count": 1798862,
           "uri": "spotify:track:5eYhUukI5PVCqSLOmO8Idq"
         },
         {
+          "title": "BESAME",
+          "play_count": 292824,
+          "uri": "spotify:track:3ms2vEOPubBVHAbMGQ7OXM"
+        },
+        {
+          "title": "8PM",
+          "play_count": 455782,
+          "uri": "spotify:track:5e9mFFqUB7tP2bCX59I9TK"
+        },
+        {
           "title": "TIC TAC",
-          "play_count": 15569659,
+          "play_count": 16176450,
           "uri": "spotify:track:60Oo6tKR0ckwZsRr95NrjL"
         },
         {
           "title": "EXCEL",
-          "play_count": 4014762,
+          "play_count": 4457287,
           "uri": "spotify:track:0hPbVp26JuqHo0N3JPvdDZ"
         },
         {
           "title": "Electric Heart",
-          "play_count": 724506,
+          "play_count": 1067227,
           "uri": "spotify:track:4gQjxEDB5hxu6PLCjvTAva"
         },
         {
           "title": "Close To Me",
-          "play_count": 477057,
+          "play_count": 786894,
           "uri": "spotify:track:51Ig7TcbToEWxEFykfduIK"
+        },
+        {
+          "title": "WALK IT OUT",
+          "play_count": 1056125,
+          "uri": "spotify:track:2Ibyw35nExA70MH0z87Nfm"
+        },
+        {
+          "title": "Heartache",
+          "play_count": 1683729,
+          "uri": "spotify:track:1G7YoiQBPxbndfiXGJcOpq"
         }
       ]
     },
@@ -536,6 +561,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

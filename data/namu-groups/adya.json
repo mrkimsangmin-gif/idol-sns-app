@@ -147,33 +147,48 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 5761,
+      "monthly_listeners": 6107,
       "spotify_id": "4J4tJMuTHFBLuNE93GGvDW",
       "top_tracks": [
         {
           "title": "RIZZ",
-          "play_count": 427036,
+          "play_count": 608016,
           "uri": "spotify:track:5SpQxEL0mJV5r5hS1a5G3J"
         },
         {
           "title": "Per",
-          "play_count": 686122,
+          "play_count": 707213,
           "uri": "spotify:track:1Kp9qkgGOB0nXrXdsW6w8o"
         },
         {
-          "title": "What′s Up?",
-          "play_count": 196604,
+          "title": "왜 불러 (What′s Up?)",
+          "play_count": 208352,
           "uri": "spotify:track:17rwCD4xLq55Dvzx6aSqrp"
         },
         {
           "title": "A Dazzling Day",
-          "play_count": 30104,
+          "play_count": 32600,
           "uri": "spotify:track:0HT86KNg9iFbjkcuhlyrdk"
         },
         {
+          "title": "Your Cheating Still Remains",
+          "play_count": 0,
+          "uri": "spotify:track:4ITAhiVeuRwUgzGpdKaJVG"
+        },
+        {
           "title": "RIZZ - Instrumental",
-          "play_count": 20905,
+          "play_count": 21703,
           "uri": "spotify:track:083eLY2f04Vsy7uGY2AXcX"
+        },
+        {
+          "title": "Per - Instrumental",
+          "play_count": 21520,
+          "uri": "spotify:track:6pkr5U9PtBGHiZri0g4HH9"
+        },
+        {
+          "title": "A Dazzling Day - Instrumental",
+          "play_count": 2226,
+          "uri": "spotify:track:2I5QbuLeGgioiwBQ6Ce3Wl"
         }
       ]
     },
@@ -315,6 +330,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -126,36 +126,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2021,
+      "monthly_listeners": 1413,
       "spotify_id": "1nlvVchkTmecxdFNflxucN",
       "top_tracks": [
         {
-          "title": "Like Psycho",
-          "play_count": 160748,
+          "title": "싸이코라도 좋아",
+          "play_count": 170643,
           "uri": "spotify:track:6F7SqxOvVD4dMvxN2IBCoV"
         },
         {
           "title": "Queen",
-          "play_count": 119534,
+          "play_count": 126734,
           "uri": "spotify:track:2B7G6POJP8XyNgaZhaQzfo"
         },
         {
-          "title": "We;Na World",
-          "play_count": 19277,
-          "uri": "spotify:track:0er9FT0UYSdkoifg3IYLKf"
-        },
-        {
           "title": "Baby Step",
-          "play_count": 46911,
+          "play_count": 52561,
           "uri": "spotify:track:4aufxzbLVjdi4Cqi6I2AIA"
         },
         {
+          "title": "We;Na World",
+          "play_count": 25904,
+          "uri": "spotify:track:0er9FT0UYSdkoifg3IYLKf"
+        },
+        {
           "title": "바람 - 원이연서 Duo Version",
-          "play_count": 19896,
+          "play_count": 24531,
           "uri": "spotify:track:4uCUvo1vEyiwU1QnHJdq6X"
+        },
+        {
+          "title": "Milky Way",
+          "play_count": 16614,
+          "uri": "spotify:track:4s0OaP6NlPRhrijDll2ARz"
+        },
+        {
+          "title": "Like Psycho",
+          "play_count": 14577,
+          "uri": "spotify:track:5L9TeZwVAsqWfCrwsMxOrJ"
+        },
+        {
+          "title": "Wake Up",
+          "play_count": 15091,
+          "uri": "spotify:track:6D5AqqNvsLC4esHfTBvZrR"
+        },
+        {
+          "title": "Keep Going on",
+          "play_count": 14564,
+          "uri": "spotify:track:5tsmm04maC2pnSrxKiFHZn"
+        },
+        {
+          "title": "Wake Up",
+          "play_count": 20732,
+          "uri": "spotify:track:26IXpesizyKv6XwCwTEQok"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

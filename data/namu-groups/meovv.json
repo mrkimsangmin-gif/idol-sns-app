@@ -188,33 +188,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 3039655,
+      "monthly_listeners": 5036979,
       "spotify_id": "08hHTBHlv0WRXWlyrsb6Kv",
       "top_tracks": [
         {
+          "title": "Hit 'Em",
+          "play_count": 35627068,
+          "uri": "spotify:track:36vNPZ4chJ8IWfirSQMHN0"
+        },
+        {
+          "title": "DDI RO RI",
+          "play_count": 33497914,
+          "uri": "spotify:track:5LnYgKfSy6iJZThkkAK86Q"
+        },
+        {
           "title": "HANDS UP",
-          "play_count": 94752600,
+          "play_count": 126339469,
           "uri": "spotify:track:5nMZZAx81447SskgOnuRIe"
         },
         {
+          "title": "GO HARD",
+          "play_count": 2559181,
+          "uri": "spotify:track:3VpPQbvLb354cZ3XK54zrs"
+        },
+        {
           "title": "BURNING UP",
-          "play_count": 31061798,
+          "play_count": 52341272,
           "uri": "spotify:track:6QQy6TLGFosP96SREaVaYD"
         },
         {
           "title": "MEOW",
-          "play_count": 106396715,
+          "play_count": 125191631,
           "uri": "spotify:track:1YjhXcHqe2ztp70ArdZOPa"
         },
         {
+          "title": "Indestructible",
+          "play_count": 1538761,
+          "uri": "spotify:track:2mEbsYCcE59D4WfFgLaCXg"
+        },
+        {
+          "title": "In my hands",
+          "play_count": 9624416,
+          "uri": "spotify:track:1ugnLB9oba5ksgtm6C35e5"
+        },
+        {
           "title": "BODY",
-          "play_count": 41638786,
+          "play_count": 51898958,
           "uri": "spotify:track:3I3pAp1C20ZmSO0g8r4yXW"
         },
         {
-          "title": "DROP TOP",
-          "play_count": 23447716,
-          "uri": "spotify:track:7K8hbSlXRNCEqt8o3MLOd9"
+          "title": "TOXIC",
+          "play_count": 41083726,
+          "uri": "spotify:track:6wuXJQJvMKtLXeN1tEYmHh"
         }
       ]
     },
@@ -327,6 +352,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

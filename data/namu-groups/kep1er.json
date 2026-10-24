@@ -673,33 +673,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 847920,
+      "monthly_listeners": 719420,
       "spotify_id": "5R7AMwDeroq6Ls0COQYpS4",
       "top_tracks": [
         {
           "title": "WA DA DA",
-          "play_count": 193209628,
+          "play_count": 197572749,
           "uri": "spotify:track:4gdiCHNbwugojBqr5Jt3pq"
         },
         {
           "title": "Shooting Star",
-          "play_count": 18636165,
+          "play_count": 20954392,
           "uri": "spotify:track:0k2JbfyqtVhiLqGgNuwQGX"
         },
         {
-          "title": "BUBBLE GUM",
-          "play_count": 5490330,
-          "uri": "spotify:track:3IUtLSW5FWB0K4RdkvOamG"
+          "title": "KILLA (Face the other me)",
+          "play_count": 3630633,
+          "uri": "spotify:track:38LzWFA6AtLVoln4d4SI2S"
         },
         {
           "title": "Up!",
-          "play_count": 62990617,
+          "play_count": 64678898,
           "uri": "spotify:track:3XZAvh2NCDQYHgJei35VQ1"
         },
         {
+          "title": "BUBBLE GUM",
+          "play_count": 6860071,
+          "uri": "spotify:track:3IUtLSW5FWB0K4RdkvOamG"
+        },
+        {
+          "title": "Back to the City",
+          "play_count": 11393160,
+          "uri": "spotify:track:2Zx7YnpyTsQvjAf9elDsgX"
+        },
+        {
+          "title": "TIPI-TAP",
+          "play_count": 7512213,
+          "uri": "spotify:track:0SCHvh0ZqVd2Wcq2l4kzai"
+        },
+        {
           "title": "Yum",
-          "play_count": 4414990,
+          "play_count": 5083852,
           "uri": "spotify:track:6KsXEZEbBcH16U31sIyofB"
+        },
+        {
+          "title": "Giddy",
+          "play_count": 16822866,
+          "uri": "spotify:track:6blIAzkMKENKqAfMwj5cZQ"
+        },
+        {
+          "title": "MVSK",
+          "play_count": 19204271,
+          "uri": "spotify:track:0dTEMO9G2uu9Vbu3f8Swto"
         }
       ]
     },
@@ -1088,6 +1113,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

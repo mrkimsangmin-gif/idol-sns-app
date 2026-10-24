@@ -326,33 +326,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 38079,
+      "monthly_listeners": 29638,
       "spotify_id": "0p5Ot7c8cFHtS82hd1WBN3",
       "top_tracks": [
         {
           "title": "Excalibur",
-          "play_count": 3931395,
+          "play_count": 4021046,
           "uri": "spotify:track:5uNEmROkf5izWfrQ9oLvAQ"
         },
         {
-          "title": "Last Flower",
-          "play_count": 209995,
-          "uri": "spotify:track:0M1NR0EXFkMoy8nt4JNXKH"
-        },
-        {
           "title": "KARMA",
-          "play_count": 3067047,
+          "play_count": 3124948,
           "uri": "spotify:track:7r0SUODm7Wq4yTpT2KKtg8"
         },
         {
           "title": "Ascension",
-          "play_count": 1817771,
+          "play_count": 1875720,
           "uri": "spotify:track:0ZabC2gf38O0lQsPs00irH"
         },
         {
+          "title": "Last Flower",
+          "play_count": 278560,
+          "uri": "spotify:track:0M1NR0EXFkMoy8nt4JNXKH"
+        },
+        {
           "title": "Dystopia",
-          "play_count": 1276192,
+          "play_count": 1329574,
           "uri": "spotify:track:6tksGYo7SrnXF7Cj3sLWav"
+        },
+        {
+          "title": "Black Crown",
+          "play_count": 1790204,
+          "uri": "spotify:track:1cSmtCnzmOXKu0pRwQRAZz"
+        },
+        {
+          "title": "The Song of Dann (Promise)",
+          "play_count": 1118623,
+          "uri": "spotify:track:5JZRNJ9nC1hy4UopgOKN56"
+        },
+        {
+          "title": "COUP D’ETAT",
+          "play_count": 854926,
+          "uri": "spotify:track:48FbddQqJQzVP0CTkV8TZg"
+        },
+        {
+          "title": "Illusion",
+          "play_count": 955072,
+          "uri": "spotify:track:3DBehyEDPj1DjdymdH7JWO"
+        },
+        {
+          "title": "Long Live The King",
+          "play_count": 1137213,
+          "uri": "spotify:track:5HjnoCb0iYENuiZ78lCdjR"
         }
       ]
     },
@@ -713,6 +738,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

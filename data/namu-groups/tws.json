@@ -317,33 +317,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2623524,
+      "monthly_listeners": 2210908,
       "spotify_id": "4GgBKgxhc649frZDHcXIEz",
       "top_tracks": [
         {
           "title": "OVERDRIVE",
-          "play_count": 22552182,
+          "play_count": 46454017,
           "uri": "spotify:track:5qAfVxNUxjrELshgTpWxLf"
         },
         {
           "title": "plot twist",
-          "play_count": 106231604,
+          "play_count": 122416437,
           "uri": "spotify:track:0aZG8KWrpRnsGL0loUkfSj"
         },
         {
-          "title": "Nice to see you again (Korean Ver.)",
-          "play_count": 2946236,
-          "uri": "spotify:track:1mX9SZZfCeTbetghcrp8Jr"
-        },
-        {
-          "title": "Countdown!",
-          "play_count": 21147152,
-          "uri": "spotify:track:0ti0CEUPplsI7AZDyexrXy"
+          "title": "You, You",
+          "play_count": 10936835,
+          "uri": "spotify:track:2X9RbCpuBRR6ztXn83AK5U"
         },
         {
           "title": "If I’m S, Can You Be My N?",
-          "play_count": 41582625,
+          "play_count": 50236368,
           "uri": "spotify:track:2y8vRHEoz15sYDmxyrDePO"
+        },
+        {
+          "title": "SODA SODA",
+          "play_count": 3661049,
+          "uri": "spotify:track:63BjD2Y6CIgnsQY99ZZvXl"
+        },
+        {
+          "title": "Countdown!",
+          "play_count": 29492861,
+          "uri": "spotify:track:0ti0CEUPplsI7AZDyexrXy"
+        },
+        {
+          "title": "Last Festival",
+          "play_count": 27279361,
+          "uri": "spotify:track:4eDednnc8XIGpOmRNcho66"
+        },
+        {
+          "title": "All the Possibilities",
+          "play_count": 6839468,
+          "uri": "spotify:track:5J4fzSlOxKLlk165GDjor4"
+        },
+        {
+          "title": "Lucky to be loved",
+          "play_count": 13429159,
+          "uri": "spotify:track:36eaUA0XV2LZ6Vs9KkNE1H"
+        },
+        {
+          "title": "hey! hey!",
+          "play_count": 26424231,
+          "uri": "spotify:track:6vSpm3PAXA1PLyEINx3DJC"
         }
       ]
     },
@@ -530,6 +555,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

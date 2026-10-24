@@ -295,33 +295,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 166636,
+      "monthly_listeners": 231591,
       "spotify_id": "7mgY992t7YTx6UELsoIMRa",
       "top_tracks": [
         {
           "title": "BLUSH",
-          "play_count": 9308636,
+          "play_count": 10292384,
           "uri": "spotify:track:0SheD3EFngYkmaDnjDuMd2"
         },
         {
           "title": "Bad Girl",
-          "play_count": 8243616,
+          "play_count": 8857580,
           "uri": "spotify:track:0N1zTlFxux9l7abfegDTIp"
         },
         {
-          "title": "POM POM POM",
-          "play_count": 2226736,
-          "uri": "spotify:track:4KtNoHpc781qroUhOol1I1"
+          "title": "VOODOO DOLL",
+          "play_count": 114285,
+          "uri": "spotify:track:2z8YSjAp3Y7QwKUP5IhqlA"
+        },
+        {
+          "title": "SUMMER",
+          "play_count": 321927,
+          "uri": "spotify:track:0ttbI9SXLukXICIoNIrH0l"
         },
         {
           "title": "Rollercoaster",
-          "play_count": 3918394,
+          "play_count": 4152133,
           "uri": "spotify:track:7uwNVnaOswnVGJ5v8e2bQk"
         },
         {
-          "title": "Catch the Stars",
-          "play_count": 4780911,
+          "title": "POM POM POM",
+          "play_count": 2479927,
+          "uri": "spotify:track:4KtNoHpc781qroUhOol1I1"
+        },
+        {
+          "title": "별 따러 가자",
+          "play_count": 4997513,
           "uri": "spotify:track:2yMIYu0O3TanoqmqpTcoEs"
+        },
+        {
+          "title": "WXW(Wish With W)",
+          "play_count": 324494,
+          "uri": "spotify:track:2RTNgWad2Twe0UjIgmqRV0"
+        },
+        {
+          "title": "HIGHLIGHT",
+          "play_count": 124506,
+          "uri": "spotify:track:7smL2s1tLHpTMhr8mrIIF9"
+        },
+        {
+          "title": "I Don’t Miss U",
+          "play_count": 3811367,
+          "uri": "spotify:track:1iyAOYQCUk8JAmzGDKEXbd"
         }
       ]
     },
@@ -538,6 +563,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -110,28 +110,38 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 12399,
+      "monthly_listeners": 11201,
       "spotify_id": "4s2pgu0LdVcJvTlmvysg65",
       "top_tracks": [
         {
           "title": "I want you to",
-          "play_count": 790253,
-          "uri": "spotify:track:6mFl1IDAlZ97b1wsXCRh0X"
+          "play_count": 934934,
+          "uri": "spotify:track:7G6nHSvT4ofDnMoRHpGXZk"
+        },
+        {
+          "title": "24TH",
+          "play_count": 3308,
+          "uri": "spotify:track:1Vu5ApKZ5uyLQUgyRyuan9"
         },
         {
           "title": "Bleeding Heart",
-          "play_count": 137734,
-          "uri": "spotify:track:2fVmQ2xPADbqrlafdrO9dW"
+          "play_count": 161983,
+          "uri": "spotify:track:6ALVQUKpWiCkvpP8QM9sWZ"
         },
         {
           "title": "Love Drive",
-          "play_count": 113230,
-          "uri": "spotify:track:3z5p8n7CgS7oVe6bDSY5mW"
+          "play_count": 127090,
+          "uri": "spotify:track:74VLLFLpC8277yBBvGUUFO"
         },
         {
           "title": "My Only Love",
-          "play_count": 82662,
-          "uri": "spotify:track:0oI4TjNbMN4LJHk2K4ojJS"
+          "play_count": 96058,
+          "uri": "spotify:track:3Thwm9vec4K3iBIlHedAIE"
+        },
+        {
+          "title": "Are you mine",
+          "play_count": 1091,
+          "uri": "spotify:track:6qwAu4lFASScUdo12qEup5"
         }
       ]
     },
@@ -169,6 +179,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -129,36 +129,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2454,
+      "monthly_listeners": 3121,
       "spotify_id": "3moiI2AAzmkX2vG3bxyyUl",
       "top_tracks": [
         {
+          "title": "EOI_KU",
+          "play_count": 9027,
+          "uri": "spotify:track:5qzmOhXCZpANGISU8JPlIz"
+        },
+        {
+          "title": "Love Drop",
+          "play_count": 2977,
+          "uri": "spotify:track:1JenFOZQ6zxYbzJw6b2IbJ"
+        },
+        {
           "title": "Double Down",
-          "play_count": 89542,
+          "play_count": 98164,
           "uri": "spotify:track:5KyHqQND52Lo6Dv11HX7Rm"
         },
         {
-          "title": "Lucky Tonight",
-          "play_count": 30174,
-          "uri": "spotify:track:0tMhpyKCBZWcl4MyB1TNwk"
-        },
-        {
           "title": "Loveade",
-          "play_count": 18267,
+          "play_count": 25494,
           "uri": "spotify:track:0PQlKLLBP3RXpc8vkONWQO"
         },
         {
           "title": "No Matter What I Do",
-          "play_count": 44506,
+          "play_count": 49290,
           "uri": "spotify:track:54GizPMWBqkn63ydkuuO3d"
         },
         {
+          "title": "Lucky Tonight",
+          "play_count": 34467,
+          "uri": "spotify:track:0tMhpyKCBZWcl4MyB1TNwk"
+        },
+        {
           "title": "HEARTTHROB",
-          "play_count": 44269,
+          "play_count": 48525,
           "uri": "spotify:track:3lqYEax1PWMnQXddGBokkU"
+        },
+        {
+          "title": "Fall In Love",
+          "play_count": 24865,
+          "uri": "spotify:track:3RD5oSzO9Aiuug4fbsU5jt"
+        },
+        {
+          "title": "SHOW TIME",
+          "play_count": 29818,
+          "uri": "spotify:track:7Ar9IG25bqOfplJsMaVmQD"
+        },
+        {
+          "title": "Cloud",
+          "play_count": 25515,
+          "uri": "spotify:track:3gHfjwpa5lgyBFQiDAYlJk"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

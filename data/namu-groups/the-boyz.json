@@ -1296,36 +1296,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 534877,
+      "monthly_listeners": 459917,
       "spotify_id": "0CmvFWTX9zmMNCUi6fHtAx",
       "top_tracks": [
         {
           "title": "REVEAL",
-          "play_count": 40029456,
+          "play_count": 40925721,
           "uri": "spotify:track:14tNUeer5gUbUYvhYYTclS"
         },
         {
-          "title": "WATCH IT",
-          "play_count": 17648206,
-          "uri": "spotify:track:3UQw1V8gM5YihFDcnjNkWN"
-        },
-        {
           "title": "Salty",
-          "play_count": 20743232,
+          "play_count": 21430872,
           "uri": "spotify:track:7Gj8f0zhVvSveNuXRkUGhN"
         },
         {
           "title": "No Air",
-          "play_count": 35787165,
+          "play_count": 36366143,
           "uri": "spotify:track:0mve4vxmwumqI6gnw7euma"
         },
         {
+          "title": "WATCH IT",
+          "play_count": 18578368,
+          "uri": "spotify:track:3UQw1V8gM5YihFDcnjNkWN"
+        },
+        {
           "title": "The Stealer",
-          "play_count": 34220688,
+          "play_count": 35046680,
           "uri": "spotify:track:2DQgD8rAJLKNptQFK70ndO"
+        },
+        {
+          "title": "THRILL RIDE",
+          "play_count": 28032908,
+          "uri": "spotify:track:3wEYYVD6uC3A3LhVhqARZv"
+        },
+        {
+          "title": "MAVERICK",
+          "play_count": 23506091,
+          "uri": "spotify:track:1Ylu1Il2czce9eQQXtDXwO"
+        },
+        {
+          "title": "ROAR",
+          "play_count": 14759081,
+          "uri": "spotify:track:7yP9oxhtOozkCptLHJoq3l"
+        },
+        {
+          "title": "Nectar",
+          "play_count": 9155839,
+          "uri": "spotify:track:6MEtGumgTXWquxH35osvEC"
+        },
+        {
+          "title": "Echo",
+          "play_count": 9164206,
+          "uri": "spotify:track:2m59DXEDaV4EEJTuxAiDre"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

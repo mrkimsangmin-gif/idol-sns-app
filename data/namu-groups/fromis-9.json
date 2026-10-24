@@ -608,36 +608,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1614348,
+      "monthly_listeners": 2016010,
       "spotify_id": "24nUVBIlCGi4twz4nYxJum",
       "top_tracks": [
         {
-          "title": "Supersonic",
-          "play_count": 58396386,
-          "uri": "spotify:track:6oNLSQX8bcAdbCElZYju3v"
-        },
-        {
           "title": "Love Me Back",
-          "play_count": 49143582,
+          "play_count": 59642686,
           "uri": "spotify:track:2IMPPA9UZpqTnnVIy9lDHU"
         },
         {
+          "title": "Supersonic",
+          "play_count": 69559955,
+          "uri": "spotify:track:6oNLSQX8bcAdbCElZYju3v"
+        },
+        {
+          "title": "Vitamin ME",
+          "play_count": 6404803,
+          "uri": "spotify:track:70RQYCjVacuJgeYAmU2sXd"
+        },
+        {
           "title": "DM",
-          "play_count": 71565068,
+          "play_count": 77420097,
           "uri": "spotify:track:7B9W7Qsy5M2kyUNjQYIEG8"
         },
         {
-          "title": "White Memories",
-          "play_count": 4131231,
-          "uri": "spotify:track:7hCdtQsaKCBXrITaPNK2iE"
+          "title": "LIKE YOU BETTER",
+          "play_count": 14836888,
+          "uri": "spotify:track:7t4Z19BqZ23ExgdiOP0nf6"
         },
         {
-          "title": "LIKE YOU BETTER",
-          "play_count": 11428273,
-          "uri": "spotify:track:7t4Z19BqZ23ExgdiOP0nf6"
+          "title": "WE GO",
+          "play_count": 49433410,
+          "uri": "spotify:track:7oQqeRSV38YqkRv2UGvmbS"
+        },
+        {
+          "title": "Stay This Way",
+          "play_count": 32362698,
+          "uri": "spotify:track:3pqgVtpnQbBAZoWT4AEm1B"
+        },
+        {
+          "title": "#menow",
+          "play_count": 25524490,
+          "uri": "spotify:track:4lIAPwAU6R8PAy2WhykC4i"
+        },
+        {
+          "title": "LOVE BOMB",
+          "play_count": 48637912,
+          "uri": "spotify:track:3RtapbUtHJgnVlZWahStUS"
+        },
+        {
+          "title": "하얀 그리움",
+          "play_count": 6353687,
+          "uri": "spotify:track:7hCdtQsaKCBXrITaPNK2iE"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

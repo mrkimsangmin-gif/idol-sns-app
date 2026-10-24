@@ -915,33 +915,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 664881,
+      "monthly_listeners": 874500,
       "spotify_id": "1wKpMkucynaTfG8lyPprYV",
       "top_tracks": [
         {
-          "title": "Shine",
-          "play_count": 186169817,
+          "title": "빛나리",
+          "play_count": 191712528,
           "uri": "spotify:track:7nkp1uuSbKkoxMvEs8cSw0"
         },
         {
-          "title": "Daisy",
-          "play_count": 50587742,
-          "uri": "spotify:track:2ocjtpHy07sdLtLVhIdAL1"
+          "title": "겁쟁이",
+          "play_count": 1307483,
+          "uri": "spotify:track:3GzOt9wB6ccqv6tgpPPSD9"
         },
         {
-          "title": "Humph! (Prod. By GIRIBOY)",
-          "play_count": 28372654,
+          "title": "Daisy (Japanese Ver.)",
+          "play_count": 52956205,
+          "uri": "spotify:track:57tc96tE0qciqiUBoit8Gf"
+        },
+        {
+          "title": "접근금지 (Prod. By 기리보이)",
+          "play_count": 29009672,
           "uri": "spotify:track:0YxttsUsYfVjQIR711aOVY"
         },
         {
-          "title": "Dr. BeBe",
-          "play_count": 15287020,
+          "title": "Dr. 베베",
+          "play_count": 15786839,
           "uri": "spotify:track:6jsmLQR2NMvK5MK9WPLvf1"
         },
         {
-          "title": "Naughty boy",
-          "play_count": 26507991,
-          "uri": "spotify:track:1qLgJ1M37Mj50hlOnuw9cs"
+          "title": "DO or NOT (Chinese Ver.)",
+          "play_count": 16590317,
+          "uri": "spotify:track:4FPlp30u4so6MYpFe2LNIC"
+        },
+        {
+          "title": "Naughty Boy (Japanese ver.)",
+          "play_count": 27155473,
+          "uri": "spotify:track:5cWbwTKObUQYTqwMBydGVM"
+        },
+        {
+          "title": "Feelin' Like",
+          "play_count": 15322877,
+          "uri": "spotify:track:1GdahB0MwZ6MnwU51zkVhF"
+        },
+        {
+          "title": "SHINE (2020 Japanese ver.)",
+          "play_count": 9904943,
+          "uri": "spotify:track:7uafsod5X2BLrDPevoFrZ9"
+        },
+        {
+          "title": "RUNAWAY",
+          "play_count": 17227240,
+          "uri": "spotify:track:2eFxLz75W0KJSp8Sp8w2Dt"
         }
       ]
     },
@@ -1347,6 +1372,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

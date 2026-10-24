@@ -123,36 +123,41 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2372,
+      "monthly_listeners": 1701,
       "spotify_id": "6VPzzFkOGBBo3h19Mrks91",
       "top_tracks": [
         {
           "title": "Wanna Be Love",
-          "play_count": 312743,
+          "play_count": 326859,
           "uri": "spotify:track:633ckRwltv8CYFxRTuII4B"
         },
         {
-          "title": "How Are You",
-          "play_count": 198835,
-          "uri": "spotify:track:4H70xGZcvrowyFjgDwgafR"
-        },
-        {
           "title": "Make It Mine",
-          "play_count": 107098,
+          "play_count": 115011,
           "uri": "spotify:track:67ookMbJ3OZnc1g5OhJhu6"
         },
         {
-          "title": "Can You Hear Me",
-          "play_count": 77753,
+          "title": "How Are You",
+          "play_count": 205474,
+          "uri": "spotify:track:4H70xGZcvrowyFjgDwgafR"
+        },
+        {
+          "title": "들리니",
+          "play_count": 83342,
           "uri": "spotify:track:6lc2UYUrfbTNRVLe78ZZsf"
         },
         {
           "title": "RACE",
-          "play_count": 59531,
+          "play_count": 61803,
           "uri": "spotify:track:6ilT0lZv8shniaC6LIKwOW"
+        },
+        {
+          "title": "Intro(HAWW Car)",
+          "play_count": 55469,
+          "uri": "spotify:track:73NqLzSNZH2ZNrkcHXr64i"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -199,32 +199,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 97517,
+      "monthly_listeners": 92527,
       "spotify_id": "4pTBL6fTowmWTa61ef7RNb",
       "top_tracks": [
         {
-          "title": "ROCK THE NATION",
-          "play_count": 214347,
-          "uri": "spotify:track:5eUqyBKFdnSDjaljStvIbC"
+          "title": "CHERRY PIE",
+          "play_count": 173787,
+          "uri": "spotify:track:233xgksBgzpEwH9tKiAzz9"
         },
         {
           "title": "ELEVATE",
-          "play_count": 114787,
+          "play_count": 352751,
           "uri": "spotify:track:2QCOgZ74aR4WG77yBOaEnb"
         },
         {
+          "title": "CAN'T STOP=NOT FOUND",
+          "play_count": 91837,
+          "uri": "spotify:track:0z1ghoUrYoGzkceFZOYzaz"
+        },
+        {
+          "title": "ROCK THE NATION",
+          "play_count": 474926,
+          "uri": "spotify:track:5eUqyBKFdnSDjaljStvIbC"
+        },
+        {
+          "title": "First Love Never Die",
+          "play_count": 121308,
+          "uri": "spotify:track:0dgHPk3y48Mnic1f2sFJEp"
+        },
+        {
+          "title": "MAKE IT",
+          "play_count": 61481,
+          "uri": "spotify:track:0behLiEAgeao9Gj6nWhy3r"
+        },
+        {
           "title": "NO SHINE",
-          "play_count": 80609,
+          "play_count": 220256,
           "uri": "spotify:track:1qpH1kzZxGPEfz8kUHqjXR"
         },
         {
+          "title": "PAGES OF US",
+          "play_count": 58998,
+          "uri": "spotify:track:3yYlEAbb7rUd4qskbWdyBi"
+        },
+        {
           "title": "BANG OUT",
-          "play_count": 378791,
+          "play_count": 527061,
           "uri": "spotify:track:4DTxOXmrJsgDkiSl1nCapH"
         },
         {
-          "title": "Still typing.. (subtitle: blank)",
-          "play_count": 237045,
+          "title": "Still typing.. (부제: 빈칸)",
+          "play_count": 363982,
           "uri": "spotify:track:0dEpctQ4a01K7xtl3QhnXt"
         }
       ]
@@ -337,6 +362,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -1030,33 +1030,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 3914215,
+      "monthly_listeners": 4005422,
       "spotify_id": "2KC9Qb60EaY0kW4eH68vr3",
       "top_tracks": [
         {
-          "title": "WANNABE",
-          "play_count": 435194349,
-          "uri": "spotify:track:2IYnnkPXK1zvoCIHAkyiFA"
-        },
-        {
-          "title": "TUNNEL VISION",
-          "play_count": 15879807,
-          "uri": "spotify:track:7InUGlO9nGHcrirzOcQzzT"
-        },
-        {
           "title": "THAT'S A NO NO",
-          "play_count": 18111453,
+          "play_count": 57298925,
           "uri": "spotify:track:5Dxoukq4UC29A7OjQTbHgw"
         },
         {
+          "title": "WANNABE",
+          "play_count": 458216981,
+          "uri": "spotify:track:2IYnnkPXK1zvoCIHAkyiFA"
+        },
+        {
           "title": "LOCO",
-          "play_count": 307549875,
+          "play_count": 321018569,
           "uri": "spotify:track:6hAznmvhIfHE4vSZYsyONI"
         },
         {
+          "title": "Motto",
+          "play_count": 18970134,
+          "uri": "spotify:track:3jVTmARXF5p21gaP9CqITM"
+        },
+        {
           "title": "달라달라 (DALLA DALLA)",
-          "play_count": 280264659,
+          "play_count": 292021263,
           "uri": "spotify:track:5JA4q7xkeSxmhgfAkPWnWW"
+        },
+        {
+          "title": "Not Shy",
+          "play_count": 280119860,
+          "uri": "spotify:track:3DD2VHxnv7C9Hew8s7Zgjf"
+        },
+        {
+          "title": "Imaginary Friend",
+          "play_count": 42264896,
+          "uri": "spotify:track:3YB8sWCxfQyjevEwCrWdiU"
+        },
+        {
+          "title": "TUNNEL VISION",
+          "play_count": 24816689,
+          "uri": "spotify:track:7InUGlO9nGHcrirzOcQzzT"
+        },
+        {
+          "title": "마.피.아. In the morning",
+          "play_count": 239099122,
+          "uri": "spotify:track:5712uOEqMoPURMtR2QtJGF"
+        },
+        {
+          "title": "Girls Will Be Girls",
+          "play_count": 31851796,
+          "uri": "spotify:track:4YxbIKcZR2EnDLVvC0ztNW"
         }
       ]
     },
@@ -1573,6 +1598,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -89,36 +89,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 7540,
+      "monthly_listeners": 8171,
       "spotify_id": "47bUCJh3LXBeQtrTnWEwXn",
       "top_tracks": [
         {
+          "title": "TIP TOE",
+          "play_count": 169696,
+          "uri": "spotify:track:65QEXobLqddjn9u2BHAv0c"
+        },
+        {
           "title": "Good Girl",
-          "play_count": 687617,
+          "play_count": 726818,
           "uri": "spotify:track:60g4aWGlvFq9riY0jrTdtZ"
         },
         {
           "title": "Don’t Cry",
-          "play_count": 279083,
+          "play_count": 315152,
           "uri": "spotify:track:2AvjSaqjZfPJjiFDKXw390"
         },
         {
-          "title": "TIP TOE",
-          "play_count": 138586,
-          "uri": "spotify:track:65QEXobLqddjn9u2BHAv0c"
-        },
-        {
-          "title": "Candy#",
-          "play_count": 149676,
-          "uri": "spotify:track:2zKkPAFM2LpZETM9i4puaD"
+          "title": "Tumbler (Hot & Cold)",
+          "play_count": 103119,
+          "uri": "spotify:track:0zXbvSdT1yEnz2WLsw6lTo"
         },
         {
           "title": "Welcome To My World",
-          "play_count": 68861,
+          "play_count": 82051,
           "uri": "spotify:track:2ALyPE35doBqbfInV6FJHo"
+        },
+        {
+          "title": "Candy#",
+          "play_count": 164153,
+          "uri": "spotify:track:2zKkPAFM2LpZETM9i4puaD"
+        },
+        {
+          "title": "No Fake",
+          "play_count": 139515,
+          "uri": "spotify:track:1RlTpmMvmvOmlopjrJoRqf"
+        },
+        {
+          "title": "Hashtag#",
+          "play_count": 77691,
+          "uri": "spotify:track:0j1rrRU7yCqdXeS9NbArZb"
+        },
+        {
+          "title": "Good Girl (Remix)",
+          "play_count": 40475,
+          "uri": "spotify:track:36G4S2UYgfHEaqjthCPFmP"
+        },
+        {
+          "title": "TIP TOE (Inst.)",
+          "play_count": 9062,
+          "uri": "spotify:track:3xF3ozpEEyyE25GI95E2ii"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

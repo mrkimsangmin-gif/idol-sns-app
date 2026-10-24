@@ -289,36 +289,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 52176,
+      "monthly_listeners": 62886,
       "spotify_id": "06MX3Ecb8PHyNFmq8irTWC",
       "top_tracks": [
         {
-          "title": "Shining Bright",
-          "play_count": 4870890,
+          "title": "빛을 따라서 (Shining Bright)",
+          "play_count": 5241811,
           "uri": "spotify:track:2E4E9jhBX8aAAACBG19Ked"
         },
         {
-          "title": "Pop? Pop!",
-          "play_count": 5362297,
+          "title": "첫사랑 (Pop? Pop!)",
+          "play_count": 5686028,
           "uri": "spotify:track:3YN1BTbPyHC4h05Bw3u2g9"
         },
         {
-          "title": "LOVETICON (♡TiCON)",
-          "play_count": 2854197,
+          "title": "러브티콘 (♡TiCON)",
+          "play_count": 3034801,
           "uri": "spotify:track:3HLLUrOUQCdGcXgbKn4BDg"
         },
         {
-          "title": "Euratcha!",
-          "play_count": 959952,
+          "title": "으랏차 (Euratcha!)",
+          "play_count": 1033967,
           "uri": "spotify:track:2kHntOK23nfbIFVn6xInNK"
         },
         {
+          "title": "숨길 수 없는 맘인걸",
+          "play_count": 181654,
+          "uri": "spotify:track:2N8BgF1Fe9FNR6hQ2rkqYF"
+        },
+        {
           "title": "Pretty mob",
-          "play_count": 645647,
+          "play_count": 706590,
           "uri": "spotify:track:5hyGp7V6Kg5C6oAmCUzXNr"
+        },
+        {
+          "title": "비밀이야 (Manito)",
+          "play_count": 698171,
+          "uri": "spotify:track:3oH3AYbL5Lz2v9wLovfIKB"
+        },
+        {
+          "title": "지금 너에게 보내 (Toi Et Moi)",
+          "play_count": 612228,
+          "uri": "spotify:track:3ae2Z4MOlh3UzkuP29HpYC"
+        },
+        {
+          "title": "Anding (&)",
+          "play_count": 557627,
+          "uri": "spotify:track:5y5qpoVobT2ueX7XxD4IjO"
+        },
+        {
+          "title": "생일축하송",
+          "play_count": 288112,
+          "uri": "spotify:track:5LELWA8ciGuNOzRUfsSTmw"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

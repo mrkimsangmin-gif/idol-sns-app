@@ -271,33 +271,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 105388,
+      "monthly_listeners": 92550,
       "spotify_id": "1iZwr6w3TWPNezX8yCtRBg",
       "top_tracks": [
         {
-          "title": "Problem Child",
-          "play_count": 1193810,
+          "title": "Achilles",
+          "play_count": 543035,
+          "uri": "spotify:track:5uyRWCZvo97JTZolk7Xn9j"
+        },
+        {
+          "title": "Problem Child (문제아)",
+          "play_count": 1632983,
           "uri": "spotify:track:7aL1LV3lbN5GE88lMgiHt5"
         },
         {
-          "title": "HomeRUN",
-          "play_count": 463952,
-          "uri": "spotify:track:0kK6GZAjPQUdg02XhaoEM0"
-        },
-        {
-          "title": "AMMO (feat. YRD Leo)",
-          "play_count": 49387,
-          "uri": "spotify:track:6qQTiRUVoy7vDGO1gWzOAe"
-        },
-        {
-          "title": "Fly to the youth (Feat. YUQI)",
-          "play_count": 959278,
+          "title": "자유롭게 날아 (Feat. 우기 (YUQI))",
+          "play_count": 1160743,
           "uri": "spotify:track:53SaJpNeNlJjNv6qcyLR0V"
         },
         {
-          "title": "HOOKED",
-          "play_count": 50975,
-          "uri": "spotify:track:6ft8y5BcL5tvLxe0z9H5Pn"
+          "title": "HomeRUN",
+          "play_count": 686268,
+          "uri": "spotify:track:0kK6GZAjPQUdg02XhaoEM0"
+        },
+        {
+          "title": "EVERGLOW",
+          "play_count": 768801,
+          "uri": "spotify:track:53L9lldUXi7s3HrDveOihE"
+        },
+        {
+          "title": "렛츠기릿 (Let's get it)",
+          "play_count": 673366,
+          "uri": "spotify:track:34r07B7Zgr7HtaqvP9u3F4"
+        },
+        {
+          "title": "OoWee",
+          "play_count": 934852,
+          "uri": "spotify:track:1XJyXvzfbOTjsM7rVTx0LI"
+        },
+        {
+          "title": "우리의 시작",
+          "play_count": 111798,
+          "uri": "spotify:track:6UgbwZumWEKyaxRjUX4mz2"
+        },
+        {
+          "title": "AMMO (feat. YRD Leo)",
+          "play_count": 135481,
+          "uri": "spotify:track:6qQTiRUVoy7vDGO1gWzOAe"
+        },
+        {
+          "title": "TICKET",
+          "play_count": 559562,
+          "uri": "spotify:track:4pJZnNB7UY4aV8TNepP9kP"
         }
       ]
     },
@@ -469,6 +494,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

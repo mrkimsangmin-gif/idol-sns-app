@@ -149,33 +149,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 380921,
+      "monthly_listeners": 397436,
       "spotify_id": "1kbVoxpFh1eDOXumLmVdKY",
       "top_tracks": [
         {
           "title": "TTYL",
-          "play_count": 29955534,
+          "play_count": 36074394,
           "uri": "spotify:track:3AXryyinIY17WLddIcNjwT"
         },
         {
           "title": "Girls’ Night",
-          "play_count": 5088737,
+          "play_count": 5594776,
           "uri": "spotify:track:0hnxybqZeJzU85jSwf5cdG"
         },
         {
           "title": "Strawberry soda",
-          "play_count": 4161143,
+          "play_count": 4625821,
           "uri": "spotify:track:0Kb4j4M1dfjPqfPopx55E4"
         },
         {
           "title": "Sensitive",
-          "play_count": 7547494,
+          "play_count": 7940522,
           "uri": "spotify:track:6A1dCPrUYhg56ukp4zlEUw"
         },
         {
+          "title": "Colouring",
+          "play_count": 4258292,
+          "uri": "spotify:track:3lt6uiyNjGCl1em9xSzfBW"
+        },
+        {
           "title": "Cotton Candy",
-          "play_count": 2518520,
+          "play_count": 2879805,
           "uri": "spotify:track:1MpNPKjqwznhmNiRk41T3r"
+        },
+        {
+          "title": "Newtopia",
+          "play_count": 3651218,
+          "uri": "spotify:track:46MVRqbSgDVVaMb260PDzY"
+        },
+        {
+          "title": "Confessions",
+          "play_count": 2073542,
+          "uri": "spotify:track:5mynreJz2Xjpb4NO8PazCV"
+        },
+        {
+          "title": "Hocus Pocus",
+          "play_count": 1834890,
+          "uri": "spotify:track:5cyadVGzPTV6P4CLyrhsEv"
+        },
+        {
+          "title": "Secret Diary",
+          "play_count": 1727484,
+          "uri": "spotify:track:6YYxZBIZusxbz3XgZdOyuP"
         }
       ]
     },
@@ -315,6 +340,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

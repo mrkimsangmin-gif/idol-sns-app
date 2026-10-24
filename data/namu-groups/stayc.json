@@ -756,33 +756,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1358702,
+      "monthly_listeners": 1301926,
       "spotify_id": "01XYiBYaoMJcNhPokrg0l0",
       "top_tracks": [
         {
           "title": "ASAP",
-          "play_count": 147961514,
+          "play_count": 153608496,
           "uri": "spotify:track:5BXr7hYZQOeRttkeWYTq5S"
         },
         {
-          "title": "STEREOTYPE",
-          "play_count": 143488722,
+          "title": "색안경 (STEREOTYPE)",
+          "play_count": 147860426,
           "uri": "spotify:track:2bZIDMpzVooosmPHn0tHnd"
         },
         {
           "title": "RUN2U",
-          "play_count": 121882556,
+          "play_count": 125992864,
           "uri": "spotify:track:3gFcGnU4kTdMYLXDjH1TK8"
         },
         {
+          "title": "2 L0VE",
+          "play_count": 4013498,
+          "uri": "spotify:track:6RFwKZfqEfRfz9aJMuxeBq"
+        },
+        {
           "title": "GPT",
-          "play_count": 19347987,
+          "play_count": 22513906,
           "uri": "spotify:track:36qXU2yyq1JtGp05omV7bu"
         },
         {
           "title": "SO BAD",
-          "play_count": 79856053,
+          "play_count": 82998451,
           "uri": "spotify:track:13KR2yNRDrbKwR3dOKCDl4"
+        },
+        {
+          "title": "Teddy Bear",
+          "play_count": 52759947,
+          "uri": "spotify:track:4kSDi21MeOoSvpZs6MveI9"
+        },
+        {
+          "title": "Bubble",
+          "play_count": 38985585,
+          "uri": "spotify:track:4P5ozkI1bxiGxA5rZ27jlO"
+        },
+        {
+          "title": "BEBE - Japanese ver.",
+          "play_count": 16604829,
+          "uri": "spotify:track:1qdxNlWyHsgHPEaxb67Ocq"
+        },
+        {
+          "title": "BEAUTIFUL MONSTER",
+          "play_count": 55860691,
+          "uri": "spotify:track:56s2s5e8WuBsWVKnmz6J9L"
         }
       ]
     },
@@ -1126,6 +1151,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -329,33 +329,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 33335,
+      "monthly_listeners": 22967,
       "spotify_id": "60315n11JElel8KhdHg8jM",
       "top_tracks": [
         {
-          "title": "왜 이러니",
-          "play_count": 189961,
-          "uri": "spotify:track:4Fge5M1t2E746wfOy4gjBf"
-        },
-        {
-          "title": "Crush on U",
-          "play_count": 1743282,
+          "title": "반하겠어",
+          "play_count": 1812810,
           "uri": "spotify:track:2ZnPDErWgk6i2Vqh4xEEMG"
         },
         {
           "title": "JAWS",
-          "play_count": 1309090,
+          "play_count": 1370439,
           "uri": "spotify:track:1c5kZR43Op22rrsVv9jrBT"
         },
         {
           "title": "사랑했다",
-          "play_count": 1629432,
+          "play_count": 1687654,
           "uri": "spotify:track:4NLX51HWYhwWv9VqdJgYjc"
         },
         {
           "title": "Fifty-Fifty",
-          "play_count": 532833,
+          "play_count": 576833,
           "uri": "spotify:track:5Su70BpO6XilzuCjgR2OG2"
+        },
+        {
+          "title": "왜 이러니",
+          "play_count": 237548,
+          "uri": "spotify:track:4Fge5M1t2E746wfOy4gjBf"
+        },
+        {
+          "title": "짜증나게",
+          "play_count": 390509,
+          "uri": "spotify:track:3hH1faxDfIqxOVbLVLrtMT"
+        },
+        {
+          "title": "DaSH",
+          "play_count": 660984,
+          "uri": "spotify:track:5iAfHrcO2dAcnGlwVjinF1"
+        },
+        {
+          "title": "NOBODY",
+          "play_count": 85787,
+          "uri": "spotify:track:38cIuJUnGCUrs448QwXhCP"
+        },
+        {
+          "title": "FLY",
+          "play_count": 392640,
+          "uri": "spotify:track:4qoExC3LbJGTCvfyBV4Zf0"
+        },
+        {
+          "title": "Turned Up",
+          "play_count": 86561,
+          "uri": "spotify:track:32ipVS9ZcabAeQSbb65dbo"
         }
       ]
     },
@@ -591,6 +616,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -130,33 +130,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 62857,
+      "monthly_listeners": 59437,
       "spotify_id": "48I72itlO50Fhw7BImZ1XJ",
       "top_tracks": [
         {
           "title": "D.I.M.M.",
-          "play_count": 1923158,
+          "play_count": 2451403,
           "uri": "spotify:track:1DEARfKkzuVeSIXlM03ztI"
         },
         {
-          "title": "TOUCH IT",
-          "play_count": 604640,
-          "uri": "spotify:track:0Wbo8YOcGPaCDiXvPa6r0m"
-        },
-        {
           "title": "PURRFECT",
-          "play_count": 760199,
+          "play_count": 997061,
           "uri": "spotify:track:2xYAvmflFtPGpceqDhyeim"
         },
         {
+          "title": "TOUCH IT",
+          "play_count": 810640,
+          "uri": "spotify:track:0Wbo8YOcGPaCDiXvPa6r0m"
+        },
+        {
+          "title": "$TAY THE NIGHT",
+          "play_count": 236240,
+          "uri": "spotify:track:4DxYt2UWh4DAtFOwXu6bDz"
+        },
+        {
           "title": "FACT$",
-          "play_count": 427235,
+          "play_count": 591469,
           "uri": "spotify:track:7En72n0G3vxBpdjtwqoNPd"
         },
         {
           "title": "TEA",
-          "play_count": 483278,
+          "play_count": 616929,
           "uri": "spotify:track:2qYsC9SS321xSGXJe7TQME"
+        },
+        {
+          "title": "MIXIN' THANG$",
+          "play_count": 127241,
+          "uri": "spotify:track:2Kkx44GrRNHxZUYPXHJhox"
+        },
+        {
+          "title": "DA$H",
+          "play_count": 153755,
+          "uri": "spotify:track:1Fg9XgwCgGi9TtmEf2WjzP"
+        },
+        {
+          "title": "BOTTLE$",
+          "play_count": 133702,
+          "uri": "spotify:track:4iq1lGqYtWldYMIde5YecM"
+        },
+        {
+          "title": "V.V.$",
+          "play_count": 137616,
+          "uri": "spotify:track:7gTEmJIE6yAfRlb7jwL17K"
         }
       ]
     },
@@ -241,6 +266,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

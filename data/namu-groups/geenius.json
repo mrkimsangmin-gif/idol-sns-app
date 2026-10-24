@@ -108,16 +108,16 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2557,
+      "monthly_listeners": 1959,
       "spotify_id": "1E9Grth4BtkGuX16ppAVyb",
       "top_tracks": [
         {
           "title": "Voyage",
-          "play_count": 590776,
+          "play_count": 619535,
           "uri": "spotify:track:2OEhXjr5QdfspwjBR85fDv"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

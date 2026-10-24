@@ -230,33 +230,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 14534,
+      "monthly_listeners": 12415,
       "spotify_id": "3C13AlJZ4QWHSruAWe9VPI",
       "top_tracks": [
         {
-          "title": "ARIA",
-          "play_count": 915073,
-          "uri": "spotify:track:6CykfIYMh6EVhmO0uQ4SgG"
-        },
-        {
           "title": "Poison Rose",
-          "play_count": 721700,
+          "play_count": 776617,
           "uri": "spotify:track:2ktjnehUxCSikYLT1ipC1K"
         },
         {
           "title": "NUGUDOM",
-          "play_count": 697356,
+          "play_count": 733348,
           "uri": "spotify:track:3qIPUALlG1euPAbi7qk3ll"
         },
         {
           "title": "Undercover",
-          "play_count": 622726,
+          "play_count": 649752,
           "uri": "spotify:track:1r4UVMjjrwiUphiPCcU5q4"
         },
         {
           "title": "MASQUERADE",
-          "play_count": 170964,
+          "play_count": 192227,
           "uri": "spotify:track:0nQNSjE5Xlnki4tG2j3Gvg"
+        },
+        {
+          "title": "Cypher(Position)",
+          "play_count": 195861,
+          "uri": "spotify:track:5Y3FdegvfknxpdHi0UTCDx"
+        },
+        {
+          "title": "STUPIDZ",
+          "play_count": 215449,
+          "uri": "spotify:track:0CHBqEXJsje7bDAN2i3OqU"
+        },
+        {
+          "title": "REQUIEM",
+          "play_count": 262839,
+          "uri": "spotify:track:0vCzN6GZsICTBQDB3LYDFp"
+        },
+        {
+          "title": "Lucid Dream",
+          "play_count": 198558,
+          "uri": "spotify:track:2nqpB5BsZfPSKgXaV4xX9N"
+        },
+        {
+          "title": "Trigger",
+          "play_count": 263519,
+          "uri": "spotify:track:5aWFdwUjrpsYOW7LXTd1Zx"
+        },
+        {
+          "title": "Butterfly",
+          "play_count": 180500,
+          "uri": "spotify:track:20ZTeJ0RNFbJ9OiUo35Rq4"
         }
       ]
     },
@@ -488,6 +513,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

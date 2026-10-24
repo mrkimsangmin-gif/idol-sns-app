@@ -1879,33 +1879,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 5406271,
+      "monthly_listeners": 6633623,
       "spotify_id": "1z4g3DjTBBZKhvAroFlhOM",
       "top_tracks": [
         {
-          "title": "Psycho",
-          "play_count": 545270611,
-          "uri": "spotify:track:3CYH422oy1cZNoo0GTG1TK"
-        },
-        {
-          "title": "러시안 룰렛 Russian Roulette",
-          "play_count": 234681345,
+          "title": "러시안 룰렛 (Russian Roulette)",
+          "play_count": 266223798,
           "uri": "spotify:track:5HiSc2ZCGn8L3cH3qSwzBT"
         },
         {
+          "title": "Psycho",
+          "play_count": 576140372,
+          "uri": "spotify:track:3CYH422oy1cZNoo0GTG1TK"
+        },
+        {
+          "title": "Day 1",
+          "play_count": 74675619,
+          "uri": "spotify:track:74muMkVdMYoR65lhmdzy13"
+        },
+        {
           "title": "Bad Boy",
-          "play_count": 351796898,
+          "play_count": 376099186,
           "uri": "spotify:track:5GKwq4sO5ZHKuWaDmdwMQc"
         },
         {
+          "title": "Surfin' Boy",
+          "play_count": 11901940,
+          "uri": "spotify:track:0cSxfNcy80a18linDTEpiN"
+        },
+        {
           "title": "Cosmic",
-          "play_count": 92204306,
+          "play_count": 110140523,
           "uri": "spotify:track:4s2MSGZJE1NVmzWkxXB6Qa"
         },
         {
-          "title": "Red Flavor",
-          "play_count": 215898065,
+          "title": "빨간 맛 (Red Flavor)",
+          "play_count": 230578466,
           "uri": "spotify:track:7nKQ5WAcjnG48knyLuo8gO"
+        },
+        {
+          "title": "피카부 (Peek-A-Boo)",
+          "play_count": 251408172,
+          "uri": "spotify:track:42tFTth2jcF7iSo0RBjfJF"
+        },
+        {
+          "title": "Dumb Dumb",
+          "play_count": 105532800,
+          "uri": "spotify:track:64iDjAuWDogVhuoWhKklF9"
+        },
+        {
+          "title": "Feel My Rhythm",
+          "play_count": 190293604,
+          "uri": "spotify:track:2oBMZYteeO8DyXV9gDx6Za"
         }
       ]
     },
@@ -2604,6 +2629,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

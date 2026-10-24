@@ -95,33 +95,43 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 6342,
+      "monthly_listeners": 9160,
       "spotify_id": "6zbrLeJOnL0pEOgaRwZnaT",
       "top_tracks": [
         {
-          "title": "Hard to get to you",
-          "play_count": 309009,
+          "title": "너에게로 가는 길이 너무 어려워",
+          "play_count": 367220,
           "uri": "spotify:track:30jnphyPsHAiRPhaBk7KUf"
         },
         {
           "title": "SING !",
-          "play_count": 313360,
+          "play_count": 342546,
           "uri": "spotify:track:2IyG3qJvbW9Mx4fH5lrdKb"
         },
         {
           "title": "Shine",
-          "play_count": 115246,
+          "play_count": 129375,
           "uri": "spotify:track:5gdziZU7X8PSc07wOdGR87"
         },
         {
-          "title": "Never lose you again",
-          "play_count": 68511,
+          "title": "Blue Wave",
+          "play_count": 67878,
+          "uri": "spotify:track:3kvxDJjpWjwMLNlYw8r3VM"
+        },
+        {
+          "title": "다시는 너의 손을 놓고 싶지 않아",
+          "play_count": 78228,
           "uri": "spotify:track:0gsP5fm0arg0CGOPc2yPZz"
         },
         {
-          "title": "Blue Wave",
-          "play_count": 58235,
-          "uri": "spotify:track:3kvxDJjpWjwMLNlYw8r3VM"
+          "title": "너에게로 가는 길이 너무 어려워 (Inst.)",
+          "play_count": 10614,
+          "uri": "spotify:track:1cwehMV4l7MAG2UKNG0ELN"
+        },
+        {
+          "title": "SING ! (Inst.)",
+          "play_count": 14303,
+          "uri": "spotify:track:4nEZxjBEIYlVWVbqUeIGvj"
         }
       ]
     },
@@ -180,6 +190,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

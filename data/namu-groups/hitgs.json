@@ -105,33 +105,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 81999,
+      "monthly_listeners": 116095,
       "spotify_id": "5a83Luu0ndnR1enk1rn83V",
       "top_tracks": [
         {
           "title": "SOURPATCH",
-          "play_count": 1861388,
+          "play_count": 2669982,
           "uri": "spotify:track:6fuMhofxOh5ZmDWUYZnfaO"
         },
         {
-          "title": "HAPPY",
-          "play_count": 394185,
-          "uri": "spotify:track:1RKdxCUdiyGSWscrdx7Aq6"
+          "title": "Gulliver!",
+          "play_count": 108059,
+          "uri": "spotify:track:61M1SFdYzpbUSGquWkguxj"
+        },
+        {
+          "title": "Ctrl C",
+          "play_count": 104054,
+          "uri": "spotify:track:4Kh7KIjt0oiEsMrCVkr8IC"
+        },
+        {
+          "title": "Little By Little",
+          "play_count": 249430,
+          "uri": "spotify:track:196Dx9vJHa7TOhjYCo9w0I"
         },
         {
           "title": "A-HA!",
-          "play_count": 280188,
+          "play_count": 474216,
           "uri": "spotify:track:1LSjczwxC2j0KecAWkdPNk"
         },
         {
-          "title": "CHARIZZMA",
-          "play_count": 366162,
-          "uri": "spotify:track:4Hn0GvDg93eOaNxcSHg3Yi"
+          "title": "Cherry Blossom",
+          "play_count": 337125,
+          "uri": "spotify:track:5jbWLkxaG4aXqVCBJxYp6q"
         },
         {
-          "title": "GROSS",
-          "play_count": 461719,
-          "uri": "spotify:track:010b7ratgDLYeyd2RWYlhB"
+          "title": "HAPPY",
+          "play_count": 572213,
+          "uri": "spotify:track:1RKdxCUdiyGSWscrdx7Aq6"
+        },
+        {
+          "title": "Never Be Me",
+          "play_count": 460084,
+          "uri": "spotify:track:53JH4jjIewvqTyJkchmx4t"
+        },
+        {
+          "title": "I’m in Love",
+          "play_count": 105464,
+          "uri": "spotify:track:3IJB4W92ekt5OlG0KwRUdr"
+        },
+        {
+          "title": "CHARIZZMA",
+          "play_count": 505591,
+          "uri": "spotify:track:4Hn0GvDg93eOaNxcSHg3Yi"
         }
       ]
     },
@@ -212,6 +237,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

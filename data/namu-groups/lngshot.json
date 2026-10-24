@@ -149,33 +149,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 4659941,
+      "monthly_listeners": 3716322,
       "spotify_id": "2F4oTJOWkcD1JaTeKEa9h6",
       "top_tracks": [
         {
           "title": "Moonwalkin'",
-          "play_count": 45606971,
+          "play_count": 117159391,
           "uri": "spotify:track:46V2ciN6F5bxjQWityNhkY"
         },
         {
           "title": "Never Let Go",
-          "play_count": 26257982,
+          "play_count": 81127276,
           "uri": "spotify:track:37xebnhvUyM8VyyDDeo65d"
         },
         {
-          "title": "Saucin'",
-          "play_count": 20106646,
-          "uri": "spotify:track:7jVr1ZipYJJR4qHxZcQjqa"
-        },
-        {
           "title": "FaceTime",
-          "play_count": 16314801,
+          "play_count": 47985133,
           "uri": "spotify:track:7Ji60z4V0d0IUbuZMkpjJa"
         },
         {
+          "title": "Saucin'",
+          "play_count": 48221737,
+          "uri": "spotify:track:7jVr1ZipYJJR4qHxZcQjqa"
+        },
+        {
+          "title": "MOYA",
+          "play_count": 17241094,
+          "uri": "spotify:track:1ACzcLe7HPprJQng3lu6qQ"
+        },
+        {
           "title": "Backseat",
-          "play_count": 7981451,
+          "play_count": 21309078,
           "uri": "spotify:track:2xsZMSE32OCHKWe4A8sM0w"
+        },
+        {
+          "title": "Masterpiece",
+          "play_count": 1135660,
+          "uri": "spotify:track:3h0ghWPVT1SzCgZnHPqp8b"
+        },
+        {
+          "title": "YEAH! YEAH!",
+          "play_count": 11154294,
+          "uri": "spotify:track:7vmq3Ukd8csLDpCvoOM9Do"
+        },
+        {
+          "title": "Vanilla Days",
+          "play_count": 16800766,
+          "uri": "spotify:track:6J0lnKcH7C1Hu0tn5hv7pI"
+        },
+        {
+          "title": "4SHO 4SHO",
+          "play_count": 9123861,
+          "uri": "spotify:track:3GK3htTIyOEq8gz3sPj6L0"
         }
       ]
     },
@@ -285,6 +310,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

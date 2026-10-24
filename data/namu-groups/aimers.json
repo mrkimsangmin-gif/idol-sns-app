@@ -251,33 +251,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 16755,
+      "monthly_listeners": 10434,
       "spotify_id": "4U2eZzOZsobt9JHp0znP1L",
       "top_tracks": [
         {
           "title": "Fireworks",
-          "play_count": 782766,
+          "play_count": 867001,
           "uri": "spotify:track:5Q42ynmYZN979JiZusBSqz"
         },
         {
           "title": "Somebody",
-          "play_count": 335002,
+          "play_count": 361567,
           "uri": "spotify:track:0eUKlXnqc2A9z2VQ54tGGI"
         },
         {
-          "title": "Colors",
-          "play_count": 281775,
-          "uri": "spotify:track:7tkTNe7lwcR2GRtp7yjF4L"
-        },
-        {
           "title": "Cherish",
-          "play_count": 194300,
+          "play_count": 217785,
           "uri": "spotify:track:2sde1lp8j8MT9VQ5SELiqS"
         },
         {
+          "title": "Fight Inside",
+          "play_count": 537190,
+          "uri": "spotify:track:256XH96rddG27WHDp0usBo"
+        },
+        {
+          "title": "Bubble",
+          "play_count": 358054,
+          "uri": "spotify:track:4ejcfQtDVmKgP7Si1elfay"
+        },
+        {
+          "title": "Where We Go",
+          "play_count": 161468,
+          "uri": "spotify:track:7hL9DtQGm0FYFiC1c29Z51"
+        },
+        {
+          "title": "Colors",
+          "play_count": 302513,
+          "uri": "spotify:track:7tkTNe7lwcR2GRtp7yjF4L"
+        },
+        {
           "title": "Called Game",
-          "play_count": 47585,
+          "play_count": 61945,
           "uri": "spotify:track:63s9r5cY9r531lGtSciptR"
+        },
+        {
+          "title": "찾아헤매, 널",
+          "play_count": 30983,
+          "uri": "spotify:track:6kw8C6qoc2dRG0MRKdf2ng"
+        },
+        {
+          "title": "Starry Night",
+          "play_count": 66091,
+          "uri": "spotify:track:6EkQUsfLYwsBhiNZB7WGN0"
         }
       ]
     },
@@ -468,6 +493,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

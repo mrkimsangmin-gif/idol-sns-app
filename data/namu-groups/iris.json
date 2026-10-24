@@ -82,33 +82,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 16658,
+      "monthly_listeners": 19637,
       "spotify_id": "0QQS9kR4qcFg7PLwr3JHgN",
       "top_tracks": [
         {
+          "title": "HEART CRUSH!",
+          "play_count": 139907,
+          "uri": "spotify:track:0rwo326nmIglQ9878YCWu3"
+        },
+        {
           "title": "LOVE GAME",
-          "play_count": 523533,
+          "play_count": 819823,
           "uri": "spotify:track:0d9vze9k7D1H7GOJZHjRev"
         },
         {
-          "title": "IRIDISCENT",
-          "play_count": 168771,
-          "uri": "spotify:track:77OZjnlDOhGT0MC7tMJL0z"
-        },
-        {
-          "title": "Wings",
-          "play_count": 221169,
+          "title": "날개",
+          "play_count": 307281,
           "uri": "spotify:track:3LTpV2o1uer2BJ3RlbauKz"
         },
         {
           "title": "KIIRI",
-          "play_count": 154973,
+          "play_count": 232610,
           "uri": "spotify:track:4WqdjMrxnnatkb3pSVx7qR"
         },
         {
+          "title": "IRIDISCENT",
+          "play_count": 244717,
+          "uri": "spotify:track:77OZjnlDOhGT0MC7tMJL0z"
+        },
+        {
           "title": "ZERØ",
-          "play_count": 106063,
+          "play_count": 156530,
           "uri": "spotify:track:75Zagq3hkhZfN6em8wLPiN"
+        },
+        {
+          "title": "LUNÉ",
+          "play_count": 158207,
+          "uri": "spotify:track:12KDW8b8ZeD8gCHYXcrGGD"
+        },
+        {
+          "title": "SHANA",
+          "play_count": 119228,
+          "uri": "spotify:track:4KLJOuu2f2j94CzlnLaq1O"
+        },
+        {
+          "title": "TIZ",
+          "play_count": 97548,
+          "uri": "spotify:track:7wMx2FDz7UogSK50oy9OgG"
+        },
+        {
+          "title": "날개 - Instrumental",
+          "play_count": 28938,
+          "uri": "spotify:track:6YLJHqVTPS1yYOkGydU7yp"
         }
       ]
     },
@@ -183,6 +208,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

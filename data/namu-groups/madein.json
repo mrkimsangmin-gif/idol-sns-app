@@ -211,33 +211,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 83456,
+      "monthly_listeners": 51812,
       "spotify_id": "5Sso2rRE8bs9Ff6bkfqUKe",
       "top_tracks": [
         {
-          "title": "Super Obvious",
-          "play_count": 174230,
-          "uri": "spotify:track:077jEiOrEal1E7iGANgexy"
-        },
-        {
           "title": "UNO",
-          "play_count": 3854402,
+          "play_count": 4198208,
           "uri": "spotify:track:4gB2g4D9WB1L60901tJX2f"
         },
         {
-          "title": "PUNG!",
-          "play_count": 69942,
-          "uri": "spotify:track:3f5DP1avcKCiDOkJq40Vqf"
-        },
-        {
-          "title": "LOVE, AFRAID",
-          "play_count": 1140867,
+          "title": "사랑, 두려움",
+          "play_count": 1306656,
           "uri": "spotify:track:1pLMNDbYPRpYy1C5vtl3ke"
         },
         {
+          "title": "안 봐도 비디오 (Super Obvious)",
+          "play_count": 441497,
+          "uri": "spotify:track:077jEiOrEal1E7iGANgexy"
+        },
+        {
+          "title": "PUNG!",
+          "play_count": 264215,
+          "uri": "spotify:track:3f5DP1avcKCiDOkJq40Vqf"
+        },
+        {
           "title": "SATURN",
-          "play_count": 408816,
+          "play_count": 490553,
           "uri": "spotify:track:74ylcg32sIFfh8QgL7fW0A"
+        },
+        {
+          "title": "DADARIDA",
+          "play_count": 842868,
+          "uri": "spotify:track:57IwiEpmnSWwcKpNATXpCE"
+        },
+        {
+          "title": "DOPAMINE",
+          "play_count": 585805,
+          "uri": "spotify:track:50XP9wds6SrbYd6Ws422ME"
+        },
+        {
+          "title": "TIMELINE",
+          "play_count": 405539,
+          "uri": "spotify:track:5VoO2cXFYThfJatND7cujG"
+        },
+        {
+          "title": "UNO - YONAKA ver.",
+          "play_count": 386188,
+          "uri": "spotify:track:5PhyMZfcddYmadaJjTRPgh"
+        },
+        {
+          "title": "SATURN - Accapella",
+          "play_count": 95428,
+          "uri": "spotify:track:3T64Nslbov44kluyrWDDjD"
         }
       ]
     },
@@ -582,6 +607,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

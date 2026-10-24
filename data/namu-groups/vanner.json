@@ -402,36 +402,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 16344,
+      "monthly_listeners": 12851,
       "spotify_id": "05pkCt3DQY5ZC41u7WMk5D",
       "top_tracks": [
         {
           "title": "FORM",
-          "play_count": 1537468,
+          "play_count": 1583473,
           "uri": "spotify:track:5lfn0YTLaNScClWm4cmwU4"
         },
         {
           "title": "JACKPOT",
-          "play_count": 669427,
+          "play_count": 707439,
           "uri": "spotify:track:4e4RlMOWUnoVkIYyjNjN57"
         },
         {
-          "title": "Goodbye & Hello",
-          "play_count": 113907,
-          "uri": "spotify:track:4B131HnHQYxbOdSwktnCec"
+          "title": "Skyscraper",
+          "play_count": 681569,
+          "uri": "spotify:track:5Jl3AmBWFlvU2jOMVeBk32"
+        },
+        {
+          "title": "Automatic",
+          "play_count": 302342,
+          "uri": "spotify:track:2nynjVyEYneNyGqV7fwvNv"
+        },
+        {
+          "title": "Rollin",
+          "play_count": 704341,
+          "uri": "spotify:track:11WZXVtFOITrYD2LuxC2jT"
         },
         {
           "title": "PERFORMER",
-          "play_count": 630808,
+          "play_count": 655399,
           "uri": "spotify:track:2arrxX2BubTq86E4N067WY"
         },
         {
-          "title": "Pinch Me",
-          "play_count": 72110,
-          "uri": "spotify:track:3lgqjxSp5jn7CknPEM4hEB"
+          "title": "LACHATA",
+          "play_count": 660597,
+          "uri": "spotify:track:1TfwACgJbKFwgygtGzoRE4"
+        },
+        {
+          "title": "Goodbye & Hello",
+          "play_count": 142192,
+          "uri": "spotify:track:4B131HnHQYxbOdSwktnCec"
+        },
+        {
+          "title": "New Heights - ENG Version",
+          "play_count": 154808,
+          "uri": "spotify:track:0IFybf8NH8YDDgH6tR6Wcj"
+        },
+        {
+          "title": "Blossom",
+          "play_count": 146774,
+          "uri": "spotify:track:4EhFzCDkUIltDfbPbLi7GS"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -449,33 +449,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 714473,
+      "monthly_listeners": 859754,
       "spotify_id": "1khChLj7REGqjM043PlYyn",
       "top_tracks": [
         {
-          "title": "Good enough",
-          "play_count": 23569719,
-          "uri": "spotify:track:7H4bkGfbt12rGyQ8R8zabq"
+          "title": "Obsessed with Youth",
+          "play_count": 877196,
+          "uri": "spotify:track:3UZ9LgHanJWsSQU1uQvrG6"
         },
         {
-          "title": "Lost and Found",
-          "play_count": 3151753,
-          "uri": "spotify:track:6mNtejSnGqhCJTIfVkuWva"
+          "title": "u and me in arguments",
+          "play_count": 538776,
+          "uri": "spotify:track:5xhwKKozn84DUceeShwxLs"
         },
         {
-          "title": "Night before the end",
-          "play_count": 10134460,
-          "uri": "spotify:track:3qtZrgkFMtdSCH5DWyNIOL"
+          "title": "Give Up The Ghost",
+          "play_count": 447979,
+          "uri": "spotify:track:0DPbBUhNpCCxpTGibmCala"
+        },
+        {
+          "title": "Love in dystopia",
+          "play_count": 387573,
+          "uri": "spotify:track:3r4vTxdnQOJOUqpBtFcLff"
+        },
+        {
+          "title": "Voyager",
+          "play_count": 4547705,
+          "uri": "spotify:track:5P3ai9DW0SVnQoVmYQj6EM"
+        },
+        {
+          "title": "You Right There",
+          "play_count": 379203,
+          "uri": "spotify:track:5qmF416a8nMxOBbNwtwxvp"
+        },
+        {
+          "title": "Breathe in, Breathe out",
+          "play_count": 374876,
+          "uri": "spotify:track:1j8caYcJ73HhvWEJKvStUk"
         },
         {
           "title": "Save me",
-          "play_count": 11131579,
+          "play_count": 14629873,
           "uri": "spotify:track:63IHaFklWAdUB3BTcUJb1J"
         },
         {
-          "title": "FiRE (My Sweet Misery)",
-          "play_count": 4782749,
-          "uri": "spotify:track:5qrltlgQOfoDL6LII7B0X0"
+          "title": "Slashhh!",
+          "play_count": 353605,
+          "uri": "spotify:track:6ITUKgck6V5a1iFcfrT0Oc"
+        },
+        {
+          "title": "Good enough",
+          "play_count": 26921445,
+          "uri": "spotify:track:7H4bkGfbt12rGyQ8R8zabq"
         }
       ]
     },
@@ -953,6 +978,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -84,33 +84,33 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 53479,
+      "monthly_listeners": 33425,
       "spotify_id": "4XvBehn5EnOEueirgtfIgj",
       "top_tracks": [
         {
           "title": "Echo",
-          "play_count": 4553813,
+          "play_count": 5495046,
           "uri": "spotify:track:29sFqmK1SNaGhY8RTmMmpz"
         },
         {
           "title": "Never Far Away (Prologue)",
-          "play_count": 491493,
+          "play_count": 576232,
           "uri": "spotify:track:4Nql8sw3aRY3AeNtV8sdMX"
         },
         {
-          "title": "Echo (Alt Version)",
-          "play_count": 185219,
-          "uri": "spotify:track:3WbhOcyVGcfq2zS8LjDviD"
+          "title": "Echo (Sped Up Version)",
+          "play_count": 80662,
+          "uri": "spotify:track:4QZDEAdVoOVlIcQ2YjScva"
         },
         {
           "title": "Echo (Inst.)",
-          "play_count": 207417,
+          "play_count": 228542,
           "uri": "spotify:track:75rLCyroknIRoVad4wDK9B"
         },
         {
-          "title": "Echo (Sped Up Version)",
-          "play_count": 63007,
-          "uri": "spotify:track:4QZDEAdVoOVlIcQ2YjScva"
+          "title": "Echo (Slowed Down Version)",
+          "play_count": 69561,
+          "uri": "spotify:track:4CPGxkyTfA2m5Rm740wU51"
         }
       ]
     },
@@ -164,6 +164,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

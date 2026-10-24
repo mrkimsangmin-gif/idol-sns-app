@@ -355,33 +355,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 27942,
+      "monthly_listeners": 27476,
       "spotify_id": "5IVacR5tKgTu9HotcG8kkl",
       "top_tracks": [
         {
           "title": "Villain",
-          "play_count": 2208403,
+          "play_count": 2274602,
           "uri": "spotify:track:3xO1I7gH39DTgaai3kGIOY"
         },
         {
+          "title": "Nostalgia",
+          "play_count": 2804890,
+          "uri": "spotify:track:7pd6TOInBnDKg44BtCwlXT"
+        },
+        {
           "title": "Young Blood",
-          "play_count": 2087241,
+          "play_count": 2147158,
           "uri": "spotify:track:7oF0wWZkuYMCOyy9aLhOhW"
         },
         {
           "title": "Beautiful MAZE",
-          "play_count": 796566,
+          "play_count": 848554,
           "uri": "spotify:track:03dsawwfwz82T2cuCgFNza"
         },
         {
-          "title": "Nostalgia",
-          "play_count": 2751148,
-          "uri": "spotify:track:7pd6TOInBnDKg44BtCwlXT"
+          "title": "SEVEN SINS",
+          "play_count": 743762,
+          "uri": "spotify:track:2byWFY0u4pFZSVbQbbFBA5"
         },
         {
-          "title": "SEVEN SINS",
-          "play_count": 711540,
-          "uri": "spotify:track:2byWFY0u4pFZSVbQbbFBA5"
+          "title": "ZERO",
+          "play_count": 1173144,
+          "uri": "spotify:track:4XkeWqW7ogSSvFY6MpR6eP"
+        },
+        {
+          "title": "Weekend",
+          "play_count": 278256,
+          "uri": "spotify:track:4V5dstlpmgVoDRahjKdcfM"
+        },
+        {
+          "title": "Silence",
+          "play_count": 386853,
+          "uri": "spotify:track:6hxOGmCrTfCvc0FzpmgUVe"
+        },
+        {
+          "title": "The One",
+          "play_count": 680870,
+          "uri": "spotify:track:1Kb2RNTXZ3PaL2xMDuJgQ6"
+        },
+        {
+          "title": "Overdrive",
+          "play_count": 814429,
+          "uri": "spotify:track:7i5lO806ll2kx0oynw1nMr"
         }
       ]
     },
@@ -669,6 +694,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

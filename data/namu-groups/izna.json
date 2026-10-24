@@ -248,32 +248,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1103301,
+      "monthly_listeners": 1531491,
       "spotify_id": "6EB5QC7lGAu7bSuWQ416d4",
       "top_tracks": [
         {
           "title": "SIGN",
-          "play_count": 29039073,
+          "play_count": 40541786,
           "uri": "spotify:track:6vBVBzf0VeRO4aPwABnohX"
         },
         {
-          "title": "Mamma Mia",
-          "play_count": 12104118,
-          "uri": "spotify:track:5mxBUe5ycmUiUkDaLC5yVI"
+          "title": "METRONOME",
+          "play_count": 11313110,
+          "uri": "spotify:track:6SGwediIFxWYxvU7zbWtri"
+        },
+        {
+          "title": "DUMB HOT!",
+          "play_count": 2046734,
+          "uri": "spotify:track:1jpGUuKQqfdb1DctPQ963u"
         },
         {
           "title": "BEEP",
-          "play_count": 15478495,
+          "play_count": 20442850,
           "uri": "spotify:track:21LesVOMCk5j8LqsFBvCc5"
         },
         {
           "title": "Racecar",
-          "play_count": 6794182,
+          "play_count": 10952107,
           "uri": "spotify:track:3ylwpGWNGip7lRhNCpCBLR"
         },
         {
+          "title": "Mamma Mia",
+          "play_count": 16361874,
+          "uri": "spotify:track:5mxBUe5ycmUiUkDaLC5yVI"
+        },
+        {
+          "title": "R.I.P.",
+          "play_count": 3416462,
+          "uri": "spotify:track:1xGhH49S08gwBa4QSvLxaY"
+        },
+        {
+          "title": "TIMEBOMB",
+          "play_count": 19407684,
+          "uri": "spotify:track:3CkGiFTTyIguBZzZGmE6eq"
+        },
+        {
+          "title": "DRIP",
+          "play_count": 13505559,
+          "uri": "spotify:track:6ZpH3dVydCxg1NnXe8SdyV"
+        },
+        {
           "title": "IZNA",
-          "play_count": 22478576,
+          "play_count": 25839008,
           "uri": "spotify:track:1Lid3Sc6luHWuiauUM6Ckt"
         }
       ]
@@ -391,6 +416,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

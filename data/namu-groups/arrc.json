@@ -202,33 +202,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 41523,
+      "monthly_listeners": 24786,
       "spotify_id": "0aI0llD36ZH9ZDplS8TblP",
       "top_tracks": [
         {
-          "title": "awesome",
-          "play_count": 414420,
-          "uri": "spotify:track:6hnzYx4y2NcPyqyHrMM22b"
-        },
-        {
           "title": "S&S (sour and sweet)",
-          "play_count": 1751295,
+          "play_count": 1842310,
           "uri": "spotify:track:1GeFTnXC5r8swRolj7vCgr"
         },
         {
-          "title": "SKIID",
-          "play_count": 193984,
-          "uri": "spotify:track:69Lfa6t4sskn5BwiHJ1nch"
+          "title": "awesome",
+          "play_count": 510919,
+          "uri": "spotify:track:6hnzYx4y2NcPyqyHrMM22b"
         },
         {
           "title": "dummy",
-          "play_count": 1136147,
+          "play_count": 1205850,
           "uri": "spotify:track:0sAq8cN9lvt9dkAWa5DtWb"
         },
         {
+          "title": "SKIID",
+          "play_count": 259249,
+          "uri": "spotify:track:69Lfa6t4sskn5BwiHJ1nch"
+        },
+        {
           "title": "nu kidz",
-          "play_count": 281551,
+          "play_count": 328592,
           "uri": "spotify:track:4rnhpp3CTVJ7bgr3fTcOWi"
+        },
+        {
+          "title": "accident ~ at the studio",
+          "play_count": 226805,
+          "uri": "spotify:track:5Z4ATowlXEK8bJyHFxynox"
+        },
+        {
+          "title": "duality",
+          "play_count": 329420,
+          "uri": "spotify:track:5qacGiH3qars7Nism1c29V"
+        },
+        {
+          "title": "WoW (Way of Winning) (with 문수아X시윤)",
+          "play_count": 169887,
+          "uri": "spotify:track:36BhReSfLpJsWeKwDJx30l"
+        },
+        {
+          "title": "alien in Seoul",
+          "play_count": 174968,
+          "uri": "spotify:track:73gQ8GIsfE28qlpKaQLvmP"
+        },
+        {
+          "title": "shadow",
+          "play_count": 320642,
+          "uri": "spotify:track:0G6QKAr2n2A9eyS9rEYSB8"
         }
       ]
     },
@@ -360,6 +385,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -253,33 +253,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 150177,
+      "monthly_listeners": 151653,
       "spotify_id": "4T0Chh3DGxJrEs3gM0biqg",
       "top_tracks": [
         {
-          "title": "That’s That",
-          "play_count": 1402206,
-          "uri": "spotify:track:2Sf6SXb3LAq4aWq6Pm9akt"
+          "title": "GOD",
+          "play_count": 2167396,
+          "uri": "spotify:track:12JITOk7QLRiczuCqZlmIF"
         },
         {
           "title": "He + She = We",
-          "play_count": 1787989,
-          "uri": "spotify:track:1OF96rbmy2GScyaEXuXo43"
+          "play_count": 2525273,
+          "uri": "spotify:track:6qdFbZXpKzgYa85h3dMdlT"
+        },
+        {
+          "title": "그게 그거지 (That’s That)",
+          "play_count": 2157753,
+          "uri": "spotify:track:6JQ1Pad31fiEp9pbzDJYhB"
         },
         {
           "title": "Kick Start",
-          "play_count": 1441966,
-          "uri": "spotify:track:5SZWHxjlK2Sbt43KjM1dCH"
+          "play_count": 1984426,
+          "uri": "spotify:track:3S4HP6bVClEGErbHCD3U0k"
         },
         {
-          "title": "Seesaw",
-          "play_count": 579001,
-          "uri": "spotify:track:6jCCxnX8sobqAXqPGR39I1"
+          "title": "I’m Down",
+          "play_count": 827522,
+          "uri": "spotify:track:10KmxTDbPwl7Xop7TzWW20"
+        },
+        {
+          "title": "I Know You",
+          "play_count": 1148233,
+          "uri": "spotify:track:531kvTzMPTg5HAw23zkO8e"
+        },
+        {
+          "title": "삐걱삐걱 (Seesaw)",
+          "play_count": 1011861,
+          "uri": "spotify:track:6OIOwc5iNN5pVT1yTlkcxs"
         },
         {
           "title": "On And On",
-          "play_count": 1990159,
-          "uri": "spotify:track:2xeVbsz4Ab2cFX9TgOoZA0"
+          "play_count": 2385190,
+          "uri": "spotify:track:3bRyI7A5sCyZSDKoLrbHMt"
+        },
+        {
+          "title": "Broken Heart",
+          "play_count": 2155503,
+          "uri": "spotify:track:73GudsEp8XCh098nie5sk3"
+        },
+        {
+          "title": "나는 나대로 (My Way)",
+          "play_count": 437917,
+          "uri": "spotify:track:08z8aSqyRY0GSr4RoXjPmh"
         }
       ]
     },
@@ -441,6 +466,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -1592,33 +1592,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 4568533,
+      "monthly_listeners": 7217028,
       "spotify_id": "68KmkJeZGfwe1OUaivBa2L",
       "top_tracks": [
         {
+          "title": "BAD",
+          "play_count": 98386866,
+          "uri": "spotify:track:55UDXtbNJBAdTdUdbRu8T3"
+        },
+        {
           "title": "Adrenaline",
-          "play_count": 17612911,
+          "play_count": 49715635,
           "uri": "spotify:track:2VKGO4DNyUK5UxCQB3b3DF"
         },
         {
-          "title": "NASA",
-          "play_count": 9832534,
-          "uri": "spotify:track:48G4rDLisHuVgCKg872Tu5"
-        },
-        {
-          "title": "Ice On My Teeth",
-          "play_count": 94745066,
-          "uri": "spotify:track:2QAFTMHp7NeuyM6P2SiB7U"
-        },
-        {
           "title": "BOUNCY (K-HOT CHILLI PEPPERS)",
-          "play_count": 177022958,
+          "play_count": 200019674,
           "uri": "spotify:track:7Lhm9BUglm30Q6Fb1Fl2By"
         },
         {
+          "title": "Ice On My Teeth",
+          "play_count": 117345619,
+          "uri": "spotify:track:2QAFTMHp7NeuyM6P2SiB7U"
+        },
+        {
           "title": "In Your Fantasy",
-          "play_count": 54824876,
+          "play_count": 76112876,
           "uri": "spotify:track:3Z4BxvgOJ8KupcDIV3OV2f"
+        },
+        {
+          "title": "WORK",
+          "play_count": 127250246,
+          "uri": "spotify:track:2v5P8pSXa4fdaTHWvJexwl"
+        },
+        {
+          "title": "MAMACITA",
+          "play_count": 13908163,
+          "uri": "spotify:track:5nLs60CiNmzVDD671PPUmy"
+        },
+        {
+          "title": "NASA",
+          "play_count": 27831188,
+          "uri": "spotify:track:48G4rDLisHuVgCKg872Tu5"
+        },
+        {
+          "title": "Lemon Drop",
+          "play_count": 58842618,
+          "uri": "spotify:track:3lnok1hUcplIhIqAHhqOis"
+        },
+        {
+          "title": "미친 폼",
+          "play_count": 128265380,
+          "uri": "spotify:track:7KRMUlKJ691FS7CIB4O7yQ"
         }
       ]
     },
@@ -2181,6 +2206,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

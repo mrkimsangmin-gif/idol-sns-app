@@ -618,33 +618,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1707797,
+      "monthly_listeners": 1538101,
       "spotify_id": "3JjvsPeGMbDJqsphe2z8xU",
       "top_tracks": [
         {
+          "title": "ICE (VVS)",
+          "play_count": 14004360,
+          "uri": "spotify:track:72jBS8tUh0hsNoMzrfR07L"
+        },
+        {
           "title": "Pretty Boy",
-          "play_count": 26263021,
-          "uri": "spotify:track:4etRRTZx5odrdgKiZqGSZ6"
+          "play_count": 36216046,
+          "uri": "spotify:track:5iD8dIftGt1S8jJu4tAKSl"
         },
         {
           "title": "UNIQUE",
-          "play_count": 1355612,
-          "uri": "spotify:track:2UcWuaUqRrKRL8iTA92ELO"
+          "play_count": 15093890,
+          "uri": "spotify:track:5KO5wEnaK3DNG3e1lJ8PUR"
         },
         {
-          "title": "DUH!",
-          "play_count": 17646882,
-          "uri": "spotify:track:6Ts5zvNORCcfLG7K5etvuA"
-        },
-        {
-          "title": "Killin' It",
-          "play_count": 48692839,
-          "uri": "spotify:track:2E7qG81LXdZEfobhcrVm06"
+          "title": "때깔 (Killin' It)",
+          "play_count": 57315501,
+          "uri": "spotify:track:34qE8Vib8pc7mTdb25tciL"
         },
         {
           "title": "Fall In Love Again",
-          "play_count": 35338927,
+          "play_count": 42778770,
           "uri": "spotify:track:7e2t41hCiR0sV4Lgv555v3"
+        },
+        {
+          "title": "DUH!",
+          "play_count": 24618223,
+          "uri": "spotify:track:7zp8O7rgtk774oAkAlHmif"
+        },
+        {
+          "title": "EX",
+          "play_count": 13485985,
+          "uri": "spotify:track:50ARYbP5bKUn4YVKZIEfbS"
+        },
+        {
+          "title": "Dancing Queen",
+          "play_count": 10009456,
+          "uri": "spotify:track:6IgeJKw2mKHM8qsQLTnC1S"
+        },
+        {
+          "title": "L.O.Y.L.",
+          "play_count": 6841148,
+          "uri": "spotify:track:2AHwpPkKr0w0uITxNQjXNt"
+        },
+        {
+          "title": "Late Night Calls",
+          "play_count": 17820268,
+          "uri": "spotify:track:2Q8aretYtcI1NqKHLDMTOT"
         }
       ]
     },
@@ -978,6 +1003,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

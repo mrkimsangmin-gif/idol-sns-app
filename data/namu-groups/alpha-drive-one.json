@@ -50,32 +50,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1001773,
+      "monthly_listeners": 561716,
       "spotify_id": "1Sal7hVz3weo0mvYZPiWHT",
       "top_tracks": [
         {
+          "title": "BORN DIRE",
+          "play_count": 5930857,
+          "uri": "spotify:track:0uO0W4hqMkMhLVlniGjNAV"
+        },
+        {
+          "title": "OMG!",
+          "play_count": 11982966,
+          "uri": "spotify:track:1VkvikePcGUUC0AZCnwPaU"
+        },
+        {
+          "title": "Talk to me",
+          "play_count": 2211553,
+          "uri": "spotify:track:662y0QbKKYLqRZ2gb5yM0Z"
+        },
+        {
+          "title": "Diamond Hour",
+          "play_count": 2439731,
+          "uri": "spotify:track:4PpjHfnIippIsCN3Et6Xl2"
+        },
+        {
+          "title": "WELCOME home",
+          "play_count": 2260327,
+          "uri": "spotify:track:4UZlWxTXdUm47CN8mPdcPl"
+        },
+        {
+          "title": "One More Time",
+          "play_count": 1991193,
+          "uri": "spotify:track:750BIRiCtXBCOyaRiA7uQg"
+        },
+        {
           "title": "FREAK ALARM",
-          "play_count": 11833482,
+          "play_count": 20681200,
           "uri": "spotify:track:44V5j1NOwRWBV8krmLnr4J"
         },
         {
+          "title": "Good Life",
+          "play_count": 5837020,
+          "uri": "spotify:track:3220JsPiR3IBIVVr1XMqiv"
+        },
+        {
           "title": "FORMULA",
-          "play_count": 9338425,
+          "play_count": 15484056,
           "uri": "spotify:track:7z81drJrJ391T2RRwFLNTk"
         },
         {
-          "title": "Cinnamon Shake",
-          "play_count": 3689627,
-          "uri": "spotify:track:1Y6uJQVtPFSIZ9KQM6ENLk"
-        },
-        {
-          "title": "Raw Flame",
-          "play_count": 3750605,
-          "uri": "spotify:track:3rOllwiAip3C9sEN3Zdw8Y"
-        },
-        {
           "title": "Chains",
-          "play_count": 3356037,
+          "play_count": 7713725,
           "uri": "spotify:track:1PK7aiFztDakbQI31cgpPP"
         }
       ]
@@ -135,6 +160,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

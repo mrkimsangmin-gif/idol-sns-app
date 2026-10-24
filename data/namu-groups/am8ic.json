@@ -99,33 +99,38 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 12154,
+      "monthly_listeners": 8533,
       "spotify_id": "3ZyYtYamMtKdAEOuo7fggB",
       "top_tracks": [
         {
           "title": "Buzzin'",
-          "play_count": 108152,
+          "play_count": 155546,
           "uri": "spotify:track:4LNoLUL3H7C5XMT7SXEELE"
         },
         {
           "title": "Link Up",
-          "play_count": 69711,
+          "play_count": 108259,
           "uri": "spotify:track:5TfER8xUllHHSdQEMDjX4h"
         },
         {
-          "title": "LUKOIE",
-          "play_count": 39269,
-          "uri": "spotify:track:2AXOaWQKnk7dg4yrIqzVnE"
-        },
-        {
           "title": "Black Moon",
-          "play_count": 38697,
+          "play_count": 75564,
           "uri": "spotify:track:2K2TDf8LOMxLS5ny0ilQ1w"
         },
         {
+          "title": "LUKOIE",
+          "play_count": 70560,
+          "uri": "spotify:track:2AXOaWQKnk7dg4yrIqzVnE"
+        },
+        {
           "title": "Escher",
-          "play_count": 31748,
+          "play_count": 53252,
           "uri": "spotify:track:2zXZeW8icDR4j7KNbYsqid"
+        },
+        {
+          "title": "Paracosm",
+          "play_count": 13521,
+          "uri": "spotify:track:5rcMwTUnszRp1tP8RdHnux"
         }
       ]
     },
@@ -200,6 +205,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

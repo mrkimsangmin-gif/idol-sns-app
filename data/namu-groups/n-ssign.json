@@ -534,33 +534,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 31514,
+      "monthly_listeners": 22559,
       "spotify_id": "3IHvi45S5SITyNES9VzSjI",
       "top_tracks": [
         {
-          "title": "Funky like me",
-          "play_count": 83116,
-          "uri": "spotify:track:6w0cNSNsGjNjzd6WTvxkuO"
+          "title": "LOOK AT ME NOW!",
+          "play_count": 50075,
+          "uri": "spotify:track:6pXd9r9urnvPYKZruPCHYJ"
         },
         {
-          "title": "FEELIN' GOOD",
-          "play_count": 17389,
-          "uri": "spotify:track:3PWuzNxDBhiVhRqGEKDSHl"
+          "title": "DANCE ON THE EARTH",
+          "play_count": 18822,
+          "uri": "spotify:track:2mKc3DJBNZIO7XTVFXuU5x"
         },
         {
           "title": "Let's do this",
-          "play_count": 505615,
+          "play_count": 581072,
           "uri": "spotify:track:3AbexHCUH8upOxEKcUzo05"
         },
         {
+          "title": "CONTINUE?",
+          "play_count": 9044,
+          "uri": "spotify:track:2QFPJ5ZZCUOT5LAgH3a6bM"
+        },
+        {
           "title": "Happy &",
-          "play_count": 686121,
+          "play_count": 745672,
           "uri": "spotify:track:03U3O2lnSCJKPdBhUUtSjV"
         },
         {
-          "title": "SCOOT UP!",
-          "play_count": 41616,
-          "uri": "spotify:track:7ul59SOwd275cYBLnZnFnu"
+          "title": "Love Malfunction",
+          "play_count": 8195,
+          "uri": "spotify:track:1riP1rtQ4cfmx3WtQxZNt5"
+        },
+        {
+          "title": "Take a shot",
+          "play_count": 7401,
+          "uri": "spotify:track:5Sf8s7RiVhJx5X47gOeKcx"
+        },
+        {
+          "title": "Funky like me",
+          "play_count": 137276,
+          "uri": "spotify:track:6w0cNSNsGjNjzd6WTvxkuO"
+        },
+        {
+          "title": "Love Potion (백일몽; 白日夢)",
+          "play_count": 352702,
+          "uri": "spotify:track:6MPl1itw6siKstgoCIeCDo"
+        },
+        {
+          "title": "Salty",
+          "play_count": 491573,
+          "uri": "spotify:track:4UQThgzdQWyU84akZI4n78"
         }
       ]
     },
@@ -1284,6 +1309,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

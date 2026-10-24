@@ -1165,33 +1165,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 9747975,
+      "monthly_listeners": 10529827,
       "spotify_id": "6YVMFz59CuY7ngCxTxjpxE",
       "top_tracks": [
         {
+          "title": "LEMONADE",
+          "play_count": 120880089,
+          "uri": "spotify:track:6vjt2smGK75oc9r2OGFfgp"
+        },
+        {
+          "title": "KISS N TELL",
+          "play_count": 36175522,
+          "uri": "spotify:track:3RbRMYqa4Gj00llC5UWuJa"
+        },
+        {
           "title": "Whiplash",
-          "play_count": 361360061,
+          "play_count": 433040498,
           "uri": "spotify:track:6uPnrBgweGOcwjFL4ItAvV"
         },
         {
           "title": "Drama",
-          "play_count": 453249440,
-          "uri": "spotify:track:5XWlyfo0kZ8LF7VSyfS4Ew"
+          "play_count": 513155928,
+          "uri": "spotify:track:0SE1qlvZVknGGKTwuXBPKz"
         },
         {
           "title": "Supernova",
-          "play_count": 396857454,
+          "play_count": 444728566,
           "uri": "spotify:track:2VdSktBqFfkW7y6q5Ik4Z4"
         },
         {
-          "title": "Rich Man",
-          "play_count": 71245656,
-          "uri": "spotify:track:53xn9j8QEj4RBJa1MlYqFy"
+          "title": "Armageddon",
+          "play_count": 347505537,
+          "uri": "spotify:track:5eWcGfUCrVFMoYskyfkEPE"
         },
         {
-          "title": "Armageddon",
-          "play_count": 310960390,
-          "uri": "spotify:track:5eWcGfUCrVFMoYskyfkEPE"
+          "title": "WDA (Whole Different Animal) (feat. G-DRAGON)",
+          "play_count": 53502323,
+          "uri": "spotify:track:6QkyFjUMmncXzu6oSWKwHQ"
+        },
+        {
+          "title": "Saddle Up (WINTER Solo)",
+          "play_count": 4895525,
+          "uri": "spotify:track:7G8Ycb0hYdQ7cgjVvZ9fAL"
+        },
+        {
+          "title": "I Love You But I Gotta Let You Go (NINGNING Solo)",
+          "play_count": 4864980,
+          "uri": "spotify:track:4VHu6TXzapvQG6tURPVRXj"
+        },
+        {
+          "title": "Rich Man",
+          "play_count": 101059741,
+          "uri": "spotify:track:53xn9j8QEj4RBJa1MlYqFy"
         }
       ]
     },
@@ -1535,6 +1560,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

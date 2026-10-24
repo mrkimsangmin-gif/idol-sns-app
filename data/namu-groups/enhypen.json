@@ -2092,33 +2092,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 10070999,
+      "monthly_listeners": 10020904,
       "spotify_id": "5t5FqBwTcgKTaWmfEbwQY9",
       "top_tracks": [
         {
-          "title": "Knife",
-          "play_count": 40696759,
-          "uri": "spotify:track:0TKCUjfV3YGuY99MxCKM5w"
+          "title": "Bloody Paradise",
+          "play_count": 67002992,
+          "uri": "spotify:track:5vlnF0r5xACeurZwjgn0Ij"
         },
         {
           "title": "Bite Me",
-          "play_count": 480298694,
+          "play_count": 543872454,
           "uri": "spotify:track:7mpdNiaQvygj2rHoxkzMfa"
         },
         {
-          "title": "Big Girls Don't Cry",
-          "play_count": 23011467,
-          "uri": "spotify:track:0NsmpxrKw7ZWGKjnWVJtm5"
-        },
-        {
-          "title": "Moonstruck",
-          "play_count": 141852563,
-          "uri": "spotify:track:3gYWGRS64XrGSrjD3vvtga"
+          "title": "Drunk-Dazed",
+          "play_count": 469806688,
+          "uri": "spotify:track:1wcr8DjnN59Awev8nnKpQ4"
         },
         {
           "title": "XO (Only If You Say Yes)",
-          "play_count": 196482871,
+          "play_count": 241655266,
           "uri": "spotify:track:3RkSwrsIadAvqVtMp5yhaB"
+        },
+        {
+          "title": "Moonstruck",
+          "play_count": 184612468,
+          "uri": "spotify:track:3gYWGRS64XrGSrjD3vvtga"
+        },
+        {
+          "title": "Bad For You",
+          "play_count": 16335819,
+          "uri": "spotify:track:6mtOUelCiuBp6rYiXO8xsS"
+        },
+        {
+          "title": "Stuck",
+          "play_count": 14174569,
+          "uri": "spotify:track:3zjo48q28UqhpDaA3Ktism"
+        },
+        {
+          "title": "Knife",
+          "play_count": 86552570,
+          "uri": "spotify:track:0TKCUjfV3YGuY99MxCKM5w"
+        },
+        {
+          "title": "No Doubt",
+          "play_count": 186087309,
+          "uri": "spotify:track:44hqFxUWsADWewEJELnncj"
+        },
+        {
+          "title": "FEVER",
+          "play_count": 493757328,
+          "uri": "spotify:track:0UzymivvUH5s8z4PeWZJaK"
         }
       ]
     },
@@ -3005,6 +3030,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

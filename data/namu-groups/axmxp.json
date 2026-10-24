@@ -128,33 +128,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 107356,
+      "monthly_listeners": 105605,
       "spotify_id": "2XUQUIfzPtEZtkjU0D9y8C",
       "top_tracks": [
         {
+          "title": "나를 만나야 할 10가지 이유",
+          "play_count": 232720,
+          "uri": "spotify:track:09EtvLxsF9NJOhNaX8C45T"
+        },
+        {
           "title": "SEE YOU LATER",
-          "play_count": 1171516,
+          "play_count": 1561193,
           "uri": "spotify:track:15q2nuxEjPin3TAum685tf"
         },
         {
-          "title": "PASS",
-          "play_count": 184758,
-          "uri": "spotify:track:0V32dVXNkIfrRrenhbR0Sz"
+          "title": "편의점 불빛 (24 Hours)",
+          "play_count": 261188,
+          "uri": "spotify:track:4wbavXv6J8DIzAXgkhhM9i"
         },
         {
-          "title": "Thereafter",
-          "play_count": 130572,
-          "uri": "spotify:track:0XUwd2IUSjzOrqGkz8kE1P"
+          "title": "Shocking Drama",
+          "play_count": 498261,
+          "uri": "spotify:track:7H3ku2fqWKy7OgCKPyPgOq"
         },
         {
           "title": "I Did It",
-          "play_count": 360067,
-          "uri": "spotify:track:6AKmmsg5C3p86Nm8qwzYc1"
+          "play_count": 602316,
+          "uri": "spotify:track:2YaorcUpbCOSGpjc4FssJO"
         },
         {
-          "title": "Punch-Drunk",
-          "play_count": 105120,
-          "uri": "spotify:track:0h6lFZY3Q69WFUT0SAfBPG"
+          "title": "사랑하지 않았다면 일어나지 않았을 일들",
+          "play_count": 88910,
+          "uri": "spotify:track:0eJuPfy6Sy1OLpZkmxlVmZ"
+        },
+        {
+          "title": "그리고 며칠 후 (Thereafter)",
+          "play_count": 336619,
+          "uri": "spotify:track:4UMOxO1I52MePeSEesyvER"
+        },
+        {
+          "title": "Back To Yesterday",
+          "play_count": 101914,
+          "uri": "spotify:track:0yJ51xeLEhM1oNAwgHX4Ch"
+        },
+        {
+          "title": "White T-shirt",
+          "play_count": 398818,
+          "uri": "spotify:track:6LuN03845cMV4tYfP3Wri7"
+        },
+        {
+          "title": "너는 나를 시인으로 만들어 (Love Poem)",
+          "play_count": 423789,
+          "uri": "spotify:track:1NFc7xVZj5fryxTapumZqf"
         }
       ]
     },
@@ -290,6 +315,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

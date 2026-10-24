@@ -509,33 +509,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1283682,
+      "monthly_listeners": 934772,
       "spotify_id": "7cjg7EkeZy3OI5o9Qthc6n",
       "top_tracks": [
         {
-          "title": "LOVEPOCALYPSE",
-          "play_count": 4669731,
-          "uri": "spotify:track:7xbNUUy1y3zNqvp65TXaa9"
+          "title": "TOP 5",
+          "play_count": 17252855,
+          "uri": "spotify:track:5cnWHHvU8MnHTjjAjeJffl"
         },
         {
-          "title": "ICONIK",
-          "play_count": 26417470,
-          "uri": "spotify:track:7srZ5Feiz5S4R4O9jL1Dx4"
-        },
-        {
-          "title": "In Bloom",
-          "play_count": 79849904,
-          "uri": "spotify:track:3F4lHPNHlvr3RpO4tpVOIs"
+          "title": "イグジステンス",
+          "play_count": 2176508,
+          "uri": "spotify:track:48m7ipLnWLf5UlArZvthQ4"
         },
         {
           "title": "Doctor! Doctor!",
-          "play_count": 32268922,
+          "play_count": 37510204,
           "uri": "spotify:track:4yQ5AHwQd3w7IkV1mtzDwf"
         },
         {
-          "title": "Running to Future",
-          "play_count": 5584529,
-          "uri": "spotify:track:6tn8DOizEPVGwqgqdXsYYN"
+          "title": "In Bloom",
+          "play_count": 85502188,
+          "uri": "spotify:track:3F4lHPNHlvr3RpO4tpVOIs"
+        },
+        {
+          "title": "ICONIK",
+          "play_count": 30202398,
+          "uri": "spotify:track:7srZ5Feiz5S4R4O9jL1Dx4"
+        },
+        {
+          "title": "Exotic",
+          "play_count": 4296938,
+          "uri": "spotify:track:0H7qOCfiW72j4Ca55xtTQz"
+        },
+        {
+          "title": "V for Vision",
+          "play_count": 4076046,
+          "uri": "spotify:track:4foI2w5tDApfKHIrGSlNEr"
+        },
+        {
+          "title": "Aphrodite",
+          "play_count": 896033,
+          "uri": "spotify:track:7KbHVUBw2NihGysGGDpN0f"
+        },
+        {
+          "title": "Customize",
+          "play_count": 4011885,
+          "uri": "spotify:track:63gcaU8ttFP5bKMnVReSZu"
+        },
+        {
+          "title": "GOOD SO BAD",
+          "play_count": 33708003,
+          "uri": "spotify:track:28HVi8XtrlKauIVUxSlc6q"
         }
       ]
     },
@@ -820,6 +845,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

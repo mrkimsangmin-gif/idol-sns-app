@@ -192,33 +192,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 38207,
+      "monthly_listeners": 31078,
       "spotify_id": "0NztgA9b1KEJLjLVqMwd9y",
       "top_tracks": [
         {
           "title": "Dark Dream",
-          "play_count": 3037257,
+          "play_count": 3168881,
           "uri": "spotify:track:6CWGueLHg5lmG43fy27oJQ"
         },
         {
-          "title": "Tame",
-          "play_count": 17014,
-          "uri": "spotify:track:0oyoiaSXh4HvHbHUEyUrYo"
-        },
-        {
           "title": "Dangerous",
-          "play_count": 3364447,
+          "play_count": 3454547,
           "uri": "spotify:track:50DL5njQWzcOzJdS2OR8cP"
         },
         {
           "title": "TEARS OF CHAOS",
-          "play_count": 2402909,
+          "play_count": 2485514,
           "uri": "spotify:track:0ocXXOaJuoNy0GZecVGmHt"
         },
         {
+          "title": "Tame",
+          "play_count": 120089,
+          "uri": "spotify:track:0oyoiaSXh4HvHbHUEyUrYo"
+        },
+        {
           "title": "Creature",
-          "play_count": 1495331,
+          "play_count": 1548676,
           "uri": "spotify:track:6Ic1LFxLwE7diI7OzPUNbK"
+        },
+        {
+          "title": "Swear",
+          "play_count": 1816039,
+          "uri": "spotify:track:7euJJw5Kwvp2fQM5PYPjQu"
+        },
+        {
+          "title": "Thrill",
+          "play_count": 1180173,
+          "uri": "spotify:track:23l2mR8hgNncbR98Sp9QU1"
+        },
+        {
+          "title": "Kiss me Baby",
+          "play_count": 518889,
+          "uri": "spotify:track:4j9oSggZykTGFCNqJ3PNRm"
+        },
+        {
+          "title": "Gasoline",
+          "play_count": 374172,
+          "uri": "spotify:track:29gvL6gWNog8iMml53ig1C"
+        },
+        {
+          "title": "Nightmare",
+          "play_count": 493781,
+          "uri": "spotify:track:4eFVB3jWltiHLElm1dOgtX"
         }
       ]
     },
@@ -541,6 +566,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -192,33 +192,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 7365261,
+      "monthly_listeners": 11147216,
       "spotify_id": "1ebt9HnXdyYA6KgLXr1n4P",
       "top_tracks": [
         {
+          "title": "REDRED",
+          "play_count": 260518662,
+          "uri": "spotify:track:34YVCoqIm08nbsxFSPL0Uh"
+        },
+        {
           "title": "GO!",
-          "play_count": 145680781,
+          "play_count": 259525424,
           "uri": "spotify:track:6OWWZtNQORY1McaZmOrwhc"
         },
         {
           "title": "FaSHioN",
-          "play_count": 133499896,
+          "play_count": 241113907,
           "uri": "spotify:track:4ecdsGz3Hg6TKPwQ0ZOdJz"
         },
         {
+          "title": "ACAI",
+          "play_count": 73329954,
+          "uri": "spotify:track:5IKJR2os45Ps1ZJyqpevg7"
+        },
+        {
+          "title": "MONEYMONEYMONEY",
+          "play_count": 23225226,
+          "uri": "spotify:track:0soE3o6dUx6YiSzpUkfyBE"
+        },
+        {
+          "title": "TNT",
+          "play_count": 71230090,
+          "uri": "spotify:track:4VkPbGQ93cQv05Pq1ytaU6"
+        },
+        {
           "title": "JoyRide",
-          "play_count": 53191390,
+          "play_count": 115703407,
           "uri": "spotify:track:6T17ZI0glfM2IGLdUwtnLK"
         },
         {
           "title": "What You Want",
-          "play_count": 57683641,
+          "play_count": 114813878,
           "uri": "spotify:track:3rAcN3CLeSrkhIZN8PHbwb"
         },
         {
-          "title": "Mention Me - From The Movie \"GOAT\"",
-          "play_count": 10201196,
-          "uri": "spotify:track:3f0OEJd7mlPNhmH3fUOrqy"
+          "title": "MOTION (feat. Juicy J)",
+          "play_count": 29947896,
+          "uri": "spotify:track:15EbINtnOI4c2jPXXskywy"
+        },
+        {
+          "title": "YOUNGCREATORCREW",
+          "play_count": 51567022,
+          "uri": "spotify:track:3uUYkv5dzVORi2Iq3dLDKN"
         }
       ]
     },
@@ -288,6 +313,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

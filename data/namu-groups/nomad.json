@@ -128,33 +128,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 9036,
+      "monthly_listeners": 6196,
       "spotify_id": "3hscj9beAfMyBhBxJsHisK",
       "top_tracks": [
         {
           "title": "Automatic",
-          "play_count": 329727,
+          "play_count": 360446,
           "uri": "spotify:track:6U5AEaTtLE28FBU8PMecjh"
         },
         {
           "title": "No pressure",
-          "play_count": 483164,
+          "play_count": 508136,
           "uri": "spotify:track:7kLeR8y4onZTbvkJPkYSwI"
         },
         {
           "title": "Eye 2 eye",
-          "play_count": 260157,
+          "play_count": 283075,
           "uri": "spotify:track:0HuigRzEI5RhDxnfI2CDTX"
         },
         {
           "title": "Lights on",
-          "play_count": 301022,
+          "play_count": 319895,
           "uri": "spotify:track:6iV92BDHIlbQ1fFD9W2CPG"
         },
         {
           "title": "California love",
-          "play_count": 315974,
+          "play_count": 333889,
           "uri": "spotify:track:30GVF75McmPCzN7bpcijZD"
+        },
+        {
+          "title": "Oasis",
+          "play_count": 221750,
+          "uri": "spotify:track:4gsjk6lVx67qe73HI6PhQ1"
+        },
+        {
+          "title": "Call Me Back",
+          "play_count": 186332,
+          "uri": "spotify:track:2Jw0QnX4IiOT8sU9ZZhr2P"
+        },
+        {
+          "title": "Let me love you",
+          "play_count": 193694,
+          "uri": "spotify:track:5VhuXfRL7Vq5y776Gcajw5"
+        },
+        {
+          "title": "Compare",
+          "play_count": 128357,
+          "uri": "spotify:track:7ATO9Uqz1rI7zK0yRa2hgm"
+        },
+        {
+          "title": "CARNIVAL",
+          "play_count": 79271,
+          "uri": "spotify:track:1OASHXjaydGBfW7dbo4jQm"
         }
       ]
     },
@@ -234,6 +259,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

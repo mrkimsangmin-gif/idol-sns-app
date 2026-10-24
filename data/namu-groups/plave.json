@@ -518,33 +518,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 486313,
+      "monthly_listeners": 951652,
       "spotify_id": "0k2zyzGq6HX383VlMBOvRG",
       "top_tracks": [
         {
-          "title": "BBUU!",
-          "play_count": 7568738,
-          "uri": "spotify:track:6WCEA1cWcv3jfsVXpWdeXR"
+          "title": "Star Trace",
+          "play_count": 3555045,
+          "uri": "spotify:track:1uH8RqO7kx4je1VS91Oe02"
         },
         {
-          "title": "Bongsoong-a",
-          "play_count": 4828085,
-          "uri": "spotify:track:577VqzH5cBo0KoOrvWcvcO"
+          "title": "푸른 하늘에 단비",
+          "play_count": 2153281,
+          "uri": "spotify:track:4EYRsQWjtGmiqS2jUAsLsa"
         },
         {
-          "title": "Chroma Drift",
-          "play_count": 22149997,
-          "uri": "spotify:track:0BA3uoKlu9CsHgXIeAiXmJ"
+          "title": "꾼",
+          "play_count": 2062564,
+          "uri": "spotify:track:09qDfTzRZ0bM8joSzQ0uLF"
         },
         {
-          "title": "Dash",
-          "play_count": 25958604,
-          "uri": "spotify:track:2sDcIrosoXqiGv1D5OQUvF"
+          "title": "The Answer Is Yes",
+          "play_count": 1846239,
+          "uri": "spotify:track:5l7D7feCXQZgCPolpVgmCN"
         },
         {
-          "title": "숨바꼭질 (Hide and Seek)",
-          "play_count": 2309146,
-          "uri": "spotify:track:3gDP2NEKXvjr43YDpvgmcH"
+          "title": "Rewind",
+          "play_count": 1834359,
+          "uri": "spotify:track:60UaZ1MiaNKfidvhQt60TX"
+        },
+        {
+          "title": "Born Savage",
+          "play_count": 17641514,
+          "uri": "spotify:track:21AdIbIIP9cFgwnwEnEl07"
+        },
+        {
+          "title": "흥흥흥",
+          "play_count": 12753863,
+          "uri": "spotify:track:2CbgyivbjNuNrBuEDMps23"
+        },
+        {
+          "title": "그런 것 같아",
+          "play_count": 9724548,
+          "uri": "spotify:track:31j1MsMKLHmHi5EoKXZb29"
+        },
+        {
+          "title": "꽃송이들의 퍼레이드",
+          "play_count": 8907527,
+          "uri": "spotify:track:4FmDP1vwxnZzcMJWHxYhvq"
+        },
+        {
+          "title": "Lunar Hearts",
+          "play_count": 9198122,
+          "uri": "spotify:track:6fCRPp9FpWYIyyhefMQp64"
         }
       ]
     },
@@ -721,6 +746,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -889,33 +889,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 966046,
+      "monthly_listeners": 1041020,
       "spotify_id": "5Z71xE9prhpHrqL5thVMyK",
       "top_tracks": [
         {
           "title": "Girls Never Die",
-          "play_count": 53232492,
+          "play_count": 60304201,
           "uri": "spotify:track:0Ol7uhYjodbXAKKarXdn6r"
         },
         {
-          "title": "Are You Alive",
-          "play_count": 15191846,
+          "title": "깨어 (Are You Alive)",
+          "play_count": 21574097,
           "uri": "spotify:track:0KEgaOvobKmv9VVQg2WI0P"
         },
         {
-          "title": "Cameo Love",
-          "play_count": 2996972,
-          "uri": "spotify:track:1JR7Ko9pkVRXuKWZz8VZQF"
+          "title": "Andless",
+          "play_count": 448544,
+          "uri": "spotify:track:1W5v9eqmHWglEcKInhgbca"
+        },
+        {
+          "title": "Baby Flower",
+          "play_count": 5580691,
+          "uri": "spotify:track:4tBgc1SEpeU6t5YRoOMI5P"
         },
         {
           "title": "Generation",
-          "play_count": 54679577,
+          "play_count": 57075794,
           "uri": "spotify:track:1RHTdr5QfviCYI70QPPDJN"
         },
         {
           "title": "Rising",
-          "play_count": 34276503,
+          "play_count": 36388653,
           "uri": "spotify:track:6QCPweR3aP6nj7P43WpiZs"
+        },
+        {
+          "title": "Girls’ Capitalism",
+          "play_count": 20286400,
+          "uri": "spotify:track:2ivVS2ageitCQqnmmMaWoH"
+        },
+        {
+          "title": "Cameo Love",
+          "play_count": 4564439,
+          "uri": "spotify:track:1JR7Ko9pkVRXuKWZz8VZQF"
+        },
+        {
+          "title": "World Wild Women",
+          "play_count": 615208,
+          "uri": "spotify:track:2cdOUhp3imTL6KyTnSc2b8"
+        },
+        {
+          "title": "Welcome to Heaven",
+          "play_count": 218460,
+          "uri": "spotify:track:0KBmPjpBQ1fZhVGjFZ7q38"
         }
       ]
     },
@@ -1762,6 +1787,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

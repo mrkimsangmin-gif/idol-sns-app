@@ -464,33 +464,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 387602,
+      "monthly_listeners": 412252,
       "spotify_id": "2GQxKDojobwBjZMPf7aoh0",
       "top_tracks": [
         {
+          "title": "WORK",
+          "play_count": 4122886,
+          "uri": "spotify:track:6IIEwumFCSlVrna5cHW7Ac"
+        },
+        {
           "title": "GingaMingaYo (the strange world)",
-          "play_count": 44013321,
+          "play_count": 45531637,
           "uri": "spotify:track:53Wa5dwbGUT8Jcg08FYfV5"
         },
         {
+          "title": "ZAP",
+          "play_count": 1705262,
+          "uri": "spotify:track:6PLgpJz0y2xY4Ooa9IhyUq"
+        },
+        {
           "title": "BYOB (bring your own best friend)",
-          "play_count": 13908920,
+          "play_count": 15075632,
           "uri": "spotify:track:1XC46heLGYz83ResGphueE"
         },
         {
-          "title": "cloud palace",
-          "play_count": 378564,
-          "uri": "spotify:track:1dsuEyZ0ZPgL7Z1HAaFSek"
-        },
-        {
-          "title": "cloud palace - Before moonset mix",
-          "play_count": 244081,
-          "uri": "spotify:track:5nBOkzsdzL7MYTSGt1X4qA"
-        },
-        {
           "title": "EUNOIA",
-          "play_count": 14221455,
+          "play_count": 14833201,
           "uri": "spotify:track:0a56sRmdBxCON2nkEgjDqC"
+        },
+        {
+          "title": "RING X RING",
+          "play_count": 12156289,
+          "uri": "spotify:track:4J4n4e8gwvzsHQ6DEqnwCV"
+        },
+        {
+          "title": "nevertheless",
+          "play_count": 3208289,
+          "uri": "spotify:track:0fcOEJWXkYbgUBpaZW4snF"
+        },
+        {
+          "title": "OFF-AIR",
+          "play_count": 479369,
+          "uri": "spotify:track:1VqOUGDU0ggpmgR4Tv5FkU"
+        },
+        {
+          "title": "RING ma Bell (what a wonderful world)",
+          "play_count": 10073573,
+          "uri": "spotify:track:6hcSUO1ulqk5bCuJachSIY"
+        },
+        {
+          "title": "TBD",
+          "play_count": 553089,
+          "uri": "spotify:track:2Uzma83cTyoeLhoRWs84pz"
         }
       ]
     },
@@ -814,6 +839,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

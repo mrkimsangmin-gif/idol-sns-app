@@ -1434,33 +1434,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1208619,
+      "monthly_listeners": 1344074,
       "spotify_id": "4TnGh5PKbSjpYqpIdlW5nz",
       "top_tracks": [
         {
-          "title": "baby blue",
-          "play_count": 2907340,
-          "uri": "spotify:track:2iUv18ruokAyhWk9w0CTYy"
+          "title": "MAGIC",
+          "play_count": 1392917,
+          "uri": "spotify:track:390kIxRDC9MAaalV4JdaXf"
         },
         {
           "title": "HERO",
-          "play_count": 75490641,
+          "play_count": 78522665,
           "uri": "spotify:track:6gorwqDJ7bsdCHcVs5uS9u"
         },
         {
           "title": "MIDDLE OF THE NIGHT",
-          "play_count": 71354057,
+          "play_count": 73937125,
           "uri": "spotify:track:2QqHAiFdDZKFJkr1xCV9dG"
         },
         {
+          "title": "heal",
+          "play_count": 3161125,
+          "uri": "spotify:track:34kczquuUdb7gLHhZGR8jp"
+        },
+        {
+          "title": "baby blue",
+          "play_count": 5711176,
+          "uri": "spotify:track:4FWdu9L38N0ygairKE21r6"
+        },
+        {
+          "title": "SURVIVOR",
+          "play_count": 802120,
+          "uri": "spotify:track:3mp6dPLMC38WBD8I0Zdqem"
+        },
+        {
           "title": "Love Killa",
-          "play_count": 50449479,
+          "play_count": 52443494,
           "uri": "spotify:track:3sPju6MEJhk7Sz8dsRBkLQ"
         },
         {
+          "title": "Type X",
+          "play_count": 668012,
+          "uri": "spotify:track:6QcFCQLrqFIX2mJz4VCxQJ"
+        },
+        {
           "title": "WHO DO U LOVE? (feat. French Montana)",
-          "play_count": 74133337,
+          "play_count": 75986712,
           "uri": "spotify:track:4koDrJbYxIlcDY4gu2a4I8"
+        },
+        {
+          "title": "DRAMARAMA",
+          "play_count": 61357261,
+          "uri": "spotify:track:1BSncOsSJPQkpl29QM0ipj"
         }
       ]
     },
@@ -2207,6 +2232,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

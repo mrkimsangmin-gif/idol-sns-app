@@ -843,36 +843,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1743282,
+      "monthly_listeners": 1843362,
       "spotify_id": "3KonOYiLsU53m4yT7gNotP",
       "top_tracks": [
         {
-          "title": "DARARI",
-          "play_count": 271469539,
+          "title": "IF I",
+          "play_count": 26376234,
+          "uri": "spotify:track:6m0pwEawaU2NIygsdc8OPP"
+        },
+        {
+          "title": "다라리 (DARARI)",
+          "play_count": 282999104,
           "uri": "spotify:track:0dcnrLo8s1rhjm8euGjI4n"
         },
         {
+          "title": "HELLO",
+          "play_count": 98065431,
+          "uri": "spotify:track:1ex8euBuzVyqjThnYfwY2k"
+        },
+        {
           "title": "YELLOW",
-          "play_count": 31875535,
+          "play_count": 39492653,
           "uri": "spotify:track:7jKwFhIqA1a1HLk6AsVDYc"
         },
         {
-          "title": "PARADISE",
-          "play_count": 19338604,
-          "uri": "spotify:track:20pXBnV8q1xnWzSijxq6QM"
+          "title": "ZOOM ZOOM",
+          "play_count": 8867723,
+          "uri": "spotify:track:098yqVQHwObj19A8Uv5Odu"
         },
         {
-          "title": "JIKJIN",
-          "play_count": 138625093,
+          "title": "직진 (JIKJIN)",
+          "play_count": 150379934,
           "uri": "spotify:track:2bnJ8IxZnVc2YmUaX0sZap"
         },
         {
-          "title": "HELLO",
-          "play_count": 92036808,
-          "uri": "spotify:track:1ex8euBuzVyqjThnYfwY2k"
+          "title": "난리나 (NALLY-NA) (HYUNHAYO)",
+          "play_count": 7913474,
+          "uri": "spotify:track:3twfdYYw1Taz2SQZfnvy3J"
+        },
+        {
+          "title": "PARADISE",
+          "play_count": 25413474,
+          "uri": "spotify:track:20pXBnV8q1xnWzSijxq6QM"
+        },
+        {
+          "title": "DANGER",
+          "play_count": 6254604,
+          "uri": "spotify:track:6b4izesieqwehnnyg8uFCP"
+        },
+        {
+          "title": "LAST NIGHT",
+          "play_count": 25665430,
+          "uri": "spotify:track:21z4JbxYftHk9Ertnhv3xB"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

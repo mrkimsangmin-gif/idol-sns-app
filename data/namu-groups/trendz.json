@@ -303,36 +303,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 40559,
+      "monthly_listeners": 38517,
       "spotify_id": "6Bmr9e9x44iib7equMj5Qj",
       "top_tracks": [
         {
+          "title": "On My Knees",
+          "play_count": 204537,
+          "uri": "spotify:track:3ZsCxN0FJ9rFQCo9ye5Jz7"
+        },
+        {
           "title": "NEW DAYZ",
-          "play_count": 1703907,
+          "play_count": 1834297,
           "uri": "spotify:track:5WfZIXUF0PlUMUcETTpk7t"
         },
         {
-          "title": "Kart Racer",
-          "play_count": 34852,
-          "uri": "spotify:track:1hnpRy9O93jZs9HI51y02u"
+          "title": "MY WAY",
+          "play_count": 693825,
+          "uri": "spotify:track:6w4QiIpOwtNKDMQBXBkBCS"
         },
         {
-          "title": "Crime",
-          "play_count": 87350,
-          "uri": "spotify:track:0yWMqHZAwjzdDQaDTpv3pk"
+          "title": "Nightmare",
+          "play_count": 582897,
+          "uri": "spotify:track:2eUjysOTaWuJBMHXvzvcmo"
         },
         {
           "title": "VAGABOND",
-          "play_count": 618027,
+          "play_count": 678458,
           "uri": "spotify:track:62zGOAGCpElZUCN0TzP39r"
         },
         {
-          "title": "MY WAY",
-          "play_count": 619214,
-          "uri": "spotify:track:6w4QiIpOwtNKDMQBXBkBCS"
+          "title": "Which Way is Love?",
+          "play_count": 19723,
+          "uri": "spotify:track:6Zv54roYOrsMuzLezOZY0f"
+        },
+        {
+          "title": "Crime",
+          "play_count": 149580,
+          "uri": "spotify:track:0yWMqHZAwjzdDQaDTpv3pk"
+        },
+        {
+          "title": "Villain",
+          "play_count": 871428,
+          "uri": "spotify:track:0cJb8ETU06dBISn0La9iTF"
+        },
+        {
+          "title": "Kart Racer",
+          "play_count": 89992,
+          "uri": "spotify:track:1hnpRy9O93jZs9HI51y02u"
+        },
+        {
+          "title": "TNT (Truth&Trust)",
+          "play_count": 825320,
+          "uri": "spotify:track:4T30WW01s7L6kVDjJcIjST"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

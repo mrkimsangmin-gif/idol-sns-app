@@ -720,33 +720,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 237167,
+      "monthly_listeners": 285475,
       "spotify_id": "6FkhUhUwSPl3mGB6mmE8wn",
       "top_tracks": [
         {
-          "title": "Lemonade Fever",
-          "play_count": 958231,
-          "uri": "spotify:track:6tywjVskwCOlog3bRWus42"
+          "title": "LOUDER",
+          "play_count": 327597,
+          "uri": "spotify:track:4k4jZ2V6kZjsuDOLqvRTbl"
+        },
+        {
+          "title": "LOVE ME",
+          "play_count": 133974,
+          "uri": "spotify:track:3qa8Wtj4XuEdob1OkxsM1q"
+        },
+        {
+          "title": "AWAKE",
+          "play_count": 1390492,
+          "uri": "spotify:track:0roHd2LRFRPs9QE6bf4Tzi"
         },
         {
           "title": "Love or Die",
-          "play_count": 6755585,
+          "play_count": 7485851,
           "uri": "spotify:track:6UyOqNdJweSjjZsguSgYO1"
         },
         {
-          "title": "SET NET G0?!",
-          "play_count": 1134598,
-          "uri": "spotify:track:6caqFtBxhs0Ms2fW5YDb1f"
+          "title": "Fantasy",
+          "play_count": 91388,
+          "uri": "spotify:track:2qrmXTrzR5oYnU7l3waWMc"
         },
         {
-          "title": "BLAST OUT",
-          "play_count": 78038,
-          "uri": "spotify:track:6TLlOLLcsxBrtlWsGzVF37"
+          "title": "Seize The Night",
+          "play_count": 90399,
+          "uri": "spotify:track:2XCj3EjZqBH4LCsAy0X8Dp"
         },
         {
-          "title": "Now or Never",
-          "play_count": 1541877,
-          "uri": "spotify:track:4IxDz5uLTRq8HcSbvVXk81"
+          "title": "Lucky Charm",
+          "play_count": 87179,
+          "uri": "spotify:track:56MPTndyrAtcGqYX6j0cxa"
+        },
+        {
+          "title": "Lemonade Fever",
+          "play_count": 1543480,
+          "uri": "spotify:track:6tywjVskwCOlog3bRWus42"
+        },
+        {
+          "title": "Odd One Out",
+          "play_count": 81539,
+          "uri": "spotify:track:5EMXPuErLbQf8IDTdclf2G"
+        },
+        {
+          "title": "Pulse",
+          "play_count": 82476,
+          "uri": "spotify:track:0REKydLE4JUnPS0PEqplLB"
         }
       ]
     },
@@ -1120,6 +1145,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

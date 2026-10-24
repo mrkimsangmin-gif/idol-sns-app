@@ -128,36 +128,41 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2599,
+      "monthly_listeners": 10769,
       "spotify_id": "7skRnGeXWAZPkWalXSyyiX",
       "top_tracks": [
         {
-          "title": "Run Baby Run",
-          "play_count": 36865,
-          "uri": "spotify:track:2kYY7NwO4tVRBHSiO17dlw"
-        },
-        {
           "title": "BLALA",
-          "play_count": 48411,
+          "play_count": 69626,
           "uri": "spotify:track:24V8DuHNwT0KieC1jnds6s"
         },
         {
+          "title": "Run Baby Run",
+          "play_count": 50626,
+          "uri": "spotify:track:2kYY7NwO4tVRBHSiO17dlw"
+        },
+        {
           "title": "Beautiful Story (Highlight)",
-          "play_count": 12818,
+          "play_count": 17210,
           "uri": "spotify:track:1lpTotPZiCwYdPGKeB8OIo"
         },
         {
+          "title": "BLALA (Instrumental)",
+          "play_count": 0,
+          "uri": "spotify:track:0blwsexRmGteXQk4nYttri"
+        },
+        {
           "title": "Run Baby Run (Instrumental)",
-          "play_count": 3359,
+          "play_count": 3611,
           "uri": "spotify:track:01ORDmXoSNgOpprkSXUOUv"
         },
         {
-          "title": "BLALA (Instrumental)",
-          "play_count": 1982,
-          "uri": "spotify:track:0blwsexRmGteXQk4nYttri"
+          "title": "Beautiful Story (Highlight) (Instrumental)",
+          "play_count": 0,
+          "uri": "spotify:track:4ISvtBI4i16heGNX71BlL1"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

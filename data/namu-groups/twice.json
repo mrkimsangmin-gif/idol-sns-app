@@ -3333,33 +3333,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 16558318,
+      "monthly_listeners": 14876068,
       "spotify_id": "7n2Ycct7Beij7Dj7meI4X0",
       "top_tracks": [
         {
-          "title": "Strategy",
-          "play_count": 310825981,
-          "uri": "spotify:track:3yXCK8TTnHknY7VVcsNTjx"
-        },
-        {
-          "title": "TAKEDOWN (JEONGYEON, JIHYO, CHAEYOUNG)",
-          "play_count": 297492383,
-          "uri": "spotify:track:66YNrNS01ox8TJwxN67BfY"
-        },
-        {
-          "title": "THIS IS FOR",
-          "play_count": 153119161,
-          "uri": "spotify:track:3fwjo4HYqaQcvdJP3d4twX"
-        },
-        {
           "title": "What is Love?",
-          "play_count": 631609475,
+          "play_count": 710553569,
           "uri": "spotify:track:7L81PqO3zKKPsfO7jfyvus"
         },
         {
+          "title": "Strategy",
+          "play_count": 382740031,
+          "uri": "spotify:track:3yXCK8TTnHknY7VVcsNTjx"
+        },
+        {
+          "title": "THIS IS FOR",
+          "play_count": 213096197,
+          "uri": "spotify:track:3fwjo4HYqaQcvdJP3d4twX"
+        },
+        {
+          "title": "TAKEDOWN (JEONGYEON, JIHYO, CHAEYOUNG)",
+          "play_count": 352337827,
+          "uri": "spotify:track:66YNrNS01ox8TJwxN67BfY"
+        },
+        {
+          "title": "The Feels",
+          "play_count": 596729512,
+          "uri": "spotify:track:73Jmci4Dvc6zhgQZEe3Lnj"
+        },
+        {
           "title": "Strategy (feat. Megan Thee Stallion)",
-          "play_count": 167803452,
+          "play_count": 207153889,
           "uri": "spotify:track:5111HV1Fb6hfeHH0b7VYMm"
+        },
+        {
+          "title": "FANCY",
+          "play_count": 647960268,
+          "uri": "spotify:track:2IZ6fFOq5d8lT0CxLDcxKz"
+        },
+        {
+          "title": "I CAN'T STOP ME",
+          "play_count": 527303737,
+          "uri": "spotify:track:23QEjYBflCF26fzUppQTrv"
+        },
+        {
+          "title": "CHEER UP",
+          "play_count": 239577168,
+          "uri": "spotify:track:0QngtucRGPxyaTQ9u47UnN"
+        },
+        {
+          "title": "Feel Special",
+          "play_count": 482374857,
+          "uri": "spotify:track:2gN7FWVu7rq1MxJ7DGjhtb"
         }
       ]
     },
@@ -4111,6 +4136,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

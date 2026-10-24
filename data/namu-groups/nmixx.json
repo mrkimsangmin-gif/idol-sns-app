@@ -623,33 +623,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 4018133,
+      "monthly_listeners": 3870896,
       "spotify_id": "28ot3wh4oNmoFOdVajibBl",
       "top_tracks": [
         {
+          "title": "Heavy Serenade",
+          "play_count": 38961145,
+          "uri": "spotify:track:2adYJ0qJw5Io8nhtQ9KjHq"
+        },
+        {
           "title": "Blue Valentine",
-          "play_count": 45894329,
+          "play_count": 80949094,
           "uri": "spotify:track:0FKR7mQJnYqdEmHAMhgQjw"
         },
         {
-          "title": "TIC TIC (feat. Pabllo Vittar)",
-          "play_count": 3672195,
-          "uri": "spotify:track:3LI7emieOkgFz1qbVcKR7m"
-        },
-        {
-          "title": "Love Me Like This",
-          "play_count": 146894732,
-          "uri": "spotify:track:2W8UduoifU1zgjKZlfY79S"
-        },
-        {
-          "title": "KNOW ABOUT ME",
-          "play_count": 37542262,
-          "uri": "spotify:track:719MkAinn7QVNoibvtkSHW"
+          "title": "긴 소원 (Birthday Wish)",
+          "play_count": 1577911,
+          "uri": "spotify:track:6F0vhKF4fy9WQi39JPQnCv"
         },
         {
           "title": "DICE",
-          "play_count": 201450672,
+          "play_count": 211624906,
           "uri": "spotify:track:6C734SmqoIYuRWo2qSCnpC"
+        },
+        {
+          "title": "Love Me Like This",
+          "play_count": 157016500,
+          "uri": "spotify:track:2W8UduoifU1zgjKZlfY79S"
+        },
+        {
+          "title": "LOUD",
+          "play_count": 13010166,
+          "uri": "spotify:track:1mj5NqZYmFRj8CFTNrcr68"
+        },
+        {
+          "title": "Crescendo",
+          "play_count": 13097811,
+          "uri": "spotify:track:5204mF69iUqPlC9E2hPmtk"
+        },
+        {
+          "title": "KNOW ABOUT ME",
+          "play_count": 46679231,
+          "uri": "spotify:track:719MkAinn7QVNoibvtkSHW"
+        },
+        {
+          "title": "O.O",
+          "play_count": 207024946,
+          "uri": "spotify:track:1m2PksrrMpIev63uPxT1V0"
+        },
+        {
+          "title": "TIC TIC (feat. Pabllo Vittar)",
+          "play_count": 15861150,
+          "uri": "spotify:track:3LI7emieOkgFz1qbVcKR7m"
         }
       ]
     },
@@ -942,6 +967,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

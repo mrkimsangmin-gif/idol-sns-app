@@ -206,36 +206,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 19573,
+      "monthly_listeners": 16198,
       "spotify_id": "4e8UtPYfVPBzWO4PY8CZye",
       "top_tracks": [
         {
           "title": "Young Boy",
-          "play_count": 2070840,
+          "play_count": 2172572,
           "uri": "spotify:track:6FyutIs4pHcf6hKGIHuI2X"
         },
         {
           "title": "Parallel Universe",
-          "play_count": 1112518,
+          "play_count": 1152344,
           "uri": "spotify:track:082mpKdxm3LjJNQwlp9p0y"
         },
         {
-          "title": "Hurt",
-          "play_count": 379340,
+          "title": "아파",
+          "play_count": 413016,
           "uri": "spotify:track:2d1URizV4ETDnrT8DIq4Zm"
         },
         {
           "title": "I AM",
-          "play_count": 884144,
+          "play_count": 915609,
           "uri": "spotify:track:13SGWCb3d4ZTdkLxWjj066"
         },
         {
           "title": "Wasted Youth",
-          "play_count": 484431,
+          "play_count": 509211,
           "uri": "spotify:track:5bi48f8d2Z1siBQ0cswDwx"
+        },
+        {
+          "title": "외톨이",
+          "play_count": 406949,
+          "uri": "spotify:track:4mWwGzoaBbA221I5gPEoPs"
+        },
+        {
+          "title": "BEAUTY iNSIDE",
+          "play_count": 594182,
+          "uri": "spotify:track:4wFjAw7juNqCE4adcHGPlX"
+        },
+        {
+          "title": "Turn it off",
+          "play_count": 570381,
+          "uri": "spotify:track:6ghWFuEt9efu5e5Ubssxii"
+        },
+        {
+          "title": "Love",
+          "play_count": 500656,
+          "uri": "spotify:track:4nWYOgjYEwRDBD43p4HL0y"
+        },
+        {
+          "title": "Power up",
+          "play_count": 244723,
+          "uri": "spotify:track:47U8oNUpiM3HQBs2BeNc3s"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

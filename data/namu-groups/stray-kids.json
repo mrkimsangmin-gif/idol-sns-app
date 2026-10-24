@@ -4911,33 +4911,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 10622331,
+      "monthly_listeners": 9909973,
       "spotify_id": "2dIgFjalVxs4ThymZ67YCE",
       "top_tracks": [
         {
-          "title": "Do It",
-          "play_count": 87718533,
-          "uri": "spotify:track:1uAwfkhhuiAH0pBAWjBlx7"
+          "title": "This & That",
+          "play_count": 63299461,
+          "uri": "spotify:track:5fpxAkg76WAje8y1RPNEQ3"
+        },
+        {
+          "title": "RUN IT",
+          "play_count": 67082727,
+          "uri": "spotify:track:1LLO5LFjCR9uaRQcXjxOg3"
         },
         {
           "title": "Chk Chk Boom",
-          "play_count": 390803261,
+          "play_count": 460860713,
           "uri": "spotify:track:4Y2SbIvpaBfL2844r8EGgT"
         },
         {
-          "title": "신선놀음 DIVINE",
-          "play_count": 61281598,
-          "uri": "spotify:track:0x90VmJtwI0ZK79pp94GpU"
-        },
-        {
-          "title": "CEREMONY",
-          "play_count": 109875176,
-          "uri": "spotify:track:7EdgizR99xZh1EpngDaSBi"
+          "title": "Do It",
+          "play_count": 144357450,
+          "uri": "spotify:track:1uAwfkhhuiAH0pBAWjBlx7"
         },
         {
           "title": "락 (樂) LALALALA",
-          "play_count": 343789195,
+          "play_count": 389804550,
           "uri": "spotify:track:26yvgQHa2ozFcwpwHDyUUp"
+        },
+        {
+          "title": "神메뉴 God’s Menu",
+          "play_count": 554181940,
+          "uri": "spotify:track:6YzryBp8wThePL10D953hg"
+        },
+        {
+          "title": "After You",
+          "play_count": 21167921,
+          "uri": "spotify:track:4jsZLjRZTTqQrGToX6PC84"
+        },
+        {
+          "title": "MANIAC",
+          "play_count": 484984783,
+          "uri": "spotify:track:0ObcVIFoDdBBClvABfJvdz"
+        },
+        {
+          "title": "FARMING",
+          "play_count": 19571377,
+          "uri": "spotify:track:5kGWMVRzYmYKrm5D2UBDOm"
+        },
+        {
+          "title": "신선놀음 DIVINE",
+          "play_count": 104085529,
+          "uri": "spotify:track:0x90VmJtwI0ZK79pp94GpU"
         }
       ]
     },
@@ -5719,6 +5744,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

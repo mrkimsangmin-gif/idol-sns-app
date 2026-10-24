@@ -208,33 +208,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 55513,
+      "monthly_listeners": 52467,
       "spotify_id": "4hozqATxbpy9TwKWRT8QVO",
       "top_tracks": [
         {
-          "title": "BIM BAM BUM",
-          "play_count": 9425877,
+          "title": "빔밤붐 (BIM BAM BUM)",
+          "play_count": 9651217,
           "uri": "spotify:track:7JfqtEztxAA11Q7O9N6ryT"
         },
         {
-          "title": "FLASH",
-          "play_count": 3585011,
-          "uri": "spotify:track:2Purw8ZAANLan4cMqsKVp7"
-        },
-        {
           "title": "Ring Ring",
-          "play_count": 6220777,
+          "play_count": 6378359,
           "uri": "spotify:track:1LmAeYKwK2BA2FFUMyTXD2"
         },
         {
+          "title": "FLASH",
+          "play_count": 3732405,
+          "uri": "spotify:track:2Purw8ZAANLan4cMqsKVp7"
+        },
+        {
           "title": "CHIQUITA",
-          "play_count": 3620500,
+          "play_count": 3728005,
           "uri": "spotify:track:0dap7YUNPlUiEPYSA1bRg3"
         },
         {
           "title": "BOUNCY",
-          "play_count": 4267446,
+          "play_count": 4351911,
           "uri": "spotify:track:4e2jwApIRQsKPOwymevCFu"
+        },
+        {
+          "title": "JUICY",
+          "play_count": 2341712,
+          "uri": "spotify:track:3u5G198W9Bnp0pmehuw53F"
+        },
+        {
+          "title": "BOOM",
+          "play_count": 1106945,
+          "uri": "spotify:track:7snU7ER25gz87VKZ53ejS8"
+        },
+        {
+          "title": "Moon Prism",
+          "play_count": 635503,
+          "uri": "spotify:track:3CsMnqJ2TcPGSIjYhb9Q9k"
+        },
+        {
+          "title": "주인공 (In My World)",
+          "play_count": 724297,
+          "uri": "spotify:track:1qzezxpVXpSq2fk2IgmuNq"
+        },
+        {
+          "title": "Love Is Over",
+          "play_count": 1467174,
+          "uri": "spotify:track:0VRvOPeuLKfr6ypuDf1y5Y"
         }
       ]
     },
@@ -557,6 +582,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

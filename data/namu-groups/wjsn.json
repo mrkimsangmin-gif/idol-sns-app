@@ -829,33 +829,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 445188,
+      "monthly_listeners": 289878,
       "spotify_id": "6hhqsQZhtp9hfaZhSd0VSD",
       "top_tracks": [
         {
-          "title": "Bloom hour",
-          "play_count": 678135,
-          "uri": "spotify:track:0sTy2p3PUkU55Hda1rAiFq"
-        },
-        {
-          "title": "Secret",
-          "play_count": 24117147,
+          "title": "비밀이야 (SECRET)",
+          "play_count": 25480373,
           "uri": "spotify:track:1OIb1AalkGikhzCRbWgchd"
         },
         {
-          "title": "As You Wish",
-          "play_count": 23376418,
+          "title": "이루리",
+          "play_count": 24376502,
           "uri": "spotify:track:42zMiF3EFBg5CsYbgKdhj1"
         },
         {
-          "title": "Save Me, Save You",
-          "play_count": 24775406,
+          "title": "부탁해",
+          "play_count": 25689126,
           "uri": "spotify:track:20yOiJHRQGirFYehRSIb6i"
         },
         {
-          "title": "Mirror",
-          "play_count": 183808,
-          "uri": "spotify:track:0Ps6ei3b7IcDiEO7Fey16c"
+          "title": "UNNATURAL",
+          "play_count": 28278756,
+          "uri": "spotify:track:1eykKBqxHgasGHwjOQIvbt"
+        },
+        {
+          "title": "Bloom hour",
+          "play_count": 1762202,
+          "uri": "spotify:track:0sTy2p3PUkU55Hda1rAiFq"
+        },
+        {
+          "title": "너에게 닿기를 (I WISH)",
+          "play_count": 10790418,
+          "uri": "spotify:track:6WhZjnG6CTfE1J9f7vZ8sk"
+        },
+        {
+          "title": "Last Sequence",
+          "play_count": 14529506,
+          "uri": "spotify:track:0lNPjT58llQGlycRA2mea4"
+        },
+        {
+          "title": "꿈꾸는 마음으로",
+          "play_count": 10207771,
+          "uri": "spotify:track:1qpcqhkwZqCJAu4JxEhute"
+        },
+        {
+          "title": "La La Love",
+          "play_count": 9583206,
+          "uri": "spotify:track:1pXpzhdyeryEw8DqhaVrwe"
+        },
+        {
+          "title": "BUTTERFLY",
+          "play_count": 8721953,
+          "uri": "spotify:track:33PStuI2gJCeZcYQIOHXAU"
         }
       ]
     },
@@ -1178,6 +1203,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

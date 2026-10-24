@@ -389,33 +389,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 7288656,
+      "monthly_listeners": 7498451,
       "spotify_id": "1SIocsqdEefUTE6XKGUiVS",
       "top_tracks": [
         {
+          "title": "춤 (CHOOM)",
+          "play_count": 92880193,
+          "uri": "spotify:track:4cox7ONwuCwUvfZ9fsGDVu"
+        },
+        {
+          "title": "DRIP",
+          "play_count": 321565396,
+          "uri": "spotify:track:198zDKzyktXRG1PGpidY9h"
+        },
+        {
+          "title": "SUGAR HONEY ICE TEA",
+          "play_count": 46000294,
+          "uri": "spotify:track:16ck09A3j0tqvV6t3fW1DD"
+        },
+        {
+          "title": "SHEESH",
+          "play_count": 433618535,
+          "uri": "spotify:track:1njlnn8ZKHI77Pe9szIONR"
+        },
+        {
           "title": "PSYCHO",
-          "play_count": 58503098,
+          "play_count": 111492538,
           "uri": "spotify:track:7jp2VW62Yt2bDOaRas3hR6"
         },
         {
           "title": "WE GO UP",
-          "play_count": 74495399,
+          "play_count": 121856453,
           "uri": "spotify:track:49DTiFx70EuJLV7hDsCo6z"
         },
         {
-          "title": "DRIP",
-          "play_count": 262134550,
-          "uri": "spotify:track:198zDKzyktXRG1PGpidY9h"
+          "title": "MOON",
+          "play_count": 29442113,
+          "uri": "spotify:track:4ni36cZOQZldZGpHyLHFqX"
         },
         {
-          "title": "SHEESH",
-          "play_count": 386198462,
-          "uri": "spotify:track:1njlnn8ZKHI77Pe9szIONR"
+          "title": "LIKE THAT",
+          "play_count": 226908671,
+          "uri": "spotify:track:7GDgpad2BQVuDUzaxHFakc"
         },
         {
           "title": "FOREVER",
-          "play_count": 206256310,
+          "play_count": 239141869,
           "uri": "spotify:track:6b6KXDbDn0s0Jepxm8a3nr"
+        },
+        {
+          "title": "I LIKE IT",
+          "play_count": 24765730,
+          "uri": "spotify:track:7vKgGaEDN3shr8HBlCbIWg"
         }
       ]
     },
@@ -682,6 +707,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

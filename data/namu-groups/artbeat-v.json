@@ -128,36 +128,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2858,
+      "monthly_listeners": 2401,
       "spotify_id": "3gk4e5MsuqJYjKdakIN8Dk",
       "top_tracks": [
         {
           "title": "MAGIC",
-          "play_count": 389688,
+          "play_count": 401433,
           "uri": "spotify:track:2IBwamLEmcx3xb5yaGxu35"
         },
         {
           "title": "DUBI DUBI",
-          "play_count": 233061,
+          "play_count": 242938,
           "uri": "spotify:track:6SG8OjKKMAW47MJtJLSnNM"
         },
         {
           "title": "Aphrodite (Rule The World)",
-          "play_count": 236591,
+          "play_count": 245412,
           "uri": "spotify:track:7qMc5dpqHj1pmqMZR5OpMi"
         },
         {
-          "title": "APHRODITE",
-          "play_count": 88510,
+          "title": "아프로디테",
+          "play_count": 92856,
           "uri": "spotify:track:1zmCkiE1LzJyTttHvyQ4fh"
         },
         {
+          "title": "Lovefool",
+          "play_count": 66410,
+          "uri": "spotify:track:2qwFM5I82fJnzJK6ZhlwNg"
+        },
+        {
           "title": "ILYSB",
-          "play_count": 64121,
+          "play_count": 66225,
           "uri": "spotify:track:1F4uqiMcIkfw7R7BNcyo4s"
+        },
+        {
+          "title": "Crystal",
+          "play_count": 48291,
+          "uri": "spotify:track:7hQLzoGI2nlvxaFDOYJVnH"
+        },
+        {
+          "title": "Fantasize",
+          "play_count": 31177,
+          "uri": "spotify:track:2TaWr453HiRYv480WAiy4R"
+        },
+        {
+          "title": "DUBI DUBI - Sped up",
+          "play_count": 5540,
+          "uri": "spotify:track:33EWyhhzbEjuo4FNcdJNWY"
+        },
+        {
+          "title": "DUBI DUBI - Inst.",
+          "play_count": 3602,
+          "uri": "spotify:track:5bwqYqf0kk1O6UPffVWcbo"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

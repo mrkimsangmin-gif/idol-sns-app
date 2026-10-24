@@ -813,33 +813,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 13493324,
+      "monthly_listeners": 13571256,
       "spotify_id": "6HvZYsbFfjnjFrWF950C9d",
       "top_tracks": [
         {
           "title": "Ditto",
-          "play_count": 893809447,
+          "play_count": 977629112,
           "uri": "spotify:track:3r8RuvgbX9s7ammBn07D3W"
         },
         {
           "title": "Super Shy",
-          "play_count": 833837637,
+          "play_count": 917075489,
           "uri": "spotify:track:5sdQOyqq2IDhvmx2lHOpwd"
         },
         {
           "title": "New Jeans",
-          "play_count": 508635699,
+          "play_count": 584123740,
           "uri": "spotify:track:6rdkCkjk6D12xRpdMXy0I2"
         },
         {
           "title": "OMG",
-          "play_count": 920328479,
+          "play_count": 988431687,
           "uri": "spotify:track:65FftemJ1DbbZ45DUfHJXE"
         },
         {
+          "title": "Supernatural",
+          "play_count": 279534633,
+          "uri": "spotify:track:5ocSQW5sIUIOFojwXEz9Ki"
+        },
+        {
           "title": "Hype Boy",
-          "play_count": 748138007,
+          "play_count": 805827323,
           "uri": "spotify:track:0a4MMyCrzT0En247IhqZbD"
+        },
+        {
+          "title": "Attention",
+          "play_count": 595332039,
+          "uri": "spotify:track:2pIUpMhHL6L9Z5lnKxJJr9"
+        },
+        {
+          "title": "ETA",
+          "play_count": 497759536,
+          "uri": "spotify:track:56v8WEnGzLByGsDAXDiv4d"
+        },
+        {
+          "title": "How Sweet",
+          "play_count": 321419545,
+          "uri": "spotify:track:38tXZcL1gZRfbqfOG0VMTH"
+        },
+        {
+          "title": "Cookie",
+          "play_count": 360517229,
+          "uri": "spotify:track:2DwUdMJ5uxv20EhAildreg"
         }
       ]
     },
@@ -1097,6 +1122,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

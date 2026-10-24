@@ -195,33 +195,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 53617,
+      "monthly_listeners": 60679,
       "spotify_id": "4YsiijJHnCAjqS9cIXNoTI",
       "top_tracks": [
         {
-          "title": "POP IT LIKE",
-          "play_count": 56102,
-          "uri": "spotify:track:0gvr5CBsUgd1PlYsHmvJ3V"
+          "title": ".exe",
+          "play_count": 217968,
+          "uri": "spotify:track:47tNuRGKyCYSLZF8YqAKZ6"
         },
         {
           "title": "N.I.N (New is Now)",
-          "play_count": 559416,
+          "play_count": 769523,
           "uri": "spotify:track:0F2ntvKX2dNrY8DEEePCHC"
         },
         {
+          "title": "POP IT LIKE",
+          "play_count": 415583,
+          "uri": "spotify:track:0gvr5CBsUgd1PlYsHmvJ3V"
+        },
+        {
+          "title": "LIFE IN COLOR",
+          "play_count": 77888,
+          "uri": "spotify:track:5dSnEAtZcACGFo51lrSFle"
+        },
+        {
+          "title": "LOCKED IN",
+          "play_count": 68467,
+          "uri": "spotify:track:4ZcKXzgW8ZG6BN8qh7rXAh"
+        },
+        {
+          "title": "MAKE YOU MOVE",
+          "play_count": 287883,
+          "uri": "spotify:track:4Dz5hTUW0jNghlgzJHAyRf"
+        },
+        {
+          "title": "무한대 (無限大)",
+          "play_count": 624179,
+          "uri": "spotify:track:3QhIdQkVUI0tXOnxumSGWf"
+        },
+        {
+          "title": "W.T.F(un)",
+          "play_count": 57620,
+          "uri": "spotify:track:5vij7I77nqsehXVzgicZKQ"
+        },
+        {
           "title": "Silhouette",
-          "play_count": 23754,
+          "play_count": 168474,
           "uri": "spotify:track:7cfolLdAVa56V1ltaIj6O0"
         },
         {
-          "title": "We are young",
-          "play_count": 17631,
-          "uri": "spotify:track:3WV8ClB26jumU0ppxhmCSF"
-        },
-        {
-          "title": "MU",
-          "play_count": 502343,
-          "uri": "spotify:track:3QhIdQkVUI0tXOnxumSGWf"
+          "title": "n (number of cases)",
+          "play_count": 303150,
+          "uri": "spotify:track:33nC9lajf4bWI12PooiOKF"
         }
       ]
     },
@@ -358,6 +383,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

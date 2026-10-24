@@ -229,33 +229,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 305184,
+      "monthly_listeners": 386617,
       "spotify_id": "0ON7aUm308hzonzZGpZUvB",
       "top_tracks": [
         {
-          "title": "Shut Up",
-          "play_count": 362467,
-          "uri": "spotify:track:6R6zXjhbvw7VtCDdKbuCTQ"
+          "title": "Say It",
+          "play_count": 2554271,
+          "uri": "spotify:track:6P3LANW1Egvq5k74YW0E60"
         },
         {
-          "title": "Plot Twist",
-          "play_count": 3457381,
-          "uri": "spotify:track:58cliMQMrsZ4XsPKSB3Spu"
+          "title": "Plot Twist - English ver.",
+          "play_count": 5829190,
+          "uri": "spotify:track:57MaKs3oSd2SrIJHOzRoy5"
+        },
+        {
+          "title": "3!4!",
+          "play_count": 634678,
+          "uri": "spotify:track:0T4MGleipdya21hGDdMjhY"
         },
         {
           "title": "Push Back",
-          "play_count": 1335357,
+          "play_count": 2518042,
           "uri": "spotify:track:5jrVtotI98LARyvrBi0gu2"
         },
         {
           "title": "Butterfly Doors",
-          "play_count": 127152,
+          "play_count": 1808514,
           "uri": "spotify:track:1U7iwruAyuD1lnsTzuYfY3"
         },
         {
+          "title": "Shut Up",
+          "play_count": 1460180,
+          "uri": "spotify:track:6R6zXjhbvw7VtCDdKbuCTQ"
+        },
+        {
           "title": "Good Girl (AtHeart)",
-          "play_count": 1415436,
+          "play_count": 2200569,
           "uri": "spotify:track:6UU3lxRV39wh2dv4l8efPT"
+        },
+        {
+          "title": "내 마음 한 조각",
+          "play_count": 333392,
+          "uri": "spotify:track:0U97V0OQpcr9kg6kaZMtgT"
+        },
+        {
+          "title": "Knew Me",
+          "play_count": 850781,
+          "uri": "spotify:track:5EWfvuIgMyNgJgBqJQF7B0"
+        },
+        {
+          "title": "Dot Dot Dot...",
+          "play_count": 944277,
+          "uri": "spotify:track:1sp9VSGrXFRzvD4j8sH5km"
         }
       ]
     },
@@ -378,6 +403,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

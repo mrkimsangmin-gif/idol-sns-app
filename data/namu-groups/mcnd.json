@@ -281,33 +281,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 73277,
+      "monthly_listeners": 91981,
       "spotify_id": "59dDRtMe8DILtibke8FWLK",
       "top_tracks": [
         {
+          "title": "Devil Youth Club",
+          "play_count": 114770,
+          "uri": "spotify:track:4hMqoNmuCpbvTBdRjzLkpv"
+        },
+        {
           "title": "ICE AGE",
-          "play_count": 20112165,
+          "play_count": 20489087,
           "uri": "spotify:track:1q2bu7PaEUUiFJYFsAiHiz"
         },
         {
-          "title": "Crush",
-          "play_count": 8164229,
+          "title": "우당탕 (Crush)",
+          "play_count": 8340441,
           "uri": "spotify:track:2Gdw7bH1N016pgc6i3JZDR"
         },
         {
-          "title": "Spring",
-          "play_count": 7708321,
+          "title": "She Got That",
+          "play_count": 35521,
+          "uri": "spotify:track:1Czib5lBS8s0C7G6kb1sxS"
+        },
+        {
+          "title": "Beat Don't Stop",
+          "play_count": 27462,
+          "uri": "spotify:track:5X52cSNY3AoFXNcm9fJrAL"
+        },
+        {
+          "title": "떠 (Spring)",
+          "play_count": 7803227,
           "uri": "spotify:track:6HavrP0eerKhssA8CcG0pi"
         },
         {
           "title": "TOP GANG",
-          "play_count": 5788713,
+          "play_count": 5877714,
           "uri": "spotify:track:7JDBOOf49nKbwNopK8Bbv0"
         },
         {
+          "title": "Hot Stuff",
+          "play_count": 26655,
+          "uri": "spotify:track:13x8bj83pQbn1NKPw5pX11"
+        },
+        {
           "title": "nanana",
-          "play_count": 3914566,
+          "play_count": 3990706,
           "uri": "spotify:track:0BNhwRWWjBWTTEMDncprUt"
+        },
+        {
+          "title": "#MOOD",
+          "play_count": 2200104,
+          "uri": "spotify:track:2GJeUJkxsnorPIvY3APdE8"
         }
       ]
     },
@@ -614,6 +639,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -301,33 +301,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 101366,
+      "monthly_listeners": 74043,
       "spotify_id": "3aycZMYDTnN0trM2XnTI4Y",
       "top_tracks": [
         {
-          "title": "Come True (feat. Shin Onyu of Shin In Ryu)",
-          "play_count": 363446,
-          "uri": "spotify:track:0qtrYviuHe78ta3I6Y9xwN"
-        },
-        {
-          "title": "Just Go",
-          "play_count": 275461,
-          "uri": "spotify:track:06N5gDiLRqzyrshVYJtSOn"
-        },
-        {
           "title": "Favorite",
-          "play_count": 3475591,
+          "play_count": 3815607,
           "uri": "spotify:track:02qdS2zq2LYGkSOr3Q7gMm"
         },
         {
-          "title": "Wall Flowers",
-          "play_count": 1252785,
-          "uri": "spotify:track:7hH6xRAqH9yCkPfRVDGHrt"
+          "title": "Flavor",
+          "play_count": 222279,
+          "uri": "spotify:track:7hWMVNpNSjD1meUG4Fcebh"
+        },
+        {
+          "title": "Love Again",
+          "play_count": 33795,
+          "uri": "spotify:track:61ALc2kHT3xa0gJ1meg9Ak"
+        },
+        {
+          "title": "Still Choosing You",
+          "play_count": 160090,
+          "uri": "spotify:track:7vDV3iSqre2AkPWEOZPMAZ"
+        },
+        {
+          "title": "Dazzling",
+          "play_count": 2807967,
+          "uri": "spotify:track:7nJyY4piYE68bRfMTdeS5V"
         },
         {
           "title": "Valentine",
-          "play_count": 2658145,
+          "play_count": 2881807,
           "uri": "spotify:track:7soqW0C2hCCblU402zUalw"
+        },
+        {
+          "title": "Come True (feat. Shin Onyu of Shin In Ryu)",
+          "play_count": 691178,
+          "uri": "spotify:track:0qtrYviuHe78ta3I6Y9xwN"
+        },
+        {
+          "title": "Happy Depression",
+          "play_count": 186931,
+          "uri": "spotify:track:5DzZm8NYsDb8OlkAUbTPDL"
+        },
+        {
+          "title": "WHY",
+          "play_count": 256581,
+          "uri": "spotify:track:64Cr4MVETK25mgMAz8Vugp"
+        },
+        {
+          "title": "Wall Flowers",
+          "play_count": 1411323,
+          "uri": "spotify:track:7hH6xRAqH9yCkPfRVDGHrt"
         }
       ]
     },
@@ -484,6 +509,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

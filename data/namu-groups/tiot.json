@@ -214,33 +214,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 27156,
+      "monthly_listeners": 45982,
       "spotify_id": "2hoCMH0KWwpjFJEGh0ECe7",
       "top_tracks": [
         {
-          "title": "MY PRIDE",
-          "play_count": 184305,
-          "uri": "spotify:track:5fXi5dl48tR8l0rUlPSa0Y"
+          "title": "다섯시간의 조각들",
+          "play_count": 31519,
+          "uri": "spotify:track:5qOwRXMNfJmY42pxCJTM7f"
         },
         {
-          "title": "The Long Season",
-          "play_count": 317512,
+          "title": "그 계절 긴 터널을 지나",
+          "play_count": 388137,
           "uri": "spotify:track:1CPY4rGB0wJ5nx2sajjBxU"
         },
         {
-          "title": "Moonrise",
-          "play_count": 288132,
-          "uri": "spotify:track:5JmcFleVcHjkcGoALYwBWi"
-        },
-        {
           "title": "I Don’t Wanna Wait (IDWW)",
-          "play_count": 72297,
+          "play_count": 119714,
           "uri": "spotify:track:4CXK0BfOkYUbvwD9EbYiSV"
         },
         {
-          "title": "Every Ten Minutes",
-          "play_count": 77515,
+          "title": "10분조차",
+          "play_count": 124979,
           "uri": "spotify:track:14PSuvCf2TfS86mslFXW7q"
+        },
+        {
+          "title": "MY PRIDE",
+          "play_count": 236357,
+          "uri": "spotify:track:5fXi5dl48tR8l0rUlPSa0Y"
+        },
+        {
+          "title": "말해줘",
+          "play_count": 12479,
+          "uri": "spotify:track:2i5eJCKqHFD0ZJstcVKa6L"
+        },
+        {
+          "title": "Always",
+          "play_count": 144325,
+          "uri": "spotify:track:2D0TijeHqUmV8kr7GHR2W7"
+        },
+        {
+          "title": "지내볼게",
+          "play_count": 9115,
+          "uri": "spotify:track:47TQfMZ83TvmeAULZSXIcB"
+        },
+        {
+          "title": "I’m the One",
+          "play_count": 126433,
+          "uri": "spotify:track:4SnptJXBUZz8TMIKNy6NBn"
+        },
+        {
+          "title": "fool",
+          "play_count": 8508,
+          "uri": "spotify:track:093pO6j1vAMVzGGFRglFIc"
         }
       ]
     },
@@ -440,6 +465,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

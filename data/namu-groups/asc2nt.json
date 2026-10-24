@@ -225,33 +225,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 34059,
+      "monthly_listeners": 39411,
       "spotify_id": "4w6MZBLb4aIZpffyA52Doq",
       "top_tracks": [
         {
+          "title": "If I Die Tomorrow",
+          "play_count": 112204,
+          "uri": "spotify:track:4tpUuMLooJYyGiNmL69fR1"
+        },
+        {
           "title": "Still Rose",
-          "play_count": 49933,
+          "play_count": 225827,
           "uri": "spotify:track:6MgrdZL7zA381FLAQiaITj"
         },
         {
           "title": "DON'T MOVE",
-          "play_count": 164833,
+          "play_count": 264917,
           "uri": "spotify:track:0BxA7X4Sd1vPWS1CLDec8S"
         },
         {
+          "title": "Green light, Yellow light, Red light",
+          "play_count": 38207,
+          "uri": "spotify:track:0L5pXcBtl63hCWYxcokkhj"
+        },
+        {
+          "title": "I'm thinking 'bout tomorrow",
+          "play_count": 17160,
+          "uri": "spotify:track:7CXyiC7xPiKQK2vXoo7d7r"
+        },
+        {
+          "title": "Mile Lo",
+          "play_count": 14330,
+          "uri": "spotify:track:0p3v4aaQJ5TJY5IDjEQbwS"
+        },
+        {
+          "title": "Purple Rain",
+          "play_count": 49091,
+          "uri": "spotify:track:4IaGMwQ1AYFyGUiumuVBvO"
+        },
+        {
+          "title": "Morse Code",
+          "play_count": 12470,
+          "uri": "spotify:track:0pHYNw6KB1VndCV2MaKdoh"
+        },
+        {
           "title": "Replay",
-          "play_count": 50511,
+          "play_count": 84554,
           "uri": "spotify:track:6sCYLG2f1f2iBEJ0WeGAag"
         },
         {
           "title": "The Boy In The Mirror (feat. Yun Hyerin)",
-          "play_count": 11245,
+          "play_count": 44774,
           "uri": "spotify:track:1vt7b34HtWNnugixCSSHEg"
-        },
-        {
-          "title": "Full Moon",
-          "play_count": 10300,
-          "uri": "spotify:track:3fR2OPiNLUVaBqbwqyLUNr"
         }
       ]
     },
@@ -373,6 +398,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

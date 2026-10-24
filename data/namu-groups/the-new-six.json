@@ -276,33 +276,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 160394,
+      "monthly_listeners": 136607,
       "spotify_id": "0DRiXmEOc6dJ6Rug3xi4HZ",
       "top_tracks": [
         {
-          "title": "CALL ME BACK",
-          "play_count": 222252,
-          "uri": "spotify:track:7EaR2YLNoIDFgmEBdTh1NS"
+          "title": "Die Another Day",
+          "play_count": 268353,
+          "uri": "spotify:track:4LZ2T2AtRf9EdsVFpaE9gN"
         },
         {
-          "title": "MOVE",
-          "play_count": 11301710,
+          "title": "비켜",
+          "play_count": 11708693,
           "uri": "spotify:track:5QzjOeD7eXFZpVVyVC7ls2"
         },
         {
           "title": "Love or Die",
-          "play_count": 6591597,
+          "play_count": 6951950,
           "uri": "spotify:track:5JDfcFU6lCYU7jQJ8dDo8v"
         },
         {
-          "title": "Love letter",
-          "play_count": 140671,
-          "uri": "spotify:track:3pYHpHEihyIM9w4s7JGQC7"
+          "title": "Kick It 4 Now",
+          "play_count": 6547414,
+          "uri": "spotify:track:5oyt64vcLF0MwDq5XNgx86"
         },
         {
-          "title": "Kick It 4 Now",
-          "play_count": 6236004,
-          "uri": "spotify:track:5oyt64vcLF0MwDq5XNgx86"
+          "title": "FUEGO",
+          "play_count": 3115333,
+          "uri": "spotify:track:2iCy2qfDdWN8duitTHeHSm"
+        },
+        {
+          "title": "CALL ME BACK",
+          "play_count": 528571,
+          "uri": "spotify:track:7EaR2YLNoIDFgmEBdTh1NS"
+        },
+        {
+          "title": "What If",
+          "play_count": 509290,
+          "uri": "spotify:track:5C0iFl5sfvVX6b4evloS4P"
+        },
+        {
+          "title": "아 진짜 (For Real?)",
+          "play_count": 868892,
+          "uri": "spotify:track:11yJ2iAqlWsk9CngMujJou"
+        },
+        {
+          "title": "벌써",
+          "play_count": 2029118,
+          "uri": "spotify:track:79FD2pn0fvintcNjp8tLup"
+        },
+        {
+          "title": "그러니까 내 말은",
+          "play_count": 260610,
+          "uri": "spotify:track:3pYHpHEihyIM9w4s7JGQC7"
         }
       ]
     },
@@ -508,6 +533,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

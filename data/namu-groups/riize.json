@@ -693,33 +693,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2572975,
+      "monthly_listeners": 2344195,
       "spotify_id": "2jOm3cYujQx6o1dxuiuqaX",
       "top_tracks": [
         {
-          "title": "Fame",
-          "play_count": 18817451,
-          "uri": "spotify:track:7pjjoNOZQW7H8pOSCFIvsX"
+          "title": "Do your dance",
+          "play_count": 16955565,
+          "uri": "spotify:track:5POcU3tBNEXuIDgfYo4TEa"
         },
         {
           "title": "Love 119",
-          "play_count": 91653919,
+          "play_count": 101579999,
           "uri": "spotify:track:0lUtQTBt2ydznYzuAeYFrZ"
         },
         {
           "title": "Boom Boom Bass",
-          "play_count": 76658097,
+          "play_count": 87333860,
           "uri": "spotify:track:6Ixrp3yXfzv5brZXmZuXXN"
         },
         {
-          "title": "All of You",
-          "play_count": 2354581,
-          "uri": "spotify:track:1M4MWyhWTpFCvJJoCva3Ij"
+          "title": "Get A Guitar",
+          "play_count": 140691763,
+          "uri": "spotify:track:4H65EdACzwqV8sTt3dDyA0"
+        },
+        {
+          "title": "Fame",
+          "play_count": 28844165,
+          "uri": "spotify:track:7pjjoNOZQW7H8pOSCFIvsX"
+        },
+        {
+          "title": "Sunburst",
+          "play_count": 3243888,
+          "uri": "spotify:track:2Coc3p0g6mfoVaRKMxl2S7"
         },
         {
           "title": "Memories",
-          "play_count": 80966702,
+          "play_count": 88161942,
           "uri": "spotify:track:7egcmrxRDee6C5M3AtXZ7L"
+        },
+        {
+          "title": "Impossible",
+          "play_count": 56669963,
+          "uri": "spotify:track:2cN2qkaSnO5KKAMSa5ZfIm"
+        },
+        {
+          "title": "D-D-Done",
+          "play_count": 4881932,
+          "uri": "spotify:track:0tOocKgyXjm1LiLo0uOkVn"
+        },
+        {
+          "title": "Behind The Shine",
+          "play_count": 6443593,
+          "uri": "spotify:track:2MoKB0yw4yerLvvfMQgeAe"
         }
       ]
     },
@@ -1044,6 +1069,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

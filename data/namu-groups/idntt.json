@@ -375,32 +375,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 265435,
+      "monthly_listeners": 196059,
       "spotify_id": "18eBHUF4EG1bXtbLZZ6g7M",
       "top_tracks": [
         {
+          "title": "Kids Return (Japanese Ver.)",
+          "play_count": 1143231,
+          "uri": "spotify:track:7445VTlo5kX9ZIDDw6CayD"
+        },
+        {
+          "title": "Linda Mía",
+          "play_count": 130412,
+          "uri": "spotify:track:4KrM3IxIRK6BvAXoIsRci7"
+        },
+        {
           "title": "Pretty Boy Swag",
-          "play_count": 1210029,
+          "play_count": 2352386,
           "uri": "spotify:track:0IV3CJVZb5nbUgGOnRgHe7"
         },
         {
-          "title": "All I Need",
-          "play_count": 321791,
-          "uri": "spotify:track:1L0pXWUh7MmjJ9sEtvbH9W"
+          "title": "Lovestruck",
+          "play_count": 518090,
+          "uri": "spotify:track:2urZb6wpbuXb1VP6dZl57E"
         },
         {
-          "title": "Yes We Are",
-          "play_count": 620476,
-          "uri": "spotify:track:4Posl8hBAZxPVWguogt3og"
+          "title": "Deep Dream",
+          "play_count": 286234,
+          "uri": "spotify:track:1WWOPVRZs8tYBP3FtjhhyO"
         },
         {
           "title": "BOYtude",
-          "play_count": 2967047,
+          "play_count": 3627375,
           "uri": "spotify:track:2gJv0gGR483rde5GNEJVld"
         },
         {
+          "title": "Yes We Are",
+          "play_count": 1224770,
+          "uri": "spotify:track:4Posl8hBAZxPVWguogt3og"
+        },
+        {
+          "title": "It's Not Over",
+          "play_count": 311462,
+          "uri": "spotify:track:0B7oe3WNogHb1GdfFyvxTg"
+        },
+        {
+          "title": "Run It Up",
+          "play_count": 276841,
+          "uri": "spotify:track:0YzNBczOhRpP07l82PHC69"
+        },
+        {
           "title": "Moon Burn",
-          "play_count": 428712,
+          "play_count": 799256,
           "uri": "spotify:track:665fzGGx6DzLdBnEoMEH2V"
         }
       ]
@@ -507,6 +532,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

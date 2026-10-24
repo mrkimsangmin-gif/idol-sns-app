@@ -119,33 +119,53 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2762,
+      "monthly_listeners": 3168,
       "spotify_id": "43Y3IZ3LrZD1YsSzG5xRxF",
       "top_tracks": [
         {
-          "title": "Siren",
-          "play_count": 26337,
-          "uri": "spotify:track:53UlED4EKHBRnl4ZaxL2V1"
-        },
-        {
-          "title": "LUMOS",
-          "play_count": 106691,
-          "uri": "spotify:track:0Qrn3Cy33RjElWdqp7u3sr"
-        },
-        {
-          "title": "ENDLESS DREAM",
-          "play_count": 66514,
-          "uri": "spotify:track:61UuwMzvBnkyIq12ou1oFX"
-        },
-        {
           "title": "Navigation",
-          "play_count": 97586,
+          "play_count": 108185,
           "uri": "spotify:track:20tOzB07zW2b3su45EdUQZ"
         },
         {
+          "title": "LUMOS",
+          "play_count": 117928,
+          "uri": "spotify:track:0Qrn3Cy33RjElWdqp7u3sr"
+        },
+        {
+          "title": "끝없는 꿈",
+          "play_count": 75861,
+          "uri": "spotify:track:61UuwMzvBnkyIq12ou1oFX"
+        },
+        {
+          "title": "Siren",
+          "play_count": 36562,
+          "uri": "spotify:track:53UlED4EKHBRnl4ZaxL2V1"
+        },
+        {
           "title": "Vuja De",
-          "play_count": 19765,
+          "play_count": 27590,
           "uri": "spotify:track:5KzupNb9ALi8g5m49yCAaL"
+        },
+        {
+          "title": "숨 쉬게 해",
+          "play_count": 23022,
+          "uri": "spotify:track:2crm31Sx88xflPqDXMMhSt"
+        },
+        {
+          "title": "All I Need",
+          "play_count": 62173,
+          "uri": "spotify:track:0Vm3jytFVPwN1wVITVl4Hz"
+        },
+        {
+          "title": "Stupid Love",
+          "play_count": 19337,
+          "uri": "spotify:track:6PmvBmjqLJyddeP5b3rFed"
+        },
+        {
+          "title": "끝없는 꿈 - Instrumental",
+          "play_count": 6603,
+          "uri": "spotify:track:5al1TfCGnOlQ2xHdobKH8k"
         }
       ]
     },
@@ -220,6 +240,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -485,33 +485,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 6144870,
+      "monthly_listeners": 5983964,
       "spotify_id": "4GJ6xDCF5jaUqD6avOuQT6",
       "top_tracks": [
         {
           "title": "Cupid - Twin Version",
-          "play_count": 978444982,
+          "play_count": 1032727927,
           "uri": "spotify:track:53DDMPqgMWNrEeE3NjThKE"
         },
         {
           "title": "Cupid",
-          "play_count": 282176423,
+          "play_count": 310006427,
           "uri": "spotify:track:4TqmTBSWsZXMj3LouLEvXn"
         },
         {
           "title": "Cupid – Twin Ver. (feat. Sabrina Carpenter)",
-          "play_count": 41678594,
+          "play_count": 50779604,
           "uri": "spotify:track:6Ft6nfssjDYmgmXF19poJE"
         },
         {
+          "title": "Gravity",
+          "play_count": 11736382,
+          "uri": "spotify:track:0WB00P7RnB46lQVjIDhYiV"
+        },
+        {
           "title": "Tell Me",
-          "play_count": 50709988,
+          "play_count": 54414482,
           "uri": "spotify:track:7Laseg0WUtMJEHRv5A10T3"
         },
         {
+          "title": "Cupid - Twin Ver. (FIFTY FIFTY) - Sped Up Version",
+          "play_count": 34158326,
+          "uri": "spotify:track:76V1WuoxMcMG52jc8ifZVX"
+        },
+        {
           "title": "Pookie",
-          "play_count": 11611442,
+          "play_count": 14857214,
           "uri": "spotify:track:6vw9OTw8rBhatDSdlxVIuF"
+        },
+        {
+          "title": "SOS",
+          "play_count": 23452485,
+          "uri": "spotify:track:3X76Lal4GwBFqriHz1FbLU"
+        },
+        {
+          "title": "Cupid (Twin Ver.) - Live Studio Version OT4",
+          "play_count": 95833242,
+          "uri": "spotify:track:4gXHG9domIKO6FIViDISA4"
+        },
+        {
+          "title": "Barbie Dreams (feat. Kaliii) [From Barbie The Album]",
+          "play_count": 51811502,
+          "uri": "spotify:track:7njDhlprmHJ1I9pM0rxMON"
         }
       ]
     },
@@ -830,6 +855,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

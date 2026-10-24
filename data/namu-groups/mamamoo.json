@@ -1536,36 +1536,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1792310,
+      "monthly_listeners": 1845182,
       "spotify_id": "0XATRDCYuuGhk0oE7C0o5G",
       "top_tracks": [
         {
           "title": "HIP",
-          "play_count": 308684376,
+          "play_count": 320811316,
           "uri": "spotify:track:24nK8tW7Pt3Inh2utttuoG"
         },
         {
-          "title": "Egotistic",
-          "play_count": 151017204,
+          "title": "너나 해 (Egotistic)",
+          "play_count": 156714577,
           "uri": "spotify:track:3a7OyTsoZ8CCBdvEEvzLBv"
         },
         {
-          "title": "gogobebe",
-          "play_count": 134593559,
+          "title": "고고베베 (gogobebe)",
+          "play_count": 138914677,
           "uri": "spotify:track:6E7jAJN2e3znSHyPCdQqx8"
         },
         {
-          "title": "Starry Night",
-          "play_count": 92122638,
+          "title": "별이 빛나는 밤",
+          "play_count": 96387230,
           "uri": "spotify:track:3qUJ0kC9YdBO5qRFdYXeXX"
         },
         {
+          "title": "4 Flowers",
+          "play_count": 5279677,
+          "uri": "spotify:track:3wc2PoPGpb1vzM79AgitIh"
+        },
+        {
+          "title": "데칼코마니",
+          "play_count": 62081817,
+          "uri": "spotify:track:5WitNasXEIRptoLIQUcXMx"
+        },
+        {
           "title": "AYA",
-          "play_count": 83508596,
+          "play_count": 86473345,
           "uri": "spotify:track:4BZXVFYCb76Q0Klojq4piV"
+        },
+        {
+          "title": "딩가딩가 (Dingga)",
+          "play_count": 89124930,
+          "uri": "spotify:track:0bDYceyQd1jnJO4sK47YxU"
+        },
+        {
+          "title": "ILLELLA (일낼라)",
+          "play_count": 51387672,
+          "uri": "spotify:track:0oeVHAgY8Q7Mdce5Quj2G4"
+        },
+        {
+          "title": "Wind flower",
+          "play_count": 52520796,
+          "uri": "spotify:track:2qwyjoSsSr3M7HTt611Q5O"
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -390,33 +390,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 69108,
+      "monthly_listeners": 53728,
       "spotify_id": "7IkfFdVcI6HrRKuOO9NvX5",
       "top_tracks": [
         {
-          "title": "HOME",
-          "play_count": 381678,
-          "uri": "spotify:track:39AIGxDZhfRre2EPJeLQsh"
-        },
-        {
-          "title": "NOT ENOUGH",
-          "play_count": 991104,
-          "uri": "spotify:track:7mlaiNv0po5vSAnp6KYEgF"
-        },
-        {
           "title": "BYE BYE BYE",
-          "play_count": 5996895,
+          "play_count": 6243750,
           "uri": "spotify:track:69Nn4yZnYo1nw4mfQvNbfU"
         },
         {
-          "title": "OVERDRIVE",
-          "play_count": 2436118,
-          "uri": "spotify:track:1iiQ6wFdJz4uGn2a2cGjaG"
+          "title": "질주(OVERDRIVE) (English Ver.)",
+          "play_count": 2885530,
+          "uri": "spotify:track:52RU9Lvg66w5Jg9ENBdfpf"
+        },
+        {
+          "title": "NOT ENOUGH",
+          "play_count": 1204415,
+          "uri": "spotify:track:7mlaiNv0po5vSAnp6KYEgF"
+        },
+        {
+          "title": "HOME",
+          "play_count": 576901,
+          "uri": "spotify:track:39AIGxDZhfRre2EPJeLQsh"
         },
         {
           "title": "TWILIGHT",
-          "play_count": 6311270,
+          "play_count": 6477719,
           "uri": "spotify:track:7ruu3WCZipZT9ST11iI7WV"
+        },
+        {
+          "title": "우리 하나되어 2021",
+          "play_count": 590975,
+          "uri": "spotify:track:2NOCnoRVXD4RXtaOq5PALC"
+        },
+        {
+          "title": "Too Bad",
+          "play_count": 2985199,
+          "uri": "spotify:track:4Xv8foqi6HXnQURBR0FdAZ"
+        },
+        {
+          "title": "SAVE",
+          "play_count": 190598,
+          "uri": "spotify:track:5g9LfjVn4hniOy7pqDt6Da"
+        },
+        {
+          "title": "Spray",
+          "play_count": 1396061,
+          "uri": "spotify:track:3HlKKZBQZMKfOXJ633hIJe"
+        },
+        {
+          "title": "모 아님 도 (Prod. 장대현)",
+          "play_count": 1773459,
+          "uri": "spotify:track:4VuZkPm3IuGuMlKIL7juSf"
         }
       ]
     },
@@ -673,6 +698,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

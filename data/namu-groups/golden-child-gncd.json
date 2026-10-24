@@ -607,33 +607,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 87191,
+      "monthly_listeners": 84827,
       "spotify_id": "5zShiwTHlygdfsXj6eavTu",
       "top_tracks": [
         {
           "title": "WANNABE",
-          "play_count": 16289256,
+          "play_count": 16639507,
           "uri": "spotify:track:0lLDInOmkZTWz14Lm0dcMY"
         },
         {
-          "title": "Burn It",
-          "play_count": 7329641,
-          "uri": "spotify:track:6vcJyCa9NgFQer7O6X1NY7"
-        },
-        {
           "title": "ONE(Lucid Dream)",
-          "play_count": 6875214,
+          "play_count": 7072731,
           "uri": "spotify:track:1ZhhiI06eIjXZjXK6OXO8u"
         },
         {
+          "title": "안아줄게(Burn It)",
+          "play_count": 7518196,
+          "uri": "spotify:track:6vcJyCa9NgFQer7O6X1NY7"
+        },
+        {
           "title": "Ra Pam Pam",
-          "play_count": 4593885,
+          "play_count": 4731938,
           "uri": "spotify:track:7aJSEhH3kzrcr4g0uGXUC7"
         },
         {
           "title": "Without You",
-          "play_count": 6407913,
+          "play_count": 6520484,
           "uri": "spotify:track:6P79WvoWD60NKDHxKNxfxn"
+        },
+        {
+          "title": "Feel me",
+          "play_count": 1723144,
+          "uri": "spotify:track:3hUmntqwqsjG9PJjih9OIT"
+        },
+        {
+          "title": "담다디",
+          "play_count": 4811892,
+          "uri": "spotify:track:04Qh95tuCYNeWWWUauFBzd"
+        },
+        {
+          "title": "Breathe",
+          "play_count": 1374119,
+          "uri": "spotify:track:5aOiF4o6vGIkffntobPSYL"
+        },
+        {
+          "title": "WANNABE (Sampling Paganini 24 Caprices No.24 In A Minor Op.1)",
+          "play_count": 2148424,
+          "uri": "spotify:track:2VzJ6TygroXmPoiPKzShuE"
+        },
+        {
+          "title": "LET ME",
+          "play_count": 2551764,
+          "uri": "spotify:track:76zp2yTXPo74Cpq7Q3u2N0"
         }
       ]
     },
@@ -1160,6 +1185,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

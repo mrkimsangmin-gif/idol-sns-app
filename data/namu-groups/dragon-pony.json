@@ -137,33 +137,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 66838,
+      "monthly_listeners": 72891,
       "spotify_id": "2aRhzujDfJ1mVe2XdddXYL",
       "top_tracks": [
         {
-          "title": "Not Out",
-          "play_count": 644971,
-          "uri": "spotify:track:3vpxOqE2uaaH3lf09soVnA"
-        },
-        {
-          "title": "Oh Perfect!",
-          "play_count": 40231,
+          "title": "아 마음대로 다 된다!",
+          "play_count": 582152,
           "uri": "spotify:track:3LKZCLEnspadu6UQIOTPVD"
         },
         {
-          "title": "Radio Silence",
-          "play_count": 395968,
+          "title": "Not Out",
+          "play_count": 1042271,
+          "uri": "spotify:track:3vpxOqE2uaaH3lf09soVnA"
+        },
+        {
+          "title": "지구소년",
+          "play_count": 713109,
           "uri": "spotify:track:1wJNpkpNrZEZId1F2Gz83K"
         },
         {
-          "title": "Palm Lines",
-          "play_count": 34066,
-          "uri": "spotify:track:406oyoc9ClMAdEjtSwAOzV"
+          "title": "모스부호",
+          "play_count": 820608,
+          "uri": "spotify:track:17xOn4bMjst9BeM4qtJl23"
         },
         {
           "title": "POP UP",
-          "play_count": 746612,
+          "play_count": 998174,
           "uri": "spotify:track:1hZUb6Lk1YUENriSC9bI8H"
+        },
+        {
+          "title": "꼬리를 먹는 뱀",
+          "play_count": 627107,
+          "uri": "spotify:track:5KxNjzfgq4iSxYmt4SxQJq"
+        },
+        {
+          "title": "NEVER",
+          "play_count": 475195,
+          "uri": "spotify:track:2F3w8KVwdj62bcUQuAuiCh"
+        },
+        {
+          "title": "손금",
+          "play_count": 248586,
+          "uri": "spotify:track:406oyoc9ClMAdEjtSwAOzV"
+        },
+        {
+          "title": "Traffic Jam",
+          "play_count": 503051,
+          "uri": "spotify:track:6mCqpjlZm0vodNIGGaZlaH"
+        },
+        {
+          "title": "Pity Punk",
+          "play_count": 424960,
+          "uri": "spotify:track:0nNSxXAiSRtdOBMMNmKseC"
         }
       ]
     },
@@ -311,6 +336,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

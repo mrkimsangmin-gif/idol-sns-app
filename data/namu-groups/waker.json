@@ -208,33 +208,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 16496,
+      "monthly_listeners": 7526,
       "spotify_id": "1JHWiZqATDzLpkKLOC88pW",
       "top_tracks": [
         {
           "title": "LiKE THAT",
-          "play_count": 79260,
+          "play_count": 125092,
           "uri": "spotify:track:5tMCxcEG24Q6z8Q8V1ZysR"
         },
         {
           "title": "Vanilla Choco Shake",
-          "play_count": 287289,
+          "play_count": 319158,
           "uri": "spotify:track:6pqdrxYFbBXPKUjqaw7DlF"
         },
         {
-          "title": "11:59",
-          "play_count": 17928,
-          "uri": "spotify:track:4sJgfaOYAfYSCRNAUgkBgf"
+          "title": "ATLANTIS",
+          "play_count": 307621,
+          "uri": "spotify:track:7Ko0CaolmU1IXgh3OWTatJ"
         },
         {
           "title": "Lucid Dream",
-          "play_count": 17073,
+          "play_count": 34091,
           "uri": "spotify:track:1oVyKjKwOsiDsdhMOgsCPH"
         },
         {
-          "title": "Sugar Crush",
-          "play_count": 16418,
-          "uri": "spotify:track:3gnfSjDZUt7lrr2nD1KhMp"
+          "title": "11:59",
+          "play_count": 33430,
+          "uri": "spotify:track:4sJgfaOYAfYSCRNAUgkBgf"
+        },
+        {
+          "title": "10 outta 10",
+          "play_count": 27470,
+          "uri": "spotify:track:450UytsXdIHMgVo2ZwcYHL"
+        },
+        {
+          "title": "SPIRIT",
+          "play_count": 101193,
+          "uri": "spotify:track:66LBmHW4eTdIRDbSbIV9T0"
+        },
+        {
+          "title": "DASH",
+          "play_count": 116500,
+          "uri": "spotify:track:2iZ6RcWdi4X1Uk1dSKjKo1"
+        },
+        {
+          "title": "Feeling",
+          "play_count": 27152,
+          "uri": "spotify:track:2Wv3Mem9hBZ42I5EIN2HjK"
+        },
+        {
+          "title": "Revive",
+          "play_count": 22373,
+          "uri": "spotify:track:2vlsqi39Y8pOwabbO8h3DY"
         }
       ]
     },
@@ -431,6 +456,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

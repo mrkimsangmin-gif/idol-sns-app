@@ -633,33 +633,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 13389712,
+      "monthly_listeners": 19238755,
       "spotify_id": "36cgvBn0aadzOijnjjwqMN",
       "top_tracks": [
         {
-          "title": "NOT CUTE ANYMORE",
-          "play_count": 133139487,
-          "uri": "spotify:track:1k0JAiH11gHL9dc5dfQjQr"
+          "title": "ICONIC BY MISTAKE",
+          "play_count": 226418797,
+          "uri": "spotify:track:6fl4Gu0lJm5hc8FM5JzCZD"
+        },
+        {
+          "title": "It's Me",
+          "play_count": 183340275,
+          "uri": "spotify:track:1D5L58KLBbceOynTP4DQnY"
         },
         {
           "title": "Magnetic",
-          "play_count": 776377463,
+          "play_count": 902569463,
           "uri": "spotify:track:1aKvZDoLGkNMxoRYgkckZG"
         },
         {
+          "title": "NOT CUTE ANYMORE",
+          "play_count": 254903785,
+          "uri": "spotify:track:1k0JAiH11gHL9dc5dfQjQr"
+        },
+        {
           "title": "jellyous",
-          "play_count": 101399890,
+          "play_count": 170009460,
           "uri": "spotify:track:51pREVFJeAJGvhJ1rYCKZH"
         },
         {
           "title": "Billyeoon Goyangi (Do the Dance)",
-          "play_count": 120269547,
+          "play_count": 194333430,
           "uri": "spotify:track:4p0uVFAXKUISu8yp9gNtWE"
         },
         {
           "title": "Tick-Tack",
-          "play_count": 164431967,
+          "play_count": 230026220,
           "uri": "spotify:track:0znsc67nMhP4X9hjhvoyeP"
+        },
+        {
+          "title": "Cherish (My Love)",
+          "play_count": 219797076,
+          "uri": "spotify:track:21LtZQQMQYwVIxc9O9Ygq8"
+        },
+        {
+          "title": "Lucky Girl Syndrome",
+          "play_count": 199440890,
+          "uri": "spotify:track:2kIUILBPlz4exX9xIFS275"
+        },
+        {
+          "title": "I Got Your Back",
+          "play_count": 16789703,
+          "uri": "spotify:track:0MF2kZSdpBPHwYZS4n3a2c"
         }
       ]
     },
@@ -959,6 +984,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

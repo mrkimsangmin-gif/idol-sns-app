@@ -202,33 +202,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1874427,
+      "monthly_listeners": 1616529,
       "spotify_id": "2b8aDRZFgUGWiUGchpWsyC",
       "top_tracks": [
         {
           "title": "1&Only",
-          "play_count": 66413035,
+          "play_count": 91871383,
           "uri": "spotify:track:0lOOUAYUITTHYyGWWAqKIr"
         },
         {
-          "title": "Rizz",
-          "play_count": 15046118,
-          "uri": "spotify:track:1Wr3KJN8y31KSsfi3WjVgv"
-        },
-        {
           "title": "Biii:-P",
-          "play_count": 11758621,
+          "play_count": 19773415,
           "uri": "spotify:track:4z7I0iaA063AFHeGElKap5"
         },
         {
+          "title": "SERVE",
+          "play_count": 8388795,
+          "uri": "spotify:track:2wExzjTZ4iHBzQKSML7zpy"
+        },
+        {
+          "title": "Rizz",
+          "play_count": 23525918,
+          "uri": "spotify:track:1Wr3KJN8y31KSsfi3WjVgv"
+        },
+        {
           "title": "I'mma Be",
-          "play_count": 17303074,
+          "play_count": 23008122,
           "uri": "spotify:track:09B49mDd16vmAxbRKXdTfd"
         },
         {
           "title": "BIZNESS",
-          "play_count": 12852693,
+          "play_count": 17320067,
           "uri": "spotify:track:298VKd3LRLU5nCbYVPeR64"
+        },
+        {
+          "title": "Extancy (Wumuti&Rui)",
+          "play_count": 3993969,
+          "uri": "spotify:track:4UPuKqtMeW0WuHbwBoiUKp"
+        },
+        {
+          "title": "Scent",
+          "play_count": 9369249,
+          "uri": "spotify:track:3sVzTjogXoH2hj1Ya1VtyT"
+        },
+        {
+          "title": "1 of LOV",
+          "play_count": 10233051,
+          "uri": "spotify:track:2TekqqBq25j4amuW6AAa2s"
+        },
+        {
+          "title": "BACK 2 BACK",
+          "play_count": 3049201,
+          "uri": "spotify:track:0XUckeTQVoNS0chRzhaUBl"
         }
       ]
     },
@@ -338,6 +363,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

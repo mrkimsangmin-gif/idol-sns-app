@@ -185,33 +185,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 24800,
+      "monthly_listeners": 25756,
       "spotify_id": "3696Y4dRCxairFC7sQAuI4",
       "top_tracks": [
         {
           "title": "Burn Up",
-          "play_count": 1711545,
+          "play_count": 1842157,
           "uri": "spotify:track:6MuGKATZWdlxekc6lPRXVW"
         },
         {
-          "title": "Girls, Love boys, Love girls",
-          "play_count": 811593,
+          "title": "소년...소녀를 만나다",
+          "play_count": 888953,
           "uri": "spotify:track:7pcHhqteiHcGKmaD6lOC73"
         },
         {
-          "title": "Zip Zip Zip",
-          "play_count": 383566,
+          "title": "찍찍찍",
+          "play_count": 433424,
           "uri": "spotify:track:1WxZnMz2lcFskuyx6A7rYi"
         },
         {
+          "title": "Make It Rain",
+          "play_count": 69357,
+          "uri": "spotify:track:1xLhZXhcy7T0xbvKTNHHkl"
+        },
+        {
+          "title": "CHEESE",
+          "play_count": 47052,
+          "uri": "spotify:track:6GI7TnVSenATXWiDucMbNU"
+        },
+        {
+          "title": "SSS",
+          "play_count": 94299,
+          "uri": "spotify:track:3gqSof3L3xlWuIEJio2KOB"
+        },
+        {
           "title": "SPARK",
-          "play_count": 587003,
+          "play_count": 623088,
           "uri": "spotify:track:14efWkIZpHRkh8Vgyt0U2k"
         },
         {
-          "title": "Very",
-          "play_count": 233735,
-          "uri": "spotify:track:6yaajketfjKc4vqwcMmutg"
+          "title": "SEXY BACK",
+          "play_count": 26856,
+          "uri": "spotify:track:6aX6OtniRvTiJRT5TQrkxR"
+        },
+        {
+          "title": "DXMON",
+          "play_count": 55262,
+          "uri": "spotify:track:0IBZJKPrVk4vqI2R5TqBzn"
+        },
+        {
+          "title": "N.W.B",
+          "play_count": 419446,
+          "uri": "spotify:track:4jD957GBj80PcggDNRNsHQ"
         }
       ]
     },
@@ -312,6 +337,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

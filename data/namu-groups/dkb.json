@@ -360,33 +360,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 48101,
+      "monthly_listeners": 38449,
       "spotify_id": "4DoedGw38ubJdAT1edFsIx",
       "top_tracks": [
         {
           "title": "Irony",
-          "play_count": 418765,
+          "play_count": 598306,
           "uri": "spotify:track:7lgkS0moKfp1AXgi3MwmFM"
         },
         {
           "title": "Flirting X",
-          "play_count": 747004,
+          "play_count": 866434,
           "uri": "spotify:track:4TGctisYgwEoezT5GuDYJ1"
         },
         {
-          "title": "Rollercoaster",
-          "play_count": 1833740,
+          "title": "Work hard - Japanese ver",
+          "play_count": 3777103,
+          "uri": "spotify:track:1qYtrEpI8XR4WSxcZGA8F8"
+        },
+        {
+          "title": "오늘도 여전히",
+          "play_count": 2283454,
+          "uri": "spotify:track:7BpI7Xj5Fn4QXuKBpl1f5A"
+        },
+        {
+          "title": "왜 만나",
+          "play_count": 1901708,
           "uri": "spotify:track:7pGEgie2m5bx9kxsudyXfU"
         },
         {
-          "title": "난 일해",
-          "play_count": 891441,
-          "uri": "spotify:track:0gn7uSwdTwpKLYT6yrSOWw"
+          "title": "I Need Love",
+          "play_count": 964574,
+          "uri": "spotify:track:53LfCu2BvhDpsaFUKQXqWU"
         },
         {
-          "title": "I Need Love",
-          "play_count": 902375,
-          "uri": "spotify:track:53LfCu2BvhDpsaFUKQXqWU"
+          "title": "안취해 (Sober)",
+          "play_count": 1358845,
+          "uri": "spotify:track:3rEeG5sxPFP1O2OocQUb1c"
+        },
+        {
+          "title": "かけがえのない君へ",
+          "play_count": 21656,
+          "uri": "spotify:track:4DzvanXiAojJBE4ePvipbA"
+        },
+        {
+          "title": "미안해 엄마",
+          "play_count": 2417085,
+          "uri": "spotify:track:37QP6T0FaZm5f3nVbIwsWP"
+        },
+        {
+          "title": "넌 매일 (24/7)",
+          "play_count": 852841,
+          "uri": "spotify:track:6WHj1fxMVsUZifAYskQXcM"
         }
       ]
     },
@@ -740,6 +765,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -1429,33 +1429,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2409908,
+      "monthly_listeners": 1998160,
       "spotify_id": "1gBUSTR3TyDdTVFIaQnc02",
       "top_tracks": [
         {
           "title": "Beat It Up",
-          "play_count": 49123894,
+          "play_count": 106212820,
           "uri": "spotify:track:4UJwJG0Byki4e9MNTxo8aF"
         },
         {
-          "title": "CHILLER",
-          "play_count": 109478600,
-          "uri": "spotify:track:0PNOA20FfXz8c1KVaon1ei"
-        },
-        {
-          "title": "Broken Melodies",
-          "play_count": 86978402,
-          "uri": "spotify:track:1DYPrEzbmlOYbeTDkCDsaA"
-        },
-        {
-          "title": "Don’t Need Your Love",
-          "play_count": 100175597,
-          "uri": "spotify:track:7oEm5Q1virEUB9H0XjWZzF"
+          "title": "Ridin'",
+          "play_count": 79492322,
+          "uri": "spotify:track:0EMD15EVNwDlgGH2CH6ZEL"
         },
         {
           "title": "BOOM",
-          "play_count": 170367937,
+          "play_count": 184451197,
           "uri": "spotify:track:6rcn967QN5JtkPOBDwYIuT"
+        },
+        {
+          "title": "Candy",
+          "play_count": 160296184,
+          "uri": "spotify:track:27bIik73QCu8Xzt3xpG1bI"
+        },
+        {
+          "title": "오르골 (Life Is Still Going On)",
+          "play_count": 145085477,
+          "uri": "spotify:track:3THdOskGxdJcRbp0DcS4s0"
+        },
+        {
+          "title": "Broken Melodies",
+          "play_count": 102486472,
+          "uri": "spotify:track:1DYPrEzbmlOYbeTDkCDsaA"
+        },
+        {
+          "title": "맛 (Hot Sauce)",
+          "play_count": 167325076,
+          "uri": "spotify:track:6B8MM3PVQtUbZLay7tP7er"
+        },
+        {
+          "title": "Hello Future",
+          "play_count": 135123023,
+          "uri": "spotify:track:332GJ8ykVuEt3jOT1sy7j6"
+        },
+        {
+          "title": "북극성 (Never Goodbye)",
+          "play_count": 65340250,
+          "uri": "spotify:track:5EAfUqytXYbH0yUZR3QGli"
+        },
+        {
+          "title": "Like We Just Met",
+          "play_count": 37766834,
+          "uri": "spotify:track:56BFdDnRlfTnSLk5d7Ukw1"
         }
       ]
     },
@@ -2190,6 +2215,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

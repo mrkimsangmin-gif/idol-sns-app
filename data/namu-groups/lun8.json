@@ -297,33 +297,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 41125,
+      "monthly_listeners": 40520,
       "spotify_id": "5LkLwB6VSZLQiFkJa9SPOn",
       "top_tracks": [
         {
+          "title": "SNEAKERS",
+          "play_count": 149886,
+          "uri": "spotify:track:5BwU28Gj1jfpYNf6tdJKh0"
+        },
+        {
           "title": "Lost",
-          "play_count": 285243,
+          "play_count": 439424,
           "uri": "spotify:track:6dlbp9t6McWNc8r8ZXtYvP"
         },
         {
           "title": "SUPER POWER",
-          "play_count": 1302265,
+          "play_count": 1449433,
           "uri": "spotify:track:08hJKTdPxplmXIatRpelrw"
         },
         {
           "title": "Wild Heart",
-          "play_count": 1690831,
+          "play_count": 1825273,
           "uri": "spotify:track:3GXLBTk7l1Bc7bZp18sqZD"
         },
         {
           "title": "WHIP",
-          "play_count": 782418,
+          "play_count": 864848,
           "uri": "spotify:track:1UlSTGYf4uBep4oWicvvfk"
         },
         {
-          "title": "Butterfly",
-          "play_count": 384848,
+          "title": "나비(Butterfly)",
+          "play_count": 451318,
           "uri": "spotify:track:6EX2u3rBDR606W9N37iglB"
+        },
+        {
+          "title": "BACK",
+          "play_count": 39207,
+          "uri": "spotify:track:0DOptJMkkff6A3wjjPCwdi"
+        },
+        {
+          "title": "TO THE MOON",
+          "play_count": 37815,
+          "uri": "spotify:track:2tsl6nuaBMz65vxUKAOIwX"
+        },
+        {
+          "title": "PASTEL",
+          "play_count": 620762,
+          "uri": "spotify:track:4q0CYq46WxuMBCrXcs57vq"
+        },
+        {
+          "title": "Nauty",
+          "play_count": 143484,
+          "uri": "spotify:track:029RPuf5SlineOMzJIkWyb"
         }
       ]
     },
@@ -556,6 +581,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

@@ -1428,33 +1428,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 691649,
+      "monthly_listeners": 723254,
       "spotify_id": "2019zR22qK2RBvCqtudBaI",
       "top_tracks": [
         {
           "title": "Dolphin",
-          "play_count": 86422047,
+          "play_count": 89748622,
           "uri": "spotify:track:5gpojs9yi3nm8aC3BOg6q5"
         },
         {
-          "title": "Nonstop",
-          "play_count": 87747688,
+          "title": "살짝 설렜어 (Nonstop)",
+          "play_count": 90629069,
           "uri": "spotify:track:4ljXOIFNSjnGA2VuCYHQTS"
         },
         {
           "title": "Dun Dun Dance",
-          "play_count": 55998201,
+          "play_count": 58242219,
           "uri": "spotify:track:5rp3c6ueLX4XjTeDS1RLjN"
         },
         {
-          "title": "The fifth season (SSFWL)",
-          "play_count": 29287104,
-          "uri": "spotify:track:3OOule225U6G8jfuR9tHIB"
+          "title": "五番目の季節 Japanese ver.",
+          "play_count": 32190205,
+          "uri": "spotify:track:251koozsLsCGeuGlLnS0wc"
         },
         {
-          "title": "Secret Garden",
-          "play_count": 25803850,
+          "title": "비밀정원",
+          "play_count": 27197450,
           "uri": "spotify:track:1xB3DS43HzAz7YKhjSFSwl"
+        },
+        {
+          "title": "CLOSER",
+          "play_count": 20891893,
+          "uri": "spotify:track:2NlrTlIzVoLit7Q3ixYesc"
+        },
+        {
+          "title": "불꽃놀이 (Remember Me)",
+          "play_count": 11165751,
+          "uri": "spotify:track:2cwBu3CpELFHePDsPXqDgB"
+        },
+        {
+          "title": "내 얘길 들어봐(A-ing) (feat.스컬&하하)",
+          "play_count": 6455329,
+          "uri": "spotify:track:5GjDOheLC60qWNx0SFXwPe"
+        },
+        {
+          "title": "한 발짝 두 발짝",
+          "play_count": 9152881,
+          "uri": "spotify:track:6e223AzP6wYLnDMSmnKQDH"
+        },
+        {
+          "title": "WINDY DAY",
+          "play_count": 8949449,
+          "uri": "spotify:track:3n0tXe8qbofu9mra6BK9cs"
         }
       ]
     },
@@ -2048,6 +2073,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

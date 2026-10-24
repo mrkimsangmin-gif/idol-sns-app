@@ -655,33 +655,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2444983,
+      "monthly_listeners": 3015055,
       "spotify_id": "4hnHLgMSOiqERWBL4jINP1",
       "top_tracks": [
         {
+          "title": "ANIMAL",
+          "play_count": 3768691,
+          "uri": "spotify:track:3U7iIHygNSOcjcL98KwHQg"
+        },
+        {
+          "title": "VIRAL",
+          "play_count": 20071911,
+          "uri": "spotify:track:0NqmROY1BA3g9A7ZqF8D6O"
+        },
+        {
           "title": "Hollywood Action",
-          "play_count": 25016488,
+          "play_count": 43356176,
           "uri": "spotify:track:4BtOh0Xwh3DHelPQ14MPVC"
         },
         {
           "title": "IF I SAY, I LOVE YOU",
-          "play_count": 60573554,
+          "play_count": 76219150,
           "uri": "spotify:track:2NtidJuimmXzUsExfMYcvk"
         },
         {
+          "title": "Boom Boom Boom",
+          "play_count": 5590155,
+          "uri": "spotify:track:6LFouNL3xlYOqXJ3xznJBn"
+        },
+        {
+          "title": "ddok ddok ddok",
+          "play_count": 16917953,
+          "uri": "spotify:track:51n6dPkIasW4p9JwPpcibu"
+        },
+        {
           "title": "Earth, Wind & Fire",
-          "play_count": 77608811,
+          "play_count": 89385581,
           "uri": "spotify:track:0Tq7v8YAmwdnAYBwyR1pZ4"
         },
         {
-          "title": "I Feel Good",
-          "play_count": 30117466,
-          "uri": "spotify:track:1klePVubVctBqhlKJvibil"
+          "title": "ADIOS!",
+          "play_count": 9498770,
+          "uri": "spotify:track:0F6XPZ5gxXC1zaiaDhrV73"
         },
         {
           "title": "123-78",
-          "play_count": 24665724,
+          "play_count": 33542114,
           "uri": "spotify:track:4XLfRpryO7Qn0SXp1ARIfj"
+        },
+        {
+          "title": "I Feel Good",
+          "play_count": 39011495,
+          "uri": "spotify:track:1klePVubVctBqhlKJvibil"
         }
       ]
     },
@@ -1072,6 +1097,6 @@
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }
