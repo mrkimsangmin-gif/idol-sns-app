@@ -41,6 +41,7 @@ CALENDAR_PATH = DATA_DIR / "calendar.json"
 
 sys.path.insert(0, str(APP_ROOT / "07.hanteo"))
 from comeback_alert import get_gmail_service
+from artist_normalizer import normalize_artist
 
 # Load Naver API Keys
 WORK_AI_ENV = Path("G:/내 드라이브/01.Work/05.초록뱀/00.work_ai/.env")
@@ -268,15 +269,17 @@ def run_pipeline(dry_run=False):
 
     added_count = 0
     for v in verified_list:
-        slug = re.sub(r'[^a-z0-9]+', '-', v["artist"].lower()).strip('-')
+        # 아티스트 표준명, 정규화된 slug, 기본 성별 판별
+        canon_name, slug, default_gender = normalize_artist(v["artist"])
 
         # 신규 그룹 자동 인덱싱
         if slug not in existing_slugs:
+            gender = "여자" if ("걸그룹" in v["verified_title"] or default_gender == "여자") else "남자"
             idx_data["groups"].append({
-                "name": v["artist"],
-                "name_en": v["artist"],
+                "name": canon_name,
+                "name_en": canon_name,
                 "slug": slug,
-                "gender": "여자" if "걸그룹" in v["verified_title"] else "남자",
+                "gender": gender,
                 "agency": "확인 중",
                 "debut_year": str(datetime.now().year),
                 "album_count": 1,
@@ -284,7 +287,7 @@ def run_pipeline(dry_run=False):
                 "members": []
             })
             existing_slugs[slug] = True
-            print(f"  + 신규 아티스트 namu-index 자동 등록: {v['artist']} ({slug})")
+            print(f"  + 신규 아티스트 namu-index 자동 등록: {canon_name} ({slug})")
 
         event_key = (v["date"], slug)
         if event_key not in existing_event_keys:
@@ -293,7 +296,7 @@ def run_pipeline(dry_run=False):
             cal_data["events"].append({
                 "id": event_id,
                 "date": v["date"],
-                "title": f"{v['artist']} ({tag})",
+                "title": f"{canon_name} ({tag})",
                 "slug": slug,
                 "description": f"{v['verified_title']} (기사: {v['url']})",
                 "url": v["url"],
