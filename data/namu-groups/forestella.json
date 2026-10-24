@@ -80,9 +80,27 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "750",
-      "누적_써클": "",
+      "누적_써클": "6,055",
       "비고": "You Are My Star, 사랑의 여정",
-      "초동_써클_numeric": 750
+      "초동_써클_numeric": 750,
+      "누적_써클_numeric": 6055,
+      "monthly_timeline": [
+        {
+          "ym": "2018-03",
+          "sales": 3638,
+          "cumulative": 3638
+        },
+        {
+          "ym": "2018-06",
+          "sales": 985,
+          "cumulative": 4623
+        },
+        {
+          "ym": "2018-07",
+          "sales": 1432,
+          "cumulative": 6055
+        }
+      ]
     },
     {
       "title": "Mystique",
@@ -91,9 +109,27 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "820",
-      "누적_써클": "",
+      "누적_써클": "7,562",
       "비고": "달하 노피곰 도다샤, Angel, My Favorite Things",
-      "초동_써클_numeric": 820
+      "초동_써클_numeric": 820,
+      "누적_써클_numeric": 7562,
+      "monthly_timeline": [
+        {
+          "ym": "2019-05",
+          "sales": 5039,
+          "cumulative": 5039
+        },
+        {
+          "ym": "2019-06",
+          "sales": 1012,
+          "cumulative": 6051
+        },
+        {
+          "ym": "2019-07",
+          "sales": 1511,
+          "cumulative": 7562
+        }
+      ]
     },
     {
       "title": "The Forestella",
@@ -136,9 +172,18 @@
       "발매일": "2022.05.30",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "",
-      "비고": "Save our lives, Moonlight, 숲의 노래"
+      "초동_써클": "17,196",
+      "누적_써클": "17,196",
+      "비고": "Save our lives, Moonlight, 숲의 노래",
+      "누적_써클_numeric": 17196,
+      "초동_써클_numeric": 17196,
+      "monthly_timeline": [
+        {
+          "ym": "2022-06",
+          "sales": 17196,
+          "cumulative": 17196
+        }
+      ]
     },
     {
       "title": "The Bloom : UTOPIA",
@@ -177,9 +222,17 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "8,617",
-      "누적_써클": "",
+      "누적_써클": "17,091",
       "비고": "Snow Globe",
-      "초동_써클_numeric": 8617
+      "초동_써클_numeric": 8617,
+      "누적_써클_numeric": 17091,
+      "monthly_timeline": [
+        {
+          "ym": "2023-11",
+          "sales": 17091,
+          "cumulative": 17091
+        }
+      ]
     },
     {
       "title": "Stuck In a Maze",

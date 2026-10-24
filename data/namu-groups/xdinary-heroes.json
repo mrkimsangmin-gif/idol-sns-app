@@ -114,19 +114,19 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "17,418",
-      "누적_써클": "69,311",
+      "누적_써클": "55,380",
       "비고": "Test Me, Strawberry cake",
-      "누적_써클_numeric": 69311,
+      "누적_써클_numeric": 55380,
       "monthly_timeline": [
         {
           "ym": "2022-07",
           "sales": 37962,
-          "cumulative": 69311
+          "cumulative": 37962
         },
         {
           "ym": "2022-08",
           "sales": 17418,
-          "cumulative": 69311
+          "cumulative": 55380
         }
       ]
     },
@@ -143,14 +143,15 @@
         {
           "ym": "2022-11",
           "sales": 77578,
-          "cumulative": 82469
+          "cumulative": 77578
         },
         {
           "ym": "2022-12",
           "sales": 4891,
           "cumulative": 82469
         }
-      ]
+      ],
+      "누적_써클_numeric": 82469
     },
     {
       "title": "Deadlock",
@@ -159,20 +160,20 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "93,891",
-      "누적_써클": "135,823",
+      "누적_써클": "129,698",
       "비고": "Freakin' Bad, Good enough, Dear H.",
-      "누적_써클_numeric": 135823,
+      "누적_써클_numeric": 129698,
       "초동_써클_numeric": 93891,
       "monthly_timeline": [
         {
           "ym": "2023-04",
           "sales": 93891,
-          "cumulative": 135823
+          "cumulative": 93891
         },
         {
           "ym": "2023-05",
           "sales": 35807,
-          "cumulative": 135823
+          "cumulative": 129698
         }
       ]
     },
@@ -190,14 +191,15 @@
         {
           "ym": "2023-10",
           "sales": 95717,
-          "cumulative": 99000
+          "cumulative": 95717
         },
         {
           "ym": "2023-11",
           "sales": 3685,
-          "cumulative": 99000
+          "cumulative": 99402
         }
-      ]
+      ],
+      "누적_써클_numeric": 99402
     },
     {
       "title": "Troubleshooting",

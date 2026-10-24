@@ -103,25 +103,25 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "14,069",
-      "누적_써클": "39,373",
+      "누적_써클": "37,390",
       "비고": "Cupid",
-      "누적_써클_numeric": 39373,
+      "누적_써클_numeric": 37390,
       "초동_써클_numeric": 14069,
       "monthly_timeline": [
         {
           "ym": "2023-03",
           "sales": 16845,
-          "cumulative": 39373
+          "cumulative": 16845
         },
         {
           "ym": "2023-04",
           "sales": 11155,
-          "cumulative": 39373
+          "cumulative": 28000
         },
         {
           "ym": "2023-05",
           "sales": 9390,
-          "cumulative": 39373
+          "cumulative": 37390
         }
       ]
     },
@@ -182,25 +182,25 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "14,069",
-      "누적_써클": "39,373",
+      "누적_써클": "37,390",
       "비고": "Cupid – Twin Ver. (ft. Sabrina Carpenter)",
-      "누적_써클_numeric": 39373,
+      "누적_써클_numeric": 37390,
       "초동_써클_numeric": 14069,
       "monthly_timeline": [
         {
           "ym": "2023-03",
           "sales": 16845,
-          "cumulative": 39373
+          "cumulative": 16845
         },
         {
           "ym": "2023-04",
           "sales": 11155,
-          "cumulative": 39373
+          "cumulative": 28000
         },
         {
           "ym": "2023-05",
           "sales": 9390,
-          "cumulative": 39373
+          "cumulative": 37390
         }
       ]
     },

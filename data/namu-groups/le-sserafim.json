@@ -92,49 +92,49 @@
       "초동_한터": "3074**",
       "누적_한터": "",
       "초동_써클": "0,307,4**",
-      "누적_써클": "562,961",
+      "누적_써클": "517,438",
       "비고": "FEARLESS",
-      "누적_써클_numeric": 562961,
+      "누적_써클_numeric": 517438,
       "monthly_timeline": [
         {
           "ym": "2022-05",
           "sales": 412696,
-          "cumulative": 453215
+          "cumulative": 412696
         },
         {
           "ym": "2022-08",
           "sales": 7550,
-          "cumulative": 453215
+          "cumulative": 420246
         },
         {
           "ym": "2022-12",
           "sales": 10513,
-          "cumulative": 453215
+          "cumulative": 430759
         },
         {
           "ym": "2023-01",
           "sales": 18460,
-          "cumulative": 109746
+          "cumulative": 449219
         },
         {
           "ym": "2023-02",
           "sales": 15642,
-          "cumulative": 109746
+          "cumulative": 464861
         },
         {
           "ym": "2023-03",
           "sales": 18852,
-          "cumulative": 109746
+          "cumulative": 483713
         },
         {
           "ym": "2023-04",
           "sales": 29926,
-          "cumulative": 109746
+          "cumulative": 513639
         },
         {
           "ym": "2023-12",
           "sales": 3799,
-          "cumulative": 109746
+          "cumulative": 517438
         }
       ]
     },
@@ -145,25 +145,80 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "887",
-      "누적_써클": "24,895",
+      "누적_써클": "1,202,969",
       "비고": "ANTIFRAGILE",
-      "누적_써클_numeric": 24895,
+      "누적_써클_numeric": 1202969,
       "초동_써클_numeric": 887,
       "monthly_timeline": [
         {
+          "ym": "2022-10",
+          "sales": 677895,
+          "cumulative": 677895
+        },
+        {
+          "ym": "2022-11",
+          "sales": 106942,
+          "cumulative": 784837
+        },
+        {
+          "ym": "2022-12",
+          "sales": 73086,
+          "cumulative": 857923
+        },
+        {
+          "ym": "2023-01",
+          "sales": 86628,
+          "cumulative": 944551
+        },
+        {
+          "ym": "2023-02",
+          "sales": 81460,
+          "cumulative": 1026011
+        },
+        {
+          "ym": "2023-03",
+          "sales": 79080,
+          "cumulative": 1105091
+        },
+        {
+          "ym": "2023-04",
+          "sales": 13362,
+          "cumulative": 1118453
+        },
+        {
+          "ym": "2023-05",
+          "sales": 25437,
+          "cumulative": 1143890
+        },
+        {
+          "ym": "2023-07",
+          "sales": 14379,
+          "cumulative": 1158269
+        },
+        {
+          "ym": "2023-08",
+          "sales": 9546,
+          "cumulative": 1167815
+        },
+        {
+          "ym": "2023-12",
+          "sales": 10259,
+          "cumulative": 1178074
+        },
+        {
           "ym": "2024-01",
           "sales": 9973,
-          "cumulative": 9973
+          "cumulative": 1188047
         },
         {
           "ym": "2024-02",
           "sales": 7227,
-          "cumulative": 17200
+          "cumulative": 1195274
         },
         {
           "ym": "2024-04",
           "sales": 7695,
-          "cumulative": 24895
+          "cumulative": 1202969
         }
       ]
     },
@@ -173,52 +228,53 @@
       "발매일": "2023.01.25",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "-",
-      "누적_써클": "562,961",
+      "초동_써클": "412,696",
+      "누적_써클": "517,438",
       "비고": "FEARLESS (Japanese ver.)",
-      "누적_써클_numeric": 562961,
+      "누적_써클_numeric": 517438,
       "monthly_timeline": [
         {
           "ym": "2022-05",
           "sales": 412696,
-          "cumulative": 453215
+          "cumulative": 412696
         },
         {
           "ym": "2022-08",
           "sales": 7550,
-          "cumulative": 453215
+          "cumulative": 420246
         },
         {
           "ym": "2022-12",
           "sales": 10513,
-          "cumulative": 453215
+          "cumulative": 430759
         },
         {
           "ym": "2023-01",
           "sales": 18460,
-          "cumulative": 109746
+          "cumulative": 449219
         },
         {
           "ym": "2023-02",
           "sales": 15642,
-          "cumulative": 109746
+          "cumulative": 464861
         },
         {
           "ym": "2023-03",
           "sales": 18852,
-          "cumulative": 109746
+          "cumulative": 483713
         },
         {
           "ym": "2023-04",
           "sales": 29926,
-          "cumulative": 109746
+          "cumulative": 513639
         },
         {
           "ym": "2023-12",
           "sales": 3799,
-          "cumulative": 109746
+          "cumulative": 517438
         }
-      ]
+      ],
+      "초동_써클_numeric": 412696
     },
     {
       "title": "UNFORGIVEN",
@@ -227,35 +283,35 @@
       "초동_한터": "1,258,001",
       "누적_한터": "",
       "초동_써클": "1,229,837",
-      "누적_써클": "1,571,548",
+      "누적_써클": "1,569,823",
       "비고": "UNFORGIVEN (feat. Nile Rodgers)",
-      "누적_써클_numeric": 1571548,
+      "누적_써클_numeric": 1569823,
       "초동_써클_numeric": 1229837,
       "monthly_timeline": [
         {
           "ym": "2023-05",
-          "sales": 1292146,
-          "cumulative": 1356140
+          "sales": 1509974,
+          "cumulative": 1509974
         },
         {
           "ym": "2023-06",
           "sales": 13643,
-          "cumulative": 1356140
+          "cumulative": 1523617
         },
         {
           "ym": "2023-07",
-          "sales": 7430,
-          "cumulative": 1356140
+          "sales": 12308,
+          "cumulative": 1535925
         },
         {
           "ym": "2023-08",
           "sales": 30425,
-          "cumulative": 1356140
+          "cumulative": 1566350
         },
         {
           "ym": "2023-12",
           "sales": 3473,
-          "cumulative": 1356140
+          "cumulative": 1569823
         }
       ]
     },
@@ -276,35 +332,35 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "1,229,837",
-      "누적_써클": "1,571,548",
+      "누적_써클": "1,569,823",
       "비고": "UNFORGIVEN (feat. Nile Rodgers, Ado) -Japanese ver.-",
-      "누적_써클_numeric": 1571548,
+      "누적_써클_numeric": 1569823,
       "초동_써클_numeric": 1229837,
       "monthly_timeline": [
         {
           "ym": "2023-05",
-          "sales": 1292146,
-          "cumulative": 1356140
+          "sales": 1509974,
+          "cumulative": 1509974
         },
         {
           "ym": "2023-06",
           "sales": 13643,
-          "cumulative": 1356140
+          "cumulative": 1523617
         },
         {
           "ym": "2023-07",
-          "sales": 7430,
-          "cumulative": 1356140
+          "sales": 12308,
+          "cumulative": 1535925
         },
         {
           "ym": "2023-08",
           "sales": 30425,
-          "cumulative": 1356140
+          "cumulative": 1566350
         },
         {
           "ym": "2023-12",
           "sales": 3473,
-          "cumulative": 1356140
+          "cumulative": 1569823
         }
       ]
     },
@@ -797,16 +853,26 @@
       "초동_한터": "559,2**",
       "누적_한터": "",
       "초동_써클": "559,2**",
-      "누적_써클": "23,587",
+      "누적_써클": "701,061",
       "비고": "BOOMPALA",
       "초동_한터_numeric": 559200,
       "초동_확정": true,
-      "누적_써클_numeric": 23587,
+      "누적_써클_numeric": 701061,
       "monthly_timeline": [
+        {
+          "ym": "2026-05",
+          "sales": 667659,
+          "cumulative": 667659
+        },
+        {
+          "ym": "2026-06",
+          "sales": 9815,
+          "cumulative": 677474
+        },
         {
           "ym": "2026-09",
           "sales": 23587,
-          "cumulative": 23587
+          "cumulative": 701061
         }
       ]
     },

@@ -92,21 +92,22 @@
       "초동_한터": "758**",
       "누적_한터": "",
       "초동_써클": "49,702",
-      "누적_써클": "70,000",
+      "누적_써클": "58,256",
       "비고": "Sensitive",
       "초동_써클_numeric": 49702,
       "monthly_timeline": [
         {
           "ym": "2023-09",
           "sales": 49702,
-          "cumulative": 63100
+          "cumulative": 49702
         },
         {
           "ym": "2023-10",
           "sales": 8554,
-          "cumulative": 63100
+          "cumulative": 58256
         }
-      ]
+      ],
+      "누적_써클_numeric": 58256
     },
     {
       "title": "One of a Kind",

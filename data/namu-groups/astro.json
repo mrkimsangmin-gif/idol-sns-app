@@ -90,62 +90,63 @@
       "발매일": "2016.02.23",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "26,392",
+      "초동_써클": "7,019",
+      "누적_써클": "25,085",
       "비고": "숨바꼭질",
-      "누적_써클_numeric": 26392,
+      "누적_써클_numeric": 25085,
       "monthly_timeline": [
         {
           "ym": "2016-02",
           "sales": 7019,
-          "cumulative": 24004
+          "cumulative": 7019
         },
         {
           "ym": "2016-03",
           "sales": 7613,
-          "cumulative": 24004
+          "cumulative": 14632
         },
         {
           "ym": "2016-04",
           "sales": 5732,
-          "cumulative": 24004
+          "cumulative": 20364
         },
         {
           "ym": "2016-07",
           "sales": 642,
-          "cumulative": 24004
+          "cumulative": 21006
         },
         {
           "ym": "2016-08",
           "sales": 662,
-          "cumulative": 24004
+          "cumulative": 21668
         },
         {
           "ym": "2016-09",
           "sales": 745,
-          "cumulative": 24004
+          "cumulative": 22413
         },
         {
           "ym": "2016-10",
           "sales": 561,
-          "cumulative": 24004
+          "cumulative": 22974
         },
         {
           "ym": "2016-11",
           "sales": 677,
-          "cumulative": 24004
+          "cumulative": 23651
         },
         {
           "ym": "2017-02",
           "sales": 756,
-          "cumulative": 2388
+          "cumulative": 24407
         },
         {
           "ym": "2017-03",
           "sales": 678,
-          "cumulative": 2388
+          "cumulative": 25085
         }
-      ]
+      ],
+      "초동_써클_numeric": 7019
     },
     {
       "title": "Summer Vibes",
@@ -186,15 +187,15 @@
       "발매일": "2016.11.10",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "78,391",
+      "초동_써클": "37,057",
+      "누적_써클": "74,937",
       "비고": "고백",
-      "누적_써클_numeric": 78391,
+      "누적_써클_numeric": 74937,
       "monthly_timeline": [
         {
           "ym": "2016-11",
           "sales": 37057,
-          "cumulative": 57524
+          "cumulative": 37057
         },
         {
           "ym": "2016-12",
@@ -204,19 +205,20 @@
         {
           "ym": "2017-01",
           "sales": 6413,
-          "cumulative": 6869
+          "cumulative": 63937
         },
         {
           "ym": "2021-08",
           "sales": 5000,
-          "cumulative": 7999
+          "cumulative": 68937
         },
         {
           "ym": "2022-01",
           "sales": 6000,
-          "cumulative": 5999
+          "cumulative": 74937
         }
-      ]
+      ],
+      "초동_써클_numeric": 37057
     },
     {
       "title": "Winter Dream",
@@ -247,42 +249,43 @@
       "발매일": "2017.05.29",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "186,667",
+      "초동_써클": "77,356",
+      "누적_써클": "104,531",
       "비고": "Baby",
-      "누적_써클_numeric": 186667,
+      "누적_써클_numeric": 104531,
       "monthly_timeline": [
         {
           "ym": "2017-05",
           "sales": 77356,
-          "cumulative": 86113
+          "cumulative": 77356
         },
         {
           "ym": "2017-06",
           "sales": 1592,
-          "cumulative": 86113
+          "cumulative": 78948
         },
         {
           "ym": "2017-07",
           "sales": 1191,
-          "cumulative": 86113
+          "cumulative": 80139
         },
         {
           "ym": "2017-08",
           "sales": 5607,
-          "cumulative": 86113
+          "cumulative": 85746
         },
         {
           "ym": "2021-07",
           "sales": 5785,
-          "cumulative": 8777
+          "cumulative": 91531
         },
         {
           "ym": "2022-01",
           "sales": 13000,
-          "cumulative": 12998
+          "cumulative": 104531
         }
-      ]
+      ],
+      "초동_써클_numeric": 77356
     },
     {
       "title": "Dream Part.02",
@@ -290,42 +293,38 @@
       "발매일": "2017.11.01",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "186,667",
+      "초동_써클": "39,308",
+      "누적_써클": "75,782",
       "비고": "니가 불어와 (Crazy Sexy Cool)",
-      "누적_써클_numeric": 186667,
+      "누적_써클_numeric": 75782,
       "monthly_timeline": [
         {
-          "ym": "2017-05",
-          "sales": 77356,
-          "cumulative": 86113
+          "ym": "2017-11",
+          "sales": 39308,
+          "cumulative": 39308
         },
         {
-          "ym": "2017-06",
-          "sales": 1592,
-          "cumulative": 86113
+          "ym": "2017-12",
+          "sales": 7677,
+          "cumulative": 46985
         },
         {
-          "ym": "2017-07",
-          "sales": 1191,
-          "cumulative": 86113
-        },
-        {
-          "ym": "2017-08",
-          "sales": 5607,
-          "cumulative": 86113
+          "ym": "2018-01",
+          "sales": 9999,
+          "cumulative": 56984
         },
         {
           "ym": "2021-07",
-          "sales": 5785,
-          "cumulative": 8777
+          "sales": 5798,
+          "cumulative": 62782
         },
         {
           "ym": "2022-01",
           "sales": 13000,
-          "cumulative": 12998
+          "cumulative": 75782
         }
-      ]
+      ],
+      "초동_써클_numeric": 39308
     },
     {
       "title": "Rise Up",
@@ -333,37 +332,38 @@
       "발매일": "2018.07.24",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "44,663",
+      "초동_써클": "22,554",
+      "누적_써클": "43,148",
       "비고": "너잖아 (Always You)",
-      "누적_써클_numeric": 44663,
+      "누적_써클_numeric": 43148,
       "monthly_timeline": [
         {
           "ym": "2018-07",
           "sales": 22554,
-          "cumulative": 32663
+          "cumulative": 22554
         },
         {
           "ym": "2018-08",
           "sales": 5867,
-          "cumulative": 32663
+          "cumulative": 28421
         },
         {
           "ym": "2018-09",
           "sales": 1497,
-          "cumulative": 32663
+          "cumulative": 29918
         },
         {
           "ym": "2018-10",
           "sales": 1230,
-          "cumulative": 32663
+          "cumulative": 31148
         },
         {
           "ym": "2022-01",
           "sales": 12000,
-          "cumulative": 12000
+          "cumulative": 43148
         }
-      ]
+      ],
+      "초동_써클_numeric": 22554
     },
     {
       "title": "Merry-Go-Round (Christmas Edition)",
@@ -381,32 +381,33 @@
       "발매일": "2019.01.16",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "134,717",
+      "초동_써클": "99,857",
+      "누적_써클": "129,170",
       "비고": "All Night (전화해) (첫 정규앨범)",
-      "누적_써클_numeric": 134717,
+      "누적_써클_numeric": 129170,
       "monthly_timeline": [
         {
           "ym": "2019-01",
           "sales": 99857,
-          "cumulative": 126721
+          "cumulative": 99857
         },
         {
           "ym": "2019-02",
           "sales": 18155,
-          "cumulative": 126721
+          "cumulative": 118012
         },
         {
           "ym": "2019-03",
           "sales": 3161,
-          "cumulative": 126721
+          "cumulative": 121173
         },
         {
           "ym": "2022-01",
           "sales": 7997,
-          "cumulative": 7996
+          "cumulative": 129170
         }
-      ]
+      ],
+      "초동_써클_numeric": 99857
     },
     {
       "title": "Venus",
@@ -434,15 +435,15 @@
       "발매일": "2019.11.20",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "124,705",
+      "초동_써클": "98,427",
+      "누적_써클": "119,072",
       "비고": "BLUE FLAME",
-      "누적_써클_numeric": 124705,
+      "누적_써클_numeric": 119072,
       "monthly_timeline": [
         {
           "ym": "2019-11",
           "sales": 98427,
-          "cumulative": 117925
+          "cumulative": 98427
         },
         {
           "ym": "2019-12",
@@ -452,9 +453,10 @@
         {
           "ym": "2020-01",
           "sales": 1147,
-          "cumulative": 6780
+          "cumulative": 119072
         }
-      ]
+      ],
+      "초동_써클_numeric": 98427
     },
     {
       "title": "ONE&ONLY",
@@ -462,17 +464,18 @@
       "발매일": "2020.02.23",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "-",
-      "누적_써클": "29,980",
+      "초동_써클": "30,000",
+      "누적_써클": "30,000",
       "비고": "ONE&ONLY (4주년 스페셜)",
-      "누적_써클_numeric": 29980,
+      "누적_써클_numeric": 30000,
       "monthly_timeline": [
         {
           "ym": "2020-03",
           "sales": 30000,
-          "cumulative": 29980
+          "cumulative": 30000
         }
-      ]
+      ],
+      "초동_써클_numeric": 30000
     },
     {
       "title": "GATEWAY",
@@ -539,14 +542,14 @@
       "초동_한터": "2819**",
       "누적_한터": "",
       "초동_써클": "282,3**",
-      "누적_써클": "360,911",
+      "누적_써클": "359,031",
       "비고": "ONE",
-      "누적_써클_numeric": 360911,
+      "누적_써클_numeric": 359031,
       "monthly_timeline": [
         {
           "ym": "2021-04",
           "sales": 359031,
-          "cumulative": 360911
+          "cumulative": 359031
         }
       ]
     },
@@ -557,19 +560,19 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "275,1**",
-      "누적_써클": "310,979",
+      "누적_써클": "309,750",
       "비고": "After Midnight",
-      "누적_써클_numeric": 310979,
+      "누적_써클_numeric": 309750,
       "monthly_timeline": [
         {
           "ym": "2021-08",
           "sales": 297322,
-          "cumulative": 310979
+          "cumulative": 297322
         },
         {
           "ym": "2021-09",
           "sales": 12428,
-          "cumulative": 310979
+          "cumulative": 309750
         }
       ]
     },
@@ -590,14 +593,14 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "270,0**",
-      "누적_써클": "253,997",
+      "누적_써클": "252,989",
       "비고": "Candy Sugar Pop",
-      "누적_써클_numeric": 253997,
+      "누적_써클_numeric": 252989,
       "monthly_timeline": [
         {
           "ym": "2022-05",
           "sales": 252989,
-          "cumulative": 253997
+          "cumulative": 252989
         }
       ]
     },
@@ -757,42 +760,38 @@
       "발매일": "2018.01.16",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "186,667",
+      "초동_써클": "39,308",
+      "누적_써클": "75,782",
       "비고": "타이틀곡: 너의 뒤에서 (Always You)",
-      "누적_써클_numeric": 186667,
+      "누적_써클_numeric": 75782,
       "monthly_timeline": [
         {
-          "ym": "2017-05",
-          "sales": 77356,
-          "cumulative": 86113
+          "ym": "2017-11",
+          "sales": 39308,
+          "cumulative": 39308
         },
         {
-          "ym": "2017-06",
-          "sales": 1592,
-          "cumulative": 86113
+          "ym": "2017-12",
+          "sales": 7677,
+          "cumulative": 46985
         },
         {
-          "ym": "2017-07",
-          "sales": 1191,
-          "cumulative": 86113
-        },
-        {
-          "ym": "2017-08",
-          "sales": 5607,
-          "cumulative": 86113
+          "ym": "2018-01",
+          "sales": 9999,
+          "cumulative": 56984
         },
         {
           "ym": "2021-07",
-          "sales": 5785,
-          "cumulative": 8777
+          "sales": 5798,
+          "cumulative": 62782
         },
         {
           "ym": "2022-01",
           "sales": 13000,
-          "cumulative": 12998
+          "cumulative": 75782
         }
-      ]
+      ],
+      "초동_써클_numeric": 39308
     }
   ],
   "streaming": {

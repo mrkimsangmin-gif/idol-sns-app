@@ -103,32 +103,43 @@
       "발매일": "2015.04.20",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "-",
-      "누적_써클": "8,447",
+      "초동_써클": "3,225",
+      "누적_써클": "106,204",
       "비고": "CUPID",
-      "누적_써클_numeric": 8447,
+      "누적_써클_numeric": 106204,
       "monthly_timeline": [
         {
           "ym": "2015-04",
           "sales": 3225,
-          "cumulative": 8447
+          "cumulative": 3225
         },
         {
           "ym": "2015-05",
           "sales": 2840,
-          "cumulative": 8447
+          "cumulative": 6065
         },
         {
           "ym": "2015-06",
           "sales": 1593,
-          "cumulative": 8447
+          "cumulative": 7658
         },
         {
           "ym": "2015-07",
           "sales": 486,
-          "cumulative": 8447
+          "cumulative": 8144
+        },
+        {
+          "ym": "2021-05",
+          "sales": 93908,
+          "cumulative": 102052
+        },
+        {
+          "ym": "2021-09",
+          "sales": 4152,
+          "cumulative": 106204
         }
-      ]
+      ],
+      "초동_써클_numeric": 3225
     },
     {
       "title": "CLOSER",
@@ -159,27 +170,28 @@
       "발매일": "2016.03.28",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "-",
-      "누적_써클": "15,100",
+      "초동_써클": "6,482",
+      "누적_써클": "13,925",
       "비고": "LIAR LIAR",
-      "누적_써클_numeric": 15100,
+      "누적_써클_numeric": 13925,
       "monthly_timeline": [
         {
           "ym": "2016-03",
           "sales": 6482,
-          "cumulative": 15100
+          "cumulative": 6482
         },
         {
           "ym": "2016-04",
           "sales": 4844,
-          "cumulative": 15100
+          "cumulative": 11326
         },
         {
           "ym": "2016-05",
           "sales": 2599,
-          "cumulative": 15100
+          "cumulative": 13925
         }
-      ]
+      ],
+      "초동_써클_numeric": 6482
     },
     {
       "title": "WINDY DAY",
@@ -187,32 +199,33 @@
       "발매일": "2016.05.26",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "-",
-      "누적_써클": "20,228",
+      "초동_써클": "10,574",
+      "누적_써클": "18,908",
       "비고": "WINDY DAY",
-      "누적_써클_numeric": 20228,
+      "누적_써클_numeric": 18908,
       "monthly_timeline": [
         {
           "ym": "2016-05",
           "sales": 10574,
-          "cumulative": 20228
+          "cumulative": 10574
         },
         {
           "ym": "2016-06",
           "sales": 6840,
-          "cumulative": 20228
+          "cumulative": 17414
         },
         {
           "ym": "2016-07",
           "sales": 1065,
-          "cumulative": 20228
+          "cumulative": 18479
         },
         {
           "ym": "2016-09",
           "sales": 429,
-          "cumulative": 20228
+          "cumulative": 18908
         }
-      ]
+      ],
+      "초동_써클_numeric": 10574
     },
     {
       "title": "내 얘길 들어봐",
@@ -271,27 +284,28 @@
       "발매일": "2018.01.09",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "-",
-      "누적_써클": "35,705",
+      "초동_써클": "23,970",
+      "누적_써클": "35,366",
       "비고": "비밀정원",
-      "누적_써클_numeric": 35705,
+      "누적_써클_numeric": 35366,
       "monthly_timeline": [
         {
           "ym": "2018-01",
           "sales": 23970,
-          "cumulative": 35705
+          "cumulative": 23970
         },
         {
           "ym": "2018-02",
           "sales": 6164,
-          "cumulative": 35705
+          "cumulative": 30134
         },
         {
           "ym": "2018-03",
           "sales": 5232,
-          "cumulative": 35705
+          "cumulative": 35366
         }
-      ]
+      ],
+      "초동_써클_numeric": 23970
     },
     {
       "title": "Remember Me",
@@ -299,25 +313,25 @@
       "발매일": "2018.09.10",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "-",
-      "누적_써클": "39,523",
+      "초동_써클": "21,911",
+      "누적_써클": "35,671",
       "비고": "불꽃놀이 (Remember Me)",
-      "누적_써클_numeric": 39523,
+      "누적_써클_numeric": 35671,
       "monthly_timeline": [
         {
           "ym": "2018-09",
           "sales": 21911,
-          "cumulative": 31673
+          "cumulative": 21911
         },
         {
           "ym": "2018-10",
           "sales": 3005,
-          "cumulative": 31673
+          "cumulative": 24916
         },
         {
           "ym": "2018-11",
           "sales": 4304,
-          "cumulative": 31673
+          "cumulative": 29220
         },
         {
           "ym": "2018-12",
@@ -327,9 +341,10 @@
         {
           "ym": "2021-02",
           "sales": 3998,
-          "cumulative": 7850
+          "cumulative": 35671
         }
-      ]
+      ],
+      "초동_써클_numeric": 21911
     },
     {
       "title": "The Fifth Season",
@@ -337,15 +352,15 @@
       "발매일": "2019.05.08",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "-",
-      "누적_써클": "35,234",
+      "초동_써클": "21,203",
+      "누적_써클": "30,490",
       "비고": "다섯 번째 계절 (SSFWL)",
-      "누적_써클_numeric": 35234,
+      "누적_써클_numeric": 30490,
       "monthly_timeline": [
         {
           "ym": "2019-05",
           "sales": 21203,
-          "cumulative": 26492
+          "cumulative": 21203
         },
         {
           "ym": "2019-06",
@@ -355,9 +370,10 @@
         {
           "ym": "2021-02",
           "sales": 3998,
-          "cumulative": 8742
+          "cumulative": 30490
         }
-      ]
+      ],
+      "초동_써클_numeric": 21203
     },
     {
       "title": "Fall In Love",
@@ -375,32 +391,33 @@
       "발매일": "2020.04.27",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "-",
-      "누적_써클": "52,080",
+      "초동_써클": "23,963",
+      "누적_써클": "46,144",
       "비고": "살짝 설렜어 (Nonstop)",
-      "누적_써클_numeric": 52080,
+      "누적_써클_numeric": 46144,
       "monthly_timeline": [
         {
           "ym": "2020-04",
           "sales": 23963,
-          "cumulative": 52080
+          "cumulative": 23963
         },
         {
           "ym": "2020-05",
           "sales": 17300,
-          "cumulative": 52080
+          "cumulative": 41263
         },
         {
           "ym": "2020-06",
           "sales": 3209,
-          "cumulative": 52080
+          "cumulative": 44472
         },
         {
           "ym": "2020-12",
           "sales": 1672,
-          "cumulative": 52080
+          "cumulative": 46144
         }
-      ]
+      ],
+      "초동_써클_numeric": 23963
     },
     {
       "title": "Etoile Korean ver.",
@@ -419,19 +436,39 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "111,804",
-      "누적_써클": "111,804",
+      "누적_써클": "106,204",
       "비고": "Dun Dun Dance",
-      "누적_써클_numeric": 111804,
+      "누적_써클_numeric": 106204,
       "monthly_timeline": [
+        {
+          "ym": "2015-04",
+          "sales": 3225,
+          "cumulative": 3225
+        },
+        {
+          "ym": "2015-05",
+          "sales": 2840,
+          "cumulative": 6065
+        },
+        {
+          "ym": "2015-06",
+          "sales": 1593,
+          "cumulative": 7658
+        },
+        {
+          "ym": "2015-07",
+          "sales": 486,
+          "cumulative": 8144
+        },
         {
           "ym": "2021-05",
           "sales": 93908,
-          "cumulative": 111804
+          "cumulative": 102052
         },
         {
           "ym": "2021-09",
           "sales": 4152,
-          "cumulative": 111804
+          "cumulative": 106204
         }
       ]
     },
@@ -441,22 +478,23 @@
       "발매일": "2022.03.28",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "-",
-      "누적_써클": "95,009",
+      "초동_써클": "70,116",
+      "누적_써클": "96,880",
       "비고": "Real Love",
-      "누적_써클_numeric": 95009,
+      "누적_써클_numeric": 96880,
       "monthly_timeline": [
         {
           "ym": "2022-03",
           "sales": 70116,
-          "cumulative": 95009
+          "cumulative": 70116
         },
         {
           "ym": "2022-04",
           "sales": 26764,
-          "cumulative": 95009
+          "cumulative": 96880
         }
-      ]
+      ],
+      "초동_써클_numeric": 70116
     },
     {
       "title": "Miracle",
@@ -475,20 +513,20 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "45,507",
-      "누적_써클": "77,938",
+      "누적_써클": "74,164",
       "비고": "여름이 들려 (Summer Comes)",
-      "누적_써클_numeric": 77938,
+      "누적_써클_numeric": 74164,
       "초동_써클_numeric": 45507,
       "monthly_timeline": [
         {
           "ym": "2023-07",
-          "sales": 29034,
-          "cumulative": 48504
+          "sales": 41706,
+          "cumulative": 41706
         },
         {
           "ym": "2023-08",
-          "sales": 15194,
-          "cumulative": 48504
+          "sales": 32458,
+          "cumulative": 74164
         }
       ]
     },
@@ -527,32 +565,43 @@
       "발매일": "2025.04.09",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "-",
-      "누적_써클": "8,447",
+      "초동_써클": "3,225",
+      "누적_써클": "106,204",
       "비고": "Oh My",
-      "누적_써클_numeric": 8447,
+      "누적_써클_numeric": 106204,
       "monthly_timeline": [
         {
           "ym": "2015-04",
           "sales": 3225,
-          "cumulative": 8447
+          "cumulative": 3225
         },
         {
           "ym": "2015-05",
           "sales": 2840,
-          "cumulative": 8447
+          "cumulative": 6065
         },
         {
           "ym": "2015-06",
           "sales": 1593,
-          "cumulative": 8447
+          "cumulative": 7658
         },
         {
           "ym": "2015-07",
           "sales": 486,
-          "cumulative": 8447
+          "cumulative": 8144
+        },
+        {
+          "ym": "2021-05",
+          "sales": 93908,
+          "cumulative": 102052
+        },
+        {
+          "ym": "2021-09",
+          "sales": 4152,
+          "cumulative": 106204
         }
-      ]
+      ],
+      "초동_써클_numeric": 3225
     },
     {
       "title": "일기예보",
@@ -570,32 +619,33 @@
       "발매일": "2019.01.09",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "-",
-      "누적_써클": "8,447",
+      "초동_써클": "3,225",
+      "누적_써클": "8,144",
       "비고": "Hanabi (Remember Me) Japanese version",
-      "누적_써클_numeric": 8447,
+      "누적_써클_numeric": 8144,
       "monthly_timeline": [
         {
           "ym": "2015-04",
           "sales": 3225,
-          "cumulative": 8447
+          "cumulative": 3225
         },
         {
           "ym": "2015-05",
           "sales": 2840,
-          "cumulative": 8447
+          "cumulative": 6065
         },
         {
           "ym": "2015-06",
           "sales": 1593,
-          "cumulative": 8447
+          "cumulative": 7658
         },
         {
           "ym": "2015-07",
           "sales": 486,
-          "cumulative": 8447
+          "cumulative": 8144
         }
-      ]
+      ],
+      "초동_써클_numeric": 3225
     },
     {
       "title": "OH MY GIRL JAPAN 2nd ALBUM",
@@ -603,32 +653,33 @@
       "발매일": "2019.07.03",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "-",
-      "누적_써클": "8,447",
+      "초동_써클": "3,225",
+      "누적_써클": "8,144",
       "비고": "5th Season Japanese version",
-      "누적_써클_numeric": 8447,
+      "누적_써클_numeric": 8144,
       "monthly_timeline": [
         {
           "ym": "2015-04",
           "sales": 3225,
-          "cumulative": 8447
+          "cumulative": 3225
         },
         {
           "ym": "2015-05",
           "sales": 2840,
-          "cumulative": 8447
+          "cumulative": 6065
         },
         {
           "ym": "2015-06",
           "sales": 1593,
-          "cumulative": 8447
+          "cumulative": 7658
         },
         {
           "ym": "2015-07",
           "sales": 486,
-          "cumulative": 8447
+          "cumulative": 8144
         }
-      ]
+      ],
+      "초동_써클_numeric": 3225
     },
     {
       "title": "Eternally",
@@ -646,32 +697,33 @@
       "발매일": "2020.11.25",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "-",
-      "누적_써클": "52,080",
+      "초동_써클": "23,963",
+      "누적_써클": "46,144",
       "비고": "Etoile",
-      "누적_써클_numeric": 52080,
+      "누적_써클_numeric": 46144,
       "monthly_timeline": [
         {
           "ym": "2020-04",
           "sales": 23963,
-          "cumulative": 52080
+          "cumulative": 23963
         },
         {
           "ym": "2020-05",
           "sales": 17300,
-          "cumulative": 52080
+          "cumulative": 41263
         },
         {
           "ym": "2020-06",
           "sales": 3209,
-          "cumulative": 52080
+          "cumulative": 44472
         },
         {
           "ym": "2020-12",
           "sales": 1672,
-          "cumulative": 52080
+          "cumulative": 46144
         }
-      ]
+      ],
+      "초동_써클_numeric": 23963
     },
     {
       "title": "Dun Dun Dance Japanese ver.",
@@ -689,32 +741,33 @@
       "발매일": "2022.03.30",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "8,447",
+      "초동_써클": "3,225",
+      "누적_써클": "8,144",
       "비고": "Real Love Japanese version",
-      "누적_써클_numeric": 8447,
+      "누적_써클_numeric": 8144,
       "monthly_timeline": [
         {
           "ym": "2015-04",
           "sales": 3225,
-          "cumulative": 8447
+          "cumulative": 3225
         },
         {
           "ym": "2015-05",
           "sales": 2840,
-          "cumulative": 8447
+          "cumulative": 6065
         },
         {
           "ym": "2015-06",
           "sales": 1593,
-          "cumulative": 8447
+          "cumulative": 7658
         },
         {
           "ym": "2015-07",
           "sales": 486,
-          "cumulative": 8447
+          "cumulative": 8144
         }
-      ]
+      ],
+      "초동_써클_numeric": 3225
     },
     {
       "title": "Etoile Korean version",

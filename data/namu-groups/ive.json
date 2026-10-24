@@ -104,30 +104,100 @@
       "초동_한터": "1522**",
       "누적_한터": "",
       "초동_써클": "29,470",
-      "누적_써클": "41,356",
+      "누적_써클": "535,693",
       "비고": "ELEVEN",
-      "누적_써클_numeric": 41356,
+      "누적_써클_numeric": 535693,
       "초동_써클_numeric": 29470,
       "monthly_timeline": [
         {
+          "ym": "2021-12",
+          "sales": 268396,
+          "cumulative": 268396
+        },
+        {
+          "ym": "2022-01",
+          "sales": 60248,
+          "cumulative": 328644
+        },
+        {
+          "ym": "2022-02",
+          "sales": 15972,
+          "cumulative": 344616
+        },
+        {
+          "ym": "2022-03",
+          "sales": 18224,
+          "cumulative": 362840
+        },
+        {
+          "ym": "2022-06",
+          "sales": 7485,
+          "cumulative": 370325
+        },
+        {
+          "ym": "2022-07",
+          "sales": 6087,
+          "cumulative": 376412
+        },
+        {
+          "ym": "2022-08",
+          "sales": 8757,
+          "cumulative": 385169
+        },
+        {
+          "ym": "2022-09",
+          "sales": 13872,
+          "cumulative": 399041
+        },
+        {
+          "ym": "2022-10",
+          "sales": 28309,
+          "cumulative": 427350
+        },
+        {
+          "ym": "2022-11",
+          "sales": 8860,
+          "cumulative": 436210
+        },
+        {
+          "ym": "2023-03",
+          "sales": 39622,
+          "cumulative": 475832
+        },
+        {
+          "ym": "2023-07",
+          "sales": 4673,
+          "cumulative": 480505
+        },
+        {
+          "ym": "2023-09",
+          "sales": 9344,
+          "cumulative": 489849
+        },
+        {
+          "ym": "2023-12",
+          "sales": 4488,
+          "cumulative": 494337
+        },
+        {
           "ym": "2024-01",
           "sales": 9657,
-          "cumulative": 9657
+          "cumulative": 503994
         },
         {
           "ym": "2024-02",
           "sales": 10230,
-          "cumulative": 19887
+          "cumulative": 514224
         },
         {
           "ym": "2024-04",
           "sales": 11150,
-          "cumulative": 31037
+          "cumulative": 525374
         },
         {
           "ym": "2025-01",
           "sales": 10319,
-          "cumulative": 41356
+          "cumulative": 535693
         }
       ]
     },
@@ -138,35 +208,110 @@
       "초동_한터": "3381**",
       "누적_한터": "",
       "초동_써클": "1,430,912",
-      "누적_써클": "52,398",
+      "누적_써클": "1,012,075",
       "비고": "LOVE DIVE",
-      "누적_써클_numeric": 52398,
+      "누적_써클_numeric": 1012075,
       "초동_써클_numeric": 1430912,
       "monthly_timeline": [
         {
+          "ym": "2022-04",
+          "sales": 544339,
+          "cumulative": 544339
+        },
+        {
+          "ym": "2022-05",
+          "sales": 109009,
+          "cumulative": 653348
+        },
+        {
+          "ym": "2022-06",
+          "sales": 14943,
+          "cumulative": 668291
+        },
+        {
+          "ym": "2022-07",
+          "sales": 44941,
+          "cumulative": 713232
+        },
+        {
+          "ym": "2022-08",
+          "sales": 24609,
+          "cumulative": 737841
+        },
+        {
+          "ym": "2022-09",
+          "sales": 27913,
+          "cumulative": 765754
+        },
+        {
+          "ym": "2022-10",
+          "sales": 37138,
+          "cumulative": 802892
+        },
+        {
+          "ym": "2022-11",
+          "sales": 14963,
+          "cumulative": 817855
+        },
+        {
+          "ym": "2022-12",
+          "sales": 43330,
+          "cumulative": 861185
+        },
+        {
+          "ym": "2023-01",
+          "sales": 16535,
+          "cumulative": 877720
+        },
+        {
+          "ym": "2023-03",
+          "sales": 44124,
+          "cumulative": 921844
+        },
+        {
+          "ym": "2023-05",
+          "sales": 7138,
+          "cumulative": 928982
+        },
+        {
+          "ym": "2023-08",
+          "sales": 9005,
+          "cumulative": 937987
+        },
+        {
+          "ym": "2023-09",
+          "sales": 10187,
+          "cumulative": 948174
+        },
+        {
+          "ym": "2023-12",
+          "sales": 11503,
+          "cumulative": 959677
+        },
+        {
           "ym": "2024-01",
           "sales": 9172,
-          "cumulative": 9172
+          "cumulative": 968849
         },
         {
           "ym": "2024-02",
           "sales": 11981,
-          "cumulative": 21153
+          "cumulative": 980830
         },
         {
           "ym": "2024-04",
           "sales": 14983,
-          "cumulative": 36136
+          "cumulative": 995813
         },
         {
           "ym": "2024-10",
           "sales": 4965,
-          "cumulative": 41101
+          "cumulative": 1000778
         },
         {
           "ym": "2025-01",
           "sales": 11297,
-          "cumulative": 52398
+          "cumulative": 1012075
         }
       ]
     },
@@ -177,30 +322,70 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "26,489",
-      "누적_써클": "31,933",
+      "누적_써클": "1,737,290",
       "비고": "After LIKE",
-      "누적_써클_numeric": 31933,
+      "누적_써클_numeric": 1737290,
       "초동_써클_numeric": 26489,
       "monthly_timeline": [
         {
+          "ym": "2022-08",
+          "sales": 1110177,
+          "cumulative": 1110177
+        },
+        {
+          "ym": "2022-09",
+          "sales": 261626,
+          "cumulative": 1371803
+        },
+        {
+          "ym": "2022-10",
+          "sales": 222078,
+          "cumulative": 1593881
+        },
+        {
+          "ym": "2022-11",
+          "sales": 13597,
+          "cumulative": 1607478
+        },
+        {
+          "ym": "2022-12",
+          "sales": 44924,
+          "cumulative": 1652402
+        },
+        {
+          "ym": "2023-01",
+          "sales": 14946,
+          "cumulative": 1667348
+        },
+        {
+          "ym": "2023-03",
+          "sales": 33285,
+          "cumulative": 1700633
+        },
+        {
+          "ym": "2023-12",
+          "sales": 4724,
+          "cumulative": 1705357
+        },
+        {
           "ym": "2024-01",
           "sales": 8000,
-          "cumulative": 8000
+          "cumulative": 1713357
         },
         {
           "ym": "2024-02",
           "sales": 8725,
-          "cumulative": 16725
+          "cumulative": 1722082
         },
         {
           "ym": "2024-04",
           "sales": 6066,
-          "cumulative": 22791
+          "cumulative": 1728148
         },
         {
           "ym": "2025-01",
           "sales": 9142,
-          "cumulative": 31933
+          "cumulative": 1737290
         }
       ]
     },
@@ -211,30 +396,100 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "29,470",
-      "누적_써클": "41,356",
+      "누적_써클": "535,693",
       "비고": "ELEVEN -Japanese version-",
-      "누적_써클_numeric": 41356,
+      "누적_써클_numeric": 535693,
       "초동_써클_numeric": 29470,
       "monthly_timeline": [
         {
+          "ym": "2021-12",
+          "sales": 268396,
+          "cumulative": 268396
+        },
+        {
+          "ym": "2022-01",
+          "sales": 60248,
+          "cumulative": 328644
+        },
+        {
+          "ym": "2022-02",
+          "sales": 15972,
+          "cumulative": 344616
+        },
+        {
+          "ym": "2022-03",
+          "sales": 18224,
+          "cumulative": 362840
+        },
+        {
+          "ym": "2022-06",
+          "sales": 7485,
+          "cumulative": 370325
+        },
+        {
+          "ym": "2022-07",
+          "sales": 6087,
+          "cumulative": 376412
+        },
+        {
+          "ym": "2022-08",
+          "sales": 8757,
+          "cumulative": 385169
+        },
+        {
+          "ym": "2022-09",
+          "sales": 13872,
+          "cumulative": 399041
+        },
+        {
+          "ym": "2022-10",
+          "sales": 28309,
+          "cumulative": 427350
+        },
+        {
+          "ym": "2022-11",
+          "sales": 8860,
+          "cumulative": 436210
+        },
+        {
+          "ym": "2023-03",
+          "sales": 39622,
+          "cumulative": 475832
+        },
+        {
+          "ym": "2023-07",
+          "sales": 4673,
+          "cumulative": 480505
+        },
+        {
+          "ym": "2023-09",
+          "sales": 9344,
+          "cumulative": 489849
+        },
+        {
+          "ym": "2023-12",
+          "sales": 4488,
+          "cumulative": 494337
+        },
+        {
           "ym": "2024-01",
           "sales": 9657,
-          "cumulative": 9657
+          "cumulative": 503994
         },
         {
           "ym": "2024-02",
           "sales": 10230,
-          "cumulative": 19887
+          "cumulative": 514224
         },
         {
           "ym": "2024-04",
           "sales": 11150,
-          "cumulative": 31037
+          "cumulative": 525374
         },
         {
           "ym": "2025-01",
           "sales": 10319,
-          "cumulative": 41356
+          "cumulative": 535693
         }
       ]
     },
@@ -265,35 +520,75 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "3,103,085",
-      "누적_써클": "49,894",
+      "누적_써클": "1,700,515",
       "비고": "I AM",
-      "누적_써클_numeric": 49894,
+      "누적_써클_numeric": 1700515,
       "초동_써클_numeric": 3103085,
       "monthly_timeline": [
         {
+          "ym": "2023-04",
+          "sales": 1522403,
+          "cumulative": 1522403
+        },
+        {
+          "ym": "2023-05",
+          "sales": 41501,
+          "cumulative": 1563904
+        },
+        {
+          "ym": "2023-06",
+          "sales": 14591,
+          "cumulative": 1578495
+        },
+        {
+          "ym": "2023-07",
+          "sales": 17376,
+          "cumulative": 1595871
+        },
+        {
+          "ym": "2023-08",
+          "sales": 14443,
+          "cumulative": 1610314
+        },
+        {
+          "ym": "2023-09",
+          "sales": 12997,
+          "cumulative": 1623311
+        },
+        {
+          "ym": "2023-10",
+          "sales": 16642,
+          "cumulative": 1639953
+        },
+        {
+          "ym": "2023-12",
+          "sales": 10668,
+          "cumulative": 1650621
+        },
+        {
           "ym": "2024-01",
           "sales": 12991,
-          "cumulative": 12991
+          "cumulative": 1663612
         },
         {
           "ym": "2024-02",
           "sales": 12357,
-          "cumulative": 25348
+          "cumulative": 1675969
         },
         {
           "ym": "2024-03",
           "sales": 5965,
-          "cumulative": 31313
+          "cumulative": 1681934
         },
         {
           "ym": "2024-04",
           "sales": 9006,
-          "cumulative": 40319
+          "cumulative": 1690940
         },
         {
           "ym": "2025-01",
           "sales": 9575,
-          "cumulative": 49894
+          "cumulative": 1700515
         }
       ]
     },
@@ -334,35 +629,50 @@
       "초동_한터": "1,605,948",
       "누적_한터": "",
       "초동_써클": "3,103,085",
-      "누적_써클": "166,093",
+      "누적_써클": "2,107,847",
       "비고": "Baddie",
-      "누적_써클_numeric": 166093,
+      "누적_써클_numeric": 2107847,
       "초동_써클_numeric": 3103085,
       "monthly_timeline": [
         {
+          "ym": "2023-10",
+          "sales": 1856869,
+          "cumulative": 1856869
+        },
+        {
+          "ym": "2023-11",
+          "sales": 40123,
+          "cumulative": 1896992
+        },
+        {
+          "ym": "2023-12",
+          "sales": 44762,
+          "cumulative": 1941754
+        },
+        {
           "ym": "2024-01",
           "sales": 22219,
-          "cumulative": 22219
+          "cumulative": 1963973
         },
         {
           "ym": "2024-02",
           "sales": 17321,
-          "cumulative": 39540
+          "cumulative": 1981294
         },
         {
           "ym": "2024-03",
           "sales": 107820,
-          "cumulative": 147360
+          "cumulative": 2089114
         },
         {
           "ym": "2024-04",
           "sales": 10275,
-          "cumulative": 157635
+          "cumulative": 2099389
         },
         {
           "ym": "2025-01",
           "sales": 8458,
-          "cumulative": 166093
+          "cumulative": 2107847
         }
       ]
     },
@@ -555,22 +865,37 @@
       "초동_한터": "42,244",
       "누적_한터": "",
       "초동_써클": "667,2**",
-      "누적_써클": "16,223",
+      "누적_써클": "1,076,704",
       "비고": "BLACKHOLE",
       "초동_한터_numeric": 42244,
       "monthly_timeline": [
         {
+          "ym": "2026-02",
+          "sales": 958593,
+          "cumulative": 958593
+        },
+        {
+          "ym": "2026-03",
+          "sales": 94334,
+          "cumulative": 1052927
+        },
+        {
+          "ym": "2026-04",
+          "sales": 7554,
+          "cumulative": 1060481
+        },
+        {
           "ym": "2026-07",
           "sales": 5810,
-          "cumulative": 5810
+          "cumulative": 1066291
         },
         {
           "ym": "2026-09",
           "sales": 10413,
-          "cumulative": 16223
+          "cumulative": 1076704
         }
       ],
-      "누적_써클_numeric": 16223
+      "누적_써클_numeric": 1076704
     },
     {
       "title": "Blue & Black",
@@ -589,30 +914,70 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "26,489",
-      "누적_써클": "31,933",
+      "누적_써클": "1,737,290",
       "비고": "After Like - Holiday Remix",
-      "누적_써클_numeric": 31933,
+      "누적_써클_numeric": 1737290,
       "초동_써클_numeric": 26489,
       "monthly_timeline": [
         {
+          "ym": "2022-08",
+          "sales": 1110177,
+          "cumulative": 1110177
+        },
+        {
+          "ym": "2022-09",
+          "sales": 261626,
+          "cumulative": 1371803
+        },
+        {
+          "ym": "2022-10",
+          "sales": 222078,
+          "cumulative": 1593881
+        },
+        {
+          "ym": "2022-11",
+          "sales": 13597,
+          "cumulative": 1607478
+        },
+        {
+          "ym": "2022-12",
+          "sales": 44924,
+          "cumulative": 1652402
+        },
+        {
+          "ym": "2023-01",
+          "sales": 14946,
+          "cumulative": 1667348
+        },
+        {
+          "ym": "2023-03",
+          "sales": 33285,
+          "cumulative": 1700633
+        },
+        {
+          "ym": "2023-12",
+          "sales": 4724,
+          "cumulative": 1705357
+        },
+        {
           "ym": "2024-01",
           "sales": 8000,
-          "cumulative": 8000
+          "cumulative": 1713357
         },
         {
           "ym": "2024-02",
           "sales": 8725,
-          "cumulative": 16725
+          "cumulative": 1722082
         },
         {
           "ym": "2024-04",
           "sales": 6066,
-          "cumulative": 22791
+          "cumulative": 1728148
         },
         {
           "ym": "2025-01",
           "sales": 9142,
-          "cumulative": 31933
+          "cumulative": 1737290
         }
       ]
     },
@@ -713,30 +1078,100 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "29,470",
-      "누적_써클": "41,356",
+      "누적_써클": "535,693",
       "비고": "",
-      "누적_써클_numeric": 41356,
+      "누적_써클_numeric": 535693,
       "초동_써클_numeric": 29470,
       "monthly_timeline": [
         {
+          "ym": "2021-12",
+          "sales": 268396,
+          "cumulative": 268396
+        },
+        {
+          "ym": "2022-01",
+          "sales": 60248,
+          "cumulative": 328644
+        },
+        {
+          "ym": "2022-02",
+          "sales": 15972,
+          "cumulative": 344616
+        },
+        {
+          "ym": "2022-03",
+          "sales": 18224,
+          "cumulative": 362840
+        },
+        {
+          "ym": "2022-06",
+          "sales": 7485,
+          "cumulative": 370325
+        },
+        {
+          "ym": "2022-07",
+          "sales": 6087,
+          "cumulative": 376412
+        },
+        {
+          "ym": "2022-08",
+          "sales": 8757,
+          "cumulative": 385169
+        },
+        {
+          "ym": "2022-09",
+          "sales": 13872,
+          "cumulative": 399041
+        },
+        {
+          "ym": "2022-10",
+          "sales": 28309,
+          "cumulative": 427350
+        },
+        {
+          "ym": "2022-11",
+          "sales": 8860,
+          "cumulative": 436210
+        },
+        {
+          "ym": "2023-03",
+          "sales": 39622,
+          "cumulative": 475832
+        },
+        {
+          "ym": "2023-07",
+          "sales": 4673,
+          "cumulative": 480505
+        },
+        {
+          "ym": "2023-09",
+          "sales": 9344,
+          "cumulative": 489849
+        },
+        {
+          "ym": "2023-12",
+          "sales": 4488,
+          "cumulative": 494337
+        },
+        {
           "ym": "2024-01",
           "sales": 9657,
-          "cumulative": 9657
+          "cumulative": 503994
         },
         {
           "ym": "2024-02",
           "sales": 10230,
-          "cumulative": 19887
+          "cumulative": 514224
         },
         {
           "ym": "2024-04",
           "sales": 11150,
-          "cumulative": 31037
+          "cumulative": 525374
         },
         {
           "ym": "2025-01",
           "sales": 10319,
-          "cumulative": 41356
+          "cumulative": 535693
         }
       ]
     }

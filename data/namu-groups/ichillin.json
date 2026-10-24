@@ -93,7 +93,15 @@
       "초동_써클": "7,727",
       "누적_써클": "6,673",
       "비고": "타이틀곡: KICK-START",
-      "초동_써클_numeric": 7727
+      "초동_써클_numeric": 7727,
+      "누적_써클_numeric": 6673,
+      "monthly_timeline": [
+        {
+          "ym": "2023-07",
+          "sales": 6673,
+          "cumulative": 6673
+        }
+      ]
     },
     {
       "title": "BITE ME",

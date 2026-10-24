@@ -102,52 +102,53 @@
       "발매일": "2015.05.14",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "40,598",
+      "초동_써클": "8,758",
+      "누적_써클": "34,637",
       "비고": "무단침입",
-      "누적_써클_numeric": 40598,
+      "누적_써클_numeric": 34637,
       "monthly_timeline": [
         {
           "ym": "2015-05",
           "sales": 8758,
-          "cumulative": 31553
+          "cumulative": 8758
         },
         {
           "ym": "2015-06",
           "sales": 15743,
-          "cumulative": 31553
+          "cumulative": 24501
         },
         {
           "ym": "2015-07",
           "sales": 6745,
-          "cumulative": 31553
+          "cumulative": 31246
         },
         {
           "ym": "2016-05",
           "sales": 880,
-          "cumulative": 5456
+          "cumulative": 32126
         },
         {
           "ym": "2016-08",
           "sales": 664,
-          "cumulative": 5456
+          "cumulative": 32790
         },
         {
           "ym": "2016-09",
           "sales": 476,
-          "cumulative": 5456
+          "cumulative": 33266
         },
         {
           "ym": "2016-10",
           "sales": 547,
-          "cumulative": 5456
+          "cumulative": 33813
         },
         {
           "ym": "2017-03",
           "sales": 824,
-          "cumulative": 3589
+          "cumulative": 34637
         }
-      ]
+      ],
+      "초동_써클_numeric": 8758
     },
     {
       "title": "RUSH",
@@ -155,25 +156,25 @@
       "발매일": "2015.09.07",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "81,269",
+      "초동_써클": "30,836",
+      "누적_써클": "65,539",
       "비고": "신속히",
-      "누적_써클_numeric": 81269,
+      "누적_써클_numeric": 65539,
       "monthly_timeline": [
         {
           "ym": "2015-09",
           "sales": 30836,
-          "cumulative": 54637
+          "cumulative": 30836
         },
         {
           "ym": "2015-10",
           "sales": 10312,
-          "cumulative": 54637
+          "cumulative": 41148
         },
         {
           "ym": "2015-11",
           "sales": 9171,
-          "cumulative": 54637
+          "cumulative": 50319
         },
         {
           "ym": "2015-12",
@@ -183,59 +184,60 @@
         {
           "ym": "2016-02",
           "sales": 595,
-          "cumulative": 7278
+          "cumulative": 55232
         },
         {
           "ym": "2016-03",
           "sales": 2418,
-          "cumulative": 7278
+          "cumulative": 57650
         },
         {
           "ym": "2016-07",
           "sales": 787,
-          "cumulative": 7278
+          "cumulative": 58437
         },
         {
           "ym": "2016-08",
           "sales": 948,
-          "cumulative": 7278
+          "cumulative": 59385
         },
         {
           "ym": "2016-09",
           "sales": 649,
-          "cumulative": 7278
+          "cumulative": 60034
         },
         {
           "ym": "2016-11",
           "sales": 721,
-          "cumulative": 7278
+          "cumulative": 60755
         },
         {
           "ym": "2017-02",
           "sales": 545,
-          "cumulative": 6054
+          "cumulative": 61300
         },
         {
           "ym": "2017-03",
           "sales": 771,
-          "cumulative": 6054
+          "cumulative": 62071
         },
         {
           "ym": "2017-08",
           "sales": 1042,
-          "cumulative": 6054
+          "cumulative": 63113
         },
         {
           "ym": "2019-05",
           "sales": 1218,
-          "cumulative": 7169
+          "cumulative": 64331
         },
         {
           "ym": "2020-01",
           "sales": 1208,
-          "cumulative": 6131
+          "cumulative": 65539
         }
-      ]
+      ],
+      "초동_써클_numeric": 30836
     },
     {
       "title": "RUSH Digital Repackage 'HERO'",
@@ -243,25 +245,25 @@
       "발매일": "2015.10.22",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "81,269",
+      "초동_써클": "30,836",
+      "누적_써클": "65,539",
       "비고": "HERO",
-      "누적_써클_numeric": 81269,
+      "누적_써클_numeric": 65539,
       "monthly_timeline": [
         {
           "ym": "2015-09",
           "sales": 30836,
-          "cumulative": 54637
+          "cumulative": 30836
         },
         {
           "ym": "2015-10",
           "sales": 10312,
-          "cumulative": 54637
+          "cumulative": 41148
         },
         {
           "ym": "2015-11",
           "sales": 9171,
-          "cumulative": 54637
+          "cumulative": 50319
         },
         {
           "ym": "2015-12",
@@ -271,59 +273,60 @@
         {
           "ym": "2016-02",
           "sales": 595,
-          "cumulative": 7278
+          "cumulative": 55232
         },
         {
           "ym": "2016-03",
           "sales": 2418,
-          "cumulative": 7278
+          "cumulative": 57650
         },
         {
           "ym": "2016-07",
           "sales": 787,
-          "cumulative": 7278
+          "cumulative": 58437
         },
         {
           "ym": "2016-08",
           "sales": 948,
-          "cumulative": 7278
+          "cumulative": 59385
         },
         {
           "ym": "2016-09",
           "sales": 649,
-          "cumulative": 7278
+          "cumulative": 60034
         },
         {
           "ym": "2016-11",
           "sales": 721,
-          "cumulative": 7278
+          "cumulative": 60755
         },
         {
           "ym": "2017-02",
           "sales": 545,
-          "cumulative": 6054
+          "cumulative": 61300
         },
         {
           "ym": "2017-03",
           "sales": 771,
-          "cumulative": 6054
+          "cumulative": 62071
         },
         {
           "ym": "2017-08",
           "sales": 1042,
-          "cumulative": 6054
+          "cumulative": 63113
         },
         {
           "ym": "2019-05",
           "sales": 1218,
-          "cumulative": 7169
+          "cumulative": 64331
         },
         {
           "ym": "2020-01",
           "sales": 1208,
-          "cumulative": 6131
+          "cumulative": 65539
         }
-      ]
+      ],
+      "초동_써클_numeric": 30836
     },
     {
       "title": "THE CLAN pt.1 'LOST'",
@@ -331,25 +334,25 @@
       "발매일": "2016.05.18",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "203,424",
+      "초동_써클": "47,627",
+      "누적_써클": "96,718",
       "비고": "걸어 (All in)",
-      "누적_써클_numeric": 203424,
+      "누적_써클_numeric": 96718,
       "monthly_timeline": [
         {
           "ym": "2016-05",
           "sales": 47627,
-          "cumulative": 91748
+          "cumulative": 47627
         },
         {
           "ym": "2016-06",
           "sales": 34028,
-          "cumulative": 91748
+          "cumulative": 81655
         },
         {
           "ym": "2016-07",
           "sales": 4192,
-          "cumulative": 91748
+          "cumulative": 85847
         },
         {
           "ym": "2016-08",
@@ -359,9 +362,10 @@
         {
           "ym": "2022-02",
           "sales": 4970,
-          "cumulative": 10982
+          "cumulative": 96718
         }
-      ]
+      ],
+      "초동_써클_numeric": 47627
     },
     {
       "title": "THE CLAN pt.2 'GUILTY'",
@@ -369,37 +373,23 @@
       "발매일": "2016.10.04",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "358,874",
+      "초동_써클": "75,775",
+      "누적_써클": "100,694",
       "비고": "THE CLAN pt.2 'GUILTY'",
-      "누적_써클_numeric": 358874,
+      "누적_써클_numeric": 100694,
       "monthly_timeline": [
         {
-          "ym": "2016-05",
-          "sales": 47627,
-          "cumulative": 91748
+          "ym": "2016-10",
+          "sales": 75775,
+          "cumulative": 75775
         },
         {
-          "ym": "2016-06",
-          "sales": 34028,
-          "cumulative": 91748
-        },
-        {
-          "ym": "2016-07",
-          "sales": 4192,
-          "cumulative": 91748
-        },
-        {
-          "ym": "2016-08",
-          "sales": 5901,
-          "cumulative": 91748
-        },
-        {
-          "ym": "2022-02",
-          "sales": 4970,
-          "cumulative": 10982
+          "ym": "2016-11",
+          "sales": 24919,
+          "cumulative": 100694
         }
-      ]
+      ],
+      "초동_써클_numeric": 75775
     },
     {
       "title": "THE CLAN pt.2.5 'BEAUTIFUL'",
@@ -407,57 +397,58 @@
       "발매일": "2017.03.21",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "155,450",
+      "초동_써클": "78,095",
+      "누적_써클": "136,653",
       "비고": "아름다워 (Beautiful)",
-      "누적_써클_numeric": 155450,
+      "누적_써클_numeric": 136653,
       "monthly_timeline": [
         {
           "ym": "2017-03",
           "sales": 78095,
-          "cumulative": 130152
+          "cumulative": 78095
         },
         {
           "ym": "2017-04",
           "sales": 36859,
-          "cumulative": 130152
+          "cumulative": 114954
         },
         {
           "ym": "2017-05",
           "sales": 11714,
-          "cumulative": 130152
+          "cumulative": 126668
         },
         {
           "ym": "2017-11",
           "sales": 2311,
-          "cumulative": 130152
+          "cumulative": 128979
         },
         {
           "ym": "2018-07",
           "sales": 1139,
-          "cumulative": 7004
+          "cumulative": 130118
         },
         {
           "ym": "2019-04",
           "sales": 1026,
-          "cumulative": 9262
+          "cumulative": 131144
         },
         {
           "ym": "2019-05",
           "sales": 1134,
-          "cumulative": 9262
+          "cumulative": 132278
         },
         {
           "ym": "2019-08",
           "sales": 1375,
-          "cumulative": 9262
+          "cumulative": 133653
         },
         {
           "ym": "2021-09",
           "sales": 3000,
-          "cumulative": 9032
+          "cumulative": 136653
         }
-      ]
+      ],
+      "초동_써클_numeric": 78095
     },
     {
       "title": "SHINE FOREVER",
@@ -465,32 +456,33 @@
       "발매일": "2017.06.19",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "72,655",
+      "초동_써클": "47,985",
+      "누적_써클": "71,465",
       "비고": "SHINE FOREVER",
-      "누적_써클_numeric": 72655,
+      "누적_써클_numeric": 71465,
       "monthly_timeline": [
         {
           "ym": "2017-06",
           "sales": 47985,
-          "cumulative": 66657
+          "cumulative": 47985
         },
         {
           "ym": "2017-07",
           "sales": 16418,
-          "cumulative": 66657
+          "cumulative": 64403
         },
         {
           "ym": "2017-08",
           "sales": 1064,
-          "cumulative": 66657
+          "cumulative": 65467
         },
         {
           "ym": "2022-03",
           "sales": 5998,
-          "cumulative": 5998
+          "cumulative": 71465
         }
-      ]
+      ],
+      "초동_써클_numeric": 47985
     },
     {
       "title": "NEWTON",
@@ -508,15 +500,15 @@
       "발매일": "2017.11.07",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "175,232",
+      "초동_써클": "112,103",
+      "누적_써클": "167,160",
       "비고": "DRAMARAMA",
-      "누적_써클_numeric": 175232,
+      "누적_써클_numeric": 167160,
       "monthly_timeline": [
         {
           "ym": "2017-11",
           "sales": 112103,
-          "cumulative": 155933
+          "cumulative": 112103
         },
         {
           "ym": "2017-12",
@@ -526,19 +518,20 @@
         {
           "ym": "2018-01",
           "sales": 6444,
-          "cumulative": 11368
+          "cumulative": 162377
         },
         {
           "ym": "2018-03",
           "sales": 1045,
-          "cumulative": 11368
+          "cumulative": 163422
         },
         {
           "ym": "2022-02",
           "sales": 3738,
-          "cumulative": 7931
+          "cumulative": 167160
         }
-      ]
+      ],
+      "초동_써클_numeric": 112103
     },
     {
       "title": "Lonely Christmas",
@@ -556,42 +549,43 @@
       "발매일": "2018.03.26",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "191,394",
+      "초동_써클": "101,666",
+      "누적_써클": "184,551",
       "비고": "JEALOUSY",
-      "누적_써클_numeric": 191394,
+      "누적_써클_numeric": 184551,
       "monthly_timeline": [
         {
           "ym": "2018-03",
           "sales": 101666,
-          "cumulative": 175363
+          "cumulative": 101666
         },
         {
           "ym": "2018-04",
           "sales": 50601,
-          "cumulative": 175363
+          "cumulative": 152267
         },
         {
           "ym": "2018-05",
           "sales": 20116,
-          "cumulative": 175363
+          "cumulative": 172383
         },
         {
           "ym": "2018-07",
           "sales": 2129,
-          "cumulative": 175363
+          "cumulative": 174512
         },
         {
           "ym": "2022-01",
           "sales": 6099,
-          "cumulative": 16031
+          "cumulative": 180611
         },
         {
           "ym": "2022-02",
           "sales": 3940,
-          "cumulative": 16031
+          "cumulative": 184551
         }
-      ]
+      ],
+      "초동_써클_numeric": 101666
     },
     {
       "title": "TAKE.1 ARE YOU THERE?",
@@ -599,9 +593,23 @@
       "발매일": "2018.10.22",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "",
-      "비고": "Shoot Out"
+      "초동_써클": "151,218",
+      "누적_써클": "160,343",
+      "비고": "Shoot Out",
+      "누적_써클_numeric": 160343,
+      "초동_써클_numeric": 151218,
+      "monthly_timeline": [
+        {
+          "ym": "2022-10",
+          "sales": 151218,
+          "cumulative": 151218
+        },
+        {
+          "ym": "2022-11",
+          "sales": 9125,
+          "cumulative": 160343
+        }
+      ]
     },
     {
       "title": "TAKE.2 WE ARE HERE",
@@ -619,42 +627,43 @@
       "발매일": "2019.10.28",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "270,252",
+      "초동_써클": "193,121",
+      "누적_써클": "250,532",
       "비고": "FOLLOW",
-      "누적_써클_numeric": 270252,
+      "누적_써클_numeric": 250532,
       "monthly_timeline": [
         {
           "ym": "2019-10",
-          "sales": 185573,
-          "cumulative": 226357
+          "sales": 193121,
+          "cumulative": 193121
         },
         {
           "ym": "2019-11",
           "sales": 39007,
-          "cumulative": 226357
+          "cumulative": 232128
         },
         {
           "ym": "2019-12",
           "sales": 1777,
-          "cumulative": 226357
+          "cumulative": 233905
         },
         {
           "ym": "2020-01",
           "sales": 3711,
-          "cumulative": 13081
+          "cumulative": 237616
         },
         {
           "ym": "2020-03",
           "sales": 1223,
-          "cumulative": 13081
+          "cumulative": 238839
         },
         {
           "ym": "2021-10",
           "sales": 11693,
-          "cumulative": 22600
+          "cumulative": 250532
         }
-      ]
+      ],
+      "초동_써클_numeric": 193121
     },
     {
       "title": "FANTASIA X",
@@ -662,27 +671,28 @@
       "발매일": "2020.05.26",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "271,523",
+      "초동_써클": "194,545",
+      "누적_써클": "270,622",
       "비고": "FANTASIA",
-      "누적_써클_numeric": 271523,
+      "누적_써클_numeric": 270622,
       "monthly_timeline": [
         {
           "ym": "2020-05",
-          "sales": 188208,
-          "cumulative": 264285
+          "sales": 194545,
+          "cumulative": 194545
         },
         {
           "ym": "2020-06",
           "sales": 69062,
-          "cumulative": 264285
+          "cumulative": 263607
         },
         {
           "ym": "2020-07",
           "sales": 7015,
-          "cumulative": 264285
+          "cumulative": 270622
         }
-      ]
+      ],
+      "초동_써클_numeric": 194545
     },
     {
       "title": "Fatal Love",
@@ -690,32 +700,33 @@
       "발매일": "2020.11.02",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "322,459",
+      "초동_써클": "285,548",
+      "누적_써클": "305,606",
       "비고": "Love Killa",
-      "누적_써클_numeric": 322459,
+      "누적_써클_numeric": 305606,
       "monthly_timeline": [
         {
           "ym": "2020-11",
-          "sales": 277083,
-          "cumulative": 278765
+          "sales": 285548,
+          "cumulative": 285548
         },
         {
           "ym": "2020-12",
           "sales": 1682,
-          "cumulative": 278765
+          "cumulative": 287230
         },
         {
           "ym": "2021-10",
           "sales": 7998,
-          "cumulative": 19632
+          "cumulative": 295228
         },
         {
           "ym": "2022-02",
           "sales": 10378,
-          "cumulative": 15597
+          "cumulative": 305606
         }
-      ]
+      ],
+      "초동_써클_numeric": 285548
     },
     {
       "title": "One Of A Kind",
@@ -724,35 +735,35 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "3,857",
-      "누적_써클": "384,266",
+      "누적_써클": "372,692",
       "비고": "GAMBLER",
-      "누적_써클_numeric": 384266,
+      "누적_써클_numeric": 372692,
       "초동_써클_numeric": 3857,
       "monthly_timeline": [
         {
           "ym": "2021-06",
-          "sales": 305808,
-          "cumulative": 352734
+          "sales": 314733,
+          "cumulative": 314733
         },
         {
           "ym": "2021-07",
           "sales": 36557,
-          "cumulative": 352734
+          "cumulative": 351290
         },
         {
           "ym": "2021-08",
           "sales": 7184,
-          "cumulative": 352734
+          "cumulative": 358474
         },
         {
           "ym": "2022-02",
           "sales": 9220,
-          "cumulative": 16349
+          "cumulative": 367694
         },
         {
           "ym": "2023-05",
           "sales": 4998,
-          "cumulative": 5449
+          "cumulative": 372692
         }
       ]
     },
@@ -763,24 +774,24 @@
       "초동_한터": "2832**",
       "누적_한터": "",
       "초동_써클": "424,618",
-      "누적_써클": "462,064",
+      "누적_써클": "456,266",
       "비고": "Rush Hour",
-      "누적_써클_numeric": 462064,
+      "누적_써클_numeric": 456266,
       "monthly_timeline": [
         {
           "ym": "2021-11",
-          "sales": 399830,
-          "cumulative": 424618
+          "sales": 409830,
+          "cumulative": 409830
         },
         {
           "ym": "2021-12",
           "sales": 24788,
-          "cumulative": 424618
+          "cumulative": 434618
         },
         {
           "ym": "2022-01",
           "sales": 21648,
-          "cumulative": 27446
+          "cumulative": 456266
         }
       ]
     },
@@ -791,19 +802,19 @@
       "초동_한터": "3215**",
       "누적_한터": "",
       "초동_써클": "435,754",
-      "누적_써클": "454,986",
+      "누적_써클": "453,259",
       "비고": "LOVE",
-      "누적_써클_numeric": 454986,
+      "누적_써클_numeric": 453259,
       "monthly_timeline": [
         {
           "ym": "2022-04",
-          "sales": 402139,
-          "cumulative": 436937
+          "sales": 419882,
+          "cumulative": 419882
         },
         {
           "ym": "2022-05",
           "sales": 33377,
-          "cumulative": 436937
+          "cumulative": 453259
         }
       ]
     },
@@ -814,20 +825,20 @@
       "초동_한터": "326,503",
       "누적_한터": "",
       "초동_써클": "389,972",
-      "누적_써클": "438,579",
+      "누적_써클": "437,608",
       "비고": "Beautiful Liar",
-      "누적_써클_numeric": 438579,
+      "누적_써클_numeric": 437608,
       "초동_써클_numeric": 389972,
       "monthly_timeline": [
         {
           "ym": "2023-01",
-          "sales": 388551,
-          "cumulative": 417923
+          "sales": 408902,
+          "cumulative": 408902
         },
         {
           "ym": "2023-02",
           "sales": 28706,
-          "cumulative": 417923
+          "cumulative": 437608
         }
       ]
     },
@@ -1328,25 +1339,25 @@
       "발매일": "2015.10.22",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "81,269",
+      "초동_써클": "30,836",
+      "누적_써클": "65,539",
       "비고": "HERO",
-      "누적_써클_numeric": 81269,
+      "누적_써클_numeric": 65539,
       "monthly_timeline": [
         {
           "ym": "2015-09",
           "sales": 30836,
-          "cumulative": 54637
+          "cumulative": 30836
         },
         {
           "ym": "2015-10",
           "sales": 10312,
-          "cumulative": 54637
+          "cumulative": 41148
         },
         {
           "ym": "2015-11",
           "sales": 9171,
-          "cumulative": 54637
+          "cumulative": 50319
         },
         {
           "ym": "2015-12",
@@ -1356,59 +1367,60 @@
         {
           "ym": "2016-02",
           "sales": 595,
-          "cumulative": 7278
+          "cumulative": 55232
         },
         {
           "ym": "2016-03",
           "sales": 2418,
-          "cumulative": 7278
+          "cumulative": 57650
         },
         {
           "ym": "2016-07",
           "sales": 787,
-          "cumulative": 7278
+          "cumulative": 58437
         },
         {
           "ym": "2016-08",
           "sales": 948,
-          "cumulative": 7278
+          "cumulative": 59385
         },
         {
           "ym": "2016-09",
           "sales": 649,
-          "cumulative": 7278
+          "cumulative": 60034
         },
         {
           "ym": "2016-11",
           "sales": 721,
-          "cumulative": 7278
+          "cumulative": 60755
         },
         {
           "ym": "2017-02",
           "sales": 545,
-          "cumulative": 6054
+          "cumulative": 61300
         },
         {
           "ym": "2017-03",
           "sales": 771,
-          "cumulative": 6054
+          "cumulative": 62071
         },
         {
           "ym": "2017-08",
           "sales": 1042,
-          "cumulative": 6054
+          "cumulative": 63113
         },
         {
           "ym": "2019-05",
           "sales": 1218,
-          "cumulative": 7169
+          "cumulative": 64331
         },
         {
           "ym": "2020-01",
           "sales": 1208,
-          "cumulative": 6131
+          "cumulative": 65539
         }
-      ]
+      ],
+      "초동_써클_numeric": 30836
     },
     {
       "title": "쇼핑왕 루이 OST Part.7",

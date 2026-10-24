@@ -152,30 +152,30 @@
       "초동_한터": "1606**",
       "누적_한터": "",
       "초동_써클": "2,517",
-      "누적_써클": "2,232,818",
+      "누적_써클": "246,462",
       "비고": "BOY",
-      "누적_써클_numeric": 2232818,
+      "누적_써클_numeric": 246462,
       "초동_써클_numeric": 2517,
       "monthly_timeline": [
         {
           "ym": "2020-08",
           "sales": 218118,
-          "cumulative": 247983
+          "cumulative": 218118
         },
         {
           "ym": "2020-09",
           "sales": 22590,
-          "cumulative": 247983
+          "cumulative": 240708
         },
         {
           "ym": "2020-10",
           "sales": 3482,
-          "cumulative": 247983
+          "cumulative": 244190
         },
         {
           "ym": "2020-12",
           "sales": 2272,
-          "cumulative": 247983
+          "cumulative": 246462
         }
       ]
     },
@@ -186,30 +186,20 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "2,517",
-      "누적_써클": "2,232,818",
+      "누적_써클": "237,695",
       "비고": "사랑해 (I LOVE YOU)",
-      "누적_써클_numeric": 2232818,
+      "누적_써클_numeric": 237695,
       "초동_써클_numeric": 2517,
       "monthly_timeline": [
         {
-          "ym": "2020-08",
-          "sales": 218118,
-          "cumulative": 247983
-        },
-        {
           "ym": "2020-09",
-          "sales": 22590,
-          "cumulative": 247983
+          "sales": 219314,
+          "cumulative": 219314
         },
         {
           "ym": "2020-10",
-          "sales": 3482,
-          "cumulative": 247983
-        },
-        {
-          "ym": "2020-12",
-          "sales": 2272,
-          "cumulative": 247983
+          "sales": 18381,
+          "cumulative": 237695
         }
       ]
     },
@@ -220,30 +210,20 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "2,517",
-      "누적_써클": "719,443",
+      "누적_써클": "232,134",
       "비고": "음 (MMM)",
-      "누적_써클_numeric": 719443,
+      "누적_써클_numeric": 232134,
       "초동_써클_numeric": 2517,
       "monthly_timeline": [
         {
-          "ym": "2020-08",
-          "sales": 218118,
-          "cumulative": 247983
-        },
-        {
-          "ym": "2020-09",
-          "sales": 22590,
-          "cumulative": 247983
-        },
-        {
-          "ym": "2020-10",
-          "sales": 3482,
-          "cumulative": 247983
+          "ym": "2020-11",
+          "sales": 218855,
+          "cumulative": 218855
         },
         {
           "ym": "2020-12",
-          "sales": 2272,
-          "cumulative": 247983
+          "sales": 13279,
+          "cumulative": 232134
         }
       ]
     },
@@ -253,87 +233,88 @@
       "발매일": "2021.03.31",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "440,285",
+      "초동_써클": "294,255",
+      "누적_써클": "386,728",
       "비고": "BEAUTIFUL",
-      "누적_써클_numeric": 440285,
+      "누적_써클_numeric": 386728,
       "monthly_timeline": [
         {
           "ym": "2021-01",
-          "sales": 266894,
-          "cumulative": 331320
+          "sales": 294255,
+          "cumulative": 294255
         },
         {
           "ym": "2021-02",
           "sales": 4329,
-          "cumulative": 331320
+          "cumulative": 298584
         },
         {
           "ym": "2021-03",
           "sales": 8870,
-          "cumulative": 331320
+          "cumulative": 307454
         },
         {
           "ym": "2021-04",
           "sales": 10814,
-          "cumulative": 331320
+          "cumulative": 318268
         },
         {
           "ym": "2021-05",
           "sales": 5693,
-          "cumulative": 331320
+          "cumulative": 323961
         },
         {
           "ym": "2021-06",
           "sales": 5902,
-          "cumulative": 331320
+          "cumulative": 329863
         },
         {
           "ym": "2021-07",
           "sales": 5988,
-          "cumulative": 331320
+          "cumulative": 335851
         },
         {
           "ym": "2021-08",
           "sales": 7951,
-          "cumulative": 331320
+          "cumulative": 343802
         },
         {
           "ym": "2021-09",
           "sales": 6170,
-          "cumulative": 331320
+          "cumulative": 349972
         },
         {
           "ym": "2021-12",
           "sales": 4676,
-          "cumulative": 331320
+          "cumulative": 354648
         },
         {
           "ym": "2022-01",
           "sales": 5106,
-          "cumulative": 49847
+          "cumulative": 359754
         },
         {
           "ym": "2022-02",
           "sales": 3650,
-          "cumulative": 49847
+          "cumulative": 363404
         },
         {
           "ym": "2022-04",
           "sales": 6613,
-          "cumulative": 49847
+          "cumulative": 370017
         },
         {
           "ym": "2022-05",
           "sales": 7382,
-          "cumulative": 49847
+          "cumulative": 377399
         },
         {
           "ym": "2023-03",
           "sales": 9329,
-          "cumulative": 28857
+          "cumulative": 386728
         }
-      ]
+      ],
+      "초동_써클_numeric": 294255
     },
     {
       "title": "BEAUTIFUL - Anime Edit -",
@@ -361,85 +342,125 @@
       "발매일": "2021.03.31",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "440,285",
+      "초동_써클": "294,255",
+      "누적_써클": "386,728",
       "비고": "BEAUTIFUL",
-      "누적_써클_numeric": 440285,
+      "누적_써클_numeric": 386728,
       "monthly_timeline": [
         {
           "ym": "2021-01",
-          "sales": 266894,
-          "cumulative": 331320
+          "sales": 294255,
+          "cumulative": 294255
         },
         {
           "ym": "2021-02",
           "sales": 4329,
-          "cumulative": 331320
+          "cumulative": 298584
         },
         {
           "ym": "2021-03",
           "sales": 8870,
-          "cumulative": 331320
+          "cumulative": 307454
         },
         {
           "ym": "2021-04",
           "sales": 10814,
-          "cumulative": 331320
+          "cumulative": 318268
         },
         {
           "ym": "2021-05",
           "sales": 5693,
-          "cumulative": 331320
+          "cumulative": 323961
         },
         {
           "ym": "2021-06",
           "sales": 5902,
-          "cumulative": 331320
+          "cumulative": 329863
         },
         {
           "ym": "2021-07",
           "sales": 5988,
-          "cumulative": 331320
+          "cumulative": 335851
         },
         {
           "ym": "2021-08",
           "sales": 7951,
-          "cumulative": 331320
+          "cumulative": 343802
         },
         {
           "ym": "2021-09",
           "sales": 6170,
-          "cumulative": 331320
+          "cumulative": 349972
         },
         {
           "ym": "2021-12",
           "sales": 4676,
-          "cumulative": 331320
+          "cumulative": 354648
         },
         {
           "ym": "2022-01",
           "sales": 5106,
-          "cumulative": 49847
+          "cumulative": 359754
         },
         {
           "ym": "2022-02",
           "sales": 3650,
-          "cumulative": 49847
+          "cumulative": 363404
         },
         {
           "ym": "2022-04",
           "sales": 6613,
-          "cumulative": 49847
+          "cumulative": 370017
         },
         {
           "ym": "2022-05",
           "sales": 7382,
-          "cumulative": 49847
+          "cumulative": 377399
         },
         {
           "ym": "2023-03",
           "sales": 9329,
-          "cumulative": 28857
+          "cumulative": 386728
+        }
+      ],
+      "초동_써클_numeric": 294255
+    },
+    {
+      "title": "THE SECOND STEP : CHAPTER ONE",
+      "type": "일본 미니앨범 1집",
+      "발매일": "2022.03.31",
+      "초동_한터": "",
+      "누적_한터": "",
+      "초동_써클": "1,297",
+      "누적_써클": "815,594",
+      "비고": "직진 (JIKJIN)",
+      "누적_써클_numeric": 815594,
+      "초동_써클_numeric": 1297,
+      "monthly_timeline": [
+        {
+          "ym": "2022-02",
+          "sales": 639606,
+          "cumulative": 639606
+        },
+        {
+          "ym": "2022-03",
+          "sales": 149349,
+          "cumulative": 788955
+        },
+        {
+          "ym": "2022-04",
+          "sales": 13790,
+          "cumulative": 802745
+        },
+        {
+          "ym": "2022-05",
+          "sales": 5084,
+          "cumulative": 807829
+        },
+        {
+          "ym": "2023-03",
+          "sales": 7765,
+          "cumulative": 815594
         }
       ]
     },
@@ -450,64 +471,35 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "1,297",
-      "누적_써클": "2,000,684",
+      "누적_써클": "815,594",
       "비고": "직진 (JIKJIN)",
-      "누적_써클_numeric": 2000684,
+      "누적_써클_numeric": 815594,
       "초동_써클_numeric": 1297,
       "monthly_timeline": [
         {
-          "ym": "2020-08",
-          "sales": 218118,
-          "cumulative": 247983
+          "ym": "2022-02",
+          "sales": 639606,
+          "cumulative": 639606
         },
         {
-          "ym": "2020-09",
-          "sales": 22590,
-          "cumulative": 247983
+          "ym": "2022-03",
+          "sales": 149349,
+          "cumulative": 788955
         },
         {
-          "ym": "2020-10",
-          "sales": 3482,
-          "cumulative": 247983
+          "ym": "2022-04",
+          "sales": 13790,
+          "cumulative": 802745
         },
         {
-          "ym": "2020-12",
-          "sales": 2272,
-          "cumulative": 247983
-        }
-      ]
-    },
-    {
-      "title": "THE SECOND STEP : CHAPTER ONE",
-      "type": "일본 미니앨범 1집",
-      "발매일": "2022.03.31",
-      "초동_한터": "",
-      "누적_한터": "",
-      "초동_써클": "1,297",
-      "누적_써클": "2,000,684",
-      "비고": "직진 (JIKJIN)",
-      "누적_써클_numeric": 2000684,
-      "초동_써클_numeric": 1297,
-      "monthly_timeline": [
-        {
-          "ym": "2020-08",
-          "sales": 218118,
-          "cumulative": 247983
+          "ym": "2022-05",
+          "sales": 5084,
+          "cumulative": 807829
         },
         {
-          "ym": "2020-09",
-          "sales": 22590,
-          "cumulative": 247983
-        },
-        {
-          "ym": "2020-10",
-          "sales": 3482,
-          "cumulative": 247983
-        },
-        {
-          "ym": "2020-12",
-          "sales": 2272,
-          "cumulative": 247983
+          "ym": "2023-03",
+          "sales": 7765,
+          "cumulative": 815594
         }
       ]
     },
@@ -518,30 +510,40 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "1,297",
-      "누적_써클": "2,000,684",
+      "누적_써클": "654,084",
       "비고": "HELLO",
-      "누적_써클_numeric": 2000684,
+      "누적_써클_numeric": 654084,
       "초동_써클_numeric": 1297,
       "monthly_timeline": [
         {
-          "ym": "2020-08",
-          "sales": 218118,
-          "cumulative": 247983
+          "ym": "2022-10",
+          "sales": 559325,
+          "cumulative": 559325
         },
         {
-          "ym": "2020-09",
-          "sales": 22590,
-          "cumulative": 247983
+          "ym": "2022-11",
+          "sales": 7735,
+          "cumulative": 567060
         },
         {
-          "ym": "2020-10",
-          "sales": 3482,
-          "cumulative": 247983
+          "ym": "2023-01",
+          "sales": 5775,
+          "cumulative": 572835
         },
         {
-          "ym": "2020-12",
-          "sales": 2272,
-          "cumulative": 247983
+          "ym": "2023-03",
+          "sales": 17609,
+          "cumulative": 590444
+        },
+        {
+          "ym": "2023-04",
+          "sales": 10863,
+          "cumulative": 601307
+        },
+        {
+          "ym": "2023-05",
+          "sales": 52777,
+          "cumulative": 654084
         }
       ]
     },
@@ -552,30 +554,40 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "1,297",
-      "누적_써클": "2,000,684",
+      "누적_써클": "654,084",
       "비고": "HELLO",
-      "누적_써클_numeric": 2000684,
+      "누적_써클_numeric": 654084,
       "초동_써클_numeric": 1297,
       "monthly_timeline": [
         {
-          "ym": "2020-08",
-          "sales": 218118,
-          "cumulative": 247983
+          "ym": "2022-10",
+          "sales": 559325,
+          "cumulative": 559325
         },
         {
-          "ym": "2020-09",
-          "sales": 22590,
-          "cumulative": 247983
+          "ym": "2022-11",
+          "sales": 7735,
+          "cumulative": 567060
         },
         {
-          "ym": "2020-10",
-          "sales": 3482,
-          "cumulative": 247983
+          "ym": "2023-01",
+          "sales": 5775,
+          "cumulative": 572835
         },
         {
-          "ym": "2020-12",
-          "sales": 2272,
-          "cumulative": 247983
+          "ym": "2023-03",
+          "sales": 17609,
+          "cumulative": 590444
+        },
+        {
+          "ym": "2023-04",
+          "sales": 10863,
+          "cumulative": 601307
+        },
+        {
+          "ym": "2023-05",
+          "sales": 52777,
+          "cumulative": 654084
         }
       ]
     },
@@ -616,35 +628,35 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "1,718,517",
-      "누적_써클": "1,882,001",
+      "누적_써클": "1,870,594",
       "비고": "BONA BONA",
-      "누적_써클_numeric": 1882001,
+      "누적_써클_numeric": 1870594,
       "초동_써클_numeric": 1718517,
       "monthly_timeline": [
         {
           "ym": "2023-07",
-          "sales": 1567222,
-          "cumulative": 1655397
+          "sales": 1761127,
+          "cumulative": 1761127
         },
         {
           "ym": "2023-08",
-          "sales": 46922,
-          "cumulative": 1655397
+          "sales": 54920,
+          "cumulative": 1816047
         },
         {
           "ym": "2023-09",
-          "sales": 21198,
-          "cumulative": 1655397
+          "sales": 27970,
+          "cumulative": 1844017
         },
         {
           "ym": "2023-10",
           "sales": 10059,
-          "cumulative": 1655397
+          "cumulative": 1854076
         },
         {
           "ym": "2023-12",
-          "sales": 9676,
-          "cumulative": 1655397
+          "sales": 16518,
+          "cumulative": 1870594
         }
       ]
     },
@@ -807,15 +819,25 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "796,505",
-      "누적_써클": "18,006",
+      "누적_써클": "821,109",
       "비고": "",
-      "누적_써클_numeric": 18006,
+      "누적_써클_numeric": 821109,
       "초동_써클_numeric": 796505,
       "monthly_timeline": [
         {
+          "ym": "2025-03",
+          "sales": 796505,
+          "cumulative": 796505
+        },
+        {
+          "ym": "2025-04",
+          "sales": 6598,
+          "cumulative": 803103
+        },
+        {
           "ym": "2026-09",
           "sales": 18006,
-          "cumulative": 18006
+          "cumulative": 821109
         }
       ]
     },

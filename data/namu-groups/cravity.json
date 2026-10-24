@@ -130,32 +130,33 @@
       "발매일": "2020.04.14",
       "초동_한터": "531**",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "154,360",
+      "초동_써클": "104,343",
+      "누적_써클": "153,525",
       "비고": "Break all the Rules",
-      "누적_써클_numeric": 154360,
+      "누적_써클_numeric": 153525,
       "monthly_timeline": [
         {
           "ym": "2020-04",
           "sales": 104343,
-          "cumulative": 154360
+          "cumulative": 104343
         },
         {
           "ym": "2020-05",
           "sales": 29322,
-          "cumulative": 154360
+          "cumulative": 133665
         },
         {
           "ym": "2020-06",
           "sales": 13721,
-          "cumulative": 154360
+          "cumulative": 147386
         },
         {
           "ym": "2020-07",
           "sales": 6139,
-          "cumulative": 154360
+          "cumulative": 153525
         }
-      ]
+      ],
+      "초동_써클_numeric": 104343
     },
     {
       "title": "HIDEOUT: THE NEW DAY WE STEP INTO - SEASON 2.",
@@ -321,24 +322,24 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "221,418",
-      "누적_써클": "221,418",
+      "누적_써클": "219,235",
       "비고": "PARTY ROCK",
-      "누적_써클_numeric": 221418,
+      "누적_써클_numeric": 219235,
       "monthly_timeline": [
         {
           "ym": "2022-09",
           "sales": 183792,
-          "cumulative": 221418
+          "cumulative": 183792
         },
         {
           "ym": "2022-10",
           "sales": 26290,
-          "cumulative": 221418
+          "cumulative": 210082
         },
         {
           "ym": "2022-11",
           "sales": 9153,
-          "cumulative": 221418
+          "cumulative": 219235
         }
       ]
     },
@@ -349,25 +350,25 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "238,245",
-      "누적_써클": "300,852",
+      "누적_써클": "295,690",
       "비고": "Groovy",
-      "누적_써클_numeric": 300852,
+      "누적_써클_numeric": 295690,
       "초동_써클_numeric": 238245,
       "monthly_timeline": [
         {
           "ym": "2023-03",
           "sales": 254397,
-          "cumulative": 300852
+          "cumulative": 254397
         },
         {
           "ym": "2023-04",
           "sales": 23638,
-          "cumulative": 300852
+          "cumulative": 278035
         },
         {
           "ym": "2023-05",
           "sales": 17655,
-          "cumulative": 300852
+          "cumulative": 295690
         }
       ]
     },
@@ -408,25 +409,25 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "304,924",
-      "누적_써클": "337,253",
+      "누적_써클": "333,462",
       "비고": "Ready or Not",
-      "누적_써클_numeric": 337253,
+      "누적_써클_numeric": 333462,
       "초동_써클_numeric": 304924,
       "monthly_timeline": [
         {
           "ym": "2023-09",
-          "sales": 299277,
-          "cumulative": 323884
+          "sales": 311832,
+          "cumulative": 311832
         },
         {
           "ym": "2023-10",
           "sales": 12024,
-          "cumulative": 323884
+          "cumulative": 323856
         },
         {
           "ym": "2023-11",
           "sales": 9606,
-          "cumulative": 323884
+          "cumulative": 333462
         }
       ]
     },

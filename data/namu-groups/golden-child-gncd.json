@@ -436,14 +436,15 @@
         {
           "ym": "2022-08",
           "sales": 80499,
-          "cumulative": 89689
+          "cumulative": 80499
         },
         {
           "ym": "2022-09",
           "sales": 9190,
           "cumulative": 89689
         }
-      ]
+      ],
+      "누적_써클_numeric": 89689
     },
     {
       "title": "Invisible Crayon",
@@ -462,15 +463,15 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "27,826",
-      "누적_써클": "41,611",
+      "누적_써클": "39,991",
       "비고": "Feel me",
-      "누적_써클_numeric": 41611,
+      "누적_써클_numeric": 39991,
       "초동_써클_numeric": 27826,
       "monthly_timeline": [
         {
           "ym": "2023-11",
           "sales": 39991,
-          "cumulative": 41611
+          "cumulative": 39991
         }
       ]
     },
