@@ -395,57 +395,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 82891,
+      "monthly_listeners": 82331,
       "spotify_id": "4e2umhzNHTSeQnSCWPN0uT",
       "top_tracks": [
         {
           "title": "ECHO",
-          "play_count": 342949,
+          "play_count": 343806,
           "uri": "spotify:track:5VsDJDsQvrq60taUNZPnOj"
         },
         {
           "title": "여우가 시집가는 날",
-          "play_count": 4257679,
+          "play_count": 4258585,
           "uri": "spotify:track:3fcDHjyxOQoGV4UuMdagu0"
         },
         {
           "title": "청춘에게",
-          "play_count": 2374688,
+          "play_count": 2375281,
           "uri": "spotify:track:4jxftDEbX3u20EROtLpKyf"
         },
         {
           "title": "UNIVERSE",
-          "play_count": 1291011,
+          "play_count": 1291600,
           "uri": "spotify:track:4Ev0sWpZm6mAGSed0MEgNB"
         },
         {
           "title": "학원歌",
-          "play_count": 3515179,
+          "play_count": 3515720,
           "uri": "spotify:track:3NWxwoXlvgtTd3fNHuX2Vv"
         },
         {
           "title": "눈물나게 고마워",
-          "play_count": 413279,
+          "play_count": 413756,
           "uri": "spotify:track:0nH5APUOWnlWfXKfhz51De"
         },
         {
           "title": "Do 4 Me",
-          "play_count": 4232233,
+          "play_count": 4232619,
           "uri": "spotify:track:3T8rgnYVr3k4KxtEeP0H2o"
         },
         {
           "title": "Lock Down",
-          "play_count": 4592105,
+          "play_count": 4592542,
           "uri": "spotify:track:3SCxTtLDtZ6HsQrytAoyLV"
         },
         {
           "title": "FULL METAL JACKET",
-          "play_count": 1106326,
+          "play_count": 1106637,
           "uri": "spotify:track:3DdEFAs5UmTIYIoDXTjD5U"
         },
         {
           "title": "No Questions",
-          "play_count": 2455444,
+          "play_count": 2455699,
           "uri": "spotify:track:6GAdUADJV3KOCmi1B317WJ"
         }
       ]
@@ -771,6 +771,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

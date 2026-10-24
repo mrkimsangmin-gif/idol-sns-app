@@ -628,88 +628,83 @@
       "초동_한터": "1,241",
       "누적_한터": "",
       "초동_써클": "1,266,645",
-      "누적_써클": "1,956,804",
+      "누적_써클": "690,159",
       "비고": "",
       "초동_한터_numeric": 1241,
-      "누적_써클_numeric": 1956804,
+      "누적_써클_numeric": 690159,
       "초동_써클_numeric": 1266645,
       "monthly_timeline": [
         {
-          "ym": "2026-06",
-          "sales": 1266645,
-          "cumulative": 1266645
-        },
-        {
           "ym": "2026-07",
           "sales": 54714,
-          "cumulative": 1321359
+          "cumulative": 54714
         },
         {
           "ym": "2026-08",
           "sales": 17117,
-          "cumulative": 1338476
+          "cumulative": 71831
         },
         {
           "ym": "2026-09",
           "sales": 618328,
-          "cumulative": 1956804
+          "cumulative": 690159
         }
       ]
     }
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 3015055,
+      "monthly_listeners": 3017078,
       "spotify_id": "4hnHLgMSOiqERWBL4jINP1",
       "top_tracks": [
         {
           "title": "ANIMAL",
-          "play_count": 3768691,
+          "play_count": 3856896,
           "uri": "spotify:track:3U7iIHygNSOcjcL98KwHQg"
         },
         {
           "title": "VIRAL",
-          "play_count": 20071911,
+          "play_count": 20135861,
           "uri": "spotify:track:0NqmROY1BA3g9A7ZqF8D6O"
         },
         {
           "title": "Hollywood Action",
-          "play_count": 43356176,
+          "play_count": 43421615,
           "uri": "spotify:track:4BtOh0Xwh3DHelPQ14MPVC"
         },
         {
           "title": "IF I SAY, I LOVE YOU",
-          "play_count": 76219150,
+          "play_count": 76280423,
           "uri": "spotify:track:2NtidJuimmXzUsExfMYcvk"
         },
         {
           "title": "Boom Boom Boom",
-          "play_count": 5590155,
+          "play_count": 5626702,
           "uri": "spotify:track:6LFouNL3xlYOqXJ3xznJBn"
         },
         {
           "title": "ddok ddok ddok",
-          "play_count": 16917953,
+          "play_count": 16965571,
           "uri": "spotify:track:51n6dPkIasW4p9JwPpcibu"
         },
         {
           "title": "Earth, Wind & Fire",
-          "play_count": 89385581,
+          "play_count": 89425043,
           "uri": "spotify:track:0Tq7v8YAmwdnAYBwyR1pZ4"
         },
         {
           "title": "ADIOS!",
-          "play_count": 9498770,
+          "play_count": 9533060,
           "uri": "spotify:track:0F6XPZ5gxXC1zaiaDhrV73"
         },
         {
           "title": "123-78",
-          "play_count": 33542114,
+          "play_count": 33574085,
           "uri": "spotify:track:4XLfRpryO7Qn0SXp1ARIfj"
         },
         {
           "title": "I Feel Good",
-          "play_count": 39011495,
+          "play_count": 39043988,
           "uri": "spotify:track:1klePVubVctBqhlKJvibil"
         }
       ]
@@ -1101,6 +1096,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

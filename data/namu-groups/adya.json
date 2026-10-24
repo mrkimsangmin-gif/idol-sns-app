@@ -147,27 +147,27 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 6107,
+      "monthly_listeners": 6081,
       "spotify_id": "4J4tJMuTHFBLuNE93GGvDW",
       "top_tracks": [
         {
           "title": "RIZZ",
-          "play_count": 608016,
+          "play_count": 609045,
           "uri": "spotify:track:5SpQxEL0mJV5r5hS1a5G3J"
         },
         {
           "title": "Per",
-          "play_count": 707213,
+          "play_count": 707300,
           "uri": "spotify:track:1Kp9qkgGOB0nXrXdsW6w8o"
         },
         {
           "title": "왜 불러 (What′s Up?)",
-          "play_count": 208352,
+          "play_count": 208390,
           "uri": "spotify:track:17rwCD4xLq55Dvzx6aSqrp"
         },
         {
           "title": "A Dazzling Day",
-          "play_count": 32600,
+          "play_count": 32610,
           "uri": "spotify:track:0HT86KNg9iFbjkcuhlyrdk"
         },
         {
@@ -177,7 +177,7 @@
         },
         {
           "title": "RIZZ - Instrumental",
-          "play_count": 21703,
+          "play_count": 21708,
           "uri": "spotify:track:083eLY2f04Vsy7uGY2AXcX"
         },
         {
@@ -187,7 +187,7 @@
         },
         {
           "title": "A Dazzling Day - Instrumental",
-          "play_count": 2226,
+          "play_count": 2228,
           "uri": "spotify:track:2I5QbuLeGgioiwBQ6Ce3Wl"
         }
       ]
@@ -330,6 +330,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

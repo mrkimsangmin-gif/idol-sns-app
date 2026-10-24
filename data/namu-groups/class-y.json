@@ -279,57 +279,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 163716,
+      "monthly_listeners": 162726,
       "spotify_id": "3jcfHmXvjOgHzfyVE55GzZ",
       "top_tracks": [
         {
           "title": "눈물이 난 채로 걷는 게 나다운 거라서",
-          "play_count": 1185518,
+          "play_count": 1190322,
           "uri": "spotify:track:58LrWUfLf4BWdMx1PNPefc"
         },
         {
           "title": "Psycho and Beautiful",
-          "play_count": 4533028,
+          "play_count": 4534721,
           "uri": "spotify:track:66hTmSvvdanE90lCEp7ogV"
         },
         {
           "title": "Intoxicated (PARK BOEUN SOLO)",
-          "play_count": 321555,
+          "play_count": 323364,
           "uri": "spotify:track:4vEEhIvyZWk7jDjlZpI6r2"
         },
         {
           "title": "Tick Tick Boom",
-          "play_count": 7033366,
+          "play_count": 7034463,
           "uri": "spotify:track:5CGu1xKXdFIScS9gHiVosM"
         },
         {
           "title": "SHUT DOWN",
-          "play_count": 7239661,
+          "play_count": 7240791,
           "uri": "spotify:track:5BVB03000Trb3zHlkjqJFe"
         },
         {
           "title": "Crack-Crack-Crackle",
-          "play_count": 2879561,
+          "play_count": 2880276,
           "uri": "spotify:track:4cFkNoWvPbLJSe7bay50sI"
         },
         {
           "title": "CLASSY",
-          "play_count": 5756971,
+          "play_count": 5757760,
           "uri": "spotify:track:7LEupZwTQBhbvvHmxttUeP"
         },
         {
           "title": "비둘기 (KIM SEONYOU SOLO)",
-          "play_count": 103057,
+          "play_count": 103358,
           "uri": "spotify:track:4Qik0Mpk5Bc8DO7GBnM8hY"
         },
         {
           "title": "SAME SAME DIFFERENT",
-          "play_count": 1462041,
+          "play_count": 1462507,
           "uri": "spotify:track:4rySywa5qf7CZeSqXUrLMA"
         },
         {
           "title": "Stay Together (KIM RIWON SOLO)",
-          "play_count": 87660,
+          "play_count": 88080,
           "uri": "spotify:track:5CESxr2LDrdw26GaNFACNg"
         }
       ]
@@ -507,6 +507,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

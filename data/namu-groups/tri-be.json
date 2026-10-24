@@ -289,57 +289,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 454343,
+      "monthly_listeners": 453630,
       "spotify_id": "6BgYuNomEs12UIrnxhWE9a",
       "top_tracks": [
         {
           "title": "LORO",
-          "play_count": 26611320,
+          "play_count": 26629267,
           "uri": "spotify:track:7hC3uYrhztvkgNziODNpep"
         },
         {
           "title": "Diamond",
-          "play_count": 19443087,
+          "play_count": 19452529,
           "uri": "spotify:track:4SjL5rKPVxe2K2FnjluuVa"
         },
         {
           "title": "KISS",
-          "play_count": 13136348,
+          "play_count": 13138453,
           "uri": "spotify:track:7MONmJafc7senaIZE3ulWv"
         },
         {
           "title": "WOULD YOU RUN",
-          "play_count": 8032174,
+          "play_count": 8033877,
           "uri": "spotify:track:1PyRHSdxEZgJpN3vWSGNFw"
         },
         {
           "title": "DOOM DOOM TA",
-          "play_count": 11285438,
+          "play_count": 11287099,
           "uri": "spotify:track:4QAR66BbMPgryzKTG21mdP"
         },
         {
           "title": "RUB-A-DUM",
-          "play_count": 9014927,
+          "play_count": 9016141,
           "uri": "spotify:track:7rg2OLW7PSFa9OVjjZjYpy"
         },
         {
           "title": "Memu Aagamu",
-          "play_count": 5920378,
+          "play_count": 5921188,
           "uri": "spotify:track:4C81bkQ2tkMmYk4bGFCrv5"
         },
         {
           "title": "Loca",
-          "play_count": 2810595,
+          "play_count": 2811307,
           "uri": "spotify:track:3wiSbXaRcX0NXC6CQIaLYO"
         },
         {
           "title": "우리 하나되어 2021",
-          "play_count": 590975,
+          "play_count": 591278,
           "uri": "spotify:track:2NOCnoRVXD4RXtaOq5PALC"
         },
         {
           "title": "WITCH",
-          "play_count": 1128623,
+          "play_count": 1128972,
           "uri": "spotify:track:2jDpV2QgvMjQXydP46Ayx4"
         }
       ]
@@ -604,6 +604,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

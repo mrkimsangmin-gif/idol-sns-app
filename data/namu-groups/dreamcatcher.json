@@ -690,57 +690,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 601411,
+      "monthly_listeners": 601121,
       "spotify_id": "5V1qsQHdXNm4ZEZHWvFnqQ",
       "top_tracks": [
         {
           "title": "BOCA",
-          "play_count": 69719676,
+          "play_count": 69732602,
           "uri": "spotify:track:3TUV9XVUQReY4EA1e1zJaC"
         },
         {
           "title": "Scream",
-          "play_count": 63236558,
+          "play_count": 63247535,
           "uri": "spotify:track:02J5w3NVaMhjoGP3dQ4bqX"
         },
         {
           "title": "Deja Vu",
-          "play_count": 44051997,
+          "play_count": 44060385,
           "uri": "spotify:track:6AYEdM1tM0txlrzDlyH6MU"
         },
         {
           "title": "BEcause",
-          "play_count": 36664200,
+          "play_count": 36670123,
           "uri": "spotify:track:6U9lbMkQrqIjynjxQAYdqh"
         },
         {
           "title": "JUSTICE",
-          "play_count": 12943778,
+          "play_count": 12948929,
           "uri": "spotify:track:1hOTr8qUrmBJpcJBncNGht"
         },
         {
           "title": "MAISON",
-          "play_count": 28790986,
+          "play_count": 28794981,
           "uri": "spotify:track:5c6DOQ4YU20MuiuLnjx8UQ"
         },
         {
           "title": "BONVOYAGE",
-          "play_count": 17419556,
+          "play_count": 17423591,
           "uri": "spotify:track:13L0qFKXPQZKKmBuSvrSf7"
         },
         {
           "title": "YOU AND I",
-          "play_count": 28914485,
+          "play_count": 28918125,
           "uri": "spotify:track:3TVtHfOavXrGmgPibVqf5G"
         },
         {
           "title": "Piri ～ Fue wo Fuke ～ - Japanese Ver.",
-          "play_count": 38428177,
+          "play_count": 38431524,
           "uri": "spotify:track:1bBSQHoeTAaaKGYHutEr60"
         },
         {
           "title": "VISION",
-          "play_count": 15646069,
+          "play_count": 15649133,
           "uri": "spotify:track:4jJA9pOiYtTZvOeHVFm1v7"
         }
       ]
@@ -1272,6 +1272,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

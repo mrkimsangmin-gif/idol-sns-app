@@ -502,116 +502,21 @@
       "초동_한터": "374",
       "누적_한터": "",
       "초동_써클": "1,517,574",
-      "누적_써클": "176,768",
+      "누적_써클": "10,777",
       "비고": "Bite Me",
-      "누적_써클_numeric": 176768,
+      "누적_써클_numeric": 10777,
       "초동_써클_numeric": 1517574,
       "초동_한터_numeric": 374,
       "monthly_timeline": [
         {
-          "ym": "2024-01",
-          "sales": 10432,
-          "cumulative": 10432
-        },
-        {
-          "ym": "2024-02",
-          "sales": 10762,
-          "cumulative": 21194
-        },
-        {
-          "ym": "2024-03",
-          "sales": 10330,
-          "cumulative": 31524
-        },
-        {
-          "ym": "2024-04",
-          "sales": 9492,
-          "cumulative": 41016
-        },
-        {
-          "ym": "2024-05",
-          "sales": 7797,
-          "cumulative": 48813
-        },
-        {
-          "ym": "2024-06",
-          "sales": 8303,
-          "cumulative": 57116
-        },
-        {
-          "ym": "2024-07",
-          "sales": 7543,
-          "cumulative": 64659
-        },
-        {
-          "ym": "2024-08",
-          "sales": 6993,
-          "cumulative": 71652
-        },
-        {
-          "ym": "2024-09",
-          "sales": 13725,
-          "cumulative": 85377
-        },
-        {
-          "ym": "2024-11",
-          "sales": 7799,
-          "cumulative": 93176
-        },
-        {
-          "ym": "2024-12",
-          "sales": 8094,
-          "cumulative": 101270
-        },
-        {
-          "ym": "2025-02",
-          "sales": 6183,
-          "cumulative": 107453
-        },
-        {
-          "ym": "2025-04",
-          "sales": 5133,
-          "cumulative": 112586
-        },
-        {
-          "ym": "2025-05",
-          "sales": 4866,
-          "cumulative": 117452
-        },
-        {
-          "ym": "2025-08",
-          "sales": 6360,
-          "cumulative": 123812
-        },
-        {
-          "ym": "2025-09",
-          "sales": 6868,
-          "cumulative": 130680
-        },
-        {
-          "ym": "2025-10",
-          "sales": 7215,
-          "cumulative": 137895
-        },
-        {
-          "ym": "2026-03",
-          "sales": 13793,
-          "cumulative": 151688
-        },
-        {
-          "ym": "2026-05",
-          "sales": 14303,
-          "cumulative": 165991
-        },
-        {
           "ym": "2026-07",
           "sales": 6154,
-          "cumulative": 172145
+          "cumulative": 6154
         },
         {
           "ym": "2026-08",
           "sales": 4623,
-          "cumulative": 176768
+          "cumulative": 10777
         }
       ]
     },
@@ -755,140 +660,20 @@
       "초동_한터": "2,344,749",
       "누적_한터": "",
       "초동_써클": "3,381,288",
-      "누적_써클": "4,804,686",
+      "누적_써클": "29,183",
       "비고": "XO (Only If You Say Yes)",
-      "누적_써클_numeric": 4804686,
+      "누적_써클_numeric": 29183,
       "초동_써클_numeric": 3381288,
       "monthly_timeline": [
         {
-          "ym": "2024-07",
-          "sales": 2618101,
-          "cumulative": 2618101
-        },
-        {
-          "ym": "2024-08",
-          "sales": 247102,
-          "cumulative": 2865203
-        },
-        {
-          "ym": "2024-09",
-          "sales": 44491,
-          "cumulative": 2909694
-        },
-        {
-          "ym": "2024-10",
-          "sales": 14762,
-          "cumulative": 2924456
-        },
-        {
-          "ym": "2024-11",
-          "sales": 1515019,
-          "cumulative": 4439475
-        },
-        {
-          "ym": "2024-12",
-          "sales": 25288,
-          "cumulative": 4464763
-        },
-        {
-          "ym": "2025-01",
-          "sales": 24602,
-          "cumulative": 4489365
-        },
-        {
-          "ym": "2025-02",
-          "sales": 16094,
-          "cumulative": 4505459
-        },
-        {
-          "ym": "2025-03",
-          "sales": 18155,
-          "cumulative": 4523614
-        },
-        {
-          "ym": "2025-04",
-          "sales": 46414,
-          "cumulative": 4570028
-        },
-        {
-          "ym": "2025-05",
-          "sales": 21940,
-          "cumulative": 4591968
-        },
-        {
-          "ym": "2025-06",
-          "sales": 6342,
-          "cumulative": 4598310
-        },
-        {
-          "ym": "2025-07",
-          "sales": 8700,
-          "cumulative": 4607010
-        },
-        {
-          "ym": "2025-08",
-          "sales": 12971,
-          "cumulative": 4619981
-        },
-        {
-          "ym": "2025-09",
-          "sales": 18312,
-          "cumulative": 4638293
-        },
-        {
-          "ym": "2025-10",
-          "sales": 14929,
-          "cumulative": 4653222
-        },
-        {
-          "ym": "2025-11",
-          "sales": 17551,
-          "cumulative": 4670773
-        },
-        {
-          "ym": "2025-12",
-          "sales": 20591,
-          "cumulative": 4691364
-        },
-        {
-          "ym": "2026-01",
-          "sales": 8760,
-          "cumulative": 4700124
-        },
-        {
-          "ym": "2026-02",
-          "sales": 3966,
-          "cumulative": 4704090
-        },
-        {
-          "ym": "2026-03",
-          "sales": 30512,
-          "cumulative": 4734602
-        },
-        {
-          "ym": "2026-04",
-          "sales": 22931,
-          "cumulative": 4757533
-        },
-        {
-          "ym": "2026-05",
-          "sales": 7295,
-          "cumulative": 4764828
-        },
-        {
-          "ym": "2026-06",
-          "sales": 10675,
-          "cumulative": 4775503
-        },
-        {
           "ym": "2026-07",
           "sales": 16850,
-          "cumulative": 4792353
+          "cumulative": 16850
         },
         {
           "ym": "2026-08",
           "sales": 12333,
-          "cumulative": 4804686
+          "cumulative": 29183
         }
       ]
     },
@@ -899,140 +684,20 @@
       "초동_한터": "1,406,926",
       "누적_한터": "",
       "초동_써클": "3,381,288",
-      "누적_써클": "4,804,686",
+      "누적_써클": "29,183",
       "비고": "No Doubt",
-      "누적_써클_numeric": 4804686,
+      "누적_써클_numeric": 29183,
       "초동_써클_numeric": 3381288,
       "monthly_timeline": [
         {
-          "ym": "2024-07",
-          "sales": 2618101,
-          "cumulative": 2618101
-        },
-        {
-          "ym": "2024-08",
-          "sales": 247102,
-          "cumulative": 2865203
-        },
-        {
-          "ym": "2024-09",
-          "sales": 44491,
-          "cumulative": 2909694
-        },
-        {
-          "ym": "2024-10",
-          "sales": 14762,
-          "cumulative": 2924456
-        },
-        {
-          "ym": "2024-11",
-          "sales": 1515019,
-          "cumulative": 4439475
-        },
-        {
-          "ym": "2024-12",
-          "sales": 25288,
-          "cumulative": 4464763
-        },
-        {
-          "ym": "2025-01",
-          "sales": 24602,
-          "cumulative": 4489365
-        },
-        {
-          "ym": "2025-02",
-          "sales": 16094,
-          "cumulative": 4505459
-        },
-        {
-          "ym": "2025-03",
-          "sales": 18155,
-          "cumulative": 4523614
-        },
-        {
-          "ym": "2025-04",
-          "sales": 46414,
-          "cumulative": 4570028
-        },
-        {
-          "ym": "2025-05",
-          "sales": 21940,
-          "cumulative": 4591968
-        },
-        {
-          "ym": "2025-06",
-          "sales": 6342,
-          "cumulative": 4598310
-        },
-        {
-          "ym": "2025-07",
-          "sales": 8700,
-          "cumulative": 4607010
-        },
-        {
-          "ym": "2025-08",
-          "sales": 12971,
-          "cumulative": 4619981
-        },
-        {
-          "ym": "2025-09",
-          "sales": 18312,
-          "cumulative": 4638293
-        },
-        {
-          "ym": "2025-10",
-          "sales": 14929,
-          "cumulative": 4653222
-        },
-        {
-          "ym": "2025-11",
-          "sales": 17551,
-          "cumulative": 4670773
-        },
-        {
-          "ym": "2025-12",
-          "sales": 20591,
-          "cumulative": 4691364
-        },
-        {
-          "ym": "2026-01",
-          "sales": 8760,
-          "cumulative": 4700124
-        },
-        {
-          "ym": "2026-02",
-          "sales": 3966,
-          "cumulative": 4704090
-        },
-        {
-          "ym": "2026-03",
-          "sales": 30512,
-          "cumulative": 4734602
-        },
-        {
-          "ym": "2026-04",
-          "sales": 22931,
-          "cumulative": 4757533
-        },
-        {
-          "ym": "2026-05",
-          "sales": 7295,
-          "cumulative": 4764828
-        },
-        {
-          "ym": "2026-06",
-          "sales": 10675,
-          "cumulative": 4775503
-        },
-        {
           "ym": "2026-07",
           "sales": 16850,
-          "cumulative": 4792353
+          "cumulative": 16850
         },
         {
           "ym": "2026-08",
           "sales": 12333,
-          "cumulative": 4804686
+          "cumulative": 29183
         }
       ]
     },
@@ -1147,39 +812,19 @@
       "초동_한터": "2,075,056",
       "누적_한터": "",
       "초동_써클": "2,075,0**",
-      "누적_써클": "2,435,980",
+      "누적_써클": "12,451",
       "비고": "Knife",
-      "누적_써클_numeric": 2435980,
+      "누적_써클_numeric": 12451,
       "monthly_timeline": [
-        {
-          "ym": "2026-01",
-          "sales": 2297193,
-          "cumulative": 2297193
-        },
-        {
-          "ym": "2026-02",
-          "sales": 69135,
-          "cumulative": 2366328
-        },
-        {
-          "ym": "2026-03",
-          "sales": 38030,
-          "cumulative": 2404358
-        },
-        {
-          "ym": "2026-04",
-          "sales": 19171,
-          "cumulative": 2423529
-        },
         {
           "ym": "2026-07",
           "sales": 5994,
-          "cumulative": 2429523
+          "cumulative": 5994
         },
         {
           "ym": "2026-08",
           "sales": 6457,
-          "cumulative": 2435980
+          "cumulative": 12451
         }
       ]
     },
@@ -1741,57 +1386,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 10020904,
+      "monthly_listeners": 10010947,
       "spotify_id": "5t5FqBwTcgKTaWmfEbwQY9",
       "top_tracks": [
         {
           "title": "Bloody Paradise",
-          "play_count": 67002992,
+          "play_count": 67654176,
           "uri": "spotify:track:5vlnF0r5xACeurZwjgn0Ij"
         },
         {
           "title": "Bite Me",
-          "play_count": 543872454,
+          "play_count": 544146897,
           "uri": "spotify:track:7mpdNiaQvygj2rHoxkzMfa"
         },
         {
           "title": "Drunk-Dazed",
-          "play_count": 469806688,
+          "play_count": 469990029,
           "uri": "spotify:track:1wcr8DjnN59Awev8nnKpQ4"
         },
         {
           "title": "XO (Only If You Say Yes)",
-          "play_count": 241655266,
+          "play_count": 241827675,
           "uri": "spotify:track:3RkSwrsIadAvqVtMp5yhaB"
         },
         {
           "title": "Moonstruck",
-          "play_count": 184612468,
+          "play_count": 184779191,
           "uri": "spotify:track:3gYWGRS64XrGSrjD3vvtga"
         },
         {
           "title": "Bad For You",
-          "play_count": 16335819,
+          "play_count": 16459042,
           "uri": "spotify:track:6mtOUelCiuBp6rYiXO8xsS"
         },
         {
           "title": "Stuck",
-          "play_count": 14174569,
+          "play_count": 14294538,
           "uri": "spotify:track:3zjo48q28UqhpDaA3Ktism"
         },
         {
           "title": "Knife",
-          "play_count": 86552570,
+          "play_count": 86672175,
           "uri": "spotify:track:0TKCUjfV3YGuY99MxCKM5w"
         },
         {
           "title": "No Doubt",
-          "play_count": 186087309,
+          "play_count": 186207335,
           "uri": "spotify:track:44hqFxUWsADWewEJELnncj"
         },
         {
           "title": "FEVER",
-          "play_count": 493757328,
+          "play_count": 493878884,
           "uri": "spotify:track:0UzymivvUH5s8z4PeWZJaK"
         }
       ]
@@ -2679,6 +2324,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

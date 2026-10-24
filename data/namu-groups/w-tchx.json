@@ -128,22 +128,22 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 10769,
+      "monthly_listeners": 10782,
       "spotify_id": "7skRnGeXWAZPkWalXSyyiX",
       "top_tracks": [
         {
           "title": "BLALA",
-          "play_count": 69626,
+          "play_count": 69674,
           "uri": "spotify:track:24V8DuHNwT0KieC1jnds6s"
         },
         {
           "title": "Run Baby Run",
-          "play_count": 50626,
+          "play_count": 50676,
           "uri": "spotify:track:2kYY7NwO4tVRBHSiO17dlw"
         },
         {
           "title": "Beautiful Story (Highlight)",
-          "play_count": 17210,
+          "play_count": 17211,
           "uri": "spotify:track:1lpTotPZiCwYdPGKeB8OIo"
         },
         {
@@ -163,6 +163,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

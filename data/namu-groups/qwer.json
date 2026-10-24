@@ -245,26 +245,16 @@
       "초동_한터": "15,186",
       "누적_한터": "",
       "초동_써클": "133,156",
-      "누적_써클": "157,503",
+      "누적_써클": "6,592",
       "비고": "CEREMONY",
       "초동_한터_numeric": 15186,
-      "누적_써클_numeric": 157503,
+      "누적_써클_numeric": 6592,
       "초동_써클_numeric": 133156,
       "monthly_timeline": [
         {
-          "ym": "2026-04",
-          "sales": 133156,
-          "cumulative": 133156
-        },
-        {
-          "ym": "2026-05",
-          "sales": 17755,
-          "cumulative": 150911
-        },
-        {
           "ym": "2026-07",
           "sales": 6592,
-          "cumulative": 157503
+          "cumulative": 6592
         }
       ]
     },
@@ -325,57 +315,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 531487,
+      "monthly_listeners": 521904,
       "spotify_id": "0XufO9nLOKNN0w0qNrDrZy",
       "top_tracks": [
         {
           "title": "고민중독",
-          "play_count": 28017943,
+          "play_count": 28034558,
           "uri": "spotify:track:39gaUtq2z4ejJbno7tWHbL"
         },
         {
           "title": "내 이름 맑음",
-          "play_count": 17178156,
+          "play_count": 17188965,
           "uri": "spotify:track:1lTBkwEm0wim9RsMXqtqWy"
         },
         {
           "title": "소년만화",
-          "play_count": 637813,
+          "play_count": 650004,
           "uri": "spotify:track:6YzvWpNuH9s3pwj2obESJn"
         },
         {
           "title": "눈물참기",
-          "play_count": 8951974,
+          "play_count": 8960107,
           "uri": "spotify:track:2ryzy7LSXUDFg5G05znHsL"
         },
         {
           "title": "Discord",
-          "play_count": 13472204,
+          "play_count": 13479338,
           "uri": "spotify:track:2kTKlEtnGx5z8oi4O06yqC"
         },
         {
           "title": "피카레스크",
-          "play_count": 265494,
+          "play_count": 270199,
           "uri": "spotify:track:3rDeAVs3ZJP8F5g7JACfAn"
         },
         {
           "title": "CEREMONY",
-          "play_count": 2147335,
+          "play_count": 2152036,
           "uri": "spotify:track:7CoEOvI85tbkhdgJRd8XfC"
         },
         {
           "title": "별의 하모니",
-          "play_count": 6281088,
+          "play_count": 6285561,
           "uri": "spotify:track:1b2jcwnf3JwuyWiG3xTPsp"
         },
         {
           "title": "SHOW DOWN",
-          "play_count": 615577,
+          "play_count": 618631,
           "uri": "spotify:track:6bJHDnYgkIjmg8xao0aJbB"
         },
         {
           "title": "Our Voyage",
-          "play_count": 889588,
+          "play_count": 892180,
           "uri": "spotify:track:7Mgm9v9eYxrKZKR5S0AV5W"
         }
       ]
@@ -592,6 +582,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

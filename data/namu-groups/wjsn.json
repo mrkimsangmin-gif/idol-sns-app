@@ -829,57 +829,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 289878,
+      "monthly_listeners": 290860,
       "spotify_id": "6hhqsQZhtp9hfaZhSd0VSD",
       "top_tracks": [
         {
           "title": "비밀이야 (SECRET)",
-          "play_count": 25480373,
+          "play_count": 25486653,
           "uri": "spotify:track:1OIb1AalkGikhzCRbWgchd"
         },
         {
           "title": "이루리",
-          "play_count": 24376502,
+          "play_count": 24380438,
           "uri": "spotify:track:42zMiF3EFBg5CsYbgKdhj1"
         },
         {
           "title": "부탁해",
-          "play_count": 25689126,
+          "play_count": 25692970,
           "uri": "spotify:track:20yOiJHRQGirFYehRSIb6i"
         },
         {
           "title": "UNNATURAL",
-          "play_count": 28278756,
+          "play_count": 28282204,
           "uri": "spotify:track:1eykKBqxHgasGHwjOQIvbt"
         },
         {
           "title": "Bloom hour",
-          "play_count": 1762202,
+          "play_count": 1764106,
           "uri": "spotify:track:0sTy2p3PUkU55Hda1rAiFq"
         },
         {
           "title": "너에게 닿기를 (I WISH)",
-          "play_count": 10790418,
+          "play_count": 10794333,
           "uri": "spotify:track:6WhZjnG6CTfE1J9f7vZ8sk"
         },
         {
           "title": "Last Sequence",
-          "play_count": 14529506,
+          "play_count": 14531318,
           "uri": "spotify:track:0lNPjT58llQGlycRA2mea4"
         },
         {
           "title": "꿈꾸는 마음으로",
-          "play_count": 10207771,
+          "play_count": 10209317,
           "uri": "spotify:track:1qpcqhkwZqCJAu4JxEhute"
         },
         {
           "title": "La La Love",
-          "play_count": 9583206,
+          "play_count": 9584244,
           "uri": "spotify:track:1pXpzhdyeryEw8DqhaVrwe"
         },
         {
           "title": "BUTTERFLY",
-          "play_count": 8721953,
+          "play_count": 8722870,
           "uri": "spotify:track:33PStuI2gJCeZcYQIOHXAU"
         }
       ]
@@ -1203,6 +1203,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

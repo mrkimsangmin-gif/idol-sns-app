@@ -66,31 +66,31 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 29095,
+      "monthly_listeners": 29224,
       "spotify_id": "5MepLDNyvE91lO3yqJhMIx",
       "top_tracks": [
         {
           "title": "Drift away",
-          "play_count": 81258,
+          "play_count": 82189,
           "uri": "spotify:track:5gQSnskNjNaH0n469RHgmH"
         },
         {
           "title": "VIPER",
-          "play_count": 56095,
+          "play_count": 56552,
           "uri": "spotify:track:1uw7huDpR02BpQxoVFujPS"
         },
         {
           "title": "REALLY REALLY",
-          "play_count": 250081,
+          "play_count": 250279,
           "uri": "spotify:track:34C8fy57oOgt7kEm0ciIta"
         },
         {
           "title": "RETRY",
-          "play_count": 206076,
+          "play_count": 206208,
           "uri": "spotify:track:4dud779PKbX0sYxUNm2ZHM"
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

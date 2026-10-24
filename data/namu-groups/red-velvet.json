@@ -1888,57 +1888,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 6633623,
+      "monthly_listeners": 6605321,
       "spotify_id": "1z4g3DjTBBZKhvAroFlhOM",
       "top_tracks": [
         {
           "title": "러시안 룰렛 (Russian Roulette)",
-          "play_count": 266223798,
+          "play_count": 266364334,
           "uri": "spotify:track:5HiSc2ZCGn8L3cH3qSwzBT"
         },
         {
           "title": "Psycho",
-          "play_count": 576140372,
+          "play_count": 576264560,
           "uri": "spotify:track:3CYH422oy1cZNoo0GTG1TK"
         },
         {
           "title": "Day 1",
-          "play_count": 74675619,
+          "play_count": 74765021,
           "uri": "spotify:track:74muMkVdMYoR65lhmdzy13"
         },
         {
           "title": "Bad Boy",
-          "play_count": 376099186,
+          "play_count": 376220711,
           "uri": "spotify:track:5GKwq4sO5ZHKuWaDmdwMQc"
         },
         {
           "title": "Surfin' Boy",
-          "play_count": 11901940,
+          "play_count": 11964353,
           "uri": "spotify:track:0cSxfNcy80a18linDTEpiN"
         },
         {
           "title": "Cosmic",
-          "play_count": 110140523,
+          "play_count": 110204529,
           "uri": "spotify:track:4s2MSGZJE1NVmzWkxXB6Qa"
         },
         {
           "title": "빨간 맛 (Red Flavor)",
-          "play_count": 230578466,
+          "play_count": 230618305,
           "uri": "spotify:track:7nKQ5WAcjnG48knyLuo8gO"
         },
         {
           "title": "피카부 (Peek-A-Boo)",
-          "play_count": 251408172,
+          "play_count": 251447652,
           "uri": "spotify:track:42tFTth2jcF7iSo0RBjfJF"
         },
         {
           "title": "Dumb Dumb",
-          "play_count": 105532800,
+          "play_count": 105564548,
           "uri": "spotify:track:64iDjAuWDogVhuoWhKklF9"
         },
         {
           "title": "Feel My Rhythm",
-          "play_count": 190293604,
+          "play_count": 190319659,
           "uri": "spotify:track:2oBMZYteeO8DyXV9gDx6Za"
         }
       ]
@@ -2638,6 +2638,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

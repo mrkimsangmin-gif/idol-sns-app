@@ -431,57 +431,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 103142,
+      "monthly_listeners": 102268,
       "spotify_id": "2FJYWlqgtoiBtXpOy9GGIF",
       "top_tracks": [
         {
           "title": "LOVE ME LIKE (Eng Ver.)",
-          "play_count": 13639992,
+          "play_count": 13642409,
           "uri": "spotify:track:1S0psxbpjUQ0NBQq6fIIqc"
         },
         {
           "title": "VAMOS",
-          "play_count": 7742919,
+          "play_count": 7744306,
           "uri": "spotify:track:19kvCoRJQGxnEwyqqJphLA"
         },
         {
           "title": "Renegade",
-          "play_count": 148714,
+          "play_count": 149632,
           "uri": "spotify:track:4Xf87cXcNELMjcXlGbUEQV"
         },
         {
           "title": "UNCAPPED",
-          "play_count": 318114,
+          "play_count": 318943,
           "uri": "spotify:track:6aoYAkdxthgfLjqfdOHCTu"
         },
         {
           "title": "OMEGA X",
-          "play_count": 3012065,
+          "play_count": 3013001,
           "uri": "spotify:track:6Jt4t4qNmD1v7SB8GPz3Zw"
         },
         {
           "title": "WHAT'S GOIN' ON",
-          "play_count": 3396275,
+          "play_count": 3397025,
           "uri": "spotify:track:5RYFLurX0Vg85bgnClS6im"
         },
         {
           "title": "Close to me",
-          "play_count": 121803,
+          "play_count": 122172,
           "uri": "spotify:track:56kEfmPWgwA6Osy2lyqDZL"
         },
         {
           "title": "Life Detox",
-          "play_count": 90909,
+          "play_count": 91241,
           "uri": "spotify:track:2v7kvV2qRPH9cQOYC79n0C"
         },
         {
           "title": "BAILA CON OX",
-          "play_count": 1115103,
+          "play_count": 1115441,
           "uri": "spotify:track:2QJ62Uz2notbrGzc48N6eW"
         },
         {
           "title": "JUNK FOOD",
-          "play_count": 1140796,
+          "play_count": 1141158,
           "uri": "spotify:track:5aEdNj5hYLKwSiO9vKK552"
         }
       ]
@@ -785,6 +785,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

@@ -149,37 +149,37 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1849,
+      "monthly_listeners": 1843,
       "spotify_id": "0A86PbD7BDlDWi6dtGgJXI",
       "top_tracks": [
         {
           "title": "슬램덩크 (SLAM DUNK)",
-          "play_count": 20769,
+          "play_count": 20801,
           "uri": "spotify:track:6feryCCx5QKpQj6MSQZBWu"
         },
         {
           "title": "지구와 달과의 거리",
-          "play_count": 33886,
+          "play_count": 33918,
           "uri": "spotify:track:5mu3o6CnXpekrU7tIaxMgR"
         },
         {
           "title": "if i ain’t got you",
-          "play_count": 58392,
+          "play_count": 58416,
           "uri": "spotify:track:7ttVhWEV7D4cifrYEIKXKF"
         },
         {
           "title": "I′M SO SORRY, BUT I LOVE YOU",
-          "play_count": 59112,
+          "play_count": 59132,
           "uri": "spotify:track:11aFqEJWAh9W880NHQb3oM"
         },
         {
           "title": "CLOVER",
-          "play_count": 25244,
+          "play_count": 25258,
           "uri": "spotify:track:4cjqXrN46sr0bRFckQtgqG"
         },
         {
           "title": "BE There (우리라는 이름)",
-          "play_count": 15482,
+          "play_count": 15489,
           "uri": "spotify:track:2eCO5oBVvHHHwBVNCUzK2V"
         },
         {
@@ -189,7 +189,7 @@
         },
         {
           "title": "지구와 달과의 거리 - Instrumental",
-          "play_count": 1318,
+          "play_count": 1319,
           "uri": "spotify:track:0zN3zW4Bj2kIFFX0zamUzx"
         }
       ]
@@ -244,6 +244,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

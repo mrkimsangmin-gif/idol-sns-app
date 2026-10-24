@@ -823,57 +823,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 498343,
+      "monthly_listeners": 493045,
       "spotify_id": "3CVYSpM7nfHFG5qCTW7Ht9",
       "top_tracks": [
         {
           "title": "눈을 돌리지마 (Say Yes!)",
-          "play_count": 523860,
+          "play_count": 533392,
           "uri": "spotify:track:20k8jupyPevVfg9FlmKN3o"
         },
         {
           "title": "월하미인 (月下美人 : LUNA) (Penta Ver.)",
-          "play_count": 23127186,
+          "play_count": 23132124,
           "uri": "spotify:track:225eFOzG6HMSXzy7B8AiTD"
         },
         {
           "title": "발키리 (Valkyrie) (Penta Ver.)",
-          "play_count": 32223504,
+          "play_count": 32227384,
           "uri": "spotify:track:5JsbzhYctqvSUL2fh8wBMc"
         },
         {
           "title": "Same Scent - Japanese Version",
-          "play_count": 21350406,
+          "play_count": 21354084,
           "uri": "spotify:track:6Po0reh8h94W5WOdA77BW5"
         },
         {
           "title": "쉽게 쓰여진 노래 (A Song Written Easily) (Penta Ver.)",
-          "play_count": 26579237,
+          "play_count": 26582524,
           "uri": "spotify:track:3fcK3epFPDP2AiinCZj0Oj"
         },
         {
           "title": "가자 (LIT)",
-          "play_count": 27832871,
+          "play_count": 27836335,
           "uri": "spotify:track:5UX7u7znDeHnDa3iynEhcm"
         },
         {
           "title": "Runaway",
-          "play_count": 138723,
+          "play_count": 141167,
           "uri": "spotify:track:02OUAUQKv6FuoTpjJloZbj"
         },
         {
           "title": "반박불가 (No diggity)",
-          "play_count": 19438598,
+          "play_count": 19441117,
           "uri": "spotify:track:1Ovza9IYvEbdB7SctQCHIS"
         },
         {
           "title": "X",
-          "play_count": 2769133,
+          "play_count": 2771343,
           "uri": "spotify:track:0XTt8RvNdO1zxxTf0L7ZLr"
         },
         {
           "title": "우연히 너를 만나도 (By chance)",
-          "play_count": 90307,
+          "play_count": 91519,
           "uri": "spotify:track:5v18o4I8vZBGG0HJ0ZKFs8"
         }
       ]
@@ -1472,6 +1472,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

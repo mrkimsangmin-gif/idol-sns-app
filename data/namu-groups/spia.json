@@ -106,17 +106,17 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 691,
+      "monthly_listeners": 685,
       "spotify_id": "1fmbTqkJpjvAB4tqCFCR3L",
       "top_tracks": [
         {
           "title": "Deeeep",
-          "play_count": 117530,
+          "play_count": 117559,
           "uri": "spotify:track:6MBbzdHOmGF8d2zdDIxpxZ"
         },
         {
           "title": "Daddy's Little Girl",
-          "play_count": 74175,
+          "play_count": 74182,
           "uri": "spotify:track:5grqQw8zylROY30fyE0Hnu"
         },
         {
@@ -131,6 +131,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

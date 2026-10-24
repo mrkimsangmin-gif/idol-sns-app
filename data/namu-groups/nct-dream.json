@@ -1441,57 +1441,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1998160,
+      "monthly_listeners": 1997207,
       "spotify_id": "1gBUSTR3TyDdTVFIaQnc02",
       "top_tracks": [
         {
           "title": "Beat It Up",
-          "play_count": 106212820,
+          "play_count": 106236361,
           "uri": "spotify:track:4UJwJG0Byki4e9MNTxo8aF"
         },
         {
           "title": "Ridin'",
-          "play_count": 79492322,
+          "play_count": 79642492,
           "uri": "spotify:track:0EMD15EVNwDlgGH2CH6ZEL"
         },
         {
           "title": "BOOM",
-          "play_count": 184451197,
+          "play_count": 184515709,
           "uri": "spotify:track:6rcn967QN5JtkPOBDwYIuT"
         },
         {
           "title": "Candy",
-          "play_count": 160296184,
+          "play_count": 160331360,
           "uri": "spotify:track:27bIik73QCu8Xzt3xpG1bI"
         },
         {
           "title": "오르골 (Life Is Still Going On)",
-          "play_count": 145085477,
+          "play_count": 145117372,
           "uri": "spotify:track:3THdOskGxdJcRbp0DcS4s0"
         },
         {
           "title": "Broken Melodies",
-          "play_count": 102486472,
+          "play_count": 102512768,
           "uri": "spotify:track:1DYPrEzbmlOYbeTDkCDsaA"
         },
         {
           "title": "맛 (Hot Sauce)",
-          "play_count": 167325076,
+          "play_count": 167352466,
           "uri": "spotify:track:6B8MM3PVQtUbZLay7tP7er"
         },
         {
           "title": "Hello Future",
-          "play_count": 135123023,
+          "play_count": 135146769,
           "uri": "spotify:track:332GJ8ykVuEt3jOT1sy7j6"
         },
         {
           "title": "북극성 (Never Goodbye)",
-          "play_count": 65340250,
+          "play_count": 65358381,
           "uri": "spotify:track:5EAfUqytXYbH0yUZR3QGli"
         },
         {
           "title": "Like We Just Met",
-          "play_count": 37766834,
+          "play_count": 37783645,
           "uri": "spotify:track:56BFdDnRlfTnSLk5d7Ukw1"
         }
       ]
@@ -2227,6 +2227,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

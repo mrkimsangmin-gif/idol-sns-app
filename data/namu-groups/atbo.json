@@ -281,61 +281,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 9122,
+      "monthly_listeners": 9115,
       "spotify_id": "3bwO3gNZVmHwaBttv739g7",
       "top_tracks": [
         {
           "title": "ATTITUDE",
-          "play_count": 1127753,
+          "play_count": 1127884,
           "uri": "spotify:track:4G3kw5Y7pbwK9aE8mjfivE"
         },
         {
           "title": "Monochrome (Color)",
-          "play_count": 1068210,
+          "play_count": 1068302,
           "uri": "spotify:track:2M1kWKx9G2MlVPtwKQjpHp"
         },
         {
           "title": "Next to Me",
-          "play_count": 635102,
+          "play_count": 635182,
           "uri": "spotify:track:35pgNknwrEIUQByD7ZcGQH"
         },
         {
           "title": "Must Have Love",
-          "play_count": 351978,
+          "play_count": 352036,
           "uri": "spotify:track:3fixP4VxUKRRg7i8WeViuL"
         },
         {
           "title": "RUN",
-          "play_count": 298668,
+          "play_count": 298717,
           "uri": "spotify:track:4nckN2ab3AIwEwSrvYSypq"
         },
         {
           "title": "BOUNCE",
-          "play_count": 185026,
+          "play_count": 185058,
           "uri": "spotify:track:6A5pxRNeIv18ISE8QqQs4l"
         },
         {
           "title": "Graffiti",
-          "play_count": 243541,
+          "play_count": 243569,
           "uri": "spotify:track:3sVAZh6ryV7fSAUSkBxTDf"
         },
         {
           "title": "Just for Us",
-          "play_count": 121149,
+          "play_count": 121184,
           "uri": "spotify:track:0ESChGfBSaC7SJZo8Fpf55"
         },
         {
           "title": "TEXT ME (1052)",
-          "play_count": 212293,
+          "play_count": 212319,
           "uri": "spotify:track:0cJksW6QDYGKaVQ9x7i6uU"
         },
         {
           "title": "Mayday",
-          "play_count": 129810,
+          "play_count": 129838,
           "uri": "spotify:track:6fWubvQnCpxYpxC1nQeJDt"
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

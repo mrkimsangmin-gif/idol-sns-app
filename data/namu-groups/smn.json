@@ -207,57 +207,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 285175,
+      "monthly_listeners": 281728,
       "spotify_id": "1YPfjEiECyLURKu09GfilS",
       "top_tracks": [
         {
           "title": "ShaLala",
-          "play_count": 6097613,
+          "play_count": 6102698,
           "uri": "spotify:track:7JSBM7BSHafBx7RwV5waxR"
         },
         {
           "title": "iLy",
-          "play_count": 4401417,
+          "play_count": 4405711,
           "uri": "spotify:track:4L43LBtfaYIFH1ECv3Xxyz"
         },
         {
           "title": "WaveWay",
-          "play_count": 5738170,
+          "play_count": 5740966,
           "uri": "spotify:track:2xc4Lw2KPK98ZgUfHh3o1D"
         },
         {
           "title": "UFO (ATTENT!ON)",
-          "play_count": 1845272,
+          "play_count": 1847407,
           "uri": "spotify:track:0u5b93C2mDGVfCsMGCdH6T"
         },
         {
           "title": "Hard to Love",
-          "play_count": 934583,
+          "play_count": 937623,
           "uri": "spotify:track:6FQrKPTJV6emsqH32qOekH"
         },
         {
           "title": "1,2,3,4",
-          "play_count": 1635798,
+          "play_count": 1637158,
           "uri": "spotify:track:6m3fH6RdY6L5HmLQF10A2y"
         },
         {
           "title": "XOXO",
-          "play_count": 1370754,
+          "play_count": 1372728,
           "uri": "spotify:track:3Fyh1ijemwnaWLsEO6hmD2"
         },
         {
           "title": "Sweet & Sour",
-          "play_count": 527298,
+          "play_count": 528212,
           "uri": "spotify:track:2XtHZDeNTUvOEsnHAI8HGo"
         },
         {
           "title": "Bad Idea",
-          "play_count": 645784,
+          "play_count": 646590,
           "uri": "spotify:track:4WVBJSZy5DkG4Le4D03Jqd"
         },
         {
           "title": "Delulu Solulu",
-          "play_count": 632019,
+          "play_count": 632705,
           "uri": "spotify:track:1sFelwOBYKIK6a88jkCkDs"
         }
       ]
@@ -412,6 +412,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

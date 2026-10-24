@@ -1443,57 +1443,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1344074,
+      "monthly_listeners": 1339084,
       "spotify_id": "4TnGh5PKbSjpYqpIdlW5nz",
       "top_tracks": [
         {
           "title": "MAGIC",
-          "play_count": 1392917,
+          "play_count": 1404351,
           "uri": "spotify:track:390kIxRDC9MAaalV4JdaXf"
         },
         {
           "title": "HERO",
-          "play_count": 78522665,
+          "play_count": 78535614,
           "uri": "spotify:track:6gorwqDJ7bsdCHcVs5uS9u"
         },
         {
           "title": "MIDDLE OF THE NIGHT",
-          "play_count": 73937125,
+          "play_count": 73949584,
           "uri": "spotify:track:2QqHAiFdDZKFJkr1xCV9dG"
         },
         {
           "title": "heal",
-          "play_count": 3161125,
+          "play_count": 3172006,
           "uri": "spotify:track:34kczquuUdb7gLHhZGR8jp"
         },
         {
           "title": "baby blue",
-          "play_count": 5711176,
+          "play_count": 5722205,
           "uri": "spotify:track:4FWdu9L38N0ygairKE21r6"
         },
         {
           "title": "SURVIVOR",
-          "play_count": 802120,
+          "play_count": 809551,
           "uri": "spotify:track:3mp6dPLMC38WBD8I0Zdqem"
         },
         {
           "title": "Love Killa",
-          "play_count": 52443494,
+          "play_count": 52453647,
           "uri": "spotify:track:3sPju6MEJhk7Sz8dsRBkLQ"
         },
         {
           "title": "Type X",
-          "play_count": 668012,
+          "play_count": 673552,
           "uri": "spotify:track:6QcFCQLrqFIX2mJz4VCxQJ"
         },
         {
           "title": "WHO DO U LOVE? (feat. French Montana)",
-          "play_count": 75986712,
+          "play_count": 75995580,
           "uri": "spotify:track:4koDrJbYxIlcDY4gu2a4I8"
         },
         {
           "title": "DRAMARAMA",
-          "play_count": 61357261,
+          "play_count": 61365965,
           "uri": "spotify:track:1BSncOsSJPQkpl29QM0ipj"
         }
       ]
@@ -2241,6 +2241,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

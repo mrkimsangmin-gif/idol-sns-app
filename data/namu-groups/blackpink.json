@@ -1195,57 +1195,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 18710428,
+      "monthly_listeners": 18712274,
       "spotify_id": "41MozSoPIsD1dJM0CLPjZF",
       "top_tracks": [
         {
           "title": "뛰어(JUMP)",
-          "play_count": 712232492,
+          "play_count": 712785862,
           "uri": "spotify:track:4JjJ1KNRrzqstSY0uDuys3"
         },
         {
           "title": "Pink Venom",
-          "play_count": 1043729465,
+          "play_count": 1043954192,
           "uri": "spotify:track:5P3o95Jf0YBQRQ4j2XPpfC"
         },
         {
           "title": "마지막처럼",
-          "play_count": 825538983,
+          "play_count": 825763046,
           "uri": "spotify:track:4ZxOuNHhpyOj4gv52MtQpT"
         },
         {
           "title": "How You Like That",
-          "play_count": 1301047316,
+          "play_count": 1301260377,
           "uri": "spotify:track:6bvZRLLkBKkmgpBJTTj3QK"
         },
         {
           "title": "Shut Down",
-          "play_count": 918897958,
+          "play_count": 919099365,
           "uri": "spotify:track:6tCd8bPvYnceDG7W9M1RMk"
         },
         {
           "title": "붐바야",
-          "play_count": 735282817,
+          "play_count": 735472286,
           "uri": "spotify:track:13MF2TYuyfITClL1R2ei6e"
         },
         {
           "title": "뚜두뚜두 (DDU-DU DDU-DU)",
-          "play_count": 897532241,
+          "play_count": 897712966,
           "uri": "spotify:track:69BIczdH6QMnFx7dsSssN8"
         },
         {
           "title": "Kill This Love",
-          "play_count": 1084011330,
+          "play_count": 1084177773,
           "uri": "spotify:track:6gzR5GdZTevJT8OWW0NeGa"
         },
         {
           "title": "GO",
-          "play_count": 109023486,
+          "play_count": 109178893,
           "uri": "spotify:track:0XanaXeMJJ4VdjWzwok7ZI"
         },
         {
           "title": "Lovesick Girls",
-          "play_count": 771163589,
+          "play_count": 771315599,
           "uri": "spotify:track:1GMufNnkKAnPLnqKJ5HHxW"
         }
       ]
@@ -1556,6 +1556,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

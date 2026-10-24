@@ -677,57 +677,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2214671,
+      "monthly_listeners": 2212088,
       "spotify_id": "5TnQc2N1iKlFjYD7CPGvFc",
       "top_tracks": [
         {
           "title": "예뻤어 You Were Beautiful",
-          "play_count": 172707770,
+          "play_count": 172767632,
           "uri": "spotify:track:3HAkoNmThZhyFejhpRXXYI"
         },
         {
           "title": "HAPPY",
-          "play_count": 46821375,
+          "play_count": 46854816,
           "uri": "spotify:track:5R5NMy7zc7QPCfdvy8dvCQ"
         },
         {
           "title": "Congratulations",
-          "play_count": 84208540,
+          "play_count": 84251548,
           "uri": "spotify:track:06uScjJGabF4rIRdejWOaL"
         },
         {
           "title": "한 페이지가 될 수 있게 Time of Our Life",
-          "play_count": 69811886,
+          "play_count": 69844030,
           "uri": "spotify:track:0EhdXt3y460mTRsi97Pyk5"
         },
         {
           "title": "Love me or Leave me",
-          "play_count": 70445515,
+          "play_count": 70474128,
           "uri": "spotify:track:4MwsWZDbTS2vUwfiwKW3c1"
         },
         {
           "title": "Welcome to the Show",
-          "play_count": 34795334,
+          "play_count": 34818013,
           "uri": "spotify:track:3BMAWsBp4jc35mCmebC3WT"
         },
         {
           "title": "Shoot Me",
-          "play_count": 116757523,
+          "play_count": 116776089,
           "uri": "spotify:track:3krRfDqZgrYwOPU99wowFh"
         },
         {
           "title": "Zombie",
-          "play_count": 67268593,
+          "play_count": 67282405,
           "uri": "spotify:track:0LcQLfS4gjaFyPReRdExtQ"
         },
         {
           "title": "I Loved You",
-          "play_count": 64657313,
+          "play_count": 64673150,
           "uri": "spotify:track:6pXrKg2fKzRICc0SghWrTl"
         },
         {
           "title": "어쩌다보니 Somehow",
-          "play_count": 32854669,
+          "play_count": 32865425,
           "uri": "spotify:track:3op7dq8w9CgJPuio0qNCbY"
         }
       ]
@@ -1449,6 +1449,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

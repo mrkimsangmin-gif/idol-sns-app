@@ -106,41 +106,41 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1104,
+      "monthly_listeners": 1111,
       "spotify_id": "3WiQKZfcWhqHvCZuU4EPQ6",
       "top_tracks": [
         {
           "title": "어느 날 (Someday)",
-          "play_count": 154567,
+          "play_count": 154620,
           "uri": "spotify:track:7zpsMhRwUohDIOC5kfFzhn"
         },
         {
           "title": "지금 이 순간",
-          "play_count": 106416,
+          "play_count": 106461,
           "uri": "spotify:track:5LwDys6dpR7VBlHxLtx3Kt"
         },
         {
           "title": "POSSIBLE",
-          "play_count": 92568,
+          "play_count": 92606,
           "uri": "spotify:track:3bvw1ByDT2YKXX9MBLhniu"
         },
         {
           "title": "POSSIBLE (Inst.)",
-          "play_count": 3930,
+          "play_count": 3931,
           "uri": "spotify:track:2RkKFBn0U3ItOTWoSJdxkP"
         },
         {
           "title": "지금 이 순간 (Inst.)",
-          "play_count": 2607,
+          "play_count": 2609,
           "uri": "spotify:track:1LO2tFx8nEJRRmlVtmsWie"
         },
         {
           "title": "어느 날 (Someday) (Inst.)",
-          "play_count": 2574,
+          "play_count": 2577,
           "uri": "spotify:track:5EJUF9Lz2nt0VFWiBAcdoa"
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

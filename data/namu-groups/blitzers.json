@@ -270,57 +270,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 34683,
+      "monthly_listeners": 34489,
       "spotify_id": "3Exoh42YMeqnUvYahAGgUE",
       "top_tracks": [
         {
           "title": "마카레나(Macarena)",
-          "play_count": 5333614,
+          "play_count": 5334626,
           "uri": "spotify:track:1K8mA1oiXfjqGKiIIrXklo"
         },
         {
           "title": "Breathe Again",
-          "play_count": 1619035,
+          "play_count": 1619285,
           "uri": "spotify:track:2Jl9HCRE7AxGdFhtvahsJF"
         },
         {
           "title": "Hit The Bass",
-          "play_count": 856088,
+          "play_count": 856273,
           "uri": "spotify:track:1LXmc606FdkV2LKOxjgw4B"
         },
         {
           "title": "Beautiful Day",
-          "play_count": 1125967,
+          "play_count": 1126161,
           "uri": "spotify:track:5wxlZZhPaxea0jxEyZNZMp"
         },
         {
           "title": "K-POP",
-          "play_count": 580988,
+          "play_count": 581074,
           "uri": "spotify:track:6zBMhIrjh6HL4DIti5BMfX"
         },
         {
           "title": "끄덕끄덕끄덕 (BOBBIN)",
-          "play_count": 642829,
+          "play_count": 642934,
           "uri": "spotify:track:4nMaOmr1ni9IOTeRVxmxOz"
         },
         {
           "title": "SUPERPOWER",
-          "play_count": 464810,
+          "play_count": 464927,
           "uri": "spotify:track:7jsMpMsKMBr3cnxLNFeJr0"
         },
         {
           "title": "실수 좀 할게 (Will Make a Mistake)",
-          "play_count": 636387,
+          "play_count": 636486,
           "uri": "spotify:track:4GqNxktQgYC8VnPS14Cfpv"
         },
         {
           "title": "너와 나 이제",
-          "play_count": 126237,
+          "play_count": 126270,
           "uri": "spotify:track:3tQrlUWyYrmrFdTzKuC00t"
         },
         {
           "title": "Dream Pilot",
-          "play_count": 236463,
+          "play_count": 236489,
           "uri": "spotify:track:3aNoQma6Ar5iXv32umy3wi"
         }
       ]
@@ -629,6 +629,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

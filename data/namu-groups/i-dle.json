@@ -1157,57 +1157,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 7324131,
+      "monthly_listeners": 7574753,
       "spotify_id": "2AfmfGFbe0A0WsTYm0SDTx",
       "top_tracks": [
         {
           "title": "FIRESTARTER",
-          "play_count": 11539552,
+          "play_count": 14029414,
           "uri": "spotify:track:6UeSC8jEhf9XmUL8EX2rni"
         },
         {
           "title": "퀸카 (Queencard)",
-          "play_count": 450983236,
+          "play_count": 451125837,
           "uri": "spotify:track:68r87x3VZdAMhv8nBVuynz"
         },
         {
           "title": "Nxde",
-          "play_count": 344913867,
+          "play_count": 345029508,
           "uri": "spotify:track:7Ejqkb9YfldcLoh8B6bXgj"
         },
         {
           "title": "POP/STARS",
-          "play_count": 436376566,
+          "play_count": 436576789,
           "uri": "spotify:track:3em2uN4cCWHcCXhjMzJ8ps"
         },
         {
           "title": "MORE",
-          "play_count": 298826576,
+          "play_count": 299015086,
           "uri": "spotify:track:65pHtEdxGt4e3Fv1ncPi6V"
         },
         {
           "title": "TOMBOY",
-          "play_count": 388307232,
+          "play_count": 388385990,
           "uri": "spotify:track:6WYsZJDfUOftGVji74yYSU"
         },
         {
           "title": "THE BADDEST",
-          "play_count": 243767364,
+          "play_count": 243917242,
           "uri": "spotify:track:6y3EPT8iw6HmuMpX05gyvt"
         },
         {
           "title": "Mono (Feat. skaiwater)",
-          "play_count": 31328637,
+          "play_count": 31382697,
           "uri": "spotify:track:2KYKOG5dNgY4sZHWf5hr3g"
         },
         {
           "title": "Gimme Dat Love",
-          "play_count": 9068936,
+          "play_count": 9103122,
           "uri": "spotify:track:7mL5uO7vL8FMnzFcLd7SLG"
         },
         {
           "title": "Super Lady",
-          "play_count": 125087014,
+          "play_count": 125121964,
           "uri": "spotify:track:105qee9D4ARiRZPZDvGDoH"
         }
       ]
@@ -1563,6 +1563,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

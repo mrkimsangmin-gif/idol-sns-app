@@ -972,57 +972,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2769372,
+      "monthly_listeners": 2760021,
       "spotify_id": "5qRSs6mvI17zrkJpOHkCoM",
       "top_tracks": [
         {
           "title": "사랑을 했다 (LOVE SCENARIO)",
-          "play_count": 465668841,
+          "play_count": 465808863,
           "uri": "spotify:track:3d3ELsqKlQ7WA0a10Isu3l"
         },
         {
           "title": "죽겠다 (KILLING ME)",
-          "play_count": 144789688,
+          "play_count": 144808389,
           "uri": "spotify:track:1IbpTcFDHRD87cGQOhVCDP"
         },
         {
           "title": "리듬 타 (RHYTHM TA)",
-          "play_count": 69535363,
+          "play_count": 69550718,
           "uri": "spotify:track:5T7NN5LxcfMEudEbya2wcE"
         },
         {
           "title": "BEST FRIEND",
-          "play_count": 51526726,
+          "play_count": 51538357,
           "uri": "spotify:track:1AhfmrzSrDmOIstpRO9wTI"
         },
         {
           "title": "취향저격",
-          "play_count": 30119278,
+          "play_count": 30126913,
           "uri": "spotify:track:4gxLDYnbnyNiUd6YrlmppO"
         },
         {
           "title": "AIRPLANE",
-          "play_count": 21112386,
+          "play_count": 21119805,
           "uri": "spotify:track:1ZfVxNlKpUHv8ZA8ri59nX"
         },
         {
           "title": "이별길 (GOODBYE ROAD)",
-          "play_count": 32748733,
+          "play_count": 32756364,
           "uri": "spotify:track:0Oa0m93JdO4xKEMz8T2UZk"
         },
         {
           "title": "지못미",
-          "play_count": 30518039,
+          "play_count": 30528550,
           "uri": "spotify:track:0bBrEmo01hYu6gBz4UW9Q8"
         },
         {
           "title": "BLING BLING",
-          "play_count": 44810980,
+          "play_count": 44816148,
           "uri": "spotify:track:5FwK2EZJUy6uHEzENJtHQ5"
         },
         {
           "title": "I'M OK",
-          "play_count": 38343628,
+          "play_count": 38348053,
           "uri": "spotify:track:3j14qtAI9kueKAxtjYYjsZ"
         }
       ]
@@ -1585,6 +1585,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

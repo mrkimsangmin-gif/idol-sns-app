@@ -251,57 +251,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 10434,
+      "monthly_listeners": 10376,
       "spotify_id": "4U2eZzOZsobt9JHp0znP1L",
       "top_tracks": [
         {
           "title": "Fireworks",
-          "play_count": 867001,
+          "play_count": 867219,
           "uri": "spotify:track:5Q42ynmYZN979JiZusBSqz"
         },
         {
           "title": "Somebody",
-          "play_count": 361567,
+          "play_count": 361654,
           "uri": "spotify:track:0eUKlXnqc2A9z2VQ54tGGI"
         },
         {
           "title": "Cherish",
-          "play_count": 217785,
+          "play_count": 217833,
           "uri": "spotify:track:2sde1lp8j8MT9VQ5SELiqS"
         },
         {
           "title": "Fight Inside",
-          "play_count": 537190,
+          "play_count": 537243,
           "uri": "spotify:track:256XH96rddG27WHDp0usBo"
         },
         {
           "title": "Bubble",
-          "play_count": 358054,
+          "play_count": 358089,
           "uri": "spotify:track:4ejcfQtDVmKgP7Si1elfay"
         },
         {
           "title": "Where We Go",
-          "play_count": 161468,
+          "play_count": 161514,
           "uri": "spotify:track:7hL9DtQGm0FYFiC1c29Z51"
         },
         {
           "title": "Colors",
-          "play_count": 302513,
+          "play_count": 302553,
           "uri": "spotify:track:7tkTNe7lwcR2GRtp7yjF4L"
         },
         {
           "title": "Called Game",
-          "play_count": 61945,
+          "play_count": 61969,
           "uri": "spotify:track:63s9r5cY9r531lGtSciptR"
         },
         {
           "title": "찾아헤매, 널",
-          "play_count": 30983,
+          "play_count": 31020,
           "uri": "spotify:track:6kw8C6qoc2dRG0MRKdf2ng"
         },
         {
           "title": "Starry Night",
-          "play_count": 66091,
+          "play_count": 66116,
           "uri": "spotify:track:6EkQUsfLYwsBhiNZB7WGN0"
         }
       ]
@@ -493,6 +493,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

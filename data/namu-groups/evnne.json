@@ -307,57 +307,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 147636,
+      "monthly_listeners": 154079,
       "spotify_id": "6SYJFHPxXkr4SZJR8aLEml",
       "top_tracks": [
         {
           "title": "TROUBLE",
-          "play_count": 15344743,
+          "play_count": 15349045,
           "uri": "spotify:track:6MSRu5wksC0Esn63XOgmI3"
         },
         {
           "title": "Badder Love",
-          "play_count": 5388244,
+          "play_count": 5390579,
           "uri": "spotify:track:2muqyJpZ71YJ7bP9F69rZM"
         },
         {
           "title": "LOOK AT MA",
-          "play_count": 39567,
+          "play_count": 54845,
           "uri": "spotify:track:2yIgTmJmIxWbugAFq6lCQi"
         },
         {
           "title": "Love Like That",
-          "play_count": 1180087,
+          "play_count": 1181593,
           "uri": "spotify:track:5tTcybyt32sGr0Nd4GO4sG"
         },
         {
           "title": "뱉어 (Backtalk)",
-          "play_count": 570599,
+          "play_count": 571720,
           "uri": "spotify:track:6dpeVATdc9mWs2Hafv95UJ"
         },
         {
           "title": "I ＜3 U (I love U)",
-          "play_count": 1883665,
+          "play_count": 1884491,
           "uri": "spotify:track:6gSEYC7TCNNoeJMGPi13Zk"
         },
         {
           "title": "UGLY",
-          "play_count": 3594916,
+          "play_count": 3595984,
           "uri": "spotify:track:3p5SJW1Jb4EvSEXrpShQzm"
         },
         {
           "title": "How Can I Do",
-          "play_count": 1544528,
+          "play_count": 1545246,
           "uri": "spotify:track:2e9IAFsDNri6u0t4Sf9iZ2"
         },
         {
           "title": "XO",
-          "play_count": 1598627,
+          "play_count": 1599813,
           "uri": "spotify:track:4kPD4LhK775GhxjWK5o27r"
         },
         {
           "title": "BLESS",
-          "play_count": 18289,
+          "play_count": 21846,
           "uri": "spotify:track:1nK7ZGMmLakUlODVYuY6ud"
         }
       ]
@@ -615,6 +615,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

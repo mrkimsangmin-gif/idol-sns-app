@@ -2252,57 +2252,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2333124,
+      "monthly_listeners": 2321930,
       "spotify_id": "7f4ignuCJhLXfZ9giKT7rH",
       "top_tracks": [
         {
           "title": "Blingy",
-          "play_count": 8220554,
+          "play_count": 8270864,
           "uri": "spotify:track:0EOAaYE4KAVp67jwtQvbmB"
         },
         {
           "title": "Fact Check (불가사의; 不可思議)",
-          "play_count": 126661387,
+          "play_count": 126712550,
           "uri": "spotify:track:5H46gVYLDwpxbsIgPoihO4"
         },
         {
           "title": "영웅 (英雄; Kick It)",
-          "play_count": 177645746,
+          "play_count": 177683900,
           "uri": "spotify:track:0yFq4GHDqLfeceyAs63B3W"
         },
         {
           "title": "Cherry Bomb",
-          "play_count": 169280765,
+          "play_count": 169319345,
           "uri": "spotify:track:3o8QzWsiiqTUVgBZfHgF58"
         },
         {
           "title": "삐그덕 (Walk)",
-          "play_count": 54040616,
+          "play_count": 54063512,
           "uri": "spotify:track:5o5mfjvxzxRChb45hbWuuw"
         },
         {
           "title": "Piñata",
-          "play_count": 2077272,
+          "play_count": 2091976,
           "uri": "spotify:track:0qqJdEzeuAgPU21ge3SiWK"
         },
         {
           "title": "Legacy",
-          "play_count": 2009322,
+          "play_count": 2023860,
           "uri": "spotify:track:4mxr7X0oynGQkzn4FkXdwN"
         },
         {
           "title": "Getaway",
-          "play_count": 1853652,
+          "play_count": 1867713,
           "uri": "spotify:track:3EsDU1SpxFr7FEKNRunSLQ"
         },
         {
           "title": "질주 (2 Baddies)",
-          "play_count": 84966272,
+          "play_count": 84985168,
           "uri": "spotify:track:7035sowF3NNYDfRUO8GF9H"
         },
         {
           "title": "IKR",
-          "play_count": 1748836,
+          "play_count": 1762115,
           "uri": "spotify:track:2dlhfguK5lPKgzOdIPKGoz"
         }
       ]
@@ -3160,6 +3160,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

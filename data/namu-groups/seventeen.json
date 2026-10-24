@@ -2287,57 +2287,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 4539164,
+      "monthly_listeners": 4536460,
       "spotify_id": "7nqOGRxlXj7N2JYbgNEjYH",
       "top_tracks": [
         {
           "title": "Super",
-          "play_count": 328396159,
+          "play_count": 328491356,
           "uri": "spotify:track:3AOf6YEpxQ894FmrwI9k96"
         },
         {
           "title": "THUNDER",
-          "play_count": 115894911,
+          "play_count": 115957248,
           "uri": "spotify:track:6oeMntjclWLoguzwj5ECTo"
         },
         {
           "title": "HOT",
-          "play_count": 304011073,
+          "play_count": 304073668,
           "uri": "spotify:track:6I2tqFhk8tq69iursYxuxd"
         },
         {
           "title": "아주 NICE",
-          "play_count": 244165906,
+          "play_count": 244215970,
           "uri": "spotify:track:1Rrj7KyS2R6SP9CQMDJW1w"
         },
         {
           "title": "Rock with you",
-          "play_count": 240226939,
+          "play_count": 240272214,
           "uri": "spotify:track:6LnEoRQKMcaFTR5UvaKuBy"
         },
         {
           "title": "MAESTRO",
-          "play_count": 135390203,
+          "play_count": 135434557,
           "uri": "spotify:track:743yOACnWcrrijTnWdT5YN"
         },
         {
           "title": "울고 싶지 않아",
-          "play_count": 262157716,
+          "play_count": 262200113,
           "uri": "spotify:track:6Upu6yjkdi0DVI8E3IBZEU"
         },
         {
           "title": "Darl+ing",
-          "play_count": 212392376,
+          "play_count": 212429326,
           "uri": "spotify:track:2j1Es5qEl4pD8GEe2WsYgP"
         },
         {
           "title": "예쁘다",
-          "play_count": 164773867,
+          "play_count": 164811351,
           "uri": "spotify:track:1117juaaAkSIUsQxTmmcKM"
         },
         {
           "title": "I Don't Understand But I Luv U",
-          "play_count": 97124675,
+          "play_count": 97172422,
           "uri": "spotify:track:3acGHJqr9xU1cnCEfLX1Lx"
         }
       ]
@@ -3230,6 +3230,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

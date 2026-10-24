@@ -346,57 +346,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 7473502,
+      "monthly_listeners": 7456379,
       "spotify_id": "1ZLU77nRzQIaP23mVSYpCQ",
       "top_tracks": [
         {
           "title": "RUDE!",
-          "play_count": 188081984,
+          "play_count": 188535789,
           "uri": "spotify:track:2bAQsNqdo62T8akkIvWzGl"
         },
         {
           "title": "Lemon Tang",
-          "play_count": 48180309,
+          "play_count": 48411302,
           "uri": "spotify:track:0NGFAcYQVHCIdQea2qSs1I"
         },
         {
           "title": "ICONIC HEART",
-          "play_count": 18043780,
+          "play_count": 18281987,
           "uri": "spotify:track:1j5Z0YcfGBoKoydGscerHk"
         },
         {
           "title": "FOCUS",
-          "play_count": 99693995,
+          "play_count": 99883924,
           "uri": "spotify:track:6jYiHr12NVKLzn0X7K8aSK"
         },
         {
           "title": "STYLE",
-          "play_count": 139883611,
+          "play_count": 140050170,
           "uri": "spotify:track:5EoV2HmAlkqN1XvsIjOBZZ"
         },
         {
           "title": "The Chase",
-          "play_count": 137591489,
+          "play_count": 137743910,
           "uri": "spotify:track:68UrZQUuO3O6eUiD226xHg"
         },
         {
           "title": "Moonride",
-          "play_count": 5733185,
+          "play_count": 5817220,
           "uri": "spotify:track:318Irz9qyCcwS0teqsaNcg"
         },
         {
           "title": "Pretty Please",
-          "play_count": 42336466,
+          "play_count": 42397148,
           "uri": "spotify:track:6oBDhkYQDhFS2q0wQ6xZLO"
         },
         {
           "title": "Butterflies",
-          "play_count": 41802670,
+          "play_count": 41861436,
           "uri": "spotify:track:3s3Eo4rb6aq3O62g6z6jtZ"
         },
         {
           "title": "Apple Pie",
-          "play_count": 27212129,
+          "play_count": 27258321,
           "uri": "spotify:track:0jnelJPBaLQcN5IearNmdi"
         }
       ]
@@ -536,6 +536,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

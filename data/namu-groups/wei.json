@@ -391,57 +391,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 53728,
+      "monthly_listeners": 53528,
       "spotify_id": "7IkfFdVcI6HrRKuOO9NvX5",
       "top_tracks": [
         {
           "title": "BYE BYE BYE",
-          "play_count": 6243750,
+          "play_count": 6244477,
           "uri": "spotify:track:69Nn4yZnYo1nw4mfQvNbfU"
         },
         {
           "title": "질주(OVERDRIVE) (English Ver.)",
-          "play_count": 2885530,
+          "play_count": 2886074,
           "uri": "spotify:track:52RU9Lvg66w5Jg9ENBdfpf"
         },
         {
           "title": "NOT ENOUGH",
-          "play_count": 1204415,
+          "play_count": 1205303,
           "uri": "spotify:track:7mlaiNv0po5vSAnp6KYEgF"
         },
         {
           "title": "HOME",
-          "play_count": 576901,
+          "play_count": 577419,
           "uri": "spotify:track:39AIGxDZhfRre2EPJeLQsh"
         },
         {
           "title": "TWILIGHT",
-          "play_count": 6477719,
+          "play_count": 6478260,
           "uri": "spotify:track:7ruu3WCZipZT9ST11iI7WV"
         },
         {
           "title": "우리 하나되어 2021",
-          "play_count": 590975,
+          "play_count": 591278,
           "uri": "spotify:track:2NOCnoRVXD4RXtaOq5PALC"
         },
         {
           "title": "Too Bad",
-          "play_count": 2985199,
+          "play_count": 2985659,
           "uri": "spotify:track:4Xv8foqi6HXnQURBR0FdAZ"
         },
         {
           "title": "SAVE",
-          "play_count": 190598,
+          "play_count": 190885,
           "uri": "spotify:track:5g9LfjVn4hniOy7pqDt6Da"
         },
         {
           "title": "Spray",
-          "play_count": 1396061,
+          "play_count": 1396280,
           "uri": "spotify:track:3HlKKZBQZMKfOXJ633hIJe"
         },
         {
           "title": "모 아님 도 (Prod. 장대현)",
-          "play_count": 1773459,
+          "play_count": 1773985,
           "uri": "spotify:track:4VuZkPm3IuGuMlKIL7juSf"
         }
       ]
@@ -699,6 +699,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

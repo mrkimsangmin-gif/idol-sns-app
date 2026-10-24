@@ -254,57 +254,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 698740,
+      "monthly_listeners": 705243,
       "spotify_id": "6F4yXjmhQBqo6HVr6K234k",
       "top_tracks": [
         {
           "title": "Kick Off The Wall (Feat. iann dior)",
-          "play_count": 595731,
+          "play_count": 620161,
           "uri": "spotify:track:6ReoAs5rbmEfNrimlfJAGc"
         },
         {
           "title": "미완성 (Puzzle Piece)",
-          "play_count": 535378,
+          "play_count": 553422,
           "uri": "spotify:track:59zQxDsKyNs0HEtD1qP7N3"
         },
         {
           "title": "Twenty",
-          "play_count": 4530156,
+          "play_count": 4542406,
           "uri": "spotify:track:70JYzI2M44UX4Gn4T6ghPn"
         },
         {
           "title": "처음 불러보는 노래 (My First Love Song)",
-          "play_count": 7204897,
+          "play_count": 7214862,
           "uri": "spotify:track:3wlSKXBySBUG5Wv9FTXxgm"
         },
         {
           "title": "눈에 거슬리고 싶어 (Eye-Poppin')",
-          "play_count": 3237155,
+          "play_count": 3244654,
           "uri": "spotify:track:5H5PDoPXLphAySmzKtpnbC"
         },
         {
           "title": "Mama Said",
-          "play_count": 10524074,
+          "play_count": 10530385,
           "uri": "spotify:track:76G6tgncwiZ3lS2XjztTHy"
         },
         {
           "title": "휘청 (Rockin’)",
-          "play_count": 176502,
+          "play_count": 183131,
           "uri": "spotify:track:68yckZzbZJfcJNgR01bjO8"
         },
         {
           "title": "반창고 (Band-Aid)",
-          "play_count": 3085390,
+          "play_count": 3090716,
           "uri": "spotify:track:1UTiVsUiDLDm7K8XpFleOq"
         },
         {
           "title": "hate blueberry",
-          "play_count": 168585,
+          "play_count": 175377,
           "uri": "spotify:track:3vRVOxejBcY0kyOuqhoclL"
         },
         {
           "title": "0 (Young)",
-          "play_count": 167190,
+          "play_count": 173413,
           "uri": "spotify:track:6EnnEX4k8DdoxBeoAUh7Ja"
         }
       ]
@@ -478,6 +478,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

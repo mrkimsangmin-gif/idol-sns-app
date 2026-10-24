@@ -797,26 +797,16 @@
       "초동_한터": "559,2**",
       "누적_한터": "",
       "초동_써클": "559,2**",
-      "누적_써클": "701,061",
+      "누적_써클": "23,587",
       "비고": "BOOMPALA",
       "초동_한터_numeric": 559200,
       "초동_확정": true,
-      "누적_써클_numeric": 701061,
+      "누적_써클_numeric": 23587,
       "monthly_timeline": [
-        {
-          "ym": "2026-05",
-          "sales": 667659,
-          "cumulative": 667659
-        },
-        {
-          "ym": "2026-06",
-          "sales": 9815,
-          "cumulative": 677474
-        },
         {
           "ym": "2026-09",
           "sales": 23587,
-          "cumulative": 701061
+          "cumulative": 23587
         }
       ]
     },
@@ -913,57 +903,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 18690380,
+      "monthly_listeners": 18660513,
       "spotify_id": "4SpbR6yFEvexJuaBpgAU5p",
       "top_tracks": [
         {
           "title": "ICONIC BY MISTAKE",
-          "play_count": 226418797,
+          "play_count": 227368955,
           "uri": "spotify:track:6fl4Gu0lJm5hc8FM5JzCZD"
         },
         {
           "title": "BOOMPALA",
-          "play_count": 98843320,
+          "play_count": 99234816,
           "uri": "spotify:track:41d2WjuL0ikRKVjxmL7ZFz"
         },
         {
           "title": "Made My Night",
-          "play_count": 20701272,
+          "play_count": 21032025,
           "uri": "spotify:track:5MOIAV008posdOGmxiJBsi"
         },
         {
           "title": "SPAGHETTI",
-          "play_count": 316030047,
+          "play_count": 316359252,
           "uri": "spotify:track:2N9miXnewVmUrgl6JSK1FI"
         },
         {
           "title": "CRAZY",
-          "play_count": 519717778,
+          "play_count": 520053565,
           "uri": "spotify:track:4gxEY3Mh5FZZDAJAKPNrCS"
         },
         {
           "title": "ANTIFRAGILE",
-          "play_count": 756337199,
+          "play_count": 756641639,
           "uri": "spotify:track:0bMoNdAnxNR0OuQbGDovrr"
         },
         {
           "title": "Perfect Night",
-          "play_count": 555786714,
+          "play_count": 555975547,
           "uri": "spotify:track:74X2u8JMVooG2QbjRxXwR8"
         },
         {
           "title": "Smart",
-          "play_count": 458692047,
+          "play_count": 458906792,
           "uri": "spotify:track:3lwK3WyKAI5bUuGY1OgGbZ"
         },
         {
           "title": "CELEBRATION",
-          "play_count": 57966956,
+          "play_count": 58133004,
           "uri": "spotify:track:3OKvpTlnhvj8u6fbV53kqC"
         },
         {
           "title": "HOT",
-          "play_count": 202222974,
+          "play_count": 202391536,
           "uri": "spotify:track:24Y63uAvj6Oc9jGuTlhlgf"
         }
       ]
@@ -1503,6 +1493,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

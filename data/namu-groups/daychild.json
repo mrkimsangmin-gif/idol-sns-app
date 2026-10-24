@@ -140,47 +140,47 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1136,
+      "monthly_listeners": 1139,
       "spotify_id": "3ICMD33jI4CIykUpX4ySFm",
       "top_tracks": [
         {
           "title": "MEMORIES",
-          "play_count": 16035,
+          "play_count": 16058,
           "uri": "spotify:track:2UunOznPiLkNO2DrlXewEc"
         },
         {
           "title": "Click Clack",
-          "play_count": 70858,
+          "play_count": 70883,
           "uri": "spotify:track:5GM8YJZb1GDUIZwmtwSEN7"
         },
         {
           "title": "Stunning",
-          "play_count": 25310,
+          "play_count": 25318,
           "uri": "spotify:track:6XQxtPVz1B0up4oaD3bWUO"
         },
         {
           "title": "illumination",
-          "play_count": 18368,
+          "play_count": 18372,
           "uri": "spotify:track:4U7jrNg1nkR8XhvJrFNt2M"
         },
         {
           "title": "Only One",
-          "play_count": 8628,
+          "play_count": 8635,
           "uri": "spotify:track:75Y5fFXiVW9ge50Pwunwqs"
         },
         {
           "title": "Play Me",
-          "play_count": 6292,
+          "play_count": 6296,
           "uri": "spotify:track:42EHfWGLIgaPivJXKE6sd6"
         },
         {
           "title": "君とならば",
-          "play_count": 7281,
+          "play_count": 7287,
           "uri": "spotify:track:5GXPpYSCZJFpdl8sCZSZ2m"
         },
         {
           "title": "Same Time",
-          "play_count": 11574,
+          "play_count": 11581,
           "uri": "spotify:track:1F8Lnco7HDqZfQNBgV6dGV"
         }
       ]
@@ -209,6 +209,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

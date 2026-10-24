@@ -339,57 +339,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 371353,
+      "monthly_listeners": 363926,
       "spotify_id": "1wDstpO8XQNU6GV0S92663",
       "top_tracks": [
         {
           "title": "Like Fire",
-          "play_count": 1142238,
+          "play_count": 1152460,
           "uri": "spotify:track:0V3iJWPutcLhPId4q2LjxZ"
         },
         {
           "title": "Sign",
-          "play_count": 2994986,
+          "play_count": 3003149,
           "uri": "spotify:track:29WdT0CvbaVoN5pbke3hXX"
         },
         {
           "title": "오늘 어때 (wyd?)",
-          "play_count": 604878,
+          "play_count": 610428,
           "uri": "spotify:track:0qUNECAeOUyddnM3PiE9Sv"
         },
         {
           "title": "트로피 (TROPHY)",
-          "play_count": 3335672,
+          "play_count": 3340768,
           "uri": "spotify:track:47Mu43nMCpr04YGL1AlLEp"
         },
         {
           "title": "Sure Thing",
-          "play_count": 4588268,
+          "play_count": 4592994,
           "uri": "spotify:track:3Xi4YPJEV7vYvZpWHh1b7a"
         },
         {
           "title": "Need That Bass",
-          "play_count": 1466602,
+          "play_count": 1469495,
           "uri": "spotify:track:24hvygYNzeAxeHMmOn8ggk"
         },
         {
           "title": "혀끝",
-          "play_count": 3721784,
+          "play_count": 3724519,
           "uri": "spotify:track:1opdEnVoRU71lZHyjgNMGJ"
         },
         {
           "title": "Say more",
-          "play_count": 1350639,
+          "play_count": 1352800,
           "uri": "spotify:track:4CB2mgvK6vVANipsBp0I8v"
         },
         {
           "title": "W.T.F",
-          "play_count": 731455,
+          "play_count": 733473,
           "uri": "spotify:track:1R8sYx7BYNKf8fv7SfhOfs"
         },
         {
           "title": "의심스러워 (Suspicious)",
-          "play_count": 1440042,
+          "play_count": 1441925,
           "uri": "spotify:track:0xPTFPdlcrPHUm1Ve2eNyy"
         }
       ]
@@ -582,6 +582,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

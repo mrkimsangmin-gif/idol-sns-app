@@ -163,42 +163,42 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 239270,
+      "monthly_listeners": 238600,
       "spotify_id": "2Y7fY3aflbCTxp6h5hw0CV",
       "top_tracks": [
         {
           "title": "BADVILLAIN",
-          "play_count": 23865465,
+          "play_count": 23875588,
           "uri": "spotify:track:6SW0HfLmyvZdVO4cWDQT45"
         },
         {
           "title": "숨(ZOOM)",
-          "play_count": 5323482,
+          "play_count": 5326961,
           "uri": "spotify:track:0qIs4x4LRxGPaA1lP4IS18"
         },
         {
           "title": "HURRICANE",
-          "play_count": 6145046,
+          "play_count": 6147513,
           "uri": "spotify:track:5GCxvx3ZOj4zpFk2x1nDxR"
         },
         {
           "title": "THRILLER",
-          "play_count": 2647551,
+          "play_count": 2649542,
           "uri": "spotify:track:6FVwbv7XgC7xR2FT5ISS4B"
         },
         {
           "title": "야호 (BADTITUDE)",
-          "play_count": 5740181,
+          "play_count": 5741774,
           "uri": "spotify:track:0dGPBiYrIFUFbcH0CaWaXj"
         },
         {
           "title": "+82",
-          "play_count": 4739014,
+          "play_count": 4740431,
           "uri": "spotify:track:2ch9WQ4iNN7BU8WvWC1Foh"
         },
         {
           "title": "The Last Christmas",
-          "play_count": 1504732,
+          "play_count": 1505121,
           "uri": "spotify:track:02gRcacKOFBBBIGVwnY1tR"
         }
       ]
@@ -265,6 +265,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

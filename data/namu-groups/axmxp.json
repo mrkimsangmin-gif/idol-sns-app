@@ -80,20 +80,15 @@
       "초동_한터": "63,563",
       "누적_한터": "",
       "초동_써클": "36,383",
-      "누적_써클": "80,218",
+      "누적_써클": "39,205",
       "비고": "너는 나를 시인으로 만들어, Shocking Drama, I Did It",
-      "누적_써클_numeric": 80218,
+      "누적_써클_numeric": 39205,
       "초동_써클_numeric": 36383,
       "monthly_timeline": [
         {
-          "ym": "2025-09",
-          "sales": 41013,
-          "cumulative": 41013
-        },
-        {
           "ym": "2026-08",
           "sales": 39205,
-          "cumulative": 80218
+          "cumulative": 39205
         }
       ]
     },
@@ -138,57 +133,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 105605,
+      "monthly_listeners": 104991,
       "spotify_id": "2XUQUIfzPtEZtkjU0D9y8C",
       "top_tracks": [
         {
           "title": "나를 만나야 할 10가지 이유",
-          "play_count": 232720,
+          "play_count": 234133,
           "uri": "spotify:track:09EtvLxsF9NJOhNaX8C45T"
         },
         {
           "title": "SEE YOU LATER",
-          "play_count": 1561193,
+          "play_count": 1562353,
           "uri": "spotify:track:15q2nuxEjPin3TAum685tf"
         },
         {
           "title": "편의점 불빛 (24 Hours)",
-          "play_count": 261188,
+          "play_count": 262072,
           "uri": "spotify:track:4wbavXv6J8DIzAXgkhhM9i"
         },
         {
           "title": "Shocking Drama",
-          "play_count": 498261,
+          "play_count": 499130,
           "uri": "spotify:track:7H3ku2fqWKy7OgCKPyPgOq"
         },
         {
           "title": "I Did It",
-          "play_count": 602316,
+          "play_count": 603051,
           "uri": "spotify:track:2YaorcUpbCOSGpjc4FssJO"
         },
         {
           "title": "사랑하지 않았다면 일어나지 않았을 일들",
-          "play_count": 88910,
+          "play_count": 89795,
           "uri": "spotify:track:0eJuPfy6Sy1OLpZkmxlVmZ"
         },
         {
           "title": "그리고 며칠 후 (Thereafter)",
-          "play_count": 336619,
+          "play_count": 337302,
           "uri": "spotify:track:4UMOxO1I52MePeSEesyvER"
         },
         {
           "title": "Back To Yesterday",
-          "play_count": 101914,
+          "play_count": 102606,
           "uri": "spotify:track:0yJ51xeLEhM1oNAwgHX4Ch"
         },
         {
           "title": "White T-shirt",
-          "play_count": 398818,
+          "play_count": 399502,
           "uri": "spotify:track:6LuN03845cMV4tYfP3Wri7"
         },
         {
           "title": "너는 나를 시인으로 만들어 (Love Poem)",
-          "play_count": 423789,
+          "play_count": 424489,
           "uri": "spotify:track:1NFc7xVZj5fryxTapumZqf"
         }
       ]
@@ -325,6 +320,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

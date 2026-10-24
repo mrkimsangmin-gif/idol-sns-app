@@ -120,52 +120,52 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 5750,
+      "monthly_listeners": 5748,
       "spotify_id": "1SRmmtrnAo0UK0NUROJRjz",
       "top_tracks": [
         {
           "title": "My One",
-          "play_count": 656999,
+          "play_count": 657169,
           "uri": "spotify:track:67dGM7vsArZNWZ9qrXFKsR"
         },
         {
           "title": "Friends to Lovers",
-          "play_count": 69059,
+          "play_count": 69160,
           "uri": "spotify:track:7mH3OUMmYMRUNW8kNXyKtU"
         },
         {
           "title": "변함없는 기적",
-          "play_count": 317108,
+          "play_count": 317173,
           "uri": "spotify:track:6NJlbASPHW6PONyMjdruQz"
         },
         {
           "title": "다 잊어",
-          "play_count": 240938,
+          "play_count": 241005,
           "uri": "spotify:track:0rqCMIZpwN2pFjcfEjGkR3"
         },
         {
           "title": "My One - English Version",
-          "play_count": 234692,
+          "play_count": 234761,
           "uri": "spotify:track:4o1tpzldNxhNQXBcE9biI4"
         },
         {
           "title": "aH-OOh!",
-          "play_count": 248755,
+          "play_count": 248811,
           "uri": "spotify:track:57rTTV7fLtVpuJnxkcr7uT"
         },
         {
           "title": "Must Have love - 2024 Version",
-          "play_count": 28709,
+          "play_count": 28741,
           "uri": "spotify:track:4PtkA2tMYRxhibW9uHftwQ"
         },
         {
           "title": "Must Have love - Eng Version",
-          "play_count": 14134,
+          "play_count": 14172,
           "uri": "spotify:track:2A4JOIY4dHMWqHVRq3IvZc"
         },
         {
           "title": "Must Have love - Instrumental",
-          "play_count": 3558,
+          "play_count": 3561,
           "uri": "spotify:track:7Gb8KRljryPZTPhMC4NjKy"
         }
       ]
@@ -230,6 +230,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

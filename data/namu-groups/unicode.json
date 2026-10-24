@@ -42,32 +42,32 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1661,
+      "monthly_listeners": 1635,
       "spotify_id": "3dX0pAE3FigjTzBiHajRra",
       "top_tracks": [
         {
           "title": "돌아봐줄래 (Prod. by 진영)",
-          "play_count": 194627,
+          "play_count": 194663,
           "uri": "spotify:track:3DMvqQG9wibjtjmrUAvNBn"
         },
         {
           "title": "불러",
-          "play_count": 62270,
+          "play_count": 62296,
           "uri": "spotify:track:4rLgitYytXbs998KFy8w58"
         },
         {
           "title": "스무살의 봄",
-          "play_count": 53890,
+          "play_count": 53906,
           "uri": "spotify:track:1z35YPlxrHY63zaJr7E4IJ"
         },
         {
           "title": "봄 비",
-          "play_count": 40117,
+          "play_count": 40132,
           "uri": "spotify:track:27XqwGjj9acMMsEmsjqwik"
         },
         {
           "title": "Invi : Bon Voyage",
-          "play_count": 14390,
+          "play_count": 14392,
           "uri": "spotify:track:6MUBKqjdZQOnnR70PQUhi4"
         },
         {
@@ -77,6 +77,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

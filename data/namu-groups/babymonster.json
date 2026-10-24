@@ -136,81 +136,16 @@
       "초동_한터": "520",
       "누적_한터": "",
       "초동_써클": "400,784",
-      "누적_써클": "806,747",
+      "누적_써클": "5,775",
       "비고": "SHEESH",
-      "누적_써클_numeric": 806747,
+      "누적_써클_numeric": 5775,
       "초동_써클_numeric": 400784,
       "초동_한터_numeric": 520,
       "monthly_timeline": [
         {
-          "ym": "2024-04",
-          "sales": 471525,
-          "cumulative": 471525
-        },
-        {
-          "ym": "2024-05",
-          "sales": 117129,
-          "cumulative": 588654
-        },
-        {
-          "ym": "2024-06",
-          "sales": 37606,
-          "cumulative": 626260
-        },
-        {
-          "ym": "2024-07",
-          "sales": 65486,
-          "cumulative": 691746
-        },
-        {
-          "ym": "2024-08",
-          "sales": 34600,
-          "cumulative": 726346
-        },
-        {
-          "ym": "2024-09",
-          "sales": 28187,
-          "cumulative": 754533
-        },
-        {
-          "ym": "2025-01",
-          "sales": 4974,
-          "cumulative": 759507
-        },
-        {
-          "ym": "2025-02",
-          "sales": 6810,
-          "cumulative": 766317
-        },
-        {
-          "ym": "2025-03",
-          "sales": 11118,
-          "cumulative": 777435
-        },
-        {
-          "ym": "2025-04",
-          "sales": 8922,
-          "cumulative": 786357
-        },
-        {
-          "ym": "2025-06",
-          "sales": 4777,
-          "cumulative": 791134
-        },
-        {
-          "ym": "2026-01",
-          "sales": 5063,
-          "cumulative": 796197
-        },
-        {
-          "ym": "2026-02",
-          "sales": 4775,
-          "cumulative": 800972
-        },
-        {
           "ym": "2026-09",
           "sales": 5775,
-          "cumulative": 806747
+          "cumulative": 5775
         }
       ]
     },
@@ -335,45 +270,20 @@
       "초동_한터": "552,837",
       "누적_한터": "",
       "초동_써클": "560,473",
-      "누적_써클": "753,823",
+      "누적_써클": "15,937",
       "비고": "타이틀곡 WE GO UP, PSYCHO",
-      "누적_써클_numeric": 753823,
+      "누적_써클_numeric": 15937,
       "초동_써클_numeric": 560473,
       "monthly_timeline": [
         {
-          "ym": "2025-10",
-          "sales": 653759,
-          "cumulative": 653759
-        },
-        {
-          "ym": "2025-11",
-          "sales": 19855,
-          "cumulative": 673614
-        },
-        {
-          "ym": "2025-12",
-          "sales": 17901,
-          "cumulative": 691515
-        },
-        {
-          "ym": "2026-01",
-          "sales": 27163,
-          "cumulative": 718678
-        },
-        {
-          "ym": "2026-02",
-          "sales": 19208,
-          "cumulative": 737886
-        },
-        {
           "ym": "2026-08",
           "sales": 8523,
-          "cumulative": 746409
+          "cumulative": 8523
         },
         {
           "ym": "2026-09",
           "sales": 7414,
-          "cumulative": 753823
+          "cumulative": 15937
         }
       ]
     },
@@ -411,57 +321,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 7498451,
+      "monthly_listeners": 7559854,
       "spotify_id": "1SIocsqdEefUTE6XKGUiVS",
       "top_tracks": [
         {
           "title": "춤 (CHOOM)",
-          "play_count": 92880193,
+          "play_count": 93219668,
           "uri": "spotify:track:4cox7ONwuCwUvfZ9fsGDVu"
         },
         {
           "title": "DRIP",
-          "play_count": 321565396,
+          "play_count": 321850837,
           "uri": "spotify:track:198zDKzyktXRG1PGpidY9h"
         },
         {
           "title": "SUGAR HONEY ICE TEA",
-          "play_count": 46000294,
+          "play_count": 46226171,
           "uri": "spotify:track:16ck09A3j0tqvV6t3fW1DD"
         },
         {
           "title": "SHEESH",
-          "play_count": 433618535,
+          "play_count": 433844736,
           "uri": "spotify:track:1njlnn8ZKHI77Pe9szIONR"
         },
         {
           "title": "PSYCHO",
-          "play_count": 111492538,
+          "play_count": 111702239,
           "uri": "spotify:track:7jp2VW62Yt2bDOaRas3hR6"
         },
         {
           "title": "WE GO UP",
-          "play_count": 121856453,
+          "play_count": 122041968,
           "uri": "spotify:track:49DTiFx70EuJLV7hDsCo6z"
         },
         {
           "title": "MOON",
-          "play_count": 29442113,
+          "play_count": 29601650,
           "uri": "spotify:track:4ni36cZOQZldZGpHyLHFqX"
         },
         {
           "title": "LIKE THAT",
-          "play_count": 226908671,
+          "play_count": 227083184,
           "uri": "spotify:track:7GDgpad2BQVuDUzaxHFakc"
         },
         {
           "title": "FOREVER",
-          "play_count": 239141869,
+          "play_count": 239296942,
           "uri": "spotify:track:6b6KXDbDn0s0Jepxm8a3nr"
         },
         {
           "title": "I LIKE IT",
-          "play_count": 24765730,
+          "play_count": 24873016,
           "uri": "spotify:track:7vKgGaEDN3shr8HBlCbIWg"
         }
       ]
@@ -729,6 +639,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

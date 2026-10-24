@@ -262,57 +262,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1531491,
+      "monthly_listeners": 1529749,
       "spotify_id": "6EB5QC7lGAu7bSuWQ416d4",
       "top_tracks": [
         {
           "title": "SIGN",
-          "play_count": 40541786,
+          "play_count": 40606045,
           "uri": "spotify:track:6vBVBzf0VeRO4aPwABnohX"
         },
         {
           "title": "METRONOME",
-          "play_count": 11313110,
+          "play_count": 11362056,
           "uri": "spotify:track:6SGwediIFxWYxvU7zbWtri"
         },
         {
           "title": "DUMB HOT!",
-          "play_count": 2046734,
+          "play_count": 2061416,
           "uri": "spotify:track:1jpGUuKQqfdb1DctPQ963u"
         },
         {
           "title": "BEEP",
-          "play_count": 20442850,
+          "play_count": 20459216,
           "uri": "spotify:track:21LesVOMCk5j8LqsFBvCc5"
         },
         {
           "title": "Racecar",
-          "play_count": 10952107,
+          "play_count": 10971118,
           "uri": "spotify:track:3ylwpGWNGip7lRhNCpCBLR"
         },
         {
           "title": "Mamma Mia",
-          "play_count": 16361874,
+          "play_count": 16378784,
           "uri": "spotify:track:5mxBUe5ycmUiUkDaLC5yVI"
         },
         {
           "title": "R.I.P.",
-          "play_count": 3416462,
+          "play_count": 3432989,
           "uri": "spotify:track:1xGhH49S08gwBa4QSvLxaY"
         },
         {
           "title": "TIMEBOMB",
-          "play_count": 19407684,
+          "play_count": 19422335,
           "uri": "spotify:track:3CkGiFTTyIguBZzZGmE6eq"
         },
         {
           "title": "DRIP",
-          "play_count": 13505559,
+          "play_count": 13520995,
           "uri": "spotify:track:6ZpH3dVydCxg1NnXe8SdyV"
         },
         {
           "title": "IZNA",
-          "play_count": 25839008,
+          "play_count": 25853520,
           "uri": "spotify:track:1Lid3Sc6luHWuiauUM6Ckt"
         }
       ]
@@ -430,6 +430,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

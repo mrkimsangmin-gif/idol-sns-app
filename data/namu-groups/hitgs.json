@@ -110,57 +110,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 116095,
+      "monthly_listeners": 113933,
       "spotify_id": "5a83Luu0ndnR1enk1rn83V",
       "top_tracks": [
         {
           "title": "SOURPATCH",
-          "play_count": 2669982,
+          "play_count": 2672604,
           "uri": "spotify:track:6fuMhofxOh5ZmDWUYZnfaO"
         },
         {
           "title": "Gulliver!",
-          "play_count": 108059,
+          "play_count": 108916,
           "uri": "spotify:track:61M1SFdYzpbUSGquWkguxj"
         },
         {
           "title": "Ctrl C",
-          "play_count": 104054,
+          "play_count": 104781,
           "uri": "spotify:track:4Kh7KIjt0oiEsMrCVkr8IC"
         },
         {
           "title": "Little By Little",
-          "play_count": 249430,
+          "play_count": 250017,
           "uri": "spotify:track:196Dx9vJHa7TOhjYCo9w0I"
         },
         {
           "title": "A-HA!",
-          "play_count": 474216,
+          "play_count": 474859,
           "uri": "spotify:track:1LSjczwxC2j0KecAWkdPNk"
         },
         {
           "title": "Cherry Blossom",
-          "play_count": 337125,
+          "play_count": 337692,
           "uri": "spotify:track:5jbWLkxaG4aXqVCBJxYp6q"
         },
         {
           "title": "HAPPY",
-          "play_count": 572213,
+          "play_count": 572739,
           "uri": "spotify:track:1RKdxCUdiyGSWscrdx7Aq6"
         },
         {
           "title": "Never Be Me",
-          "play_count": 460084,
+          "play_count": 460475,
           "uri": "spotify:track:53JH4jjIewvqTyJkchmx4t"
         },
         {
           "title": "I’m in Love",
-          "play_count": 105464,
+          "play_count": 105738,
           "uri": "spotify:track:3IJB4W92ekt5OlG0KwRUdr"
         },
         {
           "title": "CHARIZZMA",
-          "play_count": 505591,
+          "play_count": 505948,
           "uri": "spotify:track:4Hn0GvDg93eOaNxcSHg3Yi"
         }
       ]
@@ -242,6 +242,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

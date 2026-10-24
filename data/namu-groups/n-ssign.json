@@ -534,57 +534,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 22559,
+      "monthly_listeners": 22613,
       "spotify_id": "3IHvi45S5SITyNES9VzSjI",
       "top_tracks": [
         {
           "title": "LOOK AT ME NOW!",
-          "play_count": 50075,
+          "play_count": 50489,
           "uri": "spotify:track:6pXd9r9urnvPYKZruPCHYJ"
         },
         {
           "title": "DANCE ON THE EARTH",
-          "play_count": 18822,
+          "play_count": 19279,
           "uri": "spotify:track:2mKc3DJBNZIO7XTVFXuU5x"
         },
         {
           "title": "Let's do this",
-          "play_count": 581072,
+          "play_count": 581311,
           "uri": "spotify:track:3AbexHCUH8upOxEKcUzo05"
         },
         {
           "title": "CONTINUE?",
-          "play_count": 9044,
+          "play_count": 9276,
           "uri": "spotify:track:2QFPJ5ZZCUOT5LAgH3a6bM"
         },
         {
           "title": "Happy &",
-          "play_count": 745672,
+          "play_count": 745905,
           "uri": "spotify:track:03U3O2lnSCJKPdBhUUtSjV"
         },
         {
           "title": "Love Malfunction",
-          "play_count": 8195,
+          "play_count": 8418,
           "uri": "spotify:track:1riP1rtQ4cfmx3WtQxZNt5"
         },
         {
           "title": "Take a shot",
-          "play_count": 7401,
+          "play_count": 7599,
           "uri": "spotify:track:5Sf8s7RiVhJx5X47gOeKcx"
         },
         {
           "title": "Funky like me",
-          "play_count": 137276,
+          "play_count": 137415,
           "uri": "spotify:track:6w0cNSNsGjNjzd6WTvxkuO"
         },
         {
           "title": "Love Potion (백일몽; 白日夢)",
-          "play_count": 352702,
+          "play_count": 352832,
           "uri": "spotify:track:6MPl1itw6siKstgoCIeCDo"
         },
         {
           "title": "Salty",
-          "play_count": 491573,
+          "play_count": 491685,
           "uri": "spotify:track:4UQThgzdQWyU84akZI4n78"
         }
       ]
@@ -1309,6 +1309,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

@@ -128,61 +128,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2401,
+      "monthly_listeners": 2392,
       "spotify_id": "3gk4e5MsuqJYjKdakIN8Dk",
       "top_tracks": [
         {
           "title": "MAGIC",
-          "play_count": 401433,
+          "play_count": 401473,
           "uri": "spotify:track:2IBwamLEmcx3xb5yaGxu35"
         },
         {
           "title": "DUBI DUBI",
-          "play_count": 242938,
+          "play_count": 243053,
           "uri": "spotify:track:6SG8OjKKMAW47MJtJLSnNM"
         },
         {
           "title": "Aphrodite (Rule The World)",
-          "play_count": 245412,
+          "play_count": 245446,
           "uri": "spotify:track:7qMc5dpqHj1pmqMZR5OpMi"
         },
         {
           "title": "아프로디테",
-          "play_count": 92856,
+          "play_count": 92870,
           "uri": "spotify:track:1zmCkiE1LzJyTttHvyQ4fh"
         },
         {
           "title": "Lovefool",
-          "play_count": 66410,
+          "play_count": 66418,
           "uri": "spotify:track:2qwFM5I82fJnzJK6ZhlwNg"
         },
         {
           "title": "ILYSB",
-          "play_count": 66225,
+          "play_count": 66227,
           "uri": "spotify:track:1F4uqiMcIkfw7R7BNcyo4s"
         },
         {
           "title": "Crystal",
-          "play_count": 48291,
+          "play_count": 48297,
           "uri": "spotify:track:7hQLzoGI2nlvxaFDOYJVnH"
         },
         {
           "title": "Fantasize",
-          "play_count": 31177,
+          "play_count": 31181,
           "uri": "spotify:track:2TaWr453HiRYv480WAiy4R"
         },
         {
           "title": "DUBI DUBI - Sped up",
-          "play_count": 5540,
+          "play_count": 5541,
           "uri": "spotify:track:33EWyhhzbEjuo4FNcdJNWY"
         },
         {
           "title": "DUBI DUBI - Inst.",
-          "play_count": 3602,
+          "play_count": 3605,
           "uri": "spotify:track:5bwqYqf0kk1O6UPffVWcbo"
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

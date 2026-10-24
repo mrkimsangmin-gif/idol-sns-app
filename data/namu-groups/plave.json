@@ -492,57 +492,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 951652,
+      "monthly_listeners": 979154,
       "spotify_id": "0k2zyzGq6HX383VlMBOvRG",
       "top_tracks": [
         {
           "title": "Star Trace",
-          "play_count": 3555045,
+          "play_count": 3828493,
           "uri": "spotify:track:1uH8RqO7kx4je1VS91Oe02"
         },
         {
           "title": "푸른 하늘에 단비",
-          "play_count": 2153281,
+          "play_count": 2309977,
           "uri": "spotify:track:4EYRsQWjtGmiqS2jUAsLsa"
         },
         {
           "title": "꾼",
-          "play_count": 2062564,
+          "play_count": 2217615,
           "uri": "spotify:track:09qDfTzRZ0bM8joSzQ0uLF"
         },
         {
           "title": "The Answer Is Yes",
-          "play_count": 1846239,
+          "play_count": 1991312,
           "uri": "spotify:track:5l7D7feCXQZgCPolpVgmCN"
         },
         {
           "title": "Rewind",
-          "play_count": 1834359,
+          "play_count": 1982240,
           "uri": "spotify:track:60UaZ1MiaNKfidvhQt60TX"
         },
         {
           "title": "Born Savage",
-          "play_count": 17641514,
+          "play_count": 17698455,
           "uri": "spotify:track:21AdIbIIP9cFgwnwEnEl07"
         },
         {
           "title": "흥흥흥",
-          "play_count": 12753863,
+          "play_count": 12775649,
           "uri": "spotify:track:2CbgyivbjNuNrBuEDMps23"
         },
         {
           "title": "그런 것 같아",
-          "play_count": 9724548,
+          "play_count": 9750976,
           "uri": "spotify:track:31j1MsMKLHmHi5EoKXZb29"
         },
         {
           "title": "꽃송이들의 퍼레이드",
-          "play_count": 8907527,
+          "play_count": 8933141,
           "uri": "spotify:track:4FmDP1vwxnZzcMJWHxYhvq"
         },
         {
           "title": "Lunar Hearts",
-          "play_count": 9198122,
+          "play_count": 9214181,
           "uri": "spotify:track:6fCRPp9FpWYIyyhefMQp64"
         }
       ]
@@ -720,6 +720,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

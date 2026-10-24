@@ -136,57 +136,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 34069,
+      "monthly_listeners": 33751,
       "spotify_id": "1nE2Iu4qK1fzslPJcLGq66",
       "top_tracks": [
         {
           "title": "Cosmic",
-          "play_count": 233476,
+          "play_count": 234342,
           "uri": "spotify:track:26xEXtH3zszyPdGmpXuS33"
         },
         {
           "title": "Love Your Flower",
-          "play_count": 260714,
+          "play_count": 260956,
           "uri": "spotify:track:3YCSEjFJTceJXxzC4gdKei"
         },
         {
           "title": "Ring",
-          "play_count": 57210,
+          "play_count": 57348,
           "uri": "spotify:track:2TJrQYCyHj02g6nnWEUnen"
         },
         {
           "title": "CINEMA",
-          "play_count": 168203,
+          "play_count": 168292,
           "uri": "spotify:track:2oI6dp7Q4Amp1FcqSRr5fD"
         },
         {
           "title": "Steal Heart",
-          "play_count": 189648,
+          "play_count": 189765,
           "uri": "spotify:track:4BN3C62hCBcWLXnPPsepdn"
         },
         {
           "title": "LAFFY TAFFY",
-          "play_count": 192703,
+          "play_count": 192764,
           "uri": "spotify:track:5YQbevxJxhMp6RzdXq1mng"
         },
         {
           "title": "Freyja",
-          "play_count": 183664,
+          "play_count": 183725,
           "uri": "spotify:track:7uAmy80cFLuIJQWdsLMGni"
         },
         {
           "title": "Feel It",
-          "play_count": 58822,
+          "play_count": 58868,
           "uri": "spotify:track:6aTwPIqk0YchS4mOqeUYYz"
         },
         {
           "title": "PRIMROSE",
-          "play_count": 332110,
+          "play_count": 332160,
           "uri": "spotify:track:75uoSZNM8jX7p1Uyj4m3zT"
         },
         {
           "title": "Trick or Trigg",
-          "play_count": 59568,
+          "play_count": 59612,
           "uri": "spotify:track:6y1HjUc4eUtoTElzNptMEE"
         }
       ]
@@ -325,6 +325,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

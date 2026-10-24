@@ -402,61 +402,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 12851,
+      "monthly_listeners": 12775,
       "spotify_id": "05pkCt3DQY5ZC41u7WMk5D",
       "top_tracks": [
         {
           "title": "FORM",
-          "play_count": 1583473,
+          "play_count": 1583715,
           "uri": "spotify:track:5lfn0YTLaNScClWm4cmwU4"
         },
         {
           "title": "JACKPOT",
-          "play_count": 707439,
+          "play_count": 707610,
           "uri": "spotify:track:4e4RlMOWUnoVkIYyjNjN57"
         },
         {
           "title": "Skyscraper",
-          "play_count": 681569,
+          "play_count": 681691,
           "uri": "spotify:track:5Jl3AmBWFlvU2jOMVeBk32"
         },
         {
           "title": "Automatic",
-          "play_count": 302342,
+          "play_count": 302500,
           "uri": "spotify:track:2nynjVyEYneNyGqV7fwvNv"
         },
         {
           "title": "Rollin",
-          "play_count": 704341,
+          "play_count": 704459,
           "uri": "spotify:track:11WZXVtFOITrYD2LuxC2jT"
         },
         {
           "title": "PERFORMER",
-          "play_count": 655399,
+          "play_count": 655512,
           "uri": "spotify:track:2arrxX2BubTq86E4N067WY"
         },
         {
           "title": "LACHATA",
-          "play_count": 660597,
+          "play_count": 660712,
           "uri": "spotify:track:1TfwACgJbKFwgygtGzoRE4"
         },
         {
           "title": "Goodbye & Hello",
-          "play_count": 142192,
+          "play_count": 142272,
           "uri": "spotify:track:4B131HnHQYxbOdSwktnCec"
         },
         {
           "title": "New Heights - ENG Version",
-          "play_count": 154808,
+          "play_count": 154855,
           "uri": "spotify:track:0IFybf8NH8YDDgH6tR6Wcj"
         },
         {
           "title": "Blossom",
-          "play_count": 146774,
+          "play_count": 146830,
           "uri": "spotify:track:4EhFzCDkUIltDfbPbLi7GS"
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

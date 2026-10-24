@@ -156,57 +156,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 56056,
+      "monthly_listeners": 55764,
       "spotify_id": "2ujaWf015QoP7x1u20Yq5G",
       "top_tracks": [
         {
           "title": "Roll Up",
-          "play_count": 3772245,
+          "play_count": 3773277,
           "uri": "spotify:track:2KIyd36V2ejCrvlYU1Ci1K"
         },
         {
           "title": "Karma",
-          "play_count": 6198960,
+          "play_count": 6199791,
           "uri": "spotify:track:0AZ5C3305mRKWX1x0hDF39"
         },
         {
           "title": "Cat & Mouse",
-          "play_count": 4475721,
+          "play_count": 4476420,
           "uri": "spotify:track:1gL38pTAlg8M9aypzumft8"
         },
         {
           "title": "Tonight",
-          "play_count": 5144441,
+          "play_count": 5144903,
           "uri": "spotify:track:6a5sIKqXI55hV1xSWYIAne"
         },
         {
           "title": "Close to Me",
-          "play_count": 3037084,
+          "play_count": 3037324,
           "uri": "spotify:track:1wzP4k1w8nprsfb6n8wpoz"
         },
         {
           "title": "I Like It Hot",
-          "play_count": 416333,
+          "play_count": 416531,
           "uri": "spotify:track:5UCYt3hPotkBl99J8sJAQy"
         },
         {
           "title": "Double Down",
-          "play_count": 387873,
+          "play_count": 387990,
           "uri": "spotify:track:7vB6lR51TQGDSnMJjX36SS"
         },
         {
           "title": "Cat & Mouse - English Version",
-          "play_count": 437695,
+          "play_count": 437779,
           "uri": "spotify:track:4AZpf2YvjSmNHREAVm4gqS"
         },
         {
           "title": "Over & Over",
-          "play_count": 756487,
+          "play_count": 756575,
           "uri": "spotify:track:16UOZWbeRPO5r5oOsv4vX9"
         },
         {
           "title": "Breathe Heavy",
-          "play_count": 668968,
+          "play_count": 669038,
           "uri": "spotify:track:6zo59tenimd1iAF23zdaTi"
         }
       ]
@@ -435,6 +435,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

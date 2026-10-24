@@ -248,57 +248,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 85751,
+      "monthly_listeners": 85162,
       "spotify_id": "3q4h0WRGyR0Qcx88vwyzkd",
       "top_tracks": [
         {
           "title": "다시 만나",
-          "play_count": 5441218,
+          "play_count": 5443169,
           "uri": "spotify:track:56R2Pn5bi2EWbuO1fZWXUh"
         },
         {
           "title": "Only One",
-          "play_count": 1647497,
+          "play_count": 1649132,
           "uri": "spotify:track:7JYn7yfGVOVs639BKb2exc"
         },
         {
           "title": "Party Like A Rock Star",
-          "play_count": 415799,
+          "play_count": 416703,
           "uri": "spotify:track:7JpV3vfaWWrVtmtJLIZZ0J"
         },
         {
           "title": "반가워, 나의 첫사랑",
-          "play_count": 1665866,
+          "play_count": 1666980,
           "uri": "spotify:track:6hZNzsNJAS1FFNJF0PI5jf"
         },
         {
           "title": "ISLAND",
-          "play_count": 2164138,
+          "play_count": 2164652,
           "uri": "spotify:track:5d5uB8YAUkG5zNf7yp4Cmk"
         },
         {
           "title": "이랬다 저랬다",
-          "play_count": 49854,
+          "play_count": 50147,
           "uri": "spotify:track:4KOWJgYGo8JT0NxxH6RIYh"
         },
         {
           "title": "설레는 마음으로",
-          "play_count": 475092,
+          "play_count": 475350,
           "uri": "spotify:track:1DbEKfRapMzbRf5RJ33RCB"
         },
         {
           "title": "WE GO",
-          "play_count": 919120,
+          "play_count": 919380,
           "uri": "spotify:track:5M5vy3SaNUIHArzt7YONva"
         },
         {
           "title": "With the Wind",
-          "play_count": 36115,
+          "play_count": 36345,
           "uri": "spotify:track:31NWEEIz7tzOLJTFXoDjMN"
         },
         {
           "title": "빛을 담아 너에게 줄게",
-          "play_count": 801306,
+          "play_count": 801526,
           "uri": "spotify:track:5fWbMN3rZUlbCeAc6qX6DE"
         }
       ]
@@ -485,6 +485,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

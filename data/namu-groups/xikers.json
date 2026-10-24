@@ -347,57 +347,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 375957,
+      "monthly_listeners": 375677,
       "spotify_id": "6QHP8St0MzfNDqjKpwtMht",
       "top_tracks": [
         {
           "title": "OKay",
-          "play_count": 2888203,
+          "play_count": 2902236,
           "uri": "spotify:track:61QmuU6FVkY3HE6ecs3bmx"
         },
         {
           "title": "도깨비집 (TRICKY HOUSE)",
-          "play_count": 36403506,
+          "play_count": 36413437,
           "uri": "spotify:track:2MeEPaL5HsW9njvrtP0Agj"
         },
         {
           "title": "ICONIC",
-          "play_count": 4563969,
+          "play_count": 4572808,
           "uri": "spotify:track:4BSx3P80BGTTh0hRmvSvxL"
         },
         {
           "title": "BREATHE",
-          "play_count": 6801406,
+          "play_count": 6810095,
           "uri": "spotify:track:2P5bbp7BeVtrECPJaN8AFO"
         },
         {
           "title": "SUPERPOWER (Peak)",
-          "play_count": 3175858,
+          "play_count": 3182331,
           "uri": "spotify:track:5cgk5DRxhBuPcvJpM8KIsz"
         },
         {
           "title": "Red Sun",
-          "play_count": 4969205,
+          "play_count": 4973049,
           "uri": "spotify:track:3z3eX1eG1Gj0YFDhYPkTrl"
         },
         {
           "title": "ROCKSTAR",
-          "play_count": 9069966,
+          "play_count": 9073059,
           "uri": "spotify:track:34St2IIfAjXcb18wVUYd3x"
         },
         {
           "title": "위치 (WITCH)",
-          "play_count": 3620454,
+          "play_count": 3623588,
           "uri": "spotify:track:336bNqFkCC2owApr6l7osT"
         },
         {
           "title": "DO or DIE",
-          "play_count": 5982579,
+          "play_count": 5984735,
           "uri": "spotify:track:6brb7SXjhqHOxsj0jkyQVH"
         },
         {
           "title": "Rhythm Check (Walking together)",
-          "play_count": 72433,
+          "play_count": 75162,
           "uri": "spotify:track:5rIHbOZZ5i9cssXAUPlNae"
         }
       ]
@@ -676,6 +676,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

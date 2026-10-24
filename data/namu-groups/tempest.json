@@ -488,57 +488,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 39967,
+      "monthly_listeners": 39944,
       "spotify_id": "1iyFL3CRuKW7PXgPH4VxSP",
       "top_tracks": [
         {
           "title": "In The Dark (어둠 속에서)",
-          "play_count": 938002,
+          "play_count": 938822,
           "uri": "spotify:track:4ByIwUEB12eKgYeFA8NqwV"
         },
         {
           "title": "LIGHTHOUSE",
-          "play_count": 4302399,
+          "play_count": 4302917,
           "uri": "spotify:track:6Zv31tXdpqXPuMXIT4Pq7p"
         },
         {
           "title": "Bad News",
-          "play_count": 6546830,
+          "play_count": 6547308,
           "uri": "spotify:track:0sa8KndeZfGWmcGEpVfMwh"
         },
         {
           "title": "난장 (Dangerous)",
-          "play_count": 6556111,
+          "play_count": 6556521,
           "uri": "spotify:track:7xOkKsavCmwCCBjtMv9cIU"
         },
         {
           "title": "Can’t Stop Shining",
-          "play_count": 3122240,
+          "play_count": 3122651,
           "uri": "spotify:track:0oJZzuHUjpKAFrSHqjJKZM"
         },
         {
           "title": "Unfreeze",
-          "play_count": 1237556,
+          "play_count": 1237953,
           "uri": "spotify:track:7Ko3Ark4s7OL7sQIo1ToHR"
         },
         {
           "title": "nocturnal",
-          "play_count": 290591,
+          "play_count": 290927,
           "uri": "spotify:track:2EsCdC8ozqpfbE9m668Agk"
         },
         {
           "title": "DIVE",
-          "play_count": 2551245,
+          "play_count": 2551694,
           "uri": "spotify:track:1CbdvkjFxRkMNu3M2Cq1Hc"
         },
         {
           "title": "Vroom Vroom",
-          "play_count": 6610855,
+          "play_count": 6611146,
           "uri": "spotify:track:0MHiMXXoCcgzZVk33HLWmL"
         },
         {
           "title": "My Way",
-          "play_count": 463254,
+          "play_count": 463538,
           "uri": "spotify:track:7lvSAzBLYQmIPCGJRRAnAu"
         }
       ]
@@ -741,6 +741,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

@@ -329,57 +329,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 380623,
+      "monthly_listeners": 385152,
       "spotify_id": "7tCg9aiVKZ5Cmhbfb7UoqM",
       "top_tracks": [
         {
           "title": "Stagefright",
-          "play_count": 1526491,
+          "play_count": 1547672,
           "uri": "spotify:track:4RGe2TF6AdEGtf2ejkktbu"
         },
         {
           "title": "BRUISE(불씨)",
-          "play_count": 1798862,
+          "play_count": 1810394,
           "uri": "spotify:track:5eYhUukI5PVCqSLOmO8Idq"
         },
         {
           "title": "BESAME",
-          "play_count": 292824,
+          "play_count": 298633,
           "uri": "spotify:track:3ms2vEOPubBVHAbMGQ7OXM"
         },
         {
           "title": "8PM",
-          "play_count": 455782,
+          "play_count": 461111,
           "uri": "spotify:track:5e9mFFqUB7tP2bCX59I9TK"
         },
         {
           "title": "TIC TAC",
-          "play_count": 16176450,
+          "play_count": 16179306,
           "uri": "spotify:track:60Oo6tKR0ckwZsRr95NrjL"
         },
         {
           "title": "EXCEL",
-          "play_count": 4457287,
+          "play_count": 4459996,
           "uri": "spotify:track:0hPbVp26JuqHo0N3JPvdDZ"
         },
         {
           "title": "Electric Heart",
-          "play_count": 1067227,
+          "play_count": 1069226,
           "uri": "spotify:track:4gQjxEDB5hxu6PLCjvTAva"
         },
         {
           "title": "Close To Me",
-          "play_count": 786894,
+          "play_count": 788420,
           "uri": "spotify:track:51Ig7TcbToEWxEFykfduIK"
         },
         {
           "title": "WALK IT OUT",
-          "play_count": 1056125,
+          "play_count": 1057177,
           "uri": "spotify:track:2Ibyw35nExA70MH0z87Nfm"
         },
         {
           "title": "Heartache",
-          "play_count": 1683729,
+          "play_count": 1684988,
           "uri": "spotify:track:1G7YoiQBPxbndfiXGJcOpq"
         }
       ]
@@ -561,6 +561,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

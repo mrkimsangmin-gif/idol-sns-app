@@ -276,57 +276,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 136607,
+      "monthly_listeners": 135943,
       "spotify_id": "0DRiXmEOc6dJ6Rug3xi4HZ",
       "top_tracks": [
         {
           "title": "Die Another Day",
-          "play_count": 268353,
+          "play_count": 270589,
           "uri": "spotify:track:4LZ2T2AtRf9EdsVFpaE9gN"
         },
         {
           "title": "비켜",
-          "play_count": 11708693,
+          "play_count": 11710897,
           "uri": "spotify:track:5QzjOeD7eXFZpVVyVC7ls2"
         },
         {
           "title": "Love or Die",
-          "play_count": 6951950,
+          "play_count": 6953559,
           "uri": "spotify:track:5JDfcFU6lCYU7jQJ8dDo8v"
         },
         {
           "title": "Kick It 4 Now",
-          "play_count": 6547414,
+          "play_count": 6548575,
           "uri": "spotify:track:5oyt64vcLF0MwDq5XNgx86"
         },
         {
           "title": "FUEGO",
-          "play_count": 3115333,
+          "play_count": 3116441,
           "uri": "spotify:track:2iCy2qfDdWN8duitTHeHSm"
         },
         {
           "title": "CALL ME BACK",
-          "play_count": 528571,
+          "play_count": 529373,
           "uri": "spotify:track:7EaR2YLNoIDFgmEBdTh1NS"
         },
         {
           "title": "What If",
-          "play_count": 509290,
+          "play_count": 509908,
           "uri": "spotify:track:5C0iFl5sfvVX6b4evloS4P"
         },
         {
           "title": "아 진짜 (For Real?)",
-          "play_count": 868892,
+          "play_count": 869379,
           "uri": "spotify:track:11yJ2iAqlWsk9CngMujJou"
         },
         {
           "title": "벌써",
-          "play_count": 2029118,
+          "play_count": 2029613,
           "uri": "spotify:track:79FD2pn0fvintcNjp8tLup"
         },
         {
           "title": "그러니까 내 말은",
-          "play_count": 260610,
+          "play_count": 260896,
           "uri": "spotify:track:3pYHpHEihyIM9w4s7JGQC7"
         }
       ]
@@ -533,6 +533,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

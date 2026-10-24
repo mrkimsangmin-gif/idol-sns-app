@@ -389,57 +389,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2407067,
+      "monthly_listeners": 2393904,
       "spotify_id": "5deOsjuFTKrNMJW3rKuL8S",
       "top_tracks": [
         {
           "title": "LOVE ATTACK",
-          "play_count": 30161479,
+          "play_count": 30293231,
           "uri": "spotify:track:6uosenLUNFZtOIih5T0qfV"
         },
         {
           "title": "Pretty Girl",
-          "play_count": 15697196,
+          "play_count": 15809689,
           "uri": "spotify:track:26GehcyfHwgzfS0ok9yDYk"
         },
         {
           "title": "Deja Vu",
-          "play_count": 17608921,
+          "play_count": 17694283,
           "uri": "spotify:track:1pBUzZE9PoKLoPxo6QxsG6"
         },
         {
           "title": "Runaway",
-          "play_count": 11643641,
+          "play_count": 11711989,
           "uri": "spotify:track:1x0mG2CyQW5mjBX17ZfTUG"
         },
         {
           "title": "Pinball",
-          "play_count": 13142530,
+          "play_count": 13189917,
           "uri": "spotify:track:7FzDMnwPhj6qdTT2PRaSYi"
         },
         {
           "title": "Glow Up",
-          "play_count": 14435342,
+          "play_count": 14459347,
           "uri": "spotify:track:12tWYSmupB8x0B4HyalBAm"
         },
         {
           "title": "Bloom",
-          "play_count": 4850412,
+          "play_count": 4871605,
           "uri": "spotify:track:6yyjU86kQpxVW9RMUdgGfv"
         },
         {
           "title": "Busy Boy",
-          "play_count": 3680209,
+          "play_count": 3693675,
           "uri": "spotify:track:6ufVsXMC1fAePZa5ZRMKdO"
         },
         {
           "title": "In my lotion",
-          "play_count": 5118369,
+          "play_count": 5130465,
           "uri": "spotify:track:0I4qJamLijYkfEzsxNmmYb"
         },
         {
           "title": "Heart Drop",
-          "play_count": 3838233,
+          "play_count": 3849146,
           "uri": "spotify:track:4lihmuAwCau08DRXHOCthl"
         }
       ]
@@ -627,6 +627,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

@@ -159,57 +159,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 375020,
+      "monthly_listeners": 372317,
       "spotify_id": "1g971p3BXozVYNCn7JRMNa",
       "top_tracks": [
         {
           "title": "r u ok?",
-          "play_count": 18322609,
+          "play_count": 18339047,
           "uri": "spotify:track:7LwQfsJ7JzgfFr7ErvcTs6"
         },
         {
           "title": "NERDY",
-          "play_count": 6789779,
+          "play_count": 6796883,
           "uri": "spotify:track:6maRkcBnkwVL0uwjjGazFT"
         },
         {
           "title": "Hazy (Daisy)",
-          "play_count": 1749506,
+          "play_count": 1753057,
           "uri": "spotify:track:2PBOyq9hBSuR6K5rQ8UTdP"
         },
         {
           "title": "loverboy",
-          "play_count": 2734479,
+          "play_count": 2738347,
           "uri": "spotify:track:4H7mZef7MeCkU2BgsG0lLh"
         },
         {
           "title": "IRL",
-          "play_count": 2330894,
+          "play_count": 2333711,
           "uri": "spotify:track:7f9eZIAVx22NrKZIUsE03L"
         },
         {
           "title": "I′ll Be There",
-          "play_count": 633911,
+          "play_count": 635229,
           "uri": "spotify:track:39etlR3Z8ZMa06VEQd26OD"
         },
         {
           "title": "둥글게 둥글게",
-          "play_count": 967668,
+          "play_count": 968868,
           "uri": "spotify:track:0c9OwWr1PFzKBDztvy4jZ4"
         },
         {
           "title": "Padam Padam",
-          "play_count": 417447,
+          "play_count": 418142,
           "uri": "spotify:track:79QfS7yjsHIYJQ4JN5PQw1"
         },
         {
           "title": "echo",
-          "play_count": 677867,
+          "play_count": 678693,
           "uri": "spotify:track:3nE2sy8GgLc9prk1oYOH0f"
         },
         {
           "title": "friend like me",
-          "play_count": 667142,
+          "play_count": 667815,
           "uri": "spotify:track:156DkBeOc5H4mHHVft4pZp"
         }
       ]
@@ -289,6 +289,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

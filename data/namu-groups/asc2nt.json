@@ -227,57 +227,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 39411,
+      "monthly_listeners": 38566,
       "spotify_id": "4w6MZBLb4aIZpffyA52Doq",
       "top_tracks": [
         {
           "title": "If I Die Tomorrow",
-          "play_count": 112204,
+          "play_count": 113180,
           "uri": "spotify:track:4tpUuMLooJYyGiNmL69fR1"
         },
         {
           "title": "Still Rose",
-          "play_count": 225827,
+          "play_count": 226366,
           "uri": "spotify:track:6MgrdZL7zA381FLAQiaITj"
         },
         {
           "title": "DON'T MOVE",
-          "play_count": 264917,
+          "play_count": 265487,
           "uri": "spotify:track:0BxA7X4Sd1vPWS1CLDec8S"
         },
         {
           "title": "Green light, Yellow light, Red light",
-          "play_count": 38207,
+          "play_count": 38364,
           "uri": "spotify:track:0L5pXcBtl63hCWYxcokkhj"
         },
         {
           "title": "I'm thinking 'bout tomorrow",
-          "play_count": 17160,
+          "play_count": 17334,
           "uri": "spotify:track:7CXyiC7xPiKQK2vXoo7d7r"
         },
         {
           "title": "Mile Lo",
-          "play_count": 14330,
+          "play_count": 14474,
           "uri": "spotify:track:0p3v4aaQJ5TJY5IDjEQbwS"
         },
         {
           "title": "Purple Rain",
-          "play_count": 49091,
+          "play_count": 49224,
           "uri": "spotify:track:4IaGMwQ1AYFyGUiumuVBvO"
         },
         {
           "title": "Morse Code",
-          "play_count": 12470,
+          "play_count": 12590,
           "uri": "spotify:track:0pHYNw6KB1VndCV2MaKdoh"
         },
         {
           "title": "Replay",
-          "play_count": 84554,
+          "play_count": 84641,
           "uri": "spotify:track:6sCYLG2f1f2iBEJ0WeGAag"
         },
         {
           "title": "The Boy In The Mirror (feat. Yun Hyerin)",
-          "play_count": 44774,
+          "play_count": 44833,
           "uri": "spotify:track:1vt7b34HtWNnugixCSSHEg"
         }
       ]
@@ -400,6 +400,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

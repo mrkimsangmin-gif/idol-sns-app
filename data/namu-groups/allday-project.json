@@ -210,57 +210,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 3580723,
+      "monthly_listeners": 3619192,
       "spotify_id": "4gEMn0YPOdotLOygnk0Ng2",
       "top_tracks": [
         {
           "title": "CRASH",
-          "play_count": 6426242,
+          "play_count": 6640348,
           "uri": "spotify:track:1pU7ywmV4nJsgJcnuPMLyw"
         },
         {
           "title": "TALK",
-          "play_count": 3335468,
+          "play_count": 3424982,
           "uri": "spotify:track:39dzUeR0B8aUxu6yQ2S3KW"
         },
         {
           "title": "FAMOUS",
-          "play_count": 96084703,
+          "play_count": 96155188,
           "uri": "spotify:track:598bDTl82CSTSDnZG0XhGK"
         },
         {
           "title": "DO IT LIKE THIS",
-          "play_count": 2482459,
+          "play_count": 2532018,
           "uri": "spotify:track:3UfJtQGQNEWQnX0OwRHox5"
         },
         {
           "title": "LOOK AT ME",
-          "play_count": 34242528,
+          "play_count": 34295144,
           "uri": "spotify:track:41FzP8TjIK1aK4LTVY5TUy"
         },
         {
           "title": "ONE MORE TIME",
-          "play_count": 39409363,
+          "play_count": 39458561,
           "uri": "spotify:track:4eCan7Jb3q0xQ1FAELOtEz"
         },
         {
           "title": "WICKED",
-          "play_count": 54914721,
+          "play_count": 54947808,
           "uri": "spotify:track:6zRZyfYNsvgl1y6H5mkR1x"
         },
         {
           "title": "NO 한도",
-          "play_count": 1246822,
+          "play_count": 1269616,
           "uri": "spotify:track:3KcVnfIJKEsSDanTLG8WLN"
         },
         {
           "title": "UP ALL NIGHT",
-          "play_count": 1088289,
+          "play_count": 1119025,
           "uri": "spotify:track:6JeLSyo4INFUBNoUYzAaty"
         },
         {
           "title": "WHERE YOU AT",
-          "play_count": 13693840,
+          "play_count": 13711101,
           "uri": "spotify:track:6vfcaWsN8gBLpfpSCru0Co"
         }
       ]
@@ -374,6 +374,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

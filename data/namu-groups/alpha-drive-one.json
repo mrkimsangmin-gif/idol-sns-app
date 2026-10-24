@@ -50,57 +50,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 561716,
+      "monthly_listeners": 558317,
       "spotify_id": "1Sal7hVz3weo0mvYZPiWHT",
       "top_tracks": [
         {
           "title": "BORN DIRE",
-          "play_count": 5930857,
+          "play_count": 5964481,
           "uri": "spotify:track:0uO0W4hqMkMhLVlniGjNAV"
         },
         {
           "title": "OMG!",
-          "play_count": 11982966,
+          "play_count": 12005120,
           "uri": "spotify:track:1VkvikePcGUUC0AZCnwPaU"
         },
         {
           "title": "Talk to me",
-          "play_count": 2211553,
+          "play_count": 2251399,
           "uri": "spotify:track:662y0QbKKYLqRZ2gb5yM0Z"
         },
         {
           "title": "Diamond Hour",
-          "play_count": 2439731,
+          "play_count": 2454478,
           "uri": "spotify:track:4PpjHfnIippIsCN3Et6Xl2"
         },
         {
           "title": "WELCOME home",
-          "play_count": 2260327,
+          "play_count": 2278993,
           "uri": "spotify:track:4UZlWxTXdUm47CN8mPdcPl"
         },
         {
           "title": "One More Time",
-          "play_count": 1991193,
+          "play_count": 2006840,
           "uri": "spotify:track:750BIRiCtXBCOyaRiA7uQg"
         },
         {
           "title": "FREAK ALARM",
-          "play_count": 20681200,
+          "play_count": 20699809,
           "uri": "spotify:track:44V5j1NOwRWBV8krmLnr4J"
         },
         {
           "title": "Good Life",
-          "play_count": 5837020,
+          "play_count": 5851849,
           "uri": "spotify:track:3220JsPiR3IBIVVr1XMqiv"
         },
         {
           "title": "FORMULA",
-          "play_count": 15484056,
+          "play_count": 15501036,
           "uri": "spotify:track:7z81drJrJ391T2RRwFLNTk"
         },
         {
           "title": "Chains",
-          "play_count": 7713725,
+          "play_count": 7727751,
           "uri": "spotify:track:1PK7aiFztDakbQI31cgpPP"
         }
       ]
@@ -160,6 +160,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

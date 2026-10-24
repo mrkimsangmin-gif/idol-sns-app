@@ -555,37 +555,22 @@
       "초동_한터": "42,244",
       "누적_한터": "",
       "초동_써클": "667,2**",
-      "누적_써클": "1,076,704",
+      "누적_써클": "16,223",
       "비고": "BLACKHOLE",
       "초동_한터_numeric": 42244,
       "monthly_timeline": [
         {
-          "ym": "2026-02",
-          "sales": 958593,
-          "cumulative": 958593
-        },
-        {
-          "ym": "2026-03",
-          "sales": 94334,
-          "cumulative": 1052927
-        },
-        {
-          "ym": "2026-04",
-          "sales": 7554,
-          "cumulative": 1060481
-        },
-        {
           "ym": "2026-07",
           "sales": 5810,
-          "cumulative": 1066291
+          "cumulative": 5810
         },
         {
           "ym": "2026-09",
           "sales": 10413,
-          "cumulative": 1076704
+          "cumulative": 16223
         }
       ],
-      "누적_써클_numeric": 1076704
+      "누적_써클_numeric": 16223
     },
     {
       "title": "Blue & Black",
@@ -758,57 +743,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 5825189,
+      "monthly_listeners": 5902343,
       "spotify_id": "6RHTUrRF63xao58xh9FXYJ",
       "top_tracks": [
         {
           "title": "BANG BANG",
-          "play_count": 87152501,
+          "play_count": 87317550,
           "uri": "spotify:track:5Mm6tCipllD4mCnDKv7hjX"
         },
         {
           "title": "I AM",
-          "play_count": 437132593,
+          "play_count": 437271008,
           "uri": "spotify:track:7KavHYqoVFNB3IUXfs5gvP"
         },
         {
           "title": "After LIKE",
-          "play_count": 491799454,
+          "play_count": 491920903,
           "uri": "spotify:track:6CV6j2xz54thzlrWML3kAW"
         },
         {
-          "title": "LOVE DIVE",
-          "play_count": 512507489,
-          "uri": "spotify:track:0Q5VnK2DYzRyfqQRJuUtvi"
-        },
-        {
           "title": "Looks Can Kill",
-          "play_count": 1894379,
+          "play_count": 2416634,
           "uri": "spotify:track:39sjfpQLGBJnvwTox6LLkn"
         },
         {
+          "title": "LOVE DIVE",
+          "play_count": 512608516,
+          "uri": "spotify:track:0Q5VnK2DYzRyfqQRJuUtvi"
+        },
+        {
           "title": "REBEL HEART",
-          "play_count": 108987980,
+          "play_count": 109057853,
           "uri": "spotify:track:2JoRBbFJyKytt4y3D0HxQu"
         },
         {
           "title": "ATTITUDE",
-          "play_count": 94904621,
+          "play_count": 94981493,
           "uri": "spotify:track:6VBiGpCFThcOFlldRiCPr9"
         },
         {
           "title": "ELEVEN",
-          "play_count": 389402406,
+          "play_count": 389471403,
           "uri": "spotify:track:7n2FZQsaLb7ZRfRPfEeIvr"
         },
         {
           "title": "BLACKHOLE",
-          "play_count": 31390737,
+          "play_count": 31448496,
           "uri": "spotify:track:0MtiWniV24IBXmBPeW1v1m"
         },
         {
           "title": "XOXZ",
-          "play_count": 72645165,
+          "play_count": 72710982,
           "uri": "spotify:track:2f79jWcTf2pxVxDLdxi1Lm"
         }
       ]
@@ -1148,6 +1133,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

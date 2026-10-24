@@ -898,25 +898,15 @@
       "초동_한터": "300,601",
       "누적_한터": "",
       "초동_써클": "300,0**",
-      "누적_써클": "368,466",
+      "누적_써클": "12,037",
       "비고": "Motto",
       "초동_한터_numeric": 300601,
-      "누적_써클_numeric": 368466,
+      "누적_써클_numeric": 12037,
       "monthly_timeline": [
-        {
-          "ym": "2026-05",
-          "sales": 328791,
-          "cumulative": 328791
-        },
-        {
-          "ym": "2026-06",
-          "sales": 27638,
-          "cumulative": 356429
-        },
         {
           "ym": "2026-07",
           "sales": 12037,
-          "cumulative": 368466
+          "cumulative": 12037
         }
       ]
     },
@@ -974,57 +964,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 4005422,
+      "monthly_listeners": 3984054,
       "spotify_id": "2KC9Qb60EaY0kW4eH68vr3",
       "top_tracks": [
         {
           "title": "THAT'S A NO NO",
-          "play_count": 57298925,
+          "play_count": 57377098,
           "uri": "spotify:track:5Dxoukq4UC29A7OjQTbHgw"
         },
         {
           "title": "WANNABE",
-          "play_count": 458216981,
+          "play_count": 458302087,
           "uri": "spotify:track:2IYnnkPXK1zvoCIHAkyiFA"
         },
         {
           "title": "LOCO",
-          "play_count": 321018569,
+          "play_count": 321069914,
           "uri": "spotify:track:6hAznmvhIfHE4vSZYsyONI"
         },
         {
           "title": "Motto",
-          "play_count": 18970134,
+          "play_count": 19017659,
           "uri": "spotify:track:3jVTmARXF5p21gaP9CqITM"
         },
         {
           "title": "달라달라 (DALLA DALLA)",
-          "play_count": 292021263,
+          "play_count": 292061166,
           "uri": "spotify:track:5JA4q7xkeSxmhgfAkPWnWW"
         },
         {
           "title": "Not Shy",
-          "play_count": 280119860,
+          "play_count": 280150177,
           "uri": "spotify:track:3DD2VHxnv7C9Hew8s7Zgjf"
         },
         {
           "title": "Imaginary Friend",
-          "play_count": 42264896,
+          "play_count": 42300937,
           "uri": "spotify:track:3YB8sWCxfQyjevEwCrWdiU"
         },
         {
           "title": "TUNNEL VISION",
-          "play_count": 24816689,
+          "play_count": 24840120,
           "uri": "spotify:track:7InUGlO9nGHcrirzOcQzzT"
         },
         {
           "title": "마.피.아. In the morning",
-          "play_count": 239099122,
+          "play_count": 239125581,
           "uri": "spotify:track:5712uOEqMoPURMtR2QtJGF"
         },
         {
           "title": "Girls Will Be Girls",
-          "play_count": 31851796,
+          "play_count": 31872072,
           "uri": "spotify:track:4YxbIKcZR2EnDLVvC0ztNW"
         }
       ]
@@ -1542,6 +1532,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

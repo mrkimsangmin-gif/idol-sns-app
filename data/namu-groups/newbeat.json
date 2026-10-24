@@ -210,57 +210,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 52306,
+      "monthly_listeners": 52442,
       "spotify_id": "5Zj3vazMOh0sADCiAejr3z",
       "top_tracks": [
         {
           "title": "Look So Good",
-          "play_count": 586703,
+          "play_count": 587506,
           "uri": "spotify:track:7q5g74MfLvv7ZPfUjYmOB4"
         },
         {
           "title": "Flip the Coin",
-          "play_count": 851027,
+          "play_count": 852156,
           "uri": "spotify:track:2ngahTOJYKxjJoeBKAjZQt"
         },
         {
           "title": "HICCUPS",
-          "play_count": 520777,
+          "play_count": 521349,
           "uri": "spotify:track:0snVTgso3ZEHlPij7CQC1g"
         },
         {
           "title": "JeLLo(힘숨찐)",
-          "play_count": 622153,
+          "play_count": 622661,
           "uri": "spotify:track:6m87vdQMpQ2lNavpxGYr2I"
         },
         {
           "title": "F.L.Y(Fu**ing Lovely, Lonely Youth)",
-          "play_count": 231951,
+          "play_count": 232440,
           "uri": "spotify:track:0sgNOzTzuG2WZf3CJFprHG"
         },
         {
           "title": "LOUD",
-          "play_count": 210245,
+          "play_count": 210673,
           "uri": "spotify:track:7akrapN1L7YPkpWBcKI0cU"
         },
         {
           "title": "We Are Young",
-          "play_count": 174830,
+          "play_count": 175256,
           "uri": "spotify:track:4RDn22mKMmgOoZcCCs0TF4"
         },
         {
           "title": "Cappuccino",
-          "play_count": 334854,
+          "play_count": 335226,
           "uri": "spotify:track:6GDSbAtLcpefeOYSRIbVFt"
         },
         {
           "title": "Unbelievable",
-          "play_count": 132816,
+          "play_count": 133078,
           "uri": "spotify:track:2WBFopblihKHG5nTa12wIJ"
         },
         {
           "title": "Natural",
-          "play_count": 166353,
+          "play_count": 166518,
           "uri": "spotify:track:4JX0usI4kACDyCfNCZUAwa"
         }
       ]
@@ -399,6 +399,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

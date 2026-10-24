@@ -66,57 +66,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 104303,
+      "monthly_listeners": 103083,
       "spotify_id": "67PXCkgEZryiYFJw691hPn",
       "top_tracks": [
         {
           "title": "PUSH BACK",
-          "play_count": 1607543,
+          "play_count": 1609465,
           "uri": "spotify:track:2oXZU3GXBaz0NAeswRNZE2"
         },
         {
           "title": "FLY!",
-          "play_count": 684182,
+          "play_count": 685876,
           "uri": "spotify:track:55DiPLEo61Kr6gba1XuKlj"
         },
         {
           "title": "STEP IT UP",
-          "play_count": 1980354,
+          "play_count": 1981964,
           "uri": "spotify:track:1FCj33CWl1pCJnDZZGpF1y"
         },
         {
           "title": "Attent!on",
-          "play_count": 525158,
+          "play_count": 526739,
           "uri": "spotify:track:3kO3SrfGmH6cNr73Sxfx9P"
         },
         {
           "title": "SLOW TIDE",
-          "play_count": 833682,
+          "play_count": 834788,
           "uri": "spotify:track:7mpCjMzECQdL20Gkzra68I"
         },
         {
           "title": "꿈을 꿰뚫는 순간(飛必沖天)",
-          "play_count": 686508,
+          "play_count": 687440,
           "uri": "spotify:track:0cfQUDZT92CB6Pi027eJs6"
         },
         {
           "title": "제멋대로 찬란하게",
-          "play_count": 1083746,
+          "play_count": 1084869,
           "uri": "spotify:track:2IFLWO1orOeeuAUCcTgji3"
         },
         {
           "title": "ImPerfect",
-          "play_count": 598855,
+          "play_count": 599621,
           "uri": "spotify:track:0Td52FQ1YOB9rUDxeKqVcz"
         },
         {
           "title": "꽃피울 CROWN",
-          "play_count": 495358,
+          "play_count": 496137,
           "uri": "spotify:track:31lPa8wC6tI0wdS0wRNp4f"
         },
         {
           "title": "So G.oo.D (네가 미치도록 좋아)",
-          "play_count": 384709,
+          "play_count": 385219,
           "uri": "spotify:track:6qZVbvqb7VJF1zlmTBmdif"
         }
       ]
@@ -202,6 +202,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

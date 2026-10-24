@@ -127,56 +127,56 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 14164,
+      "monthly_listeners": 14032,
       "spotify_id": "4PMPD2EeaqBCSccsWUkgNS",
       "top_tracks": [
         {
           "title": "FUNNY HONEY",
-          "play_count": 416890,
+          "play_count": 417111,
           "uri": "spotify:track:2guEMPi3y839QP04ND5Ui4"
         },
         {
           "title": "UNICA",
-          "play_count": 83177,
+          "play_count": 83321,
           "uri": "spotify:track:0zugPfUBsqRc9q51reXITY"
         },
         {
           "title": "Drama Queen",
-          "play_count": 159202,
+          "play_count": 159285,
           "uri": "spotify:track:4DGVbRseu6wm4iZi25Bcog"
         },
         {
           "title": "LOVE HIGH",
-          "play_count": 92144,
+          "play_count": 92202,
           "uri": "spotify:track:05yQyKQKWFeoL1iU5bzn7f"
         },
         {
           "title": "Bloom Again",
-          "play_count": 39392,
+          "play_count": 39459,
           "uri": "spotify:track:2gHKaA3XhrPHfekRD83LWy"
         },
         {
           "title": "Dreamin'",
-          "play_count": 86734,
+          "play_count": 86810,
           "uri": "spotify:track:18yZ09RjIQcuh3dSLT2H4k"
         },
         {
           "title": "시간을 건너서",
-          "play_count": 35633,
+          "play_count": 35648,
           "uri": "spotify:track:1QNA72uToWwAMQgRXDfoZP"
         },
         {
           "title": "FUNNY HONEY (Inst.)",
-          "play_count": 18960,
+          "play_count": 18979,
           "uri": "spotify:track:5d0Zjjup0omkSen8CanTUB"
         },
         {
           "title": "Drama Queen (Inst.)",
-          "play_count": 8846,
+          "play_count": 8851,
           "uri": "spotify:track:1gl5sEh00GI5p0bshJNjZc"
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

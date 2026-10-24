@@ -140,57 +140,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 46607,
+      "monthly_listeners": 46477,
       "spotify_id": "21reDxe0sRtmiUmBIfffaZ",
       "top_tracks": [
         {
           "title": "TA TA",
-          "play_count": 339967,
+          "play_count": 340771,
           "uri": "spotify:track:6pW5jh7hSuv4rNdmmeovmp"
         },
         {
           "title": "KILL MA BO$$",
-          "play_count": 718728,
+          "play_count": 719367,
           "uri": "spotify:track:2Fi5t4tvfo4jJK6MFLgUcw"
         },
         {
           "title": "BANG BANG!",
-          "play_count": 549720,
+          "play_count": 550328,
           "uri": "spotify:track:3slGM2bvDw2tNpsbxOZLPR"
         },
         {
           "title": "ZILLER!",
-          "play_count": 281270,
+          "play_count": 281577,
           "uri": "spotify:track:2nN9LqqBFhquYyqgjO0bKf"
         },
         {
           "title": "SNS (SWEET N SOUR)",
-          "play_count": 141650,
+          "play_count": 141962,
           "uri": "spotify:track:4HadBMM4JnJdBu0noyiUug"
         },
         {
           "title": "R.U.T",
-          "play_count": 144520,
+          "play_count": 144824,
           "uri": "spotify:track:6hCWt5PlPDgrSSU1NWowbX"
         },
         {
           "title": "D.D.D.D",
-          "play_count": 181344,
+          "play_count": 181632,
           "uri": "spotify:track:5I4BqleDs3q0qVvoMZplK7"
         },
         {
           "title": "KIIRASMAS",
-          "play_count": 82105,
+          "play_count": 82238,
           "uri": "spotify:track:4ZS0ihT9lEzL4MKjDip7N5"
         },
         {
           "title": "KILL MA BO$$ (Real Country Mix ver.)",
-          "play_count": 53173,
+          "play_count": 53260,
           "uri": "spotify:track:5TIc2ImHypzgPaI7AZIkbg"
         },
         {
           "title": "KILL MA BO$$ (Instrumental)",
-          "play_count": 28648,
+          "play_count": 28693,
           "uri": "spotify:track:6htaU50pkGnLKpZWL2lXdG"
         }
       ]
@@ -294,6 +294,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

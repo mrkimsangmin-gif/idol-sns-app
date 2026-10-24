@@ -164,31 +164,16 @@
       "초동_한터": "7,600",
       "누적_한터": "",
       "초동_써클": "556,984",
-      "누적_써클": "617,643",
+      "누적_써클": "5,577",
       "비고": "X, SOB (with Imanbek)",
-      "누적_써클_numeric": 617643,
+      "누적_써클_numeric": 5577,
       "초동_써클_numeric": 556984,
       "초동_한터_numeric": 7600,
       "monthly_timeline": [
         {
-          "ym": "2025-11",
-          "sales": 555274,
-          "cumulative": 555274
-        },
-        {
-          "ym": "2026-05",
-          "sales": 33680,
-          "cumulative": 588954
-        },
-        {
-          "ym": "2026-06",
-          "sales": 23112,
-          "cumulative": 612066
-        },
-        {
           "ym": "2026-07",
           "sales": 5577,
-          "cumulative": 617643
+          "cumulative": 5577
         }
       ]
     },
@@ -275,57 +260,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 820843,
+      "monthly_listeners": 817400,
       "spotify_id": "1gyIB8QvgXCZsEghjwTDL5",
       "top_tracks": [
         {
           "title": "Open Your Eyes",
-          "play_count": 1455830,
+          "play_count": 1480569,
           "uri": "spotify:track:4UiSq0wCiMwKCQE7TYIpWI"
         },
         {
           "title": "Slowly Bleed",
-          "play_count": 687554,
+          "play_count": 705268,
           "uri": "spotify:track:0bmbOqiclWD4h5jXv5Wgtu"
         },
         {
           "title": "X",
-          "play_count": 9120603,
+          "play_count": 9137329,
           "uri": "spotify:track:2oZ2EKWo51eXQsn83pjNvj"
         },
         {
           "title": "내 안의 모든 시와 소설은",
-          "play_count": 9612897,
+          "play_count": 9624722,
           "uri": "spotify:track:1qGihPwp76LainqxoRQ4Y0"
         },
         {
           "title": "Drop That!",
-          "play_count": 422828,
+          "play_count": 431216,
           "uri": "spotify:track:0yIytxEHCvUcSCVRvwwXEi"
         },
         {
           "title": "Vibe Check",
-          "play_count": 301061,
+          "play_count": 308642,
           "uri": "spotify:track:4FblTDYGFXmdoL2tOOS8th"
         },
         {
           "title": "Baby Bossa Nova",
-          "play_count": 271425,
+          "play_count": 277878,
           "uri": "spotify:track:0ZSkp7U1ZSirJOIYEsTBQv"
         },
         {
           "title": "Fool For You",
-          "play_count": 240696,
+          "play_count": 248005,
           "uri": "spotify:track:43OK0lMEm8QDenFB2j2HNU"
         },
         {
           "title": "빗속에서 춤추는 법",
-          "play_count": 3554877,
+          "play_count": 3560158,
           "uri": "spotify:track:17TLMCiWbRnNblIfXiDLfF"
         },
         {
           "title": "What If I Miss Love?",
-          "play_count": 1647576,
+          "play_count": 1652716,
           "uri": "spotify:track:0b9coxgVZsElcPHdumwfvM"
         }
       ]
@@ -484,6 +469,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

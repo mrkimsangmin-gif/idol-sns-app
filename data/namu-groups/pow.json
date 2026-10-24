@@ -315,57 +315,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 74043,
+      "monthly_listeners": 73970,
       "spotify_id": "3aycZMYDTnN0trM2XnTI4Y",
       "top_tracks": [
         {
           "title": "Favorite",
-          "play_count": 3815607,
+          "play_count": 3817028,
           "uri": "spotify:track:02qdS2zq2LYGkSOr3Q7gMm"
         },
         {
           "title": "Flavor",
-          "play_count": 222279,
+          "play_count": 223205,
           "uri": "spotify:track:7hWMVNpNSjD1meUG4Fcebh"
         },
         {
           "title": "Love Again",
-          "play_count": 33795,
+          "play_count": 35575,
           "uri": "spotify:track:61ALc2kHT3xa0gJ1meg9Ak"
         },
         {
           "title": "Still Choosing You",
-          "play_count": 160090,
+          "play_count": 160937,
           "uri": "spotify:track:7vDV3iSqre2AkPWEOZPMAZ"
         },
         {
           "title": "Dazzling",
-          "play_count": 2807967,
+          "play_count": 2808782,
           "uri": "spotify:track:7nJyY4piYE68bRfMTdeS5V"
         },
         {
           "title": "Valentine",
-          "play_count": 2881807,
+          "play_count": 2882807,
           "uri": "spotify:track:7soqW0C2hCCblU402zUalw"
         },
         {
           "title": "Come True (feat. Shin Onyu of Shin In Ryu)",
-          "play_count": 691178,
+          "play_count": 691824,
           "uri": "spotify:track:0qtrYviuHe78ta3I6Y9xwN"
         },
         {
           "title": "Happy Depression",
-          "play_count": 186931,
+          "play_count": 187511,
           "uri": "spotify:track:5DzZm8NYsDb8OlkAUbTPDL"
         },
         {
           "title": "WHY",
-          "play_count": 256581,
+          "play_count": 257192,
           "uri": "spotify:track:64Cr4MVETK25mgMAz8Vugp"
         },
         {
           "title": "Wall Flowers",
-          "play_count": 1411323,
+          "play_count": 1412140,
           "uri": "spotify:track:7hH6xRAqH9yCkPfRVDGHrt"
         }
       ]
@@ -523,6 +523,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

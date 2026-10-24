@@ -211,57 +211,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 51812,
+      "monthly_listeners": 51442,
       "spotify_id": "5Sso2rRE8bs9Ff6bkfqUKe",
       "top_tracks": [
         {
           "title": "UNO",
-          "play_count": 4198208,
+          "play_count": 4199383,
           "uri": "spotify:track:4gB2g4D9WB1L60901tJX2f"
         },
         {
           "title": "사랑, 두려움",
-          "play_count": 1306656,
+          "play_count": 1307172,
           "uri": "spotify:track:1pLMNDbYPRpYy1C5vtl3ke"
         },
         {
           "title": "안 봐도 비디오 (Super Obvious)",
-          "play_count": 441497,
+          "play_count": 442104,
           "uri": "spotify:track:077jEiOrEal1E7iGANgexy"
         },
         {
           "title": "PUNG!",
-          "play_count": 264215,
+          "play_count": 264607,
           "uri": "spotify:track:3f5DP1avcKCiDOkJq40Vqf"
         },
         {
           "title": "SATURN",
-          "play_count": 490553,
+          "play_count": 490968,
           "uri": "spotify:track:74ylcg32sIFfh8QgL7fW0A"
         },
         {
           "title": "DADARIDA",
-          "play_count": 842868,
+          "play_count": 843190,
           "uri": "spotify:track:57IwiEpmnSWwcKpNATXpCE"
         },
         {
           "title": "DOPAMINE",
-          "play_count": 585805,
+          "play_count": 586019,
           "uri": "spotify:track:50XP9wds6SrbYd6Ws422ME"
         },
         {
           "title": "TIMELINE",
-          "play_count": 405539,
+          "play_count": 405654,
           "uri": "spotify:track:5VoO2cXFYThfJatND7cujG"
         },
         {
           "title": "UNO - YONAKA ver.",
-          "play_count": 386188,
+          "play_count": 386237,
           "uri": "spotify:track:5PhyMZfcddYmadaJjTRPgh"
         },
         {
           "title": "SATURN - Accapella",
-          "play_count": 95428,
+          "play_count": 95469,
           "uri": "spotify:track:3T64Nslbov44kluyrWDDjD"
         }
       ]
@@ -607,6 +607,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

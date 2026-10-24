@@ -225,57 +225,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 3729749,
+      "monthly_listeners": 3722706,
       "spotify_id": "63sat2XSMKdwKfqspmYQKP",
       "top_tracks": [
         {
           "title": "404 (New Era)",
-          "play_count": 90224420,
+          "play_count": 90440899,
           "uri": "spotify:track:1rEa59P5yEal5cp1h7kl2e"
         },
         {
           "title": "Pop Off Pop Off",
-          "play_count": 19974375,
+          "play_count": 20153872,
           "uri": "spotify:track:3lKENzQzOnbXmo8FBtb7el"
         },
         {
           "title": "Delulu",
-          "play_count": 27343116,
+          "play_count": 27402478,
           "uri": "spotify:track:5KCIrYoBUmQbW2FBoOL4Q0"
         },
         {
           "title": "Candy Pink Magic Hole Flip Phone",
-          "play_count": 5610992,
+          "play_count": 5653644,
           "uri": "spotify:track:5ImBkrqjl1xCxJK7yNDOsq"
         },
         {
           "title": "I DO ME",
-          "play_count": 43368751,
+          "play_count": 43410154,
           "uri": "spotify:track:6qmfxmtoNEzqucF1FWeXl8"
         },
         {
           "title": "SWEET SOUR",
-          "play_count": 4349572,
+          "play_count": 4380877,
           "uri": "spotify:track:6rxI9oyEVFOuD2pCaVCAK5"
         },
         {
           "title": "DANCING ALONE",
-          "play_count": 19941597,
+          "play_count": 19974022,
           "uri": "spotify:track:6vN4qMlor4D2U7a7BzSQI5"
         },
         {
           "title": "Ever2Late!",
-          "play_count": 3855537,
+          "play_count": 3881269,
           "uri": "spotify:track:40OzW0BjMGaPeM2rYJg5Pk"
         },
         {
           "title": "Hey Hi",
-          "play_count": 2620394,
+          "play_count": 2633773,
           "uri": "spotify:track:1QZMLv1MHxSZaiY14CbqAf"
         },
         {
           "title": "Blue Hour",
-          "play_count": 2150360,
+          "play_count": 2161392,
           "uri": "spotify:track:2DkEV6qRUHjI4XfOlVdUsu"
         }
       ]
@@ -424,6 +424,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

@@ -301,57 +301,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 732435,
+      "monthly_listeners": 728943,
       "spotify_id": "7Lq3yAtwi0Z7zpxEwbQQNZ",
       "top_tracks": [
         {
           "title": "MANIAC",
-          "play_count": 144544504,
+          "play_count": 144572382,
           "uri": "spotify:track:35ZccqI4iHVR0puhGc1u0U"
         },
         {
           "title": "Shhh!",
-          "play_count": 22696737,
+          "play_count": 22704484,
           "uri": "spotify:track:55sQksosEmdlCZvU5JcuOV"
         },
         {
           "title": "BOP BOP!",
-          "play_count": 38893242,
+          "play_count": 38898800,
           "uri": "spotify:track:2AwqzgFzSptWquSdz5qCPX"
         },
         {
           "title": "La La Love Me",
-          "play_count": 7549337,
+          "play_count": 7553388,
           "uri": "spotify:track:6l0bVqiuv0HE7FxUG1TOkA"
         },
         {
           "title": "Untie",
-          "play_count": 12638268,
+          "play_count": 12642036,
           "uri": "spotify:track:7sGf2pzXXjDftDJ4ukbep5"
         },
         {
           "title": "PULL UP",
-          "play_count": 12392394,
+          "play_count": 12393891,
           "uri": "spotify:track:08lU6zzHPi6qH26kCgVcoP"
         },
         {
           "title": "Cliché",
-          "play_count": 2382790,
+          "play_count": 2383976,
           "uri": "spotify:track:6dpCPillXgu3JhRtKSJBKC"
         },
         {
           "title": "Purr",
-          "play_count": 12691150,
+          "play_count": 12692356,
           "uri": "spotify:track:5T5OjYnQ9yemW2Eqn9piCx"
         },
         {
           "title": "Love Love Love",
-          "play_count": 4886107,
+          "play_count": 4887234,
           "uri": "spotify:track:4n6yAWQeTukuEEk2xGuWRi"
         },
         {
           "title": "LOVEADE",
-          "play_count": 8430915,
+          "play_count": 8431807,
           "uri": "spotify:track:1izYYHPd5sTQlVVe5YferR"
         }
       ]
@@ -681,6 +681,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

@@ -232,57 +232,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 272670,
+      "monthly_listeners": 267061,
       "spotify_id": "2m5lRlEucobWPA1V6xqxWO",
       "top_tracks": [
         {
           "title": "DANG DANG",
-          "play_count": 421404,
+          "play_count": 427086,
           "uri": "spotify:track:0ZkCSH8wiHEkY7S4luv8CM"
         },
         {
           "title": "도깨비(SHOCK)",
-          "play_count": 6356676,
+          "play_count": 6363509,
           "uri": "spotify:track:0F2s3Lc7LeAlt2w7OokIoL"
         },
         {
           "title": "DEAD MAN WALKING",
-          "play_count": 2055023,
+          "play_count": 2061652,
           "uri": "spotify:track:523i3lvg9ih2bgsMZZCLSX"
         },
         {
           "title": "GIMME GIMME",
-          "play_count": 5377446,
+          "play_count": 5383945,
           "uri": "spotify:track:4QTDaL72TntzXCeoHrl6Cx"
         },
         {
           "title": "HOP",
-          "play_count": 370052,
+          "play_count": 372745,
           "uri": "spotify:track:6yHGLTae4jg3459vPQwSEp"
         },
         {
           "title": "으랏차차(GOTCHA)",
-          "play_count": 2400125,
+          "play_count": 2402057,
           "uri": "spotify:track:02rhdB4VphNx89HO1ER4cN"
         },
         {
           "title": "WAO WAO",
-          "play_count": 1761057,
+          "play_count": 1763550,
           "uri": "spotify:track:1VEcURw5AJrI4OIqBMO07q"
         },
         {
           "title": "헤엄",
-          "play_count": 110911,
+          "play_count": 111978,
           "uri": "spotify:track:0tJQlPKQJHsAlhgGiEPoUJ"
         },
         {
           "title": "READY 2 RUMBLE",
-          "play_count": 1217754,
+          "play_count": 1219315,
           "uri": "spotify:track:1Vj1oP3Z1PJXsU2HpgEPvO"
         },
         {
           "title": "Only Me",
-          "play_count": 82658,
+          "play_count": 83181,
           "uri": "spotify:track:6Rnt0bnygHONj8roxTmfaz"
         }
       ]
@@ -474,6 +474,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

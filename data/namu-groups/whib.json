@@ -205,57 +205,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 92527,
+      "monthly_listeners": 92080,
       "spotify_id": "4pTBL6fTowmWTa61ef7RNb",
       "top_tracks": [
         {
           "title": "CHERRY PIE",
-          "play_count": 173787,
+          "play_count": 175007,
           "uri": "spotify:track:233xgksBgzpEwH9tKiAzz9"
         },
         {
           "title": "ELEVATE",
-          "play_count": 352751,
+          "play_count": 353585,
           "uri": "spotify:track:2QCOgZ74aR4WG77yBOaEnb"
         },
         {
           "title": "CAN'T STOP=NOT FOUND",
-          "play_count": 91837,
+          "play_count": 92901,
           "uri": "spotify:track:0z1ghoUrYoGzkceFZOYzaz"
         },
         {
           "title": "ROCK THE NATION",
-          "play_count": 474926,
+          "play_count": 475983,
           "uri": "spotify:track:5eUqyBKFdnSDjaljStvIbC"
         },
         {
           "title": "First Love Never Die",
-          "play_count": 121308,
+          "play_count": 121796,
           "uri": "spotify:track:0dgHPk3y48Mnic1f2sFJEp"
         },
         {
           "title": "MAKE IT",
-          "play_count": 61481,
+          "play_count": 62123,
           "uri": "spotify:track:0behLiEAgeao9Gj6nWhy3r"
         },
         {
           "title": "NO SHINE",
-          "play_count": 220256,
+          "play_count": 220668,
           "uri": "spotify:track:1qpH1kzZxGPEfz8kUHqjXR"
         },
         {
           "title": "PAGES OF US",
-          "play_count": 58998,
+          "play_count": 59576,
           "uri": "spotify:track:3yYlEAbb7rUd4qskbWdyBi"
         },
         {
           "title": "BANG OUT",
-          "play_count": 527061,
+          "play_count": 527606,
           "uri": "spotify:track:4DTxOXmrJsgDkiSl1nCapH"
         },
         {
           "title": "Still typing.. (부제: 빈칸)",
-          "play_count": 363982,
+          "play_count": 364484,
           "uri": "spotify:track:0dEpctQ4a01K7xtl3QhnXt"
         }
       ]
@@ -368,6 +368,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

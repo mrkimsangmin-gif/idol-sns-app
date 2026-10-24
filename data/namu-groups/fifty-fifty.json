@@ -508,57 +508,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 5983964,
+      "monthly_listeners": 5974967,
       "spotify_id": "4GJ6xDCF5jaUqD6avOuQT6",
       "top_tracks": [
         {
           "title": "Cupid - Twin Version",
-          "play_count": 1032727927,
+          "play_count": 1032968975,
           "uri": "spotify:track:53DDMPqgMWNrEeE3NjThKE"
         },
         {
           "title": "Cupid",
-          "play_count": 310006427,
+          "play_count": 310145157,
           "uri": "spotify:track:4TqmTBSWsZXMj3LouLEvXn"
         },
         {
           "title": "Cupid – Twin Ver. (feat. Sabrina Carpenter)",
-          "play_count": 50779604,
+          "play_count": 50818801,
           "uri": "spotify:track:6Ft6nfssjDYmgmXF19poJE"
         },
         {
           "title": "Gravity",
-          "play_count": 11736382,
+          "play_count": 11752297,
           "uri": "spotify:track:0WB00P7RnB46lQVjIDhYiV"
         },
         {
           "title": "Tell Me",
-          "play_count": 54414482,
+          "play_count": 54427650,
           "uri": "spotify:track:7Laseg0WUtMJEHRv5A10T3"
         },
         {
           "title": "Cupid - Twin Ver. (FIFTY FIFTY) - Sped Up Version",
-          "play_count": 34158326,
+          "play_count": 34172122,
           "uri": "spotify:track:76V1WuoxMcMG52jc8ifZVX"
         },
         {
           "title": "Pookie",
-          "play_count": 14857214,
+          "play_count": 14869988,
           "uri": "spotify:track:6vw9OTw8rBhatDSdlxVIuF"
         },
         {
           "title": "SOS",
-          "play_count": 23452485,
+          "play_count": 23461559,
           "uri": "spotify:track:3X76Lal4GwBFqriHz1FbLU"
         },
         {
           "title": "Cupid (Twin Ver.) - Live Studio Version OT4",
-          "play_count": 95833242,
+          "play_count": 95841987,
           "uri": "spotify:track:4gXHG9domIKO6FIViDISA4"
         },
         {
           "title": "Barbie Dreams (feat. Kaliii) [From Barbie The Album]",
-          "play_count": 51811502,
+          "play_count": 51818443,
           "uri": "spotify:track:7njDhlprmHJ1I9pM0rxMON"
         }
       ]
@@ -878,6 +878,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

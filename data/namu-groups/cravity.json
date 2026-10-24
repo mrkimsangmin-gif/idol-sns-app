@@ -749,57 +749,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 285475,
+      "monthly_listeners": 286642,
       "spotify_id": "6FkhUhUwSPl3mGB6mmE8wn",
       "top_tracks": [
         {
           "title": "LOUDER",
-          "play_count": 327597,
+          "play_count": 335086,
           "uri": "spotify:track:4k4jZ2V6kZjsuDOLqvRTbl"
         },
         {
           "title": "LOVE ME",
-          "play_count": 133974,
+          "play_count": 137552,
           "uri": "spotify:track:3qa8Wtj4XuEdob1OkxsM1q"
         },
         {
           "title": "AWAKE",
-          "play_count": 1390492,
+          "play_count": 1393164,
           "uri": "spotify:track:0roHd2LRFRPs9QE6bf4Tzi"
         },
         {
           "title": "Love or Die",
-          "play_count": 7485851,
+          "play_count": 7488459,
           "uri": "spotify:track:6UyOqNdJweSjjZsguSgYO1"
         },
         {
           "title": "Fantasy",
-          "play_count": 91388,
+          "play_count": 92870,
           "uri": "spotify:track:2qrmXTrzR5oYnU7l3waWMc"
         },
         {
           "title": "Seize The Night",
-          "play_count": 90399,
+          "play_count": 92173,
           "uri": "spotify:track:2XCj3EjZqBH4LCsAy0X8Dp"
         },
         {
           "title": "Lucky Charm",
-          "play_count": 87179,
+          "play_count": 88594,
           "uri": "spotify:track:56MPTndyrAtcGqYX6j0cxa"
         },
         {
           "title": "Lemonade Fever",
-          "play_count": 1543480,
+          "play_count": 1545177,
           "uri": "spotify:track:6tywjVskwCOlog3bRWus42"
         },
         {
           "title": "Odd One Out",
-          "play_count": 81539,
+          "play_count": 83293,
           "uri": "spotify:track:5EMXPuErLbQf8IDTdclf2G"
         },
         {
           "title": "Pulse",
-          "play_count": 82476,
+          "play_count": 83909,
           "uri": "spotify:track:0REKydLE4JUnPS0PEqplLB"
         }
       ]
@@ -1174,6 +1174,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

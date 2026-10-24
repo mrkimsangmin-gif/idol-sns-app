@@ -807,25 +807,15 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "796,505",
-      "누적_써클": "821,109",
+      "누적_써클": "18,006",
       "비고": "",
-      "누적_써클_numeric": 821109,
+      "누적_써클_numeric": 18006,
       "초동_써클_numeric": 796505,
       "monthly_timeline": [
         {
-          "ym": "2025-03",
-          "sales": 796505,
-          "cumulative": 796505
-        },
-        {
-          "ym": "2025-04",
-          "sales": 6598,
-          "cumulative": 803103
-        },
-        {
           "ym": "2026-09",
           "sales": 18006,
-          "cumulative": 821109
+          "cumulative": 18006
         }
       ]
     },
@@ -862,61 +852,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1843362,
+      "monthly_listeners": 1843308,
       "spotify_id": "3KonOYiLsU53m4yT7gNotP",
       "top_tracks": [
         {
           "title": "IF I",
-          "play_count": 26376234,
+          "play_count": 26409164,
           "uri": "spotify:track:6m0pwEawaU2NIygsdc8OPP"
         },
         {
           "title": "다라리 (DARARI)",
-          "play_count": 282999104,
+          "play_count": 283045496,
           "uri": "spotify:track:0dcnrLo8s1rhjm8euGjI4n"
         },
         {
           "title": "HELLO",
-          "play_count": 98065431,
+          "play_count": 98081511,
           "uri": "spotify:track:1ex8euBuzVyqjThnYfwY2k"
         },
         {
           "title": "YELLOW",
-          "play_count": 39492653,
+          "play_count": 39517427,
           "uri": "spotify:track:7jKwFhIqA1a1HLk6AsVDYc"
         },
         {
           "title": "ZOOM ZOOM",
-          "play_count": 8867723,
+          "play_count": 8886079,
           "uri": "spotify:track:098yqVQHwObj19A8Uv5Odu"
         },
         {
           "title": "직진 (JIKJIN)",
-          "play_count": 150379934,
+          "play_count": 150404322,
           "uri": "spotify:track:2bnJ8IxZnVc2YmUaX0sZap"
         },
         {
           "title": "난리나 (NALLY-NA) (HYUNHAYO)",
-          "play_count": 7913474,
+          "play_count": 7927892,
           "uri": "spotify:track:3twfdYYw1Taz2SQZfnvy3J"
         },
         {
           "title": "PARADISE",
-          "play_count": 25413474,
+          "play_count": 25428402,
           "uri": "spotify:track:20pXBnV8q1xnWzSijxq6QM"
         },
         {
           "title": "DANGER",
-          "play_count": 6254604,
+          "play_count": 6266543,
           "uri": "spotify:track:6b4izesieqwehnnyg8uFCP"
         },
         {
           "title": "LAST NIGHT",
-          "play_count": 25665430,
+          "play_count": 25676162,
           "uri": "spotify:track:21z4JbxYftHk9Ertnhv3xB"
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

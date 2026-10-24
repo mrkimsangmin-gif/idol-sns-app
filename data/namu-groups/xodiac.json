@@ -385,57 +385,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 51577,
+      "monthly_listeners": 51613,
       "spotify_id": "1Yhs3H3tkZhk4mSQgzECWb",
       "top_tracks": [
         {
           "title": "SPECIAL LOVE",
-          "play_count": 7844706,
+          "play_count": 7846056,
           "uri": "spotify:track:11RrLN6I83tZKAKBxkPSsn"
         },
         {
           "title": "Phantom Fire",
-          "play_count": 264309,
+          "play_count": 265050,
           "uri": "spotify:track:6E5gWgB01IW8I0pihtHia8"
         },
         {
           "title": "HEYDAY",
-          "play_count": 2819598,
+          "play_count": 2820395,
           "uri": "spotify:track:4F06nQOQWNVREhOU8iax6Y"
         },
         {
           "title": "Alibi",
-          "play_count": 567346,
+          "play_count": 567824,
           "uri": "spotify:track:5DCbuNL8WLu82xTobkyznj"
         },
         {
           "title": "LEMONADE",
-          "play_count": 2854617,
+          "play_count": 2855148,
           "uri": "spotify:track:1DcgCdbq9EFIbCHRDrcWLu"
         },
         {
           "title": "THROW A DICE",
-          "play_count": 3488892,
+          "play_count": 3489404,
           "uri": "spotify:track:0IpOdu8u7wev6QegkGguEb"
         },
         {
           "title": "OUR DAYS",
-          "play_count": 1091515,
+          "play_count": 1091972,
           "uri": "spotify:track:31SfUhe4smQ6X31pmE9u4L"
         },
         {
           "title": "ONLY FUN",
-          "play_count": 1881004,
+          "play_count": 1881391,
           "uri": "spotify:track:4R1jgnxwFfRykfmTtUn2SX"
         },
         {
           "title": "MY LOVE",
-          "play_count": 724661,
+          "play_count": 725046,
           "uri": "spotify:track:4NjFEj9xWhZx34LvawNyj8"
         },
         {
           "title": "TIME 2 SHINE",
-          "play_count": 722385,
+          "play_count": 722739,
           "uri": "spotify:track:4l2O1DETs5DkWj213pZdua"
         }
       ]
@@ -628,6 +628,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

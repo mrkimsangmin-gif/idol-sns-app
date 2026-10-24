@@ -208,57 +208,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 52467,
+      "monthly_listeners": 52372,
       "spotify_id": "4hozqATxbpy9TwKWRT8QVO",
       "top_tracks": [
         {
           "title": "빔밤붐 (BIM BAM BUM)",
-          "play_count": 9651217,
+          "play_count": 9652246,
           "uri": "spotify:track:7JfqtEztxAA11Q7O9N6ryT"
         },
         {
           "title": "Ring Ring",
-          "play_count": 6378359,
+          "play_count": 6378994,
           "uri": "spotify:track:1LmAeYKwK2BA2FFUMyTXD2"
         },
         {
           "title": "FLASH",
-          "play_count": 3732405,
+          "play_count": 3733072,
           "uri": "spotify:track:2Purw8ZAANLan4cMqsKVp7"
         },
         {
           "title": "CHIQUITA",
-          "play_count": 3728005,
+          "play_count": 3728410,
           "uri": "spotify:track:0dap7YUNPlUiEPYSA1bRg3"
         },
         {
           "title": "BOUNCY",
-          "play_count": 4351911,
+          "play_count": 4352258,
           "uri": "spotify:track:4e2jwApIRQsKPOwymevCFu"
         },
         {
           "title": "JUICY",
-          "play_count": 2341712,
+          "play_count": 2341908,
           "uri": "spotify:track:3u5G198W9Bnp0pmehuw53F"
         },
         {
           "title": "BOOM",
-          "play_count": 1106945,
+          "play_count": 1107124,
           "uri": "spotify:track:7snU7ER25gz87VKZ53ejS8"
         },
         {
           "title": "Moon Prism",
-          "play_count": 635503,
+          "play_count": 635681,
           "uri": "spotify:track:3CsMnqJ2TcPGSIjYhb9Q9k"
         },
         {
           "title": "주인공 (In My World)",
-          "play_count": 724297,
+          "play_count": 724403,
           "uri": "spotify:track:1qzezxpVXpSq2fk2IgmuNq"
         },
         {
           "title": "Love Is Over",
-          "play_count": 1467174,
+          "play_count": 1467283,
           "uri": "spotify:track:0VRvOPeuLKfr6ypuDf1y5Y"
         }
       ]
@@ -582,6 +582,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

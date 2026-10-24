@@ -213,57 +213,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 60679,
+      "monthly_listeners": 59968,
       "spotify_id": "4YsiijJHnCAjqS9cIXNoTI",
       "top_tracks": [
         {
           "title": ".exe",
-          "play_count": 217968,
+          "play_count": 219028,
           "uri": "spotify:track:47tNuRGKyCYSLZF8YqAKZ6"
         },
         {
           "title": "N.I.N (New is Now)",
-          "play_count": 769523,
+          "play_count": 770386,
           "uri": "spotify:track:0F2ntvKX2dNrY8DEEePCHC"
         },
         {
           "title": "POP IT LIKE",
-          "play_count": 415583,
+          "play_count": 416045,
           "uri": "spotify:track:0gvr5CBsUgd1PlYsHmvJ3V"
         },
         {
           "title": "LIFE IN COLOR",
-          "play_count": 77888,
+          "play_count": 78222,
           "uri": "spotify:track:5dSnEAtZcACGFo51lrSFle"
         },
         {
           "title": "LOCKED IN",
-          "play_count": 68467,
+          "play_count": 68766,
           "uri": "spotify:track:4ZcKXzgW8ZG6BN8qh7rXAh"
         },
         {
           "title": "MAKE YOU MOVE",
-          "play_count": 287883,
+          "play_count": 288183,
           "uri": "spotify:track:4Dz5hTUW0jNghlgzJHAyRf"
         },
         {
           "title": "무한대 (無限大)",
-          "play_count": 624179,
+          "play_count": 624558,
           "uri": "spotify:track:3QhIdQkVUI0tXOnxumSGWf"
         },
         {
           "title": "W.T.F(un)",
-          "play_count": 57620,
+          "play_count": 57887,
           "uri": "spotify:track:5vij7I77nqsehXVzgicZKQ"
         },
         {
           "title": "Silhouette",
-          "play_count": 168474,
+          "play_count": 168702,
           "uri": "spotify:track:7cfolLdAVa56V1ltaIj6O0"
         },
         {
           "title": "n (number of cases)",
-          "play_count": 303150,
+          "play_count": 303364,
           "uri": "spotify:track:33nC9lajf4bWI12PooiOKF"
         }
       ]
@@ -401,6 +401,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

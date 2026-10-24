@@ -285,57 +285,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 114858,
+      "monthly_listeners": 113453,
       "spotify_id": "6ypgjfzuOVkVw9FEyh2UD5",
       "top_tracks": [
         {
           "title": "U so hot",
-          "play_count": 621964,
+          "play_count": 624120,
           "uri": "spotify:track:3bFJ65huxQw84xttnbDyX6"
         },
         {
           "title": "DESERVED",
-          "play_count": 3463458,
+          "play_count": 3465489,
           "uri": "spotify:track:33iEkYyCgQBJNTRN2fkY4S"
         },
         {
           "title": "YES, NO, MAYBE",
-          "play_count": 1354640,
+          "play_count": 1356208,
           "uri": "spotify:track:0tdwohWGtZzDZq9DQ055A9"
         },
         {
           "title": "Whts yo name",
-          "play_count": 238130,
+          "play_count": 238880,
           "uri": "spotify:track:5Zv98OJwxAwCdXTRzUGiHw"
         },
         {
           "title": "100!",
-          "play_count": 1437589,
+          "play_count": 1438267,
           "uri": "spotify:track:2Zd5mKEDcw4I5ykv5ZQGyZ"
         },
         {
           "title": "Must Be Nice",
-          "play_count": 3079893,
+          "play_count": 3080945,
           "uri": "spotify:track:4d0muahFRLMhzC4fZbzSey"
         },
         {
           "title": "Pull Up",
-          "play_count": 397731,
+          "play_count": 398456,
           "uri": "spotify:track:79MExvq75fclMHnLMLHcc1"
         },
         {
           "title": "SANE",
-          "play_count": 438449,
+          "play_count": 439069,
           "uri": "spotify:track:1xvKv2s1glXmM7r7onnU0s"
         },
         {
           "title": "lucky",
-          "play_count": 537637,
+          "play_count": 538239,
           "uri": "spotify:track:2vTJYJEVcDS2CmUxpdn7WW"
         },
         {
           "title": "FXX OFF",
-          "play_count": 1196957,
+          "play_count": 1197549,
           "uri": "spotify:track:3Mx5JKcm5zjlWaLjGtquV7"
         }
       ]
@@ -634,6 +634,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

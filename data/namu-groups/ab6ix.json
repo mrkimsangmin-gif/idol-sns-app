@@ -708,57 +708,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 110641,
+      "monthly_listeners": 110406,
       "spotify_id": "4y0wFJ5jmCUNRLZfsw1I7g",
       "top_tracks": [
         {
           "title": "BREATHE",
-          "play_count": 30762253,
+          "play_count": 30764466,
           "uri": "spotify:track:4XbyRgWe6yU4wE6WShdTEs"
         },
         {
           "title": "BLIND FOR LOVE",
-          "play_count": 10237362,
+          "play_count": 10237930,
           "uri": "spotify:track:4bUkJxCgAY9e9Tb0r4vOoy"
         },
         {
           "title": "ROSE, SCENT, KISS",
-          "play_count": 8585753,
+          "play_count": 8586479,
           "uri": "spotify:track:5eOb7OPhOkN0gUicVIcOCH"
         },
         {
           "title": "CLOSE",
-          "play_count": 6516109,
+          "play_count": 6516577,
           "uri": "spotify:track:5CXbZ60u7fq4UjlLnOig5Q"
         },
         {
           "title": "MOONDANCE",
-          "play_count": 4706376,
+          "play_count": 4706804,
           "uri": "spotify:track:3hGQn8GEEjsJD558f6qAtd"
         },
         {
           "title": "THE ANSWER",
-          "play_count": 8022806,
+          "play_count": 8023180,
           "uri": "spotify:track:1L1N5X35wFk8d5VlyNy2Oa"
         },
         {
           "title": "STUPID",
-          "play_count": 416482,
+          "play_count": 416731,
           "uri": "spotify:track:73zoJOtMEpGqWLGIOCChSz"
         },
         {
           "title": "CHERRY",
-          "play_count": 4007568,
+          "play_count": 4007849,
           "uri": "spotify:track:5UCTT2liT61iPL2cCV9Gto"
         },
         {
           "title": "Fallin’ (Adrenaline) - AB6IX Remix",
-          "play_count": 4040056,
+          "play_count": 4040324,
           "uri": "spotify:track:2c7h4G9kkMxeKCgh6Md7VR"
         },
         {
           "title": "SHINING STARS",
-          "play_count": 3729138,
+          "play_count": 3729332,
           "uri": "spotify:track:03zPSjqUGeGKCSbNoQJBqd"
         }
       ]
@@ -1306,6 +1306,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

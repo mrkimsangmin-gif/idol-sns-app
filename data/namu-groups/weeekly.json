@@ -447,57 +447,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 550320,
+      "monthly_listeners": 547064,
       "spotify_id": "73B9bjqS2Z5KLXNGqXf64m",
       "top_tracks": [
         {
           "title": "After School",
-          "play_count": 234599074,
+          "play_count": 234626627,
           "uri": "spotify:track:52CBUrIdyf8tbZaUY9iawE"
         },
         {
           "title": "Tag Me (@Me)",
-          "play_count": 12063482,
+          "play_count": 12064711,
           "uri": "spotify:track:4Zv9jfmPxCmn7NFHvSCwO4"
         },
         {
           "title": "Holiday Party",
-          "play_count": 15248395,
+          "play_count": 15249324,
           "uri": "spotify:track:1oVEVmVaI590kt8bCZ90uU"
         },
         {
           "title": "Ven para",
-          "play_count": 7588374,
+          "play_count": 7588943,
           "uri": "spotify:track:3kwr2hlIDwmwVAjKC7zshR"
         },
         {
           "title": "Good Day (Special Daileee)",
-          "play_count": 1982133,
+          "play_count": 1982533,
           "uri": "spotify:track:2bxQoEPkVPlCNTUACMnEbh"
         },
         {
           "title": "Backwards",
-          "play_count": 1181998,
+          "play_count": 1182329,
           "uri": "spotify:track:1pgKXLlRX9hnQGpIEdJbrW"
         },
         {
           "title": "VROOM VROOM",
-          "play_count": 1644827,
+          "play_count": 1645163,
           "uri": "spotify:track:4lOlKcHOovGeQtCGWnEzKy"
         },
         {
           "title": "Zig Zag",
-          "play_count": 3334656,
+          "play_count": 3334954,
           "uri": "spotify:track:4X2559utG9iCx4pHolcKR6"
         },
         {
           "title": "LIGHTS ON",
-          "play_count": 705929,
+          "play_count": 706151,
           "uri": "spotify:track:2twVlgkEBjCecQXzathzlj"
         },
         {
           "title": "Hello",
-          "play_count": 2789911,
+          "play_count": 2790111,
           "uri": "spotify:track:1lQIem7Dg5do127SfpcKZ1"
         }
       ]
@@ -720,6 +720,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

@@ -116,20 +116,15 @@
       "초동_한터": "245",
       "누적_한터": "",
       "초동_써클": "0,000,7**",
-      "누적_써클": "18,930",
+      "누적_써클": "9,801",
       "비고": "데뷔 음반, 타이틀곡 No More Dream",
-      "누적_써클_numeric": 18930,
+      "누적_써클_numeric": 9801,
       "초동_한터_numeric": 245,
       "monthly_timeline": [
         {
-          "ym": "2024-02",
-          "sales": 9129,
-          "cumulative": 9129
-        },
-        {
           "ym": "2026-08",
           "sales": 9801,
-          "cumulative": 18930
+          "cumulative": 9801
         }
       ]
     },
@@ -693,21 +688,16 @@
       "초동_한터": "485",
       "누적_한터": "",
       "초동_써클": "885",
-      "누적_써클": "11,436",
+      "누적_써클": "4,224",
       "비고": "타이틀곡 상남자 (Boy In Luv)",
-      "누적_써클_numeric": 11436,
+      "누적_써클_numeric": 4224,
       "초동_써클_numeric": 885,
       "초동_한터_numeric": 485,
       "monthly_timeline": [
         {
-          "ym": "2026-06",
-          "sales": 7212,
-          "cumulative": 7212
-        },
-        {
           "ym": "2026-09",
           "sales": 4224,
-          "cumulative": 11436
+          "cumulative": 4224
         }
       ]
     },
@@ -718,20 +708,15 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "885",
-      "누적_써클": "11,436",
+      "누적_써클": "4,224",
       "비고": "타이틀곡 Miss Right",
-      "누적_써클_numeric": 11436,
+      "누적_써클_numeric": 4224,
       "초동_써클_numeric": 885,
       "monthly_timeline": [
         {
-          "ym": "2026-06",
-          "sales": 7212,
-          "cumulative": 7212
-        },
-        {
           "ym": "2026-09",
           "sales": 4224,
-          "cumulative": 11436
+          "cumulative": 4224
         }
       ]
     },
@@ -1209,45 +1194,25 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "1,304",
-      "누적_써클": "38,969",
+      "누적_써클": "20,955",
       "비고": "타이틀곡 RUN",
-      "누적_써클_numeric": 38969,
+      "누적_써클_numeric": 20955,
       "초동_써클_numeric": 1304,
       "monthly_timeline": [
         {
-          "ym": "2025-10",
-          "sales": 3506,
-          "cumulative": 3506
-        },
-        {
-          "ym": "2025-12",
-          "sales": 4235,
-          "cumulative": 7741
-        },
-        {
-          "ym": "2026-02",
-          "sales": 4281,
-          "cumulative": 12022
-        },
-        {
-          "ym": "2026-06",
-          "sales": 5992,
-          "cumulative": 18014
-        },
-        {
           "ym": "2026-07",
           "sales": 7134,
-          "cumulative": 25148
+          "cumulative": 7134
         },
         {
           "ym": "2026-08",
           "sales": 6998,
-          "cumulative": 32146
+          "cumulative": 14132
         },
         {
           "ym": "2026-09",
           "sales": 6823,
-          "cumulative": 38969
+          "cumulative": 20955
         }
       ]
     },
@@ -1258,19 +1223,14 @@
       "초동_한터": "164,868",
       "누적_한터": "",
       "초동_써클": "0,164,8**",
-      "누적_써클": "8,793",
+      "누적_써클": "5,017",
       "비고": "타이틀곡 불타오르네 (FIRE)",
-      "누적_써클_numeric": 8793,
+      "누적_써클_numeric": 5017,
       "monthly_timeline": [
-        {
-          "ym": "2026-02",
-          "sales": 3776,
-          "cumulative": 3776
-        },
         {
           "ym": "2026-09",
           "sales": 5017,
-          "cumulative": 8793
+          "cumulative": 5017
         }
       ]
     },
@@ -1703,50 +1663,15 @@
       "초동_한터": "10035**",
       "누적_한터": "",
       "초동_써클": "61,804",
-      "누적_써클": "110,437",
+      "누적_써클": "11,388",
       "비고": "타이틀곡 FAKE LOVE",
-      "누적_써클_numeric": 110437,
+      "누적_써클_numeric": 11388,
       "초동_써클_numeric": 61804,
       "monthly_timeline": [
         {
-          "ym": "2024-01",
-          "sales": 63013,
-          "cumulative": 63013
-        },
-        {
-          "ym": "2024-12",
-          "sales": 3678,
-          "cumulative": 66691
-        },
-        {
-          "ym": "2025-03",
-          "sales": 6031,
-          "cumulative": 72722
-        },
-        {
-          "ym": "2025-06",
-          "sales": 5190,
-          "cumulative": 77912
-        },
-        {
-          "ym": "2025-09",
-          "sales": 10147,
-          "cumulative": 88059
-        },
-        {
-          "ym": "2026-02",
-          "sales": 4232,
-          "cumulative": 92291
-        },
-        {
-          "ym": "2026-06",
-          "sales": 6758,
-          "cumulative": 99049
-        },
-        {
           "ym": "2026-08",
           "sales": 11388,
-          "cumulative": 110437
+          "cumulative": 11388
         }
       ]
     },
@@ -1757,30 +1682,20 @@
       "초동_한터": "8680**",
       "누적_한터": "",
       "초동_써클": "61,804",
-      "누적_써클": "25,804",
+      "누적_써클": "9,616",
       "비고": "타이틀곡 IDOL",
-      "누적_써클_numeric": 25804,
+      "누적_써클_numeric": 9616,
       "초동_써클_numeric": 61804,
       "monthly_timeline": [
         {
-          "ym": "2026-02",
-          "sales": 3722,
-          "cumulative": 3722
-        },
-        {
-          "ym": "2026-06",
-          "sales": 12466,
-          "cumulative": 16188
-        },
-        {
           "ym": "2026-08",
           "sales": 4808,
-          "cumulative": 20996
+          "cumulative": 4808
         },
         {
           "ym": "2026-09",
           "sales": 4808,
-          "cumulative": 25804
+          "cumulative": 9616
         }
       ]
     },
@@ -1791,35 +1706,20 @@
       "초동_한터": "2,130,480",
       "누적_한터": "",
       "초동_써클": "8,015",
-      "누적_써클": "27,528",
+      "누적_써클": "10,134",
       "비고": "타이틀곡 작은 것들을 위한 시 (Boy With Luv)",
-      "누적_써클_numeric": 27528,
+      "누적_써클_numeric": 10134,
       "초동_써클_numeric": 8015,
       "monthly_timeline": [
         {
-          "ym": "2024-01",
-          "sales": 7736,
-          "cumulative": 7736
-        },
-        {
-          "ym": "2025-03",
-          "sales": 6607,
-          "cumulative": 14343
-        },
-        {
-          "ym": "2026-02",
-          "sales": 3051,
-          "cumulative": 17394
-        },
-        {
           "ym": "2026-08",
           "sales": 5411,
-          "cumulative": 22805
+          "cumulative": 5411
         },
         {
           "ym": "2026-09",
           "sales": 4723,
-          "cumulative": 27528
+          "cumulative": 10134
         }
       ]
     },
@@ -1830,40 +1730,20 @@
       "초동_한터": "3,378,633",
       "누적_한터": "",
       "초동_써클": "8,015",
-      "누적_써클": "40,283",
+      "누적_써클": "10,400",
       "비고": "타이틀곡 ON",
-      "누적_써클_numeric": 40283,
+      "누적_써클_numeric": 10400,
       "초동_써클_numeric": 8015,
       "monthly_timeline": [
         {
-          "ym": "2024-12",
-          "sales": 3397,
-          "cumulative": 3397
-        },
-        {
-          "ym": "2025-10",
-          "sales": 5422,
-          "cumulative": 8819
-        },
-        {
-          "ym": "2026-02",
-          "sales": 3569,
-          "cumulative": 12388
-        },
-        {
-          "ym": "2026-06",
-          "sales": 17495,
-          "cumulative": 29883
-        },
-        {
           "ym": "2026-08",
           "sales": 5397,
-          "cumulative": 35280
+          "cumulative": 5397
         },
         {
           "ym": "2026-09",
           "sales": 5003,
-          "cumulative": 40283
+          "cumulative": 10400
         }
       ]
     },
@@ -2175,36 +2055,16 @@
       "초동_한터": "239,125",
       "누적_한터": "",
       "초동_써클": "4,753,755",
-      "누적_써클": "5,123,777",
+      "누적_써클": "26,686",
       "비고": "2026년 3월",
       "초동_한터_numeric": 239125,
-      "누적_써클_numeric": 5123777,
+      "누적_써클_numeric": 26686,
       "초동_써클_numeric": 4753755,
       "monthly_timeline": [
         {
-          "ym": "2026-03",
-          "sales": 4753755,
-          "cumulative": 4753755
-        },
-        {
-          "ym": "2026-04",
-          "sales": 232338,
-          "cumulative": 4986093
-        },
-        {
-          "ym": "2026-05",
-          "sales": 60998,
-          "cumulative": 5047091
-        },
-        {
-          "ym": "2026-06",
-          "sales": 50000,
-          "cumulative": 5097091
-        },
-        {
           "ym": "2026-07",
           "sales": 26686,
-          "cumulative": 5123777
+          "cumulative": 26686
         }
       ]
     },
@@ -2345,40 +2205,20 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "3,599",
-      "누적_써클": "40,283",
+      "누적_써클": "10,400",
       "비고": "타이틀곡 Stay Gold",
-      "누적_써클_numeric": 40283,
+      "누적_써클_numeric": 10400,
       "초동_써클_numeric": 3599,
       "monthly_timeline": [
         {
-          "ym": "2024-12",
-          "sales": 3397,
-          "cumulative": 3397
-        },
-        {
-          "ym": "2025-10",
-          "sales": 5422,
-          "cumulative": 8819
-        },
-        {
-          "ym": "2026-02",
-          "sales": 3569,
-          "cumulative": 12388
-        },
-        {
-          "ym": "2026-06",
-          "sales": 17495,
-          "cumulative": 29883
-        },
-        {
           "ym": "2026-08",
           "sales": 5397,
-          "cumulative": 35280
+          "cumulative": 5397
         },
         {
           "ym": "2026-09",
           "sales": 5003,
-          "cumulative": 40283
+          "cumulative": 10400
         }
       ]
     },
@@ -2770,57 +2610,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 30692882,
+      "monthly_listeners": 30624863,
       "spotify_id": "3Nrfpe0tUJi4K4DXYWgMUX",
       "top_tracks": [
         {
           "title": "SWIM",
-          "play_count": 1002072933,
+          "play_count": 1004665103,
           "uri": "spotify:track:68lbSrXDORS51pmyjZv712"
         },
         {
           "title": "NORMAL",
-          "play_count": 413286837,
+          "play_count": 414623254,
           "uri": "spotify:track:4B4Q7zfd0aHcuhQBfCRnH5"
         },
         {
           "title": "Body to Body",
-          "play_count": 417198896,
+          "play_count": 418155589,
           "uri": "spotify:track:2rKkfc4VZ74FQDc1FF1Zo6"
         },
         {
           "title": "Hooligan",
-          "play_count": 383385431,
+          "play_count": 384312057,
           "uri": "spotify:track:20dAJsyno9ZoBLJtqgQnUI"
         },
         {
           "title": "2.0",
-          "play_count": 377981621,
+          "play_count": 378894450,
           "uri": "spotify:track:3bmpXHVie1GTy37OkXJ7Vc"
         },
         {
           "title": "they don’t know ’bout us",
-          "play_count": 318535585,
+          "play_count": 319341219,
           "uri": "spotify:track:0b61A7v9agI08BG21jJPQ9"
         },
         {
           "title": "Come Over",
-          "play_count": 182130315,
+          "play_count": 182900439,
           "uri": "spotify:track:6uvw8GFIqdqaJ4Nr3kN8Rs"
         },
         {
           "title": "Like Animals",
-          "play_count": 312764868,
+          "play_count": 313529615,
           "uri": "spotify:track:2IFND3phjzIG1RcPnHh2hP"
         },
         {
           "title": "Aliens",
-          "play_count": 308259002,
+          "play_count": 308992797,
           "uri": "spotify:track:5tg21NdePCn5m8F9BXOEeJ"
         },
         {
           "title": "FYA",
-          "play_count": 323891247,
+          "play_count": 324625938,
           "uri": "spotify:track:0KmrKOdScRDVYwWS8hkkdv"
         }
       ]
@@ -3858,6 +3698,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

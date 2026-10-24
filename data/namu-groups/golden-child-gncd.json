@@ -607,57 +607,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 84827,
+      "monthly_listeners": 84491,
       "spotify_id": "5zShiwTHlygdfsXj6eavTu",
       "top_tracks": [
         {
           "title": "WANNABE",
-          "play_count": 16639507,
+          "play_count": 16641135,
           "uri": "spotify:track:0lLDInOmkZTWz14Lm0dcMY"
         },
         {
           "title": "ONE(Lucid Dream)",
-          "play_count": 7072731,
+          "play_count": 7073589,
           "uri": "spotify:track:1ZhhiI06eIjXZjXK6OXO8u"
         },
         {
           "title": "안아줄게(Burn It)",
-          "play_count": 7518196,
+          "play_count": 7518920,
           "uri": "spotify:track:6vcJyCa9NgFQer7O6X1NY7"
         },
         {
           "title": "Ra Pam Pam",
-          "play_count": 4731938,
+          "play_count": 4732526,
           "uri": "spotify:track:7aJSEhH3kzrcr4g0uGXUC7"
         },
         {
           "title": "Without You",
-          "play_count": 6520484,
+          "play_count": 6520962,
           "uri": "spotify:track:6P79WvoWD60NKDHxKNxfxn"
         },
         {
           "title": "Feel me",
-          "play_count": 1723144,
+          "play_count": 1723559,
           "uri": "spotify:track:3hUmntqwqsjG9PJjih9OIT"
         },
         {
           "title": "담다디",
-          "play_count": 4811892,
+          "play_count": 4812261,
           "uri": "spotify:track:04Qh95tuCYNeWWWUauFBzd"
         },
         {
           "title": "Breathe",
-          "play_count": 1374119,
+          "play_count": 1374536,
           "uri": "spotify:track:5aOiF4o6vGIkffntobPSYL"
         },
         {
           "title": "WANNABE (Sampling Paganini 24 Caprices No.24 In A Minor Op.1)",
-          "play_count": 2148424,
+          "play_count": 2148603,
           "uri": "spotify:track:2VzJ6TygroXmPoiPKzShuE"
         },
         {
           "title": "LET ME",
-          "play_count": 2551764,
+          "play_count": 2551931,
           "uri": "spotify:track:76zp2yTXPo74Cpq7Q3u2N0"
         }
       ]
@@ -1185,6 +1185,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

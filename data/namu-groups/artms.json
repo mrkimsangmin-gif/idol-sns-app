@@ -425,57 +425,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 373162,
+      "monthly_listeners": 373205,
       "spotify_id": "213zHiFZwtDVEqyxeCbk07",
       "top_tracks": [
         {
           "title": "Virtual Angel",
-          "play_count": 22397168,
+          "play_count": 22412246,
           "uri": "spotify:track:1eCT7mlUiD0FDaYpFPiE4z"
         },
         {
           "title": "Blue Blood",
-          "play_count": 1919632,
+          "play_count": 1930272,
           "uri": "spotify:track:0U0H8jRrRV3uItkvfD6c6k"
         },
         {
           "title": "Born Stunner",
-          "play_count": 2261750,
+          "play_count": 2270874,
           "uri": "spotify:track:2XvgkULpvqf4UW4YZIFnRf"
         },
         {
           "title": "Pixel Memory",
-          "play_count": 984164,
+          "play_count": 991128,
           "uri": "spotify:track:35L00tmx3kzbRoJlldLJop"
         },
         {
           "title": "Icarus",
-          "play_count": 7910775,
+          "play_count": 7918492,
           "uri": "spotify:track:3MQBMVAJpXat2VQwTHA8tX"
         },
         {
           "title": "Hyper Crush",
-          "play_count": 763999,
+          "play_count": 769122,
           "uri": "spotify:track:1KgbrhuTLCO4ayyDa7wug2"
         },
         {
           "title": "Icarus Gang",
-          "play_count": 573475,
+          "play_count": 576240,
           "uri": "spotify:track:5stJNNpINueSWQ5806oGYb"
         },
         {
           "title": "From Wings To Soul",
-          "play_count": 544653,
+          "play_count": 547144,
           "uri": "spotify:track:7FoHtGVDfWSiJ5WWoFSMnf"
         },
         {
           "title": "Butterfly Effect",
-          "play_count": 4460434,
+          "play_count": 4463614,
           "uri": "spotify:track:0rLzeAH3HxBBQJdHqAyMsn"
         },
         {
           "title": "Obsessed",
-          "play_count": 2954198,
+          "play_count": 2957378,
           "uri": "spotify:track:3PJ6eopgoqxwqt8OHaVPOq"
         }
       ]
@@ -682,6 +682,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

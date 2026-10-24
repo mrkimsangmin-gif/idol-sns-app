@@ -1069,32 +1069,22 @@
       "초동_한터": "909,1**",
       "누적_한터": "",
       "초동_써클": "993,243",
-      "누적_써클": "1,079,677",
+      "누적_써클": "16,979",
       "비고": "LEMONADE",
       "초동_한터_numeric": 909100,
       "초동_확정": true,
-      "누적_써클_numeric": 1079677,
+      "누적_써클_numeric": 16979,
       "초동_써클_numeric": 993243,
       "monthly_timeline": [
         {
-          "ym": "2026-05",
-          "sales": 993243,
-          "cumulative": 993243
-        },
-        {
-          "ym": "2026-06",
-          "sales": 69455,
-          "cumulative": 1062698
-        },
-        {
           "ym": "2026-07",
           "sales": 7984,
-          "cumulative": 1070682
+          "cumulative": 7984
         },
         {
           "ym": "2026-09",
           "sales": 8995,
-          "cumulative": 1079677
+          "cumulative": 16979
         }
       ]
     },
@@ -1111,58 +1101,58 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 10529827,
+      "monthly_listeners": 10512757,
       "spotify_id": "6YVMFz59CuY7ngCxTxjpxE",
       "top_tracks": [
         {
           "title": "LEMONADE",
-          "play_count": 120880089,
+          "play_count": 121423170,
           "uri": "spotify:track:6vjt2smGK75oc9r2OGFfgp"
         },
         {
           "title": "KISS N TELL",
-          "play_count": 36175522,
+          "play_count": 36487427,
           "uri": "spotify:track:3RbRMYqa4Gj00llC5UWuJa"
         },
         {
           "title": "Whiplash",
-          "play_count": 433040498,
+          "play_count": 433299865,
           "uri": "spotify:track:6uPnrBgweGOcwjFL4ItAvV"
         },
         {
           "title": "Drama",
-          "play_count": 513155928,
+          "play_count": 513407269,
           "uri": "spotify:track:0SE1qlvZVknGGKTwuXBPKz"
         },
         {
           "title": "Supernova",
-          "play_count": 444728566,
+          "play_count": 444913242,
           "uri": "spotify:track:2VdSktBqFfkW7y6q5Ik4Z4"
         },
         {
           "title": "Armageddon",
-          "play_count": 347505537,
+          "play_count": 347641218,
           "uri": "spotify:track:5eWcGfUCrVFMoYskyfkEPE"
         },
         {
           "title": "WDA (Whole Different Animal) (feat. G-DRAGON)",
-          "play_count": 53502323,
+          "play_count": 53620676,
           "uri": "spotify:track:6QkyFjUMmncXzu6oSWKwHQ"
         },
         {
           "title": "Saddle Up (WINTER Solo)",
-          "play_count": 4895525,
+          "play_count": 5000905,
           "uri": "spotify:track:7G8Ycb0hYdQ7cgjVvZ9fAL"
         },
         {
-          "title": "I Love You But I Gotta Let You Go (NINGNING Solo)",
-          "play_count": 4864980,
-          "uri": "spotify:track:4VHu6TXzapvQG6tURPVRXj"
+          "title": "Rich Man",
+          "play_count": 101174860,
+          "uri": "spotify:track:53xn9j8QEj4RBJa1MlYqFy"
         },
         {
-          "title": "Rich Man",
-          "play_count": 101059741,
-          "uri": "spotify:track:53xn9j8QEj4RBJa1MlYqFy"
+          "title": "UP - KARINA Solo",
+          "play_count": 202977273,
+          "uri": "spotify:track:5sjnkOfTLCLNfkkchI2re2"
         }
       ]
     },
@@ -1506,6 +1496,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

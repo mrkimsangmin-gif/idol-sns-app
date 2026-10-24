@@ -146,57 +146,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 72891,
+      "monthly_listeners": 73366,
       "spotify_id": "2aRhzujDfJ1mVe2XdddXYL",
       "top_tracks": [
         {
           "title": "아 마음대로 다 된다!",
-          "play_count": 582152,
+          "play_count": 584682,
           "uri": "spotify:track:3LKZCLEnspadu6UQIOTPVD"
         },
         {
           "title": "Not Out",
-          "play_count": 1042271,
+          "play_count": 1044524,
           "uri": "spotify:track:3vpxOqE2uaaH3lf09soVnA"
         },
         {
           "title": "지구소년",
-          "play_count": 713109,
+          "play_count": 714537,
           "uri": "spotify:track:1wJNpkpNrZEZId1F2Gz83K"
         },
         {
           "title": "모스부호",
-          "play_count": 820608,
+          "play_count": 821826,
           "uri": "spotify:track:17xOn4bMjst9BeM4qtJl23"
         },
         {
           "title": "POP UP",
-          "play_count": 998174,
+          "play_count": 999261,
           "uri": "spotify:track:1hZUb6Lk1YUENriSC9bI8H"
         },
         {
           "title": "꼬리를 먹는 뱀",
-          "play_count": 627107,
+          "play_count": 627757,
           "uri": "spotify:track:5KxNjzfgq4iSxYmt4SxQJq"
         },
         {
           "title": "NEVER",
-          "play_count": 475195,
+          "play_count": 476231,
           "uri": "spotify:track:2F3w8KVwdj62bcUQuAuiCh"
         },
         {
           "title": "손금",
-          "play_count": 248586,
+          "play_count": 249259,
           "uri": "spotify:track:406oyoc9ClMAdEjtSwAOzV"
         },
         {
           "title": "Traffic Jam",
-          "play_count": 503051,
+          "play_count": 503601,
           "uri": "spotify:track:6mCqpjlZm0vodNIGGaZlaH"
         },
         {
           "title": "Pity Punk",
-          "play_count": 424960,
+          "play_count": 425585,
           "uri": "spotify:track:0nNSxXAiSRtdOBMMNmKseC"
         }
       ]
@@ -345,6 +345,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

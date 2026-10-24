@@ -536,57 +536,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 224060,
+      "monthly_listeners": 223479,
       "spotify_id": "1lHfzEkKmmvdVDDDLKkcsd",
       "top_tracks": [
         {
           "title": "Movie Star",
-          "play_count": 44878899,
+          "play_count": 44884396,
           "uri": "spotify:track:65pVi11JqwSZqUuYAqLP36"
         },
         {
           "title": "Jungle",
-          "play_count": 18083577,
+          "play_count": 18085288,
           "uri": "spotify:track:0QyLYuhCdzwVk9OkmvwAjh"
         },
         {
           "title": "Cinema",
-          "play_count": 15131607,
+          "play_count": 15132866,
           "uri": "spotify:track:45WEkgFSP5Af8Huepaj4P1"
         },
         {
           "title": "Save me, Kill me",
-          "play_count": 6363717,
+          "play_count": 6364941,
           "uri": "spotify:track:0Z5gF9M35PmrQooN2lDlkK"
         },
         {
           "title": "WIN - \"The God of HighSchool\" ED",
-          "play_count": 14018962,
+          "play_count": 14020129,
           "uri": "spotify:track:6IwpGAqCKncLkNZs5QJTuo"
         },
         {
           "title": "THUNDER",
-          "play_count": 1901276,
+          "play_count": 1902253,
           "uri": "spotify:track:3yGt3kgfeNIrILkgDXugWn"
         },
         {
           "title": "Numb",
-          "play_count": 12220865,
+          "play_count": 12221619,
           "uri": "spotify:track:0oiQqWcpJVeMsKQ5E0Cil8"
         },
         {
           "title": "What You Wanted",
-          "play_count": 10521246,
+          "play_count": 10522175,
           "uri": "spotify:track:76dpiZihYVl5VbiHNjVj5l"
         },
         {
           "title": "458",
-          "play_count": 4470850,
+          "play_count": 4471518,
           "uri": "spotify:track:4FHnQdUyWz3clxy3d7loOY"
         },
         {
           "title": "Lovers or Enemies",
-          "play_count": 2192466,
+          "play_count": 2192920,
           "uri": "spotify:track:4A3qnwmF4iRAHrWttbl6pH"
         }
       ]
@@ -916,6 +916,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

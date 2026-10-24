@@ -307,57 +307,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 40520,
+      "monthly_listeners": 40167,
       "spotify_id": "5LkLwB6VSZLQiFkJa9SPOn",
       "top_tracks": [
         {
           "title": "SNEAKERS",
-          "play_count": 149886,
+          "play_count": 150990,
           "uri": "spotify:track:5BwU28Gj1jfpYNf6tdJKh0"
         },
         {
           "title": "Lost",
-          "play_count": 439424,
+          "play_count": 439907,
           "uri": "spotify:track:6dlbp9t6McWNc8r8ZXtYvP"
         },
         {
           "title": "SUPER POWER",
-          "play_count": 1449433,
+          "play_count": 1449890,
           "uri": "spotify:track:08hJKTdPxplmXIatRpelrw"
         },
         {
           "title": "Wild Heart",
-          "play_count": 1825273,
+          "play_count": 1825723,
           "uri": "spotify:track:3GXLBTk7l1Bc7bZp18sqZD"
         },
         {
           "title": "WHIP",
-          "play_count": 864848,
+          "play_count": 865150,
           "uri": "spotify:track:1UlSTGYf4uBep4oWicvvfk"
         },
         {
           "title": "나비(Butterfly)",
-          "play_count": 451318,
+          "play_count": 451551,
           "uri": "spotify:track:6EX2u3rBDR606W9N37iglB"
         },
         {
           "title": "BACK",
-          "play_count": 39207,
+          "play_count": 39346,
           "uri": "spotify:track:0DOptJMkkff6A3wjjPCwdi"
         },
         {
           "title": "TO THE MOON",
-          "play_count": 37815,
+          "play_count": 37968,
           "uri": "spotify:track:2tsl6nuaBMz65vxUKAOIwX"
         },
         {
           "title": "PASTEL",
-          "play_count": 620762,
+          "play_count": 620900,
           "uri": "spotify:track:4q0CYq46WxuMBCrXcs57vq"
         },
         {
           "title": "Nauty",
-          "play_count": 143484,
+          "play_count": 143591,
           "uri": "spotify:track:029RPuf5SlineOMzJIkWyb"
         }
       ]
@@ -591,6 +591,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

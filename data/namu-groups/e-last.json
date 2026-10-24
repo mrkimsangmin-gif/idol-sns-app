@@ -200,57 +200,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 31078,
+      "monthly_listeners": 30928,
       "spotify_id": "0NztgA9b1KEJLjLVqMwd9y",
       "top_tracks": [
         {
           "title": "Dark Dream",
-          "play_count": 3168881,
+          "play_count": 3169370,
           "uri": "spotify:track:6CWGueLHg5lmG43fy27oJQ"
         },
         {
           "title": "Dangerous",
-          "play_count": 3454547,
+          "play_count": 3454897,
           "uri": "spotify:track:50DL5njQWzcOzJdS2OR8cP"
         },
         {
           "title": "TEARS OF CHAOS",
-          "play_count": 2485514,
+          "play_count": 2485812,
           "uri": "spotify:track:0ocXXOaJuoNy0GZecVGmHt"
         },
         {
           "title": "Tame",
-          "play_count": 120089,
+          "play_count": 120278,
           "uri": "spotify:track:0oyoiaSXh4HvHbHUEyUrYo"
         },
         {
           "title": "Creature",
-          "play_count": 1548676,
+          "play_count": 1548911,
           "uri": "spotify:track:6Ic1LFxLwE7diI7OzPUNbK"
         },
         {
           "title": "Swear",
-          "play_count": 1816039,
+          "play_count": 1816234,
           "uri": "spotify:track:7euJJw5Kwvp2fQM5PYPjQu"
         },
         {
           "title": "Thrill",
-          "play_count": 1180173,
+          "play_count": 1180346,
           "uri": "spotify:track:23l2mR8hgNncbR98Sp9QU1"
         },
         {
           "title": "Kiss me Baby",
-          "play_count": 518889,
+          "play_count": 518975,
           "uri": "spotify:track:4j9oSggZykTGFCNqJ3PNRm"
         },
         {
           "title": "Gasoline",
-          "play_count": 374172,
+          "play_count": 374242,
           "uri": "spotify:track:29gvL6gWNog8iMml53ig1C"
         },
         {
           "title": "Nightmare",
-          "play_count": 493781,
+          "play_count": 493873,
           "uri": "spotify:track:4eFVB3jWltiHLElm1dOgtX"
         }
       ]
@@ -574,6 +574,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

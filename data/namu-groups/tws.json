@@ -332,57 +332,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 2210908,
+      "monthly_listeners": 2206230,
       "spotify_id": "4GgBKgxhc649frZDHcXIEz",
       "top_tracks": [
         {
           "title": "OVERDRIVE",
-          "play_count": 46454017,
+          "play_count": 46531135,
           "uri": "spotify:track:5qAfVxNUxjrELshgTpWxLf"
         },
         {
           "title": "plot twist",
-          "play_count": 122416437,
+          "play_count": 122476495,
           "uri": "spotify:track:0aZG8KWrpRnsGL0loUkfSj"
         },
         {
           "title": "You, You",
-          "play_count": 10936835,
+          "play_count": 10965274,
           "uri": "spotify:track:2X9RbCpuBRR6ztXn83AK5U"
         },
         {
           "title": "If I’m S, Can You Be My N?",
-          "play_count": 50236368,
+          "play_count": 50267545,
           "uri": "spotify:track:2y8vRHEoz15sYDmxyrDePO"
         },
         {
           "title": "SODA SODA",
-          "play_count": 3661049,
+          "play_count": 3683850,
           "uri": "spotify:track:63BjD2Y6CIgnsQY99ZZvXl"
         },
         {
           "title": "Countdown!",
-          "play_count": 29492861,
+          "play_count": 29520163,
           "uri": "spotify:track:0ti0CEUPplsI7AZDyexrXy"
         },
         {
           "title": "Last Festival",
-          "play_count": 27279361,
+          "play_count": 27301402,
           "uri": "spotify:track:4eDednnc8XIGpOmRNcho66"
         },
         {
           "title": "All the Possibilities",
-          "play_count": 6839468,
+          "play_count": 6859106,
           "uri": "spotify:track:5J4fzSlOxKLlk165GDjor4"
         },
         {
           "title": "Lucky to be loved",
-          "play_count": 13429159,
+          "play_count": 13447974,
           "uri": "spotify:track:36eaUA0XV2LZ6Vs9KkNE1H"
         },
         {
           "title": "hey! hey!",
-          "play_count": 26424231,
+          "play_count": 26443308,
           "uri": "spotify:track:6vSpm3PAXA1PLyEINx3DJC"
         }
       ]
@@ -570,6 +570,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

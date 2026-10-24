@@ -230,57 +230,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 12415,
+      "monthly_listeners": 12446,
       "spotify_id": "3C13AlJZ4QWHSruAWe9VPI",
       "top_tracks": [
         {
           "title": "Poison Rose",
-          "play_count": 776617,
+          "play_count": 776930,
           "uri": "spotify:track:2ktjnehUxCSikYLT1ipC1K"
         },
         {
           "title": "NUGUDOM",
-          "play_count": 733348,
+          "play_count": 733492,
           "uri": "spotify:track:3qIPUALlG1euPAbi7qk3ll"
         },
         {
           "title": "Undercover",
-          "play_count": 649752,
+          "play_count": 649901,
           "uri": "spotify:track:1r4UVMjjrwiUphiPCcU5q4"
         },
         {
           "title": "MASQUERADE",
-          "play_count": 192227,
+          "play_count": 192310,
           "uri": "spotify:track:0nQNSjE5Xlnki4tG2j3Gvg"
         },
         {
           "title": "Cypher(Position)",
-          "play_count": 195861,
+          "play_count": 195939,
           "uri": "spotify:track:5Y3FdegvfknxpdHi0UTCDx"
         },
         {
           "title": "STUPIDZ",
-          "play_count": 215449,
+          "play_count": 215514,
           "uri": "spotify:track:0CHBqEXJsje7bDAN2i3OqU"
         },
         {
           "title": "REQUIEM",
-          "play_count": 262839,
+          "play_count": 262917,
           "uri": "spotify:track:0vCzN6GZsICTBQDB3LYDFp"
         },
         {
           "title": "Lucid Dream",
-          "play_count": 198558,
+          "play_count": 198611,
           "uri": "spotify:track:2nqpB5BsZfPSKgXaV4xX9N"
         },
         {
           "title": "Trigger",
-          "play_count": 263519,
+          "play_count": 263585,
           "uri": "spotify:track:5aWFdwUjrpsYOW7LXTd1Zx"
         },
         {
           "title": "Butterfly",
-          "play_count": 180500,
+          "play_count": 180549,
           "uri": "spotify:track:20ZTeJ0RNFbJ9OiUo35Rq4"
         }
       ]
@@ -513,6 +513,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

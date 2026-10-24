@@ -126,61 +126,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1413,
+      "monthly_listeners": 1389,
       "spotify_id": "1nlvVchkTmecxdFNflxucN",
       "top_tracks": [
         {
           "title": "싸이코라도 좋아",
-          "play_count": 170643,
+          "play_count": 170665,
           "uri": "spotify:track:6F7SqxOvVD4dMvxN2IBCoV"
         },
         {
           "title": "Queen",
-          "play_count": 126734,
+          "play_count": 126746,
           "uri": "spotify:track:2B7G6POJP8XyNgaZhaQzfo"
         },
         {
           "title": "Baby Step",
-          "play_count": 52561,
+          "play_count": 52579,
           "uri": "spotify:track:4aufxzbLVjdi4Cqi6I2AIA"
         },
         {
           "title": "We;Na World",
-          "play_count": 25904,
+          "play_count": 25918,
           "uri": "spotify:track:0er9FT0UYSdkoifg3IYLKf"
         },
         {
           "title": "바람 - 원이연서 Duo Version",
-          "play_count": 24531,
+          "play_count": 24534,
           "uri": "spotify:track:4uCUvo1vEyiwU1QnHJdq6X"
         },
         {
           "title": "Milky Way",
-          "play_count": 16614,
+          "play_count": 16620,
           "uri": "spotify:track:4s0OaP6NlPRhrijDll2ARz"
         },
         {
           "title": "Like Psycho",
-          "play_count": 14577,
+          "play_count": 14578,
           "uri": "spotify:track:5L9TeZwVAsqWfCrwsMxOrJ"
         },
         {
           "title": "Wake Up",
-          "play_count": 15091,
+          "play_count": 15095,
           "uri": "spotify:track:6D5AqqNvsLC4esHfTBvZrR"
         },
         {
           "title": "Keep Going on",
-          "play_count": 14564,
+          "play_count": 14566,
           "uri": "spotify:track:5tsmm04maC2pnSrxKiFHZn"
         },
         {
           "title": "Wake Up",
-          "play_count": 20732,
+          "play_count": 20739,
           "uri": "spotify:track:26IXpesizyKv6XwCwTEQok"
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

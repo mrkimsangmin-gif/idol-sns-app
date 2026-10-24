@@ -483,35 +483,15 @@
       "초동_한터": "4,590",
       "누적_한터": "",
       "초동_써클": "503,7**",
-      "누적_써클": "511,440",
+      "누적_써클": "9,304",
       "비고": "UNIQUE",
       "초동_한터_numeric": 4590,
-      "누적_써클_numeric": 511440,
+      "누적_써클_numeric": 9304,
       "monthly_timeline": [
-        {
-          "ym": "2026-03",
-          "sales": 439080,
-          "cumulative": 439080
-        },
-        {
-          "ym": "2026-04",
-          "sales": 13977,
-          "cumulative": 453057
-        },
-        {
-          "ym": "2026-05",
-          "sales": 20248,
-          "cumulative": 473305
-        },
-        {
-          "ym": "2026-06",
-          "sales": 28831,
-          "cumulative": 502136
-        },
         {
           "ym": "2026-07",
           "sales": 9304,
-          "cumulative": 511440
+          "cumulative": 9304
         }
       ]
     },
@@ -622,57 +602,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1538101,
+      "monthly_listeners": 1530622,
       "spotify_id": "3JjvsPeGMbDJqsphe2z8xU",
       "top_tracks": [
         {
           "title": "ICE (VVS)",
-          "play_count": 14004360,
+          "play_count": 14051918,
           "uri": "spotify:track:72jBS8tUh0hsNoMzrfR07L"
         },
         {
           "title": "Pretty Boy",
-          "play_count": 36216046,
+          "play_count": 36251250,
           "uri": "spotify:track:5iD8dIftGt1S8jJu4tAKSl"
         },
         {
           "title": "UNIQUE",
-          "play_count": 15093890,
+          "play_count": 15128417,
           "uri": "spotify:track:5KO5wEnaK3DNG3e1lJ8PUR"
         },
         {
           "title": "때깔 (Killin' It)",
-          "play_count": 57315501,
+          "play_count": 57344908,
           "uri": "spotify:track:34qE8Vib8pc7mTdb25tciL"
         },
         {
           "title": "Fall In Love Again",
-          "play_count": 42778770,
+          "play_count": 42804644,
           "uri": "spotify:track:7e2t41hCiR0sV4Lgv555v3"
         },
         {
           "title": "DUH!",
-          "play_count": 24618223,
+          "play_count": 24641324,
           "uri": "spotify:track:7zp8O7rgtk774oAkAlHmif"
         },
         {
           "title": "EX",
-          "play_count": 13485985,
+          "play_count": 13499483,
           "uri": "spotify:track:50ARYbP5bKUn4YVKZIEfbS"
         },
         {
           "title": "Dancing Queen",
-          "play_count": 10009456,
+          "play_count": 10023347,
           "uri": "spotify:track:6IgeJKw2mKHM8qsQLTnC1S"
         },
         {
           "title": "L.O.Y.L.",
-          "play_count": 6841148,
+          "play_count": 6853430,
           "uri": "spotify:track:2AHwpPkKr0w0uITxNQjXNt"
         },
         {
           "title": "Late Night Calls",
-          "play_count": 17820268,
+          "play_count": 17831781,
           "uri": "spotify:track:2Q8aretYtcI1NqKHLDMTOT"
         }
       ]
@@ -1007,6 +987,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

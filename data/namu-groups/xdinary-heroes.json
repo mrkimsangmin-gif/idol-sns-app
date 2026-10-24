@@ -463,57 +463,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 859754,
+      "monthly_listeners": 879822,
       "spotify_id": "1khChLj7REGqjM043PlYyn",
       "top_tracks": [
         {
           "title": "Obsessed with Youth",
-          "play_count": 877196,
+          "play_count": 953186,
           "uri": "spotify:track:3UZ9LgHanJWsSQU1uQvrG6"
         },
         {
           "title": "u and me in arguments",
-          "play_count": 538776,
+          "play_count": 570834,
           "uri": "spotify:track:5xhwKKozn84DUceeShwxLs"
         },
         {
           "title": "Give Up The Ghost",
-          "play_count": 447979,
+          "play_count": 474424,
           "uri": "spotify:track:0DPbBUhNpCCxpTGibmCala"
         },
         {
           "title": "Love in dystopia",
-          "play_count": 387573,
+          "play_count": 412056,
           "uri": "spotify:track:3r4vTxdnQOJOUqpBtFcLff"
         },
         {
           "title": "Voyager",
-          "play_count": 4547705,
+          "play_count": 4563420,
           "uri": "spotify:track:5P3ai9DW0SVnQoVmYQj6EM"
         },
         {
           "title": "You Right There",
-          "play_count": 379203,
+          "play_count": 400433,
           "uri": "spotify:track:5qmF416a8nMxOBbNwtwxvp"
         },
         {
           "title": "Breathe in, Breathe out",
-          "play_count": 374876,
+          "play_count": 396522,
           "uri": "spotify:track:1j8caYcJ73HhvWEJKvStUk"
         },
         {
           "title": "Save me",
-          "play_count": 14629873,
+          "play_count": 14644480,
           "uri": "spotify:track:63IHaFklWAdUB3BTcUJb1J"
         },
         {
           "title": "Slashhh!",
-          "play_count": 353605,
+          "play_count": 373685,
           "uri": "spotify:track:6ITUKgck6V5a1iFcfrT0Oc"
         },
         {
           "title": "Good enough",
-          "play_count": 26921445,
+          "play_count": 26933631,
           "uri": "spotify:track:7H4bkGfbt12rGyQ8R8zabq"
         }
       ]
@@ -992,6 +992,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

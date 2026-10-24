@@ -141,61 +141,61 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 8365,
+      "monthly_listeners": 8405,
       "spotify_id": "3DA03oZ7LDPXNup162ton5",
       "top_tracks": [
         {
           "title": "INCEPTION",
-          "play_count": 9798,
+          "play_count": 10013,
           "uri": "spotify:track:3OUekgg3NOP6eA87VveiT3"
         },
         {
           "title": "EXPLODE",
-          "play_count": 5711,
+          "play_count": 5873,
           "uri": "spotify:track:6CZkAYVSjBWeDrRbRHapuq"
         },
         {
           "title": "Racer",
-          "play_count": 127397,
+          "play_count": 127529,
           "uri": "spotify:track:4VZpFlqSmkNeCSTihvmrTc"
         },
         {
           "title": "GO & STOP",
-          "play_count": 5168,
+          "play_count": 5285,
           "uri": "spotify:track:0ZKrRVGzFmpzzHXJLbPKvP"
         },
         {
           "title": "FOREVER NOW",
-          "play_count": 4930,
+          "play_count": 5035,
           "uri": "spotify:track:3bYYoo8pixfDbxLYisMhBB"
         },
         {
           "title": "Fireworks",
-          "play_count": 67881,
+          "play_count": 67991,
           "uri": "spotify:track:2Z8nnjb9vQqdWRt3BSXxJA"
         },
         {
           "title": "LOVE WAVE",
-          "play_count": 3848,
+          "play_count": 3948,
           "uri": "spotify:track:2lPldUYP16tHFFzQcolqsE"
         },
         {
           "title": "CAN'T CATCH ME",
-          "play_count": 43198,
+          "play_count": 43281,
           "uri": "spotify:track:1o4zoaOfSioQadjDmrMvhk"
         },
         {
           "title": "Dive In",
-          "play_count": 60540,
+          "play_count": 60621,
           "uri": "spotify:track:01qVbv1y2TFnMgtk2XQxkw"
         },
         {
           "title": "Flash",
-          "play_count": 23029,
+          "play_count": 23097,
           "uri": "spotify:track:09W2FuTFDxbkX522VYQAm4"
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

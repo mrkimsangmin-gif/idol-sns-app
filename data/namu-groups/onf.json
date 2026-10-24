@@ -881,57 +881,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 130216,
+      "monthly_listeners": 129386,
       "spotify_id": "0eEhOgZ2x6kv8kLz77WO7b",
       "top_tracks": [
         {
           "title": "사랑하게 될 거야 (We Must Love) (Remastered ver.)",
-          "play_count": 10808816,
+          "play_count": 10811535,
           "uri": "spotify:track:1aarUgGtABzzpdjy5Ooa2G"
         },
         {
           "title": "Beautiful Beautiful",
-          "play_count": 9244046,
+          "play_count": 9245504,
           "uri": "spotify:track:6RQQc4L06FPE7tJ4D6DvC1"
         },
         {
           "title": "Open The Door",
-          "play_count": 344843,
+          "play_count": 345547,
           "uri": "spotify:track:1A7nHCu8oMqnzSvLEzrW8w"
         },
         {
           "title": "Bye My Monster",
-          "play_count": 2414764,
+          "play_count": 2415530,
           "uri": "spotify:track:7MV68p0TgX9YAo1y3SyjU8"
         },
         {
           "title": "No Control",
-          "play_count": 455954,
+          "play_count": 456515,
           "uri": "spotify:track:4hkqaDFfGIpXvnBXnG4kze"
         },
         {
           "title": "Complete (널 만난 순간) (Remastered ver.)",
-          "play_count": 5863759,
+          "play_count": 5864288,
           "uri": "spotify:track:5IkqEM7u4iuitF5KFgwtG3"
         },
         {
           "title": "스쿰빗스위밍 (Sukhumvit Swimming)",
-          "play_count": 5691761,
+          "play_count": 5692357,
           "uri": "spotify:track:26T7oe9SIbvVb8zyr0cmt5"
         },
         {
           "title": "여름 쏙",
-          "play_count": 3676299,
+          "play_count": 3676944,
           "uri": "spotify:track:3FDpFlA0y7Zph4mOzSeq0Y"
         },
         {
           "title": "Moscow Moscow",
-          "play_count": 2859334,
+          "play_count": 2859829,
           "uri": "spotify:track:3rocioVRp2JWLAGM1HW3gr"
         },
         {
           "title": "Why",
-          "play_count": 3562663,
+          "play_count": 3563113,
           "uri": "spotify:track:3OmJpaSSgM8JL9eaq9JPFr"
         }
       ]
@@ -1418,6 +1418,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

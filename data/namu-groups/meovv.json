@@ -181,83 +181,78 @@
       "초동_한터": "301,725",
       "누적_한터": "",
       "초동_써클": "170,342",
-      "누적_써클": "194,647",
+      "누적_써클": "24,305",
       "비고": "타이틀곡: 띠로리 (DDI RO RI)",
       "초동_한터_numeric": 301725,
-      "누적_써클_numeric": 194647,
+      "누적_써클_numeric": 24305,
       "초동_써클_numeric": 170342,
       "monthly_timeline": [
         {
-          "ym": "2026-06",
-          "sales": 170342,
-          "cumulative": 170342
-        },
-        {
           "ym": "2026-07",
           "sales": 15624,
-          "cumulative": 185966
+          "cumulative": 15624
         },
         {
           "ym": "2026-08",
           "sales": 8681,
-          "cumulative": 194647
+          "cumulative": 24305
         }
       ]
     }
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 5036979,
+      "monthly_listeners": 5097538,
       "spotify_id": "08hHTBHlv0WRXWlyrsb6Kv",
       "top_tracks": [
         {
           "title": "Hit 'Em",
-          "play_count": 35627068,
+          "play_count": 35846915,
           "uri": "spotify:track:36vNPZ4chJ8IWfirSQMHN0"
         },
         {
           "title": "DDI RO RI",
-          "play_count": 33497914,
+          "play_count": 33666235,
           "uri": "spotify:track:5LnYgKfSy6iJZThkkAK86Q"
         },
         {
           "title": "HANDS UP",
-          "play_count": 126339469,
+          "play_count": 126495953,
           "uri": "spotify:track:5nMZZAx81447SskgOnuRIe"
         },
         {
           "title": "GO HARD",
-          "play_count": 2559181,
+          "play_count": 2862305,
           "uri": "spotify:track:3VpPQbvLb354cZ3XK54zrs"
         },
         {
           "title": "BURNING UP",
-          "play_count": 52341272,
+          "play_count": 52448858,
           "uri": "spotify:track:6QQy6TLGFosP96SREaVaYD"
         },
         {
           "title": "MEOW",
-          "play_count": 125191631,
+          "play_count": 125294738,
           "uri": "spotify:track:1YjhXcHqe2ztp70ArdZOPa"
         },
         {
           "title": "Indestructible",
-          "play_count": 1538761,
+          "play_count": 1718918,
           "uri": "spotify:track:2mEbsYCcE59D4WfFgLaCXg"
         },
         {
           "title": "In my hands",
-          "play_count": 9624416,
+          "play_count": 9673127,
           "uri": "spotify:track:1ugnLB9oba5ksgtm6C35e5"
         },
         {
           "title": "BODY",
-          "play_count": 51898958,
+          "play_count": 51945253,
           "uri": "spotify:track:3I3pAp1C20ZmSO0g8r4yXW"
         },
         {
           "title": "TOXIC",
-          "play_count": 41083726,
+          "play_count": 41118959,
           "uri": "spotify:track:6wuXJQJvMKtLXeN1tEYmHh"
         }
       ]
@@ -371,6 +366,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

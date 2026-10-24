@@ -271,57 +271,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 92550,
+      "monthly_listeners": 92122,
       "spotify_id": "1iZwr6w3TWPNezX8yCtRBg",
       "top_tracks": [
         {
           "title": "Achilles",
-          "play_count": 543035,
+          "play_count": 545849,
           "uri": "spotify:track:5uyRWCZvo97JTZolk7Xn9j"
         },
         {
           "title": "Problem Child (문제아)",
-          "play_count": 1632983,
+          "play_count": 1634863,
           "uri": "spotify:track:7aL1LV3lbN5GE88lMgiHt5"
         },
         {
           "title": "자유롭게 날아 (Feat. 우기 (YUQI))",
-          "play_count": 1160743,
+          "play_count": 1161490,
           "uri": "spotify:track:53SaJpNeNlJjNv6qcyLR0V"
         },
         {
           "title": "HomeRUN",
-          "play_count": 686268,
+          "play_count": 686996,
           "uri": "spotify:track:0kK6GZAjPQUdg02XhaoEM0"
         },
         {
           "title": "EVERGLOW",
-          "play_count": 768801,
+          "play_count": 769292,
           "uri": "spotify:track:53L9lldUXi7s3HrDveOihE"
         },
         {
           "title": "렛츠기릿 (Let's get it)",
-          "play_count": 673366,
+          "play_count": 673684,
           "uri": "spotify:track:34r07B7Zgr7HtaqvP9u3F4"
         },
         {
           "title": "OoWee",
-          "play_count": 934852,
+          "play_count": 935084,
           "uri": "spotify:track:1XJyXvzfbOTjsM7rVTx0LI"
         },
         {
           "title": "우리의 시작",
-          "play_count": 111798,
+          "play_count": 112000,
           "uri": "spotify:track:6UgbwZumWEKyaxRjUX4mz2"
         },
         {
           "title": "AMMO (feat. YRD Leo)",
-          "play_count": 135481,
+          "play_count": 135671,
           "uri": "spotify:track:6qQTiRUVoy7vDGO1gWzOAe"
         },
         {
           "title": "TICKET",
-          "play_count": 559562,
+          "play_count": 559714,
           "uri": "spotify:track:4pJZnNB7UY4aV8TNepP9kP"
         }
       ]
@@ -494,6 +494,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

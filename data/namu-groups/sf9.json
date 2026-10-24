@@ -921,57 +921,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 269756,
+      "monthly_listeners": 268294,
       "spotify_id": "7LOmc7gyMVMOWF8qwEdn2X",
       "top_tracks": [
         {
           "title": "Without Wings",
-          "play_count": 349405,
+          "play_count": 351688,
           "uri": "spotify:track:5sHBrlcEkcOYDiwkkr3TYT"
         },
         {
           "title": "오솔레미오 (O Sole Mio)",
-          "play_count": 25473659,
+          "play_count": 25476811,
           "uri": "spotify:track:00nFROTxZIXi0VYTWKpG3Z"
         },
         {
           "title": "Good Guy",
-          "play_count": 21183910,
+          "play_count": 21186441,
           "uri": "spotify:track:1D0XdvHt8Utbyh6GAfk0NZ"
         },
         {
           "title": "Tear Drop",
-          "play_count": 22368922,
+          "play_count": 22371206,
           "uri": "spotify:track:1OALtDoXjKVdu5ts3LC2Yd"
         },
         {
           "title": "질렀어",
-          "play_count": 22945094,
+          "play_count": 22947192,
           "uri": "spotify:track:1vwLrf37fmf6qHp4fzK97S"
         },
         {
           "title": "여름 향기가 날 춤추게 해 (Summer Breeze)",
-          "play_count": 11538059,
+          "play_count": 11539535,
           "uri": "spotify:track:6XCa8OjFxC4B9Zb35kiW2e"
         },
         {
           "title": "REAL FROM THE FAKE",
-          "play_count": 130615,
+          "play_count": 131471,
           "uri": "spotify:track:0TfM8DuthMxKBsbCjomWVs"
         },
         {
           "title": "Curtain Call",
-          "play_count": 126900,
+          "play_count": 127686,
           "uri": "spotify:track:0ASri6kpP7unK4Vve2JxKz"
         },
         {
           "title": "MAMMA MIA",
-          "play_count": 13785460,
+          "play_count": 13786702,
           "uri": "spotify:track:6Djd3xUfeQWP13vCzlDlyM"
         },
         {
           "title": "PRESSURE",
-          "play_count": 117683,
+          "play_count": 118406,
           "uri": "spotify:track:58RsboPbGbnOHwqNASwATo"
         }
       ]
@@ -1944,6 +1944,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

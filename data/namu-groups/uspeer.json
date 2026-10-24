@@ -129,37 +129,37 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 39373,
+      "monthly_listeners": 38883,
       "spotify_id": "1p7Fm42iZrBEvG2wIaRCoL",
       "top_tracks": [
         {
           "title": "WICKED GAME",
-          "play_count": 224252,
+          "play_count": 225148,
           "uri": "spotify:track:2jqlsrh2aNB0hMns2jmuKv"
         },
         {
           "title": "Telepathy",
-          "play_count": 357161,
+          "play_count": 357754,
           "uri": "spotify:track:00ra0iPFDA6qs14svP4GnE"
         },
         {
           "title": "ZOOM",
-          "play_count": 393224,
+          "play_count": 393665,
           "uri": "spotify:track:5koizuWzXgVvvJxeToiU1t"
         },
         {
           "title": "So Fine",
-          "play_count": 87897,
+          "play_count": 88243,
           "uri": "spotify:track:2VhMFWxZ2VVA9dGFaz0pus"
         },
         {
           "title": "LOUD",
-          "play_count": 75561,
+          "play_count": 75872,
           "uri": "spotify:track:4EOUvpxtH4L6nwl82Mo8mS"
         },
         {
           "title": "Bestie",
-          "play_count": 67385,
+          "play_count": 67620,
           "uri": "spotify:track:4oBCWAhGhdh2d2MlhFr3qU"
         }
       ]
@@ -199,6 +199,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

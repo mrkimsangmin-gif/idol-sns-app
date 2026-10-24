@@ -1530,81 +1530,76 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "88,468",
-      "누적_써클": "95,594",
+      "누적_써클": "7,126",
       "비고": "",
-      "누적_써클_numeric": 95594,
+      "누적_써클_numeric": 7126,
       "초동_써클_numeric": 88468,
       "monthly_timeline": [
         {
-          "ym": "2026-06",
-          "sales": 88468,
-          "cumulative": 88468
-        },
-        {
           "ym": "2026-07",
           "sales": 7126,
-          "cumulative": 95594
+          "cumulative": 7126
         }
       ]
     }
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 1845182,
+      "monthly_listeners": 1839126,
       "spotify_id": "0XATRDCYuuGhk0oE7C0o5G",
       "top_tracks": [
         {
           "title": "HIP",
-          "play_count": 320811316,
+          "play_count": 320867391,
           "uri": "spotify:track:24nK8tW7Pt3Inh2utttuoG"
         },
         {
           "title": "너나 해 (Egotistic)",
-          "play_count": 156714577,
+          "play_count": 156740220,
           "uri": "spotify:track:3a7OyTsoZ8CCBdvEEvzLBv"
         },
         {
           "title": "고고베베 (gogobebe)",
-          "play_count": 138914677,
+          "play_count": 138932922,
           "uri": "spotify:track:6E7jAJN2e3znSHyPCdQqx8"
         },
         {
           "title": "별이 빛나는 밤",
-          "play_count": 96387230,
+          "play_count": 96402273,
           "uri": "spotify:track:3qUJ0kC9YdBO5qRFdYXeXX"
         },
         {
           "title": "4 Flowers",
-          "play_count": 5279677,
+          "play_count": 5291326,
           "uri": "spotify:track:3wc2PoPGpb1vzM79AgitIh"
         },
         {
           "title": "데칼코마니",
-          "play_count": 62081817,
+          "play_count": 62092695,
           "uri": "spotify:track:5WitNasXEIRptoLIQUcXMx"
         },
         {
           "title": "AYA",
-          "play_count": 86473345,
+          "play_count": 86485654,
           "uri": "spotify:track:4BZXVFYCb76Q0Klojq4piV"
         },
         {
           "title": "딩가딩가 (Dingga)",
-          "play_count": 89124930,
+          "play_count": 89134964,
           "uri": "spotify:track:0bDYceyQd1jnJO4sK47YxU"
         },
         {
           "title": "ILLELLA (일낼라)",
-          "play_count": 51387672,
+          "play_count": 51395057,
           "uri": "spotify:track:0oeVHAgY8Q7Mdce5Quj2G4"
         },
         {
           "title": "Wind flower",
-          "play_count": 52520796,
+          "play_count": 52527367,
           "uri": "spotify:track:2qwyjoSsSr3M7HTt611Q5O"
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

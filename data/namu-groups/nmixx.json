@@ -567,21 +567,16 @@
       "초동_한터": "3,619",
       "누적_한터": "",
       "초동_써클": "376,977",
-      "누적_써클": "383,610",
+      "누적_써클": "6,633",
       "비고": "Heavy Serenade",
       "초동_한터_numeric": 3619,
-      "누적_써클_numeric": 383610,
+      "누적_써클_numeric": 6633,
       "초동_써클_numeric": 376977,
       "monthly_timeline": [
         {
-          "ym": "2026-05",
-          "sales": 376977,
-          "cumulative": 376977
-        },
-        {
           "ym": "2026-08",
           "sales": 6633,
-          "cumulative": 383610
+          "cumulative": 6633
         }
       ]
     },
@@ -618,57 +613,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 3870896,
+      "monthly_listeners": 3885703,
       "spotify_id": "28ot3wh4oNmoFOdVajibBl",
       "top_tracks": [
         {
           "title": "Heavy Serenade",
-          "play_count": 38961145,
+          "play_count": 39103864,
           "uri": "spotify:track:2adYJ0qJw5Io8nhtQ9KjHq"
         },
         {
           "title": "Blue Valentine",
-          "play_count": 80949094,
+          "play_count": 81075507,
           "uri": "spotify:track:0FKR7mQJnYqdEmHAMhgQjw"
         },
         {
           "title": "긴 소원 (Birthday Wish)",
-          "play_count": 1577911,
+          "play_count": 1899869,
           "uri": "spotify:track:6F0vhKF4fy9WQi39JPQnCv"
         },
         {
           "title": "DICE",
-          "play_count": 211624906,
+          "play_count": 211672076,
           "uri": "spotify:track:6C734SmqoIYuRWo2qSCnpC"
         },
         {
           "title": "Love Me Like This",
-          "play_count": 157016500,
+          "play_count": 157055224,
           "uri": "spotify:track:2W8UduoifU1zgjKZlfY79S"
         },
         {
           "title": "LOUD",
-          "play_count": 13010166,
+          "play_count": 13051441,
           "uri": "spotify:track:1mj5NqZYmFRj8CFTNrcr68"
         },
         {
           "title": "Crescendo",
-          "play_count": 13097811,
+          "play_count": 13133464,
           "uri": "spotify:track:5204mF69iUqPlC9E2hPmtk"
         },
         {
           "title": "KNOW ABOUT ME",
-          "play_count": 46679231,
+          "play_count": 46716930,
           "uri": "spotify:track:719MkAinn7QVNoibvtkSHW"
         },
         {
           "title": "O.O",
-          "play_count": 207024946,
+          "play_count": 207056359,
           "uri": "spotify:track:1m2PksrrMpIev63uPxT1V0"
         },
         {
           "title": "TIC TIC (feat. Pabllo Vittar)",
-          "play_count": 15861150,
+          "play_count": 15888449,
           "uri": "spotify:track:3LI7emieOkgFz1qbVcKR7m"
         }
       ]
@@ -962,6 +957,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

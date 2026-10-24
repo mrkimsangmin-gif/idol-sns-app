@@ -406,57 +406,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 201234,
+      "monthly_listeners": 200700,
       "spotify_id": "62T5PGHWJ9sxP2SJq20IHq",
       "top_tracks": [
         {
           "title": "Sweet Juice",
-          "play_count": 22766476,
+          "play_count": 22770819,
           "uri": "spotify:track:2th6UWbfVz3hsSDzQAKqy2"
         },
         {
           "title": "Zombie",
-          "play_count": 17719423,
+          "play_count": 17721693,
           "uri": "spotify:track:5zTp64MsWOTdAWWXK7zEPK"
         },
         {
           "title": "Nerdy",
-          "play_count": 12035702,
+          "play_count": 12037572,
           "uri": "spotify:track:6KExHY2Eo0DphK63s2dfYi"
         },
         {
           "title": "Ponzona",
-          "play_count": 13350623,
+          "play_count": 13352011,
           "uri": "spotify:track:597wvQ0bqfJgszRg4eDVy1"
         },
         {
           "title": "DOREMI",
-          "play_count": 1487448,
+          "play_count": 1488381,
           "uri": "spotify:track:05NoTRUIxv24AvRfdPmMkV"
         },
         {
           "title": "Autopilot",
-          "play_count": 3981959,
+          "play_count": 3982869,
           "uri": "spotify:track:0AM8lPGURJy8yBQ0tlhlOI"
         },
         {
           "title": "Pretty Psycho",
-          "play_count": 6026579,
+          "play_count": 6027601,
           "uri": "spotify:track:26YMXkyHGrOQQUl2E4upkv"
         },
         {
           "title": "ON MY BIKE",
-          "play_count": 2809809,
+          "play_count": 2810612,
           "uri": "spotify:track:4HoQGfQPxJE1LkuXuILUzo"
         },
         {
           "title": "memeM (맴맴)",
-          "play_count": 7128703,
+          "play_count": 7129464,
           "uri": "spotify:track:0qr3qIT7OrhzT33sW1syLI"
         },
         {
           "title": "BBB",
-          "play_count": 4049375,
+          "play_count": 4050084,
           "uri": "spotify:track:1Xj89xyCM5Edza6AqTpRuB"
         }
       ]
@@ -892,6 +892,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

@@ -252,57 +252,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 20280,
+      "monthly_listeners": 20165,
       "spotify_id": "3cI5n4TdsnqzKxYPkQLs4b",
       "top_tracks": [
         {
           "title": "Marvelous",
-          "play_count": 2498785,
+          "play_count": 2499226,
           "uri": "spotify:track:45op3j9bOEPAJnqq5gZ3Q5"
         },
         {
           "title": "KILLA",
-          "play_count": 2357666,
+          "play_count": 2357951,
           "uri": "spotify:track:7MyF8hoeUbpv6ZIEVlsTY8"
         },
         {
           "title": "Drip N' Drop",
-          "play_count": 937551,
+          "play_count": 937772,
           "uri": "spotify:track:5pCAhWYET9Ry4UIB3OmSkC"
         },
         {
           "title": "Splash",
-          "play_count": 1227173,
+          "play_count": 1227360,
           "uri": "spotify:track:6jDg7fyZRymvKPYWdBxTgu"
         },
         {
           "title": "Bang-Up",
-          "play_count": 514246,
+          "play_count": 514377,
           "uri": "spotify:track:7g9uU5wBl2RowJ5l0glI3Z"
         },
         {
           "title": "JUICE",
-          "play_count": 465664,
+          "play_count": 465755,
           "uri": "spotify:track:0MvRndObRPDsUofauqtPj8"
         },
         {
           "title": "RUNNING UP",
-          "play_count": 154906,
+          "play_count": 154979,
           "uri": "spotify:track:2wOyO1aYATNgoQulAp7vGa"
         },
         {
           "title": "비밀 (#Secret)",
-          "play_count": 306211,
+          "play_count": 306315,
           "uri": "spotify:track:3iQaNIV8JiT2Ru9YKtJeDL"
         },
         {
           "title": "Snow Prince",
-          "play_count": 232433,
+          "play_count": 232500,
           "uri": "spotify:track:3rCV8mltrSBeDbCrQ0fbWL"
         },
         {
           "title": "Daydreamin'",
-          "play_count": 153213,
+          "play_count": 153281,
           "uri": "spotify:track:7vxMPzZfOjlQ4UWxzUE6nY"
         }
       ]
@@ -854,6 +854,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

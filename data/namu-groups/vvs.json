@@ -130,57 +130,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 59437,
+      "monthly_listeners": 59194,
       "spotify_id": "48I72itlO50Fhw7BImZ1XJ",
       "top_tracks": [
         {
           "title": "D.I.M.M.",
-          "play_count": 2451403,
+          "play_count": 2453284,
           "uri": "spotify:track:1DEARfKkzuVeSIXlM03ztI"
         },
         {
           "title": "PURRFECT",
-          "play_count": 997061,
+          "play_count": 997767,
           "uri": "spotify:track:2xYAvmflFtPGpceqDhyeim"
         },
         {
           "title": "TOUCH IT",
-          "play_count": 810640,
+          "play_count": 811228,
           "uri": "spotify:track:0Wbo8YOcGPaCDiXvPa6r0m"
         },
         {
           "title": "$TAY THE NIGHT",
-          "play_count": 236240,
+          "play_count": 236649,
           "uri": "spotify:track:4DxYt2UWh4DAtFOwXu6bDz"
         },
         {
           "title": "FACT$",
-          "play_count": 591469,
+          "play_count": 591916,
           "uri": "spotify:track:7En72n0G3vxBpdjtwqoNPd"
         },
         {
           "title": "TEA",
-          "play_count": 616929,
+          "play_count": 617253,
           "uri": "spotify:track:2qYsC9SS321xSGXJe7TQME"
         },
         {
           "title": "MIXIN' THANG$",
-          "play_count": 127241,
+          "play_count": 127486,
           "uri": "spotify:track:2Kkx44GrRNHxZUYPXHJhox"
         },
         {
           "title": "DA$H",
-          "play_count": 153755,
+          "play_count": 154054,
           "uri": "spotify:track:1Fg9XgwCgGi9TtmEf2WjzP"
         },
         {
           "title": "BOTTLE$",
-          "play_count": 133702,
+          "play_count": 134034,
           "uri": "spotify:track:4iq1lGqYtWldYMIde5YecM"
         },
         {
           "title": "V.V.$",
-          "play_count": 137616,
+          "play_count": 137863,
           "uri": "spotify:track:7gTEmJIE6yAfRlb7jwL17K"
         }
       ]
@@ -266,6 +266,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

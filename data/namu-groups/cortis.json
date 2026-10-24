@@ -112,75 +112,25 @@
       "초동_한터": "436,367",
       "누적_한터": "",
       "초동_써클": "420,060",
-      "누적_써클": "2,372,630",
+      "누적_써클": "234,607",
       "비고": "데뷔 음반",
-      "누적_써클_numeric": 2372630,
+      "누적_써클_numeric": 234607,
       "초동_써클_numeric": 420060,
       "monthly_timeline": [
         {
-          "ym": "2025-09",
-          "sales": 620056,
-          "cumulative": 620056
-        },
-        {
-          "ym": "2025-10",
-          "sales": 348417,
-          "cumulative": 968473
-        },
-        {
-          "ym": "2025-11",
-          "sales": 226495,
-          "cumulative": 1194968
-        },
-        {
-          "ym": "2025-12",
-          "sales": 186583,
-          "cumulative": 1381551
-        },
-        {
-          "ym": "2026-01",
-          "sales": 380912,
-          "cumulative": 1762463
-        },
-        {
-          "ym": "2026-02",
-          "sales": 232852,
-          "cumulative": 1995315
-        },
-        {
-          "ym": "2026-03",
-          "sales": 19791,
-          "cumulative": 2015106
-        },
-        {
-          "ym": "2026-04",
-          "sales": 80959,
-          "cumulative": 2096065
-        },
-        {
-          "ym": "2026-05",
-          "sales": 11216,
-          "cumulative": 2107281
-        },
-        {
-          "ym": "2026-06",
-          "sales": 30742,
-          "cumulative": 2138023
-        },
-        {
           "ym": "2026-07",
           "sales": 161280,
-          "cumulative": 2299303
+          "cumulative": 161280
         },
         {
           "ym": "2026-08",
           "sales": 48329,
-          "cumulative": 2347632
+          "cumulative": 209609
         },
         {
           "ym": "2026-09",
           "sales": 24998,
-          "cumulative": 2372630
+          "cumulative": 234607
         }
       ]
     },
@@ -201,34 +151,24 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "2,313,291",
-      "누적_써클": "4,519,263",
+      "누적_써클": "1,577,011",
       "비고": "EP 2집",
-      "누적_써클_numeric": 4519263,
+      "누적_써클_numeric": 1577011,
       "monthly_timeline": [
-        {
-          "ym": "2026-05",
-          "sales": 2525166,
-          "cumulative": 2525166
-        },
-        {
-          "ym": "2026-06",
-          "sales": 417086,
-          "cumulative": 2942252
-        },
         {
           "ym": "2026-07",
           "sales": 423237,
-          "cumulative": 3365489
+          "cumulative": 423237
         },
         {
           "ym": "2026-08",
           "sales": 552932,
-          "cumulative": 3918421
+          "cumulative": 976169
         },
         {
           "ym": "2026-09",
           "sales": 600842,
-          "cumulative": 4519263
+          "cumulative": 1577011
         }
       ]
     },
@@ -245,57 +185,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 11147216,
+      "monthly_listeners": 11119198,
       "spotify_id": "1ebt9HnXdyYA6KgLXr1n4P",
       "top_tracks": [
         {
           "title": "REDRED",
-          "play_count": 260518662,
+          "play_count": 261418306,
           "uri": "spotify:track:34YVCoqIm08nbsxFSPL0Uh"
         },
         {
           "title": "GO!",
-          "play_count": 259525424,
+          "play_count": 259938680,
           "uri": "spotify:track:6OWWZtNQORY1McaZmOrwhc"
         },
         {
           "title": "FaSHioN",
-          "play_count": 241113907,
+          "play_count": 241530340,
           "uri": "spotify:track:4ecdsGz3Hg6TKPwQ0ZOdJz"
         },
         {
           "title": "ACAI",
-          "play_count": 73329954,
+          "play_count": 73614325,
           "uri": "spotify:track:5IKJR2os45Ps1ZJyqpevg7"
         },
         {
           "title": "MONEYMONEYMONEY",
-          "play_count": 23225226,
+          "play_count": 23495092,
           "uri": "spotify:track:0soE3o6dUx6YiSzpUkfyBE"
         },
         {
           "title": "TNT",
-          "play_count": 71230090,
+          "play_count": 71490049,
           "uri": "spotify:track:4VkPbGQ93cQv05Pq1ytaU6"
         },
         {
           "title": "JoyRide",
-          "play_count": 115703407,
+          "play_count": 115949558,
           "uri": "spotify:track:6T17ZI0glfM2IGLdUwtnLK"
         },
         {
           "title": "What You Want",
-          "play_count": 114813878,
+          "play_count": 115030320,
           "uri": "spotify:track:3rAcN3CLeSrkhIZN8PHbwb"
         },
         {
           "title": "MOTION (feat. Juicy J)",
-          "play_count": 29947896,
+          "play_count": 30142436,
           "uri": "spotify:track:15EbINtnOI4c2jPXXskywy"
         },
         {
           "title": "YOUNGCREATORCREW",
-          "play_count": 51567022,
+          "play_count": 51733233,
           "uri": "spotify:track:3uUYkv5dzVORi2Iq3dLDKN"
         }
       ]
@@ -366,6 +306,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

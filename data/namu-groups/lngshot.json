@@ -167,57 +167,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 3716322,
+      "monthly_listeners": 3736111,
       "spotify_id": "2F4oTJOWkcD1JaTeKEa9h6",
       "top_tracks": [
         {
           "title": "Moonwalkin'",
-          "play_count": 117159391,
+          "play_count": 117427126,
           "uri": "spotify:track:46V2ciN6F5bxjQWityNhkY"
         },
         {
           "title": "Never Let Go",
-          "play_count": 81127276,
+          "play_count": 81321910,
           "uri": "spotify:track:37xebnhvUyM8VyyDDeo65d"
         },
         {
           "title": "FaceTime",
-          "play_count": 47985133,
+          "play_count": 48107935,
           "uri": "spotify:track:7Ji60z4V0d0IUbuZMkpjJa"
         },
         {
           "title": "Saucin'",
-          "play_count": 48221737,
+          "play_count": 48327281,
           "uri": "spotify:track:7jVr1ZipYJJR4qHxZcQjqa"
         },
         {
           "title": "MOYA",
-          "play_count": 17241094,
+          "play_count": 17316902,
           "uri": "spotify:track:1ACzcLe7HPprJQng3lu6qQ"
         },
         {
-          "title": "Backseat",
-          "play_count": 21309078,
-          "uri": "spotify:track:2xsZMSE32OCHKWe4A8sM0w"
-        },
-        {
           "title": "Masterpiece",
-          "play_count": 1135660,
+          "play_count": 1679908,
           "uri": "spotify:track:3h0ghWPVT1SzCgZnHPqp8b"
         },
         {
+          "title": "Backseat",
+          "play_count": 21361122,
+          "uri": "spotify:track:2xsZMSE32OCHKWe4A8sM0w"
+        },
+        {
           "title": "YEAH! YEAH!",
-          "play_count": 11154294,
+          "play_count": 11199936,
           "uri": "spotify:track:7vmq3Ukd8csLDpCvoOM9Do"
         },
         {
           "title": "Vanilla Days",
-          "play_count": 16800766,
+          "play_count": 16846337,
           "uri": "spotify:track:6J0lnKcH7C1Hu0tn5hv7pI"
         },
         {
           "title": "4SHO 4SHO",
-          "play_count": 9123861,
+          "play_count": 9163418,
           "uri": "spotify:track:3GK3htTIyOEq8gz3sPj6L0"
         }
       ]
@@ -328,6 +328,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

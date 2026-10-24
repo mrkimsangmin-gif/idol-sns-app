@@ -256,57 +256,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 151653,
+      "monthly_listeners": 150744,
       "spotify_id": "4T0Chh3DGxJrEs3gM0biqg",
       "top_tracks": [
         {
           "title": "GOD",
-          "play_count": 2167396,
+          "play_count": 2173851,
           "uri": "spotify:track:12JITOk7QLRiczuCqZlmIF"
         },
         {
           "title": "He + She = We",
-          "play_count": 2525273,
+          "play_count": 2528007,
           "uri": "spotify:track:6qdFbZXpKzgYa85h3dMdlT"
         },
         {
           "title": "그게 그거지 (That’s That)",
-          "play_count": 2157753,
+          "play_count": 2160431,
           "uri": "spotify:track:6JQ1Pad31fiEp9pbzDJYhB"
         },
         {
           "title": "Kick Start",
-          "play_count": 1984426,
+          "play_count": 1986515,
           "uri": "spotify:track:3S4HP6bVClEGErbHCD3U0k"
         },
         {
           "title": "I’m Down",
-          "play_count": 827522,
+          "play_count": 829414,
           "uri": "spotify:track:10KmxTDbPwl7Xop7TzWW20"
         },
         {
           "title": "I Know You",
-          "play_count": 1148233,
+          "play_count": 1149806,
           "uri": "spotify:track:531kvTzMPTg5HAw23zkO8e"
         },
         {
           "title": "삐걱삐걱 (Seesaw)",
-          "play_count": 1011861,
+          "play_count": 1013463,
           "uri": "spotify:track:6OIOwc5iNN5pVT1yTlkcxs"
         },
         {
           "title": "On And On",
-          "play_count": 2385190,
+          "play_count": 2386624,
           "uri": "spotify:track:3bRyI7A5sCyZSDKoLrbHMt"
         },
         {
           "title": "Broken Heart",
-          "play_count": 2155503,
+          "play_count": 2156896,
           "uri": "spotify:track:73GudsEp8XCh098nie5sk3"
         },
         {
           "title": "나는 나대로 (My Way)",
-          "play_count": 437917,
+          "play_count": 439075,
           "uri": "spotify:track:08z8aSqyRY0GSr4RoXjPmh"
         }
       ]
@@ -469,6 +469,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

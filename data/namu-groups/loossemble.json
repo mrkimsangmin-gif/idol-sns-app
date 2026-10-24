@@ -149,57 +149,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 397436,
+      "monthly_listeners": 392708,
       "spotify_id": "1kbVoxpFh1eDOXumLmVdKY",
       "top_tracks": [
         {
           "title": "TTYL",
-          "play_count": 36074394,
+          "play_count": 36097726,
           "uri": "spotify:track:3AXryyinIY17WLddIcNjwT"
         },
         {
           "title": "Girls’ Night",
-          "play_count": 5594776,
+          "play_count": 5596633,
           "uri": "spotify:track:0hnxybqZeJzU85jSwf5cdG"
         },
         {
           "title": "Strawberry soda",
-          "play_count": 4625821,
+          "play_count": 4627602,
           "uri": "spotify:track:0Kb4j4M1dfjPqfPopx55E4"
         },
         {
           "title": "Sensitive",
-          "play_count": 7940522,
+          "play_count": 7942374,
           "uri": "spotify:track:6A1dCPrUYhg56ukp4zlEUw"
         },
         {
           "title": "Colouring",
-          "play_count": 4258292,
+          "play_count": 4259782,
           "uri": "spotify:track:3lt6uiyNjGCl1em9xSzfBW"
         },
         {
           "title": "Cotton Candy",
-          "play_count": 2879805,
+          "play_count": 2881619,
           "uri": "spotify:track:1MpNPKjqwznhmNiRk41T3r"
         },
         {
           "title": "Newtopia",
-          "play_count": 3651218,
+          "play_count": 3652642,
           "uri": "spotify:track:46MVRqbSgDVVaMb260PDzY"
         },
         {
           "title": "Confessions",
-          "play_count": 2073542,
+          "play_count": 2074629,
           "uri": "spotify:track:5mynreJz2Xjpb4NO8PazCV"
         },
         {
           "title": "Hocus Pocus",
-          "play_count": 1834890,
+          "play_count": 1835909,
           "uri": "spotify:track:5cyadVGzPTV6P4CLyrhsEv"
         },
         {
           "title": "Secret Diary",
-          "play_count": 1727484,
+          "play_count": 1728405,
           "uri": "spotify:track:6YYxZBIZusxbz3XgZdOyuP"
         }
       ]
@@ -340,6 +340,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

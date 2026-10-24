@@ -329,57 +329,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 22967,
+      "monthly_listeners": 22787,
       "spotify_id": "60315n11JElel8KhdHg8jM",
       "top_tracks": [
         {
           "title": "반하겠어",
-          "play_count": 1812810,
+          "play_count": 1813011,
           "uri": "spotify:track:2ZnPDErWgk6i2Vqh4xEEMG"
         },
         {
           "title": "JAWS",
-          "play_count": 1370439,
+          "play_count": 1370678,
           "uri": "spotify:track:1c5kZR43Op22rrsVv9jrBT"
         },
         {
           "title": "사랑했다",
-          "play_count": 1687654,
+          "play_count": 1687848,
           "uri": "spotify:track:4NLX51HWYhwWv9VqdJgYjc"
         },
         {
           "title": "Fifty-Fifty",
-          "play_count": 576833,
+          "play_count": 576982,
           "uri": "spotify:track:5Su70BpO6XilzuCjgR2OG2"
         },
         {
           "title": "왜 이러니",
-          "play_count": 237548,
+          "play_count": 237681,
           "uri": "spotify:track:4Fge5M1t2E746wfOy4gjBf"
         },
         {
           "title": "짜증나게",
-          "play_count": 390509,
+          "play_count": 390651,
           "uri": "spotify:track:3hH1faxDfIqxOVbLVLrtMT"
         },
         {
           "title": "DaSH",
-          "play_count": 660984,
+          "play_count": 661106,
           "uri": "spotify:track:5iAfHrcO2dAcnGlwVjinF1"
         },
         {
           "title": "NOBODY",
-          "play_count": 85787,
+          "play_count": 85868,
           "uri": "spotify:track:38cIuJUnGCUrs448QwXhCP"
         },
         {
           "title": "FLY",
-          "play_count": 392640,
+          "play_count": 392727,
           "uri": "spotify:track:4qoExC3LbJGTCvfyBV4Zf0"
         },
         {
           "title": "Turned Up",
-          "play_count": 86561,
+          "play_count": 86613,
           "uri": "spotify:track:32ipVS9ZcabAeQSbb65dbo"
         }
       ]
@@ -616,6 +616,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

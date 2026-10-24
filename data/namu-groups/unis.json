@@ -276,57 +276,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 527899,
+      "monthly_listeners": 519891,
       "spotify_id": "48xyu8QHo1IhsQZGlgNGYZ",
       "top_tracks": [
         {
           "title": "하늘땅 별땅",
-          "play_count": 1972776,
+          "play_count": 2001939,
           "uri": "spotify:track:5Y4NB6wByKcvo6bvyfg6nN"
         },
         {
           "title": "Milky Way",
-          "play_count": 670970,
+          "play_count": 680103,
           "uri": "spotify:track:6ekUxiTRlZUpWk71JQ8tm8"
         },
         {
           "title": "SWICY",
-          "play_count": 11505068,
+          "play_count": 11513930,
           "uri": "spotify:track:3owGQ1rmtKXpvwHmF0S2CZ"
         },
         {
           "title": "너만 몰라",
-          "play_count": 12925580,
+          "play_count": 12930707,
           "uri": "spotify:track:0O0ivmVOezvyrCkcxEvrCl"
         },
         {
           "title": "SUPERWOMAN",
-          "play_count": 17158256,
+          "play_count": 17162780,
           "uri": "spotify:track:4NZZdFybgGq1Xwx4wq2BdB"
         },
         {
           "title": "GimmeSummer☆(JP Ver.)",
-          "play_count": 780120,
+          "play_count": 782419,
           "uri": "spotify:track:4mzb53KYIy6xvr6obE7LT6"
         },
         {
           "title": "BBYBBY",
-          "play_count": 517840,
+          "play_count": 519789,
           "uri": "spotify:track:5XGDu99vqOA2riMYXwBRor"
         },
         {
           "title": "꿈의 소녀(Dream of girls)(UNIS Ver.)",
-          "play_count": 5784285,
+          "play_count": 5786788,
           "uri": "spotify:track:4exkQ7H4ONDqLGUbuiTsDS"
         },
         {
           "title": "봄비",
-          "play_count": 2923337,
+          "play_count": 2926015,
           "uri": "spotify:track:3ySVVIb0CUByvMtaJNK9tC"
         },
         {
           "title": "mwah...(JP Ver.)",
-          "play_count": 2027805,
+          "play_count": 2029919,
           "uri": "spotify:track:7etjtPzap4rbUVMKm3G2KD"
         }
       ]
@@ -488,6 +488,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

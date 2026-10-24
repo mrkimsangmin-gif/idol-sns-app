@@ -686,57 +686,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 719420,
+      "monthly_listeners": 716226,
       "spotify_id": "5R7AMwDeroq6Ls0COQYpS4",
       "top_tracks": [
         {
           "title": "WA DA DA",
-          "play_count": 197572749,
+          "play_count": 197592000,
           "uri": "spotify:track:4gdiCHNbwugojBqr5Jt3pq"
         },
         {
           "title": "Shooting Star",
-          "play_count": 20954392,
+          "play_count": 20962229,
           "uri": "spotify:track:0k2JbfyqtVhiLqGgNuwQGX"
         },
         {
           "title": "KILLA (Face the other me)",
-          "play_count": 3630633,
+          "play_count": 3637222,
           "uri": "spotify:track:38LzWFA6AtLVoln4d4SI2S"
         },
         {
           "title": "Up!",
-          "play_count": 64678898,
+          "play_count": 64684892,
           "uri": "spotify:track:3XZAvh2NCDQYHgJei35VQ1"
         },
         {
           "title": "BUBBLE GUM",
-          "play_count": 6860071,
+          "play_count": 6863405,
           "uri": "spotify:track:3IUtLSW5FWB0K4RdkvOamG"
         },
         {
           "title": "Back to the City",
-          "play_count": 11393160,
+          "play_count": 11395522,
           "uri": "spotify:track:2Zx7YnpyTsQvjAf9elDsgX"
         },
         {
           "title": "TIPI-TAP",
-          "play_count": 7512213,
+          "play_count": 7514520,
           "uri": "spotify:track:0SCHvh0ZqVd2Wcq2l4kzai"
         },
         {
           "title": "Yum",
-          "play_count": 5083852,
+          "play_count": 5086033,
           "uri": "spotify:track:6KsXEZEbBcH16U31sIyofB"
         },
         {
           "title": "Giddy",
-          "play_count": 16822866,
+          "play_count": 16824875,
           "uri": "spotify:track:6blIAzkMKENKqAfMwj5cZQ"
         },
         {
           "title": "MVSK",
-          "play_count": 19204271,
+          "play_count": 19206156,
           "uri": "spotify:track:0dTEMO9G2uu9Vbu3f8Swto"
         }
       ]
@@ -1126,6 +1126,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

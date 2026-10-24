@@ -1479,57 +1479,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 7217028,
+      "monthly_listeners": 7261592,
       "spotify_id": "68KmkJeZGfwe1OUaivBa2L",
       "top_tracks": [
         {
           "title": "BAD",
-          "play_count": 98386866,
+          "play_count": 99062293,
           "uri": "spotify:track:55UDXtbNJBAdTdUdbRu8T3"
         },
         {
           "title": "Adrenaline",
-          "play_count": 49715635,
+          "play_count": 49871698,
           "uri": "spotify:track:2VKGO4DNyUK5UxCQB3b3DF"
         },
         {
           "title": "BOUNCY (K-HOT CHILLI PEPPERS)",
-          "play_count": 200019674,
+          "play_count": 200146067,
           "uri": "spotify:track:7Lhm9BUglm30Q6Fb1Fl2By"
         },
         {
           "title": "Ice On My Teeth",
-          "play_count": 117345619,
+          "play_count": 117480040,
           "uri": "spotify:track:2QAFTMHp7NeuyM6P2SiB7U"
         },
         {
           "title": "In Your Fantasy",
-          "play_count": 76112876,
+          "play_count": 76220492,
           "uri": "spotify:track:3Z4BxvgOJ8KupcDIV3OV2f"
         },
         {
           "title": "WORK",
-          "play_count": 127250246,
+          "play_count": 127344346,
           "uri": "spotify:track:2v5P8pSXa4fdaTHWvJexwl"
         },
         {
           "title": "MAMACITA",
-          "play_count": 13908163,
+          "play_count": 13992036,
           "uri": "spotify:track:5nLs60CiNmzVDD671PPUmy"
         },
         {
           "title": "NASA",
-          "play_count": 27831188,
+          "play_count": 27917567,
           "uri": "spotify:track:48G4rDLisHuVgCKg872Tu5"
         },
         {
           "title": "Lemon Drop",
-          "play_count": 58842618,
+          "play_count": 58908293,
           "uri": "spotify:track:3lnok1hUcplIhIqAHhqOis"
         },
         {
           "title": "미친 폼",
-          "play_count": 128265380,
+          "play_count": 128338155,
           "uri": "spotify:track:7KRMUlKJ691FS7CIB4O7yQ"
         }
       ]
@@ -2093,6 +2093,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

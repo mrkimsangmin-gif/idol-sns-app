@@ -214,57 +214,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 45982,
+      "monthly_listeners": 46562,
       "spotify_id": "2hoCMH0KWwpjFJEGh0ECe7",
       "top_tracks": [
         {
           "title": "다섯시간의 조각들",
-          "play_count": 31519,
+          "play_count": 32863,
           "uri": "spotify:track:5qOwRXMNfJmY42pxCJTM7f"
         },
         {
           "title": "그 계절 긴 터널을 지나",
-          "play_count": 388137,
+          "play_count": 388879,
           "uri": "spotify:track:1CPY4rGB0wJ5nx2sajjBxU"
         },
         {
           "title": "I Don’t Wanna Wait (IDWW)",
-          "play_count": 119714,
+          "play_count": 120071,
           "uri": "spotify:track:4CXK0BfOkYUbvwD9EbYiSV"
         },
         {
           "title": "10분조차",
-          "play_count": 124979,
+          "play_count": 125297,
           "uri": "spotify:track:14PSuvCf2TfS86mslFXW7q"
         },
         {
           "title": "MY PRIDE",
-          "play_count": 236357,
+          "play_count": 236673,
           "uri": "spotify:track:5fXi5dl48tR8l0rUlPSa0Y"
         },
         {
           "title": "말해줘",
-          "play_count": 12479,
+          "play_count": 13117,
           "uri": "spotify:track:2i5eJCKqHFD0ZJstcVKa6L"
         },
         {
           "title": "Always",
-          "play_count": 144325,
+          "play_count": 144686,
           "uri": "spotify:track:2D0TijeHqUmV8kr7GHR2W7"
         },
         {
           "title": "지내볼게",
-          "play_count": 9115,
+          "play_count": 9339,
           "uri": "spotify:track:47TQfMZ83TvmeAULZSXIcB"
         },
         {
           "title": "I’m the One",
-          "play_count": 126433,
+          "play_count": 126614,
           "uri": "spotify:track:4SnptJXBUZz8TMIKNy6NBn"
         },
         {
           "title": "fool",
-          "play_count": 8508,
+          "play_count": 8798,
           "uri": "spotify:track:093pO6j1vAMVzGGFRglFIc"
         }
       ]
@@ -465,6 +465,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }

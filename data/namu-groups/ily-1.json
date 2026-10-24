@@ -206,57 +206,57 @@
   ],
   "streaming": {
     "spotify": {
-      "monthly_listeners": 16523,
+      "monthly_listeners": 16421,
       "spotify_id": "3FvFhUWP00xtwBrHtby3v8",
       "top_tracks": [
         {
           "title": "사랑아 피어라",
-          "play_count": 2039373,
+          "play_count": 2039632,
           "uri": "spotify:track:5rUoH4RHLzlh8tOmzP1GWY"
         },
         {
           "title": "Que Sera Sera (케세라세라)",
-          "play_count": 1094669,
+          "play_count": 1094810,
           "uri": "spotify:track:4b9jE3ZlUCKhyg2Rd0ZjHp"
         },
         {
           "title": "별꽃동화",
-          "play_count": 1068204,
+          "play_count": 1068359,
           "uri": "spotify:track:5RonLpKNWLO6lXmt7R07W8"
         },
         {
           "title": "I MY ME MINE",
-          "play_count": 415043,
+          "play_count": 415158,
           "uri": "spotify:track:2bChloJZGv8ezvRhC7e2la"
         },
         {
           "title": "꽃이 피었습니다",
-          "play_count": 255474,
+          "play_count": 255560,
           "uri": "spotify:track:5r6wSPs7y2V9DVud9Tjnxf"
         },
         {
           "title": "MY COLOR",
-          "play_count": 490081,
+          "play_count": 490154,
           "uri": "spotify:track:5elQqjmREJkadJWsNMW4ej"
         },
         {
           "title": "아젤리아",
-          "play_count": 471457,
+          "play_count": 471534,
           "uri": "spotify:track:44t2jRqGiSDmxTCexAbboI"
         },
         {
           "title": "내 남자친구에게",
-          "play_count": 246658,
+          "play_count": 246728,
           "uri": "spotify:track:2WuD4tAn8iCscm1EuZvVWr"
         },
         {
           "title": "illang (Firework)",
-          "play_count": 173057,
+          "play_count": 173107,
           "uri": "spotify:track:07FyMbh9c7ciBLBZTEE7vm"
         },
         {
           "title": "Are You Happy Now?",
-          "play_count": 44789,
+          "play_count": 44832,
           "uri": "spotify:track:5VWmgMFkFzEnMjKjGN2kL5"
         }
       ]
@@ -519,6 +519,6 @@
         }
       ]
     },
-    "collected_at": "2026-10-24"
+    "collected_at": "2026-10-25"
   }
 }
