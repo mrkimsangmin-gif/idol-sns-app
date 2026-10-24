@@ -115,10 +115,10 @@
       ]
     },
     "ytmusic": {
-      "total_views": 224533,
+      "total_views": 203863,
       "track_count": 6,
-      "mean_views": 37422,
-      "max_views": 122274,
+      "mean_views": 33977,
+      "max_views": 156068,
       "albums": [
         {
           "title": "Echoes of Echo",
@@ -127,17 +127,17 @@
             {
               "title": "Echo (Alternate Version)",
               "video_id": "uBev9I2O8Og",
-              "youtube_views": 77941
+              "youtube_views": 156068
             },
             {
               "title": "Echo (Sped Up Version)",
               "video_id": "e5Cl1TN1foM",
-              "youtube_views": 3916
+              "youtube_views": 7814
             },
             {
               "title": "Echo (Slowed Down Version)",
               "video_id": "TGQ8PJsqQyY",
-              "youtube_views": 2671
+              "youtube_views": 4708
             }
           ]
         },
@@ -148,17 +148,17 @@
             {
               "title": "Never Far Away (Prologue)",
               "video_id": "B2EPXs0t680",
-              "youtube_views": 13638
+              "youtube_views": 27728
             },
             {
               "title": "Echo",
               "video_id": "wDkoQvB2_pw",
-              "youtube_views": 122274
+              "youtube_views": 0
             },
             {
               "title": "Echo (Inst.)",
               "video_id": "_mtCDkPd3YE",
-              "youtube_views": 4093
+              "youtube_views": 7545
             }
           ]
         }

@@ -171,10 +171,10 @@
       ]
     },
     "ytmusic": {
-      "total_views": 532400,
+      "total_views": 560724,
       "track_count": 8,
-      "mean_views": 66550,
-      "max_views": 187400,
+      "mean_views": 70090,
+      "max_views": 255774,
       "albums": [
         {
           "title": "X-mas Treat",
@@ -183,17 +183,17 @@
             {
               "title": "Must Have love (2024 Version)",
               "video_id": "Sv_ZFX_X7HE",
-              "youtube_views": 20958
+              "youtube_views": 0
             },
             {
               "title": "Must Have love (Eng Version)",
               "video_id": "Tyqz7rb4bTc",
-              "youtube_views": 2970
+              "youtube_views": 3564
             },
             {
               "title": "Must Have love (Instrumental)",
               "video_id": "fRAcbxhkoks",
-              "youtube_views": 777
+              "youtube_views": 851
             }
           ]
         },
@@ -204,27 +204,27 @@
             {
               "title": "My One",
               "video_id": "0nErLeAVOWQ",
-              "youtube_views": 187400
+              "youtube_views": 255774
             },
             {
               "title": "Everlasting Miracle",
               "video_id": "wuS5-fzngZw",
-              "youtube_views": 187277
+              "youtube_views": 195225
             },
             {
               "title": "Forget All",
               "video_id": "vSBJtQmO6so",
-              "youtube_views": 49118
+              "youtube_views": 0
             },
             {
               "title": "aH-OOh!",
               "video_id": "Tw90jA_rsck",
-              "youtube_views": 45873
+              "youtube_views": 54025
             },
             {
               "title": "My One (English Version)",
               "video_id": "Z7YNbJVmOpc",
-              "youtube_views": 38027
+              "youtube_views": 51285
             }
           ]
         }

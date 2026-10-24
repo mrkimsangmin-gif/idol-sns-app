@@ -134,10 +134,10 @@
       ]
     },
     "ytmusic": {
-      "total_views": 2690375,
+      "total_views": 48026384,
       "track_count": 2,
-      "mean_views": 1345187,
-      "max_views": 1888035,
+      "mean_views": 24013192,
+      "max_views": 35741119,
       "albums": [
         {
           "title": "SUN KISS",
@@ -146,17 +146,17 @@
             {
               "title": "SUN KISS",
               "video_id": "46h0LvDHgIs",
-              "youtube_views": 1888035
+              "youtube_views": 35741119
             },
             {
               "title": "GRLS",
               "video_id": "pHciG9_2xXM",
-              "youtube_views": 802340
+              "youtube_views": 12285265
             }
           ]
         }
       ]
     },
-    "collected_at": "2026-03-19"
+    "collected_at": "2026-10-24"
   }
 }

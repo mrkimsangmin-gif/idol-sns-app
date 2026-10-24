@@ -184,10 +184,10 @@
       ]
     },
     "ytmusic": {
-      "total_views": 711672,
+      "total_views": 540138,
       "track_count": 10,
-      "mean_views": 71167,
-      "max_views": 129011,
+      "mean_views": 54013,
+      "max_views": 134030,
       "albums": [
         {
           "title": "NOMAD",
@@ -196,37 +196,37 @@
             {
               "title": "No pressure (No pressure)",
               "video_id": "u5SAIPyu_6U",
-              "youtube_views": 113568
+              "youtube_views": 0
             },
             {
               "title": "California love (California love)",
               "video_id": "T4hhHSsnmZs",
-              "youtube_views": 65876
+              "youtube_views": 0
             },
             {
               "title": "Oasis (Oasis)",
               "video_id": "0RXOCT40CtQ",
-              "youtube_views": 76631
+              "youtube_views": 85717
             },
             {
               "title": "Automatic (Automatic)",
               "video_id": "EaDp3ZKShVg",
-              "youtube_views": 68563
+              "youtube_views": 0
             },
             {
               "title": "Let me love you (Let me love you)",
               "video_id": "RA_oslEFJjU",
-              "youtube_views": 129011
+              "youtube_views": 134030
             },
             {
               "title": "Lights on (Lights on)",
               "video_id": "yBPZQ_xYWg0",
-              "youtube_views": 83151
+              "youtube_views": 100468
             },
             {
               "title": "Eye 2 eye (Eye 2 eye)",
               "video_id": "y2lfSBsn8BQ",
-              "youtube_views": 68508
+              "youtube_views": 90290
             }
           ]
         },
@@ -237,7 +237,7 @@
             {
               "title": "CARNIVAL",
               "video_id": "Gb4h4363acY",
-              "youtube_views": 10422
+              "youtube_views": 18927
             }
           ]
         },
@@ -248,12 +248,12 @@
             {
               "title": "Call Me Back",
               "video_id": "CnrpA08wqd8",
-              "youtube_views": 43299
+              "youtube_views": 48016
             },
             {
               "title": "Compare",
               "video_id": "WdmIE5mZo1k",
-              "youtube_views": 52643
+              "youtube_views": 62690
             }
           ]
         }

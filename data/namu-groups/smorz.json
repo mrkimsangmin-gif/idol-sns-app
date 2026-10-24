@@ -146,10 +146,10 @@
       ]
     },
     "ytmusic": {
-      "total_views": 1521715,
+      "total_views": 447032,
       "track_count": 4,
-      "mean_views": 380428,
-      "max_views": 1024517,
+      "mean_views": 111758,
+      "max_views": 225312,
       "albums": [
         {
           "title": "ALWAYS SOME MORE",
@@ -158,22 +158,22 @@
             {
               "title": "I want you to",
               "video_id": "I6YYqKY2pz8",
-              "youtube_views": 1024517
+              "youtube_views": 0
             },
             {
               "title": "Love Drive",
               "video_id": "JyoUYvw01nk",
-              "youtube_views": 211111
+              "youtube_views": 221720
             },
             {
               "title": "Bleeding Heart",
               "video_id": "FnEpsftOTD8",
-              "youtube_views": 208701
+              "youtube_views": 225312
             },
             {
               "title": "My Only Love",
               "video_id": "LgHNu052ALE",
-              "youtube_views": 77386
+              "youtube_views": 0
             }
           ]
         }
