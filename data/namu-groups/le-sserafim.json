@@ -142,11 +142,11 @@
       "title": "ANTIFRAGILE",
       "type": "미니 2집",
       "발매일": "2022.10.17",
-      "초동_한터": "",
+      "초동_한터": "3,902",
       "누적_한터": "",
       "초동_써클": "887",
       "누적_써클": "1,202,969",
-      "비고": "ANTIFRAGILE",
+      "비고": "ANTIFRAGILE, 한터 월간 실측치",
       "누적_써클_numeric": 1202969,
       "초동_써클_numeric": 887,
       "monthly_timeline": [
@@ -220,17 +220,18 @@
           "sales": 7695,
           "cumulative": 1202969
         }
-      ]
+      ],
+      "초동_한터_numeric": 3902
     },
     {
       "title": "FEARLESS (Japanese ver.)",
       "type": "일본 싱글 1집",
       "발매일": "2023.01.25",
-      "초동_한터": "",
+      "초동_한터": "3,012",
       "누적_한터": "",
       "초동_써클": "412,696",
       "누적_써클": "517,438",
-      "비고": "FEARLESS (Japanese ver.)",
+      "비고": "FEARLESS (Japanese ver.), 한터 월간 실측치",
       "누적_써클_numeric": 517438,
       "monthly_timeline": [
         {
@@ -274,7 +275,8 @@
           "cumulative": 517438
         }
       ],
-      "초동_써클_numeric": 412696
+      "초동_써클_numeric": 412696,
+      "초동_한터_numeric": 3012
     },
     {
       "title": "UNFORGIVEN",
@@ -329,11 +331,11 @@
       "title": "UNFORGIVEN (Japanese ver.)",
       "type": "일본 싱글 2집",
       "발매일": "2023.05.01",
-      "초동_한터": "",
+      "초동_한터": "3,698",
       "누적_한터": "",
       "초동_써클": "1,229,837",
       "누적_써클": "1,569,823",
-      "비고": "UNFORGIVEN (feat. Nile Rodgers, Ado) -Japanese ver.-",
+      "비고": "UNFORGIVEN (feat. Nile Rodgers, Ado) -Japanese ver.-, 한터 월간 실측치",
       "누적_써클_numeric": 1569823,
       "초동_써클_numeric": 1229837,
       "monthly_timeline": [
@@ -362,7 +364,8 @@
           "sales": 3473,
           "cumulative": 1569823
         }
-      ]
+      ],
+      "초동_한터_numeric": 3698
     },
     {
       "title": "Perfect Night",
@@ -575,21 +578,23 @@
       "title": "EASY (English ver.)",
       "type": "디지털 싱글",
       "발매일": "2024.02.23",
-      "초동_한터": "",
+      "초동_한터": "3,666",
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "EASY (English ver.)"
+      "비고": "EASY (English ver.), 한터 월간 실측치",
+      "초동_한터_numeric": 3666
     },
     {
       "title": "HOT (English ver.)",
       "type": "디지털 싱글",
       "발매일": "2025.03.17",
-      "초동_한터": "",
+      "초동_한터": "3,674",
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "HOT (English ver.)"
+      "비고": "HOT (English ver.), 한터 월간 실측치",
+      "초동_한터_numeric": 3674
     },
     {
       "title": "DIFFERENT (English ver.)",
@@ -655,11 +660,12 @@
       "title": "EASY (Remixes)",
       "type": "디지털 싱글",
       "발매일": "2024.02.28",
-      "초동_한터": "",
+      "초동_한터": "3,666",
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "EASY (Remixes)"
+      "비고": "EASY (Remixes), 한터 월간 실측치",
+      "초동_한터_numeric": 3666
     },
     {
       "title": "Smart (Remixes)",
@@ -730,21 +736,23 @@
       "title": "CRAZY -Japanese ver.- (Party Remixes)",
       "type": "디지털 싱글",
       "발매일": "2024.12.18",
-      "초동_한터": "",
+      "초동_한터": "3,633",
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "CRAZY -Japanese ver.- (Party Remixes)"
+      "비고": "CRAZY -Japanese ver.- (Party Remixes), 한터 월간 실측치",
+      "초동_한터_numeric": 3633
     },
     {
       "title": "HOT (LE SSERAFIM Package)",
       "type": "디지털 싱글",
       "발매일": "2025.03.18",
-      "초동_한터": "",
+      "초동_한터": "3,674",
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "HOT (LE SSERAFIM Package)"
+      "비고": "HOT (LE SSERAFIM Package), 한터 월간 실측치",
+      "초동_한터_numeric": 3674
     },
     {
       "title": "Come Over (Remixes)",
@@ -760,21 +768,23 @@
       "title": "HOT (English ver.) (feat. JADE)",
       "type": "디지털 싱글",
       "발매일": "2025.04.14",
-      "초동_한터": "",
+      "초동_한터": "3,674",
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "HOT (English ver.) (feat. JADE)"
+      "비고": "HOT (English ver.) (feat. JADE), 한터 월간 실측치",
+      "초동_한터_numeric": 3674
     },
     {
       "title": "SPAGHETTI (Bon Appétit Remixes)",
       "type": "디지털 싱글",
       "발매일": "2025.10.31",
-      "초동_한터": "",
+      "초동_한터": "5,376",
       "누적_한터": "",
       "초동_써클": "-",
       "누적_써클": "-",
-      "비고": "SPAGHETTI (Bon Appétit Remixes)"
+      "비고": "SPAGHETTI (Bon Appétit Remixes), 한터 월간 실측치",
+      "초동_한터_numeric": 5376
     },
     {
       "title": "Dresscode (Prod. imase)",
@@ -811,11 +821,11 @@
       "title": "CRAZY (feat. Pink​Pan​theress)",
       "type": "싱글 3집",
       "발매일": "2024.09.04",
-      "초동_한터": "",
+      "초동_한터": "3,633",
       "누적_한터": "",
       "초동_써클": "758,191",
       "누적_써클": "819,946",
-      "비고": "CRAZY (feat. Pink​Pan​theress)",
+      "비고": "CRAZY (feat. Pink​Pan​theress), 한터 월간 실측치",
       "누적_써클_numeric": 819946,
       "초동_써클_numeric": 758191,
       "monthly_timeline": [
@@ -834,7 +844,8 @@
           "sales": 8049,
           "cumulative": 819946
         }
-      ]
+      ],
+      "초동_한터_numeric": 3633
     },
     {
       "title": "CELEBRATION",

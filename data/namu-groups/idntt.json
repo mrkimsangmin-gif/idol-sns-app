@@ -346,11 +346,11 @@
       "title": "itsnotover",
       "type": "3집 미니앨범",
       "발매일": "2026.07.13",
-      "초동_한터": "",
+      "초동_한터": "568,698",
       "누적_한터": "",
       "초동_써클": "278,868",
       "누적_써클": "278,868",
-      "비고": "Kids Return, It's Not Over",
+      "비고": "Kids Return, It's Not Over, 한터 월간 실측치",
       "누적_써클_numeric": 278868,
       "초동_써클_numeric": 278868,
       "monthly_timeline": [
@@ -359,7 +359,8 @@
           "sales": 278868,
           "cumulative": 278868
         }
-      ]
+      ],
+      "초동_한터_numeric": 568698
     },
     {
       "title": "idntt",
