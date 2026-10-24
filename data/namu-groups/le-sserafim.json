@@ -145,80 +145,25 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "887",
-      "누적_써클": "1,249,220",
+      "누적_써클": "24,895",
       "비고": "ANTIFRAGILE",
-      "누적_써클_numeric": 1249220,
+      "누적_써클_numeric": 24895,
       "초동_써클_numeric": 887,
       "monthly_timeline": [
         {
-          "ym": "2022-10",
-          "sales": 596043,
-          "cumulative": 754657
-        },
-        {
-          "ym": "2022-11",
-          "sales": 97379,
-          "cumulative": 754657
-        },
-        {
-          "ym": "2022-12",
-          "sales": 61235,
-          "cumulative": 754657
-        },
-        {
-          "ym": "2023-01",
-          "sales": 71102,
-          "cumulative": 271253
-        },
-        {
-          "ym": "2023-02",
-          "sales": 59510,
-          "cumulative": 271253
-        },
-        {
-          "ym": "2023-03",
-          "sales": 66464,
-          "cumulative": 271253
-        },
-        {
-          "ym": "2023-04",
-          "sales": 13362,
-          "cumulative": 271253
-        },
-        {
-          "ym": "2023-05",
-          "sales": 19412,
-          "cumulative": 271253
-        },
-        {
-          "ym": "2023-07",
-          "sales": 10156,
-          "cumulative": 271253
-        },
-        {
-          "ym": "2023-08",
-          "sales": 9546,
-          "cumulative": 271253
-        },
-        {
-          "ym": "2023-12",
-          "sales": 6878,
-          "cumulative": 271253
-        },
-        {
           "ym": "2024-01",
           "sales": 9973,
-          "cumulative": 38345
+          "cumulative": 9973
         },
         {
           "ym": "2024-02",
           "sales": 7227,
-          "cumulative": 38345
+          "cumulative": 17200
         },
         {
           "ym": "2024-04",
           "sales": 7695,
-          "cumulative": 38345
+          "cumulative": 24895
         }
       ]
     },
@@ -390,20 +335,25 @@
       "초동_한터": "9892**",
       "누적_한터": "",
       "초동_써클": "1,067,016",
-      "누적_써클": "1,184,488",
+      "누적_써클": "1,170,954",
       "비고": "EASY",
-      "누적_써클_numeric": 1184488,
+      "누적_써클_numeric": 1170954,
       "초동_써클_numeric": 1067016,
       "monthly_timeline": [
         {
           "ym": "2024-02",
-          "sales": 1015605,
-          "cumulative": 1069667
+          "sales": 1110169,
+          "cumulative": 1110169
         },
         {
           "ym": "2024-03",
-          "sales": 44571,
-          "cumulative": 1069667
+          "sales": 53658,
+          "cumulative": 1163827
+        },
+        {
+          "ym": "2024-05",
+          "sales": 7127,
+          "cumulative": 1170954
         }
       ]
     },
@@ -414,26 +364,26 @@
       "초동_한터": "231",
       "누적_한터": "",
       "초동_써클": "758,191",
-      "누적_써클": "827,208",
+      "누적_써클": "819,946",
       "비고": "CRAZY",
-      "누적_써클_numeric": 827208,
+      "누적_써클_numeric": 819946,
       "초동_써클_numeric": 758191,
       "초동_한터_numeric": 231,
       "monthly_timeline": [
         {
           "ym": "2024-08",
-          "sales": 710054,
-          "cumulative": 771189
+          "sales": 758191,
+          "cumulative": 758191
         },
         {
           "ym": "2024-09",
-          "sales": 47841,
-          "cumulative": 771189
+          "sales": 53706,
+          "cumulative": 811897
         },
         {
           "ym": "2024-10",
           "sales": 8049,
-          "cumulative": 771189
+          "cumulative": 819946
         }
       ]
     },
@@ -444,26 +394,26 @@
       "초동_한터": "231",
       "누적_한터": "",
       "초동_써클": "758,191",
-      "누적_써클": "827,208",
+      "누적_써클": "819,946",
       "비고": "CRAZY (Japanese ver.)",
-      "누적_써클_numeric": 827208,
+      "누적_써클_numeric": 819946,
       "초동_써클_numeric": 758191,
       "초동_한터_numeric": 231,
       "monthly_timeline": [
         {
           "ym": "2024-08",
-          "sales": 710054,
-          "cumulative": 771189
+          "sales": 758191,
+          "cumulative": 758191
         },
         {
           "ym": "2024-09",
-          "sales": 47841,
-          "cumulative": 771189
+          "sales": 53706,
+          "cumulative": 811897
         },
         {
           "ym": "2024-10",
           "sales": 8049,
-          "cumulative": 771189
+          "cumulative": 819946
         }
       ]
     },
@@ -474,25 +424,25 @@
       "초동_한터": "636,281",
       "누적_한터": "",
       "초동_써클": "659,398",
-      "누적_써클": "738,574",
+      "누적_써클": "727,217",
       "비고": "HOT",
-      "누적_써클_numeric": 738574,
+      "누적_써클_numeric": 727217,
       "초동_써클_numeric": 659398,
       "monthly_timeline": [
         {
           "ym": "2025-03",
-          "sales": 649092,
-          "cumulative": 694672
+          "sales": 689912,
+          "cumulative": 689912
         },
         {
           "ym": "2025-04",
           "sales": 16044,
-          "cumulative": 694672
+          "cumulative": 705956
         },
         {
           "ym": "2025-07",
           "sales": 21261,
-          "cumulative": 694672
+          "cumulative": 727217
         }
       ]
     },
@@ -523,35 +473,35 @@
       "초동_한터": "464,698",
       "누적_한터": "",
       "초동_써클": "488,252",
-      "누적_써클": "639,178",
+      "누적_써클": "636,962",
       "비고": "SPAGHETTI (feat. j-hope of BTS)",
-      "누적_써클_numeric": 639178,
+      "누적_써클_numeric": 636962,
       "초동_써클_numeric": 488252,
       "monthly_timeline": [
         {
           "ym": "2025-10",
-          "sales": 494970,
-          "cumulative": 560565
+          "sales": 525179,
+          "cumulative": 525179
         },
         {
           "ym": "2025-11",
           "sales": 34128,
-          "cumulative": 560565
+          "cumulative": 559307
         },
         {
           "ym": "2025-12",
           "sales": 31467,
-          "cumulative": 560565
+          "cumulative": 590774
         },
         {
           "ym": "2026-01",
-          "sales": 13435,
-          "cumulative": 22498
+          "sales": 37125,
+          "cumulative": 627899
         },
         {
           "ym": "2026-02",
           "sales": 9063,
-          "cumulative": 22498
+          "cumulative": 636962
         }
       ]
     },
@@ -571,23 +521,9 @@
       "발매일": "2024.02.23",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "1,067,016",
-      "누적_써클": "1,184,488",
-      "비고": "EASY (English ver.)",
-      "누적_써클_numeric": 1184488,
-      "초동_써클_numeric": 1067016,
-      "monthly_timeline": [
-        {
-          "ym": "2024-02",
-          "sales": 1015605,
-          "cumulative": 1069667
-        },
-        {
-          "ym": "2024-03",
-          "sales": 44571,
-          "cumulative": 1069667
-        }
-      ]
+      "초동_써클": "-",
+      "누적_써클": "-",
+      "비고": "EASY (English ver.)"
     },
     {
       "title": "HOT (English ver.)",
@@ -595,28 +531,9 @@
       "발매일": "2025.03.17",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "659,398",
-      "누적_써클": "738,574",
-      "비고": "HOT (English ver.)",
-      "누적_써클_numeric": 738574,
-      "초동_써클_numeric": 659398,
-      "monthly_timeline": [
-        {
-          "ym": "2025-03",
-          "sales": 649092,
-          "cumulative": 694672
-        },
-        {
-          "ym": "2025-04",
-          "sales": 16044,
-          "cumulative": 694672
-        },
-        {
-          "ym": "2025-07",
-          "sales": 21261,
-          "cumulative": 694672
-        }
-      ]
+      "초동_써클": "-",
+      "누적_써클": "-",
+      "비고": "HOT (English ver.)"
     },
     {
       "title": "DIFFERENT (English ver.)",
@@ -684,23 +601,9 @@
       "발매일": "2024.02.28",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "1,067,016",
-      "누적_써클": "1,184,488",
-      "비고": "EASY (Remixes)",
-      "누적_써클_numeric": 1184488,
-      "초동_써클_numeric": 1067016,
-      "monthly_timeline": [
-        {
-          "ym": "2024-02",
-          "sales": 1015605,
-          "cumulative": 1069667
-        },
-        {
-          "ym": "2024-03",
-          "sales": 44571,
-          "cumulative": 1069667
-        }
-      ]
+      "초동_써클": "-",
+      "누적_써클": "-",
+      "비고": "EASY (Remixes)"
     },
     {
       "title": "Smart (Remixes)",
@@ -729,29 +632,10 @@
       "발매일": "2024.09.02",
       "초동_한터": "231",
       "누적_한터": "",
-      "초동_써클": "758,191",
-      "누적_써클": "827,208",
+      "초동_써클": "-",
+      "누적_써클": "-",
       "비고": "CRAZY (Party Remixes 1)",
-      "누적_써클_numeric": 827208,
-      "초동_써클_numeric": 758191,
-      "초동_한터_numeric": 231,
-      "monthly_timeline": [
-        {
-          "ym": "2024-08",
-          "sales": 710054,
-          "cumulative": 771189
-        },
-        {
-          "ym": "2024-09",
-          "sales": 47841,
-          "cumulative": 771189
-        },
-        {
-          "ym": "2024-10",
-          "sales": 8049,
-          "cumulative": 771189
-        }
-      ]
+      "초동_한터_numeric": 231
     },
     {
       "title": "CRAZY (feat. PinkPantheress)",
@@ -759,29 +643,10 @@
       "발매일": "2024.09.04",
       "초동_한터": "231",
       "누적_한터": "",
-      "초동_써클": "758,191",
-      "누적_써클": "827,208",
+      "초동_써클": "-",
+      "누적_써클": "-",
       "비고": "CRAZY (feat. PinkPantheress)",
-      "누적_써클_numeric": 827208,
-      "초동_써클_numeric": 758191,
-      "초동_한터_numeric": 231,
-      "monthly_timeline": [
-        {
-          "ym": "2024-08",
-          "sales": 710054,
-          "cumulative": 771189
-        },
-        {
-          "ym": "2024-09",
-          "sales": 47841,
-          "cumulative": 771189
-        },
-        {
-          "ym": "2024-10",
-          "sales": 8049,
-          "cumulative": 771189
-        }
-      ]
+      "초동_한터_numeric": 231
     },
     {
       "title": "CRAZY (David Guetta Remix)",
@@ -789,29 +654,10 @@
       "발매일": "2024.09.09",
       "초동_한터": "231",
       "누적_한터": "",
-      "초동_써클": "758,191",
-      "누적_써클": "827,208",
+      "초동_써클": "-",
+      "누적_써클": "-",
       "비고": "CRAZY (David Guetta Remix)",
-      "누적_써클_numeric": 827208,
-      "초동_써클_numeric": 758191,
-      "초동_한터_numeric": 231,
-      "monthly_timeline": [
-        {
-          "ym": "2024-08",
-          "sales": 710054,
-          "cumulative": 771189
-        },
-        {
-          "ym": "2024-09",
-          "sales": 47841,
-          "cumulative": 771189
-        },
-        {
-          "ym": "2024-10",
-          "sales": 8049,
-          "cumulative": 771189
-        }
-      ]
+      "초동_한터_numeric": 231
     },
     {
       "title": "CRAZY (Party Remixes 2)",
@@ -819,29 +665,10 @@
       "발매일": "2024.09.12",
       "초동_한터": "231",
       "누적_한터": "",
-      "초동_써클": "758,191",
-      "누적_써클": "827,208",
+      "초동_써클": "-",
+      "누적_써클": "-",
       "비고": "CRAZY (Party Remixes 2)",
-      "누적_써클_numeric": 827208,
-      "초동_써클_numeric": 758191,
-      "초동_한터_numeric": 231,
-      "monthly_timeline": [
-        {
-          "ym": "2024-08",
-          "sales": 710054,
-          "cumulative": 771189
-        },
-        {
-          "ym": "2024-09",
-          "sales": 47841,
-          "cumulative": 771189
-        },
-        {
-          "ym": "2024-10",
-          "sales": 8049,
-          "cumulative": 771189
-        }
-      ]
+      "초동_한터_numeric": 231
     },
     {
       "title": "CRAZY -Japanese ver.- (Party Remixes)",
@@ -849,28 +676,9 @@
       "발매일": "2024.12.18",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "758,191",
-      "누적_써클": "827,208",
-      "비고": "CRAZY -Japanese ver.- (Party Remixes)",
-      "누적_써클_numeric": 827208,
-      "초동_써클_numeric": 758191,
-      "monthly_timeline": [
-        {
-          "ym": "2024-08",
-          "sales": 710054,
-          "cumulative": 771189
-        },
-        {
-          "ym": "2024-09",
-          "sales": 47841,
-          "cumulative": 771189
-        },
-        {
-          "ym": "2024-10",
-          "sales": 8049,
-          "cumulative": 771189
-        }
-      ]
+      "초동_써클": "-",
+      "누적_써클": "-",
+      "비고": "CRAZY -Japanese ver.- (Party Remixes)"
     },
     {
       "title": "HOT (LE SSERAFIM Package)",
@@ -878,28 +686,9 @@
       "발매일": "2025.03.18",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "659,398",
-      "누적_써클": "738,574",
-      "비고": "HOT (LE SSERAFIM Package)",
-      "누적_써클_numeric": 738574,
-      "초동_써클_numeric": 659398,
-      "monthly_timeline": [
-        {
-          "ym": "2025-03",
-          "sales": 649092,
-          "cumulative": 694672
-        },
-        {
-          "ym": "2025-04",
-          "sales": 16044,
-          "cumulative": 694672
-        },
-        {
-          "ym": "2025-07",
-          "sales": 21261,
-          "cumulative": 694672
-        }
-      ]
+      "초동_써클": "-",
+      "누적_써클": "-",
+      "비고": "HOT (LE SSERAFIM Package)"
     },
     {
       "title": "Come Over (Remixes)",
@@ -917,28 +706,9 @@
       "발매일": "2025.04.14",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "659,398",
-      "누적_써클": "738,574",
-      "비고": "HOT (English ver.) (feat. JADE)",
-      "누적_써클_numeric": 738574,
-      "초동_써클_numeric": 659398,
-      "monthly_timeline": [
-        {
-          "ym": "2025-03",
-          "sales": 649092,
-          "cumulative": 694672
-        },
-        {
-          "ym": "2025-04",
-          "sales": 16044,
-          "cumulative": 694672
-        },
-        {
-          "ym": "2025-07",
-          "sales": 21261,
-          "cumulative": 694672
-        }
-      ]
+      "초동_써클": "-",
+      "누적_써클": "-",
+      "비고": "HOT (English ver.) (feat. JADE)"
     },
     {
       "title": "SPAGHETTI (Bon Appétit Remixes)",
@@ -946,38 +716,9 @@
       "발매일": "2025.10.31",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "488,252",
-      "누적_써클": "639,178",
-      "비고": "SPAGHETTI (Bon Appétit Remixes)",
-      "누적_써클_numeric": 639178,
-      "초동_써클_numeric": 488252,
-      "monthly_timeline": [
-        {
-          "ym": "2025-10",
-          "sales": 494970,
-          "cumulative": 560565
-        },
-        {
-          "ym": "2025-11",
-          "sales": 34128,
-          "cumulative": 560565
-        },
-        {
-          "ym": "2025-12",
-          "sales": 31467,
-          "cumulative": 560565
-        },
-        {
-          "ym": "2026-01",
-          "sales": 13435,
-          "cumulative": 22498
-        },
-        {
-          "ym": "2026-02",
-          "sales": 9063,
-          "cumulative": 22498
-        }
-      ]
+      "초동_써클": "-",
+      "누적_써클": "-",
+      "비고": "SPAGHETTI (Bon Appétit Remixes)"
     },
     {
       "title": "Dresscode (Prod. imase)",
@@ -1017,25 +758,25 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "758,191",
-      "누적_써클": "827,208",
+      "누적_써클": "819,946",
       "비고": "CRAZY (feat. Pink​Pan​theress)",
-      "누적_써클_numeric": 827208,
+      "누적_써클_numeric": 819946,
       "초동_써클_numeric": 758191,
       "monthly_timeline": [
         {
           "ym": "2024-08",
-          "sales": 710054,
-          "cumulative": 771189
+          "sales": 758191,
+          "cumulative": 758191
         },
         {
           "ym": "2024-09",
-          "sales": 47841,
-          "cumulative": 771189
+          "sales": 53706,
+          "cumulative": 811897
         },
         {
           "ym": "2024-10",
           "sales": 8049,
-          "cumulative": 771189
+          "cumulative": 819946
         }
       ]
     },
@@ -1056,10 +797,28 @@
       "초동_한터": "559,2**",
       "누적_한터": "",
       "초동_써클": "559,2**",
-      "누적_써클": "-",
+      "누적_써클": "701,061",
       "비고": "BOOMPALA",
       "초동_한터_numeric": 559200,
-      "초동_확정": true
+      "초동_확정": true,
+      "누적_써클_numeric": 701061,
+      "monthly_timeline": [
+        {
+          "ym": "2026-05",
+          "sales": 667659,
+          "cumulative": 667659
+        },
+        {
+          "ym": "2026-06",
+          "sales": 9815,
+          "cumulative": 677474
+        },
+        {
+          "ym": "2026-09",
+          "sales": 23587,
+          "cumulative": 701061
+        }
+      ]
     },
     {
       "title": "CELEBRATION (Remixes)",

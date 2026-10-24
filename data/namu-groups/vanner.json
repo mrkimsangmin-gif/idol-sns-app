@@ -243,20 +243,20 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "119,738",
-      "누적_써클": "151,535",
+      "누적_써클": "140,833",
       "비고": "JACKPOT",
-      "누적_써클_numeric": 151535,
+      "누적_써클_numeric": 140833,
       "초동_써클_numeric": 119738,
       "monthly_timeline": [
         {
           "ym": "2024-01",
-          "sales": 91142,
-          "cumulative": 120582
+          "sales": 119703,
+          "cumulative": 119703
         },
         {
           "ym": "2024-04",
           "sales": 21130,
-          "cumulative": 120582
+          "cumulative": 140833
         }
       ]
     },
@@ -277,35 +277,35 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "103,368",
-      "누적_써클": "160,598",
+      "누적_써클": "154,813",
       "비고": "Automatic",
-      "누적_써클_numeric": 160598,
+      "누적_써클_numeric": 154813,
       "초동_써클_numeric": 103368,
       "monthly_timeline": [
         {
           "ym": "2024-09",
-          "sales": 83047,
-          "cumulative": 127747
+          "sales": 103047,
+          "cumulative": 103047
         },
         {
           "ym": "2024-10",
           "sales": 14744,
-          "cumulative": 127747
+          "cumulative": 117791
         },
         {
           "ym": "2024-11",
           "sales": 14969,
-          "cumulative": 127747
+          "cumulative": 132760
         },
         {
           "ym": "2024-12",
           "sales": 14987,
-          "cumulative": 127747
+          "cumulative": 147747
         },
         {
           "ym": "2025-01",
           "sales": 7066,
-          "cumulative": 12451
+          "cumulative": 154813
         }
       ]
     },

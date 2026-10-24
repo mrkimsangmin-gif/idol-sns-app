@@ -166,7 +166,15 @@
       "초동_써클": "26,522",
       "누적_써클": "24,099",
       "비고": "Gasoline",
-      "초동_써클_numeric": 26522
+      "초동_써클_numeric": 26522,
+      "누적_써클_numeric": 24099,
+      "monthly_timeline": [
+        {
+          "ym": "2024-05",
+          "sales": 24099,
+          "cumulative": 24099
+        }
+      ]
     },
     {
       "title": "Versus",

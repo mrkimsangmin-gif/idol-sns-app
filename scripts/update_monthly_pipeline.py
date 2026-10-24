@@ -6,7 +6,9 @@ update_monthly_pipeline.py — 매월 1회 실행하는 전수 자동 업데이�
 2. 전체 170+ 아이돌 그룹의 Spotify 월간 리스너 & Top 10 트랙 실시간 수집 (collect_spotify_live_all.py)
 3. 수집된 최신 데이터를 namu-groups/*.json 데이터 파일에 병합 (merge_spotify_latest_to_namu.py)
 4. 전체 148개 아이돌 그룹의 6,400+ YT Music 트랙 조회수 실시간 수집 및 합산 (collect_ytmusic_live_all.py)
-5. namu 정적 페이지 및 인덱스 전체 재빌드 (generate_static.py)
+5. 써클차트(Circle Chart) 최신 월간 판매량 자동 수집 (circle_monthly_crawler.py --update)
+6. 써클 판매량 실측치 및 월별 타임라인을 namu-groups/*.json 에 동기화 (sync_circle_sales_to_namu.py)
+7. namu 정적 페이지 및 인덱스 전체 재빌드 (generate_static.py)
 """
 
 import sys, os, time, subprocess, json
@@ -22,6 +24,7 @@ BASE_DIR = Path(r"G:\내 드라이브\01.Work\04.AI.M.Contents\00.pumit\04.aimco
 SPOTIFY_DIR = BASE_DIR / "10.spotify"
 SCRIPTS_DIR = BASE_DIR / "scripts"
 BUILD_DIR = BASE_DIR / "build"
+HANTEO_DIR = BASE_DIR / "07.hanteo"
 TEMP_DIR = Path("C:/temp")
 
 def log(step, msg):
@@ -88,20 +91,42 @@ def step4_collect_ytmusic_data():
         log("STEP 4", f"YouTube Music 수집 실패:\n{res.stderr}\n{res.stdout}")
         return False
 
-def step5_rebuild_static_pages():
-    log("STEP 5", "정적 HTML 페이지 재빌드(Re-baking) 실행...")
-    builder = BUILD_DIR / "generate_static.py"
-    res = run_proc([sys.executable, str(builder)], "STEP 5")
+def step5_collect_circle_sales():
+    log("STEP 5", "써클차트(Circle Chart) 최신 월간 판매량 수집 실행...")
+    crawler = HANTEO_DIR / "circle_monthly_crawler.py"
+    res = run_proc([sys.executable, str(crawler), "--update"], "STEP 5")
     if res.returncode == 0:
-        log("STEP 5", f"HTML 재빌드 완료: {res.stdout.strip()}")
+        log("STEP 5", "써클차트 최신 월간 판매량 수집 완료!")
         return True
     else:
-        log("STEP 5", f"빌드 실패:\n{res.stderr}")
+        log("STEP 5", f"써클차트 수집 실패:\n{res.stderr}\n{res.stdout}")
+        return False
+
+def step6_sync_sales_to_namu():
+    log("STEP 6", "써클 판매량 실측치 및 타임라인을 namu-groups/*.json 에 동기화...")
+    syncer = SCRIPTS_DIR / "sync_circle_sales_to_namu.py"
+    res = run_proc([sys.executable, str(syncer)], "STEP 6")
+    if res.returncode == 0:
+        log("STEP 6", f"판매량 동기화 완료: {res.stdout.strip()}")
+        return True
+    else:
+        log("STEP 6", f"동기화 실패:\n{res.stderr}\n{res.stdout}")
+        return False
+
+def step7_rebuild_static_pages():
+    log("STEP 7", "정적 HTML 페이지 재빌드(Re-baking) 실행...")
+    builder = BUILD_DIR / "generate_static.py"
+    res = run_proc([sys.executable, str(builder)], "STEP 7")
+    if res.returncode == 0:
+        log("STEP 7", f"HTML 재빌드 완료: {res.stdout.strip()}")
+        return True
+    else:
+        log("STEP 7", f"빌드 실패:\n{res.stderr}")
         return False
 
 def main():
     print("=" * 65)
-    print("🚀 [K-POP 스트리밍(Spotify + YT Music) 월간 전수 자동 최신화 파이프라인]")
+    print("🚀 [K-POP 스트리밍 & 음반 판매량 월간 전수 자동 최신화 파이프라인]")
     print(f"   실행일시: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 65)
 
@@ -121,12 +146,20 @@ def main():
     if not step4_collect_ytmusic_data():
         sys.exit(1)
 
-    # 5. Rebuild static HTML
-    if not step5_rebuild_static_pages():
+    # 5. Circle Monthly Chart Sales
+    if not step5_collect_circle_sales():
+        sys.exit(1)
+
+    # 6. Sync Sales to Groups
+    if not step6_sync_sales_to_namu():
+        sys.exit(1)
+
+    # 7. Rebuild static HTML
+    if not step7_rebuild_static_pages():
         sys.exit(1)
 
     print("=" * 65)
-    print("🎉 Spotify + YouTube Music 모든 스트리밍 데이터 업데이트 완료!")
+    print("🎉 Spotify + YouTube Music + 음반 판매량 모든 데이터 업데이트 완료!")
     print("=" * 65)
 
 if __name__ == "__main__":

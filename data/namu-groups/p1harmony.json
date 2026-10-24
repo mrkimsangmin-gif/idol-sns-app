@@ -340,20 +340,20 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "154,630",
-      "누적_써클": "237,363",
+      "누적_써클": "214,118",
       "비고": "때깔 (Killin' It)",
-      "누적_써클_numeric": 237363,
+      "누적_써클_numeric": 214118,
       "초동_써클_numeric": 154630,
       "monthly_timeline": [
         {
           "ym": "2024-02",
-          "sales": 192463,
-          "cumulative": 222698
+          "sales": 200683,
+          "cumulative": 200683
         },
         {
           "ym": "2024-03",
           "sales": 13435,
-          "cumulative": 222698
+          "cumulative": 214118
         }
       ]
     },
@@ -363,23 +363,9 @@
       "발매일": "2024.05.13",
       "초동_한터": "",
       "누적_한터": "",
-      "초동_써클": "154,630",
-      "누적_써클": "237,363",
-      "비고": "때깔 (Killin' It) (English Version)",
-      "누적_써클_numeric": 237363,
-      "초동_써클_numeric": 154630,
-      "monthly_timeline": [
-        {
-          "ym": "2024-02",
-          "sales": 192463,
-          "cumulative": 222698
-        },
-        {
-          "ym": "2024-03",
-          "sales": 13435,
-          "cumulative": 222698
-        }
-      ]
+      "초동_써클": "-",
+      "누적_써클": "-",
+      "비고": "때깔 (Killin' It) (English Version)"
     },
     {
       "title": "Love & P1ece : The Best of P1Harmony",
@@ -398,30 +384,30 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "179,487",
-      "누적_써클": "312,905",
+      "누적_써클": "311,595",
       "비고": "SAD SONG",
-      "누적_써클_numeric": 312905,
+      "누적_써클_numeric": 311595,
       "초동_써클_numeric": 179487,
       "monthly_timeline": [
         {
           "ym": "2024-09",
-          "sales": 161723,
-          "cumulative": 293485
+          "sales": 179833,
+          "cumulative": 179833
         },
         {
           "ym": "2024-10",
           "sales": 39453,
-          "cumulative": 293485
+          "cumulative": 219286
         },
         {
           "ym": "2024-11",
           "sales": 85648,
-          "cumulative": 293485
+          "cumulative": 304934
         },
         {
           "ym": "2024-12",
           "sales": 6661,
-          "cumulative": 293485
+          "cumulative": 311595
         }
       ]
     },
@@ -442,41 +428,41 @@
       "초동_한터": "324",
       "누적_한터": "",
       "초동_써클": "260,647",
-      "누적_써클": "446,610",
+      "누적_써클": "431,163",
       "비고": "DUH!",
-      "누적_써클_numeric": 446610,
+      "누적_써클_numeric": 431163,
       "초동_써클_numeric": 260647,
       "초동_한터_numeric": 324,
       "monthly_timeline": [
         {
           "ym": "2025-05",
-          "sales": 336951,
-          "cumulative": 397108
+          "sales": 375928,
+          "cumulative": 375928
         },
         {
           "ym": "2025-06",
           "sales": 6244,
-          "cumulative": 397108
+          "cumulative": 382172
         },
         {
           "ym": "2025-07",
           "sales": 16966,
-          "cumulative": 397108
+          "cumulative": 399138
         },
         {
           "ym": "2025-09",
           "sales": 19270,
-          "cumulative": 397108
+          "cumulative": 418408
         },
         {
           "ym": "2025-10",
           "sales": 5470,
-          "cumulative": 397108
+          "cumulative": 423878
         },
         {
           "ym": "2025-11",
           "sales": 7285,
-          "cumulative": 397108
+          "cumulative": 431163
         }
       ]
     },
@@ -497,9 +483,37 @@
       "초동_한터": "4,590",
       "누적_한터": "",
       "초동_써클": "503,7**",
-      "누적_써클": "",
+      "누적_써클": "511,440",
       "비고": "UNIQUE",
-      "초동_한터_numeric": 4590
+      "초동_한터_numeric": 4590,
+      "누적_써클_numeric": 511440,
+      "monthly_timeline": [
+        {
+          "ym": "2026-03",
+          "sales": 439080,
+          "cumulative": 439080
+        },
+        {
+          "ym": "2026-04",
+          "sales": 13977,
+          "cumulative": 453057
+        },
+        {
+          "ym": "2026-05",
+          "sales": 20248,
+          "cumulative": 473305
+        },
+        {
+          "ym": "2026-06",
+          "sales": 28831,
+          "cumulative": 502136
+        },
+        {
+          "ym": "2026-07",
+          "sales": 9304,
+          "cumulative": 511440
+        }
+      ]
     },
     {
       "title": "DUH",
@@ -508,40 +522,40 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "260,647",
-      "누적_써클": "446,610",
+      "누적_써클": "431,163",
       "비고": "DUH!",
-      "누적_써클_numeric": 446610,
+      "누적_써클_numeric": 431163,
       "초동_써클_numeric": 260647,
       "monthly_timeline": [
         {
           "ym": "2025-05",
-          "sales": 336951,
-          "cumulative": 397108
+          "sales": 375928,
+          "cumulative": 375928
         },
         {
           "ym": "2025-06",
           "sales": 6244,
-          "cumulative": 397108
+          "cumulative": 382172
         },
         {
           "ym": "2025-07",
           "sales": 16966,
-          "cumulative": 397108
+          "cumulative": 399138
         },
         {
           "ym": "2025-09",
           "sales": 19270,
-          "cumulative": 397108
+          "cumulative": 418408
         },
         {
           "ym": "2025-10",
           "sales": 5470,
-          "cumulative": 397108
+          "cumulative": 423878
         },
         {
           "ym": "2025-11",
           "sales": 7285,
-          "cumulative": 397108
+          "cumulative": 431163
         }
       ]
     },

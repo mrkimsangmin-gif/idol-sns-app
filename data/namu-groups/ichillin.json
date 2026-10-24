@@ -124,7 +124,15 @@
       "초동_써클": "10,054",
       "누적_써클": "9,700",
       "비고": "타이틀곡: ON MY LIPS",
-      "초동_써클_numeric": 10054
+      "초동_써클_numeric": 10054,
+      "누적_써클_numeric": 9700,
+      "monthly_timeline": [
+        {
+          "ym": "2024-03",
+          "sales": 9700,
+          "cumulative": 9700
+        }
+      ]
     },
     {
       "title": "Prequel",

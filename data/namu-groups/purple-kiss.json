@@ -274,20 +274,20 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "17,058",
-      "누적_써클": "28,149",
+      "누적_써클": "26,192",
       "비고": "BBB",
-      "누적_써클_numeric": 28149,
+      "누적_써클_numeric": 26192,
       "초동_써클_numeric": 17058,
       "monthly_timeline": [
         {
           "ym": "2024-03",
-          "sales": 11102,
-          "cumulative": 21100
+          "sales": 17340,
+          "cumulative": 17340
         },
         {
           "ym": "2024-04",
           "sales": 8852,
-          "cumulative": 21100
+          "cumulative": 26192
         }
       ]
     },
@@ -308,20 +308,20 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "17,146",
-      "누적_써클": "28,089",
+      "누적_써클": "24,249",
       "비고": "ON MY BIKE",
-      "누적_써클_numeric": 28089,
+      "누적_써클_numeric": 24249,
       "초동_써클_numeric": 17146,
       "monthly_timeline": [
         {
           "ym": "2024-10",
-          "sales": 10637,
-          "cumulative": 19621
+          "sales": 17557,
+          "cumulative": 17557
         },
         {
           "ym": "2024-12",
           "sales": 6692,
-          "cumulative": 19621
+          "cumulative": 24249
         }
       ]
     },
@@ -363,14 +363,15 @@
         {
           "ym": "2025-09",
           "sales": 7653,
-          "cumulative": 11194
+          "cumulative": 7653
         },
         {
           "ym": "2025-10",
           "sales": 3541,
           "cumulative": 11194
         }
-      ]
+      ],
+      "누적_써클_numeric": 11194
     },
     {
       "title": "A Violet to Remember",

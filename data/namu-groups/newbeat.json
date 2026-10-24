@@ -143,19 +143,20 @@
         {
           "ym": "2025-03",
           "sales": 8669,
-          "cumulative": 23359
+          "cumulative": 8669
         },
         {
           "ym": "2025-04",
           "sales": 7152,
-          "cumulative": 23359
+          "cumulative": 15821
         },
         {
           "ym": "2025-05",
           "sales": 7649,
-          "cumulative": 23359
+          "cumulative": 23470
         }
-      ]
+      ],
+      "누적_써클_numeric": 23470
     },
     {
       "title": "Cappuccino",
@@ -174,15 +175,15 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "26,856",
-      "누적_써클": "33,547",
+      "누적_써클": "30,906",
       "비고": "미니 1집",
-      "누적_써클_numeric": 33547,
+      "누적_써클_numeric": 30906,
       "초동_써클_numeric": 26856,
       "monthly_timeline": [
         {
           "ym": "2025-11",
-          "sales": 24637,
-          "cumulative": 26967
+          "sales": 30906,
+          "cumulative": 30906
         }
       ]
     },

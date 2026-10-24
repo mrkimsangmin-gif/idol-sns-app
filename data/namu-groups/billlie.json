@@ -140,26 +140,8 @@
       "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "-",
-      "누적_써클": "91,549",
-      "비고": "snowy night",
-      "누적_써클_numeric": 91549,
-      "monthly_timeline": [
-        {
-          "ym": "2022-02",
-          "sales": 29966,
-          "cumulative": 91549
-        },
-        {
-          "ym": "2022-03",
-          "sales": 44730,
-          "cumulative": 91549
-        },
-        {
-          "ym": "2022-04",
-          "sales": 12946,
-          "cumulative": 91549
-        }
-      ]
+      "누적_써클": "-",
+      "비고": "snowy night"
     },
     {
       "title": "the collective soul and unconscious: chapter one",
@@ -428,28 +410,19 @@
       "발매일": "2026.05.06",
       "초동_한터": "38,809",
       "누적_한터": "",
-      "초동_써클": "",
-      "누적_써클": "91,549",
+      "초동_써클": "21,883",
+      "누적_써클": "21,883",
       "비고": "ZAP",
-      "누적_써클_numeric": 91549,
+      "누적_써클_numeric": 21883,
       "초동_한터_numeric": 38809,
       "monthly_timeline": [
         {
-          "ym": "2022-02",
-          "sales": 29966,
-          "cumulative": 91549
-        },
-        {
-          "ym": "2022-03",
-          "sales": 44730,
-          "cumulative": 91549
-        },
-        {
-          "ym": "2022-04",
-          "sales": 12946,
-          "cumulative": 91549
+          "ym": "2026-05",
+          "sales": 21883,
+          "cumulative": 21883
         }
-      ]
+      ],
+      "초동_써클_numeric": 21883
     },
     {
       "title": "SNAP (feat. sokodomo)",
