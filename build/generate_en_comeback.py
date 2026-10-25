@@ -74,11 +74,49 @@ def get_event_gender(ev, gmap):
         return gmap[norm_title]
     return ""
 
-def build_events_jsonld_en(events, year, month, gmap):
+def load_artist_en_map():
+    en_map = {}
+    idx_file = ROOT / "data" / "namu-index.json"
+    if idx_file.exists():
+        try:
+            data = json.loads(idx_file.read_text(encoding="utf-8"))
+            for g in data.get("groups", []):
+                slug = (g.get("slug") or "").lower()
+                name = g.get("name") or ""
+                name_en = g.get("name_en") or ""
+                if name_en:
+                    if slug:
+                        en_map[slug] = name_en
+                    if name:
+                        en_map[name] = name_en
+                        en_map[name.lower().replace(" ", "")] = name_en
+        except Exception:
+            pass
+    en_file = ROOT / "data" / "idol-names-en.json"
+    if en_file.exists():
+        try:
+            extra = json.loads(en_file.read_text(encoding="utf-8"))
+            en_map.update(extra)
+        except Exception:
+            pass
+    return en_map
+
+def get_artist_en_name(title, slug, en_map):
+    raw = re.sub(r"\(Comeback\)|\(Debut\)", "", title or "", flags=re.IGNORECASE).strip()
+    if slug and slug.lower() in en_map:
+        return en_map[slug.lower()]
+    clean = raw.lower().replace(" ", "")
+    if clean in en_map:
+        return en_map[clean]
+    if raw in en_map:
+        return en_map[raw]
+    return raw
+
+def build_events_jsonld_en(events, year, month, gmap, en_map):
     items = []
     for ev in events:
         d_str = ev.get("date") or ""
-        clean_title = re.sub(r"\(Comeback\)|\(Debut\)", "", ev.get("title") or "", flags=re.IGNORECASE).strip()
+        clean_title = get_artist_en_name(ev.get("title") or "", ev.get("slug"), en_map)
         is_debut = "데뷔" in (ev.get("title") or "") or "Debut" in (ev.get("title") or "")
         event_name = f"{clean_title} {'Debut' if is_debut else 'Comeback'}"
         slug = ev.get("slug")
@@ -127,7 +165,7 @@ def build_events_jsonld_en(events, year, month, gmap):
     }
     return collection, graph
 
-def build_baked_calendar_en(events, year, month, gmap):
+def build_baked_calendar_en(events, year, month, gmap, en_map):
     month_str = f"{year}-{month:02d}"
     first_weekday, num_days = calendar.monthrange(year, month)
     first_day_index = (first_weekday + 1) % 7
@@ -168,7 +206,7 @@ def build_baked_calendar_en(events, year, month, gmap):
             badge_cls = 'cal-badge-boy' if gen == '남자' else ('cal-badge-girl' if gen == '여자' else 'cal-badge-neutral')
             if is_debut:
                 badge_cls += ' cal-badge-is-debut'
-            clean_title = re.sub(r"\(Comeback\)|\(Debut\)", "", ev.get("title") or "", flags=re.IGNORECASE).strip()
+            clean_title = get_artist_en_name(ev.get("title") or "", ev.get("slug"), en_map)
             debut_tag = '<span class="cal-debut-tag">Debut</span>' if is_debut else ''
             ev_id = esc(ev.get("id", ""))
             c_title_esc = esc(clean_title)
@@ -199,7 +237,7 @@ def build_baked_calendar_en(events, year, month, gmap):
             elif gen == '남자':
                 gender_badge = '<span class="badge bg-primary-subtle text-primary border border-primary-subtle me-1">👦 Boy Group</span>'
             type_badge = '<span class="badge bg-warning text-dark me-1">Debut</span>' if is_debut else '<span class="badge bg-secondary me-1">Comeback</span>'
-            clean_title = re.sub(r"\(Comeback\)|\(Debut\)", "", ev.get("title") or "", flags=re.IGNORECASE).strip()
+            clean_title = get_artist_en_name(ev.get("title") or "", ev.get("slug"), en_map)
             d_fmt = "/".join((ev.get("date") or "").split("-")[1:])
             ev_id = esc(ev.get("id", ""))
             c_title_esc = esc(clean_title)
@@ -226,6 +264,7 @@ def generate_en_comeback():
     cal_data = json.loads(cal_file.read_text(encoding="utf-8"))
     events = cal_data.get("events", [])
     gmap = load_gender_map()
+    en_map = load_artist_en_map()
 
     today = datetime.date.today()
     year, month = today.year, today.month
@@ -265,7 +304,7 @@ def generate_en_comeback():
         f'    <link rel="alternate" hreflang="en" href="{URL_EN}">\n'
         f'    <link rel="alternate" hreflang="x-default" href="{URL_KO}">'
     )
-    collection, graph = build_events_jsonld_en(events, year, month, gmap)
+    collection, graph = build_events_jsonld_en(events, year, month, gmap, en_map)
     jsonld = "\n".join(
         f'    <script type="application/ld+json" data-static="comeback">\n'
         f"{json.dumps(b, ensure_ascii=False, indent=2)}\n    </script>"
@@ -329,7 +368,7 @@ def generate_en_comeback():
                      'placeholder="Search group or artist (e.g. LE SSERAFIM, ONEUS)..."', "cal search en")
 
     # 7. SSR Calendar Grid injection into #calendarContainer
-    baked_cal_html = build_baked_calendar_en(events, year, month, gmap)
+    baked_cal_html = build_baked_calendar_en(events, year, month, gmap, en_map)
     placeholder = (
         '<div id="calendarContainer">\n'
         '                    <div class="text-center py-5 text-muted">\n'
