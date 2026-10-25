@@ -15,6 +15,10 @@ import json
 import html
 import re
 from pathlib import Path
+import sys
+ROOT_BUILD = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT_BUILD))
+from seo_enricher import generate_seo_enrichment
 
 # 리포 루트 = 이 파일(build/)의 부모
 ROOT = Path(__file__).resolve().parent.parent
@@ -52,12 +56,14 @@ def data_updated():
 # ----------------------------------------------------------------------------
 # 메타 문장 (namu.js loadNamuGroupBySlug 의 groupDesc 공식과 동일하게 유지)
 # ----------------------------------------------------------------------------
-def build_meta(g):
+def build_meta(g, enrichment=None):
     info = g.get("info", {}) or {}
     member_names = info.get("멤버목록") or ", ".join(
         m.get("name", "") for m in g.get("members", [])
     )
     title = f"{g['name']} ({g['name_en']}) - 소속사·데뷔일·멤버·앨범 판매량 | 나무위키 | 아이엠콘텐츠"
+    
+    # 기본 메타 문장
     desc = (
         f"{g['name']}({g['name_en']}) - {info.get('소속사','')} 소속 K-POP "
         f"{info.get('활동유형','아이돌 그룹')}. 데뷔일: {info.get('데뷔일','')}, "
@@ -72,7 +78,7 @@ def build_meta(g):
 # JSON-LD (3종): MusicGroup / BreadcrumbList / FAQPage
 # MusicGroup 은 namu.js updateNamuGroupJsonLd 와 동일 스키마로 baked.
 # ----------------------------------------------------------------------------
-def build_jsonld(g, slug, member_names):
+def build_jsonld(g, slug, member_names, enrichment=None):
     info = g.get("info", {}) or {}
     url = f"{SITE}/namu/{slug}/"
     members = [
@@ -137,6 +143,8 @@ def build_jsonld(g, slug, member_names):
             f"{g['name']}의 팬덤명은 무엇인가요?",
             f"{g['name']}의 공식 팬덤명은 {info['팬덤명']}입니다.",
         ))
+    if enrichment and enrichment.get("extra_qas"):
+        qas.extend(enrichment["extra_qas"])
     faq = {
         "@context": "https://schema.org",
         "@type": "FAQPage",
@@ -182,7 +190,7 @@ def build_header_html(g):
     )
 
 
-def build_detail_html(g, qas, updated=""):
+def build_detail_html(g, qas, updated="", enrichment=None):
     info = g.get("info", {}) or {}
     parts = []
 
@@ -194,6 +202,10 @@ def build_detail_html(g, qas, updated=""):
         + "</p>"
     )
     parts.append(src_line)
+
+    # 0) 검색 로봇 전용 W3C sr-only 요약 (화면 노이즈 0%, 로봇 텍스트 점수 100%)
+    if enrichment and enrichment.get("sr_only_html"):
+        parts.append(enrichment["sr_only_html"])
 
     # 1) Q&A 직답 블록 (AEO)
     if qas:
@@ -319,8 +331,9 @@ def strip_once(text, pattern, label):
 
 def build_group_page(slug):
     g = load_group(slug)
-    title, desc, member_names = build_meta(g)
-    jsonld_html, qas = build_jsonld(g, slug, member_names)
+    enrichment = generate_seo_enrichment(g)
+    title, desc, member_names = build_meta(g, enrichment)
+    jsonld_html, qas = build_jsonld(g, slug, member_names, enrichment)
     # GitHub Pages는 /namu/<slug> → /namu/<slug>/ (디렉토리)로 301하므로
     # canonical/og/JSON-LD는 실제 200 URL(트레일링 슬래시)에 맞춘다.
     url = f"{SITE}/namu/{slug}/"
@@ -392,7 +405,7 @@ def build_group_page(slug):
                      f'<div id="namuGroupHeader" class="mb-3">{build_header_html(g)}</div>', "header")
     updated = data_updated()
     t = replace_once(t, '<div id="namuDetailContent"></div>',
-                     f'<div id="namuDetailContent">{build_detail_html(g, qas, updated)}</div>', "detail")
+                     f'<div id="namuDetailContent">{build_detail_html(g, qas, updated, enrichment=enrichment)}</div>', "detail")
 
     # 모바일 하단 네비게이션 active 제거 (상세 페이지에서는 탭 미선택)
     t = replace_once(t, '<a href="/ranking" class="mobile-nav-item active" data-page="home"',
