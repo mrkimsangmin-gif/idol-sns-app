@@ -3543,9 +3543,15 @@ function showVendorUpdateTime(isoString) {
         // 4. Non-intrusive Suggestion Banner for First-time English Browser Visitors
         var dismissed = null;
         try { dismissed = sessionStorage.getItem('aim_lang_banner_dismissed'); } catch (e) {}
-        var browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+        // Check all preferred languages in navigator.languages
+        var langs = (navigator.languages && navigator.languages.length) 
+            ? Array.from(navigator.languages).map(function(l){ return l.toLowerCase(); })
+            : [(navigator.language || navigator.userLanguage || '').toLowerCase()];
 
-        if (!isEnPage && !savedPref && !dismissed && browserLang && browserLang.indexOf('ko') !== 0) {
+        // Check if user has English configured as their primary or preferred language
+        var isEnPreferred = langs.length > 0 && (langs[0].indexOf('en') === 0 || langs.some(function(l){ return l.indexOf('en') === 0; }));
+
+        if (!isEnPage && !savedPref && !dismissed && isEnPreferred) {
             function showBanner() {
                 var banner = document.getElementById('lang-suggest-banner');
                 var bannerLink = document.getElementById('lang-suggest-link');
