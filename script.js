@@ -68,6 +68,68 @@ function getGenderDisplay(gender) {
     return gender;
 }
 
+// ========================================
+// 🌐 I18N 번역 사전 (카테고리 / 잡스 / 벤더 / 아이돌명)
+// ========================================
+const JOB_CATEGORY_EN = {
+    'all': 'All', '전체': 'All',
+    '마케팅': 'Marketing',
+    '영상': 'Video / Media',
+    '신인개발': 'A&R / Casting',
+    '매니지먼트': 'Management',
+    '프로듀싱': 'Music Production',
+    '디자인': 'Creative Design',
+    'IT': 'IT & Tech',
+    '영업': 'Business Sales',
+    '경영지원': 'Operations & HR',
+    '해외사업': 'Global Business',
+    '기타': 'Others'
+};
+
+const VENDOR_CATEGORY_EN = {
+    'all': 'All', '전체': 'All',
+    '마케팅': 'Marketing',
+    '영상': 'Video Production',
+    '음악': 'Music Production',
+    '디자인': 'Design & Visual',
+    'MD': 'Merchandise (MD)',
+    '행사': 'Event & Concert',
+    '해외': 'Global Agency',
+    '기타': 'Others'
+};
+
+// 206개 전체 아이돌 영문 매핑 (캐시)
+let idolEnglishNameMap = null;
+
+async function loadIdolEnglishNames() {
+    if (idolEnglishNameMap) return idolEnglishNameMap;
+    try {
+        const res = await fetch('/data/namu-index.json');
+        if (res.ok) {
+            const data = await res.json();
+            idolEnglishNameMap = {};
+            if (data.groups && Array.isArray(data.groups)) {
+                data.groups.forEach(g => {
+                    if (g.name && g.name_en) {
+                        idolEnglishNameMap[g.name] = g.name_en;
+                    }
+                });
+            }
+        }
+    } catch (e) {
+        console.warn('아이돌 영문명 로드 실패:', e);
+    }
+    if (!idolEnglishNameMap) idolEnglishNameMap = {};
+    return idolEnglishNameMap;
+}
+
+function getIdolDisplayName(koreanName, englishName) {
+    if (!isEnglishPage) return koreanName;
+    if (englishName && englishName.trim() !== '') return englishName;
+    if (idolEnglishNameMap && idolEnglishNameMap[koreanName]) return idolEnglishNameMap[koreanName];
+    return koreanName;
+}
+
 /**
  * 현재 표시 중인 페이지 ID 반환
  */
@@ -389,6 +451,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const seoStatic = document.getElementById('seo-static-content');
     if (seoStatic) seoStatic.style.display = 'none';
 
+    // 영문 페이지일 경우 영문 아이돌 매핑 즉시 프리로드
+    if (isEnglishPage) {
+        loadIdolEnglishNames().then(() => {
+            const currentMonth = document.getElementById('month')?.value;
+            if (currentMonth && cachedData && cachedData.length > 0) {
+                renderList(currentMonth);
+            }
+        });
+    }
+
     // 필터 변경 시 초기화 로드
     document.getElementById('gender').addEventListener('change', () => loadData(true));
     document.getElementById('sns').addEventListener('change', () => loadData(true));
@@ -684,8 +756,8 @@ function renderList(targetMonth) {
                 <div class="idol-card" data-idol-name="${item.name}">
                     <div class="rank-badge">${rank}</div>
                     <div class="flex-grow-1 ps-2">
-                        <h5 class="m-0 fw-bold">${String(item.name)}</h5>
-                        <small class="text-muted">${String(item.group)}</small>
+                        <h5 class="m-0 fw-bold">${String(getIdolDisplayName(item.name, item.group))}</h5>
+                        <small class="text-muted">${isEnglishPage ? (item.group || String(item.name)) : String(item.group)}</small>
                     </div>
                     <div class="text-end">
                         <div class="fw-bold fs-5">${Number(item.current).toLocaleString()}</div>
@@ -1300,7 +1372,7 @@ function renderIdolModal(data, name) {
     document.getElementById('idolGroup').textContent = data.group || '-';
 
     const labelText = data.label || '-';
-    const debutText = data.debut_year ? data.debut_year + '년 데뷔' : '';
+    const debutText = data.debut_year ? (isEnglishPage ? `Debuted ${data.debut_year}` : data.debut_year + '년 데뷔') : '';
     document.getElementById('idolInfo').textContent =
         debutText ? `${labelText} • ${debutText}` : labelText;
 
@@ -2308,7 +2380,7 @@ function createJobCard(job, index) {
     let ddayClass = 'normal';
 
     if (isAlwaysOpen) {
-        ddayText = '상시';
+        ddayText = isEnglishPage ? 'Always' : '상시';
         ddayClass = 'always'; // 회색 스타일
     } else if (job.dday !== undefined) {
         if (job.dday === 0) {
@@ -2318,7 +2390,7 @@ function createJobCard(job, index) {
             ddayText = `D-${job.dday}`;
             ddayClass = job.dday <= 3 ? 'urgent' : 'normal';
         } else {
-            ddayText = '마감';
+            ddayText = isEnglishPage ? 'Closed' : '마감';
             ddayClass = 'expired';
         }
     }
@@ -2338,13 +2410,13 @@ function createJobCard(job, index) {
             <h6 class="job-title">${job.position || '-'}</h6>
             <div class="job-info">
                 <span>📍 ${job.location || '-'}</span>
-                <span>👤 ${job.career || '무관'}</span>
+                <span>👤 ${isEnglishPage ? (job.career === '무관' ? 'Any Experience' : job.career || 'Any') : (job.career || '무관')}</span>
                 ${deadlineText ? `<span>📅 ${isAlwaysOpen ? '' : '~'}${deadlineText}</span>` : ''}
             </div>
-            <span class="job-category-tag">${job.category || '기타'}</span>
+            <span class="job-category-tag">${isEnglishPage ? (JOB_CATEGORY_EN[job.category] || job.category || 'Other') : (job.category || '기타')}</span>
             <div class="job-actions">
                 <a href="${job.url}" target="_blank" rel="noopener" class="btn btn-primary" onclick="trackJobClick('${job.company}', '${job.position}', ${index})">
-                    ${job.source || '상세보기'} 바로가기
+                    ${isEnglishPage ? 'View Posting' : (job.source || '상세보기') + ' 바로가기'}
                 </a>
             </div>
         </div>
@@ -2955,7 +3027,8 @@ function initVendorCategoryTabs() {
     }
 
     // '전체' 탭 + 카테고리 정의 순서대로 생성
-    let html = `<button class="vendor-category-tab active" data-category="all" onclick="filterVendorsByCategory('all')">전체</button>`;
+    const allLabel = isEnglishPage ? 'All' : '전체';
+    let html = `<button class="vendor-category-tab active" data-category="all" onclick="filterVendorsByCategory('all')">${allLabel}</button>`;
 
     // vendorCategories 키 순서대로 (없으면 데이터에서 추출한 순서)
     const categoryKeys = Object.keys(vendorCategories).length > 0
@@ -2965,7 +3038,8 @@ function initVendorCategoryTabs() {
     categoryKeys.forEach(cat => {
         // 실제 데이터에 해당 카테고리가 있는 경우만 표시
         if (usedCategories.has(cat)) {
-            html += `<button class="vendor-category-tab" data-category="${cat}" onclick="filterVendorsByCategory('${cat}')">${cat}</button>`;
+            const catDisplay = isEnglishPage ? (VENDOR_CATEGORY_EN[cat] || cat) : cat;
+            html += `<button class="vendor-category-tab" data-category="${cat}" onclick="filterVendorsByCategory('${cat}')">${catDisplay}</button>`;
         }
     });
 
@@ -3031,7 +3105,8 @@ function updateVendorSubcategoryTabs(category) {
     }
 
     // 소분류 탭 생성
-    let html = `<button class="vendor-subcategory-tab active" data-subcategory="all" onclick="filterVendorsBySubcategory('all')">전체</button>`;
+    const subAllLabel = isEnglishPage ? 'All' : '전체';
+    let html = `<button class="vendor-subcategory-tab active" data-subcategory="all" onclick="filterVendorsBySubcategory('all')">${subAllLabel}</button>`;
 
     // vendorCategories에서 정의된 소분류 순서 사용
     const definedSubs = vendorCategories[category] || [];
@@ -3162,7 +3237,7 @@ function createVendorCard(vendor) {
                 <span class="vendor-category-badge">${badgeText}</span>
             </div>
             <div class="vendor-card-action text-muted small mt-2">
-                연락처 정보 보기
+                ${isEnglishPage ? 'View Contact Details' : '연락처 정보 보기'}
             </div>
         </div>
     `;
