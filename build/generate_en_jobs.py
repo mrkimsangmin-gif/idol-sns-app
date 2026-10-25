@@ -241,52 +241,84 @@ def generate_en_jobs():
                      f'<div id="jobsContainer" class="row g-3">{build_table_en(jobs)}', "jobsContainer inject")
 
     # 8. 카테고리 탭 영문화
-    cat_tabs = (
-        '<div id="jobsCategoryTabs" class="jobs-category-tabs mb-3">\n'
-        '                <button class="jobs-category-tab active" data-category="all" onclick="filterJobsByCategory(\'all\')">\n'
-        '                    All\n'
-        '                </button>\n'
-        '                <button class="jobs-category-tab" data-category="마케팅" onclick="filterJobsByCategory(\'마케팅\')">\n'
-        '                    Marketing\n'
-        '                </button>\n'
-        '                <button class="jobs-category-tab" data-category="영상" onclick="filterJobsByCategory(\'영상\')">\n'
-        '                    Video / Media\n'
-        '                </button>\n'
-        '                <button class="jobs-category-tab" data-category="신인개발" onclick="filterJobsByCategory(\'신인개발\')">\n'
-        '                    A&R / Casting\n'
-        '                </button>\n'
-        '                <button class="jobs-category-tab" data-category="매니지먼트" onclick="filterJobsByCategory(\'매니지먼트\')">\n'
-        '                    Management\n'
-        '                </button>\n'
-        '                <button class="jobs-category-tab" data-category="프로듀싱" onclick="filterJobsByCategory(\'프로듀싱\')">\n'
-        '                    Music Production\n'
-        '                </button>\n'
-        '                <button class="jobs-category-tab" data-category="디자인" onclick="filterJobsByCategory(\'디자인\')">\n'
-        '                    Creative Design\n'
-        '                </button>\n'
-        '                <button class="jobs-category-tab" data-category="IT" onclick="filterJobsByCategory(\'IT\')">\n'
-        '                    IT & Tech\n'
-        '                </button>\n'
-        '                <button class="jobs-category-tab" data-category="영업" onclick="filterJobsByCategory(\'영업\')">\n'
-        '                    Business Sales\n'
-        '                </button>\n'
-        '                <button class="jobs-category-tab" data-category="경영지원" onclick="filterJobsByCategory(\'경영지원\')">\n'
-        '                    Operations & HR\n'
-        '                </button>\n'
-        '                <button class="jobs-category-tab" data-category="해외사업" onclick="filterJobsByCategory(\'해외사업\')">\n'
-        '                    Global Business\n'
-        '                </button>\n'
-        '                <button class="jobs-category-tab" data-category="기타" onclick="filterJobsByCategory(\'기타\')">\n'
-        '                    Others\n'
-        '                </button>\n'
-        '            </div>'
-    )
-    t = re.sub(
-        r'<div id="jobsCategoryTabs" class="jobs-category-tabs mb-3">.*?</div>\s*</div>',
-        cat_tabs + '\n        </div>',
-        t,
-        flags=re.DOTALL
-    )
+    orig_tabs = '''<div id="jobsCategoryTabs" class="jobs-category-tabs mb-3">
+                <button class="jobs-category-tab active" data-category="all" onclick="filterJobsByCategory('all')">
+                    전체
+                </button>
+                <button class="jobs-category-tab" data-category="마케팅" onclick="filterJobsByCategory('마케팅')">
+                    마케팅
+                </button>
+                <button class="jobs-category-tab" data-category="영상" onclick="filterJobsByCategory('영상')">
+                    영상
+                </button>
+                <button class="jobs-category-tab" data-category="신인개발" onclick="filterJobsByCategory('신인개발')">
+                    신인개발
+                </button>
+                <button class="jobs-category-tab" data-category="매니지먼트" onclick="filterJobsByCategory('매니지먼트')">
+                    매니지먼트
+                </button>
+                <button class="jobs-category-tab" data-category="프로듀싱" onclick="filterJobsByCategory('프로듀싱')">
+                    프로듀싱
+                </button>
+                <button class="jobs-category-tab" data-category="디자인" onclick="filterJobsByCategory('디자인')">
+                    디자인
+                </button>
+                <button class="jobs-category-tab" data-category="IT" onclick="filterJobsByCategory('IT')">
+                    IT
+                </button>
+                <button class="jobs-category-tab" data-category="영업" onclick="filterJobsByCategory('영업')">
+                    영업
+                </button>
+                <button class="jobs-category-tab" data-category="경영지원" onclick="filterJobsByCategory('경영지원')">
+                    경영지원
+                </button>
+                <button class="jobs-category-tab" data-category="해외사업" onclick="filterJobsByCategory('해외사업')">
+                    해외사업
+                </button>
+                <button class="jobs-category-tab" data-category="기타" onclick="filterJobsByCategory('기타')">
+                    기타
+                </button>
+            </div>'''
+
+    en_tabs = '''<div id="jobsCategoryTabs" class="jobs-category-tabs mb-3">
+                <button class="jobs-category-tab active" data-category="all" onclick="filterJobsByCategory('all')">
+                    All
+                </button>
+                <button class="jobs-category-tab" data-category="마케팅" onclick="filterJobsByCategory('마케팅')">
+                    Marketing
+                </button>
+                <button class="jobs-category-tab" data-category="영상" onclick="filterJobsByCategory('영상')">
+                    Video / Media
+                </button>
+                <button class="jobs-category-tab" data-category="신인개발" onclick="filterJobsByCategory('신인개발')">
+                    A&R / Casting
+                </button>
+                <button class="jobs-category-tab" data-category="매니지먼트" onclick="filterJobsByCategory('매니지먼트')">
+                    Management
+                </button>
+                <button class="jobs-category-tab" data-category="프로듀싱" onclick="filterJobsByCategory('프로듀싱')">
+                    Music Production
+                </button>
+                <button class="jobs-category-tab" data-category="디자인" onclick="filterJobsByCategory('디자인')">
+                    Creative Design
+                </button>
+                <button class="jobs-category-tab" data-category="IT" onclick="filterJobsByCategory('IT')">
+                    IT & Tech
+                </button>
+                <button class="jobs-category-tab" data-category="영업" onclick="filterJobsByCategory('영업')">
+                    Business Sales
+                </button>
+                <button class="jobs-category-tab" data-category="경영지원" onclick="filterJobsByCategory('경영지원')">
+                    Operations & HR
+                </button>
+                <button class="jobs-category-tab" data-category="해외사업" onclick="filterJobsByCategory('해외사업')">
+                    Global Business
+                </button>
+                <button class="jobs-category-tab" data-category="기타" onclick="filterJobsByCategory('기타')">
+                    Others
+                </button>
+            </div>'''
+    t = replace_once(t, orig_tabs, en_tabs, "jobs tabs en")
 
     # 9. 모바일 하단 네비 active 탭을 jobs로 전환
     t = replace_once(
