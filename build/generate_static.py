@@ -1,3 +1,4 @@
+from en_shell_localizer import localize_shell_to_en
 # -*- coding: utf-8 -*-
 """
 정적 페이지 생성 파이프라인 — 한국어(KO) 및 영문(EN) 멀티 링구얼 정적 페이지 빌더
@@ -821,6 +822,7 @@ def build_group_page_en(slug):
 
     out_dir = ROOT / "en" / "namu" / slug
     out_dir.mkdir(parents=True, exist_ok=True)
+    t = localize_shell_to_en(t, noscript_mode="strip")
     out_path = out_dir / "index.html"
     out_path.write_text(t, encoding="utf-8")
     return out_path

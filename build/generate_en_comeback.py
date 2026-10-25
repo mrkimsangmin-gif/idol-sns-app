@@ -1,3 +1,4 @@
+from en_shell_localizer import localize_shell_to_en
 # -*- coding: utf-8 -*-
 """
 영문 컴백/데뷔 캘린더 페이지 (/en/comeback/index.html) 정적 생성 스크립트.
@@ -388,6 +389,7 @@ def generate_en_comeback():
     out_dir = ROOT / "en" / "comeback"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_file = out_dir / "index.html"
+    t = localize_shell_to_en(t, noscript_mode="strip")
     out_file.write_text(t, encoding="utf-8")
     print(f"✅ Generated EN comeback page: {out_file.relative_to(ROOT)} ({out_file.stat().st_size:,} bytes)")
 

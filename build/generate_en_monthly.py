@@ -13,6 +13,22 @@ import json
 import re
 from pathlib import Path
 
+
+IDOL_NAMES_EN_FILE = Path(__file__).resolve().parent.parent / "data" / "idol-names-en.json"
+_IDOL_NAMES_MAP = {}
+if IDOL_NAMES_EN_FILE.exists():
+    import json
+    try:
+        _IDOL_NAMES_MAP = json.loads(IDOL_NAMES_EN_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        pass
+
+def get_en_group_name(ko_name):
+    if not ko_name:
+        return ""
+    en = _IDOL_NAMES_MAP.get(ko_name) or _IDOL_NAMES_MAP.get(ko_name.lower())
+    return en if en else ko_name
+
 ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://aimcontents.com"
 
@@ -97,7 +113,7 @@ def build_cards_en(rows, max_score):
             '<div class="idol-card">'
             f'<div class="rank-badge"{rb_style}>{rank}</div>'
             '<div class="flex-grow-1 ps-2" style="min-width:0">'
-            f'<h5 class="m-0 fw-bold">{esc(r["그룹"])}</h5>'
+            f'<h5 class="m-0 fw-bold">{esc(get_en_group_name(r["그룹"]))}</h5>'
             '<div class="d-flex align-items-center gap-2 mt-1 flex-wrap">'
             f'<span class="badge sig-badge flex-shrink-0" style="background:{dom_color}">{dom_name}</span>'
             f"{contrib_bar(r, max_score)}"

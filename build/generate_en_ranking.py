@@ -1,3 +1,4 @@
+from en_shell_localizer import localize_shell_to_en
 # -*- coding: utf-8 -*-
 """
 영문 SNS 랭킹 랜딩 페이지 (/en/ranking/index.html) 및 정적 페이지 생성 스크립트
@@ -340,6 +341,7 @@ def generate_en_ranking():
     out_dir = ROOT / "en" / "ranking"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_file = out_dir / "index.html"
+    text = localize_shell_to_en(text, noscript_mode="strip")
     out_file.write_text(text, encoding="utf-8")
     print(f"✅ Generated EN ranking page: {out_file.relative_to(ROOT)} ({out_file.stat().st_size:,} bytes)")
 

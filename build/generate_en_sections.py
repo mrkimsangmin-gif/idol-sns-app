@@ -1,3 +1,4 @@
+from en_shell_localizer import localize_shell_to_en
 import re
 from pathlib import Path
 
@@ -324,7 +325,8 @@ def build_en_home_and_news():
         t_home = replace_once(t_home, old_seo_block, new_seo_block, "seo static block en")
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    (OUT_DIR / "index.html").write_text(t_home, encoding="utf-8")
+    t_home_final = localize_shell_to_en(t_home, noscript_mode="replace")
+    (OUT_DIR / "index.html").write_text(t_home_final, encoding="utf-8")
     print(f"Created: {OUT_DIR / 'index.html'}")
 
     # 2. EN News (en/news/index.html)
@@ -355,6 +357,7 @@ def build_en_home_and_news():
     t_news = replace_once(t_news, seo_links, seo_links_news, "canonical news en")
 
     OUT_NEWS_DIR.mkdir(parents=True, exist_ok=True)
+    t_news = localize_shell_to_en(t_news, noscript_mode="strip")
     (OUT_NEWS_DIR / "index.html").write_text(t_news, encoding="utf-8")
     print(f"Created: {OUT_NEWS_DIR / 'index.html'}")
 
