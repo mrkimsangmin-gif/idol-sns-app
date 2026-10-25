@@ -42,7 +42,8 @@ function debounce(func, wait) {
 const API_URL = "https://script.google.com/macros/s/AKfycbx0W0_25f135Ze2kjA7Q66d7T6Y210iXhIEBfFhdok8G1vwj5OTnQdu3P6_uFAKZNmg/exec";
 
 // 엔터뉴스: 정적 JSON 우선 → GAS API 폴백
-const NEWS_STATIC_URL = '/data/news.json';
+const isEnglishPage = window.location.pathname.startsWith('/en/') || document.documentElement.lang === 'en';
+const NEWS_STATIC_URL = isEnglishPage ? '/data/news-en.json' : '/data/news.json';
 const ENTER_NEWS_API = API_URL + "?action=getNews";
 
 // SNS API값 → 화면 표시명 매핑 ('차오화'만 다름)

@@ -60,12 +60,22 @@ try {
         exit 1
     }
 
+    # 1.5. 뉴스 영문 번역 (Gemini 2.5 Flash -> news-en.json)
+    Log '뉴스 영문 자동 번역 시작 (Gemini API)'
+    $transScript = Join-Path $Repo 'translate_news.py'
+    & $Python $transScript
+    if ($LASTEXITCODE -ne 0) {
+        Log '경고: 뉴스 영문 번역 실패 (기존 또는 한글 데이터 유지)'
+    } else {
+        Log '뉴스 영문 번역 완료'
+    }
+
     # 2. git add / commit
     Log 'Git 커밋 단계'
     Set-Location -LiteralPath $Repo
 
-    & git add 'data/news.json'
-    & git diff --cached --quiet 'data/news.json'
+    & git add 'data/news.json' 'data/news-en.json'
+    & git diff --cached --quiet 'data/news.json' 'data/news-en.json'
     if ($LASTEXITCODE -ne 0) {   # 0이 아니면 스테이징된 news 변경 있음
         $stamp = Get-Date -Format 'yyyy-MM-dd HH:mm'
         & git commit -m "auto: 엔터뉴스 업데이트 $stamp"

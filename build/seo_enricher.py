@@ -133,3 +133,131 @@ def generate_seo_enrichment(g):
         "latest_alb": latest_alb,
         "best_alb": best_alb
     }
+
+
+def generate_seo_enrichment_en(g):
+    """
+    글로벌 구글 검색엔진 및 AI 챗봇(ChatGPT, Perplexity 등) 전용 영문 요약 (sr-only + JSON-LD)
+    """
+    name = g.get('name_en', '') or g.get('name', '')
+    name_kr = g.get('name', '')
+    members = g.get('members', [])
+    albums = g.get('albums', [])
+    info = g.get('info', {}) or {}
+    agency = info.get('소속사', '') or g.get('agency', '')
+    debut = info.get('데뷔일', '') or g.get('debut', '')
+    
+    today_year = 2026
+
+    # 1. Member age stats
+    valid_births = []
+    for m in members:
+        b = str(m.get('생년월일', '')).strip()
+        match = re.search(r'(\d{4})[.\-/](\d{1,2})[.\-/](\d{1,2})', b)
+        if match:
+            y = int(match.group(1))
+            age = today_year - y
+            m_name = m.get('name', '')
+            valid_births.append({
+                'name': m_name,
+                'year': y,
+                'age': age,
+                'birth_str': b
+            })
+
+    age_sentence = ""
+    oldest = None
+    youngest = None
+    avg_age = None
+    if valid_births:
+        valid_births.sort(key=lambda x: x['birth_str']) # Oldest first
+        oldest = valid_births[0]
+        youngest = valid_births[-1]
+        avg_age = round(sum(x['age'] for x in valid_births) / len(valid_births), 1)
+        if len(valid_births) > 1 and oldest['name'] != youngest['name']:
+            age_sentence = (
+                f"The average age of the {len(valid_births)} members is {avg_age} years old. "
+                f"The oldest member is {oldest['name']} (born {oldest['year']}, age {oldest['age']}), "
+                f"and the youngest (maknae) is {youngest['name']} (born {youngest['year']}, age {youngest['age']})."
+            )
+        else:
+            age_sentence = f"The average age of the member(s) is {avg_age} years old."
+
+    # 2. Chodong sales stats
+    physical_albums = [
+        a for a in albums 
+        if (a.get('초동_써클_numeric', 0) > 0 or a.get('초동_한터_numeric', 0) > 0 or 
+            (a.get('초동_써클') and a.get('초동_써클') not in ['-', '']))
+    ]
+
+    chodong_sentence = ""
+    latest_alb = None
+    best_alb = None
+    if physical_albums:
+        latest_alb = physical_albums[-1]
+        cho_h = str(latest_alb.get('초동_한터', '')).strip()
+        cho_c = str(latest_alb.get('초동_써클', '')).strip()
+        cho_parts = []
+        if cho_h and cho_h != '-': cho_parts.append(f"Hanteo {cho_h}")
+        if cho_c and cho_c != '-': cho_parts.append(f"Circle {cho_c}")
+        latest_cho_str = " / ".join(cho_parts) if cho_parts else ""
+
+        def get_max_val(a):
+            return max(a.get('초동_한터_numeric', 0) or 0, a.get('초동_써클_numeric', 0) or 0)
+        
+        best_alb = max(physical_albums, key=get_max_val)
+        best_h = str(best_alb.get('초동_한터', '')).strip()
+        best_c = str(best_alb.get('초동_써클', '')).strip()
+        best_parts = []
+        if best_h and best_h != '-': best_parts.append(f"Hanteo {best_h}")
+        if best_c and best_c != '-': best_parts.append(f"Circle {best_c}")
+        best_cho_str = " / ".join(best_parts) if best_parts else ""
+
+        if latest_alb['title'] == best_alb['title']:
+            if latest_cho_str:
+                chodong_sentence = f"The all-time highest first-week album sales record is held by their latest release '{latest_alb.get('title')}' with {latest_cho_str} copies sold."
+        else:
+            p1 = f"Their latest album '{latest_alb.get('title')}' recorded first-week sales of {latest_cho_str}" if latest_cho_str else ""
+            p2 = f"their all-time best-selling first-week album is '{best_alb.get('title')}' ({best_cho_str} copies)" if best_cho_str else ""
+            chodong_sentence = f"{p1}, while {p2}.".strip(", ")
+
+    intro = f"{name} ({name_kr})" if name_kr and name_kr != name else name
+    if agency: intro += f", managed by {agency}"
+    if debut: intro += f" (debuted on {debut})"
+    
+    parts = [f"Here is the verified data summary for {intro}."]
+    if age_sentence: parts.append(age_sentence)
+    if chodong_sentence: parts.append(chodong_sentence)
+    parts.append("Explore real-time daily global SNS growth (YouTube, TikTok, Instagram) and verified discography sales trends on AIMCONTENTS Data Lab.")
+
+    natural_text = " ".join(parts)
+
+    sr_only_html = (
+        f'<div class="visually-hidden" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">\n'
+        f'  <h2>{esc(name)} Members Age, Youngest (Maknae), and First-Week Album Sales Summary</h2>\n'
+        f'  <p>{esc(natural_text)}</p>\n'
+        f'</div>'
+    )
+
+    extra_qas = []
+    if age_sentence:
+        extra_qas.append((
+            f"What is the average age of {name} members and who is the youngest (maknae)?",
+            f"{name}: {age_sentence}"
+        ))
+    if chodong_sentence:
+        extra_qas.append((
+            f"What is the highest first-week album sales record for {name}?",
+            f"{name}: {chodong_sentence}"
+        ))
+
+    return {
+        "natural_text": natural_text,
+        "sr_only_html": sr_only_html,
+        "extra_qas": extra_qas,
+        "avg_age": avg_age,
+        "oldest": oldest,
+        "youngest": youngest,
+        "latest_alb": latest_alb,
+        "best_alb": best_alb
+    }
