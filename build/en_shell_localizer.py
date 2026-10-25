@@ -1,12 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-build/en_shell_localizer.py — EN 정적 페이지(218개) 한국어 잔존(1,077개 노드) 완전 제거 공통 모듈
-
-적용 대상 빌더:
-  1. build/generate_en_sections.py (en/index.html, en/news/index.html, 업체 디렉토리 등)
-  2. build/generate_static.py      (en/namu/<slug>/index.html 199개)
-  3. build/generate_en_comeback.py  (en/comeback/index.html)
-  4. build/generate_en_monthly.py   (en/monthly/index.html)
+build/en_shell_localizer.py — EN 정적 페이지(219개) 한국어 잔존 완전 제거 및 메타/html lang 강제 보장 공통 모듈
 """
 import html
 import json
@@ -17,8 +11,11 @@ from typing import Any, Dict, List, Optional
 ROOT = Path(__file__).resolve().parent.parent
 GROUPS_DIR = ROOT / "data" / "namu-groups"
 
-# ── 1. HTML 속성(aria-label, placeholder, title) 치환 사전 ────────────────────
+# ── 1. HTML 속성(lang, aria-label, placeholder, title, locale) 치환 사전 ───
 ATTR_KO_TO_EN: Dict[str, str] = {
+    'lang="ko"': 'lang="en"',
+    "lang='ko'": "lang='en'",
+    'content="ko_KR"': 'content="en_US"',
     'aria-label="메뉴 열기"': 'aria-label="Open menu"',
     'aria-label="닫기"': 'aria-label="Close"',
     'aria-label="모바일 하단 탐색"': 'aria-label="Mobile Navigation"',
@@ -33,12 +30,15 @@ ATTR_KO_TO_EN: Dict[str, str] = {
 
 # ── 2. 공통 UI / 필터 / 모달 / 초기 프리뷰 카드 텍스트 치환 사전 ──
 TEXT_KO_TO_EN: Dict[str, str] = {
+    "아이돌 SNS 팔로워 순위 - 틱톡·유튜브·인스타·웨이보·도우인 | 아이엠콘텐츠": "K-POP Idol SNS & Discography Analytics | AIMCONTENTS",
+    "K-POP 아이돌 SNS·틱톡·유튜브 팔로워 순위 | 아이엠콘텐츠": "K-POP Idol SNS & TikTok Rankings | AIMCONTENTS",
+    "K-POP 아이돌 틱톡(TikTok), 유튜브, 인스타그램, 웨이보, 도우인 SNS 팔로워 순위와 컴백 일정, 188개 그룹 상세 정보.": "Monthly verified rankings of K-POP idol groups across Weibo, Bilibili, YouTube, Spotify, and TikTok.",
     "아이엠콘텐츠 (aimcontents.com) - K-POP 아이돌 종합 데이터 플랫폼": "AIMCONTENTS (aimcontents.com) - K-POP Idol Analytics Platform",
-    "K-POP 아이돌 나무위키 검색": "K-POP Idol Database & Search",
     "K-POP 아이돌 SNS & 틱톡 팔로워 순위": "K-POP Idol SNS & TikTok Follower Rankings",
     "K-POP 아이돌 SNS 팔로워 순위": "K-POP Idol SNS Follower Rankings",
     "K-POP 아이돌 데이터베이스 (174개 그룹)": "K-POP Idol Database (174 Groups)",
     "K-POP 아이돌 컴백/데뷔 일정": "K-POP Idol Comeback & Debut Schedule",
+    "K-POP 아이돌 나무위키 검색": "K-POP Idol Database & Search",
     "실시간 엔터테인먼트 뉴스": "Real-time Entertainment News",
     "엔터테인먼트 채용정보": "Entertainment Careers",
     "엔터테인먼트 업체정보": "K-POP Vendor Directory",
@@ -71,11 +71,6 @@ TEXT_KO_TO_EN: Dict[str, str] = {
     "신규 업체 등록": "Add New Vendor",
     "신규업체 등록": "+ Add Vendor",
     "전체 연도": "All Years",
-    "블랙핑크": "BLACKPINK",
-    "YG Entertainment • 2016년 데뷔": "YG Entertainment • Debut 2016",
-    "연도": "Year",
-    "월": "Month",
-    "일": "Day",
     "정보 수정 요청": "Request Edit",
     "닫기": "Close",
     "취소": "Cancel",
@@ -124,6 +119,11 @@ TEXT_KO_TO_EN: Dict[str, str] = {
     "데뷔": "Debut",
     "인원": "Count",
     "멤버": "Members",
+    "블랙핑크": "BLACKPINK",
+    "YG Entertainment • 2016년 데뷔": "YG Entertainment • Debut 2016",
+    "연도": "Year",
+    "월": "Month",
+    "일": "Day",
     "뮤직비디오": "Music Video",
     "참여 음반": "Featured / OST",
     "일본 디지털 싱글": "Japan Digital Single",
@@ -135,7 +135,7 @@ TEXT_KO_TO_EN: Dict[str, str] = {
     "스트리밍": "Streaming",
 }
 
-# ── 3. 정규식 패턴 치환 사전 (날짜, 면책문구 등) ──────────────────────────────
+# ── 3. 정규식 패턴 치환 사전 ──────────────────────────────
 REGEX_PATTERNS = [
     (
         re.compile(r"(\d{4})년\s*(\d{1,2})월"),
@@ -157,15 +157,11 @@ def _esc(val: Any) -> str:
 
 
 def _clean_en_text(ko_text: str, fallback_en: str = "") -> str:
-    """한글이 섞여 있을 때 영문/숫자/공백만 남기거나 fallback 반환"""
     en_only = re.sub(r"[^\x00-\x7F]+", "", ko_text).strip()
     return en_only if len(en_only) >= 2 else fallback_en
 
 
 def build_en_noscript_directory(groups: Optional[List[Dict[str, Any]]] = None) -> str:
-    """
-    en/index.html의 <noscript> 내부를 100% 영문 디렉토리 테이블로 생성.
-    """
     if groups is None:
         groups = []
         if GROUPS_DIR.exists():
@@ -224,9 +220,9 @@ def build_en_noscript_directory(groups: Optional[List[Dict[str, Any]]] = None) -
         '<div style="padding:20px; max-width:1200px; margin:0 auto; font-family:sans-serif; line-height:1.8;">\n'
         "  <h1>AIMCONTENTS (aimcontents.com) - Comprehensive K-POP Idol Analytics Platform</h1>\n"
         f"  <p>Tracking <strong>{total} K-POP Idol Groups</strong> across global social and music platforms.</p>\n"
-        '  <h2><a href="/en/">K-POP Idol SNS &amp; TikTok Follower Rankings</a></h2>\n'
+        '  <h2><a href="/en/ranking">K-POP Idol SNS &amp; TikTok Follower Rankings</a></h2>\n'
         "  <p>Monthly and weekly follower, subscriber, and short-form engagement rankings across TikTok, YouTube, Instagram, Weibo, Bilibili, QQ Music, X (Twitter), Spotify, and Douyin.</p>\n"
-        f'  <h2><a href="/en/">K-POP Idol Database ({total} Groups)</a></h2>\n'
+        f'  <h2><a href="/en/namu">K-POP Idol Database ({total} Groups)</a></h2>\n'
         "  <p>Comprehensive profiles from 1st to 5th generation K-POP idol groups including agency, debut date, fandom name, leader, member profiles, album discography, and Hanteo/Circle chart sales comparisons.</p>\n"
         + _render_table("Girl Groups", "K-POP Girl Groups List - Agency, Debut Year, and Member Info", girls)
         + "\n"
@@ -237,13 +233,11 @@ def build_en_noscript_directory(groups: Optional[List[Dict[str, Any]]] = None) -
 
 def localize_shell_to_en(
     raw_html: str,
-    noscript_mode: str = "strip",  # "replace" (en/index.html 전용) | "strip" (나머지 217개 EN 페이지)
+    noscript_mode: str = "strip",  # "replace" (en/index.html) | "strip" (218개 서브페이지)
     groups: Optional[List[Dict[str, Any]]] = None,
 ) -> str:
     """
-    모든 EN 빌더에서 루트 index.html 쉘 로드 직후 1순위로 호출하는 통합 로컬라이저.
-    - noscript_mode="replace": <noscript> 블록을 100% 영문 SEO 디렉토리 테이블로 교체 (en/index.html)
-    - noscript_mode="strip"  : <noscript> 블록을 제거하여 중복 보일러플레이트 및 한글 잔존 방지
+    모든 EN 빌더에서 루트 index.html 쉘 로드 시 1순위로 호출하는 통합 로컬라이저.
     """
     out = raw_html
 
@@ -254,18 +248,25 @@ def localize_shell_to_en(
     else:
         out = re.sub(r"<noscript>.*?</noscript>", "", out, count=1, flags=re.DOTALL)
 
-    # 2. 속성(aria-label, placeholder, title) 치환
+    # 2. 속성(lang, aria-label, placeholder, title, content) 1차 치환
     for ko_attr, en_attr in ATTR_KO_TO_EN.items():
         out = out.replace(ko_attr, en_attr)
 
-    # 3. 태그 내부 정적 텍스트 치환 (긴 문자열 우선 정렬)
+    # 3. 태그 내부 정적 텍스트(>텍스트<) 및 meta content="텍스트" 치환 (긴 문자열 우선 정렬)
     for ko_txt in sorted(TEXT_KO_TO_EN.keys(), key=len, reverse=True):
         en_txt = TEXT_KO_TO_EN[ko_txt]
-        pattern = re.compile(r"(>\s*)" + re.escape(ko_txt) + r"(\s*<)")
-        out = pattern.sub(rf"\g<1>{en_txt}\g<2>", out)
+        # 3-1) 태그 텍스트 치환
+        pattern_tag = re.compile(r"(>\s*)" + re.escape(ko_txt) + r"(\s*<)")
+        out = pattern_tag.sub(rf"\g<1>{en_txt}\g<2>", out)
+        # 3-2) meta content 속성 치환 (og:title, meta title 등)
+        pattern_attr = re.compile(r'(content=["\']\s*)' + re.escape(ko_txt) + r'(\s*["\'])')
+        out = pattern_attr.sub(rf"\g<1>{en_txt}\g<2>", out)
 
     # 4. 정규식 기반 멀티라인/날짜 치환
     for rx, repl in REGEX_PATTERNS:
         out = rx.sub(repl, out)
+
+    # 5. <html lang="en"> 강제 보장 (크롬 자동번역 오작동 팝업 원천 방지)
+    out = re.sub(r'(<html\b[^>]*?)\blang=["\']ko["\']', r'\1lang="en"', out, count=1, flags=re.IGNORECASE)
 
     return out

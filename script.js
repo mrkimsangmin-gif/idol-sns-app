@@ -3485,3 +3485,97 @@ function showVendorUpdateTime(isoString) {
     el.textContent = '마지막 업데이트: ' + formatted;
 }
 
+
+
+// ==============================================================================
+// Hybrid Smart Language Preference & Suggestion Engine (Google SEO & BigTech Standard)
+// - Googlebot/Search Crawlers: 100% bypass (Zero redirection, perfect indexing)
+// - Explicit User Choice (Opt-in): Stored in localStorage('aim_lang_pref')
+// - First-time Foreign Visitors: Non-intrusive suggestion banner (Apple/Amazon UX)
+// ==============================================================================
+(function initSmartLanguageRouting() {
+    try {
+        var isEnPage = window.location.pathname === '/en' || window.location.pathname.indexOf('/en/') === 0;
+        var currentPath = window.location.pathname;
+        var counterpartPath = isEnPage
+            ? (currentPath.replace(/^\/en(\/|$)/, '/') || '/')
+            : ('/en' + (currentPath === '/' ? '/' : currentPath));
+
+        // 1. Language Toggle & Banner Clicks: Save explicit preference
+        function bindLangEvents() {
+            var enLinks = document.querySelectorAll('a[href*="/en/"], a[data-set-lang="en"]');
+            var koLinks = document.querySelectorAll('a[data-set-lang="ko"], a[href="/"], a.lang-ko-toggle');
+            
+            enLinks.forEach(function (el) {
+                el.addEventListener('click', function () {
+                    try { localStorage.setItem('aim_lang_pref', 'en'); } catch (e) {}
+                });
+            });
+            koLinks.forEach(function (el) {
+                el.addEventListener('click', function () {
+                    try { localStorage.setItem('aim_lang_pref', 'ko'); } catch (e) {}
+                });
+            });
+        }
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', bindLangEvents);
+        } else {
+            bindLangEvents();
+        }
+
+        // 2. Crawler Detection: If search bot or Lighthouse, stop immediately (NEVER redirect bots)
+        var ua = (navigator.userAgent || '').toLowerCase();
+        if (/bot|crawl|spider|slurp|yeti|daum|headless|lighthouse|phantom|selenium|puppeteer/i.test(ua)) {
+            return;
+        }
+
+        var savedPref = null;
+        try { savedPref = localStorage.getItem('aim_lang_pref'); } catch (e) {}
+
+        // 3. Explicit Preference Routing (Only on direct root '/' entry when user explicitly previously chose EN)
+        if (!isEnPage && currentPath === '/' && savedPref === 'en') {
+            // User explicitly chose English before; smoothly direct to /en/
+            window.location.replace('/en/' + window.location.search);
+            return;
+        }
+
+        // 4. Non-intrusive Suggestion Banner for First-time English Browser Visitors
+        var dismissed = null;
+        try { dismissed = sessionStorage.getItem('aim_lang_banner_dismissed'); } catch (e) {}
+        var browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+
+        if (!isEnPage && !savedPref && !dismissed && browserLang && browserLang.indexOf('ko') !== 0) {
+            function showBanner() {
+                var banner = document.getElementById('lang-suggest-banner');
+                var bannerLink = document.getElementById('lang-suggest-link');
+                var closeBtn = document.getElementById('lang-suggest-close');
+                
+                if (banner) {
+                    if (bannerLink) {
+                        bannerLink.setAttribute('href', counterpartPath + window.location.search);
+                        bannerLink.addEventListener('click', function () {
+                            try { localStorage.setItem('aim_lang_pref', 'en'); } catch (e) {}
+                        });
+                    }
+                    banner.style.display = 'block';
+                    
+                    if (closeBtn) {
+                        closeBtn.addEventListener('click', function () {
+                            banner.style.display = 'none';
+                            try { sessionStorage.setItem('aim_lang_banner_dismissed', '1'); } catch (e) {}
+                        });
+                    }
+                }
+            }
+
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', showBanner);
+            } else {
+                showBanner();
+            }
+        }
+    } catch (err) {
+        console.warn('Smart language routing init warning:', err);
+    }
+})();
