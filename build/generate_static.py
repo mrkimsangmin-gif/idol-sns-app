@@ -5,6 +5,7 @@
 - 한국어 기본 경로: /namu/<slug>/index.html
 - 영문 글로벌 경로: /en/namu/<slug>/index.html
 - hreflang 상호 연결 (ko, en, x-default)
+- 디스코그래피 수록곡/대표곡(Tracks) 테이블 노출 및 Schema.org MusicRecording 스키마 주입
 - 상단 헤더 언어 전환 토글 [🌐 English] / [🌐 한국어] 주입
 """
 import json
@@ -16,6 +17,7 @@ import sys
 ROOT_BUILD = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT_BUILD))
 from seo_enricher import generate_seo_enrichment, generate_seo_enrichment_en
+from track_helper import extract_tracks
 
 # 리포 루트 = 이 파일(build/)의 부모
 ROOT = Path(__file__).resolve().parent.parent
@@ -76,16 +78,21 @@ def build_jsonld(g, slug, member_names, enrichment=None):
         {"@type": "Person", "name": m.get("name", ""), "birthDate": m.get("생년월일", "")}
         for m in g.get("members", [])
     ]
-    albums = [
-        {
+    
+    albums_schema = []
+    for a in g.get("albums", [])[:8]:
+        alb_node = {
             "@type": "MusicAlbum",
             "name": a.get("title", ""),
             "datePublished": a.get("발매일", ""),
             "albumProductionType": a.get("type", ""),
         }
-        for a in g.get("albums", [])
-        if a.get("초동_한터") not in (None, "", "-")
-    ][:5]
+        tracks = extract_tracks(a)
+        if tracks:
+            alb_node["track"] = [
+                {"@type": "MusicRecording", "name": t} for t in tracks[:6]
+            ]
+        albums_schema.append(alb_node)
 
     music_group = {
         "@context": "https://schema.org",
@@ -102,8 +109,8 @@ def build_jsonld(g, slug, member_names, enrichment=None):
         music_group["parentOrganization"] = {"@type": "Organization", "name": info["소속사"]}
     if info.get("팬덤명"):
         music_group["funder"] = info["팬덤명"]
-    if albums:
-        music_group["album"] = albums
+    if albums_schema:
+        music_group["album"] = albums_schema
 
     breadcrumb = {
         "@context": "https://schema.org",
@@ -235,16 +242,23 @@ def build_detail_html(g, qas, updated="", enrichment=None):
     if albums:
         parts.append(f'<section class="mb-4"><h2 class="fs-5 fw-bold">디스코그래피 ({len(albums)}장)</h2>')
         parts.append('<table class="table table-sm"><thead><tr>'
-                     '<th>앨범</th><th>유형</th><th>발매일</th><th>초동(써클)</th><th>누적(써클)</th>'
+                     '<th>앨범</th><th>유형</th><th>발매일</th><th>초동(써클)</th><th>누적(써클)</th><th>주요 곡 / 수록곡</th>'
                      '</tr></thead><tbody>')
         for a in albums:
+            tracks = extract_tracks(a)
+            tracks_html = ""
+            if tracks:
+                tracks_badges = " · ".join(f"<span class='text-primary fw-medium'>{esc(t)}</span>" for t in tracks)
+                tracks_html = f"<div class='small text-muted'>🎵 {tracks_badges}</div>"
+            
             parts.append(
                 "<tr>"
-                f"<td>{esc(a.get('title',''))}</td>"
+                f"<td><strong>{esc(a.get('title',''))}</strong></td>"
                 f"<td>{esc(a.get('type',''))}</td>"
                 f"<td>{esc(a.get('발매일',''))}</td>"
                 f"<td>{esc(a.get('초동_써클',''))}</td>"
                 f"<td>{esc(a.get('누적_써클',''))}</td>"
+                f"<td>{tracks_html}</td>"
                 "</tr>"
             )
         parts.append("</tbody></table></section>")
@@ -352,16 +366,21 @@ def build_jsonld_en(g, slug, member_names, enrichment_en=None):
         {"@type": "Person", "name": m.get("name", ""), "birthDate": m.get("생년월일", "")}
         for m in g.get("members", [])
     ]
-    albums = [
-        {
+    
+    albums_schema = []
+    for a in g.get("albums", [])[:8]:
+        alb_node = {
             "@type": "MusicAlbum",
             "name": a.get("title", ""),
             "datePublished": a.get("발매일", ""),
             "albumProductionType": a.get("type", ""),
         }
-        for a in g.get("albums", [])
-        if a.get("초동_한터") not in (None, "", "-")
-    ][:5]
+        tracks = extract_tracks(a)
+        if tracks:
+            alb_node["track"] = [
+                {"@type": "MusicRecording", "name": t} for t in tracks[:6]
+            ]
+        albums_schema.append(alb_node)
 
     music_group = {
         "@context": "https://schema.org",
@@ -378,8 +397,8 @@ def build_jsonld_en(g, slug, member_names, enrichment_en=None):
         music_group["parentOrganization"] = {"@type": "Organization", "name": info["소속사"]}
     if info.get("팬덤명"):
         music_group["funder"] = info["팬덤명"]
-    if albums:
-        music_group["album"] = albums
+    if albums_schema:
+        music_group["album"] = albums_schema
 
     breadcrumb = {
         "@context": "https://schema.org",
@@ -487,16 +506,23 @@ def build_detail_html_en(g, qas, updated="", enrichment_en=None):
     if albums:
         parts.append(f'<section class="mb-4"><h2 class="fs-5 fw-bold">Discography ({len(albums)} Releases)</h2>')
         parts.append('<table class="table table-sm"><thead><tr>'
-                     '<th>Album Title</th><th>Type</th><th>Release Date</th><th>1st Week Sales</th><th>Total Sales</th>'
+                     '<th>Album Title</th><th>Type</th><th>Release Date</th><th>1st Week Sales</th><th>Total Sales</th><th>Key Tracks & B-Sides</th>'
                      '</tr></thead><tbody>')
         for a in albums:
+            tracks = extract_tracks(a)
+            tracks_html = ""
+            if tracks:
+                tracks_badges = " · ".join(f"<span class='text-primary fw-medium'>{esc(t)}</span>" for t in tracks)
+                tracks_html = f"<div class='small text-muted'>🎵 {tracks_badges}</div>"
+
             parts.append(
                 "<tr>"
-                f"<td>{esc(a.get('title',''))}</td>"
+                f"<td><strong>{esc(a.get('title',''))}</strong></td>"
                 f"<td>{esc(a.get('type',''))}</td>"
                 f"<td>{esc(a.get('발매일',''))}</td>"
                 f"<td>{esc(a.get('초동_써클',''))}</td>"
                 f"<td>{esc(a.get('누적_써클',''))}</td>"
+                f"<td>{tracks_html}</td>"
                 "</tr>"
             )
         parts.append("</tbody></table></section>")
@@ -775,6 +801,8 @@ def build_group_page_en(slug):
                      '<h2 class="mb-3 fw-bold fs-5">K-POP Idol Database & Search</h2>', "namu h2 en")
     t = replace_once(t, 'placeholder="그룹/멤버 검색 또는 질문"',
                      'placeholder="Search group, member, or question..."', "namu placeholder en")
+    t = replace_once(t, '<div id="namuGroupDetail" style="display: none;">',
+                     '<div id="namuGroupDetail" style="display: block;">', "namuGroupDetail show en")
     t = replace_once(t, '<button class="btn btn-outline-secondary btn-sm mb-3" onclick="backToNamuList()">← 목록으로</button>',
                      '<button class="btn btn-outline-secondary btn-sm mb-3" onclick="backToNamuList()">← Back to List</button>', "namu back en")
     t = replace_once(t, '>프로필</button>', '>Profile</button>', "tab profile en")
@@ -782,8 +810,6 @@ def build_group_page_en(slug):
     t = replace_once(t, '>디스코그래피</button>', '>Discography</button>', "tab disco en")
     t = replace_once(t, '>판매량 차트</button>', '>Sales Chart</button>', "tab chart en")
     t = replace_once(t, '>스트리밍</button>', '>Streaming</button>', "tab streaming en")
-    t = replace_once(t, '<div id="namuGroupDetail" style="display: none;">',
-                     '<div id="namuGroupDetail" style="display: block;">', "namuGroupDetail show en")
     t = replace_once(t, '<div id="namuGroupHeader" class="mb-3"></div>',
                      f'<div id="namuGroupHeader" class="mb-3">{build_header_html(g, lang="en")}</div>', "header en")
     updated = data_updated()
