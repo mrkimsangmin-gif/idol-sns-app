@@ -1,3 +1,4 @@
+from generate_en_jobs import generate_en_jobs
 # -*- coding: utf-8 -*-
 """
 /jobs/ 정적 채용 페이지 (Phase 3) — JobPosting 구조화 데이터 + baked 목록.
@@ -175,6 +176,7 @@ def main():
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(t, encoding="utf-8")
     print(f"jobs 생성: {out.relative_to(ROOT)} ({len(t):,} bytes, {len(jobs)}건)")
+    generate_en_jobs()
 
 
 if __name__ == "__main__":
