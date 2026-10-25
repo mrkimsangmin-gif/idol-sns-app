@@ -11,81 +11,58 @@ var calGenderFilter = 'all'; // all, male, female
 var calSearchQuery = '';
 var calendarGenderMap = null; // slug or clean name -> '남자' | '여자'
 
+var artistEnMap = null;
+
 async function ensureGenderMap() {
-    if (calendarGenderMap) return;
-    calendarGenderMap = {};
+    if (calendarGenderMap && artistEnMap) return;
+    calendarGenderMap = calendarGenderMap || {};
+    artistEnMap = artistEnMap || {};
     try {
-        const resp = await fetch('/data/namu-index.json?v=' + Date.now());
-        const data = await resp.json();
+        const [respNamu, respEn] = await Promise.all([
+            fetch('/data/namu-index.json?v=' + Date.now()),
+            fetch('/data/idol-names-en.json?v=' + Date.now()).catch(() => null)
+        ]);
+        const data = await respNamu.json();
         (data.groups || []).forEach(g => {
             const gen = g.gender || '';
-            if (g.slug) calendarGenderMap[g.slug.toLowerCase()] = gen;
-            if (g.name) calendarGenderMap[g.name.toLowerCase().replace(/\s/g, '')] = gen;
-            if (g.name_en) calendarGenderMap[g.name_en.toLowerCase().replace(/\s/g, '')] = gen;
+            if (g.slug) {
+                calendarGenderMap[g.slug.toLowerCase()] = gen;
+                if (g.name_en) artistEnMap[g.slug.toLowerCase()] = g.name_en;
+            }
+            if (g.name) {
+                calendarGenderMap[g.name.toLowerCase().replace(/\s/g, '')] = gen;
+                if (g.name_en) {
+                    artistEnMap[g.name] = g.name_en;
+                    artistEnMap[g.name.toLowerCase().replace(/\s/g, '')] = g.name_en;
+                }
+            }
+            if (g.name_en) {
+                calendarGenderMap[g.name_en.toLowerCase().replace(/\s/g, '')] = gen;
+            }
         });
+        if (respEn && respEn.ok) {
+            const extraEn = await respEn.json();
+            Object.assign(artistEnMap, extraEn);
+        }
     } catch (e) {
-        console.warn('Failed to load namu-index.json for gender map', e);
+        console.warn('남녀 성별/영문명 맵 로드 실패:', e);
     }
 }
 
-// 나무위키 인덱스에 아직 등록되지 않았거나 매칭되지 않은 그룹 보완 매핑 (전수조사 완료)
-const fallbackGenderMap = {
-    // 보이그룹
-    'verivery': '남자',
-    '베리베리': '남자',
-    'big-ocean': '남자',
-    '빅오션': '남자',
-    'w3way': '남자',
-    '위웨이': '남자',
-    'b1a4': '남자',
-    '비원에이포': '남자',
-    'exo': '남자',
-    '엑소': '남자',
-    'nct wish': '남자',
-    'nctwish': '남자',
-    '엔시티위시': '남자',
-    'genus': '남자',
-    '제너스': '남자',
-    'tnx': '남자',
-    '티엔엑스': '남자',
-    '미완소년': '남자',
-    'v01d': '남자',
-    '보이드': '남자',
-    'b:dawn': '남자',
-    'bdawn': '남자',
-    '비던': '남자',
-    'btob': '남자',
-    '비투비': '남자',
-    'bigbang': '남자',
-    '빅뱅': '남자',
-    '씨엔블루': '남자',
-    'cnblue': '남자',
-    'onewe': '남자',
-    '원위': '남자',
-    'splayit': '남자',
-    '에스플릿': '남자',
-
-    // 걸그룹 / 여성 솔로
-    'x-in': '여자',
-    '엑신': '여자',
-    'hype princess': '여자',
-    '하입프린세스': '여자',
-    'xg': '여자',
-    '엑스지': '여자',
-    'girlset': '여자',
-    '걸셋': '여자',
-    'i.o.i': '여자',
-    '아이오아이': '여자',
-    '에이핑크': '여자',
-    'apink': '여자',
-    '제니': '여자',
-    'jennie': '여자',
-    'katseye': '여자',
-    '캣츠아이': '여자',
-    'queenz eye': '여자',
-    '퀸즈아이': '여자'
-};
-
+function getDisplayArtistName(title, slug) {
+    if (!isCalEn) return title;
+    if (slug && artistEnMap && artistEnMap[slug.toLowerCase()]) {
+        return artistEnMap[slug.toLowerCase()];
+    }
+    const clean = title.toLowerCase().replace(/\s/g, '');
+    if (artistEnMap && artistEnMap[clean]) {
+        return artistEnMap[clean];
+    }
+    if (artistEnMap && artistEnMap[title]) {
+        return artistEnMap[title];
+    }
+    return title;
+}
 function getEventGender(ev) {
     const slug = (ev.slug || '').toLowerCase();
     if (fallbackGenderMap[slug]) return fallbackGenderMap[slug];
@@ -254,7 +231,8 @@ function renderCustomCalendar() {
                 badgeClass += ' cal-badge-is-debut';
             }
 
-            const cleanTitle = ev.title.replace(/\(Comeback\)|\(Debut\)/gi, '').trim();
+            const rawTitle = ev.title.replace(/\(Comeback\)|\(Debut\)/gi, '').trim();
+            const cleanTitle = getDisplayArtistName(rawTitle, ev.slug);
             const debutTag = isDebut ? `<span class="cal-debut-tag">${isCalEn ? 'Debut' : '데뷔'}</span>` : '';
             
             gridHtml += `<div class="cal-event-badge ${badgeClass}" onclick="openCalEventModal('${ev.id}')" title="${cleanTitle}${isDebut ? (isCalEn ? ' (Debut)' : ' (데뷔)') : ''}">`;
@@ -287,7 +265,8 @@ function renderCustomCalendar() {
                 genderBadge = `<span class="badge bg-primary-subtle text-primary border border-primary-subtle me-1">${isCalEn ? '👦 Boy Group' : '👦 보이그룹'}</span>`;
             }
             const typeBadge = isDebut ? `<span class="badge bg-warning text-dark me-1">${isCalEn ? 'Debut' : '데뷔'}</span>` : `<span class="badge bg-secondary me-1">${isCalEn ? 'Comeback' : '컴백'}</span>`;
-            const cleanTitle = ev.title.replace(/\(Comeback\)|\(Debut\)/gi, '').trim();
+            const rawTitle = ev.title.replace(/\(Comeback\)|\(Debut\)/gi, '').trim();
+            const cleanTitle = getDisplayArtistName(rawTitle, ev.slug);
             const d = ev.date.split('-').slice(1).join('/');
             
             summaryHtml += `<div class="col-12 col-md-6 col-lg-4">`;
@@ -314,7 +293,8 @@ function openCalEventModal(eventId) {
     const modalFooter = document.getElementById('calModalFooter');
     if (!modalTitle || !modalBody) return;
 
-    const cleanTitle = ev.title.replace(/\(Comeback\)|\(Debut\)/gi, '').trim();
+    const rawTitle = ev.title.replace(/\(Comeback\)|\(Debut\)/gi, '').trim();
+    const cleanTitle = getDisplayArtistName(rawTitle, ev.slug);
     const isDebut = ev.title.includes('데뷔') || ev.title.includes('Debut');
 
     modalTitle.innerHTML = `<span class="badge ${isDebut ? 'bg-warning text-dark' : 'bg-primary'} me-2">${isDebut ? (isCalEn ? 'Debut' : '데뷔') : (isCalEn ? 'Comeback' : '컴백')}</span> ${cleanTitle}`;
