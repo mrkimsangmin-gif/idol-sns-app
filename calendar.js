@@ -1,3 +1,4 @@
+const isCalEn = window.location.pathname.startsWith('/en/') || document.documentElement.lang === 'en';
 // ============================================================
 // 📅 자체 K-POP 컴백/데뷔 캘린더 모듈 (calendar.js)
 // ============================================================
@@ -172,7 +173,14 @@ function renderCustomCalendar() {
 
     const monthStr = `${currentCalYear}-${String(currentCalMonth).padStart(2, '0')}`;
     const monthLabel = document.getElementById('calCurrentMonthLabel');
-    if (monthLabel) monthLabel.innerText = `${currentCalYear}년 ${currentCalMonth}월`;
+    if (monthLabel) {
+        if (isCalEn) {
+            const enMonths = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+            monthLabel.innerText = `${enMonths[currentCalMonth]} ${currentCalYear}`;
+        } else {
+            monthLabel.innerText = `${currentCalYear}년 ${currentCalMonth}월`;
+        }
+    }
 
     // 이번 달 필터링된 이벤트
     const filtered = calendarEvents.filter(ev => {
@@ -199,7 +207,7 @@ function renderCustomCalendar() {
     const daysInMonth = new Date(currentCalYear, currentCalMonth, 0).getDate();
 
     let gridHtml = '';
-    const weekdays = ['일', '월', '화', '수', '목', '금', '토'];
+    const weekdays = isCalEn ? ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] : ['일', '월', '화', '수', '목', '금', '토'];
 
     gridHtml += '<div class="cal-scroll-wrapper">';
     gridHtml += '<div class="cal-scroll-inner">';
@@ -247,9 +255,9 @@ function renderCustomCalendar() {
             }
 
             const cleanTitle = ev.title.replace(/\(Comeback\)|\(Debut\)/gi, '').trim();
-            const debutTag = isDebut ? '<span class="cal-debut-tag">데뷔</span>' : '';
+            const debutTag = isDebut ? `<span class="cal-debut-tag">${isCalEn ? 'Debut' : '데뷔'}</span>` : '';
             
-            gridHtml += `<div class="cal-event-badge ${badgeClass}" onclick="openCalEventModal('${ev.id}')" title="${cleanTitle}${isDebut ? ' (데뷔)' : ''}">`;
+            gridHtml += `<div class="cal-event-badge ${badgeClass}" onclick="openCalEventModal('${ev.id}')" title="${cleanTitle}${isDebut ? (isCalEn ? ' (Debut)' : ' (데뷔)') : ''}">`;
             gridHtml += `<span class="cal-event-dot"></span>`;
             gridHtml += `<span class="cal-event-text">${cleanTitle}</span>${debutTag}`;
             gridHtml += `</div>`;
@@ -263,9 +271,10 @@ function renderCustomCalendar() {
     gridHtml += '</div>'; // cal-scroll-wrapper
 
     // 하단 라인업 피드
-    let summaryHtml = '<div class="mt-4"><h3 class="fs-6 fw-bold mb-3">이번 달 컴백/데뷔 라인업 (' + filtered.length + '팀)</h3>';
+    let summaryHeadTitle = isCalEn ? `Lineup for This Month (${filtered.length} Groups)` : `이번 달 컴백/데뷔 라인업 (${filtered.length}팀)`;
+    let summaryHtml = `<div class="mt-4"><h3 class="fs-6 fw-bold mb-3">${summaryHeadTitle}</h3>`;
     if (filtered.length === 0) {
-        summaryHtml += '<div class="text-center py-4 text-muted">해당 조건의 컴백/데뷔 일정이 없습니다.</div>';
+        summaryHtml += `<div class="text-center py-4 text-muted">${isCalEn ? 'No comeback or debut schedule found.' : '해당 조건의 컴백/데뷔 일정이 없습니다.'}</div>`;
     } else {
         summaryHtml += '<div class="row g-2">';
         filtered.forEach(ev => {
@@ -273,11 +282,11 @@ function renderCustomCalendar() {
             const gen = getEventGender(ev);
             let genderBadge = '';
             if (gen === '여자') {
-                genderBadge = '<span class="badge bg-danger-subtle text-danger border border-danger-subtle me-1">👧 걸그룹</span>';
+                genderBadge = `<span class="badge bg-danger-subtle text-danger border border-danger-subtle me-1">${isCalEn ? '👧 Girl Group' : '👧 걸그룹'}</span>`;
             } else if (gen === '남자') {
-                genderBadge = '<span class="badge bg-primary-subtle text-primary border border-primary-subtle me-1">👦 보이그룹</span>';
+                genderBadge = `<span class="badge bg-primary-subtle text-primary border border-primary-subtle me-1">${isCalEn ? '👦 Boy Group' : '👦 보이그룹'}</span>`;
             }
-            const typeBadge = isDebut ? '<span class="badge bg-warning text-dark me-1">데뷔</span>' : '<span class="badge bg-secondary me-1">컴백</span>';
+            const typeBadge = isDebut ? `<span class="badge bg-warning text-dark me-1">${isCalEn ? 'Debut' : '데뷔'}</span>` : `<span class="badge bg-secondary me-1">${isCalEn ? 'Comeback' : '컴백'}</span>`;
             const cleanTitle = ev.title.replace(/\(Comeback\)|\(Debut\)/gi, '').trim();
             const d = ev.date.split('-').slice(1).join('/');
             
@@ -308,20 +317,20 @@ function openCalEventModal(eventId) {
     const cleanTitle = ev.title.replace(/\(Comeback\)|\(Debut\)/gi, '').trim();
     const isDebut = ev.title.includes('데뷔') || ev.title.includes('Debut');
 
-    modalTitle.innerHTML = `<span class="badge ${isDebut ? 'bg-warning text-dark' : 'bg-primary'} me-2">${isDebut ? '데뷔' : '컴백'}</span> ${cleanTitle}`;
+    modalTitle.innerHTML = `<span class="badge ${isDebut ? 'bg-warning text-dark' : 'bg-primary'} me-2">${isDebut ? (isCalEn ? 'Debut' : '데뷔') : (isCalEn ? 'Comeback' : '컴백')}</span> ${cleanTitle}`;
     
-    let body = `<div class="mb-3"><span class="text-muted">예정 일시:</span> <strong class="text-dark">${ev.date}</strong></div>`;
+    let body = `<div class="mb-3"><span class="text-muted">${isCalEn ? 'Scheduled Date:' : '예정 일시:'}</span> <strong class="text-dark">${ev.date}</strong></div>`;
     
     if (ev.description) {
         body += `<div class="p-3 bg-light rounded mb-3 small text-secondary">${ev.description}</div>`;
     }
 
     if (ev.url) {
-        body += `<div class="mb-3"><a href="${ev.url}" target="_blank" class="btn btn-sm btn-outline-secondary"><i class="bi bi-newspaper me-1"></i>보도자료 원문 기사 보기 <i class="bi bi-box-arrow-up-right ms-1"></i></a></div>`;
+        body += `<div class="mb-3"><a href="${ev.url}" target="_blank" class="btn btn-sm btn-outline-secondary"><i class="bi bi-newspaper me-1"></i>${isCalEn ? 'View Press Release' : '보도자료 원문 기사 보기'} <i class="bi bi-box-arrow-up-right ms-1"></i></a></div>`;
     }
 
     if (ev.slug) {
-        body += `<a href="/namu/${ev.slug}/" class="text-decoration-none d-block p-3 border rounded border-primary bg-primary bg-opacity-10 cal-profile-link-card transition-all" onclick="closeCalModalBeforeNav()">`;
+        body += `<a href="${isCalEn ? '/en/namu/' : '/namu/'}${ev.slug}/" class="text-decoration-none d-block p-3 border rounded border-primary bg-primary bg-opacity-10 cal-profile-link-card transition-all" onclick="closeCalModalBeforeNav()">`;
         body += `  <div class="d-flex justify-content-between align-items-center">`;
         body += `    <div><div class="fw-bold text-primary">${cleanTitle} 상세 프로필</div><small class="text-muted">멤버 정보, 앨범 디스코그래피, 스트리밍</small></div>`;
         body += `    <span class="btn btn-sm btn-primary"><i class="bi bi-person-badge me-1"></i>팀 정보</span>`;

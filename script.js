@@ -851,7 +851,7 @@ function formatYearMonth(ym) {
 // ============================================================
 // 🌐 SPA 라우팅 메타데이터
 // ============================================================
-const PAGE_META = {
+const PAGE_META_KO = {
     home:    { path: '/ranking', title: '아이돌 SNS 팔로워 순위 - 틱톡·유튜브·인스타·웨이보·도우인 | 아이엠콘텐츠' },
     comeback:{ path: '/comeback', title: 'K-POP 컴백 일정 2026 - 아이돌 컴백·데뷔 스케줄 | 아이엠콘텐츠' },
     news:    { path: '/news',    title: '엔터테인먼트 뉴스 - K-POP·드라마·엔터 업계 소식 | 아이엠콘텐츠' },
@@ -862,6 +862,20 @@ const PAGE_META = {
     namu:    { path: '/namu',   title: 'K-POP 아이돌 나무위키 데이터베이스 - 188개 그룹 총정리 | 아이엠콘텐츠' },
     team:    { path: '/team',    title: 'Team | 아이엠콘텐츠' }
 };
+
+const PAGE_META_EN = {
+    home:    { path: '/en/ranking', title: 'K-POP Idol SNS & Global Follower Rankings | AIMCONTENTS' },
+    comeback:{ path: '/en/comeback', title: 'K-POP Comeback Schedule 2026 — Idol Debuts & Releases | AIMCONTENTS' },
+    news:    { path: '/en/news',    title: 'K-POP & Entertainment News | AIMCONTENTS' },
+    links:   { path: '/en/links',   title: 'K-POP Essential Links | AIMCONTENTS' },
+    jobs:    { path: '/en/jobs',    title: 'Entertainment Industry Jobs | AIMCONTENTS' },
+    vendors: { path: '/en/vendors', title: 'K-POP Production & Agency Vendors | AIMCONTENTS' },
+    douyin:  { path: '/en/douyin',  title: 'China Douyin K-POP Viral Trends | AIMCONTENTS' },
+    namu:    { path: '/en/namu',   title: 'K-POP Idol Wiki & Discography Database | AIMCONTENTS' },
+    team:    { path: '/en/team',    title: 'Team | AIMCONTENTS' }
+};
+
+const PAGE_META = isEnglishPage ? PAGE_META_EN : PAGE_META_KO;
 
 // SNS 영문 슬러그 ↔ 한글명 매핑 (URL 라우팅용)
 const SNS_SLUG_MAP = {
