@@ -298,6 +298,16 @@
 
 <body class="bg-light">
 
+    
+    <!-- Non-intrusive Language Suggestion Banner (Apple/Amazon Standard) -->
+    <div id="lang-suggest-banner" style="display:none; background:#1e293b; color:#f8fafc; padding:10px 16px; font-size:13.5px; text-align:center; border-bottom:1px solid #334155; position:sticky; top:0; z-index:1050; box-shadow:0 2px 4px rgba(0,0,0,0.1);">
+      <div class="container d-flex align-items-center justify-content-center gap-2 flex-wrap">
+        <span>🌐 Prefer English? View K-POP Idol Analytics in English.</span>
+        <a id="lang-suggest-link" href="/en/" data-set-lang="en" style="color:#60a5fa; font-weight:600; text-decoration:underline; margin-left:6px;">Switch to English →</a>
+        <button id="lang-suggest-close" type="button" aria-label="Dismiss language suggestion" style="background:none; border:none; color:#94a3b8; font-size:16px; cursor:pointer; margin-left:12px; line-height:1;">✕</button>
+      </div>
+    </div>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
         <div class="container">
             <a class="navbar-brand" href="/" onclick="event.preventDefault(); route('home')" style="cursor: pointer;">
