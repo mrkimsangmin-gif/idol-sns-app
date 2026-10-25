@@ -394,6 +394,10 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="/ranking" onclick="event.preventDefault(); route('home')">SNS랭킹</a>
                     </li>
+                    <!-- 구글 트렌드 지수: 독립 정적 페이지 (SPA 외부) -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/trends/">구글트렌드<span class="nav-new-badge" data-expire="2026-11-30">NEW</span></a>
+                    </li>
                     <!-- 월간차트: 독립 정적 페이지 (SPA 외부, route() 미사용) -->
                     <li class="nav-item">
                         <a class="nav-link" href="/monthly/2026-09/boys/">월간차트<span class="nav-new-badge" data-expire="2026-10-31">NEW</span></a>
@@ -1133,6 +1137,10 @@
                 <div class="mobile-nav-icon"><i class="bi bi-newspaper"></i></div>
                 <span class="mobile-nav-label">엔터뉴스</span>
             </a>
+            <a href="/trends/" class="mobile-nav-item" data-page="trends">
+                <div class="mobile-nav-icon"><i class="bi bi-graph-up-arrow"></i></div>
+                <span class="mobile-nav-label">트렌드</span>
+            </a>
             <a href="/jobs" class="mobile-nav-item" data-page="jobs" onclick="event.preventDefault(); route('jobs');">
                 <div class="mobile-nav-icon"><i class="bi bi-briefcase-fill"></i></div>
                 <span class="mobile-nav-label">채용정보</span>
@@ -1168,7 +1176,7 @@
         });
         */
     </script>
-    <script src="/script.js?v=1792935481"></script>
+    <script src="/script.js?v=1792936540"></script>
     <script src="/calendar.js?v=1792929782"></script>
     <script src="/namu.js?v=20261024yt"></script>
     <!-- Gemini API 키는 GAS 서버사이드(Script Properties)에서 관리 -->
