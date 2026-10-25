@@ -42,6 +42,20 @@ JOB_CATEGORY_EN_MAP = {
     '기타': 'Others'
 }
 
+# Load i18n dictionary if exists
+JOBS_I18N_FILE = ROOT / "data" / "jobs-i18n-en.json"
+JOBS_I18N = {}
+if JOBS_I18N_FILE.exists():
+    try:
+        JOBS_I18N = json.loads(JOBS_I18N_FILE.read_text(encoding="utf-8"))
+    except Exception as e:
+        print("Warning: failed to load jobs-i18n-en.json:", e)
+
+COMPANY_EN_MAP = JOBS_I18N.get("companies", {})
+LOCATION_EN_MAP = JOBS_I18N.get("locations", {})
+CAREER_EN_MAP = JOBS_I18N.get("careers", {})
+POSITION_EN_MAP = JOBS_I18N.get("positions", {})
+
 def esc(s):
     return html.escape(str(s if s is not None else ""), quote=True)
 
@@ -50,18 +64,13 @@ def replace_once(text, old, new, label):
         raise RuntimeError(f"[앵커 불일치] '{label}' = {text.count(old)} (1이어야 함)")
     return text.replace(old, new)
 
-def strip_once(text, pattern, label):
-    new, n = re.subn(pattern, "", text, flags=re.DOTALL)
-    if n != 1:
-        raise RuntimeError(f"[strip 불일치] '{label}' = {n} (1이어야 함)")
-    return new
-
 def build_jobposting_en(job):
     category_en = JOB_CATEGORY_EN_MAP.get(job.get("category", ""), job.get("category", "Entertainment"))
-    career_val = job.get("career", "")
-    career_en = "Any Experience" if career_val in ("무관", "경력무관", "") else career_val
-    comp = job.get("company", "")
-    pos = job.get("position", "")
+    raw_career = job.get("career", "")
+    career_en = CAREER_EN_MAP.get(raw_career, "Any Experience" if raw_career in ("무관", "경력무관", "") else raw_career)
+    comp = COMPANY_EN_MAP.get(job.get("company", ""), job.get("company", ""))
+    pos = POSITION_EN_MAP.get(job.get("position", ""), job.get("position", ""))
+    loc = LOCATION_EN_MAP.get(job.get("location", ""), job.get("location", "Seoul, KR"))
 
     jp = {
         "@type": "JobPosting",
@@ -72,12 +81,12 @@ def build_jobposting_en(job):
         "directApply": False,
         "description": f"K-POP & Entertainment Career Opportunity: {comp} is hiring for {pos}"
                        + (f" ({career_en})" if career_en else "")
-                       + f". Location: {job.get('location', 'Seoul, KR')}. Please check official source ({job.get('source', '')}) for requirements.",
+                       + f". Location: {loc}. Please check official source ({job.get('source', '')}) for requirements.",
     }
     if job.get("location"):
         jp["jobLocation"] = {
             "@type": "Place",
-            "address": {"@type": "PostalAddress", "addressLocality": job["location"], "addressCountry": "KR"},
+            "address": {"@type": "PostalAddress", "addressLocality": loc, "addressCountry": "KR"},
         }
     if DATE_RE.match(job.get("deadline", "")):
         jp["validThrough"] = f"{job['deadline']}T23:59:59+09:00"
@@ -86,13 +95,14 @@ def build_jobposting_en(job):
 def build_table_en(jobs):
     rows = []
     for j in jobs:
-        comp = esc(j.get("company", ""))
-        pos = esc(j.get("position", ""))
+        comp = esc(COMPANY_EN_MAP.get(j.get("company", ""), j.get("company", "")))
+        pos = esc(POSITION_EN_MAP.get(j.get("position", ""), j.get("position", "")))
         link = j.get("url", "")
         pos_cell = f'<a href="{esc(link)}" target="_blank" rel="noopener">{pos}</a>' if link else pos
         cat_en = esc(JOB_CATEGORY_EN_MAP.get(j.get("category", ""), j.get("category", "")))
         career_raw = j.get("career", "")
-        career_en = esc("Any" if career_raw in ("무관", "경력무관", "") else career_raw)
+        career_en = esc(CAREER_EN_MAP.get(career_raw, "Any" if career_raw in ("무관", "경력무관", "") else career_raw))
+        loc_en = esc(LOCATION_EN_MAP.get(j.get("location", ""), j.get("location", "")))
         deadline = esc(j.get("deadline", ""))
         if deadline == "상시채용":
             deadline = "Always"
@@ -102,7 +112,7 @@ def build_table_en(jobs):
             f"<td>{comp}</td><td>{pos_cell}</td>"
             f"<td>{cat_en}</td>"
             f"<td>{career_en}</td>"
-            f"<td>{esc(j.get('location',''))}</td>"
+            f"<td>{loc_en}</td>"
             f"<td>{deadline}</td>"
             f"<td>{esc(j.get('source',''))}</td>"
             "</tr>"
@@ -138,138 +148,167 @@ def generate_en_jobs():
     }
     jsonld = "\n".join(
         f'    <script type="application/ld+json" data-static="jobs">\n'
-        f"{json.dumps(b, ensure_ascii=False, indent=2)}\n    </script>"
-        for b in (collection, graph)
+        f"    {json.dumps(d, ensure_ascii=False, indent=2)}\n"
+        f"    </script>"
+        for d in (graph, collection)
     )
 
     t = SHELL.read_text(encoding="utf-8")
-    t = strip_once(t, r'<article id="seo-static-content".*?</article>', "home seo article")
-    t = strip_once(t, r"<noscript>.*?</noscript>", "home noscript")
-    t = strip_once(
+
+    # 1. Title / Meta
+    t = replace_once(
         t,
-        r'<!-- Schema\.org K-POP 아이돌 데이터베이스 \(AI 봇 인용 최적화\) -->\s*'
-        r'<script type="application/ld\+json">.*?</script>',
-        "home ItemList",
-    )
+        "<title>아이돌 SNS 팔로워 순위 - 틱톡·유튜브·인스타·웨이보·도우인 | 아이엠콘텐츠</title>",
+        f"<title>{esc(title)}</title>", "title")
+    t = replace_once(
+        t,
+        ('content="K-POP 아이돌 틱톡(TikTok)·유튜브·인스타그램·웨이보·빌리빌리·도우인 SNS 순위 및 팔로워 랭킹. '
+         '188개 아이돌 그룹의 숏폼 참여율(ER), 컴백 일정, 나무위키 정보를 매주/매월 업데이트합니다.">'),
+        f'content="{esc(desc)}">', "meta description")
 
-    # 1. html lang & meta
-    t = replace_once(t, '<html lang="ko">', '<html lang="en">', "html lang")
-
-    t = re.sub(r'<title>.*?</title>', f'<title>{esc(title)}</title>', t, count=1)
-    t = re.sub(r'<meta name="description"[^>]*>', f'<meta name="description" content="{esc(desc)}">', t, count=1)
-    t = re.sub(r'<link rel="canonical"[^>]*>', f'<link rel="canonical" href="{URL_EN}">', t, count=1)
-
-    hreflang_tags = (
-        f'<link rel="alternate" hreflang="ko" href="{URL_KO}">\n'
+    # 2. Canonical & Hreflang
+    canonical_block = (
+        f'<link rel="canonical" href="{URL_EN}">\n'
+        f'    <link rel="alternate" hreflang="ko" href="{URL_KO}">\n'
         f'    <link rel="alternate" hreflang="en" href="{URL_EN}">\n'
         f'    <link rel="alternate" hreflang="x-default" href="{URL_KO}">'
     )
-    t = replace_once(t, "</head>", f"{hreflang_tags}\n{jsonld}\n</head>", "head close")
-
-    # OG / Twitter
-    t = re.sub(r'<meta property="og:title"[^>]*>', f'<meta property="og:title" content="{esc(title)}">', t, count=1)
-    t = re.sub(r'<meta property="og:description"[^>]*>', f'<meta property="og:description" content="{esc(desc)}">', t, count=1)
-    t = re.sub(r'<meta property="og:url"[^>]*>', f'<meta property="og:url" content="{URL_EN}">', t, count=1)
-    t = re.sub(r'<meta name="twitter:title"[^>]*>', f'<meta name="twitter:title" content="{esc(title)}">', t, count=1)
-    t = re.sub(r'<meta name="twitter:description"[^>]*>', f'<meta name="twitter:description" content="{esc(desc)}">', t, count=1)
-    t = re.sub(r'<meta name="twitter:url"[^>]*>', f'<meta name="twitter:url" content="{URL_EN}">', t, count=1)
-
-    # 2. Nav links
-    t = replace_once(t, 'route(\'home\')">SNS랭킹</a>', 'route(\'home\')">SNS Ranking</a>', "nav ranking en")
-    t = replace_once(t, '/monthly/2026-09/boys/">월간차트<', '/monthly/2026-09/boys/">Monthly Chart<', "nav monthly en")
-    t = replace_once(t, 'route(\'namu\')">나무위키<', 'route(\'namu\')">Profiles<', "nav namu en")
-    t = replace_once(t, 'route(\'comeback\')">컴백일정</a>', 'route(\'comeback\')">Comebacks</a>', "nav comeback en")
-    t = replace_once(t, 'route(\'news\')">엔터뉴스</a>', 'route(\'news\')">News</a>', "nav news en")
-    t = replace_once(t, 'route(\'douyin\')">중국트렌드</a>', 'route(\'douyin\')">China Trends</a>', "nav douyin en")
-    t = replace_once(t, 'class="nav-link" href="/jobs" onclick="event.preventDefault(); route(\'jobs\')">채용정보</a>',
-                     'class="nav-link active" href="/en/jobs" onclick="event.preventDefault(); route(\'jobs\')">Jobs</a>', "nav jobs active en")
-    t = replace_once(t, 'route(\'links\')">링크모음</a>', 'route(\'links\')">Links</a>', "nav links en")
-    t = replace_once(t, 'route(\'vendors\')">업체정보</a>', 'route(\'vendors\')">Vendors</a>', "nav vendors en")
-    t = replace_once(t, 'href="/insight/index_insight.html">인사이트</a>', 'href="/insight/index_insight.html">Insights</a>', "nav insights en")
-
-    # 3. Globe toggle to Korean version
-    pos_ins = t.find('href="/insight/index_insight.html">Insights</a>')
-    pos_end_ul = t.find('</ul>', pos_ins) + 5
-    nav_tail = t[pos_ins:pos_end_ul]
-    lang_btn = (
-        f'<li class="nav-item ms-lg-2 my-1 my-lg-0">'
-        f'<a class="btn btn-sm btn-outline-secondary d-inline-flex align-items-center gap-1" '
-        f'href="{URL_KO}"><i class="bi bi-globe"></i> 한국어</a></li>'
-        f'\n                </ul>'
+    t = replace_once(
+        t,
+        '<link rel="canonical" href="https://aimcontents.com/">',
+        canonical_block,
+        "canonical",
     )
-    t = replace_once(t, nav_tail, nav_tail[:-5] + lang_btn, "nav lang toggle jobs en")
 
-    # 4. Page jobs visible, home hidden
+    # 3. Open Graph
+    t = replace_once(
+        t,
+        '<meta property="og:url" content="https://aimcontents.com/">',
+        f'<meta property="og:url" content="{URL_EN}">',
+        "og:url",
+    )
+    t = replace_once(
+        t,
+        '<meta property="og:title" content="K-POP 아이돌 SNS·틱톡·유튜브 팔로워 순위 | 아이엠콘텐츠">',
+        f'<meta property="og:title" content="{esc(title)}">',
+        "og:title",
+    )
+    t = replace_once(
+        t,
+        '<meta property="og:description" content="K-POP 아이돌 틱톡(TikTok), 유튜브, 인스타그램, 웨이보, 도우인 SNS 팔로워 순위와 컴백 일정, 188개 그룹 상세 정보.">',
+        f'<meta property="og:description" content="{esc(desc)}">',
+        "og:description",
+    )
+    t = replace_once(
+        t,
+        '<meta name="twitter:url" content="https://aimcontents.com/">',
+        f'<meta name="twitter:url" content="{URL_EN}">',
+        "twitter:url",
+    )
+    t = replace_once(
+        t,
+        '<meta name="twitter:title" content="K-POP 아이돌 SNS·틱톡·유튜브 팔로워 순위 | 아이엠콘텐츠">',
+        f'<meta name="twitter:title" content="{esc(title)}">',
+        "twitter:title",
+    )
+    t = replace_once(
+        t,
+        '<meta name="twitter:description" content="K-POP 아이돌 틱톡(TikTok), 유튜브, 인스타그램, 웨이보, 도우인 SNS 팔로워 순위와 컴백 일정, 188개 그룹 상세 정보.">',
+        f'<meta name="twitter:description" content="{esc(desc)}">',
+        "twitter:description",
+    )
+
+    # 4. JSON-LD 주입
+    t = replace_once(t, "</head>", f"{jsonld}\n</head>", "jsonld")
+
+    # 5. 페이지 가시화: home 숨김, jobs 표시
     t = replace_once(t, '<section id="page-home" class="page-section">',
                      '<section id="page-home" class="page-section d-none">', "page-home hide")
     t = replace_once(t, '<section id="page-jobs" class="page-section d-none">',
                      '<section id="page-jobs" class="page-section">', "page-jobs show")
 
+    # 6. 헤더 H1 / H2
     t = replace_once(t, '<h1 class="mb-3 fw-bold fs-5">K-POP 아이돌 SNS 팔로워 순위</h1>',
                      '<h2 class="mb-3 fw-bold fs-5">K-POP 아이돌 SNS 팔로워 순위</h2>', "home h1 demote")
     t = replace_once(t, '<h2 class="mb-3 fw-bold fs-5">엔터테인먼트 채용정보</h2>',
                      f'<h1 class="mb-3 fw-bold fs-5">K-POP & Entertainment Career Opportunities ({len(jobs)} Openings)</h1>',
-                     "jobs h1 en")
+                     "jobs h1")
 
-    # SSR Baked Table Injection
+    # 7. SSR 테이블 주입
     t = replace_once(t, '<div id="jobsLoading" class="text-center py-5">',
                      '<div id="jobsLoading" class="text-center py-5 d-none">', "jobsLoading hide")
     t = replace_once(t, '<div id="jobsContainer" class="row g-3" style="display: none;">',
-                     '<div id="jobsContainer" class="row g-3">' + build_table_en(jobs), "jobsContainer inject")
+                     f'<div id="jobsContainer" class="row g-3">{build_table_en(jobs)}', "jobsContainer inject")
 
-    # Mobile nav
-    t = replace_once(t, '<a href="/ranking" class="mobile-nav-item active" data-page="home"',
-                     '<a href="/ranking" class="mobile-nav-item" data-page="home"', "mobile-nav home inactive")
-    t = replace_once(t, '<a href="/jobs" class="mobile-nav-item" data-page="jobs"',
-                     '<a href="/jobs" class="mobile-nav-item active" data-page="jobs"', "mobile-nav jobs active")
+    # 8. 카테고리 탭 영문화
+    cat_tabs = (
+        '<div id="jobsCategoryTabs" class="jobs-category-tabs mb-3">\n'
+        '                <button class="jobs-category-tab active" data-category="all" onclick="filterJobsByCategory(\'all\')">\n'
+        '                    All\n'
+        '                </button>\n'
+        '                <button class="jobs-category-tab" data-category="마케팅" onclick="filterJobsByCategory(\'마케팅\')">\n'
+        '                    Marketing\n'
+        '                </button>\n'
+        '                <button class="jobs-category-tab" data-category="영상" onclick="filterJobsByCategory(\'영상\')">\n'
+        '                    Video / Media\n'
+        '                </button>\n'
+        '                <button class="jobs-category-tab" data-category="신인개발" onclick="filterJobsByCategory(\'신인개발\')">\n'
+        '                    A&R / Casting\n'
+        '                </button>\n'
+        '                <button class="jobs-category-tab" data-category="매니지먼트" onclick="filterJobsByCategory(\'매니지먼트\')">\n'
+        '                    Management\n'
+        '                </button>\n'
+        '                <button class="jobs-category-tab" data-category="프로듀싱" onclick="filterJobsByCategory(\'프로듀싱\')">\n'
+        '                    Music Production\n'
+        '                </button>\n'
+        '                <button class="jobs-category-tab" data-category="디자인" onclick="filterJobsByCategory(\'디자인\')">\n'
+        '                    Creative Design\n'
+        '                </button>\n'
+        '                <button class="jobs-category-tab" data-category="IT" onclick="filterJobsByCategory(\'IT\')">\n'
+        '                    IT & Tech\n'
+        '                </button>\n'
+        '                <button class="jobs-category-tab" data-category="영업" onclick="filterJobsByCategory(\'영업\')">\n'
+        '                    Business Sales\n'
+        '                </button>\n'
+        '                <button class="jobs-category-tab" data-category="경영지원" onclick="filterJobsByCategory(\'경영지원\')">\n'
+        '                    Operations & HR\n'
+        '                </button>\n'
+        '                <button class="jobs-category-tab" data-category="해외사업" onclick="filterJobsByCategory(\'해외사업\')">\n'
+        '                    Global Business\n'
+        '                </button>\n'
+        '                <button class="jobs-category-tab" data-category="기타" onclick="filterJobsByCategory(\'기타\')">\n'
+        '                    Others\n'
+        '                </button>\n'
+        '            </div>'
+    )
+    t = re.sub(
+        r'<div id="jobsCategoryTabs" class="jobs-category-tabs mb-3">.*?</div>\s*</div>',
+        cat_tabs + '\n        </div>',
+        t,
+        flags=re.DOTALL
+    )
 
-    # 5. Base Shell Localization (공통 모달, 속성, 카테고리 완전 영문화)
+    # 9. 모바일 하단 네비 active 탭을 jobs로 전환
+    t = replace_once(
+        t,
+        '<a href="/ranking" class="mobile-nav-item active" data-page="home"',
+        '<a href="/ranking" class="mobile-nav-item" data-page="home"',
+        "mobile-nav home inactive",
+    )
+    t = replace_once(
+        t,
+        '<a href="/jobs" class="mobile-nav-item" data-page="jobs"',
+        '<a href="/jobs" class="mobile-nav-item active" data-page="jobs"',
+        "mobile-nav jobs active",
+    )
+
+    # 10. 공통 쉘 완전 영문화 (GNB, 모달, 언어선택기 등)
     t = localize_shell_to_en(t, noscript_mode="strip")
 
-    out_dir = ROOT / "en" / "jobs"
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_file = out_dir / "index.html"
-    t = localize_shell_to_en(t, noscript_mode="strip")
-    out_file.write_text(t, encoding="utf-8")
-    print(f"✅ Generated EN jobs page: {out_file.relative_to(ROOT)} ({out_file.stat().st_size:,} bytes, {len(jobs)} openings)")
-
-def patch_ko_jobs_hreflang():
-    ko_file = ROOT / "jobs" / "index.html"
-    if not ko_file.exists():
-        return
-    text = ko_file.read_text(encoding="utf-8")
-    changed = False
-    if 'hreflang="en"' not in text:
-        canonical_str = f'<link rel="canonical" href="{URL_KO}">'
-        hreflang_tags = (
-            f'<link rel="canonical" href="{URL_KO}">\n'
-            f'    <link rel="alternate" hreflang="ko" href="{URL_KO}">\n'
-            f'    <link rel="alternate" hreflang="en" href="{URL_EN}">\n'
-            f'    <link rel="alternate" hreflang="x-default" href="{URL_KO}">'
-        )
-        if canonical_str in text:
-            text = text.replace(canonical_str, hreflang_tags, 1)
-            changed = True
-
-    if 'bi-globe' not in text:
-        pos_ins = text.find('href="/insight/index_insight.html">인사이트</a>')
-        if pos_ins != -1:
-            pos_end_ul = text.find('</ul>', pos_ins) + 5
-            nav_tail = text[pos_ins:pos_end_ul]
-            lang_btn_ko = (
-                f'<li class="nav-item ms-lg-2 my-1 my-lg-0">'
-                f'<a class="btn btn-sm btn-outline-secondary d-inline-flex align-items-center gap-1" '
-                f'href="{URL_EN}"><i class="bi bi-globe"></i> English</a></li>'
-                f'\n                </ul>'
-            )
-            text = text.replace(nav_tail, nav_tail[:-5] + lang_btn_ko, 1)
-            changed = True
-
-    if changed:
-        text = localize_shell_to_en(text, noscript_mode="strip")
-        ko_file.write_text(text, encoding="utf-8")
-        print("✅ Patched KO jobs page with English toggle and hreflang")
+    out = ROOT / "en" / "jobs" / "index.html"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(t, encoding="utf-8")
+    print(f"✅ Generated EN jobs page: {out.relative_to(ROOT)} ({len(t):,} bytes, {len(jobs)} jobs)")
 
 if __name__ == "__main__":
     generate_en_jobs()
-    patch_ko_jobs_hreflang()

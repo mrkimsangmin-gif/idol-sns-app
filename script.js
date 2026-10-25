@@ -101,6 +101,24 @@ const VENDOR_CATEGORY_EN = {
 // 206개 전체 아이돌 영문 매핑 (캐시)
 let idolEnglishNameMap = null;
 
+// 채용정보 영문 매핑 사전 (캐시)
+let jobsI18nMap = null;
+
+async function loadJobsI18nMap() {
+    if (jobsI18nMap) return jobsI18nMap;
+    if (!isEnglishPage) return null;
+    try {
+        const res = await fetch('/data/jobs-i18n-en.json?v=' + Date.now());
+        if (res.ok) {
+            jobsI18nMap = await res.json();
+        }
+    } catch (e) {
+        console.warn('채용 영문화 사전 로드 실패:', e);
+    }
+    if (!jobsI18nMap) jobsI18nMap = { companies: {}, locations: {}, careers: {}, positions: {} };
+    return jobsI18nMap;
+}
+
 async function loadIdolEnglishNames() {
     if (idolEnglishNameMap) return idolEnglishNameMap;
     try {
@@ -2199,6 +2217,9 @@ async function prefetchJobsData() {
  * 채용정보 데이터 로드
  */
 async function loadJobs() {
+    if (isEnglishPage) {
+        await loadJobsI18nMap();
+    }
     // 메모리 캐시 사용
     if (jobsLoaded && jobsData) {
         console.log('✅ 채용 데이터 메모리 캐시 사용');
@@ -2398,19 +2419,40 @@ function createJobCard(job, index) {
     const isUrgent = !isAlwaysOpen && job.dday !== undefined && job.dday <= 3 && job.dday >= 0;
 
     const deadlineText = (job.deadline && job.deadline !== '상시채용')
-        ? new Date(job.deadline).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric' })
-        : (isAlwaysOpen ? '상시채용' : '');
+        ? new Date(job.deadline).toLocaleDateString(isEnglishPage ? 'en-US' : 'ko-KR', { month: 'short', day: 'numeric' })
+        : (isAlwaysOpen ? (isEnglishPage ? 'Always Open' : '상시채용') : '');
+
+    const compDisplay = (isEnglishPage && jobsI18nMap && jobsI18nMap.companies && jobsI18nMap.companies[job.company])
+        ? jobsI18nMap.companies[job.company]
+        : (job.company || '-');
+
+    const posDisplay = (isEnglishPage && jobsI18nMap && jobsI18nMap.positions && jobsI18nMap.positions[job.position])
+        ? jobsI18nMap.positions[job.position]
+        : (job.position || '-');
+
+    const locDisplay = (isEnglishPage && jobsI18nMap && jobsI18nMap.locations && jobsI18nMap.locations[job.location])
+        ? jobsI18nMap.locations[job.location]
+        : (job.location || '-');
+
+    let careerDisplay = job.career || (isEnglishPage ? 'Any Experience' : '무관');
+    if (isEnglishPage) {
+        if (jobsI18nMap && jobsI18nMap.careers && jobsI18nMap.careers[job.career]) {
+            careerDisplay = jobsI18nMap.careers[job.career];
+        } else if (job.career === '무관' || job.career === '경력무관' || !job.career) {
+            careerDisplay = 'Any Experience';
+        }
+    }
 
     return `
         <div class="job-card ${isUrgent ? 'urgent' : ''}">
             <div class="job-card-header">
-                <span class="job-company">${job.company || '-'}</span>
+                <span class="job-company">${compDisplay}</span>
                 ${ddayText ? `<span class="job-dday ${ddayClass}">${ddayText}</span>` : ''}
             </div>
-            <h6 class="job-title">${job.position || '-'}</h6>
+            <h6 class="job-title">${posDisplay}</h6>
             <div class="job-info">
-                <span>📍 ${job.location || '-'}</span>
-                <span>👤 ${isEnglishPage ? (job.career === '무관' ? 'Any Experience' : job.career || 'Any') : (job.career || '무관')}</span>
+                <span>📍 ${locDisplay}</span>
+                <span>👤 ${careerDisplay}</span>
                 ${deadlineText ? `<span>📅 ${isAlwaysOpen ? '' : '~'}${deadlineText}</span>` : ''}
             </div>
             <span class="job-category-tag">${isEnglishPage ? (JOB_CATEGORY_EN[job.category] || job.category || 'Other') : (job.category || '기타')}</span>
