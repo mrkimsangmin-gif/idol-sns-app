@@ -49,6 +49,64 @@ async function ensureGenderMap() {
     }
 }
 
+// 나무위키 인덱스에 아직 등록되지 않았거나 매칭되지 않은 그룹 보완 매핑
+const fallbackGenderMap = {
+    // 보이그룹
+    'verivery': '남자',
+    '베리베리': '남자',
+    'big-ocean': '남자',
+    '빅오션': '남자',
+    'w3way': '남자',
+    '위웨이': '남자',
+    'b1a4': '남자',
+    '비원에이포': '남자',
+    'exo': '남자',
+    '엑소': '남자',
+    'nct wish': '남자',
+    'nctwish': '남자',
+    '엔시티위시': '남자',
+    'genus': '남자',
+    '제너스': '남자',
+    'tnx': '남자',
+    '티엔엑스': '남자',
+    '미완소년': '남자',
+    'v01d': '남자',
+    '보이드': '남자',
+    'b:dawn': '남자',
+    'bdawn': '남자',
+    '비던': '남자',
+    'btob': '남자',
+    '비투비': '남자',
+    'bigbang': '남자',
+    '빅뱅': '남자',
+    '씨엔블루': '남자',
+    'cnblue': '남자',
+    'onewe': '남자',
+    '원위': '남자',
+    'splayit': '남자',
+    '에스플릿': '남자',
+
+    // 걸그룹 / 여성 솔로
+    'x-in': '여자',
+    '엑신': '여자',
+    'hype princess': '여자',
+    '하입프린세스': '여자',
+    'xg': '여자',
+    '엑스지': '여자',
+    'girlset': '여자',
+    '걸셋': '여자',
+    'i.o.i': '여자',
+    '아이오아이': '여자',
+    '에이핑크': '여자',
+    'apink': '여자',
+    '제니': '여자',
+    'jennie': '여자',
+    'katseye': '여자',
+    '캣츠아이': '여자',
+    'queenz eye': '여자',
+    '퀸즈아이': '여자'
+};
+
 function getDisplayArtistName(title, slug) {
     if (!isCalEn) return title;
     if (slug && artistEnMap && artistEnMap[slug.toLowerCase()]) {
