@@ -229,6 +229,7 @@ def generate_en_jobs():
     out_dir = ROOT / "en" / "jobs"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_file = out_dir / "index.html"
+    t = localize_shell_to_en(t, noscript_mode="strip")
     out_file.write_text(t, encoding="utf-8")
     print(f"✅ Generated EN jobs page: {out_file.relative_to(ROOT)} ({out_file.stat().st_size:,} bytes, {len(jobs)} openings)")
 
@@ -265,6 +266,7 @@ def patch_ko_jobs_hreflang():
             changed = True
 
     if changed:
+        text = localize_shell_to_en(text, noscript_mode="strip")
         ko_file.write_text(text, encoding="utf-8")
         print("✅ Patched KO jobs page with English toggle and hreflang")
 

@@ -342,6 +342,7 @@ def generate_en_ranking():
     out_dir.mkdir(parents=True, exist_ok=True)
     out_file = out_dir / "index.html"
     text = localize_shell_to_en(text, noscript_mode="strip")
+    text = localize_shell_to_en(text, noscript_mode="strip")
     out_file.write_text(text, encoding="utf-8")
     print(f"✅ Generated EN ranking page: {out_file.relative_to(ROOT)} ({out_file.stat().st_size:,} bytes)")
 
