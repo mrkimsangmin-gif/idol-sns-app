@@ -2,28 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 1089,
-      "company": "알비더블유",
-      "position": "IMC팀 팀원",
-      "category": "기타",
-      "career": "경력",
-      "location": "서울 동대문구",
-      "deadline": "2026-10-25",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49862315",
-      "source": "잡코리아"
-    },
-    {
-      "id": 1441,
-      "company": "케이큐엔터테인먼트",
-      "position": "[KQ엔터테인먼트] 포토팀(리터칭 담당자) 경력직 채용",
-      "category": "디자인",
-      "career": "무관",
-      "location": "서울 마포구",
-      "deadline": "2026-10-25",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=54859378&location=ts&searchword=KQ%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8&searchType=search&paid_fl=n&search_uuid=e01c12f2-145b-43a4-bd57-06e5b9ab470b",
-      "source": "사람인"
-    },
-    {
       "id": 1109,
       "company": "모드하우스",
       "position": "공연사업 팀장 & 매니저 (Tour Lead & Tour Manager)",
@@ -3568,5 +3546,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-10-25T09:39:07.365626"
+  "updatedAt": "2026-10-26T08:57:02.273105"
 }
