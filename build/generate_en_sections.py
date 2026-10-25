@@ -162,6 +162,20 @@ def build_en_home_and_news():
     t_home = t_home.replace('aria-label="닫기"', 'aria-label="Close"')
     t_home = t_home.replace('title="이메일 복사"', 'title="Copy Email"')
 
+    # Search and Form Placeholders (전체 인풋 placeholder 영문화)
+    t_home = replace_once(t_home, 'placeholder="그룹 검색"',
+                          'placeholder="Search Group"', "ph searchGroup")
+    t_home = replace_once(t_home, 'placeholder="그룹명 또는 아티스트 검색 (예: 르세라핌, 원어스)"',
+                          'placeholder="Search group or artist (e.g. LE SSERAFIM, ONEUS)"', "ph searchCal")
+    t_home = replace_once(t_home, 'placeholder="업체명 또는 키워드 검색"',
+                          'placeholder="Search company or keyword"', "ph searchVendor")
+    t_home = replace_once(t_home, 'placeholder="성함"',
+                          'placeholder="Contact Name"', "ph vendorName")
+    t_home = replace_once(t_home, 'placeholder="수정할 내용이나 포트폴리오 URL 등을 적어주세요."',
+                          'placeholder="Enter details or portfolio URL..."', "ph vendorDetails")
+    t_home = replace_once(t_home, 'placeholder="그룹/멤버 검색 또는 질문"',
+                          'placeholder="Search group/member or ask a question"', "ph searchNamu")
+
     # Loading & empty placeholder strings
     t_home = replace_once(t_home, '<p class="mt-2 text-muted">채용정보를 불러오는 중...</p>',
                           '<p class="mt-2 text-muted">Loading job openings...</p>', "jobs loading")
