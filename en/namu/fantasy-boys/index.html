@@ -286,7 +286,7 @@
                         <a class="nav-link" href="/monthly/2026-09/boys/">Monthly Chart<span class="nav-new-badge" data-expire="2026-10-31">NEW</span></a>
                     </li>
                     <li class="nav-item d-none">
-                        <a class="nav-link" href="/namu" onclick="event.preventDefault(); route('namu')">나무위키<span class="nav-new-badge" data-expire="2026-12-31">NEW</span></a>
+                        <a class="nav-link" href="/namu" onclick="event.preventDefault(); route('namu')">Profiles<span class="nav-new-badge" data-expire="2026-12-31">NEW</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/comeback" onclick="event.preventDefault(); route('comeback')">Comebacks</a>
@@ -781,13 +781,13 @@
 
         <!-- 나무위키 검색 페이지 -->
         <section id="page-namu" class="page-section">
-            <h2 class="mb-3 fw-bold fs-5">K-POP 아이돌 나무위키 검색</h2>
+            <h2 class="mb-3 fw-bold fs-5">K-POP Idol Database & Search</h2>
 
             <!-- 검색바 -->
             <div class="namu-search-container mb-4">
                 <div class="position-relative">
                     <input type="text" class="form-control form-control-lg namu-search-input"
-                           id="namuSearchInput" placeholder="그룹/멤버 검색 또는 질문"
+                           id="namuSearchInput" placeholder="Search group, member, or question..."
                            autocomplete="off">
                     <div id="namuSearchResults" class="namu-search-dropdown" style="display: none;"></div>
                 </div>
@@ -833,14 +833,14 @@
 
             <!-- 그룹 상세 영역 -->
             <div id="namuGroupDetail" style="display: block;">
-                <button class="btn btn-outline-secondary btn-sm mb-3" onclick="backToNamuList()">← 목록으로</button>
+                <button class="btn btn-outline-secondary btn-sm mb-3" onclick="backToNamuList()">← Back to List</button>
                 <div id="namuGroupHeader" class="mb-3"><div class="d-flex align-items-center gap-2 flex-wrap"><h1 class="fw-bold mb-0 fs-3">FANTASY BOYS</h1><span class="text-muted">판타지보이즈</span><span class="badge bg-primary-subtle text-primary">Male Group</span><a href="https://namu.wiki/w/FANTASY%20BOYS" target="_blank" rel="noopener" class="btn btn-outline-success btn-sm ms-2">View on NamuWiki</a></div></div>
                 <div class="namu-detail-tabs mb-3">
-                    <button class="namu-detail-tab active" data-dtab="profile" onclick="switchNamuDetailTab('profile')">프로필</button>
-                    <button class="namu-detail-tab" data-dtab="members" onclick="switchNamuDetailTab('members')">멤버</button>
-                    <button class="namu-detail-tab" data-dtab="discography" onclick="switchNamuDetailTab('discography')">디스코그래피</button>
-                    <button class="namu-detail-tab" data-dtab="chart" onclick="switchNamuDetailTab('chart')">판매량 차트</button>
-                    <button class="namu-detail-tab" data-dtab="streaming" onclick="switchNamuDetailTab('streaming')">스트리밍</button>
+                    <button class="namu-detail-tab active" data-dtab="profile" onclick="switchNamuDetailTab('profile')">Profile</button>
+                    <button class="namu-detail-tab" data-dtab="members" onclick="switchNamuDetailTab('members')">Members</button>
+                    <button class="namu-detail-tab" data-dtab="discography" onclick="switchNamuDetailTab('discography')">Discography</button>
+                    <button class="namu-detail-tab" data-dtab="chart" onclick="switchNamuDetailTab('chart')">Sales Chart</button>
+                    <button class="namu-detail-tab" data-dtab="streaming" onclick="switchNamuDetailTab('streaming')">Streaming</button>
                 </div>
                 <div id="namuDetailContent"><p class='text-muted small'>Source: AIMCONTENTS Data Lab (aimcontents.com) · Verified K-POP Open Database · Updated 2026-08-16</p>
 <div class="visually-hidden" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">

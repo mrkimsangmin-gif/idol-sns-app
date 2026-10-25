@@ -746,6 +746,7 @@ def build_group_page_en(slug):
     # 3) 상단 네비게이션 라벨 영문화 + [🌐 한국어] 전환 토글 주입
     t = replace_once(t, 'route(\'home\')">SNS랭킹</a>', 'route(\'home\')">SNS Ranking</a>', "nav ranking en")
     t = replace_once(t, '/monthly/2026-09/boys/">월간차트<', '/monthly/2026-09/boys/">Monthly Chart<', "nav monthly en")
+    t = replace_once(t, 'route(\'namu\')">나무위키<', 'route(\'namu\')">Profiles<', "nav namu en")
     t = replace_once(t, 'route(\'comeback\')">컴백일정</a>', 'route(\'comeback\')">Comebacks</a>', "nav comeback en")
     t = replace_once(t, 'route(\'news\')">엔터뉴스</a>', 'route(\'news\')">News</a>', "nav news en")
     t = replace_once(t, 'route(\'douyin\')">중국트렌드</a>', 'route(\'douyin\')">China Trends</a>', "nav douyin en")
@@ -770,6 +771,17 @@ def build_group_page_en(slug):
                      '<section id="page-home" class="page-section d-none">', "page-home hide en")
     t = replace_once(t, '<section id="page-namu" class="page-section d-none">',
                      '<section id="page-namu" class="page-section">', "page-namu show en")
+    t = replace_once(t, '<h2 class="mb-3 fw-bold fs-5">K-POP 아이돌 나무위키 검색</h2>',
+                     '<h2 class="mb-3 fw-bold fs-5">K-POP Idol Database & Search</h2>', "namu h2 en")
+    t = replace_once(t, 'placeholder="그룹/멤버 검색 또는 질문"',
+                     'placeholder="Search group, member, or question..."', "namu placeholder en")
+    t = replace_once(t, '<button class="btn btn-outline-secondary btn-sm mb-3" onclick="backToNamuList()">← 목록으로</button>',
+                     '<button class="btn btn-outline-secondary btn-sm mb-3" onclick="backToNamuList()">← Back to List</button>', "namu back en")
+    t = replace_once(t, '>프로필</button>', '>Profile</button>', "tab profile en")
+    t = replace_once(t, '>멤버</button>', '>Members</button>', "tab members en")
+    t = replace_once(t, '>디스코그래피</button>', '>Discography</button>', "tab disco en")
+    t = replace_once(t, '>판매량 차트</button>', '>Sales Chart</button>', "tab chart en")
+    t = replace_once(t, '>스트리밍</button>', '>Streaming</button>', "tab streaming en")
     t = replace_once(t, '<div id="namuGroupDetail" style="display: none;">',
                      '<div id="namuGroupDetail" style="display: block;">', "namuGroupDetail show en")
     t = replace_once(t, '<div id="namuGroupHeader" class="mb-3"></div>',

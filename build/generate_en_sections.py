@@ -34,6 +34,7 @@ def build_en_home_and_news():
     # Nav labels
     t_home = replace_once(t_home, "route('home')\">SNS랭킹</a>", "route('home')\">SNS Ranking</a>", "nav ranking en")
     t_home = replace_once(t_home, '/monthly/2026-09/boys/">월간차트<', '/monthly/2026-09/boys/">Monthly Chart<', "nav monthly en")
+    t_home = replace_once(t_home, "route('namu')\">나무위키<", "route('namu')\">Profiles<", "nav namu en")
     t_home = replace_once(t_home, "route('comeback')\">컴백일정</a>", "route('comeback')\">Comebacks</a>", "nav comeback en")
     t_home = replace_once(t_home, "route('news')\">엔터뉴스</a>", "route('news')\">News</a>", "nav news en")
     t_home = replace_once(t_home, "route('douyin')\">중국트렌드</a>", "route('douyin')\">China Trends</a>", "nav douyin en")
@@ -53,6 +54,10 @@ def build_en_home_and_news():
         '\n                </ul>'
     )
     t_home = replace_once(t_home, nav_tail, nav_tail[:-5] + lang_btn_en, "nav lang toggle en")
+
+    # Home Main Headings and UI translation
+    t_home = replace_once(t_home, '<h1 class="mb-3 fw-bold fs-5">K-POP 아이돌 SNS 팔로워 순위</h1>',
+                          '<h1 class="mb-3 fw-bold fs-5">K-POP Idol SNS Followers & Growth Ranking</h1>', "home h1 en")
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     (OUT_DIR / "index.html").write_text(t_home, encoding="utf-8")
@@ -75,6 +80,8 @@ def build_en_home_and_news():
                           '<h2 class="mb-3 fw-bold fs-5">Real-Time K-POP Entertainment News</h2>', "news h2 en")
     t_news = replace_once(t_news, '<p class="text-muted small mb-3">업데이트: <span id="newsUpdateTime">-</span></p>',
                           '<p class="text-muted small mb-3">Updated: <span id="newsUpdateTime">-</span></p>', "news updated en")
+    t_news = replace_once(t_news, '<p class="mt-2 text-muted">뉴스를 불러오는 중...</p>',
+                          '<p class="mt-2 text-muted">Loading latest K-POP headlines...</p>', "news loading en")
     
     # Update canonical for news
     seo_links_news = (
