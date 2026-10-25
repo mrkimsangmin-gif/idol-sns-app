@@ -314,6 +314,29 @@ def generate_en_ranking():
         "result-area inject"
     )
 
+    # Additional UI translations for hidden/tab sections
+    extra_map = {
+        'placeholder="그룹명 또는 아티스트 검색 (예: 르세라핌, 원어스)"': 'placeholder="Search group or artist (e.g. LE SSERAFIM, ONEUS)..."',
+        'onclick="changeCalendarMonth(-1)">이전달</button>': 'onclick="changeCalendarMonth(-1)">Prev Month</button>',
+        'onclick="changeCalendarMonth(1)">다음달</button>': 'onclick="changeCalendarMonth(1)">Next Month</button>',
+        'onclick="resetCalendarToCurrentMonth()">오늘</button>': 'onclick="resetCalendarToCurrentMonth()">Today</button>',
+        '>전체</button>': '>All</button>',
+        '>마케팅</button>': '>Marketing</button>',
+        '>영상</button>': '>Video/Media</button>',
+        '>신인개발</button>': '>A&R / Casting</button>',
+        '>매니지먼트</button>': '>Management</button>',
+        '>프로듀싱</button>': '>Producing</button>',
+        '>디자인</button>': '>Design</button>',
+        'placeholder="업체명 또는 키워드 검색"': 'placeholder="Search vendor or keyword..."',
+        'placeholder="성함"': 'placeholder="Your name"',
+        'placeholder="수정할 내용이나 포트폴리오 URL 등을 적어주세요."': 'placeholder="Describe edits or provide portfolio URL..."',
+        'placeholder="그룹/멤버 검색 또는 질문"': 'placeholder="Search group, member, or question..."',
+        'aria-label="닫기"': 'aria-label="Close"',
+        'aria-label="메뉴 열기"': 'aria-label="Open Menu"',
+    }
+    for old_str, new_str in extra_map.items():
+        text = text.replace(old_str, new_str)
+
     out_dir = ROOT / "en" / "ranking"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_file = out_dir / "index.html"

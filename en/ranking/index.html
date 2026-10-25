@@ -2514,7 +2514,7 @@
             <a class="navbar-brand" href="/" onclick="event.preventDefault(); route('home')" style="cursor: pointer;">
                 <img src="/logo_aimcontents.png" alt="AIMCONTENTS" width="227" height="40" style="height: 40px;">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="메뉴 열기">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Open Menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -2724,7 +2724,7 @@
             <div class="card border-0 shadow-sm p-2 mb-3">
                 <div class="input-group input-group-sm">
                     <span class="input-group-text bg-white border-end-0"><i class="bi bi-search text-muted"></i></span>
-                    <input type="text" class="form-control border-start-0" id="calSearchInput" placeholder="그룹명 또는 아티스트 검색 (예: 르세라핌, 원어스)" oninput="searchCalendar(this.value)">
+                    <input type="text" class="form-control border-start-0" id="calSearchInput" placeholder="Search group or artist (e.g. LE SSERAFIM, ONEUS)..." oninput="searchCalendar(this.value)">
                 </div>
             </div>
 
@@ -2917,7 +2917,7 @@
             <!-- 검색바 -->
             <div class="vendor-search-bar mb-3">
                 <input type="text" class="form-control" id="vendorSearchInput"
-                    placeholder="업체명 또는 키워드 검색" oninput="filterVendors()">
+                    placeholder="Search vendor or keyword..." oninput="filterVendors()">
             </div>
 
             <!-- 대분류 카테고리 탭 -->
@@ -2950,7 +2950,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title fw-bold" id="vModalCompany">업체명</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <span id="vModalCategory" class="badge bg-secondary mb-3 d-inline-block">카테고리</span>
@@ -3012,7 +3012,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title fw-bold" id="vendorFormTitle">신규 업체 등록</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <input type="hidden" id="vendorFormType">
@@ -3029,7 +3029,7 @@
                             </div>
                             <div class="col-6">
                                 <label class="form-label">신청자/담당자</label>
-                                <input type="text" class="form-control" id="vendorFormContactName" placeholder="성함">
+                                <input type="text" class="form-control" id="vendorFormContactName" placeholder="Your name">
                             </div>
                         </div>
                         <!-- 휴대전화 / 일반전화 -->
@@ -3057,7 +3057,7 @@
                         <div class="mb-3">
                             <label class="form-label">상세 내용 (포트폴리오 등)</label>
                             <textarea class="form-control" id="vendorFormDetails" rows="4"
-                                placeholder="수정할 내용이나 포트폴리오 URL 등을 적어주세요."></textarea>
+                                placeholder="Describe edits or provide portfolio URL..."></textarea>
                         </div>
                     </div>
                     <div class="modal-footer">
@@ -3095,7 +3095,7 @@
             <div class="namu-search-container mb-4">
                 <div class="position-relative">
                     <input type="text" class="form-control form-control-lg namu-search-input"
-                           id="namuSearchInput" placeholder="그룹/멤버 검색 또는 질문"
+                           id="namuSearchInput" placeholder="Search group, member, or question..."
                            autocomplete="off">
                     <div id="namuSearchResults" class="namu-search-dropdown" style="display: none;"></div>
                 </div>
@@ -3114,7 +3114,7 @@
             <div id="namuRankingView" style="display: none;">
                 <div class="d-flex gap-2 mb-3 flex-wrap align-items-center">
                     <div class="namu-gender-filter">
-                        <button class="namu-filter-btn active" data-gender="all" onclick="filterNamuRanking('gender', 'all')">전체</button>
+                        <button class="namu-filter-btn active" data-gender="all" onclick="filterNamuRanking('gender', 'all')">All</button>
                         <button class="namu-filter-btn" data-gender="여자" onclick="filterNamuRanking('gender', '여자')">여자</button>
                         <button class="namu-filter-btn" data-gender="남자" onclick="filterNamuRanking('gender', '남자')">남자</button>
                     </div>
@@ -3175,7 +3175,7 @@
                         <p class="text-muted mb-0 small" id="idolGroup">BLACKPINK</p>
                         <small class="text-muted" id="idolInfo">YG Entertainment • Debuted in 2016</small>
                     </div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body" id="modalBody">
                     <!-- 나무위키 -->
