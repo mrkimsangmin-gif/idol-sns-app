@@ -1599,11 +1599,11 @@
       "title": "THE ALBUM -JP Ver.-",
       "type": "일본 정규앨범 2집",
       "발매일": "2021.08.03",
-      "초동_한터": "1,251",
+      "초동_한터": "",
       "누적_한터": "",
       "초동_써클": "1,439",
       "누적_써클": "1,707,518",
-      "비고": "Lovesick Girls, 한터 월간 실측치",
+      "비고": "Lovesick Girls",
       "누적_써클_numeric": 1707518,
       "초동_써클_numeric": 1439,
       "monthly_timeline": [
@@ -1842,8 +1842,7 @@
           "sales": 7586,
           "cumulative": 1707518
         }
-      ],
-      "초동_한터_numeric": 1251
+      ]
     },
     {
       "title": "Kiss and Make Up",
