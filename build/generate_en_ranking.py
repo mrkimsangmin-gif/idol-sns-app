@@ -343,6 +343,24 @@ def generate_en_ranking():
     out_file = out_dir / "index.html"
     text = localize_shell_to_en(text, noscript_mode="strip")
     text = localize_shell_to_en(text, noscript_mode="strip")
+    
+    # Translate ranking SEO static article
+    text = text.replace("<h2>K-POP 아이돌 SNS 팔로워 순위 - 아이엠콘텐츠</h2>", "<h2>K-POP Idol SNS Follower Rankings - AIMCONTENTS</h2>")
+    text = text.replace("K-POP 아이돌의 웨이보, 빌리빌리, 유튜브, 스포티파이 등 주요 SNS 팔로워 수를 월별로 집계하여 순위를 제공합니다.",
+                        "Monthly verified rankings of K-POP idol groups across Weibo, Bilibili, YouTube, Spotify, and TikTok.")
+    text = text.replace("남자 아이돌 웨이보 팔로워 Top 10", "Boy Groups Weibo Followers Top 10")
+    text = text.replace("여자 아이돌 웨이보 팔로워 Top 10", "Girl Groups Weibo Followers Top 10")
+    text = text.replace("<h3>K-POP 아이돌 그룹 정보 (소속사, 팬덤명, 데뷔일)</h3>", "<h3>K-POP Idol Group Profiles (Agency, Fandom, Debut)</h3>")
+    text = text.replace("174개 K-POP 아이돌 그룹의 상세 정보를 확인할 수 있습니다.", "Comprehensive verified profiles and discography data for 174 K-POP idol groups.")
+    text = text.replace("<h3>사이트 주요 서비스 및 순위</h3>", "<h3>AIMCONTENTS Key Features & Analytics</h3>")
+    text = text.replace("K-POP 아이돌 SNS & 틱톡 순위", "K-POP Idol SNS & TikTok Rankings")
+    text = text.replace("K-POP 컴백/데뷔 일정 캘린더", "K-POP Comeback & Debut Calendar")
+    text = text.replace("K-POP 아이돌 데이터베이스 & 나무위키 검색", "K-POP Idol Database & Search")
+    text = text.replace("실시간 K-POP 엔터테인먼트 뉴스", "Real-time K-POP Industry News")
+    text = text.replace("엔터테인먼트 채용정보 큐레이션", "Entertainment Careers & Job Openings")
+    text = text.replace("중국 도우인 주간 인기 챌린지 트렌드", "Douyin Weekly Trending Challenges")
+    text = text.replace("K-POP 유용한 사이트 링크 모음", "K-POP Useful Resource Links")
+
     out_file.write_text(text, encoding="utf-8")
     print(f"✅ Generated EN ranking page: {out_file.relative_to(ROOT)} ({out_file.stat().st_size:,} bytes)")
 
