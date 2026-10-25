@@ -47,11 +47,26 @@ const NEWS_STATIC_URL = isEnglishPage ? '/data/news-en.json' : '/data/news.json'
 const ENTER_NEWS_API = API_URL + "?action=getNews";
 
 // SNS API값 → 화면 표시명 매핑 ('차오화'만 다름)
-const SNS_DISPLAY = {
+const SNS_DISPLAY_KO = {
     '웨이보':'웨이보', '차오화':'웨이보(슈퍼챗)', '빌리빌리':'빌리빌리',
     'QQ뮤직':'QQ뮤직', 'X(트위터)':'X(트위터)', '유튜브':'유튜브', '스포티파이':'스포티파이',
     '인스타그램':'인스타그램'
 };
+
+const SNS_DISPLAY_EN = {
+    '웨이보':'Weibo', '차오화':'Weibo (Super Topic)', '빌리빌리':'Bilibili',
+    'QQ뮤직':'QQ Music', 'X(트위터)':'X (Twitter)', '유튜브':'YouTube', '스포티파이':'Spotify',
+    '인스타그램':'Instagram'
+};
+
+const SNS_DISPLAY = isEnglishPage ? SNS_DISPLAY_EN : SNS_DISPLAY_KO;
+
+function getGenderDisplay(gender) {
+    if (!isEnglishPage) return gender;
+    if (gender === '남자') return 'Male';
+    if (gender === '여자') return 'Female';
+    return gender;
+}
 
 /**
  * 현재 표시 중인 페이지 ID 반환
@@ -432,7 +447,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (urlParams.gender) {
             document.getElementById('gender').value = urlParams.gender;
             const gd = document.getElementById('genderDropdown');
-            if (gd) gd.innerHTML = urlParams.gender;
+            if (gd) gd.innerHTML = getGenderDisplay(urlParams.gender);
         }
         // /ranking/{sns} 또는 /ranking/{YYMM}/{sns} 접근 → 드롭다운 자동 선택
         if (urlParams.sns) {
@@ -674,7 +689,7 @@ function renderList(targetMonth) {
                     </div>
                     <div class="text-end">
                         <div class="fw-bold fs-5">${Number(item.current).toLocaleString()}</div>
-                        <small class="text-muted" style="font-size:0.75rem">(${formatYearMonth(baseMonth)} 대비)</small>
+                        <small class="text-muted" style="font-size:0.75rem">(${isEnglishPage ? "vs " + formatYearMonth(baseMonth) : formatYearMonth(baseMonth) + " 대비"})</small>
                         ${changeDisplay}
                     </div>
                 </div>
@@ -753,7 +768,7 @@ function updateFilter(type, value) {
 
     if (type === 'gender') {
         document.getElementById('gender').value = value;
-        document.getElementById('genderDropdown').innerHTML = value;
+        document.getElementById('genderDropdown').innerHTML = getGenderDisplay(value);
         // gender 변경 시 데이터 재로드
         loadData(true);
     } else if (type === 'sns') {
@@ -784,13 +799,14 @@ function updateRankingUrl() {
     // SNS 슬러그가 없으면 (매핑 안 되는 경우) /ranking 유지
     if (!snsSlug) return;
 
-    let newPath = '/ranking';
-    let newTitle = PAGE_META.home.title;
-    let newDesc = PAGE_DESCRIPTIONS.home;
+    const basePath = isEnglishPage ? '/en/ranking' : '/ranking';
+    let newPath = basePath;
+    let newTitle = isEnglishPage ? 'K-POP Idol SNS & Follower Rankings | AIMCONTENTS' : PAGE_META.home.title;
+    let newDesc = isEnglishPage ? 'Track K-POP idol follower rankings and engagement across YouTube, TikTok, Instagram, Weibo, and Spotify.' : PAGE_DESCRIPTIONS.home;
 
     if (sns !== '웨이보') {
         // 기본값이 아닌 SNS 선택 시 → /ranking/{sns}
-        newPath = '/ranking/' + snsSlug;
+        newPath = basePath + '/' + snsSlug;
         const snsLabel = SNS_DISPLAY[sns] || sns;
         newTitle = `${snsLabel} Ranking | AIMCONTENTS`;
         newDesc = `K-POP ${snsLabel} Follower Ranking`;
@@ -798,25 +814,19 @@ function updateRankingUrl() {
 
     // 월이 최신월이 아닌 경우 → /ranking/{YYMM}/{sns}
     if (month && cachedMonths.length > 0 && month !== cachedMonths[cachedMonths.length - 1]) {
-        const yymm = month.replace('20', '').replace('-', ''); // '2025-12' → '2512'
-        newPath = '/ranking/' + yymm + '/' + snsSlug;
+        const yymm = month.replace('20', '').replace('-', ''); // '2025-12' -> '2512'
+        newPath = `${basePath}/${yymm}/${snsSlug}`;
         const snsLabel = SNS_DISPLAY[sns] || sns;
         newTitle = `${formatYearMonth(month)} ${snsLabel} Ranking | AIMCONTENTS`;
-        newDesc = `${formatYearMonth(month)} K-POP ${snsLabel} Follower Ranking`;
+        newDesc = `${formatYearMonth(month)} K-POP ${snsLabel} Follower Ranking | AIMCONTENTS`;
     }
 
-    // URL 업데이트 (현재 경로와 다를 때만)
+    // history 업데이트 (현재 URL과 다를 때만)
     if (window.location.pathname !== newPath) {
-        history.pushState({ pageId: 'home', sns, month }, newTitle, newPath);
+        history.pushState({ sns, month, pageId: 'home' }, newTitle, newPath);
         document.title = newTitle;
-        // meta description 업데이트
-        document.querySelector('meta[name="description"]')?.setAttribute('content', newDesc);
-        document.querySelector('meta[property="og:description"]')?.setAttribute('content', newDesc);
-        document.querySelector('meta[property="og:title"]')?.setAttribute('content', newTitle);
-        document.querySelector('meta[property="og:url"]')?.setAttribute('content',
-            window.location.origin + newPath);
-        const canonical = document.querySelector('link[rel="canonical"]');
-        if (canonical) canonical.setAttribute('href', 'https://aimcontents.com' + newPath);
+        // canonical 태그도 동기화 (Google Search Console 색인 일치)
+        document.querySelector('link[rel="canonical"]')?.setAttribute('href', 'https://aimcontents.com' + newPath);
     }
 }
 
@@ -825,8 +835,13 @@ function formatYearMonth(ym) {
     try {
         const parts = ym.split('-');
         if (parts.length === 2) {
-            const shortYear = parts[0].substring(2); // '2025' -> '25'
+            const year = parts[0];
+            const shortYear = year.substring(2); // '2025' -> '25'
             const month = parseInt(parts[1]); // '11' -> 11
+            if (isEnglishPage) {
+                const enMonths = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+                return (enMonths[month] || month) + ' ' + year;
+            }
             return shortYear + '년' + month + '월';
         }
     } catch (e) { return ym; }
@@ -939,6 +954,11 @@ function updateMetaDescription(pageId) {
 function getPageIdFromPath(path) {
     // 끝 슬래시 정규화 (GitHub Pages 디렉토리 서빙: /jobs/ → /jobs, /news/ → /news)
     if (path.length > 1 && path.endsWith('/')) path = path.replace(/\/+$/, '');
+    // 영문 접두사 /en 정규화
+    let normPath = path;
+    if (normPath === '/en' || normPath === '/en/') normPath = '/';
+    else if (normPath.startsWith('/en/')) normPath = normPath.substring(3);
+
     // 기본 페이지 매핑
     const map = {
         '/': 'home', '/ranking': 'home',
@@ -946,16 +966,16 @@ function getPageIdFromPath(path) {
         '/links': 'links', '/jobs': 'jobs',
         '/vendors': 'vendors', '/douyin': 'douyin', '/namu': 'namu', '/namuwiki': 'namu', '/team': 'team'
     };
-    if (map[path]) return map[path];
+    if (map[normPath]) return map[normPath];
 
     // /ranking/{sns} 또는 /ranking/{YYMM}/{sns} 패턴
-    if (path.startsWith('/ranking/')) return 'home';
+    if (normPath.startsWith('/ranking/')) return 'home';
 
     // /idol/{slug} 패턴
-    if (path.startsWith('/idol/')) return 'home';
+    if (normPath.startsWith('/idol/')) return 'home';
 
     // /namu/{slug} 패턴
-    if (path.startsWith('/namu/')) return 'namu';
+    if (normPath.startsWith('/namu/')) return 'namu';
 
     return 'home';
 }

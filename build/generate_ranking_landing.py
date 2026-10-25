@@ -190,9 +190,28 @@ def main():
         '<meta name="twitter:description" content="K-POP 아이돌 틱톡(TikTok), 유튜브, 인스타그램, 웨이보, 도우인 SNS 팔로워 순위와 컴백 일정, 188개 그룹 상세 정보.">',
         f'<meta name="twitter:description" content="{esc(desc)}">', "twitter:description")
 
+    # hreflang 및 언어 전환 토글 연동
+    hreflang_tags = (
+        f'<link rel="alternate" hreflang="ko" href="{URL}">\n'
+        f'    <link rel="alternate" hreflang="en" href="{SITE}/en/ranking/">\n'
+        f'    <link rel="alternate" hreflang="x-default" href="{URL}">'
+    )
     # JSON-LD 주입
     jsonld = build_jsonld()
-    t = replace_once(t, "</head>", jsonld + "\n</head>", "</head>")
+    t = replace_once(t, "</head>", f"{hreflang_tags}\n{jsonld}\n</head>", "</head>")
+
+    # 네비게이션 [🌐 English] 언어 전환 버튼 주입
+    pos_ins = t.find('href="/insight/index_insight.html">인사이트</a>')
+    if pos_ins != -1:
+        pos_end_ul = t.find('</ul>', pos_ins) + 5
+        nav_tail = t[pos_ins:pos_end_ul]
+        lang_btn_ko = (
+            f'<li class="nav-item ms-lg-2 my-1 my-lg-0">'
+            f'<a class="btn btn-sm btn-outline-secondary d-inline-flex align-items-center gap-1" '
+            f'href="{SITE}/en/ranking/"><i class="bi bi-globe"></i> English</a></li>'
+            f'\n                </ul>'
+        )
+        t = replace_once(t, nav_tail, nav_tail[:-5] + lang_btn_ko, "nav lang toggle ko")
 
     # baked 콘텐츠: #result-area 에 주입
     baked_html = build_baked_content()
