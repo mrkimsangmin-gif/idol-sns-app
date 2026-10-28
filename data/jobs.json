@@ -2,61 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 1114,
-      "company": "하이브",
-      "position": "뮤직사업 전략팀장",
-      "category": "기타",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-10-27",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49879498",
-      "source": "잡코리아"
-    },
-    {
-      "id": 1115,
-      "company": "하이브",
-      "position": "음원/음반 마케팅&프로모션",
-      "category": "마케팅",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-10-27",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49879462",
-      "source": "잡코리아"
-    },
-    {
-      "id": 1116,
-      "company": "하이브",
-      "position": "글로벌 아티스트 전략팀 팀장",
-      "category": "기타",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-10-27",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49879424",
-      "source": "잡코리아"
-    },
-    {
-      "id": 1117,
-      "company": "하이브",
-      "position": "SNS운영",
-      "category": "마케팅",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-10-27",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49879380",
-      "source": "잡코리아"
-    },
-    {
-      "id": 1119,
-      "company": "모드하우스",
-      "position": "숏폼 콘텐츠 담당자",
-      "category": "기타",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-10-27",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49878338",
-      "source": "잡코리아"
-    },
-    {
       "id": 1268,
       "company": "인코오드(iNKode)",
       "position": "영상콘텐츠 제작팀 편집 PD 모집",
@@ -2301,17 +2246,6 @@
       "source": "하이브"
     },
     {
-      "id": 1168,
-      "company": "Blue Garage",
-      "position": "마케터",
-      "category": "마케팅",
-      "career": "경력 1년 이상",
-      "location": "서울 강동구",
-      "deadline": "상시채용",
-      "url": "https://recruit-apply.jype.com/o/236023",
-      "source": "JYP엔터테인먼트"
-    },
-    {
       "id": 1178,
       "company": "HYBE CHINA",
       "position": "아티스트 프로모션",
@@ -3487,6 +3421,17 @@
       "deadline": "상시채용",
       "url": "https://recruit-apply.jype.com/o/241967",
       "source": "기타"
+    },
+    {
+      "id": 1465,
+      "company": "HYBE",
+      "position": "아티스트 컨시어지_라운지 공간 운영 및 식음보조*",
+      "category": "경영지원",
+      "career": "경력 2년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/242060",
+      "source": "하이브"
     }
   ],
   "categories": [
@@ -3502,5 +3447,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-10-27T09:19:22.890086"
+  "updatedAt": "2026-10-28T09:06:56.241103"
 }
