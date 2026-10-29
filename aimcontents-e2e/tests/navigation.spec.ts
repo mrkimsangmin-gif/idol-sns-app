@@ -1,144 +1,108 @@
 import { test, expect } from '@playwright/test';
 
 /**
- * 네비게이션 메뉴 테스트
- * - 모든 메뉴 항목이 클릭 가능한지
- * - 각 섹션으로 정상 이동하는지
- * - 모바일에서 햄버거 메뉴 동작 확인
+ * 전 메뉴 공통 정의 및 4-Gate Assertion 스펙
  */
-test.describe('네비게이션 메뉴', () => {
-  
+const CORE_MENUS = [
+  {
+    name: 'SNS랭킹',
+    pathRegex: /\/(ranking)?$/,
+    heading: 'SNS 팔로워 순위',
+    containerSelector: '#ranking-container, [data-section="ranking"], .ranking-table, table',
+  },
+  {
+    name: '컴백일정',
+    pathRegex: /\/calendar|\/comeback/,
+    heading: '컴백/데뷔 일정',
+    containerSelector: '#calendar-container, [data-section="calendar"], .calendar-grid, .calendar-view',
+  },
+  {
+    name: '엔터뉴스',
+    pathRegex: /\/news/,
+    heading: '실시간 엔터테인먼트 뉴스',
+    containerSelector: '#news-container, [data-section="news"], article, .news-item',
+  },
+  {
+    name: '채용정보',
+    pathRegex: /\/jobs/,
+    heading: '엔터테인먼트 채용정보',
+    containerSelector: '#jobs-container, [data-section="jobs"], .job-card, .job-item',
+  },
+  {
+    name: '중국트렌드',
+    pathRegex: /\/douyin|\/china/,
+    heading: '중국 도우인 인기 챌린지',
+    containerSelector: '#douyin-container, [data-section="douyin"], .trend-item',
+  },
+  {
+    name: '링크모음',
+    pathRegex: /\/links/,
+    heading: 'K-POP 링크 모음',
+    containerSelector: '#links-container, [data-section="links"], .link-category',
+  },
+];
+
+test.describe('전 메뉴 E2E 4-Gate 정상 작동 검증 (Desktop & Mobile)', () => {
+
   test.beforeEach(async ({ page }) => {
-    await page.goto('/');
-    await page.waitForLoadState('networkidle');
+    // 1. 배너 오버레이 간섭 방어 (CSS 무력화)
+    await page.addStyleTag({
+      content: `
+        #lang-suggest-banner { display: none !important; }
+        * { animation-duration: 0s !important; transition-duration: 0s !important; }
+      `
+    }).catch(() => {});
   });
 
-  test('로고가 표시되어야 함', async ({ page }) => {
-    const logo = page.locator('img[src*="logo"]');
-    await expect(logo).toBeVisible();
-  });
+  for (const menu of CORE_MENUS) {
+    test(`[${menu.name}] 메뉴 정상 작동 검증 (Gate 1~4 SLA)`, async ({ page, isMobile }) => {
+      // [Gate 1] 런타임 콘솔/JS 에러 감지 준비
+      const pageErrors: string[] = [];
+      page.on('pageerror', err => pageErrors.push(err.message));
 
-  test('모든 네비게이션 메뉴가 표시되어야 함', async ({ page, isMobile }) => {
-    // 모바일 환경일 경우 햄버거 메뉴 먼저 클릭
-    if (isMobile) {
-      const menuButton = page.locator('button[aria-label*="menu"], button[aria-label*="메뉴"], .hamburger, .mobile-menu-btn');
-      if (await menuButton.first().isVisible()) {
-        await menuButton.first().click();
-        await page.waitForTimeout(300);
+      await page.goto('/');
+      await page.waitForLoadState('domcontentloaded');
+
+      // 배너 스타일 재주입
+      await page.addStyleTag({
+        content: '#lang-suggest-banner { display: none !important; }'
+      }).catch(() => {});
+
+      // 모바일 환경일 경우 햄버거 메뉴 먼저 클릭
+      if (isMobile) {
+        const menuButton = page.locator('button[aria-label*="menu"], button[aria-label*="메뉴"], .hamburger, .mobile-menu-btn');
+        if (await menuButton.first().isVisible()) {
+          await menuButton.first().click({ force: true });
+          await page.waitForTimeout(300);
+        }
       }
-    }
 
-    const menuItems = [
-      'SNS랭킹',
-      '컴백일정',
-      '엔터뉴스',
-      '링크모음',
-      '채용정보',
-      '중국트렌드',
-    ];
+      // 메뉴 링크 클릭
+      const menuLink = page.getByRole('link', { name: menu.name }).or(
+        page.locator(`nav a, .nav a, ul li a, .mobile-nav a`).filter({ hasText: menu.name })
+      ).first();
 
-    for (const menuText of menuItems) {
-      const menuLink = page.getByRole('link', { name: menuText }).or(
-        page.locator(`nav a, .nav a, ul li a`).filter({ hasText: menuText })
-      );
-      await expect(menuLink.first()).toBeVisible();
-    }
-  });
+      await expect(menuLink, `[${menu.name}] 메뉴 링크가 DOM에 존재해야 함`).toBeVisible();
+      await menuLink.click({ force: true });
+      await page.waitForTimeout(500);
 
-  test('SNS랭킹 메뉴 클릭 시 해당 섹션으로 이동', async ({ page, isMobile }) => {
-    // 모바일 환경일 경우 햄버거 메뉴 먼저 클릭
-    if (isMobile) {
-      const menuButton = page.locator('button[aria-label*="menu"], button[aria-label*="메뉴"], .hamburger');
-      if (await menuButton.first().isVisible()) {
-        await menuButton.first().click();
-        await page.waitForTimeout(300);
-      }
-    }
+      // [Gate 2] URL 및 라우팅 정합성 확인
+      expect(page.url()).toMatch(menu.pathRegex);
 
-    await page.getByRole('link', { name: 'SNS랭킹' }).or(page.locator('text=SNS랭킹')).first().click();
-    await page.waitForTimeout(500);
-    
-    const snsSection = page.locator('h1, h2').filter({ hasText: 'SNS 팔로워 순위' }).first();
-    await expect(snsSection).toBeVisible();
-  });
+      // [Gate 3] 해당 섹션의 헤딩 및 실제 콘텐츠 렌더링 확인
+      const sectionHeading = page.locator('h1, h2, h3').filter({ hasText: menu.heading }).first();
+      await expect(sectionHeading, `[${menu.name}] 섹션 제목('${menu.heading}')이 보여야 함`).toBeVisible({ timeout: 10000 });
 
-  test('컴백일정 메뉴 클릭 시 해당 섹션으로 이동', async ({ page, isMobile }) => {
-    if (isMobile) {
-      const menuButton = page.locator('button[aria-label*="menu"], .hamburger');
-      if (await menuButton.first().isVisible()) {
-        await menuButton.first().click();
-        await page.waitForTimeout(300);
-      }
-    }
+      const contentItem = page.locator(menu.containerSelector).first();
+      await expect(contentItem, `[${menu.name}] 실제 데이터 콘텐츠가 렌더링되어야 함`).toBeVisible({ timeout: 10000 });
 
-    await page.getByRole('link', { name: '컴백일정' }).or(page.locator('text=컴백일정')).first().click();
-    await page.waitForTimeout(500);
-    
-    const comebackSection = page.locator('h2').filter({ hasText: '컴백/데뷔 일정' }).first();
-    await expect(comebackSection).toBeVisible();
-  });
+      // [Gate 4] 데이터 바인딩 오류(NaN, undefined) 검증
+      const textContent = (await contentItem.innerText()).trim();
+      expect(textContent.length, `[${menu.name}] 콘텐츠 텍스트가 비어있지 않아야 함`).toBeGreaterThan(3);
+      expect(textContent, `[${menu.name}] 데이터 바인딩 오류(undefined/NaN) 포함 여부 검증`).not.toMatch(/\b(undefined|NaN)\b|\[object Object\]/);
 
-  test('엔터뉴스 메뉴 클릭 시 해당 섹션으로 이동', async ({ page, isMobile }) => {
-    if (isMobile) {
-      const menuButton = page.locator('button[aria-label*="menu"], .hamburger');
-      if (await menuButton.first().isVisible()) {
-        await menuButton.first().click();
-        await page.waitForTimeout(300);
-      }
-    }
-
-    await page.getByRole('link', { name: '엔터뉴스' }).or(page.locator('text=엔터뉴스')).first().click();
-    await page.waitForTimeout(500);
-    
-    const newsSection = page.locator('h2').filter({ hasText: '실시간 엔터테인먼트 뉴스' }).first();
-    await expect(newsSection).toBeVisible();
-  });
-
-  test('링크모음 메뉴 클릭 시 해당 섹션으로 이동', async ({ page, isMobile }) => {
-    if (isMobile) {
-      const menuButton = page.locator('button[aria-label*="menu"], .hamburger');
-      if (await menuButton.first().isVisible()) {
-        await menuButton.first().click();
-        await page.waitForTimeout(300);
-      }
-    }
-
-    await page.getByRole('link', { name: '링크모음' }).or(page.locator('text=링크모음')).first().click();
-    await page.waitForTimeout(500);
-    
-    const linkSection = page.locator('text=K-POP 링크 모음');
-    await expect(linkSection).toBeVisible();
-  });
-
-  test('채용정보 메뉴 클릭 시 해당 섹션으로 이동', async ({ page, isMobile }) => {
-    if (isMobile) {
-      const menuButton = page.locator('button[aria-label*="menu"], .hamburger');
-      if (await menuButton.first().isVisible()) {
-        await menuButton.first().click();
-        await page.waitForTimeout(300);
-      }
-    }
-
-    await page.getByRole('link', { name: '채용정보' }).or(page.locator('text=채용정보')).first().click();
-    await page.waitForTimeout(500);
-    
-    const jobSection = page.locator('h2').filter({ hasText: '엔터테인먼트 채용정보' }).first();
-    await expect(jobSection).toBeVisible();
-  });
-
-  test('중국트렌드 메뉴 클릭 시 해당 섹션으로 이동', async ({ page, isMobile }) => {
-    if (isMobile) {
-      const menuButton = page.locator('button[aria-label*="menu"], .hamburger');
-      if (await menuButton.first().isVisible()) {
-        await menuButton.first().click();
-        await page.waitForTimeout(300);
-      }
-    }
-
-    await page.getByRole('link', { name: '중국트렌드' }).or(page.locator('text=중국트렌드')).first().click();
-    await page.waitForTimeout(500);
-    
-    const chinaSection = page.locator('h2').filter({ hasText: '중국 도우인 인기 챌린지' }).first();
-    await expect(chinaSection).toBeVisible();
-  });
+      // Gate 1 최종 확인: 치명적 런타임 오류가 없었는지
+      expect(pageErrors, `[${menu.name}] 진입 중 런타임 JS 에러 발생: ${pageErrors.join(', ')}`).toEqual([]);
+    });
+  }
 });

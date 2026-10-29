@@ -51,8 +51,8 @@ jobs:
       - name: List available tests
         run: npx playwright test --list --project="Desktop Chrome" 2>&1 || true
 
-      - name: Run Playwright tests
-        run: npx playwright test --project="Desktop Chrome"
+      - name: Run 2-Tier E2E Tests (Desktop Chrome + Mobile Chrome CDP)
+        run: npx playwright test --project="Desktop Chrome" --project="Mobile Chrome"
         env:
           CI: true
 
