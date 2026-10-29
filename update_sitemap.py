@@ -50,6 +50,10 @@ def generate_sitemap():
         ('/douyin/',       ROOT / 'douyin' / 'index.html',   data / 'douyin-challenges.json','weekly',  '0.8'),
         ('/namu/',         ROOT / 'namu' / 'index.html',     data / 'namu-index.json',      'weekly',  '0.9'),
         ('/jobs/',         ROOT / 'jobs' / 'index.html',     data / 'jobs.json',            'daily',   '0.7'),
+        ('/en/',           ROOT / 'en' / 'index.html',       ROOT / 'index.html',           'daily',   '1.0'),
+        ('/en/ranking/',   ROOT / 'en' / 'ranking' / 'index.html', data / 'sns-male.json',   'daily',   '0.9'),
+        ('/en/comeback/',  ROOT / 'en' / 'comeback' / 'index.html', data / 'calendar.json',  'daily',   '0.8'),
+        ('/en/news/',      ROOT / 'en' / 'news' / 'index.html', data / 'namu-index.json',   'daily',   '0.7'),
         ('/en/jobs/',      ROOT / 'en' / 'jobs' / 'index.html', data / 'jobs.json',          'daily',   '0.7'),
         ('/comeback/',     ROOT / 'comeback' / 'index.html', data / 'calendar.json',        'daily',   '0.8'),
         ('/methodology/',  ROOT / 'methodology' / 'index.html', data / 'namu-index.json',   'monthly', '0.5'),
@@ -61,17 +65,24 @@ def generate_sitemap():
         static_count += 1
         urls.append(url_block(f'{BASE}{path}', lastmod_of(src), freq, pr))
 
-    # 2) 나무위키 그룹 (정적 페이지 존재분만), lastmod = 원천 per-group json mtime
+    # 2) 나무위키 그룹 (KO & EN 정적 페이지 존재분), lastmod = namu-index.generated
     idx = json.loads((data / 'namu-index.json').read_text(encoding='utf-8'))
     group_count = 0
+    en_group_count = 0
     for g in idx.get('groups', []):
         slug = g.get('slug', '')
-        page = ROOT / 'namu' / slug / 'index.html'
-        if not slug or not page.exists():
+        if not slug:
             continue
-        group_count += 1
-        # per-group json엔 generated가 없음 → 그룹 데이터셋 갱신 시점(namu-index.generated) 사용
-        urls.append(url_block(f'{BASE}/namu/{slug}/', lastmod_of(data / 'namu-index.json'), 'weekly', '0.6'))
+        # 한국어 페이지
+        page_ko = ROOT / 'namu' / slug / 'index.html'
+        if page_ko.exists():
+            group_count += 1
+            urls.append(url_block(f'{BASE}/namu/{slug}/', lastmod_of(data / 'namu-index.json'), 'weekly', '0.6'))
+        # 영문 페이지
+        page_en = ROOT / 'en' / 'namu' / slug / 'index.html'
+        if page_en.exists():
+            en_group_count += 1
+            urls.append(url_block(f'{BASE}/en/namu/{slug}/', lastmod_of(data / 'namu-index.json'), 'weekly', '0.6'))
 
     # 3) 월별 랭킹 (정적 생성분), lastmod = 성별별 원천 SNS json mtime
     ranking_root = ROOT / 'ranking'
@@ -84,10 +95,11 @@ def generate_sitemap():
             ranking_count += 1
             urls.append(url_block(f'{BASE}/ranking/{rel}/', lastmod_of(src), 'monthly', '0.7'))
 
-    # 4) 월간 흥행 차트 (/monthly/<YYYY-MM>/[<gender>/] + 랜딩), 정적 생성분만.
+    # 4) 월간 흥행 차트 (KO /monthly/ & EN /en/monthly/), 정적 생성분만.
     #    lastmod = 해당 월 말일(결정적 — 데이터 내용에서 파생, 파일 mtime 미사용).
     import calendar
     monthly_root = ROOT / 'monthly'
+    en_monthly_root = ROOT / 'en' / 'monthly'
     monthly_count = 0
     if monthly_root.exists():
         for page in sorted(monthly_root.glob('**/index.html')):
@@ -99,9 +111,20 @@ def generate_sitemap():
             except Exception:
                 lm = TODAY
             monthly_count += 1
-            # 랜딩(월 1depth)은 0.8, 성별 차트는 플래그십이라 0.9
             pr = '0.8' if '/' not in rel else '0.9'
             urls.append(url_block(f'{BASE}/monthly/{rel}/', lm, 'monthly', pr))
+    if en_monthly_root.exists():
+        for page in sorted(en_monthly_root.glob('**/index.html')):
+            rel = page.parent.relative_to(en_monthly_root).as_posix()
+            month = rel.split('/')[0]
+            try:
+                y, mo = int(month[:4]), int(month[5:7])
+                lm = f'{month}-{calendar.monthrange(y, mo)[1]:02d}'
+            except Exception:
+                lm = TODAY
+            monthly_count += 1
+            pr = '0.8' if '/' not in rel else '0.9'
+            urls.append(url_block(f'{BASE}/en/monthly/{rel}/', lm, 'monthly', pr))
 
     xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

@@ -166,19 +166,16 @@ def generate_en_jobs():
          '188개 아이돌 그룹의 숏폼 참여율(ER), 컴백 일정, 나무위키 정보를 매주/매월 업데이트합니다.">'),
         f'content="{esc(desc)}">', "meta description")
 
-    # 2. Canonical & Hreflang
+    # 2. Canonical & Hreflang (clean up existing links first)
+    t = re.sub(r'<link rel="canonical"[^>]*>\s*', '', t)
+    t = re.sub(r'<link rel="alternate"[^>]*>\s*', '', t)
     canonical_block = (
         f'<link rel="canonical" href="{URL_EN}">\n'
         f'    <link rel="alternate" hreflang="ko" href="{URL_KO}">\n'
         f'    <link rel="alternate" hreflang="en" href="{URL_EN}">\n'
         f'    <link rel="alternate" hreflang="x-default" href="{URL_KO}">'
     )
-    t = replace_once(
-        t,
-        '<link rel="canonical" href="https://aimcontents.com/">',
-        canonical_block,
-        "canonical",
-    )
+    t = replace_once(t, '</head>', f'{canonical_block}\n</head>', "canonical + hreflang")
 
     # 3. Open Graph
     t = replace_once(
@@ -333,6 +330,20 @@ def generate_en_jobs():
         '<a href="/jobs" class="mobile-nav-item active" data-page="jobs"',
         "mobile-nav jobs active",
     )
+
+    # 9.5 네비게이션 언어 토글 교체 (English -> 한국어)
+    korean_toggle = (
+        f'<li class="nav-item ms-lg-2 my-1 my-lg-0">'
+        f'<a class="btn btn-sm btn-outline-secondary d-inline-flex align-items-center gap-1" '
+        f'href="{URL_KO}"><i class="bi bi-globe"></i> 한국어</a></li>'
+    )
+    if 'href="https://aimcontents.com/en/"><i class="bi bi-globe"></i> English</a></li>' in t:
+        t = replace_once(
+            t,
+            '<li class="nav-item ms-lg-2 my-1 my-lg-0"><a class="btn btn-sm btn-outline-secondary d-inline-flex align-items-center gap-1" href="https://aimcontents.com/en/"><i class="bi bi-globe"></i> English</a></li>',
+            korean_toggle,
+            "nav lang toggle replace jobs"
+        )
 
     # 10. 공통 쉘 완전 영문화 (GNB, 모달, 언어선택기 등)
     t = localize_shell_to_en(t, noscript_mode="strip")

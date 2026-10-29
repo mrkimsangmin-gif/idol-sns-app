@@ -618,13 +618,15 @@ def build_group_page_ko(slug):
     t = replace_once(t, home_desc_anchor, f'content="{esc(desc)}">', "meta description")
     
     # hreflang + canonical
+    t = re.sub(r'<link rel="canonical"[^>]*>\s*', '', t)
+    t = re.sub(r'<link rel="alternate"[^>]*>\s*', '', t)
     seo_links = (
         f'<link rel="canonical" href="{url_ko}">\n'
         f'    <link rel="alternate" hreflang="ko" href="{url_ko}">\n'
         f'    <link rel="alternate" hreflang="en" href="{url_en}">\n'
         f'    <link rel="alternate" hreflang="x-default" href="{url_ko}">'
     )
-    t = replace_once(t, '<link rel="canonical" href="https://aimcontents.com/">', seo_links, "canonical + hreflang")
+    t = replace_once(t, '</head>', f'{seo_links}\n</head>', "canonical + hreflang")
 
     t = replace_once(t, '<meta property="og:url" content="https://aimcontents.com/">',
                      f'<meta property="og:url" content="{url_ko}">', "og:url")
@@ -662,17 +664,24 @@ def build_group_page_ko(slug):
         "home h1 demote",
     )
 
-    # 3) 상단 네비게이션에 [🌐 English] 전환 토글 주입
-    pos_ins = t.find('index_insight.html')
-    pos_end_ul = t.find('</ul>', pos_ins) + 5
-    nav_tail = t[pos_ins:pos_end_ul]
-    lang_btn_ko = (
+    # 3) 상단 네비게이션에 [🌐 English] 전환 토글 주입 (중복 방지)
+    en_toggle = (
         f'<li class="nav-item ms-lg-2 my-1 my-lg-0">'
         f'<a class="btn btn-sm btn-outline-secondary d-inline-flex align-items-center gap-1" '
         f'href="{url_en}"><i class="bi bi-globe"></i> English</a></li>'
-        f'\n                </ul>'
     )
-    t = replace_once(t, nav_tail, nav_tail[:-5] + lang_btn_ko, "nav lang toggle ko")
+    if 'href="https://aimcontents.com/en/"><i class="bi bi-globe"></i> English</a></li>' in t:
+        t = replace_once(
+            t,
+            '<li class="nav-item ms-lg-2 my-1 my-lg-0"><a class="btn btn-sm btn-outline-secondary d-inline-flex align-items-center gap-1" href="https://aimcontents.com/en/"><i class="bi bi-globe"></i> English</a></li>',
+            en_toggle,
+            "nav lang toggle replace ko"
+        )
+    else:
+        pos_ins = t.find('index_insight.html')
+        pos_end_ul = t.find('</ul>', pos_ins) + 5
+        nav_tail = t[pos_ins:pos_end_ul]
+        t = replace_once(t, nav_tail, nav_tail[:-5] + en_toggle + '\n                </ul>', "nav lang toggle ko")
 
     # 4) 봇용 가시 콘텐츠
     t = replace_once(t, '<section id="page-home" class="page-section">',
@@ -725,14 +734,16 @@ def build_group_page_en(slug):
                         '188개 아이돌 그룹의 숏폼 참여율(ER), 컴백 일정, 나무위키 정보를 매주/매월 업데이트합니다.">')
     t = replace_once(t, home_desc_anchor, f'content="{esc(desc)}">', "meta description en")
     
-    # hreflang + canonical
+    # hreflang + canonical (clean up existing links first)
+    t = re.sub(r'<link rel="canonical"[^>]*>\s*', '', t)
+    t = re.sub(r'<link rel="alternate"[^>]*>\s*', '', t)
     seo_links = (
         f'<link rel="canonical" href="{url_en}">\n'
         f'    <link rel="alternate" hreflang="ko" href="{url_ko}">\n'
         f'    <link rel="alternate" hreflang="en" href="{url_en}">\n'
         f'    <link rel="alternate" hreflang="x-default" href="{url_ko}">'
     )
-    t = replace_once(t, '<link rel="canonical" href="https://aimcontents.com/">', seo_links, "canonical + hreflang en")
+    t = replace_once(t, '</head>', f'{seo_links}\n</head>', "canonical + hreflang en")
 
     t = replace_once(t, '<meta property="og:url" content="https://aimcontents.com/">',
                      f'<meta property="og:url" content="{url_en}">', "og:url en")
@@ -782,16 +793,23 @@ def build_group_page_en(slug):
     t = replace_once(t, 'route(\'vendors\')">업체정보</a>', 'route(\'vendors\')">Vendors</a>', "nav vendors en")
     t = replace_once(t, 'href="/insight/index_insight.html">인사이트</a>', 'href="/insight/index_insight.html">Insights</a>', "nav insights en")
 
-    pos_ins = t.find('index_insight.html')
-    pos_end_ul = t.find('</ul>', pos_ins) + 5
-    nav_tail = t[pos_ins:pos_end_ul]
-    lang_btn_en = (
+    ko_toggle = (
         f'<li class="nav-item ms-lg-2 my-1 my-lg-0">'
         f'<a class="btn btn-sm btn-outline-secondary d-inline-flex align-items-center gap-1" '
         f'href="{url_ko}"><i class="bi bi-globe"></i> 한국어</a></li>'
-        f'\n                </ul>'
     )
-    t = replace_once(t, nav_tail, nav_tail[:-5] + lang_btn_en, "nav lang toggle en")
+    if 'href="https://aimcontents.com/en/"><i class="bi bi-globe"></i> English</a></li>' in t:
+        t = replace_once(
+            t,
+            '<li class="nav-item ms-lg-2 my-1 my-lg-0"><a class="btn btn-sm btn-outline-secondary d-inline-flex align-items-center gap-1" href="https://aimcontents.com/en/"><i class="bi bi-globe"></i> English</a></li>',
+            ko_toggle,
+            "nav lang toggle replace en"
+        )
+    else:
+        pos_ins = t.find('index_insight.html')
+        pos_end_ul = t.find('</ul>', pos_ins) + 5
+        nav_tail = t[pos_ins:pos_end_ul]
+        t = replace_once(t, nav_tail, nav_tail[:-5] + ko_toggle + '\n                </ul>', "nav lang toggle en")
 
     # 4) 봇용 가시 콘텐츠
     t = replace_once(t, '<section id="page-home" class="page-section">',

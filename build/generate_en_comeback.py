@@ -290,18 +290,20 @@ def generate_en_comeback():
     t = replace_once(t, '<section id="page-comeback" class="page-section d-none">',
                      '<section id="page-comeback" class="page-section">', "show page-comeback")
 
-    # 3. html lang & meta
+    # 3. html lang & meta (clean up existing canonical & alternates)
     t = replace_once(t, '<html lang="ko">', '<html lang="en">', "html lang")
+    t = re.sub(r'<link rel="canonical"[^>]*>\s*', '', t)
+    t = re.sub(r'<link rel="alternate"[^>]*>\s*', '', t)
 
     title = f"K-POP Comeback Schedule 2026 — {m_name} Idol Debuts & Releases | AIMCONTENTS"
     desc = f"Comprehensive 2026 K-POP idol comeback and debut schedule for {m_name}. Daily release dates, teasers, music video releases, and official profiles."
 
     t = re.sub(r'<title>.*?</title>', f'<title>{esc(title)}</title>', t, count=1)
     t = re.sub(r'<meta name="description"[^>]*>', f'<meta name="description" content="{esc(desc)}">', t, count=1)
-    t = re.sub(r'<link rel="canonical"[^>]*>', f'<link rel="canonical" href="{URL_EN}">', t, count=1)
 
     hreflang_tags = (
-        f'<link rel="alternate" hreflang="ko" href="{URL_KO}">\n'
+        f'<link rel="canonical" href="{URL_EN}">\n'
+        f'    <link rel="alternate" hreflang="ko" href="{URL_KO}">\n'
         f'    <link rel="alternate" hreflang="en" href="{URL_EN}">\n'
         f'    <link rel="alternate" hreflang="x-default" href="{URL_KO}">'
     )

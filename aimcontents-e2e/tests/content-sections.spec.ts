@@ -5,35 +5,11 @@ import { test, expect } from '@playwright/test';
  * - 뉴스 로딩
  * - 도우인 챌린지 로딩
  */
-test.describe('실시간 엔터뉴스 섹션', () => {
-  
-  test.beforeEach(async ({ page }) => {
-    await page.goto('/');
-    await page.waitForLoadState('networkidle');
-    await page.click('text=엔터뉴스');
-    await page.waitForTimeout(500);
-  });
-
-  test('엔터뉴스 제목이 표시되어야 함', async ({ page }) => {
-    const title = page.locator('text=실시간 엔터테인먼트 뉴스').first();
-    await expect(title).toBeVisible();
-  });
-
-  test('뉴스가 로딩되거나 로딩 메시지가 표시되어야 함', async ({ page }) => {
-    // 로딩 중 또는 뉴스 아이템 확인
-    const loadingText = page.locator('text=뉴스를 불러오는 중');
-    const newsItems = page.locator('[class*="news"], article, [class*="item"]');
-
-    // 최대 10초 대기
-    await page.waitForTimeout(3000);
-
-    const isLoading = await loadingText.isVisible().catch(() => false);
-    const hasNews = await newsItems.first().isVisible().catch(() => false);
-
-    // 로딩 중이거나 뉴스가 있거나 둘 중 하나
-    expect(isLoading || hasNews).toBeTruthy();
-  });
-
+/**
+ * [독립 데이터 헬스체크]
+ * UI 탐색 및 배너 오버레이와 무관하게 24시간 이내 뉴스 데이터 신선도를 독립 검증
+ */
+test.describe('엔터뉴스 데이터 신선도 헬스체크 (API/Data SLA)', () => {
   test('엔터뉴스가 24시간 이내 최신 뉴스로 업데이트되어 있어야 함', async ({ page }) => {
     const res = await page.request.get('/data/news.json');
     expect(res.ok()).toBeTruthy();
@@ -56,6 +32,43 @@ test.describe('실시간 엔터뉴스 섹션', () => {
       return !isNaN(t) && (now - t) < ONE_DAY_MS;
     });
     expect(freshArticles.length).toBeGreaterThan(0);
+  });
+});
+
+/**
+ * 엔터뉴스 UI 섹션 테스트
+ * - 배너 오버레이 방어 (addStyleTag / force click)
+ * - 뉴스 렌더링 확인
+ */
+test.describe('실시간 엔터뉴스 UI 섹션', () => {
+  
+  test.beforeEach(async ({ page }) => {
+    await page.goto('/');
+    await page.waitForLoadState('networkidle');
+    // 상단 다국어 배너(#lang-suggest-banner)가 클릭을 가로채지 못하도록 CSS 무력화 주입
+    await page.addStyleTag({ content: '#lang-suggest-banner { display: none !important; }' }).catch(() => {});
+    await page.click('text=엔터뉴스', { force: true });
+    await page.waitForTimeout(500);
+  });
+
+  test('엔터뉴스 제목이 표시되어야 함', async ({ page }) => {
+    const title = page.locator('text=실시간 엔터테인먼트 뉴스').first();
+    await expect(title).toBeVisible();
+  });
+
+  test('뉴스가 로딩되거나 로딩 메시지가 표시되어야 함', async ({ page }) => {
+    // 로딩 중 또는 뉴스 아이템 확인
+    const loadingText = page.locator('text=뉴스를 불러오는 중');
+    const newsItems = page.locator('[class*="news"], article, [class*="item"]');
+
+    // 최대 10초 대기
+    await page.waitForTimeout(3000);
+
+    const isLoading = await loadingText.isVisible().catch(() => false);
+    const hasNews = await newsItems.first().isVisible().catch(() => false);
+
+    // 로딩 중이거나 뉴스가 있거나 둘 중 하나
+    expect(isLoading || hasNews).toBeTruthy();
   });
 });
 

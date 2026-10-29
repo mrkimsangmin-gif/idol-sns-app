@@ -201,20 +201,24 @@ def generate_en_ranking():
     # 1) html lang
     text = replace_once(text, '<html lang="ko">', '<html lang="en">', "html lang")
 
+    # 1.5) Clean up existing shell canonical and alternate links before injecting new ones
+    text = re.sub(r'<link rel="canonical"[^>]*>\s*', '', text)
+    text = re.sub(r'<link rel="alternate"[^>]*>\s*', '', text)
+
     # 2) title, description, canonical, hreflang
     title = "K-POP Idol SNS & Global Follower Rankings | AIMCONTENTS"
     desc = "Compare K-POP idol follower rankings and engagement across YouTube, TikTok, Instagram, Weibo, Spotify, and Bilibili. Track verified real-time metrics for 199+ groups."
 
     text = re.sub(r'<title>.*?</title>', f'<title>{esc(title)}</title>', text, count=1)
     text = re.sub(r'<meta name="description"[^>]*>', f'<meta name="description" content="{esc(desc)}">', text, count=1)
-    text = re.sub(r'<link rel="canonical"[^>]*>', f'<link rel="canonical" href="{URL_EN}">', text, count=1)
 
-    hreflang_tags = (
-        f'<link rel="alternate" hreflang="ko" href="{URL_KO}">\n'
+    seo_tags = (
+        f'<link rel="canonical" href="{URL_EN}">\n'
+        f'    <link rel="alternate" hreflang="ko" href="{URL_KO}">\n'
         f'    <link rel="alternate" hreflang="en" href="{URL_EN}">\n'
         f'    <link rel="alternate" hreflang="x-default" href="{URL_KO}">'
     )
-    text = replace_once(text, '</head>', f'{hreflang_tags}\n{build_en_jsonld()}\n</head>', "head close")
+    text = replace_once(text, '</head>', f'{seo_tags}\n{build_en_jsonld()}\n</head>', "head close")
 
     # OG / Twitter
     text = re.sub(r'<meta property="og:title"[^>]*>', f'<meta property="og:title" content="{esc(title)}">', text, count=1)
@@ -341,7 +345,9 @@ def generate_en_ranking():
     out_dir = ROOT / "en" / "ranking"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_file = out_dir / "index.html"
-    text = localize_shell_to_en(text, noscript_mode="strip")
+    # Strip Korean SEO article & noscript to eliminate 1,200 chars of Korean static block
+    text = re.sub(r'<article id="seo-static-content".*?</article>', '', text, flags=re.DOTALL)
+    text = re.sub(r'<noscript>.*?</noscript>', '', text, flags=re.DOTALL)
     text = localize_shell_to_en(text, noscript_mode="strip")
     
     # Translate ranking SEO static article

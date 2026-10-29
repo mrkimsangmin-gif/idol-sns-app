@@ -72,6 +72,30 @@ jobs:
           path: aimcontents-e2e/test-results/
           retention-days: 7
 
+      # 헬스체크/뉴스 지연 감지 시 원격 자동 복구(Auto-healing) 시도
+      - name: Auto-heal stale news data
+        if: failure()
+        run: |
+          echo "[AUTO-HEAL] E2E 테스트 실패 감지 - 뉴스 데이터 신선도 확인 및 긴급 복구 실행..."
+          # Python으로 update_news.py 실행하여 최신 뉴스 수집
+          python update_news.py --archive
+          
+          # Git 변경사항 확인 및 origin/main에 자동 푸시
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/news.json data/news-archive.csv
+          if ! git diff --cached --quiet; then
+            echo "[AUTO-HEAL] 수집된 최신 뉴스를 main에 커밋 및 푸시합니다."
+            git commit -m "auto: [AUTO-HEAL] E2E 실패 감지 후 엔터뉴스 자동 복구"
+            git pull --rebase --autostash origin main
+            git push origin main
+            echo "[AUTO-HEAL] 자동 복구 커밋 푸시 완료."
+          else
+            echo "[AUTO-HEAL] 뉴스 변경사항 없음 또는 이미 최신 상태."
+          fi
+        working-directory: .
+        continue-on-error: true
+
       # 테스트 실패 시 이메일 알림
       - name: Send failure email
         if: failure()

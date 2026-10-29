@@ -11,11 +11,10 @@ from typing import Any, Dict, List, Optional
 ROOT = Path(__file__).resolve().parent.parent
 GROUPS_DIR = ROOT / "data" / "namu-groups"
 
-# ── 1. HTML 속성(lang, aria-label, placeholder, title, locale) 치환 사전 ───
+# ── 1. HTML 속성(aria-label, placeholder, title) 치환 사전 ───
+# 주의: lang="ko"나 content="ko_KR"를 단순 전체 replace하면 hreflang="ko"나 og 태그 내부까지
+# 원치 않게 덮어써서 상호 hreflang 연결을 파괴하므로 여기서는 제외하고 정규식/전용 블록으로 치환한다.
 ATTR_KO_TO_EN: Dict[str, str] = {
-    'lang="ko"': 'lang="en"',
-    "lang='ko'": "lang='en'",
-    'content="ko_KR"': 'content="en_US"',
     'aria-label="메뉴 열기"': 'aria-label="Open menu"',
     'aria-label="닫기"': 'aria-label="Close"',
     'aria-label="모바일 하단 탐색"': 'aria-label="Mobile Navigation"',
@@ -39,6 +38,8 @@ TEXT_KO_TO_EN: Dict[str, str] = {
     "K-POP 아이돌 데이터베이스 (174개 그룹)": "K-POP Idol Database (174 Groups)",
     "K-POP 아이돌 컴백/데뷔 일정": "K-POP Idol Comeback & Debut Schedule",
     "K-POP 아이돌 나무위키 검색": "K-POP Idol Database & Search",
+    "구글트렌드": "Google Trends",
+    "트렌드": "Trends",
     "실시간 엔터테인먼트 뉴스": "Real-time Entertainment News",
     "엔터테인먼트 채용정보": "Entertainment Careers",
     "엔터테인먼트 업체정보": "K-POP Vendor Directory",
@@ -46,6 +47,10 @@ TEXT_KO_TO_EN: Dict[str, str] = {
     "중국 도우인 인기 챌린지": "Douyin Trending Challenges",
     "조회 월 선택": "Select Month",
     "오늘": "Today",
+    "이전달": "Prev",
+    "다음달": "Next",
+    "일정을 불러오는 중입니다...": "Loading schedule...",
+    "업데이트:": "Updated:",
     "남자": "Male",
     "여자": "Female",
     "웨이보": "Weibo",
@@ -266,7 +271,9 @@ def localize_shell_to_en(
     for rx, repl in REGEX_PATTERNS:
         out = rx.sub(repl, out)
 
-    # 5. <html lang="en"> 강제 보장 (크롬 자동번역 오작동 팝업 원천 방지)
+    # 5. <html lang="en"> 및 og:locale 강제 보장 (크롬 자동번역 오작동 팝업 원천 방지 및 상호 hreflang 보존)
     out = re.sub(r'(<html\b[^>]*?)\blang=["\']ko["\']', r'\1lang="en"', out, count=1, flags=re.IGNORECASE)
+    out = re.sub(r'(<meta\b[^>]*?property=["\']og:locale["\'][^>]*?content=["\'])ko_KR(["\'])', r'\1en_US\2', out, count=1, flags=re.IGNORECASE)
+    out = re.sub(r'(<meta\b[^>]*?content=["\'])ko_KR(["\'][^>]*?property=["\']og:locale["\'])', r'\1en_US\2', out, count=1, flags=re.IGNORECASE)
 
     return out

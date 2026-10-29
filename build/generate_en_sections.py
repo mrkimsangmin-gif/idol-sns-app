@@ -24,13 +24,17 @@ def build_en_home_and_news():
         "<title>K-POP Idol SNS & Discography Analytics | AIMCONTENTS</title>",
         "title en"
     )
+    # Remove existing canonical and alternate links to avoid duplicates
+    t_home = re.sub(r'<link rel="canonical"[^>]*>\s*', '', t_home)
+    t_home = re.sub(r'<link rel="alternate"[^>]*>\s*', '', t_home)
+
     seo_links = (
         '<link rel="canonical" href="https://aimcontents.com/en/">\n'
         '    <link rel="alternate" hreflang="ko" href="https://aimcontents.com/">\n'
         '    <link rel="alternate" hreflang="en" href="https://aimcontents.com/en/">\n'
         '    <link rel="alternate" hreflang="x-default" href="https://aimcontents.com/">'
     )
-    t_home = replace_once(t_home, '<link rel="canonical" href="https://aimcontents.com/">', seo_links, "canonical en")
+    t_home = replace_once(t_home, '</head>', f'{seo_links}\n</head>', "canonical + alternates en")
     
     # Nav labels
     t_home = replace_once(t_home, "route('home')\">SNS랭킹</a>", "route('home')\">SNS Ranking</a>", "nav ranking en")
@@ -44,17 +48,24 @@ def build_en_home_and_news():
     t_home = replace_once(t_home, "route('vendors')\">업체정보</a>", "route('vendors')\">Vendors</a>", "nav vendors en")
     t_home = replace_once(t_home, 'href="/insight/index_insight.html">인사이트</a>', 'href="/insight/index_insight.html">Insights</a>', "nav insights en")
 
-    # Add toggle to EN
-    pos_ins = t_home.find('index_insight.html')
-    pos_end_ul = t_home.find('</ul>', pos_ins) + 5
-    nav_tail = t_home[pos_ins:pos_end_ul]
-    lang_btn_en = (
+    # Replace English toggle with Korean toggle on EN page
+    korean_toggle = (
         '<li class="nav-item ms-lg-2 my-1 my-lg-0">'
         '<a class="btn btn-sm btn-outline-secondary d-inline-flex align-items-center gap-1" '
         'href="https://aimcontents.com/"><i class="bi bi-globe"></i> 한국어</a></li>'
-        '\n                </ul>'
     )
-    t_home = replace_once(t_home, nav_tail, nav_tail[:-5] + lang_btn_en, "nav lang toggle en")
+    if 'href="https://aimcontents.com/en/"><i class="bi bi-globe"></i> English</a></li>' in t_home:
+        t_home = replace_once(
+            t_home,
+            '<li class="nav-item ms-lg-2 my-1 my-lg-0"><a class="btn btn-sm btn-outline-secondary d-inline-flex align-items-center gap-1" href="https://aimcontents.com/en/"><i class="bi bi-globe"></i> English</a></li>',
+            korean_toggle,
+            "nav lang toggle replace"
+        )
+    else:
+        pos_ins = t_home.find('index_insight.html')
+        pos_end_ul = t_home.find('</ul>', pos_ins) + 5
+        nav_tail = t_home[pos_ins:pos_end_ul]
+        t_home = replace_once(t_home, nav_tail, nav_tail[:-5] + korean_toggle + '\n                </ul>', "nav lang toggle en")
 
     # Home Main Headings and UI translation
     t_home = replace_once(t_home, '<h1 class="mb-3 fw-bold fs-5">K-POP 아이돌 SNS 팔로워 순위</h1>',
@@ -347,7 +358,7 @@ def build_en_home_and_news():
     t_news = replace_once(t_news, '<p class="mt-2 text-muted">뉴스를 불러오는 중...</p>',
                           '<p class="mt-2 text-muted">Loading latest K-POP headlines...</p>', "news loading en")
     
-    # Update canonical for news
+    # Update canonical & alternates for news
     seo_links_news = (
         '<link rel="canonical" href="https://aimcontents.com/en/news/">\n'
         '    <link rel="alternate" hreflang="ko" href="https://aimcontents.com/news">\n'
@@ -355,6 +366,8 @@ def build_en_home_and_news():
         '    <link rel="alternate" hreflang="x-default" href="https://aimcontents.com/news">'
     )
     t_news = replace_once(t_news, seo_links, seo_links_news, "canonical news en")
+    t_news = replace_once(t_news, '<h2 class="mb-3 fw-bold fs-5">Real-Time K-POP Entertainment News</h2>',
+                          '<h1 class="mb-3 fw-bold fs-5">Real-Time K-POP Entertainment News</h1>', "news h1")
 
     OUT_NEWS_DIR.mkdir(parents=True, exist_ok=True)
     t_news = localize_shell_to_en(t_news, noscript_mode="strip")
