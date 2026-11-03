@@ -904,6 +904,28 @@
       "source": "사람인"
     },
     {
+      "id": 1480,
+      "company": "엠더블유엔터테인먼트",
+      "position": "(주)엠더블유엔터테인먼트 아티스트/콘텐츠 마케터 채용",
+      "category": "마케팅",
+      "career": "무관",
+      "location": "서울 마포구 월드컵로15길 8 (망원동, WM엔터테인먼트) 5층",
+      "deadline": "2026-12-02",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50285572",
+      "source": "잡코리아"
+    },
+    {
+      "id": 1481,
+      "company": "초이크리에이티브랩",
+      "position": "아티스트 팬 콘텐츠 제작 담당자 (영상팀 / 경력)",
+      "category": "영상",
+      "career": "경력",
+      "location": "서울 양천구 오목로 311 (목동) 6층(목동,초이랩빌딩)",
+      "deadline": "2026-12-02",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50282056",
+      "source": "잡코리아"
+    },
+    {
       "id": 1320,
       "company": "스트레인지랩",
       "position": "사무보조",
@@ -1421,6 +1443,17 @@
       "source": "잡코리아"
     },
     {
+      "id": 1479,
+      "company": "빅히트뮤직",
+      "position": "[BIGHIT MUSIC] 프로덕션 코디네이터 (TXT 담당)",
+      "category": "영상",
+      "career": "경력",
+      "location": "서울 용산구 한강대로 42 (한강로3가, 용산트레이드센터)",
+      "deadline": "2027-01-01",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50290132",
+      "source": "잡코리아"
+    },
+    {
       "id": 1032,
       "company": "JYP엔터테인먼트",
       "position": "프로젝트 어시스턴트 (계약직)",
@@ -1551,17 +1584,6 @@
       "deadline": "상시채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49789162",
       "source": "잡코리아"
-    },
-    {
-      "id": 1078,
-      "company": "HYBE",
-      "position": "YXL BX디자인",
-      "category": "디자인",
-      "career": "경력 3년 이상",
-      "location": "서울 용산구",
-      "deadline": "상시채용",
-      "url": "https://careers.hybecorp.com/ko/o/233409",
-      "source": "하이브"
     },
     {
       "id": 1079,
@@ -2981,6 +3003,39 @@
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/242436",
       "source": "하이브"
+    },
+    {
+      "id": 1482,
+      "company": "리스트 정렬 순서 선택",
+      "position": "전체 68건",
+      "category": "기타",
+      "career": "무관",
+      "location": "",
+      "deadline": "",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/choilab1",
+      "source": "잡코리아"
+    },
+    {
+      "id": 1487,
+      "company": "Weverse Company",
+      "position": "Android개발",
+      "category": "IT",
+      "career": "무관",
+      "location": "경기도 성남시",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/242882",
+      "source": "하이브"
+    },
+    {
+      "id": 1488,
+      "company": "PLEDIS Entertainment",
+      "position": "아티스트 제작팀장 (SVT 담당)",
+      "category": "기타",
+      "career": "경력 10년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/242862",
+      "source": "하이브"
     }
   ],
   "categories": [
@@ -2996,5 +3051,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-11-02T09:36:39.811158"
+  "updatedAt": "2026-11-03T09:37:11.955959"
 }
