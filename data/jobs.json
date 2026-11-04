@@ -2,50 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 1160,
-      "company": "에프엔씨엔터테인먼트",
-      "position": "음악사업4팀 마케팅파트",
-      "category": "마케팅",
-      "career": "신입·경력",
-      "location": "서울 성동구",
-      "deadline": "2026-11-03",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49926941",
-      "source": "잡코리아"
-    },
-    {
-      "id": 1161,
-      "company": "플레디스엔터테인먼트",
-      "position": "퍼포먼스디렉터",
-      "category": "기타",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-11-03",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49925025",
-      "source": "잡코리아"
-    },
-    {
-      "id": 1162,
-      "company": "플레디스엔터테인먼트",
-      "position": "A&R (뮤직 프로덕션)",
-      "category": "프로듀싱",
-      "career": "경력",
-      "location": "서울 용산구",
-      "deadline": "2026-11-03",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49924875",
-      "source": "잡코리아"
-    },
-    {
-      "id": 1163,
-      "company": "빅히트뮤직",
-      "position": "아티스트의전 수행파트 (BTS 담당)",
-      "category": "영업",
-      "career": "무관",
-      "location": "서울 용산구",
-      "deadline": "2026-11-03",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49924219",
-      "source": "잡코리아"
-    },
-    {
       "id": 1442,
       "company": "더라이브레이블",
       "position": "[THEL1VELABEL] 영상 담당자 채용",
@@ -684,6 +640,50 @@
       "source": "잡코리아"
     },
     {
+      "id": 1489,
+      "company": "YG엔터테인먼트",
+      "position": "[4분기 정기채용] IR팀 / IR 담당자 (경력)",
+      "category": "기타",
+      "career": "경력",
+      "location": "서울 마포구",
+      "deadline": "2026-11-23",
+      "url": "https://yg-entertainment.recruiter.co.kr/career/jobs/132893",
+      "source": "기타"
+    },
+    {
+      "id": 1490,
+      "company": "YG엔터테인먼트",
+      "position": "[4분기 정기채용] IT인프라팀 / 정보 보호 담당자 (경력)",
+      "category": "기타",
+      "career": "경력",
+      "location": "서울 마포구",
+      "deadline": "2026-11-23",
+      "url": "https://yg-entertainment.recruiter.co.kr/career/jobs/132909",
+      "source": "기타"
+    },
+    {
+      "id": 1491,
+      "company": "YG엔터테인먼트",
+      "position": "[4분기 정기채용] 총무팀 / 시설 유지 관리 및 총무 담당자 (경력)",
+      "category": "경영지원",
+      "career": "경력",
+      "location": "서울 마포구",
+      "deadline": "2026-11-23",
+      "url": "https://yg-entertainment.recruiter.co.kr/career/jobs/132911",
+      "source": "기타"
+    },
+    {
+      "id": 1492,
+      "company": "YG엔터테인먼트",
+      "position": "[4분기 정기채용] 자산지원팀 / 자산 관리 담당자 (경력)",
+      "category": "경영지원",
+      "career": "경력",
+      "location": "서울 마포구",
+      "deadline": "2026-11-23",
+      "url": "https://yg-entertainment.recruiter.co.kr/career/jobs/132913",
+      "source": "기타"
+    },
+    {
       "id": 1464,
       "company": "쓰리와이코프레이션",
       "position": "[쓰리와이코프레이션] 셀럽 개인채널 편집자 채용",
@@ -923,6 +923,17 @@
       "location": "서울 양천구 오목로 311 (목동) 6층(목동,초이랩빌딩)",
       "deadline": "2026-12-02",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50282056",
+      "source": "잡코리아"
+    },
+    {
+      "id": 1493,
+      "company": "초이크리에이티브랩",
+      "position": "현장 매니저-아티스트 일정관리 및 수행 업무",
+      "category": "매니지먼트",
+      "career": "경력",
+      "location": "서울 양천구 오목로 311 (목동) 6층(목동,초이랩빌딩)",
+      "deadline": "2026-12-04",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50300382",
       "source": "잡코리아"
     },
     {
@@ -1454,47 +1465,14 @@
       "source": "잡코리아"
     },
     {
-      "id": 1032,
-      "company": "JYP엔터테인먼트",
-      "position": "프로젝트 어시스턴트 (계약직)",
-      "category": "기타",
-      "career": "무관",
-      "location": "서울 강동구",
-      "deadline": "상시채용",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49716998",
-      "source": "잡코리아"
-    },
-    {
-      "id": 1033,
-      "company": "JYP엔터테인먼트",
-      "position": "Production",
-      "category": "기타",
+      "id": 1494,
+      "company": "미스틱엔터테인먼트(MYSTIC ENTERTAINMENT Inc.)",
+      "position": "(주)미스틱엔터테인먼트 Visual Creative 경력직 채용",
+      "category": "디자인",
       "career": "경력",
-      "location": "서울 강동구",
-      "deadline": "상시채용",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49716830",
-      "source": "잡코리아"
-    },
-    {
-      "id": 1034,
-      "company": "JYP엔터테인먼트",
-      "position": "배우 매니저",
-      "category": "기타",
-      "career": "경력",
-      "location": "서울 강동구",
-      "deadline": "상시채용",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49716650",
-      "source": "잡코리아"
-    },
-    {
-      "id": 1035,
-      "company": "JYP엔터테인먼트",
-      "position": "매니저",
-      "category": "기타",
-      "career": "경력",
-      "location": "서울 강동구",
-      "deadline": "상시채용",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49716404",
+      "location": "서울특별시 용산구 한남대로20길 41 (한남동) 1층~6층",
+      "deadline": "2027-01-02",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50297040",
       "source": "잡코리아"
     },
     {
@@ -3036,6 +3014,39 @@
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/242862",
       "source": "하이브"
+    },
+    {
+      "id": 1495,
+      "company": "HYBE HBS",
+      "position": "어카운트 매니저",
+      "category": "마케팅",
+      "career": "경력 10년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/243032",
+      "source": "하이브"
+    },
+    {
+      "id": 1496,
+      "company": "ADOR",
+      "position": "레이블 사업PM",
+      "category": "영업",
+      "career": "경력 5년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/242713",
+      "source": "하이브"
+    },
+    {
+      "id": 1497,
+      "company": "BIGHIT MUSIC",
+      "position": "글로벌 아티스트 전략 (BTS 담당)",
+      "category": "마케팅",
+      "career": "경력 2년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/227763",
+      "source": "하이브"
     }
   ],
   "categories": [
@@ -3051,5 +3062,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-11-03T09:37:11.955959"
+  "updatedAt": "2026-11-04T09:38:33.388499"
 }
