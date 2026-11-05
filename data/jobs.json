@@ -2,17 +2,6 @@
   "status": "success",
   "data": [
     {
-      "id": 1442,
-      "company": "더라이브레이블",
-      "position": "[THEL1VELABEL] 영상 담당자 채용",
-      "category": "영상",
-      "career": "경력",
-      "location": "서울 강남구",
-      "deadline": "2026-11-04",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55116045&location=ts&searchword=%EB%8D%94%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%A0%88%EC%9D%B4%EB%B8%94&searchType=search&paid_fl=n&search_uuid=4bfa31ad-2f4c-41e6-8579-1ae1009d9e40",
-      "source": "사람인"
-    },
-    {
       "id": 1319,
       "company": "그리드엔터테인먼트",
       "position": "매니지먼트",
@@ -1473,6 +1462,28 @@
       "location": "서울특별시 용산구 한남대로20길 41 (한남동) 1층~6층",
       "deadline": "2027-01-02",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50297040",
+      "source": "잡코리아"
+    },
+    {
+      "id": 1500,
+      "company": "판타지오",
+      "position": "[판타지오] 공연팀(운영/기획, 조연출) 직원 모집",
+      "category": "영업",
+      "career": "신입·경력",
+      "location": "서울 강남구 삼성로 648 (삼성동)",
+      "deadline": "2027-01-03",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50302819",
+      "source": "잡코리아"
+    },
+    {
+      "id": 1501,
+      "company": "판타지오",
+      "position": "[판타지오]광고사업부 직원(신입/경력) 모집",
+      "category": "마케팅",
+      "career": "신입·경력",
+      "location": "서울 강남구 삼성로 648 (삼성동)",
+      "deadline": "2027-01-03",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/50302758",
       "source": "잡코리아"
     },
     {
@@ -3047,6 +3058,39 @@
       "deadline": "상시채용",
       "url": "https://careers.hybecorp.com/ko/o/227763",
       "source": "하이브"
+    },
+    {
+      "id": 1502,
+      "company": "HYBE IPX",
+      "position": "CS 담당자",
+      "category": "영업",
+      "career": "경력 5년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/243317",
+      "source": "하이브"
+    },
+    {
+      "id": 1503,
+      "company": "HYBE HBS",
+      "position": "사업운영파트 사업기획·관리 (파트장)",
+      "category": "마케팅",
+      "career": "경력 10년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/243292",
+      "source": "하이브"
+    },
+    {
+      "id": 1504,
+      "company": "HYBE",
+      "position": "해외법무팀장(사내변호사)",
+      "category": "경영지원",
+      "career": "경력 10년 이상",
+      "location": "서울 용산구",
+      "deadline": "상시채용",
+      "url": "https://careers.hybecorp.com/ko/o/243246",
+      "source": "하이브"
     }
   ],
   "categories": [
@@ -3062,5 +3106,5 @@
     "해외사업",
     "기타"
   ],
-  "updatedAt": "2026-11-04T09:38:33.388499"
+  "updatedAt": "2026-11-05T09:38:19.293450"
 }
