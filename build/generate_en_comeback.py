@@ -325,7 +325,7 @@ def generate_en_comeback():
 
     # 4. Nav replacements & active link
     t = replace_once(t, 'route(\'home\')">SNS랭킹</a>', 'route(\'home\')">SNS Ranking</a>', "nav ranking en")
-    t = replace_once(t, '/monthly/2026-09/boys/">월간차트<', '/monthly/2026-09/boys/">Monthly Chart<', "nav monthly en")
+    t = replace_once(t, '/monthly/2026-10/boys/">월간차트<', '/monthly/2026-10/boys/">Monthly Chart<', "nav monthly en")
     t = replace_once(t, 'route(\'namu\')">나무위키<', 'route(\'namu\')">Profiles<', "nav namu en")
     t = replace_once(t, 'class="nav-link" href="/comeback" onclick="event.preventDefault(); route(\'comeback\')">컴백일정</a>',
                      'class="nav-link active" href="/en/comeback" onclick="event.preventDefault(); route(\'comeback\')">Comebacks</a>', "nav comeback en active")

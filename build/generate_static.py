@@ -783,7 +783,7 @@ def build_group_page_en(slug):
 
     # 3) 상단 네비게이션 라벨 영문화 + [🌐 한국어] 전환 토글 주입
     t = replace_once(t, 'route(\'home\')">SNS랭킹</a>', 'route(\'home\')">SNS Ranking</a>', "nav ranking en")
-    t = replace_once(t, '/monthly/2026-09/boys/">월간차트<', '/monthly/2026-09/boys/">Monthly Chart<', "nav monthly en")
+    t = replace_once(t, '/monthly/2026-10/boys/">월간차트<', '/monthly/2026-10/boys/">Monthly Chart<', "nav monthly en")
     t = replace_once(t, 'route(\'namu\')">나무위키<', 'route(\'namu\')">Profiles<', "nav namu en")
     t = replace_once(t, 'route(\'comeback\')">컴백일정</a>', 'route(\'comeback\')">Comebacks</a>', "nav comeback en")
     t = replace_once(t, 'route(\'news\')">엔터뉴스</a>', 'route(\'news\')">News</a>', "nav news en")

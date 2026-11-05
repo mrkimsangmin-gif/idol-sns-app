@@ -38,7 +38,7 @@ def build_en_home_and_news():
     
     # Nav labels
     t_home = replace_once(t_home, "route('home')\">SNS랭킹</a>", "route('home')\">SNS Ranking</a>", "nav ranking en")
-    t_home = replace_once(t_home, '/monthly/2026-09/boys/">월간차트<', '/monthly/2026-09/boys/">Monthly Chart<', "nav monthly en")
+    t_home = replace_once(t_home, '/monthly/2026-10/boys/">월간차트<', '/monthly/2026-10/boys/">Monthly Chart<', "nav monthly en")
     t_home = replace_once(t_home, "route('namu')\">나무위키<", "route('namu')\">Profiles<", "nav namu en")
     t_home = replace_once(t_home, "route('comeback')\">컴백일정</a>", "route('comeback')\">Comebacks</a>", "nav comeback en")
     t_home = replace_once(t_home, "route('news')\">엔터뉴스</a>", "route('news')\">News</a>", "nav news en")
