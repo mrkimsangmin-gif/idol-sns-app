@@ -52,16 +52,6 @@
       "category": "comeback_debut"
     },
     {
-      "id": "debut_art-525782_20260111",
-      "date": "2026-01-11",
-      "title": "오브더블루 (Debut)",
-      "slug": "art-525782",
-      "description": "JYP 신인 오브더블루, 내년 1월 11일 데뷔→프리미엄 이벤트 참여 방법 (기사: https://www.topstarnews.net/news/articleView.html?idxno=16275016)",
-      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16275016",
-      "category": "comeback_debut",
-      "source": "Verified News Partner"
-    },
-    {
       "id": "08jom8hg4sg9vo14m3ah1ec5fq@google.com",
       "date": "2026-01-12",
       "title": "알파드라이브원 (Comeback)",
@@ -1647,10 +1637,10 @@
       "source": "Verified News Partner"
     },
     {
-      "id": "comeback_art-6e1110_20261120",
+      "id": "comeback_enhypen_20261120",
       "date": "2026-11-20",
-      "title": "엔하이픈 (Comeback)",
-      "slug": "art-6e1110",
+      "title": "ENHYPEN (Comeback)",
+      "slug": "enhypen",
       "description": "엔하이픈, 꽃다발에 선물까지 준비했다…한밤중의 고백 (기사: https://www.tenasia.co.kr/article/2026111220344)",
       "url": "https://www.tenasia.co.kr/article/2026111220344",
       "category": "comeback_debut",
@@ -1663,6 +1653,16 @@
       "slug": "2xfe",
       "description": "일본 보이그룹 2xFE, 11월 23일 한국 데뷔 확정 (기사: https://www.topstarnews.net/news/articleView.html?idxno=16269544)",
       "url": "https://www.topstarnews.net/news/articleView.html?idxno=16269544",
+      "category": "comeback_debut",
+      "source": "Verified News Partner"
+    },
+    {
+      "id": "debut_art-525782_20270111",
+      "date": "2027-01-11",
+      "title": "오브더블루 (Debut)",
+      "slug": "art-525782",
+      "description": "JYP 신인 오브더블루, 내년 1월 11일 데뷔→프리미엄 이벤트 참여 방법 (기사: https://www.topstarnews.net/news/articleView.html?idxno=16275016)",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16275016",
       "category": "comeback_debut",
       "source": "Verified News Partner"
     }

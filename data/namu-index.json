@@ -1,7 +1,7 @@
 {
   "generated": "2026-11-04T22:45:20.563882+00:00",
   "version": 1,
-  "total": 206,
+  "total": 205,
   "groups": [
     {
       "name": "에스파",
@@ -3556,8 +3556,8 @@
       "name_en": "오브더블루",
       "slug": "art-525782",
       "gender": "남자",
-      "agency": "기획사 확인중",
-      "debut_year": "2026",
+      "agency": "JYP엔터테인먼트",
+      "debut_year": "2027",
       "members": [],
       "tags": [
         "남자 아이돌",
@@ -3570,21 +3570,6 @@
       "name": "2xFE",
       "name_en": "2xFE",
       "slug": "2xfe",
-      "gender": "남자",
-      "agency": "기획사 확인중",
-      "debut_year": "2026",
-      "members": [],
-      "tags": [
-        "남자 아이돌",
-        "신인",
-        "데뷔"
-      ],
-      "has_detail": false
-    },
-    {
-      "name": "엔하이픈",
-      "name_en": "엔하이픈",
-      "slug": "art-6e1110",
       "gender": "남자",
       "agency": "기획사 확인중",
       "debut_year": "2026",

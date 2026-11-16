@@ -55,6 +55,10 @@ ARTIST_ALIASES = {
     "롱샷": ("롱샷", "lngshot", "남자"),
     "lngshot": ("롱샷", "lngshot", "남자"),
 
+    # ENHYPEN
+    "엔하이픈": ("ENHYPEN", "enhypen", "남자"),
+    "enhypen": ("ENHYPEN", "enhypen", "남자"),
+
     # 솔로
     "규현": ("규현", "kyuhyun", "남자"),
     "홍이삭": ("홍이삭", "hong-isaac", "남자"),
