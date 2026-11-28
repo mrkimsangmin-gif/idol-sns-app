@@ -134,14 +134,20 @@ def parse_schedule_candidates(articles: list[dict]) -> list[dict]:
         if any(ign in t for ign in NOISE_KEYWORDS):
             continue
 
-        # 날짜 추출 (M월 D일)
-        m_date = re.search(r'(1[0-2]|[1-9])월\s*(\d{1,2})일', t)
+        # 날짜 추출 (YYYY년 M월 D일 또는 M월 D일 + '내년'/연말->연초 보정)
+        m_date = re.search(r'(?:(20\d{2})년\s*)?(1[0-2]|[1-9])월\s*(\d{1,2})일', t)
         if not m_date:
             continue
 
-        month = int(m_date.group(1))
-        day = int(m_date.group(2))
-        year = datetime.now().year
+        now = datetime.now()
+        month = int(m_date.group(2))
+        day = int(m_date.group(3))
+        if m_date.group(1):
+            year = int(m_date.group(1))
+        elif "내년" in t or (now.month >= 10 and month <= 3):
+            year = now.year + 1
+        else:
+            year = now.year
         d_str = f"{year}-{month:02d}-{day:02d}"
 
         # 아티스트 후보 추출 정규식
