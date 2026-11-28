@@ -3580,6 +3580,17 @@
         "데뷔"
       ],
       "has_detail": false
+    },
+    {
+      "name": "티네이저",
+      "name_en": "TNAGR",
+      "slug": "tnagr",
+      "gender": "남자",
+      "agency": "위엔터테인먼트",
+      "debut_year": "2026",
+      "album_count": 1,
+      "member_count": 7,
+      "members": []
     }
   ]
 }
